@@ -1,0 +1,59 @@
+{
+  "type":"object",
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "id": "http://jsonschema.net",
+  "$ref": "http://localhost/plugins/content/component/model.schema",
+  "properties":{
+    "_supportedLayout": {
+      "type": "string",
+      "required": true,
+      "enum": ["full-width", "half-width", "both"],
+      "default": "half-width",
+      "editorOnly": true
+    },
+    "instruction": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "inputType": "Text",
+      "validators": [],
+      "help": "This is the instruction text"
+    },
+    "_items": {
+      "type":"array",
+      "required":true,
+      "title":"Items",
+      "items": {
+        "type":"object",
+        "required":true,
+        "properties":{
+          "title": {
+            "type":"string",
+            "required":true,
+            "inputType": "Text",
+            "title": "Item Title",
+            "default": "",
+            "validators": ["required"],
+            "help": "This is the item title"
+          },
+          "body": {
+            "type":"string",
+            "required":true,
+            "inputType": "TextArea",
+            "title": "Item Body",
+            "default": "",
+            "validators": ["required"],
+            "help": "This is the item body text that is hidden until the item title is clicked on"
+          },
+          "alt": {
+            "type":"string",
+            "required":false,
+            "inputType": "Text",
+            "default": "",
+            "validators": []
+          }
+        }
+      }
+    }
+  }
+}

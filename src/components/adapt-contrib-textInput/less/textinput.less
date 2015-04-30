@@ -1,0 +1,84 @@
+.textinput-component {
+    .textinput-item {
+        background-color: @item-color;
+        padding: @item-padding;
+        position:relative;
+        border:@item-border;
+        margin-bottom:2px;
+    }
+    label{
+        background-color: transparent;
+        line-height: 32px;
+        padding: 0px;
+        float: left;
+        text-align: center;
+        cursor: default;
+        color: @item-text-color;
+    }
+    .textinput-item-prefix {
+        width:20%;
+    }
+    .textinput-item-textbox {
+        padding: 0 5px;
+        width: 54%;
+        float: left;
+        height: 26px;
+        &.textinput-validation-error {
+            border: 2px solid @validation-error-border-color;
+        }
+    }
+    .textinput-item-suffix {
+        width:10%;
+    }
+    
+    .textinput-widget {
+        &.submitted {
+            .textinput-item {
+                background-color: @item-disabled-color;
+            }
+        }
+    
+        &.user {
+            .incorrect {
+                .textinput-incorrect-icon {
+                    display: block;
+                }
+            }
+            .correct {
+                .textinput-correct-icon {
+                    display: block;
+                }
+            }
+        }
+        
+        &.model {
+            .textinput-select-icon {
+                display: none;
+            }
+            .textinput-correct-icon {
+                display: block;
+            }
+        }
+    }
+
+    .textinput-item-state {
+        background: none;
+        position: absolute;
+        right: (@icon-size/2);
+        width: @icon-size;
+        height: @icon-size;
+        top: 50%;
+        margin-top: -(@icon-size/2);
+        z-index: 0;
+    }
+
+    .textinput-correct-icon {
+        color: @icon-correct-color;
+        display: none;
+    }
+
+    .textinput-incorrect-icon {
+        color: @icon-incorrect-color;
+        display: none;
+    }
+}

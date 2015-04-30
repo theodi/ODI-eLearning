@@ -1,0 +1,140 @@
+.matching-component {
+
+  .matching-item {
+    border-bottom: 1px solid @foreground-color;
+    margin-bottom: @item-padding-bottom;
+    padding-bottom: @item-padding-bottom;
+  }
+
+  .matching-item-title {
+    margin-bottom: @item-spacing;
+  }
+
+  .matching-select-container {
+    position: relative;
+    width: 300px;
+    overflow: hidden;
+    background-color: @item-color;
+
+    @media all and (max-width:760px) {
+      width:100%;
+    }
+  }
+
+  .matching-select-icon {
+    color: @item-text-color;
+  }
+
+  .matching-correct-icon {
+    color: @icon-correct-color;
+    display: none;
+  }
+
+  .matching-incorrect-icon {
+    color: @icon-incorrect-color;
+    display: none;
+  }
+
+
+  .matching-select {
+    position: relative;
+    width: 320px;
+    border: none;
+    background: transparent;
+    padding: @item-padding-top 0px @item-padding-bottom @item-padding-left;
+    cursor: pointer;
+    color: @item-text-color;
+
+    @media all and (max-width:760px) and (min-width:520px) {
+        width:105%;
+    }
+      
+    @media all and (max-width:519px) {
+       width:110%;
+    }
+
+    &:focus {
+      background-color: @item-selected-color;
+    }
+  }
+
+  .matching-select-state {
+    background: none;
+    position: absolute;
+    right: 10px;
+    width: @icon-size;
+    height: @icon-size;
+    top: 50%;
+    margin-top: -(@icon-size/2);
+    z-index: 0;
+  }
+
+  .matching-widget {
+
+    &.submitted {
+      .matching-select {
+        cursor: default
+      }
+      .matching-select-container {
+        background-color: @item-disabled-color;
+      }
+    }
+
+    &.user {
+      .matching-select-icon {
+        display: none;
+      }
+      .incorrect {
+        .matching-incorrect-icon {
+          display: block;
+        }
+      }
+      .correct {
+        .matching-correct-icon {
+          display: block;
+        }
+      }
+    }
+
+    &.model {
+      .matching-select-icon {
+        display: none;
+      }
+      .matching-correct-icon {
+        display: block;
+      }
+    }
+
+  }
+
+}
+
+.no-touch {
+  .matching-select-icon {
+    &:hover {
+      color: @item-text-hover-color;
+    }
+  }
+  .matching-select-container {
+    &:hover {
+      color: @button-text-hover-color;
+      background-color: @item-hover-color;
+    }
+  }
+}
+
+.ie8 {
+  .matching-select-container {
+    &.disabled {
+      background-color: @item-disabled-color;
+    }
+  }
+}
+
+
+//*IE FIX FOR DISABLED ITEMS
+.matching-component {
+  select[disabled]::-ms-value{
+      color: @item-text-color;
+  }
+}

@@ -1,0 +1,45 @@
+{
+    "_id":"c-110",
+    "_parentId":"b-55",
+    "_type":"component",
+    "_component":"slider",
+    "_classes":"",
+    "_layout":"right",
+    "title": "Slider type component",
+    "displayTitle":"Slider type component",
+    "body":"Question text here",
+    "instruction": "",
+    "_attempts": 2,
+    "_questionWeight":1,
+    "_showNumber": true,
+    "_showScaleIndicator": true,
+    "labelStart": "incomplete",
+    "labelEnd": "complete",
+    "_scaleStart": 1,
+    "_scaleEnd": 10,
+    "_correctAnswer": "",
+    "_correctRange": {
+        "_bottom": 4,
+        "_top": 9
+    },
+    "_buttons": {
+        "submit": "",
+        "reset": "",
+        "showCorrectAnswer": "",
+        "hideCorrectAnswer": ""
+    },
+    "_feedback": {
+        "correct": "This feedback will appear if you answered the question correctly.",
+        "_incorrect": {
+            "notFinal": "",
+            "final": "This feedback will appear if you answered the question incorrectly."
+        },
+        "_partlyCorrect": {
+            "notFinal": "",
+            "final": "This feedback will appear if you answered part of the question correctly."
+        }
+    },
+    "_pageLevelProgress": {
+        "_isEnabled": true
+    }
+}

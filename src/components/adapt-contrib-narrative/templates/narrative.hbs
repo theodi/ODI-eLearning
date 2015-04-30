@@ -1,0 +1,77 @@
+{{! Maintainers - Brian Quinn}}
+<div class="narrative-inner component-inner">
+    {{> component this}}
+    <div class="narrative-widget component-widget {{#if _hasNavigationInTextArea}}narrative-text-controls{{/if}}">
+        
+        <div class="narrative-strapline">
+            <div class="narrative-strapline-header">
+                <div class="narrative-strapline-header-inner clearfix">
+                    {{#each _items}}
+                    <div class="narrative-strapline-title">
+                        <h5 class="narrative-strapline-title-inner">
+                           {{{strapline}}} 
+                        </h5>
+                    </div>
+                    {{/each}}
+                </div>
+            </div>
+            <a href="#" class="narrative-popup-open" tabindex="-1">
+                <div class="icon icon-plus"></div>
+            </a>
+        </div>
+        
+        <div class="narrative-slide-container">
+  
+            <a href="#" class="narrative-controls narrative-control-left">
+                <div class="icon icon-controls-left"></div>
+            </a>
+            <a href="#" class="narrative-controls narrative-control-right">
+                <div class="icon icon-controls-right"></div>
+            </a>
+            
+            <div class="narrative-slider clearfix">
+                {{#each _items}}
+                <div class="narrative-slider-graphic {{#if visited}}visited{{/if}}">
+                    <img src="{{_graphic.src}}" alt="{{_graphic.alt}}" title="{{{_graphic.title}}}"/>
+                </div>
+                {{/each}}
+            </div>
+            <div class="narrative-indicators">
+                {{#each _items}}
+                <div class="narrative-progress component-item-color component-item-border"></div>
+                {{/each}}
+            </div>
+        </div>
+
+        <div class="narrative-content">
+            <div class="narrative-content-inner">
+                <a href="#" class="narrative-controls narrative-control-left">
+                    <div class="icon icon-controls-left"></div>
+                </a>
+                <div class="narrative-indicators">
+                    {{#each _items}}
+                    <div class="narrative-progress component-item-color component-item-border"></div>
+                    {{/each}}
+                </div>
+                <a href="#" class="narrative-controls narrative-control-right">
+                    <div class="icon icon-controls-right"></div>
+                </a>
+                {{#each _items}}
+                <div class="narrative-content-item">
+                    <div class="narrative-content-title">
+                        <h5 class="narrative-content-title-inner">
+                           {{{title}}} 
+                        </h5>
+                    </div>
+                    <div class="narrative-content-body">
+                        <div class="narrative-content-body-inner">
+                            {{{body}}}
+                        </div> 
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+        </div>
+
+    </div>    
+</div>

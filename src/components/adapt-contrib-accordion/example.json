@@ -1,0 +1,29 @@
+{
+  "_id":"c-30",
+  "_parentId":"b-05",
+  "_type":"component",
+  "_component":"accordion",
+  "_classes":"",
+  "_layout":"left",
+  "title": "Accordion",
+  "displayTitle": "Accordion",
+  "body": "This is optional body text. Select the headings below to reveal the text.",
+  "instruction": "",
+  "_items": [
+    {
+      "alt": "Heading 1",
+      "title": "Heading 1",
+      "body": "This is display text 1."
+    },
+    {
+      "alt": "Heading 2",
+      "title": "Heading 2",
+      "body": "This is display text 2."
+    },
+    {
+      "alt": "Heading 3",
+      "title": "Heading 3",
+      "body": "This is display text 3."
+    }
+  ]
+}

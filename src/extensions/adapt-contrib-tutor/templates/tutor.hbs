@@ -1,0 +1,24 @@
+{{! Maintainers - Kevin Corry, Daryl Hedley}}
+<div class="tutor">
+    <div class="tutor-toolbar">
+        <a href="#" class="tutor-done">
+            <div class="tutor-icon-close icon icon-cross"></div>
+        </a>
+    </div>
+    <div class="tutor-content">
+        <div class="tutor-inner">
+                {{#if feedbackTitle}}
+                <div class="tutor-title">
+                    <h5 class="tutor-title-inner">
+                    {{{feedbackTitle}}}
+                    </h5>
+                </div>
+                {{/if}}
+            <div class="tutor-body">
+                <div class="tutor-body-inner">{{{feedbackMessage}}}</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="tutor-shadow"></div>

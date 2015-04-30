@@ -1,0 +1,183 @@
+{
+  "type":"object",
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "id": "http://jsonschema.net",
+  "$ref": "http://localhost/plugins/content/component/model.schema",
+  "properties":{
+    "_supportedLayout": {
+      "type": "string",
+      "required": true,
+      "enum": ["full-width", "half-width", "both"],
+      "default": "full-width",
+      "editorOnly": true
+    },
+    "instruction": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "inputType": "Text",
+      "validators": [],
+      "help": "This is the instruction text"
+    },
+    "_graphic": {
+      "type":"object",
+      "required":false,
+      "title": "Background Title",
+      "properties":{
+        "src": {
+          "type":"string",
+          "required":true,
+          "default": "",
+          "inputType": "Asset:image",
+          "validators": ["required"],
+          "help": "This is the image that appears behind the pins"
+        },
+        "alt": {
+          "type":"string",
+          "required":false,
+          "default": "",
+          "inputType": "Text",
+          "validators": [],
+          "help": "Alternative text for this image"
+        }
+      }
+    },
+    "mobileBody": {
+      "type":"string",
+      "required":false,
+      "default": "",
+      "inputType": "TextArea",
+      "validators": [],
+      "help": "This body text is displayed on mobile devices when this component turns into a Narrative"
+    },
+    "_hidePagination": {
+      "type":"boolean",
+      "required":true,
+      "default": false,
+      "title": "Hide pagination",
+      "inputType": {"type": "Boolean", "options": [true, false]},
+      "validators": [],
+      "help": "If set to 'true', the progress indicator and previous and next links will not be shown on the popup toolbar"
+    },
+    "_canCycleThroughPagination": {
+      "type":"boolean",
+      "required":true,
+      "default": false,
+      "title": "Cycle through item pagination",
+      "inputType": {"type": "Boolean", "options": [false, true]},
+      "validators": [],
+      "help": "If set to 'true', the items in the open up with be allowed to cycle through continiously"
+    },
+    "_useGraphicsAsPins": {
+      "type":"boolean",
+      "required":true,
+      "default": false,
+      "title": "Use graphics as pins",
+      "inputType": {"type": "Boolean", "options": [true, false]},
+      "validators": [],
+      "help": "If set to 'true', the main graphic will be hidden and pins will be displayed as images which can be positioned using classes"
+    },
+    "_items": {
+      "type":"array",
+      "required":true,
+      "title": "Hot Graphic Pins",
+      "items": {
+        "type":"object",
+        "required":true,
+        "properties":{
+          "title": {
+            "type":"string",
+            "required":true,
+            "default": "",
+            "inputType": "Text",
+            "validators": [],
+            "help": "Title displayed in the popup"
+          },
+          "body": {
+            "type":"string",
+            "required":true,
+            "default": "",
+            "inputType": "TextArea",
+            "validators": ["required"],
+            "help": "Body text displayed in the popup"
+          },
+          "strapline": {
+            "type":"string",
+            "required":true,
+            "default": "",
+            "inputType": "Text",
+            "validators": ["required"],
+            "help": "Strapline displayed on mobile version"
+          },
+          "_graphic": {
+            "type":"object",
+            "required":true,
+            "title": "Item Graphic",
+            "properties":{
+              "src": {
+                "type":"string",
+                "required":true,
+                "default": "",
+                "inputType": "Asset:image",
+                "validators": ["required"],
+                "help": "Image displayed in the popup"
+              },
+              "alt": {
+                "type":"string",
+                "required":false,
+                "default": "",
+                "inputType": "Text",
+                "validators": [],
+                "help": "Alternative text for this image"
+              },
+              "title": {
+                "type":"string",
+                "required":true,
+                "default": "",
+                "inputType": "Text",
+                "validators": [],
+                "help": "Title text for this image"
+              },
+              "_classes": {
+                "type":"string",
+                "required": false,
+                "default": "",
+                "title": "Classes",
+                "inputType": "Text",
+                "validators": [],
+                "help": ""
+              }
+            }
+          },
+          "_classes": {
+            "type":"string",
+            "required": false,
+            "default": "",
+            "title": "Classes",
+            "inputType": "Text",
+            "validators": [],
+            "help": ""
+          },
+          "_left": {
+            "type":"number",
+            "required":true,
+            "default":0,
+            "title": "Pin Position - Left",
+            "inputType": "Number",
+            "validators": ["required", "number"],
+            "help": "Left position of pin"
+          },
+          "_top": {
+            "type":"number",
+            "required":true,
+            "default":0,
+            "title": "Pin Position - Top",
+            "inputType": "Number",
+            "validators": ["required", "number"],
+            "help": "Top position of pin"
+          }
+        }
+      }
+    }
+  }
+}

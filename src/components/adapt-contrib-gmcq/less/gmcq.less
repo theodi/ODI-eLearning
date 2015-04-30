@@ -1,0 +1,165 @@
+.gmcq-component {
+
+    .gmcq-item {
+        position: relative;
+        width:50%;
+        margin-bottom:8px;
+        float:left;
+
+        &.even{
+            label{
+                margin-left:5%;
+            }
+        }
+
+        &.odd{
+            clear: both;
+        
+            label{
+                margin-right:5%;
+            }
+        }   
+
+        @media all and (max-width:760px) {
+            width:100%;
+            &.even, &.odd{
+                label{
+                    margin-left:0%;
+                    margin-right:0%;
+                }
+            }
+        }
+    }
+
+    .gmcq-item label {            
+        color:@item-text-color;
+        display:block;
+        border:@item-border;
+        margin-bottom:2px;
+        position:relative;
+        z-index:1;
+        background-color: @item-color;
+        overflow: hidden;
+
+        img{
+            vertical-align: bottom;
+        }
+
+        .gmcq-answer-icon{
+            color: @item-text-color;
+            &:before {
+                content: "\e65e";
+            }
+        } 
+
+        &.selected {            
+            color:@item-text-selected-color;
+            background-color:@item-selected-color;
+            .gmcq-answer-icon{
+                &:before {
+                    content: "\e65d";
+                }
+            }
+        }        
+    }
+
+    .gmcq-item-inner {
+        padding:14px;
+        margin-left:38px;
+        padding-top:19px;
+    }
+
+    .gmcq-item input {
+        position:absolute;
+        top:14px;
+        left:25px;
+    }
+
+    .gmcq-item-checkbox{
+        position: relative;
+    }
+
+    .gmcq-item-state {
+        background: none;
+        position: absolute;
+        left: 10px;
+        width: @icon-size;
+        height: @icon-size;
+        top: 50%;
+        margin-top: -(@icon-size/2);
+        z-index: 0;
+    }
+
+    .gmcq-correct-icon {
+        color: @icon-correct-color;
+        display: none;
+    }
+
+    .gmcq-incorrect-icon {
+        color: @icon-incorrect-color;
+        display: none;
+    }
+
+    .button {
+        clear: both;
+        float:left;
+    }
+
+    .gmcq-widget {
+
+        &.user {
+            .gmcq-item-icon {
+                display: none;
+            }
+            .incorrect {
+                .selected .gmcq-incorrect-icon {
+                    display: block;
+                }
+            }
+            .correct {
+                .selected .gmcq-correct-icon {
+                    display: block;
+                }
+            }
+        }
+
+        &.model {
+            .gmcq-item-icon {
+                display: none;
+            }
+            .selected .gmcq-correct-icon {
+                display: block;
+            }
+        }
+
+        &.disabled {
+            .gmcq-item label.selected {
+                background-color:@item-selected-color;
+            }
+
+            .gmcq-item.correct .selected .state {
+                color:@icon-correct-color;
+            }
+
+            .gmcq-item.incorrect .selected .state {
+                color:@icon-incorrect-color;
+            }
+        }
+
+    }
+}
+
+.no-touch {
+
+    .gmcq-component {
+
+        .gmcq-widget {
+            &:not(.disabled) {
+                .gmcq-item label:hover {
+                    color:@item-text-hover-color;
+                    background-color:@item-hover-color;
+                }
+            }
+        }
+    }
+}

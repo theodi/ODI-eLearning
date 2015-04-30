@@ -1,0 +1,22 @@
+<div class="accordion-inner component-inner">
+    {{> component this}}
+    <div class="accordion-widget component-widget">
+        {{#each _items}}
+        <div class="accordion-item">
+            <a href="#" class="accordion-item-title {{#if _isVisited}}visited{{/if}}" title="{{alt}}">
+              <div class="accordion-item-title-inner">
+                <div class="accordion-item-title-icon icon icon-plus"></div>
+                  <h5>
+                      {{{title}}}
+                  </h5>
+              </div>
+            </a>
+            <div class="accordion-item-body">
+                <div class="accordion-item-body-inner">
+                    {{{body}}}
+                </div>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+</div>

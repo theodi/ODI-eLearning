@@ -1,0 +1,35 @@
+<div class="slider-inner component-inner">
+    {{> component this}}
+    <div class="slider-widget component-widget {{#unless _isEnabled}} disabled {{#if _isComplete}} complete submitted user {{#if _isCorrect}}correct{{/if}} {{/if}} {{/unless}}">
+        <div class="slider-holder clearfix">
+            <div class="slider-scale-labels">
+                <div class="slider-scale-start">{{labelStart}}</div>
+                <div class="slider-scale-end">{{labelEnd}}</div>
+            </div>
+            <div class="slider-scaler component-item-color">
+                <div class="slider-modelranges"></div>
+                <div class="slider-markers"></div>
+                <div class="slider-answer component-item-color component-item-text-color"></div>
+                <div class="slider-scale-marker component-item-color component-item-text-color"></div>
+            </div>
+            <div class="slider-background">
+                <div class="slider-item component-item {{#unless _isEnabled}}{{#if correct}}correct{{else}}incorrect{{/if}}{{/unless}}">
+                    <div class="slider-sliderange">
+                        <a href="#" class="slider-handle component-item-color component-item-text-color"></a>
+                        <div class="slider-bar component-item-color"></div>
+                    </div>
+                    <div class="slider-outer-bar">
+                    <div class="slider-item-state">
+                        <div class="slider-icon slider-correct-icon icon icon-tick"></div>
+                        <div class="slider-icon slider-incorrect-icon icon icon-cross"></div>
+                    </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="buttons">
+            {{> buttons this}}
+        </div>
+    </div>
+</div>

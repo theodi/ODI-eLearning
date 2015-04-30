@@ -1,0 +1,24 @@
+<div class="menu-item-inner">
+	<div class="menu-graphic">
+		<a href="#/id/{{_id}}" class="{{#if _isVisited}}visited{{/if}}">
+			<img src="{{_graphic.src}}" alt="{{_graphic.alt}}" />
+		</a>
+	</div>
+	<div class="menu-item-title">
+		<h2 class="menu-item-title-inner">{{{displayTitle}}}</h2>
+	</div>
+	<div class="menu-item-body">
+		<div class="menu-item-body-inner">{{{body}}}</div>
+	</div>
+	<div class="menu-item-button">
+		<a href="#/id/{{_id}}" class="{{#if _isVisited}}visited{{/if}}">
+			{{{linkText}}}
+		</a>
+		<span class="menu-item-duration">Duration: {{{duration}}}</span>
+	</div>
+	<div class="menu-item-progress">
+		<div class="menu-item-progress-indicator">
+			<div class="menu-item-progress-indicator-bar" style="width:{{completedChildrenAsPercentage}}%"></div>
+		</div>
+	</div>
+</div>

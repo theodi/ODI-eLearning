@@ -1,0 +1,64 @@
+.accordion-component {
+
+  .accordion-item {
+    margin-bottom: @item-spacing;
+  }
+
+  .accordion-item-title-icon {
+    position: absolute;
+    top: 50%;
+    left: @item-padding-left;
+    margin-top: -(@icon-size/2);
+    color:@item-text-color;
+  }
+
+  .accordion-item-title {
+    display: block;
+    position: relative;
+    padding: @item-padding;
+    padding-left:(@icon-size+(@item-padding-left*2));
+    color: @item-text-color;
+    background-color: @item-color;
+    text-decoration: none;
+    border:@item-border;
+
+    &.visited {
+      color:@item-text-visited-color;
+      background-color: @item-visited-color;
+      border-color:@item-border-visited-color;
+    }
+
+    &.selected {
+      color:@item-text-visited-color;
+      background-color: @item-visited-color;
+      border-color:@item-border-selected-color;
+    }
+    .no-touch & {
+      &:hover {
+        color:@item-text-hover-color;
+        background-color: @item-hover-color;
+        border-color:@item-border-hover-color;
+      }
+      &.visited:hover {
+        color:@item-text-visited-color;
+        background-color: @item-visited-color;
+        border-color:@item-border-visited-color;
+      }
+    }
+    
+  }
+  
+  .accordion-item-body {
+    color:@foreground-color;
+    background-color:@background-color;
+    display: none;
+    border-right: @item-border;
+    border-left: @item-border;
+    border-bottom: @item-border;
+  }
+
+  .accordion-item-body-inner {
+    padding: @item-padding;
+  }
+
+}

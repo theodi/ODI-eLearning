@@ -1,0 +1,35 @@
+{
+  "name": "adapt-contrib-boxMenu",
+  "version": "1.1.1",
+  "homepage": "https://github.com/adaptlearning/adapt-contrib-boxmenu",
+  "authors": [
+    "Daryl Hedley <darylhedley@hotmail.com>"
+  ],
+  "displayName": "Box menu",
+  "menu": "boxmenu",
+  "description": "A core bundled menu",
+  "main": "js/adapt-contrib-boxmenu.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-menu"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "targetAttribute": "_boxMenu",
+  "_release": "1.1.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.1.1",
+    "commit": "5a211063efceb78416bad457fabef52749d84366"
+  },
+  "_source": "git://github.com/adaptlearning/adapt-contrib-boxmenu.git",
+  "_target": "~1.1.1",
+  "_originalSource": "adapt-contrib-boxMenu",
+  "_direct": true
+}

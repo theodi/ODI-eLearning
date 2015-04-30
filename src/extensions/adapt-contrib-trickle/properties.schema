@@ -1,0 +1,80 @@
+{
+  "type":"object",
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "id": "http://jsonschema.net",
+  "required":false,
+  "properties":{
+    "pluginLocations": {
+      "type":"object",
+      "required":true,
+      "properties":{
+        "config": {
+          "type":"object"
+        },
+        "course": {
+          "type":"object"
+        },
+        "contentobject": {
+          "type":"object"
+        },
+        "article": {
+          "type":"object",
+          "properties":{
+            "_trickle": {
+              "type":"object",
+              "required":false,
+              "legend": "Trickle",
+              "properties":{
+                "_isEnabled": {
+                  "type":"boolean",
+                  "required":false,
+                  "title": "Enabled",
+                  "inputType": { "type": "Boolean", "options": [false, true]},
+                  "validators": []
+                },
+                "button": {
+                  "type":"string",
+                  "required":false,
+                  "title": "Button text",
+                  "inputType": "Text",
+                  "default": "Click here to continue",
+                  "validators": []
+                }
+              }
+            }
+          }
+        },
+        "block": {
+          "type":"object",
+          "properties":{
+            "_trickle": {
+              "type":"object",
+              "required":false,
+              "legend": "Trickle",
+              "properties":{
+                "_isEnabled": {
+                  "type":"boolean",
+                  "required":false,
+                  "title": "Enabled",
+                  "inputType": { "type": "Boolean", "options": [false, true]},
+                  "validators": []
+                },
+                "button": {
+                  "type":"string",
+                  "required":false,
+                  "title": "Button text",
+                  "inputType": "Text",
+                  "default": "Click here to continue",
+                  "validators": []
+                }
+              }
+            }
+          }
+        },
+        "component": {
+          "type":"object"
+        }
+      }
+    }
+  }
+}

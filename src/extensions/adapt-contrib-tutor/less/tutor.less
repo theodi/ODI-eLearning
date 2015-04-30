@@ -1,0 +1,77 @@
+.extension-tutor {
+
+    .tutor {
+        position: fixed;
+        top: 50%;
+        width:100%;
+        background-color: @inverted-background-color;
+        color: @inverted-foreground-color;
+        z-index: 550;
+        .ie8 & {
+            left:0px;
+        }
+        a {
+            outline: none;
+            text-decoration: none;
+        }
+    }
+
+    .tutor-content {
+        .responsive-layout
+        .ie8 & {
+            max-width: @ie8-max-width;
+            margin:0 auto;
+        }
+    }
+
+    .tutor-inner {
+        padding: @item-padding;
+        padding-bottom: (@navigation-padding*2);
+    }
+
+    .tutor-toolbar {
+        text-align:right;
+    }
+
+    .tutor-done {
+        padding-top:@navigation-padding;
+        padding-right:@navigation-padding;
+        display:inline-block;
+    }
+
+    .tutor-icon-close {
+        color: @inverted-foreground-color;
+    }
+
+    .tutor-shadow {
+        display: none;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        z-index: 549;
+        .no-opacity & {
+                background-image:@transparency-fallback-png;
+        }
+        background-color: @transparency;
+        
+    }
+}
+
+.no-touch {
+    .extension-tutor {
+        .tutor {
+            .tutor-icon-close {
+                &:hover{
+                    color: @item-hover-color;
+                }
+            }
+            .tutor-icon {
+                &:hover{
+                    color: @item-hover-color;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,49 @@
+{
+  "type":"object",
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "id": "http://jsonschema.net",
+  "required":false,
+  "properties":{
+    "pluginLocations": {
+      "type":"object",
+      "required":true,
+      "properties":{
+        "config": {
+          "type":"object",
+          "properties":{
+            "_tutor": {
+              "type":"object",
+              "required":false,
+              "legend": "Tutor",
+              "properties": {
+                "_isEnabled": {
+                  "type":"boolean",
+                  "required":true,
+                  "title":"Is Enabled",
+                  "inputType": {"type": "Boolean", "options": [true, false]},
+                  "validators": [],
+                  "help": "If set to 'true', this course will use Tutor as the default feedback popup"
+                }
+              }
+            }
+          }
+        },
+        "course": {
+          "type":"object"
+        },
+        "contentobject": {
+          "type":"object"
+        },
+        "article": {
+          "type":"object"
+        },
+        "block": {
+          "type":"object"
+        },
+        "component": {
+          "type":"object"
+        }
+      }
+    }
+  }
+}

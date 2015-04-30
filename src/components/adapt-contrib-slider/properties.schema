@@ -1,0 +1,203 @@
+{
+  "type":"object",
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "id": "http://jsonschema.net",
+  "$ref": "http://localhost/plugins/content/component/model.schema",
+  "properties":{
+    "instruction": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "inputType": "Text",
+      "validators": [],
+      "help": "This is the instruction text"
+    },
+    "_attempts": {
+      "type":"number",
+      "required":true,
+      "default":1,
+      "title": "Attempts",
+      "inputType":"Number",
+      "validators": ["required", "number"],
+      "help": "How many attempts the learner is allow"
+    },
+    "_questionWeight": {
+      "type":"number",
+      "required":false,
+      "default": 1,
+      "title": "Question Weight",
+      "inputType": "Number",
+      "validators": ["number"],
+      "help": "How much this question is worth"
+    },
+    "_scaleStart": {
+      "type":"number",
+      "required":true,
+      "default": 1,
+      "title": "Scale Start",
+      "inputType": "Number",
+      "validators": ["required", "number"],
+      "help": "What number the scale should start on"
+    },
+    "_scaleEnd": {
+      "type":"number",
+      "required":true,
+      "default": 1,
+      "title": "Scale End",
+      "inputType": "Number",
+      "validators": ["required", "number"],
+      "help": "What number the scale should end on"
+    },
+    "_correctAnswer": {
+      "type":"number",
+      "default": 1,
+      "title": "Correct Answer",
+      "inputType": "Number",
+      "validators": ["required", "number"],
+      "help": "Correct answer on the scale"
+    },
+    "_correctRange": {
+      "type":"object",
+      "properties":{
+        "_bottom": {
+          "type":"number",
+          "default": 1,
+          "title": "Correct Range - Bottom",
+          "inputType": "Number",
+          "validators": ["number"],
+          "help": "Correct bottom range answer on the scale"
+        },
+        "_top": {
+          "type":"number",
+          "default": 1,
+          "title": "Correct Range - Top",
+          "inputType": "Number",
+          "validators": ["number"],
+          "help": "Correct top range answer on the scale"
+        }
+      }
+    },
+    "_showNumber": {
+      "type":"boolean",
+      "required":true,
+      "default": true,
+      "title": "Show numbers on scale",
+      "inputType": {"type": "Boolean", "options": [true, false]},
+      "validators": [],
+      "help": "Select 'true' to show the numbers along the scale"
+    },
+    "_showScaleIndicator": {
+      "type":"boolean",
+      "required":true,
+      "default": true,
+      "title": "Show scale indicators",
+      "inputType": {"type": "Boolean", "options": [true, false]},
+      "validators": [],
+      "help": "Select 'true' to show the lines along the scale"
+    },
+    "_feedback": {
+      "type":"object",
+      "required":true,
+      "title": "Feedback",
+      "properties":{
+        "correct": {
+          "type":"string",
+          "required":true,
+          "default": "",
+          "title": "Correct",
+          "inputType": "TextArea",
+          "validators": ["required"],
+          "help": "Correct feedback for this question"
+        },
+        "_incorrect": {
+          "type":"object",
+          "required":true,
+          "title": "Incorrect Feedback",
+          "properties":{
+            "final": {
+              "type":"string",
+              "required": true,
+              "default": "",
+              "title": "Incorrect Final",
+              "inputType": "TextArea",
+              "validators": ["required"],
+              "help": "Incorrect feedback for the final attempt"
+            },
+            "notFinal": {
+              "type":"string",
+              "required": true,
+              "default": "",
+              "title": "Incorrect Not Final",
+              "inputType": "TextArea",
+              "validators": ["required"],
+              "help": "Incorrect feedback for any attempt apart from the last attempt"
+            }
+          }
+        },
+        "_partlyCorrect": {
+          "type":"object",
+          "required":true,
+          "properties":{
+            "final": {
+              "type":"string",
+              "required": true,
+              "default": "",
+              "title": "Partly Correct Final",
+              "inputType": "TextArea",
+              "validators": ["required"],
+              "help": "Partly correct feedback for the final attempt"
+            },
+            "notFinal": {
+              "type":"string",
+              "required": true,
+              "default": "",
+              "title": "Partly Correct Not Final",
+              "inputType": "TextArea",
+              "validators": ["required"],
+              "help": "Partly correct feedback for any attempt apart from the last attempt"
+            }
+          }
+        }
+      }
+    },
+    "_buttons": {
+      "type":"object",
+      "title": "Buttons",
+      "required": false,
+      "properties":{
+        "submit": {
+          "type":"string",
+          "required": false,
+          "default": "",
+          "inputType": "QuestionButton",
+          "validators": [],
+          "help": "Button label text for the submit button"
+        },
+        "reset": {
+          "type":"string",
+          "required": false,
+          "default": "",
+          "inputType": "QuestionButton",
+          "validators": [],
+          "help": "Button label text for the reset button"
+        },
+        "showCorrectAnswer": {
+          "type":"string",
+          "required": false,
+          "default": "",
+          "inputType": "QuestionButton",
+          "validators": [],
+          "help": "Button label text so show the model answer"
+        },
+        "hideCorrectAnswer": {
+          "type":"string",
+          "required": false,
+          "default": "",
+          "inputType": "QuestionButton",
+          "validators": [],
+          "help": "Button label text so hide the model answer"
+        }
+      }
+    }
+  }
+}

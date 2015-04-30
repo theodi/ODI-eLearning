@@ -1,0 +1,76 @@
+{
+  "type":"object",
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "id": "http://jsonschema.net",
+  "$ref": "http://localhost/plugins/content/component/model.schema",
+  "properties":{
+    "_supportedLayout": {
+      "type": "string",
+      "required": true,
+      "enum": ["full-width", "half-width", "both"],
+      "default": "both",
+      "editorOnly": true
+    },
+    "instruction": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "inputType": "Text",
+      "validators": [],
+      "help": "This is the instruction text"
+    },
+    "_media": {
+      "type":"object",
+      "required":true,
+      "title": "Media",
+      "properties":{
+        "mp4": {
+          "type":"string",
+          "required":false,
+          "default": "",
+          "title": "MP4 Link",
+          "inputType": "Asset:video",
+          "validators": [],
+          "help": "Link to an MP4 video"
+        },
+        "ogv": {
+          "type":"string",
+          "required":false,
+          "default": "",
+          "title": "OGV Link",
+          "inputType": "Asset:video",
+          "validators": [],
+          "help": "Link to an OGV video"
+        },
+        "mp3": {
+          "type":"string",
+          "required":false,
+          "default": "",
+          "title": "MP3 Link",
+          "inputType": "Asset:audio",
+          "validators": [],
+          "help": "Link to an MP3 audio"
+        },
+        "poster": {
+          "type":"string",
+          "required":false,
+          "default": "",
+          "title": "Poster Link",
+          "inputType": "Asset:image",
+          "validators": [],
+          "help": "Image displayed before the video is played"
+        }
+      }
+    },
+    "_setCompletionOn": {
+      "type":"string",
+      "required":true,
+      "enum": ["inview", "play", "ended"],
+      "default": "inview",
+      "title": "Set completion of Video on",
+      "inputType": {"type": "Select", "options":["inview", "play", "ended"]},
+      "validators": ["required"],
+      "help": "This tells Adapt when to set this video to complete"
+    }
+  }
+}
