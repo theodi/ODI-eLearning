@@ -25,9 +25,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Sustaining Open Data Initiatives",
-        "displayTitle":"Sustaining Open Data Initiatives",
-        "body":"<p>In this module, participants will think about the longer-term objectives of their open data Initiative and how to sustain their approach to data publishing over time </p>",
+        "title":"How Open Data becomes Sustainable",
+        "displayTitle":"How Open Data becomes Sustainable",
+        "body":"<p>In this module, participants will think about the longer-term objectives of their open data Initiative and how to sustain their approach to data publishing over time </p><h5>Outcomes</h5><ul class='ticks'><li>Understand the necessary requirements to have a sustainable open data culture</li></ul>",
         "_pageLevelProgress": {
             "_isEnabled": true
         }
@@ -106,25 +106,25 @@
         "_isRandom":true,
         "_selectable":1,
         "title": "MCQ example",
-        "displayTitle": "MCQ example",
-        "body": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>",
-        "instruction": "<em>Hint: The answer is three.</em>",
+        "displayTitle": "What Makes An Open Data Initiative Sustainable?",
+        "body": "<p>Which of the following are important for creating a sustainable Open Data Initiative</p>",
+        "instruction": "<em>Select as many of the following as apply</em>",
         "_items": [
             {
-                "text": "One",
-                "_shouldBeSelected": false
+                "text": "Political Mandate",
+                "_shouldBeSelected": true
             },
             {
-                "text": "Two",
-                "_shouldBeSelected": false
+                "text": "Public Demand",
+                "_shouldBeSelected": true
             },
             {
-                "text": "Three",
+                "text": "Community Engagement",
                 "_shouldBeSelected": true
             }
         ],
         "_feedback":{
-            "correct":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "correct":"Well Done. All Three are Important!",
             "_incorrect": {
                 "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
                 "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
