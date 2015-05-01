@@ -1,0 +1,612 @@
+[
+    {
+        "_id":"c-02",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/example-odi-rotated.png",
+            "medium": "course/en/images/example-odi-rotated.png",
+            "small": "course/en/images/example-odi-rotated.png"
+        }
+    },
+    {
+        "_id":"c-01",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"How Open Data becomes Sustainable",
+        "displayTitle":"How Open Data becomes Sustainable",
+        "body":"<p>In this module, participants will think about the longer-term objectives of their open data Initiative and how to sustain their approach to data publishing over time </p><h5>Outcomes</h5><ul class='ticks'><li>Understand the necessary requirements to have a sustainable open data culture</li></ul>",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-11",
+        "_parentId":"b-10",
+        "_type":"component",
+        "_component":"media",
+        "_classes":"",
+        "_layout":"full",
+        "title":"Video example",
+        "displayTitle": "Video example",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+        "instruction": "<em>Click to play the video</em>",
+        "_setCompletionOn":"ended",
+        "_media": {
+            "mp4": "course/en/video/sponge_placeholder.mp4",
+            "ogv": "course/en/video/sponge_placeholder.ogv",
+            "poster": "course/en/video/sponge_placeholder-large.png"
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-21",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "http://placehold.it/430x430",
+            "medium": "http://placehold.it/430x430",
+            "small": "http://placehold.it/430x430"
+        }
+    },
+    {
+        "_id":"c-22",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"right",
+        "title":"Text and image",
+        "displayTitle":"Text and image",
+        "body":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+        "_id":"c-31",
+        "_parentId":"b-30",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/example-burst.png",
+            "medium": "course/en/images/example-burst.png",
+            "small": "course/en/images/example-burst.png"
+        }
+    },
+    {
+        "_id":"c-32",
+        "_parentId":"b-30",
+        "_type":"component",
+        "_component":"mcq",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "MCQ example",
+        "displayTitle": "What Makes An Open Data Initiative Sustainable?",
+        "body": "<p>Which of the following are important for creating a sustainable Open Data Initiative</p>",
+        "instruction": "<em>Select as many of the following as apply</em>",
+        "_items": [
+            {
+                "text": "Political Mandate",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "Public Demand",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "Community Engagement",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"Well Done. All Three are Important!",
+            "_incorrect": {
+                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            },
+            "_partlyCorrect": {
+                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+     {
+        "_id": "c-41",
+        "_parentId": "b-40",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Narrative component",
+        "displayTitle": "Narrative component",
+        "body": "Lorem ipsum dolor sit amet dolore lorem ipsum dolor sit amet.",
+        "instruction": "<em>Click through the narrative component.</em>",
+        "_items": [
+            {
+                "title": "Lorem ipsum",
+                "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud citation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "_graphic": {
+                    "src": "http://placehold.it/590x400",
+                    "alt": "Lorem ipsum",
+                    "title": "Lorem ipsum"
+                },
+                "strapline": "Lorem ipsum"
+            },
+            {
+                "title": "Dolot sit amet",
+                "body": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "_graphic": {
+                    "src": "http://placehold.it/590x400",
+                    "alt": "Lorem ipsum",
+                    "title": "Lorem ipsum"
+                },
+                "strapline": "Lorem ipsum"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-51",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"gmcq",
+        "_classes":"",
+        "_layout":"full",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":false,
+        "_selectable":1,
+        "title": "GMCQ example",
+        "displayTitle": "GMCQ example",
+        "body": "Lorem ipsum dolor sit amet mpor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliq.",
+        "instruction": "<em>Select one or more options below and select Submit.</em>",
+        "_items": [
+            {
+                "text": "Answer one",
+                "_shouldBeSelected":false,
+                "_graphic": {
+                    "alt": "",
+                    "title": "",
+                    "large": "http://placehold.it/430x220",
+                    "medium": "http://placehold.it/430x220",
+                    "small": "http://placehold.it/430x220"
+                }
+            },
+            {
+                "text": "Answer two",
+                "_shouldBeSelected":false,
+                "_graphic": {
+                    "alt": "",
+                    "title": "",
+                    "large": "http://placehold.it/430x220",
+                    "medium": "http://placehold.it/430x220",
+                    "small": "http://placehold.it/430x220"
+                }
+            },
+            {
+                "text": "Answer three",
+                "_shouldBeSelected":false,
+                "_graphic": {
+                    "alt": "",
+                    "title": "",
+                    "large": "http://placehold.it/430x220",
+                    "medium": "http://placehold.it/430x220",
+                    "small": "http://placehold.it/430x220"
+                }
+            },
+            {
+                "text": "Answer four",
+                "_shouldBeSelected":true,
+                "_graphic": {
+                    "alt": "",
+                    "title": "",
+                    "large": "http://placehold.it/430x220",
+                    "medium": "http://placehold.it/430x220",
+                    "small": "http://placehold.it/430x220"
+                }
+            }
+        ],
+        "_feedback":{
+            "correct":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "_incorrect": {
+                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            },
+            "_partlyCorrect": {
+                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+          "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-62",
+        "_parentId":"b-60",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "http://placehold.it/430x430",
+            "medium": "http://placehold.it/430x430",
+            "small": "http://placehold.it/430x430"
+        }
+    },
+    {
+      "_id":"c-61",
+      "_parentId":"b-60",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"left",
+      "title": "Accordion",
+      "displayTitle": "Accordion",
+      "body": "An example of an accordion component.",
+      "instruction": "<em>Click the headings to reveal more.</em>",
+      "_items": [
+        {
+          "alt": "Lorem ipsum",
+          "title": "Lorem ipsum",
+          "body": "<p>Lorem ipsum dolor sit amet.</p>"
+        },
+        {
+          "alt": "Lorem ipsum",
+          "title": "Lorem ipsum",
+          "body": "<p>Lorem ipsum dolor sit amet.</p>"
+        },
+        {
+          "alt": "Lorem ipsum",
+          "title": "Lorem ipsum",
+          "body": "<p>Lorem ipsum dolor sit amet.</p>"
+        }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-72",
+        "_parentId":"b-70",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/example-burst.png",
+            "medium": "course/en/images/example-burst.png",
+            "small": "course/en/images/example-burst.png"
+        }
+    },
+    {
+        "_id": "c-71",
+        "_parentId":"b-70",
+        "_classes": "",
+        "_layout": "right",
+        "_type": "component",
+        "_component": "matching",
+        "_attempts": 1,
+        "_isRandom":true,
+        "_questionWeight":1,
+        "title": "Matching component",
+        "displayTitle": "Matching component",
+        "body": "Here is an example of a matching component",
+        "instruction":"<em>Select your options from the dropdown menus.</em>",
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_feedback": {
+            "correct": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "_incorrect": {
+                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            },
+            "_partlyCorrect": {
+                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            }
+        },
+        "placeholder": "Select an option",
+        "_items": [
+            {
+                "text": "An example question would go here",
+                "_options": [
+                    {
+                        "text": "One",
+                        "_isCorrect": false
+                    },
+                    {
+                        "text": "Two",
+                        "_isCorrect": false
+                    }
+                ]
+            },
+            {
+                "text": "Another example question would go here",
+                "_options": [
+                    {
+                        "text": "One",
+                        "_isCorrect": false
+                    },
+                    {
+                        "text": "Two",
+                        "_isCorrect": false
+                    }
+                ]
+            }
+        ],
+        "_pageLevelProgress": {
+          "_isEnabled": true
+        }
+
+    },
+    {
+        "_id":"c-82",
+        "_parentId":"b-80",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "http://placehold.it/430x430",
+            "medium": "http://placehold.it/430x430",
+            "small": "http://placehold.it/430x430"
+        }
+    },
+    {
+        "_id":"c-81",
+        "_parentId":"b-80",
+        "_component":"slider",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts": 1,
+        "title": "Slider component",
+        "displayTitle": "Slider component",
+        "body": "Here is an example of a slider component",
+        "instruction":"<em>Drag the slider along and click submit.</em>",
+        "_showNumber": true,
+        "_showScaleIndicator": true,
+        "labelStart": "incomplete",
+        "labelEnd": "complete",
+        "_scaleStart": 1,
+        "_scaleEnd": 10,
+        "_correctAnswer": "",
+        "_correctRange": {
+            "_bottom": 5,
+            "_top": 9
+        },
+        "_feedback": {
+            "correct": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "_incorrect": {
+                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            },
+            "_partlyCorrect": {
+                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            }
+        }
+    },
+    {
+        "_id":"c-92",
+        "_parentId":"b-90",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/example-burst.png",
+            "medium": "course/en/images/example-burst.png",
+            "small": "course/en/images/example-burst.png"
+        }
+    },
+    {
+        "_id":"c-91",
+        "_parentId":"b-90",
+        "_type":"component",
+        "_component":"textinput",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Text input component",
+        "displayTitle":"Text input component",
+        "body":"Here is an example of a text input component. Mpor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliq.",
+        "instruction":"<em>Enter some text and press Submit.</em>",
+        "_attempts": 1,
+        "_questionWeight":1,
+        "placeholder": "Enter your text here",
+        "_allowsAnyCase": true,
+        "_allowsPunctuation": true,
+        "_feedback": {
+            "correct": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "_incorrect": {
+                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            },
+            "_partlyCorrect": {
+                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            }
+        },
+        "_items": [
+            {
+                "prefix": "",
+                "suffix": "",
+                "_answers": [
+                    "one",
+                    "1"
+                ]
+            }
+        ],
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+    {
+          "_id": "c-101",
+          "_parentId":"b-100",
+          "_classes": "",
+          "_type":"component",
+          "_component": "hotgraphic",
+          "_layout": "full",
+          "title": "Hotgraphic example",
+          "displayTitle": "Hotgraphic example",
+          "body": "Here is an example of a hotgraphic component. Incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliq.",
+          "mobileBody": "",
+          "instruction":"<em>Click on the pins to learn more information.</em>",
+          "_graphic": {
+            "src": "http://placehold.it/900x530",
+            "alt": "",
+            "title": ""
+          },
+          "_items": [
+            {
+                "title": "Example 1",
+                "body": "Example 1 lorem ipsum",
+                "_graphic": {
+                    "src": "http://placehold.it/400x270",
+                    "alt": "Lorem ipsum",
+                    "title": "Lorem ipsum"
+                },
+                "strapline": "Example 1",
+                "_top": 40,
+                "_left": 10
+            },
+            {
+                "title": "Example 2",
+                "body": "Example 2 lorem ipsum",
+                "_graphic": {
+                    "src": "http://placehold.it/400x270",
+                    "alt": "Lorem ipsum",
+                    "title": "Lorem ipsum"
+                },
+                "strapline": "Example 2",
+                "_top": 40,
+                "_left": 60
+            }
+        ],
+        "_pageLevelProgress": {
+          "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-112",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/summary-icon.png",
+            "medium": "course/en/images/summary-icon.png",
+            "small": "course/en/images/summary-icon.png"
+        }
+    },
+    {
+        "_id":"c-111",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Summary",
+        "displayTitle":"Summary",
+        "body":"<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat exercitation.</p><h5>What you have learned</h5><ul class='ticks'><li>Lorem ipsum dolor sit amet, consectetur</li><li>Consectetur adipisicing elit, sed do eiusmod tempor incididunt commodo consequat</li><li>Et dolore magna aliqua. Ut enim ad met</li><li>Exercitation ullamco laboris nisi ut aliquip ex ea</li><li>Sit amet, consectetur</li></ul>",
+        "_pageLevelProgress": {
+          "_isEnabled": true
+        }
+    },
+    {
+       "_id":"c-113",
+       "_parentId":"b-110",
+       "_type":"component",
+       "_component":"text",
+       "_classes":"separator",
+       "_layout":"full"
+    },
+    {
+        "_id":"c-114",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"footer-logo",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/logo-small.png",
+            "medium": "course/en/images/logo-small.png",
+            "small": "course/en/images/logo-small.png"
+        }
+    },
+    {
+        "_id":"c-115",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"social-buttons",
+        "_layout":"right",
+        "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/en/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/en/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/en/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/en/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/en/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/en/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/en/images/social/flickr.png'></a>"
+    }
+]
