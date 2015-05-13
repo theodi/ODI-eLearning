@@ -13,9 +13,9 @@
         "_graphic": {
             "alt": "",
             "title": "",
-            "large": "course/en/images/example-odi-rotated.png",
-            "medium": "course/en/images/example-odi-rotated.png",
-            "small": "course/en/images/example-odi-rotated.png"
+            "large": "course/en/images/example-odi.png",
+            "medium": "course/en/images/example-odi.png",
+            "small": "course/en/images/example-odi.png"
         }
     },
     {
@@ -25,9 +25,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"How Open Data becomes Sustainable",
-        "displayTitle":"How Open Data becomes Sustainable",
-        "body":"<p>In this module, participants will think about the longer-term objectives of their open data Initiative and how to sustain their approach to data publishing over time </p><h5>Outcomes</h5><ul class='ticks'><li>Understand the necessary requirements to have a sustainable open data culture</li></ul>",
+        "title":"Why should we worry about sustainability?",
+        "displayTitle":"Why should we worry about sustainability?",
+        "body":"<p>All data has an expiry date and out-of-date information can be unreliable. To keep data up-to-date and relevant, publishers need to regularly release high-quality updates. Recognising which publishers have a sustainable update will help you select data you can trust not just now but in the future</p><h5>In this module we'll look at:</h5><ul class='ticks'><li>How to make sense of sustainability</li><li>Why sustainability matters to you</li><li>What tell-tale signs to look for in open datasets</li></ul>",
         "_pageLevelProgress": {
             "_isEnabled": true
         }
@@ -39,149 +39,187 @@
         "_component":"media",
         "_classes":"",
         "_layout":"full",
-        "title":"Video example",
-        "displayTitle": "Video example",
-        "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+        "title":"All about open data sustainability – in two minutes",
+        "displayTitle": "All about open data sustainability – in two minutes",
+        "body": "The ODI’s Ulrich Atz explains the importance of sustainability in open data, why the concept matters to users and talks through some of the key indicators that an open data release is built to last",
         "instruction": "<em>Click to play the video</em>",
         "_setCompletionOn":"ended",
         "_media": {
             "mp4": "course/en/video/sponge_placeholder.mp4",
             "ogv": "course/en/video/sponge_placeholder.ogv",
-            "poster": "course/en/video/sponge_placeholder-large.png"
+            "poster": "course/en/video/ulrich.png"
         },
         "_pageLevelProgress": {
             "_isEnabled": true
         }
     },
-    {
-        "_id":"c-21",
-        "_parentId":"b-20",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"left",
-        "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "http://placehold.it/430x430",
-            "medium": "http://placehold.it/430x430",
-            "small": "http://placehold.it/430x430"
-        }
-    },
-    {
-        "_id":"c-22",
-        "_parentId":"b-20",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"",
-        "_layout":"right",
-        "title":"Text and image",
-        "displayTitle":"Text and image",
-        "body":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-    },
-    {
-        "_id":"c-31",
-        "_parentId":"b-30",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"illustration",
-        "_layout":"right",
-        "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "course/en/images/example-burst.png",
-            "medium": "course/en/images/example-burst.png",
-            "small": "course/en/images/example-burst.png"
-        }
-    },
-    {
-        "_id":"c-32",
-        "_parentId":"b-30",
-        "_type":"component",
-        "_component":"mcq",
-        "_classes":"",
-        "_layout":"left",
-        "_attempts":1,
-        "_questionWeight":1,
-        "_isRandom":true,
-        "_selectable":1,
-        "title": "MCQ example",
-        "displayTitle": "What Makes An Open Data Initiative Sustainable?",
-        "body": "<p>Which of the following are important for creating a sustainable Open Data Initiative</p>",
-        "instruction": "<em>Select as many of the following as apply</em>",
-        "_items": [
-            {
-                "text": "Political Mandate",
-                "_shouldBeSelected": true
-            },
-            {
-                "text": "Public Demand",
-                "_shouldBeSelected": true
-            },
-            {
-                "text": "Community Engagement",
-                "_shouldBeSelected": true
-            }
-        ],
-        "_feedback":{
-            "correct":"Well Done. All Three are Important!",
-            "_incorrect": {
-                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-            },
-            "_partlyCorrect": {
-                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-          }
-        },
-        "_buttons":{
-            "submit":"",
-            "reset":"",
-            "showCorrectAnswer":"",
-            "hideCorrectAnswer":""
-        },
-        "_pageLevelProgress": {
-        "_isEnabled": true
-      }
-    },
      {
-        "_id": "c-41",
-        "_parentId": "b-40",
+        "_id": "c-21",
+        "_parentId": "b-20",
         "_classes": "",
         "_type":"component",
         "_layout": "full",
         "_component": "narrative",
-        "title": "Narrative component",
-        "displayTitle": "Narrative component",
-        "body": "Lorem ipsum dolor sit amet dolore lorem ipsum dolor sit amet.",
+        "title": "Making sense of sustainability in open data",
+        "displayTitle": "Making sense of sustainability in open data",
+        "body": "What do we mean by the term ‘sustainability’ and how does it relate to open data sources?",
         "instruction": "<em>Click through the narrative component.</em>",
         "_items": [
             {
-                "title": "Lorem ipsum",
-                "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud citation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "title": "What does the term mean?",
+                "body": "For something to be sustainable it is ‘able to be maintained at a certain rate or level’. For an open data release to be sustainable, it must maintain regular updates with at least the same level of quality and quantity.",
                 "_graphic": {
-                    "src": "http://placehold.it/590x400",
+                    "src": "course/en/images/define.png",
                     "alt": "Lorem ipsum",
                     "title": "Lorem ipsum"
                 },
-                "strapline": "Lorem ipsum"
+                "strapline": "What does the term mean?"
             },
             {
-                "title": "Dolot sit amet",
-                "body": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "title": "What influences sustainability?",
+                "body": "A sustainable open dataset always has three things behind it:<ul class='ticks'><li>Secure funding to cover the cost of updates</li><li>Active support of publishers to prioritise updates</li><li>Wide reuse by other people to demonstrate the value</li></ul>",
                 "_graphic": {
-                    "src": "http://placehold.it/590x400",
+                    "src": "course/en/images/puzzle.png",
                     "alt": "Lorem ipsum",
                     "title": "Lorem ipsum"
                 },
-                "strapline": "Lorem ipsum"
+                "strapline": "What influences sustainability?"
+            },
+            {
+                "title": "What about an example?",
+                "body": "Transport for London maintain more than 30 open data feeds with a commitment in their digital strategy to regularly update. TfL feeds are used by more than 5000 developers creating applications that reach millions of users and give TfL a clear incentive to keep the data up to date: http://bit.ly/1hpC4Mx",
+                "_graphic": {
+                    "src": "course/en/images/tfl.png",
+                    "alt": "Lorem ipsum",
+                    "title": "Lorem ipsum"
+                },
+                "strapline": "What about an example?"
             }
         ],
         "_pageLevelProgress": {
         "_isEnabled": true
         }
     },
+ {
+        "_id": "c-31",
+        "_parentId": "b-30",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Why does sustainability matter?",
+        "displayTitle": "Why does sustainability matter?",
+        "body": "Why should I care about whether the open data I work with is sustainable?",
+        "instruction": "<em>Click through the narrative component.</em>",
+        "_items": [
+            {
+                "title": "Solid foundations",
+                "body": "A sustainable source of data is a well-laid foundation: you can build on it with confidence because you know it will still be around in the future. If your data isn’t sustainable, are you ready to risk your idea on a shaky foundation?",
+                "_graphic": {
+                    "src": "course/en/images/foundation.png",
+                    "alt": "Lorem ipsum",
+                    "title": "Lorem ipsum"
+                },
+                "strapline": "Solid foundations"
+            },
+            {
+                "title": "Useful for users",
+                "body": "No-one stays up-to-date using last year’s newspaper. When you are finding open data, you want the latest version. Recognising sustainable datasets gives you the confidence you are working from current information",
+                "_graphic": {
+                    "src": "course/en/images/news.png",
+                    "alt": "Lorem ipsum",
+                    "title": "Lorem ipsum"
+                },
+                "strapline": "Useful for users"
+            },
+            {
+                "title": "Better for business",
+                "body": "As a business using open data, you are investing in an idea you hope will pay off in future. Un-sustainable data can vanish overnight and leave a business without a product. The more sustainable the data on which you based your idea, the less risk of your investment not paying off",
+                "_graphic": {
+                    "src": "course/en/images/grow.png",
+                    "alt": "Lorem ipsum",
+                    "title": "Lorem ipsum"
+                },
+                "strapline": "Better for business"
+            },
+            {
+                "title": "Perfect for publishers",
+                "body": "Sustainable open data releases are more popular with users. As a publisher of open data, the goal is to get as many people as possible creating value which is best done by sustaining your release",
+                "_graphic": {
+                    "src": "course/en/images/queue.png",
+                    "alt": "Lorem ipsum",
+                    "title": "Lorem ipsum"
+                },
+                "strapline": "Perfect for publishers"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+ {
+        "_id":"c-42",
+        "_parentId":"b-40",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/mag.png",
+            "medium": "course/en/images/mag.png",
+            "small": "course/en/images/mag.png"
+        }
+    },
     {
+      "_id":"c-41",
+      "_parentId":"b-40",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"left",
+      "title": "Looking for clues",
+      "displayTitle": "Looking for clues",
+      "body": "A sustainable release combines secure funding, active support and  wide reuse. These traits are not always obvious when you first find a dataset. Ask yourself the following to help spot good sources:",
+      "instruction": "<em>Click the headings to learn more.</em>",
+      "_items": [
+        {
+          "alt": "What is the source?",
+          "title": "What is the source?",
+          "body": "<p>Ask yourself who has released the data and how much confidence do you have in their commitment to continue updating it? One of the most important indicators of sustainability is how confident you feel in the organisation who collects it. If the data is from government, might an election or a change in priority affect the release?</p>"
+        },
+        {
+          "alt": "Who is funding the release?",
+          "title": "Who is funding the release?",
+          "body": "<p>Even though open data is free to access, use and share, there is still a cost in creating, maintaining and publishing usable data. Ask yourself how that dataset has been paid for and how confident you are about that funding being continued. If government funded, think about where else the dataset is used? Is it the result of a mandate or used in other processes/ places? If the dataset is used elsewhere it is quite likely that the data will continue to be used If drawn from the private sector, think about why the company, charity or person is releasing the data? Is this something they fund themselves, the result of an existing process or a dedicated programme? The more other reasons why the publisher needs that data, the more likely they will continue to release it</p>"
+        },
+        {
+          "alt": "What does the license say?",
+          "title": "What does the license say?",
+          "body": "<p>Remember that without a license, data is not truly open. The licence gives you certainty that data can be used and shared for a wide range of purposes. Licenses also give you a clue as to how the publisher of a dataset looks at the sustainability. When looking at a license, ask yourself what does the text say about the future of the dataset? Does it contain a commitment to update regularly? Is there an ‘expiry date’ for the data included? Licenses usually tell you something about the publisher’s confidence in the sustainability of the dataset</p>"
+        },
+        {
+          "alt": "Who is already using the data?",
+          "title": "Who is already using the data?",
+          "body": "<p>The more people are already using a dataset, the more likely the publisher is to regularly update the release to meet their demand. Remember that there is little point in putting data into the public domain if there is no one prepared or incentivised to use and create new value from it. Ask yourself who else seems to be creating things with this dataset? If other people are creating great success stories with the data, the publisher has a compelling reason to sustain the release. For example, TFL has a community of more than 5000 developers who are turning their open data into real value for the company. This use makes TfL’s data one of the most sustainable examples available because the company has a clear reason to provide secure funding and active support in response to the wide reuse</p>"
+        },
+        {
+          "alt": "What is the publishing history?",
+          "title": "What is the publishing history?",
+          "body": "<p>Sustainability is ultimately about how much trust you place in the publisher. One of the best ways to make up your mind about how someone will behave in the future is to look at how they have behaved in the past. For an open dataset, past behaviour can be found in the publishing history. Ask yourself how long the dataset has been published for? A long history of updates is a good sign because it demonstrates that the publisher has a proven commitment to regular, quality updates</p>"
+        },
+        {
+          "alt": "How can I use this data?",
+          "title": "Who is already using the data?",
+          "body": "<p>A final question to ask yourself is what can I do to make the dataset more sustainable? One of the biggest causes of dataset updates being neglected is that no one is using it. Even one user can make a real difference to the sustainability of a dataset if they are able to show how they have used it to create value. Ask yourself how you can create a story around the dataset to show its value to the publisher and demonstrate a clear case for sustaining the release</p>"
+        }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+{
         "_id":"c-51",
         "_parentId":"b-50",
         "_type":"component",
@@ -192,61 +230,61 @@
         "_questionWeight":1,
         "_isRandom":false,
         "_selectable":1,
-        "title": "GMCQ example",
-        "displayTitle": "GMCQ example",
-        "body": "Lorem ipsum dolor sit amet mpor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliq.",
-        "instruction": "<em>Select one or more options below and select Submit.</em>",
+        "title": "Are you ready?",
+        "displayTitle": "Are you ready?",
+        "body": "Which of these does not influence the sustainability of an open dataset",
+        "instruction": "<em>Select one of the options below and select Submit.</em>",
         "_items": [
             {
-                "text": "Answer one",
+                "text": "Secure funding",
                 "_shouldBeSelected":false,
                 "_graphic": {
                     "alt": "",
                     "title": "",
-                    "large": "http://placehold.it/430x220",
-                    "medium": "http://placehold.it/430x220",
-                    "small": "http://placehold.it/430x220"
+                    "large": "course/en/images/secure.png",
+                    "medium": "course/en/images/secure.png",
+                    "small": "course/en/images/secure.png"
                 }
             },
             {
-                "text": "Answer two",
-                "_shouldBeSelected":false,
-                "_graphic": {
-                    "alt": "",
-                    "title": "",
-                    "large": "http://placehold.it/430x220",
-                    "medium": "http://placehold.it/430x220",
-                    "small": "http://placehold.it/430x220"
-                }
-            },
-            {
-                "text": "Answer three",
-                "_shouldBeSelected":false,
-                "_graphic": {
-                    "alt": "",
-                    "title": "",
-                    "large": "http://placehold.it/430x220",
-                    "medium": "http://placehold.it/430x220",
-                    "small": "http://placehold.it/430x220"
-                }
-            },
-            {
-                "text": "Answer four",
+                "text": "Large filesize",
                 "_shouldBeSelected":true,
                 "_graphic": {
                     "alt": "",
                     "title": "",
-                    "large": "http://placehold.it/430x220",
-                    "medium": "http://placehold.it/430x220",
-                    "small": "http://placehold.it/430x220"
+                    "large": "course/en/images/file.png",
+                    "medium": "course/en/images/file.png",
+                    "small": "course/en/images/file.png"
+                }
+            },
+            {
+                "text": "Active support",
+                "_shouldBeSelected":false,
+                "_graphic": {
+                    "alt": "",
+                    "title": "",
+                    "large": "course/en/images/support.png",
+                    "medium": "course/en/images/support.png",
+                    "small": "course/en/images/support.png"
+                }
+            },
+            {
+                "text": "Wide reuse",
+                "_shouldBeSelected":false,
+                "_graphic": {
+                    "alt": "",
+                    "title": "",
+                    "large": "course/en/images/reuse.png",
+                    "medium": "course/en/images/reuse.png",
+                    "small": "course/en/images/reuse.png"
                 }
             }
         ],
         "_feedback":{
-            "correct":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "correct":"That's it! - The size of the file is not a factor in sustainability. What matters most are a secure source of funding, the active support of the publisher and wide reuse to generate value from the data",
             "_incorrect": {
                 "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                "final": "You sure about that? - A large file is no more sustainable than a small one if it does not have sustainable funding, active support from the publisher and a wide community of reusers."
             },
             "_partlyCorrect": {
                 "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
@@ -259,291 +297,6 @@
             "showCorrectAnswer":"",
             "hideCorrectAnswer":""
         },
-        "_pageLevelProgress": {
-          "_isEnabled": true
-        }
-    },
-    {
-        "_id":"c-62",
-        "_parentId":"b-60",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"right",
-        "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "http://placehold.it/430x430",
-            "medium": "http://placehold.it/430x430",
-            "small": "http://placehold.it/430x430"
-        }
-    },
-    {
-      "_id":"c-61",
-      "_parentId":"b-60",
-      "_type":"component",
-      "_component":"accordion",
-      "_classes":"",
-      "_layout":"left",
-      "title": "Accordion",
-      "displayTitle": "Accordion",
-      "body": "An example of an accordion component.",
-      "instruction": "<em>Click the headings to reveal more.</em>",
-      "_items": [
-        {
-          "alt": "Lorem ipsum",
-          "title": "Lorem ipsum",
-          "body": "<p>Lorem ipsum dolor sit amet.</p>"
-        },
-        {
-          "alt": "Lorem ipsum",
-          "title": "Lorem ipsum",
-          "body": "<p>Lorem ipsum dolor sit amet.</p>"
-        },
-        {
-          "alt": "Lorem ipsum",
-          "title": "Lorem ipsum",
-          "body": "<p>Lorem ipsum dolor sit amet.</p>"
-        }
-      ],
-      "_pageLevelProgress": {
-        "_isEnabled": true
-      }
-    },
-    {
-        "_id":"c-72",
-        "_parentId":"b-70",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"illustration",
-        "_layout":"left",
-        "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "course/en/images/example-burst.png",
-            "medium": "course/en/images/example-burst.png",
-            "small": "course/en/images/example-burst.png"
-        }
-    },
-    {
-        "_id": "c-71",
-        "_parentId":"b-70",
-        "_classes": "",
-        "_layout": "right",
-        "_type": "component",
-        "_component": "matching",
-        "_attempts": 1,
-        "_isRandom":true,
-        "_questionWeight":1,
-        "title": "Matching component",
-        "displayTitle": "Matching component",
-        "body": "Here is an example of a matching component",
-        "instruction":"<em>Select your options from the dropdown menus.</em>",
-        "_buttons":{
-            "submit":"",
-            "reset":"",
-            "showCorrectAnswer":"",
-            "hideCorrectAnswer":""
-        },
-        "_feedback": {
-            "correct": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "_incorrect": {
-                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-            },
-            "_partlyCorrect": {
-                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-            }
-        },
-        "placeholder": "Select an option",
-        "_items": [
-            {
-                "text": "An example question would go here",
-                "_options": [
-                    {
-                        "text": "One",
-                        "_isCorrect": false
-                    },
-                    {
-                        "text": "Two",
-                        "_isCorrect": false
-                    }
-                ]
-            },
-            {
-                "text": "Another example question would go here",
-                "_options": [
-                    {
-                        "text": "One",
-                        "_isCorrect": false
-                    },
-                    {
-                        "text": "Two",
-                        "_isCorrect": false
-                    }
-                ]
-            }
-        ],
-        "_pageLevelProgress": {
-          "_isEnabled": true
-        }
-
-    },
-    {
-        "_id":"c-82",
-        "_parentId":"b-80",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"right",
-        "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "http://placehold.it/430x430",
-            "medium": "http://placehold.it/430x430",
-            "small": "http://placehold.it/430x430"
-        }
-    },
-    {
-        "_id":"c-81",
-        "_parentId":"b-80",
-        "_component":"slider",
-        "_classes":"",
-        "_layout":"left",
-        "_attempts": 1,
-        "title": "Slider component",
-        "displayTitle": "Slider component",
-        "body": "Here is an example of a slider component",
-        "instruction":"<em>Drag the slider along and click submit.</em>",
-        "_showNumber": true,
-        "_showScaleIndicator": true,
-        "labelStart": "incomplete",
-        "labelEnd": "complete",
-        "_scaleStart": 1,
-        "_scaleEnd": 10,
-        "_correctAnswer": "",
-        "_correctRange": {
-            "_bottom": 5,
-            "_top": 9
-        },
-        "_feedback": {
-            "correct": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "_incorrect": {
-                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-            },
-            "_partlyCorrect": {
-                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-            }
-        }
-    },
-    {
-        "_id":"c-92",
-        "_parentId":"b-90",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"illustration",
-        "_layout":"right",
-        "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "course/en/images/example-burst.png",
-            "medium": "course/en/images/example-burst.png",
-            "small": "course/en/images/example-burst.png"
-        }
-    },
-    {
-        "_id":"c-91",
-        "_parentId":"b-90",
-        "_type":"component",
-        "_component":"textinput",
-        "_classes":"",
-        "_layout":"left",
-        "title":"Text input component",
-        "displayTitle":"Text input component",
-        "body":"Here is an example of a text input component. Mpor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliq.",
-        "instruction":"<em>Enter some text and press Submit.</em>",
-        "_attempts": 1,
-        "_questionWeight":1,
-        "placeholder": "Enter your text here",
-        "_allowsAnyCase": true,
-        "_allowsPunctuation": true,
-        "_feedback": {
-            "correct": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "_incorrect": {
-                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-            },
-            "_partlyCorrect": {
-                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-            }
-        },
-        "_items": [
-            {
-                "prefix": "",
-                "suffix": "",
-                "_answers": [
-                    "one",
-                    "1"
-                ]
-            }
-        ],
-        "_buttons":{
-            "submit":"",
-            "reset":"",
-            "showCorrectAnswer":"",
-            "hideCorrectAnswer":""
-        },
-        "_pageLevelProgress": {
-        "_isEnabled": true
-        }
-    },
-    {
-          "_id": "c-101",
-          "_parentId":"b-100",
-          "_classes": "",
-          "_type":"component",
-          "_component": "hotgraphic",
-          "_layout": "full",
-          "title": "Hotgraphic example",
-          "displayTitle": "Hotgraphic example",
-          "body": "Here is an example of a hotgraphic component. Incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliq.",
-          "mobileBody": "",
-          "instruction":"<em>Click on the pins to learn more information.</em>",
-          "_graphic": {
-            "src": "http://placehold.it/900x530",
-            "alt": "",
-            "title": ""
-          },
-          "_items": [
-            {
-                "title": "Example 1",
-                "body": "Example 1 lorem ipsum",
-                "_graphic": {
-                    "src": "http://placehold.it/400x270",
-                    "alt": "Lorem ipsum",
-                    "title": "Lorem ipsum"
-                },
-                "strapline": "Example 1",
-                "_top": 40,
-                "_left": 10
-            },
-            {
-                "title": "Example 2",
-                "body": "Example 2 lorem ipsum",
-                "_graphic": {
-                    "src": "http://placehold.it/400x270",
-                    "alt": "Lorem ipsum",
-                    "title": "Lorem ipsum"
-                },
-                "strapline": "Example 2",
-                "_top": 40,
-                "_left": 60
-            }
-        ],
         "_pageLevelProgress": {
           "_isEnabled": true
         }
@@ -572,7 +325,7 @@
         "_layout":"left",
         "title":"Summary",
         "displayTitle":"Summary",
-        "body":"<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat exercitation.</p><h5>What you have learned</h5><ul class='ticks'><li>Lorem ipsum dolor sit amet, consectetur</li><li>Consectetur adipisicing elit, sed do eiusmod tempor incididunt commodo consequat</li><li>Et dolore magna aliqua. Ut enim ad met</li><li>Exercitation ullamco laboris nisi ut aliquip ex ea</li><li>Sit amet, consectetur</li></ul>",
+        "body":"<p>In this module, we have examined how you, as an open data user, can better judge the reliability and longevity of a particulr open data release. We have learned that a sustainable open data release combines a long-term commitment.</p><h5>What you have learned</h5><ul class='ticks'><li>Lorem ipsum dolor sit amet, consectetur</li><li>Consectetur adipisicing elit, sed do eiusmod tempor incididunt commodo consequat</li><li>Et dolore magna aliqua. Ut enim ad met</li><li>Exercitation ullamco laboris nisi ut aliquip ex ea</li><li>Sit amet, consectetur</li></ul>",
         "_pageLevelProgress": {
           "_isEnabled": true
         }
