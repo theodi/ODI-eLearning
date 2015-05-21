@@ -27,7 +27,7 @@
         "_layout":"left",
         "title":"Why should we worry about sustainability?",
         "displayTitle":"Why should we worry about sustainability?",
-        "body":"<p>All data has an expiry date and out-of-date information can be unreliable. To keep data up-to-date and relevant, publishers need to regularly release high-quality updates. Recognising which publishers have a sustainable update will help you select data you can trust not just now but in the future</p><h5>In this module we'll look at:</h5><ul class='ticks'><li>How to make sense of sustainability</li><li>Why sustainability matters to you</li><li>What tell-tale signs to look for in open datasets</li></ul>",
+        "body":"<p>Open data needs to remain relevant, up to date and accessible to be useful. Together, these three qualities make up the sustainability of a dataset<br><br>A sustainable programme is one that continues to regularly release data with maintained or improving quality and quantity<br><br>For something to be sustainable it is ‘able to be maintained at a certain rate or level’<br><br>For an open data release to be sustainable, it must maintain regular updates with at least the same level of quality and quantity.</p><h5>In this module we'll look at:</h5><ul class='ticks'><li>How to make sense of sustainability</li><li>Why sustainability matters to you</li><li>What tell-tale signs to look for in open datasets</li></ul>",
         "_pageLevelProgress": {
             "_isEnabled": true
         }
@@ -301,7 +301,72 @@
           "_isEnabled": true
         }
     },
+{
+        "_id":"c-61",
+        "_parentId":"b-60",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/example-burst.png",
+            "medium": "course/en/images/example-burst.png",
+            "small": "course/en/images/example-burst.png"
+        }
+    },
     {
+        "_id":"c-62",
+        "_parentId":"b-60",
+        "_type":"component",
+        "_component":"mcq",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "MCQ example",
+        "displayTitle": "MCQ example",
+        "body": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>",
+        "instruction": "<em>Hint: The answer is three.</em>",
+        "_items": [
+            {
+                "text": "One",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Two",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Three",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "_incorrect": {
+                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            },
+            "_partlyCorrect": {
+                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+{
         "_id":"c-112",
         "_parentId":"b-110",
         "_type":"component",
