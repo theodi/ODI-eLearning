@@ -2138,7 +2138,7 @@ a, button {-webkit-tap-highlight-color: rgba(0,0,0,0.2);}
 
     .narrative-strapline {
         background-color: @inverted-background-color;
-        color: @inverted-foreground-color;
+        color: @foreground-color;
         height: auto;
         position: relative;
     }
@@ -2889,10 +2889,10 @@ a, button {-webkit-tap-highlight-color: rgba(0,0,0,0.2);}
         }
         .narrative-component {
             .narrative-content {
-                background: @inverted-foreground-color;
-                color: @foreground-color;
+                background: @inverted-background-color;
+                color: @inverted-foreground-color;
                 h2 {
-                    color: @foreground-color;
+                    color: @inverted-foreground-color;
                 }
             }
             .narrative-progress {
@@ -3206,7 +3206,7 @@ a, button {-webkit-tap-highlight-color: rgba(0,0,0,0.2);}
 // Narrative
 .narrative-component {
     .narrative-content {
-        background: @primary-color;
+        background: @odi-color-six;
     }
     .narrative-strapline-title {
         h5 {
@@ -4019,7 +4019,7 @@ body {
 }
 
 .b-50 {
-    background: url('assets/polygon.png');
+    background: @odi-color-three url('assets/polygon.png');
 }
 
 .b-70 {

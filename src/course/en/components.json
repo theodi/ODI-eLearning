@@ -53,47 +53,73 @@
             "_isEnabled": true
         }
     },
+       {
+        "_id":"c-21",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/sustain.png",
+            "medium": "course/en/images/sustain.png",
+            "small": "course/en/images/sustain.png"
+        }
+    },
+    {
+        "_id":"c-32",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"inverted",
+        "_layout":"right",
+        "title":"What makes open data sustainable?",
+        "displayTitle":"What makes open data sustainable?",
+        "body":"<h5>A sustainable open dataset always has three things behind it:</h5><ul class='ticks'><li><b>Secure funding</b> to cover the cost of updates</li><li><b>Active support</b>of publishers to prioritise updates</li><li><b>Wide reuse</b> by other people to demonstrate the value</li></ul>"
+    },
      {
-        "_id": "c-21",
-        "_parentId": "b-20",
-        "_classes": "",
+        "_id": "c-31",
+        "_parentId": "b-30",
+        "_classes": "inverted",
         "_type":"component",
         "_layout": "full",
         "_component": "narrative",
         "title": "Making sense of sustainability in open data",
         "displayTitle": "Making sense of sustainability in open data",
-        "body": "What do we mean by the term ‘sustainability’ and how does it relate to open data sources?",
+        "body": "What factors contribute to making an open dataset sustainable?",
         "instruction": "<em>Click through the narrative component.</em>",
         "_items": [
             {
-                "title": "What does the term mean?",
-                "body": "For something to be sustainable it is ‘able to be maintained at a certain rate or level’. For an open data release to be sustainable, it must maintain regular updates with at least the same level of quality and quantity.                                                                                 ",
+                "title": "Secure funding?",
+                "body": "Just because a dataset can be freely used does not mean it does not have a cost to collect and release. Funding can be secured through many means:</h5><ul class='bullet'><li>Charging for access or enhanced services</li><li>Making open data core to the organisation practice</li><li>Owned by the taxpayer or funder</li></ul>",
                 "_graphic": {
-                    "src": "course/en/images/define.png",
+                    "src": "course/en/images/euro2.png",
                     "alt": "Lorem ipsum",
                     "title": "Lorem ipsum"
                 },
-                "strapline": "What does the term mean?"
+                "strapline": "Secure funding"
             },
             {
-                "title": "What influences sustainability?",
-                "body": "A sustainable open dataset always has three things behind it:<ul class='ticks'><li>Secure funding to cover the cost of updates</li><li>Active support of publishers to prioritise updates</li><li>Wide reuse by other people to demonstrate the value</li></ul>",
+                "title": "Active support",
+                "body": "Sustainable data requires both the backing of an organisation’s management and the support of staff responsible for maintaining the quality<br><br>Active support is most commonly achieved by a company committing to maintain open data as part of their daily operations.",
                 "_graphic": {
-                    "src": "course/en/images/puzzle2.png",
+                    "src": "course/en/images/trust2.png",
                     "alt": "Lorem ipsum",
                     "title": "Lorem ipsum"
                 },
-                "strapline": "What influences sustainability?"
+                "strapline": "Active support"
             },
             {
-                "title": "What about an example?",
-                "body": "Transport for London maintain more than 30 open data feeds with a commitment in their digital strategy to regularly update. TfL feeds are used by more than 5000 developers creating applications that reach millions of users and give TfL a clear incentive to keep the data up to date: http://bit.ly/1hpC4Mx",
+                "title": "Wide reuse",
+                "body": "Sustainable reuse is achieved when the services created with that data become critical to the success of the publisher’s business. For example, Transport for London data feeds are used by millions when they access transport apps like citymapper. These apps drive usage of TfL services and as such TfL have a commitment in their digital strategy to regularly update the data.",
                 "_graphic": {
                     "src": "course/en/images/tube.png",
                     "alt": "Lorem ipsum",
                     "title": "Lorem ipsum"
                 },
-                "strapline": "What about an example?"
+                "strapline": "Wide reuse"
             }
         ],
         "_pageLevelProgress": {
@@ -101,8 +127,8 @@
         }
     },
  {
-        "_id": "c-31",
-        "_parentId": "b-30",
+        "_id": "c-41",
+        "_parentId": "b-40",
         "_classes": "",
         "_type":"component",
         "_layout": "full",
@@ -114,7 +140,7 @@
         "_items": [
             {
                 "title": "Solid foundations",
-                "body": "A sustainable source of data is a well-laid foundation: you can build on it with confidence because you know it will still be around in the future. If your data isn’t sustainable, are you ready to risk your idea on a shaky foundation?",
+                "body": "Sustainability is not just good for the users. The publisher also benefits from a sustainable open data programme by:</h5><ul class='bullet'><li>Enhancing the trust of the community in the publisher’s organization</li><li>Supporting the creation of new products and services</li><li>Simplifying the publishers reuse of their own data</li></ul>",
                 "_graphic": {
                     "src": "course/en/images/brick.png",
                     "alt": "Lorem ipsum",
@@ -123,8 +149,8 @@
                 "strapline": "Solid foundations"
             },
             {
-                "title": "Useful for users",
-                "body": "No-one stays up-to-date using last year’s newspaper. When you are finding open data, you want the latest version. Recognising sustainable datasets gives you the confidence you are working from current information",
+                "title": "Enhances trust",
+                "body": "In a world of constant scrutiny, sustainable open data allows a large community to build and analyse data in order to draw their own conclusions, often in support of a publishers view",
                 "_graphic": {
                     "src": "course/en/images/news.png",
                     "alt": "Lorem ipsum",
@@ -133,8 +159,8 @@
                 "strapline": "Useful for users"
             },
             {
-                "title": "Better for business",
-                "body": "As a business using open data, you are investing in an idea you hope will pay off in future. Un-sustainable data can vanish overnight and leave a business without a product. The more sustainable the data on which you based your idea, the less risk of your investment not paying off",
+                "title": "Builds business connections",
+                "body": "Sustained open data has the power to unlock new customer channels, enabling other business to build on a publisher's data. In many cases these businesses provide direct benefits back to the publisher",
                 "_graphic": {
                     "src": "course/en/images/grow.png",
                     "alt": "Lorem ipsum",
@@ -143,8 +169,8 @@
                 "strapline": "Better for business"
             },
             {
-                "title": "Perfect for publishers",
-                "body": "Sustainable open data releases are more popular with users. As a publisher of open data, the goal is to get as many people as possible creating value which is best done by sustaining your release",
+                "title": "Improves data usability",
+                "body": "One of the biggest reusers of a publisher's data may well be the publisher. Why separate the public release of data from the internal data usage?",
                 "_graphic": {
                     "src": "course/en/images/queue.png",
                     "alt": "Lorem ipsum",
@@ -158,8 +184,8 @@
         }
     },
  {
-        "_id":"c-42",
-        "_parentId":"b-40",
+        "_id":"c-52",
+        "_parentId":"b-50",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
@@ -173,8 +199,8 @@
         }
     },
     {
-      "_id":"c-41",
-      "_parentId":"b-40",
+      "_id":"c-51",
+      "_parentId":"b-50",
       "_type":"component",
       "_component":"accordion",
       "_classes":"",
@@ -187,32 +213,32 @@
         {
           "alt": "What is the source?",
           "title": "What is the source?",
-          "body": "<p>Ask yourself who has released the data and how much confidence do you have in their commitment to continue updating it? One of the most important indicators of sustainability is how confident you feel in the organisation who collects it. If the data is from government, might an election or a change in priority affect the release?</p>"
+          "body": "<p>Ask yourself who has released the data and how much confidence do you have in their commitment to continue updating it?<br><br>One of the most important indicators of sustainability is how confident you feel in the organisation who collects it.<br><br>If the data is from government, might an election or a change in priority affect the release?</p>"
         },
         {
           "alt": "Who is funding the release?",
           "title": "Who is funding the release?",
-          "body": "<p>Even though open data is free to access, use and share, there is still a cost in creating, maintaining and publishing usable data. Ask yourself how that dataset has been paid for and how confident you are about that funding being continued. If government funded, think about where else the dataset is used? Is it the result of a mandate or used in other processes/ places? If the dataset is used elsewhere it is quite likely that the data will continue to be used If drawn from the private sector, think about why the company, charity or person is releasing the data? Is this something they fund themselves, the result of an existing process or a dedicated programme? The more other reasons why the publisher needs that data, the more likely they will continue to release it</p>"
+          "body": "<p>Data available at no cost appears ideal, however ask yourself how a publisher is funding the sustained release?<br><br>As yourself if the data is being released because of transparency pressures, or if there is a wider beneficial use driving demand<br><br>Try and find out if there is a specific short term programme funding the data availability or is the release part of the core strategy of the organisation?</p>"
         },
         {
           "alt": "What does the license say?",
           "title": "What does the license say?",
-          "body": "<p>Remember that without a license, data is not truly open. The licence gives you certainty that data can be used and shared for a wide range of purposes. Licenses also give you a clue as to how the publisher of a dataset looks at the sustainability. When looking at a license, ask yourself what does the text say about the future of the dataset? Does it contain a commitment to update regularly? Is there an ‘expiry date’ for the data included? Licenses usually tell you something about the publisher’s confidence in the sustainability of the dataset</p>"
+          "body": "<p>Licenses can also offer clues about sustainability<br><br>When looking at a license, ask yourself what does the text hint about the future of the dataset and confidence of the publisher? Does it contain a commitment to update regularly?<br><br>Remember that without a license, data is not truly open. The licence gives you certainty that data can be freely used and shared.</p>"
         },
         {
           "alt": "Who is already using the data?",
           "title": "Who is already using the data?",
-          "body": "<p>The more people are already using a dataset, the more likely the publisher is to regularly update the release to meet their demand. Remember that there is little point in putting data into the public domain if there is no one prepared or incentivised to use and create new value from it. Ask yourself who else seems to be creating things with this dataset? If other people are creating great success stories with the data, the publisher has a compelling reason to sustain the release. For example, TFL has a community of more than 5000 developers who are turning their open data into real value for the company. This use makes TfL’s data one of the most sustainable examples available because the company has a clear reason to provide secure funding and active support in response to the wide reuse</p>"
+          "body": "<p>The more widely a dataset is used, the more pressure there is for it to be sustained<br><br>Ask yourself who else is using this dataset and for what purposes?<br><br>Try and find if the dataset is used internally by the publisher themselves?<br><br>Both aspects are important in order to discover if the publisher cares about the dataset themselves (through their own use) and has external pressure to not remove access or change it only for their purposes.</p>"
         },
         {
           "alt": "What is the publishing history?",
           "title": "What is the publishing history?",
-          "body": "<p>Sustainability is ultimately about how much trust you place in the publisher. One of the best ways to make up your mind about how someone will behave in the future is to look at how they have behaved in the past. For an open dataset, past behaviour can be found in the publishing history. Ask yourself how long the dataset has been published for? A long history of updates is a good sign because it demonstrates that the publisher has a proven commitment to regular, quality updates</p>"
+          "body": "<p>Sustainability is ultimately about how much trust you place in the publisher<br><br>One of the best ways to make up your mind about how someone will behave in the future is to look at how they have behaved in the past<br><br>Ask yourself how long the dataset has been published for? A long history of updates is a good sign, but beware external factors such as project lengths or terms in office. A key indicator of a sustained initiative is one that outlives these external factors.</p>"
         },
         {
-          "alt": "How can I use this data?",
-          "title": "Who is already using the data?",
-          "body": "<p>A final question to ask yourself is what can I do to make the dataset more sustainable? One of the biggest causes of dataset updates being neglected is that no one is using it. Even one user can make a real difference to the sustainability of a dataset if they are able to show how they have used it to create value. Ask yourself how you can create a story around the dataset to show its value to the publisher and demonstrate a clear case for sustaining the release</p>"
+          "alt": "How can I contribute?",
+          "title": "How can I contribute?",
+          "body": "<p>Using the dataset yourself will help drive the demand and thus influence the sustainability<br><br>Think about joining any communities of practice that exist around the dataset<br><br>Try and find out if the publisher plays an active role in this community and do they act upon feedback to improve their services?<br><br>sk yourself what value you can demonstrate that will enhance the sustainability provided by the publisher?</p>"
         }
       ],
       "_pageLevelProgress": {
@@ -220,8 +246,8 @@
       }
     },
 {
-        "_id":"c-51",
-        "_parentId":"b-50",
+        "_id":"c-61",
+        "_parentId":"b-60",
         "_type":"component",
         "_component":"gmcq",
         "_classes":"",
@@ -302,8 +328,8 @@
         }
     },
 {
-        "_id":"c-61",
-        "_parentId":"b-60",
+        "_id":"c-71",
+        "_parentId":"b-70",
         "_type":"component",
         "_component":"graphic",
         "_classes":"illustration",
@@ -317,8 +343,8 @@
         }
     },
     {
-        "_id":"c-62",
-        "_parentId":"b-60",
+        "_id":"c-72",
+        "_parentId":"b-70",
         "_type":"component",
         "_component":"mcq",
         "_classes":"",
@@ -326,34 +352,42 @@
         "_attempts":1,
         "_questionWeight":1,
         "_isRandom":true,
-        "_selectable":1,
-        "title": "MCQ example",
-        "displayTitle": "MCQ example",
-        "body": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>",
-        "instruction": "<em>Hint: The answer is three.</em>",
+        "_selectable":3,
+        "title": "What should I look for when assessing sustainability?",
+        "displayTitle": "What should I look for when assessing sustainability?",
+        "body": "<p>What tell-tale signs should you look for when assessing the sustainability of an open dataset?</p>",
+        "instruction": "<em>Choose three answers</em>",
         "_items": [
             {
-                "text": "One",
+                "text": "What is the publishing history?",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "How much does it cost?",
                 "_shouldBeSelected": false
             },
             {
-                "text": "Two",
+                "text": "Who is already using the data?",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "What format is the data in?",
                 "_shouldBeSelected": false
             },
             {
-                "text": "Three",
+                "text": "Who is funding the release?",
                 "_shouldBeSelected": true
             }
         ],
         "_feedback":{
-            "correct":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "correct":"Looking for the publishing history, who is using the data and how it is paid for are all key questions to ask when determining the sustainability of the dataset.",
             "_incorrect": {
-                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                "notFinal": "Looking for the publishing history, who is using the data and how it is paid for are all key questions to ask when determining the sustainability of the dataset.",
+                "final": "Looking for the publishing history, who is using the data and how it is paid for are all key questions to ask when determining the sustainability of the dataset."
             },
             "_partlyCorrect": {
-                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                "notFinal": "Looking for the publishing history, who is using the data and how it is paid for are all key questions to ask when determining the sustainability of the dataset.",
+                "final": "Looking for the publishing history, who is using the data and how it is paid for are all key questions to ask when determining the sustainability of the dataset."
           }
         },
         "_buttons":{
@@ -390,7 +424,7 @@
         "_layout":"left",
         "title":"Summary",
         "displayTitle":"Summary",
-        "body":"<p>In this module, we have examined how you, as an open data user, can better judge the reliability and longevity of a particulr open data release. We have learned that a sustainable open data release combines a long-term commitment.</p><h5>What you have learned</h5><ul class='ticks'><li>What influences the sustainability of a dataset</li><li>Why sustainability matters to you</li><li>How to spot tell-tale signs of sustainability</li></ul>",
+        "body":"<p>In this module, we have learned how you can evaluate the sustainability of an open data release. You can use these techniques to identify sustainable sources of data and give you the confidence to work with them long-term.</p><h5>What you have learned</h5><ul class='ticks'><li>What influences the sustainability of a dataset</li><li>Why sustainability matters to you</li><li>How to spot tell-tale signs of sustainability</li></ul>",
         "_pageLevelProgress": {
           "_isEnabled": true
         }
