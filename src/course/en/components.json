@@ -1,6 +1,6 @@
 [
     {
-        "_id":"c-02",
+        "_id":"c-01",
         "_parentId":"b-01",
         "_type":"component",
         "_component":"graphic",
@@ -13,21 +13,21 @@
         "_graphic": {
             "alt": "",
             "title": "",
-            "large": "course/en/images/example-odi-rotated.png",
-            "medium": "course/en/images/example-odi-rotated.png",
-            "small": "course/en/images/example-odi-rotated.png"
+            "large": "course/en/images/odi.png",
+            "medium": "course/en/images/odi.png",
+            "small": "course/en/images/odi.png"
         }
     },
     {
-        "_id":"c-01",
+        "_id":"c-02",
         "_parentId":"b-01",
         "_type":"component",
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Adapt template for the Open Data Instititute",
-        "displayTitle":"Adapt template for the Open Data Instititute",
-        "body":"<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat exercitation.</p><h5>Learning objectives</h5><ul class='ticks'><li>Lorem ipsum dolor sit amet, consectetur</li><li>Consectetur adipisicing elit, sed do eiusmod tempor incididunt commodo consequat</li><li>Et dolore magna aliqua. Ut enim ad met</li><li>Exercitation ullamco laboris nisi ut aliquip ex ea</li><li>Sit amet, consectetur</li></ul>",
+        "title":"Why do we need to license?",
+        "displayTitle":"Why do we need to license?",
+        "body":"<p>For data to be open, it should be accessible (this usually means being published online) and licensed for anyone to access, use and share.</p><h5>In this module we’ll look at:</h5><ul class='ticks'><li>Why open data needs to be licensed</li><li>How licences unlock the value of open data</li><li>What type of licence suits open data</li><li>How to provide for open data licensing in the tender, procurement and contracting lifecycle</li></ul>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
@@ -40,10 +40,10 @@
         "_component":"media",
         "_classes":"",
         "_layout":"full",
-        "title":"Video example",
-        "displayTitle": "Video example",
-        "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore",
-        "instruction": "<em>Click to play the video</em>",
+        "title":"Simplifying open data licences – in two minutes",
+        "displayTitle": "Simplifying open data licences – in two minutes",
+        "body": "The ODI’s Ellen Broad explains why we need open data licences, how they help unlock the value of data and best practice in choosing the right type of licence.",
+        "instruction": "",
         "_setCompletionOn":"ended",
         "_media": {
             "mp4": "course/en/video/sponge_placeholder.mp4",
@@ -64,9 +64,9 @@
         "_graphic": {
             "alt": "",
             "title": "",
-            "large": "http://placehold.it/430x430",
-            "medium": "http://placehold.it/430x430",
-            "small": "http://placehold.it/430x430"
+            "large": "course/en/images/P03_TextImage_430x430.jpg",
+            "medium": "course/en/images/P03_TextImage_430x430.jpg",
+            "small": "course/en/images/P03_TextImage_430x430.jpg"
         }
     },
     {
@@ -76,13 +76,188 @@
         "_component":"text",
         "_classes":"",
         "_layout":"right",
-        "title":"Text and image",
-        "displayTitle":"Text and image",
-        "body":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "title":"Why license open data?",
+        "displayTitle":"Why license open data?",
+        "body":"<p>Without a licence, data is not truly open.</p><p>A licence tells anyone that they can access, use and share your data.</p><p>For data to be open, it should be accessible (usually available online) and licensed for anyone to access, use and share.</p><p>Unless you have a licence, data will be ‘publicly available’, but users may not have permission to access use and share it under copyright or database laws.</p>"
+    },
+     {
+        "_id": "c-25",
+        "_parentId": "b-25",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Unlocking the value in open data",
+        "displayTitle": "Unlocking the value in open data",
+        "body": "Licensing gives permission to businesses, startups, governments or other organisations to innovate with open data.",
+        "instruction": "<em class='desktop-instruction'>Click the forward arrow to see more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
+        "_items": [
+            {
+                "title": "Providing certainty",
+                "body": "<p>Open data licences provide users with certainty that the data can be used and shared for a wide range of purposes.</p><p>A licence is an explicit permission to use the data for both commercial and non-commercial purposes.</p><p>Without a licence, users may find themselves in a legal grey area.</p>",
+                "_graphic": {
+                    "src": "course/en/images/P04_Narrative_550x370.jpg",
+                    "alt": "Providing certainty",
+                    "title": "Providing certainty"
+                },
+                "strapline": "Providing certainty"
+            },
+            {
+                "title": "Providing clarity",
+                "body": "<p>Only 20% (approximately) of open data providers across the European Union are truly open licensed (as of 2015).</p><p>In the EU, copyright and database laws are complex. While data might be intended to be open, a licence provides legal clarity for users.</p><p>The OpenDataMonitor platform provides information and statistics on European open data catalogues.</p><p><a href='http://www.opendatamonitor.eu/frontend/web/index.php?r=datacatalogue%2Findex' target='_blank'>Take me to the OpenDataMonitor platform</a></p>",
+                "_graphic": {
+                    "src": "course/en/images/P04a_Narrative_550x370.jpg",
+                    "alt": "A graph of open licences across countries",
+                    "title": "A graph of open licences across countries"
+                },
+                "strapline": "Providing clarity"
+            },
+            {
+                "title": "Enabling innovation",
+                "body": "<p>Open data licences enable experimentation, exploration and innovative uses of open data in new products and services.</p><p>For example, Transport for London’s transport data is openly licensed.  It has underpinned a wide range of public transport journey planners, available as apps on smartphones and mobile devices.</p><p><a href='http://www.tfl.gov.uk/' target='_blank'>Take me to Transport for London </a></p>",
+                "_graphic": {
+                    "src": "course/en/images/P04b_V1_Narrative_550x370.jpg",
+                    "alt": "A map from a to b",
+                    "title": "A map from a to b"
+                },
+                "strapline": "Enabling innovation"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
     },
     {
-        "_id":"c-31",
-        "_parentId":"b-30",
+        "_id":"c-30",
+        "_parentId":"b-28",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/P05_V2_AccordianCollapsed_430x430.jpg",
+            "medium": "course/en/images/P05_V2_AccordianCollapsed_430x430.jpg",
+            "small": "course/en/images/P05_V2_AccordianCollapsed_430x430.jpg"
+        }
+    },
+    {
+      "_id":"c-35",
+      "_parentId":"b-28",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"left",
+      "title": "Types of licences",
+      "displayTitle": "Types of licences",
+      "body": "<p>The simpler the licence, the better!</p><p>There are lots of different licences. To maximise reuse, try to adopt a licence standard that is already widely used.</p>",
+      "instruction": "<em>Click the headings to explore further.</em>",
+      "_items": [
+        {
+          "alt": "Creative Commons licences",
+          "title": "Creative Commons licences",
+          "body": "<p>Creative Commons licences are widely used for open content. Version 4.0 explicitly considers data licensing.</p><p>There are three Creative Commons versions of an open licence:</p><ul><li><strong>Public domain: CC0</strong></li><li><strong>Attribution: CC-BY v4.0</strong></li><li><strong>Attribution & share-alike: CC-BY-SA v4.0</strong></li></ul><p>The public domain and attribution licences give most flexibility in the use of data while a share-alike licence may limit the commercial use of the data.</p><p>Explore the different licences available at the Creative Commons website -</p><p><a href='http://creativecommons.org/' target='_blank'>Take me to the Creative Commons website</a></p>"
+        },
+        {
+          "alt": "Bespoke licences",
+          "title": "Bespoke licences",
+          "body": "<p>Bespoke licences can increase the complexity for users of open data.</p><p>They may introduce specific conditions that limit usage, restrict data integration and in some cases, are practicably difficult for re-users to comply with.</p>"
+        },
+        {
+          "alt": "UK Open Government licence",
+          "title": "UK Open Government licence",
+          "body": "<p>Some publishers have chosen to develop their own licences.</p><p>The best examples are:</p><ul><li>short</li><li>compatible with widely used licences</li><li>easy to comply with</li></ul><p>The UK Government has a good example of an open licence developed in this way that is used by UK Government departments -</p><p><a href='http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/' target='_blank'>Take me to the UK Government open licence</a></p>"
+        }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+     {
+        "_id": "c-40",
+        "_parentId": "b-30",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Licences and third parties",
+        "displayTitle": "Licences and third parties",
+        "body": "The publication of open data may be required as part of the tendering, procurement and contracting lifecycle.",
+        "instruction": "<em class='desktop-instruction'>Click the forward arrow to see more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
+        "_items": [
+            {
+                "title": "Third parties",
+                "body": "<p>Governments and organisations engage contractors who provide services on their behalf.</p><p>These governments and organisations may be committed to publishing open data, and extend that to third parties.</p><p>This is important because where public money is spent, it should add public resource.</p>",
+                "_graphic": {
+                    "src": "course/en/images/P06_Narrative_550x370.jpg",
+                    "alt": "Third parties",
+                    "title": "Third parties"
+                },
+                "strapline": "Third parties"
+            },
+            {
+                "title": "Including open data in contracts",
+                "body": "<p>To ensure that data collected and used by contractors is also published as open data, an organisation can:</p><ul><li>include this as a condition in the contract</li><li>retain ownership of the data to publish it as open data themselves</li></ul>",
+                "_graphic": {
+                    "src": "course/en/images/P06a_Narrative_550x370.jpg",
+                    "alt": "Including open data in contracts",
+                    "title": "Including open data in contracts"
+                },
+                "strapline": "Including open data in contracts"
+            },
+            {
+                "title": "Open data about performance",
+                "body": "<p>A contractor for services can also require performance data and any data related to the formation of procured services be published as open data.</p><p>Past performance data helps potential suppliers understand which parts of the contract are easy or difficult, and enables competition during the tendering process.</p>",
+                "_graphic": {
+                    "src": "course/en/images/P06b_narrative_550x370.jpg",
+                    "alt": "Open data about performance",
+                    "title": "Open data about performance"
+                },
+                "strapline": "Open data about performance"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-42",
+        "_parentId":"b-32",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/burst-indigo.png",
+            "medium": "course/en/images/burst-indigo.png",
+            "small": "course/en/images/burst-indigo.png"
+        }
+    },
+    {
+        "_id":"c-43",
+        "_parentId":"b-32",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Are you ready to license?",
+        "displayTitle":"Are you ready to license?",
+        "body":"<p>There are four simple things to remember when it comes to licensing. Can you recall them?</p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-45",
+        "_parentId":"b-35",
         "_type":"component",
         "_component":"graphic",
         "_classes":"illustration",
@@ -90,14 +265,15 @@
         "_graphic": {
             "alt": "",
             "title": "",
-            "large": "course/en/images/example-burst.png",
-            "medium": "course/en/images/example-burst.png",
-            "small": "course/en/images/example-burst.png"
+            "large": "course/en/images/P07_MCQ_430x430.jpg",
+            "medium": "course/en/images/P07_MCQ_430x430.jpg",
+            "small": "course/en/images/P07_MCQ_430x430.jpg"
         }
     },
+    
     {
-        "_id":"c-32",
-        "_parentId":"b-30",
+        "_id":"c-50",
+        "_parentId":"b-35",
         "_type":"component",
         "_component":"mcq",
         "_classes":"",
@@ -106,33 +282,33 @@
         "_questionWeight":1,
         "_isRandom":true,
         "_selectable":1,
-        "title": "MCQ example",
-        "displayTitle": "MCQ example",
-        "body": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>",
-        "instruction": "<em>Hint: The answer is three.</em>",
+        "title": "Why license open data?",
+        "displayTitle": "Why license open data?",
+        "body": "<p>What is the <strong>most important aspect of publishing data</strong> that <strong>permits</strong> users to access, use and share the data?</p>",
+        "instruction": "<em>Select an option, then click Submit.</em>",
         "_items": [
             {
-                "text": "One",
+                "text": "The header information?",
                 "_shouldBeSelected": false
             },
             {
-                "text": "Two",
-                "_shouldBeSelected": false
-            },
-            {
-                "text": "Three",
+                "text": "The licence.",
                 "_shouldBeSelected": true
+            },
+            {
+                "text": "An email from the webmaster?",
+                "_shouldBeSelected": false
             }
         ],
         "_feedback":{
-            "correct":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "correct":"<h5>That’s right!</h5><p>Without a licence, data will be ‘publicly available’, but users may have not have permission to access use and share it under copyright and/or database laws.</p>",
             "_incorrect": {
-                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                "notFinal": "h5>Are you sure about that?</h5><p>Without a licence, data will be ‘publicly available’, but users may have not have permission to access use and share it under copyright and/or database laws.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>Without a licence, data will be ‘publicly available’, but users may have not have permission to access use and share it under copyright and/or database laws.</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                "notFinal": "<h5>Are you sure about that?</h5><p>Without a licence, data will be ‘publicly available’, but users may have not have permission to access use and share it under copyright and/or database laws.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>Without a licence, data will be ‘publicly available’, but users may have not have permission to access use and share it under copyright and/or database laws.</p>"
           }
         },
         "_buttons":{
@@ -145,114 +321,60 @@
         "_isEnabled": true
       }
     },
-     {
-        "_id": "c-41",
-        "_parentId": "b-40",
-        "_classes": "",
+    {
+        "_id":"c-55",
+        "_parentId":"b-40",
         "_type":"component",
-        "_layout": "full",
-        "_component": "narrative",
-        "title": "Narrative component",
-        "displayTitle": "Narrative component",
-        "body": "Lorem ipsum dolor sit amet dolore lorem ipsum dolor sit amet.",
-        "instruction": "<em>Click through the narrative component.</em>",
-        "_items": [
-            {
-                "title": "Lorem ipsum",
-                "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud citation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                "_graphic": {
-                    "src": "http://placehold.it/590x400",
-                    "alt": "Lorem ipsum",
-                    "title": "Lorem ipsum"
-                },
-                "strapline": "Lorem ipsum"
-            },
-            {
-                "title": "Dolot sit amet",
-                "body": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "_graphic": {
-                    "src": "http://placehold.it/590x400",
-                    "alt": "Lorem ipsum",
-                    "title": "Lorem ipsum"
-                },
-                "strapline": "Lorem ipsum"
-            }
-        ],
-        "_pageLevelProgress": {
-        "_isEnabled": true
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/P07c_MCQ_430x430.jpg",
+            "medium": "course/en/images/P07c_MCQ_430x430.jpg",
+            "small": "course/en/images/P07c_MCQ_430x430.jpg"
         }
     },
     {
-        "_id":"c-51",
-        "_parentId":"b-50",
+        "_id":"c-60",
+        "_parentId":"b-40",
         "_type":"component",
-        "_component":"gmcq",
+        "_component":"mcq",
         "_classes":"",
-        "_layout":"full",
+        "_layout":"right",
         "_attempts":1,
         "_questionWeight":1,
-        "_isRandom":false,
+        "_isRandom":true,
         "_selectable":1,
-        "title": "GMCQ example",
-        "displayTitle": "GMCQ example",
-        "body": "Lorem ipsum dolor sit amet mpor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliq.",
-        "instruction": "<em>Select one or more options below and select Submit.</em>",
+        "title": "Unlocking the value in open data",
+        "displayTitle": "Unlocking the value in open data",
+        "body": "<p>What is the <strong>most important part</strong> of publishing that gives <strong>permission</strong> to businesses, startups, governments or other organisations to be innovative with your open data?</p>",
+        "instruction": "<em>Select an option, then click Submit.</em>",
         "_items": [
             {
-                "text": "Answer one",
-                "_shouldBeSelected":false,
-                "_graphic": {
-                    "alt": "",
-                    "title": "",
-                    "large": "http://placehold.it/430x220",
-                    "medium": "http://placehold.it/430x220",
-                    "small": "http://placehold.it/430x220"
-                }
+                "text": "A letter of approval?",
+                "_shouldBeSelected": false
             },
             {
-                "text": "Answer two",
-                "_shouldBeSelected":false,
-                "_graphic": {
-                    "alt": "",
-                    "title": "",
-                    "large": "http://placehold.it/430x220",
-                    "medium": "http://placehold.it/430x220",
-                    "small": "http://placehold.it/430x220"
-                }
+                "text": "A quick phone call?",
+                "_shouldBeSelected": false
             },
             {
-                "text": "Answer three",
-                "_shouldBeSelected":false,
-                "_graphic": {
-                    "alt": "",
-                    "title": "",
-                    "large": "http://placehold.it/430x220",
-                    "medium": "http://placehold.it/430x220",
-                    "small": "http://placehold.it/430x220"
-                }
-            },
-            {
-                "text": "Answer four",
-                "_shouldBeSelected":true,
-                "_graphic": {
-                    "alt": "",
-                    "title": "",
-                    "large": "http://placehold.it/430x220",
-                    "medium": "http://placehold.it/430x220",
-                    "small": "http://placehold.it/430x220"
-                }
+                "text": "A simple open licence.",
+                "_shouldBeSelected": true
             }
         ],
         "_feedback":{
-            "correct":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "correct":"<h5>That’s right!</h5><p>Licensing gives permission to businesses, startups, governments or other organisations to be innovative with your open data.</p>",
             "_incorrect": {
-                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                "notFinal": "<h5>Are you sure about that?</h5><p>Without a licence, data will be ‘publicly available’, but users may have not have permission to access use and share it under copyright and/or database laws.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>Without a licence, data will be ‘publicly available’, but users may have not have permission to access use and share it under copyright and/or database laws.</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-            }
+                "notFinal": "<h5>Are you sure about that?</h5><p>Without a licence, data will be ‘publicly available’, but users may have not have permission to access use and share it under copyright and/or database laws.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>Without a licence, data will be ‘publicly available’, but users may have not have permission to access use and share it under copyright and/or database laws.</p>"
+          }
         },
         "_buttons":{
             "submit":"",
@@ -261,237 +383,64 @@
             "hideCorrectAnswer":""
         },
         "_pageLevelProgress": {
-          "_isEnabled": true
-        }
-    },
-    {
-        "_id":"c-62",
-        "_parentId":"b-60",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"right",
-        "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "http://placehold.it/430x430",
-            "medium": "http://placehold.it/430x430",
-            "small": "http://placehold.it/430x430"
-        }
-    },
-    {
-      "_id":"c-61",
-      "_parentId":"b-60",
-      "_type":"component",
-      "_component":"accordion",
-      "_classes":"",
-      "_layout":"left",
-      "title": "Accordion",
-      "displayTitle": "Accordion",
-      "body": "An example of an accordion component.",
-      "instruction": "<em>Click the headings to reveal more.</em>",
-      "_items": [
-        {
-          "alt": "Lorem ipsum",
-          "title": "Lorem ipsum",
-          "body": "<p>Lorem ipsum dolor sit amet.</p>"
-        },
-        {
-          "alt": "Lorem ipsum",
-          "title": "Lorem ipsum",
-          "body": "<p>Lorem ipsum dolor sit amet.</p>"
-        },
-        {
-          "alt": "Lorem ipsum",
-          "title": "Lorem ipsum",
-          "body": "<p>Lorem ipsum dolor sit amet.</p>"
-        }
-      ],
-      "_pageLevelProgress": {
         "_isEnabled": true
       }
     },
     {
-        "_id":"c-72",
-        "_parentId":"b-70",
+        "_id":"c-65",
+        "_parentId":"b-45",
         "_type":"component",
         "_component":"graphic",
         "_classes":"illustration",
-        "_layout":"left",
+        "_layout":"right",
         "_graphic": {
             "alt": "",
             "title": "",
-            "large": "course/en/images/example-burst.png",
-            "medium": "course/en/images/example-burst.png",
-            "small": "course/en/images/example-burst.png"
+            "large": "course/en/images/P07i_MCQ_430x430.jpg",
+            "medium": "course/en/images/P07i_MCQ_430x430.jpg",
+            "small": "course/en/images/P07i_MCQ_430x430.jpg"
         }
     },
     {
-        "_id": "c-71",
-        "_parentId":"b-70",
-        "_classes": "",
-        "_layout": "right",
-        "_type": "component",
-        "_component": "matching",
-        "_attempts": 1,
+        "_id":"c-70",
+        "_parentId":"b-45",
+        "_type":"component",
+        "_component":"mcq",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
         "_isRandom":true,
-        "_questionWeight":1,
-        "title": "Matching component",
-        "displayTitle": "Matching component",
-        "body": "Here is an example of a matching component",
-        "instruction":"<em>Select your options from the dropdown menus.</em>",
-        "_buttons":{
-            "submit":"",
-            "reset":"",
-            "showCorrectAnswer":"",
-            "hideCorrectAnswer":""
-        },
-        "_feedback": {
-            "correct": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "_incorrect": {
-                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-            },
-            "_partlyCorrect": {
-                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-            }
-        },
-        "placeholder": "Select an option",
+        "_selectable":1,
+        "title": "Types of licences",
+        "displayTitle": "Types of licences",
+        "body": "<p>Which of the following type of licence would best suit a <strong>UK Government department</strong> who wanted to publish open  data?</p>",
+        "instruction": "<em>Select an option, then click Submit.</em>",
         "_items": [
             {
-                "text": "An example question would go here",
-                "_options": [
-                    {
-                        "text": "One",
-                        "_isCorrect": false
-                    },
-                    {
-                        "text": "Two",
-                        "_isCorrect": false
-                    }
-                ]
+                "text": "UK Open Government licence",
+                "_shouldBeSelected": true
             },
             {
-                "text": "Another example question would go here",
-                "_options": [
-                    {
-                        "text": "One",
-                        "_isCorrect": false
-                    },
-                    {
-                        "text": "Two",
-                        "_isCorrect": false
-                    }
-                ]
-            }
-        ],
-        "_pageLevelProgress": {
-          "_isEnabled": true
-        }
-
-    },
-    {
-        "_id":"c-82",
-        "_parentId":"b-80",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"right",
-        "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "http://placehold.it/430x430",
-            "medium": "http://placehold.it/430x430",
-            "small": "http://placehold.it/430x430"
-        }
-    },
-    {
-        "_id":"c-81",
-        "_parentId":"b-80",
-        "_component":"slider",
-        "_classes":"",
-        "_layout":"left",
-        "_attempts": 1,
-        "title": "Slider component",
-        "displayTitle": "Slider component",
-        "body": "Here is an example of a slider component",
-        "instruction":"<em>Drag the slider along and click submit.</em>",
-        "_showNumber": true,
-        "_showScaleIndicator": true,
-        "labelStart": "incomplete",
-        "labelEnd": "complete",
-        "_scaleStart": 1,
-        "_scaleEnd": 10,
-        "_correctAnswer": "",
-        "_correctRange": {
-            "_bottom": 5,
-            "_top": 9
-        },
-        "_feedback": {
-            "correct": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "_incorrect": {
-                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                "text": "Creative Commons standard licence",
+                "_shouldBeSelected": false
             },
-            "_partlyCorrect": {
-                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-            }
-        }
-    },
-    {
-        "_id":"c-92",
-        "_parentId":"b-90",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"illustration",
-        "_layout":"right",
-        "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "course/en/images/example-burst.png",
-            "medium": "course/en/images/example-burst.png",
-            "small": "course/en/images/example-burst.png"
-        }
-    },
-    {
-        "_id":"c-91",
-        "_parentId":"b-90",
-        "_type":"component",
-        "_component":"textinput",
-        "_classes":"",
-        "_layout":"left",
-        "title":"Text input component",
-        "displayTitle":"Text input component",
-        "body":"Here is an example of a text input component. Mpor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliq.",
-        "instruction":"<em>Enter some text and press Submit.</em>",
-        "_attempts": 1,
-        "_questionWeight":1,
-        "placeholder": "Enter your text here",
-        "_allowsAnyCase": true,
-        "_allowsPunctuation": true,
-        "_feedback": {
-            "correct": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "_incorrect": {
-                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-            },
-            "_partlyCorrect": {
-                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-            }
-        },
-        "_items": [
             {
-                "prefix": "",
-                "suffix": "",
-                "_answers": [
-                    "one",
-                    "1"
-                ]
+                "text": "A bespoke licence",
+                "_shouldBeSelected": false
             }
         ],
+        "_feedback":{
+            "correct":"<h5>That’s right!</h5><p>UK Government agencies may be restricted in the use of Creative Commons licensing, so they have developed their own UK Open Government licence</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Are you sure about that?</h5><p>UK Government agencies may be restricted in the use of Creative Commons licensing, so they have developed their own UK Open Government licence.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>UK Government agencies may be restricted in the use of Creative Commons licensing, so they have developed their own UK Open Government licence.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Are you sure about that?</h5><p>UK Government agencies may be restricted in the use of Creative Commons licensing, so they have developed their own UK Open Government licence.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>UK Government agencies may be restricted in the use of Creative Commons licensing, so they have developed their own UK Open Government licence.</p>"
+          }
+        },
         "_buttons":{
             "submit":"",
             "reset":"",
@@ -500,58 +449,76 @@
         },
         "_pageLevelProgress": {
         "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-75",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/P08_Summary_430x430.jpg",
+            "medium": "course/en/images/P08_Summary_430x430.jpg",
+            "small": "course/en/images/P08_Summary_430x430.jpg"
         }
     },
     {
-          "_id": "c-101",
-          "_parentId":"b-100",
-          "_classes": "",
-          "_type":"component",
-          "_component": "hotgraphic",
-          "_layout": "full",
-          "title": "Hotgraphic example",
-          "displayTitle": "Hotgraphic example",
-          "body": "Here is an example of a hotgraphic component. Incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliq.",
-          "mobileBody": "",
-          "instruction":"<em>Click on the pins to learn more information.</em>",
-          "_graphic": {
-            "src": "http://placehold.it/900x530",
-            "alt": "",
-            "title": ""
-          },
-          "_items": [
+        "_id":"c-80",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"mcq",
+        "_classes":"",
+        "_layout":"right",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Licences and third parties",
+        "displayTitle": "Licences and third parties",
+        "body": "<p>Do open licences have a place in the <strong>tendering, procurement and contracting lifecycle?</strong></p>",
+        "instruction": "<em>Select an option, then click Submit.</em>",
+        "_items": [
             {
-                "title": "Example 1",
-                "body": "Example 1 lorem ipsum",
-                "_graphic": {
-                    "src": "http://placehold.it/400x270",
-                    "alt": "Lorem ipsum",
-                    "title": "Lorem ipsum"
-                },
-                "strapline": "Example 1",
-                "_top": 40,
-                "_left": 10
+                "text": "Only if contractors ask for them.",
+                "_shouldBeSelected": false
             },
             {
-                "title": "Example 2",
-                "body": "Example 2 lorem ipsum",
-                "_graphic": {
-                    "src": "http://placehold.it/400x270",
-                    "alt": "Lorem ipsum",
-                    "title": "Lorem ipsum"
-                },
-                "strapline": "Example 2",
-                "_top": 40,
-                "_left": 60
+                "text": "No, a licence should not be part of the process.",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Open licences should be integral to the contract lifecycle",
+                "_shouldBeSelected": true
             }
         ],
+        "_feedback":{
+            "correct":"<h5>That’s right!</h5><p>Open data is core to the procurement lifecycle. Organisations tendering for services can publish performance data and related data to help businesses bid for services.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Are you sure about that?</h5><p>Open data is core to the procurement lifecycle. Organisations tendering for services can publish performance data and related data to help businesses bid for services. </p>",
+                "final": "<h5>Are you sure about that?</h5><p>Open data is core to the procurement lifecycle. Organisations tendering for services can publish performance data and related data to help businesses bid for services.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Are you sure about that?</h5><p>Open data is core to the procurement lifecycle. Organisations tendering for services can publish performance data and related data to help businesses bid for services.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>Open data is core to the procurement lifecycle. Organisations tendering for services can publish performance data and related data to help businesses bid for services.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
         "_pageLevelProgress": {
-          "_isEnabled": true
-        }
+        "_isEnabled": true
+      }
     },
     {
-        "_id":"c-112",
-        "_parentId":"b-110",
+        "_id":"c-85",
+        "_parentId":"b-55",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
@@ -565,30 +532,30 @@
         }
     },
     {
-        "_id":"c-111",
-        "_parentId":"b-110",
+        "_id":"c-90",
+        "_parentId":"b-55",
         "_type":"component",
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Summary",
-        "displayTitle":"Summary",
-        "body":"<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat exercitation.</p><h5>What you have learned</h5><ul class='ticks'><li>Lorem ipsum dolor sit amet, consectetur</li><li>Consectetur adipisicing elit, sed do eiusmod tempor incididunt commodo consequat</li><li>Et dolore magna aliqua. Ut enim ad met</li><li>Exercitation ullamco laboris nisi ut aliquip ex ea</li><li>Sit amet, consectetur</li></ul>",
+        "title":"Open data licences.  Simple.",
+        "displayTitle":"Open data licences.  Simple.",
+        "body":"<p>For your data to be open, it should be accessible (usually published online) and licensed for anyone to access, use and share.</p><p>Licensing gives permission to businesses, startups, governments or other organisations to be innovative with your open data.</p><p>Open data licensing should be provided for in the tendering, procurement and contracting lifecycle.</p><p>And remember, the simpler the licence, the better!</p><p>In the next module, we assess open data quality and look at how easy it is to prepare data for users to use and unlock its value.</p>",
         "_pageLevelProgress": {
           "_isEnabled": true
         }
     },
     {
-       "_id":"c-113",
-       "_parentId":"b-110",
+       "_id":"c-95",
+       "_parentId":"b-55",
        "_type":"component",
        "_component":"text",
        "_classes":"separator",
        "_layout":"full"
     },
     {
-        "_id":"c-114",
-        "_parentId":"b-110",
+        "_id":"c-100",
+        "_parentId":"b-55",
         "_type":"component",
         "_component":"graphic",
         "_classes":"footer-logo",
@@ -602,8 +569,8 @@
         }
     },
     {
-        "_id":"c-115",
-        "_parentId":"b-110",
+        "_id":"c-105",
+        "_parentId":"b-55",
         "_type":"component",
         "_component":"text",
         "_classes":"social-buttons",

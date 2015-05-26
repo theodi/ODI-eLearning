@@ -21,16 +21,28 @@
         },
         "_resourcesItems": [
             {
-                "_type": "document",
-                "title": "Resource example",
-                "description": "Click here to see a proposed button idea",
-                "_link": "course/en/pdf/adapt-framework-prototypes-buttons.pdf"
+                "_type": "link",
+                "title": "OpenDataMonitor platform",
+                "description": "Take me to the OpenDataMonitor platform",
+                "_link": "http://www.opendatamonitor.eu/frontend/web/index.php?r=datacatalogue%2Findex"
             },
             {
-                "_type": "document",
-                "title": "Example resource",
-                "description": "Click here to see a proposed button idea",
-                "_link": "course/en/pdf/adapt-framework-prototypes-buttons.pdf"
+                "_type": "link",
+                "title": "Transport for London",
+                "description": "Take me to Transport for London",
+                "_link": "http://www.tfl.gov.uk/"
+            },
+            {
+                "_type": "link",
+                "title": "Creative Commons website",
+                "description": "Take me to the Creative Commons website",
+                "_link": "http://creativecommons.org/"
+            },
+            {
+                "_type": "link",
+                "title": "UK Government open license",
+                "description": "Take me to the UK Government open license",
+                "_link": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
             }
         ]
     }

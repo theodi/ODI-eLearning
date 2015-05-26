@@ -25,5 +25,15 @@
         &.validation-error {
             color: @validation-error-text-color;
         }
+        @media all and (max-width: @device-width-medium) {
+            .desktop-instruction {
+                display: none;
+            }
+        }
+        @media all and (min-width: @device-width-medium) {
+            .mobile-instruction {
+                display: none;
+            }
+        }
     }
 }

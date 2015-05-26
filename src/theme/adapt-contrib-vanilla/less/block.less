@@ -5,6 +5,9 @@
     .responsive-layout;
     .block-inner {
         padding: 100px 60px;
+        @media all and (max-width:(@device-width-medium - 1px)) {
+            padding: 50px 30px;
+        }
     }
     .block-title {
         text-align:left;
@@ -77,6 +80,16 @@
             }
         }
         .narrative-component {
+            .narrative-controls {
+                background: #fff;
+                border: 1px solid #ddd;
+                &:hover {
+                    background: #eee;
+                }
+                .icon {
+                    color: @foreground-color;
+                }
+            }
             .narrative-content {
                 background: @inverted-foreground-color;
                 color: @foreground-color;
@@ -85,7 +98,11 @@
                 }
             }
             .narrative-progress {
-                border-color: @background-color;
+                border: none;
+                background: rgba(0,0,0,0.2);
+                &.selected {
+                    background: @background-color;
+                }
             }
         }
         .accordion-component {
@@ -145,6 +162,9 @@
         .button {
             background: @inverted-foreground-color;
             color: @inverted-background-color;
+            &:hover {
+                background: #eee;
+            }
         }
     }
     &.summary {
