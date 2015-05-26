@@ -13,9 +13,9 @@
         "_graphic": {
             "alt": "",
             "title": "",
-            "large": "course/en/images/example-odi.png",
-            "medium": "course/en/images/example-odi.png",
-            "small": "course/en/images/example-odi.png"
+            "large": "course/en/images/summary-icon.png",
+            "medium": "ccourse/en/images/summary-icon.png",
+            "small": "course/en/images/summary-icon.png"
         }
     },
     {
@@ -441,16 +441,10 @@
         "_id":"c-114",
         "_parentId":"b-110",
         "_type":"component",
-        "_component":"graphic",
-        "_classes":"footer-logo",
+        "_component":"text",
+        "_classes":"social-buttons",
         "_layout":"left",
-        "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "course/en/images/logo-small.png",
-            "medium": "course/en/images/logo-small.png",
-            "small": "course/en/images/logo-small.png"
-        }
+        "body":"<a class='social' target='_blank' href='http://europa.eu'><img src='course/en/images/europe.jpg' align='left' hspace='5'></a><p align='left' hspace='5'>This project is funded by the European Commision's Connecting Europe Facility</p>"
     },
     {
         "_id":"c-115",
