@@ -33,7 +33,7 @@
         }
     },
     {
-        "_id": "b-30",
+        "_id": "b-25",
         "_parentId": "a-01",
         "_type": "block",
         "_classes": "inverted",
@@ -44,7 +44,29 @@
         }
     },
     {
-        "_id": "b-40",
+        "_id": "b-28",
+        "_parentId": "a-01",
+        "_type": "block",
+        "_classes": "",
+        "_trackingId": 3,
+        "_trickle": {
+            "_isEnabled":false,
+            "button": "Continue"
+        }
+    },
+    {
+        "_id": "b-30",
+        "_parentId": "a-01",
+        "_type": "block",
+        "_classes": "inverted",
+        "_trackingId": 4,
+        "_trickle": {
+            "_isEnabled":false,
+            "button": "Continue"
+        }
+    },
+    {
+        "_id": "b-32",
         "_parentId": "a-01",
         "_type": "block",
         "_classes": "",
@@ -55,10 +77,10 @@
         }
     },
     {
-        "_id": "b-50",
+        "_id": "b-35",
         "_parentId": "a-01",
         "_type": "block",
-        "_classes": "inverted",
+        "_classes": "",
         "_trackingId": 5,
         "_trickle": {
             "_isEnabled":false,
@@ -66,10 +88,10 @@
         }
     },
     {
-        "_id": "b-60",
+        "_id": "b-40",
         "_parentId": "a-01",
         "_type": "block",
-        "_classes": "",
+        "_classes": "inverted",
         "_trackingId": 6,
         "_trickle": {
             "_isEnabled":false,
@@ -77,10 +99,10 @@
         }
     },
     {
-        "_id": "b-70",
+        "_id": "b-45",
         "_parentId": "a-01",
         "_type": "block",
-        "_classes": "inverted",
+        "_classes": "",
         "_trackingId": 7,
         "_trickle": {
             "_isEnabled":false,
@@ -88,10 +110,10 @@
         }
     },
     {
-        "_id": "b-80",
+        "_id": "b-50",
         "_parentId": "a-01",
         "_type": "block",
-        "_classes": "",
+        "_classes": "inverted",
         "_trackingId": 8,
         "_trickle": {
             "_isEnabled":false,
@@ -99,33 +121,11 @@
         }
     },
     {
-        "_id": "b-90",
-        "_parentId": "a-01",
-        "_type": "block",
-        "_classes": "inverted",
-        "_trackingId": 9,
-        "_trickle": {
-            "_isEnabled":false,
-            "button": "Continue"
-        }
-    },
-    {
-        "_id": "b-100",
-        "_parentId": "a-01",
-        "_type": "block",
-        "_classes": "",
-        "_trackingId": 10,
-        "_trickle": {
-            "_isEnabled":false,
-            "button": "Continue"
-        }
-    },
-    {
-        "_id": "b-110",
+        "_id": "b-55",
         "_parentId": "a-01",
         "_type": "block",
         "_classes": "summary",
-        "_trackingId": 11,
+        "_trackingId": 9,
         "_trickle": {
             "_isEnabled":false,
             "button": "Continue"

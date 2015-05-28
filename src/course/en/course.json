@@ -1,8 +1,8 @@
 {
     "_id": "course",
     "_type": "course",
-    "title": "Learning Open Data",
-    "displayTitle": "Learning Open Data",
+    "title": "Engaging in open data initiatives",
+    "displayTitle": "Engaging in open data initiatives",
     "_buttons": {
         "submit": "Submit",
         "reset": "Reset",
@@ -21,16 +21,10 @@
         },
         "_resourcesItems": [
             {
-                "_type": "document",
-                "title": "Resource example",
-                "description": "Click here to see a proposed button idea",
-                "_link": "course/en/pdf/adapt-framework-prototypes-buttons.pdf"
-            },
-            {
-                "_type": "document",
-                "title": "Example resource",
-                "description": "Click here to see a proposed button idea",
-                "_link": "course/en/pdf/adapt-framework-prototypes-buttons.pdf"
+                "_type": "link",
+                "title": "Raspberry-Pi project",
+                "description": "Take me to the Raspberry-Pi project",
+                "_link": "https://www.raspberrypi.org/"
             }
         ]
     }
