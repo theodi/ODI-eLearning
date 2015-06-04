@@ -1,8 +1,8 @@
 {
     "_id": "course",
     "_type": "course",
-    "title": "Learning Open Data",
-    "displayTitle": "Learning Open Data",
+    "title": "Simplifying open data licences",
+    "displayTitle": "Simplifying open data licences",
     "_buttons": {
         "submit": "Submit",
         "reset": "Reset",
@@ -61,6 +61,18 @@
                 "title": "UK Government open license",
                 "description": "Take me to the UK Government open license",
                 "_link": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+            },
+            {
+                "_type": "link",
+                "title": "Data.gov.uk",
+                "description": "Take me to Data.gov.uk",
+                "_link": "http://data.gov.uk/dataset/financial-transactions-data-fco"
+            },
+            {
+                "_type": "link",
+                "title": "Data.gov.sg",
+                "description": "Take me to data.gov.sg",
+                "_link": "http://data.gov.sg/Metadata/OneMapMetadata.aspx?id=DENGUE_CLUSTER&t=SPATIAL"
             }
         ]
     }

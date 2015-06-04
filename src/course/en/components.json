@@ -104,7 +104,7 @@
             },
             {
                 "title": "Providing clarity",
-                "body": "<p>Only 20% (approximately) of open data providers across the European Union are truly open licensed (as of 2015).</p><p>In the EU, copyright and database laws are complex. While data might be intended to be open, a licence provides legal clarity for users.</p><p>The OpenDataMonitor platform provides information and statistics on European open data catalogues.</p><p><a href='http://www.opendatamonitor.eu/frontend/web/index.php?r=datacatalogue%2Findex' target='_blank'>Take me to the OpenDataMonitor platform</a></p>",
+                "body": "<p>Only 20% (approximately) of open data providers across the European Union are truly open licensed (as of 2015).</p><p>In the EU, copyright and database laws are complex. While data might be intended to be open, a licence provides legal clarity for users.</p><p>The OpenDataMonitor platform provides information and statistics on European open data catalogues.<br /><a href='http://www.opendatamonitor.eu/frontend/web/index.php?r=datacatalogue%2Findex' target='_blank'>Take me to the OpenDataMonitor platform</a></p>",
                 "_graphic": {
                     "src": "course/en/images/P04a_Narrative_550x370.jpg",
                     "alt": "A graph of open licences across countries",
@@ -114,13 +114,84 @@
             },
             {
                 "title": "Enabling innovation",
-                "body": "<p>Open data licences enable experimentation, exploration and innovative uses of open data in new products and services.</p><p>For example, Transport for London’s transport data is openly licensed.  It has underpinned a wide range of public transport journey planners, available as apps on smartphones and mobile devices.</p><p><a href='http://www.tfl.gov.uk/' target='_blank'>Take me to Transport for London </a></p>",
+                "body": "<p>Open data licences enable experimentation, exploration and innovative uses of open data in new products and services.</p><p>For example, Transport for London’s transport data is openly licensed.  It has underpinned a wide range of public transport journey planners, available as apps on smartphones and mobile devices.<br /><a href='http://www.tfl.gov.uk/' target='_blank'>Take me to Transport for London </a></p>",
                 "_graphic": {
                     "src": "course/en/images/P04b_V1_Narrative_550x370.jpg",
                     "alt": "A map from a to b",
                     "title": "A map from a to b"
                 },
                 "strapline": "Enabling innovation"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-26",
+        "_parentId":"b-26",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/odi-1-text-image.jpg",
+            "medium": "course/en/images/odi-1-text-image.jpg",
+            "small": "course/en/images/odi-1-text-image.jpg"
+        }
+    },
+    {
+        "_id":"c-27",
+        "_parentId":"b-26",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"How to locate a licence?",
+        "displayTitle":"How to locate a licence?",
+        "body":"<p>Publishers of open data should provide easy access to the licence for all datasets that are available to access, use and share.</p><p>The location and format for licence information will vary according to jurisdiction, industry and individual style.</p><p>Best practice suggests that licences should be easy to find and read, and in the next section we show you how to find a licence.</p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+     {
+        "_id": "c-28",
+        "_parentId": "b-27",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Simple licences, easily found",
+        "displayTitle": "Simple licences, easily found",
+        "body": "Every publisher of open data presents their licences differently.  Here are some examples.",
+        "instruction": "<em class='desktop-instruction'>Click the forward arrow to see more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
+        "_items": [
+            {
+                "title": "UK Government",
+                "body": "<p>The UK Government uses an Open Government Licence.</p><p>This example clearly shows the licence at the top of the web page where the dataset is accessed.  The licence information is a hyperlink that displays the licence in full.</p><p>Have a look at this example dataset and its licence.  While you are there, feel free to explore all the other datasets and services they offer.<br /><a href='http://data.gov.uk/dataset/financial-transactions-data-fco' target='_blank'>Take me to Data.gov.uk</a></p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-2-narrative.jpg",
+                    "alt": "UK Government",
+                    "title": "UK Government"
+                },
+                "strapline": "UK Government"
+            },
+            {
+                "title": "Singapore Government",
+                "body": "<p>Singapore government also publishes open data which is ‘licenced’ or subject to terms and conditions rather than an open or standard licence.</p><p>The ‘licence’ terms and conditions are accessed by clicking on the data download icons or URL,  or via the terms and conditions link at the very bottom of the web page.</p><p>Have a look at this example dataset and its licence.  While you are there, feel free to explore all the other datasets and services they offer.<br /><a href='http://data.gov.sg/Metadata/OneMapMetadata.aspx?id=DENGUE_CLUSTER&t=SPATIAL' target='_blank'>Take me to data.gov.sg</a></p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-3-narrative.jpg",
+                    "alt": "Singapore Government",
+                    "title": "Singapore Government"
+                },
+                "strapline": "Singapore Government"
             }
         ],
         "_pageLevelProgress": {
@@ -157,7 +228,7 @@
         {
           "alt": "Creative Commons licences",
           "title": "Creative Commons licences",
-          "body": "<p>Creative Commons licences are widely used for open content. Version 4.0 explicitly considers data licensing.</p><p>There are three Creative Commons versions of an open licence:</p><ul><li><strong>Public domain: (CC0)</strong></li><li><strong>Attribution: (CC-BY v4.0)</strong></li><li><strong>Attribution & share-alike: (CC-BY-SA v4.0)</strong></li></ul><p>The public domain and attribution licences give most flexibility in the use of data while a share-alike licence may limit the commercial use of the data.</p><p><a href='https://creativecommons.org/publicdomain/zero/1.0/' target='_blank'>Show me a Public Domain licence</a><br><a href='https://creativecommons.org/licenses/by/4.0/' target='_blank'>Show me an Attribution licence</a><br><a href='https://creativecommons.org/licenses/by-sa/4.0/' target='_blank'>Show me an Attribution & share-alike licence</a></p><p>You can build your own licence at the Creative Commons website –<br><a href='https://creativecommons.org/choose/' target='_blank'>Show me how to make my own Creative Commons licence</a></p>"
+          "body": "<p>Creative Commons licences are widely used for open content. Version 4.0 explicitly considers data licensing.</p><p>There are three Creative Commons versions of an open licence:</p><ul><li><strong>Public domain: (CC0)</strong></li><li><strong>Attribution: (CC-BY v4.0)</strong></li><li><strong>Attribution & share-alike: (CC-BY-SA v4.0)</strong></li></ul><p>The public domain and attribution licences give most flexibility in the use of data while a share-alike licence may limit the commercial use of the data.<br /><a href='https://creativecommons.org/publicdomain/zero/1.0/' target='_blank'>Show me a Public Domain licence</a><br><a href='https://creativecommons.org/licenses/by/4.0/' target='_blank'>Show me an Attribution licence</a><br><a href='https://creativecommons.org/licenses/by-sa/4.0/' target='_blank'>Show me an Attribution & share-alike licence</a></p><p>You can build your own licence at the Creative Commons website –<br><a href='https://creativecommons.org/choose/' target='_blank'>Show me how to make my own Creative Commons licence</a></p>"
         },
         {
           "alt": "Bespoke licences",
@@ -167,7 +238,7 @@
         {
           "alt": "UK Open Government licence",
           "title": "UK Open Government licence",
-          "body": "<p>Some publishers have chosen to develop their own licences.</p><p>The best examples are:</p><ul><li>short</li><li>compatible with widely used licences</li><li>easy to comply with</li></ul><p>The UK Government has a good example of an open licence developed in this way that is used by UK Government departments -</p><p><a href='http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/' target='_blank'>Take me to the UK Government open licence</a></p>"
+          "body": "<p>Some publishers have chosen to develop their own licences.</p><p>The best examples are:</p><ul><li>short</li><li>compatible with widely used licences</li><li>easy to comply with</li></ul><p>The UK Government has a good example of an open licence developed in this way that is used by UK Government departments -<br /><a href='http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/' target='_blank'>Take me to the UK Government open licence</a></p>"
         }
       ],
       "_pageLevelProgress": {
@@ -303,7 +374,7 @@
         "_feedback":{
             "correct":"<h5>That’s right!</h5><p>Without a licence, data will be ‘publicly available’, but users may have not have permission to access use and share it under copyright and/or database laws.</p>",
             "_incorrect": {
-                "notFinal": "h5>Are you sure about that?</h5><p>Without a licence, data will be ‘publicly available’, but users may have not have permission to access use and share it under copyright and/or database laws.</p>",
+                "notFinal": "<h5>Are you sure about that?</h5><p>Without a licence, data will be ‘publicly available’, but users may have not have permission to access use and share it under copyright and/or database laws.</p>",
                 "final": "<h5>Are you sure about that?</h5><p>Without a licence, data will be ‘publicly available’, but users may have not have permission to access use and share it under copyright and/or database laws.</p>"
             },
             "_partlyCorrect": {
@@ -349,27 +420,27 @@
         "_selectable":1,
         "title": "Unlocking the value in open data",
         "displayTitle": "Unlocking the value in open data",
-        "body": "<p>What is the <strong>most important part</strong> of publishing that gives <strong>permission</strong> to businesses, startups, governments or other organisations to be innovative with your open data?</p>",
+        "body": "<p>An open licence allows users to access, use and share open data. What other permission must an open licence provide users?</p>",
         "instruction": "<em>Select an option, then click Submit.</em>",
         "_items": [
             {
-                "text": "A letter of approval.",
+                "text": "Claim ownership of the open data.",
                 "_shouldBeSelected": false
             },
             {
-                "text": "A quick phone call.",
+                "text": "Ability to place blame on provider for financial loss.",
                 "_shouldBeSelected": false
             },
             {
-                "text": "A simple open licence.",
+                "text": "Ability to use the open data commercially.",
                 "_shouldBeSelected": true
             }
         ],
         "_feedback":{
-            "correct":"<h5>That’s right!</h5><p>Licensing gives permission to businesses, startups, governments or other organisations to be innovative with your open data.</p>",
+            "correct":"<h5>That’s right!</h5><p>In order for data to be truly open, users must be free to use the data even for commercial purposes. This maximises the innovation. The licence does not have to provide warranty or allow others to claim ownership of the source data.</p>",
             "_incorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>Without a licence, data will be ‘publicly available’, but users may have not have permission to access use and share it under copyright and/or database laws.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>Without a licence, data will be ‘publicly available’, but users may have not have permission to access use and share it under copyright and/or database laws.</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>In order for data to be truly open, users must be free to use the data even for commercial purposes. This maximises the innovation. The licence does not have to provide warranty or allow others to claim ownership of the source data.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>In order for data to be truly open, users must be free to use the data even for commercial purposes. This maximises the innovation. The licence does not have to provide warranty or allow others to claim ownership of the source data.</p>"
             },
             "_partlyCorrect": {
                 "notFinal": "<h5>Are you sure about that?</h5><p>Without a licence, data will be ‘publicly available’, but users may have not have permission to access use and share it under copyright and/or database laws.</p>",
