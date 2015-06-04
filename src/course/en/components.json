@@ -25,9 +25,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Open data. Agent of change.",
-        "displayTitle":"Open data. Agent of change.",
-        "body":"<p>The most successful open data initiatives share similar characteristics that shape organisations and individuals and prepares them to unlock the value that open data provides to new markets.</p><h5>In this module we’ll look at:</h5><ul class='ticks'><li>Open data as an agent of change</li><li>Leadership and Engagement</li><li>Supply and Demand</li><li>Culture change for new markets</li></ul>",
+        "title":"What is open data quality?",
+        "displayTitle":"What is open data quality?",
+        "body":"<p>Not all data on the web is instantly usable. Judging the usability is also not something that can be done quickly.</p><p>Thankfully there are a number of community based standards and quality marques that can help indicate the usability of data.</p><h5>In this module we’ll look at:</h5><ul class='ticks'><li>What makes data usable?</li><li>How standards help increase the usability of data</li><li>Marques of quality</li></ul>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
@@ -40,9 +40,9 @@
         "_component":"media",
         "_classes":"",
         "_layout":"full",
-        "title":"Engaging in open data initiatives – in two minutes",
-        "displayTitle": "Engaging in open data initiatives – in two minutes",
-        "body": "The ODI’s Liz Carolyn explains the top 5 characteristics of successful open data initiatives and how open data requires us to think differently about the way the market for data functions.",
+        "title":"Assessing open data quality – in two minutes",
+        "displayTitle": "Assessing open data quality – in two minutes",
+        "body": "The ODI’s David Tarrant explains what quality data is, how to recognise it and which quality marques should consumers of open data look for.",
         "instruction": "",
         "_setCompletionOn":"ended",
         "_media": {
@@ -60,13 +60,13 @@
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
-        "_layout":"left",
+        "_layout":"right",
         "_graphic": {
             "alt": "",
             "title": "",
-            "large": "course/en/images/odi-001-text_image_large.png",
-            "medium": "course/en/images/odi-001-text_image_large.png",
-            "small": "course/en/images/odi-001-text_image_large.png"
+            "large": "course/en/images/odi-1.jpg",
+            "medium": "course/en/images/odi-1.jpg",
+            "small": "course/en/images/odi-1.jpg"
         }
     },
     {
@@ -75,10 +75,10 @@
         "_type":"component",
         "_component":"text",
         "_classes":"",
-        "_layout":"right",
-        "title":"Open data. Agent of Change.",
-        "displayTitle":"Open data. Agent of Change.",
-        "body":"<p>Implementing an open data initiative involves cultural and institutional change.</p><p>Open data is not just about putting data on a website under and open licence. Technology is the easy part, cultural change is much harder and more important.</p><p>The web has evolved from a tool into a way of thinking. It has changed the fundamental way in which people interact. Open data is on the same path.</p>"
+        "_layout":"left",
+        "title":"What is open data quality?",
+        "displayTitle":"What is open data quality?",
+        "body":"<p>Open data becomes usable when a human can understand it and a machine can manipulate it.</p><p>Users of open data require the permission of the publisher, granted via an open licence. But the open licence alone is not sufficient to guarantee the usability of data.  Simply dumping a file on a website with an open licence does not constitute open data.</p><p>It is unlikely that users will be able to properly engage with unusable data to derive insights and demonstrate benefits.</p>"
     },
      {
         "_id": "c-25",
@@ -87,40 +87,50 @@
         "_type":"component",
         "_layout": "full",
         "_component": "narrative",
-        "title": "Leadership and Engagement",
-        "displayTitle": "Leadership and Engagement",
-        "body": "Active leadership and engagement leads to successful initiatives and positive change.",
+        "title": "Community driven standards",
+        "displayTitle": "Community driven standards",
+        "body": "Community driven standards define the legal, practical, technical and social requirements for an open dataset to be useful.",
         "instruction": "<em class='desktop-instruction'>Click the forward arrow to see more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
         "_items": [
             {
-                "title": "Active Leadership",
-                "body": "<p>As an open data programme is launched, it is common for the people driving the change to encounter some resistance from within the organisation.</p><p>The active support of senior figures helps to overcome resistance.</p><p>Senior figures have an active role in embedding broader changes into organisations by adopting new values and attitudes to open data.</p>",
+                "title": "Legal",
+                "body": "<p>In addition to the open licence, there are 3 legal requirements that need to be considered -</p><p><ul><li>Protect sensitive information like personal data</li><li>Preserve the rights of data owners</li><li>Promote correct use of the data</li></ul></p>",
                 "_graphic": {
-                    "src": "course/en/images/odi-002_large.jpg",
-                    "alt": "Active Leadership",
-                    "title": "Active Leadership"
+                    "src": "course/en/images/odi-2.jpg",
+                    "alt": "Legal",
+                    "title": "Legal"
                 },
-                "strapline": "Active Leadership"
+                "strapline": "Legal"
             },
             {
-                "title": "Active Engagement",
-                "body": "<p>Engagement with civil society, business and government is a crucial part of the process of open data initiatives.</p><p>Successful initiatives start with open dialogue between the publisher and the consumer of open data.</p><p>This dialogue is important for both publisher and consumer of open data  to understand the demand and opportunity.</p>",
+                "title": "Practical",
+                "body": "<p>It is important that open data is clearly defined.</p><p>Among the these requirements is the need to -</p><p><ul><li>Define what the dataset is about</li><li>List the sources of the data</li><li>Give reference to where and how the data has been used already</li></ul></p>",
                 "_graphic": {
-                    "src": "course/en/images/odi-003_large.jpg",
+                    "src": "course/en/images/odi-3.jpg",
                     "alt": "A graph of open licences across countries",
                     "title": "A graph of open licences across countries"
                 },
-                "strapline": "Active Engagement"
+                "strapline": "Practical"
             },
             {
-                "title": "Space to innovate",
-                "body": "<p>Strong leadership and active engagement with key stakeholders is critical to a successful initiative.</p><p>Active leadership delivers a 'push' from the organisation, active dialogue creates a 'pull' from the users.</p><p>This unlocks innovation opportunities by connecting problems to potential solutions where open data is key.</p>",
+                "title": "Technical",
+                "body": "<p>There are 3 recommendations that define the technical aspects of open data.</p><p><ul><li>The format in which the data is published in</li><li>The structure of the data</li><li>The channels that exist through which the data is available</li></ul></p>",
                 "_graphic": {
-                    "src": "course/en/images/odi-004_large.jpg",
+                    "src": "course/en/images/odi-4.jpg",
                     "alt": "A map from a to b",
                     "title": "A map from a to b"
                 },
-                "strapline": "Space to innovate"
+                "strapline": "Technical"
+            },
+            {
+                "title": "Social",
+                "body": "<p>For data use to be healthy and sustainable it is important to have an engaged community of users. The best datasets have:</p><p><ul><li>Active support channels</li><li>Discussion groups and forums</li><li>Published how-to guides on working with the data</li></ul></p><p>This social aspect has defined the success of Raspberry-Pi, who took a user-centred approach by simplifying access to complex technologies. The same should be done for data.<br /><a href='https://www.raspberrypi.org/' target='_blank'>Take me to Raspberry-Pi</a></p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-5.jpg",
+                    "alt": "A map from a to b",
+                    "title": "A map from a to b"
+                },
+                "strapline": "Social"
             }
         ],
         "_pageLevelProgress": {
@@ -137,9 +147,9 @@
         "_graphic": {
             "alt": "",
             "title": "",
-            "large": "course/en/images/odi-005_large.png",
-            "medium": "course/en/images/odi-005_large.png",
-            "small": "course/en/images/odi-005_large.png"
+            "large": "course/en/images/odi-6.jpg",
+            "medium": "course/en/images/odi-6.jpg",
+            "small": "course/en/images/odi-6.jpg"
         }
     },
     {
@@ -149,81 +159,30 @@
       "_component":"accordion",
       "_classes":"",
       "_layout":"left",
-      "title": "Supply and Demand",
-      "displayTitle": "Supply and Demand",
-      "body": "<p>Publish and be thanked!</p><p>When examining an open data initiative, consider the following:</p>",
+      "title": "Marques of quality",
+      "displayTitle": "Marques of quality",
+      "body": "<p>Marques of quality provide users with confidence and surety as to the overall quality and usability of open data.</p><p>There are 2 key indicators of open data quality -</p>",
       "instruction": "<em>Click the headings to explore further.</em>",
       "_items": [
         {
-          "alt": "Approach",
-          "title": "Approach",
-          "body": "<p>To date, a large number of open data initiatives  have taken the approach of ‘build a portal, publish data, publish better data and hope that it is what consumers want or needed’.</p><p>With maturity in the open data community, a lot of people are now adopting the approach of taking the perspective of the consumer and clarifying the benefits they could get from the data.</p><p>A staged approach helps ensure that an organisation walks before it runs and achieves change in small, noticeable steps, rather than aim for the sky and end up with nothing.</p>"
+          "alt": "5 Stars",
+          "title": "5 Stars",
+          "body": "<p>The ‘5 Stars’ of linked open data define the basic legal requirements and technical excellence of the published data.</p><p>The ‘5 Stars’ were developed by the inventor of the Web, Sir Tim Berners-Lee in 2001 and they make recommendations on the format and structure of the data.</p><p>You will learn more about the 5-stars in modules 10 and 13 of this programme.</p>"
         },
         {
-          "alt": "Demand",
-          "title": "Demand",
-          "body": "<p>There is little point in publishing data in the public domain if there is no-one prepared or incentivised to use the data and create new value from it.</p><p>It is best to focus on demand where it currently exists.</p><p>Use consumer dialogues, opinion surveys or ‘vox pops’ already conducted to see where the most interest lies and follow it.</p><p>Think about the problems that already exist and how you relate to them. Data is a tool.</p>"
-        },
-        {
-          "alt": "Community",
-          "title": "Community",
-          "body": "<p>A successful open data initiative has a thriving community, with clear and accessible resources that support the data and its use.</p>A sign of a strong community is one that feels a real sense of ownership. This ownership should cover both the data and the outputs generated.</p><p>In is essential for both publishers and consumers to fully understand the others perspective.</p><p><strong>This is how to replicate the Raspberry-Pi project for data?</strong><br /><a href='https://www.raspberrypi.org/' target='_blank'>Take me to the Raspberry-Pi project</a></p>"
+          "alt": "ODI open data certificates",
+          "title": "ODI open data certificates",
+          "body": "<p>The Open Data Institute has developed open data Certificates which include the practical and social requirements alongside in-depth legal and technical guidelines to consider for publishing open data.</p><p>The certificate acts as a self-assessment questionnaire for publishers (and in some cases users) to assess and benchmark the full usability of a dataset.<br /><a href='https://certificates.theodi.org/' target='_blank'>Take me to the Open Data Institutes Certificates site</a></p>"
         }
       ],
       "_pageLevelProgress": {
         "_isEnabled": true
       }
     },
-     {
-        "_id": "c-40",
-        "_parentId": "b-30",
-        "_classes": "",
-        "_type":"component",
-        "_layout": "full",
-        "_component": "narrative",
-        "title": "Culture change for new markets",
-        "displayTitle": "Culture change for new markets",
-        "body": "Technology is the easy part.  Identifying new markets and implementing culture change is much harder.",
-        "instruction": "<em class='desktop-instruction'>Click the forward arrow to see more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
-        "_items": [
-            {
-                "title": "New markets",
-                "body": "<p>The traditional ‘market’ for open data in which government published data and others consume it has fundamentally changed in recent years.</p><p>Government, civil society and business all now find themselves simultaneously in the position of supplier and consumer of open data.</p>",
-                "_graphic": {
-                    "src": "course/en/images/odi-006_large.jpg",
-                    "alt": "New markets",
-                    "title": "New markets"
-                },
-                "strapline": "New markets"
-            },
-            {
-                "title": "Culture change",
-                "body": "<p>Open data requires a change in the way an institution operates.</p><p>People driving initiatives need to spend time developing a shared vision, overcoming barriers and building coalitions for change.</p><p>Consumers should be ready to engage with open data as a core part of society.</p><p>Open data is already demonstrating that it could have the same impact on society that the web has.</p>",
-                "_graphic": {
-                    "src": "course/en/images/odi-007_large.jpg",
-                    "alt": "Culture change",
-                    "title": "Culture change"
-                },
-                "strapline": "Culture change"
-            },
-            {
-                "title": "Planning for change",
-                "body": "<p>How to handle and plan for culture change is still being defined.</p><p>Governments, organisations and individuals should have free access to key education, tools and guides that help plan for the future.</p><p>Pilots and practical initiatives play important roles in understanding the impact of open data and the  change process. Observations from such initiatives can also inform practical guides like the ODIs Open Data Pathway.</p>",
-                "_graphic": {
-                    "src": "course/en/images/odi-008_large.jpg",
-                    "alt": "Planning for change",
-                    "title": "Planning for change"
-                },
-                "strapline": "Planning for change"
-            }
-        ],
-        "_pageLevelProgress": {
-        "_isEnabled": true
-        }
-    },
+     
     {
         "_id":"c-42",
-        "_parentId":"b-32",
+        "_parentId":"b-30",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
@@ -242,14 +201,14 @@
     },
     {
         "_id":"c-43",
-        "_parentId":"b-32",
+        "_parentId":"b-30",
         "_type":"component",
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Are you ready for culture change?",
-        "displayTitle":"Are you ready for culture change?",
-        "body":"<p>There are four characteristics of successful open data initiatives. Can you recall them?</p>",
+        "title":"Are you ready for quality open data?",
+        "displayTitle":"Are you ready for quality open data?",
+        "body":"<p>Can you recall the practical, technical, legal and social requirements for an open dataset to be useful?</p>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
@@ -257,7 +216,7 @@
     },
     {
         "_id":"c-45",
-        "_parentId":"b-35",
+        "_parentId":"b-32",
         "_type":"component",
         "_component":"graphic",
         "_classes":"illustration",
@@ -265,15 +224,15 @@
         "_graphic": {
             "alt": "",
             "title": "",
-            "large": "course/en/images/odi-009-text-image_large.png",
-            "medium": "course/en/images/odi-009-text-image_large.png",
-            "small": "course/en/images/odi-009-text-image_large.png"
+            "large": "course/en/images/odi-7.jpg",
+            "medium": "course/en/images/odi-7.jpg",
+            "small": "course/en/images/odi-7.jpg"
         }
     },
     
     {
         "_id":"c-50",
-        "_parentId":"b-35",
+        "_parentId":"b-32",
         "_type":"component",
         "_component":"mcq",
         "_classes":"",
@@ -282,33 +241,33 @@
         "_questionWeight":1,
         "_isRandom":true,
         "_selectable":1,
-        "title": "Leadership and engagement",
-        "displayTitle": "Leadership and engagement",
-        "body": "<p>What are two critical relationship factors needed for a successful open data initiative?</p>",
+        "title": "What is quality open data?",
+        "displayTitle": "What is quality open data?",
+        "body": "<p>Open data becomes usable when-</p>",
         "instruction": "<em>Select an option, then click Submit.</em>",
         "_items": [
             {
-                "text": "Emotional intelligence.",
+                "text": "when it is imported into our system.",
                 "_shouldBeSelected": false
             },
             {
-                "text": "Strong leadership and active engagement.",
+                "text": "A human can understand it, machines can manipulate it and it has an open licence.",
                 "_shouldBeSelected": true
             },
             {
-                "text": "Friendliness and empathy.",
+                "text": "when the government publishes it.",
                 "_shouldBeSelected": false
             }
         ],
         "_feedback":{
-            "correct":"<h5>That’s right!</h5><p>Strong leadership and active engagement with key stakeholders is critical to a successful initiative.</p>",
+            "correct":"<h5>That’s right!</h5><p>Open data becomes usable when a human can understand it and machines can manipulate it and it is made available under an open licence.</p>",
             "_incorrect": {
-                "notFinal": "h5>Are you sure about that?</h5><p>Strong leadership and active engagement with key stakeholders is critical to a successful initiative.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>Strong leadership and active engagement with key stakeholders is critical to a successful initiative.</p>"
+                "notFinal": "h5>Are you sure about that?</h5><p>Open data becomes usable when a human can understand it and machines can manipulate it and it is made available under an open licence.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>Open data becomes usable when a human can understand it and machines can manipulate it and it is made available under an open licence.</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>Strong leadership and active engagement with key stakeholders is critical to a successful initiative.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>Strong leadership and active engagement with key stakeholders is critical to a successful initiative.</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>Open data becomes usable when a human can understand it and machines can manipulate it and it is made available under an open licence.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>Open data becomes usable when a human can understand it and machines can manipulate it and it is made available under an open licence.</p>"
           }
         },
         "_buttons":{
@@ -323,7 +282,7 @@
     },
     {
         "_id":"c-55",
-        "_parentId":"b-40",
+        "_parentId":"b-35",
         "_type":"component",
         "_component":"graphic",
         "_classes":"illustration",
@@ -331,14 +290,14 @@
         "_graphic": {
             "alt": "",
             "title": "",
-            "large": "course/en/images/odi-010-mcq_large.png",
-            "medium": "course/en/images/odi-010-mcq_large.png",
-            "small": "course/en/images/odi-010-mcq_large.png"
+            "large": "course/en/images/odi-8.jpg",
+            "medium": "course/en/images/odi-8.jpg",
+            "small": "course/en/images/odi-8.jpg"
         }
     },
     {
         "_id":"c-60",
-        "_parentId":"b-40",
+        "_parentId":"b-35",
         "_type":"component",
         "_component":"mcq",
         "_classes":"",
@@ -347,33 +306,33 @@
         "_questionWeight":1,
         "_isRandom":true,
         "_selectable":1,
-        "title": "Supply and Demand",
-        "displayTitle": "Supply and Demand",
-        "body": "<p>What contemporary approach should you take when planning for an open data initiative?</p>",
+        "title": "Legal considerations",
+        "displayTitle": "Legal considerations",
+        "body": "<p>There are 3 legal considerations as part of the standards for publishing open data, one of which includes-</p>",
         "instruction": "<em>Select an option, then click Submit.</em>",
         "_items": [
             {
-                "text": "Publish and hope people use it.",
+                "text": "Don’t break the licensing law.",
                 "_shouldBeSelected": false
             },
             {
-                "text": "Think about my needs.",
+                "text": "Publish any type of data.",
                 "_shouldBeSelected": false
             },
             {
-                "text": "Take the perspective of the consumer.",
+                "text": "Protect sensitive information such as personal data.",
                 "_shouldBeSelected": true
             }
         ],
         "_feedback":{
-            "correct":"<h5>That’s right!</h5><p>With maturity in the open data community, a lot of people are now adopting the approach of taking the perspective of the consumer and clarifying the benefits they could get from the data.</p>",
+            "correct":"<h5>That’s right!</h5><p>In addition to the open licence, there are 3 legal requirements that need to be considered.  Protect sensitive information like personal data, preserve the rights of data owners and promote correct use of the data.</p>",
             "_incorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>With maturity in the open data community, a lot of people are now adopting the approach of taking the perspective of the consumer and clarifying the benefits they could get from the data.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>With maturity in the open data community, a lot of people are now adopting the approach of taking the perspective of the consumer and clarifying the benefits they could get from the data.</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>In addition to the open licence, there are 3 legal requirements that need to be considered.  Protect sensitive information like personal data, preserve the rights of data owners and promote correct use of the data.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>In addition to the open licence, there are 3 legal requirements that need to be considered.  Protect sensitive information like personal data, preserve the rights of data owners and promote correct use of the data.</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>With maturity in the open data community, a lot of people are now adopting the approach of taking the perspective of the consumer and clarifying the benefits they could get from the data.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>With maturity in the open data community, a lot of people are now adopting the approach of taking the perspective of the consumer and clarifying the benefits they could get from the data.</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>In addition to the open licence, there are 3 legal requirements that need to be considered.  Protect sensitive information like personal data, preserve the rights of data owners and promote correct use of the data.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>In addition to the open licence, there are 3 legal requirements that need to be considered.  Protect sensitive information like personal data, preserve the rights of data owners and promote correct use of the data.</p>"
           }
         },
         "_buttons":{
@@ -388,7 +347,7 @@
     },
     {
         "_id":"c-65",
-        "_parentId":"b-45",
+        "_parentId":"b-40",
         "_type":"component",
         "_component":"graphic",
         "_classes":"illustration",
@@ -396,14 +355,14 @@
         "_graphic": {
             "alt": "",
             "title": "",
-            "large": "course/en/images/odi-011-mcq_large.jpg",
-            "medium": "course/en/images/odi-011-mcq_large.jpg",
-            "small": "course/en/images/odi-011-mcq_large.jpg"
+            "large": "course/en/images/odi-9.jpg",
+            "medium": "course/en/images/odi-9.jpg",
+            "small": "course/en/images/odi-9.jpg"
         }
     },
     {
         "_id":"c-70",
-        "_parentId":"b-45",
+        "_parentId":"b-40",
         "_type":"component",
         "_component":"mcq",
         "_classes":"",
@@ -412,33 +371,33 @@
         "_questionWeight":1,
         "_isRandom":true,
         "_selectable":1,
-        "title": "Culture change for new markets",
-        "displayTitle": "Culture change for new markets",
-        "body": "<p>People who drive open data initiatives need to spend time-</p>",
+        "title": "Technical considerations",
+        "displayTitle": "Technical considerations",
+        "body": "<p>There are 3 <strong>technical</strong> considerations as part of the standards for publishing open data, one of which includes-</p>",
         "instruction": "<em>Select an option, then click Submit.</em>",
         "_items": [
             {
-                "text": "overcoming barriers, building coalitions for change and driving forward.",
+                "text": "Describe what format the open data is published in.",
                 "_shouldBeSelected": true
             },
             {
-                "text": "talking to other publishers of data.",
+                "text": "Can it be used on a computer.",
                 "_shouldBeSelected": false
             },
             {
-                "text": "getting to know their own datasets.",
+                "text": "Does it take up much bandwidth.",
                 "_shouldBeSelected": false
             }
         ],
         "_feedback":{
-            "correct":"<h5>That’s right!</h5><p>Open data requires a change in the way an institution operates.  People driving initiatives need to spend time overcoming barriers, building coalitions for change and driving forward.</p>",
+            "correct":"<h5>That’s right!</h5><p>There are 3 recommendations that define the technical aspects of open data.  The format in which the data is published in, the structure of the data and the channels that exist through which the data is available.</p>",
             "_incorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>Open data requires a change in the way an institution operates.  People driving initiatives need to spend time overcoming barriers, building coalitions for change and driving forward.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>Open data requires a change in the way an institution operates.  People driving initiatives need to spend time overcoming barriers, building coalitions for change and driving forward.</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>There are 3 recommendations that define the technical aspects of open data.  The format in which the data is published in, the structure of the data and the channels that exist through which the data is available.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>There are 3 recommendations that define the technical aspects of open data.  The format in which the data is published in, the structure of the data and the channels that exist through which the data is available.</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>Open data requires a change in the way an institution operates.  People driving initiatives need to spend time overcoming barriers, building coalitions for change and driving forward.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>Open data requires a change in the way an institution operates.  People driving initiatives need to spend time overcoming barriers, building coalitions for change and driving forward.</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>There are 3 recommendations that define the technical aspects of open data.  The format in which the data is published in, the structure of the data and the channels that exist through which the data is available.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>There are 3 recommendations that define the technical aspects of open data.  The format in which the data is published in, the structure of the data and the channels that exist through which the data is available.</p>"
           }
         },
         "_buttons":{
@@ -453,7 +412,7 @@
     },
     {
         "_id":"c-75",
-        "_parentId":"b-50",
+        "_parentId":"b-45",
         "_type":"component",
         "_component":"graphic",
         "_classes":"illustration",
@@ -461,14 +420,14 @@
         "_graphic": {
             "alt": "",
             "title": "",
-            "large": "course/en/images/odi-012-mcq_large.png",
-            "medium": "course/en/images/odi-012-mcq_large.png",
-            "small": "course/en/images/odi-012-mcq_large.png"
+            "large": "course/en/images/odi-10.jpg",
+            "medium": "course/en/images/odi-10.jpg",
+            "small": "course/en/images/odi-10.jpg"
         }
     },
     {
         "_id":"c-80",
-        "_parentId":"b-50",
+        "_parentId":"b-45",
         "_type":"component",
         "_component":"mcq",
         "_classes":"",
@@ -477,33 +436,33 @@
         "_questionWeight":1,
         "_isRandom":true,
         "_selectable":1,
-        "title": "Planning for change",
-        "displayTitle": "Planning for change",
-        "body": "<p><strong>Governments, organisations and individuals should have free access to-</strong></p>",
+        "title": "Marques of quality",
+        "displayTitle": "Marques of quality",
+        "body": "<p>The Open Data Institute advocates the use of its own quality marque known as-</p>",
         "instruction": "<em>Select an option, then click Submit.</em>",
         "_items": [
             {
-                "text": "Big data.",
+                "text": "ODI big green tick.",
                 "_shouldBeSelected": false
             },
             {
-                "text": "Everyone's open data.",
+                "text": "ODI stamp of approval.",
                 "_shouldBeSelected": false
             },
             {
-                "text": "key education, tools and guides.",
+                "text": "Open data Certificates.",
                 "_shouldBeSelected": true
             }
         ],
         "_feedback":{
-            "correct":"<h5>That’s right!</h5><p>Governments, organisations and individuals should have free access to key education, tools and guides that help plan for the future.</p>",
+            "correct":"<h5>That’s right!</h5><p>The Open Data Institute has developed open data Certificates which include the practical and social requirements alongside in-depth legal and technical guidelines to consider for publishing open data.</p>",
             "_incorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>Governments, organisations and individuals should have free access to key education, tools and guides that help plan for the future.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>Governments, organisations and individuals should have free access to key education, tools and guides that help plan for the future.</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>The Open Data Institute has developed open data Certificates which include the practical and social requirements alongside in-depth legal and technical guidelines to consider for publishing open data.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>The Open Data Institute has developed open data Certificates which include the practical and social requirements alongside in-depth legal and technical guidelines to consider for publishing open data.</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>Implementing an open data initiative involves cultural and institutional change.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>Implementing an open data initiative involves cultural and institutional change.</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>The Open Data Institute has developed open data Certificates which include the practical and social requirements alongside in-depth legal and technical guidelines to consider for publishing open data.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>The Open Data Institute has developed open data Certificates which include the practical and social requirements alongside in-depth legal and technical guidelines to consider for publishing open data.</p>"
           }
         },
         "_buttons":{
@@ -518,7 +477,7 @@
     },
     {
         "_id":"c-85",
-        "_parentId":"b-55",
+        "_parentId":"b-50",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
@@ -533,21 +492,21 @@
     },
     {
         "_id":"c-90",
-        "_parentId":"b-55",
+        "_parentId":"b-50",
         "_type":"component",
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Open data.  Agent of Change.",
-        "displayTitle":"Open data.  Agent of Change.",
-        "body":"<p>Implementing an open data initiative involves cultural and institutional change.</p><p>Engagement with civil society, business and government is an important part of the process.</p><p>With maturity in the open data community, a lot of people are now adopting the approach of taking the perspective of the consumer.</p><p>Open data requires us to think differently about the way the market for data functions.</p><p>In the next module, we look at simplifying open data licences.</p>",
+        "title":"Standards + Marques = quality open data",
+        "displayTitle":"Standards + Marques = quality open data",
+        "body":"<p>Open data becomes usable when a human can understand it and a machine can manipulate it.</p><p>Both of these require the permission of the publisher, granted via an open licence. But the open licence alone is not sufficient to guarantee the usability of data.  Simply dumping a file on a website with an open licence does not constitute open data.</p><p>It is unlikely that users will be able to properly engage with unusable data to derive insights and demonstrate benefits.</p><p>In the next module, we compare open data initiatives and look at the key performance indicators of successful open data initiatives.</p>",
         "_pageLevelProgress": {
           "_isEnabled": true
         }
     },
     {
        "_id":"c-95",
-       "_parentId":"b-55",
+       "_parentId":"b-50",
        "_type":"component",
        "_component":"text",
        "_classes":"separator",
@@ -555,7 +514,7 @@
     },
     {
         "_id":"c-100",
-        "_parentId":"b-55",
+        "_parentId":"b-50",
         "_type":"component",
         "_component":"graphic",
         "_classes":"footer-logo",
@@ -570,7 +529,7 @@
     },
     {
         "_id":"c-105",
-        "_parentId":"b-55",
+        "_parentId":"b-50",
         "_type":"component",
         "_component":"text",
         "_classes":"social-buttons",

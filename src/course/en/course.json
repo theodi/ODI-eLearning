@@ -1,8 +1,8 @@
 {
     "_id": "course",
     "_type": "course",
-    "title": "Engaging in open data initiatives",
-    "displayTitle": "Engaging in open data initiatives",
+    "title": "Assessing open data quality",
+    "displayTitle": "Assessing open data quality",
     "_buttons": {
         "submit": "Submit",
         "reset": "Reset",
@@ -22,8 +22,14 @@
         "_resourcesItems": [
             {
                 "_type": "link",
-                "title": "Raspberry-Pi project",
-                "description": "Take me to the Raspberry-Pi project",
+                "title": "Open Data Institutes Certificates site",
+                "description": "Take me to the Open Data Institutes Certificates site",
+                "_link": "https://certificates.theodi.org/"
+            },
+            {
+                "_type": "link",
+                "title": "Raspberry-Pi",
+                "description": "Take me to Raspberry-Pi",
                 "_link": "https://www.raspberrypi.org/"
             }
         ]
