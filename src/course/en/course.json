@@ -1,15 +1,15 @@
 {
     "_id": "course",
     "_type": "course",
-    "title": "Assessing open data quality",
-    "displayTitle": "Assessing open data quality",
+    "title": "Learning Open Data",
+    "displayTitle": "Learning Open Data",
     "_buttons": {
         "submit": "Submit",
         "reset": "Reset",
         "showCorrectAnswer": "Model Answer",
         "hideCorrectAnswer": "My Answer"
     },
-    "_latestTrackingId": 11,
+    "_latestTrackingId": 10,
     "_resources": {
         "title": "Resources",
         "description": "Click here to view resources for this course",
@@ -22,15 +22,45 @@
         "_resourcesItems": [
             {
                 "_type": "link",
-                "title": "Open Data Institutes Certificates site",
-                "description": "Take me to the Open Data Institutes Certificates site",
-                "_link": "https://certificates.theodi.org/"
+                "title": "Open Data Barometer",
+                "description": "Take me to the Open Data Barometer",
+                "_link": "http://barometer.opendataresearch.org/"
             },
             {
                 "_type": "link",
-                "title": "Raspberry-Pi",
-                "description": "Take me to Raspberry-Pi",
-                "_link": "https://www.raspberrypi.org/"
+                "title": "University of Southampton article",
+                "description": "Take me to University of Southampton article",
+                "_link": "http://blog.soton.ac.uk/data/2011/11/25/roi/"
+            },
+            {
+                "_type": "link",
+                "title": "Thomson Reuters site",
+                "description": "Take me to Thomson Reuters site",
+                "_link": "http://site.thomsonreuters.com/site/data-identifiers/"
+            },
+            {
+                "_type": "link",
+                "title": "FixMyStreet programme",
+                "description": "Take me to FixMyStreet programme",
+                "_link": "https://www.fixmystreet.com/"
+            },
+            {
+                "_type": "link",
+                "title": "MySociety site",
+                "description": "Take me to MySociety site",
+                "_link": "https://www.mysociety.org/"
+            },
+            {
+                "_type": "link",
+                "title": "Barometer for Malaysia",
+                "description": "Take me to the barometer for Malaysia",
+                "_link": "http://barometer.opendataresearch.org/report/analysis/rankings.html"
+            },
+            {
+                "_type": "link",
+                "title": "Barometer for UK",
+                "description": "Take me to the barometer for UK",
+                "_link": "http://barometer.opendataresearch.org/report/analysis/rankings.html"
             }
         ]
     }

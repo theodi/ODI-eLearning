@@ -48,7 +48,7 @@
         "_parentId": "a-01",
         "_type": "block",
         "_classes": "",
-        "_trackingId": 3,
+        "_trackingId": 4,
         "_trickle": {
             "_isEnabled":false,
             "button": "Continue"
@@ -59,28 +59,6 @@
         "_parentId": "a-01",
         "_type": "block",
         "_classes": "inverted",
-        "_trackingId": 4,
-        "_trickle": {
-            "_isEnabled":false,
-            "button": "Continue"
-        }
-    },
-    {
-        "_id": "b-32",
-        "_parentId": "a-01",
-        "_type": "block",
-        "_classes": "",
-        "_trackingId": 4,
-        "_trickle": {
-            "_isEnabled":false,
-            "button": "Continue"
-        }
-    },
-    {
-        "_id": "b-35",
-        "_parentId": "a-01",
-        "_type": "block",
-        "_classes": "inverted",
         "_trackingId": 5,
         "_trickle": {
             "_isEnabled":false,
@@ -88,7 +66,7 @@
         }
     },
     {
-        "_id": "b-40",
+        "_id": "b-33",
         "_parentId": "a-01",
         "_type": "block",
         "_classes": "",
@@ -99,7 +77,7 @@
         }
     },
     {
-        "_id": "b-45",
+        "_id": "b-35",
         "_parentId": "a-01",
         "_type": "block",
         "_classes": "inverted",
@@ -110,11 +88,33 @@
         }
     },
     {
-        "_id": "b-50",
+        "_id": "b-40",
+        "_parentId": "a-01",
+        "_type": "block",
+        "_classes": "",
+        "_trackingId": 8,
+        "_trickle": {
+            "_isEnabled":false,
+            "button": "Continue"
+        }
+    },
+    {
+        "_id": "b-45",
+        "_parentId": "a-01",
+        "_type": "block",
+        "_classes": "inverted",
+        "_trackingId": 9,
+        "_trickle": {
+            "_isEnabled":false,
+            "button": "Continue"
+        }
+    },
+    {
+        "_id": "b-55",
         "_parentId": "a-01",
         "_type": "block",
         "_classes": "summary",
-        "_trackingId": 8,
+        "_trackingId": 10,
         "_trickle": {
             "_isEnabled":false,
             "button": "Continue"
