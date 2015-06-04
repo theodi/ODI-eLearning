@@ -34,24 +34,27 @@
         }
     },
     {
-        "_id":"c-11",
-        "_parentId":"b-10",
-        "_type":"component",
-        "_component":"media",
-        "_classes":"",
-        "_layout":"full",
+    "_id":"c-11",
+    "_parentId":"b-10",
+    "_type":"component",
+    "_component":"iFrame-vimeo",
+    "_classes":"",
+    "_layout":"full",
         "title":"Discovering open data – in 2 minutes",
         "displayTitle": "Discovering open data – in 2 minutes",
         "body": "The ODI’s David Tarrant explains what data is, what makes it open and why we need open data.",
         "instruction": "",
         "_setCompletionOn":"ended",
-        "_media": {
-            "mp4": "course/en/video/sponge_placeholder.mp4",
-            "ogv": "course/en/video/sponge_placeholder.ogv",
-            "poster": "course/en/video/sponge_placeholder-large.png"
+        "_source": "https://player.vimeo.com/video/129196637",
+        "_width": {
+            "_small" : 300,
+            "_medium" : 500,
+            "_large" : 905
         },
-        "_pageLevelProgress": {
-            "_isEnabled": true
+        "_height": {
+            "_small" : 250,
+            "_medium" : 350,
+            "_large" : 508
         }
     },
     {
