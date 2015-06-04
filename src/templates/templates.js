@@ -1227,11 +1227,11 @@ helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
 function program1(depth0,data) {
   
   var buffer = "", stack1, helper;
-  buffer += "\r\n                <div class=\"tutor-title\">\r\n                    <h5 class=\"tutor-title-inner\">\r\n                    ";
+  buffer += "\r\n                <!--<div class=\"tutor-title\">\r\n                    <h5 class=\"tutor-title-inner\">\r\n                    ";
   if (helper = helpers.feedbackTitle) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.feedbackTitle); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   if(stack1 || stack1 === 0) { buffer += stack1; }
-  buffer += "\r\n                    </h5>\r\n                </div>\r\n                ";
+  buffer += "\r\n                    </h5>\r\n                </div>-->\r\n                ";
   return buffer;
   }
 

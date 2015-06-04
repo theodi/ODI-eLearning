@@ -1,6 +1,6 @@
 [
     {
-        "_id":"c-02",
+        "_id":"c-01",
         "_parentId":"b-01",
         "_type":"component",
         "_component":"graphic",
@@ -13,21 +13,21 @@
         "_graphic": {
             "alt": "",
             "title": "",
-            "large": "course/en/images/example-odi.png",
-            "medium": "course/en/images/example-odi.png",
-            "small": "course/en/images/example-odi.png"
+            "large": "course/en/images/odi.png",
+            "medium": "course/en/images/odi.png",
+            "small": "course/en/images/odi.png"
         }
     },
     {
-        "_id":"c-01",
+        "_id":"c-02",
         "_parentId":"b-01",
         "_type":"component",
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Module 1",
-        "displayTitle":"Module 1",
-        "body":"<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat exercitation.</p><h5>Learning objectives</h5><ul class='ticks'><li>Lorem ipsum dolor sit amet, consectetur</li><li>Consectetur adipisicing elit, sed do eiusmod tempor incididunt commodo consequat</li><li>Et dolore magna aliqua. Ut enim ad met</li><li>Exercitation ullamco laboris nisi ut aliquip ex ea</li><li>Sit amet, consectetur</li></ul>",
+        "title":"What is open data?",
+        "displayTitle":"What is open data?",
+        "body":"<p>Open data is <strong>data</strong> that <strong>anyone</strong> can <strong>access</strong>, <strong>use</strong> and <strong>share</strong>. Open data can transform interaction between governments, businesses and individuals. It has the power to improve services, grows economies and save our planet.</p><h5>In this module we’ll look at:</h5><ul class='ticks'><li>What is open data?</li><li>What is data?</li><li>What makes data open?</li><li>Why do we need open data?</li></ul>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
@@ -40,10 +40,10 @@
         "_component":"media",
         "_classes":"",
         "_layout":"full",
-        "title":"Video example",
-        "displayTitle": "Video example",
-        "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore",
-        "instruction": "<em>Click to play the video</em>",
+        "title":"Discovering open data – in 2 minutes",
+        "displayTitle": "Discovering open data – in 2 minutes",
+        "body": "The ODI’s David Tarrant explains what data is, what makes it open and why we need open data.",
+        "instruction": "",
         "_setCompletionOn":"ended",
         "_media": {
             "mp4": "course/en/video/sponge_placeholder.mp4",
@@ -60,13 +60,13 @@
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
-        "_layout":"left",
+        "_layout":"right",
         "_graphic": {
             "alt": "",
             "title": "",
-            "large": "http://placehold.it/430x430",
-            "medium": "http://placehold.it/430x430",
-            "small": "http://placehold.it/430x430"
+            "large": "course/en/images/odi-1-text-image_large.jpg",
+            "medium": "course/en/images/odi-1-text-image_large.jpg",
+            "small": "course/en/images/odi-1-text-image_large.jpg"
         }
     },
     {
@@ -75,14 +75,188 @@
         "_type":"component",
         "_component":"text",
         "_classes":"",
-        "_layout":"right",
-        "title":"Text and image",
-        "displayTitle":"Text and image",
-        "body":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "_layout":"left",
+        "title":"What is open data?",
+        "displayTitle":"What is open data?",
+        "body":"<p>Open data is <strong>data</strong> that <strong>anyone</strong> can <strong>access</strong>, <strong>use</strong> and <strong>share</strong>.</p><p>Open data becomes accessible by being available online.</p><p>Data becomes useable through being available in a common, understandable machine readable format.</p><p>Open data must be licenced. This license must permit the free usage of the data and allow users to transform, combine and share with others, even commercially.</p>"
+    },
+     {
+        "_id": "c-25",
+        "_parentId": "b-25",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "From raw material to new information and knowledge",
+        "displayTitle": "From raw material to new information and knowledge",
+        "body": "Without data, we can’t build information.  And without information, there is no new knowledge.",
+        "instruction": "<em class='desktop-instruction'>Click the forward arrow to see more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
+        "_items": [
+            {
+                "title": "Data",
+                "body": "<p>Data is the lowest level of raw material from which information and knowledge can be derived.</p><p>As an example, think of data as those locations, images, descriptions, reviews and prices that form the basis of information that can help people build a holiday.</p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-2-narrative_large.jpg",
+                    "alt": "Providing certainty",
+                    "title": ""
+                },
+                "strapline": "Data"
+            },
+            {
+                "title": "Information",
+                "body": "<p>Data becomes information when it is given a context.</p><p>Following on from the previous example, locations, images, descriptions and prices can all be related to a tourist  attraction.</p><p>It is the collection and presentation of the data that forms information.</p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-3-narrative_large.jpg",
+                    "alt": "A graph of open licences across countries",
+                    "title": "A graph of open licences across countries"
+                },
+                "strapline": "Information"
+            },
+            {
+                "title": "Knowledge",
+                "body": "<p>Knowledge is what is derived from the information, personalising it for your needs.</p><p>Knowledge is the process of turning information into choices.</p><p>Following on from the previous example, knowing that no one in your family likes theme parks will inform your decisions as to which locations to avoid and which would be more suitable for your purposes.</p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-4-narrative_large.jpg",
+                    "alt": "A map from a to b",
+                    "title": "A map from a to b"
+                },
+                "strapline": "Knowledge"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
     },
     {
-        "_id":"c-31",
-        "_parentId":"b-30",
+        "_id":"c-30",
+        "_parentId":"b-28",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/odi-5-accordion_large.jpg",
+            "medium": "course/en/images/odi-5-accordion_large.jpg",
+            "small": "course/en/images/odi-5-accordion_large.jpg"
+        }
+    },
+    {
+      "_id":"c-35",
+      "_parentId":"b-28",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"left",
+      "title": "What makes data open?",
+      "displayTitle": "What makes data open?",
+      "body": "<p>Data is open if anyone can access, use and share it.<br />There are some simple things to consider when defining openness.  Consider the following: </p>",
+      "instruction": "",
+      "_items": [
+        {
+          "alt": "Limitations",
+          "title": "Limitations",
+          "body": "<p>To be open there should be no limitations that prevents any particular use of the data.</p><p>A user should be free to use, modify, combine and share the data, even commercially.</p>"
+        },
+        {
+          "alt": "Cost",
+          "title": "Cost",
+          "body": "<p>Even though data must be free to use, this does not mean that it must be free to access.</p><p>There is a cost in creating, maintaining and publishing useable data.</p><p>Ideally, any fee for data should be no more than the reasonable reproduction cost of the unit of data that is requested.</p><p>This reproduction cost tends to zero for many datasets.</p><p>Live data and big data can have ongoing cost related to reliable service provision.</p>"
+        },
+        {
+          "alt": "Reuse",
+          "title": "Reuse",
+          "body": "<p>Once the user has the data, they are free to use it, reuse it and redistribute it, even commercially.</p><p>Open data is measured by what it can be used for, not by how it is made available.</p><p>Aspects like format, structure and machine readability all make data more usable, and should all be carefully considered.</p><p>However these do not make the data more open.</p>"
+        }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+     {
+        "_id": "c-40",
+        "_parentId": "b-30",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Why do we need open data?",
+        "displayTitle": "Why do we need open data?",
+        "body": "Open data has the power to transform government, business and civil society.",
+        "instruction": "<em class='desktop-instruction'>Click the forward arrow to see more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
+        "_items": [
+            {
+                "title": "Transform government",
+                "body": "<p>Open data increases the transparency of governments. It provides the evidence that public money is being well spent and policies are being implemented.</p><p>For example, according to leading Open Government activist David Eaves, in Canada in 2010, open data allowed citizens to save the government $3.2 billion in fraudulent charitable donations.<br /><a href='http://eaves.ca/2010/04/14/case-study-open-data-and-the-public-purse/' target='_blank'>Take me to David Eaves article</a></p><p>In another example, according to Follow the Money, in Nigeria, the same process is used to ensure that public funds are used to implement the policies promised to the people.<br /><a href='http://followthemoneyng.org/' target='_blank'>Take me to Follow the Money</a></p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-6-narrative_large.jpg",
+                    "alt": "Transform government",
+                    "title": "Transform government"
+                },
+                "strapline": "Transform government"
+            },
+            {
+                "title": "Build new business opportunities",
+                "body": "<p>Open data is opening up new opportunities for businesses to connect to customers.</p><p>Transport for London have released open data that developers have used to build over 800 transport apps.<br /><a href='http://www.tfl.gov.uk/' target='_blank'>Take me to Transport for London</a></p><p>Thomson Reuters are using open data to better connect to existing customers in order to provide better services.<br /><a href='http://site.thomsonreuters.com/site/data-identifiers/' target='_blank'>Take me to Thomson Reuters</a></p><p>The ODI startup program now has over 70 employees with income over £4m.<br /><a href='http://theodi.org/odis-second-year-annual-report' target='_blank'>Take me to The ODI annual report</a></p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-7-narrative_large.jpg",
+                    "alt": "Build new business opportunities",
+                    "title": "Build new business opportunities"
+                },
+                "strapline": "Build new business opportunities"
+            },
+            {
+                "title": "Protect our planet",
+                "body": "<p>The web has become a core part of societal infrastructure and open data is the next key component of this infrastructure.</p><p>Open data provides an early warning system for environmental disasters.<br /><a href='http://www.un.org/apps/news/story.asp?NewsID=13077&Cr=natural&Cr1=disaster#.VVyWK_lVhBc' target='_blank'>Take me to the United Nations news centre</a></p><p>Open data is also helping consumers understand their personal impact on the environment and how to take responsibility for their effect.<br /><a href='https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/39386/12-1324-better-choices-better-deals-report-on-progress-on-the-consumer-empowerment-strategy.pdf' target='_blank'>Take me to Better Choices Better Deals report.</a></p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-8-narrative_large.jpg",
+                    "alt": "Protect our planet",
+                    "title": "Protect our planet"
+                },
+                "strapline": "Protect our planet"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    }, {
+        "_id":"c-42",
+        "_parentId":"b-33",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/burst.png",
+            "medium": "course/en/images/burst.png",
+            "small": "course/en/images/burst.png"
+        }
+    },
+    {
+        "_id":"c-43",
+        "_parentId":"b-33",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Are you ready for open data?",
+        "displayTitle":"Are you ready for open data?",
+        "body":"<p>There are four helpful things to remember when thinking about opening your data for users, can you recall them?</p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-45",
+        "_parentId":"b-35",
         "_type":"component",
         "_component":"graphic",
         "_classes":"illustration",
@@ -90,14 +264,14 @@
         "_graphic": {
             "alt": "",
             "title": "",
-            "large": "course/en/images/example-burst.png",
-            "medium": "course/en/images/example-burst.png",
-            "small": "course/en/images/example-burst.png"
+            "large": "course/en/images/odi-9-mcq-image_large.jpg",
+            "medium": "course/en/images/odi-9-mcq-image_large.jpg",
+            "small": "course/en/images/odi-9-mcq-image_large.jpg"
         }
     },
     {
-        "_id":"c-32",
-        "_parentId":"b-30",
+        "_id":"c-50",
+        "_parentId":"b-35",
         "_type":"component",
         "_component":"mcq",
         "_classes":"",
@@ -106,29 +280,29 @@
         "_questionWeight":1,
         "_isRandom":true,
         "_selectable":1,
-        "title": "MCQ example",
-        "displayTitle": "MCQ example",
-        "body": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>",
-        "instruction": "<em>Hint: The answer is three.</em>",
+        "title": "What is open data?",
+        "displayTitle": "What is open data?",
+        "body": "<p>Open data is-</p>",
+        "instruction": "<em>Select an option, then click Submit.</em>",
         "_items": [
             {
-                "text": "One",
+                "text": "information that we sell to businesses.",
                 "_shouldBeSelected": false
             },
             {
-                "text": "Two",
-                "_shouldBeSelected": false
-            },
-            {
-                "text": "Three",
+                "text": "data that anyone can access, use and share.",
                 "_shouldBeSelected": true
+            },
+            {
+                "text": "data that is visible on the web.",
+                "_shouldBeSelected": false
             }
         ],
         "_feedback":{
-            "correct":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "correct":"<h5>That’s right!</h5><p><strong>Open data</strong> is <strong>data</strong> that <strong>anyone</strong> can <strong>access</strong>, <strong>use</strong> and <strong>share</strong>.<br />Open data must also be licenced to allow free usage and must also be available for commercial use.</p>",
             "_incorrect": {
-                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                "notFinal": "<h5>Are you sure about that?</h5><p><strong>Open data</strong> is <strong>data</strong> that <strong>anyone</strong> can <strong>access</strong>, <strong>use</strong> and <strong>share</strong>.<br />Open data must also be licenced to allow free usage and must also be available for commercial use.</p></p>",
+                "final": "<h5>Are you sure about that?</h5><p><p><strong>Open data</strong> is <strong>data</strong> that <strong>anyone</strong> can <strong>access</strong>, <strong>use</strong> and <strong>share</strong>.<br />Open data must also be licenced to allow free usage and must also be available for commercial use.</p></p>"
             },
             "_partlyCorrect": {
                 "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
@@ -145,114 +319,60 @@
         "_isEnabled": true
       }
     },
-     {
-        "_id": "c-41",
-        "_parentId": "b-40",
-        "_classes": "",
+    {
+        "_id":"c-55",
+        "_parentId":"b-40",
         "_type":"component",
-        "_layout": "full",
-        "_component": "narrative",
-        "title": "Narrative component",
-        "displayTitle": "Narrative component",
-        "body": "Lorem ipsum dolor sit amet dolore lorem ipsum dolor sit amet.",
-        "instruction": "<em>Click through the narrative component.</em>",
-        "_items": [
-            {
-                "title": "Lorem ipsum",
-                "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud citation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                "_graphic": {
-                    "src": "http://placehold.it/590x400",
-                    "alt": "Lorem ipsum",
-                    "title": "Lorem ipsum"
-                },
-                "strapline": "Lorem ipsum"
-            },
-            {
-                "title": "Dolot sit amet",
-                "body": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "_graphic": {
-                    "src": "http://placehold.it/590x400",
-                    "alt": "Lorem ipsum",
-                    "title": "Lorem ipsum"
-                },
-                "strapline": "Lorem ipsum"
-            }
-        ],
-        "_pageLevelProgress": {
-        "_isEnabled": true
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/odi-10-mcq_large.jpg",
+            "medium": "course/en/images/odi-10-mcq_large.jpg",
+            "small": "course/en/images/odi-10-mcq_large.jpg"
         }
     },
     {
-        "_id":"c-51",
-        "_parentId":"b-50",
+        "_id":"c-60",
+        "_parentId":"b-40",
         "_type":"component",
-        "_component":"gmcq",
+        "_component":"mcq",
         "_classes":"",
-        "_layout":"full",
+        "_layout":"right",
         "_attempts":1,
         "_questionWeight":1,
-        "_isRandom":false,
+        "_isRandom":true,
         "_selectable":1,
-        "title": "GMCQ example",
-        "displayTitle": "GMCQ example",
-        "body": "Lorem ipsum dolor sit amet mpor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliq.",
-        "instruction": "<em>Select one or more options below and select Submit.</em>",
+        "title": "What is data?",
+        "displayTitle": "What is data?",
+        "body": "<p>Data is-</p>",
+        "instruction": "<em>Select an option, then click Submit.</em>",
         "_items": [
             {
-                "text": "Answer one",
-                "_shouldBeSelected":false,
-                "_graphic": {
-                    "alt": "",
-                    "title": "",
-                    "large": "http://placehold.it/430x220",
-                    "medium": "http://placehold.it/430x220",
-                    "small": "http://placehold.it/430x220"
-                }
+                "text": "numbers, words, maps and photos.",
+                "_shouldBeSelected": false
             },
             {
-                "text": "Answer two",
-                "_shouldBeSelected":false,
-                "_graphic": {
-                    "alt": "",
-                    "title": "",
-                    "large": "http://placehold.it/430x220",
-                    "medium": "http://placehold.it/430x220",
-                    "small": "http://placehold.it/430x220"
-                }
+                "text": "information posted on the web.",
+                "_shouldBeSelected": false
             },
             {
-                "text": "Answer three",
-                "_shouldBeSelected":false,
-                "_graphic": {
-                    "alt": "",
-                    "title": "",
-                    "large": "http://placehold.it/430x220",
-                    "medium": "http://placehold.it/430x220",
-                    "small": "http://placehold.it/430x220"
-                }
-            },
-            {
-                "text": "Answer four",
-                "_shouldBeSelected":true,
-                "_graphic": {
-                    "alt": "",
-                    "title": "",
-                    "large": "http://placehold.it/430x220",
-                    "medium": "http://placehold.it/430x220",
-                    "small": "http://placehold.it/430x220"
-                }
+                "text": "the raw material of information and knowledge.",
+                "_shouldBeSelected": true
             }
         ],
         "_feedback":{
-            "correct":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "correct":"<h5>That’s right!</h5><p>Data is the lowest level of raw material from which information and knowledge can be derived.</p>",
             "_incorrect": {
-                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                "notFinal": "<h5>Are you sure about that?</h5><p>Data is the lowest level of raw material from which information and knowledge can be derived.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>Data is the lowest level of raw material from which information and knowledge can be derived.</p>"
             },
             "_partlyCorrect": {
                 "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
                 "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-            }
+          }
         },
         "_buttons":{
             "submit":"",
@@ -261,237 +381,64 @@
             "hideCorrectAnswer":""
         },
         "_pageLevelProgress": {
-          "_isEnabled": true
-        }
-    },
-    {
-        "_id":"c-62",
-        "_parentId":"b-60",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"right",
-        "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "http://placehold.it/430x430",
-            "medium": "http://placehold.it/430x430",
-            "small": "http://placehold.it/430x430"
-        }
-    },
-    {
-      "_id":"c-61",
-      "_parentId":"b-60",
-      "_type":"component",
-      "_component":"accordion",
-      "_classes":"",
-      "_layout":"left",
-      "title": "Accordion",
-      "displayTitle": "Accordion",
-      "body": "An example of an accordion component.",
-      "instruction": "<em>Click the headings to reveal more.</em>",
-      "_items": [
-        {
-          "alt": "Lorem ipsum",
-          "title": "Lorem ipsum",
-          "body": "<p>Lorem ipsum dolor sit amet.</p>"
-        },
-        {
-          "alt": "Lorem ipsum",
-          "title": "Lorem ipsum",
-          "body": "<p>Lorem ipsum dolor sit amet.</p>"
-        },
-        {
-          "alt": "Lorem ipsum",
-          "title": "Lorem ipsum",
-          "body": "<p>Lorem ipsum dolor sit amet.</p>"
-        }
-      ],
-      "_pageLevelProgress": {
         "_isEnabled": true
       }
     },
     {
-        "_id":"c-72",
-        "_parentId":"b-70",
+        "_id":"c-65",
+        "_parentId":"b-45",
         "_type":"component",
         "_component":"graphic",
         "_classes":"illustration",
-        "_layout":"left",
+        "_layout":"right",
         "_graphic": {
             "alt": "",
             "title": "",
-            "large": "course/en/images/example-burst.png",
-            "medium": "course/en/images/example-burst.png",
-            "small": "course/en/images/example-burst.png"
+            "large": "course/en/images/odi-11-mcq_large.jpg",
+            "medium": "course/en/images/odi-11-mcq_large.jpg",
+            "small": "course/en/images/odi-11-mcq_large.jpg"
         }
     },
     {
-        "_id": "c-71",
-        "_parentId":"b-70",
-        "_classes": "",
-        "_layout": "right",
-        "_type": "component",
-        "_component": "matching",
-        "_attempts": 1,
+        "_id":"c-70",
+        "_parentId":"b-45",
+        "_type":"component",
+        "_component":"mcq",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
         "_isRandom":true,
-        "_questionWeight":1,
-        "title": "Matching component",
-        "displayTitle": "Matching component",
-        "body": "Here is an example of a matching component",
-        "instruction":"<em>Select your options from the dropdown menus.</em>",
-        "_buttons":{
-            "submit":"",
-            "reset":"",
-            "showCorrectAnswer":"",
-            "hideCorrectAnswer":""
-        },
-        "_feedback": {
-            "correct": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "_incorrect": {
-                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-            },
-            "_partlyCorrect": {
-                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-            }
-        },
-        "placeholder": "Select an option",
+        "_selectable":1,
+        "title": "What makes data open?",
+        "displayTitle": "What makes data open?",
+        "body": "<p>Open data should be-</p>",
+        "instruction": "<em>Select an option, then click Submit.</em>",
         "_items": [
             {
-                "text": "An example question would go here",
-                "_options": [
-                    {
-                        "text": "One",
-                        "_isCorrect": false
-                    },
-                    {
-                        "text": "Two",
-                        "_isCorrect": false
-                    }
-                ]
+                "text": "free of restrictions for its use.",
+                "_shouldBeSelected": true
             },
             {
-                "text": "Another example question would go here",
-                "_options": [
-                    {
-                        "text": "One",
-                        "_isCorrect": false
-                    },
-                    {
-                        "text": "Two",
-                        "_isCorrect": false
-                    }
-                ]
+                "text": "restricted in its use.",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "selectively released for a fee.",
+                "_shouldBeSelected": false
             }
         ],
-        "_pageLevelProgress": {
-          "_isEnabled": true
-        }
-
-    },
-    {
-        "_id":"c-82",
-        "_parentId":"b-80",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"right",
-        "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "http://placehold.it/430x430",
-            "medium": "http://placehold.it/430x430",
-            "small": "http://placehold.it/430x430"
-        }
-    },
-    {
-        "_id":"c-81",
-        "_parentId":"b-80",
-        "_component":"slider",
-        "_classes":"",
-        "_layout":"left",
-        "_attempts": 1,
-        "title": "Slider component",
-        "displayTitle": "Slider component",
-        "body": "Here is an example of a slider component",
-        "instruction":"<em>Drag the slider along and click submit.</em>",
-        "_showNumber": true,
-        "_showScaleIndicator": true,
-        "labelStart": "incomplete",
-        "labelEnd": "complete",
-        "_scaleStart": 1,
-        "_scaleEnd": 10,
-        "_correctAnswer": "",
-        "_correctRange": {
-            "_bottom": 5,
-            "_top": 9
-        },
-        "_feedback": {
-            "correct": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "_feedback":{
+            "correct":"<h5>That’s right!</h5><p>If something restricts the free use of the data (such as a non-commercial restriction), then this would not qualify as being open data.</p>",
             "_incorrect": {
-                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                "notFinal": "<h5>Are you sure about that?</h5><p>If something restricts the free use of the data (such as a non-commercial restriction), then this would not qualify as being open data.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>If something restricts the free use of the data (such as a non-commercial restriction), then this would not qualify as being open data.</p>"
             },
             "_partlyCorrect": {
                 "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
                 "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-            }
-        }
-    },
-    {
-        "_id":"c-92",
-        "_parentId":"b-90",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"illustration",
-        "_layout":"right",
-        "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "course/en/images/example-burst.png",
-            "medium": "course/en/images/example-burst.png",
-            "small": "course/en/images/example-burst.png"
-        }
-    },
-    {
-        "_id":"c-91",
-        "_parentId":"b-90",
-        "_type":"component",
-        "_component":"textinput",
-        "_classes":"",
-        "_layout":"left",
-        "title":"Text input component",
-        "displayTitle":"Text input component",
-        "body":"Here is an example of a text input component. Mpor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliq.",
-        "instruction":"<em>Enter some text and press Submit.</em>",
-        "_attempts": 1,
-        "_questionWeight":1,
-        "placeholder": "Enter your text here",
-        "_allowsAnyCase": true,
-        "_allowsPunctuation": true,
-        "_feedback": {
-            "correct": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "_incorrect": {
-                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-            },
-            "_partlyCorrect": {
-                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-            }
+          }
         },
-        "_items": [
-            {
-                "prefix": "",
-                "suffix": "",
-                "_answers": [
-                    "one",
-                    "1"
-                ]
-            }
-        ],
         "_buttons":{
             "submit":"",
             "reset":"",
@@ -500,58 +447,76 @@
         },
         "_pageLevelProgress": {
         "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-75",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/odi-12-mcq_large.jpg",
+            "medium": "course/en/images/odi-12-mcq_large.jpg",
+            "small": "course/en/images/odi-12-mcq_large.jpg"
         }
     },
     {
-          "_id": "c-101",
-          "_parentId":"b-100",
-          "_classes": "",
-          "_type":"component",
-          "_component": "hotgraphic",
-          "_layout": "full",
-          "title": "Hotgraphic example",
-          "displayTitle": "Hotgraphic example",
-          "body": "Here is an example of a hotgraphic component. Incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliq.",
-          "mobileBody": "",
-          "instruction":"<em>Click on the pins to learn more information.</em>",
-          "_graphic": {
-            "src": "http://placehold.it/900x530",
-            "alt": "",
-            "title": ""
-          },
-          "_items": [
+        "_id":"c-80",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"mcq",
+        "_classes":"",
+        "_layout":"right",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Why do we need open data?",
+        "displayTitle": "Why do we need open data?",
+        "body": "<p>What does open data have the power to do?</p>",
+        "instruction": "<em>Select an option, then click Submit.</em>",
+        "_items": [
             {
-                "title": "Example 1",
-                "body": "Example 1 lorem ipsum",
-                "_graphic": {
-                    "src": "http://placehold.it/400x270",
-                    "alt": "Lorem ipsum",
-                    "title": "Lorem ipsum"
-                },
-                "strapline": "Example 1",
-                "_top": 40,
-                "_left": 10
+                "text": "Give access to other datasets.",
+                "_shouldBeSelected": false
             },
             {
-                "title": "Example 2",
-                "body": "Example 2 lorem ipsum",
-                "_graphic": {
-                    "src": "http://placehold.it/400x270",
-                    "alt": "Lorem ipsum",
-                    "title": "Lorem ipsum"
-                },
-                "strapline": "Example 2",
-                "_top": 40,
-                "_left": 60
+                "text": "make governments be accountable.",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Open data can unlock social, environmental and economic value.",
+                "_shouldBeSelected": true
             }
         ],
+        "_feedback":{
+            "correct":"<h5>That’s right!</h5><p>Open data can transform interaction between governments, businesses and individuals. It has the power to improve services, grow economies and save our planet.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Are you sure about that?</h5><p>Open data can transform interaction between governments, businesses and individuals. It has the power to improve services, grow economies and save our planet.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>Open data can transform interaction between governments, businesses and individuals. It has the power to improve services, grow economies and save our planet.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
         "_pageLevelProgress": {
-          "_isEnabled": true
-        }
+        "_isEnabled": true
+      }
     },
     {
-        "_id":"c-112",
-        "_parentId":"b-110",
+        "_id":"c-85",
+        "_parentId":"b-55",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
@@ -565,30 +530,30 @@
         }
     },
     {
-        "_id":"c-111",
-        "_parentId":"b-110",
+        "_id":"c-90",
+        "_parentId":"b-55",
         "_type":"component",
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Summary",
-        "displayTitle":"Summary",
-        "body":"<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat exercitation.</p><h5>What you have learned</h5><ul class='ticks'><li>Lorem ipsum dolor sit amet, consectetur</li><li>Consectetur adipisicing elit, sed do eiusmod tempor incididunt commodo consequat</li><li>Et dolore magna aliqua. Ut enim ad met</li><li>Exercitation ullamco laboris nisi ut aliquip ex ea</li><li>Sit amet, consectetur</li></ul>",
+        "title":"Open data - Veni, vidi, vici",
+        "displayTitle":"Open data - Veni, vidi, vici",
+        "body":"<p>Open data is <strong>data</strong> that <strong>anyone</strong> can <strong>access</strong>, <strong>use</strong> and <strong>share</strong>.</p><p>Open data is the natural resource for the digital age and, unlike coal, timber or diamonds, it can be used by anyone and everyone at the same time.</p><p>Any restrictions imposed on the use of open data will limit its use in creating new value.</p><p>Open data can transform interaction between governments, businesses and individuals. It has the power to improve services, grow economies and save our planet.</p><p>In the next module, we look at how value is unlocked in open data.</p>",
         "_pageLevelProgress": {
           "_isEnabled": true
         }
     },
     {
-       "_id":"c-113",
-       "_parentId":"b-110",
+       "_id":"c-95",
+       "_parentId":"b-55",
        "_type":"component",
        "_component":"text",
        "_classes":"separator",
        "_layout":"full"
     },
     {
-        "_id":"c-114",
-        "_parentId":"b-110",
+        "_id":"c-100",
+        "_parentId":"b-55",
         "_type":"component",
         "_component":"graphic",
         "_classes":"footer-logo",
@@ -602,8 +567,8 @@
         }
     },
     {
-        "_id":"c-115",
-        "_parentId":"b-110",
+        "_id":"c-105",
+        "_parentId":"b-55",
         "_type":"component",
         "_component":"text",
         "_classes":"social-buttons",
