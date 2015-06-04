@@ -1,0 +1,31 @@
+{
+    "_id": "course",
+    "_type": "course",
+    "title": "Engaging in open data initiatives",
+    "displayTitle": "Engaging in open data initiatives",
+    "_buttons": {
+        "submit": "Submit",
+        "reset": "Reset",
+        "showCorrectAnswer": "Model Answer",
+        "hideCorrectAnswer": "My Answer"
+    },
+    "_latestTrackingId": 11,
+    "_resources": {
+        "title": "Resources",
+        "description": "Click here to view resources for this course",
+        "_filterButtons": {
+            "all": "All",
+            "document": "PDF",
+            "media": "Media",
+            "link": "Link"
+        },
+        "_resourcesItems": [
+            {
+                "_type": "link",
+                "title": "Raspberry-Pi project",
+                "description": "Take me to the Raspberry-Pi project",
+                "_link": "https://www.raspberrypi.org/"
+            }
+        ]
+    }
+}

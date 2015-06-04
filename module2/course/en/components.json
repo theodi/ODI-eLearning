@@ -1,0 +1,581 @@
+[
+    {
+        "_id":"c-01",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/odi.png",
+            "medium": "course/en/images/odi.png",
+            "small": "course/en/images/odi.png"
+        }
+    },
+    {
+        "_id":"c-02",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Unlocking value from open data",
+        "displayTitle":"Unlocking value from open data",
+        "body":"<p>Open data has the power to grow economies, transform societies and protect the environment.</p><p>In this module we examine some leading examples of how business, government and ordinary people are innovating with data to create new value.</p><h5>In this module we’ll look at:</h5><ul class='ticks'><li>Innovation and growth in businesses</li><li>Opportunities for governments</li><li>Impact on society and public policy</li><li>Benefits for culture and the environment</li></ul>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+    "_id":"c-11",
+    "_parentId":"b-10",
+    "_type":"component",
+    "_component":"iFrame-vimeo",
+    "_classes":"",
+    "_layout":"full",
+        "title":"Unlocking value from open data– in 3 minutes",
+        "displayTitle": "Unlocking value from open data– in 3 minutes",
+        "body": "The ODI’s Ben Cave explains how business and government are unlocking value from open data initiatives, and how these initiatives are having a positive influence on economies, societies and the environment.",
+        "instruction": "",
+        "_setCompletionOn":"ended",
+        "_source": "https://player.vimeo.com/video/129196639",
+        "_width": {
+            "_small" : 300,
+            "_medium" : 500,
+            "_large" : 905
+        },
+        "_height": {
+            "_small" : 250,
+            "_medium" : 350,
+            "_large" : 508
+        }
+    },
+    {
+        "_id":"c-21",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/odi-001-text-image_large.png",
+            "medium": "course/en/images/odi-001-text-image_large.png",
+            "small": "course/en/images/odi-001-text-image_large.png"
+        }
+    },
+    {
+        "_id":"c-22",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Innovation and growth in business",
+        "displayTitle":"Innovation and growth in businesses",
+        "body":"<p>Open data is driving innovation and growth by revealing opportunities for business, both big and small, to build new services, identify savings and improve operations.</p><p>Open data enables open innovation by removing barriers to access, use and share data.</p><p>Open data literacy is a core skill for any business wishing to adapt to a changing world and take advantage of the massive opportunities this new resource offers.</p>"
+    },
+     {
+        "_id": "c-25",
+        "_parentId": "b-25",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Opportunities for government",
+        "displayTitle": "Opportunities for government",
+        "body": "The public sector benefits from open data initiatives by developing digital literacy.",
+        "instruction": "<em class='desktop-instruction'>Click the forward arrow to see more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
+        "_items": [
+            {
+                "title": "Support Growing Economies",
+                "body": "<p>Governments need to publish certain key datasets to support the emergence of new businesses and support the growth of existing ones.</p><p>Just as transport infrastructure helped businesses reach new markets with physical goods, the data infrastructure of a country is now providing equal access to a new raw material.</p><p>In return, government is reaping the benefits of a growing data economy.</p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-002-narrative_large.jpg",
+                    "alt": "Support Growing Economies",
+                    "title": "Support Growing Economies"
+                },
+                "strapline": "Support Growing Economies"
+            },
+            {
+                "title": "Improved service delivery",
+                "body": "<p>Despite growing populations, voters expect government to care more about hyperlocal issues.</p><p>The availability of detailed open data (as opposed to broad summary statistics) is essential to improve delivery of services at this hyperlocal level.</p><p>Some of these new services are available now - <br /><a href='https://www.mysociety.org/' target='_blank'>Take me to mySociety</a> <br /><a href='https://www.fixmystreet.com/' target='_blank'>Take me to Fix my street</a> <br /><a href='http://www.theyworkforyou.com/' target='_blank'>Take me to They work for you</a> <br /><a href='http://london-fire.labs.theodi.org/' target='_blank'>Take me to London fire station analysis</a></p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-003-narrative_large.jpg",
+                    "alt": "Improved service delivery",
+                    "title": "Improved service delivery"
+                },
+                "strapline": "Improved service delivery"
+            },
+            {
+                "title": "Cost Savings",
+                "body": "<p>Through a combination of enhanced economic revenues and improved service efficiency, governments are realising substantial cost savings in key areas like provision of healthcare, education and utilities.</p><p>In the UK (2015), £200m of savings was identified in the health service.</p><p> In Burkina Faso, open data is used to inform better provision of basic education.</p><p>In France, energy data is being used to drive more efficient energy generation practices<br /><a href='https://www.quandl.com/collections/france/france-energy-data' target='_blank'>Show me the France energy data.</a></p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-004-narrative_large.jpg",
+                    "alt": "Cost Savings",
+                    "title": "Cost Savings"
+                },
+                "strapline": "Cost Savings"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-30",
+        "_parentId":"b-28",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/odi-005_accordian_large.jpg",
+            "medium": "course/en/images/odi-005_accordian_large.jpg",
+            "small": "course/en/images/odi-005_accordian_large.jpg"
+        }
+    },
+    {
+      "_id":"c-35",
+      "_parentId":"b-28",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"left",
+      "title": "Changing societies and public policy",
+      "displayTitle": "Changing societies and public policy",
+      "body": "<p>Open data is unlocking new social value.</p><p>There are an increasing number of examples of how open data is being used for innovation.</p>",
+      "instruction": "",
+      "_items": [
+        {
+          "alt": "Improving the way we move",
+          "title": "Improving the way we move",
+          "body": "<p>Open data has the power to revolutionise the way we travel.</p><p>For example, in the UK transport industry, a plentiful supply of open data is fuelling a boom in small companies developing new apps for smartphone and mobile devices.</p><p>According to the BBC, 1-in-5 people have used an app to find out about transport disruptions before getting out of bed.<br /><a href='http://www.bbc.co.uk/news/uk-29317630' target='_blank'>Take me to the BBC news article</a></p><p>Open transport data saves commuters time, makes journeys more accessible and streamlines access for tourists.</p>"
+        },
+        {
+          "alt": "Improving the way we work",
+          "title": "Improving the way we work",
+          "body": "<p>Open data is changing our working lives by opening up a new view on the professional landscape.</p><p>Open data and open content remove barriers to access enabling people to focus on solving problems rather than managing relationships.</p><p>OpenCorporates, for example,  provides an open database of companies around the world, showing the relationships, financial stability and environment impact of each.<br /><a href='https://opencorporates.com/info/about' target='_blank'>Take me to OpenCorporates</a></p>"
+        },
+        {
+          "alt": "Improving the way we govern",
+          "title": "Improving the way we govern",
+          "body": "<p>Open data is also becoming a key source of evidence for governments in the policy-making process.</p><p>Open data is clarifying the dialogue around the development of public policy by making the procedure transparent for all, incorporating diverse sources of evidence and creating informed dialogue between government and citizens.</p><p>Open data on key issues such as immigration, equality and trade can all be used to inform important policy decisions and help provide a balanced viewpoint.</p>"
+        }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+     {
+        "_id": "c-40",
+        "_parentId": "b-30",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Changing culture and environment",
+        "displayTitle": "Changing culture and environment",
+        "body": "Open data is connecting people, culture and environment.",
+        "instruction": "<em class='desktop-instruction'>Click the forward arrow to see more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
+        "_items": [
+            {
+                "title": "Environment",
+                "body": "<p>Open data helps farmers produce yields to support a growing population without the need to destroy valuable habitats.</p><p>Plantwise are collecting open data to produce valuable information packs for farmers about plant health and threats from diseases.<br /><a href='https://www.plantwise.org/' target='_blank'>Take me to Plantwise</a></p><p>CIARD has produced a central repository of more than 1500 open agricultural research collections worldwide that is helping to inform new research pathways.<br /><a href='http://www.ciard.net/' target='_blank'>Take me to CIARD</a></p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-006-narrative_large.jpg",
+                    "alt": "Environment",
+                    "title": "Environment"
+                },
+                "strapline": "Environment"
+            },
+            {
+                "title": "Saving lives",
+                "body": "<p>Open data is saving lives, with new open geographic data and aid statistics being used by humanitarian groups to deliver crucial supplies in disaster zones.</p><p>Open mapping data was vital to the disaster response to Haiti when it was struck by earthquakes in 2010.<br /><a href='http://hotosm.org/projects/haiti-2' target='_blank'>Show me the Haiti Open Street Map.</a></p><p>Open data was also used for responses to the Philippines typhoon in 2014.</p><p>Open data is also being used to track the Ebola virus outbreak in West Africa in 2015.</p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-007-narrative_large.jpg",
+                    "alt": "Saving lives",
+                    "title": "Saving lives"
+                },
+                "strapline": "Saving lives"
+            },
+            {
+                "title": "Culture",
+                "body": "<p>Open data is connecting people to key topics and creating a more informed debate around cultural issues. The way we engage with data is changing and data is changing the way we engage.</p><p>OpenGLAM is helping to capture the heritage and cultural memories of groups in Germany, Switzerland and Finland.<br /><a href='http://openglam.org/' target='_blank'>Take me to OpenGLAM</a></p><p>The Open Data Institute is leading a global Data as Culture programme using arts to re-examine the fundamental way in which data is perceived.<br /><a href='http://theodi.org/culture' target='_blank'>Take me to ODI Data as Culture</a></p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-008-narrative_large.jpg",
+                    "alt": "Culture",
+                    "title": "Culture"
+                },
+                "strapline": "Culture"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    }, {
+        "_id":"c-42",
+        "_parentId":"b-33",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/burst.png",
+            "medium": "course/en/images/burst.png",
+            "small": "course/en/images/burst.png"
+        }
+    },
+    {
+        "_id":"c-43",
+        "_parentId":"b-33",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Are you ready to unlock value from open data?",
+        "displayTitle":"Are you ready to unlock value from open data?",
+        "body":"<p>There are lots of good examples and reasons for open data initiatives. Are you ready be part of this change?</p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-45",
+        "_parentId":"b-35",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/odi-009-mcq_large.png",
+            "medium": "course/en/images/odi-009-mcq_large.png",
+            "small": "course/en/images/odi-009-mcq_large.png"
+        }
+    },
+    {
+        "_id":"c-50",
+        "_parentId":"b-35",
+        "_type":"component",
+        "_component":"mcq",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Innovation and growth in business",
+        "displayTitle": "Innovation and growth in business",
+        "body": "<p>Open data is driving innovation and growth in the private sector by:</p>",
+        "instruction": "<em>Select an option, then click Submit.</em>",
+        "_items": [
+            {
+                "text": "being made available on the web.",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "revealing opportunities to build new services and improve operations.",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "by motivating innovators to use government data.",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>That’s right!</h5><p>Open data literacy is a core skill for any business wishing to adapt to a changing world and take advantage of the massive opportunities this new resource offers.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Are you sure about that?</h5><p>Open data literacy is a core skill for any business wishing to adapt to a changing world and take advantage of the massive opportunities this new resource offers.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>Open data literacy is a core skill for any business wishing to adapt to a changing world and take advantage of the massive opportunities this new resource offers.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-55",
+        "_parentId":"b-40",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/odi-010-mcq_large.jpg",
+            "medium": "course/en/images/odi-010-mcq_large.jpg",
+            "small": "course/en/images/odi-010-mcq_large.jpg"
+        }
+    },
+    {
+        "_id":"c-60",
+        "_parentId":"b-40",
+        "_type":"component",
+        "_component":"mcq",
+        "_classes":"",
+        "_layout":"right",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Opportunities for government",
+        "displayTitle": "Opportunities for government",
+        "body": "<p>Skills like open data awareness are no longer a luxury for public servants, they are now -</p>",
+        "instruction": "<em>Select an option, then click Submit.</em>",
+        "_items": [
+            {
+                "text": "a little more important than they used to be.",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "something that should be researched more.",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "a crucial part of service delivery in the new century.",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>That’s right!</h5><p>A new generation of voters across the world have grown to expect a digitally literate and engaged public sector.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Are you sure about that?</h5><p>A new generation of voters across the world have grown to expect a digitally literate and engaged public sector.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>A new generation of voters across the world have grown to expect a digitally literate and engaged public sector.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-65",
+        "_parentId":"b-45",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/odi-011-mcq_large.jpg",
+            "medium": "course/en/images/odi-011-mcq_large.jpg",
+            "small": "course/en/images/odi-011-mcq_large.jpg"
+        }
+    },
+    {
+        "_id":"c-70",
+        "_parentId":"b-45",
+        "_type":"component",
+        "_component":"mcq",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Changing society and public policy",
+        "displayTitle": "Changing society and public policy",
+        "body": "<p>What is the benefit of having open transport data?</p>",
+        "instruction": "<em>Select an option, then click Submit.</em>",
+        "_items": [
+            {
+                "text": "It saves people time & improves access.",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "Makes for faster trains.",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Makes tickets cheaper.",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>That’s right!</h5><p>Open transport data saves commuters time, makes journeys more accessible and streamlines access for tourists.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Are you sure about that?</h5><p>Open transport data saves commuters time, makes journeys more accessible and streamlines access for tourists.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>Open transport data saves commuters time, makes journeys more accessible and streamlines access for tourists.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-75",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/odi-012-mcq_large.jpg",
+            "medium": "course/en/images/odi-012-mcq_large.jpg",
+            "small": "course/en/images/odi-012-mcq_large.jpg"
+        }
+    },
+    {
+        "_id":"c-80",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"mcq",
+        "_classes":"",
+        "_layout":"right",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Changing culture and environment",
+        "displayTitle": "Changing culture and environment",
+        "body": "<p>What type of open data was used to help in disaster efforts in Haiti and the Philippines?</p>",
+        "instruction": "<em>Select an option, then click Submit.</em>",
+        "_items": [
+            {
+                "text": "demographics from the census.",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "income and revenue.",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Open mapping data.",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>That’s right!</h5><p>Open data is saving lives, with new open geographic data an aid statistics being used by humanitarian groups to deliver crucial supplies in disaster zones.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Are you sure about that?</h5><p>Open data is saving lives, with new open geographic data an aid statistics being used by humanitarian groups to deliver crucial supplies in disaster zones.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>Open data is saving lives, with new open geographic data an aid statistics being used by humanitarian groups to deliver crucial supplies in disaster zones.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-85",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/odi-footer.png",
+            "medium": "course/en/images/odi-footer.png",
+            "small": "course/en/images/odi-footer.png"
+        }
+    },
+    {
+        "_id":"c-90",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Ready to unlock value?",
+        "displayTitle":"Ready to unlock value?",
+        "body":"<p>Open data has the power to grow economies, transform societies and protect the environment.</p><p>Open data can help governments grow economies, improve service delivery and save move.</p><p>Open data can change society by improving the way we move, the way we work and the way we govern.</p><p>Open data can save lives, protect our environment and help us better understand the world in which we live.</p><p>Ready to get involved? In the next module, we look at how to engage in an open data initiative.</p>",
+        "_pageLevelProgress": {
+          "_isEnabled": true
+        }
+    },
+    {
+       "_id":"c-95",
+       "_parentId":"b-55",
+       "_type":"component",
+       "_component":"text",
+       "_classes":"separator",
+       "_layout":"full"
+    },
+    {
+        "_id":"c-100",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"footer-logo",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/logo-small.png",
+            "medium": "course/en/images/logo-small.png",
+            "small": "course/en/images/logo-small.png"
+        }
+    },
+    {
+        "_id":"c-105",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"social-buttons",
+        "_layout":"right",
+        "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/en/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/en/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/en/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/en/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/en/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/en/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/en/images/social/flickr.png'></a>"
+    }
+]

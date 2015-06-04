@@ -1,0 +1,542 @@
+[
+    {
+        "_id":"c-01",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/odi.png",
+            "medium": "course/en/images/odi.png",
+            "small": "course/en/images/odi.png"
+        }
+    },
+    {
+        "_id":"c-02",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"What is open data quality?",
+        "displayTitle":"What is open data quality?",
+        "body":"<p>Not all data on the web is instantly usable. Judging the usability is also not something that can be done quickly.</p><p>Thankfully there are a number of community based standards and quality marques that can help indicate the usability of data.</p><h5>In this module we’ll look at:</h5><ul class='ticks'><li>What makes data usable?</li><li>How standards help increase the usability of data</li><li>Marques of quality</li></ul>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+    "_id":"c-11",
+    "_parentId":"b-10",
+    "_type":"component",
+    "_component":"iFrame-vimeo",
+    "_classes":"",
+    "_layout":"full",
+        "title":"Assessing open data quality – in two minutes",
+        "displayTitle": "Assessing open data quality – in two minutes",
+        "body": "The ODI’s David Tarrant explains what quality data is, how to recognise it and which quality marques should consumers of open data look for.",
+        "instruction": "",
+        "_setCompletionOn":"ended",
+        "_source": "https://player.vimeo.com/video/129197043",
+        "_width": {
+            "_small" : 300,
+            "_medium" : 500,
+            "_large" : 905
+        },
+        "_height": {
+            "_small" : 250,
+            "_medium" : 350,
+            "_large" : 508
+        }
+    },
+    {
+        "_id":"c-21",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/odi-1.jpg",
+            "medium": "course/en/images/odi-1.jpg",
+            "small": "course/en/images/odi-1.jpg"
+        }
+    },
+    {
+        "_id":"c-22",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"What is open data quality?",
+        "displayTitle":"What is open data quality?",
+        "body":"<p>Open data becomes usable when a human can understand it and a machine can manipulate it.</p><p>Users of open data require the permission of the publisher, granted via an open licence. But the open licence alone is not sufficient to guarantee the usability of data.  Simply dumping a file on a website with an open licence does not constitute open data.</p><p>It is unlikely that users will be able to properly engage with unusable data to derive insights and demonstrate benefits.</p>"
+    },
+     {
+        "_id": "c-25",
+        "_parentId": "b-25",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Community driven standards",
+        "displayTitle": "Community driven standards",
+        "body": "Community driven standards define the legal, practical, technical and social requirements for an open dataset to be useful.",
+        "instruction": "<em class='desktop-instruction'>Click the forward arrow to see more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
+        "_items": [
+            {
+                "title": "Legal",
+                "body": "<p>In addition to the open licence, there are 3 legal requirements that need to be considered -</p><p><ul><li>Protect sensitive information like personal data</li><li>Preserve the rights of data owners</li><li>Promote correct use of the data</li></ul></p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-2.jpg",
+                    "alt": "Legal",
+                    "title": "Legal"
+                },
+                "strapline": "Legal"
+            },
+            {
+                "title": "Practical",
+                "body": "<p>It is important that open data is clearly defined.</p><p>Among the these requirements is the need to -</p><p><ul><li>Define what the dataset is about</li><li>List the sources of the data</li><li>Give reference to where and how the data has been used already</li></ul></p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-3.jpg",
+                    "alt": "A graph of open licences across countries",
+                    "title": "A graph of open licences across countries"
+                },
+                "strapline": "Practical"
+            },
+            {
+                "title": "Technical",
+                "body": "<p>There are 3 recommendations that define the technical aspects of open data.</p><p><ul><li>The format in which the data is published in</li><li>The structure of the data</li><li>The channels that exist through which the data is available</li></ul></p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-4.jpg",
+                    "alt": "A map from a to b",
+                    "title": "A map from a to b"
+                },
+                "strapline": "Technical"
+            },
+            {
+                "title": "Social",
+                "body": "<p>For data use to be healthy and sustainable it is important to have an engaged community of users. The best datasets have:</p><p><ul><li>Active support channels</li><li>Discussion groups and forums</li><li>Published how-to guides on working with the data</li></ul></p><p>This social aspect has defined the success of Raspberry-Pi, who took a user-centred approach by simplifying access to complex technologies. The same should be done for data.<br /><a href='https://www.raspberrypi.org/' target='_blank'>Take me to Raspberry-Pi</a></p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-5.jpg",
+                    "alt": "A map from a to b",
+                    "title": "A map from a to b"
+                },
+                "strapline": "Social"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-30",
+        "_parentId":"b-28",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/odi-6.jpg",
+            "medium": "course/en/images/odi-6.jpg",
+            "small": "course/en/images/odi-6.jpg"
+        }
+    },
+    {
+      "_id":"c-35",
+      "_parentId":"b-28",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"left",
+      "title": "Marques of quality",
+      "displayTitle": "Marques of quality",
+      "body": "<p>Marques of quality provide users with confidence and surety as to the overall quality and usability of open data.</p><p>There are 2 key indicators of open data quality -</p>",
+      "instruction": "<em>Click the headings to explore further.</em>",
+      "_items": [
+        {
+          "alt": "5 Stars",
+          "title": "5 Stars",
+          "body": "<p>The ‘5 Stars’ of linked open data define the basic legal requirements and technical excellence of the published data.</p><p>The ‘5 Stars’ were developed by the inventor of the Web, Sir Tim Berners-Lee in 2001 and they make recommendations on the format and structure of the data.</p><p>You will learn more about the 5-stars in modules 10 and 13 of this programme.</p>"
+        },
+        {
+          "alt": "ODI open data certificates",
+          "title": "ODI open data certificates",
+          "body": "<p>The Open Data Institute has developed open data Certificates which include the practical and social requirements alongside in-depth legal and technical guidelines to consider for publishing open data.</p><p>The certificate acts as a self-assessment questionnaire for publishers (and in some cases users) to assess and benchmark the full usability of a dataset.<br /><a href='https://certificates.theodi.org/' target='_blank'>Take me to the Open Data Institutes Certificates site</a></p>"
+        }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+     
+    {
+        "_id":"c-42",
+        "_parentId":"b-30",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/burst-indigo.png",
+            "medium": "course/en/images/burst-indigo.png",
+            "small": "course/en/images/burst-indigo.png"
+        }
+    },
+    {
+        "_id":"c-43",
+        "_parentId":"b-30",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Are you ready for quality open data?",
+        "displayTitle":"Are you ready for quality open data?",
+        "body":"<p>Can you recall the practical, technical, legal and social requirements for an open dataset to be useful?</p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-45",
+        "_parentId":"b-32",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/odi-7.jpg",
+            "medium": "course/en/images/odi-7.jpg",
+            "small": "course/en/images/odi-7.jpg"
+        }
+    },
+    
+    {
+        "_id":"c-50",
+        "_parentId":"b-32",
+        "_type":"component",
+        "_component":"mcq",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "What is quality open data?",
+        "displayTitle": "What is quality open data?",
+        "body": "<p>Open data becomes usable when-</p>",
+        "instruction": "<em>Select an option, then click Submit.</em>",
+        "_items": [
+            {
+                "text": "when it is imported into our system.",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "A human can understand it, machines can manipulate it and it has an open licence.",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "when the government publishes it.",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>That’s right!</h5><p>Open data becomes usable when a human can understand it and machines can manipulate it and it is made available under an open licence.</p>",
+            "_incorrect": {
+                "notFinal": "h5>Are you sure about that?</h5><p>Open data becomes usable when a human can understand it and machines can manipulate it and it is made available under an open licence.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>Open data becomes usable when a human can understand it and machines can manipulate it and it is made available under an open licence.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Are you sure about that?</h5><p>Open data becomes usable when a human can understand it and machines can manipulate it and it is made available under an open licence.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>Open data becomes usable when a human can understand it and machines can manipulate it and it is made available under an open licence.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-55",
+        "_parentId":"b-35",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/odi-8.jpg",
+            "medium": "course/en/images/odi-8.jpg",
+            "small": "course/en/images/odi-8.jpg"
+        }
+    },
+    {
+        "_id":"c-60",
+        "_parentId":"b-35",
+        "_type":"component",
+        "_component":"mcq",
+        "_classes":"",
+        "_layout":"right",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Legal considerations",
+        "displayTitle": "Legal considerations",
+        "body": "<p>There are 3 legal considerations as part of the standards for publishing open data, one of which includes-</p>",
+        "instruction": "<em>Select an option, then click Submit.</em>",
+        "_items": [
+            {
+                "text": "Don’t break the licensing law.",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Publish any type of data.",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Protect sensitive information such as personal data.",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>That’s right!</h5><p>In addition to the open licence, there are 3 legal requirements that need to be considered.  Protect sensitive information like personal data, preserve the rights of data owners and promote correct use of the data.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Are you sure about that?</h5><p>In addition to the open licence, there are 3 legal requirements that need to be considered.  Protect sensitive information like personal data, preserve the rights of data owners and promote correct use of the data.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>In addition to the open licence, there are 3 legal requirements that need to be considered.  Protect sensitive information like personal data, preserve the rights of data owners and promote correct use of the data.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Are you sure about that?</h5><p>In addition to the open licence, there are 3 legal requirements that need to be considered.  Protect sensitive information like personal data, preserve the rights of data owners and promote correct use of the data.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>In addition to the open licence, there are 3 legal requirements that need to be considered.  Protect sensitive information like personal data, preserve the rights of data owners and promote correct use of the data.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-65",
+        "_parentId":"b-40",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/odi-9.jpg",
+            "medium": "course/en/images/odi-9.jpg",
+            "small": "course/en/images/odi-9.jpg"
+        }
+    },
+    {
+        "_id":"c-70",
+        "_parentId":"b-40",
+        "_type":"component",
+        "_component":"mcq",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Technical considerations",
+        "displayTitle": "Technical considerations",
+        "body": "<p>There are 3 <strong>technical</strong> considerations as part of the standards for publishing open data, one of which includes-</p>",
+        "instruction": "<em>Select an option, then click Submit.</em>",
+        "_items": [
+            {
+                "text": "Describe what format the open data is published in.",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "Can it be used on a computer.",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Does it take up much bandwidth.",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>That’s right!</h5><p>There are 3 recommendations that define the technical aspects of open data.  The format in which the data is published in, the structure of the data and the channels that exist through which the data is available.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Are you sure about that?</h5><p>There are 3 recommendations that define the technical aspects of open data.  The format in which the data is published in, the structure of the data and the channels that exist through which the data is available.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>There are 3 recommendations that define the technical aspects of open data.  The format in which the data is published in, the structure of the data and the channels that exist through which the data is available.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Are you sure about that?</h5><p>There are 3 recommendations that define the technical aspects of open data.  The format in which the data is published in, the structure of the data and the channels that exist through which the data is available.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>There are 3 recommendations that define the technical aspects of open data.  The format in which the data is published in, the structure of the data and the channels that exist through which the data is available.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-75",
+        "_parentId":"b-45",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/odi-10.jpg",
+            "medium": "course/en/images/odi-10.jpg",
+            "small": "course/en/images/odi-10.jpg"
+        }
+    },
+    {
+        "_id":"c-80",
+        "_parentId":"b-45",
+        "_type":"component",
+        "_component":"mcq",
+        "_classes":"",
+        "_layout":"right",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Marques of quality",
+        "displayTitle": "Marques of quality",
+        "body": "<p>The Open Data Institute advocates the use of its own quality marque known as-</p>",
+        "instruction": "<em>Select an option, then click Submit.</em>",
+        "_items": [
+            {
+                "text": "ODI big green tick.",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "ODI stamp of approval.",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Open data Certificates.",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>That’s right!</h5><p>The Open Data Institute has developed open data Certificates which include the practical and social requirements alongside in-depth legal and technical guidelines to consider for publishing open data.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Are you sure about that?</h5><p>The Open Data Institute has developed open data Certificates which include the practical and social requirements alongside in-depth legal and technical guidelines to consider for publishing open data.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>The Open Data Institute has developed open data Certificates which include the practical and social requirements alongside in-depth legal and technical guidelines to consider for publishing open data.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Are you sure about that?</h5><p>The Open Data Institute has developed open data Certificates which include the practical and social requirements alongside in-depth legal and technical guidelines to consider for publishing open data.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>The Open Data Institute has developed open data Certificates which include the practical and social requirements alongside in-depth legal and technical guidelines to consider for publishing open data.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-85",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/summary-icon.png",
+            "medium": "course/en/images/summary-icon.png",
+            "small": "course/en/images/summary-icon.png"
+        }
+    },
+    {
+        "_id":"c-90",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Standards + Marques = quality open data",
+        "displayTitle":"Standards + Marques = quality open data",
+        "body":"<p>Open data becomes usable when a human can understand it and a machine can manipulate it.</p><p>Both of these require the permission of the publisher, granted via an open licence. But the open licence alone is not sufficient to guarantee the usability of data.  Simply dumping a file on a website with an open licence does not constitute open data.</p><p>It is unlikely that users will be able to properly engage with unusable data to derive insights and demonstrate benefits.</p><p>In the next module, we compare open data initiatives and look at the key performance indicators of successful open data initiatives.</p>",
+        "_pageLevelProgress": {
+          "_isEnabled": true
+        }
+    },
+    {
+       "_id":"c-95",
+       "_parentId":"b-50",
+       "_type":"component",
+       "_component":"text",
+       "_classes":"separator",
+       "_layout":"full"
+    },
+    {
+        "_id":"c-100",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"footer-logo",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/logo-small.png",
+            "medium": "course/en/images/logo-small.png",
+            "small": "course/en/images/logo-small.png"
+        }
+    },
+    {
+        "_id":"c-105",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"social-buttons",
+        "_layout":"right",
+        "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/en/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/en/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/en/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/en/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/en/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/en/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/en/images/social/flickr.png'></a>"
+    }
+]
