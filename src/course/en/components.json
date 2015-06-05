@@ -153,6 +153,25 @@
         "_isEnabled": true
       }
     },
+    {
+        "_id":"c-41",
+        "_parentId":"b-40",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/odi-40.jpg",
+            "medium": "course/en/images/odi-40.jpg",
+            "small": "course/en/images/odi-40.jpg"
+        }
+   },
    {
       "_id":"c-40",
       "_parentId":"b-40",
@@ -173,7 +192,7 @@
         {
           "alt": "Live data and data feeds",
           "title": "Live data and data feeds",
-          "body": "<p>Some data is not suitable for being made available as a downloadable file.</p><p>Much of this data is updated so regularly that it wouldn’t make sense to have lots of out of date downloads in existence. Conversely the data structure may make more sense to be provided via a machine interface.</p><p>Many services that make machine interfaces (known as APIs) available over the web. Such services can be directly integrated into other web applications (such as the one on the right).</p>"
+          "body": "<p>Some data is not suitable for being made available as a downloadable file.</p><p>Much of this data is updated so regularly that it wouldn’t make sense to have lots of out of date downloads in existence. Conversely the data structure may make more sense to be provided via a machine interface.</p><p>Many services that make machine interfaces (known as APIs) available over the web. Such services can be directly integrated into other web applications.</p>"
         }
       ],
       "_pageLevelProgress": {
