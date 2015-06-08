@@ -1,0 +1,80 @@
+{
+  "type":"object",
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "id": "http://jsonschema.net",
+  "$ref": "http://localhost/plugins/content/component/model.schema",
+  "properties": {
+    "_source": {
+      "type": "string",
+      "required": true,
+      "title": "URL",
+      "default": "",
+      "inputType": "Text",
+      "validators": ["required"],
+      "help": "The URL which will be rendered inside the <iframe>"
+    },
+    "_width": {
+      "type": "object",
+      "required": true,
+      "title": "Width of the <iframe> in specified breakpoints",
+      "properties": {
+        "_small": {
+          "type": "number",
+          "required": true,
+          "title": "Small width",
+          "inputType": "Number",
+          "validators": ["number", "required"],
+          "help": "Width with a large viewport"
+        },
+        "_medium": {
+          "type": "number",
+          "required": true,
+          "title": "Medium width",
+          "inputType": "Number",
+          "validators": ["number", "required"],
+          "help": "Width with a large viewport"
+        },
+        "_large": {
+          "type": "number",
+          "required": true,
+          "title": "Large width",
+          "inputType": "Number",
+          "validators": ["number", "required"],
+          "help": "Width with a large viewport"
+        }
+      }
+    },
+    "_height": {
+      "type": "object",
+        "required": true,
+        "title": "Height of the <iframe> in specified breakpoints",
+        "properties": {
+          "_small": {
+            "type": "number",
+            "required": true,
+            "title": "Small height",
+            "inputType": "Number",
+            "validators": ["number", "required"],
+            "help": "Height with a small viewport"
+          },
+          "_medium": {
+            "type": "number",
+            "required": true,
+            "title": "Medium height",
+            "inputType": "Number",
+            "validators": ["number", "required"],
+            "help": "Height with a medium viewport"
+          },
+          "_large": {
+            "type": "number",
+            "required": true,
+            "title": "Large height",
+            "inputType": "Number",
+            "validators": ["number", "required"],
+            "help": "Height with a large viewport"
+          }
+        }
+    }
+  }
+}
+
