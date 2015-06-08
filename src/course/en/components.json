@@ -34,24 +34,27 @@
         }
     },
     {
-        "_id":"c-11",
-        "_parentId":"b-10",
-        "_type":"component",
-        "_component":"media",
-        "_classes":"",
-        "_layout":"full",
+    "_id":"c-11",
+    "_parentId":"b-10",
+    "_type":"component",
+    "_component":"iFrame-vimeo",
+    "_classes":"",
+    "_layout":"full",
         "title":"Engaging in open data initiatives – in two minutes",
         "displayTitle": "Engaging in open data initiatives – in two minutes",
         "body": "The ODI’s Liz Carolyn explains the top 5 characteristics of successful open data initiatives and how open data requires us to think differently about the way the market for data functions.",
         "instruction": "",
         "_setCompletionOn":"ended",
-        "_media": {
-            "mp4": "course/en/video/sponge_placeholder.mp4",
-            "ogv": "course/en/video/sponge_placeholder.ogv",
-            "poster": "course/en/video/sponge_placeholder-large.png"
+        "_source": "https://player.vimeo.com/video/129196638",
+        "_width": {
+            "_small" : 300,
+            "_medium" : 500,
+            "_large" : 905
         },
-        "_pageLevelProgress": {
-            "_isEnabled": true
+        "_height": {
+            "_small" : 250,
+            "_medium" : 350,
+            "_large" : 508
         }
     },
     {
