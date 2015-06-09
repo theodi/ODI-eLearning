@@ -189,7 +189,32 @@
             "small": "course/en/images/odi-6-text-image_large.jpg"
         }
     },
-    
+    {
+        "_id":"c-60",
+        "_parentId":"b-60",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"right",
+        "title":"Lesson 7 - Sustainability",
+        "displayTitle":"Lesson 7 - Sustainability",
+        "body":"<p>A sustainable programme is one that continues to regularly release data with maintained or improving quality and quantity.</p><p>For something to be sustainable it is ‘able to be maintained at a certain rate or level’</p><p>This lesson looks at why sustainability matters and how to assess it on an open dataset.</p><p><a class='course_link' href='module7/'>Click here to learn more</a></p>"
+    },
+    {
+        "_id":"c-61",
+        "_parentId":"b-60",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/odi-7-text-image_large.jpg",
+            "medium": "course/en/images/odi-7-text-image_large.jpg",
+            "small": "course/en/images/odi-7-text-image_large.jpg"
+        }
+    },  
     {
         "_id":"c-85",
         "_parentId":"b-55",
