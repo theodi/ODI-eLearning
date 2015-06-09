@@ -25,9 +25,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"What is open data?",
-        "displayTitle":"What is open data?",
-        "body":"<p>Open data is <strong>data</strong> that <strong>anyone</strong> can <strong>access</strong>, <strong>use</strong> and <strong>share</strong>. Open data can transform interaction between governments, businesses and individuals. It has the power to improve services, grows economies and save our planet.</p><h5>In this module we’ll look at:</h5><ul class='ticks'><li>What is open data?</li><li>What is data?</li><li>What makes data open?</li><li>Why do we need open data?</li></ul>",
+        "title":"Getting to grips with platforms",
+        "displayTitle":"Geting to grips with platforms",
+        "body":"<p>A platform is a major piece of software on which smaller pieces of software and content can be run. In open data, the largest platform is the web itself, which provides access to all data. However, a number of purpose-built softwares also exist to help simplify publishing open data and provide interactive tools for users to explore.</p><h5>In this module we’ll look at:</h5><ul class='ticks'><li>Recognising open data platforms</li><li>Understanding their importance to users</li><li>Evaluating the key options</li><li>Using platforms to explore data</li></ul>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
@@ -40,12 +40,12 @@
     "_component":"iFrame-vimeo",
     "_classes":"",
     "_layout":"full",
-        "title":"Discovering open data – in 2 minutes",
-        "displayTitle": "Discovering open data – in 2 minutes",
-        "body": "The ODI’s David Tarrant explains what data is, what makes it open and why we need open data.",
+        "title":"Open data platforms – in 2 minutes",
+        "displayTitle": "Open data platforms – in 2 minutes",
+        "body": "The ODI’s David Tarrant explains what open data platforms are, the differnt types available and the advatages of them to users.",
         "instruction": "",
         "_setCompletionOn":"ended",
-        "_source": "https://player.vimeo.com/video/129196637",
+        "_source": "https://player.vimeo.com/video/129196991",
         "_width": {
             "_small" : 300,
             "_medium" : 500,
@@ -67,9 +67,12 @@
         "_graphic": {
             "alt": "",
             "title": "",
-            "large": "course/en/images/odi-1-text-image_large.jpg",
-            "medium": "course/en/images/odi-1-text-image_large.jpg",
-            "small": "course/en/images/odi-1-text-image_large.jpg"
+            "_source": "https://www.flickr.com/photos/miguelvirkkunen/6371937913",
+            "_credit": "Miguel Virkkunen Carvalho",
+            "_licence": "https://creativecommons.org/licenses/by/2.0/",
+            "large": "course/en/images/platform-1.jpg",
+            "medium": "course/en/images/platform-1.jpg",
+            "small": "course/en/images/platform-1.jpg"
         }
     },
     {
@@ -80,8 +83,8 @@
         "_classes":"",
         "_layout":"left",
         "title":"What is open data?",
-        "displayTitle":"What is open data?",
-        "body":"<p>Open data is <strong>data</strong> that <strong>anyone</strong> can <strong>access</strong>, <strong>use</strong> and <strong>share</strong>.</p><p>Open data becomes accessible by being available online.</p><p>Data becomes useable through being available in a common, understandable machine readable format.</p><p>Open data must be licenced. This license must permit the free usage of the data and allow users to transform, combine and share with others, even commercially.</p>"
+        "displayTitle":"What is an open data platform?",
+        "body":"<p>Open data platforms are pieces of software that streamline the process of publishing and managing open data on the web.</p><p>For publishers, an open data platform provides a specific pathway for getting data on the web. Specific workflows guide publishers through the process of publishing proper open data.</p><p>For users, use of a limited number of platforms provides consistency and ease of access to open data from around the globe.</p>"
     },
      {
         "_id": "c-25",
@@ -90,38 +93,47 @@
         "_type":"component",
         "_layout": "full",
         "_component": "narrative",
-        "title": "From raw material to new information and knowledge",
-        "displayTitle": "From raw material to new information and knowledge",
-        "body": "Without data, we can’t build information.  And without information, there is no new knowledge.",
-        "instruction": "<em class='desktop-instruction'>Click the forward arrow to see more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
+        "title": "Key features of open data platforms",
+        "displayTitle": "Key features of open data platforms",
+        "body": "Open data platforms make open data <em>discoverable</em> and <em>usable</em> in a <em>consistant</em> way.",
+        "instruction": "<em class='desktop-instruction'>Click the forward arrow find out more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
         "_items": [
             {
-                "title": "Data",
-                "body": "<p>Data is the lowest level of raw material from which information and knowledge can be derived.</p><p>As an example, think of data as those locations, images, descriptions, reviews and prices that form the basis of information that can help people build a holiday.</p>",
+                "title": "Discovery",
+                "body": "<p>Open data platforms have been built with the purpose of promoting available data for users. To this end they have been specifically designed to easy the discovery and reuse of open data.</p><p>Each platform is search optimised and provides data feeds that can be discovered and indexed in systems across the web.</p><p>enigma.io is a startup that is already indexing open data to make it easier to search.</p><p>Discover more at enigma.io</p>",
                 "_graphic": {
-                    "src": "course/en/images/odi-2-narrative_large.jpg",
-                    "alt": "Providing certainty",
-                    "title": ""
+                    "src": "course/en/images/platform-2.jpg",
+                    "alt": "Discovery",
+                    "title": "",
+                    "_source": "https://www.flickr.com/photos/mjtmail/3008566512",
+                    "_credit": "mjtmail (tiggy)",
+                    "_licence": "https://creativecommons.org/licenses/by/2.0/"
                 },
                 "strapline": "Data"
             },
             {
-                "title": "Information",
-                "body": "<p>Data becomes information when it is given a context.</p><p>Following on from the previous example, locations, images, descriptions and prices can all be related to a tourist  attraction.</p><p>It is the collection and presentation of the data that forms information.</p>",
+                "title": "Consistancy",
+                "body": "<p>There is currently a limited number of open data platforms, thus discovering huge amounts of open data does not require knowledge of countless technologies.</p><p>Additionally, each of the platforms has taken a considered approach to how they look to a user, making each one easy to instantly identify.</p><p>For example look at: data.gov.uk, data.gov.bf and data.gov.md. Also note that most governments are using the same pattern for the web address of their data.</p>",
                 "_graphic": {
-                    "src": "course/en/images/odi-3-narrative_large.jpg",
-                    "alt": "A graph of open licences across countries",
-                    "title": "A graph of open licences across countries"
+                    "src": "course/en/images/platform-3.jpg",
+                    "alt": "Electricty is part of our infrastructure, access must be conistant.",
+                    "title": "Electricty is part of our infrastructure, access must be conistant.",
+                    "_source": "https://www.flickr.com/photos/viriyincy/7004881064",
+                    "_credit": "Oran Viriyincy",
+                    "_licence": "https://creativecommons.org/licenses/by-sa/2.0/"
                 },
                 "strapline": "Information"
             },
             {
-                "title": "Knowledge",
-                "body": "<p>Knowledge is what is derived from the information, personalising it for your needs.</p><p>Knowledge is the process of turning information into choices.</p><p>Following on from the previous example, knowing that no one in your family likes theme parks will inform your decisions as to which locations to avoid and which would be more suitable for your purposes.</p>",
+                "title": "Access",
+                "body": "<p>The evolution of open standards on the web has also led to a consistent machine interfaces (APIs) for discovering, accessing and using data.</p><p>With a limited number of platforms all implementing similar interfaces, but with a different set of features, users are provided the maximum potential for easy access and reuse.</p><p>Additionally the platforms are all adopting similar structures and formats for exposing metadata as well as the data itself.</p>",
                 "_graphic": {
-                    "src": "course/en/images/odi-4-narrative_large.jpg",
-                    "alt": "A map from a to b",
-                    "title": "A map from a to b"
+                    "src": "course/en/images/platform-4.jpg",
+                    "alt": "Access granted",
+                    "title": "Access granted",
+                    "_source": "http://www.shutterstock.com/pic-122234134",
+                    "_credit": "Maksim Kabakou",
+                    "_licence": "http://www.shutterstock.com/license"
                 },
                 "strapline": "Knowledge"
             }
@@ -140,9 +152,12 @@
         "_graphic": {
             "alt": "",
             "title": "",
-            "large": "course/en/images/odi-5-accordion_large.jpg",
-            "medium": "course/en/images/odi-5-accordion_large.jpg",
-            "small": "course/en/images/odi-5-accordion_large.jpg"
+            "large": "course/en/images/platform-5.jpg",
+            "medium": "course/en/images/platform-5.jpg",
+            "small": "course/en/images/platform-5.jpg",
+            "_source": "http://www.shutterstock.com/pic-233171884",
+            "_credit": "Sentavio",
+            "_licence": "http://www.shutterstock.com/license"
         }
     },
     {
@@ -152,78 +167,63 @@
       "_component":"accordion",
       "_classes":"",
       "_layout":"left",
-      "title": "What makes data open?",
-      "displayTitle": "What makes data open?",
-      "body": "<p>Data is open if anyone can access, use and share it.<br />There are some simple things to consider when defining openness.  Consider the following: </p>",
+      "title": "Approaches",
+      "displayTitle": "Approaches",
+      "body": "<p>Different platforms provide different approaches to publishing and exposing open data. Discover the different approaches below:</p>",
       "instruction": "",
       "_items": [
         {
-          "alt": "Limitations",
-          "title": "Limitations",
-          "body": "<p>To be open there should be no limitations that prevents any particular use of the data.</p><p>A user should be free to use, modify, combine and share the data, even commercially.</p>"
+          "alt": "Data catalogs",
+          "title": "Data catalogs",
+          "body": "<p>A open data catalog is a platform which lists datasets that exist on the web. Such platforms are like a library database; they know what open data exists, what it is about and where it is.</p><p>An open data catalog links out to data that is located somewhere else on the web. They provide a consistent way of searching across a diverse set of data that is widely scattered.</p><p>Often this catalogues are able to link directly to the data download, thus it is not always obvious that you are browsing a catlog.</p><p>The CKAN platform, as used by data.gov.uk is a good example of a data catalog.</p>"
         },
         {
-          "alt": "Cost",
-          "title": "Cost",
+          "alt": "Data management",
+          "title": "Data management",
           "body": "<p>Even though data must be free to use, this does not mean that it must be free to access.</p><p>There is a cost in creating, maintaining and publishing useable data.</p><p>Ideally, any fee for data should be no more than the reasonable reproduction cost of the unit of data that is requested.</p><p>This reproduction cost tends to zero for many datasets.</p><p>Live data and big data can have ongoing cost related to reliable service provision.</p>"
         },
         {
-          "alt": "Reuse",
-          "title": "Reuse",
-          "body": "<p>Once the user has the data, they are free to use it, reuse it and redistribute it, even commercially.</p><p>Open data is measured by what it can be used for, not by how it is made available.</p><p>Aspects like format, structure and machine readability all make data more usable, and should all be carefully considered.</p><p>However these do not make the data more open.</p>"
+          "alt": "Hybrid approaches",
+          "title": "Hybrid approaches",
+          "body": "<p>Data management platforms take an active role in the control of any data they contain. On top of know what data exists, these platforms can search and manipulate the data itself.</p><p>For open data users, being able to search and manipulate the data without having to first download it makes reuse significantly easier.</p><p>For publishers however, there is a much greater challenge in structuring and formatting data such that the platform will accept it. Such challenges can be overcome if the publishing platform also becomes the means of access to the data for the publisher.</p><p>The Open Data Soft platform as used by data.sncf.com is a good example of such a platform.</p>"
+        },
+        {
+          "alt": "Comparison",
+          "title": "Comparison",
+          "body": "<p>Data catalogues provide:</p></ul><li>Federated search across a wide domain</li><li>Mechanisms for discovery</li><li>Key metadata relating to licence and how up to date data is.</li></ul><p>Data management platforms provide:</p><ul><li>Authoritative sources for data</li><li>Increased quality</li><li>Ability to search and manipulate the data itself.</li></ul><p>Taking a hybrid approach provides the greatest potential for data reuse.</p>"
         }
       ],
       "_pageLevelProgress": {
         "_isEnabled": true
       }
     },
-     {
-        "_id": "c-40",
-        "_parentId": "b-30",
-        "_classes": "",
+    {
+        "_id":"c-31",
+        "_parentId":"b-30",
         "_type":"component",
-        "_layout": "full",
-        "_component": "narrative",
-        "title": "Why do we need open data?",
-        "displayTitle": "Why do we need open data?",
-        "body": "Open data has the power to transform government, business and civil society.",
-        "instruction": "<em class='desktop-instruction'>Click the forward arrow to see more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
-        "_items": [
-            {
-                "title": "Transform government",
-                "body": "<p>Open data increases the transparency of governments. It provides the evidence that public money is being well spent and policies are being implemented.</p><p>For example, according to leading Open Government activist David Eaves, in Canada in 2010, open data allowed citizens to save the government $3.2 billion in fraudulent charitable donations.<br /><a href='http://eaves.ca/2010/04/14/case-study-open-data-and-the-public-purse/' target='_blank'>Take me to David Eaves article</a></p><p>In another example, according to Follow the Money, in Nigeria, the same process is used to ensure that public funds are used to implement the policies promised to the people.<br /><a href='http://followthemoneyng.org/' target='_blank'>Take me to Follow the Money</a></p>",
-                "_graphic": {
-                    "src": "course/en/images/odi-6-narrative_large.jpg",
-                    "alt": "Transform government",
-                    "title": "Transform government"
-                },
-                "strapline": "Transform government"
-            },
-            {
-                "title": "Build new business opportunities",
-                "body": "<p>Open data is opening up new opportunities for businesses to connect to customers.</p><p>Transport for London have released open data that developers have used to build over 800 transport apps.<br /><a href='http://www.tfl.gov.uk/' target='_blank'>Take me to Transport for London</a></p><p>Thomson Reuters are using open data to better connect to existing customers in order to provide better services.<br /><a href='http://site.thomsonreuters.com/site/data-identifiers/' target='_blank'>Take me to Thomson Reuters</a></p><p>The ODI startup program now has over 70 employees with income over £4m.<br /><a href='http://theodi.org/odis-second-year-annual-report' target='_blank'>Take me to The ODI annual report</a></p>",
-                "_graphic": {
-                    "src": "course/en/images/odi-7-narrative_large.jpg",
-                    "alt": "Build new business opportunities",
-                    "title": "Build new business opportunities"
-                },
-                "strapline": "Build new business opportunities"
-            },
-            {
-                "title": "Protect our planet",
-                "body": "<p>The web has become a core part of societal infrastructure and open data is the next key component of this infrastructure.</p><p>Open data provides an early warning system for environmental disasters.<br /><a href='http://www.un.org/apps/news/story.asp?NewsID=13077&Cr=natural&Cr1=disaster#.VVyWK_lVhBc' target='_blank'>Take me to the United Nations news centre</a></p><p>Open data is also helping consumers understand their personal impact on the environment and how to take responsibility for their effect.<br /><a href='https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/39386/12-1324-better-choices-better-deals-report-on-progress-on-the-consumer-empowerment-strategy.pdf' target='_blank'>Take me to Better Choices Better Deals report.</a></p>",
-                "_graphic": {
-                    "src": "course/en/images/odi-8-narrative_large.jpg",
-                    "alt": "Protect our planet",
-                    "title": "Protect our planet"
-                },
-                "strapline": "Protect our planet"
-            }
-        ],
-        "_pageLevelProgress": {
-        "_isEnabled": true
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/platform-0.jpg",
+            "medium": "course/en/images/platform-0.jpg",
+            "small": "course/en/images/platform-0.jpg"
         }
-    }, {
+    },
+    {
+        "_id":"c-32",
+        "_parentId":"b-30",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Open data platforms across Europe",
+        "displayTitle":"Open data platforms across Europe",
+        "body":"<p>Explore data platforms across europe.</p><p>Click on a country to discover more:</p>"
+    },
+    {
         "_id":"c-42",
         "_parentId":"b-33",
         "_type":"component",
@@ -249,9 +249,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Are you ready for open data?",
-        "displayTitle":"Are you ready for open data?",
-        "body":"<p>There are four helpful things to remember when thinking about opening your data for users, can you recall them?</p>",
+        "title":"Are you ready to unlock open data platforms?",
+        "displayTitle":"Are you ready to unlock open data platforms?",
+        "body":"<p>There are three helpful things to remember when thinking about open data platforms, can you recall them?</p>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
@@ -267,9 +267,12 @@
         "_graphic": {
             "alt": "",
             "title": "",
-            "large": "course/en/images/odi-9-mcq-image_large.jpg",
-            "medium": "course/en/images/odi-9-mcq-image_large.jpg",
-            "small": "course/en/images/odi-9-mcq-image_large.jpg"
+            "_source": "https://www.flickr.com/photos/miguelvirkkunen/6371937913",
+            "_credit": "Miguel Virkkunen Carvalho",
+            "_licence": "https://creativecommons.org/licenses/by/2.0/",
+            "large": "course/en/images/platform-1.jpg",
+            "medium": "course/en/images/platform-1.jpg",
+            "small": "course/en/images/platform-1.jpg"
         }
     },
     {
@@ -283,33 +286,33 @@
         "_questionWeight":1,
         "_isRandom":true,
         "_selectable":1,
-        "title": "What is open data?",
-        "displayTitle": "What is open data?",
-        "body": "<p>Open data is-</p>",
+        "title": "What is an open data platform?",
+        "displayTitle": "What is an open data platform?",
+        "body": "<p>An open data platform is-</p>",
         "instruction": "<em>Select an option, then click Submit.</em>",
         "_items": [
             {
-                "text": "information that we sell to businesses.",
+                "text": "a sales platform for businesses.",
                 "_shouldBeSelected": false
             },
             {
-                "text": "data that anyone can access, use and share.",
+                "text": "a piece of software that helps get open data on the web.",
                 "_shouldBeSelected": true
             },
             {
-                "text": "data that is visible on the web.",
+                "text": "an internal data management tool.",
                 "_shouldBeSelected": false
             }
         ],
         "_feedback":{
-            "correct":"<h5>That’s right!</h5><p><strong>Open data</strong> is <strong>data</strong> that <strong>anyone</strong> can <strong>access</strong>, <strong>use</strong> and <strong>share</strong>.<br />Open data must also be licenced to allow free usage and must also be available for commercial use.</p>",
+            "correct":"<h5>That’s right!</h5><p>An open data platform is piece of software that helps get open data on the web. It provides publishers a streamed process for publishing data and users a consistent way to access, use and share data.</p>",
             "_incorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p><strong>Open data</strong> is <strong>data</strong> that <strong>anyone</strong> can <strong>access</strong>, <strong>use</strong> and <strong>share</strong>.<br />Open data must also be licenced to allow free usage and must also be available for commercial use.</p></p>",
-                "final": "<h5>Are you sure about that?</h5><p><p><strong>Open data</strong> is <strong>data</strong> that <strong>anyone</strong> can <strong>access</strong>, <strong>use</strong> and <strong>share</strong>.<br />Open data must also be licenced to allow free usage and must also be available for commercial use.</p></p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>An open data platform is piece of software that helps get open data on the web. It provides publishers a streamed process for publishing data and users a consistent way to access, use and share data.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>An open data platform is piece of software that helps get open data on the web. It provides publishers a streamed process for publishing data and users a consistent way to access, use and share data.</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                "notFinal": "An open data platform is piece of software that helps get open data on the web. It provides publishers a streamed process for publishing data and users a consistent way to access, use and share data.",
+                "final": "An open data platform is piece of software that helps get open data on the web. It provides publishers a streamed process for publishing data and users a consistent way to access, use and share data."
           }
         },
         "_buttons":{
@@ -327,14 +330,17 @@
         "_parentId":"b-40",
         "_type":"component",
         "_component":"graphic",
-        "_classes":"illustration",
+        "_classes":"",
         "_layout":"left",
         "_graphic": {
             "alt": "",
             "title": "",
-            "large": "course/en/images/odi-10-mcq_large.jpg",
-            "medium": "course/en/images/odi-10-mcq_large.jpg",
-            "small": "course/en/images/odi-10-mcq_large.jpg"
+            "large": "course/en/images/platform-6.jpg",
+            "medium": "course/en/images/platfrom-6.jpg",
+            "small": "course/en/images/platform-6.jpg",
+            "_source": "https://www.flickr.com/photos/deborahfitchett/2970373235",
+            "_credit": "Deborah Fitchett",
+            "_licence": "https://creativecommons.org/licenses/by/2.0/"
         }
     },
     {
@@ -348,33 +354,33 @@
         "_questionWeight":1,
         "_isRandom":true,
         "_selectable":1,
-        "title": "What is data?",
-        "displayTitle": "What is data?",
-        "body": "<p>Data is-</p>",
+        "title": "What is a data catalog?",
+        "displayTitle": "What is a data catalog?",
+        "body": "<p>A data catalog is-</p>",
         "instruction": "<em>Select an option, then click Submit.</em>",
         "_items": [
             {
-                "text": "numbers, words, maps and photos.",
+                "text": "a list of datasets an organisation holds.",
                 "_shouldBeSelected": false
             },
             {
-                "text": "information posted on the web.",
+                "text": "a list of datasets and prices.",
                 "_shouldBeSelected": false
             },
             {
-                "text": "the raw material of information and knowledge.",
+                "text": "a list of open datasets available on the web.",
                 "_shouldBeSelected": true
             }
         ],
         "_feedback":{
-            "correct":"<h5>That’s right!</h5><p>Data is the lowest level of raw material from which information and knowledge can be derived.</p>",
+            "correct":"<h5>That’s right!</h5><p>A data catalogue lists datasets that are available on the web, they do not all have to be owned by the owner of the catalogue. Most catalogues are domain or subject specific in order to keep the context simpler to understand.</p>",
             "_incorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>Data is the lowest level of raw material from which information and knowledge can be derived.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>Data is the lowest level of raw material from which information and knowledge can be derived.</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><pA data catalogue lists datasets that are available on the web, they do not all have to be owned by the owner of the catalogue. Most catalogues are domain or subject specific in order to keep the context simpler to understand.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>A data catalogue lists datasets that are available on the web, they do not all have to be owned by the owner of the catalogue. Most catalogues are domain or subject specific in order to keep the context simpler to understand.</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                "notFinal": "A data catalogue lists datasets that are available on the web, they do not all have to be owned by the owner of the catalogue. Most catalogues are domain or subject specific in order to keep the context simpler to understand.",
+                "final": "A data catalogue lists datasets that are available on the web, they do not all have to be owned by the owner of the catalogue. Most catalogues are domain or subject specific in order to keep the context simpler to understand."
           }
         },
         "_buttons":{
@@ -395,11 +401,14 @@
         "_classes":"illustration",
         "_layout":"right",
         "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "course/en/images/odi-11-mcq_large.jpg",
-            "medium": "course/en/images/odi-11-mcq_large.jpg",
-            "small": "course/en/images/odi-11-mcq_large.jpg"
+            "alt": "Electricty is part of our infrastructure, access must be conistant.",
+            "title": "Electricty is part of our infrastructure, access must be conistant.",
+            "large": "course/en/images/platform-3.jpg",
+            "medium": "course/en/images/platform-3.jpg",
+            "small": "course/en/images/platform-3.jpg",
+            "_source": "https://www.flickr.com/photos/viriyincy/7004881064",
+            "_credit": "Oran Viriyincy",
+            "_licence": "https://creativecommons.org/licenses/by-sa/2.0/"
         }
     },
     {
@@ -413,98 +422,40 @@
         "_questionWeight":1,
         "_isRandom":true,
         "_selectable":1,
-        "title": "What makes data open?",
-        "displayTitle": "What makes data open?",
-        "body": "<p>Open data should be-</p>",
-        "instruction": "<em>Select an option, then click Submit.</em>",
+        "title": "Which three things do open data platforms help with?",
+        "displayTitle": "Which three things do open data platforms help with?",
+        "body": "<p></p>",
+        "instruction": "<em>Select three options</em>",
         "_items": [
             {
-                "text": "free of restrictions for its use.",
+                "text": "Discovery",
                 "_shouldBeSelected": true
             },
             {
-                "text": "restricted in its use.",
+                "text": "Consistancy",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "Access",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "Context",
                 "_shouldBeSelected": false
             },
             {
-                "text": "selectively released for a fee.",
+                "text": "Community",
                 "_shouldBeSelected": false
             }
         ],
         "_feedback":{
-            "correct":"<h5>That’s right!</h5><p>If something restricts the free use of the data (such as a non-commercial restriction), then this would not qualify as being open data.</p>",
+            "correct":"<h5>That’s right!</h5><p>The three main benefits of open data platforms are <em>discovery</em>, <em>consistency</em> and <em>access</em>. Although they can assist with establishing context and community these aspects require additional effort on behalf of the publisher and remain two of the key challenges in open data.</p>",
             "_incorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>If something restricts the free use of the data (such as a non-commercial restriction), then this would not qualify as being open data.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>If something restricts the free use of the data (such as a non-commercial restriction), then this would not qualify as being open data.</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>The three main benefits of open data platforms are <em>discovery</em>, <em>consistency</em> and <em>access</em>. Although they can assist with establishing context and community these aspects require additional effort on behalf of the publisher and remain two of the key challenges in open data.</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-          }
-        },
-        "_buttons":{
-            "submit":"",
-            "reset":"",
-            "showCorrectAnswer":"",
-            "hideCorrectAnswer":""
-        },
-        "_pageLevelProgress": {
-        "_isEnabled": true
-      }
-    },
-    {
-        "_id":"c-75",
-        "_parentId":"b-50",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"illustration",
-        "_layout":"left",
-        "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "course/en/images/odi-12-mcq_large.jpg",
-            "medium": "course/en/images/odi-12-mcq_large.jpg",
-            "small": "course/en/images/odi-12-mcq_large.jpg"
-        }
-    },
-    {
-        "_id":"c-80",
-        "_parentId":"b-50",
-        "_type":"component",
-        "_component":"mcq",
-        "_classes":"",
-        "_layout":"right",
-        "_attempts":1,
-        "_questionWeight":1,
-        "_isRandom":true,
-        "_selectable":1,
-        "title": "Why do we need open data?",
-        "displayTitle": "Why do we need open data?",
-        "body": "<p>What does open data have the power to do?</p>",
-        "instruction": "<em>Select an option, then click Submit.</em>",
-        "_items": [
-            {
-                "text": "Give access to other datasets.",
-                "_shouldBeSelected": false
-            },
-            {
-                "text": "make governments be accountable.",
-                "_shouldBeSelected": false
-            },
-            {
-                "text": "Open data can unlock social, environmental and economic value.",
-                "_shouldBeSelected": true
-            }
-        ],
-        "_feedback":{
-            "correct":"<h5>That’s right!</h5><p>Open data can transform interaction between governments, businesses and individuals. It has the power to improve services, grow economies and save our planet.</p>",
-            "_incorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>Open data can transform interaction between governments, businesses and individuals. It has the power to improve services, grow economies and save our planet.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>Open data can transform interaction between governments, businesses and individuals. It has the power to improve services, grow economies and save our planet.</p>"
-            },
-            "_partlyCorrect": {
-                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                "notFinal": "<p>The three main benefits of open data platforms are <em>discovery</em>, <em>consistency</em> and <em>access</em>. Although they can assist with establishing context and community these aspects require additional effort on behalf of the publisher and remain two of the key challenges in open data.</p>",
+                "final": "<p>The three main benefits of open data platforms are <em>discovery</em>, <em>consistency</em> and <em>access</em>. Although they can assist with establishing context and community these aspects require additional effort on behalf of the publisher and remain two of the key challenges in open data.</p>"
           }
         },
         "_buttons":{
@@ -539,9 +490,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Open data - Veni, vidi, vici",
-        "displayTitle":"Open data - Veni, vidi, vici",
-        "body":"<p>Open data is <strong>data</strong> that <strong>anyone</strong> can <strong>access</strong>, <strong>use</strong> and <strong>share</strong>.</p><p>Open data is the natural resource for the digital age and, unlike coal, timber or diamonds, it can be used by anyone and everyone at the same time.</p><p>Any restrictions imposed on the use of open data will limit its use in creating new value.</p><p>Open data can transform interaction between governments, businesses and individuals. It has the power to improve services, grow economies and save our planet.</p><p>In the next module, we look at how value is unlocked in open data.</p>",
+        "title":"Open data platforms",
+        "displayTitle":"Open data platforms",
+        "body":"<p>Open data platforms are pieces of software that streamline the process of publishing and managing open data on the web.</p><p>For publishers, an open data platform provides a specific pathway for getting data on the web. Specific workflows guide publishers through the process of publishing proper open data.</p><p>For users, use of a limited number of platforms provides consistency and ease of access to open data from around the globe.</p>",
         "_pageLevelProgress": {
           "_isEnabled": true
         }
