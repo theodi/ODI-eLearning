@@ -441,31 +441,31 @@ helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
   var buffer = "", stack1, helper, functionType="function", escapeExpression=this.escapeExpression;
 
 
-  buffer += "\n<div class=\"component-inner iFrame-vimeo-inner\">\n  <div class=\"media-title component-title\">\n    <h4 class=\"media-title-inner component-title-inner\">\n    	";
+  buffer += "\r\n<div class=\"component-inner iFrame-vimeo-inner\">\r\n  <div class=\"media-title component-title\">\r\n    <h4 class=\"media-title-inner component-title-inner\">\r\n    	";
   if (helper = helpers.title) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.title); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
-    + "\n    </h4>\n  </div>\n  <div class=\"media-body component-body\">\n    <div class=\"media-body-inner component-body-inner\">\n    	";
+    + "\r\n    </h4>\r\n  </div>\r\n  <div class=\"media-body component-body\">\r\n    <div class=\"media-body-inner component-body-inner\">\r\n    	";
   if (helper = helpers.body) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.body); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
-    + "\n    </div>\n  </div>\n   <div class=\"component-widget iFrame-vimeo-widget\">\n    <div class=\"iFrame-vimeo-iframe-holder\">\n      <iframe scrolling=\"no\" class=\"iFrame-vimeo-iframe\" src=\"";
+    + "\r\n    </div>\r\n  </div>\r\n   <div class=\"component-widget iFrame-vimeo-widget\">\r\n    <div class=\"iFrame-vimeo-iframe-holder\">\r\n      <iframe scrolling=\"no\" class=\"iFrame-vimeo-iframe\" src=\"";
   if (helper = helpers._source) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0._source); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
-    + "\"\n        data-height-large=\""
+    + "\"\r\n        data-height-large=\""
     + escapeExpression(((stack1 = ((stack1 = (depth0 && depth0._height)),stack1 == null || stack1 === false ? stack1 : stack1._large)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
     + "\" data-height-medium=\""
     + escapeExpression(((stack1 = ((stack1 = (depth0 && depth0._height)),stack1 == null || stack1 === false ? stack1 : stack1._medium)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
     + "\" data-height-small=\""
     + escapeExpression(((stack1 = ((stack1 = (depth0 && depth0._height)),stack1 == null || stack1 === false ? stack1 : stack1._small)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
-    + "\"\n        data-width-large=\""
+    + "\"\r\n        data-width-large=\""
     + escapeExpression(((stack1 = ((stack1 = (depth0 && depth0._width)),stack1 == null || stack1 === false ? stack1 : stack1._large)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
     + "\" data-width-medium=\""
     + escapeExpression(((stack1 = ((stack1 = (depth0 && depth0._width)),stack1 == null || stack1 === false ? stack1 : stack1._medium)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
     + "\" data-width-small=\""
     + escapeExpression(((stack1 = ((stack1 = (depth0 && depth0._width)),stack1 == null || stack1 === false ? stack1 : stack1._small)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
-    + "\">\n      </iframe>\n    </div>\n  </div>\n</div>\n";
+    + "\">\r\n      </iframe>\r\n    </div>\r\n  </div>\r\n</div>\r\n";
   return buffer;
   });
 
@@ -1261,22 +1261,22 @@ helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
 function program1(depth0,data) {
   
   var buffer = "", stack1, helper;
-  buffer += "\n                <!--<div class=\"tutor-title\">\n                    <h5 class=\"tutor-title-inner\">\n                    ";
+  buffer += "\r\n                <!--<div class=\"tutor-title\">\r\n                    <h5 class=\"tutor-title-inner\">\r\n                    ";
   if (helper = helpers.feedbackTitle) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.feedbackTitle); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   if(stack1 || stack1 === 0) { buffer += stack1; }
-  buffer += "\n                    </h5>\n                </div>-->\n                ";
+  buffer += "\r\n                    </h5>\r\n                </div>-->\r\n                ";
   return buffer;
   }
 
-  buffer += "\n<div class=\"tutor\">\n    <div class=\"tutor-toolbar\">\n        <a href=\"#\" class=\"tutor-done\">\n            <div class=\"tutor-icon-close icon icon-cross\"></div>\n        </a>\n    </div>\n    <div class=\"tutor-content\">\n        <div class=\"tutor-inner\">\n                ";
+  buffer += "\r\n<div class=\"tutor\">\r\n    <div class=\"tutor-toolbar\">\r\n        <a href=\"#\" class=\"tutor-done\">\r\n            <div class=\"tutor-icon-close icon icon-cross\"></div>\r\n        </a>\r\n    </div>\r\n    <div class=\"tutor-content\">\r\n        <div class=\"tutor-inner\">\r\n                ";
   stack1 = helpers['if'].call(depth0, (depth0 && depth0.feedbackTitle), {hash:{},inverse:self.noop,fn:self.program(1, program1, data),data:data});
   if(stack1 || stack1 === 0) { buffer += stack1; }
-  buffer += "\n            <div class=\"tutor-body\">\n                <div class=\"tutor-body-inner\">";
+  buffer += "\r\n            <div class=\"tutor-body\">\r\n                <div class=\"tutor-body-inner\">";
   if (helper = helpers.feedbackMessage) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.feedbackMessage); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   if(stack1 || stack1 === 0) { buffer += stack1; }
-  buffer += "</div>\n            </div>\n        </div>\n    </div>\n</div>\n\n<div class=\"tutor-shadow\"></div>\n";
+  buffer += "</div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\r\n\r\n<div class=\"tutor-shadow\"></div>\r\n";
   return buffer;
   });
 
