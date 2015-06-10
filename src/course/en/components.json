@@ -25,9 +25,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Measuring success",
-        "displayTitle":"Measuring success",
-        "body":"<p>Successful open data initiatives do more than simply put data on the web. The most data-savvy organisations also put in place frameworks and policies to support and incentivise innovation. Communities need to be built and powerful stories told. Together these factors will help educate everyone to the benefits of open data.</p><h5>In this module we’ll look at:</h5><ul class='ticks'><li>Measuring success</li><li>Being demand focused</li><li>Keeping on track</li></ul>",
+        "title":"Excavating hidden data",
+        "displayTitle":"Excavating hidden data",
+        "body":"<p>Open data is not just datasets available to download. In fact, this type of data represents only a small fraction of the available resources on the web.</p><p>There is also a huge amount of data available which at first appears hidden. A lot of data has been only designed for machines to read. In this module we look at techniques to unlock this hidden data.</p><h5>In this module we’ll look at:</h5><ul class='ticks'><li>How to understand and identify hidden data</li><li>What benefits hidden data can provid</li><li>How to get hold of hidden data</li></ul>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
@@ -40,12 +40,12 @@
     "_component":"iFrame-vimeo",
     "_classes":"",
     "_layout":"full",
-        "title":"Comparing open data initiatives – in two minutes",
-        "displayTitle": "Comparing open data initiatives – in two minutes",
-        "body": "The ODI’s Liz Carolyn explains the key dimensions used to measure success of open data initiatives, what a demand-focused approach to open data is and how performance indicators add value to open data initiatives.",
+        "title":"Excavating hidden data – in two minutes",
+        "displayTitle": "Excavating hidden data – in two minutes",
+        "body": "The ODI’s David Tarrant explains why downloadable data represents just a fraction of the available resources on the web, the benefits of hidden, machine-readable data and how you as a user can get hold of these resources",
         "instruction": "",
         "_setCompletionOn":"ended",
-        "_source": "https://player.vimeo.com/video/129197044",
+        "_source": "https://player.vimeo.com/video/129197208",
         "_width": {
             "_small" : 300,
             "_medium" : 500,
@@ -67,9 +67,9 @@
         "_graphic": {
             "alt": "",
             "title": "",
-            "large": "course/en/images/odi-1-textimage_large.jpg",
-            "medium": "course/en/images/odi-1-textimage_large.jpg",
-            "small": "course/en/images/odi-1-textimage_large.jpg"
+            "large": "course/en/images/iceberg.jpg",
+            "medium": "course/en/images/iceberg.jpg",
+            "small": "course/en/images/iceberg.jpg"
         }
     },
     {
@@ -79,9 +79,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Measuring success",
-        "displayTitle":"Measuring success",
-        "body":"<p>When it comes to judging the success of open data initiatives, it is important to look beyond a narrow focus on the quantity of data published.</p><p>A broad framework that keeps the focus on demand for the data is needed to properly compare initiatives.</p><p>The Open Data Barometer, for example, provides a global measure for assessing the progress of countries. It uses three key indicators: Readiness, Implementation and Impact.<br /><a href='http://barometer.opendataresearch.org/' target='_blank'>Take me to the Open Data Barometer</a></p>"
+        "title":"Tip of the iceberg: the data people can't see",
+        "displayTitle":"Tip of the iceberg: the data people can't see",
+        "body":"<p>Open data is not always easy to find. For people navigating the web, we like to see visually-attractive websites, clicking through links and downloading files.</p><p>However the way we as people interact with the web is very different from the way a machine interacts with it. Machines navigate the web according to clearly defined rules and without any regard for the look and feel of the site. Therefore while humans may like engaging, interactive content, machines look for structure, logic and clarity.</p><p>This difference in the way people and machines read the web creates ‘blind-spots’ for both sides. Machines find it very difficult to pick out a downloadable files from a visual website. Similarly, we find it very difficult to get access to the structured, non-visual information obvious to a machine.</p><p>Our blind spot means what we can find and download is just the tip of the data iceberg. Much more data remains hidden from our eyes and we need to use machines to extract it from the web.</p>"
     },
      {
         "_id": "c-25",
@@ -90,36 +90,36 @@
         "_type":"component",
         "_layout": "full",
         "_component": "narrative",
-        "title": "Criteria for measuring success",
-        "displayTitle": "Criteria for measuring success",
-        "body": "There are 3 key performance indicators to compare and measure successful open data initiatives.",
+        "title": "Finding hidden data",
+        "displayTitle": "Finding hidden data",
+        "body": "Not all data is available for download. Often it is hidden in the different websites we visit every day",
         "instruction": "<em class='desktop-instruction'>Click the forward arrow to see more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
         "_items": [
             {
-                "title": "Readiness",
-                "body": "<p>To what extent is an organisation (or country) ready to support an open data initiative?</p><ul>Key aspects include:<li>Supported licences</li><li>Established policies and procedures</li><li>Commitment to invest</li><li>Access to education</li><li>Established methods for wider engagement</li></ul>",
+                "title": "Why hide data?",
+                "body": "<p>Most of the time data is not intentionally hidden. A lot of the time it is not intentionally exposed.</p><p>The shift towards “Web 2.0”, the data driven mobile enabled web, has led to a different way of building web sites. These dynamic sites separate content from the look and feel.  The expectation to build such sites has had the pleasant consequence of in many cases, exposing raw data that can be tapped into.</p><p>In some cases this exposing of data has led to the development of official channels of access, which starts to reveal what was previously hidden.</p>",
                 "_graphic": {
-                    "src": "course/en/images/odi-2-narrative_large.jpg",
+                    "src": "course/en/images/hidden.jpg",
                     "alt": "Readiness",
                     "title": "Readiness"
                 },
                 "strapline": "Readiness"
             },
             {
-                "title": "Implementation",
-                "body": "<p>Implementation is the extent to which important data is made available.</p><p>Data is now as important to our national infrastructures as roads or internet access. For public sectors and governments there is are certain datasets that should be open as a way to support innovation, generate value and grow the economy.</p><p>Commercial organisations should also consider which datasets are critical to enhance their commercial position and unlock new customer channels.</p>",
+                "title": "Data is hiding everywhere",
+                "body": "<p>From wikipedia pages to holiday planners, fashion websites to energy providers, the web is full of rich sources of data.</p><p>Some of this data will be openly licensed, some will be licensed for personal use and the rest is likely to be very unclear in what you are explicitly permitted to use it for.</p>",
                 "_graphic": {
-                    "src": "course/en/images/odi-3-narrative_large.jpg",
+                    "src": "course/en/images/collage.png",
                     "alt": "Implementation",
                     "title": "Implementation"
                 },
                 "strapline": "Implementation"
             },
             {
-                "title": "Impact",
-                "body": "<p>What are the tangible, real world benefits of the data for users?</p><p>Without evidence of impact, communities will not grow around the data and innovation will be slow to take hold.</p><p>Impact measures include -</p><ul><li>High profile advocacy for open data</li><li>Economic growth driven by Open Data</li><li>Social and environmental benefit</li></ul>",
+                "title": "What type of data is hiding?",
+                "body": "<p>You will need to be aware that the type of data that is hiding will be significantly different from that available for simple download.</p><p>While downloads are available in Excel and CSV formats, the machine readable data in the web will be in formats like JSON (the most common and simple to use), XML and sometimes RDF.</p><p>Try the exercises later in this module to see if you can extract data in these formats.</p>",
                 "_graphic": {
-                    "src": "course/en/images/odi-4-narrative_large.jpg",
+                    "src": "course/en/images/variety.jpg",
                     "alt": "Impact",
                     "title": "Impact"
                 },
@@ -140,9 +140,9 @@
         "_graphic": {
             "alt": "",
             "title": "",
-            "large": "course/en/images/odi-5-accordian_large.jpg",
-            "medium": "course/en/images/odi-5-accordian_large.jpg",
-            "small": "course/en/images/odi-5-accordian_large.jpg"
+            "large": "course/en/images/benefit.jpg",
+            "medium": "course/en/images/benefit.jpg",
+            "small": "course/en/images/benefit.jpg"
         }
     },
     {
@@ -152,35 +152,29 @@
       "_component":"accordion",
       "_classes":"",
       "_layout":"left",
-      "title": "Focussing on demand",
-      "displayTitle": "Focussing on demand",
-      "body": "<p>A demand-focused approach prioritises the needs of the data user over the data publisher.</p><p>Demand-focussed open data releases also enable a range of additional benefits -</p>",
+      "title":"Benefits of hidden data",
+      "displayTitle": "Benefits of hidden data",
       "instruction": "<em>Click the headings to explore further.</em>",
       "_items": [
         {
-          "alt": "Open data as an educator",
-          "title": "Open data as an educator",
-          "body": "<p>Data (not just open data) is now a core part of many people’s jobs. However the data skills required to manage, clean and interpret this data are often lacking.</p><p>Open data brings about key opportunities to increase the level of knowledge in handling data, thus increasing productivity within an organisation while also engaging with a much wider community.</p>"
+          "alt": "Quality",
+          "title": "Quality",
+          "body": "<p>In a lot of cases the “hidden” data will be what is used by the provider to render the web page you are looking at on their site.</p><p>Thus this data is a critical part of their operation. This instantly increases the quality of the data.</p><p>Additionally data extracted from the web tends to be more sustainable because, as we learned in module 7, data that is at the core of an organization's other activities is more likely to be a dependable source for the future.</p>"
         },
         {
-          "alt": "Open data as an innovation enabler",
-          "title": "Open data as an innovation enabler",
-          "body": "<p>Open data is a key enabler of open innovation.</p><p>As well as opening up new channels externally, it has been found that open data is key to unlocking internal communication channels within an organisation itself.</p><p>At the University of Southampton, open data streamlined the process of providing catering services, improving the availability of daily menus and helping to ensure all vending machines are topped up regularly.<br /><a href='http://blog.soton.ac.uk/data/2011/11/25/roi/' target='_blank'>Take me to University of Southampton  article</a></p>"
+          "alt": "Relevance",
+          "title": "Relevance",
+          "body": "<p>Drawing data directly from the web often means you can pinpoint a more relevant source than with downloads. Often organizations will not release downloadable data about a specific subject because they have either not found the time or do not have the incentive. However, by taking data directly from the web you have the ability to identify the most relevant resources regardless of their format and extract the relevant data.</p>"
         },
         {
-          "alt": "Open data as a business opportunity",
-          "title": "Open data as a business opportunity",
-          "body": "<p>Open data can streamline relationships with consumers and open up new customer channels.</p><p>As well as building trust with consumers, open data can help open up new customer channels by helping to expose available data, services and commercial expertise.</p><p>A good example of this is the work of Thomson Reuters who have chosen to open up all of their identifiers data to make discovering what data they hold much easier to access and use.<br /><a href='http://site.thomsonreuters.com/site/data-identifiers/' target='_blank'>Take me to Thomson Reuters site</a></p>"
+          "alt": "Context",
+          "title": "Context",
+          "body": "<p>When you access data directly from the web you are already viewing it in the context it is currently used by the provider. As we learned in the previous modules, the context of the data is an important component of its use.</p><p>By going directly from the web presence, you can understand how and for what purpose the organization currently uses the data.</p>"
         },
         {
-          "alt": "Open data as an agent of change",
-          "title": "Open data as an agent of change",
-          "body": "<p>Open data has the proven capability to bring about real benefit for society.</p><p>Focussing on this greater good while engaging a wide range of participants can bring about significant change within a working practice.</p><p>For example, transport companies have found that opening up their data gives better access to services while lowering the amount of complaints. It is providing people a greater understanding and ability to engage.</p>"
-        },
-        {
-          "alt": "Open data as a community supporter",
-          "title": "Open data as a community supporter",
-          "body": "<p>Open data can also enable communities to build, tackling local or specific issues.</p><p>Good examples include mySociety who manage the FixMyStreet programme.<br /><a href='https://www.fixmystreet.com/' target='_blank'>Take me to FixMyStreet programme.</a></p><p>Other communities can take open data in order to solve accessibility problems, provide equal opportunities and even address issues with crop yields for our growing population.<br /><a href='https://www.mysociety.org/' target='_blank'>Take me to MySociety site.</a></p>"
+          "alt": "Redundant data",
+          "title": "Redundant data",
+          "body": "<p>Often an organization is limited in the amount of data it can publish as downloads. For this reason it is unlikely that all of the data opened by that company will be available in this format. By extracting hidden data, you open up a much broader range of resources.</p>"
         }
       ],
       "_pageLevelProgress": {
@@ -194,26 +188,56 @@
         "_type":"component",
         "_layout": "full",
         "_component": "narrative",
-        "title": "Keeping on track",
-        "displayTitle": "Keeping on track",
-        "body": "Key performance indicators help keep open data initiatives on track.",
+        "title": "Getting your hands on hidden data",
+        "displayTitle": "Getting your hands on hidden data",
+        "body": "Without data, we can’t build information.  And without information, there is no new knowledge",
         "instruction": "<em class='desktop-instruction'>Click the forward arrow to see more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
         "_items": [
             {
-                "title": "Process management",
-                "body": "<p>Key performance indicators (KPI’s) help to keep open data initiatives on track.</p><p>KPIs should be set to measure Readiness, Implementation and Impact. These KPIs help ensure that the use of data is equally as important as the supply of data.</p><p>Indicators also help prevent initiatives from becoming supply-focused.  An example of a supply-focused initiative is Malaysia.<br /><a href='http://barometer.opendataresearch.org/report/analysis/rankings.html' target='_blank'>Take me to the barometer for Malaysia</a></p>",
+                "title": "Extension downloads",
+                "body": "<p>Some websites have been built with the ability to extract data simply by adding an extension to the address of the page you are on. For such websites, usually open data sites, adding the correct extension will trigger a download of that page in a data format as opposed to a browser format.</p><p>A good example of this is the UK government website.(gov.uk) which provides any page in a data format simply by adding the relevant extension like “.json”</p><p>Try it with the UK Trade data by viewing the following page and then adding “.json” to get the data.<br /><a href='https://www.gov.uk/trade-tariff/sections' target='_blank'>Take me to the UK gov trade tariff</a></p><p>To view the data in a more human readable form copy it into jsonlint.io</p>",
                 "_graphic": {
-                    "src": "course/en/images/odi-6-narrative_large.jpg",
+                    "src": "course/en/images/govuk.jpeg",
                     "alt": "Process management",
                     "title": "Process management"
                 },
                 "strapline": "Process management"
             },
             {
-                "title": "User focused",
-                "body": "<p>The most successful open data initiatives focus on all Key Performance Indicators (KPI’s) simultaneously.</p><p>It is best to avoid delaying engagement with users by getting policy and supply ‘right’ first, as perfection prevents success.</p><p>Successful initiatives focus on usage first to build communities, educate users and streamline supply so that even imperfect open data can get into the hands of users fast.</p><p>The UK has established its Open Data programme that is strong in all aspects.<br /><a href='http://barometer.opendataresearch.org/report/analysis/rankings.html' target='_blank'>Take me to the barometer for UK</a></p>",
+                "title": "Data feeds",
+                "body": "<p>Many websites provide you with links to data syndication feeds that can you can subscribe to.</p><p>These feeds may be as simple as RSS feeds that provide you with blog entries or more advanced ones that can provide you alerts for flooding via twitter.</p><p><br /><a href='http://www.bbc.co.uk/news/10628494' target='_blank'>Why not try out the news feeds from the BBC</a></p><p>(note that the feeds are not web pages and will look different in every browser. <br /><a href='http://codebeautify.org/xmlviewer' target='_blank'>Why not look at the data in codebeautify</a></p><p>or get alerts for flooding from your nearest river (UK only):<br /><a href='http://www.gaugemap.co.uk/' target='_blank'>Take me to river level guages</a></p>",
                 "_graphic": {
-                    "src": "course/en/images/odi-7-narrative_large.jpg",
+                    "src": "course/en/images/rss.jpg",
+                    "alt": "User focused",
+                    "title": "User focused"
+                },
+                "strapline": "User focused"
+            },
+            {
+                "title": "Source code",
+                "body": "<p>Going beyond those websites that provide you with a simple route to the data many will have the data embedded in the pages source code.</p><p>This means that you can get access to the data by inspecting the pages code using your browser's ‘element inspector’.</p>,p>This slightly more advanced technique is not covered in this module but we hope to add a guide or tool to help in the future. </p>",
+                "_graphic": {
+                    "src": "course/en/images/code.jpg",
+                    "alt": "User focused",
+                    "title": "User focused"
+                },
+                "strapline": "User focused"
+            },
+            {
+                "title": "APIs or machine-readable interfaces",
+                "body": "<p>Some websites or services will expose a machine readable interface, or API, for querying and accessing anything from a broad range of data to a single data point.</p><p>Some good examples of services that have such APIs include: Open Corporates (open), Open Steet Map (Open), Twitter (not completely open), Flickr (some content open), LinkedIn (not open).</p><p>Most of these services use a web based API and allow addition of extensions (try “.json” on OpenCorporates). Although this API looks like the first example in this section, the formalisation of it being an API provides a guarantee that the service will be available. </p>",
+                "_graphic": {
+                    "src": "course/en/images/api.jpg",
+                    "alt": "User focused",
+                    "title": "User focused"
+                },
+                "strapline": "User focused"
+            },
+            {
+                "title": "Scraping the web",
+                "body": "<p>If none of the above techniques work then you may have to resort to scraping the human readable web pages. While this can be reliable you have the added risk of the layout changing as well as the content.</p><p>Why not try out magic.import.io to see how easy it can be?</p>",
+                "_graphic": {
+                    "src": "course/en/images/scrape.jpg",
                     "alt": "User focused",
                     "title": "User focused"
                 },
@@ -249,9 +273,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Are you ready for success?",
-        "displayTitle":"Are you ready for success?",
-        "body":"<p>Can you recall the key indicators of a successful open data initiative?</p>",
+        "title":"Are you ready to find hidden data?",
+        "displayTitle":"Are you ready to find hidden data?",
+        "body":"<p>Can you recall the key things about hidden data?</p>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
@@ -267,9 +291,9 @@
         "_graphic": {
             "alt": "",
             "title": "",
-            "large": "course/en/images/odi-8-textimage_large.jpg",
-            "medium": "course/en/images/odi-8-textimage_large.jpg",
-            "small": "course/en/images/odi-8-textimage_large.jpg"
+            "large": "course/en/images/iceberg.jpg",
+            "medium": "course/en/images/iceberg.jpg",
+            "small": "course/en/images/iceberg.jpg"
         }
     },
     {
@@ -283,29 +307,29 @@
         "_questionWeight":1,
         "_isRandom":true,
         "_selectable":1,
-        "title": "Measures of success",
-        "displayTitle": "Measures of success",
-        "body": "<p>The 3 key criteria for comparing and measuring successful open data initiatives are-</p>",
+        "title": "What is hidden data?",
+        "displayTitle": "What is hidden data?",
+        "body": "<p>Hidden data is...</p>",
         "instruction": "<em>Select an option, then click Submit.</em>",
         "_items": [
             {
-                "text": "Valid, open and useful.",
+                "text": "Part of a treasure hunt?",
                 "_shouldBeSelected": false
             },
             {
-                "text": "Readiness, Implementation and Impact.",
+                "text": "Data visible to machines but invisible to human eyes?",
                 "_shouldBeSelected": true
             },
             {
-                "text": "Relevant, functional and consistent.",
+                "text": "Files that are difficult to download?",
                 "_shouldBeSelected": false
             }
         ],
         "_feedback":{
-            "correct":"<h5>That’s right!</h5><p>The capacity to implement a successful initiative and derive benefits from it.  Which important data is available and what variety and type of new value is being created?</p>",
+            "correct":"<h5>That’s right!</h5><p>Hidden data is data that is invisible to people as they navigate the web but which a machine can easily find and understand</p>",
             "_incorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>The capacity to implement a successful initiative and derive benefits from it.  Which important data is available and what variety and type of new value is being created?</p>",
-                "final": "<h5>Are you sure about that?</h5><p>The capacity to implement a successful initiative and derive benefits from it.  Which important data is available and what variety and type of new value is being created?</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>Hidden data is data that is invisible to people as they navigate the web but which a machine can easily find and understand</p>",
+                "final": "<h5>Are you sure about that?</h5><p>Hidden data is data that is invisible to people as they navigate the web but which a machine can easily find and understand</p>"
             },
             "_partlyCorrect": {
                 "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
@@ -332,9 +356,9 @@
         "_graphic": {
             "alt": "",
             "title": "",
-            "large": "course/en/images/odi-9-mcq_large.jpg",
-            "medium": "course/en/images/odi-9-mcq_large.jpg",
-            "small": "course/en/images/odi-9-mcq_large.jpg"
+            "large": "course/en/images/variety.jpg",
+            "medium": "course/en/images/variety.jpg",
+            "small": "course/en/images/variety.jpg"
         }
     },
     {
@@ -347,42 +371,34 @@
         "_attempts":1,
         "_questionWeight":1,
         "_isRandom":true,
-        "_selectable":3,
-        "title": "Focussing on demand",
-        "displayTitle": "Focussing on demand",
-        "body": "<p>What are three hallmarks of a demand-focussed approach to open data?</p>",
-        "instruction": "<em>Select three answers</em>",
+        "_selectable":1,
+        "title": "Why do people hide data",
+        "displayTitle": "Why do people hide data?",
+        "body": "<p>People hide data because...</p>",
+        "instruction": "<em>Select one answer</em>",
         "_items": [
             {
-                "text": "Open data as an educator.",
-                "_shouldBeSelected": true
-            },
-            {
-                "text": "Open data as an innovation enabler.",
-                "_shouldBeSelected": true
-            },
-            {
-                "text": "A supporter of large quantities of data.",
+                "text": "They are ashamed of it",
                 "_shouldBeSelected": false
             },
             {
-                "text": "Open data as a community supporter.",
+                "text": "It is messy",
                 "_shouldBeSelected": true
             },
             {
-                "text": "Enables a big data agenda.",
+                "text": "Most of the time they just haven't intentionally exposed it",
                 "_shouldBeSelected": false
             }
         ],
         "_feedback":{
-            "correct":"<h5>That’s right!</h5><p>A demand-focused approach improves data literacy, enable innovation and support communities.</p>",
+            "correct":"<h5>That’s right!</h5><p>Most hidden data is not deliberately hidden. Often the organization building the website is concentrating on how humans navigate the pages and therefore isn’t thinking about how the data is provided.</p>",
             "_incorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>A demand-focused approach improves data literacy, enable innovation and support communities.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>A demand-focused approach improves data literacy, enable innovation and support communities.</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>Most hidden data is not deliberately hidden. Often the organization building the website is concentrating on how humans navigate the pages and therefore isn’t thinking about how the data is provided.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>Most hidden data is not deliberately hidden. Often the organization building the website is concentrating on how humans navigate the pages and therefore isn’t thinking about how the data is provided.</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>A demand-focused approach improves data literacy, enable innovation and support communities.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>A demand-focused approach improves data literacy, enable innovation and support communities.</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>Most hidden data is not deliberately hidden. Often the organization building the website is concentrating on how humans navigate the pages and therefore isn’t thinking about how the data is provided.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>Most hidden data is not deliberately hidden. Often the organization building the website is concentrating on how humans navigate the pages and therefore isn’t thinking about how the data is provided.</p>"
           }
         },
         "_buttons":{
@@ -405,9 +421,9 @@
         "_graphic": {
             "alt": "",
             "title": "",
-            "large": "course/en/images/odi-10-accordian_large.jpg",
-            "medium": "course/en/images/odi-10-accordian_large.jpg",
-            "small": "course/en/images/odi-10-accordian_large.jpg"
+            "large": "course/en/images/benefit.jpg",
+            "medium": "course/en/images/benefit.jpg",
+            "small": "course/en/images/benefit.jpg"
         }
     },
     {
@@ -421,33 +437,106 @@
         "_questionWeight":1,
         "_isRandom":true,
         "_selectable":1,
-        "title": "Keeping on track",
-        "displayTitle": "Keeping on track",
-        "body": "<p>Key performance indicators (KPI’s) are a great method of-</p>",
+        "title": "Benefits of hidden data",
+        "displayTitle": "Benefits of hidden data",
+        "body": "<p>Which of the following is NOT a benefit of hidden data?</p>",
         "instruction": "<em>Select an option, then click Submit.</em>",
         "_items": [
             {
-                "text": "Maintaining a balance between supply, demand and usage.",
-                "_shouldBeSelected": true
-            },
-            {
-                "text": "Calculating the size of datasets.",
+                "text": "Breadth",
                 "_shouldBeSelected": false
             },
             {
-                "text": "Hitting milestones in the process.",
+                "text": "Quality",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Readability",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "Relevance",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Context",
                 "_shouldBeSelected": false
             }
         ],
         "_feedback":{
-            "correct":"<h5>That’s right!</h5><p>KPIs are a great way to maintain the balance between the supply and demand side of an open data initiative.</p>",
+            "correct":"<h5>That’s right!</h5><p>Hidden data can increase the relevance and quality of the data, the breadth available and highlight the context in which the data is used.</p>",
             "_incorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>KPIs are a great way to maintain the balance between the supply and demand side of an open data initiative.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>KPIs are a great way to maintain the balance between the supply and demand side of an open data initiative.</p>"
+                "notFinal": "<h5>Hidden data can increase the relevance and quality of the data, the breadth available and highlight the context in which the data is used.</p>",
+                "final": "<h5>Hidden data can increase the relevance and quality of the data, the breadth available and highlight the context in which the data is used.</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                "notFinal": "Hidden data can increase the relevance and quality of the data, the breadth available and highlight the context in which the data is used.",
+                "final": "Hidden data can increase the relevance and quality of the data, the breadth available and highlight the context in which the data is used."
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-72",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/code.jpg",
+            "medium": "course/en/images/code.jpg",
+            "small": "course/en/images/code.jpg"
+        }
+    },
+    {
+        "_id":"c-73",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"mcq",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "How might you extract hidden data form a website?",
+        "displayTitle": "How might you extract hidden data form a website?",
+        "body": "<p>Which of the following is a useful way to extract hidden data from the website?</p>",
+        "instruction": "<em>Select an option, then click Submit.</em>",
+        "_items": [
+            {
+                "text": "Caching the website link",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Reloading the page",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Inspecting the source code",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>That’s right!</h5><p>Inspecting the source code of a website often reveals hidden data embedded in the page</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Are you sure about that?</h5><p>Inspecting the source code of a website often reveals hidden data embedded in the page</p>",
+                "final": "<h5>Are you sure about that?</h5><p>Hidden data can increase the relevance and quality of the data, the breadth available and highlight the context in which the data is used.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Are you sure about that?</h5><p>Inspecting the source code of a website often reveals hidden data embedded in the page</p>",
+                "final": "<h5>Are you sure about that?</h5><p>Inspecting the source code of a website often reveals hidden data embedded in the page</p>"
           }
         },
         "_buttons":{
@@ -484,7 +573,7 @@
         "_layout":"left",
         "title":"Compare. Measure. Success",
         "displayTitle":"Compare. Measure. Success",
-        "body":"<p>When measuring and comparing open data initiatives, it is important to use a broad framework of measures and always keep in mind a demand focused approach.</p><p>These methods help your initiative to stay on track and emulate the success of other open data initiatives.</p><p>They are also part of the agents of change the organisations require to be an effective participant in the open data community.</p><p>In the next module, we look at finding sustainable sources of open data.</p>",
+        "body":"<p>The data available for download is only a small fraction of what is available on the web.</p><p>While the human eye cannot always see this data, using machines it is possible to identify and grab a wealth of new data for your use.</p><p>The data excavated from these websites is often much broader and more relevant to your work that downloadable files and also draws directly from the context in which the organization is already using it</p><p>By raising your awareness of hidden data and learning some of the simple approaches in this module such as extension queries and source code inspection, you will be able to access a broad range of relevant open data for your future work.</p>",
         "_pageLevelProgress": {
           "_isEnabled": true
         }
