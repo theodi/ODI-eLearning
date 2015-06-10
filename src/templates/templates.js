@@ -1261,22 +1261,22 @@ helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
 function program1(depth0,data) {
   
   var buffer = "", stack1, helper;
-  buffer += "\n                <!--<div class=\"tutor-title\">\n                    <h5 class=\"tutor-title-inner\">\n                    ";
+  buffer += "\r\n                <!--<div class=\"tutor-title\">\r\n                    <h5 class=\"tutor-title-inner\">\r\n                    ";
   if (helper = helpers.feedbackTitle) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.feedbackTitle); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   if(stack1 || stack1 === 0) { buffer += stack1; }
-  buffer += "\n                    </h5>\n                </div>-->\n                ";
+  buffer += "\r\n                    </h5>\r\n                </div>-->\r\n                ";
   return buffer;
   }
 
-  buffer += "\n<div class=\"tutor\">\n    <div class=\"tutor-toolbar\">\n        <a href=\"#\" class=\"tutor-done\">\n            <div class=\"tutor-icon-close icon icon-cross\"></div>\n        </a>\n    </div>\n    <div class=\"tutor-content\">\n        <div class=\"tutor-inner\">\n                ";
+  buffer += "\r\n<div class=\"tutor\">\r\n    <div class=\"tutor-toolbar\">\r\n        <a href=\"#\" class=\"tutor-done\">\r\n            <div class=\"tutor-icon-close icon icon-cross\"></div>\r\n        </a>\r\n    </div>\r\n    <div class=\"tutor-content\">\r\n        <div class=\"tutor-inner\">\r\n                ";
   stack1 = helpers['if'].call(depth0, (depth0 && depth0.feedbackTitle), {hash:{},inverse:self.noop,fn:self.program(1, program1, data),data:data});
   if(stack1 || stack1 === 0) { buffer += stack1; }
-  buffer += "\n            <div class=\"tutor-body\">\n                <div class=\"tutor-body-inner\">";
+  buffer += "\r\n            <div class=\"tutor-body\">\r\n                <div class=\"tutor-body-inner\">";
   if (helper = helpers.feedbackMessage) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.feedbackMessage); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   if(stack1 || stack1 === 0) { buffer += stack1; }
-  buffer += "</div>\n            </div>\n        </div>\n    </div>\n</div>\n\n<div class=\"tutor-shadow\"></div>\n";
+  buffer += "</div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\r\n\r\n<div class=\"tutor-shadow\"></div>\r\n";
   return buffer;
   });
 
