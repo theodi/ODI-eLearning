@@ -11,12 +11,12 @@ define(function(require) {
 	var ResourcesView = require('extensions/adapt-contrib-resources/js/adapt-contrib-resourcesView');
 	var ResourcesHelpers = require('extensions/adapt-contrib-resources/js/adapt-contrib-resourcesHelpers');
 
-	function setupResources(resourcesModel, resourcesItems) {
+	function setupResources(resourcesModel, resourcesItems, index) {
 
 		var resourcesCollection = new Backbone.Collection(resourcesItems);
 		var resourcesModel = new Backbone.Model(resourcesModel);
 
-		Adapt.on('resources:showResources', function() {
+		Adapt.on('resources:showResources' + index, function() {
 			Adapt.drawer.triggerCustomView(new ResourcesView({
 				model: resourcesModel, 
 				collection: resourcesCollection
@@ -25,57 +25,27 @@ define(function(require) {
 	
 	}
 	
-	function setupResources2(resourcesModel, resourcesItems) {
-
-		var resourcesCollection = new Backbone.Collection(resourcesItems);
-		var resourcesModel = new Backbone.Model(resourcesModel);
-
-		Adapt.on('resources:showResources2', function() {
-			Adapt.drawer.triggerCustomView(new ResourcesView({
-				model: resourcesModel, 
-				collection: resourcesCollection
-			}).$el);
-		});
-	
-	}
-
 	Adapt.once('app:dataReady', function() {
 
-		var courseResources = Adapt.course.get('_resources');
+		var resources = Adapt.course.get('_resources');
+	
+		// FIXEME: MAKE LEGACY COMPATIBLE BY DETECTING OBJECT OR ARRAY! 
 
-		if (courseResources) {
-			var drawerObject = {
-		        title: courseResources.title,
-		        description: courseResources.description,
-		        className: 'resources-drawer'
-		    };
-		    // Syntax for adding a Drawer item
-		    // Adapt.drawer.addItem([object], [callbackEvent]);
-		    Adapt.drawer.addItem(drawerObject, 'resources:showResources');
-		} else {
-			return console.log('Sorry, no resources object is set on the course.json file');
+		for (i=0;i<resources.length;i++) {
+			var courseResources = resources[i];
+			if (courseResources) {
+				var drawerObject = {
+		       		title: courseResources.title,
+		        	description: courseResources.description,
+		        	className: 'resources-drawer'
+		    	};
+		        Adapt.drawer.addItem(drawerObject, 'resources:showResources'+i);
+			} else {
+				return console.log('Sorry, no resources object is set on the course.json file');
+			}
+
+			setupResources(courseResources, courseResources._resourcesItems,i);		
 		}
-
-		setupResources(courseResources, courseResources._resourcesItems);
-		
-		var courseResources2 = Adapt.course.get('_resources2');
-
-		if (courseResources2) {
-			var drawerObject = {
-		        title: courseResources2.title,
-		        description: courseResources2.description,
-		        className: 'resources-drawer'
-		    };
-		    // Syntax for adding a Drawer item
-		    // Adapt.drawer.addItem([object], [callbackEvent]);
-		    Adapt.drawer.addItem(drawerObject, 'resources:showResources2');
-		} else {
-			return console.log('Sorry, no resources2 object is set on the course.json file');
-		}
-
-		setupResources2(courseResources2, courseResources2._resourcesItems);
-
-
 	});
 
 })

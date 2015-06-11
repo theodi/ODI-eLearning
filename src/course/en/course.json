@@ -10,7 +10,32 @@
         "hideCorrectAnswer": "My Answer"
     },
     "_latestTrackingId": 11,
-    "_resources": {
+    "_resources": [
+    {
+        "title": "Modules",
+        "description": "Switch to another module",
+        "_filterButtons": {
+            "all": "All",
+            "document": "PDF",
+            "media": "Media",
+            "link": "Link"
+        },
+        "_resourcesItems": [
+            {
+                "_type": "link",
+                "title": "Module 1",
+                "description": "Discovering open data",
+                "_link": "http://theodi.github.io/ODI-eLearning/module1/"
+            },
+            {
+                "_type": "link",
+                "title": "Module 2",
+                "description": "The value of open data",
+                "_link": "http://theodi.github.io/ODI-eLearning/module2/"
+            }
+        ]
+    },
+    {
         "title": "Resources",
         "description": "Click here to view resources for this course",
         "_filterButtons": {
@@ -20,9 +45,15 @@
             "link": "Link"
         },
         "_resourcesItems": [
+            {
+                "_type": "link",
+                "title": "David Eaves article",
+                "description": "Take me to David Eaves article",
+                "_link": "http://eaves.ca/2010/04/14/case-study-open-data-and-the-public-purse/"
+            }
         ]
     },
-    "_resources2": {
+    {
         "title": "Image credits",
         "description": "Click here to view image credits for this module",
         "_filterButtons": {
@@ -32,6 +63,12 @@
             "link": "Link"
         },
         "_resourcesItems": [
-        ]
-    }
+            {
+                "_type": "link",
+                "title": "Data information knowledge triangle",
+                "description": "Source: Shutterstock<br/>Credit: Somebody<br/>Licence: Shutterstock public",
+                "_link": "http://eaves.ca/2010/04/14/case-study-open-data-and-the-public-purse/"
+            }	
+	]
+    }]
 }
