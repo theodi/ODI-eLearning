@@ -100,7 +100,7 @@
             },
             {
                 "title": "What can a web of linked open data do?",
-                "body": "<p>We don’t need to imagine what it would be like to navigate the web of data as some parts of it already exists and are deeply connected.</p><p>Large corporations like Microsoft have even researched tools that would allow us to navigate this web in a whole new way</p>",
+                "body": "<p>We don’t need to imagine what it would be like to navigate the web of data as some parts of it already exists and are deeply connected.</p><p>Large corporations like Microsoft have even researched tools that would allow us to <a href='http://www.ted.com/talks/gary_flake_is_pivot_a_turning_point_for_web_exploration?language=en' target='_blank'>navigate this web in a whole new way</a></p>",
                 "_graphic": {
                     "src": "course/en/images/odi-4-narrative_large.jpg",
                     "alt": "A map from a to b",
@@ -143,7 +143,7 @@
         "_layout":"left",
         "title":"What is open data?",
         "displayTitle":"What is open data?",
-        "body":"<p>Open data is <strong>data</strong> that <strong>anyone</strong> can <strong>access</strong>, <strong>use</strong> and <strong>share</strong>.</p><p>Open data becomes accessible by being available online.</p><p>Data becomes useable through being available in a common, understandable machine readable format.</p><p>Open data must be licenced. This license must permit the free usage of the data and allow users to transform, combine and share with others, even commercially.</p>"
+        "body":"<p>In order to build a web of open linked data we need two things:</p><ul class='ticks'><li>Data that can be referenced on the web</li><li>People to reference this data from within their own data</li></ul><p>These are the two conditions that meet the requirements of the 4th and 5th starts of linked open data.</p>"
     },
     {
         "_id":"c-30",
@@ -170,30 +170,30 @@
       "_component":"accordion",
       "_classes":"",
       "_layout":"left",
-      "title": "What makes data open?",
-      "displayTitle": "What makes data open?",
-      "body": "<p>Data is open if anyone can access, use and share it.<br />There are some simple things to consider when defining openness.  Consider the following: </p>",
+      "title": "4th star: open identifiers",
+      "displayTitle": "4th star: open identifiers",
+      "body": "<p>The 4th star is all about being able to reference things on the web.</p>",
       "instruction": "",
       "_items": [
         {
-          "alt": "Limitations",
-          "title": "Limitations",
-          "body": "<p>To be open there should be no limitations that prevents any particular use of the data.</p><p>A user should be free to use, modify, combine and share the data, even commercially.</p>"
+          "alt": "Open identifiers",
+          "title": "Open identifiers",
+          "body": "<p>An identifier is simply a short way of referencing a more complex thing. ISBNs for books and Zip/Postal codes for places are common examples. However, there are huge amount of other identifiers used both by the public and private sector.</p><p>The problem is that we rely on search engines to tell us more about what these identifiers are for. Web based identifiers don’t have this problem as you can simply click the identifier to find out more.</p><p> To look at an example, the ISBN number for a specific book is 9781568848624. To find the book using this ISBN, you would have to type it into a search engine before you could find the results. By contrast the web-based identifer for the same book can be followed direct from any web browser <a href='http://bookshop.blackwell.co.uk/jsp/id/Netscape_and_the_World_Wide_Web_For_Dummies/9781568848624' target='_blank'>http://bookshop.blackwell.co.uk/jsp/id/Netscape_and_the_World_Wide_Web_For_Dummies/9781568848624</a></p>"
         },
         {
-          "alt": "Cost",
-          "title": "Cost",
-          "body": "<p>Even though data must be free to use, this does not mean that it must be free to access.</p><p>There is a cost in creating, maintaining and publishing useable data.</p><p>Ideally, any fee for data should be no more than the reasonable reproduction cost of the unit of data that is requested.</p><p>This reproduction cost tends to zero for many datasets.</p><p>Live data and big data can have ongoing cost related to reliable service provision.</p>"
+          "alt": "Using the 4th star",
+          "title": "Using the 4th star",
+          "body": "<p>The 4th star requires the creation or use of identifiers for things, both physical and digital.</p><p>This identifier is for the physical thing itself. An ISBN references a physical book, a web based identifier for the book is no different it references the book and not a web page about the book.</p><p>Thus a 3D printer could use a web based identifier in order to get data in order to print a physical thing.</p>"
         },
         {
-          "alt": "Reuse",
-          "title": "Reuse",
-          "body": "<p>Once the user has the data, they are free to use it, reuse it and redistribute it, even commercially.</p><p>Open data is measured by what it can be used for, not by how it is made available.</p><p>Aspects like format, structure and machine readability all make data more usable, and should all be carefully considered.</p><p>However these do not make the data more open.</p>"
+          "alt": "4th star open data",
+          "title": "4th star open data",
+          "body": "<p>The 4th star also requires that if a user clicks on a link and cannot be provided with the exact thing (book, object, person, building) that they be provided with some contextual information about that thing.</p><p>This is often done by redirecting the client (human or machine) to a suitable representation of this thing for them. This suitable representation might be a web page, or raw data under that web page.</p>"
         },
         {
-          "alt": "Reuse",
-          "title": "Reuse",
-          "body": "<p>Once the user has the data, they are free to use it, reuse it and redistribute it, even commercially.</p><p>Open data is measured by what it can be used for, not by how it is made available.</p><p>Aspects like format, structure and machine readability all make data more usable, and should all be carefully considered.</p><p>However these do not make the data more open.</p>"
+          "alt": "Try it out...",
+          "title": "Try it out...",
+          "body": "<p>Some web based identifiers are<a href='http://www.w3.org/TR/cooluris/' target='_blank'>cool</a></p><p> A cool URI means that you can tell what the identifier is for before you even click it. Before you click the ones below try and guess what they are for:<br><br><a href='http://data.ordnancesurvey.co.uk/id/postcodeunit/SO171BJ' target='_blank'>http://data.ordnancesurvey.co.uk/id/postcodeunit/SO171BJ</a><br><br>Note that the page you get back when you click will have a different address. You asked the server for a physical thing and it sent you to a web page about it as that is what your browser asked for using<a href='http://data.ordnancesurvey.co.uk/id/postcodeunit/SO171BJ' target='_blank'>content negotiation</a></p><p>Why not try adding extensions like “.json” and “.rdf” and seeing what happens or even trying your hand at content negotiation?</p>"
         }
       ],
       "_pageLevelProgress": {
@@ -225,25 +225,25 @@
       "_component":"accordion",
       "_classes":"",
       "_layout":"left",
-      "title": "What makes data open?",
-      "displayTitle": "What makes data open?",
-      "body": "<p>Data is open if anyone can access, use and share it.<br />There are some simple things to consider when defining openness.  Consider the following: </p>",
+      "title": "5th star: linked data",
+      "displayTitle": "5th star: linked data",
+      "body": "<p>The 5th star is all about linking things together</p>",
       "instruction": "",
       "_items": [
         {
-          "alt": "Limitations",
-          "title": "Limitations",
-          "body": "<p>To be open there should be no limitations that prevents any particular use of the data.</p><p>A user should be free to use, modify, combine and share the data, even commercially.</p>"
+          "alt": "The link",
+          "title": "The link",
+          "body": "<p>The 5th star simply introduces the concept of linking things together.</p><p>These links enable humans and machines to navigate between data sources on the web.</p><p>Linking also allows you to direct the person or machine to authoritative data on things, like we do on the web, rather than storing a local copy of data that will soon be out of date. </p>"
         },
         {
-          "alt": "Cost",
-          "title": "Cost",
-          "body": "<p>Even though data must be free to use, this does not mean that it must be free to access.</p><p>There is a cost in creating, maintaining and publishing useable data.</p><p>Ideally, any fee for data should be no more than the reasonable reproduction cost of the unit of data that is requested.</p><p>This reproduction cost tends to zero for many datasets.</p><p>Live data and big data can have ongoing cost related to reliable service provision.</p>"
+          "alt": "Using the 5th star",
+          "title": "Using the 5th star",
+          "body": "<p>Think of database of buildings that a company owns. It will often have Postcodes/Zip codes against each building in the data records:<br>Building name: EEE Building<br>Building number: 32<br>Building postcode: SO17 1BJ<br><br>Ad linked data:<br><br>Building name: EEE Building<br>Building number: 32<br>Building postcode:<a href='http://data.ordnancesurvey.co.uk/id/postcodeunit/SO171BJ' target='_blank'>http://data.ordnancesurvey.co.uk/id/postcodeunit/SO171BJ</a></p>"
         },
         {
-          "alt": "Reuse",
-          "title": "Reuse",
-          "body": "<p>Once the user has the data, they are free to use it, reuse it and redistribute it, even commercially.</p><p>Open data is measured by what it can be used for, not by how it is made available.</p><p>Aspects like format, structure and machine readability all make data more usable, and should all be carefully considered.</p><p>However these do not make the data more open.</p>"
+          "alt": "Try it out...",
+          "title": "Try it out...",
+          "body": "<p>You may have already seen some links in the data that we explored last time.</p><p>Why not try these two links which load the same data from before into a data browser. The data browser content negotiates for data (not a web page) and displays the raw data in a human readable form.</p><p>Everything in red in the browser is a link in the data which hopefully goes to more data.</p><p>See what you can discover in the web of linked open data.</p><p><a href='http://www.bbc.co.uk/programmes/b006q2x0' target='_blank'>http://www.bbc.co.uk/programmes/b006q2x0</a>"
         }
       ],
       "_pageLevelProgress": {
@@ -276,9 +276,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Are you ready for open data?",
-        "displayTitle":"Are you ready for open data?",
-        "body":"<p>There are four helpful things to remember when thinking about opening your data for users, can you recall them?</p>",
+        "title":"Are you ready for surfing the web of data?",
+        "displayTitle":"Are you ready for surfing the web of data?",
+        "body":"<p>There are four helpful things to remember when thinking about surfing the web of linked open data, can you recall them?</p>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
@@ -313,29 +313,29 @@
         "_questionWeight":1,
         "_isRandom":true,
         "_selectable":1,
-        "title": "What is open data?",
-        "displayTitle": "What is open data?",
-        "body": "<p>Open data is-</p>",
+        "title": "What is the web of data?",
+        "displayTitle": "What is the web of data?",
+        "body": "<p>The web of data is-</p>",
         "instruction": "<em>Select an option, then click Submit.</em>",
         "_items": [
             {
-                "text": "information that we sell to businesses.",
+                "text": "A web of data portals where you can download data",
                 "_shouldBeSelected": false
             },
             {
-                "text": "data that anyone can access, use and share.",
+                "text": "a set of interlinked data resources in the web",
                 "_shouldBeSelected": true
             },
             {
-                "text": "data that is visible on the web.",
+                "text": "a new social network",
                 "_shouldBeSelected": false
             }
         ],
         "_feedback":{
-            "correct":"<h5>That’s right!</h5><p><strong>Open data</strong> is <strong>data</strong> that <strong>anyone</strong> can <strong>access</strong>, <strong>use</strong> and <strong>share</strong>.<br />Open data must also be licenced to allow free usage and must also be available for commercial use.</p>",
+            "correct":"<h5>That’s right!</h5><p>The web of data is a set of interlinked data resources that can be instantly read and understood by both humans and machines.</p>",
             "_incorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p><strong>Open data</strong> is <strong>data</strong> that <strong>anyone</strong> can <strong>access</strong>, <strong>use</strong> and <strong>share</strong>.<br />Open data must also be licenced to allow free usage and must also be available for commercial use.</p></p>",
-                "final": "<h5>Are you sure about that?</h5><p><p><strong>Open data</strong> is <strong>data</strong> that <strong>anyone</strong> can <strong>access</strong>, <strong>use</strong> and <strong>share</strong>.<br />Open data must also be licenced to allow free usage and must also be available for commercial use.</p></p>"
+                "notFinal": "<h5>Are you sure about that?</h5>The web of data is a set of interlinked data resources that can be instantly read and understood by both humans and machines.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>The web of data is a set of interlinked data resources that can be instantly read and understood by both humans and machines.</p>"
             },
             "_partlyCorrect": {
                 "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
@@ -387,29 +387,29 @@
         "_questionWeight":1,
         "_isRandom":true,
         "_selectable":1,
-        "title": "What is data?",
-        "displayTitle": "What is data?",
-        "body": "<p>Data is-</p>",
+        "title": "What does the following identify?",
+        "displayTitle": "What does the following identify?",
+        "body": "<p><a href='http://bookshop.blackwell.co.uk/jsp/id/1984/9781849432269' target='_blank'>http://bookshop.blackwell.co.uk/jsp/id/1984/9781849432269</a></p>",
         "instruction": "<em>Select an option, then click Submit.</em>",
         "_items": [
             {
-                "text": "numbers, words, maps and photos.",
+                "text": "a web page",
                 "_shouldBeSelected": false
             },
             {
-                "text": "information posted on the web.",
+                "text": "the date 1984",
                 "_shouldBeSelected": false
             },
             {
-                "text": "the raw material of information and knowledge.",
+                "text": "the book 1984",
                 "_shouldBeSelected": true
             }
         ],
         "_feedback":{
-            "correct":"<h5>That’s right!</h5><p>Data is the lowest level of raw material from which information and knowledge can be derived.</p>",
+            "correct":"<h5>That’s right!</h5><p>Remember that the web-based identifier points to the thing itself and not to the webpage on which it is sitting</p>",
             "_incorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>Data is the lowest level of raw material from which information and knowledge can be derived.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>Data is the lowest level of raw material from which information and knowledge can be derived.</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>Remember that the web-based identifier points to the thing itself and not to the webpage on which it is sitting</p>",
+                "final": "<h5>Are you sure about that?</h5><p>Remember that the web-based identifier points to the thing itself and not to the webpage on which it is sitting</p>"
             },
             "_partlyCorrect": {
                 "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
@@ -454,102 +454,34 @@
         "_attempts":1,
         "_questionWeight":1,
         "_isRandom":true,
-        "_selectable":1,
-        "title": "What makes data open?",
-        "displayTitle": "What makes data open?",
-        "body": "<p>Open data should be-</p>",
-        "instruction": "<em>Select an option, then click Submit.</em>",
+        "_selectable":3,
+        "title": "Which of these are identifiers for the band One Direction?",
+        "displayTitle": "Which of these are identifiers for the band One Direction?",
+        "body": "",
+        "instruction": "<em>Select up to 3 options, then click Submit.</em>",
         "_items": [
             {
-                "text": "free of restrictions for its use.",
+                "text": "<a href='www.bbc.co.uk/music/artists/1a425bbd-cca4-4b2c-aeb7-71cb176c828a' target='_blank'>www.bbc.co.uk/music/artists/1a425bbd-cca4-4b2c-aeb7-71cb176c828a</a>",
                 "_shouldBeSelected": true
             },
             {
-                "text": "restricted in its use.",
-                "_shouldBeSelected": false
+                "text": "<a href='https://musicbrainz.org/artist/1a425bbd-cca4-4b2c-aeb7-71cb176c828a' target='_blank'>https://musicbrainz.org/artist/1a425bbd-cca4-4b2c-aeb7-71cb176c828a</a>",
+                "_shouldBeSelected": true
             },
             {
-                "text": "selectively released for a fee.",
-                "_shouldBeSelected": false
-            }
-        ],
-        "_feedback":{
-            "correct":"<h5>That’s right!</h5><p>If something restricts the free use of the data (such as a non-commercial restriction), then this would not qualify as being open data.</p>",
-            "_incorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>If something restricts the free use of the data (such as a non-commercial restriction), then this would not qualify as being open data.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>If something restricts the free use of the data (such as a non-commercial restriction), then this would not qualify as being open data.</p>"
-            },
-            "_partlyCorrect": {
-                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-          }
-        },
-        "_buttons":{
-            "submit":"",
-            "reset":"",
-            "showCorrectAnswer":"",
-            "hideCorrectAnswer":""
-        },
-        "_pageLevelProgress": {
-        "_isEnabled": true
-      }
-    },
-    {
-        "_id":"c-75",
-        "_parentId":"b-50",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"illustration",
-        "_layout":"left",
-        "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "course/en/images/odi-12-mcq_large.jpg",
-            "medium": "course/en/images/odi-12-mcq_large.jpg",
-            "small": "course/en/images/odi-12-mcq_large.jpg",
-            "*source":"http://www.shutterstock.com/pic.mhtml?id=149924576&src=lb-35924366",
-            "*credit":"Sergey Nivens",
-            "*license":"Shutterstock Standard License"
-        }
-    },
-    {
-        "_id":"c-80",
-        "_parentId":"b-50",
-        "_type":"component",
-        "_component":"mcq",
-        "_classes":"",
-        "_layout":"right",
-        "_attempts":1,
-        "_questionWeight":1,
-        "_isRandom":true,
-        "_selectable":1,
-        "title": "Why do we need open data?",
-        "displayTitle": "Why do we need open data?",
-        "body": "<p>What does open data have the power to do?</p>",
-        "instruction": "<em>Select an option, then click Submit.</em>",
-        "_items": [
-            {
-                "text": "Give access to other datasets.",
-                "_shouldBeSelected": false
-            },
-            {
-                "text": "make governments be accountable.",
-                "_shouldBeSelected": false
-            },
-            {
-                "text": "Open data can unlock social, environmental and economic value.",
+                "text": "<a href='http://dbpedia.org/resource/One_Direction' target='_blank'>http://dbpedia.org/resource/One_Direction</a>",
                 "_shouldBeSelected": true
             }
         ],
         "_feedback":{
-            "correct":"<h5>That’s right!</h5><p>Open data can transform interaction between governments, businesses and individuals. It has the power to improve services, grow economies and save our planet.</p>",
+            "correct":"<h5>That’s right!</h5><p>They all are! The first two use the same sub identifier but are different authorities. The third one is the wikipedia identifier (dbpedia) for the artist. They all link to each other and share each others data, can you find the links?</p>",
             "_incorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>Open data can transform interaction between governments, businesses and individuals. It has the power to improve services, grow economies and save our planet.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>Open data can transform interaction between governments, businesses and individuals. It has the power to improve services, grow economies and save our planet.</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>In fact all three are identifiers. The first two use the same sub identifier but are different authorities. The third one is the wikipedia identifier (dbpedia) for the artist. They all link to each other and share each others data, can you find the links?</p>",
+                "final": "<h5>Are you sure about that?</h5><p>In fact all three are identifiers. The first two use the same sub identifier but are different authorities. The third one is the wikipedia identifier (dbpedia) for the artist. They all link to each other and share each others data, can you find the links?</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                "notFinal": "<h5>Are you sure about that?</h5><p>In fact all three are identifiers. The first two use the same sub identifier but are different authorities. The third one is the wikipedia identifier (dbpedia) for the artist. They all link to each other and share each others data, can you find the links?</p>",
+                "final": "<h5>Are you sure about that?</h5><p>In fact all three are identifiers. The first two use the same sub identifier but are different authorities. The third one is the wikipedia identifier (dbpedia) for the artist. They all link to each other and share each others data, can you find the links?</p>"
           }
         },
         "_buttons":{
@@ -587,9 +519,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Open data - Veni, vidi, vici",
-        "displayTitle":"Open data - Veni, vidi, vici",
-        "body":"<p>Open data is <strong>data</strong> that <strong>anyone</strong> can <strong>access</strong>, <strong>use</strong> and <strong>share</strong>.</p><p>Open data is the natural resource for the digital age and, unlike coal, timber or diamonds, it can be used by anyone and everyone at the same time.</p><p>Any restrictions imposed on the use of open data will limit its use in creating new value.</p><p>Open data can transform interaction between governments, businesses and individuals. It has the power to improve services, grow economies and save our planet.</p><p>In the next module, we look at how value is unlocked in open data.</p>",
+        "title":"Surfing the web of linked open data",
+        "displayTitle":"Surfing the web of linked open data",
+        "body":"<p>The web of data is a set of deeply-linked data resources that can be instantly read and understood by both humans and machines.</p><p>In 1989, Tim Berners-Lee invented the web of documents and it took us 20+ years to work out how to use it. It is now a fundamental part of our society. In 2001, Tim envisioned the web of linked open data and we are still realising how this is going to fundamentally change the web all over again.</p>",
         "_pageLevelProgress": {
           "_isEnabled": true
         }
