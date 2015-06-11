@@ -28,9 +28,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"What is open data?",
-        "displayTitle":"What is open data?",
-        "body":"<p>Open data is <strong>data</strong> that <strong>anyone</strong> can <strong>access</strong>, <strong>use</strong> and <strong>share</strong>. Open data can transform interaction between governments, businesses and individuals. It has the power to improve services, grows economies and save our planet.</p><h5>In this module we’ll look at:</h5><ul class='ticks'><li>What is open data?</li><li>What is data?</li><li>What makes data open?</li><li>Why do we need open data?</li></ul>",
+        "title":"Linking up the web of data",
+        "displayTitle":"Linking up the web of data",
+        "body":"<p>The current web is primarily configured as a series of documents. While these documents draw on rich sources of data, they disguise it beneath pages designed for humans to view. In this module, we explore what would happen if you remove these human-friendly documents from the web. Imagine you only had the data, all open, all usable and all interlinked in a big network or 'web' of data.</p><p>In this module we introduce the web of open linked data and look at how the 5-Stars of linked open data can help us get there. </p><h5>In this module we’ll look at:</h5><ul class='ticks'><li>What is the web of data?</li><li>Web identifiers for physical things</li><li>Creating a deeply connected web of open linked data</li></ul>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
@@ -43,12 +43,12 @@
     "_component":"iFrame-vimeo",
     "_classes":"",
     "_layout":"full",
-        "title":"Discovering open data – in 2 minutes",
-        "displayTitle": "Discovering open data – in 2 minutes",
-        "body": "The ODI’s David Tarrant explains what data is, what makes it open and why we need open data.",
+        "title":"Surfing the web of data – in 2 minutes",
+        "displayTitle": "Surfing the web of data – in 2 minutes",
+        "body": "The ODI’s David Tarrant introduces athe web of linked open data and examines how the 5-stars of open linked data can help you start surfing the web of data",
         "instruction": "",
         "_setCompletionOn":"ended",
-        "_source": "https://player.vimeo.com/video/129196637",
+        "_source": "https://player.vimeo.com/video/129197209",
         "_width": {
             "_small" : 300,
             "_medium" : 500,
@@ -61,8 +61,64 @@
         }
     },
     {
-        "_id":"c-21",
-        "_parentId":"b-20",
+        "_id": "c-20",
+        "_parentId": "b-20",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Understanding the web of data",
+        "displayTitle": "Understanding the web of data",
+        "body": "The web of linked open data is changing the way we access and browse open data.",
+        "instruction": "<em class='desktop-instruction'>Click the forward arrow to see more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
+        "_items": [
+            {
+                "title": "What is the web of data?",
+                "body": "<p>Think of the current web as a series of documents. These documents are designed (by people) to be visually attractive (for other people) to read and to provide them with information. What these documents are not designed for is to present raw data in a way that both humans and machines can read.</p><p>There is a significant difference between data that is ‘on the web’ and the ‘web of data’. Data “‘on the web’ is a file that you download from a document. The web of data is a set of deeply-linked data resources that can be instantly read and understood by both humans and machines.</p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-2-narrative_large.jpg",
+                    "alt": "Providing certainty",
+                    "title": "",
+                    "*source":"http://www.shutterstock.com/pic.mhtml?id=240789808&src=lb-35924366",
+                    "*credit":"Anna Frajtova",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Data"
+            },
+            {
+                "title": "Linking up the web of data",
+                "body": "<p>In order to further explore this concept, imagine that the visually-attractive documents were stripped away from the web. How would you find your way around?</p><p>You would need signposts to tell you how your current location relates to others around it.</p><p>The “web of linked open data” provides just these signposts by requiring that all data be connected via links to other data. These links allow not just you to navigate between data points but, crucially, also allow machines to do so.</p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-3-narrative_large.jpg",
+                    "alt": "A graph of open licences across countries",
+                    "title": "A graph of open licences across countries",
+                    "*source":"http://www.shutterstock.com/pic.mhtml?id=217763944&src=lb-35924366",
+                    "*credit":"Sachezi",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Information"
+            },
+            {
+                "title": "What can a web of linked open data do?",
+                "body": "<p>We don’t need to imagine what it would be like to navigate the web of data as some parts of it already exists and are deeply connected.</p><p>Large corporations like Microsoft have even researched tools that would allow us to navigate this web in a whole new way</p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-4-narrative_large.jpg",
+                    "alt": "A map from a to b",
+                    "title": "A map from a to b",
+                    "*source":"http://www.shutterstock.com/pic.mhtml?id=250810483&src=lb-35924366",
+                    "*credit":"Oleksiy Mark",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Knowledge"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-25",
+        "_parentId":"b-25",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
@@ -79,8 +135,8 @@
         }
     },
     {
-        "_id":"c-22",
-        "_parentId":"b-20",
+        "_id":"c-26",
+        "_parentId":"b-25",
         "_type":"component",
         "_component":"text",
         "_classes":"",
@@ -88,62 +144,6 @@
         "title":"What is open data?",
         "displayTitle":"What is open data?",
         "body":"<p>Open data is <strong>data</strong> that <strong>anyone</strong> can <strong>access</strong>, <strong>use</strong> and <strong>share</strong>.</p><p>Open data becomes accessible by being available online.</p><p>Data becomes useable through being available in a common, understandable machine readable format.</p><p>Open data must be licenced. This license must permit the free usage of the data and allow users to transform, combine and share with others, even commercially.</p>"
-    },
-     {
-        "_id": "c-25",
-        "_parentId": "b-25",
-        "_classes": "",
-        "_type":"component",
-        "_layout": "full",
-        "_component": "narrative",
-        "title": "From raw material to new information and knowledge",
-        "displayTitle": "From raw material to new information and knowledge",
-        "body": "Without data, we can’t build information.  And without information, there is no new knowledge.",
-        "instruction": "<em class='desktop-instruction'>Click the forward arrow to see more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
-        "_items": [
-            {
-                "title": "Data",
-                "body": "<p>Data is the lowest level of raw material from which information and knowledge can be derived.</p><p>As an example, think of data as those locations, images, descriptions, reviews and prices that form the basis of information that can help people build a holiday.</p>",
-                "_graphic": {
-                    "src": "course/en/images/odi-2-narrative_large.jpg",
-                    "alt": "Providing certainty",
-                    "title": "",
-                    "*source":"http://www.shutterstock.com/pic.mhtml?id=240789808&src=lb-35924366",
-                    "*credit":"Anna Frajtova",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "Data"
-            },
-            {
-                "title": "Information",
-                "body": "<p>Data becomes information when it is given a context.</p><p>Following on from the previous example, locations, images, descriptions and prices can all be related to a tourist  attraction.</p><p>It is the collection and presentation of the data that forms information.</p>",
-                "_graphic": {
-                    "src": "course/en/images/odi-3-narrative_large.jpg",
-                    "alt": "A graph of open licences across countries",
-                    "title": "A graph of open licences across countries",
-                    "*source":"http://www.shutterstock.com/pic.mhtml?id=217763944&src=lb-35924366",
-                    "*credit":"Sachezi",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "Information"
-            },
-            {
-                "title": "Knowledge",
-                "body": "<p>Knowledge is what is derived from the information, personalising it for your needs.</p><p>Knowledge is the process of turning information into choices.</p><p>Following on from the previous example, knowing that no one in your family likes theme parks will inform your decisions as to which locations to avoid and which would be more suitable for your purposes.</p>",
-                "_graphic": {
-                    "src": "course/en/images/odi-4-narrative_large.jpg",
-                    "alt": "A map from a to b",
-                    "title": "A map from a to b",
-                    "*source":"http://www.shutterstock.com/pic.mhtml?id=250810483&src=lb-35924366",
-                    "*credit":"Oleksiy Mark",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "Knowledge"
-            }
-        ],
-        "_pageLevelProgress": {
-        "_isEnabled": true
-        }
     },
     {
         "_id":"c-30",
@@ -189,68 +189,68 @@
           "alt": "Reuse",
           "title": "Reuse",
           "body": "<p>Once the user has the data, they are free to use it, reuse it and redistribute it, even commercially.</p><p>Open data is measured by what it can be used for, not by how it is made available.</p><p>Aspects like format, structure and machine readability all make data more usable, and should all be carefully considered.</p><p>However these do not make the data more open.</p>"
+        },
+        {
+          "alt": "Reuse",
+          "title": "Reuse",
+          "body": "<p>Once the user has the data, they are free to use it, reuse it and redistribute it, even commercially.</p><p>Open data is measured by what it can be used for, not by how it is made available.</p><p>Aspects like format, structure and machine readability all make data more usable, and should all be carefully considered.</p><p>However these do not make the data more open.</p>"
         }
       ],
       "_pageLevelProgress": {
         "_isEnabled": true
       }
     },
-     {
-        "_id": "c-40",
-        "_parentId": "b-30",
-        "_classes": "",
+         {
+        "_id":"c-37",
+        "_parentId":"b-30",
         "_type":"component",
-        "_layout": "full",
-        "_component": "narrative",
-        "title": "Why do we need open data?",
-        "displayTitle": "Why do we need open data?",
-        "body": "Open data has the power to transform government, business and civil society.",
-        "instruction": "<em class='desktop-instruction'>Click the forward arrow to see more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
-        "_items": [
-            {
-                "title": "Transform government",
-                "body": "<p>Open data increases the transparency of governments. It provides the evidence that public money is being well spent and policies are being implemented.</p><p>For example, according to leading Open Government activist David Eaves, in Canada in 2010, open data allowed citizens to save the government $3.2 billion in fraudulent charitable donations.<br /><a href='http://eaves.ca/2010/04/14/case-study-open-data-and-the-public-purse/' target='_blank'>Take me to David Eaves article</a></p><p>In another example, according to Follow the Money, in Nigeria, the same process is used to ensure that public funds are used to implement the policies promised to the people.<br /><a href='http://followthemoneyng.org/' target='_blank'>Take me to Follow the Money</a></p>",
-                "_graphic": {
-                    "src": "course/en/images/odi-6-narrative_large.jpg",
-                    "alt": "Transform government",
-                    "title": "Transform government",
-                    "*source":"http://www.shutterstock.com/pic.mhtml?id=265940657&src=lb-35924366",
-                    "*credit":"hxdyl",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "Transform government"
-            },
-            {
-                "title": "Build new business opportunities",
-                "body": "<p>Open data is opening up new opportunities for businesses to connect to customers.</p><p>Transport for London have released open data that developers have used to build over 800 transport apps.<br /><a href='http://www.tfl.gov.uk/' target='_blank'>Take me to Transport for London</a></p><p>Thomson Reuters are using open data to better connect to existing customers in order to provide better services.<br /><a href='http://site.thomsonreuters.com/site/data-identifiers/' target='_blank'>Take me to Thomson Reuters</a></p><p>The ODI startup program now has over 70 employees with income over £4m.<br /><a href='http://theodi.org/odis-second-year-annual-report' target='_blank'>Take me to The ODI annual report</a></p>",
-                "_graphic": {
-                    "src": "course/en/images/odi-7-narrative_large.jpg",
-                    "alt": "Build new business opportunities",
-                    "title": "Build new business opportunities",
-                    "*source":"http://www.shutterstock.com/pic.mhtml?id=149924576&src=lb-35924366",
-                    "*credit":"Sergey Nivens",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "Build new business opportunities"
-            },
-            {
-                "title": "Protect our planet",
-                "body": "<p>The web has become a core part of societal infrastructure and open data is the next key component of this infrastructure.</p><p>Open data provides an early warning system for environmental disasters.<br /><a href='http://www.un.org/apps/news/story.asp?NewsID=13077&Cr=natural&Cr1=disaster#.VVyWK_lVhBc' target='_blank'>Take me to the United Nations news centre</a></p><p>Open data is also helping consumers understand their personal impact on the environment and how to take responsibility for their effect.<br /><a href='https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/39386/12-1324-better-choices-better-deals-report-on-progress-on-the-consumer-empowerment-strategy.pdf' target='_blank'>Take me to Better Choices Better Deals report.</a></p>",
-                "_graphic": {
-                    "src": "course/en/images/odi-8-narrative_large.jpg",
-                    "alt": "Protect our planet",
-                    "title": "Protect our planet",
-                    "*source":"http://www.shutterstock.com/pic.mhtml?id=261740228&src=lb-35924366",
-                    "*credit":"hbpictures",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "Protect our planet"
-            }
-        ],
-        "_pageLevelProgress": {
-        "_isEnabled": true
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/odi-5-accordion_large.jpg",
+            "medium": "course/en/images/odi-5-accordion_large.jpg",
+            "small": "course/en/images/odi-5-accordion_large.jpg",
+            "*source":"http://www.shutterstock.com/pic.mhtml?id=154744388&src=lb-35924366",
+            "*credit":"Oleksiy Mark",
+            "*license":"Shutterstock Standard License"
         }
-    }, {
+    },
+    {
+      "_id":"c-38",
+      "_parentId":"b-30",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"left",
+      "title": "What makes data open?",
+      "displayTitle": "What makes data open?",
+      "body": "<p>Data is open if anyone can access, use and share it.<br />There are some simple things to consider when defining openness.  Consider the following: </p>",
+      "instruction": "",
+      "_items": [
+        {
+          "alt": "Limitations",
+          "title": "Limitations",
+          "body": "<p>To be open there should be no limitations that prevents any particular use of the data.</p><p>A user should be free to use, modify, combine and share the data, even commercially.</p>"
+        },
+        {
+          "alt": "Cost",
+          "title": "Cost",
+          "body": "<p>Even though data must be free to use, this does not mean that it must be free to access.</p><p>There is a cost in creating, maintaining and publishing useable data.</p><p>Ideally, any fee for data should be no more than the reasonable reproduction cost of the unit of data that is requested.</p><p>This reproduction cost tends to zero for many datasets.</p><p>Live data and big data can have ongoing cost related to reliable service provision.</p>"
+        },
+        {
+          "alt": "Reuse",
+          "title": "Reuse",
+          "body": "<p>Once the user has the data, they are free to use it, reuse it and redistribute it, even commercially.</p><p>Open data is measured by what it can be used for, not by how it is made available.</p><p>Aspects like format, structure and machine readability all make data more usable, and should all be carefully considered.</p><p>However these do not make the data more open.</p>"
+        }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
         "_id":"c-42",
         "_parentId":"b-33",
         "_type":"component",
