@@ -24,6 +24,20 @@ define(function(require) {
 		});
 	
 	}
+	
+	function setupResources2(resourcesModel, resourcesItems) {
+
+		var resourcesCollection = new Backbone.Collection(resourcesItems);
+		var resourcesModel = new Backbone.Model(resourcesModel);
+
+		Adapt.on('resources:showResources2', function() {
+			Adapt.drawer.triggerCustomView(new ResourcesView({
+				model: resourcesModel, 
+				collection: resourcesCollection
+			}).$el);
+		});
+	
+	}
 
 	Adapt.once('app:dataReady', function() {
 
@@ -43,6 +57,24 @@ define(function(require) {
 		}
 
 		setupResources(courseResources, courseResources._resourcesItems);
+		
+		var courseResources2 = Adapt.course.get('_resources2');
+
+		if (courseResources2) {
+			var drawerObject = {
+		        title: courseResources2.title,
+		        description: courseResources2.description,
+		        className: 'resources-drawer'
+		    };
+		    // Syntax for adding a Drawer item
+		    // Adapt.drawer.addItem([object], [callbackEvent]);
+		    Adapt.drawer.addItem(drawerObject, 'resources:showResources2');
+		} else {
+			return console.log('Sorry, no resources2 object is set on the course.json file');
+		}
+
+		setupResources2(courseResources2, courseResources2._resourcesItems);
+
 
 	});
 
