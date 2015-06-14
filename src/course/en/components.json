@@ -36,21 +36,24 @@
         "_id":"c-11",
         "_parentId":"b-10",
         "_type":"component",
-        "_component":"media",
+        "_component":"iFrame-vimeo",
         "_classes":"",
         "_layout":"full",
         "title":"Open data cleaning – in two minutes",
         "displayTitle": "Open data cleaning – in two minutes",
         "body": "The ODI’s David Tarrant explains why clean data is important for creating new value, how to go about cleaning up data you find and introduces some helpful tools to support you",
-        "instruction": "<em>Click to play the video</em>",
+        "instruction": "",
         "_setCompletionOn":"ended",
-        "_media": {
-            "mp4": "course/en/video/sponge_placeholder.mp4",
-            "ogv": "course/en/video/sponge_placeholder.ogv",
-            "poster": "course/en/video/ulrich.png"
+        "_source": "https://player.vimeo.com/video/129197207",
+        "_width": {
+            "_small" : 300,
+            "_medium" : 500,
+            "_large" : 905
         },
-        "_pageLevelProgress": {
-            "_isEnabled": true
+        "_height": {
+            "_small" : 250,
+            "_medium" : 350,
+            "_large" : 508
         }
     },
        {
@@ -162,9 +165,9 @@
                 "title": "The data cleaning toolkit",
                 "body": "It may be necessary to download and upload your data between many tools for cleaning and processing. Remember to also keep a note of what changes have been made and share these with others. Some of the tools can even help you do this<br><br>In this section we look at two of the main tools and their uses:</h5><ul class='bullet'><li>Open refine</li><li>Excel & similar spreadsheet programmes</li></ul>",
                 "_graphic": {
-                    "src": "course/en/images/triangle.png",
-                    "alt": "Lorem ipsum",
-                    "title": "Lorem ipsum"
+                    "src": "course/en/images/toolkit.jpg",
+                    "alt": "A toolkit",
+                    "title": "A toolkit"
                 },
                 "strapline": "The data cleaning toolkit"
             },
@@ -172,9 +175,9 @@
                 "title": "Open Refine",
                 "body": "Open Refine is a powerful software tool designed specifically to deal with messy data. It is a column-based browser that applies facets to the data in order to cleaning fix errors across the entire dataset including:</h5><ul class='bullet'><li>Date formats</li><li>Multiple representations</li><li>Duplicate records</li><li>Redundant data</li><li>Broken numerical scales</li><li>Mixed ranges</li></ul>",
                 "_graphic": {
-                    "src": "course/en/images/triangle.png",
-                    "alt": "Lorem ipsum",
-                    "title": "Lorem ipsum"
+                    "src": "course/en/images/refine.jpg",
+                    "alt": "A diamond",
+                    "title": "A diamond"
                 },
                 "strapline": "Open Refine"
             },
@@ -182,9 +185,9 @@
                 "title": "Spreadsheet programmes",
                 "body": "Open Refine is the key tool for cleaning data, however sometimes it is easier to fix some errors in a spreadsheet:</h5><ul class='bullet'><li>Spelling errors</li><li>Redundant data</li><li>Numerical verification</li><li>Fixing shifted data</li></ul>",
                 "_graphic": {
-                    "src": "course/en/images/triangle.png",
-                    "alt": "Lorem ipsum",
-                    "title": "Lorem ipsum"
+                    "src": "course/en/images/spreadsheet.jpg",
+                    "alt": "Spreadsheet",
+                    "title": "Spreadsheet"
                 },
                 "strapline": "Wide reuse"
             }
@@ -245,14 +248,14 @@
         "_parentId":"b-60",
         "_type":"component",
         "_component":"graphic",
-        "_classes":"illustration",
+        "_classes":"",
         "_layout":"right",
         "_graphic": {
             "alt": "",
             "title": "",
-            "large": "course/en/images/example-burst.png",
-            "medium": "course/en/images/example-burst.png",
-            "small": "course/en/images/example-burst.png"
+            "large": "course/en/images/messy.jpg",
+            "medium": "course/en/images/messy.jpg",
+            "small": "course/en/images/messy.jpg"
         }
     },
     {
@@ -310,14 +313,14 @@
         "_parentId":"b-70",
         "_type":"component",
         "_component":"graphic",
-        "_classes":"illustration",
+        "_classes":"",
         "_layout":"left",
         "_graphic": {
             "alt": "",
             "title": "",
-            "large": "course/en/images/example-burst.png",
-            "medium": "course/en/images/example-burst.png",
-            "small": "course/en/images/example-burst.png"
+            "large": "course/en/images/toolkit.jpg",
+            "medium": "course/en/images/toolkit.jpg",
+            "small": "course/en/images/toolkit.jpg"
         }
     },
     {
@@ -375,14 +378,14 @@
         "_parentId":"b-80",
         "_type":"component",
         "_component":"graphic",
-        "_classes":"illustration",
+        "_classes":"",
         "_layout":"right",
         "_graphic": {
             "alt": "",
             "title": "",
-            "large": "course/en/images/example-burst.png",
-            "medium": "course/en/images/example-burst.png",
-            "small": "course/en/images/example-burst.png"
+            "large": "course/en/images/error.png",
+            "medium": "course/en/images/error.png",
+            "small": "course/en/images/error.png"
         }
     },
     {
@@ -396,8 +399,8 @@
         "_questionWeight":1,
         "_isRandom":true,
         "_selectable":3,
-        "title": "Focussing on demand",
-        "displayTitle": "Focussing on demand",
+        "title": "Recognising errors",
+        "displayTitle": "Recognising errors",
         "body": "<p>Which are the following are errors in data that require cleaning?</p>",
         "instruction": "<em>Choose three answers</em>",
         "_items": [
@@ -453,9 +456,9 @@
         "_graphic": {
             "alt": "",
             "title": "",
-            "large": "course/en/images/example-burst.png",
-            "medium": "course/en/images/example-burst.png",
-            "small": "course/en/images/example-burst.png"
+            "large": "course/en/images/clock.jpg",
+            "medium": "course/en/images/clock.jpg",
+            "small": "course/en/images/clock.jpg"
         }
     },
     {
