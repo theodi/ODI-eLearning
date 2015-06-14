@@ -435,6 +435,40 @@ function program13(depth0,data) {
   return buffer;
   });
 
+this["Handlebars"]["templates"]["iFrame-vimeo"] = Handlebars.template(function (Handlebars,depth0,helpers,partials,data) {
+  this.compilerInfo = [4,'>= 1.0.0'];
+helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
+  var buffer = "", stack1, helper, functionType="function", escapeExpression=this.escapeExpression;
+
+
+  buffer += "\n<div class=\"component-inner iFrame-vimeo-inner\">\n  <div class=\"media-title component-title\">\n    <h4 class=\"media-title-inner component-title-inner\">\n    	";
+  if (helper = helpers.title) { stack1 = helper.call(depth0, {hash:{},data:data}); }
+  else { helper = (depth0 && depth0.title); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
+  buffer += escapeExpression(stack1)
+    + "\n    </h4>\n  </div>\n  <div class=\"media-body component-body\">\n    <div class=\"media-body-inner component-body-inner\">\n    	";
+  if (helper = helpers.body) { stack1 = helper.call(depth0, {hash:{},data:data}); }
+  else { helper = (depth0 && depth0.body); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
+  buffer += escapeExpression(stack1)
+    + "\n    </div>\n  </div>\n   <div class=\"component-widget iFrame-vimeo-widget\">\n    <div class=\"iFrame-vimeo-iframe-holder\">\n      <iframe scrolling=\"no\" class=\"iFrame-vimeo-iframe\" src=\"";
+  if (helper = helpers._source) { stack1 = helper.call(depth0, {hash:{},data:data}); }
+  else { helper = (depth0 && depth0._source); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
+  buffer += escapeExpression(stack1)
+    + "\"\n        data-height-large=\""
+    + escapeExpression(((stack1 = ((stack1 = (depth0 && depth0._height)),stack1 == null || stack1 === false ? stack1 : stack1._large)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
+    + "\" data-height-medium=\""
+    + escapeExpression(((stack1 = ((stack1 = (depth0 && depth0._height)),stack1 == null || stack1 === false ? stack1 : stack1._medium)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
+    + "\" data-height-small=\""
+    + escapeExpression(((stack1 = ((stack1 = (depth0 && depth0._height)),stack1 == null || stack1 === false ? stack1 : stack1._small)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
+    + "\"\n        data-width-large=\""
+    + escapeExpression(((stack1 = ((stack1 = (depth0 && depth0._width)),stack1 == null || stack1 === false ? stack1 : stack1._large)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
+    + "\" data-width-medium=\""
+    + escapeExpression(((stack1 = ((stack1 = (depth0 && depth0._width)),stack1 == null || stack1 === false ? stack1 : stack1._medium)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
+    + "\" data-width-small=\""
+    + escapeExpression(((stack1 = ((stack1 = (depth0 && depth0._width)),stack1 == null || stack1 === false ? stack1 : stack1._small)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
+    + "\">\n      </iframe>\n    </div>\n  </div>\n</div>\n";
+  return buffer;
+  });
+
 this["Handlebars"]["templates"]["matching"] = Handlebars.template(function (Handlebars,depth0,helpers,partials,data) {
   this.compilerInfo = [4,'>= 1.0.0'];
 helpers = this.merge(helpers, Handlebars.helpers); partials = this.merge(partials, Handlebars.partials); data = data || {};
