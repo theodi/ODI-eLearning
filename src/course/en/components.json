@@ -180,7 +180,7 @@
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
-        "_layout":"right",
+        "_layout":"left",
         "_graphic": {
             "alt": "",
             "title": "",
@@ -195,7 +195,7 @@
         "_type":"component",
         "_component":"text",
         "_classes":"",
-        "_layout":"right",
+        "_layout":"left",
         "title":"Lesson 7 - Sustainability",
         "displayTitle":"Lesson 7 - Sustainability",
         "body":"<p>A sustainable programme is one that continues to regularly release data with maintained or improving quality and quantity.</p><p>For something to be sustainable it is ‘able to be maintained at a certain rate or level’</p><p>This lesson looks at why sustainability matters and how to assess it on an open dataset.</p><p><a class='course_link' href='module7/'>Click here to learn more</a></p>"
@@ -214,10 +214,166 @@
             "medium": "course/en/images/odi-7-text-image_large.jpg",
             "small": "course/en/images/odi-7-text-image_large.jpg"
         }
-    },  
+    },
     {
-        "_id":"c-85",
-        "_parentId":"b-55",
+        "_id":"c-71",
+        "_parentId":"b-70",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/odi-8-text-image_large.jpg",
+            "medium": "course/en/images/odi-8-text-image_large.jpg",
+            "small": "course/en/images/odi-8-text-image_large.jpg"
+        }
+    },
+    {
+        "_id":"c-72",
+        "_parentId":"b-70",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Lesson 8 - Open data platforms",
+        "displayTitle":"Lesson 8 - Open data platforms",
+        "body":"<p></p><p><a class='course_link' href='module8/'>Click here to learn more</a></p>"
+    },
+    {
+        "_id":"c-81",
+        "_parentId":"b-80",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/odi-9-text-image_large.png",
+            "medium": "course/en/images/odi-9-text-image_large.png",
+            "small": "course/en/images/odi-9-text-image_large.png"
+        }
+    },
+    {
+        "_id":"c-82",
+        "_parentId":"b-80",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"right",
+        "title":"Lesson 9 - ",
+        "displayTitle":"Lesson 9 - ",
+        "body":"<p></p><p><a class='course_link' href='module9/'>Click here to learn more</a></p>"
+    },
+    {
+        "_id":"c-91",
+        "_parentId":"b-90",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/odi-10-text-image_large.png",
+            "medium": "course/en/images/odi-10-text-image_large.png",
+            "small": "course/en/images/odi-10-text-image_large.png"
+        }
+    },
+    {
+        "_id":"c-92",
+        "_parentId":"b-90",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Lesson 10 - ",
+        "displayTitle":"Lesson 10 - ",
+        "body":"<p></p><p><a class='course_link' href='module10/'>Click here to learn more</a></p>"
+    },
+    {
+        "_id":"c-101",
+        "_parentId":"b-100",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"right",
+        "title":"Lesson 11 -",
+        "displayTitle":"Lesson 11 - ",
+        "body":"<p></p><p><a class='course_link' href='module11/'>Click here to learn more</a></p>"
+    },
+    {
+        "_id":"c-102",
+        "_parentId":"b-100",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/odi-11-text-image_large.jpg",
+            "medium": "course/en/images/odi-11-text-image_large.jpg",
+            "small": "course/en/images/odi-11-text-image_large.jpg"
+        }
+    },
+    {
+        "_id":"c-111",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/odi-12-text-image_large.png",
+            "medium": "course/en/images/odi-12-text-image_large.png",
+            "small": "course/en/images/odi-12-text-image_large.png"
+        }
+    },
+    {
+        "_id":"c-112",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Lesson 12 - ",
+        "displayTitle":"Lesson 12 - ",
+        "body":"<p></p><p><a class='course_link' href='module12/'>Click here to learn more</a></p>"
+    },
+    {
+        "_id":"c-121",
+        "_parentId":"b-120",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"right",
+        "title":"Lesson 13 - ",
+        "displayTitle":"Lesson 12 - ",
+        "body":"<p></p><p><a class='course_link' href='module13/'>Click here to learn more</a></p>"
+    },
+    {
+        "_id":"c-122",
+        "_parentId":"b-120",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/odi-13-text-image_large.jpg",
+            "medium": "course/en/images/odi-13-text-image_large.jpg",
+            "small": "course/en/images/odi-13-text-image_large.jpg"
+        }
+    },
+    {
+        "_id":"c-151",
+        "_parentId":"b-150",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
@@ -231,8 +387,8 @@
         }
     },
     {
-        "_id":"c-90",
-        "_parentId":"b-55",
+        "_id":"c-152",
+        "_parentId":"b-150",
         "_type":"component",
         "_component":"text",
         "_classes":"",
@@ -242,16 +398,16 @@
         "body":"<p>The Open Data Institute offers the most comprehensive open data training in the world.</p><p>Why not discover our face-to-face courses or get in contact with us if you would like to discuss opportunities for training tailored to your needs.</p><p><a class='course_link' href='http://theodi.org/courses'>Discover more on the ODI courses site</a></p>"
     },
     {
-       "_id":"c-95",
-       "_parentId":"b-55",
+       "_id":"c-153",
+       "_parentId":"b-150",
        "_type":"component",
        "_component":"text",
        "_classes":"separator",
        "_layout":"full"
     },
     {
-        "_id":"c-100",
-        "_parentId":"b-55",
+        "_id":"c-154",
+        "_parentId":"b-150",
         "_type":"component",
         "_component":"graphic",
         "_classes":"footer-logo",
@@ -265,8 +421,8 @@
         }
     },
     {
-        "_id":"c-105",
-        "_parentId":"b-55",
+        "_id":"c-155",
+        "_parentId":"b-150",
         "_type":"component",
         "_component":"text",
         "_classes":"social-buttons",
