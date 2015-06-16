@@ -2803,7 +2803,7 @@ a, button {-webkit-tap-highlight-color: rgba(0,0,0,0.2);}
     background-color:@background-color;
     .article-inner {
         padding-top:1px;
-        padding-top: 280px;
+//      padding-top: 280px;
         background-image: url(assets/backgroundB.jpg);
         background-position: top;
         background-repeat:no-repeat;
@@ -2827,6 +2827,7 @@ a, button {-webkit-tap-highlight-color: rgba(0,0,0,0.2);}
         padding:@article-body-padding;
     }
 }
+
 // Block styling
 // =============
 
@@ -2997,17 +2998,19 @@ a, button {-webkit-tap-highlight-color: rgba(0,0,0,0.2);}
         }
     }
     &.summary {
-        background: #222222;
+        background: #004f9f;
         .block-inner {
             padding-bottom: 30px;
         }
         .footer-logo {
+	    display: none;
             @media all and (max-width:(@device-width-medium - 1px)) {
                 text-align: center;
                 margin-bottom: 40px;
             }
         }
         .social-buttons {
+	    display: none;
             text-align: right;
             .social {
                 margin-left: 10px;
@@ -4045,11 +4048,18 @@ body {
     background: url(assets/play.png) no-repeat;
 }
 
-.header {
-    .article-inner {
-        padding-top: 200px;
-        background: url(../../course/en/images/header.jpg) no-repeat top center;
-    }
+//.header {
+//    .article-inner {
+//        padding-top: 200px;
+//        background: url(../../course/en/images/header.jpg) no-repeat top center;
+//    }
+//}
+
+.intro-logo {
+    background: url(../../course/en/images/eu-open-data.png) no-repeat center;
+    background-size: contain;
+    margin-top: 10px;
+    height: 300px;
 }
 
 // Custom class to be added to blocks
@@ -4090,6 +4100,7 @@ body {
     color:#fff;
     text-decoration: underline;
 }
+
 // =========
 // Variables
 // =========
@@ -4393,7 +4404,7 @@ body {
 // Navigation
 // ==========
 
-@navigation-color:#000000;
+@navigation-color:#004f9f;
 @navigation-icon-color:#ffffff;
 @navigation-icon-hover-color:darken(@primary-color, 30%);
 
