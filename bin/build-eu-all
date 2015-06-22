@@ -1,12 +1,14 @@
 #!/bin/bash
-# USAGE ./build-odi-all en
+# USAGE ./build-eu-all en
 OUTPATH=/home/davetaz/public_html/learn/
 for i in `seq 1 13`;
 do
 	git --git-dir=.module checkout module$i-$1
 	#git --git-dir=.module pull
+	cp src/theme/adapt-contrib-vanilla/less/theme.less src/theme/adapt-eu-theme/less/
+	cp src/theme/adapt-contrib-vanilla/less/custom.less src/theme/adapt-eu-theme/less/
 	rm -fR build
-	grunt build
+	grunt build --theme=adapt-eu-theme
 	`mkdir $OUTPATH/$1/`
 	`rm -fR $OUTPATH/$1/module$i`
 	`mv build $OUTPATH/$1/module$i`

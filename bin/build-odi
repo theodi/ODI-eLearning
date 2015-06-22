@@ -4,6 +4,6 @@ git --git-dir=.module checkout $1-$2
 #git --git-dir=.module pull
 rm -fR build
 grunt build
-`mkdir $OUTPATH/en/`
-`rm -fR $OUTPATH/en/$1`
-`mv build $OUTPATH/en/$1`
+`mkdir $OUTPATH/$2/`
+`rm -fR $OUTPATH/$2/$1`
+`mv build $OUTPATH/$2/$1`
