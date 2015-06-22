@@ -1,0 +1,126 @@
+git checkout master
+rm -fR /tmp/master
+mkdir /tmp/master
+cp -r * /tmp/master/
+rm -fR /tmp/master/src/course
+rm -f /tmp/master/src/templates/templates.js
+rm -f /tmp/master/src/less/adapt.less
+rm -fR /tmp/master/build
+
+git checkout module1
+rm -fR /tmp/module1
+mkdir /tmp/module1
+cp -r * /tmp/module1/
+rm -fR /tmp/module1/src/course
+rm -f /tmp/module1/src/templates/templates.js
+rm -f /tmp/module1/src/less/adapt.less
+rm -fR /tmp/module1/build
+
+git checkout module2
+rm -fR /tmp/module2
+mkdir /tmp/module2
+cp -r * /tmp/module2/
+rm -fR /tmp/module2/src/course
+rm -f /tmp/module2/src/templates/templates.js
+rm -f /tmp/module2/src/less/adapt.less
+rm -fR /tmp/module2/build
+
+git checkout module3
+rm -fR /tmp/module3
+mkdir /tmp/module3
+cp -r * /tmp/module3/
+rm -fR /tmp/module3/src/course
+rm -f /tmp/module3/src/templates/templates.js
+rm -f /tmp/module3/src/less/adapt.less
+rm -fR /tmp/module3/build
+
+git checkout module4
+rm -fR /tmp/module4
+mkdir /tmp/module4
+cp -r * /tmp/module4/
+rm -fR /tmp/module4/src/course
+rm -f /tmp/module4/src/templates/templates.js
+rm -f /tmp/module4/src/less/adapt.less
+rm -fR /tmp/module4/build
+
+git checkout module5
+rm -fR /tmp/module5
+mkdir /tmp/module5
+cp -r * /tmp/module5/
+rm -fR /tmp/module5/src/course
+rm -f /tmp/module5/src/templates/templates.js
+rm -f /tmp/module5/src/less/adapt.less
+rm -fR /tmp/module5/build
+
+git checkout module6
+rm -fR /tmp/module6
+mkdir /tmp/module6
+cp -r * /tmp/module6/
+rm -fR /tmp/module6/src/course
+rm -f /tmp/module6/src/templates/templates.js
+rm -f /tmp/module6/src/less/adapt.less
+rm -fR /tmp/module6/build
+
+git checkout module7
+rm -fR /tmp/module7
+mkdir /tmp/module7
+cp -r * /tmp/module7/
+rm -fR /tmp/module7/src/course
+rm -f /tmp/module7/src/templates/templates.js
+rm -f /tmp/module7/src/less/adapt.less
+rm -fR /tmp/module7/build
+
+git checkout module8
+rm -fR /tmp/module8
+mkdir /tmp/module8
+cp -r * /tmp/module8/
+rm -fR /tmp/module8/src/course
+rm -f /tmp/module8/src/templates/templates.js
+rm -f /tmp/module8/src/less/adapt.less
+rm -fR /tmp/module8/build
+
+git checkout module9
+rm -fR /tmp/module9
+mkdir /tmp/module9
+cp -r * /tmp/module9/
+rm -fR /tmp/module9/src/course
+rm -f /tmp/module9/src/templates/templates.js
+rm -f /tmp/module9/src/less/adapt.less
+rm -fR /tmp/module9/build
+
+git checkout module10
+rm -fR /tmp/module10
+mkdir /tmp/module10
+cp -r * /tmp/module10/
+rm -fR /tmp/module10/src/course
+rm -f /tmp/module10/src/templates/templates.js
+rm -f /tmp/module10/src/less/adapt.less
+rm -fR /tmp/module10/build
+
+git checkout module11
+rm -fR /tmp/module11
+mkdir /tmp/module11
+cp -r * /tmp/module11/
+rm -fR /tmp/module11/src/course
+rm -f /tmp/module11/src/templates/templates.js
+rm -f /tmp/module11/src/less/adapt.less
+rm -fR /tmp/module11/build
+
+git checkout module12
+rm -fR /tmp/module12
+mkdir /tmp/module12
+cp -r * /tmp/module12/
+rm -fR /tmp/module12/src/course
+rm -f /tmp/module12/src/templates/templates.js
+rm -f /tmp/module12/src/less/adapt.less
+rm -fR /tmp/module12/build
+
+git checkout module13
+rm -fR /tmp/module13
+mkdir /tmp/module13
+cp -r * /tmp/module13/
+rm -fR /tmp/module13/src/course
+rm -f /tmp/module13/src/templates/templates.js
+rm -f /tmp/module13/src/less/adapt.less
+rm -fR /tmp/module13/build
+
