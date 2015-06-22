@@ -811,6 +811,24 @@ a, button {-webkit-tap-highlight-color: rgba(0,0,0,0.2);}
     }
   }
 }
+.iFrame-vimeo-component {
+
+  .iFrame-vimeo-iframe-holder {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .iFrame-vimeo-iframe {
+    border: none;
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+  }
+
+}
+
 .matching-component {
 
   .matching-item {
@@ -2785,7 +2803,7 @@ a, button {-webkit-tap-highlight-color: rgba(0,0,0,0.2);}
     background-color:@background-color;
     .article-inner {
         padding-top:1px;
-        padding-top: 280px;
+//      padding-top: 280px;
         background-image: url(assets/backgroundB.jpg);
         background-position: top;
         background-repeat:no-repeat;
@@ -2809,6 +2827,7 @@ a, button {-webkit-tap-highlight-color: rgba(0,0,0,0.2);}
         padding:@article-body-padding;
     }
 }
+
 // Block styling
 // =============
 
@@ -2816,6 +2835,9 @@ a, button {-webkit-tap-highlight-color: rgba(0,0,0,0.2);}
     .responsive-layout;
     .block-inner {
         padding: 100px 60px;
+        @media all and (max-width:(@device-width-medium - 1px)) {
+            padding: 50px 30px;
+        }
     }
     .block-title {
         text-align:left;
@@ -2888,6 +2910,16 @@ a, button {-webkit-tap-highlight-color: rgba(0,0,0,0.2);}
             }
         }
         .narrative-component {
+            .narrative-controls {
+                background: #fff;
+                border: 1px solid #ddd;
+                &:hover {
+                    background: #eee;
+                }
+                .icon {
+                    color: @foreground-color;
+                }
+            }
             .narrative-content {
                 background: @inverted-foreground-color;
                 color: @foreground-color;
@@ -2896,7 +2928,11 @@ a, button {-webkit-tap-highlight-color: rgba(0,0,0,0.2);}
                 }
             }
             .narrative-progress {
-                border-color: @background-color;
+                border: none;
+                background: rgba(0,0,0,0.2);
+                &.selected {
+                    background: @background-color;
+                }
             }
         }
         .accordion-component {
@@ -2956,20 +2992,25 @@ a, button {-webkit-tap-highlight-color: rgba(0,0,0,0.2);}
         .button {
             background: @inverted-foreground-color;
             color: @inverted-background-color;
+            &:hover {
+                background: #eee;
+            }
         }
     }
     &.summary {
-        background: #222222;
+        background: #004f9f;
         .block-inner {
             padding-bottom: 30px;
         }
         .footer-logo {
+	    display: none;
             @media all and (max-width:(@device-width-medium - 1px)) {
                 text-align: center;
                 margin-bottom: 40px;
             }
         }
         .social-buttons {
+	    display: none;
             text-align: right;
             .social {
                 margin-left: 10px;
@@ -3081,6 +3122,16 @@ a, button {-webkit-tap-highlight-color: rgba(0,0,0,0.2);}
         &.validation-error {
             color: @validation-error-text-color;
         }
+        @media all and (max-width: @device-width-medium) {
+            .desktop-instruction {
+                display: none;
+            }
+        }
+        @media all and (min-width: @device-width-medium) {
+            .mobile-instruction {
+                display: none;
+            }
+        }
     }
 }
 
@@ -3136,6 +3187,15 @@ a, button {-webkit-tap-highlight-color: rgba(0,0,0,0.2);}
             font-size: 17px;
             font-weight: @font-weight-light;
         }
+    }
+    .mcq-widget.disabled .mcq-item label.disabled {
+        background: #ddd;
+        h5 {
+            color: #999;
+        }
+    }
+    .mcq-widget.disabled .mcq-item label.selected.disabled h5 {
+        color: #fff;
     }
 }
 .no-touch {
@@ -3988,11 +4048,18 @@ body {
     background: url(assets/play.png) no-repeat;
 }
 
-.header {
-    .article-inner {
-        padding-top: 400px;
-        background: url(../../course/en/images/header.jpg) no-repeat top center;
-    }
+//.header {
+//    .article-inner {
+//        padding-top: 200px;
+//        background: url(../../course/en/images/header.jpg) no-repeat top center;
+//    }
+//}
+
+.intro-logo {
+    background: url(../../course/en/images/eu-open-data.png) no-repeat center;
+    background-size: contain;
+    margin-top: 10px;
+    height: 300px;
 }
 
 // Custom class to be added to blocks
@@ -4005,32 +4072,34 @@ body {
 // @odi-color-four: dark green
 // @odi-color-five: purple
 // @odi-color-six: dark blue
-// @odi-color-seven: red 
+// @odi-color-seven: red
 // @odi-color-eight: pink
 // @odi-color-nine: magenta
 // @odi-color-ten: light green
 
 .b-10 {
-    background: @odi-color-one url('assets/stamp.png');
+    background: #722ea5;
+}
+
+.b-25 {
+    background: #ff6700;
 }
 
 .b-30 {
-    background: @odi-color-two;
+    background: #08def9;
 }
 
-.b-50 {
-    background: url('assets/polygon.png');
+.b-35 {
+    background: #1dd3a7;
 }
 
-.b-70 {
-    background: @odi-color-four;
+.b-45 {
+    background: #ef3aab;
 }
-
-.b-90 {
-    background: @odi-color-three;
-
+.notify .notify-popup a {
+    color:#fff;
+    text-decoration: underline;
 }
-
 
 // =========
 // Variables
@@ -4335,7 +4404,7 @@ body {
 // Navigation
 // ==========
 
-@navigation-color:#000000;
+@navigation-color:#004f9f;
 @navigation-icon-color:#ffffff;
 @navigation-icon-hover-color:darken(@primary-color, 30%);
 
