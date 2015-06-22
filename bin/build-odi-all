@@ -1,0 +1,12 @@
+#!/bin/bash
+OUTPATH=/home/davetaz/public_html/learn/
+for i in `seq 1 13`;
+do
+	git --git-dir=.module checkout module$i-$1
+	#git --git-dir=.module pull
+	rm -fR build
+	grunt build
+	`mkdir $OUTPATH/en/`
+	`rm -fR $OUTPATH/en/module$i`
+	`mv build $OUTPATH/en/module$i`
+done

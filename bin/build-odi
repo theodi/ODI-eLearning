@@ -1,0 +1,9 @@
+#!/bin/bash
+OUTPATH=/home/davetaz/public_html/learn/
+git --git-dir=.module checkout $1-$2
+#git --git-dir=.module pull
+rm -fR build
+grunt build
+`mkdir $OUTPATH/en/`
+`rm -fR $OUTPATH/en/$1`
+`mv build $OUTPATH/en/$1`

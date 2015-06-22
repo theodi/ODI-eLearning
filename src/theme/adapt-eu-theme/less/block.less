@@ -5,9 +5,6 @@
     .responsive-layout;
     .block-inner {
         padding: 100px 60px;
-        @media all and (max-width:(@device-width-medium - 1px)) {
-            padding: 50px 30px;
-        }
     }
     .block-title {
         text-align:left;
@@ -80,29 +77,15 @@
             }
         }
         .narrative-component {
-            .narrative-controls {
-                background: #fff;
-                border: 1px solid #ddd;
-                &:hover {
-                    background: #eee;
-                }
-                .icon {
-                    color: @foreground-color;
-                }
-            }
             .narrative-content {
-                background: @inverted-foreground-color;
-                color: @foreground-color;
-                h5 {
-                    color: @foreground-color;
+                background: @inverted-background-color;
+                color: @inverted-foreground-color;
+                h2 {
+                    color: @inverted-foreground-color;
                 }
             }
             .narrative-progress {
-                border: none;
-                background: rgba(0,0,0,0.2);
-                &.selected {
-                    background: @background-color;
-                }
+                border-color: @background-color;
             }
         }
         .accordion-component {
@@ -162,25 +145,20 @@
         .button {
             background: @inverted-foreground-color;
             color: @inverted-background-color;
-            &:hover {
-                background: #eee;
-            }
         }
     }
     &.summary {
-        background: #004f9f;
+        background: #222222;
         .block-inner {
             padding-bottom: 30px;
         }
         .footer-logo {
-	    display: none;
             @media all and (max-width:(@device-width-medium - 1px)) {
                 text-align: center;
                 margin-bottom: 40px;
             }
         }
         .social-buttons {
-	    display: none;
             text-align: right;
             .social {
                 margin-left: 10px;
