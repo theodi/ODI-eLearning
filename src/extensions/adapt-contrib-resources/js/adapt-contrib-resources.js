@@ -30,6 +30,12 @@ define(function(require) {
 		var resources = Adapt.course.get('_resources');
 	
 		// FIXEME: MAKE LEGACY COMPATIBLE BY DETECTING OBJECT OR ARRAY! 
+		if (resources instanceof Array) {
+		} else {
+			var out = [];
+			out.push(resources);
+			resources = out;
+		}
 
 		for (i=0;i<resources.length;i++) {
 			var courseResources = resources[i];
