@@ -1,0 +1,23 @@
+{
+  "name": "adapt-contrib-dynamic-narrative",
+  "version": "1.0.0",
+  "description": "An dynamic narrative component",
+  "main": "",
+  "scripts": {
+    "test": "./node_modules/.bin/karma start --single-run --browsers PhantomJS"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/davetaz/adapt-contrib-dynamic-narrative.git"
+  },
+  "author": "AdaptLearning",
+  "license": "GPL v3",
+  "bugs": {
+    "url": "https://github.com/davetaz/adapt-contrib-dynamic-narrative/issues"
+  },
+  "devDependencies": {
+    "karma": "~0.10",
+    "karma-mocha": "0.1.1",
+    "karma-expect": "1.1.0"
+  }
+}

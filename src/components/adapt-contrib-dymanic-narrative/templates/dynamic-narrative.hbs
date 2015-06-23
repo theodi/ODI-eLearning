@@ -1,0 +1,82 @@
+{{! Maintainers - Brian Quinn}}
+<div class="dynamic-narrative-inner component-inner">
+    {{> component this}}
+    <div class="dynamic-narrative-widget component-widget {{#if _hasNavigationInTextArea}}dynamic-narrative-text-controls{{/if}}">
+        
+        <div class="dynamic-narrative-strapline">
+            <div class="dynamic-narrative-strapline-header">
+                <div class="dynamic-narrative-strapline-header-inner clearfix">
+                    {{#each _items}}
+                    <div class="dynamic-narrative-strapline-title">
+                        <h5 class="dynamic-narrative-strapline-title-inner">
+                           {{{strapline}}} 
+                        </h5>
+                    </div>
+                    {{/each}}
+                </div>
+            </div>
+            <a href="#" class="dynamic-narrative-popup-open" tabindex="-1">
+                <div class="icon icon-plus"></div>
+            </a>
+        </div>
+        
+        <div class="dynamic-narrative-slide-container">
+  
+            <a href="#" class="dynamic-narrative-controls dynamic-narrative-control-left">
+                <div class="icon icon-controls-left"></div>
+            </a>
+            <a href="#" class="dynamic-narrative-controls dynamic-narrative-control-right">
+                <div class="icon icon-controls-right"></div>
+            </a>
+            
+            <div class="dynamic-narrative-slider clearfix">
+                {{#each _items}}
+                <div class="dynamic-narrative-slider-graphic {{#if visited}}visited{{/if}}">
+		    {{#if _graphic.src}}
+                    <img src="{{_graphic.src}}" alt="{{_graphic.alt}}" title="{{{_graphic.title}}}"/>
+                    {{/if}}
+		    {{#if _iframe.src}}
+		   	<iframe scrolling="no" class="responsiveIframe-iframe" src="{{_iframe.src}}" style="width: 100%; height: 400px;"></iframe>
+		    {{/if}}
+		</div>
+                {{/each}}
+            </div>
+            <div class="dynamic-narrative-indicators">
+                {{#each _items}}
+                <div class="dynamic-narrative-progress component-item-color component-item-border"></div>
+                {{/each}}
+            </div>
+        </div>
+
+        <div class="dynamic-narrative-content">
+            <div class="dynamic-narrative-content-inner">
+                <a href="#" class="dynamic-narrative-controls dynamic-narrative-control-left">
+                    <div class="icon icon-controls-left"></div>
+                </a>
+                <div class="dynamic-narrative-indicators">
+                    {{#each _items}}
+                    <div class="dynamic-narrative-progress component-item-color component-item-border"></div>
+                    {{/each}}
+                </div>
+                <a href="#" class="dynamic-narrative-controls dynamic-narrative-control-right">
+                    <div class="icon icon-controls-right"></div>
+                </a>
+                {{#each _items}}
+                <div class="dynamic-narrative-content-item">
+                    <div class="dynamic-narrative-content-title">
+                        <h5 class="dynamic-narrative-content-title-inner">
+                           {{{title}}} 
+                        </h5>
+                    </div>
+                    <div class="dynamic-narrative-content-body">
+                        <div class="dynamic-narrative-content-body-inner">
+                            {{{body}}}
+                        </div> 
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+        </div>
+
+    </div>    
+</div>
