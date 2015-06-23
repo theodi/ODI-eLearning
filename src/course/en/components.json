@@ -4,7 +4,7 @@
         "_parentId":"b-01",
         "_type":"component",
         "_component":"graphic",
-        "_classes":"",
+        "_classes":"intro-logo",
         "_layout":"right",
         "title":"",
         "displayTitle":"",
@@ -13,9 +13,9 @@
         "_graphic": {
             "alt": "",
             "title": "",
-            "large": "course/en/images/odi.png",
-            "medium": "course/en/images/odi.png",
-            "small": "course/en/images/odi.png"
+            "large": "",
+            "medium": "",
+            "small": ""
         }
     },
     {
@@ -92,7 +92,7 @@
         "_classes": "",
         "_type":"component",
         "_layout": "full",
-        "_component": "narrative",
+        "_component": "dynamic-narrative",
         "title": "Unlocking the value in open data",
         "displayTitle": "Unlocking the value in open data",
         "body": "Licensing gives permission to businesses, startups, governments or other organisations to innovate with open data.",
@@ -114,13 +114,10 @@
             {
                 "title": "Providing clarity",
                 "body": "<p>Only 20% (approximately) of open data providers across the European Union are truly open licensed (as of 2015).</p><p>In the EU, copyright and database laws are complex. While data might be intended to be open, a licence provides legal clarity for users.</p><p>The OpenDataMonitor platform provides information and statistics on European open data catalogues.<br /><a href='http://www.opendatamonitor.eu/frontend/web/index.php?r=datacatalogue%2Findex' target='_blank'>Take me to the OpenDataMonitor platform</a></p>",
-                "_graphic": {
-                    "src": "course/en/images/odi-3.jpg",
+		"_iframe": {
+                    "src": "course/en/dynamic/graph1.html",
                     "alt": "A graph of open licences across countries",
-                    "title": "A graph of open licences across countries",
-                    "*source":"http://www.www.opendatamonitor.eu/index.php?r=datacatalogue%2Flicenses#",
-                    "*credit":"Open Data Monitor",
-                    "*License":"(CC BY 4.0)"
+                    "title": "A graph of open licences across countries"
                 },
                 "strapline": "Providing clarity"
             },
