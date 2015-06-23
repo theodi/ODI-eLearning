@@ -1,6 +1,6 @@
 #!/bin/bash
 # Syntax ./bin/build-eu-nav en
-OUTPATH=modules/
+OUTPATH=modules/eu/
 echo "retriving navigation branch"
 echo ""
 git --git-dir=.module checkout navigation
