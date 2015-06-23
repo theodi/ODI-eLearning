@@ -7,4 +7,4 @@ rm -fR build
 grunt build
 `mkdir $OUTPATH/$2/`
 `rm -fR $OUTPATH/$2/$1`
-`mv build $OUTPATH/$2/$1`
+`cp -r build $OUTPATH/$2/$1`
