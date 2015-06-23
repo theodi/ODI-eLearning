@@ -1,15 +1,41 @@
 #!/bin/bash
-# Syntax ./bin/build-odi module1 en
-OUTPATH=modules/eu/
+# Syntax ./bin/build-eu-nav en
+OUTPATH=modules/
+echo "retriving navigation branch"
+echo ""
 git --git-dir=.module checkout navigation
+#git --git-dir=.module pull
+
+echo "Backing up languages"
+rm -fR tmp
+mkdir tmp
+echo ""
+`cp -r src/course/* tmp/`
+echo "Selecting language"
+echo ""
+`rm -fR src/course/*`
+`cp -r tmp/$1 src/course/`
+`cp src/course/$1/config.json src/course/`
+echo "Updating image path"
+echo ""
+sed -i -e "s/course\/en\/images/course\/$1\/images/g" src/theme/adapt-contrib-vanilla/less/header.less
 cp src/theme/adapt-contrib-vanilla/less/theme.less src/theme/adapt-eu-theme/less/
 cp src/theme/adapt-contrib-vanilla/less/custom.less src/theme/adapt-eu-theme/less/
-#git --git-dir=.module pull
+
+echo "Building navigation"
+echo ""
 rm -fR build
 grunt build --theme=adapt-eu-theme
-`rm -fR $OUTPATH/adapt`
-`rm -fR $OUTPATH/assets`
-`rm -fR $OUTPATH/course`
-`rm -fR $OUTPATH/index.html`
-`rm -fR $OUTPATH/libraries`
-`cp -r build/* $OUTPATH/`
+
+echo "Restoring structure";
+`rm -fR src/course/*`
+`mv tmp/* src/course/`
+sed -i -e "s/course\/$1\/images/course\/en\/images/g" src/theme/adapt-contrib-vanilla/less/header.less
+
+echo "Moving items into place"
+`rm -fR $OUTPATH/$1/adapt`
+`rm -fR $OUTPATH/$1/assets`
+`rm -fR $OUTPATH/$1/course`
+`rm -fR $OUTPATH/$1/libraries`
+`rm -f $OUTPATH/$1/*`
+`cp -r build/* $OUTPATH/$1`
