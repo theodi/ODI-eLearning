@@ -4,6 +4,7 @@
 	$array = json_decode($contents,true);
 	$graphics = [];
 	
+
 	for ($i=0;$i<count($array);$i++) {
 		$object = $array[$i];
 		parseObject($object);
