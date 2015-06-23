@@ -1,6 +1,6 @@
 #!/bin/bash
 # USAGE ./build-eu-all en
-OUTPATH=/home/davetaz/public_html/learn/
+OUTPATH=/home/davetaz/public_html/learn/eu/
 for i in `seq 1 13`;
 do
 	git --git-dir=.module checkout module$i-$1
