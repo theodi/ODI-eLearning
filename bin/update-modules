@@ -1,0 +1,8 @@
+#!/bin/bash
+# USAGE ./update-modules
+for i in `seq 1 13`;
+do
+	cp .gitignore_module .gitignore
+	git --git-dir=.module checkout module$i
+	git --git-dir=.module pull
+done
