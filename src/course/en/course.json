@@ -12,6 +12,24 @@
     "_latestTrackingId": 11,
     "_resources": [
     {
+        "title": "Resources",
+        "description": "Click here to view resources for this course",
+        "_filterButtons": {
+            "all": "All",
+            "document": "PDF",
+            "media": "Media",
+            "link": "Link"
+        },
+        "_resourcesItems": [
+            {
+                "_type": "link",
+                "title": "David Eaves article",
+                "description": "Take me to David Eaves article",
+                "_link": "http://eaves.ca/2010/04/14/case-study-open-data-and-the-public-purse/"
+            }
+        ]
+    },
+    {
         "title": "Modules",
         "description": "Switch to another module",
         "_filterButtons": {
@@ -108,24 +126,6 @@
         ]
     },
     {
-        "title": "Resources",
-        "description": "Click here to view resources for this course",
-        "_filterButtons": {
-            "all": "All",
-            "document": "PDF",
-            "media": "Media",
-            "link": "Link"
-        },
-        "_resourcesItems": [
-            {
-                "_type": "link",
-                "title": "David Eaves article",
-                "description": "Take me to David Eaves article",
-                "_link": "http://eaves.ca/2010/04/14/case-study-open-data-and-the-public-purse/"
-            }
-        ]
-    },
-    {
         "title": "Image credits",
         "description": "Click here to view image credits for this module",
         "_filterButtons": {
@@ -137,9 +137,9 @@
         "_resourcesItems": [
             {
                 "_type": "link",
-                "title": "Open data platforms",
-                "description": "Source: Flickr<br/>Credit: Miguel Virkkunen Carvalho<br/>Licence: CC-BY 2.0",
-                "_link": "https://www.flickr.com/photos/miguelvirkkunen/6371937913"
+                "title": "Placeholder",
+                "description": "placeholder",
+                "_link": ""
             }	
 	]
     },
@@ -185,5 +185,5 @@
 	    }
 	]
     }
-    ]
+]
 }
