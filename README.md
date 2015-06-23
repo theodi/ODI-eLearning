@@ -48,6 +48,13 @@ You MUST now only modify the master branch with the `gitmaster` command rather t
 
 The modules branch can be modified using the `gitmodule` command, e.g. `gitmodule checkout module2`
 
+## Pushing changes
+
+It is HIGHLY advised that changes to branches be push individually to each branch and not all at the same time.
+
+* gitmaster push -u origin master
+* gitmodule push -u origin moduleX
+
 # Build scripts
 
 The build scripts will build individidual modules or all modules into the modules directory.
