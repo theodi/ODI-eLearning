@@ -1,6 +1,7 @@
 #!/bin/bash
-OUTPATH=/home/davetaz/public_html/learn/
-git --git-dir=.module checkout $1-$2
+# Syntax ./bin/build-odi module1 en
+OUTPATH=modules/
+git --git-dir=.module checkout $1
 #git --git-dir=.module pull
 rm -fR build
 grunt build

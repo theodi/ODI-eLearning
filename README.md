@@ -30,10 +30,69 @@ This means that you need two Git trackers in the same directory
 12. mv ../ODI-modules/src/course src
 13. mv ../ODI-modules/src/theme/adapt-contrib-vanilla/less/\* src/theme/adapt-contrib-vanilla/less/
 
-## Add shorcut git commands (Linux)
-14. cat "alias gitmodule='cp .gitignore_module .gitignore && git --git-dir=.module'" >> ~/.bashrc
-15. cat "alias gitmaster='cp .gitignore_master .gitignore && git --git-dir=.master'" >> ~/.bashrc
+## Add shortcut git commands (Linux)
+14. echo "alias gitmodule='cp .gitignore_module .gitignore && git --git-dir=.module'" >> ~/.bashrc
+15. echo "alias gitmaster='cp .gitignore_master .gitignore && git --git-dir=.master'" >> ~/.bashrc
+16. bash
 
-## Add shorcut git commands (OS X)
-14. cat "alias gitmodule='cp .gitignore_module .gitignore && git --git-dir=.module'" >> ~/.bash_profile
-15. cat "alias gitmaster='cp .gitignore_master .gitignore && git --git-dir=.master'" >> ~/.bash_profile
+## Add shortcut git commands (OS X)
+14. echo "alias gitmodule='cp .gitignore_module .gitignore && git --git-dir=.module'" >> ~/.bash_profile
+15. echo "alias gitmaster='cp .gitignore_master .gitignore && git --git-dir=.master'" >> ~/.bash_profile
+16. bash
+
+## Using
+
+You MUST be in the top level directory of the repository to execute any git commands now! 
+
+You MUST now only modify the master branch with the `gitmaster` command rather than git, e.g. `gitmaster status`
+
+The modules branch can be modified using the `gitmodule` command, e.g. `gitmodule checkout module2`
+
+# Build scripts
+
+The build scripts will build individidual modules or all modules into the modules directory.
+
+Note that you must be in the top level directory of the repository in order to build any modules.
+
+## Building individual modules
+
+While this can still be done with the `grunt build` command it is recommended that the build scripts are used.
+
+### Build odi style module
+
+* ./bin/build-odi module1 en
+
+Change the module number and language for different languages
+
+### Build eu style module
+
+* ./bin/build-eu module1 en
+
+Change the module number and language for different languages
+
+## Building all 13 modules
+
+WARNING: You must be up to date and have commited all changes before attempting to build all modules!
+
+### Building all modules in ODI style
+
+* ./bin/build-odi-all en
+
+Change the language for different language builds
+
+### Building all modules in EU style
+
+* ./bin/build-eu-all en
+
+Change the language for different language builds
+
+## Viewing and exporting modules
+
+All modules are built into the modules/ dirctory. 
+
+At the top level is the ODI build with the different languages.
+
+There is also an eu directory for the eu-theme modules. 
+
+Each module can be compressed as a scorm package or be used natively using browser local storage to track progress. 
+
