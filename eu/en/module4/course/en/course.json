@@ -1,0 +1,79 @@
+{
+    "_id": "course",
+    "_type": "course",
+    "title": "Simplifying open data licences",
+    "displayTitle": "Simplifying open data licences",
+    "_buttons": {
+        "submit": "Submit",
+        "reset": "Reset",
+        "showCorrectAnswer": "Model Answer",
+        "hideCorrectAnswer": "My Answer"
+    },
+    "_latestTrackingId": 11,
+    "_resources": {
+        "title": "Resources",
+        "description": "Click here to view resources for this course",
+        "_filterButtons": {
+            "all": "All",
+            "document": "PDF",
+            "media": "Media",
+            "link": "Link"
+        },
+        "_resourcesItems": [
+            {
+                "_type": "link",
+                "title": "OpenDataMonitor platform",
+                "description": "Take me to the OpenDataMonitor platform",
+                "_link": "http://www.opendatamonitor.eu/frontend/web/index.php?r=datacatalogue%2Findex"
+            },
+            {
+                "_type": "link",
+                "title": "Transport for London",
+                "description": "Take me to Transport for London",
+                "_link": "http://www.tfl.gov.uk/"
+            },
+            {
+                "_type": "link",
+                "title": "Public Domain licence",
+                "description": "Take me to the Public Domain licence",
+                "_link": "https://creativecommons.org/publicdomain/zero/1.0/"
+            },
+            {
+                "_type": "link",
+                "title": "Attribution licence",
+                "description": "Take me to the Attribution licence",
+                "_link": "https://creativecommons.org/licenses/by/4.0/"
+            },
+            {
+                "_type": "link",
+                "title": "Attribution & share-alike licence",
+                "description": "Take me to the Attribution & share-alike licence",
+                "_link": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            {
+                "_type": "link",
+                "title": "Create your own Creative Commons license",
+                "description": "Take me to the Creative Commons license",
+                "_link": "https://creativecommons.org/choose/"
+            },
+            {
+                "_type": "link",
+                "title": "UK Government open license",
+                "description": "Take me to the UK Government open license",
+                "_link": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+            },
+            {
+                "_type": "link",
+                "title": "Data.gov.uk",
+                "description": "Take me to Data.gov.uk",
+                "_link": "http://data.gov.uk/dataset/financial-transactions-data-fco"
+            },
+            {
+                "_type": "link",
+                "title": "Data.gov.sg",
+                "description": "Take me to data.gov.sg",
+                "_link": "http://data.gov.sg/Metadata/OneMapMetadata.aspx?id=DENGUE_CLUSTER&t=SPATIAL"
+            }
+        ]
+    }
+}

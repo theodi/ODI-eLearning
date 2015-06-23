@@ -1,0 +1,97 @@
+{
+    "_id": "course",
+    "_type": "course",
+    "title": "Unlocking value from open data",
+    "displayTitle": "Unlocking value from open data",
+    "_buttons": {
+        "submit": "Submit",
+        "reset": "Reset",
+        "showCorrectAnswer": "Model Answer",
+        "hideCorrectAnswer": "My Answer"
+    },
+    "_latestTrackingId": 11,
+    "_resources": {
+        "title": "Resources",
+        "description": "Click here to view resources for this course",
+        "_filterButtons": {
+            "all": "All",
+            "document": "PDF",
+            "media": "Media",
+            "link": "Link"
+        },
+        "_resourcesItems": [
+            {
+                "_type": "link",
+                "title": "MySociety ",
+                "description": "Take me to mySociety ",
+                "_link": "https://www.mysociety.org/"
+            },
+            {
+                "_type": "link",
+                "title": "Fix my street ",
+                "description": "Take me to Fix my street ",
+                "_link": "https://www.fixmystreet.com/"
+            },
+            {
+                "_type": "link",
+                "title": "They work for you",
+                "description": "Take me to They work for you",
+                "_link": "http://www.theyworkforyou.com/"
+            },
+            {
+                "_type": "link",
+                "title": "London fire station analysis",
+                "description": "Take me to London fire station analysis",
+                "_link": "http://london-fire.labs.theodi.org/"
+            },
+            {
+                "_type": "link",
+                "title": "France energy data",
+                "description": "Take me to the France energy data",
+                "_link": "https://www.quandl.com/collections/france/france-energy-data"
+            },
+            {
+                "_type": "link",
+                "title": "BBC news article",
+                "description": "Take me to the BBC news article",
+                "_link": "http://www.bbc.co.uk/news/uk-29317630"
+            },
+            {
+                "_type": "link",
+                "title": "OpenCorporates",
+                "description": "Take me to OpenCorporates",
+                "_link": "https://opencorporates.com/info/about"
+            },
+            {
+                "_type": "link",
+                "title": "Plantwise",
+                "description": "Take me to Plantwise",
+                "_link": "https://www.plantwise.org/css/error.html"
+            },
+            {
+                "_type": "link",
+                "title": "CIARD",
+                "description": "Take me to CIARD",
+                "_link": "http://www.ciard.net/"
+            },
+            {
+                "_type": "link",
+                "title": "Haiti Open Street Map",
+                "description": "Take me to the Haiti Open Street Map",
+                "_link": "http://hotosm.org/projects/haiti-2"
+            },
+            {
+                "_type": "link",
+                "title": "OpenGLAM",
+                "description": "Take me to OpenGLAM",
+                "_link": "http://openglam.org/"
+            },
+            {
+                "_type": "link",
+                "title": "ODI Data as Culture",
+                "description": "Take me to ODI Data as Culture",
+                "_link": "http://theodi.org/culture"
+            }
+        ]
+    }
+}
