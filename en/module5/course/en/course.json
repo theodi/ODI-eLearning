@@ -1,0 +1,37 @@
+{
+    "_id": "course",
+    "_type": "course",
+    "title": "Assessing open data quality",
+    "displayTitle": "Assessing open data quality",
+    "_buttons": {
+        "submit": "Submit",
+        "reset": "Reset",
+        "showCorrectAnswer": "Model Answer",
+        "hideCorrectAnswer": "My Answer"
+    },
+    "_latestTrackingId": 11,
+    "_resources": {
+        "title": "Resources",
+        "description": "Click here to view resources for this course",
+        "_filterButtons": {
+            "all": "All",
+            "document": "PDF",
+            "media": "Media",
+            "link": "Link"
+        },
+        "_resourcesItems": [
+            {
+                "_type": "link",
+                "title": "Open Data Institutes Certificates site",
+                "description": "Take me to the Open Data Institutes Certificates site",
+                "_link": "https://certificates.theodi.org/"
+            },
+            {
+                "_type": "link",
+                "title": "Raspberry-Pi",
+                "description": "Take me to Raspberry-Pi",
+                "_link": "https://www.raspberrypi.org/"
+            }
+        ]
+    }
+}
