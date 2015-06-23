@@ -1,0 +1,15 @@
+#!/bin/bash
+# Syntax ./bin/build-odi module1 en
+OUTPATH=modules/eu/
+git --git-dir=.module checkout navigation
+cp src/theme/adapt-contrib-vanilla/less/theme.less src/theme/adapt-eu-theme/less/
+cp src/theme/adapt-contrib-vanilla/less/custom.less src/theme/adapt-eu-theme/less/
+#git --git-dir=.module pull
+rm -fR build
+grunt build --theme=adapt-eu-theme
+`rm -fR $OUTPATH/adapt`
+`rm -fR $OUTPATH/assets`
+`rm -fR $OUTPATH/course`
+`rm -fR $OUTPATH/index.html`
+`rm -fR $OUTPATH/libraries`
+`cp -r build/* $OUTPATH/`

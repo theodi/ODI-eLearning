@@ -1,0 +1,13 @@
+#!/bin/bash
+# Syntax ./bin/build-odi module1 en
+OUTPATH=modules/
+git --git-dir=.module checkout navigation
+#git --git-dir=.module pull
+rm -fR build
+grunt build
+`rm -fR $OUTPATH/adapt`
+`rm -fR $OUTPATH/assets`
+`rm -fR $OUTPATH/course`
+`rm -fR $OUTPATH/index.html`
+`rm -fR $OUTPATH/libraries`
+`cp -r build/* $OUTPATH/`
