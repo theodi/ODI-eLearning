@@ -36,6 +36,9 @@
 			if (strpos($graphic["*source"],"theodi") > 0) {
 				$source = "The Open Data Institute";
 			}
+			if (strpos($graphic["*source"],"data.gov.uk") > 0) {
+				$source = "data.gov.uk";
+			}
 			$out["description"] = "Source: " . $source . "<br/>Credit: " . $graphic["*credit"] . "<br/>Licence: " . $graphic["*license"];
 			$out["_link"] = $graphic["*source"];
 			$graphics[] = $out;
