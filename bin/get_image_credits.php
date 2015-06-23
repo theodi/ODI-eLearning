@@ -39,6 +39,9 @@
 			if (strpos($graphic["*source"],"data.gov.uk") > 0) {
 				$source = "data.gov.uk";
 			}
+			if (strpos($graphic["*source"],"data.gov.sg") > 0) {
+				$source = "data.gov.sg";
+			}
 			$out["description"] = "Source: " . $source . "<br/>Credit: " . $graphic["*credit"] . "<br/>Licence: " . $graphic["*license"];
 			$out["_link"] = $graphic["*source"];
 			$graphics[] = $out;
