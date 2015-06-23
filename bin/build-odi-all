@@ -1,13 +1,6 @@
 #!/bin/bash
 # USAGE ./build-odi-all en
-OUTPATH=modules/
 for i in `seq 1 13`;
 do
-	git --git-dir=.module checkout module$i
-	#git --git-dir=.module pull
-	rm -fR build
-	grunt build
-	`mkdir $OUTPATH/$1/`
-	`rm -fR $OUTPATH/$1/module$i`
-	`mv build $OUTPATH/$1/module$i`
+	./bin/build-odi module$i $1
 done
