@@ -15,7 +15,10 @@
             "title": "",
             "large": "",
             "medium": "",
-            "small": ""
+            "small": "",
+            "*source":"",
+            "*credit":"",
+            "*license":""
         }
     },
     {
@@ -73,8 +76,11 @@
                 "body": "<p>The most usable format for data is likely to be the source format (e.g. Excel).While Excel is just one of many spreadsheet formats, its popularity can make publishing in others (like OpenDocument Spreadsheet) a barrier to use.</p><p>Excel also comes with additional content, like styling on tables and graphs of data. These all help to give context to a human who is trying to understand the data.</p>",
                 "_graphic": {
                     "src": "course/en/images/odi-001.jpg",
-                    "alt": "Lorem ipsum",
-                    "title": "Lorem ipsum"
+                    "alt": "Usability",
+                    "title": "Usability",
+                    "*source":"http://www.shutterstock.com/pic.mhtml?id=234298726&src=id",
+                    "*credit":"Sentavio",
+                    "*license":"Shutterstock standard license"
                 },
                 "strapline": "Usability"
             },
@@ -83,8 +89,11 @@
                 "body": "<p>For some publishers, open data is now the main source for their data, even internally. Such strategies have many benefits:</p><ul><li>Increases knowledge of team on open data</li><li>Increases sustainability and trust of data</li><li>Creates clear innovation pathway</li></ul><p>Such examples include TfL with the transport data and the University of Southampton with its catering data.</p>",
                 "_graphic": {
                     "src": "course/en/images/odi-002.jpg",
-                    "alt": "Lorem ipsum",
-                    "title": "Lorem ipsum"
+                    "alt": "Management",
+                    "title": "Management",
+                    "*source":"http://www.shutterstock.com/pic.mhtml?id=254601265&src=id",
+                    "*credit":"Meilun",
+                    "*license":"Shutterstock standard license"
                 },
                 "strapline": "Management"
             },
@@ -93,8 +102,11 @@
                 "body": "<p>For open data to be accessible to everyone requires:</p><ul><li>An understandable format</li><li>A machine readable format</li><li>The highest reusable format</li><li>A format that doesn’t require expensive proprietary tools to access</li></ul><p>The format appropriate for each each may be different. A document (like a PDF) may make the data understandable, an excel file the most reusable and a CSV file the most accessible.</p>",
                 "_graphic": {
                     "src": "course/en/images/odi-003.jpg",
-                    "alt": "Lorem ipsum",
-                    "title": "Lorem ipsum"
+                    "alt": "Access",
+                    "title": "Access",
+                    "*source":"http://www.shutterstock.com/pic.mhtml?id=238197199&src=id",
+                    "*credit":"Brian Senic",
+                    "*license":"Shutterstock standard license"
                 },
                 "strapline": "Access"
             }
@@ -121,8 +133,11 @@
           "body": "<p>The most common structure is tabular. Here data is organised into rows and columns listing sequential values, such as expenditure.</p><p>If the data is record based the relationships between records are not important then tabular is an ideal structure. </p>",
           "_graphic": {
                     "src": "course/en/images/odi-004.jpg",
-                    "alt": "Lorem ipsum",
-                    "title": "Lorem ipsum"
+                    "alt": "Tabular",
+                    "title": "Tabular",
+                    "*source":"http://www.shutterstock.com/pic.mhtml?id=262874696&src=id",
+                    "*credit":"benjaminec",
+                    "*license":"Shutterstock standard license"
                 },
            "strapline": "Tabular"
         },
@@ -132,8 +147,11 @@
           "body": "<p>Hierarchical data shows the relationships between data points, such as a family tree or counties in each country. Here the relationships between data points is of critical importance, however such relationships can only exists as parent-child relationships in a hierarchical structure.</p>",
           "_graphic": {
                     "src": "course/en/images/odi-005.jpg",
-                    "alt": "Lorem ipsum",
-                    "title": "Lorem ipsum"
+                    "alt": "Hierarchical",
+                    "title": "Hierarchical",
+                    "*source":"http://www.shutterstock.com/pic.mhtml?id=103051607&src=id",
+                    "*credit":"tovovan",
+                    "*license":"Shutterstock standard license"
                 },
            "strapline": "Hierarchical"
         },
@@ -143,8 +161,11 @@
           "body": "<p>Network structured data allows relationships to exist between any combination of elements in any direction.</p><p>A good example of a network data structure are social networks. Think of your friends and their friends on facebook or 1st, 2nd and 3rd degree contacts on Linkedin.<p><p>The web itself is a network, where pages can link to any number of other pages in any direction.</p>",
           "_graphic": {
                     "src": "course/en/images/odi-006.jpg",
-                    "alt": "Lorem ipsum",
-                    "title": "Lorem ipsum"
+                    "alt": "Network",
+                    "title": "Network",
+                    "*source":"http://www.shutterstock.com/pic.mhtml?id=136115477&src=id",
+                    "*credit":"Ovchinnkov Vladimir",
+                    "*license":"Shutterstock standard license"
                 },
            "strapline": "Network"
         }
@@ -165,8 +186,11 @@
         "body":"",
         "instruction":"",
         "_graphic": {
-            "alt": "",
-            "title": "",
+            "alt": "Accessing right data format",
+            "title": "Accessing right data format",
+            "*source":"http://www.shutterstock.com/pic-199692071",
+            "*credit":"Ing. Andrej Kaprinay",
+            "*license":"Shutterstock standard license",
             "large": "course/en/images/odi-007.jpg",
             "medium": "course/en/images/odi-007.jpg",
             "small": "course/en/images/odi-007.jpg"
@@ -211,8 +235,11 @@
         "body":"",
         "instruction":"",
         "_graphic": {
-            "alt": "",
-            "title": "",
+            "alt": "CSV",
+            "title": "CSV",
+            "*source":"http://www.shutterstock.com/pic.mhtml?id=205002868&src=id",
+            "*credit":"Blan-k",
+            "*license":"Shutterstock standard license",
             "large": "course/en/images/odi-008.jpg",
             "medium": "course/en/images/odi-008.jpg",
             "small": "course/en/images/odi-008.jpg"
@@ -324,11 +351,14 @@
         "_classes":"",
         "_layout":"right",
         "_graphic": {
-            "alt": "",
+            "alt": "Usability",
             "title": "",
             "large": "course/en/images/odi-009.png",
             "medium": "course/en/images/odi-009.png",
-            "small": "course/en/images/odi-009.png"
+            "small": "course/en/images/odi-009.png",
+            "*source":"http://www.shutterstock.com/pic.mhtml?id=234298726&src=id",
+            "*credit":"Sentavio",
+            "*license":"Shutterstock standard license"
         }
     },
     {
@@ -389,11 +419,14 @@
         "_classes":"",
         "_layout":"left",
         "_graphic": {
-            "alt": "",
-            "title": "",
+            "alt": "Structure",
+            "title": "Structure",
             "large": "course/en/images/odi-9-1.png",
             "medium": "course/en/images/odi-9-1.png",
-            "small": "course/en/images/odi-9-1.png"
+            "small": "course/en/images/odi-9-1.png",
+            "*source":"http://businesscasestudies.co.uk/unison/developing-responsiveness-through-organisational-structure/job-roles-within-a-trade-union.html#axzz3eADPmy4F",
+            "*credit":"UNISON",
+            "*license":""
         }
     },
         {
@@ -454,11 +487,14 @@
         "_classes":"",
         "_layout":"right",
         "_graphic": {
-            "alt": "",
-            "title": "",
+            "alt": "Format image",
+            "title": "Format image",
             "large": "course/en/images/odi-010.jpg",
             "medium": "course/en/images/odi-010.jpg",
-            "small": "course/en/images/odi-010.jpg"
+            "small": "course/en/images/odi-010.jpg",
+            "*source":"http://www.shutterstock.com/pic.mhtml?id=205002868&src=id",
+            "*credit":"Blan-k",
+            "*license":"Shutterstock standard license",
         }
     },
     {
@@ -469,11 +505,14 @@
         "_classes":"",
         "_layout":"right",
         "_graphic": {
-            "alt": "",
-            "title": "",
+            "alt": "Summary icon clipboard",
+            "title": "Summary icon clipboard",
             "large": "course/en/images/summary-icon.png",
             "medium": "course/en/images/summary-icon.png",
-            "small": "course/en/images/summary-icon.png"
+            "small": "course/en/images/summary-icon.png",
+            "*source":"http://www.shutterstock.com/pic-189810137.html",
+            "*credit":"Kritchanut",
+            "*license":"Shutterstock Standard License"
         }
     },
     {
@@ -506,11 +545,14 @@
         "_classes":"footer-logo",
         "_layout":"left",
         "_graphic": {
-            "alt": "",
-            "title": "",
+            "alt": "Open data institute logo",
+            "title": "Open data institute logo",
             "large": "course/en/images/logo-small.png",
             "medium": "course/en/images/logo-small.png",
-            "small": "course/en/images/logo-small.png"
+            "small": "course/en/images/logo-small.png",
+            "*source":"http://theodi.org",
+            "*credit":"The Open Data Institute",
+            "*license":"All rights reserved"
         }
     },
     {
