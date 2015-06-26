@@ -15,7 +15,10 @@
             "title": "",
             "large": "",
             "medium": "",
-            "small": ""
+            "small": "",
+            "*source":"",
+            "*credit":"",
+            "*license":""
         }
     },
     {
@@ -65,11 +68,14 @@
         "_classes":"",
         "_layout":"right",
         "_graphic": {
-            "alt": "",
-            "title": "",
+            "alt": "Tip of the iceberg",
+            "title": "Tip of the iceberg",
             "large": "course/en/images/odi-001.jpg",
             "medium": "course/en/images/odi-001.jpg",
-            "small": "course/en/images/odi-001.jpg"
+            "small": "course/en/images/odi-001.jpg",
+            "*source": "http://www.shutterstock.com/pic-278213858.html",
+            "*credit": "Lightspring",
+            "*licence": "Shutterstock standard license"
         }
     },
     {
@@ -101,7 +107,10 @@
                 "_graphic": {
                     "src": "course/en/images/odi-002.jpg",
                     "alt": "Readiness",
-                    "title": "Readiness"
+                    "title": "Readiness",
+                    "*source": "http://www.shutterstock.com/pic-145267489",
+                    "*credit": "kentoh",
+                    "*licence": "Shutterstock standard license"
                 },
                 "strapline": "Readiness"
             },
@@ -111,7 +120,10 @@
                 "_graphic": {
                     "src": "course/en/images/odi-003.jpg",
                     "alt": "Implementation",
-                    "title": "Implementation"
+                    "title": "Implementation",
+                    "*source": "http://www.shutterstock.com/pic-144137602",
+                    "*credit": "David Arts",
+                    "*licence": "Shutterstock standard license"
                 },
                 "strapline": "Implementation"
             },
@@ -121,7 +133,10 @@
                 "_graphic": {
                     "src": "course/en/images/odi-004.jpg",
                     "alt": "Impact",
-                    "title": "Impact"
+                    "title": "Impact",
+                    "*source": "http://www.shutterstock.com/pic-79079872",
+                    "*credit": "Angela Waye",
+                    "*licence": "Shutterstock standard license"
                 },
                 "strapline": "Impact"
             }
@@ -138,11 +153,14 @@
         "_classes":"",
         "_layout":"right",
         "_graphic": {
-            "alt": "",
-            "title": "",
+            "alt": "Benefits of hidden data",
+            "title": "Benefits of hidden data",
             "large": "course/en/images/odi-005.jpg",
             "medium": "course/en/images/odi-005.jpg",
-            "small": "course/en/images/odi-005.jpg"
+            "small": "course/en/images/odi-005.jpg",
+            "*source": "http://www.shutterstock.com/pic-203736538",
+            "*credit": "Digital Storm",
+            "*licence": "Shutterstock standard license"
         }
     },
     {
@@ -198,8 +216,11 @@
                 "body": "<p>Some websites have been built with the ability to extract data simply by adding an extension to the address of the page you are on. For such websites, usually open data sites, adding the correct extension will trigger a download of that page in a data format as opposed to a browser format.</p><p>A good example of this is the UK government website.(gov.uk) which provides any page in a data format simply by adding the relevant extension like “.json”</p><p>Try it with the UK Trade data by viewing the following page and then adding “.json” to get the data.<br /><a href='https://www.gov.uk/trade-tariff/sections' target='_blank'>Take me to the UK gov trade tariff</a></p><p>To view the data in a more human readable form copy it into jsonlint.io</p>",
                 "_graphic": {
                     "src": "course/en/images/odi-006.jpg",
-                    "alt": "Process management",
-                    "title": "Process management"
+                    "alt": "Extensions",
+                    "title": "Extensions",
+                    "*source": "http://www.shutterstock.com/pic-119236978",
+                    "*credit": "spaxiax",
+                    "*licence": "Shutterstock standard license"
                 },
                 "strapline": "Process management"
             },
@@ -208,8 +229,11 @@
                 "body": "<p>Many websites provide you with links to data syndication feeds that can you can subscribe to.</p><p>These feeds may be as simple as RSS feeds that provide you with blog entries or more advanced ones that can provide you alerts for flooding via twitter.</p><p><br /><a href='http://www.bbc.co.uk/news/10628494' target='_blank'>Why not try out the news feeds from the BBC</a></p><p>(note that the feeds are not web pages and will look different in every browser. <br /><a href='http://codebeautify.org/xmlviewer' target='_blank'>Why not look at the data in codebeautify</a></p><p>or get alerts for flooding from your nearest river (UK only):<br /><a href='http://www.gaugemap.co.uk/' target='_blank'>Take me to river level guages</a></p>",
                 "_graphic": {
                     "src": "course/en/images/odi-007.jpg",
-                    "alt": "User focused",
-                    "title": "User focused"
+                    "alt": "Data feeds",
+                    "title": "Data feeds",
+                    "*source": "http://www.shutterstock.com/pic-72158482",
+                    "*credit": "Ing",
+                    "*licence": "Shutterstock standard license"
                 },
                 "strapline": "User focused"
             },
@@ -218,8 +242,11 @@
                 "body": "<p>Going beyond those websites that provide you with a simple route to the data many will have the data embedded in the pages source code.</p><p>This means that you can get access to the data by inspecting the pages code using your browser's ‘element inspector’.</p>,p>This slightly more advanced technique is not covered in this module but we hope to add a guide or tool to help in the future. </p>",
                 "_graphic": {
                     "src": "course/en/images/odi-008.jpg",
-                    "alt": "User focused",
-                    "title": "User focused"
+                    "alt": "Source code",
+                    "title": "Source code",
+                    "*source": "http://www.shutterstock.com/pic-119236978",
+                    "*credit": "spaxiax",
+                    "*licence": "Shutterstock standard license"
                 },
                 "strapline": "User focused"
             },
@@ -228,8 +255,11 @@
                 "body": "<p>Some websites or services will expose a machine readable interface, or API, for querying and accessing anything from a broad range of data to a single data point.</p><p>Some good examples of services that have such APIs include: Open Corporates (open), Open Steet Map (Open), Twitter (not completely open), Flickr (some content open), LinkedIn (not open).</p><p>Most of these services use a web based API and allow addition of extensions (try “.json” on OpenCorporates). Although this API looks like the first example in this section, the formalisation of it being an API provides a guarantee that the service will be available. </p>",
                 "_graphic": {
                     "src": "course/en/images/odi-009.jpg",
-                    "alt": "User focused",
-                    "title": "User focused"
+                    "alt": "APIs",
+                    "title": "APIs",
+                    "*source": "http://www.shutterstock.com/pic-231102415",
+                    "*credit": "Imagentle",
+                    "*licence": "Shutterstock standard license"
                 },
                 "strapline": "User focused"
             },
@@ -238,8 +268,11 @@
                 "body": "<p>If none of the above techniques work then you may have to resort to scraping the human readable web pages. While this can be reliable you have the added risk of the layout changing as well as the content.</p><p>Why not try out magic.import.io to see how easy it can be?</p>",
                 "_graphic": {
                     "src": "course/en/images/odi-010.jpg",
-                    "alt": "User focused",
-                    "title": "User focused"
+                    "alt": "Scraping the web",
+                    "title": "Scraping the web",
+                    "*source": "http://www.shutterstock.com/pic-231672367",
+                    "*credit": "McIek",
+                    "*licence": "Shutterstock standard license"
                 },
                 "strapline": "User focused"
             }
@@ -289,11 +322,14 @@
         "_classes":"illustration",
         "_layout":"right",
         "_graphic": {
-            "alt": "",
-            "title": "",
+            "alt": "Tip of the iceberg",
+            "title": "Tip of the iceberg",
             "large": "course/en/images/odi-011.jpg",
             "medium": "course/en/images/odi-011.jpg",
-            "small": "course/en/images/odi-011.jpg"
+            "small": "course/en/images/odi-011.jpg",
+            "*source": "http://www.shutterstock.com/pic-278213858.html",
+            "*credit": "Lightspring",
+            "*licence": "Shutterstock standard license"
         }
     },
     {
@@ -354,11 +390,14 @@
         "_classes":"illustration",
         "_layout":"left",
         "_graphic": {
-            "alt": "",
+            "alt": "Impact",
             "title": "",
             "large": "course/en/images/odi-012.jpg",
             "medium": "course/en/images/odi-012.jpg",
-            "small": "course/en/images/odi-012.jpg"
+            "small": "course/en/images/odi-012.jpg",
+            "*source": "http://www.shutterstock.com/pic-79079872",
+            "*credit": "Angela Waye",
+            "*licence": "Shutterstock standard license"
         }
     },
     {
@@ -419,11 +458,14 @@
         "_classes":"illustration",
         "_layout":"right",
         "_graphic": {
-            "alt": "",
+            "alt": "Benefits of hidden data",
             "title": "",
             "large": "course/en/images/odi-013.jpg",
             "medium": "course/en/images/odi-013.jpg",
-            "small": "course/en/images/odi-013.jpg"
+            "small": "course/en/images/odi-013.jpg",
+            "*source": "http://www.shutterstock.com/pic-203736538",
+            "*credit": "Digital Storm",
+            "*licence": "Shutterstock standard license"
         }
     },
     {
@@ -492,11 +534,14 @@
         "_classes":"illustration",
         "_layout":"right",
         "_graphic": {
-            "alt": "",
+            "alt": "Source code",
             "title": "",
             "large": "course/en/images/odi-014.jpg",
             "medium": "course/en/images/odi-014.jpg",
-            "small": "course/en/images/odi-014.jpg"
+            "small": "course/en/images/odi-014.jpg",
+            "*source": "http://www.shutterstock.com/pic-119236978",
+            "*credit": "spaxiax",
+            "*licence": "Shutterstock standard license"
         }
     },
     {
@@ -557,11 +602,14 @@
         "_classes":"",
         "_layout":"right",
         "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "course/en/images/odi-footer.png",
-            "medium": "course/en/images/odi-footer.png",
-            "small": "course/en/images/odi-footer.png"
+            "alt": "Summary icon clipboard",
+            "title": "Summary icon clipboard",
+            "large": "course/en/images/summary-icon.png",
+            "medium": "course/en/images/summary-icon.png",
+            "small": "course/en/images/summary-icon.png",
+            "*source":"http://www.shutterstock.com/pic-189810137.html",
+            "*credit":"Kritchanut",
+            "*license":"Shutterstock Standard License"
         }
     },
     {
@@ -594,11 +642,14 @@
         "_classes":"footer-logo",
         "_layout":"left",
         "_graphic": {
-            "alt": "",
-            "title": "",
+             "alt": "Open data institute logo",
+            "title": "Open data institute logo",
             "large": "course/en/images/logo-small.png",
             "medium": "course/en/images/logo-small.png",
-            "small": "course/en/images/logo-small.png"
+            "small": "course/en/images/logo-small.png",
+            "*source":"http://theodi.org",
+            "*credit":"The Open Data Institute",
+            "*license":"All rights reserved"
         }
     },
     {
