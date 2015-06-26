@@ -15,7 +15,10 @@
             "title": "",
             "large": "",
             "medium": "",
-            "small": ""
+            "small": "",
+            "*source": "",
+            "*credit": "",
+            "*licence": ""
         }
     },
     {
@@ -64,11 +67,14 @@
         "_classes":"",
         "_layout":"left",
         "_graphic": {
-            "alt": "",
-            "title": "",
+            "alt": "What do we mean by clean data?",
+            "title": "What do we mean by clean data?",
             "large": "course/en/images/odi-001.jpg",
             "medium": "course/en/images/odi-001.jpg",
-            "small": "course/en/images/odi-001.jpg"
+            "small": "course/en/images/odi-001.jpg",
+            "*source": "http://www.shutterstock.com/pic-246719938",
+            "*credit": "Sashkin",
+            "*licence": "Shutterstock standard license"
         }
     },
     {
@@ -79,7 +85,7 @@
         "_classes":"inverted",
         "_layout":"right",
         "title":"What do we mean by clean open data?",
-        "displayTitle":"Data2diamonds: what do we mean by clean open data?",
+        "displayTitle":"Turning data to diamonds: what do we mean by clean open data?",
         "body":"Clean data has been processed in order to best suit the intended usage. There are many stages to data preparation and cleaning is one of the most essential.<br><br>Clean data should be consistent, free from duplication and ready for machine consumption.<br><br>With clean data, it is much easier to combine with other data to reveal insight."
         },
      {
@@ -90,11 +96,14 @@
         "_classes":"",
         "_layout":"right",
         "_graphic": {
-            "alt": "",
-            "title": "",
+            "alt": "Common errors in data",
+            "title": "Common errors in data",
             "large": "course/en/images/odi-002.jpg",
             "medium": "course/en/images/odi-002.jpg",
-            "small": "course/en/images/odi-002.jpg"
+            "small": "course/en/images/odi-002.jpg",
+            "*source": "http://www.shutterstock.com/pic-232737427",
+            "*credit": "Kirill_M",
+            "*licence": "Shutterstock standard license"
         }
     },
     {
@@ -167,7 +176,10 @@
                 "_graphic": {
                     "src": "course/en/images/odi-003.jpg",
                     "alt": "A toolkit",
-                    "title": "A toolkit"
+                    "title": "A toolkit",
+                    "*source": "http://www.shutterstock.com/pic-232737427",
+                    "*credit": "Kirill_M",
+                    "*licence": "Shutterstock standard license"
                 },
                 "strapline": "The data cleaning toolkit"
             },
@@ -176,8 +188,11 @@
                 "body": "Open Refine is a powerful software tool designed specifically to deal with messy data. It is a column-based browser that applies facets to the data in order to cleaning fix errors across the entire dataset including:</h5><ul class='bullet'><li>Date formats</li><li>Multiple representations</li><li>Duplicate records</li><li>Redundant data</li><li>Broken numerical scales</li><li>Mixed ranges</li></ul>",
                 "_graphic": {
                     "src": "course/en/images/odi-004.jpg",
-                    "alt": "A diamond",
-                    "title": "A diamond"
+                    "alt": "Open refine",
+                    "title": "open refine",
+                    "*source": "http://openrefine.org/",
+                    "*credit": "OpenRefine",
+                    "*licence": "CC3.0-BY-SA"
                 },
                 "strapline": "Open Refine"
             },
@@ -187,7 +202,10 @@
                 "_graphic": {
                     "src": "course/en/images/odi-005.jpg",
                     "alt": "Spreadsheet",
-                    "title": "Spreadsheet"
+                    "title": "Spreadsheet",
+                    "*source": "http://www.shutterstock.com/pic-224184241",
+                    "*credit": "McIek",
+                    "*licence": "Shutterstock Standard License"
                 },
                 "strapline": "Wide reuse"
             }
@@ -213,8 +231,11 @@
                 "body": "If data is not clean then any decisions made could be wrong. This could have a significant impact upon thousands or millions of people's lives.<br><br>It has been found that overall the process of preparing data for analysis can take anywhere between 60 and 80% of the time of a data driven project.<br><br>So make sure you take care with your data to ensure it is clean and ready for use.",
                 "_graphic": {
                     "src": "course/en/images/odi-006.jpg",
-                    "alt": "Lorem ipsum",
-                    "title": "Lorem ipsum"
+                    "alt": "Prioritise cleaning",
+                    "title": "Prioritise cleaning",
+                    "*source": "http://www.shutterstock.com/pic.mhtml?id=58591429&src=lb-36497927",
+                    "*credit": "higyou",
+                    "*licence": "Shutterstock Standard License"
                 },
                 "strapline": "Prioritise cleaning"
             },
@@ -223,8 +244,11 @@
                 "body": "Sharing a clean dataset will enhance the usability of the data. Further tools like Open Refine allow the sharing of the change history, informing people what has been cleaned and how. Making the process open as well as the data adds to the sustainability and trust a user can put in a dataset.<br><br>Further there are data cleaning communities emerging which should be supported more actively. ",
                 "_graphic": {
                     "src": "course/en/images/odi-007.jpg",
-                    "alt": "Lorem ipsum",
-                    "title": "Lorem ipsum"
+                    "alt": "Prioritise cleaning",
+                    "title": "Prioritise cleaning",
+                    "*source": "http://www.shutterstock.com/pic-285210746",
+                    "*credit": "Horoscope",
+                    "*licence": "Shutterstock Standard License"
                 },
                 "strapline": "Enhance usability"
             },
@@ -233,8 +257,11 @@
                 "body": "Many data cleaning tools, including Open Refine, also provide the ability to combine and enrich datasets.<br><br>Without a clean dataset, this process will only make the dataset messier and introduce further errors.<br><br>Careful preparation is essential to the success of any data driven project.",
                 "_graphic": {
                     "src": "course/en/images/odi-008.jpg",
-                    "alt": "Lorem ipsum",
-                    "title": "Lorem ipsum"
+                    "alt": "Discover insights",
+                    "title": "Discover insights",
+                    "*source": "http://www.shutterstock.com/pic-214238155",
+                    "*credit": "Denis Vrublevski",
+                    "*licence": "Shutterstock Standard License"
                 },
                 "strapline": "Discover insights"
             }
@@ -251,11 +278,14 @@
         "_classes":"",
         "_layout":"right",
         "_graphic": {
-            "alt": "",
-            "title": "",
+            "alt": "Messy data",
+            "title": "Messy data",
             "large": "course/en/images/odi-009.jpg",
             "medium": "course/en/images/odi-009.jpg",
-            "small": "course/en/images/odi-009.jpg"
+            "small": "course/en/images/odi-009.jpg",
+            "*source": "http://www.shutterstock.com/pic.mhtml?id=58591429&src=lb-36497927",
+            "*credit": "higyou",
+            "*licence": "Shutterstock Standard License"
         }
     },
     {
@@ -316,11 +346,14 @@
         "_classes":"",
         "_layout":"left",
         "_graphic": {
-            "alt": "",
-            "title": "",
+            "alt": "Useful tools",
+            "title": "Useful tools",
             "large": "course/en/images/odi-010.jpg",
             "medium": "course/en/images/odi-010.jpg",
-            "small": "course/en/images/odi-010.jpg"
+            "small": "course/en/images/odi-010.jpg",
+            "*source": "http://www.shutterstock.com/pic-285210746",
+            "*credit": "Horoscope",
+            "*licence": "Shutterstock Standard License"
         }
     },
     {
@@ -381,11 +414,14 @@
         "_classes":"",
         "_layout":"right",
         "_graphic": {
-            "alt": "",
+            "alt": "A toolkit",
             "title": "",
             "large": "course/en/images/odi-011.jpg",
             "medium": "course/en/images/odi-011.jpg",
-            "small": "course/en/images/odi-011.jpg"
+            "small": "course/en/images/odi-011.jpg",
+            "*source": "http://www.shutterstock.com/pic-232737427",
+            "*credit": "Kirill_M",
+            "*licence": "Shutterstock standard license"
         }
     },
     {
@@ -454,11 +490,14 @@
         "_classes":"illustration",
         "_layout":"left",
         "_graphic": {
-            "alt": "",
+            "alt": "Common errors is data",
             "title": "",
             "large": "course/en/images/odi-012.jpg",
             "medium": "course/en/images/odi-012.jpg",
-            "small": "course/en/images/odi-012.jpg"
+            "small": "course/en/images/odi-012.jpg",
+            "*source": "http://www.shutterstock.com/pic-232737427",
+            "*credit": "Kirill_M",
+            "*licence": "Shutterstock standard license"
         }
     },
     {
@@ -519,11 +558,14 @@
         "_classes":"",
         "_layout":"right",
         "_graphic": {
-            "alt": "",
-            "title": "",
+            "alt": "Summary icon clipboard",
+            "title": "Summary icon clipboard",
             "large": "course/en/images/summary-icon.png",
             "medium": "course/en/images/summary-icon.png",
-            "small": "course/en/images/summary-icon.png"
+            "small": "course/en/images/summary-icon.png",
+            "*source":"http://www.shutterstock.com/pic-189810137.html",
+            "*credit":"Kritchanut",
+            "*license":"Shutterstock Standard License"
         }
     },
     {
@@ -556,11 +598,14 @@
         "_classes":"footer-logo",
         "_layout":"left",
         "_graphic": {
-            "alt": "",
-            "title": "",
+            "alt": "Open data institute logo",
+            "title": "Open data institute logo",
             "large": "course/en/images/logo-small.png",
             "medium": "course/en/images/logo-small.png",
-            "small": "course/en/images/logo-small.png"
+            "small": "course/en/images/logo-small.png",
+            "*source":"http://theodi.org",
+            "*credit":"The Open Data Institute",
+            "*license":"All rights reserved"
         }
     },
     {
