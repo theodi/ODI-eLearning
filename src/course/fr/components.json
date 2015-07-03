@@ -39,7 +39,7 @@
         "_id":"c-11",
         "_parentId":"b-10",
         "_type":"component",
-        "_component":"media",
+        "_component":"iFrame-vimeo",
         "_classes":"",
         "_layout":"full",
         "title":"Rendre l’open data durable - dans 2 minutes",
@@ -47,13 +47,16 @@
         "body": "Manager du programme de ‘start-up’ chez l’ODI, Ulrich Atz explique l’importance de la durabilité pour l’open data et pourquoi elle est importante pour les utilisateurs.  Il parle aussi de quelques indicateurs clés qu’une donnée ouverte est construite pour durer.",
         "instruction": "<em>Click to play the video</em>",
         "_setCompletionOn":"ended",
-        "_media": {
-            "mp4": "course/fr/video/sponge_placeholder.mp4",
-            "ogv": "course/fr/video/sponge_placeholder.ogv",
-            "poster": "course/fr/video/ulrich.png"
+        "_source": "https://player.vimeo.com/video/129879004",
+        "_width": {
+            "_small" : 300,
+            "_medium" : 500,
+            "_large" : 905
         },
-        "_pageLevelProgress": {
-            "_isEnabled": true
+        "_height": {
+            "_small" : 250,
+            "_medium" : 350,
+            "_large" : 508
         }
     },
        {
