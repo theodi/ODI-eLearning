@@ -25,9 +25,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"What is open data quality?",
-        "displayTitle":"What is open data quality?",
-        "body":"<p>Not all data on the web is instantly usable. Judging the usability is also not something that can be done quickly.</p><p>Thankfully there are a number of community based standards and quality marques that can help indicate the usability of data.</p><h5>In this module we’ll look at:</h5><ul class='ticks'><li>What makes data usable?</li><li>How standards help increase the usability of data</li><li>Marques of quality</li></ul>",
+        "title":"What makes quality open data?",
+        "displayTitle":"What makes quality open data?",
+        "body":"<p>Assessing how usable open data is is not something that can be done quickly.</p><p>There are a number of community-based standards and quality marques that can help you assess the usability of data.</p><h5>In this module we’ll look at:</h5><ul class='ticks'><li>What makes data usable?</li><li>How standards help increase the usability of data</li><li>Marques of quality</li></ul>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
@@ -42,7 +42,7 @@
     "_layout":"full",
         "title":"Assessing open data quality – in two minutes",
         "displayTitle": "Assessing open data quality – in two minutes",
-        "body": "The ODI’s David Tarrant explains what quality data is, how to recognise it and which quality marques should consumers of open data look for.",
+        "body": "ODI Trainer David Tarrant explains what quality data is, how to recognise it and which quality marques consumers of open data should look for.",
         "instruction": "",
         "_setCompletionOn":"ended",
         "_source": "https://player.vimeo.com/video/129197043",
@@ -84,7 +84,7 @@
         "_layout":"left",
         "title":"What is open data quality?",
         "displayTitle":"What is open data quality?",
-        "body":"<p>Open data becomes usable when a human can understand it and a machine can manipulate it.</p><p>Users of open data require the permission of the publisher, granted via an open licence. But the open licence alone is not sufficient to guarantee the usability of data.  Simply dumping a file on a website with an open licence does not constitute open data.</p><p>It is unlikely that users will be able to properly engage with unusable data to derive insights and demonstrate benefits.</p>"
+        "body":"<p>Open data becomes usable when a human can understand it and a machine can manipulate it.</p><p>Users of open data need the permission of its publisher, granted by an open licence. But the open licence alone is not enough to guarantee the usability of data.</p><p>It is unlikely that people will be able to engage with data to derive insights and demonstrate benefits unless it is useful.</p>"
     },
      {
         "_id": "c-25",
@@ -95,12 +95,12 @@
         "_component": "narrative",
         "title": "Community driven standards",
         "displayTitle": "Community driven standards",
-        "body": "Community driven standards define the legal, practical, technical and social requirements for an open dataset to be useful.",
+        "body": "Community-driven standards define the legal, practical, technical and social requirements for an open dataset to be useful.",
         "instruction": "<em class='desktop-instruction'>Click the forward arrow to see more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
         "_items": [
             {
-                "title": "Legal",
-                "body": "<p>In addition to the open licence, there are 3 legal requirements that need to be considered -</p><p><ul><li>Protect sensitive information like personal data</li><li>Preserve the rights of data owners</li><li>Promote correct use of the data</li></ul></p>",
+                "title": "Legal requirements",
+                "body": "<p>In addition to the open licence, there are 3 legal requirements that need to be considered. You must:</p><p><ul><li>Protect sensitive information like personal data</li><li>Preserve the rights of data owners</li><li>Promote correct use of the data</li></ul></p>",
                 "_graphic": {
                     "src": "course/en/images/odi-2.jpg",
                     "alt": "Legal",
@@ -112,8 +112,8 @@
                 "strapline": "Legal"
             },
             {
-                "title": "Practical",
-                "body": "<p>It is important that open data is clearly defined.</p><p>Among the these requirements is the need to -</p><p><ul><li>Define what the dataset is about</li><li>List the sources of the data</li><li>Give reference to where and how the data has been used already</li></ul></p>",
+                "title": "Practical requirements",
+                "body": "<p>It is important that open data is clearly defined as being open.</p><p>This means that open data publishers must:</p><p><ul><li>Define what the dataset is about</li><li>List the sources of the data</li><li>Give reference to where and how the data has been used already</li></ul></p>",
                 "_graphic": {
                     "src": "course/en/images/odi-3.jpg",
                     "alt": "Practical",
@@ -125,8 +125,8 @@
                 "strapline": "Practical"
             },
             {
-                "title": "Technical",
-                "body": "<p>There are 3 recommendations that define the technical aspects of open data.</p><p><ul><li>The format in which the data is published in</li><li>The structure of the data</li><li>The channels that exist through which the data is available</li></ul></p>",
+                "title": "Technical requirements",
+                "body": "<p>There are 3 recommendations that define the technical aspects of open data:</p><p><ul><li>The format in which the data is published</li><li>The structure of the data</li><li>The channels through which the data is available</li></ul></p>",
                 "_graphic": {
                     "src": "course/en/images/odi-4.jpg",
                     "alt": "Technical",
@@ -138,8 +138,8 @@
                 "strapline": "Technical"
             },
             {
-                "title": "Social",
-                "body": "<p>For data use to be healthy and sustainable it is important to have an engaged community of users. The best datasets have:</p><p><ul><li>Active support channels</li><li>Discussion groups and forums</li><li>Published how-to guides on working with the data</li></ul></p><p>This social aspect has defined the success of Raspberry-Pi, who took a user-centred approach by simplifying access to complex technologies. The same should be done for data.<br /><a href='https://www.raspberrypi.org/' target='_blank'>Take me to Raspberry-Pi</a></p>",
+                "title": "Social requirements",
+                "body": "<p>For data use to be sustainable, it is important to have an engaged community of users. The best datasets have:</p><p><ul><li>Active support channels</li><li>Discussion groups and forums</li><li>Published how-to guides on working with the data</li></ul></p>",
                 "_graphic": {
                     "src": "course/en/images/odi-5.jpg",
                     "alt": "Social",
@@ -182,18 +182,18 @@
       "_layout":"left",
       "title": "Marques of quality",
       "displayTitle": "Marques of quality",
-      "body": "<p>Marques of quality provide users with confidence and surety as to the overall quality and usability of open data.</p><p>There are 2 key indicators of open data quality -</p>",
+      "body": "<p>Marques of quality provide users with confidence about the quality and usability of open data.</p><p>There are 2 key indicators of open data quality:</p>",
       "instruction": "<em>Click the headings to explore further.</em>",
       "_items": [
         {
           "alt": "5 Stars",
           "title": "5 Stars",
-          "body": "<p>The ‘5 Stars’ of linked open data define the basic legal requirements and technical excellence of the published data.</p><p>The ‘5 Stars’ were developed by the inventor of the Web, Sir Tim Berners-Lee in 2001 and they make recommendations on the format and structure of the data.</p><p>You will learn more about the 5-stars in modules 10 and 13 of this programme.</p>"
+          "body": "<p>The ‘5 Stars’ of linked open data include the basic legal definition and technical excellence of the published data.</p><p>The ‘5 Stars’ were developed by inventor of the Web, Sir Tim Berners-Lee in 2001. The 5 Stars make recommendations on the format and structure of the data.</p><p>You can learn more about the 5 Stars in modules 10 and 13 of this course.</p>"
         },
         {
           "alt": "ODI open data certificates",
           "title": "ODI open data certificates",
-          "body": "<p>The Open Data Institute has developed open data Certificates which include the practical and social requirements alongside in-depth legal and technical guidelines to consider for publishing open data.</p><p>The certificate acts as a self-assessment questionnaire for publishers (and in some cases users) to assess and benchmark the full usability of a dataset.<br /><a href='https://certificates.theodi.org/' target='_blank'>Take me to the Open Data Institutes Certificates site</a></p>"
+          "body": "<p>The Open Data Institute Open Data Certificates are practical, social, legal and technical guidelines to consider when publishing or using open data.</p><p>The certificates act as a self-assessment questionnaire for publishers, and in some cases users, to assess and benchmark the full usability of a dataset.<br /><a href='https://certificates.theodi.org/' target='_blank'>Take me to the Open Data Institutes Certificates site</a></p>"
         }
       ],
       "_pageLevelProgress": {
@@ -271,15 +271,15 @@
         "instruction": "<em>Select an option, then click Submit.</em>",
         "_items": [
             {
-                "text": "when it is imported into our system.",
+                "text": "it is imported into our system.",
                 "_shouldBeSelected": false
             },
             {
-                "text": "A human can understand it, machines can manipulate it and it has an open licence.",
+                "text": "a human can understand it, machines can manipulate it and it has an open licence.",
                 "_shouldBeSelected": true
             },
             {
-                "text": "when the government publishes it.",
+                "text": "the government publishes it.",
                 "_shouldBeSelected": false
             }
         ],
@@ -335,19 +335,19 @@
         "_selectable":1,
         "title": "Legal considerations",
         "displayTitle": "Legal considerations",
-        "body": "<p>There are 3 legal considerations as part of the standards for publishing open data, one of which includes-</p>",
+        "body": "<p>There are 3 legal considerations as part of the standards for publishing open data, one of which is-</p>",
         "instruction": "<em>Select an option, then click Submit.</em>",
         "_items": [
             {
-                "text": "Don’t break the licensing law.",
+                "text": "not to break the licensing law.",
                 "_shouldBeSelected": false
             },
             {
-                "text": "Publish any type of data.",
+                "text": "to publish any type of data.",
                 "_shouldBeSelected": false
             },
             {
-                "text": "Protect sensitive information such as personal data.",
+                "text": "to protect sensitive information such as personal data.",
                 "_shouldBeSelected": true
             }
         ],
@@ -403,19 +403,19 @@
         "_selectable":1,
         "title": "Technical considerations",
         "displayTitle": "Technical considerations",
-        "body": "<p>There are 3 <strong>technical</strong> considerations as part of the standards for publishing open data, one of which includes-</p>",
+        "body": "<p>There are 3 <strong>technical</strong> considerations as part of the standards for publishing open data, one of which is-</p>",
         "instruction": "<em>Select an option, then click Submit.</em>",
         "_items": [
             {
-                "text": "Describe what format the open data is published in.",
+                "text": "What format the open data is published in.",
                 "_shouldBeSelected": true
             },
             {
-                "text": "Can it be used on a computer.",
+                "text": "Whether it can it be used on a computer.",
                 "_shouldBeSelected": false
             },
             {
-                "text": "Does it take up much bandwidth.",
+                "text": "Whether it takes up much bandwidth.",
                 "_shouldBeSelected": false
             }
         ],
@@ -483,7 +483,7 @@
                 "_shouldBeSelected": false
             },
             {
-                "text": "Open data Certificates.",
+                "text": "Open Data Certificates.",
                 "_shouldBeSelected": true
             }
         ],
@@ -533,9 +533,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Standards + Marques = quality open data",
-        "displayTitle":"Standards + Marques = quality open data",
-        "body":"<p>Open data becomes usable when a human can understand it and a machine can manipulate it.</p><p>Both of these require the permission of the publisher, granted via an open licence. But the open licence alone is not sufficient to guarantee the usability of data.  Simply dumping a file on a website with an open licence does not constitute open data.</p><p>It is unlikely that users will be able to properly engage with unusable data to derive insights and demonstrate benefits.</p><p>In the next module, we compare open data initiatives and look at the key performance indicators of successful open data initiatives.</p>",
+        "title":"Standards + marques = quality open data",
+        "displayTitle":"Standards + marques = quality open data",
+        "body":"<p>Open data becomes usable when a human can understand it and a machine can manipulate it.</p><p>Both of these require the permission of the publisher, granted via an open licence. However, the open licence alone is not sufficient to guarantee the usability of data. Simply putting a file on a website with an open licence does not constitute open data.</p><p>It is unlikely that users will be able to properly engage with unusable data to derive insights and demonstrate benefits.</p><p>In the next module, we compare open data initiatives and look at the key performance indicators of successful ones.</p>",
         "_pageLevelProgress": {
           "_isEnabled": true
         }
