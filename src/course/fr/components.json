@@ -28,9 +28,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Why worry about messy data?",
-        "displayTitle":"Why worry about messy data?",
-        "body":"<p>One of the biggest problems with all data is the number of errors. Often these errors will not be intentional and may exist simply because situations have changed over many years.<br><br>Other times these errors are there because of mistyped data or the tendency to shorten text.</p><h5>In this module we'll look at:</h5><ul class='ticks'><li>What errors exist in data</li><li>The data cleaning toolkit</li><li>Why clean data</li></ul>",
+        "title":"Comment nettoyer les données",
+        "displayTitle":"Comment nettoyer les données",
+        "body":"<p>Un des plus grands défis en travaillant avec les données est des erreurs. Souvent l’éditeurs des données ne remarquent pas des erreurs parce que les données changent depuis de nombreuses années. Parfois, les erreurs sont humaines, en résultant de la saisie de données, telles que des fautes typographiques ou des fausses abréviations.</p><p>Lorsqu’on travaille avec les données, il est important de comprendre comment trouver des erreurs et comment les corriger afin de rendre les données plus utiles.</p><h5>Pendant le module on explorera les questions suivantes :</h5><ul class='ticks'><li>Les erreurs de données communes</li><li>Les outils utiles du nettoyage des données</li><li>Pourquoi devrait-on nettoyer les données ?</li></ul>",
         "_pageLevelProgress": {
             "_isEnabled": true
         }
@@ -42,9 +42,9 @@
         "_component":"iFrame-vimeo",
         "_classes":"",
         "_layout":"full",
-        "title":"Open data cleaning – in two minutes",
-        "displayTitle": "Open data cleaning – in two minutes",
-        "body": "The ODI’s David Tarrant explains why clean data is important for creating new value, how to go about cleaning up data you find and introduces some helpful tools to support you",
+        "title":"Le nettoyage des données - dans 2 minutes",
+        "displayTitle": "Le nettoyage des données - dans 2 minutes",
+        "body": "Entraîneur chez l’ODI, Dr David Tarrant explique la raison pour laquelle l’open data propre est important, comment nettoyer l’open data que vous trouvez et quels outils sont disponible pour vous aider.",
         "instruction": "",
         "_setCompletionOn":"ended",
         "_source": "https://player.vimeo.com/video/129197207",
@@ -84,9 +84,9 @@
         "_component":"text",
         "_classes":"inverted",
         "_layout":"right",
-        "title":"What do we mean by clean open data?",
-        "displayTitle":"Turning data to diamonds: what do we mean by clean open data?",
-        "body":"Clean data has been processed in order to best suit the intended usage. There are many stages to data preparation and cleaning is one of the most essential.<br><br>Clean data should be consistent, free from duplication and ready for machine consumption.<br><br>With clean data, it is much easier to combine with other data to reveal insight."
+        "title":"Révéler la valeur : quoi signifient les données propres ?",
+        "displayTitle":"Révéler la valeur : quoi signifient les données propres ?",
+        "body":"<p>Les données propres sont importantes pour s’assurer un point de départ fiable de travailler avec les données et de créer de la nouvelle valeur.</p><p>Les données propres sont les données consistentes, sans des doublons et prêtes à la consommation par des machines.</p><p>Les données propres facilitent la combinaison des différentes séries de données et le dévoilement de la perspicacité.<p>"
         },
      {
         "_id":"c-32",
@@ -113,45 +113,45 @@
       "_component":"accordion",
       "_classes":"",
       "_layout":"left",
-      "title": "Common errors in data",
-      "displayTitle": "Common errors in data",
-      "body": "There are a number of common errors in data that you should look out for in any dataset.",
-      "instruction": "<em>Click the headings to learn more.</em>",
+      "title": "Les erreurs de données communes ",
+      "displayTitle": "Les erreurs de données communes ",
+      "body": "Il y a certaines erreurs communes des données sur lesquelles vous devriez garder un œil dans chaque série de données avec laquelle vous travaillez.",
+      "instruction": "<em>Cliquez sur les titres pour plus de détail.</em>",
       "_items": [
         {
-          "alt": "Wrong date formats",
-          "title": "Wrong date formats",
-          "body": "<p>Mixed date formats are sometimes simple to spot:<br><br>8-Sep-2013 vs 8/9/2013<br><br>and sometimes not:<br><br>8/9/2013 vs 9/8/2013.<br><br>Additionally some applications (like excel) will guess the format when a data file is loaded, hiding how it is actually written in the file.<br><br>The most common error is the mixed use of americn (MM/DD/YYYY) and British (DD/MM/YYYY) format as shown.</p>"
+          "alt": "Les faux formats des dates ",
+          "title": "Les faux formats des dates ",
+          "body": "<p>On peut écrire les dates dans les façons inconsistentes. Une mélange de différents formats des dates sont parfois faciles à identifier :<br><br>8-sep-2013 vs 8/9/2013<br><br>et parfois moins évidents :<br><br>8/9/2013 vs 9/8/2013.<br><br>Un autre défi se présent dans les applications comme Excel qui ‘devine’ le format quand on ouvre la série de données, ce qui peut masquer le vrai format des dates dans le fichier.</p><p>L’erreur le plus commune est l’utilisation mélangée du format américain (MM/JJ/AA) et européen (JJ/MM/AA).</p>"
         },
         {
-          "alt": "Multiple representations",
-          "title": "Multiple representations",
-          "body": "<p>Due to the ways that people like to save time in data entry by abbreviating everything, it is very common to end up with several different representations of the same thing.<br><br>Additionally, differences in capitalisation, spacing and genders of adjectives can cause issues.</p>"
+          "alt": "Les représentations multiples",
+          "title": "Les représentations multiples",
+          "body": "<p>Pour gagner du temps en saisissant les données, les gens souvent abrégent des termes. Une manque de cohérence parmi les abréviations causerait des erreurs dans la série de données.  Les différences des majuscules, des espaces, et les genres des adjectifs causeraient des erreurs.</p>"
         },
         {
-          "alt": "Duplicate records",
-          "title": "Duplicate records",
-          "body": "<p>Duplicate records often occur when datasets have been combined or because it was not known there was a record already at the point of entry.<br><br>Detecting these can be a little more challenging but no less essential in the cleaning process.</p>"
+          "alt": "Les doublons",
+          "title": "Les doublons",
+          "body": "<p>Les doublons apparaissent quand on a saisi la même donnée plus d’une fois. Ils se produisent souvent quand on combine des séries de données ou parce qu’on ne savait pas qu’il y avait une entrée.</p>"
         },
         {
-          "alt": "Redundant data",
-          "title": "Redundant data",
-          "body": "<p>Redundant data may have been created in order to provide a certain view on the data, however it is not adding any detail to the data and in most cases can be recalculated from the data itself.<br><br>Common occurrences of redundant data include summation (total) rows. To a machine these are data rows and would represent the record with the biggest values.<br><br>Other times columns of data have been combined or replicated in order to assist human readability.</p>"
+          "alt": "Les données redondantes",
+          "title": "Les données redondantes",
+          "body": "<p>Les données redondantes sont les données qui ne sont pas pertinentes à votre travail avec la série de données. Souvent on crée d’une série de données pour un objectif spécifique qui demande des détails desquelles vous n’avez pas besoin.</p><p>Un exemple très commun des données redondantes est les rangées qui représentent les montants totaux.</p><p>Parfois on combine ou reproduit des colonnes des données pour assister à la lisabilité pour des personnes.</p>"
         },
         {
-          "alt": "Broken numerical scales",
-          "title": "Broken numerical scales",
-          "body": "<p>Numerical values in datasets often use different scales to make it easier for a human to read. For example, in big project budget data the units are often in the millions. Thus 1200000 becomes 1.2m. This can lead to huge errors if even one of these records does not have the correct scale.<br><br>One trick is to check for a normal distribution in any numerical data and check the outliers.</p>"
+          "alt": "Les échelles numériques cassées",
+          "title": "Les échelles numériques cassées",
+          "body": "<p>On utilise souvent des différentes échelles numériques pour rendre les valeurs numériques plus faciles à lire pour une personne. Par exemple, pour une série de données au sujet d’un budget, les chiffres sont souvent exprimés en millions. 1200000 s’écrit comme 1,2m. Cependant, les montants plus petits comme 800000 s’écrit en pleine forme. Une machine lit le plus grand chiffre comme 1,2, ce qui cause des erreurs.</p>"
         },
         {
-          "alt": "Mixed ranges",
-          "title": "Mixed ranges",
-          "body": "<p>Data will often be measured in ranges, e.g. age or salary ranges. In order for a machine to understand these ranges it is important to separate the high and low values.</p>"
+          "alt": "Les étendues mixtes",
+          "title": "Les étendues mixtes",
+          "body": "<p>Parfois on mesure les données en des étendues, telles qu’une éntendue d’âge ou de salaire. Pour qu’une machine comprennent les étendues, il faut se séparer les valeurs fortes et faibles.</p>"
         },
         {
-          "alt": "Spelling errors",
-          "title": "Spelling errors",
-          "body": "<p>Obvious when it comes to documents, however when processing data spelling errors are often overlooked.<br><br>Don’t forget to run your data through a spell checker and also look for localization/localisation.</p>"
+          "alt": "Les fautes d'orthographe ",
+          "title": "Les fautes d'orthographe ",
+          "body": "<p>Les fautes d'orthographe sont souvent difficiles à identifier dans les données tabulaires.</p><p>N’oubliez pas à exécuter une vérification orthographique pour déceler les erreurs.</p>"
         }
       ],
       "_pageLevelProgress": {
@@ -165,14 +165,14 @@
         "_type":"component",
         "_layout": "full",
         "_component": "narrative",
-        "title": "The data cleaning toolkit",
-        "displayTitle": "The data cleaning toolkit",
-        "body": "Without data, we can’t build information. And without information, there is no new knowledge",
-        "instruction": "<em>Click through the narrative component.</em>",
+        "title": "Des outils du nettoyage les données",
+        "displayTitle": "Des outils du nettoyage les données",
+        "body": "Sans les données propres, on ne peut pas construire des informations. Il existe un nombre d'outils utiles pour assister au processus de nettoyer les données.",
+        "instruction": "<em>Cliquez sur la flèche pour plus de détail.</em>",
         "_items": [
             {
-                "title": "The data cleaning toolkit",
-                "body": "It may be necessary to download and upload your data between many tools for cleaning and processing. Remember to also keep a note of what changes have been made and share these with others. Some of the tools can even help you do this<br><br>In this section we look at two of the main tools and their uses:</h5><ul class='bullet'><li>Open refine</li><li>Excel & similar spreadsheet programmes</li></ul>",
+                "title": "Des outils du nettoyage les données",
+                "body": "<p>Quand vous cherchez des erreurs dans les données, il peut être nécessaire de télécharger et retélécharger des séries de données entre plusieurs outils pour le nettoyage et le traitement.</p><p>Il est important de conserver une trace des changements pour les partager avec d’autres d’une manière ouverte pour que tout le monde puisse bénéficier de votre travail, particulièrement si les données que vous nettoyez sont déjà publiées et ouvertes.</p><p>Pendant cette section on regardera deux des outils principaux et leurs utilisations :</h5><ul class='bullet'><li>Open Refine</li><li>Excel & des programmes de feuille calcul semblables.</li></ul>",
                 "_graphic": {
                     "src": "course/en/images/odi-003.jpg",
                     "alt": "A toolkit",
@@ -185,7 +185,7 @@
             },
             {
                 "title": "Open Refine",
-                "body": "Open Refine is a powerful software tool designed specifically to deal with messy data. It is a column-based browser that applies facets to the data in order to cleaning fix errors across the entire dataset including:</h5><ul class='bullet'><li>Date formats</li><li>Multiple representations</li><li>Duplicate records</li><li>Redundant data</li><li>Broken numerical scales</li><li>Mixed ranges</li></ul>",
+                "body": "Open Refine est un logiciel conçu pour traiter des données non-propres. Il est un navigateur orienté colonnes qui vous permet de corriger les erreurs dans toute la série de données en une seule action. Les erreurs possibles à corriger y compris :</h5><ul class='bullet'><li>Les formats des dates</li><li>Les représentations multiples</li><li>Les doublons</li><li>Les données redondantes</li><li>Les échelles numériques cassées</li><li>Les étendues mixtes</li></ul>",
                 "_graphic": {
                     "src": "course/en/images/odi-004.jpg",
                     "alt": "Open refine",
@@ -197,8 +197,8 @@
                 "strapline": "Open Refine"
             },
             {
-                "title": "Spreadsheet programmes",
-                "body": "Open Refine is the key tool for cleaning data, however sometimes it is easier to fix some errors in a spreadsheet:</h5><ul class='bullet'><li>Spelling errors</li><li>Redundant data</li><li>Numerical verification</li><li>Fixing shifted data</li></ul>",
+                "title": "Les programmes de feuille calcul",
+                "body": "Open Refine est un outil clé du nettoyage des données. Cependant, il est parfois plus facile de corriger des erreurs dans un programme de feuille calcul telles que :</h5><ul class='bullet'><li>Les fautes d'orthographe</li><li>Les données redondantes</li><li>La vérification numérique</li><li>Corriger les données déphasées</li></ul>",
                 "_graphic": {
                     "src": "course/en/images/odi-005.jpg",
                     "alt": "Spreadsheet",
@@ -221,14 +221,14 @@
         "_type":"component",
         "_layout": "full",
         "_component": "narrative",
-        "title": "What are the benefits of cleaned data?",
-        "displayTitle": "What are the benefits of cleaned data?",
-        "body": "Now that we have some knowledge of the tools used to clean data we need to understand why the process can add value to your data use?",
-        "instruction": "<em>Click through the narrative component.</em>",
+        "title": "Quels sont les avantages d’open data ?",
+        "displayTitle": "Quels sont les avantages d’open data ?",
+        "body": "Outre aux outils qu’on peut utiliser de nettoyer l’open data, il est important de comprendre la raison pour laquelle ce processus ajoute de la valeur.",
+        "instruction": "<em>Cliquez sur la flèche pour plus de détail.</em>",
         "_items": [
             {
-                "title": "Prioritise cleaning",
-                "body": "If data is not clean then any decisions made could be wrong. This could have a significant impact upon thousands or millions of people's lives.<br><br>It has been found that overall the process of preparing data for analysis can take anywhere between 60 and 80% of the time of a data driven project.<br><br>So make sure you take care with your data to ensure it is clean and ready for use.",
+                "title": "Prioriser le nettoyage",
+                "body": "<p>Si les données ne sont pas propres, les décision prises selon ces données pourraient être fausses. Celui-ci toucherait des produits ou la perspicacité développés des donées, et dans certains cas aurait un impact sur des milles ou même des millions de gens.</p><p>Une étude récente trouve que le processus de préparer les données pour l’analyse prend entre 60 et 80% du temps total d’un projet orienté données.</p>",
                 "_graphic": {
                     "src": "course/en/images/odi-006.jpg",
                     "alt": "Prioritise cleaning",
@@ -240,8 +240,8 @@
                 "strapline": "Prioritise cleaning"
             },
             {
-                "title": "Enhance usability",
-                "body": "Sharing a clean dataset will enhance the usability of the data. Further tools like Open Refine allow the sharing of the change history, informing people what has been cleaned and how. Making the process open as well as the data adds to the sustainability and trust a user can put in a dataset.<br><br>Further there are data cleaning communities emerging which should be supported more actively. ",
+                "title": "Améliorer l’utilité",
+                "body": "<p>Partager une série de données ouverte et propre améliorerait l’utilité des données. Les outils comme Open Refine vous permettent de partager l’histoire des changements, ce qui informe aux utilisateurs ce que vous avez nettoyé et comment vous l’avez fait. En rendant le processus ainsi que les données ouverts, vous augmentez la durabilité et la confiance que l’utilisateur tient dans votre série de données.</p><p>Il y a aussi des communautés emergentes du nettoyage des données comme la communauté d’OpenStreetMap, ce qui devrait avoir plus de soutien actif.<br><br><a class='course_link' href='http://wiki.openstreetmap.org/wiki/WikiProject_Denmark' target='_blank'>Lien vers le wiki communautaire danois OSM</a></p>",
                 "_graphic": {
                     "src": "course/en/images/odi-007.jpg",
                     "alt": "Prioritise cleaning",
@@ -253,8 +253,8 @@
                 "strapline": "Enhance usability"
             },
             {
-                "title": "Discover insights",
-                "body": "Many data cleaning tools, including Open Refine, also provide the ability to combine and enrich datasets.<br><br>Without a clean dataset, this process will only make the dataset messier and introduce further errors.<br><br>Careful preparation is essential to the success of any data driven project.",
+                "title": "Découvrir la perspicacité",
+                "body": "<p>Plusieurs outils du nettoyage des données, y compris Open Refine, fournit la capacité de combiner et enrichir des séries de données.</p><p>Sans une série de données propre, ce processus n’est pas utile.</p><p>La préparation soigneuse est essentielle pour la réussite de tout projet orienté données.</p>",
                 "_graphic": {
                     "src": "course/en/images/odi-008.jpg",
                     "alt": "Discover insights",
@@ -268,6 +268,40 @@
         ],
         "_pageLevelProgress": {
         "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-42",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/burst.png",
+            "medium": "course/en/images/burst.png",
+            "small": "course/en/images/burst.png"
+        }
+    },
+    {
+        "_id":"c-43",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Êtes-vous prêt(e) pour l’open data de qualité ?",
+        "displayTitle":"Êtes-vous prêt(e) pour l’open data de qualité ?",
+        "body":"<p>Pouvez-vous rappeler les exigences pratiques, techniques, légales et sociales pour qu’une série de données soit utile ?</p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
         }
     },
 {
@@ -299,21 +333,21 @@
         "_questionWeight":1,
         "_isRandom":true,
         "_selectable":1,
-        "title": "Why is messy data a problem?",
-        "displayTitle": "Why is messy data a problem?",
-        "body": "<p>Messy data is a problem because...</p>",
-        "instruction": "<em>Choose one answer</em>",
+        "title": "Pourquoi devrait-on nettoyer les données ?",
+        "displayTitle": "Pourquoi devrait-on nettoyer les données ?",
+        "body": "<p>L’open data non-propre est un problème parce que :</p>",
+        "instruction": "<em>Choisissez votre réponse et puis cliquez sur ‘soumettre’.</em>",
         "_items": [
             {
-                "text": "It cannot be plotted on a chart",
+                "text": "il ne peut pas être tracé sur un graphique",
                 "_shouldBeSelected": false
             },
             {
-                "text": "It cannot be published",
+                "text": "il ne peut pas être publié",
                 "_shouldBeSelected": false
             },
             {
-                "text": "It can lead to wrong conclusions",
+                "text": "il peut donner lieu aux fausse conclusions",
                 "_shouldBeSelected": true
             }
         ],
