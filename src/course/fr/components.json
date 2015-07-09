@@ -28,9 +28,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Finding hidden data on the web",
-        "displayTitle":"Finding hidden data on the web",
-        "body":"<p>‘Open data’ does not only mean datasets available to download. Downloadable open data represents only a small fraction of the available data on the web.</p><p>The majority of data available on the web is hidden from the human eye. However, machines can find and read this data. In this module we look at techniques to unlock hidden data.</p><h5>In this module we’ll explore the following:</h5><ul class='ticks'><li>How to locate hidden data</li><li>What benefits hidden data can provide</li><li>How to obtain hidden data</li></ul>",
+        "title":"Trouver les données cachées sur le Web",
+        "displayTitle":"Trouver les données cachées sur le Web",
+        "body":"<p>‘Open data’ signifie plus que les séries de données disponibles à télécharger. Les données téléchargeables ne représent qu’une petite fraction des données disponibles sur le Web.</p><p>La plupart des données disponibles sur le Web sont cachées de l’œil humain. Cependant les machines peuvent trouver et lire ces données. Pendant le module, on explorera des techniques pour déverrouiler les données cachées.</p><h5>Pendant le module on explorera les questions suivantes :</h5><ul class='ticks'><li>Comment trouver les données cachées</li><li>Quels avantages les données cachées offrent</li><li>Comment obtenir les donnés cachées</li></ul>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
@@ -43,9 +43,9 @@
     "_component":"iFrame-vimeo",
     "_classes":"",
     "_layout":"full",
-        "title":"Finding hidden data – in 2 minutes",
-        "displayTitle": "Finding hidden data – in 2 minutes",
-        "body": "ODI Trainer David Tarrant explains what hidden data is, what benefits it can provide and how you can obtain it.",
+        "title":"Trouver les données cachées - dans 2 minutes",
+        "displayTitle": "Trouver les données cachées - dans 2 minutes",
+        "body": "Entraîneur chez l’ODI, Dr David Tarrant explique qu’est-ce que c’est les données cachées, quels avantages elles offrent et comment les obtenir.",
         "instruction": "",
         "_setCompletionOn":"ended",
         "_source": "https://player.vimeo.com/video/129197208",
@@ -85,9 +85,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"The data people can't see",
-        "displayTitle":"The data people can't see",
-        "body":"<p>Data is not always easy to find on the web, because most of the available resources are visible only to machines. People navigate the web visually, viewing content, clicking on links and downloading files.</p><p>Machines navigate the web differently. Machines, by contrast, only navigate the web through logical rules set out in the code. While humans look for engaging, interactive content, machines require structure, logic and clarity.</p><p>This difference creates ‘blind spots’ for how people and machines read the web.</p><p>For example, machines cannot always instantly find a download link in a page; humans find it difficult to see structured, non-visual data contained in website code.</p><p>Downloadable open data files are just one type of data on the web. Much more data remains hidden in website code.</p>"
+        "title":"Les données que les personnes ne voient pas",
+        "displayTitle":"Les données que les personnes ne voient pas",
+        "body":"<p>Les données ne sont pas toujours faciles à trouver sur le Web parce que la plupart des ressources disponibles ne sont que visibles aux machines. Les gens naviguent normalement sur le Web d’une manière visuelle, ils visualisent  le contenu, cliquent sur des liens et téléchargent des fichiers.</p><p>Les machines naviguent le Web d’une différente façon. Les machines, par contre, naviguent le Web en utilisant uniquement les régles logiques écrites dans le code. Alors que les humains cherchent le contenu engageant et intéractif, les machines demandent de la structure, la logique et la clarité.</p><p>Cette différence crée d’un ‘angle mort’ de la façon dont les personnes et les machines lisent le Web.</p><p>Par exemple, parfois les machines ne trouvent pas immédiatement le lien de téléchargement sur une page et les humains ont des difficultés de voir les données structurées et non-visuelles qui se trouvent dans le code.</p><p>Les fichiers téléchargeables d’open data ne sont qu’un type de données sur le Web. Beaucoup plus de données sont cachées dans le code d’un site Web.</p>"
     },
      {
         "_id": "c-25",
@@ -96,14 +96,14 @@
         "_type":"component",
         "_layout": "full",
         "_component": "narrative",
-        "title": "Finding hidden data",
-        "displayTitle": "Finding hidden data",
-        "body": "Not all data is available for download. Often it is hidden in the different websites we visit every day.",
-        "instruction": "<em class='desktop-instruction'>Click the forward arrow to see more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
+        "title": "Trouver les données cachées",
+        "displayTitle": "Trouver les données cachées",
+        "body": "Certaines données ne sont pas disponibles à télécharger. Souvent elles se trouvent dans les différents sites Web qu’on visite quotidiennement.",
+        "instruction": "<em class='desktop-instruction'>Cliquez sur la flèche pour plus de détail.</em><em class='mobile-instruction'>Cliquez sur la flèche pour plus de détail.</em>",
         "_items": [
             {
-                "title": "Why hide data?",
-                "body": "<p>The shift towards the data-driven, mobile-enabled web has led to a change in the way websites are built. To meet user expectations of interactive, visual websites, developers increasingly place data in a separate ‘layer’ or even in the code itself. This data layer is often accessible to people using the right tools.</p>",
+                "title": "Pourquoi cacher les données ?",
+                "body": "<p>Le déplacement vers le Web orienté données et compatibles aux portables ont lieu à un déplacement de la façon dont les sites Web sont construits. Pour satisfaire les attentes des utilisateurs des sites Web intéractifs et visuals, les développeus tentent à mettre les données dans une ‘couche’ séparée ou même dans le code. Cette couche des données est souvent disponibles aux gens équippés de bons outils.</p>",
                 "_graphic": {
                     "src": "course/fr/images/odi-002.jpg",
                     "alt": "Readiness",
@@ -115,8 +115,8 @@
                 "strapline": "Readiness"
             },
             {
-                "title": "Data is hiding everywhere",
-                "body": "<p>From Wikipedia pages to holiday planners, fashion websites to energy providers, the web is full of data sources.</p><p>The licences for this hidden data are not always clear, just because the data is machine readable on a public website does not make it open data. If you are uncertain about whether hidden data is openly licenced, check with the website publisher.</p>",
+                "title": "Les données se couchent partout",
+                "body": "<p>FDes pages de Wikipedia aux planificateurs de vaccances, des sites Web de la mode aux fournisseurs d’énergie, le Web est plein des sources des données.</p><p>‘Parfois les licences pour ces données cachées ne sont pas claires, le simple fait qu’elles sont lisibles par des machines sur un site Web public, ne les rendent pas ouvertes.’ Si vous n’êtes pas certain de la licence, vérifiez avec l’éditeur du site Web.</p>",
                 "_graphic": {
                     "src": "course/fr/images/odi-003.jpg",
                     "alt": "Implementation",
@@ -128,8 +128,8 @@
                 "strapline": "Implementation"
             },
             {
-                "title": "What type of data is hiding?",
-                "body": "<p>Hidden data looks entirely different from an open dataset you download from a website.</p><p>Machine-readable data on the web will be in formats like JSON, the most common and simple to use, XML, and sometimes RDF.</p><p>Try the exercises later in this module to see if you can extract data in these formats.</p>",
+                "title": "Quels types de données se cachent ?",
+                "body": "<p>Les données cachées apparaissent complètement différentes à une série de données ouverte qu’on télécharge d’un site Web.</p><p>Les données lisibles par des machines sur le Web se présentent sous une forme telle que JSON, la forme la plus commune et facile à utiliser, XML et parfois RDF.</p><p>Faites les exercices plus tard dans le module et essayez de extraire les données sous ces formes.</p>",
                 "_graphic": {
                     "src": "course/fr/images/odi-004.jpg",
                     "alt": "Impact",
@@ -170,29 +170,29 @@
       "_component":"accordion",
       "_classes":"",
       "_layout":"left",
-      "title":"Benefits of hidden data",
-      "displayTitle": "Benefits of hidden data",
-      "instruction": "<em>Click the headings to find out more.</em>",
+      "title":"Les avantages des données cachées",
+      "displayTitle": "Les avantages des données cachées",
+      "instruction": "<em>Cliquez sur les titres pour plus de détails</em>",
       "_items": [
         {
-          "alt": "Quality",
-          "title": "Quality",
-          "body": "<p>In many cases hidden data will be data used by a publisher to present the web page you are looking at on their site.</p><p>The hidden data is therefore an important part of their online operations and it is likely the publisher takes care over the quality.</p><p>Data extracted from the web tends to be more reliable as it is likely to be data at the core of an organisation's operations. Therefore, it is more likely to be a dependable data source to work with.</p>"
+          "alt": "Qualité",
+          "title": "Qualité",
+          "body": "<p>Dans plusieurs cas les données cachées sont utilisées par l’éditeur pour présenter la page qu’on voit sur leur site Web.</p><p>Les données cachées donc font une partie importante à leurs opérations en ligne et il est probable que l’éditeur fait attention à la qualité.</p><p>Les données extraites du Web tentent à être plus fiable dû à la probablité enlevée de qu’elles fassent partie des opérations clés d’une organisation.</p>"
         },
         {
-          "alt": "Relevance",
-          "title": "Relevance",
-          "body": "<p>Organisations do not always publish downloadable data. However, many run data-driven websites. By accessing the data directly through existing data feeds (or from within the website’s code) there is a clear use for the data already. This will help you quickly identify relevant data from this existing use, rather than having to establish the use yourself. For example, the BBC News pages and sections and the related data feeds<br /><a href='http://www.bbc.co.uk/news/10628494' target='_blank'>Take me to BBC news feeds</a></p>"
+          "alt": "Pertinence",
+          "title": "Pertinence",
+          "body": "<p>Les organisations ne publient pas toujours les données téléchargeables. Cependant plusieurs exécutent des sites Web orientés données. En accédant les données grâce aux flux de données existants (ou dans le code du site Web), il y a déjà une utilisation claire pour les données, ce qui vous aide à identifier rapidement des données pertinentes au lieu de les trouver vous même. Par exemple, les pages, sections et flux des données pertinents du BBC.<br /><a href='http://www.bbc.co.uk/news/10628494' target='_blank'>Lien vers données pertinents du BBC</a></p>"
         },
         {
-          "alt": "Context",
-          "title": "Context",
-          "body": "<p>When you access data directly from the web you are already viewing it in a context it is used in by the publisher. As we have covered in previous modules, the context of the data is an important component of its use.</p>"
+          "alt": "Contexte",
+          "title": "Contexte",
+          "body": "<p>Lorsqu’on accéde les données directement du Web, on les voit dans le contexte utilisé par l’éditeur. On a déja vu pendant les modules précendents que le contexte des données est un élément important de l’utilisation.</p>"
         },
         {
-          "alt": "Breadth",
-          "title": "Breadth",
-          "body": "<p>Often an organisation is limited in the amount of data it can publish as downloadable data.  Finding hidden data opens up a broader range of resources.</p>"
+          "alt": "Ampleur",
+          "title": "Ampleur",
+          "body": "<p>Une organisation est souvent limitée concernant la quantité de données téléchargeables qu’elle peut publier. Trouver les données cachées ouvre une plus grande étendue des ressources.</p>"
         }
       ],
       "_pageLevelProgress": {
@@ -206,14 +206,14 @@
         "_type":"component",
         "_layout": "full",
         "_component": "narrative",
-        "title": "How to find hidden data",
-        "displayTitle": "How to find hidden data",
-        "body": "<p>From data we gain information, from information we gain knowledge and insight.</p><p>Please note that just because you can extract hidden data does not mate this data open. You should always check the terms of use and licenses of the website before gathering or using data for any purpose.For further details on licensing, please refer back to module 4 of this course.</p<",
-        "instruction": "<em class='desktop-instruction'>Click the forward arrow to see more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
+        "title": "Comment trouver les données cachées ?",
+        "displayTitle": "Comment trouver les données cachées ?",
+        "body": "<p>On obtient d’informations des données, et on obtient de connaissance et perspicacité.</p><p>Veuillez noter que le simple fait que vous pouvez extraire les données cachées ne les rend pas ouvertes. Vous devriez toujours vérifier les conditions générales de la licence du site Web avant de recueillir ou utiliser des données pour toute fin. Pour plus de détails sur la licenc voyez le module 4 de ce cours.</p>",
+        "instruction": "<em class='desktop-instruction'>Cliquez sur la flèche pour plus de détail.</em><em class='mobile-instruction'>Cliquez sur la flèche pour plus de détail.</em>",
         "_items": [
             {
-                "title": "Extension downloads",
-                "body": "<p>Some websites have been built to offer a way to extract data by adding an extension to the URL of the web page you are viewing. For such websites, usually maintained by organisations who also publish downloadable open data, adding the correct extension will trigger a download of that page in a data format, as opposed to a browser format.</p><p>A good example of this is the UK Government website (gov.uk) which provides any page in a data format simply by adding the relevant extension like “.json”, for example https://www.gov.uk/browse/business.json.</p><p>Try it with the UK Trade data by viewing the following page and then adding “.json” to get the data.<br /><a href='https://www.gov.uk/trade-tariff/sections' target='_blank'>Take me to the UK gov trade tariff</a></p><p>To view the data in a more human readable form copy it into jsonlint.io</p>",
+                "title": "Le téléchargement des extensions",
+                "body": "<p>On a construit quelques sites Web pour qu’ils offrent une façon de extraire les données en ajoutant une extension à l’URL. Pour tels sites Webs, normalement maintenus par des organisations qui publient aussi l’open data téléchargeable, ajouter la bonne extension déclenche un téléchargement de la page sous une forme des données en comparaison avec une forme de navigateur.</p><p>Un bon exemple est le site Web du gouvernement britannique qui fournit chaque page sous une forme des données, si on ajoute l’extension pertinente comme ‘.json’, par exemple https://www.gov.uk/browse/business.json.</p><p>Essayez avec les données de commerce du Royaume-Uni. Allez au site Web et ajoutez ‘.json’, à l’URL pour obtenir les données.<br /><a href='https://www.gov.uk/trade-tariff/sections' target='_blank'>Lien vers les données de commerce du gouvernement britannique</a></p><p>Pour voir les données sous une forme plus lisible par des humaines, les copiez dans jsonlint.io</p>",
                 "_graphic": {
                     "src": "course/fr/images/odi-006.jpg",
                     "alt": "Extensions",
@@ -225,8 +225,8 @@
                 "strapline": "Process management"
             },
             {
-                "title": "Data feeds",
-                "body": "<p>Many websites provide links to data syndication feeds that can be subscribed to.</p><p>These feeds may be RSS feeds, Twitter alert feeds or other less common types. Feeds can be used to get raw data about a broad selection of content.</p><p>For an example of a raw data feed, look at the BBC news feed in XML<br /><a href='http://feeds.bbci.co.uk/news/rss.xml' target='_blank'>Why not try out the news feeds from the BBC in XML</a></p><p>Now you can use a free online tool to make that data easier to use<br /><a href='http://codebeautify.org/xmlviewer' target='_blank'>Go to codebeautify and enter the BBC feed URL under 'Load URL'</a></p><p>or get alerts for flooding from your nearest river (UK only):<br /><a href='http://www.gaugemap.co.uk/' target='_blank'>Take me to river level guages</a></p>",
+                "title": "Les flux des données",
+                "body": "<p>Plusieurs sites Web fournissent les liens aux flux de la syndication des données auxquelles on peut s’abonner. Ces flux peuvent être les flux RSS, les flux d’alertes de Twitter ou autres types moins communs. On utilise les flux pour obtenir des données brutes concernant une vaste sélection du contenu.</p><p>Pour un exemple d’un flux des données brutes, voyez le flux de BBC news sous la forme XML.<br /><a href='http://feeds.bbci.co.uk/news/rss.xml' target='_blank'>Lien vers données pertinents du BBC en XML</a></p><p>Vous pouvez utiliser un outil gratuit en ligne qui rend ces données plus faciles à utiliser.<br /><a href='http://codebeautify.org/xmlviewer' target='_blank'>Allez vers codebeautify et entrez l’URL du flux BBC dans la section ‘Load URL’</a></p>",
                 "_graphic": {
                     "src": "course/fr/images/odi-007.jpg",
                     "alt": "Data feeds",
@@ -238,8 +238,8 @@
                 "strapline": "User focused"
             },
             {
-                "title": "Source code",
-                "body": "<p>Going beyond websites that provide you with a simple route to data, many sites have data embedded in the web page's source code.</p><p>Why not check out the ODI's experimental 'Hidden Data Extractor' tool to find source code?<br /><a href='http://odinprac.theodi.org/hidden-data-extractor/' target='_blank'>Take me to ODI Hidden Data Extractor</a></p>",
+                "title": "Le code source",
+                "body": "<p>Au déla des sites Web qui fournissent une façon simple aux données, beaucoup de sites intégrent les données dans le code source du page Web.</p><p>Pourquoi pas jeter un œil sur l’outil expérimental de l’ODI ‘Hidden Data Extractor’ pour trouver les données cachées dans le code source d’un site Web ?<br /><a href='http://odinprac.theodi.org/hidden-data-extractor/' target='_blank'>Lien vers le ‘Hidden Data Extractor’ de l’ODI</a></p>",
                 "_graphic": {
                     "src": "course/fr/images/odi-008.jpg",
                     "alt": "Source code",
@@ -251,8 +251,8 @@
                 "strapline": "User focused"
             },
             {
-                "title": "APIs or machine-readable interfaces",
-                "body": "<p>Some websites or web services will expose a machine-readable interface, or API, for querying and accessing their data.</p><p>Examples of services that have APIs include: <a href='https://api.opencorporates.com/' target='_blank'>Open Corporates</a> (open), <a href='http://wiki.openstreetmap.org/wiki/API' target='_blank'>OpenSteetMap</a> (Open), <a href='https://dev.twitter.com/rest/public' target='_blank'>Twitter</a> (not completely open), <a href='https://www.flickr.com/services/api/' target='_blank'>Flickr</a> (some content open), <a href='https://developer.linkedin.com/docs/rest-api' target='_blank'>LinkedIn</a> (not open).</p><p>Most of these services use a web based API and allow addition of extensions (try “.json” on OpenCorporates). Although this API looks like the first example in this section, the formalisation of it being an API provides a guarantee that the service will be available. </p>",
+                "title": "API ou interface lisible par une machine",
+                "body": "<p>Certains sites ou services Web montent une interface lisible par une machine, ou un API, pour des requêtes ou l’accès aux données.</p><p>Des exemples des services qui ont une API y compris :<a href='https://api.opencorporates.com/' target='_blank'>Open Corporates</a> (ouvert), <a href='http://wiki.openstreetmap.org/wiki/API' target='_blank'>OpenSteetMap</a> (ouvert), <a href='https://dev.twitter.com/rest/public' target='_blank'>Twitter</a> (pas ouvert ), <a href='https://www.flickr.com/services/api/' target='_blank'>Flickr</a> (quelque contenu ouvert), <a href='https://developer.linkedin.com/docs/rest-api' target='_blank'>LinkedIn</a> (pas ouvert).</p><p>La plupart des services utilisent une API basé sur le Web et permettent qu’on ajoute des extensions (essayez ‘.json’ sur OpenCorporates). Bien que cette API ressemble un site Web comme ceux qu’on a vu plus tôt pendant cette section, où on ajoute une extension pour obtenir les données, le status formal d’OpenCorporates comme une API donne plus de certitude de la disponibilité du service.</p>",
                 "_graphic": {
                     "src": "course/fr/images/odi-009.jpg",
                     "alt": "APIs",
@@ -264,8 +264,8 @@
                 "strapline": "User focused"
             },
             {
-                "title": "Scraping the web",
-                "body": "<p>If none of the above techniques work then you may have to resort to scraping the human-readable web pages. While this can be reliable you have the added risk of the layout changing as well as the content.</p><p>Why not try out magic.import.io to see how easy it can be?</p>",
+                "title": "Le grattage du Web.",
+                "body": "<p>Si aucune de lésdits techniques ne fonctionne, vous auriez recours à gratter les pages Web lisibles par des humains. Bien qu’il soit fiable, il y a le risque que la disposition ainsi que le contenu changent.</p><p>Pourquoi pas essayez magic.import pour voir si facile il est ?</p>",
                 "_graphic": {
                     "src": "course/fr/images/odi-010.jpg",
                     "alt": "Scraping the web",
@@ -306,9 +306,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Are you ready to find hidden data?",
-        "displayTitle":"Are you ready to find hidden data?",
-        "body":"<p>Can you recall the key things about hidden data?</p>",
+        "title":"Êtes vous prêt(e) à trouver les données cachées sur le Web?",
+        "displayTitle":"Êtes vous prêt(e) à trouver les données cachées sur le Web?",
+        "body":"<p>Il y a 3 choses utiles à prendre en trouver les données cachées sur le Web. Vous vous en souvenez ?</p>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
@@ -343,29 +343,29 @@
         "_questionWeight":1,
         "_isRandom":true,
         "_selectable":1,
-        "title": "What is hidden data?",
-        "displayTitle": "What is hidden data?",
-        "body": "<p>Hidden data is...</p>",
-        "instruction": "<em>Select an option, then click 'Submit'.</em>",
+        "title": "Qu’est-ce que c’est les données cachées ?",
+        "displayTitle": "Qu’est-ce que c’est les données cachées ?",
+        "body": "<p>Les données cachées...</p>",
+        "instruction": "<em>Choisissez votre réponse et puis cliquez sur ‘Soumettre’</em>",
         "_items": [
             {
-                "text": "part of a treasure hunt?",
+                "text": "font partie d’une chasse au trésor",
                 "_shouldBeSelected": false
             },
             {
-                "text": "data visible to machines but invisible to human eyes?",
+                "text": "dSont les données visibles aux machines mais invisibles à l’œil humain",
                 "_shouldBeSelected": true
             },
             {
-                "text": "files that are difficult to download?",
+                "text": "Sont les fichiers quil sont difficile à télécharger",
                 "_shouldBeSelected": false
             }
         ],
         "_feedback":{
-            "correct":"<h5>That’s right!</h5><p>Hidden data is data that is invisible to people as they navigate the web but which a machine can easily find and understand</p>",
+            "correct":"<h5>Vous avez raison !</h5><p>Les donnés cachées sont invisibles aux gens quand ils naviguent le Web mais faciles à trouver et comprendre par une machine.</p>",
             "_incorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>Hidden data is data that is invisible to people as they navigate the web but which a machine can easily find and understand</p>",
-                "final": "<h5>Are you sure about that?</h5><p>Hidden data is data that is invisible to people as they navigate the web but which a machine can easily find and understand</p>"
+                "notFinal": "<h5>Êtes vous sûr(e) ? </h5><p>Les donnés cachées sont invisibles aux gens quand ils naviguent le Web mais faciles à trouver et comprendre par une machine.</p>",
+                "final": "<h5>Êtes vous sûr(e) ? </h5><p>Les donnés cachées sont invisibles aux gens quand ils naviguent le Web mais faciles à trouver et comprendre par une machine.</p>"
             },
             "_partlyCorrect": {
                 "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
@@ -373,7 +373,7 @@
           }
         },
         "_buttons":{
-            "submit":"",
+            "submit":"Soumettre",
             "reset":"",
             "showCorrectAnswer":"",
             "hideCorrectAnswer":""
@@ -411,37 +411,37 @@
         "_questionWeight":1,
         "_isRandom":true,
         "_selectable":1,
-        "title": "Why is data hidden?",
-        "displayTitle": "Why is data hidden?",
-        "body": "<p>People hide data because...</p>",
-        "instruction": "<em>Select an option, then click 'Submit'.</em>",
+        "title": "Pourquoi sont les données cachées ?",
+        "displayTitle": "Pourquoi sont les données cachées ?",
+        "body": "<p>Les gens cachent les données parce que...</p>",
+        "instruction": "<em>Choisissez votre réponse et puis cliquez sur ‘Soumettre’.</em>",
         "_items": [
             {
-                "text": "they are ashamed of it",
+                "text": "Ils en ont honte",
                 "_shouldBeSelected": false
             },
             {
-                "text": "it is messy",
+                "text": "Il n’est pas propre",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Il n’était pas intentionnel",
                 "_shouldBeSelected": true
-            },
-            {
-                "text": "most of the time they just haven't intentionally exposed it",
-                "_shouldBeSelected": false
             }
         ],
         "_feedback":{
-            "correct":"<h5>That’s right!</h5><p>Most hidden data is not deliberately hidden. Often the organization building the website is concentrating on how humans navigate the pages and therefore isn’t thinking about how the data is provided.</p>",
+            "correct":"<h5>Vous avez raison !</h5><p>La plupart des données ne sont pas intentionnellement cachées. Souvent l’organisation qui construit le site Web met l’accent sur la façon dont les personnes naviguant la page Web et donc ne considére pas comment il fournit les données.</p>",
             "_incorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>Most hidden data is not deliberately hidden. Often the organization building the website is concentrating on how humans navigate the pages and therefore isn’t thinking about how the data is provided.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>Most hidden data is not deliberately hidden. Often the organization building the website is concentrating on how humans navigate the pages and therefore isn’t thinking about how the data is provided.</p>"
+                "notFinal": "<h5>Êtes vous sûr(e) ? </h5><p>La plupart des données ne sont pas intentionnellement cachées. Souvent l’organisation qui construit le site Web met l’accent sur la façon dont les personnes naviguant la page Web et donc ne considére pas comment il fournit les données.</p>",
+                "final": "<h5>Êtes vous sûr(e) ? </h5><p>La plupart des données ne sont pas intentionnellement cachées. Souvent l’organisation qui construit le site Web met l’accent sur la façon dont les personnes naviguant la page Web et donc ne considére pas comment il fournit les données.</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>Most hidden data is not deliberately hidden. Often the organization building the website is concentrating on how humans navigate the pages and therefore isn’t thinking about how the data is provided.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>Most hidden data is not deliberately hidden. Often the organization building the website is concentrating on how humans navigate the pages and therefore isn’t thinking about how the data is provided.</p>"
+                "notFinal": "<h5>Êtes vous sûr(e) ? </h5><p>Les donnés cachées sont invisibles aux gens quand ils naviguent le Web mais faciles à trouver et comprendre par une machine.</p>",
+                "final": "<h5>Êtes vous sûr(e) ? </h5><p>Les donnés cachées sont invisibles aux gens quand ils naviguent le Web mais faciles à trouver et comprendre par une machine.</p>"
           }
         },
         "_buttons":{
-            "submit":"",
+            "submit":"Soumettre",
             "reset":"",
             "showCorrectAnswer":"",
             "hideCorrectAnswer":""
@@ -479,10 +479,10 @@
         "_questionWeight":1,
         "_isRandom":true,
         "_selectable":1,
-        "title": "Benefits of hidden data",
-        "displayTitle": "Benefits of hidden data",
-        "body": "<p>Which of the following is not a benefit of hidden data?</p>",
-        "instruction": "<em>Select an option, then click 'Submit'.</em>",
+        "title": "Les avantages des données cachées",
+        "displayTitle": "Les avantages des données cachées",
+        "body": "<p>Lesquels des suivants points n’est pas un avantage des données cachées ?</p>",
+        "instruction": "<em>Choisissez votre réponse et puis cliquez sur ‘Soumettre’.</em>",
         "_items": [
             {
                 "text": "Breadth",
@@ -506,10 +506,10 @@
             }
         ],
         "_feedback":{
-            "correct":"<h5>That’s right!</h5><p>Hidden data can increase the relevance and quality of the data, the breadth available and highlight the context in which the data is used.</p>",
+            "correct":"<h5>Vous avez raison !</h5><p>Trouver les données cachées peut augmenter la pertinence et la qualité des données, l’ampleur disponible et souligner le contexte dans lequel on utilise les données.</p>",
             "_incorrect": {
-                "notFinal": "<h5>Hidden data can increase the relevance and quality of the data, the breadth available and highlight the context in which the data is used.</p>",
-                "final": "<h5>Hidden data can increase the relevance and quality of the data, the breadth available and highlight the context in which the data is used.</p>"
+                "notFinal": "<h5>Trouver les données cachées peut augmenter la pertinence et la qualité des données, l’ampleur disponible et souligner le contexte dans lequel on utilise les données.</p>",
+                "final": "<h5>Trouver les données cachées peut augmenter la pertinence et la qualité des données, l’ampleur disponible et souligner le contexte dans lequel on utilise les données.</p>"
             },
             "_partlyCorrect": {
                 "notFinal": "Hidden data can increase the relevance and quality of the data, the breadth available and highlight the context in which the data is used.",
@@ -517,7 +517,7 @@
           }
         },
         "_buttons":{
-            "submit":"",
+            "submit":"Soumettre",
             "reset":"",
             "showCorrectAnswer":"",
             "hideCorrectAnswer":""
@@ -555,33 +555,33 @@
         "_questionWeight":1,
         "_isRandom":true,
         "_selectable":1,
-        "title": "How might you extract hidden data form a website?",
-        "displayTitle": "How might you extract hidden data form a website?",
-        "body": "<p>Which of the following is a useful way to extract hidden data from the website?</p>",
-        "instruction": "<em>Select an option, then click 'Submit'.</em>",
+        "title": "Comment extraire les données cachées d’un site Web ?",
+        "displayTitle": "Comment extraire les données cachées d’un site Web ?",
+        "body": "<p>Lesquels des points suivants est une façon utile d’extraire les données cachées du site Web ?</p>",
+        "instruction": "<em>Choisissez votre réponse et puis cliquez sur ‘Soumettre’.</em>",
         "_items": [
             {
-                "text": "Caching the website link",
+                "text": "Mettre le lien du site Web en cache",
                 "_shouldBeSelected": false
             },
             {
-                "text": "Reloading the page",
+                "text": "Recharger la page",
                 "_shouldBeSelected": false
             },
             {
-                "text": "Inspecting the source code",
+                "text": "Inspecter le code source",
                 "_shouldBeSelected": true
             }
         ],
         "_feedback":{
-            "correct":"<h5>That’s right!</h5><p>Inspecting the source code of a website often reveals hidden data embedded in the page</p>",
+            "correct":"<h5>Vous avez raison !</h5><p>Inspecter le code source d’un site Web révéle les données cachées intégrées dans la page.</p>",
             "_incorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>Inspecting the source code of a website often reveals hidden data embedded in the page</p>",
-                "final": "<h5>Are you sure about that?</h5><p>Hidden data can increase the relevance and quality of the data, the breadth available and highlight the context in which the data is used.</p>"
+                "notFinal": "<h5>Êtes vous sûr(e) ? </h5><p>Inspecter le code source d’un site Web révéle les données cachées intégrées dans la page.</p>",
+                "final": "<h5>Êtes vous sûr(e) ? </h5><p>Inspecter le code source d’un site Web révéle les données cachées intégrées dans la page.</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>Inspecting the source code of a website often reveals hidden data embedded in the page</p>",
-                "final": "<h5>Are you sure about that?</h5><p>Inspecting the source code of a website often reveals hidden data embedded in the page</p>"
+                "notFinal": "<h5>Êtes vous sûr(e) ? </h5><p>Inspecting the source code of a website often reveals hidden data embedded in the page</p>",
+                "final": "<h5>Êtes vous sûr(e) ? </h5><p>Inspecting the source code of a website often reveals hidden data embedded in the page</p>"
           }
         },
         "_buttons":{
@@ -619,9 +619,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Finding hidden data",
-        "displayTitle":"Finding hidden data",
-        "body":"<p>Data available for download is only a small fraction of data available on the web.</p><p>While the human eye cannot always see this data, it is possible to identify and grab a wealth of new data using machines.</p><p>The data accessed from these websites is often much broader and more relevant to your work that downloadable files and also draws directly from the context in which the publisher is already using it.</p><p>By raising your awareness of hidden data and learning some of the simple approaches in this module, such as extension queries and APIs, you will be able to access a broad range of relevant data for your future work.</p>",
+        "title":"Trouver les données cachées",
+        "displayTitle":"Trouver les données cachées",
+        "body":"<p>Les données téléchargeables ne représent qu’une petite fraction des données disponibles sur le Web.</p><p>Alors que l’œil humain ne voit pas toujours ces données, il est possible d’identifier et prendre une quantité vaste des nouvelles données en utilisant des machines.</p><p>Les données accédées de ces sites Web sont souvent plus vastes et pertinentes que les fichiers téléchargeables et tirent directement du contexte déjà utilisé par l’éditeur.</p><p>En augmentant votre connaissance des données cachées et en apprenant quelques approches simples, telles que les requêtes d’extension et les API, vous seriez capable d’accéder une vaste étendue des données pertinentes à votre travail à l’avenir.</p>",
         "_pageLevelProgress": {
           "_isEnabled": true
         }
