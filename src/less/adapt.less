@@ -3373,15 +3373,6 @@ a, button {-webkit-tap-highlight-color: rgba(0,0,0,0.2);}
             font-weight: @font-weight-light;
         }
     }
-    .mcq-widget.disabled .mcq-item label.disabled {
-        background: #ddd;
-        h5 {
-            color: #999;
-        }
-    }
-    .mcq-widget.disabled .mcq-item label.selected.disabled h5 {
-        color: #fff;
-    }
 }
 .no-touch {
     .inverted {
@@ -4250,34 +4241,32 @@ body {
 // @odi-color-four: dark green
 // @odi-color-five: purple
 // @odi-color-six: dark blue
-// @odi-color-seven: red
+// @odi-color-seven: red 
 // @odi-color-eight: pink
 // @odi-color-nine: magenta
 // @odi-color-ten: light green
 
 .b-10 {
-    background: #722ea5;
-}
-
-.b-25 {
-    background: #ff6700;
+    background: @odi-color-five url('assets/stamp.png');
 }
 
 .b-30 {
-    background: #08def9;
+    background: @odi-color-four;
 }
 
-.b-35 {
-    background: #1dd3a7;
+.b-50 {
+    background: @odi-color-eight url('assets/polygon.png');
 }
 
-.b-45 {
-    background: #ef3aab;
+.b-70 {
+    background: @odi-color-six;
 }
-.notify .notify-popup a {
-    color:#fff;
-    text-decoration: underline;
+
+.b-90 {
+    background: @odi-color-three;
+
 }
+
 
 // =========
 // Variables
