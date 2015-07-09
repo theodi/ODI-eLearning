@@ -352,10 +352,10 @@
             }
         ],
         "_feedback":{
-            "correct":"L’open data non-propre est un problème parce qu’il peut donner lieu aux fausse conclusions. Celui-ci ne devrait pas empêcher la publication ou l’utilisation des données, cependant il faut nettoyer les données.",
+            "correct":"<h5>Vous avez raison !</h5><p>L’open data non-propre est un problème parce qu’il peut donner lieu aux fausse conclusions. Celui-ci ne devrait pas empêcher la publication ou l’utilisation des données, cependant il faut nettoyer les données.</p>",
             "_incorrect": {
-                "notFinal": "L’open data non-propre est un problème parce qu’il peut donner lieu aux fausse conclusions. Celui-ci ne devrait pas empêcher la publication ou l’utilisation des données, cependant il faut nettoyer les données.",
-                "final": "L’open data non-propre est un problème parce qu’il peut donner lieu aux fausse conclusions. Celui-ci ne devrait pas empêcher la publication ou l’utilisation des données, cependant il faut nettoyer les données."
+                "notFinal": "<h5>Êtes vous sûr(e) ? </h5><p>L’open data non-propre est un problème parce qu’il peut donner lieu aux fausse conclusions. Celui-ci ne devrait pas empêcher la publication ou l’utilisation des données, cependant il faut nettoyer les données.</p>",
+                "final": "<h5>Êtes vous sûr(e) ? </h5><p>L’open data non-propre est un problème parce qu’il peut donner lieu aux fausse conclusions. Celui-ci ne devrait pas empêcher la publication ou l’utilisation des données, cependant il faut nettoyer les données.</p>"
             },
             "_partlyCorrect": {
                 "notFinal": "Messy data is a problem because it can result in the wrong conclusions being made. This should not prevent the publication or use of the data, however cleaning must be performed.",
@@ -401,29 +401,29 @@
         "_questionWeight":1,
         "_isRandom":true,
         "_selectable":1,
-        "title": "What are two of the most useful tools for cleaning data?",
-        "displayTitle": "What are two of the most useful tools for cleaning data?",
-        "body": "<p>Which of these pairs of tools are the most useful for cleaning data?</p>",
-        "instruction": "<em>Choose one answer</em>",
+        "title": "Quels sont deux des outils les plus utiles pour nettoyer l’open data ?",
+        "displayTitle": "Quels sont deux des outils les plus utiles pour nettoyer l’open data ?",
+        "body": "<p>Lesquelles de les paires suivantes sont les plus utiles pour nettoyer l’open data ?</p>",
+        "instruction": "<em>Choisissez votre réponse et puis cliquez sur ‘soumettre’.</em>",
         "_items": [
             {
-                "text": "Microsoft Access and Adobe Photoshop",
+                "text": "Microsoft Access et Adobe Photoshop",
                 "_shouldBeSelected": false
             },
             {
-                "text": "Apple Notes and Microsoft Word",
+                "text": "Apple Notes et Microsoft Word",
                 "_shouldBeSelected": false
             },
             {
-                "text": "Microsoft Excel and Open Refine",
+                "text": "Microsoft Excel et Open Refine",
                 "_shouldBeSelected": true
             }
         ],
         "_feedback":{
-            "correct":"Open refine and Excel (or equivalent spreadsheet editors) are two of the most useful tools for cleaning up open data",
+            "correct":"<h5>Vous avez raison !</h5><p>Open refine et Excel (ou un programme de feuille calcul semblable) sont les plus utiles pour nettoyer l’open data ?</p>",
             "_incorrect": {
-                "notFinal": "Open refine and Excel (or equivalent spreadsheet editors) are two of the most useful tools for cleaning up open data",
-                "final": "Open refine and Excel (or equivalent spreadsheet editors) are two of the most useful tools for cleaning up open data"
+                "notFinal": "<h5>Êtes vous sûr(e) ? </h5><p>Open refine et Excel (ou un programme de feuille calcul semblable) sont les plus utiles pour nettoyer l’open data ?</p>",
+                "final": "<h5>Êtes vous sûr(e) ? </h5><p>Open refine et Excel (ou un programme de feuille calcul semblable) sont les plus utiles pour nettoyer l’open data ?</p>"
             },
             "_partlyCorrect": {
                 "notFinal": "Open refine and Excel (or equivalent spreadsheet editors) are two of the most useful tools for cleaning up open data",
@@ -469,37 +469,37 @@
         "_questionWeight":1,
         "_isRandom":true,
         "_selectable":3,
-        "title": "Recognising errors",
-        "displayTitle": "Recognising errors",
-        "body": "<p>Which are the following are errors in data that require cleaning?</p>",
-        "instruction": "<em>Choose three answers</em>",
+        "title": "Reconnaître des erreurs",
+        "displayTitle": "Reconnaître des erreurs",
+        "body": "<p>Lesquels des points suivants sont des erreurs des données qu’il faut nettoyer ?</p>",
+        "instruction": "<em>Choisissez trois réponses et puis cliquez sur ‘soumettre’.</em>",
         "_items": [
             {
-                "text": "Mixed numerical scales",
+                "text": "Des échelles numériques mixtes",
                 "_shouldBeSelected": true
             },
             {
-                "text": "Lack of granularity",
+                "text": "Une manque de granularité",
                 "_shouldBeSelected": false
             },
             {
-                "text": "Redundant data",
+                "text": "Des données redondantes",
                 "_shouldBeSelected": true
             },
             {
-                "text": "No license",
+                "text": "Aucune licence",
                 "_shouldBeSelected": false
             },
             {
-                "text": "Multiple representations",
+                "text": "Des représentations multiples",
                 "_shouldBeSelected": true
             }
         ],
         "_feedback":{
-            "correct":"Mixed use of scales, redundant data and multiple representations of the same data are just some of the errors that need to be fixed in messy data. While the granularity and lack of licence are a problem, they are not related to the data itself being messy.",
+            "correct":"<h5>Vous avez raison !</h5><p>Des échelles numériques mixtes, des données redondantes et des représentations multiples des mêmes données ne sont que quelques erreurs de données non-propres qu’il faut corrigir. Bien que la manque de granularité et une licence soit un problème, elle n’est pas directement liée au fait que les données ne sont pas propres.</p>",
             "_incorrect": {
-                "notFinal": "Mixed use of scales, redundant data and multiple representations of the same data are just some of the errors that need to be fixed in messy data. While the granularity and lack of licence are a problem, they are not related to the data itself being messy.",
-                "final": "Mixed use of scales, redundant data and multiple representations of the same data are just some of the errors that need to be fixed in messy data. While the granularity and lack of licence are a problem, they are not related to the data itself being messy."
+                "notFinal": "<h5>Êtes vous sûr(e) ? </h5><p>Des échelles numériques mixtes, des données redondantes et des représentations multiples des mêmes données ne sont que quelques erreurs de données non-propres qu’il faut corrigir. Bien que la manque de granularité et une licence soit un problème, elle n’est pas directement liée au fait que les données ne sont pas propres.</p>",
+                "final": "<h5>Êtes vous sûr(e) ? </h5><p>Des échelles numériques mixtes, des données redondantes et des représentations multiples des mêmes données ne sont que quelques erreurs de données non-propres qu’il faut corrigir. Bien que la manque de granularité et une licence soit un problème, elle n’est pas directement liée au fait que les données ne sont pas propres.</p>"
             },
             "_partlyCorrect": {
                 "notFinal": "Mixed use of scales, redundant data and multiple representations of the same data are just some of the errors that need to be fixed in messy data. While the granularity and lack of licence are a problem, they are not related to the data itself being messy.",
@@ -545,29 +545,29 @@
         "_questionWeight":1,
         "_isRandom":true,
         "_selectable":1,
-        "title": "How much time should be spent cleaning and preparing data?",
-        "displayTitle": "How much time should be spent cleaning and preparing data?",
-        "body": "<p>In any given data driven project, How much time should be spent cleaning and prepareing data?</p>",
-        "instruction": "<em>Choose one answer</em>",
+        "title": "Combien de temps devrait-on prendre en nettoyant et préparant les données ?",
+        "displayTitle": "Combien de temps devrait-on prendre en nettoyant et préparant les données ?",
+        "body": "<p>Dans tout projet orienté données, combien de temps devrait-on prendre en nettoyant et préparant les données ?</p>",
+        "instruction": "<em>Choisissez votre réponse et puis cliquez sur ‘soumettre’.</em>",
         "_items": [
             {
-                "text": "Between 20% and 40%",
+                "text": "Entre 20% et 40%",
                 "_shouldBeSelected": false
             },
             {
-                "text": "Between 40% and 60%",
+                "text": "Entre 40% et 60%",
                 "_shouldBeSelected": false
             },
             {
-                "text": "Between 60% and 80%",
+                "text": "Entre 60% et 80%",
                 "_shouldBeSelected": true
             }
         ],
         "_feedback":{
-            "correct":"vidence suggests that between 60% and 80% of a data projects time will be spent cleaning, transforming and preparing data for analysis.",
+            "correct":"<h5>Vous avez raison !</h5><p>L’évidence suggère que le processus de nettoyer, transformer et préparer les données pour l’analyse prend entre 60 et 80% du temps total d’un projet orienté données.</p>",
             "_incorrect": {
-                "notFinal": "vidence suggests that between 60% and 80% of a data projects time will be spent cleaning, transforming and preparing data for analysis.",
-                "final": "vidence suggests that between 60% and 80% of a data projects time will be spent cleaning, transforming and preparing data for analysis."
+                "notFinal": "<h5>Êtes vous sûr(e) ? </h5><p>L’évidence suggère que le processus de nettoyer, transformer et préparer les données pour l’analyse prend entre 60 et 80% du temps total d’un projet orienté données.</p>",
+                "final": "<h5>Êtes vous sûr(e) ? </h5><p>L’évidence suggère que le processus de nettoyer, transformer et préparer les données pour l’analyse prend entre 60 et 80% du temps total d’un projet orienté données.</p>"
             },
             "_partlyCorrect": {
                 "notFinal": "vidence suggests that between 60% and 80% of a data projects time will be spent cleaning, transforming and preparing data for analysis.",
@@ -609,9 +609,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Summary",
-        "displayTitle":"Summary",
-        "body":"<p>Data cleaning is essential to ensure that when it is used, the right conclusions are made.<br><br>Not all errors are intentional and understanding the context in which the data was collected will help the cleaning process.<br><br>Be aware that cleaning may take longer than you think. A carefully executing cleaning process will however save substantial time in the long run.<br><br>Follow our data cleaning exercise to get started with Open Refine and discover how easy it is for yourself.<br><br><a class='course_link' href='http://training.theodi.org/resources/Cleaning_Exercise.pdf' target='_blank'>Take me to the Open Refine exersice</a>",
+        "title":"Le nettoyage des données",
+        "displayTitle":"Le nettoyage des données",
+        "body":"<p>Le nettoyage des données est essentiel à assurer que les bonnes conclusions sont prises des données.</p><p>Souvent l’éditeur ne remarque pas des erreurs parce que les données changent depuis de nombreuses années. Parfois, les erreurs sont humaines, en résultant de la saisie de données, telles que des fautes typographiques ou des fausses abréviations.</p>,p>Notez que le nettoyage prendrait plus de temps que vous pensez. Un processus de nettoyage soigneux gagnera du temps à long-terme.</p><p>Suivez notre exercice du nettoyage des données pour explorer Open Refine et découvrez vous même comme il est facile.</p><p><a class='course_link' href='http://training.theodi.org/resources/Cleaning_Exercise.pdf' target='_blank'>Découvrez le nettoyage des données avec Open Refine</a>",
         "_pageLevelProgress": {
           "_isEnabled": true
         }
