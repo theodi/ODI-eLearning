@@ -30,7 +30,7 @@
         "_layout":"left",
         "title":"What is open data?",
         "displayTitle":"What is open data?",
-        "body":"<p>Open data is <strong>data</strong> that <strong>anyone</strong> can <strong>access</strong>, <strong>use</strong> and <strong>share</strong>. OGovernments, businesses and individuals can use open data to bring about social, economic and environmental benefits.</p><h5>In this module we’ll look at:</h5><ul class='ticks'><li>What is open data?</li><li>What is data?</li><li>What makes data open?</li><li>Why do we need open data?</li></ul>",
+        "body":"<p>Open data is <strong>data</strong> that <strong>anyone</strong> can <strong>access</strong>, <strong>use</strong> and <strong>share</strong>. Governments, businesses and individuals can use open data to bring about social, economic and environmental benefits.</p><h5>In this module we’ll explore the following:</h5><ul class='ticks'><li>What is open data?</li><li>What is data?</li><li>What makes data open?</li><li>Why do we need open data?</li></ul>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
@@ -87,7 +87,7 @@
         "_layout":"left",
         "title":"What is open data?",
         "displayTitle":"What is open data?",
-        "body":"<p>Open data is <strong>data</strong> that <strong>anyone</strong> can <strong>access</strong>, <strong>use</strong> and <strong>share</strong>.</p><p>Open data becomes acData becomes useable through being available in a common, machine-readable format.</p><p>Open data must be licensed. This licence must permit the data to be freely used and allow users to transform, combine and share it with others, even commercially.</p>"
+        "body":"<p>Open data is <strong>data</strong> that <strong>anyone</strong> can <strong>access</strong>, <strong>use</strong> and <strong>share</strong>.</p><p>Open data becomes useable through being available in a common, machine-readable format.</p><p>Open data must be licensed. This licence must permit the data to be freely used and allow users to transform, combine and share it with others, even commercially.</p>"
     },
      {
         "_id": "c-25",
@@ -188,7 +188,7 @@
         {
           "alt": "Reuse",
           "title": "Reuse",
-          "body": "<p>Once the user has the data, they are free to use, reuse and redistribute it – even commercially.</p><p>Open data is measured by what it can be used for, not by how it is made available.</p><p>AAspects like format, structure and machine readability all make data more usable, and should all be carefully considered.</p><p>However, these do not make the data more open.</p>"
+          "body": "<p>Once the user has the data, they are free to use, reuse and redistribute it – even commercially.</p><p>Open data is measured by what it can be used for, not by how it is made available.</p><p>Aspects like format, structure and machine readability all make data more usable, and should all be carefully considered.</p><p>However, these do not make the data more open.</p>"
         }
       ],
       "_pageLevelProgress": {
@@ -315,8 +315,8 @@
         "_selectable":1,
         "title": "What is open data?",
         "displayTitle": "What is open data?",
-        "body": "<p>Open data is-</p>",
-        "instruction": "<em>Choose your answer, then click Submit.</em>",
+        "body": "<p>Open data is...</p>",
+        "instruction": "<em>Choose your answer, then click 'Submit'.</em>",
         "_items": [
             {
                 "text": "information that we sell to businesses.",
@@ -389,8 +389,8 @@
         "_selectable":1,
         "title": "What is data?",
         "displayTitle": "What is data?",
-        "body": "<p>Data is-</p>",
-        "instruction": "<em>Choose your answer, then click Submit.</em>",
+        "body": "<p>Data is...</p>",
+        "instruction": "<em>Choose your answer, then click 'Submit'.</em>",
         "_items": [
             {
                 "text": "numbers, words, maps and photos.",
@@ -457,8 +457,8 @@
         "_selectable":1,
         "title": "What makes data open?",
         "displayTitle": "What makes data open?",
-        "body": "<p>Open data should be-</p>",
-        "instruction": "<em>Choose your answer, then click Submit.</em>",
+        "body": "<p>Open data should be...</p>",
+        "instruction": "<em>Choose your answer, then click 'Submit'.</em>",
         "_items": [
             {
                 "text": "free of restrictions for its use.",
@@ -474,10 +474,10 @@
             }
         ],
         "_feedback":{
-            "correct":"<h5>That’s right!</h5><p>If something restricts the free use of the data (such as a non-commercial restriction), then this would not qualify as being open data.</p>",
+            "correct":"<h5>That’s right!</h5><p>If something restricts the free use of the data, such as a non-commercial restriction, then this would not qualify as being open data.</p>",
             "_incorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>If something restricts the free use of the data (such as a non-commercial restriction), then this would not qualify as being open data.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>If something restricts the free use of the data (such as a non-commercial restriction), then this would not qualify as being open data.</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>If something restricts the free use of the data, such as a non-commercial restriction, then this would not qualify as being open data.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>If something restricts the free use of the data, such as a non-commercial restriction, then this would not qualify as being open data.</p>"
             },
             "_partlyCorrect": {
                 "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
@@ -526,10 +526,10 @@
         "title": "Why do we need open data?",
         "displayTitle": "Why do we need open data?",
         "body": "<p>What does open data have the power to do?</p>",
-        "instruction": "<em>Choose your answer, then click Submit.</em>",
+        "instruction": "<em>Choose your answer, then click 'Submit'.</em>",
         "_items": [
             {
-                "text": "Give access to other datasets.",
+                "text": "give access to other datasets.",
                 "_shouldBeSelected": false
             },
             {
@@ -537,7 +537,7 @@
                 "_shouldBeSelected": false
             },
             {
-                "text": "Open data can unlock social, environmental and economic value.",
+                "text": "open data can unlock social, environmental and economic value.",
                 "_shouldBeSelected": true
             }
         ],
