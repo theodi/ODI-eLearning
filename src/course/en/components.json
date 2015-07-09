@@ -28,9 +28,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Why worry about messy data?",
-        "displayTitle":"Why worry about messy data?",
-        "body":"<p>One of the biggest problems with all data is the number of errors. Often these errors will not be intentional and may exist simply because situations have changed over many years.<br><br>Other times these errors are there because of mistyped data or the tendency to shorten text.</p><h5>In this module we'll look at:</h5><ul class='ticks'><li>What errors exist in data</li><li>The data cleaning toolkit</li><li>Why clean data</li></ul>",
+        "title":"How to clean your data",
+        "displayTitle":"How to clean your data",
+        "body":"<p>One of the biggest challenges when working with any data is errors. Often errors are not even noticed by data publishers because the data can change over many years. In other cases, errors can be the result of human mistakes in data entry, like mistyping or incorrect abbreviations.</p><p>When working with any data, it is important to know how to find errors and correct them to make the data more useful.</p><h5>In this module we'll explore the following:</h5><ul class='ticks'><li>Common data errors</li><li>Useful data cleaning tools</li><li>Why clean data?</li></ul>",
         "_pageLevelProgress": {
             "_isEnabled": true
         }
@@ -42,9 +42,9 @@
         "_component":"iFrame-vimeo",
         "_classes":"",
         "_layout":"full",
-        "title":"Open data cleaning – in two minutes",
-        "displayTitle": "Open data cleaning – in two minutes",
-        "body": "The ODI’s David Tarrant explains why clean data is important for creating new value, how to go about cleaning up data you find and introduces some helpful tools to support you",
+        "title":"Data cleaning – in 2 minutes",
+        "displayTitle": "Data cleaning – in 2 minutes",
+        "body": "ODI Trainer David Tarrant explains why clean open data is important, how to clean open data you find and what tools are available to support you.",
         "instruction": "",
         "_setCompletionOn":"ended",
         "_source": "https://player.vimeo.com/video/129197207",
@@ -84,9 +84,9 @@
         "_component":"text",
         "_classes":"inverted",
         "_layout":"right",
-        "title":"What do we mean by clean open data?",
-        "displayTitle":"Turning data to diamonds: what do we mean by clean open data?",
-        "body":"Clean data has been processed in order to best suit the intended usage. There are many stages to data preparation and cleaning is one of the most essential.<br><br>Clean data should be consistent, free from duplication and ready for machine consumption.<br><br>With clean data, it is much easier to combine with other data to reveal insight."
+        "title":"Revealing the value: what do we mean by clean data?",
+        "displayTitle":"Revealing the value: what do we mean by clean data?",
+        "body":"<p>Clean data is important to ensure you have a reliable starting point for working with the data and creating new value.</p><p>Clean data is data that is consisten t, free from duplication and ready for machine consumption.</p><p>If data is clean, it is easier to combine different datasets and gain deeper insights.<p>"
         },
      {
         "_id":"c-32",
@@ -115,43 +115,43 @@
       "_layout":"left",
       "title": "Common errors in data",
       "displayTitle": "Common errors in data",
-      "body": "There are a number of common errors in data that you should look out for in any dataset.",
-      "instruction": "<em>Click the headings to learn more.</em>",
+      "body": "There are a number of common errors in data that you should look out for in any dataset you are working with.",
+      "instruction": "<em>Click the forward arrow to see more.</em>",
       "_items": [
         {
           "alt": "Wrong date formats",
           "title": "Wrong date formats",
-          "body": "<p>Mixed date formats are sometimes simple to spot:<br><br>8-Sep-2013 vs 8/9/2013<br><br>and sometimes not:<br><br>8/9/2013 vs 9/8/2013.<br><br>Additionally some applications (like excel) will guess the format when a data file is loaded, hiding how it is actually written in the file.<br><br>The most common error is the mixed use of americn (MM/DD/YYYY) and British (DD/MM/YYYY) format as shown.</p>"
+          "body": "<p>Dates can be written in inconsistent ways. Mixed date formats are sometimes simple to spot:<br><br>8-sep-2013 vs 8/9/2013<br><br>and sometimes less obvious:<br><br>8/9/2013 vs 9/8/2013.<br><br>An additional challenge is that some applications, like Excel, will ‘guess’ the format when a dataset is opened which can hide how dates are actually written in the file.</p><p>The most common error is the mixed use of American (MM/DD/YYYY) and European (DD/MM/YYYY) format.</p>"
         },
         {
           "alt": "Multiple representations",
           "title": "Multiple representations",
-          "body": "<p>Due to the ways that people like to save time in data entry by abbreviating everything, it is very common to end up with several different representations of the same thing.<br><br>Additionally, differences in capitalisation, spacing and genders of adjectives can cause issues.</p>"
+          "body": "<p>People often try to save time when entering data by abbreviating terms. If these abbreviations are not consistent, it can cause errors in the dataset.</p><p>Differences in capitalisation, spacing and genders of adjectives can all cause errors.</p>"
         },
         {
           "alt": "Duplicate records",
           "title": "Duplicate records",
-          "body": "<p>Duplicate records often occur when datasets have been combined or because it was not known there was a record already at the point of entry.<br><br>Detecting these can be a little more challenging but no less essential in the cleaning process.</p>"
+          "body": "<p>A duplicate record is where the same piece of data has been entered more than once. Duplicate records often occur when datasets have been combined or because it was not known there was already an entry.</p>"
         },
         {
           "alt": "Redundant data",
           "title": "Redundant data",
-          "body": "<p>Redundant data may have been created in order to provide a certain view on the data, however it is not adding any detail to the data and in most cases can be recalculated from the data itself.<br><br>Common occurrences of redundant data include summation (total) rows. To a machine these are data rows and would represent the record with the biggest values.<br><br>Other times columns of data have been combined or replicated in order to assist human readability.</p>"
+          "body": "<p>Redundant data is anything which is not relevant to your work with the dataset. Often a dataset has been created for a specific purpose which requires details you may not need.</p><p>Common occurrences of redundant data include rows that represent total amounts.</p><p>Other times columns of data have been combined or replicated in order to assist human readability.</p>"
         },
         {
           "alt": "Broken numerical scales",
           "title": "Broken numerical scales",
-          "body": "<p>Numerical values in datasets often use different scales to make it easier for a human to read. For example, in big project budget data the units are often in the millions. Thus 1200000 becomes 1.2m. This can lead to huge errors if even one of these records does not have the correct scale.<br><br>One trick is to check for a normal distribution in any numerical data and check the outliers.</p>"
+          "body": "<p>Numerical values in datasets often use different scales to make it easier for a human to read. In budget datasets, for example, the units are often in the millions. 1200000 often becomes 1.2m. However, smaller amounts like 800000 are still written in full. For a machine, this means they read the larger figure as 1.2 which causes errors.</p>"
         },
         {
           "alt": "Mixed ranges",
           "title": "Mixed ranges",
-          "body": "<p>Data will often be measured in ranges, e.g. age or salary ranges. In order for a machine to understand these ranges it is important to separate the high and low values.</p>"
+          "body": "<p>Data is sometimes be measured in ranges, such as age or salary range. In order for a machine to understand these ranges it is important to separate the high and low values.</p>"
         },
         {
           "alt": "Spelling errors",
           "title": "Spelling errors",
-          "body": "<p>Obvious when it comes to documents, however when processing data spelling errors are often overlooked.<br><br>Don’t forget to run your data through a spell checker and also look for localization/localisation.</p>"
+          "body": "<p>Spelling errors are often difficult to identify in tabular data.</p><p>Don’t forget to also run your data through a spell checker to catch errors.</p>"
         }
       ],
       "_pageLevelProgress": {
@@ -167,12 +167,12 @@
         "_component": "narrative",
         "title": "The data cleaning toolkit",
         "displayTitle": "The data cleaning toolkit",
-        "body": "Without data, we can’t build information. And without information, there is no new knowledge",
-        "instruction": "<em>Click through the narrative component.</em>",
+        "body": "Without clean data, we can’t build information. There are a number of useful tools that can help the process of cleaning data.",
+        "instruction": "<em>Click the forward arrow to see more</em>",
         "_items": [
             {
                 "title": "The data cleaning toolkit",
-                "body": "It may be necessary to download and upload your data between many tools for cleaning and processing. Remember to also keep a note of what changes have been made and share these with others. Some of the tools can even help you do this<br><br>In this section we look at two of the main tools and their uses:</h5><ul class='bullet'><li>Open refine</li><li>Excel & similar spreadsheet programmes</li></ul>",
+                "body": "<p>When you are looking for errors in data, it may be necessary to download and upload datasets between many tools for cleaning and processing.</p><p>It is also important to keep a note of what changes have been made and share these openly with others so that everyone can benefit from your work, particularly if the data you are cleaning is existing published open data.</p><p>In this section we look at two of the main tools and their uses:</h5><ul class='bullet'><li>Open Refine</li><li>Excel & similar spreadsheet programmes</li></ul></p>",
                 "_graphic": {
                     "src": "course/en/images/odi-003.jpg",
                     "alt": "A toolkit",
@@ -185,7 +185,7 @@
             },
             {
                 "title": "Open Refine",
-                "body": "Open Refine is a powerful software tool designed specifically to deal with messy data. It is a column-based browser that applies facets to the data in order to cleaning fix errors across the entire dataset including:</h5><ul class='bullet'><li>Date formats</li><li>Multiple representations</li><li>Duplicate records</li><li>Redundant data</li><li>Broken numerical scales</li><li>Mixed ranges</li></ul>",
+                "body": "Open Refine is a software tool designed to deal with uncleaned data. The tool is a column-based browser that allows you to fix errors across an entire open dataset in a single action. The errors that can be fixed include:</h5><ul class='bullet'><li>Date formats</li><li>Multiple representations</li><li>Duplicate records</li><li>Redundant data</li><li>Broken numerical scales</li><li>Mixed ranges</li></ul>",
                 "_graphic": {
                     "src": "course/en/images/odi-004.jpg",
                     "alt": "Open refine",
@@ -198,7 +198,7 @@
             },
             {
                 "title": "Spreadsheet programmes",
-                "body": "Open Refine is the key tool for cleaning data, however sometimes it is easier to fix some errors in a spreadsheet:</h5><ul class='bullet'><li>Spelling errors</li><li>Redundant data</li><li>Numerical verification</li><li>Fixing shifted data</li></ul>",
+                "body": "Open Refine is a key tool for cleaning data. However, sometimes it is easier to fix some errors in a spreadsheet programme:</h5><ul class='bullet'><li>Spelling errors</li><li>Redundant data</li><li>Numerical verification</li><li>Fixing shifted data</li></ul>",
                 "_graphic": {
                     "src": "course/en/images/odi-005.jpg",
                     "alt": "Spreadsheet",
@@ -221,14 +221,14 @@
         "_type":"component",
         "_layout": "full",
         "_component": "narrative",
-        "title": "What are the benefits of cleaned data?",
-        "displayTitle": "What are the benefits of cleaned data?",
-        "body": "Now that we have some knowledge of the tools used to clean data we need to understand why the process can add value to your data use?",
-        "instruction": "<em>Click through the narrative component.</em>",
+        "title": "What are the benefits of cleaning data?",
+        "displayTitle": "What are the benefits of cleaning data?",
+        "body": "In addition to the tools that can be used to clean open data, it is important to understand why the process adds?",
+        "instruction": "<em>Click the forward arrow to see more.</em>",
         "_items": [
             {
                 "title": "Prioritise cleaning",
-                "body": "If data is not clean then any decisions made could be wrong. This could have a significant impact upon thousands or millions of people's lives.<br><br>It has been found that overall the process of preparing data for analysis can take anywhere between 60 and 80% of the time of a data driven project.<br><br>So make sure you take care with your data to ensure it is clean and ready for use.",
+                "body": "<p>If data is not clean then decisions made on the basis of it could be wrong. This can affect products or insights you develop from data and in some cases have an impact upon thousands or even millions of people. </p><p>A recent study found that the process of preparing data for analysis can take anywhere between 60 and 80% of the time of a data-driven project.</p>",
                 "_graphic": {
                     "src": "course/en/images/odi-006.jpg",
                     "alt": "Prioritise cleaning",
@@ -241,7 +241,7 @@
             },
             {
                 "title": "Enhance usability",
-                "body": "Sharing a clean dataset will enhance the usability of the data. Further tools like Open Refine allow the sharing of the change history, informing people what has been cleaned and how. Making the process open as well as the data adds to the sustainability and trust a user can put in a dataset.<br><br>Further there are data cleaning communities emerging which should be supported more actively. ",
+                "body": "<p>Sharing a clean open dataset will make the data more usable. Tools like Open Refine allow you to share change history which lets people know what has been cleaned and how. Making the process open as well as the data adds to the sustainability and trust a user can put in a dataset.</p><p>There are also data cleaning communities emerging such as OpenStreetMap communities and  which should be supported more actively.<br><br><a class='course_link' href='http://wiki.openstreetmap.org/wiki/WikiProject_Denmark' target='_blank'>Take me to OSM Denmark Community Wiki</a></p>",
                 "_graphic": {
                     "src": "course/en/images/odi-007.jpg",
                     "alt": "Prioritise cleaning",
@@ -254,7 +254,7 @@
             },
             {
                 "title": "Discover insights",
-                "body": "Many data cleaning tools, including Open Refine, also provide the ability to combine and enrich datasets.<br><br>Without a clean dataset, this process will only make the dataset messier and introduce further errors.<br><br>Careful preparation is essential to the success of any data driven project.",
+                "body": "<p>Many data cleaning tools, including Open Refine help you to combine and enrich datasets.</p><p>Without a clean dataset, this process will not be useful to you.</p><p>Careful preparation is essential to the success of any data driven project.</p>",
                 "_graphic": {
                     "src": "course/en/images/odi-008.jpg",
                     "alt": "Discover insights",
@@ -268,6 +268,40 @@
         ],
         "_pageLevelProgress": {
         "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-42",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/burst.png",
+            "medium": "course/en/images/burst.png",
+            "small": "course/en/images/burst.png"
+        }
+    },
+    {
+        "_id":"c-43",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Are you ready for quality open data?",
+        "displayTitle":"Are you ready for quality open data?",
+        "body":"<p>Can you recall the practical, technical, legal and social requirements for an open dataset to be useful?</p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
         }
     },
 {
@@ -299,10 +333,10 @@
         "_questionWeight":1,
         "_isRandom":true,
         "_selectable":1,
-        "title": "Why is messy data a problem?",
-        "displayTitle": "Why is messy data a problem?",
-        "body": "<p>Messy data is a problem because...</p>",
-        "instruction": "<em>Choose one answer</em>",
+        "title": "Why does data need to be cleaned?",
+        "displayTitle": "Why does data need to be cleaned?",
+        "body": "<p>Uncleaned open data is a problem because:</p>",
+        "instruction": "<em>Choose one answer and click 'submit'.</em>",
         "_items": [
             {
                 "text": "It cannot be plotted on a chart",
@@ -318,10 +352,10 @@
             }
         ],
         "_feedback":{
-            "correct":"Messy data is a problem because it can result in the wrong conclusions being made. This should not prevent the publication or use of the data, however cleaning must be performed.",
+            "correct":"<h5>That's right!</h5><p>Messy data is a problem because it can result in the wrong conclusions being made. This should not prevent the publication or use of the data, however cleaning must be performed.</p>",
             "_incorrect": {
-                "notFinal": "Messy data is a problem because it can result in the wrong conclusions being made. This should not prevent the publication or use of the data, however cleaning must be performed.",
-                "final": "Messy data is a problem because it can result in the wrong conclusions being made. This should not prevent the publication or use of the data, however cleaning must be performed."
+                "notFinal": "<h5>Are you sure about that? </h5><p>Messy data is a problem because it can result in the wrong conclusions being made. This should not prevent the publication or use of the data, however cleaning must be performed.</p>",
+                "final": "<h5>Are you sure about that? </h5><p>Messy data is a problem because it can result in the wrong conclusions being made. This should not prevent the publication or use of the data, however cleaning must be performed.</p>"
             },
             "_partlyCorrect": {
                 "notFinal": "Messy data is a problem because it can result in the wrong conclusions being made. This should not prevent the publication or use of the data, however cleaning must be performed.",
@@ -370,7 +404,7 @@
         "title": "What are two of the most useful tools for cleaning data?",
         "displayTitle": "What are two of the most useful tools for cleaning data?",
         "body": "<p>Which of these pairs of tools are the most useful for cleaning data?</p>",
-        "instruction": "<em>Choose one answer</em>",
+        "instruction": "<em>Choose one answer and click 'submit'.</em>",
         "_items": [
             {
                 "text": "Microsoft Access and Adobe Photoshop",
@@ -386,10 +420,10 @@
             }
         ],
         "_feedback":{
-            "correct":"Open refine and Excel (or equivalent spreadsheet editors) are two of the most useful tools for cleaning up open data",
+            "correct":"<h5>That's right!</h5><p>Open Refine and Excel (or equivalent spreadsheet editors) are two of the most useful tools for cleaning up open data</p>",
             "_incorrect": {
-                "notFinal": "Open refine and Excel (or equivalent spreadsheet editors) are two of the most useful tools for cleaning up open data",
-                "final": "Open refine and Excel (or equivalent spreadsheet editors) are two of the most useful tools for cleaning up open data"
+                "notFinal": "<h5>Are you sure about that?</h5><p>Open Refine and Excel (or equivalent spreadsheet editors) are two of the most useful tools for cleaning up open data</p>",
+                "final": "<h5>Are you sure about that?</h5><p>Open Refine and Excel (or equivalent spreadsheet editors) are two of the most useful tools for cleaning up open data</p>"
             },
             "_partlyCorrect": {
                 "notFinal": "Open refine and Excel (or equivalent spreadsheet editors) are two of the most useful tools for cleaning up open data",
@@ -437,8 +471,8 @@
         "_selectable":3,
         "title": "Recognising errors",
         "displayTitle": "Recognising errors",
-        "body": "<p>Which are the following are errors in data that require cleaning?</p>",
-        "instruction": "<em>Choose three answers</em>",
+        "body": "<p>Which of the following are errors in data that require cleaning?</p>",
+        "instruction": "<em>Choose three answers and click 'submit'.</em>",
         "_items": [
             {
                 "text": "Mixed numerical scales",
@@ -462,14 +496,14 @@
             }
         ],
         "_feedback":{
-            "correct":"Mixed use of scales, redundant data and multiple representations of the same data are just some of the errors that need to be fixed in messy data. While the granularity and lack of licence are a problem, they are not related to the data itself being messy.",
+            "correct":"<h5>That's right!</h5><p>Mixed use of scales, redundant data and multiple representations of the same data are just some of the errors that need to be fixed in messy data. While the granularity and lack of licence are a problem, they are not related to the data itself being messy</p>",
             "_incorrect": {
-                "notFinal": "Mixed use of scales, redundant data and multiple representations of the same data are just some of the errors that need to be fixed in messy data. While the granularity and lack of licence are a problem, they are not related to the data itself being messy.",
-                "final": "Mixed use of scales, redundant data and multiple representations of the same data are just some of the errors that need to be fixed in messy data. While the granularity and lack of licence are a problem, they are not related to the data itself being messy."
+                "notFinal": "<h5>Are you sure about that? </h5><p>Mixed use of scales, redundant data and multiple representations of the same data are just some of the errors that need to be fixed in messy data. While the granularity and lack of licence are a problem, they are not related to the data itself being messy</p>",
+                "final": "<h5>Are you sure about that? </h5><p>Mixed use of scales, redundant data and multiple representations of the same data are just some of the errors that need to be fixed in messy data. While the granularity and lack of licence are a problem, they are not related to the data itself being messy</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "Mixed use of scales, redundant data and multiple representations of the same data are just some of the errors that need to be fixed in messy data. While the granularity and lack of licence are a problem, they are not related to the data itself being messy.",
-                "final": "Mixed use of scales, redundant data and multiple representations of the same data are just some of the errors that need to be fixed in messy data. While the granularity and lack of licence are a problem, they are not related to the data itself being messy."
+                "notFinal": "<h5>Are you sure about that? </h5><p>Mixed use of scales, redundant data and multiple representations of the same data are just some of the errors that need to be fixed in messy data. While the granularity and lack of licence are a problem, they are not related to the data itself being messy</p>",
+                "final": "<h5>Are you sure about that? </h5><p>Mixed use of scales, redundant data and multiple representations of the same data are just some of the errors that need to be fixed in messy data. While the granularity and lack of licence are a problem, they are not related to the data itself being messy</p>"
           }
         },
         "_buttons":{
@@ -512,9 +546,9 @@
         "_isRandom":true,
         "_selectable":1,
         "title": "How much time should be spent cleaning and preparing data?",
-        "displayTitle": "How much time should be spent cleaning and preparing data?",
-        "body": "<p>In any given data driven project, How much time should be spent cleaning and prepareing data?</p>",
-        "instruction": "<em>Choose one answer</em>",
+        "displayTitle": "CHow much time should be spent cleaning and preparing data?",
+        "body": "<p>In any given data driven project, how much time should be spent cleaning and preparing data?</p>",
+        "instruction": "<em>Choose one answer and click 'submit'.</em>",
         "_items": [
             {
                 "text": "Between 20% and 40%",
@@ -530,10 +564,10 @@
             }
         ],
         "_feedback":{
-            "correct":"vidence suggests that between 60% and 80% of a data projects time will be spent cleaning, transforming and preparing data for analysis.",
+            "correct":"<h5>That's right!</h5><p>Evidence suggests that between 60% and 80% of a data projects time will be spent cleaning, transforming and preparing data for analysis.</p>",
             "_incorrect": {
-                "notFinal": "vidence suggests that between 60% and 80% of a data projects time will be spent cleaning, transforming and preparing data for analysis.",
-                "final": "vidence suggests that between 60% and 80% of a data projects time will be spent cleaning, transforming and preparing data for analysis."
+                "notFinal": "<h5>Are you sure about that? </h5><p>Evidence suggests that between 60% and 80% of a data projects time will be spent cleaning, transforming and preparing data for analysis.</p>",
+                "final": "<h5>Are you sure about that? </h5><p>Evidence suggests that between 60% and 80% of a data projects time will be spent cleaning, transforming and preparing data for analysis.</p>"
             },
             "_partlyCorrect": {
                 "notFinal": "vidence suggests that between 60% and 80% of a data projects time will be spent cleaning, transforming and preparing data for analysis.",
@@ -575,9 +609,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Summary",
-        "displayTitle":"Summary",
-        "body":"<p>Data cleaning is essential to ensure that when it is used, the right conclusions are made.<br><br>Not all errors are intentional and understanding the context in which the data was collected will help the cleaning process.<br><br>Be aware that cleaning may take longer than you think. A carefully executing cleaning process will however save substantial time in the long run.<br><br>Follow our data cleaning exercise to get started with Open Refine and discover how easy it is for yourself.<br><br><a class='course_link' href='http://training.theodi.org/resources/Cleaning_Exercise.pdf' target='_blank'>Take me to the Open Refine exersice</a>",
+        "title":"Cleaning data",
+        "displayTitle":"Cleaning data",
+        "body":"<p>Data cleaning is essential to ensure that when the data is used, the right conclusions are made.</p><p>Often errors are not even noticed by data publishers because the data can change over many years. In other cases, errors can be the result of human mistakes in data entry, like mistyping or incorrect abbreviations.</p><p>Be aware that cleaning may take longer than you think. A careful cleaning process will, however, save substantial time in the long-run.</p><p>Follow our data cleaning exercise to get started with Open Refine and discover how easy it is for yourself.</p><p><a class='course_link' href='http://training.theodi.org/resources/Cleaning_Exercise.pdf' target='_blank'>Get started with data cleaning in Open Refine</a>",
         "_pageLevelProgress": {
           "_isEnabled": true
         }

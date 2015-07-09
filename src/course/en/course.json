@@ -23,15 +23,15 @@
         "_resourcesItems": [
             {
                 "_type": "document",
-                "title": "Resource example",
-                "description": "Click here to see a proposed button idea",
-                "_link": "course/en/pdf/adapt-framework-prototypes-buttons.pdf"
+                "title": "OSM Denmark Community Wiki",
+                "description": "Take me to OSM Denmark Community Wiki",
+                "_link": "http://wiki.openstreetmap.org/wiki/WikiProject_Denmark"
             },
             {
                 "_type": "document",
-                "title": "Example resource",
-                "description": "Click here to see a proposed button idea",
-                "_link": "course/en/pdf/adapt-framework-prototypes-buttons.pdf"
+                "title": "Open Refine Data Cleaning Exercise",
+                "description": "Get started with data cleaning in Open Refine",
+                "_link": "http://training.theodi.org/resources/Cleaning_Exercise.pdf"
             }
         ]
     },
@@ -214,6 +214,24 @@
         "_link": "http:\/\/theodi.org"
             }	
 	]
+    },
+    {
+        "title": "Music credits",
+        "description": "Click here to view image credits for this module",
+        "_filterButtons": {
+            "all": "All",
+            "document": "PDF",
+            "media": "Media",
+            "link": "Link"
+        },
+        "_resourcesItems": [
+        {
+        "_type": "link",
+        "title": "Your World - Delicate Beats",
+        "description": "Source: Premium Beat<br\/>Credit: leromin<br\/>Licence: Premium Beat Standard License",
+        "_link": "http:\/\/www.premiumbeat.com\/royalty_free_music/songs/your-world"
+    }
+    ]
     },
     {
         "title": "Open data",
