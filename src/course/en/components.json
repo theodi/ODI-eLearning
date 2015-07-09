@@ -28,9 +28,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Choosing the Right Format for Open Data",
-        "displayTitle":"Choosing the Right Format for Open Data",
-        "body":"<p>The format of an open dataset refers to the way the data is structured and made available for humans and machines.</p><p>Choosing the right format is critical to enable both the simple management of the data and ease of reuse.  It may be necessary for a publisher to use a  number of different formats in a number of different structures available via different delivery mechanisms.</p><h5>In this module we'll look at:</h5><ul class='ticks'><li>Why formats matter to open data</li><li>Choosing the correct structure</li><li>Access open data formats</li><li>Keeping it simple with CSV</li></ul>",
+        "title":"Choosing the right format for open data",
+        "displayTitle":"Choosing the right format for open data",
+        "body":"<p>The format of an open dataset is the way the data is structured and made available for humans and machines.</p><p>Choosing the right format enables simpler management and reuse of the data. To maximise reuse of the data, it may be necessary for a publisher to use a number of formats and structures available across different platforms that suit a user’s needs.</p><h5>In this module we'll look at:</h5><ul class='ticks'><li>Why formats matter to open data</li><li>Choosing the correct structure</li><li>Access open data formats</li><li>Keeping it simple with CSV</li></ul>",
         "_pageLevelProgress": {
             "_isEnabled": true
         }
@@ -43,8 +43,8 @@
         "_classes":"",
         "_layout":"full",
         "title":"Open data formats",
-        "displayTitle": "Simplifying open data licences – in two minutes",
-        "body": "The ODI’s David Tarrant explains why formats matter to open data how to choose the correct structure and formats and why CSV is a good starting point for most open data",
+        "displayTitle": "Open data formats",
+        "body": "ODI Trainer David Tarrant explains why formats matter in open data, how to choose the right structure and formats and why CSV is a good starting point for most tabular open data.",
         "instruction": "",
         "_setCompletionOn":"ended",
         "_source": "https://player.vimeo.com/video/129197202",
@@ -68,12 +68,12 @@
         "_component": "narrative",
         "title": "Usability, management and access",
         "displayTitle": "Usability, management and access",
-        "body": "<p>Open data must be available for anyone to access use and share. In this section we consider what formats maximise usability of the data, ease of access for everyone and makes management simple for publishers.</p>",
+        "body": "<p>OOpen data must be available for anyone to access use and share. In this section we consider what formats maximise usability of the data, ease of access for everyone and makes management simple for publishers.</p>",
         "instruction": "<em>Discover more using the arrows below.</em>",
         "_items": [
             {
                 "title": "Usability",
-                "body": "<p>The most usable format for data is likely to be the source format (e.g. Excel).While Excel is just one of many spreadsheet formats, its popularity can make publishing in others (like OpenDocument Spreadsheet) a barrier to use.</p><p>Excel also comes with additional content, like styling on tables and graphs of data. These all help to give context to a human who is trying to understand the data.</p>",
+                "body": "<p>The most usable format for data is likely to be one in which the dataset was first created. In many cases, this format may be a proprietary software programme like Microsoft Excel. While such programmes often have the ability to export data in other formats, their popularity can make publishing in a different format a barrier to reuse by others.</p><p>Additionally software programmes like Excel also come with richer content, like styling on tables and graphs of data. These can all help to give context to a human who is trying to understand the data.</p>",
                 "_graphic": {
                     "src": "course/en/images/odi-001.jpg",
                     "alt": "Usability",
@@ -86,7 +86,7 @@
             },
             {
                 "title": "Management",
-                "body": "<p>For some publishers, open data is now the main source for their data, even internally. Such strategies have many benefits:</p><ul><li>Increases knowledge of team on open data</li><li>Increases sustainability and trust of data</li><li>Creates clear innovation pathway</li></ul><p>Such examples include TfL with the transport data and the University of Southampton with its catering data.</p>",
+                "body": "<p>For some publishers, open data is now the main source for their data, even for staff in the publishing organisation. Using open data as a way for staff to access information inside an organisation has many benefits:</p><ul><li>Increases knowledge of team on open data</li><li>Increases sustainability and trust of data by making it a key component of the organisation’s operations</li><li>Creates clear opportiunities for innovation</li></ul>",
                 "_graphic": {
                     "src": "course/en/images/odi-002.jpg",
                     "alt": "Management",
@@ -99,7 +99,7 @@
             },
             {
                 "title": "Access",
-                "body": "<p>For open data to be accessible to everyone requires:</p><ul><li>An understandable format</li><li>A machine readable format</li><li>The highest reusable format</li><li>A format that doesn’t require expensive proprietary tools to access</li></ul><p>The format appropriate for each each may be different. A document (like a PDF) may make the data understandable, an excel file the most reusable and a CSV file the most accessible.</p>",
+                "body": "<p>For open data to be as accessible as possible, it must be:</p><ul><li>A format that the user can understand</li><li>A format that machines can read</li><li>A format that supports easy reuse of the data</li><li>A format that doesn’t require expensive tools to access</li></ul><p>The format appropriate for each dataset may be different. A document (like a PDF) may make the data the easiest for a human to understand but would not be the most readable for a machine. For this reason, accessibility is often achieved by making the same data available in a range of different formats.</p>",
                 "_graphic": {
                     "src": "course/en/images/odi-003.jpg",
                     "alt": "Access",
@@ -124,13 +124,13 @@
       "_layout":"full",
       "title": "Common data structures",
       "displayTitle": "Common data structures",
-      "body": "<p>Not all data will fit in an Excel file. As such different formats may have to be considered. It is important to look out for the following types of data structure.</p>",
+      "body": "<p>Not all data can be appropriately expressed as a spreadsheet. different file formats may have to be considered. There are three key structures to be aware of: tabular, hierarchical and network.</p>",
       "instruction": "<em>Discover more using the arrows below.</em>",
       "_items": [
         {
           "alt": "Tabular",
           "title": "Tabular",
-          "body": "<p>The most common structure is tabular. Here data is organised into rows and columns listing sequential values, such as expenditure.</p><p>If the data is record based the relationships between records are not important then tabular is an ideal structure. </p>",
+          "body": "<p>The most common structure is tabular. Data is organised into rows and columns listing sequential values, such as expenditure.</p><p>If the data is based on separate entries that are not linked to each other then a tabular file structure in a format such as CSV is ideal. An example of appropriate tabular data is the Italian data portal’s museum attendance figures.<br /><a href='http://www.datiopen.it/opendata/Visitatori_musei_pubblici_e_similari_titolo_d_accesso' target='_blank'>Take me to Italian Data Portal</a></p>",
           "_graphic": {
                     "src": "course/en/images/odi-004.jpg",
                     "alt": "Tabular",
@@ -144,7 +144,7 @@
         {
           "alt": "Hierarchical",
           "title": "Hierarchical",
-          "body": "<p>Hierarchical data shows the relationships between data points, such as a family tree or counties in each country. Here the relationships between data points is of critical importance, however such relationships can only exists as parent-child relationships in a hierarchical structure.</p>",
+          "body": "<p>Hierarchical data shows the relationships between data points, such as a family tree or counties in each country. If the dataset depends on the relationship between data points and follows a structure in which data points are linked in vertical ‘trees’, a hierarchical data structure in a format such as JSON is ideal. An example of appropriate hierarchical data is the business data from gov.uk.<br /><a href='https://www.gov.uk/browse/business.json' target='_blank'>Take me to the gov.uk business data</a></p>",
           "_graphic": {
                     "src": "course/en/images/odi-005.jpg",
                     "alt": "Hierarchical",
@@ -158,7 +158,7 @@
         {
           "alt": "Network",
           "title": "Network",
-          "body": "<p>Network structured data allows relationships to exist between any combination of elements in any direction.</p><p>A good example of a network data structure are social networks. Think of your friends and their friends on facebook or 1st, 2nd and 3rd degree contacts on Linkedin.<p><p>The web itself is a network, where pages can link to any number of other pages in any direction.</p>",
+          "body": "<p>Network structured data allows relationships to exist between any combination of elements in any direction.</p><p>A good example of a network data structure are social networks. Think of your network of friends and their friends on Facebook, consider first, second and third degree contacts on LinkedIn.<p><p>The web is another example of a network data structure, where web pages link to any number of other pages in any direction.</p>",
           "_graphic": {
                     "src": "course/en/images/odi-006.jpg",
                     "alt": "Network",
@@ -203,20 +203,20 @@
       "_component":"accordion",
       "_classes":"",
       "_layout":"left",
-      "title": "Accessing open data formats",
-      "displayTitle": "Accessing open data formats",
-      "body": "<p>With the formats decided it is important to deliver each in the correct way.</p><p>Not all data is suited for download. Some data may have to be split into parts. Other data may be out of date by the time it is published.</p>",
+      "title": "Finding open data in the right formats",
+      "displayTitle": "Finding open data in the right formats",
+      "body": "<p>As a user of open data, it is important to understand how publishers are delivering different formats to you for reuse.</p><p>Not all data is suitable for download either because it is too large, too regularly updated or too complex to expose as static files. Some data may need to be split into smaller parts. Other data may need to be published as live feeds to make sure it stays in date.</p>",
       "instruction": "<em>Click the headings to explore further.</em>",
       "_items": [
         {
           "alt": "Downloadable open data",
           "title": "Downloadable open data",
-          "body": "<p>Tabular data is the most suited for download. This is why government data portals are full of this type of data. However managing millions of rows of data may require other considerations:</p><ul><li>Should the data be split</li><li>How often should it be updated</li><li>How is a change in terminology managed with older data.</li></ul>"
+          "body": "<p>Tabular data is the most suited for download. This is why most government open data portals are predominantly tabular data. However managing millions of rows of data may require other considerations:</p><ul><li>Should the data be split into smaller datasets?</li><li>How often should the data  be updated?</li><li>How will changes in the way you publish affect the previous releases?</li></ul>"
         },
         {
           "alt": "Live data and data feeds",
           "title": "Live data and data feeds",
-          "body": "<p>Some data is not suitable for being made available as a downloadable file.</p><p>Much of this data is updated so regularly that it wouldn’t make sense to have lots of out of date downloads in existence. Conversely the data structure may make more sense to be provided via a machine interface.</p><p>Many services that make machine interfaces (known as APIs) available over the web. Such services can be directly integrated into other web applications.</p>"
+          "body": "<p>Some data is not suitable to be made available as a downloadable file.</p><p>Much of this data is updated so regularly that the file downloads would be too large for most users. This type of open data structure may be made available by a machine interface, also know as an API.</p><p>There are many services that make machine interfaces available over the web. These  services can be directly integrated into other web applications. For an example of an open data API, look at the Belgian railway company.<br /><a href='https://hello.irail.be/api/1-0/' target='_blank'>Take me to iRail API</a></p>"
         }
       ],
       "_pageLevelProgress": {
@@ -252,9 +252,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"CSV: Start here",
-        "displayTitle":"Choosing the Right Format for Open Data",
-        "body":"<p>When it comes open data, start with CSV.</p><p>A comma separated values (CSV) file is just that. Lines of data with each data point separated from the next by a comma. CSV is perfect for tabular data and can be easily loaded into and saved from applications like Excel, making it accessible to a wide range of users.</p><p>CSV, although it doesn’t maintain formatting and graphs like Excel formats, is an open, machine readable format. It represents the lowest common denominator for open data and should be welcomed wherever possible.</p>",
+        "title":"Choosing the right format for open data",
+        "displayTitle":"Choosing the right format for open data",
+        "body":"<p>When it comes to open data formats, start first with CSV.</p><p>A comma separated values (CSV) file is simply lines of data with each data point separated from the next by a comma. CSV is perfect for tabular data and can be easily loaded into and saved from applications like Excel, making it accessible to users.</p><p>Although CSV doesn’t maintain formatting and graphs like Excel formats, is an open, machine readable format. CSV represents the simplest format that still support broad reuse of open data. In other words, CSV is the ‘lowest common denominator’ for open data and should be welcomed wherever possible.</p>",
         "_pageLevelProgress": {
             "_isEnabled": true
         }
@@ -307,7 +307,7 @@
         "title": "Picking the right format.",
         "displayTitle": "Why is picking the right format for open data important?",
         "body": "<p>Why is picking the right format for open data important?</p>",
-        "instruction": "<em>Select an option, then click Submit.</em>",
+        "instruction": "<em>Select an option, then click 'Submit'.</em>",
         "_items": [
             {
                 "text": "Ensure that privacy is protected.",
@@ -318,7 +318,7 @@
                 "_shouldBeSelected": false
             },
             {
-                "text": "Ease Usability, management and access.",
+                "text": "Ease, usability, management and access.",
                 "_shouldBeSelected": true
             }
         ],
@@ -375,7 +375,7 @@
         "title": "Picking data structures.",
         "displayTitle": "Which data structure would you use for the data in the picture?",
         "body": "<p>Which data structure would you use for the data in the picture?</p>",
-        "instruction": "<em>Select an option, then click Submit.</em>",
+        "instruction": "<em>Select an option, then click 'Submit'.</em>",
         "_items": [
             {
                 "text": "Tabular",
@@ -440,9 +440,9 @@
         "_questionWeight":1,
         "_isRandom":true,
         "_selectable":1,
-        "title": "Minimum requirement.",
-        "displayTitle": "What format should be available wherever possible?",
-        "body": "<p>What format should be available wherever possible?</p>",
+        "title": "What format should open data be made available in wherever possible?",
+        "displayTitle": "What format should open data be made available in wherever possible?",
+        "body": "<p>What format should open data be made available in wherever possible?</p>",
         "instruction": "<em>Select an option, then click Submit.</em>",
         "_items": [
             {
@@ -454,7 +454,7 @@
                 "_shouldBeSelected": false
             },
             {
-                "text": "RDF",
+                "text": "DOC",
                 "_shouldBeSelected": false
             }
         ],
@@ -524,7 +524,7 @@
         "_layout":"left",
         "title":"Open data formats",
         "displayTitle":"Open data formats",
-        "body":"<p>The format of an open dataset refers to the way the data is structured and made available for humans and machines.</p><p>Choosing the right format is critical to enable both the simple management of the data and ease of reuse.  It may be necessary for a publisher to use a  number of different formats in a number of different structures available via different delivery mechanisms.</p><p>Wherever possible the CSV file format should be used for sharing open data. CSV is a simple to understand, highly reusable and machine readable format.</p>",
+        "body":"<p>The format of an open dataset is the way the data is structured and made available for humans and machines.</p><p>Choosing the right format enables simpler management and reuse of the data. To maximise reuse of the data, it may be necessary for a publisher to use a number of formats and structures available across different platforms that suit a user’s needs.</p><p>Wherever possible the CSV file format should be used for sharing open data. CSV is a simple to understand, highly reusable and machine readable format.</p>",
         "_pageLevelProgress": {
           "_isEnabled": true
         }
