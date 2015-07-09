@@ -30,7 +30,7 @@
         "_layout":"left",
         "title":"Getting to grips with platforms",
         "displayTitle":"Geting to grips with platforms",
-        "body":"<p>A platform is a major piece of software on which smaller pieces of software and content can be run. For open data, the largest platform is the web. However, lots of other purpose-built software helps simplify publishing open data and provides interactive tools for users to explore.</p><h5>In this module we’ll look at:</h5><ul class='ticks'><li>Recognising open data platforms</li><li>Understanding their importance to users</li><li>Evaluating the key options</li><li>Using platforms to explore data</li></ul>",
+        "body":"<p>A platform is a major piece of software on which smaller pieces of software and content can be run. For open data, the largest platform is the web. However, lots of other purpose-built software helps simplify publishing open data and provides interactive tools for users to explore.</p><h5>In this module we’ll explore the following:</h5><ul class='ticks'><li>Recognising open data platforms</li><li>Understanding their importance to users</li><li>Evaluating the key options</li><li>Using platforms to explore data</li></ul>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
@@ -103,7 +103,7 @@
         "_items": [
             {
                 "title": "Discoverable data",
-                "body": "<p>Open data platforms promote open data to users. Platforms are designed to allow users to quickly find and reuse relevant open data.</p><p>Platforms are search-optimised to make it easier to find relevant resources. Platforms also provide data feeds that can be discovered and indexed in systems across the web.</p><p>The data feeds of open data platforms allow search engines like Enigma.ioto to index open data and make it easier to find.</p><p>Discover more at enigma.io</p>",
+                "body": "<p>Open data platforms promote open data to users. Platforms are designed to allow users to quickly find and reuse relevant open data.</p><p>Platforms are search-optimised to make it easier to find relevant resources. Platforms also provide data feeds that can be discovered and indexed in systems across the web.</p><p>The data feeds of open data platforms allow search engines like Enigma.io to to index open data and make it easier to find.<br /><a href='http://www.enigma.io' target='_blank'>Discover more at enigma.io</a></p>",
                 "_graphic": {
                     "src": "course/en/images/odi-002.jpg",
                     "alt": "Discovery",
@@ -220,9 +220,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Open data platforms across Europe",
-        "displayTitle":"Open data platforms across Europe",
-        "body":"<p>Explore data platforms across europe.</p><p>Click on a country to discover more:</p>"
+        "title":"Open data platforms across europe",
+        "displayTitle":"Open data platforms across europe",
+        "body":"<p>Explore data platforms across Europe.</p><p>Click on a country to discover more:</p>"
     },
     {
         "_id":"c-42",
@@ -289,8 +289,8 @@
         "_selectable":1,
         "title": "What is an open data platform?",
         "displayTitle": "What is an open data platform?",
-        "body": "<p>An open data platform is:</p>",
-        "instruction": "<em>Select an option, then click Submit.</em>",
+        "body": "<p>An open data platform is...</p>",
+        "instruction": "<em>Select an option, then click 'Submit'.</em>",
         "_items": [
             {
                 "text": "a sales platform for businesses.",
@@ -357,8 +357,8 @@
         "_selectable":1,
         "title": "What is a data catalog?",
         "displayTitle": "What is a data catalog?",
-        "body": "<p>A data catalog is-</p>",
-        "instruction": "<em>Select an option, then click Submit.</em>",
+        "body": "<p>A data catalog is...</p>",
+        "instruction": "<em>Select an option, then click 'Submit'.</em>",
         "_items": [
             {
                 "text": "a list of open datasets an organisation holds.",
@@ -426,7 +426,7 @@
         "title": "Which three things do open data platforms help with?",
         "displayTitle": "Which three things do open data platforms help with?",
         "body": "<p></p>",
-        "instruction": "<em>Select three options</em>",
+        "instruction": "<em>Select three options, then click 'Submit'</em>",
         "_items": [
             {
                 "text": "Facilitating open data discovery",
