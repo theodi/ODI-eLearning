@@ -30,7 +30,7 @@
         "_layout":"left",
         "title":"Why should we worry about sustainability?",
         "displayTitle":"Why should we worry about sustainability?",
-        "body":"<p>Open data must be relevant, up-to-date and accessible in order to be useful. Together, these qualities help make a dataset sustainable.</p><p>A sustainable programme is one that continues to regularly release data with at least the same or improving quality and quantity.</p><p>For something to be sustainable it must be able to be maintained at a certain rate or level.<br><br>For an open data release to be sustainable, it must maintain regular updates with at least the same level of quality and quantity.</p><h5>In this module we'll look at:</h5><ul class='ticks'><li>How to make sense of sustainability</li><li>Why sustainability matters to you</li><li>What to look for in sustainable open datasets</li></ul>",
+        "body":"<p>Open data must be relevant, up-to-date and accessible in order to be useful. Together, these qualities help make a dataset sustainable.</p><p>A sustainable programme is one that continues to regularly release data with at least the same or improving quality and quantity.</p><p>For something to be sustainable it must be able to be maintained at a certain rate or level.<br><br>For an open data release to be sustainable, it must maintain regular updates with at least the same level of quality and quantity.</p><h5>In this module we'll explore the following:</h5><ul class='ticks'><li>How to make sense of sustainability</li><li>Why sustainability matters to you</li><li>What to look for in sustainable open datasets</li></ul>",
         "_pageLevelProgress": {
             "_isEnabled": true
         }
@@ -42,8 +42,8 @@
         "_component":"iFrame-vimeo",
         "_classes":"",
         "_layout":"full",
-        "title":"Making open data sustainable – in two minutes",
-        "displayTitle": "Making open data sustainable – in two minutes",
+        "title":"Making open data sustainable – in 2 minutes",
+        "displayTitle": "Making open data sustainable – in 2 minutes",
         "body": "ODI Startup Programme Manager Ulrich Atz explains the importance of sustainability for open data and why it matters to users. He also talks through some of the key indicators that an open data is built to last.",
         "instruction": "<em>Click to play the video</em>",
         "_setCompletionOn":"ended",
@@ -98,7 +98,7 @@
         "title": "Making sense of sustainability in open data",
         "displayTitle": "Making sense of sustainability in open data",
         "body": "What factors help make an open dataset sustainable?",
-        "instruction": "<em>Click through the narrative component.</em>",
+        "instruction": "<em>Click the forward arrow to see more</em>",
         "_items": [
             {
                 "title": "Secure funding for open data",
@@ -154,7 +154,7 @@
         "title": "Why does sustainability matter?",
         "displayTitle": "Why does sustainability matter?",
         "body": "Why should I care about whether the open data I work with is sustainable?",
-        "instruction": "<em>Click through the narrative component.</em>",
+        "instruction": "<em>Click the forward arrow to see more.</em>",
         "_items": [
             {
                 "title": "Solid foundations",
@@ -278,7 +278,41 @@
         "_isEnabled": true
       }
     },
-{
+    {
+        "_id":"c-42",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/burst.png",
+            "medium": "course/en/images/burst.png",
+            "small": "course/en/images/burst.png"
+        }
+    },
+    {
+        "_id":"c-43",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Are you ready for sustainable open data?",
+        "displayTitle":"Are you ready for sustainable open data?",
+        "body":"<p>There are two helpful things to remember when thinking about sustainable, can you remember them?</p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
         "_id":"c-61",
         "_parentId":"b-60",
         "_type":"component",
@@ -292,7 +326,7 @@
         "title": "Are you sure?",
         "displayTitle": "Are you ready?",
         "body": "Which of these does not influence the sustainability of an open dataset?",
-        "instruction": "<em>Select one of the options below and select Submit.</em>",
+        "instruction": "<em>Select one of the options below and select 'Submit'.</em>",
         "_items": [
             {
                 "text": "Secure funding",
@@ -404,7 +438,7 @@
         "title": "What should I look for when assessing sustainability?",
         "displayTitle": "What should I look for when assessing sustainability?",
         "body": "<p>What should you look for when assessing the sustainability of an open dataset?</p>",
-        "instruction": "<em>Choose three answers</em>",
+        "instruction": "<em>Select three of the options below and select 'Submit'</em>",
         "_items": [
             {
                 "text": "The data's publishing history.",
@@ -473,8 +507,8 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Summary",
-        "displayTitle":"Summary",
+        "title":"Sustainable open data",
+        "displayTitle":"Sustainable open daya",
         "body":"<p>In this module we have learned how to evaluate the sustainability of an open data release. You can use these techniques to identify sustainable sources of data and build confidence to work with them in the long-term.</p><h5>What you have learned</h5><ul class='ticks'><li>What influences the sustainability of a dataset</li><li>Why sustainability matters to you</li><li>What to look for in sustainable open datasets</li></ul>",
         "_pageLevelProgress": {
           "_isEnabled": true
