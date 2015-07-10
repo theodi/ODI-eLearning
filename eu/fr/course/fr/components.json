@@ -1,0 +1,432 @@
+[
+    {
+        "_id":"c-01",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"intro-logo",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "",
+            "medium": "",
+            "small": ""
+        }
+    },
+    {
+        "_id":"c-02",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Bienvenue ",
+        "displayTitle":"Bienvenue ",
+        "body":"<p>Bienvenue sur le programme d’apprentissage en ligne de l’Open Data Institute. Ce programme a été désigné pour vous permettre de découvrir ce qui est l’open data et comment il change les vies de tous les personnes de notre planète.</p><p><em>Faites défiler pour découvrir chacun des Cours disponibles</em></p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": false
+        }
+    },
+    {
+        "_id":"c-11",
+        "_parentId":"b-10",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/fr/images/odi-1-text-image_large.jpg",
+            "medium": "course/fr/images/odi-1-text-image_large.jpg",
+            "small": "course/fr/images/odi-1-text-image_large.jpg"
+        }
+    },
+    {
+        "_id":"c-12",
+        "_parentId":"b-10",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Cours 1 - L’open data, c’est quoi ?",
+        "displayTitle":"Cours 1 - L’open data, c’est quoi ?",
+        "body":"<p>L’open data est les données que quiconque peut accéder, utiliser et partager. Les gouvernements, les entreprises et les individus peuvent utiliser l’open data afin de créer les avantages sociaux, économiques et écologiques.</p><h5>Pendant le module on explorera les questions suivantes:</h5><ul class='ticks'><li>Qu’est-ce que c’est l’open data ?</li><li>Qu’est-ce que c’est les données ?</li><li>Qu’est ce qui rend les données ouvertes ?</li><li>Pourquoi a-t-on besoin d’open data ?</li></ul><p><a class='course_link' href='module1/main.html'>Cliquez ici pour en savoir plus</a></p>"
+    },
+    {
+        "_id":"c-21",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/fr/images/odi-2-text-image_large.png",
+            "medium": "course/fr/images/odi-2-text-image_large.png",
+            "small": "course/fr/images/odi-2-text-image_large.png"
+        }
+    },
+    {
+        "_id":"c-22",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"right",
+        "title":"Cours 2 - Réaliser la valeur de l’open data",
+        "displayTitle":"Cours 2 - Réaliser la valeur de l’open data",
+        "body":"<p>L’open data a le potentiel de contribuer à la croissance des économies, de transformer les sociétés et de protèger l’environnement.</p><p>Pendant ce module, on explore comment les gouvernements, les entreprises et les individus utilisent l’open data pour créer de nouvelle valeur. <h5>Pendant le module on explorera les thèmes suivants :</h5><ul class='ticks'><li>Innovation et croissance commerciale</li><li>Opportunités gouvernementales</li><li>Impact sur la société et la politique publique</li><li>Avantages culturels et écologiques</li></ul><p><a class='course_link' href='module2/main.html'>Cliquez ici pour en savoir plus</a></p>"
+    },
+    {
+        "_id":"c-25",
+        "_parentId":"b-25",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/fr/images/odi-3-text-image_large.png",
+            "medium": "course/fr/images/odi-3-text-image_large.png",
+            "small": "course/fr/images/odi-3-text-image_large.png"
+        }
+    },
+    {
+        "_id":"c-26",
+        "_parentId":"b-25",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Cours 3 - Open data. Agent de changement",
+        "displayTitle":"Cours 3 - Open data. Agent de changement",
+        "body":"<p>Les initiatives d’open data les plus réussies ont des caractéristiques semblables. Une compréhension de ces approches aiderait ceux qui veulent réaliser la valeur de l’open data pour eux-mêmes.</p><h5>Pendant le module on explorera les questions suivantes :</h5><ul class='ticks'><li>Open data en tant qu’un agent de changement</li><li>Direction et engagement</li><li>Offre et demande</li><li>Changements culturels pour les nouveaux marchés</li></ul><p><a class='course_link' href='module3/main.html'>Cliquez ici pour en savoir plus</a></p>"
+    },
+    {
+        "_id":"c-28",
+        "_parentId":"b-28",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"right",
+        "title":"Cours 4 - Qu’est-ce que c’est l’importance d’une licence ?",
+        "displayTitle":"Cours 4 - Qu’est-ce que c’est l’importance d’une licence ?",
+        "body":"<p>Pour que les données soient ouvertes, elles doivent être accessibles, normalement publiées en ligne, et autorisées pour que toute personne puisse les accéder, utiliser et partager.</p><h5>Pendant le module on explorera les questions suivantes :</h5><ul class='ticks'><li>pourquoi il faut publier l’open data sous une licence</li><li>comment des licences réalisent la valeur de l’open data</li><li>quel type de licence convient à l’open data</li><li>comment offrir les moyens systématiques du cycle de vie de l’offre, de l’approvisionnement et du contrat.</li></ul><p><a class='course_link' href='module4/main.html'>Cliquez ici pour en savoir plus</a></p>"
+    },
+    {
+        "_id":"c-29",
+        "_parentId":"b-28",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/fr/images/odi-4-text-image_large.jpg",
+            "medium": "course/fr/images/odi-4-text-image_large.jpg",
+            "small": "course/fr/images/odi-4-text-image_large.jpg"
+        }
+    },
+    {
+        "_id":"c-30",
+        "_parentId":"b-30",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/fr/images/odi-5-text-image_large.png",
+            "medium": "course/fr/images/odi-5-text-image_large.png",
+            "small": "course/fr/images/odi-5-text-image_large.png"
+        }
+    },
+    {
+        "_id":"c-31",
+        "_parentId":"b-30",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Cours 5 - Qu’est-ce que c’est l’open data de qualité ?",
+        "displayTitle":"Cours 5 - Qu’est-ce que c’est l’open data de qualité ?",
+        "body":"<p>Évaluer l’utilité d’open data n’est pas un processus rapide.</p><p>Il y a beaucoup de normes communautaires et marques de qualité qui vous aident à évaluer l’utilité d’open data.</p><h5>IPendant le module on explorera les questions suivantes :</h5><ul class='ticks'><li>Ce qui rend l’open data utilisable</li><li>Comment les normes aident à augmenter l’utilité de l’open data</li><li>Les marques de qualité</li></ul><p><a class='course_link' href='module5/main.html'>Cliquez ici pour en savoir plus</a></p>"
+    },
+    {
+        "_id":"c-40",
+        "_parentId":"b-40",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"right",
+        "title":"Cours 6 - Mesurer le succès d’open data",
+        "displayTitle":"Cours 6 - Mesurer le succès d’open data",
+        "body":"<p>Les initiatives d’open data réussies font plus que le simple fait de mettre les données sur le Web. Les organisation avec le plus savoir-faire concernant les données mettent en place les cadres et les politiques afin de soutenir et d’encourager l’innovation. Il faut construire les communautés d’open data et raconter les histoires réussies. Ensemble, ceux-ci aideront les gens à comprendre les bénéfices d’open data.</p><h5>Pendant le module on explorera les questions suivantes :</h5><ul class='ticks'><li>Mesurer le succès</li><li>L’approche centrée sur la demande</li><li>Rester sur la bonne voie</li></ul><p><a class='course_link' href='module6/main.html'>Cliquez ici pour en savoir plus</a></p>"
+    },
+    {
+        "_id":"c-41",
+        "_parentId":"b-40",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/fr/images/odi-6-text-image_large.jpg",
+            "medium": "course/fr/images/odi-6-text-image_large.jpg",
+            "small": "course/fr/images/odi-6-text-image_large.jpg"
+        }
+    },
+    {
+        "_id":"c-60",
+        "_parentId":"b-60",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Cours 7 - Pourquoi devrait-on se soucier de la durabilité ?",
+        "displayTitle":"Cours 7 - Pourquoi devrait-on se soucier de la durabilité ?",
+        "body":"<p>Pour être utile, l’open data doit être pertinent, mis à jour et accessible. Ensemble, ces trois qualités aident à rendre une série de données durable.</p><p>Un programme durable continue à faire sortir regulièrement les données, au moins de la même qualité et quantité que les publications précedentes.</p><p>FPour que quelque chose soit durable, on doit avoir la capacité de le maintenir à un certain niveau ou standard.</p><p>Pour que la publication des données soit durable, on doit la mettre à jour régulièrement au moins de la même qualité et quantité que les publications précedentes.</p><h5>Pendant le module on explorera les questions suivantes :</h5><ul class='ticks'><li>Comment comprendre la durabilité</li><li>Pourquoi la durabilité est importante pour vous</li><li>Ce qu’il faut rechercher dans les séries de données durables</li></ul><p><a class='course_link' href='module7/main.html'>Cliquez ici pour en savoir plus</a></p>"
+    },
+    {
+        "_id":"c-61",
+        "_parentId":"b-60",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/fr/images/odi-7-text-image_large.jpg",
+            "medium": "course/fr/images/odi-7-text-image_large.jpg",
+            "small": "course/fr/images/odi-7-text-image_large.jpg"
+        }
+    },
+    {
+        "_id":"c-71",
+        "_parentId":"b-70",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/fr/images/odi-8-text-image_large.jpg",
+            "medium": "course/fr/images/odi-8-text-image_large.jpg",
+            "small": "course/fr/images/odi-8-text-image_large.jpg"
+        }
+    },
+    {
+        "_id":"c-72",
+        "_parentId":"b-70",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"right",
+        "title":"Cours 8 - Maîtriser les plates-formes de l’open data",
+        "displayTitle":"Cours 8 - Maîtriser les plates-formes de l’open data",
+        "body":"<p>Une plate-forme est un logiciel majeur sur lequel on éxecute les logiciels plus petits et le contenu. La plate-forme de l’open data la plus grande est le Web. Cependant, beaucoup d’autres logiciels construits à cette fin aident à simplifier la publication de l’open data et fournissent les outils interactifs aux les utilisateurs.</p><h5>Pendant le module on explorera les questions suivantes :</h5><ul class='ticks'><li>Reconnaître les plates-formes de l’open data</li><li>Comprendre leur importance pour l’utilisateur</li><li>Évaluer les options clés</li><li>Utiliser les plates-formes pour explorer des données</li></ul><p><a class='course_link' href='module8/main.html'>Cliquez ici pour en savoir plus</a></p>"
+    },
+    {
+        "_id":"c-81",
+        "_parentId":"b-80",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/fr/images/odi-9-text-image_large.jpg",
+            "medium": "course/fr/images/odi-9-text-image_large.jpg",
+            "small": "course/fr/images/odi-9-text-image_large.jpg"
+        }
+    },
+    {
+        "_id":"c-82",
+        "_parentId":"b-80",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Cours 9 - Choisir la bonne forme pour l’open data",
+        "displayTitle":"Cours 9 - Choisir la bonne forme pour l’open data",
+        "body":"<p>La forme d’une série de données ouverte est la façon dont les données sont stucturées et rendues disponibles pour les personnes et les machines.</p><p>Choisir la bonne forme permet de la gestion et la réutilisation plus simples. Pour maximiser la réutilisation des données, il peut être nécessaire que la maison d’éditions utilise une variété des formes et structures disponibles à travers des différentes plates-formes qui conviennent aux besoins de l’utilisateur.</p><h5>Pendant le module on explorera les questions suivantes :</h5><ul class='ticks'><li>Pourquoi les formes sont si importantes pour l’open data</li><li>Choisir la bonne structure</li><li>Accéder les formes d’open data</li><li>Choisir la simplicité avec CSV</li></ul><p><a class='course_link' href='module9/main.html'>Cliquez ici pour en savoir plus</a></p>"
+    },
+    {
+        "_id":"c-91",
+        "_parentId":"b-90",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/fr/images/odi-10-text-image_large.jpg",
+            "medium": "course/fr/images/odi-10-text-image_large.jpg",
+            "small": "course/fr/images/odi-10-text-image_large.jpg"
+        }
+    },
+    {
+        "_id":"c-92",
+        "_parentId":"b-90",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"right",
+        "title":"Cours 10 - Comment utilisables sont les données ?",
+        "displayTitle":"Cours 10 - Comment utilisables sont les données ?",
+        "body":"<p>Évaluer l’utilité de l’open data dépende du domaine et du contenu.  Afin d’assistir au processus, il existe certaines lignes directrices sur les pratiques exemplaires que les maisons d’éditions et les utilisateurs peuvent suivre tous les deux.</p><p>Pendant le module on verra les 5 étoiles de l’open data couplé et découvrira comment les utiliser pour mesurer l’utilité technique des données.</p><h5>Pendant le module on explorera les questions suivantes :</h5><ul class='ticks'><li>Qu’est-ce que c’est les 5 étoiles de l’open data couplé</li><li>Les 3 premières étoiles</li><li>Comment reconnaître les étoiles dans les données</li></ul><p><a class='course_link' href='module10/main.html'>Cliquez ici pour en savoir plus</a></p>"
+    },
+    {
+        "_id":"c-101",
+        "_parentId":"b-100",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Cours 11 - Comment nettoyer les données",
+        "displayTitle":"Cours 11 - Comment nettoyer les données",
+        "body":"<p>Un des plus grands défis en travaillant avec les données est des erreurs. Souvent l’éditeurs des données ne remarquent pas des erreurs parce que les données changent depuis de nombreuses années. Parfois, les erreurs sont humaines, en résultant de la saisie de données, telles que des fautes typographiques ou des fausses abréviations.</p><p>Lorsqu’on travaille avec les données, il est important de comprendre comment trouver des erreurs et comment les corriger afin de rendre les données plus utiles.</p><h5>Pendant le module on explorera les questions suivantes :</h5><ul class='ticks'><li>Les erreurs de données communes</li><li>Les outils utiles du nettoyage des données</li><li>Pourquoi devrait-on nettoyer les données ?</li></ul><p><a class='course_link' href='module11/main.html'>Cliquez ici pour en savoir plus</a></p>"
+    },
+    {
+        "_id":"c-102",
+        "_parentId":"b-100",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/fr/images/odi-11-text-image_large.jpg",
+            "medium": "course/fr/images/odi-11-text-image_large.jpg",
+            "small": "course/fr/images/odi-11-text-image_large.jpg"
+        }
+    },
+    {
+        "_id":"c-111",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/fr/images/odi-12-text-image_large.jpg",
+            "medium": "course/fr/images/odi-12-text-image_large.jpg",
+            "small": "course/fr/images/odi-12-text-image_large.jpg"
+        }
+    },
+    {
+        "_id":"c-112",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"right",
+        "title":"Cours 12 - Trouver les données cachées sur le Web",
+        "displayTitle":"Cours 12 - Trouver les données cachées sur le Web",
+        "body":"<p>‘Open data’ signifie plus que les séries de données disponibles à télécharger. Les données téléchargeables ne représent qu’une petite fraction des données disponibles sur le Web.</p><p>La plupart des données disponibles sur le Web sont cachées de l’œil humain. Cependant les machines peuvent trouver et lire ces données. Pendant le module, on explorera des techniques pour déverrouiler les données cachées.</p><h5>Pendant le module on explorera les questions suivantes :</h5><ul class='ticks'><li>Comment trouver les données cachées</li><li>Quels avantages les données cachées offrent</li><li>Comment obtenir les donnés cachées</li></ul><p><a class='course_link' href='module12/main.html'>Cliquez ici pour en savoir plus</a></p>"
+    },
+    {
+        "_id":"c-121",
+        "_parentId":"b-120",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Cours 13 - Relier le web des données",
+        "displayTitle":"Cours 13 - Relier le web des données",
+        "body":"<p> Le web actuel est configuré comme une série de pages ou de «documents». Bien que ces documents font appel à de riches sources de données, ils déguisent sous pages conçues pour les humains de voir. Dans ce module, nous explorons ce qui arriverait si toutes les pages ou documents ont été supprimés du site Web.</p><p>Imaginez que vous aviez seulement les données brutes, tous ouverts, tous utilisables et tous reliés entre eux dans un réseau ou 'web »de données.</p><p>ce module présente aussi le web des données ouvertes et liées regarder comment les 5-étoiles de données ouvertes liées fournissent une feuille de route pour la réalisation de cette vision. </p> <h5> Dans ce module, nous allons explorer la suivante:?</h5><ul class = 'ticks'> <li> Quel est le web de données </li> <li> Comment identifiants web sont utilisés</li><li>Quel web de données liées ouverte ressemble </li></ul><p><a class='course_link' href='module13/main.html'>Cliquez ici pour en savoir plus</a></p>"
+    },
+    {
+        "_id":"c-122",
+        "_parentId":"b-120",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/fr/images/odi-13-text-image_large.jpg",
+            "medium": "course/fr/images/odi-13-text-image_large.jpg",
+            "small": "course/fr/images/odi-13-text-image_large.jpg"
+        }
+    },
+    {
+        "_id":"c-151",
+        "_parentId":"b-150",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/fr/images/summary-icon.png",
+            "medium": "course/fr/images/summary-icon.png",
+            "small": "course/fr/images/summary-icon.png"
+        }
+    },
+    {
+        "_id":"c-152",
+        "_parentId":"b-150",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"l'Open data",
+        "displayTitle":"apprendre plus",
+        "body":"<p> L'Institut Open Data propose des formations de données ouverte la plus complète dans le monde.</p><p>Pourquoi ne pas découvrir nos cours en face-à-face ou entrer en contact avec nous si vous souhaitez discuter de possibilités de formation adapté à vos besoins.</p><p><a class='course_link' href='http://theodi.org/courses'> Découvrez plus sur le site des cours de ODI</a></p>"
+    },
+    {
+       "_id":"c-153",
+       "_parentId":"b-150",
+       "_type":"component",
+       "_component":"text",
+       "_classes":"separator",
+       "_layout":"full"
+    },
+    {
+        "_id":"c-154",
+        "_parentId":"b-150",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"footer-logo",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/fr/images/logo-small.png",
+            "medium": "course/fr/images/logo-small.png",
+            "small": "course/fr/images/logo-small.png"
+        }
+    },
+    {
+        "_id":"c-155",
+        "_parentId":"b-150",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"social-buttons",
+        "_layout":"right",
+        "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/fr/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/fr/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/fr/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/fr/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/fr/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/fr/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/fr/images/social/flickr.png'></a>"
+    }
+]
