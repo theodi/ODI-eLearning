@@ -21,6 +21,24 @@
             "link": "Link"
         },
         "_resourcesItems": [
+            {
+                "_type": "link",
+                "title": "Italian open data portal",
+                "description": "Lien vers Itaian open data portal",
+                "_link": "http://www.datiopen.it/opendata/Visitatori_musei_pubblici_e_similari_titolo_d_accesso"
+            },
+            {
+                "_type": "link",
+                "title": "Gov.uk business data",
+                "description": "Lien vers Gov.uk business data",
+                "_link": "https://www.gov.uk/browse/business.json"
+            },
+            {
+                "_type": "link",
+                "title": "iRail API",
+                "description": "Lien vers iRail API",
+                "_link": "https://hello.irail.be/api/1-0/"
+            }
         ]
     },
     {
