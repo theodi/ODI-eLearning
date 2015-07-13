@@ -252,7 +252,7 @@
             },
             {
                 "title": "APIs or machine-readable interfaces",
-                "body": "<p>Some websites or web services will expose a machine-readable interface, or API, for querying and accessing their data.</p><p>Examples of services that have APIs include: <a href='https://api.opencorporates.com/' target='_blank'>Open Corporates</a> (open), <a href='http://wiki.openstreetmap.org/wiki/API' target='_blank'>OpenSteetMap</a> (Open), <a href='https://dev.twitter.com/rest/public' target='_blank'>Twitter</a> (not completely open), <a href='https://www.flickr.com/services/api/' target='_blank'>Flickr</a> (some content open), <a href='https://developer.linkedin.com/docs/rest-api' target='_blank'>LinkedIn</a> (not open).</p><p>Most of these services use a web based API and allow addition of extensions (try “.json” on OpenCorporates). Although this API looks like the first example in this section, the formalisation of it being an API provides a guarantee that the service will be available. </p>",
+                "body": "<p>Some websites or web services will expose a machine-readable interface, or API, for querying and accessing their data.</p><p>Examples of services that have APIs include: <a href='https://api.opencorporates.com/' target='_blank'>Open Corporates</a> (open), <a href='http://wiki.openstreetmap.org/wiki/API' target='_blank'>OpenSteetMap</a> (open), <a href='https://dev.twitter.com/rest/public' target='_blank'>Twitter</a> (not completely open), <a href='https://www.flickr.com/services/api/' target='_blank'>Flickr</a> (some content open), <a href='https://developer.linkedin.com/docs/rest-api' target='_blank'>LinkedIn</a> (not open).</p><p>Most of these services use a web based API and allow addition of extensions (try “.json” on OpenCorporates). Although this API looks like the first example in this section, the formalisation of it being an API provides a guarantee that the service will be available. </p>",
                 "_graphic": {
                     "src": "course/en/images/odi-009.jpg",
                     "alt": "APIs",
@@ -265,7 +265,7 @@
             },
             {
                 "title": "Scraping the web",
-                "body": "<p>If none of the above techniques work then you may have to resort to scraping the human-readable web pages. While this can be reliable you have the added risk of the layout changing as well as the content.</p><p>Why not try out magic.import.io to see how easy it can be?</p>",
+                "body": "<p>If none of the above techniques work then you may have to resort to scraping the human-readable web pages. While this can be reliable you have the added risk of the layout changing as well as the content.</p><p>Why not try out <a href='http://www.magic.import.io' target='_blank'>magic.import.io</a> to see how easy it can be?</p>",
                 "_graphic": {
                     "src": "course/en/images/odi-010.jpg",
                     "alt": "Scraping the web",
