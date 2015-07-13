@@ -87,7 +87,7 @@
         "_layout":"left",
         "title":"The data people can't see",
         "displayTitle":"The data people can't see",
-        "body":"<p>Data is not always easy to find on the web, because most of the available resources are visible only to machines. People navigate the web visually, viewing content, clicking on links and downloading files.</p><p>Machines navigate the web differently. Machines, by contrast, only navigate the web through logical rules set out in the code. While humans look for engaging, interactive content, machines require structure, logic and clarity.</p><p>This difference creates ‘blind spots’ for how people and machines read the web.</p><p>For example, machines cannot always instantly find a download link in a page; humans find it difficult to see structured, non-visual data contained in website code.</p><p>Downloadable open data files are just one type of data on the web. Much more data remains hidden in website code.</p>"
+        "body":"<p>Data is not always easy to find on the web, because most of the available resources are visible only to machines. People navigate the web visually, viewing content, clicking on links and downloading files.</p><p>Machines, by contrast, only navigate the web through logical rules set out in the code. While humans look for engaging, interactive content, machines require structure, logic and clarity.</p><p>This difference creates ‘blind spots’ for how people and machines read the web.</p><p>For example, machines cannot always instantly find a download link in a page; humans find it difficult to see structured, non-visual data contained in website code.</p><p>Downloadable open data files are just one type of data on the web. Much more data remains hidden in website code.</p>"
     },
      {
         "_id": "c-25",
@@ -213,7 +213,7 @@
         "_items": [
             {
                 "title": "Extension downloads",
-                "body": "<p>Some websites have been built to offer a way to extract data by adding an extension to the URL of the web page you are viewing. For such websites, usually maintained by organisations who also publish downloadable open data, adding the correct extension will trigger a download of that page in a data format, as opposed to a browser format.</p><p>A good example of this is the UK Government website (gov.uk) which provides any page in a data format simply by adding the relevant extension like “.json”, for example https://www.gov.uk/browse/business.json.</p><p>Try it with the UK Trade data by viewing the following page and then adding “.json” to get the data.<br /><a href='https://www.gov.uk/trade-tariff/sections' target='_blank'>Take me to the UK gov trade tariff</a></p><p>To view the data in a more human readable form copy it into jsonlint.io</p>",
+                "body": "<p>Some websites have been built to offer a way to extract data by adding an extension to the URL of the web page you are viewing. For such websites, usually maintained by organisations who also publish downloadable open data, adding the correct extension will trigger a download of that page in a data format, as opposed to a browser format.</p><p>A good example of this is the UK Government website (gov.uk) which provides any page in a data format simply by adding the relevant extension like “.json”, for example www.gov.uk/browse/business.json.</p><p>Try it with the UK Trade data by viewing the following page and then adding “.json” to get the data.<br /><a href='https://www.gov.uk/trade-tariff/sections' target='_blank'>Take me to the UK gov trade tariff</a></p><p>To view the data in a more human readable form copy it into jsonlint.io</p>",
                 "_graphic": {
                     "src": "course/en/images/odi-006.jpg",
                     "alt": "Extensions",
@@ -239,7 +239,7 @@
             },
             {
                 "title": "Source code",
-                "body": "<p>Going beyond websites that provide you with a simple route to data, many sites have data embedded in the web page's source code.</p><p>Why not check out the ODI's experimental 'Hidden Data Extractor' tool to find source code?<br /><a href='http://odinprac.theodi.org/hidden-data-extractor/' target='_blank'>Take me to ODI Hidden Data Extractor</a></p>",
+                "body": "<p>Going beyond websites that provide you with a simple route to data, many sites have data embedded in the web page's source code.</p><p>Why not check out the ODI's experimental 'Hidden Data Extractor' tool to find source code?<br><br><a href='http://odinprac.theodi.org/hidden-data-extractor/' target='_blank'>Take me to ODI Hidden Data Extractor</a></p>",
                 "_graphic": {
                     "src": "course/en/images/odi-008.jpg",
                     "alt": "Source code",
