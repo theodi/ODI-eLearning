@@ -30,7 +30,7 @@
         "_layout":"left",
         "title":"How to clean your data",
         "displayTitle":"How to clean your data",
-        "body":"<p>One of the biggest challenges when working with any data is errors. Often errors are not even noticed by data publishers because the data can change over many years. In other cases, errors can be the result of human mistakes in data entry, like mistyping or incorrect abbreviations.</p><p>When working with any data, it is important to know how to find errors and correct them to make the data more useful.</p><h5>In this module we'll explore the following:</h5><ul class='ticks'><li>Common data errors</li><li>Useful data cleaning tools</li><li>Why clean data?</li></ul>",
+        "body":"<p>One of the biggest challenges when working with any data is errors. Often errors are not even noticed by data publishers because the data can change over many years. In other cases, errors can be the result of human mistakes in data entry, like mistyping or incorrect abbreviations.</p><p>When working with any data, it is important to know how to find errors and correct them to make the data more useful.</p><h5>In this module we'll explore the following:</h5><ul class='ticks'><li>Common data errors</li><li>Useful data cleaning tools</li><li>Reasons for cleaning data</li></ul>",
         "_pageLevelProgress": {
             "_isEnabled": true
         }
@@ -86,7 +86,7 @@
         "_layout":"right",
         "title":"Revealing the value: what do we mean by clean data?",
         "displayTitle":"Revealing the value: what do we mean by clean data?",
-        "body":"<p>Clean data is important to ensure you have a reliable starting point for working with the data and creating new value.</p><p>Clean data is data that is consisten t, free from duplication and ready for machine consumption.</p><p>If data is clean, it is easier to combine different datasets and gain deeper insights.<p>"
+        "body":"<p>Clean data is important to ensure you have a reliable starting point for working with the data and creating new value.</p><p>Clean data is data that is consistent, free from duplication and ready for machine consumption.</p><p>If data is clean, it is easier to combine different datasets and gain deeper insights.<p>"
         },
      {
         "_id":"c-32",
@@ -116,7 +116,7 @@
       "title": "Common errors in data",
       "displayTitle": "Common errors in data",
       "body": "There are a number of common errors in data that you should look out for in any dataset you are working with.",
-      "instruction": "<em>Click the forward arrow to see more.</em>",
+      "instruction": "<em>Click the headings to explore further.</em>",
       "_items": [
         {
           "alt": "Wrong date formats",
@@ -241,7 +241,7 @@
             },
             {
                 "title": "Enhance usability",
-                "body": "<p>Sharing a clean open dataset will make the data more usable. Tools like Open Refine allow you to share change history which lets people know what has been cleaned and how. Making the process open as well as the data adds to the sustainability and trust a user can put in a dataset.</p><p>There are also data cleaning communities emerging such as OpenStreetMap communities and  which should be supported more actively.<br><br><a class='course_link' href='http://wiki.openstreetmap.org/wiki/WikiProject_Denmark' target='_blank'>Take me to OSM Denmark Community Wiki</a></p>",
+                "body": "<p>Sharing a clean open dataset will make the data more usable. Tools like Open Refine allow you to share change history which lets people know what has been cleaned and how. Making the process open as well as the data adds to the sustainability and trust a user can put in a dataset.</p><p>There are also data cleaning communities emerging such as OpenStreetMap communities and  which should be supported more actively.<br><br><a class='' href='http://wiki.openstreetmap.org/wiki/WikiProject_Denmark' target='_blank'>Take me to OSM Denmark Community Wiki</a></p>",
                 "_graphic": {
                     "src": "course/en/images/odi-007.jpg",
                     "alt": "Prioritise cleaning",
@@ -336,7 +336,7 @@
         "title": "Why does data need to be cleaned?",
         "displayTitle": "Why does data need to be cleaned?",
         "body": "<p>Uncleaned open data is a problem because:</p>",
-        "instruction": "<em>Choose one answer and click 'submit'.</em>",
+        "instruction": "<em>Choose one answer and click 'Submit'.</em>",
         "_items": [
             {
                 "text": "It cannot be plotted on a chart",
@@ -404,7 +404,7 @@
         "title": "What are two of the most useful tools for cleaning data?",
         "displayTitle": "What are two of the most useful tools for cleaning data?",
         "body": "<p>Which of these pairs of tools are the most useful for cleaning data?</p>",
-        "instruction": "<em>Choose one answer and click 'submit'.</em>",
+        "instruction": "<em>Choose one answer and click 'Submit'.</em>",
         "_items": [
             {
                 "text": "Microsoft Access and Adobe Photoshop",
@@ -472,7 +472,7 @@
         "title": "Recognising errors",
         "displayTitle": "Recognising errors",
         "body": "<p>Which of the following are errors in data that require cleaning?</p>",
-        "instruction": "<em>Choose three answers and click 'submit'.</em>",
+        "instruction": "<em>Choose three answers and click 'Submit'.</em>",
         "_items": [
             {
                 "text": "Mixed numerical scales",
@@ -548,7 +548,7 @@
         "title": "How much time should be spent cleaning and preparing data?",
         "displayTitle": "CHow much time should be spent cleaning and preparing data?",
         "body": "<p>In any given data driven project, how much time should be spent cleaning and preparing data?</p>",
-        "instruction": "<em>Choose one answer and click 'submit'.</em>",
+        "instruction": "<em>Choose one answer and click 'Submit'.</em>",
         "_items": [
             {
                 "text": "Between 20% and 40%",
