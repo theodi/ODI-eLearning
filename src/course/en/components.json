@@ -30,7 +30,7 @@
         "_layout":"left",
         "title":"How useful is my data?",
         "displayTitle":"How useful is my data?",
-        "body":"<p>Assessing how useful open data is can vary depending on the domain and the content. To assist this process, there are a number of best practice guidelines publishers and users can follow.</p><p>In this module we look at the 5-Stars of linked open data and discover how this can be used to measure the technical usability of data.</p><h5>In this module we’ll explore the following:</h5><ul class='ticks'><li>What are the 5-stars of linked open data</li><li>The first three stars</li><li>How to recognise the stars in data</li></ul>",
+        "body":"<p>Assessing how useful open data is can vary depending on the domain and the content. To assist this process, there are a number of best practice guidelines publishers and users can follow.</p><p>In this module we look at the 5 stars of linked open data and discover how this can be used to measure the technical usability of data.</p><h5>In this module we’ll explore the following:</h5><ul class='ticks'><li>What are the 5 stars of linked open data</li><li>The first three stars</li><li>How to recognise the stars in data</li></ul>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
@@ -153,7 +153,7 @@
         "_items": [
             {
                 "title": "Star 1 - Checking the license",
-                "body": "<p>Finding the  licence for an open data set can be one of the hardest steps. Try looking in  the following places:</p><p>An open licence is an explicit permission to use the data for both commercial and non-commercial purposes.</p><ul class=ticks><li>The metadata record about the data</li><li>Terms and conditions of the web page or site</li><li>Click on the data file, there might be a popup</li><li>Check inside the data file itself</li></ol></p><p>Web sites take different approaches to displaying licensing information, you may have to search a little on each site.</p>",
+                "body": "<p>Finding the  licence for an open data set can be one of the hardest steps.</p><p>An open licence is an explicit permission to use the data for both commercial and non-commercial purposes.</p><ul class=ticks><li>The metadata record about the data</li><li>Terms and conditions of the web page or site</li><li>Click on the data file, there might be a popup</li><li>Check inside the data file itself</li></ol></p><p>Websites feature licensing information in different ways, you may have to search a little on each site. </p>",
                 "_graphic": {
                     "src": "course/en/images/odi-003.jpg",
                     "alt": "Star 1 - Checking the license",
@@ -166,7 +166,7 @@
             },
             {
                 "title": "Star 2 - Checking usability",
-                "body": "<p>When you discover open data on the web, you may wish to check the following tips to discover  it yourself:<ul class='ticks'><li>Do you think that this is the most user-friendly format in which to publish this particular data?</li><li>Does the file appear to be the same as the one the publisher uses themselves?</li><li>Is there any other information that has been added by a human?</li></ul></p>",
+                "body": "<p>When you discover open data on the web, there are several ways you can assess how usable it is. Ask yourself:<ul class='ticks'><li>Do you think that this is the most user-friendly format in which to publish this particular data?</li><li>Does the file appear to be the same as the one the publisher uses?</li><li>Is there any other information that has been added by a human?</li></ul></p>",
                 "_graphic": {
                     "src": "course/en/images/odi-004.jpg",
                     "alt": "Star 2 - checking usability",
@@ -179,7 +179,7 @@
             },
             {
                 "title": "Star 3 - Checking openness",
-                "body": "<p>Open formats are sometimes more difficult to assess. The following questions will help you understand if the data is available in an open format:<ul class='ticks'><li>Can I open the file in more than one programme on my computer and still see the full functionality of the file?</li><li>When I look up the file format (eg. CSV) online, does it say I need to download a specific programme to open it?</li></ul></p><p>CSV is the most popular open format and is easy to identify. CSV qualifies for 3-stars as long as the other 2 are achieved. The Bulgraian open data portal provides some good examples of 3-star CSV datasets that are clearly marked with both a licence and file format.</p><br /><a href='https://opendata.government.bg/dataset/tsentralen-registar-na-yuridicheskite-litsa' target='_blank'>Take me to the Bulgarian open data portal</a><p>Many open data portals are also publishing Open Document Format (ODF) files. These files may sound perfect for being open, however they do result in some confusion when trying to name the tool that can open these files.</p>",
+                "body": "<p>Open formats are sometimes more difficult to assess. The following questions will help you understand if the data is available in an open format:<ul class='ticks'><li>Can I open the file in more than one programme on my computer and still see the full functionality of the file?</li><li>When I look up the file format (eg CSV) online, does it say I need to download a specific programme to open it?</li></ul></p><p>CSV is the most popular open format and is easy to identify. CSV qualifies for 3-stars as long as the other 2 are achieved. The Bulgraian open data portal provides some good examples of 3-star CSV datasets that are clearly marked with both a licence and file format.</p><br /><a href='https://opendata.government.bg/dataset/tsentralen-registar-na-yuridicheskite-litsa' target='_blank'>Take me to the Bulgarian open data portal</a><p>Many open data portals are also publishing Open Document Format (ODF) files. These files may sound perfect for being open, however they do result in some confusion when trying to name the tool that can open these files.</p>",
                 "_graphic": {
                     "src": "course/en/images/odi-005.jpg",
                     "alt": "Star 3 - checking openness",
@@ -259,8 +259,8 @@
         "_questionWeight":1,
         "_isRandom":true,
         "_selectable":1,
-        "title": "How do you rate the openness of a dataset using the 5-stars?",
-        "displayTitle": "How do you rate the openness of a dataset using the 5-stars?",
+        "title": "How do you rate the openness of a dataset using the 5 stars?",
+        "displayTitle": "How do you rate the openness of a dataset using the 5 stars?",
         "body": "<p>How would you go about assessing the openness of a dataset you found online?</p>",
         "instruction": "<em>Select an option, then click 'Submit'.</em>",
         "_items": [
@@ -393,7 +393,7 @@
         "_layout":"left",
         "title":"Assessing open data",
         "displayTitle":"Assessing open data",
-        "body":"<p>Assessing how useful data is can vary widely depending on the domain and the specific content. In order to assist this process there are a number of guidelines, of which the 5-Stars of linked open data is one.</p><p>The 5 stars guideline for linked open data is a way to measure how well data is integrated into the web. Each star must be awarded sequentially and none can be skipped.<h5>In this module we looked at the first three stars:</h5><ul class='ticks'><li>Open license</li><li>Re-usable format</li><li>Open format</li></ul><p>For more on the final two stars see module 13. </p>",
+        "body":"<p>Assessing how useful data is can vary widely depending on the domain and the specific content. To help with this process there are a number of guidelines, including the 5 stars of linked open data.</p><p>The 5 stars guideline for linked open data is a way to measure how well data is integrated into the web. Each star must be awarded sequentially and none can be skipped.<h5>In this module we looked at the first three stars:</h5><ul class='ticks'><li>Open license</li><li>Reusable format</li><li>Open format</li></ul><p>For more on the final two stars see module 13. </p>",
         "_pageLevelProgress": {
           "_isEnabled": true
         }
