@@ -1,0 +1,625 @@
+[
+    {
+        "_id":"c-01",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"intro-logo",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "",
+            "medium": "",
+            "small": ""
+        }
+    },
+    {
+        "_id":"c-02",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Open data. Agent de changement.",
+        "displayTitle":"Open data. Agent de changement.",
+        "body":"<p>Les initiatives d’open data les plus réussies ont des caractéristiques semblables. Une compréhension de ces approches aiderait ceux qui veulent réaliser la valeur de l’open data pour eux-mêmes.</p><h5>Pendant le module on explorera les questions suivantes :</h5><ul class='ticks'><li>Open data en tant qu’un agent de changement</li><li>Direction et engagement</li><li>Offre et demande</li><li>Changements culturels pour les nouveaux marchés</li></ul>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+    "_id":"c-11",
+    "_parentId":"b-10",
+    "_type":"component",
+    "_component":"iFrame-vimeo",
+    "_classes":"",
+    "_layout":"full",
+        "title":"S’engager aux initiatives d’open data - dans 2 minutes.",
+        "displayTitle": "S’engager aux initiatives d’open data - dans 2 minutes.",
+        "body": "Directrice du développement chez l’ODI, Liz Carolan partage 5 caractéristiques des initiatives d’open data réussies.",
+        "instruction": "",
+        "_setCompletionOn":"ended",
+        "_source": "https://player.vimeo.com/video/129196638",
+        "_width": {
+            "_small" : 300,
+            "_medium" : 500,
+            "_large" : 905
+        },
+        "_height": {
+            "_small" : 250,
+            "_medium" : 350,
+            "_large" : 508
+        }
+    },
+    {
+        "_id":"c-21",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Open data. Agent of change.",
+            "title": "Open data. Agent of change.",
+            "large": "course/fr/images/odi-001-text_image_large.png",
+            "medium": "course/fr/images/odi-001-text_image_large.png",
+            "small": "course/fr/images/odi-001-text_image_large.png",
+            "*source":"http://www.shutterstock.com/pic-134315933.html",
+            "*credit":"Photoraidz",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-22",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"right",
+        "title":"Open data. Agent de changement.",
+        "displayTitle":"Open data. Agent de changement.",
+        "body":"<p>La mise en œuvre d’une initiative d’open data implique souvent des changements culturels et institutionnels.</p><p>La ouverture des données va au-delà de les mettre en ligne sous une licence ouverte. Appliquer la technologie est facile - mettre en place un changement culturel serait plus difficile.</p>"
+    },
+     {
+        "_id": "c-25",
+        "_parentId": "b-25",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Direction et engagement",
+        "displayTitle": "Direction et engagement",
+        "body": "La direction et l’engagement actifs aide à favoriser des initiatives réussies et des changements positifs.",
+        "instruction": "<em class='desktop-instruction'>Cliquez sur la flèche pour plus de détail</em><em class='mobile-instruction'>Cliquez sur la flèche pour plus de détail</em>",
+        "_items": [
+            {
+                "title": "Direction active",
+                "body": "<p>Lorsqu’un programme d’open data est lancé, il est normale de faire face à l’opposition venant de l’intérieur de l’organisation.</p><p>Le soutien actif des résponsables au nivel supérieur aiderait à encourager l’acceptation institutionnelle.</p>",
+                "_graphic": {
+                    "src": "course/fr/images/odi-002_large.jpg",
+                    "alt": "Active Leadership",
+                    "title": "Active Leadership",
+                    "*source":"http://www.shutterstock.com/pic-238771996.html",
+                    "*credit":"Mangsaab",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Active Leadership"
+            },
+            {
+                "title": "Engagement actif",
+                "body": "<p>S’engager à la société civique, aux entreprises et aux gouvernements est une partie clé de toute initiative d’open data.</p><p>Les initiatives réussies commencent normalement par le dialogue ouvert entre les maisons d’édition et les consommateurs de l’open data.</p><p>Ce dialogue est important pour que les deux parties comprennent la demande pour les données et les opportunités à tirer des avantages.</p>",
+                "_graphic": {
+                    "src": "course/fr/images/odi-003_large.jpg",
+                    "alt": "Active Engagement",
+                    "title": "Active Engagement",
+                    "*source":"http://www.shutterstock.com/pic-82049359.html",
+                    "*credit":"Carsten Reisinger",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Active Engagement"
+            },
+            {
+                "title": "Trouver l’espace à innover",
+                "body": "<p>La direction forte et l’engagement actif avec les parties prenantes sont clés à toute initiative réussie.</p><p>La direction active fournit d’encouragement de l’organisation, le dialogue actif crée d’attraction des utilisateurs des données.</p><p>Celui-ci réalise les opportunités d’innovation qui lie des problèmes aux solutions potentielles où l’open data tient la clé.</p>",
+                "_graphic": {
+                    "src": "course/fr/images/odi-004_large.jpg",
+                    "alt": "Space to innovate",
+                    "title": "Space to innovate",
+                    "*source":"http://www.shutterstock.com/pic-33265168.html",
+                    "*credit":"Tonis Pan",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Space to innovate"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-30",
+        "_parentId":"b-28",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Offre et demande",
+            "title": "Offre et demande",
+            "large": "course/fr/images/odi-005_large.png",
+            "medium": "course/fr/images/odi-005_large.png",
+            "small": "course/fr/images/odi-005_large.png",
+            "*source":"http://www.shutterstock.com/pic-245234284.html",
+            "*credit":"Positive thinker",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+      "_id":"c-35",
+      "_parentId":"b-28",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"left",
+      "title": "Offre et demande",
+      "displayTitle": "Offre et demande",
+      "body": "<p>Quand vous examinez une initiative d’open data, pensez aux questions suivantes :</p>",
+      "instruction": "<em>Cliquez sur la flèche pour plus de détail</em>",
+      "_items": [
+        {
+          "alt": "L’approche",
+          "title": "L’approche",
+          "body": "<p>Beaucoup de maisons d’édition d’open data prend l’approche de construire un portail, publier des données, publier meilleures données en espérant qu’il traite de ce que les consommateurs veulent ou ce dont ils ont besoin.</p><p>Vu la croissance de l’education aux données ouvertes, les gens commencent à penser aux besoins des consommateurs et par conséquent forment les initiatives.</p><p>Une approche par étapes s’assure qu’une organisation marche avant d’essayer de courir, et avance à petits pas visibles au lieu de fixer les buts ambitieux et difficiles à réaliser.</p>"
+        },
+        {
+          "alt": "Qui veut vos données ?",
+          "title": "Qui veut vos données ?",
+          "body": "<p>Il ne sert à rien de publier des données dans le domaine public qu’il n’y personne préparée ou encouragée à créer de nouvelle valeur.</p><p>Il est mieux mettre l’accent sur la demande existante.</p><p>Utilisez les dialogues des consommateurs, les sondages d’opinion ou des ‘micro-trottoirs’ pour voir où la demande existe et la suivre.</p><p>Pensez aux problèmes existants et le rapport entre ceux-ci et vos données. Offrez vos données comme un outil.</p>"
+        },
+        {
+          "alt": "Qui va utiliser et soutenir vos données ?",
+          "title": "Qui va utiliser et soutenir vos données ?",
+          "body": "<p>Une initiative d’open data réussie s’engage à une communauté qui utilise les données d’une manière active avec l’accès aux ressources de soutien.</p>Une communauté d’open data forte posséde un sentiment de propriété des données. Cette propriété devrait inclure les données ainsi que les résultats.</p><p>Il est important que les maisons d’édition et les consommateurs comprennent la perspective de l’autre.</p><p><strong>Ce qui constitue un bon exemple d’une communauté de l’open data forte est le projet de ‘Raspberry-Pi’.</strong><br /><a href='https://www.raspberrypi.org/' target='_blank'>Lien vers le projet de Raspberry-Pi</a></p>"
+        }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+     {
+        "_id": "c-40",
+        "_parentId": "b-30",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Changements culturels pour les nouveaux marchés",
+        "displayTitle": "Changements culturels pour les nouveaux marchés",
+        "body": "Appliquer la technologie est facile - mettre en place un changement culturel serait plus difficile.",
+        "instruction": "<em class='desktop-instruction'>Cliquez sur la flèche pour plus de détail</em><em class='mobile-instruction'>Cliquez sur la flèche pour plus de détail</em>",
+        "_items": [
+            {
+                "title": "Identifier les nouveaux marchés",
+                "body": "<p>Le marché traditional d’open data, c’est-à-dire les gouvernements qui publient les données pour autres consommateurs, a changé.</p><p>Aujourd’hui les gouvernements, les entreprises et la société sont tous les trois des fournisseurs et consommateurs d’open data.</p>",
+                "_graphic": {
+                    "src": "course/fr/images/odi-006_large.jpg",
+                    "alt": "New markets",
+                    "title": "New markets",
+                    "*source":"http://www.shutterstock.com/pic-164731838.html",
+                    "*credit":"STH",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "New markets"
+            },
+            {
+                "title": "Changements culturels",
+                "body": "<p>L’adoption de l’open data demande souvent un changement de l’opération d’une institution.</p><p>Les gens qui font avancer les initiatives d’open data doivent passer le temps en faisant tomber les barrières, construisant les coalitions pour des changements et le faisant avancer.</p><p>Les consommateurs devraient avoir le pouvoir de s’engager à l’open data comme une partie clé de leur infrastructure de données.</p>",
+                "_graphic": {
+                    "src": "course/fr/images/odi-007_large.jpg",
+                    "alt": "Culture change",
+                    "title": "Culture change",
+                    "*source":"http://www.shutterstock.com/pic-257301595.html",
+                    "*credit":"Anna Omelchenko",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Culture change"
+            },
+            {
+                "title": "Préparation pour le changement",
+                "body": "<p>Les gouvernements, les organisations et les individus devraient avoir l’accès libre aux outils et guides clés qui les aident à préparer pour l’avenir.</p><p>Des projets pilotes et des initiatives pratiques sont importants en nous faisant comprendre l’impact d’open data et le processus de changements. Ceux-ci aideraient aussi la formation des guides pratiques comme le ‘Open Data Pathway’ publié par l’ODI.</p>",
+                "_graphic": {
+                    "src": "course/fr/images/odi-008_large.jpg",
+                    "alt": "Planning for change",
+                    "title": "Planning for change",
+                    "*source":"http://www.shutterstock.com/pic-53095825.html",
+                    "*credit":"Mikael Damkier",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Planning for change"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-42",
+        "_parentId":"b-32",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/fr/images/burst-indigo.png",
+            "medium": "course/fr/images/burst-indigo.png",
+            "small": "course/fr/images/burst-indigo.png"
+        }
+    },
+    {
+        "_id":"c-43",
+        "_parentId":"b-32",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Êtes-vous prêt(e) pour des changements culturels ?",
+        "displayTitle":"Êtes-vous prêt(e) pour des changements culturels ?",
+        "body":"<p>Il y a quatre caractéristiques clés des initiatives d’open data réussies. Pouvez-vous s’en souvenir ?</p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-45",
+        "_parentId":"b-35",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Leadership and engagement",
+            "title": "",
+            "large": "course/fr/images/odi-009-text-image_large.png",
+            "medium": "course/fr/images/odi-009-text-image_large.png",
+            "small": "course/fr/images/odi-009-text-image_large.png",
+            "*source":"http://www.shutterstock.com/pic-134315933.html",
+            "*credit":"Photoraidz",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    
+    {
+        "_id":"c-50",
+        "_parentId":"b-35",
+        "_type":"component",
+        "_component":"mcq",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Direction et engagement",
+        "displayTitle": "Direction et engagement",
+        "body": "<p>Quels sont les deux facteurs relationnels dont on a besoin pour créer d’une initiative d’open data réussie ?</p>",
+        "instruction": "<em>Choisissez votre réponse et puis cliquez sur ‘Soumettre’.</em>",
+        "_items": [
+            {
+                "text": "L’intelligence emotionnelle et la patience.",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "La direction forte et l’engagement actif.",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "L’amitié et l’empathie.",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Vous avez raison !</h5><p>La direction forte et l’engagement actif avec les parties prenantes sont clé à toute initiative réussie.</p>",
+            "_incorrect": {
+                "notFinal": "h5>Êtes vous sûr(e) ?</h5><p>La direction forte et l’engagement actif avec les parties prenantes sont clé à toute initiative réussie.</p>",
+                "final": "<h5>Êtes vous sûr(e) ?</h5><p>La direction forte et l’engagement actif avec les parties prenantes sont clé à toute initiative réussie.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Êtes vous sûr(e) ?</h5><p>La direction forte et l’engagement actif avec les parties prenantes sont clé à toute initiative réussie.</p>",
+                "final": "<h5>Êtes vous sûr(e) ?</h5><p>La direction forte et l’engagement actif avec les parties prenantes sont clé à toute initiative réussie.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"Soumettre",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-55",
+        "_parentId":"b-40",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Supply and Demand",
+            "title": "",
+            "large": "course/fr/images/odi-010-mcq_large.png",
+            "medium": "course/fr/images/odi-010-mcq_large.png",
+            "small": "course/fr/images/odi-010-mcq_large.png",
+            "*source":"http://www.shutterstock.com/pic-238771996.html",
+            "*credit":"Mangsaab",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-60",
+        "_parentId":"b-40",
+        "_type":"component",
+        "_component":"mcq",
+        "_classes":"",
+        "_layout":"right",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Offre et demande",
+        "displayTitle": "Offre et demande",
+        "body": "<p>Quelle approche moderne devriez-vous prendre en préparant pour une initiative d’open data ?</p>",
+        "instruction": "<em>Choisissez votre réponse et puis cliquez sur ‘Soumettre’.</em>",
+        "_items": [
+            {
+                "text": "Publier et ésperer que les gens l’utilisent.",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Pensez à mes besoins.",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Adopter la perspective du consommateur.",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Vous avez raison !</h5><p>Vu la maturité de la communauté d’open data, beaucoup de gens prend l’approche d’adopter la perspective du consommateur et clarifier les avantages desquels il peut bénéficier.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Êtes vous sûr(e) ?</h5><p>Vu la maturité de la communauté d’open data, beaucoup de gens prend l’approche d’adopter la perspective du consommateur et clarifier les avantages desquels il peut bénéficier.</p>",
+                "final": "<h5>Êtes vous sûr(e) ?</h5><p>Vu la maturité de la communauté d’open data, beaucoup de gens prend l’approche d’adopter la perspective du consommateur et clarifier les avantages desquels il peut bénéficier.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Êtes vous sûr(e) ?</h5><p>Vu la maturité de la communauté d’open data, beaucoup de gens prend l’approche d’adopter la perspective du consommateur et clarifier les avantages desquels il peut bénéficier.</p>",
+                "final": "<h5>Êtes vous sûr(e) ?</h5><p>Vu la maturité de la communauté d’open data, beaucoup de gens prend l’approche d’adopter la perspective du consommateur et clarifier les avantages desquels il peut bénéficier.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"Soumettre",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-65",
+        "_parentId":"b-45",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Culture change for new markets",
+            "title": "",
+            "large": "course/fr/images/odi-011-mcq_large.jpg",
+            "medium": "course/fr/images/odi-011-mcq_large.jpg",
+            "small": "course/fr/images/odi-011-mcq_large.jpg",
+            "*source":"http://www.shutterstock.com/pic-245234284.html",
+            "*credit":"Positive thinker",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-70",
+        "_parentId":"b-45",
+        "_type":"component",
+        "_component":"mcq",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Changements culturels pour les nouveaux marchés",
+        "displayTitle": "Changements culturels pour les nouveaux marchés",
+        "body": "<p>Les gens qui font avancer les initiatives d’open data doivent prendre le temps de...</p>",
+        "instruction": "<em>Choisissez votre réponse et puis cliquez sur ‘Soumettre’.</em>",
+        "_items": [
+            {
+                "text": "Faire tomber les barrières, construire les coalitions pour des changements et les faire avancer.",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "Parler aux autres maisons d’édition des données.",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Se familiariser avec leurs propre séries de données.",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Vous avez raison !</h5><p>L’adoption de l’open data demande souvent un changement de l’opération d’une institution. Les gens qui font avancer les initiatives d’open data doivent prendre le temps de faire tomber les barrières, construire les coalitions pour des changements et le faire avancer.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Êtes vous sûr(e) ?</h5><p>L’adoption de l’open data demande souvent un changement de l’opération d’une institution. Les gens qui font avancer les initiatives d’open data doivent prendre le temps de faire tomber les barrières, construire les coalitions pour des changements et le faire avancer.</p>",
+                "final": "<h5>Êtes vous sûr(e) ?</h5><p>L’adoption de l’open data demande souvent un changement de l’opération d’une institution. Les gens qui font avancer les initiatives d’open data doivent prendre le temps de faire tomber les barrières, construire les coalitions pour des changements et le faire avancer.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Êtes vous sûr(e) ?</h5><p>L’adoption de l’open data demande souvent un changement de l’opération d’une institution. Les gens qui font avancer les initiatives d’open data doivent prendre le temps de faire tomber les barrières, construire les coalitions pour des changements et le faire avancer.</p>",
+                "final": "<h5>Êtes vous sûr(e) ?</h5><p>L’adoption de l’open data demande souvent un changement de l’opération d’une institution. Les gens qui font avancer les initiatives d’open data doivent prendre le temps de faire tomber les barrières, construire les coalitions pour des changements et le faire avancer.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"Soumettre",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-75",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Planning for change",
+            "title": "",
+            "large": "course/fr/images/odi-012-mcq_large.png",
+            "medium": "course/fr/images/odi-012-mcq_large.png",
+            "small": "course/fr/images/odi-012-mcq_large.png",
+            "*source":"http://www.shutterstock.com/pic-164731838.html",
+            "*credit":"STH",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-80",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"mcq",
+        "_classes":"",
+        "_layout":"right",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Préparation pour le changement",
+        "displayTitle": "Préparation pour le changement",
+        "body": "<p>Les gouvernements, les organisations et les individus devraient avoir l’accès libre à...</p>",
+        "instruction": "<em>Choisissez votre réponse et puis cliquez sur ‘Soumettre’.</em>",
+        "_items": [
+            {
+                "text": "Le big data.",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "L’open data de tout le monde.",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "L’éducation, les outils et les guides clés.",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Vous avez raison !</h5><p>Les gouvernements, les organisations et les individus devraient avoir l’accès libre à l’éducation, aux outils et aux guides clés qui les aident à préparer pour l’avenir. </p>",
+            "_incorrect": {
+                "notFinal": "<h5>Êtes vous sûr(e) ?</h5><p>Les gouvernements, les organisations et les individus devraient avoir l’accès libre à l’éducation, aux outils et aux guides clés qui les aident à préparer pour l’avenir.</p>",
+                "final": "<h5>Êtes vous sûr(e) ?</h5><p>Les gouvernements, les organisations et les individus devraient avoir l’accès libre à l’éducation, aux outils et aux guides clés qui les aident à préparer pour l’avenir.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Êtes vous sûr(e) ?</h5><p>Les gouvernements, les organisations et les individus devraient avoir l’accès libre à l’éducation, aux outils et aux guides clés qui les aident à préparer pour l’avenir. </p>",
+                "final": "<h5>Êtes vous sûr(e) ?</h5><p>Les gouvernements, les organisations et les individus devraient avoir l’accès libre à l’éducation, aux outils et aux guides clés qui les aident à préparer pour l’avenir. </p>"
+          }
+        },
+        "_buttons":{
+            "submit":"Soumettre",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-85",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Summary icon clipboard",
+            "title": "Summary icon clipboard",
+            "large": "course/fr/images/summary-icon.png",
+            "medium": "course/fr/images/summary-icon.png",
+            "small": "course/fr/images/summary-icon.png",
+            "*source":"http://www.shutterstock.com/pic-189810137.html",
+            "*credit":"Kritchanut",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-90",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Open data. Agent de changement.",
+        "displayTitle":"Open data. Agent de changement.",
+        "body":"<p>La mise en œuvre d’une initiative d’open data implique souvent des changements culturels et institutionnels.</p><p>S’engager à la société civique, aux entreprises et aux gouvernements est une partie importante du processus.</p><p>Puisque la communauté d’open data mûrit, beaucoup de développeurs tiennent compte des besoins des utilisateurs.</p><p>L’open data nous demande à penser d’une manière différente à la façon dans laquelle le marché d’open data fonctionne.</p><p>Pendant le module prochain, on explorera comment simplifier les licences d’open data.</p>",
+        "_pageLevelProgress": {
+          "_isEnabled": true
+        }
+    },
+    {
+       "_id":"c-95",
+       "_parentId":"b-55",
+       "_type":"component",
+       "_component":"text",
+       "_classes":"separator",
+       "_layout":"full"
+    },
+    {
+        "_id":"c-100",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"footer-logo",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Open data institute logo",
+            "title": "Open data institute logo",
+            "large": "course/fr/images/logo-small.png",
+            "medium": "course/fr/images/logo-small.png",
+            "small": "course/fr/images/logo-small.png",
+            "*source":"http://theodi.org",
+            "*credit":"The Open Data Institute",
+            "*license":"All rights reserved"  
+        }
+    },
+    {
+        "_id":"c-105",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"social-buttons",
+        "_layout":"right",
+        "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/fr/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/fr/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/fr/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/fr/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/fr/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/fr/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/fr/images/social/flickr.png'></a>"
+    }
+]

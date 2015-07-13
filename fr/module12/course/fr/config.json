@@ -1,0 +1,21 @@
+{
+    "_defaultLanguage": "fr",
+    "_questionWeight": 1,
+    "_drawer": {
+        "_showEasing": "easeOutQuart",
+        "_hideEasing": "easeInQuart",
+        "_duration": 400
+    },
+    "_spoor": {
+        "_tracking": {
+            "_requireCourseCompleted": true,
+            "_requireAssessmentPassed": true,
+            "_shouldSubmitScore": false
+        },
+        "_reporting": {
+            "_comment": "Your options here are 'completed', 'passed', 'failed', and 'incomplete'",
+            "_onTrackingCriteriaMet": "completed",
+            "_onAssessmentFailure": "incomplete"
+        }
+    }
+}

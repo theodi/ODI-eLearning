@@ -1,0 +1,664 @@
+[
+    {
+        "_id":"c-01",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"intro-logo",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "",
+            "medium": "",
+            "small": "",
+            "*source":"",
+            "*credit":"",
+            "*license":""
+        }
+    },
+    {
+        "_id":"c-02",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Trouver les données cachées sur le Web",
+        "displayTitle":"Trouver les données cachées sur le Web",
+        "body":"<p>‘Open data’ signifie plus que les séries de données disponibles à télécharger. Les données téléchargeables ne représent qu’une petite fraction des données disponibles sur le Web.</p><p>La plupart des données disponibles sur le Web sont cachées de l’œil humain. Cependant les machines peuvent trouver et lire ces données. Pendant le module, on explorera des techniques pour déverrouiler les données cachées.</p><h5>Pendant le module on explorera les questions suivantes :</h5><ul class='ticks'><li>Comment trouver les données cachées</li><li>Quels avantages les données cachées offrent</li><li>Comment obtenir les donnés cachées</li></ul>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+     {
+    "_id":"c-11",
+    "_parentId":"b-10",
+    "_type":"component",
+    "_component":"iFrame-vimeo",
+    "_classes":"",
+    "_layout":"full",
+        "title":"Trouver les données cachées - dans 2 minutes",
+        "displayTitle": "Trouver les données cachées - dans 2 minutes",
+        "body": "Entraîneur chez l’ODI, Dr David Tarrant explique qu’est-ce que c’est les données cachées, quels avantages elles offrent et comment les obtenir.",
+        "instruction": "",
+        "_setCompletionOn":"ended",
+        "_source": "https://player.vimeo.com/video/129197208",
+        "_width": {
+            "_small" : 300,
+            "_medium" : 500,
+            "_large" : 905
+        },
+        "_height": {
+            "_small" : 250,
+            "_medium" : 350,
+            "_large" : 508
+        }
+    },
+    {
+        "_id":"c-21",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Tip of the iceberg",
+            "title": "Tip of the iceberg",
+            "large": "course/fr/images/odi-001.jpg",
+            "medium": "course/fr/images/odi-001.jpg",
+            "small": "course/fr/images/odi-001.jpg",
+            "*source": "http://www.shutterstock.com/pic-278213858.html",
+            "*credit": "Lightspring",
+            "*licence": "Shutterstock standard license"
+        }
+    },
+    {
+        "_id":"c-22",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Les données que les personnes ne voient pas",
+        "displayTitle":"Les données que les personnes ne voient pas",
+        "body":"<p>Les données ne sont pas toujours faciles à trouver sur le Web parce que la plupart des ressources disponibles ne sont que visibles aux machines. Les gens naviguent normalement sur le Web d’une manière visuelle, ils visualisent  le contenu, cliquent sur des liens et téléchargent des fichiers.</p><p>Les machines naviguent le Web d’une différente façon. Les machines, par contre, naviguent le Web en utilisant uniquement les régles logiques écrites dans le code. Alors que les humains cherchent le contenu engageant et intéractif, les machines demandent de la structure, la logique et la clarité.</p><p>Cette différence crée d’un ‘angle mort’ de la façon dont les personnes et les machines lisent le Web.</p><p>Par exemple, parfois les machines ne trouvent pas immédiatement le lien de téléchargement sur une page et les humains ont des difficultés de voir les données structurées et non-visuelles qui se trouvent dans le code.</p><p>Les fichiers téléchargeables d’open data ne sont qu’un type de données sur le Web. Beaucoup plus de données sont cachées dans le code d’un site Web.</p>"
+    },
+     {
+        "_id": "c-25",
+        "_parentId": "b-25",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Trouver les données cachées",
+        "displayTitle": "Trouver les données cachées",
+        "body": "Certaines données ne sont pas disponibles à télécharger. Souvent elles se trouvent dans les différents sites Web qu’on visite quotidiennement.",
+        "instruction": "<em class='desktop-instruction'>Cliquez sur la flèche pour plus de détail.</em><em class='mobile-instruction'>Cliquez sur la flèche pour plus de détail.</em>",
+        "_items": [
+            {
+                "title": "Pourquoi cacher les données ?",
+                "body": "<p>Le déplacement vers le Web orienté données et compatibles aux portables ont lieu à un déplacement de la façon dont les sites Web sont construits. Pour satisfaire les attentes des utilisateurs des sites Web intéractifs et visuals, les développeus tentent à mettre les données dans une ‘couche’ séparée ou même dans le code. Cette couche des données est souvent disponibles aux gens équippés de bons outils.</p>",
+                "_graphic": {
+                    "src": "course/fr/images/odi-002.jpg",
+                    "alt": "Readiness",
+                    "title": "Readiness",
+                    "*source": "http://www.shutterstock.com/pic-145267489",
+                    "*credit": "kentoh",
+                    "*licence": "Shutterstock standard license"
+                },
+                "strapline": "Readiness"
+            },
+            {
+                "title": "Les données se couchent partout",
+                "body": "<p>FDes pages de Wikipedia aux planificateurs de vaccances, des sites Web de la mode aux fournisseurs d’énergie, le Web est plein des sources des données.</p><p>‘Parfois les licences pour ces données cachées ne sont pas claires, le simple fait qu’elles sont lisibles par des machines sur un site Web public, ne les rendent pas ouvertes.’ Si vous n’êtes pas certain de la licence, vérifiez avec l’éditeur du site Web.</p>",
+                "_graphic": {
+                    "src": "course/fr/images/odi-003.jpg",
+                    "alt": "Implementation",
+                    "title": "Implementation",
+                    "*source": "http://www.shutterstock.com/pic-144137602",
+                    "*credit": "David Arts",
+                    "*licence": "Shutterstock standard license"
+                },
+                "strapline": "Implementation"
+            },
+            {
+                "title": "Quels types de données se cachent ?",
+                "body": "<p>Les données cachées apparaissent complètement différentes à une série de données ouverte qu’on télécharge d’un site Web.</p><p>Les données lisibles par des machines sur le Web se présentent sous une forme telle que JSON, la forme la plus commune et facile à utiliser, XML et parfois RDF.</p><p>Faites les exercices plus tard dans le module et essayez de extraire les données sous ces formes.</p>",
+                "_graphic": {
+                    "src": "course/fr/images/odi-004.jpg",
+                    "alt": "Impact",
+                    "title": "Impact",
+                    "*source": "http://www.shutterstock.com/pic-79079872",
+                    "*credit": "Angela Waye",
+                    "*licence": "Shutterstock standard license"
+                },
+                "strapline": "Impact"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-30",
+        "_parentId":"b-28",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Benefits of hidden data",
+            "title": "Benefits of hidden data",
+            "large": "course/fr/images/odi-005.jpg",
+            "medium": "course/fr/images/odi-005.jpg",
+            "small": "course/fr/images/odi-005.jpg",
+            "*source": "http://www.shutterstock.com/pic-203736538",
+            "*credit": "Digital Storm",
+            "*licence": "Shutterstock standard license"
+        }
+    },
+    {
+      "_id":"c-35",
+      "_parentId":"b-28",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"left",
+      "title":"Les avantages des données cachées",
+      "displayTitle": "Les avantages des données cachées",
+      "instruction": "<em>Cliquez sur les titres pour plus de détails</em>",
+      "_items": [
+        {
+          "alt": "Qualité",
+          "title": "Qualité",
+          "body": "<p>Dans plusieurs cas les données cachées sont utilisées par l’éditeur pour présenter la page qu’on voit sur leur site Web.</p><p>Les données cachées donc font une partie importante à leurs opérations en ligne et il est probable que l’éditeur fait attention à la qualité.</p><p>Les données extraites du Web tentent à être plus fiable dû à la probablité enlevée de qu’elles fassent partie des opérations clés d’une organisation.</p>"
+        },
+        {
+          "alt": "Pertinence",
+          "title": "Pertinence",
+          "body": "<p>Les organisations ne publient pas toujours les données téléchargeables. Cependant plusieurs exécutent des sites Web orientés données. En accédant les données grâce aux flux de données existants (ou dans le code du site Web), il y a déjà une utilisation claire pour les données, ce qui vous aide à identifier rapidement des données pertinentes au lieu de les trouver vous même. Par exemple, les pages, sections et flux des données pertinents du BBC.<br /><a href='http://www.bbc.co.uk/news/10628494' target='_blank'>Lien vers données pertinents du BBC</a></p>"
+        },
+        {
+          "alt": "Contexte",
+          "title": "Contexte",
+          "body": "<p>Lorsqu’on accéde les données directement du Web, on les voit dans le contexte utilisé par l’éditeur. On a déja vu pendant les modules précendents que le contexte des données est un élément important de l’utilisation.</p>"
+        },
+        {
+          "alt": "Ampleur",
+          "title": "Ampleur",
+          "body": "<p>Une organisation est souvent limitée concernant la quantité de données téléchargeables qu’elle peut publier. Trouver les données cachées ouvre une plus grande étendue des ressources.</p>"
+        }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+     {
+        "_id": "c-40",
+        "_parentId": "b-30",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Comment trouver les données cachées ?",
+        "displayTitle": "Comment trouver les données cachées ?",
+        "body": "<p>On obtient d’informations des données, et on obtient de connaissance et perspicacité.</p><p>Veuillez noter que le simple fait que vous pouvez extraire les données cachées ne les rend pas ouvertes. Vous devriez toujours vérifier les conditions générales de la licence du site Web avant de recueillir ou utiliser des données pour toute fin. Pour plus de détails sur la licenc voyez le module 4 de ce cours.</p>",
+        "instruction": "<em class='desktop-instruction'>Cliquez sur la flèche pour plus de détail.</em><em class='mobile-instruction'>Cliquez sur la flèche pour plus de détail.</em>",
+        "_items": [
+            {
+                "title": "Le téléchargement des extensions",
+                "body": "<p>On a construit quelques sites Web pour qu’ils offrent une façon de extraire les données en ajoutant une extension à l’URL. Pour tels sites Webs, normalement maintenus par des organisations qui publient aussi l’open data téléchargeable, ajouter la bonne extension déclenche un téléchargement de la page sous une forme des données en comparaison avec une forme de navigateur.</p><p>Un bon exemple est le site Web du gouvernement britannique qui fournit chaque page sous une forme des données, si on ajoute l’extension pertinente comme ‘.json’, par exemple https://www.gov.uk/browse/business.json.</p><p>Essayez avec les données de commerce du Royaume-Uni. Allez au site Web et ajoutez ‘.json’, à l’URL pour obtenir les données.<br /><a href='https://www.gov.uk/trade-tariff/sections' target='_blank'>Lien vers les données de commerce du gouvernement britannique</a></p><p>Pour voir les données sous une forme plus lisible par des humaines, les copiez dans jsonlint.io</p>",
+                "_graphic": {
+                    "src": "course/fr/images/odi-006.jpg",
+                    "alt": "Extensions",
+                    "title": "Extensions",
+                    "*source": "http://www.shutterstock.com/pic-119236978",
+                    "*credit": "spaxiax",
+                    "*licence": "Shutterstock standard license"
+                },
+                "strapline": "Process management"
+            },
+            {
+                "title": "Les flux des données",
+                "body": "<p>Plusieurs sites Web fournissent les liens aux flux de la syndication des données auxquelles on peut s’abonner. Ces flux peuvent être les flux RSS, les flux d’alertes de Twitter ou autres types moins communs. On utilise les flux pour obtenir des données brutes concernant une vaste sélection du contenu.</p><p>Pour un exemple d’un flux des données brutes, voyez le flux de BBC news sous la forme XML.<br /><a href='http://feeds.bbci.co.uk/news/rss.xml' target='_blank'>Lien vers données pertinents du BBC en XML</a></p><p>Vous pouvez utiliser un outil gratuit en ligne qui rend ces données plus faciles à utiliser.<br /><a href='http://codebeautify.org/xmlviewer' target='_blank'>Allez vers codebeautify et entrez l’URL du flux BBC dans la section ‘Load URL’</a></p>",
+                "_graphic": {
+                    "src": "course/fr/images/odi-007.jpg",
+                    "alt": "Data feeds",
+                    "title": "Data feeds",
+                    "*source": "http://www.shutterstock.com/pic-72158482",
+                    "*credit": "Ing",
+                    "*licence": "Shutterstock standard license"
+                },
+                "strapline": "User focused"
+            },
+            {
+                "title": "Le code source",
+                "body": "<p>Au déla des sites Web qui fournissent une façon simple aux données, beaucoup de sites intégrent les données dans le code source du page Web.</p><p>Pourquoi pas jeter un œil sur l’outil expérimental de l’ODI ‘Hidden Data Extractor’ pour trouver les données cachées dans le code source d’un site Web ?<br /><a href='http://odinprac.theodi.org/hidden-data-extractor/' target='_blank'>Lien vers le ‘Hidden Data Extractor’ de l’ODI</a></p>",
+                "_graphic": {
+                    "src": "course/fr/images/odi-008.jpg",
+                    "alt": "Source code",
+                    "title": "Source code",
+                    "*source": "http://www.shutterstock.com/pic-119236978",
+                    "*credit": "spaxiax",
+                    "*licence": "Shutterstock standard license"
+                },
+                "strapline": "User focused"
+            },
+            {
+                "title": "API ou interface lisible par une machine",
+                "body": "<p>Certains sites ou services Web montent une interface lisible par une machine, ou un API, pour des requêtes ou l’accès aux données.</p><p>Des exemples des services qui ont une API y compris :<a href='https://api.opencorporates.com/' target='_blank'>Open Corporates</a> (ouvert), <a href='http://wiki.openstreetmap.org/wiki/API' target='_blank'>OpenSteetMap</a> (ouvert), <a href='https://dev.twitter.com/rest/public' target='_blank'>Twitter</a> (pas ouvert ), <a href='https://www.flickr.com/services/api/' target='_blank'>Flickr</a> (quelque contenu ouvert), <a href='https://developer.linkedin.com/docs/rest-api' target='_blank'>LinkedIn</a> (pas ouvert).</p><p>La plupart des services utilisent une API basé sur le Web et permettent qu’on ajoute des extensions (essayez ‘.json’ sur OpenCorporates). Bien que cette API ressemble un site Web comme ceux qu’on a vu plus tôt pendant cette section, où on ajoute une extension pour obtenir les données, le status formal d’OpenCorporates comme une API donne plus de certitude de la disponibilité du service.</p>",
+                "_graphic": {
+                    "src": "course/fr/images/odi-009.jpg",
+                    "alt": "APIs",
+                    "title": "APIs",
+                    "*source": "http://www.shutterstock.com/pic-231102415",
+                    "*credit": "Imagentle",
+                    "*licence": "Shutterstock standard license"
+                },
+                "strapline": "User focused"
+            },
+            {
+                "title": "Le grattage du Web.",
+                "body": "<p>Si aucune de lésdits techniques ne fonctionne, vous auriez recours à gratter les pages Web lisibles par des humains. Bien qu’il soit fiable, il y a le risque que la disposition ainsi que le contenu changent.</p><p>Pourquoi pas essayez magic.import pour voir si facile il est ?</p>",
+                "_graphic": {
+                    "src": "course/fr/images/odi-010.jpg",
+                    "alt": "Scraping the web",
+                    "title": "Scraping the web",
+                    "*source": "http://www.shutterstock.com/pic-231672367",
+                    "*credit": "McIek",
+                    "*licence": "Shutterstock standard license"
+                },
+                "strapline": "User focused"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    }, {
+        "_id":"c-42",
+        "_parentId":"b-33",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/fr/images/burst.png",
+            "medium": "course/fr/images/burst.png",
+            "small": "course/fr/images/burst.png"
+        }
+    },
+    {
+        "_id":"c-43",
+        "_parentId":"b-33",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Êtes vous prêt(e) à trouver les données cachées sur le Web?",
+        "displayTitle":"Êtes vous prêt(e) à trouver les données cachées sur le Web?",
+        "body":"<p>Il y a 3 choses utiles à prendre en trouver les données cachées sur le Web. Vous vous en souvenez ?</p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-45",
+        "_parentId":"b-35",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Tip of the iceberg",
+            "title": "Tip of the iceberg",
+            "large": "course/fr/images/odi-011.jpg",
+            "medium": "course/fr/images/odi-011.jpg",
+            "small": "course/fr/images/odi-011.jpg",
+            "*source": "http://www.shutterstock.com/pic-278213858.html",
+            "*credit": "Lightspring",
+            "*licence": "Shutterstock standard license"
+        }
+    },
+    {
+        "_id":"c-50",
+        "_parentId":"b-35",
+        "_type":"component",
+        "_component":"mcq",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Qu’est-ce que c’est les données cachées ?",
+        "displayTitle": "Qu’est-ce que c’est les données cachées ?",
+        "body": "<p>Les données cachées...</p>",
+        "instruction": "<em>Choisissez votre réponse et puis cliquez sur ‘Soumettre’</em>",
+        "_items": [
+            {
+                "text": "font partie d’une chasse au trésor",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "dSont les données visibles aux machines mais invisibles à l’œil humain",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "Sont les fichiers quil sont difficile à télécharger",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Vous avez raison !</h5><p>Les donnés cachées sont invisibles aux gens quand ils naviguent le Web mais faciles à trouver et comprendre par une machine.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Êtes vous sûr(e) ? </h5><p>Les donnés cachées sont invisibles aux gens quand ils naviguent le Web mais faciles à trouver et comprendre par une machine.</p>",
+                "final": "<h5>Êtes vous sûr(e) ? </h5><p>Les donnés cachées sont invisibles aux gens quand ils naviguent le Web mais faciles à trouver et comprendre par une machine.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          }
+        },
+        "_buttons":{
+            "submit":"Soumettre",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-55",
+        "_parentId":"b-40",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Impact",
+            "title": "",
+            "large": "course/fr/images/odi-012.jpg",
+            "medium": "course/fr/images/odi-012.jpg",
+            "small": "course/fr/images/odi-012.jpg",
+            "*source": "http://www.shutterstock.com/pic-79079872",
+            "*credit": "Angela Waye",
+            "*licence": "Shutterstock standard license"
+        }
+    },
+    {
+        "_id":"c-60",
+        "_parentId":"b-40",
+        "_type":"component",
+        "_component":"mcq",
+        "_classes":"",
+        "_layout":"right",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Pourquoi sont les données cachées ?",
+        "displayTitle": "Pourquoi sont les données cachées ?",
+        "body": "<p>Les gens cachent les données parce que...</p>",
+        "instruction": "<em>Choisissez votre réponse et puis cliquez sur ‘Soumettre’.</em>",
+        "_items": [
+            {
+                "text": "Ils en ont honte",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Il n’est pas propre",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Il n’était pas intentionnel",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Vous avez raison !</h5><p>La plupart des données ne sont pas intentionnellement cachées. Souvent l’organisation qui construit le site Web met l’accent sur la façon dont les personnes naviguant la page Web et donc ne considére pas comment il fournit les données.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Êtes vous sûr(e) ? </h5><p>La plupart des données ne sont pas intentionnellement cachées. Souvent l’organisation qui construit le site Web met l’accent sur la façon dont les personnes naviguant la page Web et donc ne considére pas comment il fournit les données.</p>",
+                "final": "<h5>Êtes vous sûr(e) ? </h5><p>La plupart des données ne sont pas intentionnellement cachées. Souvent l’organisation qui construit le site Web met l’accent sur la façon dont les personnes naviguant la page Web et donc ne considére pas comment il fournit les données.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Êtes vous sûr(e) ? </h5><p>Les donnés cachées sont invisibles aux gens quand ils naviguent le Web mais faciles à trouver et comprendre par une machine.</p>",
+                "final": "<h5>Êtes vous sûr(e) ? </h5><p>Les donnés cachées sont invisibles aux gens quand ils naviguent le Web mais faciles à trouver et comprendre par une machine.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"Soumettre",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-65",
+        "_parentId":"b-45",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Benefits of hidden data",
+            "title": "",
+            "large": "course/fr/images/odi-013.jpg",
+            "medium": "course/fr/images/odi-013.jpg",
+            "small": "course/fr/images/odi-013.jpg",
+            "*source": "http://www.shutterstock.com/pic-203736538",
+            "*credit": "Digital Storm",
+            "*licence": "Shutterstock standard license"
+        }
+    },
+    {
+        "_id":"c-70",
+        "_parentId":"b-45",
+        "_type":"component",
+        "_component":"mcq",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Les avantages des données cachées",
+        "displayTitle": "Les avantages des données cachées",
+        "body": "<p>Lesquels des suivants points n’est pas un avantage des données cachées ?</p>",
+        "instruction": "<em>Choisissez votre réponse et puis cliquez sur ‘Soumettre’.</em>",
+        "_items": [
+            {
+                "text": "Breadth",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Quality",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Readability",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "Relevance",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Context",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Vous avez raison !</h5><p>Trouver les données cachées peut augmenter la pertinence et la qualité des données, l’ampleur disponible et souligner le contexte dans lequel on utilise les données.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Trouver les données cachées peut augmenter la pertinence et la qualité des données, l’ampleur disponible et souligner le contexte dans lequel on utilise les données.</p>",
+                "final": "<h5>Trouver les données cachées peut augmenter la pertinence et la qualité des données, l’ampleur disponible et souligner le contexte dans lequel on utilise les données.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "Hidden data can increase the relevance and quality of the data, the breadth available and highlight the context in which the data is used.",
+                "final": "Hidden data can increase the relevance and quality of the data, the breadth available and highlight the context in which the data is used."
+          }
+        },
+        "_buttons":{
+            "submit":"Soumettre",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-72",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Source code",
+            "title": "",
+            "large": "course/fr/images/odi-014.jpg",
+            "medium": "course/fr/images/odi-014.jpg",
+            "small": "course/fr/images/odi-014.jpg",
+            "*source": "http://www.shutterstock.com/pic-119236978",
+            "*credit": "spaxiax",
+            "*licence": "Shutterstock standard license"
+        }
+    },
+    {
+        "_id":"c-73",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"mcq",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Comment extraire les données cachées d’un site Web ?",
+        "displayTitle": "Comment extraire les données cachées d’un site Web ?",
+        "body": "<p>Lesquels des points suivants est une façon utile d’extraire les données cachées du site Web ?</p>",
+        "instruction": "<em>Choisissez votre réponse et puis cliquez sur ‘Soumettre’.</em>",
+        "_items": [
+            {
+                "text": "Mettre le lien du site Web en cache",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Recharger la page",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Inspecter le code source",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Vous avez raison !</h5><p>Inspecter le code source d’un site Web révéle les données cachées intégrées dans la page.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Êtes vous sûr(e) ? </h5><p>Inspecter le code source d’un site Web révéle les données cachées intégrées dans la page.</p>",
+                "final": "<h5>Êtes vous sûr(e) ? </h5><p>Inspecter le code source d’un site Web révéle les données cachées intégrées dans la page.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Êtes vous sûr(e) ? </h5><p>Inspecting the source code of a website often reveals hidden data embedded in the page</p>",
+                "final": "<h5>Êtes vous sûr(e) ? </h5><p>Inspecting the source code of a website often reveals hidden data embedded in the page</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-85",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Summary icon clipboard",
+            "title": "Summary icon clipboard",
+            "large": "course/fr/images/summary-icon.png",
+            "medium": "course/fr/images/summary-icon.png",
+            "small": "course/fr/images/summary-icon.png",
+            "*source":"http://www.shutterstock.com/pic-189810137.html",
+            "*credit":"Kritchanut",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-90",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Trouver les données cachées",
+        "displayTitle":"Trouver les données cachées",
+        "body":"<p>Les données téléchargeables ne représent qu’une petite fraction des données disponibles sur le Web.</p><p>Alors que l’œil humain ne voit pas toujours ces données, il est possible d’identifier et prendre une quantité vaste des nouvelles données en utilisant des machines.</p><p>Les données accédées de ces sites Web sont souvent plus vastes et pertinentes que les fichiers téléchargeables et tirent directement du contexte déjà utilisé par l’éditeur.</p><p>En augmentant votre connaissance des données cachées et en apprenant quelques approches simples, telles que les requêtes d’extension et les API, vous seriez capable d’accéder une vaste étendue des données pertinentes à votre travail à l’avenir.</p>",
+        "_pageLevelProgress": {
+          "_isEnabled": true
+        }
+    },
+    {
+       "_id":"c-95",
+       "_parentId":"b-55",
+       "_type":"component",
+       "_component":"text",
+       "_classes":"separator",
+       "_layout":"full"
+    },
+    {
+        "_id":"c-100",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"footer-logo",
+        "_layout":"left",
+        "_graphic": {
+             "alt": "Open data institute logo",
+            "title": "Open data institute logo",
+            "large": "course/fr/images/logo-small.png",
+            "medium": "course/fr/images/logo-small.png",
+            "small": "course/fr/images/logo-small.png",
+            "*source":"http://theodi.org",
+            "*credit":"The Open Data Institute",
+            "*license":"All rights reserved"
+        }
+    },
+    {
+        "_id":"c-105",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"social-buttons",
+        "_layout":"right",
+        "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/fr/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/fr/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/fr/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/fr/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/fr/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/fr/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/fr/images/social/flickr.png'></a>"
+    }
+]
