@@ -30,7 +30,7 @@
         "_layout":"left",
         "title":"Linking up the web of data",
         "displayTitle":"Linking up the web of data",
-        "body":"<p>The current web is configured as a series of pages or ‘documents’. While these documents draw on rich sources of data, they disguise it beneath pages designed for humans to view. In this module, we explore what would happen if all the pages or documents were removed from the web.</p><p>Imagine you only had the raw data, all open, all usable and all linked together in a network or 'web' of data.</p><p>This module also introduces the web of open linked data and look at how the 5 stars of linked open data provide a roadmap for achieving this vision.</p><h5>In this module we’ll explore the following:</h5><ul class='ticks'><li>What is the web of data?</li><li>How web identifiers are used?</li><li>What a web of open linked data looks like?</li></ul>",
+        "body":"<p>The current web is configured as a series of pages or ‘documents’. While these documents draw on rich sources of data, they disguise it beneath pages designed for humans to view. In this module, we explore what would happen if all the pages or documents were removed from the web.</p><p>Imagine you only had the raw data, all open, all usable and all linked together in a network or 'web' of data.</p><p>This module also introduces the web of open linked data and look at how the 5 Stars of linked open data provide a roadmap for achieving this vision.</p><h5>In this module we’ll explore the following:</h5><ul class='ticks'><li>What is the web of data</li><li>How web identifiers are used?</li><li>What a web of open linked data looks like?</li></ul>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
@@ -45,7 +45,7 @@
     "_layout":"full",
         "title":"Surfing the web of data – in 2 minutes",
         "displayTitle": "Surfing the web of data – in 2 minutes",
-        "body": "ODI Trainer David Tarrant introduces the web of linked open data and examines how the 5 stars of open linked data can help you start browsing the web of data.",
+        "body": "ODI Trainer David Tarrant introduces the web of linked open data and examines how the 5 Stars of open linked data can help you start browsing the web of data.",
         "instruction": "",
         "_setCompletionOn":"ended",
         "_source": "https://player.vimeo.com/video/129197209",
@@ -178,22 +178,22 @@
         {
           "alt": "Open identifiers",
           "title": "Open identifiers",
-          "body": "<p>An identifier is a short way of referencing a more complex thing.</p><p>ISBNs for books and Zip/Postal codes for places are common examples.</p><p>However, there are many other identifiers used both by the public and private sectors.</p><p>The challenge of many identifiers is that it is not obvious from the number itself what it refers to. Most people therefore rely on search engines to tell us more about what these identifiers are for. Web based identifiers don’t have this problem as you can simply click the identifier to find out more.</p><p>For example, the ISBN number for a specific book is 9781568848624. To find the book using this ISBN, you would have to type it into a search engine to find out what the identifier was for before linking through to the resource. By contrast, the web-based identifier for the same book tells you that it refers to a book abd what the title is, allowing you to follow it direct from any web browser<br /><a href='http://bookshop.blackwell.co.uk/jsp/id/Netscape_and_the_World_Wide_Web_For_Dummies/9781568848624' style='word-wrap: break-word;' target='_blank'>http://bookshop.blackwell.co.uk/jsp/id/Netscape_and_the_World_Wide_Web_For_Dummies/9781568848624</a></p>"
+          "body": "<p>An identifier is a short way of referencing a more complex thing.</p><p>ISBNs for books and Zip/Postal codes for places are common examples.</p><p>However, there are many other identifiers used both by the public and private sectors.</p><p>The challenge of many identifiers is that it is not obvious from the number itself what it refers to. Most people therefore rely on search engines to tell us more about what these identifiers are for. Web based identifiers don’t have this problem as you can simply click the identifier to find out more.</p><p>For example, the ISBN number for a specific book is 9781568848624. To find the book using this ISBN, you would have to type it into a search engine to find out what the identifier was for before linking through to the resource. By contrast, the web-based identifier for the same book tells you that it refers to a book and what the title is, allowing you to follow it directly from any web browser.<br /><a href='http://bookshop.blackwell.co.uk/jsp/id/Netscape_and_the_World_Wide_Web_For_Dummies/9781568848624' style='word-wrap: break-word;' target='_blank'>http://bookshop.blackwell.co.uk/jsp/id/Netscape_and_the_World_Wide_Web_For_Dummies/9781568848624</a></p>"
         },
         {
           "alt": "Using the 4th star",
           "title": "Using the 4th star",
-          "body": "<p>The 4th star requires the creation or use of identifiers for things, both physical and digital.</p><p>This identifier is for the physical thing itself. An ISBN references a physical book but requires further context to allow a user to locate the object using it, a web based identifier for the book also references the book and not a web page about the book but adds the context needed for any human or machine to use it without additional support.</p><p>The web-based identifier also gives machines the context they need to make sense of the identifier. Consider a 3D printer. Using a web based identifier, the 3D printer could in theory get all the data needed to print a physical thing.</p>"
+          "body": "<p>The 4th star requires the creation or use of identifiers for things, both physical and digital.</p><p>This identifier is for the physical thing itself. An ISBN references a physical book but requires further context to allow a user to locate the object using it, a web based identifier for the book also references the book and not a web page about the book but adds the context needed for any human or machine to use it without additional support.</p><p>The web-based identifier also gives machines the context they need to make sense of the identifier. Consider a 3D printer. Using a web based identifier, the 3D printer could, in theory, get all the data needed to print the physical thing.</p>"
         },
         {
           "alt": "4th star open data",
           "title": "4th star open data",
-          "body": "<p>The 4th star also requires that when  a user clicks on a link and cannot be provided with the exact item (for example a book, object person, or building) that they be provided with contextual information about that item.</p><p>This is often done by redirecting the client (human or machine) to a suitable representation of the item for them. This suitable representation might be a web page, or raw data under that web page.</p>"
+          "body": "<p>The 4th star also requires that when a user clicks on a link and cannot be provided with the exact item (for example a book, object person, or building) they should instead be provided with contextual information about that item.</p><p>This is often done by redirecting the client (human or machine) to a suitable representation of the item for them. This suitable representation might be a web page, or raw data under that web page.</p>"
         },
         {
           "alt": "Try it out...",
           "title": "Try it out...",
-          "body": "<p>Some web based identifiers are<a href='http://www.w3.org/TR/cooluris/' target='_blank'>cool</a></p><p> A cool URI is a way of telling a reader what the identifier is just from the text in the URL. Before you click the URL Why not try this for yourself? Below, try to guess what identifier it links to :<br><br><a href='http://data.ordnancesurvey.co.uk/id/postcodeunit/SO171BJ' style='word-wrap: break-word;' target='_blank'>http://data.ordnancesurvey.co.uk/id/postcodeunit/SO171BJ</a><br><br>Note that once loaded, the page has a different address to the example link given above.</p><p>The link sent a request to the server for a physical item. To fulfil the request, the server returned a web page about the physical item, as it couldn’t send you the item itself. Your browser has undergone a process known as content negotiation with the server, where you receive the closest the server can get to delivering you the object - in this case the data about the object in a specific web format. If another format better fits your needs, you can use extensions to further negotiate content with the server.</p><p>Why not try content negotiation for yourself on the Ordnance survey link above by adding extensions like “.json” and “.xml” to the end of the URL?</p>"
+          "body": "<p>Some web based identifiers are <a href='http://www.w3.org/TR/cooluris/' target='_blank'>cool</a></p><p> A cool URI is a way of telling a reader what the identifier is just from the text in the URL. Before you click the URL, why not try this for yourself? Below, try to guess what identifier it links to:<br><br><a href='http://data.ordnancesurvey.co.uk/id/postcodeunit/SO171BJ' style='word-wrap: break-word;' target='_blank'>http://data.ordnancesurvey.co.uk/id/postcodeunit/SO171BJ</a></p><p>The link sent a request to the server for a physical item. To fulfil the request, the server returned a web page about the physical item, as it couldn’t send you the item itself. Your browser has undergone a process known as content negotiation with the server, where you receive the closest the server can get to delivering you the object - in this case the data about the object in a specific web format. If another format better fits your needs, you can use extensions to further negotiate content with the server.</p><p>Why not try content negotiation for yourself on the Ordnance survey link above by adding extensions like “.json” and “.xml” to the end of the URL?</p>"
         }
       ],
       "_pageLevelProgress": {
@@ -233,12 +233,12 @@
         {
           "alt": "The link",
           "title": "The link",
-          "body": "<p>The 5th star introduces the concept of linking data points together.</p><p>These links enable humans and machines to navigate between data sources on the web.</p><p>Linking data points directly to one another allows you to direct the person or machine to a definitive record on the subject of the data rather than each person maintaining their own record of the data. Linked data functions like an official website by providing everyone with an authoritative resource on the subject. Linked data also saves everyone from having to duplicate data by sharing a single resource among an infinite number of datasets using URIs.</p>"
+          "body": "<p>The 5th star introduces the concept of linking data points together.</p><p>These links enable humans and machines to navigate between data sources on the web.</p><p>Linking data points directly to one another allows you to direct the person or machine to a definitive record on that subject rather than each person maintaining their own record of the data. Linked data functions like an official website by providing everyone with an authoritative resource on the subject. Linked data also saves everyone from duplicating data by sharing a single resource among an infinite number of datasets using URIs.</p>"
         },
         {
           "alt": "Using the 5th star",
           "title": "Using the 5th star",
-          "body": "<p>Example - A database of buildings that a company owns will often have Postcodes/Zip codes against each building in the data records:<br>Building name: EEE Building<br>Building number: 32<br>Building postcode: SO17 1BJ<br><br>Ad linked data:<br><br>Building name: EEE Building<br>Building number: 32<br>Building postcode: <a href='http://data.ordnancesurvey.co.uk/id/postcodeunit/SO171BJ' style='word-wrap: break-word;' target='_blank'>http://data.ordnancesurvey.co.uk/id/postcodeunit/SO171BJ</a></p>"
+          "body": "<p>Example - A database of buildings owned by a company will often have Postcodes/Zip codes against each building in the data records:<br>Building name: EEE Building<br>Building number: 32<br>Building postcode: SO17 1BJ<br><br>Add linked data:<br><br>Building name: EEE Building<br>Building number: 32<br>Building postcode: <a href='http://data.ordnancesurvey.co.uk/id/postcodeunit/SO171BJ' style='word-wrap: break-word;' target='_blank'>http://data.ordnancesurvey.co.uk/id/postcodeunit/SO171BJ</a></p>"
         },
         {
           "alt": "Try out using the 5th Star",
@@ -319,15 +319,15 @@
         "instruction": "<em>Select an option, then click 'Submit'.</em>",
         "_items": [
             {
-                "text": "a web of data portals where you can download data",
+                "text": "a web of data portals where you can download data.",
                 "_shouldBeSelected": false
             },
             {
-                "text": "a set of interlinked data resources in the web",
+                "text": "a set of interlinked data resources in the web.",
                 "_shouldBeSelected": true
             },
             {
-                "text": "a new social network",
+                "text": "a new social network.",
                 "_shouldBeSelected": false
             }
         ],
@@ -400,10 +400,10 @@
             }
         ],
         "_feedback":{
-            "correct":"<h5>That’s right!</h5><p>Remember that the web-based identifier points to the thing itself and not to the webpage on which it is sitting</p>",
+            "correct":"<h5>That’s right!</h5><p>Remember that the web-based identifier points to the thing itself and not to the webpage on which it is sitting.</p>",
             "_incorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>Remember that the web-based identifier points to the thing itself and not to the webpage on which it is sitting</p>",
-                "final": "<h5>Are you sure about that?</h5><p>Remember that the web-based identifier points to the thing itself and not to the webpage on which it is sitting</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>Remember that the web-based identifier points to the thing itself and not to the webpage on which it is sitting.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>Remember that the web-based identifier points to the thing itself and not to the webpage on which it is sitting.</p>"
             },
             "_partlyCorrect": {
                 "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
@@ -455,7 +455,7 @@
         "instruction": "<em>Select up to 3 options, then click 'Submit'.</em>",
         "_items": [
             {
-                "text": "<a href='www.bbc.co.uk/music/artists/1a425bbd-cca4-4b2c-aeb7-71cb176c828a' target='_blank'>www.bbc.co.uk/music/artists/1a425bbd-cca4-4b2c-aeb7-71cb176c828a</a>",
+                "text": "<a href='https://www.bbc.co.uk/music/artists/1a425bbd-cca4-4b2c-aeb7-71cb176c828a' target='_blank'>www.bbc.co.uk/music/artists/1a425bbd-cca4-4b2c-aeb7-71cb176c828a</a>",
                 "_shouldBeSelected": true
             },
             {
