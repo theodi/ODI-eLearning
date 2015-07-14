@@ -292,6 +292,30 @@
                 "_link": ""
 	    }
 	]
+    },
+    {
+        "title": "About",
+        "description": "These eLearning modules would not have been possible without a collaboration between the following:",
+        "_filterButtons": {
+            "all": "All",
+            "document": "PDF",
+            "media": "Media",
+            "link": "Link"
+        },
+        "_resourcesItems": [
+            {
+                "_type": "link",
+                "title": "ODI Training Team",
+                "description": "<div align='center'><img alt='ODI' style='border-width:0' src=theme/adapt-eu-theme/assets/odi.png' /></div><br /><span xmlns:dct='http://purl.org/dc/terms/' property='dct:title'>Learning open data</span> by <span xmlns:cc='http://creativecommons.org/ns# property='cc:attributionName'>Open Data Institute</span>.",
+                "_link": "http://www.theodi.org"
+            },
+            {
+                "_type": "link",
+                "title": "Sponge UK",
+                "description": "<div align='center'><img alt='Sponge UK' style='border-width:0' src='http://spongeuk.com/wp-content/themes/spongeuk/assets/images/logo.png' /></div><br /><span xmlns:dct='http://purl.org/dc/terms/' property='dct:title'>Learning open data</span> by <span xmlns:cc='http://creativecommons.org/ns# property='cc:attributionName'>Sponge UK</span>",
+                "_link": "http://www.spongeuk.com"
+            }
+            ]
     }
    ]
 }
