@@ -208,7 +208,7 @@
         "_component": "narrative",
         "title": "How to find hidden data",
         "displayTitle": "How to find hidden data",
-        "body": "<p>From data we gain information, from information we gain knowledge and insight.</p><p>Please note that just because you can extract hidden data does not mate this data open. You should always check the terms of use and licenses of the website before gathering or using data for any purpose.For further details on licensing, please refer back to module 4 of this course.</p<",
+        "body": "<p>From data we gain information, from information we gain knowledge and insight.</p><p>Please note that just because you can extract hidden data, it does not make this data open. You should always check the terms of use and licenses of the website before gathering or using data for any purpose.For further details on licensing, please refer back to module 4 of this course.</p<",
         "instruction": "<em class='desktop-instruction'>Click the forward arrow to see more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
         "_items": [
             {
@@ -239,7 +239,7 @@
             },
             {
                 "title": "Source code",
-                "body": "<p>Going beyond websites that provide you with a simple route to data, many sites have data embedded in the web page's source code.</p><p>Why not check out the ODI's experimental 'Hidden Data Extractor' tool to find source code?<br><br><a  class='course_link' href='http://odinprac.theodi.org/hidden-data-extractor/' target='_blank'>Take me to ODI Hidden Data Extractor</a></p>",
+                "body": "<p>Going beyond providing a simple route to data, many sites have data embedded in the web page's source code.</p><p>Why not check out the ODI's experimental 'Hidden Data Extractor' tool to find source code?<br><br><a class='course_link' href='http://odinprac.theodi.org/hidden-data-extractor/' target='_blank'>Take me to ODI Hidden Data Extractor</a></p>",
                 "_graphic": {
                     "src": "course/en/images/odi-008.jpg",
                     "alt": "Source code",
@@ -252,7 +252,7 @@
             },
             {
                 "title": "APIs or machine-readable interfaces",
-                "body": "<p>Some websites or web services will expose a machine-readable interface, or API, for querying and accessing their data.</p><p>Examples of services that have APIs include: <a href='https://api.opencorporates.com/' target='_blank'>Open Corporates</a> (open), <a href='http://wiki.openstreetmap.org/wiki/API' target='_blank'>OpenSteetMap</a> (open), <a href='https://dev.twitter.com/rest/public' target='_blank'>Twitter</a> (not completely open), <a href='https://www.flickr.com/services/api/' target='_blank'>Flickr</a> (some content open), <a href='https://developer.linkedin.com/docs/rest-api' target='_blank'>LinkedIn</a> (not open).</p><p>Most of these services use a web based API and allow addition of extensions (try “.json” on OpenCorporates). Although this API looks like the first example in this section, the formalisation of it being an API provides a guarantee that the service will be available. </p>",
+                "body": "<p>Some websites or web services will expose a machine-readable interface, or API, for querying and accessing their data.</p><p>Examples of services that have APIs include: <a href='https://api.opencorporates.com/' target='_blank'>Open Corporates</a> (open), <a href='http://wiki.openstreetmap.org/wiki/API' target='_blank'>OpenSteetMap</a> (open), <a href='https://dev.twitter.com/rest/public' target='_blank'>Twitter</a> (not completely open), <a href='https://www.flickr.com/services/api/' target='_blank'>Flickr</a> (some content open), <a href='https://developer.linkedin.com/docs/rest-api' target='_blank'>LinkedIn</a> (not open).</p><p>Most of these services use a web based API and allow addition of extensions (try “.json” on OpenCorporates). Although this API looks appears the same as the earlier example in this section, it's formal status as an API provides a guarantee that the service will be available.</p>",
                 "_graphic": {
                     "src": "course/en/images/odi-009.jpg",
                     "alt": "APIs",
@@ -265,7 +265,7 @@
             },
             {
                 "title": "Scraping the web",
-                "body": "<p>If none of the above techniques work then you may have to resort to scraping the human-readable web pages. While this can be reliable you have the added risk of the layout changing as well as the content.</p><p>Why not try out <a href='http://www.magic.import.io' target='_blank'>magic.import.io</a> to see how easy it can be?</p>",
+                "body": "<p>If none of these techniques work, you may need to scrape the human-readable web pages. While this can be reliable you have the added risk of the layout changing as well as the content.</p><p>Why not try out <a href='http://www.magic.import.io' target='_blank'>magic.import.io</a> to see how easy it can be?</p>",
                 "_graphic": {
                     "src": "course/en/images/odi-010.jpg",
                     "alt": "Scraping the web",
