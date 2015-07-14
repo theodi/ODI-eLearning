@@ -129,7 +129,7 @@
             },
             {
                 "title": "What type of data is hiding?",
-                "body": "<p>Hidden data looks entirely different from an open dataset you download from a website.</p><p>Machine-readable data on the web will be in formats like JSON, the most common and simple to use, XML, and sometimes RDF.</p><p>Try the exercises later in this module to see if you can extract data in these formats.</p>",
+                "body": "<p>Hidden data looks entirely different from an open dataset you download from a website.</p><p>Machine-readable data on the web will be in formats like JSON, the most common and simple to use; XML; and sometimes RDF.</p><p>Try the exercises later in this module to see if you can extract data in these formats.</p>",
                 "_graphic": {
                     "src": "course/en/images/odi-004.jpg",
                     "alt": "Impact",
@@ -177,12 +177,12 @@
         {
           "alt": "Quality",
           "title": "Quality",
-          "body": "<p>In many cases hidden data will be data used by a publisher to present the web page you are looking at on their site.</p><p>The hidden data is therefore an important part of their online operations and it is likely the publisher takes care over the quality.</p><p>Data extracted from the web tends to be more reliable as it is likely to be data at the core of an organisation's operations. Therefore, it is more likely to be a dependable data source to work with.</p>"
+          "body": "<p>In many cases hidden data will be data used by a publisher to present the web page you are looking at on their site.</p><p>The hidden data is therefore an important part of their online operations and it is likely that the publisher takes care over the quality.</p><p>Data extracted from the web tends to be more reliable as it is likely to be data at the core of an organisation's operations. Therefore, it is more likely to be a dependable data source to work with.</p>"
         },
         {
           "alt": "Relevance",
           "title": "Relevance",
-          "body": "<p>Organisations do not always publish downloadable data. However, many run data-driven websites. By accessing the data directly through existing data feeds (or from within the website’s code) there is a clear use for the data already. This will help you quickly identify relevant data from this existing use, rather than having to establish the use yourself. For example, the BBC News pages and sections and the related data feeds<br /><a href='http://www.bbc.co.uk/news/10628494' target='_blank'>Take me to BBC news feeds</a></p>"
+          "body": "<p>Organisations do not always publish downloadable data. However, many run data-driven websites. By accessing the data directly through existing data feeds (or from within the website’s code) there is a clear use for the data already. This will help you quickly identify relevant data from this existing use, rather than having to establish the use yourself. For example, the BBC News pages, sections and related data feeds<br /><a href='http://www.bbc.co.uk/news/10628494' target='_blank'>Take me to BBC news feeds</a></p>"
         },
         {
           "alt": "Context",
@@ -208,7 +208,7 @@
         "_component": "narrative",
         "title": "How to find hidden data",
         "displayTitle": "How to find hidden data",
-        "body": "<p>From data we gain information, from information we gain knowledge and insight.</p><p>Please note that just because you can extract hidden data, it does not make this data open. You should always check the terms of use and licenses of the website before gathering or using data for any purpose.For further details on licensing, please refer back to module 4 of this course.</p<",
+        "body": "<p>From data we gain information, from information we gain knowledge and insight.</p><p>Please note that just because you can extract hidden data, it does not make this data open. You should always check the terms of use and licences of the website before gathering or using data for any purpose.For further details on licensing, please refer back to module 4 of this course.</p<",
         "instruction": "<em class='desktop-instruction'>Click the forward arrow to see more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
         "_items": [
             {
@@ -226,7 +226,7 @@
             },
             {
                 "title": "Data feeds",
-                "body": "<p>Many websites provide links to data syndication feeds that can be subscribed to.</p><p>These feeds may be RSS feeds, Twitter alert feeds or other less common types. Feeds can be used to get raw data about a broad selection of content.</p><p>For an example of a raw data feed, look at the BBC news feed in XML<br /><a href='http://feeds.bbci.co.uk/news/rss.xml' target='_blank'>Why not try out the news feeds from the BBC in XML</a></p><p>Now you can use a free online tool to make that data easier to use<br /><a href='http://codebeautify.org/xmlviewer' target='_blank'>Go to codebeautify and enter the BBC feed URL under 'Load URL'</a></p><p>or get alerts for flooding from your nearest river (UK only):<br /><a href='http://www.gaugemap.co.uk/' target='_blank'>Take me to river level guages</a></p>",
+                "body": "<p>Many websites provide links to data syndication feeds that can be subscribed to.</p><p>These feeds may be RSS feeds, Twitter alert feeds or other less common types. Feeds can be used to get raw data about a broad selection of content.</p><p>For an example of a raw data feed, look at the BBC news feed in XML.<br /><a href='http://feeds.bbci.co.uk/news/rss.xml' target='_blank'>Why not try out the news feeds from the BBC in XML.</a></p><p>Now you can use a free online tool to make that data easier to use<br /><a href='http://codebeautify.org/xmlviewer' target='_blank'>Go to codebeautify and enter the BBC feed URL under 'Load URL'</a></p><p>or get alerts for flooding from your nearest river (UK only).<br /><a href='http://www.gaugemap.co.uk/' target='_blank'>Take me to river level guages</a></p>",
                 "_graphic": {
                     "src": "course/en/images/odi-007.jpg",
                     "alt": "Data feeds",
@@ -349,23 +349,23 @@
         "instruction": "<em>Select an option, then click 'Submit'.</em>",
         "_items": [
             {
-                "text": "part of a treasure hunt?",
+                "text": "part of a treasure hunt.",
                 "_shouldBeSelected": false
             },
             {
-                "text": "data visible to machines but invisible to human eyes?",
+                "text": "data visible to machines but invisible to human eyes/",
                 "_shouldBeSelected": true
             },
             {
-                "text": "files that are difficult to download?",
+                "text": "files that are difficult to download.",
                 "_shouldBeSelected": false
             }
         ],
         "_feedback":{
-            "correct":"<h5>That’s right!</h5><p>Hidden data is data that is invisible to people as they navigate the web but which a machine can easily find and understand</p>",
+            "correct":"<h5>That’s right!</h5><p>Hidden data is data that is invisible to people as they navigate the web but that a machine can easily find and understand</p>",
             "_incorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>Hidden data is data that is invisible to people as they navigate the web but which a machine can easily find and understand</p>",
-                "final": "<h5>Are you sure about that?</h5><p>Hidden data is data that is invisible to people as they navigate the web but which a machine can easily find and understand</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>Hidden data is data that is invisible to people as they navigate the web but that a machine can easily find and understand</p>",
+                "final": "<h5>Are you sure about that?</h5><p>Hidden data is data that is invisible to people as they navigate the web but that a machine can easily find and understand</p>"
             },
             "_partlyCorrect": {
                 "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
@@ -430,14 +430,14 @@
             }
         ],
         "_feedback":{
-            "correct":"<h5>That’s right!</h5><p>Most hidden data is not deliberately hidden. Often the organization building the website is concentrating on how humans navigate the pages and therefore isn’t thinking about how the data is provided.</p>",
+            "correct":"<h5>That’s right!</h5><p>Most hidden data is not deliberately hidden. Often the organisation building the website is concentrating on how humans navigate the pages and therefore doesn't think about how the data is provided.</p>",
             "_incorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>Most hidden data is not deliberately hidden. Often the organization building the website is concentrating on how humans navigate the pages and therefore isn’t thinking about how the data is provided.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>Most hidden data is not deliberately hidden. Often the organization building the website is concentrating on how humans navigate the pages and therefore isn’t thinking about how the data is provided.</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>Most hidden data is not deliberately hidden. Often the organisation building the website is concentrating on how humans navigate the pages and therefore doesn't think about how the data is provided.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>Most hidden data is not deliberately hidden. Often the organisation building the website is concentrating on how humans navigate the pages and therefore doesn't think about how the data is provided.</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>Most hidden data is not deliberately hidden. Often the organization building the website is concentrating on how humans navigate the pages and therefore isn’t thinking about how the data is provided.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>Most hidden data is not deliberately hidden. Often the organization building the website is concentrating on how humans navigate the pages and therefore isn’t thinking about how the data is provided.</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>Most hidden data is not deliberately hidden. Often the organisation building the website is concentrating on how humans navigate the pages and therefore isn’t thinking about how the data is provided.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>Most hidden data is not deliberately hidden. Often the organisation building the website is concentrating on how humans navigate the pages and therefore isn’t thinking about how the data is provided.</p>"
           }
         },
         "_buttons":{
@@ -508,8 +508,8 @@
         "_feedback":{
             "correct":"<h5>That’s right!</h5><p>Hidden data can increase the relevance and quality of the data, the breadth available and highlight the context in which the data is used.</p>",
             "_incorrect": {
-                "notFinal": "<h5>Hidden data can increase the relevance and quality of the data, the breadth available and highlight the context in which the data is used.</p>",
-                "final": "<h5>Hidden data can increase the relevance and quality of the data, the breadth available and highlight the context in which the data is used.</p>"
+                "notFinal": "<h5>Are you sure about that?</h5>Hidden data can increase the relevance and quality of the data, the breadth available and highlight the context in which the data is used.</p>",
+                "final": "<h5>Are you sure about that?</h5>Hidden data can increase the relevance and quality of the data, the breadth available and highlight the context in which the data is used.</p>"
             },
             "_partlyCorrect": {
                 "notFinal": "Hidden data can increase the relevance and quality of the data, the breadth available and highlight the context in which the data is used.",
