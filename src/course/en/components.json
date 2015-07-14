@@ -172,7 +172,7 @@
         "_items": [
             {
                 "title": "The data cleaning toolkit",
-                "body": "<p>When you are looking for errors in data, it may be necessary to download and upload datasets between many tools for cleaning and processing.</p><p>It is also important to keep a note of what changes have been made and share these openly with others so that everyone can benefit from your work, particularly if the data you are cleaning is existing published open data.</p><p>In this section we look at two of the main tools and their uses:</h5><ul class='bullet'><li>Open Refine</li><li>Excel & similar spreadsheet programmes</li></ul></p>",
+                "body": "<p>When you are looking for errors in data, it may be necessary to download and upload datasets in many tools for cleaning and processing.</p><p>It is also important to keep a note of what changes have been made and share these openly with others so that everyone can benefit from your work, particularly if the data you are cleaning is existing published open data.</p><p>In this section we look at two of the main tools and their uses:</h5><ul class='bullet'><li>Open Refine</li><li>Excel & similar spreadsheet programmes</li></ul></p>",
                 "_graphic": {
                     "src": "course/en/images/odi-003.jpg",
                     "alt": "A toolkit",
@@ -223,12 +223,12 @@
         "_component": "narrative",
         "title": "What are the benefits of cleaning data?",
         "displayTitle": "What are the benefits of cleaning data?",
-        "body": "In addition to the tools that can be used to clean open data, it is important to understand why the process adds?",
+        "body": "In addition to the tools that can be used to clean open data, it is important to understand what the process adds.",
         "instruction": "<em>Click the forward arrow to see more.</em>",
         "_items": [
             {
                 "title": "Prioritise cleaning",
-                "body": "<p>If data is not clean then decisions made on the basis of it could be wrong. This can affect products or insights you develop from data and in some cases have an impact upon thousands or even millions of people. </p><p>A recent study found that the process of preparing data for analysis can take anywhere between 60 and 80% of the time of a data-driven project.</p>",
+                "body": "<p>If data is not clean then decisions made on the basis of it could be wrong. This can affect products or insights you develop from data and in some cases have an impact upon thousands or even millions of people. </p><p>A <a class='' href='http://www.ercim.eu/publication/ws-proceedings/12th-EDRG/EDRG12_JeDiRe.pdf' target='_blank'>recent study</a> found that the process of preparing data for analysis can take anywhere between 60 and 80% of the time of a data-driven project.</p>",
                 "_graphic": {
                     "src": "course/en/images/odi-006.jpg",
                     "alt": "Prioritise cleaning",
@@ -546,7 +546,7 @@
         "_isRandom":true,
         "_selectable":1,
         "title": "How much time should be spent cleaning and preparing data?",
-        "displayTitle": "CHow much time should be spent cleaning and preparing data?",
+        "displayTitle": "How much time should be spent cleaning and preparing data?",
         "body": "<p>In any given data driven project, how much time should be spent cleaning and preparing data?</p>",
         "instruction": "<em>Choose one answer and click 'Submit'.</em>",
         "_items": [
