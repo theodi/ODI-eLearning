@@ -98,7 +98,7 @@
         "_component": "narrative",
         "title": "Key features of open data platforms",
         "displayTitle": "Key features of open data platforms",
-        "body": "Open data platforms make open data <em>discoverable</em> and <em>usable</em> in a <em>consistant</em> way.",
+        "body": "Open data platforms make open data <em>discoverable</em> and <em>usable</em> in a <em>consistent</em> way.",
         "instruction": "<em class='desktop-instruction'>Click the forward arrow for more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
         "_items": [
             {
@@ -116,7 +116,7 @@
             },
             {
                 "title": "Consistent user experience",
-                "body": "<p>There are a limited number of open data platforms, which means you don’t need to know lots of different technologies to discover large amounts of open data.</p><p>Open data platforms are designed with the user in mind. The platform layout and design makes it as easy to discover data.</p><p>For examples of sites using open data platforms, look at: <a href='http://www.data.gov.uk' target='_blank'>data.gov.uk</a>, <a href='http://www.data.gov.br' target='_blank'>data.gov.bf</a> and <a href='http://www.data.gov.md' target='_blank'>data.gov.md</a></p><p>Note that many governments use a standard naming convention for the web address of the data platform, so a simple starting point for finding open data for a country is to enter data.gov.[country top-level domain].</p>",
+                "body": "<p>There are a limited number of open data platforms, which means you don’t need to know lots of different technologies to discover large amounts of open data.</p><p>Open data platforms are designed with the user in mind. The platform layout and design makes it easy to discover data.</p><p>For examples of sites using open data platforms, look at: <a href='http://www.data.gov.uk' target='_blank'>data.gov.uk</a>, <a href='http://www.data.gov.br' target='_blank'>data.gov.bf</a> and <a href='http://www.data.gov.md' target='_blank'>data.gov.md</a></p><p>Note that many governments use a standard naming convention for the web address of the data platform, so a simple starting point for finding open data for a country is to enter data.gov.[country top-level domain].</p>",
                 "_graphic": {
                     "src": "course/en/images/odi-003.jpg",
                     "alt": "Consistency",
@@ -183,12 +183,12 @@
         {
           "alt": "Data management",
           "title": "Data management",
-          "body": "<p>Open data management platforms can also play an active role in the way a publisher manages and maintains a dataset. Publishers can update data directly in the platform and regularly provide updates.</p><p>For users, searching for and manipulating open data without having to download it can make reusing it a lot easier.</p><p>For publishers however, there is a much greater challenge in structuring and formatting data for the platform. This can be overcome if the publisher also uses the publishing platform to access the data.</p><p>The Socrtata platform, used by the Lombardy region of Italy (<a href='https://www.dati.lombardia.it/' target='_blank'>Take me to Lombardy open data portal</a>), and the Open Data Soft platform used by the city of Issy les Moulineaux in France (<a href='https://data.issy.com/' target='_blank'>Take me to Issy open data portal</a>) are good examples of data management platforms</p>"
+          "body": "<p>Open data management platforms can also play an active role in the way a publisher manages and maintains a dataset. Publishers can update data directly in the platform and regularly provide updates.</p><p>For users, searching for and manipulating open data without having to download it can make reusing it a lot easier.</p><p>For publishers however, there is a much greater challenge in structuring and formatting data for the platform. This can be overcome if the publisher also uses the publishing platform to access the data.</p><p>The Socrtata platform, used by the Lombardy region of Italy (<a href='https://www.dati.lombardia.it/' target='_blank'>Take me to Lombardy open data portal</a>), and the Open Data Soft platform used by the city of Issy-les-Moulineaux in France (<a href='https://data.issy.com/' target='_blank'>Take me to Issy open data portal</a>) are good examples of data management platforms.</p>"
         },
         {
           "alt": "Comparison",
           "title": "Comparison",
-          "body": "<p>Data catalogs provide:</p></ul><li>Federated search across a wide domain</li><li>Mechanisms for discovery</li><li>Key metadata relating to licence and how up to date data is.</li></ul></p><p>Data management platforms provide:</p><ul><li>Authoritative sources for data</li><li>Increased data quality</li><li>Ability to search and manipulate data</li></ul>"
+          "body": "<p>Data catalogs provide:</p></ul><li>Federated search across a wide domain.</li><li>Mechanisms for discovery.</li><li>Key metadata relating to licence and how up to date data is.</li></ul></p><p>Data management platforms provide:</p><ul><li>Authoritative sources for data.</li><li>Increased data quality.</li><li>Ability to search and manipulate data.</li></ul>"
         }
       ],
       "_pageLevelProgress": {
@@ -222,7 +222,7 @@
         "_layout":"left",
         "title":"Open data platforms across Europe",
         "displayTitle":"Open data platforms across Europe",
-        "body":"<p>Europe is home to hundreds of open data platforms at the local, regional and national levels. When searching for open data, it can be useful to access a directory of these platforms to help you locate what sources of data are available. The OpenDataMonitor project is a European index of open data sites and provides a useful reference guide. Why not explore the index to discover what data is available for different countries, regions and cities?<br /><a href='http://www.opendatamonitor.eu/frontend/web/index.php?r=datacatalogue%2Flist' target='_blank'>Take me to OpenDataMonitor</a></p>"
+        "body":"<p>Europe is home to hundreds of open data platforms at the local, regional and national level. When searching for open data, it can be useful to access a directory of these platforms to help you locate what sources of data are available. The OpenDataMonitor project is a European index of open data sites and provides a useful reference guide. Why not explore the index to discover what data is available for different countries, regions and cities?<br /><a href='http://www.opendatamonitor.eu/frontend/web/index.php?r=datacatalogue%2Flist' target='_blank'>Take me to OpenDataMonitor</a></p>"
     },
     {
         "_id":"c-42",
@@ -306,10 +306,10 @@
             }
         ],
         "_feedback":{
-            "correct":"<h5>That’s right!</h5><p>An open data platform is piece of software that helps get open data on the web. It provides publishers a streamed process for publishing data and users a consistent way to access, use and share data.</p>",
+            "correct":"<h5>That’s right!</h5><p>An open data platform is a piece of software that helps get open data on the web. It provides publishers a streamed process for publishing data and users a consistent way to access, use and share data.</p>",
             "_incorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>An open data platform is piece of software that helps get open data on the web. It provides publishers a streamed process for publishing data and users a consistent way to access, use and share data.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>An open data platform is piece of software that helps get open data on the web. It provides publishers a streamed process for publishing data and users a consistent way to access, use and share data.</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>An open data platform is a piece of software that helps get open data on the web. It provides publishers a streamed process for publishing data and users a consistent way to access, use and share data.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>An open data platform is a piece of software that helps get open data on the web. It provides publishers a streamed process for publishing data and users a consistent way to access, use and share data.</p>"
             },
             "_partlyCorrect": {
                 "notFinal": "An open data platform is piece of software that helps get open data on the web. It provides publishers a streamed process for publishing data and users a consistent way to access, use and share data.",
@@ -374,14 +374,14 @@
             }
         ],
         "_feedback":{
-            "correct":"<h5>That’s right!</h5><p>A data catalogue lists datasets that are available on the web, they do not all have to be owned by the owner of the catalogue. Most catalogues are domain or subject specific in order to keep the context simpler to understand.</p>",
+            "correct":"<h5>That’s right!</h5><p>A data catalog lists datasets that are available on the web, that do not all have to be owned by the owner of the catalog. Most catalogs are domain or subject specific in order to keep the context simpler to understand.</p>",
             "_incorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><pA data catalogue lists datasets that are available on the web, they do not all have to be owned by the owner of the catalogue. Most catalogues are domain or subject specific in order to keep the context simpler to understand.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>A data catalogue lists datasets that are available on the web, they do not all have to be owned by the owner of the catalogue. Most catalogues are domain or subject specific in order to keep the context simpler to understand.</p>"
+                "notFinal": "<h5>That’s right!</h5><p>A data catalog lists datasets that are available on the web, that do not all have to be owned by the owner of the catalog. Most catalogs are domain or subject specific in order to keep the context simpler to understand.</p>",
+                "final": "<h5>That’s right!</h5><p>A data catalog lists datasets that are available on the web, that do not all have to be owned by the owner of the catalog. Most catalogs are domain or subject specific in order to keep the context simpler to understand.</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "A data catalogue lists datasets that are available on the web, they do not all have to be owned by the owner of the catalogue. Most catalogues are domain or subject specific in order to keep the context simpler to understand.",
-                "final": "A data catalogue lists datasets that are available on the web, they do not all have to be owned by the owner of the catalogue. Most catalogues are domain or subject specific in order to keep the context simpler to understand."
+                "notFinal": "That’s right!</h5><p>A data catalog lists datasets that are available on the web, they do not all have to be owned by the owner of the catalog. Most catalogs are domain or subject specific in order to keep the context simpler to understand.",
+                "final": "That’s right!</h5><p>A data catalog lists datasets that are available on the web, they do not all have to be owned by the owner of the catalog. Most catalogs are domain or subject specific in order to keep the context simpler to understand.."
           }
         },
         "_buttons":{
@@ -422,7 +422,7 @@
         "_attempts":1,
         "_questionWeight":1,
         "_isRandom":true,
-        "_selectable":1,
+        "_selectable":3,
         "title": "Which three things do open data platforms help with?",
         "displayTitle": "Which three things do open data platforms help with?",
         "body": "<p></p>",
