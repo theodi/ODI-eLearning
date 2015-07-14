@@ -146,7 +146,7 @@
         {
           "alt": "Mixed ranges",
           "title": "Mixed ranges",
-          "body": "<p>Data is sometimes be measured in ranges, such as age or salary range. In order for a machine to understand these ranges it is important to separate the high and low values.</p>"
+          "body": "<p>Data is sometimes measured in ranges, such as age or salary range. In order for a machine to understand these ranges it is important to separate the high and low values.</p>"
         },
         {
           "alt": "Spelling errors",
@@ -168,7 +168,7 @@
         "title": "The data cleaning toolkit",
         "displayTitle": "The data cleaning toolkit",
         "body": "Without clean data, we can’t build information. There are a number of useful tools that can help the process of cleaning data.",
-        "instruction": "<em>Click the forward arrow to see more</em>",
+        "instruction": "<em>Click the forward arrow to see more.</em>",
         "_items": [
             {
                 "title": "The data cleaning toolkit",
@@ -198,7 +198,7 @@
             },
             {
                 "title": "Spreadsheet programmes",
-                "body": "Open Refine is a key tool for cleaning data. However, sometimes it is easier to fix some errors in a spreadsheet programme:</h5><ul class='bullet'><li>Spelling errors</li><li>Redundant data</li><li>Numerical verification</li><li>Fixing shifted data</li></ul>",
+                "body": "Open Refine is a key tool for cleaning data. However, it is sometimes easier to fix some errors in a spreadsheet programme:</h5><ul class='bullet'><li>Spelling errors</li><li>Redundant data</li><li>Numerical verification</li><li>Fixing shifted data</li></ul>",
                 "_graphic": {
                     "src": "course/en/images/odi-005.jpg",
                     "alt": "Spreadsheet",
@@ -223,7 +223,7 @@
         "_component": "narrative",
         "title": "What are the benefits of cleaning data?",
         "displayTitle": "What are the benefits of cleaning data?",
-        "body": "In addition to the tools that can be used to clean open data, it is important to understand what the process adds.",
+        "body": "In addition to the tools that can be used to clean open data, it is important to understand what benefits cleaning brings.",
         "instruction": "<em>Click the forward arrow to see more.</em>",
         "_items": [
             {
@@ -254,7 +254,7 @@
             },
             {
                 "title": "Discover insights",
-                "body": "<p>Many data cleaning tools, including Open Refine help you to combine and enrich datasets.</p><p>Without a clean dataset, this process will not be useful to you.</p><p>Careful preparation is essential to the success of any data driven project.</p>",
+                "body": "<p>Many data cleaning tools, including Open Refine help you to combine and enrich datasets.</p><p>Without a clean dataset, this process will not be useful to you.</p><p>Careful preparation is essential to the success of any data-driven project.</p>",
                 "_graphic": {
                     "src": "course/en/images/odi-008.jpg",
                     "alt": "Discover insights",
@@ -312,8 +312,8 @@
         "_classes":"",
         "_layout":"right",
         "_graphic": {
-            "alt": "Messy data",
-            "title": "Messy data",
+            "alt": "unclean data",
+            "title": "unclean data",
             "large": "course/en/images/odi-009.jpg",
             "medium": "course/en/images/odi-009.jpg",
             "small": "course/en/images/odi-009.jpg",
@@ -339,27 +339,27 @@
         "instruction": "<em>Choose one answer and click 'Submit'.</em>",
         "_items": [
             {
-                "text": "It cannot be plotted on a chart",
+                "text": "It cannot be plotted on a chart.",
                 "_shouldBeSelected": false
             },
             {
-                "text": "It cannot be published",
+                "text": "It cannot be published.",
                 "_shouldBeSelected": false
             },
             {
-                "text": "It can lead to wrong conclusions",
+                "text": "It can lead to wrong conclusions.",
                 "_shouldBeSelected": true
             }
         ],
         "_feedback":{
-            "correct":"<h5>That's right!</h5><p>Messy data is a problem because it can result in the wrong conclusions being made. This should not prevent the publication or use of the data, however cleaning must be performed.</p>",
+            "correct":"<h5>That's right!</h5><p>Unclean data is a problem because it can result in the wrong conclusions being made. This should not prevent the publication or use of the data, however cleaning must be performed.</p>",
             "_incorrect": {
-                "notFinal": "<h5>Are you sure about that? </h5><p>Messy data is a problem because it can result in the wrong conclusions being made. This should not prevent the publication or use of the data, however cleaning must be performed.</p>",
-                "final": "<h5>Are you sure about that? </h5><p>Messy data is a problem because it can result in the wrong conclusions being made. This should not prevent the publication or use of the data, however cleaning must be performed.</p>"
+                "notFinal": "<h5>Are you sure about that? </h5><p>Unclean data is a problem because it can result in the wrong conclusions being made. This should not prevent the publication or use of the data, however cleaning must be performed.</p>",
+                "final": "<h5>Are you sure about that? </h5><p>Unclean data is a problem because it can result in the wrong conclusions being made. This should not prevent the publication or use of the data, however cleaning must be performed.</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "Messy data is a problem because it can result in the wrong conclusions being made. This should not prevent the publication or use of the data, however cleaning must be performed.",
-                "final": "Messy data is a problem because it can result in the wrong conclusions being made. This should not prevent the publication or use of the data, however cleaning must be performed."
+                "notFinal": "unclean data is a problem because it can result in the wrong conclusions being made. This should not prevent the publication or use of the data, however cleaning must be performed.",
+                "final": "unclean data is a problem because it can result in the wrong conclusions being made. This should not prevent the publication or use of the data, however cleaning must be performed."
           }
         },
         "_buttons":{
@@ -407,15 +407,15 @@
         "instruction": "<em>Choose one answer and click 'Submit'.</em>",
         "_items": [
             {
-                "text": "Microsoft Access and Adobe Photoshop",
+                "text": "Microsoft Access and Adobe Photoshop.",
                 "_shouldBeSelected": false
             },
             {
-                "text": "Apple Notes and Microsoft Word",
+                "text": "Apple Notes and Microsoft Word.",
                 "_shouldBeSelected": false
             },
             {
-                "text": "Microsoft Excel and Open Refine",
+                "text": "Microsoft Excel and Open Refine.",
                 "_shouldBeSelected": true
             }
         ],
@@ -496,14 +496,14 @@
             }
         ],
         "_feedback":{
-            "correct":"<h5>That's right!</h5><p>Mixed use of scales, redundant data and multiple representations of the same data are just some of the errors that need to be fixed in messy data. While the granularity and lack of licence are a problem, they are not related to the data itself being messy</p>",
+            "correct":"<h5>That's right!</h5><p>Mixed use of scales, redundant data and multiple representations of the same data are just some of the errors that need to be fixed in unclean data. While the granularity and lack of licence are a problem, they are not related to the data itself being unclean</p>",
             "_incorrect": {
-                "notFinal": "<h5>Are you sure about that? </h5><p>Mixed use of scales, redundant data and multiple representations of the same data are just some of the errors that need to be fixed in messy data. While the granularity and lack of licence are a problem, they are not related to the data itself being messy</p>",
-                "final": "<h5>Are you sure about that? </h5><p>Mixed use of scales, redundant data and multiple representations of the same data are just some of the errors that need to be fixed in messy data. While the granularity and lack of licence are a problem, they are not related to the data itself being messy</p>"
+                "notFinal": "<h5>Are you sure about that? </h5><p>Mixed use of scales, redundant data and multiple representations of the same data are just some of the errors that need to be fixed in unclean data. While the granularity and lack of licence are a problem, they are not related to the data itself being unclean</p>",
+                "final": "<h5>Are you sure about that? </h5><p>Mixed use of scales, redundant data and multiple representations of the same data are just some of the errors that need to be fixed in unclean data. While the granularity and lack of licence are a problem, they are not related to the data itself being unclean</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "<h5>Are you sure about that? </h5><p>Mixed use of scales, redundant data and multiple representations of the same data are just some of the errors that need to be fixed in messy data. While the granularity and lack of licence are a problem, they are not related to the data itself being messy</p>",
-                "final": "<h5>Are you sure about that? </h5><p>Mixed use of scales, redundant data and multiple representations of the same data are just some of the errors that need to be fixed in messy data. While the granularity and lack of licence are a problem, they are not related to the data itself being messy</p>"
+                "notFinal": "<h5>Are you sure about that? </h5><p>Mixed use of scales, redundant data and multiple representations of the same data are just some of the errors that need to be fixed in unclean data. While the granularity and lack of licence are a problem, they are not related to the data itself being unclean</p>",
+                "final": "<h5>Are you sure about that? </h5><p>Mixed use of scales, redundant data and multiple representations of the same data are just some of the errors that need to be fixed in unclean data. While the granularity and lack of licence are a problem, they are not related to the data itself being unclean</p>"
           }
         },
         "_buttons":{
@@ -547,7 +547,7 @@
         "_selectable":1,
         "title": "How much time should be spent cleaning and preparing data?",
         "displayTitle": "How much time should be spent cleaning and preparing data?",
-        "body": "<p>In any given data driven project, how much time should be spent cleaning and preparing data?</p>",
+        "body": "<p>In any given data-driven project, how much time should be spent cleaning and preparing data?</p>",
         "instruction": "<em>Choose one answer and click 'Submit'.</em>",
         "_items": [
             {
@@ -564,10 +564,10 @@
             }
         ],
         "_feedback":{
-            "correct":"<h5>That's right!</h5><p>Evidence suggests that between 60% and 80% of a data projects time will be spent cleaning, transforming and preparing data for analysis.</p>",
+            "correct":"<h5>That's right!</h5><p>Evidence suggests that between 60% and 80% of a data project's time will be spent cleaning, transforming and preparing data for analysis.</p>",
             "_incorrect": {
-                "notFinal": "<h5>Are you sure about that? </h5><p>Evidence suggests that between 60% and 80% of a data projects time will be spent cleaning, transforming and preparing data for analysis.</p>",
-                "final": "<h5>Are you sure about that? </h5><p>Evidence suggests that between 60% and 80% of a data projects time will be spent cleaning, transforming and preparing data for analysis.</p>"
+                "notFinal": "<h5>Are you sure about that? </h5><p>Evidence suggests that between 60% and 80% of a data project's time will be spent cleaning, transforming and preparing data for analysis.</p>",
+                "final": "<h5>Are you sure about that? </h5><p>Evidence suggests that between 60% and 80% of a data project's time will be spent cleaning, transforming and preparing data for analysis.</p>"
             },
             "_partlyCorrect": {
                 "notFinal": "vidence suggests that between 60% and 80% of a data projects time will be spent cleaning, transforming and preparing data for analysis.",
