@@ -257,7 +257,7 @@
         {
           "alt": "Bespoke licences",
           "title": "Bespoke licences",
-          "body": "<p>Bespoke licences can increase the complexity for users of open data.</p><p>They may introduce specific conditions that limit usage, restrict data integration and in some cases, are difficult for re-users to comply with.</p>"
+          "body": "<p>Bespoke licences can increase the complexity for users of open data.</p><p>They may introduce specific conditions that limit usage, restrict data integration and, in some cases, are difficult for re-users to comply with.</p>"
         },
         {
           "alt": "Open government licences",
@@ -296,7 +296,7 @@
             },
             {
                 "title": "Including open data in contracts",
-                "body": "<p>To ensure that data collected and used by contractors is also published as open data, an organisation can:</p><ul><li>include this as a condition in the contract</li><li>retain ownership of the data to publish it as open data themselves</li></ul>",
+                "body": "<p>To ensure that data collected and used by contractors is also published as open data, an organisation can:</p><ul><li>include this as a condition in the contract.</li><li>retain ownership of the data to publish it as open data themselves.</li></ul>",
                 "_graphic": {
                     "src": "course/en/images/odi-10.jpg",
                     "alt": "Including open data in contracts",
@@ -408,14 +408,14 @@
             }
         ],
         "_feedback":{
-            "correct":"<h5>That’s right!</h5><p>Without a licence, data will be ‘publicly available’, but users may have not have permission to access use and share it under copyright and/or database laws.</p>",
+            "correct":"<h5>That’s right!</h5><p>Without a licence, data will be ‘publicly available’, but users may not have permission to access use and share it under copyright and/or database laws.</p>",
             "_incorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>Without a licence, data will be ‘publicly available’, but users may have not have permission to access use and share it under copyright and/or database laws.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>Without a licence, data will be ‘publicly available’, but users may have not have permission to access use and share it under copyright and/or database laws.</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>Without a licence, data will be ‘publicly available’, but users may not have permission to access use and share it under copyright and/or database laws.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>Without a licence, data will be ‘publicly available’, but users may not have permission to access use and share it under copyright and/or database laws.</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>Without a licence, data will be ‘publicly available’, but users may have not have permission to access use and share it under copyright and/or database laws.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>Without a licence, data will be ‘publicly available’, but users may have not have permission to access use and share it under copyright and/or database laws.</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>Without a licence, data will be ‘publicly available’, but users may not have permission to access use and share it under copyright and/or database laws.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>Without a licence, data will be ‘publicly available’, but users may not have permission to access use and share it under copyright and/or database laws.</p>"
           }
         },
         "_buttons":{
@@ -544,14 +544,14 @@
             }
         ],
         "_feedback":{
-            "correct":"<h5>That’s right!</h5><p>A Creative Commons license is the most appropriate licence for any publisher not obliged to use a specific licence family.</p>",
+            "correct":"<h5>That’s right!</h5><p>A Creative Commons standard licence is the most appropriate licence for any publisher not obliged to use a specific licence family.</p>",
             "_incorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>A Creative Commons license is the most appropriate licence for any publisher not obliged to use a specific licence family.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>A Creative Commons license is the most appropriate licence for any publisher not obliged to use a specific licence family.</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>A Creative Commons standard licence is the most appropriate licence for any publisher not obliged to use a specific licence family.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>A Creative Commons standard licence is the most appropriate licence for any publisher not obliged to use a specific licence family.</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>A Creative Commons license is the most appropriate licence for any publisher not obliged to use a specific licence family.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>A Creative Commons license is the most appropriate licence for any publisher not obliged to use a specific licence family.</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>A Creative Commons standard licence is the most appropriate licence for any publisher not obliged to use a specific licence family.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>A Creative Commons standard licence is the most appropriate licence for any publisher not obliged to use a specific licence family.</p>"
           }
         },
         "_buttons":{
