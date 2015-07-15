@@ -31,3 +31,4 @@ echo "Moving module into place"
 `mkdir $OUTPATH/$2/`
 `rm -fR $OUTPATH/$2/$1`
 `cp -r build $OUTPATH/$2/$1`
+`rm -fR build`
