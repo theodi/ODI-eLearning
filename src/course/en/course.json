@@ -295,7 +295,7 @@
     },
     {
         "title": "About",
-        "description": "These eLearning modules would not have been possible without a collaboration between the following:",
+        "description": "Discover about how these modules were created.",
         "_filterButtons": {
             "all": "All",
             "document": "PDF",
@@ -306,14 +306,20 @@
             {
                 "_type": "link",
                 "title": "ODI Training Team",
-                "description": "<div align='center'><img alt='ODI' style='border-width:0' src=theme/adapt-eu-theme/assets/odi.png' /></div><br /><span xmlns:dct='http://purl.org/dc/terms/' property='dct:title'>Learning open data</span> by <span xmlns:cc='http://creativecommons.org/ns# property='cc:attributionName'>Open Data Institute</span>.",
-                "_link": "http://www.theodi.org"
+                "description": "<div align='center'><img alt='ODI' style='border-width:0' src='adapt/css/assets/odi-logo.png' /></div><br />Expert knowledge, content development and learning plans provided by the by <span xmlns:cc='http://creativecommons.org/ns# property='cc:attributionName'>Open Data Institute</span> training team.",
+                "_link": "http://theodi.org/training_team"
             },
             {
                 "_type": "link",
                 "title": "Sponge UK",
-                "description": "<div align='center'><img alt='Sponge UK' style='border-width:0' src='http://spongeuk.com/wp-content/themes/spongeuk/assets/images/logo.png' /></div><br /><span xmlns:dct='http://purl.org/dc/terms/' property='dct:title'>Learning open data</span> by <span xmlns:cc='http://creativecommons.org/ns# property='cc:attributionName'>Sponge UK</span>",
+                "description": "<div align='center'><img alt='Sponge UK' style='border-width:0' src='adapt/css/assets/sponge.png' /></div><br />Learning solutions, content production and eLearning expertise provided by <span xmlns:cc='http://creativecommons.org/ns# property='cc:attributionName'>Sponge UK</span>.",
                 "_link": "http://www.spongeuk.com"
+            },
+            {
+                "_type": "link",
+                "title": "Adapt learning",
+                "description": "<div align='center'><img alt='Adapt learning' style='border-width:0' src='adapt/css/assets/adapt.png' /></div><br />Open source learning platform developed by <span xmlns:cc='http://creativecommons.org/ns# property='cc:attributionName'>Adapt learning</span>.",
+                "_link": "https://community.adaptlearning.org/"
             }
             ]
     }
