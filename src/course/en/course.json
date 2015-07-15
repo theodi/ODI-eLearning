@@ -263,19 +263,19 @@
         "_resourcesItems": [
             {
                 "_type": "link",
-                "title": "Download module data",
-                "description": "Main module page data.",
+                "title": "<div align='center'><img class='download-image' src='adapt/css/assets/download.png'><p class='downloadp'>Download module data</p></div>",
+                "description": "",
                 "_link": "course/en/components.json"
             },
             {
                 "_type": "link",
-                "title": "Download module sidebar data",
-                "description": "Sidebar data.",
+                "title": "<div align='center'><img class='download-image' src='adapt/css/assets/download.png'><p class='downloadp'>Download sidebar data</p></div>",
+                "description": "",
                 "_link": "course/en/course.json"
             },
             {
                 "_type": "link",
-                "title": "Open data",
+                "title": "Open data certificate",
                 "description": "<span class='open-data-certificate'><img alt='Badge' src='adapt/css/assets/badge.png'/><ul class='open-data-certificate-details'> <li> <span>Open: ODI eLearning Data</span> </li> <li> <span>Pilot Open Data Certificate (final)</span> </li> <li> <span>Active - self certified</span> </li> </ul> </span>",
                 "_link": "https://certificates.theodi.org/datasets/25215/certificate"
             },
