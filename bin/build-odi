@@ -27,8 +27,14 @@ echo "Restoring structure";
 `mv tmp/* src/course/`
 sed -i -e "s/course\/$2\/images/course\/en\/images/g" src/theme/adapt-contrib-vanilla/less/header.less
 
+echo "building scorm package"
+cd build
+zip -r course/$2/data/scorm.zip * >/dev/null 
+cd ..
+
 echo "Moving module into place"
 `mkdir $OUTPATH/$2/`
 `rm -fR $OUTPATH/$2/$1`
 `cp -r build $OUTPATH/$2/$1`
+
 `rm -fR build`
