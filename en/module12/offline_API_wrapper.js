@@ -1,13 +1,45 @@
 var api_url = "http://localhost/~davetaz/backend/";
-if (!localStorage.getItem("id")) {
+if (!localStorage.getItem("ODI_id")) {
   	$.get( api_url + "create_id.php", function( data ) {
-  		window.localStorage.setItem("id",data);
+  		window.localStorage.setItem("ODI_id",data);
 //		console.log("KEY " + data);
 	});
 }
+	
+var moduleId = "";
+$.getJSON("course/config.json",function(data) {
+	moduleId = data._moduleId;
+});
+
+$(document).ready(function() {
+	$.getJSON("course/config.json",function(data) {
+		moduleId = data._moduleId;
+		if (moduleId == "nav"){
+			setInterval(function() {updateProgress();},5000);
+		}
+	});
+});
+
+function updateProgress() {
+	var frame = document.getElementById('contentFrame').contentDocument;
+	for (i=1;i<13;i++) {
+		key = "ODI_" + i + "_cmi.suspend_data";
+    		try {
+			value = localStorage.getItem(key);
+			data = $.parseJSON(value);
+			completion = data.spoor.completion;
+			total = completion.length;
+			complete = completion.match(/1/g || []).length;	
+			percent = (complete/total) * 100;
+			frame.getElementById('ODI_' + i).setAttribute('value',percent);
+		}
+		catch(err) {
+		}
+	}
+}
 
 function getModuleId() {
-	return "1";
+	return moduleId;
 }
 
 function updateRemote() {
@@ -28,7 +60,7 @@ function updateRemote() {
 
 function getValue(cname) {
     module_id = getModuleId();
-    cname = module_id + "_" + cname;
+    cname = "ODI_" + module_id + "_" + cname;
     value = localStorage.getItem(cname);
     if (value) return value;
     return "";
@@ -36,7 +68,7 @@ function getValue(cname) {
 
 function setValue(cname, cvalue) {
     module_id = getModuleId();
-    cname = module_id + "_" + cname;
+    cname = "ODI_" + module_id + "_" + cname;
     localStorage.setItem(cname,cvalue);
     updateRemote();
 }
@@ -58,11 +90,11 @@ var API = {
 		return "true";
 	},
 	LMSGetValue: function(key) {
-		window.console && console.log('LMSGetValue("' + key + '") - ' + this.data[key]);
+//		window.console && console.log('LMSGetValue("' + key + '") - ' + this.data[key]);
 		return this.data[key];
 	},
 	LMSSetValue: function(key, value) {
-		window.console && console.log('LMSSetValue("' + key + '") - ' + value);
+//		window.console && console.log('LMSSetValue("' + key + '") - ' + value);
 		this.data[key] = value;
 		setValue(key,value,365);
 		return "true";
