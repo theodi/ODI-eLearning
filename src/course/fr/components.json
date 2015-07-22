@@ -30,7 +30,7 @@
         "_layout":"left",
         "title":"L’open data, c’est quoi ?",
         "displayTitle":"L’open data, c’est quoi ?",
-	"body": "<p>L’open data est les données que quiconque peut accéder, utiliser et partager. Les gouvernements, les entreprises et les individus peuvent utiliser l’open data afin de créer les avantages sociaux, économiques et écologiques.</p><h5>Pendant le module on explorera les questions suivantes:</h5><ul class='ticks'><li>Qu’est-ce que c’est l’open data ?</li><li>Qu’est-ce que c’est les données ?</li><li>Qu’est ce qui rend les données ouvertes ?</li><li>Pourquoi a-t-on besoin d’open data ?</li></ul>",
+	"body": "<p>Il s’agit de données auxquelles tout le monde peut accéder et que tout le monde peut utiliser et partager. Les gouvernements, les entreprises et les individus peuvent utiliser l’open data afin de créer des avantages sociaux, économiques et environnementaux.</p><h5>Dans ce module, nous allons explorer les points suivants :</h5><ul class='ticks'><li>L’open data (ou ‘données ouvertes’), c’est quoi ?</li><li>Qu’entend-on par données ?</li><li>Qu’est ce qui rend les données ‘ouvertes’?</li><li>Pourquoi en a-t-on besoin?</li></ul>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
@@ -43,9 +43,9 @@
     "_component":"iFrame-vimeo",
     "_classes":"",
     "_layout":"full",
-        "title":"Découvrir l’open data - dans 2 minutes",
-        "displayTitle": "Découvrir l’open data - dans 2 minutes",
-        "body": "Entraîneur chez l’ODI, Dr David Tarrant explique ce qui sont les données, ce qui les rend ouvertes et la raison pour laquelle on a besoin d’open data.",
+        "title":"Découvrir l’Open Data- en 2 minutes",
+        "displayTitle": "Découvrir l’Open Data- en 2 minutes",
+        "body": "Formateur à l’ODI, Dr. David Tarrant explique ce qu’on entend par données, ce qui les rend ouvertes et pourquoi l’open data est nécessaire.",
         "instruction": "",
         "_setCompletionOn":"ended",
         "_source": "https://player.vimeo.com/video/129196637",
@@ -87,7 +87,7 @@
         "_layout":"left",
         "title":"L’open data, c’est quoi ?",
         "displayTitle":"L’open data, c’est quoi ?",
-        "body":"<p>L’open data est les données que quiconque peut accéder, utiliser et partager.</p><p>L’open data devient accessible en êtant disponible en ligne.</p><p>Les données deviennent utilisables en êtant disponible sous une forme commun et lisible par les machines.</p><p>L’open data doit avoir une licence. Il faut que cette licence permette aux utilisateurs de l’usage libre et leur permette de le transformer, combiner et partager avec d’autres, même d’une façon commerciale.</p>"
+        "body":"<p>Il s’agit de données auxquelles tout le monde peut accéder et que tout le monde peut utiliser et partager.</p><p>On peut accéder aux données car elles sont disponibles en ligne.</p><p>On peut utiliser les données car elles sont disponibles sous une forme commune et lisible par des machines.</p><p>L’open data doit être sous licence. Cette licence doit en permettre l’usage libre et autoriser les utilisateurs à transformer, combiner et partager ces données, même à des fins commerciales.</p>"
     },
      {
         "_id": "c-25",
@@ -96,14 +96,14 @@
         "_type":"component",
         "_layout": "full",
         "_component": "narrative",
-        "title": "Des matières premières aux informations et connaissances nouvelles",
-        "displayTitle": "Des matières premières aux informations et connaissances nouvelles",
-        "body": "Sans les données, il n’est pas possible de construire les informations. Et sans les informations, il n’y a pas des connaissances nouvelles.",
+        "title": "De la matière première à l’information et à la connaissance nouvelle",
+        "displayTitle": "De la matière première à l’information et à la connaissance nouvelle",
+        "body": "Sans données, on ne peut pas créer d’information. Et sans information, il n’y a pas de nouvelles connaissances possibles.",
         "instruction": "<em class='desktop-instruction'>Cliquez sur la flèche pour plus de détail.</em><em class='mobile-instruction'>Cliquez sur la flèche pour plus de détail.</em>",
         "_items": [
             {
-                "title": "Données",
-                "body": "<p>Les données sont le niveau le plus bas des matières premières duquel on tire les connaissances.</p><p>Considérez les donées en tant que des destinations, des images, des descriptions, des revues et des prix qui constituent l’information nécessaire pour planifier des vacances.</p>",
+                "title": "Les données",
+                "body": "<p>Les données sont le niveau le plus bas de matière première duquel on peut retirer des connaissances.</p><p>Imaginez ainsi les données comme l’ensemble des lieux, des images, des descriptions, des critiques et des prix qui constituent l’information nécessaire à la planification de vos vacances.</p>",
                 "_graphic": {
                     "src": "course/fr/images/odi-2-narrative_large.jpg",
                     "alt": "Providing certainty",
@@ -115,8 +115,8 @@
                 "strapline": "Données"
             },
             {
-                "title": "Informations",
-                "body": "<p>Les données deviennent les informations lorsqu’on leur donne un contexte.</p><p>En donnant suite à l’exemple antérieur, on associe des destinations, des images, des descriptions et des prix à une attraction touristique.</p><p>Il est la collection et la présentation des données qui forment les informations.</p>",
+                "title": "L’information",
+                "body": "<p>Les données deviennent de l’information lorsqu’on leur donne un contexte.</p><p>En s’inspirant de l’exemple précédant, on associe certaines destinations, images, descriptions et prix à une attraction touristique.</p><p>La collecte et la présentation des données constituent l’information.</p>",
                 "_graphic": {
                     "src": "course/fr/images/odi-3-narrative_large.jpg",
                     "alt": "A graph of open licences across countries",
@@ -128,8 +128,8 @@
                 "strapline": "Informations"
             },
             {
-                "title": "Connaissances",
-                "body": "<p>On dérive la connaissance de l’information. On la personalise pour vos besoins.</p><p>Développer la connaissance traite d’un processus de transformer les informations aux choix.</p><p>En donnant suite à l’exemple antérieur, vous connaissez que personne dans votre famille n’aime les parcs d’attraction, et cette connaissance vous aidez à décider quelles destinations de vacances à eviter et quelles vous conviennent.</p>",
+                "title": "Les connaissances",
+                "body": "<p>Les connaissances sont ce qui découle de l’information et l’usage personnalisé que l’on en fait.</p><p>L’acquisition de connaissances consiste en la transformation d’information en choix.</p><p>En s’inspirant de l’exemple précédant, le fait de savoir qu’aucun membre de votre famille n’aime les parcs d’attraction va informer votre décision quant aux destinations à éviter ou à privilégier.</p>",
                 "_graphic": {
                     "src": "course/fr/images/odi-4-narrative_large.jpg",
                     "alt": "A map from a to b",
@@ -170,25 +170,25 @@
       "_component":"accordion",
       "_classes":"",
       "_layout":"left",
-      "title": "Ce qui rend les données ouvertes ?",
-      "displayTitle": "Ce qui rend les données ouvertes ?",
-      "body": "<p>Les données sont ouvertes si quiconque peut les accéder, utiliser et partager.<br />Il y a des idées simples à prendre en considération en définant l’ouverture :</p>",
+      "title": "Qu’est-ce qui rend les données ‘ouvertes’ ?",
+      "displayTitle": "Qu’est-ce qui rend les données ‘ouvertes’ ?",
+      "body": "<p>Les données sont ouvertes si tout le monde peut y accéder, les utiliser et les partager.<br />Voici quelques idées à prendre en considération lorsque l’on définit ‘ouverte’ :</p>",
       "instruction": "",
       "_items": [
         {
-          "alt": "Limites",
-          "title": "Limites",
-          "body": "<p>Pour que les données soient ouvertes, aucune prévention d’une utilisation particulière devrait exister.</p><p>N’importe quel utilisateur devrait être libre d’utiliser, modifier, combiner et partager les données, même d’une manière commerciale.</p>"
+          "alt": "Restrictions",
+          "title": "Restrictions",
+          "body": "<p>Pour que les données soient ouvertes, il ne doit y avoir aucune restriction quant à leur utilisation, quelle qu’elle soit.</p><p>N’importe quel utilisateur devrait être libre d’utiliser, de modifier, de combiner et de partager les données, même à des fins commerciales.</p>"
         },
         {
-          "alt": "Coûts",
-          "title": "Coûts",
-          "body": "<p>Bien qu’il soit obligatoire que l’open data est libre à utiliser, celui-ci ne signifie pas qu’il doit être gratuit à accéder.</p><p>Il y a souvent un coût associé avec la creation, la maintenance et la publication des données utilisables.</p><p>Idéalement le frais pour accéder l’open data ne devrait pas dépasser le coût de reproduction de la donnée demandé.</p><p>Normalement, ce coût de reproduction est négligeable pour beaucoup de jeux de données.</p><p>Le live data et le big data peuvent engager des frais continus en raison d’une provision fiable de service.</p>"
+          "alt": "Coût",
+          "title": "Coût",
+          "body": "<p>Même si l’utilisation de l’open data doit être libre, cela ne signifie pas que son accès doit être gratuit.</p><p>Il y a souvent un coût associé à la création, à la maintenance et à la publication des données utilisables.</p><p>Idéalement, le prix des données ne devrait pas excéder le coût de reproduction de la donnée demandé.</p><p>Ce coût est souvent négligeable pour de nombreux ensembles de données.</p><p>Les données en temps réel et les contenus lourds peuvent cependant engager des frais continus afin de garantir leur fiabilité.</p>"
         },
         {
           "alt": "Réutilisation",
           "title": "Réutilisation",
-          "body": "<p>Une fois que l’utilisateur possède toutes les données, il est libre de les utiliser, réutiliser et rédistribuer, même d’une façon commerciale.</p><p>On mesure l’open data dû aux oppotunités d’utilisation, pas à la facon dans laquelle elles deviennent disponibles.</p><p>Lorsque les élements tels que la forme, la structure et la lisibilité par des machines rendent les données plus usables, on leur fait une attention particulière.</p><p>Néanmoins, ces élements ne rendent pas les données plus ouvertes.</p>"
+          "body": "<p>Une fois que l’utilisateur possède toutes les données, il est libre de les utiliser, de les réutiliser et de les redistribuer, même à des fins commerciales.</p><p>On mesure les données ouvertes en fonction des possibilités d’utilisation, et non en fonction de leur mise à disposition.</p><p>Certains aspects, comme le format, la structure et la lisibilité par une machine, rendent les données plus facilement utilisables et doivent donc être soigneusement considérés.</p><p>Cependant, ces éléments ne rendent pas les données plus ouvertes.</p>"
         }
       ],
       "_pageLevelProgress": {
@@ -202,14 +202,14 @@
         "_type":"component",
         "_layout": "full",
         "_component": "narrative",
-        "title": "Pourquoi a-t-on besoin d’open data ?",
-        "displayTitle": "Pourquoi a-t-on besoin d’open data ?",
-        "body": "L’open data a le pouvoir de produire des avantages divers pour les gouvernements, les entreprises et la société civique.",
+        "title": "Pourquoi a-t-on besoin ?",
+        "displayTitle": "Pourquoi a-t-on besoin ?",
+        "body": "Les données ouvertes ont le pouvoir de produire des avantages divers pour les gouvernements, les entreprises et la société civile.",
         "instruction": "<em class='desktop-instruction'>Cliquez sur la flèche pour plus de détail.</em><em class='mobile-instruction'>Cliquez sur la flèche pour plus de détail.</em>",
         "_items": [
             {
                 "title": "Transformation gouvernementale",
-                "body": "<p>L’open data aide à rendre les gouvernements plus transparents. Il peut fournir la preuve des bonnes dépenses de fonds publics et de la mise en œuvre des politiques.</p><p>Selon militant de gouvernement ouvert (open government activist) David Eaves, l’open data permet aux citoyens canadiens d’économiser 3,2 milliards de dollars des dons frauduleux aux associations caritatives en 2010.<br /><a href='http://eaves.ca/2010/04/14/case-study-open-data-and-the-public-purse/' target='_blank'>Lien vers l’article de David Eaves</a></p><p>Un autre exemple prend place au Nigeria où, selon Follow the Money, le même processus s’assure qu’on dépense les fonds publics pour mettre en œuvre les politiques promises au peuple.<br /><a href='http://followthemoneyng.org/' target='_blank'>Lien vers Follow the Money</a></p>",
+                "body": "<p>L’open data permet une plus grande transparence pour les gouvernements. Il peut aider à prouver que les fonds publics sont dépensés à bon escient et que les politiques sont bien implémentées.</p><p>Ainsi, selon un militant pour le gouvernement ouvert (« open government activist ») David Eaves, l’open data a permis aux citoyens canadiens d’économiser 3, 2 milliards de dollars en dons frauduleux aux associations caritatives en 2010.<br /><a href='http://eaves.ca/2010/04/14/case-study-open-data-and-the-public-purse/' target='_blank'>Lien vers l’article de David Eaves</a></p><p>Un autre exemple, au Nigeria cette fois, où selon Follow the Money, le même processus garantit que les fonds publics sont bel et bien utilisés pour mettre en œuvre les politiques promises au peuple.<br /><a href='http://followthemoneyng.org/' target='_blank'>Lien vers Follow the Money</a></p>",
                 "_graphic": {
                     "src": "course/fr/images/odi-6-narrative_large.jpg",
                     "alt": "Transform government",
@@ -222,7 +222,7 @@
             },
             {
                 "title": "Nouvelles opportunités d'entreprise",
-                "body": "<p>L’open data ouvre des nouvelles opportunités pour que les entreprises établisse un rapport avec leurs clients.</p><p>Transport for London fait sortir l’open data utilisé par développeurs afin de construire plus de 800 applications de transport.<br /><a href='http://www.tfl.gov.uk/' target='_blank'>Lien vers Transport for London</a></p><p>Thomson Reuters utilise l’open data pour enrichir le rapport avec leurs clients existants en vue de améliorer des services.<br /><a href='http://site.thomsonreuters.com/site/data-identifiers/' target='_blank'>Lien vers Thomson Reuters</a></p><p>Aujourd’hui le programme de start-up de l’ODI a plus de 70 employées avec un revenu de plus de 4 million de livres.<br /><a href='http://theodi.org/odis-second-year-annual-report' target='_blank'>Lien vers le rapport annual de l’ODI</a></p>",
+                "body": "<p>L’open data ouvre de nouvelles opportunités pour que les entreprises établissent un rapport avec leurs clients.</p><p>Transport for London a publié des données ouvertes qui ont permis la création de plus de 800 applications de transport.<br /><a href='http://www.tfl.gov.uk/' target='_blank'>Lien vers Transport for London</a></p><p>Thomson Reuters utilise les données ouvertes pour mieux communiquer avec les clients existants et afin de fournir de meilleurs services.<br /><a href='http://site.thomsonreuters.com/site/data-identifiers/' target='_blank'>Lien vers Thomson Reuters</a></p><p>Aujourd’hui, la start-up ODI a plus de 70 employés avec un revenu de plus de 4 million de livres.<br /><a href='http://theodi.org/odis-second-year-annual-report' target='_blank'>Lien vers le rapport annual de l’ODI</a></p>",
                 "_graphic": {
                     "src": "course/fr/images/odi-7-narrative_large.jpg",
                     "alt": "Build new business opportunities",
@@ -235,7 +235,7 @@
             },
             {
                 "title": "Protéger notre planète",
-                "body": "<p>Le web est devenu une partie intégrante de notre infrastructure, et l’open data déroule sur ce fait.</p><p>L’open data concernant le méteo fournit par exemple un système d’avertissement en ce qui concerne les catastrophes naturelles.<br /><a href='http://www.un.org/apps/news/story.asp?NewsID=13077&Cr=natural&Cr1=disaster#.VVyWK_lVhBc' target='_blank'>Lien vers le Centre d’actualités de l’ONU.</a></p><p>L’open data aide les consommateurs à comprendre leur impact personnel sur l’environnement et à prendre des mesures à l’améliorer.<br /><a href='https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/39386/12-1324-better-choices-better-deals-report-on-progress-on-the-consumer-empowerment-strategy.pdf' target='_blank'>Lien vers le rapport de Better Choices Better Deals.</a></p>",
+                "body": "<p>Le web est devenu une partie intégrante de notre infrastructure et l’open data va contribuer à ce développement.</p><p>Les données ouvertes concernant la météo permettent par exemple de donner l’alerte rapidement en cas de catastrophes naturelles.<br /><a href='http://www.un.org/apps/news/story.asp?NewsID=13077&Cr=natural&Cr1=disaster#.VVyWK_lVhBc' target='_blank'>Lien vers le Centre d’actualités de l’ONU.</a></p><p>Les données ouvertes aident les consommateurs à comprendre leur impact sur l’environnement et à prendre des mesures pour l’améliorer.<br /><a href='https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/39386/12-1324-better-choices-better-deals-report-on-progress-on-the-consumer-empowerment-strategy.pdf' target='_blank'>Lien vers le rapport de Better Choices Better Deals.</a></p>",
                 "_graphic": {
                     "src": "course/fr/images/odi-8-narrative_large.jpg",
                     "alt": "Protect our planet",
@@ -278,7 +278,7 @@
         "_layout":"left",
         "title":"Êtes-vous prêt(e) pour l’open data ?",
         "displayTitle":"Êtes-vous prêt(e) pour l’open data ?",
-        "body":"<p>Il y a quatre élements utiles à prendre en considération quand on pense à ouvrir les donées pour les utilisateurs. Pouvez-vous s’en souvenir ?</p>",
+        "body":"<p>Il y a quatre éléments utiles à prendre en considération quand on pense à ouvrir ses données aux utilisateurs. Saurez-vous vous en souvenir?</p>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
@@ -316,26 +316,26 @@
         "title": "L’open data, c’est quoi ?",
         "displayTitle": "L’open data, c’est quoi ?",
         "body": "<p>L’open data, c’est…</p>",
-        "instruction": "<em>Choisissez votre réponse et puis cliquez sur ‘Soumettre’.</em>",
+        "instruction": "<em>Choisissez votre réponse et puis cliquez sur ‘Valider’.</em>",
         "_items": [
             {
-                "text": "les informations qu’on vend aux entreprises.",
+                "text": "des informations que l’on vend aux entreprises.",
                 "_shouldBeSelected": false
             },
             {
-                "text": "les données que quiconque peut accéder, utiliser et partager.",
+                "text": "des données auxquelles tout le monde peut accéder et que tout le monde peut utiliser et partager",
                 "_shouldBeSelected": true
             },
             {
-                "text": "les données visibles en ligne.",
+                "text": "des données visibles en ligne.",
                 "_shouldBeSelected": false
             }
         ],
         "_feedback":{
-            "correct":"<h5>Vous avez raison !</h5><p>L’open data est les données que quiconque peut accéder, utiliser et partager.<br />L’open data doit avoir une licence pour permettre de l’utilisation libre et doit être disponible pour l’usage commercial.</p>",
+            "correct":"<h5>Vous avez raison !</h5><p>L’open data, ce sont des données auxquelles tout le monde peut accéder et que tout le monde peut utiliser et partager. Les données ouvertes doivent avoir une licence permettant leur utilisation libre et doivent pouvoir être utilisées à des fins commerciales.</p>",
             "_incorrect": {
-                "notFinal": "<h5>Êtes vous sûr(e) ? </h5><p>L’open data est les données que quiconque peut accéder, utiliser et partager.<br />L’open data doit avoir une licence pour permettre de l’utilisation libre et doit être disponible pour l’usage commercial.</p>",
-                "final": "<h5>Êtes vous sûr(e) ? </h5><p>L’open data est les données que quiconque peut accéder, utiliser et partager.<br />L’open data doit avoir une licence pour permettre de l’utilisation libre et doit être disponible pour l’usage commercial.</p>"
+                "notFinal": "<h5>Êtes vous sûr(e) ? </h5><p>L’open data, ce sont des données auxquelles tout le monde peut accéder et que tout le monde peut utiliser et partager. Les données ouvertes doivent avoir une licence permettant leur utilisation libre et doivent pouvoir être utilisées à des fins commerciales.</p>",
+                "final": "<h5>Êtes vous sûr(e) ? </h5><p>L’open data, ce sont des données auxquelles tout le monde peut accéder et que tout le monde peut utiliser et partager. Les données ouvertes doivent avoir une licence permettant leur utilisation libre et doivent pouvoir être utilisées à des fins commerciales.</p>"
             },
             "_partlyCorrect": {
                 "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
@@ -343,7 +343,7 @@
           }
         },
         "_buttons":{
-            "submit":"Soumettre",
+            "submit":"Valider",
             "reset":"",
             "showCorrectAnswer":"",
             "hideCorrectAnswer":""
@@ -387,29 +387,29 @@
         "_questionWeight":1,
         "_isRandom":true,
         "_selectable":1,
-        "title": "Qu’est-ce que c’est les données ?",
-        "displayTitle": "Qu’est-ce que c’est les données ?",
+        "title": "Qu’entend-on par données ?",
+        "displayTitle": "Qu’entend-on par données ?",
         "body": "<p>Les données sont...</p>",
-        "instruction": "<em>Choisissez votre réponse et puis cliquez sur ‘Soumettre’.</em>",
+        "instruction": "<em>Choisissez votre réponse et puis cliquez sur ‘Valider’.</em>",
         "_items": [
             {
                 "text": "des chiffres, des mots, des cartes et des photos.",
                 "_shouldBeSelected": false
             },
             {
-                "text": "les informations en ligne.",
+                "text": "des informations en ligne.",
                 "_shouldBeSelected": false
             },
             {
-                "text": "Des matières premières des informations et connaissances nouvelles.",
+                "text": "la matière première  de l’information et de la connaissance.",
                 "_shouldBeSelected": true
             }
         ],
         "_feedback":{
-            "correct":"<h5>Vous avez raison !</h5><p>Les données sont le niveau le plus bas des matières premières duquel on tire les connaissances.</p>",
+            "correct":"<h5>Vous avez raison !</h5><p>Les données sont le niveau le plus bas de matières premières duquel on peut retirer des connaissances.</p>",
             "_incorrect": {
-                "notFinal": "<h5>Êtes vous sûr(e) ? </h5><p>Les données sont le niveau le plus bas des matières premières duquel on tire les connaissances.</p>",
-                "final": "<h5>Êtes vous sûr(e) ? </h5><p>Les données sont le niveau le plus bas des matières premières duquel on tire les connaissances.</p>"
+                "notFinal": "<h5>Êtes vous sûr(e) ? </h5><p>Les données sont le niveau le plus bas de matières premières duquel on peut retirer des connaissances.</p>",
+                "final": "<h5>Êtes vous sûr(e) ? </h5><p>Les données sont le niveau le plus bas de matières premières duquel on peut retirer des connaissances.</p>"
             },
             "_partlyCorrect": {
                 "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
@@ -417,7 +417,7 @@
           }
         },
         "_buttons":{
-            "submit":"Soumettre",
+            "submit":"Valider",
             "reset":"",
             "showCorrectAnswer":"",
             "hideCorrectAnswer":""
@@ -455,29 +455,29 @@
         "_questionWeight":1,
         "_isRandom":true,
         "_selectable":1,
-        "title": "Ce qui rend les données ouvertes ?",
-        "displayTitle": "Ce qui rend les données ouvertes ?",
-        "body": "<p>L’open data devrait...</p>",
-        "instruction": "<em>Choisissez votre réponse et puis cliquez sur ‘Soumettre’.</em>",
+        "title": "Qu’est ce qui rend les données ouvertes ?",
+        "displayTitle": "Qu’est ce qui rend les données ouvertes ?",
+        "body": "<p>Les données ouvertes doivent...</p>",
+        "instruction": "<em>Choisissez votre réponse et puis cliquez sur ‘Valider’.</em>",
         "_items": [
             {
-                "text": "être libre de toute limite en ce qui concerne l’usage.",
+                "text": "être libres de toute limite en ce qui concerne leur utilisation.",
                 "_shouldBeSelected": true
             },
             {
-                "text": "avoir des limites d’utilisation.",
+                "text": "comporter des limites d’utilisation.",
                 "_shouldBeSelected": false
             },
             {
-                "text": "être publié d’une manière privée pour un frais. ",
+                "text": "être publiées de manière sélective et payante.",
                 "_shouldBeSelected": false
             }
         ],
         "_feedback":{
-            "correct":"<h5>Vous avez raison !</h5><p>Si quelque chose limite l’utilisation libre des données (par exemple une limitation non-commerciale), ces données ne seront pas l’open data.</p>",
+            "correct":"<h5>Vous avez raison !</h5><p>S’il y a une quelconque limitation quant à l’utilisation libre des données (par exemple une limitation non-commerciale), celles-ci ne peuvent pas être considérées comme ‘ouvertes’.</p>",
             "_incorrect": {
-                "notFinal": "<h5>Êtes vous sûr(e) ? </h5><p>Si quelque chose limite l’utilisation libre des données (par exemple une limitation non-commerciale), ces données ne seront pas l’open data.</p>",
-                "final": "<h5>Êtes vous sûr(e) ? </h5><p>Si quelque chose limite l’utilisation libre des données (par exemple une limitation non-commerciale), ces données ne seront pas l’open data.</p>"
+                "notFinal": "<h5>Êtes vous sûr(e) ? </h5><p>S’il y a une quelconque limitation quant à l’utilisation libre des données (par exemple une limitation non-commerciale), celles-ci ne peuvent pas être considérées comme ‘ouvertes’.</p>",
+                "final": "<h5>Êtes vous sûr(e) ? </h5><p>S’il y a une quelconque limitation quant à l’utilisation libre des données (par exemple une limitation non-commerciale), celles-ci ne peuvent pas être considérées comme ‘ouvertes’.</p>"
             },
             "_partlyCorrect": {
                 "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
@@ -485,7 +485,7 @@
           }
         },
         "_buttons":{
-            "submit":"Soumettre",
+            "submit":"Valider",
             "reset":"",
             "showCorrectAnswer":"",
             "hideCorrectAnswer":""
@@ -523,13 +523,13 @@
         "_questionWeight":1,
         "_isRandom":true,
         "_selectable":1,
-        "title": "Pourquoi a-t-on besoin d’open data ?",
-        "displayTitle": "Pourquoi a-t-on besoin d’open data ?",
-        "body": "<p>Quel pouvoir a l’open data ?</p>",
-        "instruction": "<em>Choisissez votre réponse et puis cliquez sur ‘Soumettre’.</em>",
+        "title": "Pourquoi a-t-on besoin de l’open data ?",
+        "displayTitle": "Pourquoi a-t-on besoin de l’open data ?",
+        "body": "<p>Quel est le potentiel de l’open data ?</p>",
+        "instruction": "<em>Choisissez votre réponse et puis cliquez sur ‘Valider’.</em>",
         "_items": [
             {
-                "text": "Donner l’accès à autres jeux de données.",
+                "text": "Donner accès à d’autres ensembles de données.",
                 "_shouldBeSelected": false
             },
             {
@@ -537,15 +537,15 @@
                 "_shouldBeSelected": false
             },
             {
-                "text": "Réaliser la valeur sociale, écologique et économique.",
+                "text": "Générer de la valeur sociale, environnementale et économique.",
                 "_shouldBeSelected": true
             }
         ],
         "_feedback":{
-            "correct":"<h5>Vous avez raison !</h5><p>L’open data peut transformer l’intéraction entre les gouvernements, les entreprises et les individus. Il a le pouvoir d’améliorer des services, contribuer à la croissance des économies et sauver notre planète.</p>",
+            "correct":"<h5>Vous avez raison !</h5><p>L’open data peut transformer l’interaction entre les gouvernements, les entreprises et les individus. Il a le potentiel d’améliorer les services, de contribuer à la croissance économique et de sauver notre planète.</p>",
             "_incorrect": {
-                "notFinal": "<h5>Êtes vous sûr(e) ? </h5><p>L’open data peut transformer l’intéraction entre les gouvernements, les entreprises et les individus. Il a le pouvoir d’améliorer des services, contribuer à la croissance des économies et sauver notre planète.</p>",
-                "final": "<h5>Êtes vous sûr(e) ? </h5><p>L’open data peut transformer l’intéraction entre les gouvernements, les entreprises et les individus. Il a le pouvoir d’améliorer des services, contribuer à la croissance des économies et sauver notre planète.</p>"
+                "notFinal": "<h5>Êtes vous sûr(e) ? </h5><p>L’open data peut transformer l’interaction entre les gouvernements, les entreprises et les individus. Il a le potentiel d’améliorer les services, de contribuer à la croissance économique et de sauver notre planète.</p>",
+                "final": "<h5>Êtes vous sûr(e) ? </h5><p>L’open data peut transformer l’interaction entre les gouvernements, les entreprises et les individus. Il a le potentiel d’améliorer les services, de contribuer à la croissance économique et de sauver notre planète.</p>"
             },
             "_partlyCorrect": {
                 "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
@@ -553,7 +553,7 @@
           }
         },
         "_buttons":{
-            "submit":"Soumettre",
+            "submit":"Valider",
             "reset":"",
             "showCorrectAnswer":"",
             "hideCorrectAnswer":""
@@ -587,9 +587,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Open data - Veni, vidi, vici",
-        "displayTitle":"Open data - Veni, vidi, vici",
-        "body":"<p>L’open data est les données que quiconque peut accéder, utiliser et partager.</p><p>L’open data est une matière première pour l’epoque numerique mais une difference cruciale au charbon, au bois ou aux diamants est qu’il peut être utilisé par n’importe qui et tout le monde au même temps.</p><p>Toute limitation mise en place sur l’usage libre d’open data, limitera sa utilisation en créant de nouvelle valeur.</p><p>L’open data peut produire des avantages divers pour les gouvernements, les entreprises et les individus. Il a le pouvoir d’améliorer des services, contribuer à la croissance des économies et sauver notre planète.</p><p>Pendant le module prochain, on explorera comment l’open data réalise la valeur.</p>",
+        "title":"Données ouvertes - veni, vidi, vici",
+        "displayTitle":"Données ouvertes - veni, vidi, vici",
+        "body":"<p>Les données ouvertes, ou ‘open data’, sont des données auxquelles n’importe qui peut accéder et que tout le monde peut utiliser et partager.</p><p>Les données ouvertes sont une matière première pour l’ère du numérique mais à la différence du charbon, du bois ou des diamants, elles peuvent être utilisées par n’importe qui et à n’importe quel moment.</p><p>Toute limitation mise en place sur l’usage libre de l’open data en limitera le potentiel d’utilisation.</p><p>L’open data peut transformer l’interaction entre les gouvernements, les entreprises et les individus. Il a le potentiel d’améliorer des services, de contribuer à la croissance économiques et de sauver notre planète.</p><p>Lors du prochain module, nous verrons dans quelle mesure l’open data peut générer de la valeur.</p>",
         "_pageLevelProgress": {
           "_isEnabled": true
         }
