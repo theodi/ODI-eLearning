@@ -28,9 +28,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Choisir la bonne forme pour l’open data",
-        "displayTitle":"Choisir la bonne forme pour l’open data",
-        "body":"<p>La forme d’une série de données ouverte est la façon dont les données sont stucturées et rendues disponibles pour les personnes et les machines.</p><p>Choisir la bonne forme permet de la gestion et la réutilisation plus simples. Pour maximiser la réutilisation des données, il peut être nécessaire que la maison d’éditions utilise une variété des formes et structures disponibles à travers des différentes plates-formes qui conviennent aux besoins de l’utilisateur.</p><h5>Pendant le module on explorera les questions suivantes :</h5><ul class='ticks'><li>Pourquoi les formes sont si importantes pour l’open data</li><li>Choisir la bonne structure</li><li>Accéder les formes d’open data</li><li>Choisir la simplicité avec CSV</li></ul>",
+        "title":"Choisir le bon format pour l’open data",
+        "displayTitle":"Choisir le bon format pour l’open data",
+        "body":"<p>Le format d’un ensemble de données ouvertes est la manière dont les données sont structurées et mises à disposition des personnes et des machines.</p><p>Le choix du bon format permet une gestion et une réutilisation plus simples. Pour maximiser la réutilisation des données, il peut être nécessaire que ceux qui publient les données utilisent divers formats et structures sur différentes plateformes qui conviennent aux besoins de l’utilisateur.</p><h5>Dans ce module, nous allons explorer les points suivants :</h5><ul class='ticks'><li>Pourquoi les formats sont si importants pour l’open data</li><li>Choisir la bonne structure</li><li>Accéder aux formats d’open data</li><li>Choisir la simplicité avec CSV</li></ul>",
         "_pageLevelProgress": {
             "_isEnabled": true
         }
@@ -43,8 +43,8 @@
         "_classes":"",
         "_layout":"full",
         "title":"Open data formats",
-        "displayTitle": "Les formes d’open data - dans 2 minutes",
-        "body": "Entraîneur chez l’ODI, Dr David Tarrant explique la raison pour laquelle les formes sont si importantes pour l’open data, comment choisir les bonnes structure et forme, et la raison pour laquelle CSV est un bon point de départ pour la plupart des données ouvertes tabulaires.",
+        "displayTitle": "Les formats d’open data - en 2 minutes",
+        "body": "David Tarrant, formateur à l’ODI, explique la raison pour laquelle le format est si important pour l’open data, comment choisir les bonnes structure et formats et la raison pour laquelle CSV est un bon point de départ pour la plupart des données ouvertes tabulaires.",
         "instruction": "",
         "_setCompletionOn":"ended",
         "_source": "https://player.vimeo.com/video/129197202",
@@ -66,14 +66,14 @@
         "_type":"component",
         "_layout": "full",
         "_component": "narrative",
-        "title": "L’utilité, la gestion et l’accès",
-        "displayTitle": "Usability, management and access",
-        "body": "<p>L’open data doit être disponible à toute personne d’accéder, d’utiliser et de partager. Pendant cette section, on considère quelles formes maximisent l’utilité des données, facilitent l’accès pour tout le monde, et rendent la gestion plus simple pour les maisons d’éditions.</p>",
+        "title": "Exploitabilité, gestion et accès",
+        "displayTitle": "Exploitabilité, gestion et accès",
+        "body": "<p>L’open data, ce sont des données auxquelles tout le monde peut accéder et que tout le monde peut utiliser et partager. Dans cette section, nous verrons quels formats maximisent l’exploitabilité des données, facilitent l’accès pour tout le monde et simplifient la gestion pour ceux qui publient les données.</p>",
         "instruction": "<em>Cliquez sur la flèche pour plus de détail.</em>",
         "_items": [
             {
-                "title": "L’utilité",
-                "body": "<p>La forme la plus utilisable des données est normalement l’une sous laquelle la série de données était créée à l’origine. Dans plusieurs cas, la forme pourrait être un logiciel propriétaire tel que Microsoft Excel. Bien que lédits programmes aient la capacité d’exporter les données sous les autres formes, leur popularité signifierait qu’une telle publication sous une autre forme pourrait être un obstacle aux autres utilisateurs.</p><p>De plus, les logiciels tels qu’Excel viennent avec plus de contenu, comme les diférents styles des tables ou des graphiques des données. Tout ce-là aide à donner un contexte à une personne essayant de comprendre les données.</p>",
+                "title": "Exploitabilité",
+                "body": "<p>Le format de données le plus exploitable est souvent celui qui a été utilisé lors de la création de l’ensemble de données. Dans de nombreux cas, le format est celui d’un logiciel propriétaire tel que Microsoft Excel. Bien que ces programmes permettent d’exporter les données sous d’autres formats, leur popularité peut signifier que les publier sous un autre format devienne un obstacle potentiel pour les utilisateurs.</p><p>D’autre part, les logiciels tels qu’Excel ont un contenu plus riche, comme les différents styles de tableaux ou de graphiques. Ces éléments peuvent aider à donner du contexte pour quelqu’un qui essayerait de comprendre les données.</p>",
                 "_graphic": {
                     "src": "course/fr/images/odi-001.jpg",
                     "alt": "Usability",
@@ -85,8 +85,8 @@
                 "strapline": "Usability"
             },
             {
-                "title": "La gestion",
-                "body": "<p>Pour quelques maisons d’éditions, l’open data est maintenant la source principale de leurs données, même le personnel au sein de l’organisation. L’utilisation de l’open data comme une façon dont le personnel accéde les informations à l’intérieur de l’organisation a beaucoup d’avantages y compris :</p><ul><li>L’augmentation de la connaissance de l’équipe au sujet d’open data.</li><li>L’augmentation de la durabilité et confiance des données dûe à sa nature comme composante clé des opérations de l’organisation.</li><li>La création des nouvelles opportunités pour l’innovation.</li></ul>",
+                "title": "Gestion",
+                "body": "<p>Pour certaines organisations qui publient des données, l’open data est maintenant la source principale de leurs données, ainsi que pour le personnel au sein de l’organisation. L’utilisation de l’open data pour permettre au personnel d’accéder à l’information au sein de l’organisation a beaucoup d’avantages, y compris :</p><ul><li>L’accroissement des connaissances de l’équipe au sujet de l’open data.</li><li>L’augmentation de la durabilité et de la confiance accordée aux données en en faisant un élément clé des opérations de l'organisation.</li><li>La création d’opportunités claires pour l’innovation.</li></ul>",
                 "_graphic": {
                     "src": "course/fr/images/odi-002.jpg",
                     "alt": "Management",
@@ -98,8 +98,8 @@
                 "strapline": "Management"
             },
             {
-                "title": "L’accès",
-                "body": "<p>Pour que l’open data soit si accessible que possible, on doit le publier sous:</p><ul><li>une forme que l’utilisateur comprend.</li><li>une forme qu’une machine lit.</li><li>une forme qui soutien la réutilisation facile des données.</li><li>une forme accessible sans les outils chérs.</li></ul><p>La forme appropriée peut être différente pour chaque série de données. Bien qu’un document (comme un fichier PDF) rende les données plus simples pour une personne à comprendre, il n’est pas la forme la plus lisible par une machine. Pour cette raison, on atteint souvent l’accessibilité en rendant les mêmes données disponibles sous une variété de différentes formes.</p>",
+                "title": "Accès",
+                "body": "<p>Pour que l’open data soit aussi accessible que possible, on doit le publier sous:</p><ul><li>une forme que l’utilisateur comprend.</li><li>une forme qu’une machine lit.</li><li>une forme qui soutien la réutilisation facile des données.</li><li>une forme accessible sans les outils chérs.</li></ul><p>Le format approprié peut être différent pour chaque ensemble de données. Même si pour être lisible par un humain, un document (comme un fichier PDF) facilite l’accès aux données, ce n’est pas le format le plus lisible par une machine. Pour cette raison, on atteint souvent une accessibilité maximale en publiant les mêmes données sous de nombreux formats différents.</p>",
                 "_graphic": {
                     "src": "course/fr/images/odi-003.jpg",
                     "alt": "Access",
@@ -122,15 +122,15 @@
       "_component":"narrative",
       "_classes":"",
       "_layout":"full",
-      "title": "Les structures des données communs",
-      "displayTitle": "Les structures des données communs",
-      "body": "<p>Il n’est pas possible d’exprimer toutes les données au moyen d’une feuille de calcul, alors il faut considérer d’autres formes. Il y a 3 structures clés dont il faut être conscient: tabulaire, hiérachique et en réseau.</p>",
+      "title": "Les structures les plus communément utilisées pour les données",
+      "displayTitle": "Les structures les plus communément utilisées pour les données",
+      "body": "<p>Les données ne peuvent pas toujours être exprimées sous forme de feuille de calcul et il faut alors considérer d’autres formats. Il y a trois structures clés à connaître: tabulaire, hiérarchique et en réseau.</p>",
       "instruction": "<em>Cliquez sur la flèche pour plus de détail.</em>",
       "_items": [
         {
           "alt": "La structure tabulaire",
           "title": "La structure tabulaire",
-          "body": "<p>La structure la plus commun est la structure tabulaire. On organise les données dans les colonnes et les rangées qui listent des valeurs séquentielles, comme les dépenses.</p><p>Si les données sont basées sur les entrées séparées qui ne se lient pas, une structure tabulaire des données sous une forme telle que CSV est idéale.  Un exemple d’une structure tabulaire des données appropriée est les chiffres de la participation aux musées sur le portail des données italien.<br /><a href='http://www.datiopen.it/opendata/Visitatori_musei_pubblici_e_similari_titolo_d_accesso' target='_blank'>Lien vers le portail des données italien</a></p>",
+          "body": "<p>La structure la plus répandue est la structure tabulaire. On organise les données dans des colonnes et des rangées qui listent des valeurs séquentielles, comme les dépenses par exemple.</p><p>Si les données sont basées sur des entrées séparées qui ne sont pas liées, une structure tabulaire de données sous un format comme CSV est idéale. Ainsi, les chiffres de fréquentation des musées sur le portail de données italien constituent un excellent exemple d’une structure tabulaire de données.<br /><a href='http://www.datiopen.it/opendata/Visitatori_musei_pubblici_e_similari_titolo_d_accesso' target='_blank'>Lien vers le portail des données italien</a></p>",
           "_graphic": {
                     "src": "course/fr/images/odi-004.jpg",
                     "alt": "Tabular",
@@ -144,7 +144,7 @@
         {
           "alt": "La structure hiérachique ",
           "title": "La structure hiérachique ",
-          "body": "<p>Les données hiérachiques montent les rapports entre les points de données, tels qu’un arbre généalogique ou les régions d’un pays. Si la série de données dépende du rapport entre les points de données et suit une structure dans laquelle les points sont liés dans les ‘arbes’ verticals, une structure hiérachique des données sous une forme telle que JSON est idéale. Un exemple d’une structure hiérachique des données appropriée est les données du commerce de gov.uk.<br /><a href='https://www.gov.uk/browse/business.json' target='_blank'>Lien vers json données du commerce de gov.uk</a></p>",
+          "body": "<p>Les données hiérarchiques montrent les rapports entre des points de données, comme pour un arbre généalogique ou les régions d’un pays par exemple. Si l’ensemble de données dépend du rapport entre les points de données et suit une structure où les points sont liés sous forme d’ ‘arbres’ verticaux, une structure de données hiérarchique sous un format tel que JSON est idéale. Les données commerciales de gov.uk sont un bon exemple d’une structure de données hiérarchique appropriée.<br /><a href='https://www.gov.uk/browse/business.json' target='_blank'>Lien vers json données du commerce de gov.uk</a></p>",
           "_graphic": {
                     "src": "course/fr/images/odi-005.jpg",
                     "alt": "Hierarchical",
@@ -158,7 +158,7 @@
         {
           "alt": "La structure en réseau",
           "title": "La structure en réseau",
-          "body": "<p>Les données structurées en reseau permettent des rapports à exister entre n’importe quelle combinaison des élements dans n’importe quelle direction.</p><p>Des bons exemples d’une structure des données en réseau sont des réseaux sociaux. Pensez à votre réseau d’amis et leurs amis sur Facebook et considerez les contacts de premier, deuxième et troisième degré sur LinkedIn.<p><p>Le Web est un autre exemple d’une structure des données en réseau, où les pages Web lient à n’importe quel nombre d’autres pages dans n’importe quelle direction.</p>",
+          "body": "<p>Les données structurées en réseau permettent des rapports entre n’importe quelle combinaison d’éléments dans n’importe quelle direction.</p><p>Un bon exemple d’une structure des données en réseau est celui des réseaux sociaux. Pensez à votre réseau d’amis et à leurs amis sur Facebook et considérez les contacts de premier, deuxième et troisième degré sur LinkedIn.<p><p>Le Web est un autre exemple d’une structure de données en réseau, où les pages Web comportent des liens vers un nombre incalculable d’autres pages et ce dans n’importe quelle direction.</p>",
           "_graphic": {
                     "src": "course/fr/images/odi-006.jpg",
                     "alt": "Network",
@@ -203,20 +203,20 @@
       "_component":"accordion",
       "_classes":"",
       "_layout":"left",
-      "title": "Trouver l’open data sous la bonne forme",
-      "displayTitle": "Trouver l’open data sous la bonne forme",
-      "body": "<p>En tant qu’utilisateur d’open data, il est important de comprendre comment les maisons d’éditions vous livrent les différentes formes pour la réutilisation.</p><p>Il existe des données qui ne sont pas convenables à télécharger soit parce qu’elles sont trop grandes, soit qu’elles sont mises à jour trop regulièrement, soit qu’elles sont trop complexes pour exposer comme un fichier statique. Pour certaines données, il faut les diviser en les parties plus petites. Pour des autres, il faut les publier comme un flux live pour qu’elles restent mises à jour.</p>",
+      "title": "Trouver l’open data sous la bonne format",
+      "displayTitle": "Trouver l’open data sous la bonne format",
+      "body": "<p>En tant qu’utilisateur d’open data, il est important de comprendre les différents formats de données utilisés par ceux qui les publient.</p><p>Le téléchargement des données n’est pas forcément la solution la plus appropriée car il se peut que le fichier soit trop large, que les données soient mises à jour trop régulièrement ou bien qu’elles soient trop complexes à exposer comme fichier statique. Certaines données doivent être divisées en ensembles de données plus petits. On préfèrera en publier d’autres sous forme de flux ‘live’ pour s’assurer qu’elles soient toujours mises à jour.</p>",
       "instruction": "<em>Cliquez sur les titres pour plus de détail.</em>",
       "_items": [
         {
           "alt": "L’open data téléchargeable",
           "title": "L’open data téléchargeable",
-          "body": "<p>Les données tabulaires sont les plus convenables à télécharger, ce qui est la raison pour laquelle les portails d’open data gouvernementales utilisent principalement les données tabulaires. Cependant, il y aurait des autres considérations en gérant des millions de rangées des données :</p><ul><li>Devrait-on diviser les données en les séries de données plus petites ?</li><li>À quelle fréquence devrait-on mettre à jour les données ?</li><li>Comment les changements de la méthode de publication toucheraient aux publications précedentes ?</li></ul>"
+          "body": "<p>Les données tabulaires sont les plus souhaitables pour le téléchargement, ce qui explique pourquoi les portails d’open data gouvernementaux utilisent principalement les données tabulaires. Cependant, il faut prendre en compte les considérations suivantes lorsqu’il s’agit de gérer des millions de rangées de données :</p><ul><li>Serait-il souhaitable de diviser les données en ensembles de données plus petits ?</li><li>À quelle fréquence devrait-on mettre à jour les données ?</li><li>Comment les changements de méthode de publication affecteront ils les publications précédentes ?</li></ul>"
         },
         {
-          "alt": "Les données live et les flux de données",
-          "title": "Les données live et les flux de données",
-          "body": "<p>Il existe des données qui ne sont pas convenables à télécharger.</p><p>Plusieurs données sont mises à jour si regulièrement que les téléchargements des fichiers seraient trop grands pour la plupart des utilisateurs. Ce type de structure d’open data peut être rendu disponible par une interface machine, aussi connue comme une API.</p><p>Il y a beaucoup de services qui rendent les interfaces machine disponibles sur le Web. On peut intégrer des services directement dans les autres application du Web. Pour voir un exemple d’une API  d’open data, regardez la compagnie ferroviaire belge.<br /><a href='https://hello.irail.be/api/1-0/' target='_blank'>Lien vers l’API de iRail</a></p>"
+          "alt": "Données en temps réel (‘Live Data’) et flux de données",
+          "title": "Données en temps réel (‘Live Data’) et flux de données",
+          "body": "<p>Pour certaines données, la mise à disposition sous forme de fichiers téléchargeables n’est pas adaptée.</p><p>Ces données sont souvent mises à jour tellement régulièrement que les fichiers à télécharger seraient trop lourds pour la plupart des utilisateurs. Ce type de structure d’open data peut être mis à disposition par l’intermédiaire d’une machine, communément appelée API.</p><p>Il y a beaucoup de services de mise à disposition de ces interfaces disponibles sur le Web. On peut directement intégrer ces services à d’autres applications sur le Web. Pour voir un exemple d’une API d’open data, cliquez sur ce lien vers la compagnie ferroviaire belge.<br /><a href='https://hello.irail.be/api/1-0/' target='_blank'>Lien vers l’API de iRail</a></p>"
         }
       ],
       "_pageLevelProgress": {
@@ -254,7 +254,7 @@
         "_layout":"left",
         "title":"Choisir la bonne forme pour l’open data ",
         "displayTitle":"Choisir la bonne forme pour l’open data ",
-        "body":"<p>Quand il s’agit de la forme d’open data, commencez avec CSV.</p><p>Un fichier CSV (en anglais, comma separated values), sont tout simplement des lignes de donnés, où chaque point de données se sépare du prochain en virgule. CSV est parfait pour les données tabulaires et peut être facilement chargé et  enregistré dans les applications comme Excel, ce qui les rendent accessibles aux utilisatuers.</p><p>Bien que CSV ne maintient pas le formatage ou les graphiques comme Excel, il traite d’une forme ouverte et lisible par des machines. CSV représente la forme la plus simple qui soutient la réutilisation vaste de l’open data. Autrement dit, CSV est ‘le plus petit dénominateur commun’ pour tous l’open data et devrait être accueilli où qu’il soit possible.</p>",
+        "body":"<p>Quand il s’agit de format d’open data, commencez par utiliser CSV.</p><p>Un fichier CSV (en anglais, ‘comma separated values’, soit valeurs séparées par des virgules), est tout simplement constitué de lignes de donnés, où chaque point de données est séparé du prochain par une virgule. Le format CSV est parfaitement adapté pour les données tabulaires et peut être facilement téléchargé ou enregistré sous des applications comme Excel, ce qui le rend accessible aux utilisateurs.</p><p>Même si le format CSV ne maintient pas le formatage ou les graphiques comme Excel, il s’agit d’un format ouvert et lisible par des machines. Le format CSV est le format le plus simple capable de supporter une vaste réutilisation de l’open data. En d’autres termes, CSV est ‘le plus petit dénominateur commun’ de l’open data et devrait être utilisé en priorité autant que possible.</p>",
         "_pageLevelProgress": {
             "_isEnabled": true
         }
@@ -285,9 +285,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Sont vos formes en ordre ?",
-        "displayTitle":"Sont vos formes en ordre ?",
-        "body":"<p>Vérifiez vos connaissances sur les formes d’open data avec les questions suivantes. Vous vous souvenez les points importants ?</p>",
+        "title":"Vos formats sont-ils réglementaires?",
+        "displayTitle":"Vos formats sont-ils réglementaires?",
+        "body":"<p>Vérifiez vos connaissances sur les formats d’open data grâce aux questions suivantes. Vous souvenez-vous des points importants ?</p>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
@@ -304,10 +304,10 @@
         "_questionWeight":1,
         "_isRandom":true,
         "_selectable":1,
-        "title": "Pourquoi est-il important de choisir la bonne forme pour l’open data ?",
-        "displayTitle": "Pourquoi est-il important de choisir la bonne forme pour l’open data ?",
-        "body": "<p>Pourquoi est-il important de choisir la bonne forme pour l’open data ?</p>",
-        "instruction": "<em>Choisissez votre réponse et puis cliquez sur ‘Soumettre’.</em>",
+        "title": "Pourquoi est-il important de choisir le bon format pour l’open data ?",
+        "displayTitle": "Pourquoi est-il important de choisir le bon format pour l’open data ?",
+        "body": "<p>Pourquoi est-il important de choisir le bon format pour l’open data ?</p>",
+        "instruction": "<em>Choisissez votre réponse et puis cliquez sur ‘Valider’.</em>",
         "_items": [
             {
                 "text": "Assurer que la vie privée est protégée.",
@@ -318,7 +318,7 @@
                 "_shouldBeSelected": false
             },
             {
-                "text": "Faciliter l’utilité, la gestion et l’accès.",
+                "text": "Faciliter l'exploitabilité, la gestion et l’accès.",
                 "_shouldBeSelected": true
             }
         ],
@@ -334,7 +334,7 @@
           }
         },
         "_buttons":{
-            "submit":"Soumettre",
+            "submit":"Valider",
             "reset":"",
             "showCorrectAnswer":"",
             "hideCorrectAnswer":""
@@ -372,10 +372,10 @@
         "_questionWeight":1,
         "_isRandom":true,
         "_selectable":1,
-        "title": "Picking data structures.",
+        "title": "Quelle structure de données utiliseriez-vous pour les données sur cette image ?",
         "displayTitle": "Quelle structure de données utilisez vous pour les données dans l’image ?",
         "body": "<p>Quelle structure de données utilisez vous pour les données dans l’image ?</p>",
-        "instruction": "<em>Choisissez votre réponse et puis cliquez sur ‘Soumettre’.</em>",
+        "instruction": "<em>Choisissez votre réponse et puis cliquez sur ‘Valider’.</em>",
         "_items": [
             {
                 "text": "Tabulaire",
@@ -391,10 +391,10 @@
             }
         ],
         "_feedback":{
-            "correct":"<h5>Vous avez raison !</h5><p>The picture shows that relationships between data points are important. Additionally these relationships are all 'parent-child' relationships, meaning that a hierarchical structure is ideal.</p>",
+            "correct":"<h5>Vous avez raison !</h5><p>L’image montre que les rapports entre les points de données sont importants. En plus, les liens sont tous ‘parents-enfants,’ ce qui signifie qu’une structure hiérarchique est idéale.</p>",
             "_incorrect": {
-                "notFinal": "<h5>Êtes vous sûr(e) ?</h5><p>The picture shows that relationships between data points are important. Additionally these relationships are all 'parent-child' relationships, meaning that a hierarchical structure is ideal.</p>",
-                "final": "<h5>Êtes vous sûr(e) ?</h5><p>The picture shows that relationships between data points are important. Additionally these relationships are all 'parent-child' relationships, meaning that a hierarchical structure is ideal.</p>"
+                "notFinal": "<h5>Êtes vous sûr(e) ?</h5><p>L’image montre que les rapports entre les points de données sont importants. En plus, les liens sont tous ‘parents-enfants,’ ce qui signifie qu’une structure hiérarchique est idéale.</p>",
+                "final": "<h5>Êtes vous sûr(e) ?</h5><p>L’image montre que les rapports entre les points de données sont importants. En plus, les liens sont tous ‘parents-enfants,’ ce qui signifie qu’une structure hiérarchique est idéale.</p>"
             },
             "_partlyCorrect": {
                 "notFinal": "<h5>Êtes vous sûr(e) ?</h5><p>The picture shows that relationships between data points are important. Additionally these relationships are all 'parent-child' relationships, meaning that a hierarchical structure is ideal.</p>",
@@ -402,7 +402,7 @@
           }
         },
         "_buttons":{
-            "submit":"Soumettre",
+            "submit":"Valider",
             "reset":"",
             "showCorrectAnswer":"",
             "hideCorrectAnswer":""
@@ -440,10 +440,10 @@
         "_questionWeight":1,
         "_isRandom":true,
         "_selectable":1,
-        "title": "Sous quelle forme devrait l’open data être disponible où qu’il soit possible ?",
-        "displayTitle": "Sous quelle forme devrait l’open data être disponible où qu’il soit possible ?",
-        "body": "<p>Sous quelle forme devrait l’open data être disponible où qu’il soit possible ?</p>",
-        "instruction": "<em>Choisissez votre réponse et puis cliquez sur ‘Soumettre’.</em>",
+        "title": "Sous quel format l’open data devrait-il être disponible de préférence ?",
+        "displayTitle": "Sous quel format l’open data devrait-il être disponible de préférence ?",
+        "body": "<p>Sous quel format l’open data devrait-il être disponible de préférence ?</p>",
+        "instruction": "<em>Choisissez votre réponse et puis cliquez sur ‘Valider’.</em>",
         "_items": [
             {
                 "text": "CSV",
@@ -459,10 +459,10 @@
             }
         ],
         "_feedback":{
-            "correct":"<h5>Vous avez raison !</h5><p>The comma separated values (CSV) format is a simple to understand, highly reusable format. It is also open for anyone to write new tools to interpret it. The other formats are useful but not as widely adopted for data.</p>",
+            "correct":"<h5>Vous avez raison !</h5><p>CSV (en anglais, comma separated values), est un format facile à comprendre et hautement réutilisable. Il est ouvert pour que tout le monde puisse développer de nouveaux outils pour l’intérpreter. Les autres formats sont utiles, mais ne sont pas aussi largement adoptés pour les données.</p>",
             "_incorrect": {
-                "notFinal": "<h5>Êtes vous sûr(e) ?</h5><p>The comma separated values (CSV) format is a simple to understand, highly reusable format. It is also open for anyone to write new tools to interpret it. The other formats are useful but not as widely adopted for data.</p>",
-                "final": "<h5>Êtes vous sûr(e) ?</h5><p>The comma separated values (CSV) format is a simple to understand, highly reusable format. It is also open for anyone to write new tools to interpret it. The other formats are useful but not as widely adopted for data.</p>"
+                "notFinal": "<h5>Êtes vous sûr(e) ?</h5><p>CSV (en anglais, comma separated values), est un format facile à comprendre et hautement réutilisable. Il est ouvert pour que tout le monde puisse développer de nouveaux outils pour l’intérpreter. Les autres formats sont utiles, mais ne sont pas aussi largement adoptés pour les données.</p>",
+                "final": "<h5>Êtes vous sûr(e) ?</h5><p>CSV (en anglais, comma separated values), est un format facile à comprendre et hautement réutilisable. Il est ouvert pour que tout le monde puisse développer de nouveaux outils pour l’intérpreter. Les autres formats sont utiles, mais ne sont pas aussi largement adoptés pour les données.</p>"
             },
             "_partlyCorrect": {
                 "notFinal": "<h5>Êtes vous sûr(e) ?</h5><p>The comma separated values (CSV) format is a simple to understand, highly reusable format. It is also open for anyone to write new tools to interpret it. The other formats are useful but not as widely adopted for data.</p>",
@@ -470,7 +470,7 @@
           }
         },
         "_buttons":{
-            "submit":"Soumettre",
+            "submit":"Valider",
             "reset":"",
             "showCorrectAnswer":"",
             "hideCorrectAnswer":""
@@ -522,9 +522,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Les formes d’open data",
-        "displayTitle":"Les formes d’open data",
-        "body":"<p>La forme d’une série de données ouverte est la façon dont on structure et rend les données disponible pour les personnes et les machines.</p><p>Choisir la bonne forme permet de la gestion et de la réutilisation plus simples. Pour maximiser la réutilisation des données, il peut être nécessaire que la maison d’éditions utilise une variété des formes et structures disponibles à travers des différentes plates-formes qui conviennent aux besoins de l’utilisateur.</p><p>Où qu’il soit possible, on devrait utiliser la forme de CSV pour partager l’open data. CSV est une forme facile à comprendre, hautement réutilisable et lisible par des machines.</p>",
+        "title":"Les formats d’open data",
+        "displayTitle":"Les formats d’open data",
+        "body":"<p>Le format d’un ensemble de données ouvertes est la manière dont les données sont structurées et mises à disposition des personnes et des machines.</p><p>Le choix du bon format permet une gestion et une réutilisation plus simples. Pour maximiser la réutilisation des données, il peut être nécessaire que ceux qui publient les données utilisent divers formats et structures sur différentes plateformes qui conviennent aux besoins de l’utilisateur.</p><p>On privilégiera l’utilisation du format CVS pour le partage de données ouvertes aussi souvent que possible. Le format CSV est un format facile à comprendre, hautement réutilisable et lisible par des machines.</p>",
         "_pageLevelProgress": {
           "_isEnabled": true
         }
