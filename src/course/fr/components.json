@@ -28,9 +28,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Comment utilisables sont les données ?",
-        "displayTitle":"Comment utilisables sont les données ?",
-        "body":"<p>Évaluer l’utilité de l’open data dépende du domaine et du contenu.  Afin d’assistir au processus, il existe certaines lignes directrices sur les pratiques exemplaires que les maisons d’éditions et les utilisateurs peuvent suivre tous les deux.</p><p>Pendant le module on verra les 5 étoiles de l’open data couplé et découvrira comment les utiliser pour mesurer l’utilité technique des données.</p><h5>Pendant le module on explorera les questions suivantes :</h5><ul class='ticks'><li>Qu’est-ce que c’est les 5 étoiles de l’open data couplé</li><li>Les 3 premières étoiles</li><li>Comment reconnaître les étoiles dans les données</li></ul>",
+        "title":"À quel point mes données sont-elles utilisables?",
+        "displayTitle":"À quel point mes données sont-elles utilisables?",
+        "body":"<p>Évaluer l’utilité et l’exploitabilité de l’open data dépend du domaine et du contenu. Pour faciliter ce processus, il existe un certain nombre de directives de pratiques optimales qu’il est recommandé d’appliquer, que l’on publie ou que l’on utilise les données.</p><p>Au cours de ce module, nous étudierons les 5 étoiles des ‘Données Ouvertes et Liées’ (en anglais: LOD ou ‘Linked Open Data’, terme généralement utilisé même en français) et tenterons d’expliquer comment les utiliser pour mesurer la facilité d’utilisation technique des données.</p><h5>Dans ce module, nous allons explorer les points suivants :</h5><ul class='ticks'><li>Quelles sont les cinq étoiles du ‘Linked Open Data’</li><li>Les trois premières étoiles</li><li>Comment reconnaître les étoiles dans les données</li></ul>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
@@ -43,9 +43,9 @@
         "_component":"iFrame-vimeo",
         "_classes":"",
         "_layout":"full",
-        "title":"Évaluer l’utilité des données - dans 2 minutes.",
-        "displayTitle": "Évaluer l’utilité des données - dans 2 minutes.",
-        "body": "Entraîneur chez l’ODI, Dr David Tarrant introduit les 5 étoiles de l’open data en tant qu’un outil d’évaluation et vous aide à comprendre comment et quand on les utilise.",
+        "title":"Évaluer l’utilité des données - en 2 minutes.",
+        "displayTitle": "Évaluer l’utilité des données - en 2 minutes.",
+        "body": "David Tarrant, formateur à l’ODI, présente les 5 étoiles de l’open data comme un outil d’évaluation et nous aide à comprendre quand et comment les utiliser.",
         "instruction": "",
         "_setCompletionOn":"ended",
         "_source": "https://player.vimeo.com/video/129197206",
@@ -87,7 +87,7 @@
         "_layout":"right",
         "title":"Les 5 étoiles de l’open data",
         "displayTitle":"Les 5 étoiles de l’open data",
-        "body":"<p>La recommandation deIl examine l’accessibilité et l’utilité technique d’une série de données en variant de la disponibilté en ligne (1 étoile) à l’appartenance à un web des données (5 étoiles). On gagne chaque étoile d’une manière séquentielle sans la possibilité de les enlever.</p><p>Développées par Sir Tim Berners-Lee en 2001, les recommandations ont été adoptées par des maisons d’éditions à travers du monde pour guider plusieurs initiatives d’open data telles que l’agence d’Italie numérique.<br /><a href='http://spcdata.digitpa.gov.it/data.html' target='_blank'>Lien vers l’Agence  d’Italie numérique</a></p><p>Pendant le module on verra les 3 premiéres étoiles auxquelles les données tabulaires et transactionnelles conviennent. On explorera les 2 dernières étoiles dans le module 13.</p>"
+        "body":"<p>Les directives des 5 étoiles du Linked Open Data permettent de mesurer l’intégration des données sur le Web.</p><p>Elles examinent l’accessibilité et la facilité d’utilisation technique d’une série de données, allant de 1 étoile (disponibilité en ligne) à 5 étoiles (appartenance à un web des données). Les étoiles sont attribuées de manière séquentielle; on ne peut pas attribuer une étoile supérieure si les exigences de la précédente ne sont pas satisfaites.</p><p>Ces recommandations ont été développées par Sir Tim Berners-Lee en 2001 et ont depuis été adoptées par ceux qui publient de l’open data à travers le monde, guidant de nombreuses initiatives d’open data comme celles de l’Agence Numérique d’Italie.<br /><a href='http://spcdata.digitpa.gov.it/data.html' target='_blank'>Lien vers l’Agence  d’Italie numérique</a></p><p>Ce module se concentre sur les 3 premières étoiles, qui sont adaptées aux données tabulaires et transactionnelles. Nous étudierons les 2 dernières étoiles en détail dans le module 13.</p>"
     },
     {
         "_id":"c-30",
@@ -116,23 +116,23 @@
       "_layout":"left",
       "title": "Les 3 premières étoiles",
       "displayTitle": "Les 3 premières étoiles",
-      "body": "<p>Les 3 premières étoiles de l’open data vous permettent de décider si les données sont utilisables.</p>",
+      "body": "<p>Les 3 premières étoiles de l’open data vous permettent d’établir si oui ou non les données sont utilisables.</p>",
       "instruction": "<em>Cliquez sur les titres pour plus de détail.</em>",
       "_items": [
         {
           "alt": "1 étoile - une licence ouverte",
           "title": "1 étoile - une licence ouverte",
-          "body": "<p>La première étoile est octroyée aux données ouvertes au niveau simple, c’est-à-dire celles dont le contenu, sous n’importe quelle forme, est disponible sous une licence ouverte.</p><p>Indépendamment de la qualité d’une série de données, elle ne remplit pas les conditions de la première étoile si elle n’est pas disponible sous une licence ouverte.</p><p>Un fichier PDF disponible sur un site Web sous une licence ouverte suffit d’accomplir la première étoile.</p>"
+          "body": "<p>La première étoile est octroyée à toutes données que l’on peut qualifier d’ouvertes, c’est-à-dire celles dont le contenu est disponible sous licence ouverte et ce sous n’importe quelle forme.</p><p>Indépendamment de la qualité d’un ensemble de données, celles-ci ne peuvent pas bénéficier de la première étoile si elles ne sont pas disponibles sous licence ouverte.</p><p>Un fichier PDF disponible sur un site Web sous licence ouverte remplit les conditions nécessaires pour obtenir la première étoile.</p>"
         },
         {
           "alt": "2 étoiles - une forme réutilisable",
           "title": "2 étoiles - une forme réutilisable",
-          "body": "<p>La deuxième étoile est octroyée aux données réutilisables d’une maniere simple. Les recommandations affirment que les données doivent étre disponible sous ‘une forme fortement réutilisable et structurée,’ lisible par une machine et compréhensible pour une personne.</p><p>La clé d’atteindre les 2 étoiles est de sélectionner la forme la plus réutilisable. Dans certains cas, la forme la plus réutilisable serait fermée ou propriétaire, telle qu’un fichier Excel ou Numbers.</p><p>Il est mieux de rendre les données disponible sous n’importe quelle forme que ne pas les rendre disponible.</p>"
+          "body": "<p>La deuxième étoile est octroyée aux données réutilisables facilement. Les directives stipulent que les données doivent être disponible sous ‘un format largement réutilisable et structuré,’ lisible par une machine et compréhensible par l’humain.</p><p>La clé pour atteindre les 2 étoiles est de sélectionner le format le plus réutilisable. Dans certains cas, il se peut que le format le plus réutilisable soit un format propriétaire ou fermé, comme c’est le cas pour un fichier Excel ou Numbers.</p><p>Il est préférable de rendre ses données disponibles sous n’importe quel format, quel qu’il soit, plutôt que de ne pas les rendre disponible.</p>"
         },
         {
           "alt": "3 étoiles - une forme ouverte",
           "title": "3 étoiles - une forme ouverte",
-          "body": "<p>Les recommandations pour la troisième étoile de l’open data affirment que les données doivent être disponible sous une forme structurée et lisible par une machine qui n’est pas limitée à un progiciel spécifique.</p><p>Un exemple d’une série de données octroyée 3 étoiles serait un fichier CSV avec une licence ouverte appropriée.</p><p>Entreprise d’énergie italienne, Enel est un bon exemple d’une série de données de 3 étoiles qui affiche clairement son classement des étoiles.<br /><a href='http://data.enel.com/node/4679' target='_blank'>Lien vers la série de données de 3 étoiles d’Enel</a></p>"
+          "body": "<p>Les directives pour la troisième étoile de l’open data stipulent que les données doivent être disponibles sous un format structuré et lisible par une machine qui n’est pas limité à un pack logiciel en particulier.</p><p>Un exemple d’un ensemble de données auquel on accorderait 3 étoiles serait un fichier CSV avec une licence ouverte appropriée.</p><p>L’entreprise d’énergie italienne Enel présente un bon exemple d’une série de données 3 étoiles qui affiche clairement son classement et le nombre d’étoiles octroyées.<br /><a href='http://data.enel.com/node/4679' target='_blank'>Lien vers la série de données de 3 étoiles d’Enel</a></p>"
         }
       ],
       "_pageLevelProgress": {
@@ -146,14 +146,14 @@
         "_type":"component",
         "_layout": "full",
         "_component": "narrative",
-        "title": "Réaliser l’utilité d’open data",
-        "displayTitle": "Réaliser l’utilité d’open data",
-        "body": "Chaque étoile octroyée représente une amélioration de l’utilité de la série de données. Utilisez cette liste de vérification afin d’évaluer combien d’étoiles une série de données possède. ",
+        "title": "Exploiter l’utilité de l’open data",
+        "displayTitle": "Exploiter l’utilité de l’open data",
+        "body": "Chaque étoile acquise représente une exploitabilité améliorée de l’ensemble de données. Utilisez la liste ci-dessous afin d’évaluer combien d’étoiles accorder à un ensemble de données.",
         "instruction": "<em class='desktop-instruction'>Cliquez sur la flèche pour plus de détail.</em><em class='mobile-instruction'>Cliquez sur la flèche pour plus de détail.</em>",
         "_items": [
             {
                 "title": "Étoile 1er - vérifier la licence ",
-                "body": "<p>Trouver la licence pour une série de données ouverte peut être un des pas les plus difficiles.</p><p>Une licence ouverte constitue l’autorisation explicite de l’utilisation ses données pour des fins commerciales ainsi que non-commerciales.</p><p>Essayez de la retrouver dans les rubriques suivantes :</p><ul class=ticks><li>Les métadonnées</li><li>Les conditions générales du site ou de la page Web</li><li>Cliquez sur le fichier de données, il existerait une fenêtre Pop up</li><li>Regardez à l’intérieur du fichier</li></ol><p>Car les sites Web préfèrent des différentes approches à l’affichage d’information de la licence, vous prendriez un peu de temps pour chercher sur chaque site.</p>",
+                "body": "<p>Trouver la licence pour un ensemble de données ouvertes peut se révéler l’une des étapes les plus difficiles. Consultez les endroits suivants.</p><p>Une licence ouverte autorise explicitement l’utilisation des données à des fins commerciales ainsi que non-commerciales.</p><p>Essayez de la retrouver dans les rubriques suivantes :</p><ul class=ticks><li>Les métadonnées</li><li>Les conditions générales du site ou de la page Web</li><li>Cliquez sur le fichier de données, il y a peut-être une fenêtre popup</li><li>Regardez dans le fichier lui-même</li></ol><p>Comme chaque site Web a une approche différente en ce qui concerne l’affichage des informations relatives à la licence, il se peut que vous mettiez un certain temps avant de trouver l’information requise.</p>",
                 "_graphic": {
                     "src": "course/fr/images/odi-003.jpg",
                     "alt": "Star 1 - Checking the license",
@@ -166,7 +166,7 @@
             },
             {
                 "title": "Étoile 2eme - vérifier l’utilité",
-                "body": "<p>Quand vous découvriez l’open data sur le Web, vous vouliez consulter le conseil suivant pour vérifier l’utilité :<ul class='ticks'><li>Pensez vous que les données sont publiées sous la forme la plus facile à utiliser ?</li><li>Est le fichier le même fichier que l’éditeur utilise il-même ?</li><li>Y-a-t il des autres informations ajoutées par une personne ?</li></ul></p>",
+                "body": "<p>Quand vous trouvez de l’open data sur le Web, il y a plusieurs manières d’en évaluer l’utilité. Considérez les questions suivantes :<ul class='ticks'><li>Pensez-vous que le format sous lequel les données sont publiées soit le plus facile à utiliser ?</li><li> Le fichier est-il identique à celui utilisé par ceux qui publient les données ?</li><li>Y a-t-il des informations supplémentaires ajoutées par un humain ?</li></ul></p>",
                 "_graphic": {
                     "src": "course/fr/images/odi-004.jpg",
                     "alt": "Star 2 - checking usability",
@@ -179,7 +179,7 @@
             },
             {
                 "title": "Étoile 3eme - vérifier l’ouverture",
-                "body": "<p>Les formes ouvertes sont parfois plus difficiles à évaluer. Les questions suivantes vous aideront comprendre si les données sont publiées sous une licence ouverte :<ul class='ticks'><li>Puis-je ouvrir le fichier avec des différents programmes sur mon ordinateur toujours en voyant la fonnctionnalité complète du fichier ?</li><li>Quand je regarde le format de fichier (par exemple CSV) en ligne dit-il qu’il faut télécharger un programme spécifique pour l’ouvrir ?</li></ul></p><p>CSV est la forme ouverte la plus populaire et il est facile à identifier. CSV remplit les conditions pour 3 étoiles à condition que les 2 autres étoiles soient atteint. Le portal d’open data bulgare fournit des bons exemples des séries de données CSV de 3 étoiles dont la licence et le format de fichier sont clairement marqués.</p><br /><a href='https://opendata.government.bg/dataset/tsentralen-registar-na-yuridicheskite-litsa' target='_blank'>Lien vers le portal d’open data bulgare</a><p>Beaucoup de portals d’open data publie les fichiers sous l’Open Document Format (ODF). Alors qu’il semble que ces fichiers soient parfaits en ce qui concerne l’ouverture, ils créent de la confusion en nommant l’outil qui les ouvre.</p>",
+                "body": "<pLes formats ouverts sont parfois plus difficiles à évaluer. Les questions suivantes vous aideront à identifier si les données sont publiées sous licence ouverte.<ul class='ticks'><li>Le fichier conserve-t-il sa fonctionnalité complète quel que soit le programme utilisé pour l’ouvrir ?</li><li>Lorsqu’on vérifie le format du fichier (par exemple CSV) en ligne, apprend-on qu’il est nécessaire de télécharger un programme spécifique pour l’ouvrir ?</li></ul></p><p>Le format CSV est le format ouvert le plus populaire et il est facile à identifier. Le format CSV remplit les conditions pour obtenir 3 étoiles tant que les conditions relatives aux deux étoiles précédentes sont remplies. Le portail d’open data bulgare montre de bons exemples de séries de données en format CSV 3 étoiles, où la licence et le format de fichier sont clairement indiqués.</p><br /><a href='https://opendata.government.bg/dataset/tsentralen-registar-na-yuridicheskite-litsa' target='_blank'>Lien vers le portal d’open data bulgare</a><p>Beaucoup de portails d’open data publient aussi des fichiers sous le format ‘Open Document Format’ (ODF). Bien que leur nom suggère que ces fichiers soient parfaitement ouverts, ils donnent lieu à une certaine confusion lorsque l’on tente de nommer l'outil qui peut ouvrir ces fichiers.</p>",
                 "_graphic": {
                     "src": "course/fr/images/odi-005.jpg",
                     "alt": "Star 3 - checking openness",
@@ -221,9 +221,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Êtes-vous prêt(e) à évaluer l’ouverture ?",
-        "displayTitle":"Êtes-vous prêt(e) à évaluer l’ouverture ?",
-        "body":"<p>Il y a 3 choses simples à prendre en compte en évaluant l’ouverture. Vous vous en souvenez ?</p>",
+        "title":"Êtes-vous prêt(e) à évaluer l’ouverture des données ?",
+        "displayTitle":"Êtes-vous prêt(e) à évaluer l’ouverture des données ?",
+        "body":"<p>Il y a trois choses simples à prendre en compte lorsque l’on évalue à quel point des données sont ouvertes. Vous en souvenez-vous ?</p>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
@@ -259,29 +259,29 @@
         "_questionWeight":1,
         "_isRandom":true,
         "_selectable":1,
-        "title": "Comment évaluer l’ouverture d’une série de données en utilisant les 5 étoiles ?",
-        "displayTitle": "Comment évaluer l’ouverture d’une série de données en utilisant les 5 étoiles ?",
-        "body": "<p>Qu’est-ce que vous feriez afin d’évaluer l’ouverture d’une série de données que vous auriez trouvées en ligne ?</p>",
-        "instruction": "<em>Choisissez votre réponse et puis cliquez sur ‘Soumettre’.</em>",
+        "title": "Comment évaluer le caractère ouvert d’un ensemble de données grâce aux 5 étoiles ?",
+        "displayTitle": "Comment évaluer le caractère ouvert d’un ensemble de données grâce aux 5 étoiles ?",
+        "body": "<p>Comment procéderiez-vous pour évaluer le caractère ouvert d’un ensemble de données que vous auriez trouvées en ligne ?</p>",
+        "instruction": "<em>Choisissez votre réponse et puis cliquez sur ‘Valider’.</em>",
         "_items": [
             {
-                "text": "Regarder chaque étoile indépendamment et évaluer selon l’étoile la plus élevée atteinte.",
+                "text": "En regardant les critères de chaque étoile individuellement et en attribuant l’étoile la plus élevée atteinte par l’ensemble de données.",
                 "_shouldBeSelected": false
             },
             {
-                "text": "Commencer aux critères de la première étoile et évaluer chaque étoile d’une manière séquentielle.",
+                "text": "En commençant par les critères de la première étoile et en évaluant de manière séquentielle selon chaque étoile.",
                 "_shouldBeSelected": true
             },
             {
-                "text": "Deviner",
+                "text": "En tentant de deviner",
                 "_shouldBeSelected": false
             }
         ],
         "_feedback":{
-            "correct":"<h5>Vous avez raison !</h5><p>On gagne chaque étoile d’une manière séquentielle sans la possibilité de les enlever. </p>",
+            "correct":"<h5>Vous avez raison !</h5><p>Chaque étoile est attribuée de manière séquentielle; on ne peut pas attribuer une étoile supérieure si les exigences de la précédente ne sont pas satisfaites.</p>",
             "_incorrect": {
-                "notFinal": "h5>Êtes vous sûr(e) ?</h5><p>On gagne chaque étoile d’une manière séquentielle sans la possibilité de les enlever. </p>",
-                "final": "<h5>Êtes vous sûr(e) ?</h5><p>On gagne chaque étoile d’une manière séquentielle sans la possibilité de les enlever. </p>"
+                "notFinal": "h5>Êtes vous sûr(e) ?</h5><p>Chaque étoile est attribuée de manière séquentielle; on ne peut pas attribuer une étoile supérieure si les exigences de la précédente ne sont pas satisfaites.</p>",
+                "final": "<h5>Êtes vous sûr(e) ?</h5><p>Chaque étoile est attribuée de manière séquentielle; on ne peut pas attribuer une étoile supérieure si les exigences de la précédente ne sont pas satisfaites.</p>"
             },
             "_partlyCorrect": {
                 "notFinal": "<h5>Êtes vous sûr(e) ?</h5><p>On gagne chaque étoile d’une manière séquentielle sans la possibilité de les enlever. </p>",
@@ -289,7 +289,7 @@
           }
         },
         "_buttons":{
-            "submit":"Soumettre",
+            "submit":"Valider",
             "reset":"",
             "showCorrectAnswer":"",
             "hideCorrectAnswer":""
@@ -327,10 +327,10 @@
         "_questionWeight":1,
         "_isRandom":true,
         "_selectable":1,
-        "title": "Qu’est-ce que c’est la deuxième étoile ?",
-        "displayTitle": "Qu’est-ce que c’est la deuxième étoile ?",
-        "body": "<p>La deuxième étoile est octroyée pour:</p>",
-        "instruction": "<em>Choisissez votre réponse et puis cliquez sur ‘Soumettre’.</em>",
+        "title": "Que représente la deuxième étoile ?",
+        "displayTitle": "Que représente la deuxième étoile ?",
+        "body": "<p>La deuxième étoile est octroyée pour...</p>",
+        "instruction": "<em>Choisissez votre réponse et puis cliquez sur ‘Valider’.</em>",
         "_items": [
             {
                 "text": "Une licence ouverte",
@@ -346,10 +346,10 @@
             }
         ],
         "_feedback":{
-            "correct":"<h5>Vous avez raison !</h5><p>La deuxième étoile traite de la réutilité des données et recommande que les données soient disponibles sous la forme la plus réutilisable même si la forme n’est pas ouverte ou propriétaire.</p>",
+            "correct":"<h5>Vous avez raison !</h5><p>La deuxième étoile est accordée en fonction de la facilité à réutiliser des données et recommande que les données soient disponibles sous le format le plus réutilisable qui soit, même s’il s’agit d’un format propriétaire.</p>",
             "_incorrect": {
-                "notFinal": "<h5>Êtes vous sûr(e) ?</h5><p>La deuxième étoile traite de la réutilité des données et recommande que les données soient disponibles sous la forme la plus réutilisable même si la forme n’est pas ouverte ou propriétaire.</p>",
-                "final": "<h5>Êtes vous sûr(e) ?</h5><p>La deuxième étoile traite de la réutilité des données et recommande que les données soient disponibles sous la forme la plus réutilisable même si la forme n’est pas ouverte ou propriétaire.</p>"
+                "notFinal": "<h5>Êtes vous sûr(e) ?</h5><p>La deuxième étoile est accordée en fonction de la facilité à réutiliser des données et recommande que les données soient disponibles sous le format le plus réutilisable qui soit, même s’il s’agit d’un format propriétaire.</p>",
+                "final": "<h5>Êtes vous sûr(e) ?</h5><p>La deuxième étoile est accordée en fonction de la facilité à réutiliser des données et recommande que les données soient disponibles sous le format le plus réutilisable qui soit, même s’il s’agit d’un format propriétaire.</p>"
             },
             "_partlyCorrect": {
                 "notFinal": "<h5>Êtes vous sûr(e) ?</h5><p>La deuxième étoile traite de la réutilité des données et recommande que les données soient disponibles sous la forme la plus réutilisable même si la forme n’est pas ouverte ou propriétaire.</p>",
@@ -357,7 +357,7 @@
           }
         },
         "_buttons":{
-            "submit":"Soumettre",
+            "submit":"Valider",
             "reset":"",
             "showCorrectAnswer":"",
             "hideCorrectAnswer":""
@@ -393,7 +393,7 @@
         "_layout":"left",
         "title":"Évaluer l’open data",
         "displayTitle":"Évaluer l’open data",
-        "body":"<p>Évaluer l’utilité de l’open data dépende du domaine et du contenu.  Afin d’assistir au processus, il existe certaines lignes directrices, une desquelles est les 5 étoiles de l’open data couplé.</p><p>La recommandation des 5 étoiles pour l’open data couplé est une façon dont on mesure l’intégration des données dans le Web. On gagne chaque étoile d’une manière séquentielle sans la possibilité de les enlever.<h5>Pendant le module on a vu les 3 premières étoiles :</h5><ul class='ticks'><li>La licence ouverte</li><li>La forme réutilisable</li><li>La forme ouverte</li></ul><p>Voyez le module 13 pour plus de détail autour des 2 dernières étoiles.</p>",
+        "body":"<p>Évaluer l’utilité et l’exploitabilité de l’open data dépend du domaine et du contenu. Pour faciliter ce processus, il existe un certain nombre de directives de pratiques optimales qu’il est recommandé d’appliquer, que l’on publie ou que l’on utilise les données.</p><p>Les directives des cinq étoiles pour le Linked Open Data permettent de mesurer l’intégration des données sur le Web. Les étoiles sont attribuées de manière séquentielle et aucune étoile ne peut être sautée ou omise.<h5>Lors de ce module, nous avons étudié les trois premières étoiles :</h5><ul class='ticks'><li>La licence ouverte</li><li>La forme réutilisable</li><li>La forme ouverte</li></ul><p>Référez-vous au module 13 pour plus de détails sur les deux dernières étoiles.</p>",
         "_pageLevelProgress": {
           "_isEnabled": true
         }
