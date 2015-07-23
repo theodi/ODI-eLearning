@@ -25,9 +25,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Qu’est-ce que c’est l’open data de qualité ?",
-        "displayTitle":"Qu’est-ce que c’est l’open data de qualité ?",
-        "body":"<p>Évaluer l’utilité d’open data n’est pas un processus rapide.</p><p>Il y a beaucoup de normes communautaires et marques de qualité qui vous aident à évaluer l’utilité d’open data.</p><h5>IPendant le module on explorera les questions suivantes :</h5><ul class='ticks'><li>Ce qui rend l’open data utilisable</li><li>Comment les normes aident à augmenter l’utilité de l’open data</li><li>Les marques de qualité</li></ul>",
+        "title":"Comment évaluer la qualité de l’open data ?",
+        "displayTitle":"Comment évaluer la qualité de l’open data ?",
+        "body":"<p>Évaluer l’utilité de l’open data n’est pas un processus rapide.</p><p>Il y a beaucoup de normes communautaires et de marques de qualité qui aident à évaluer l’utilité des données ouvertes.</p><h5>Dans ce module, nous allons explorer les points suivants :</h5><ul class='ticks'><li>Ce qui rend l’open data utilisable</li><li>Comment les normes aident à augmenter l’utilité de l’open data</li><li>Les marques de qualité</li></ul>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
@@ -40,9 +40,9 @@
     "_component":"iFrame-vimeo",
     "_classes":"",
     "_layout":"full",
-        "title":"Évaluer la qualité d’open data - dans 2 minutes",
-        "displayTitle": "Évaluer la qualité d’open data - dans 2 minutes",
-        "body": "Entraîneur chez l’ODI, Dr David Tarrant explique ce qui est l’open data de qualité, comment le reconnaître, et auxquelles marques de qualité les consommateurs d’open data devraient chercher.",
+        "title":"Évaluer la qualité des données ouvertes- en 2 minutes",
+        "displayTitle": "Évaluer la qualité des données ouvertes- en 2 minutes",
+        "body": "Formateur à l’ODI, Dr David Tarrant explique ce qu'est l’open data de qualité, comment le reconnaître et quelles marques de qualité rechercher lorsqu'on est consommateur d’open data.",
         "instruction": "",
         "_setCompletionOn":"ended",
         "_source": "https://player.vimeo.com/video/129197043",
@@ -82,9 +82,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Ce qui est l’open data de qualité ?",
-        "displayTitle":"Ce qui est l’open data de qualité ?",
-        "body":"<p>L’open data devient ‘utilisable’ quand une personne peut le comprendre et une machine peut le manipuler.</p><p>Les utilisateurs d’open data ont besoin de l’autorisation d’éditeur, accordée par une licence ouverte. Cependant, sans autres facteurs, une licence ouverte ne suffit pas à garantit l’utilité des données.</p><p>Si les données ne sont pas utiles, il est peu probable que les gens puissent s’y engager d’une manière perspicace ou bénéfique.</p>"
+        "title":"Que signifie 'qualité' dans l'open data?",
+        "displayTitle":"Que signifie 'qualité' dans l'open data?",
+        "body":"<p>Les données ouvertes deviennent ‘utilisables’ lorsqu'un humain peut les comprendre et qu'une machine peut les manipuler.</p><p>Ceux qui utilisent l’open data doivent y être autorisés par ceux qui les publient, autorisation accordée par une licence ouverte. Cependant, une licence ouverte seule ne suffit pas à garantir l’utilité des données.</p><p>Il est peu probable que les données permettent un engagement et une exploitation quelconques si elles ne sont pas utiles.</p>"
     },
      {
         "_id": "c-25",
@@ -95,12 +95,12 @@
         "_component": "narrative",
         "title": "Les normes communautaires",
         "displayTitle": "Les normes communautaires",
-        "body": "Les normes communautaires définent les conditions préables pour qu’une série de données ouverte soit utile.",
+        "body": "Les normes communautaires définissent les conditions préalables (légales, pratiques, techniques et sociales) pour qu’un ensemble de données ouvertes soit utile.",
         "instruction": "<em class='desktop-instruction'>Cliquez sur la flèche pour plus de détail.</em><em class='mobile-instruction'>Cliquez sur la flèche pour plus de détail.</em>",
         "_items": [
             {
                 "title": "Exigences légales",
-                "body": "<p>Outre la licence ouverte, il y a 3 exigences légales qu’il faut considérer. Vous devez :</p><p><ul><li>Protèger les informations sensibles, telles que les données personnelles.</li><li>Préserver les droits des propriétaires des données.</li><li>Promouvoir l’utilisation correcte des données.</li></ul></p>",
+                "body": "<p>En plus de la licence ouverte, il y a trois exigences légales à considérer. Vous devez :</p><p><ul><li>Protéger les informations sensibles, telles que les données personnelles.</li><li>Préserver les droits des propriétaires des données.</li><li>Promouvoir une utilisation appropriée des données.</li></ul></p>",
                 "_graphic": {
                     "src": "course/fr/images/odi-2.jpg",
                     "alt": "Legal",
@@ -113,7 +113,7 @@
             },
             {
                 "title": "Exigences pratiques",
-                "body": "<p>Il est important que l’open data soit clairement définé comme ouvert.</p><p>Celui-ci veut dire que les maisons d’éditions d’open data doivent :</p><p><ul><li>Définir le contenu de la série de données.</li><li>Inclure une liste des sources des données.</li><li>Donner les exemples de l’utilisation existante des données.</li></ul></p>",
+                "body": "<p>Il est important que l’open data soit clairement défini comme étant ouvert.</p><p>Cela signifie que ceux qui publient de l’open data doivent :</p><p><ul><li>Définir le contenu de l'ensemble de données.</li><li>Inclure une liste des sources des données.</li><li>Donner des exemples de l’utilisation existante des données.</li></ul></p>",
                 "_graphic": {
                     "src": "course/fr/images/odi-3.jpg",
                     "alt": "Practical",
@@ -126,7 +126,7 @@
             },
             {
                 "title": "Exigences techniques",
-                "body": "<p>Il y a 3 recommandations pour mieux définir les aspects techniques de l’open data :</p><p><ul><li>La forme sous laquelle les données sont publiées.</li><li>La structure des données.</li><li>Les canals par lesquels les données sont disponsibles.</li></ul></p>",
+                "body": "<p>Il y a trois recommandations pour mieux définir les aspects techniques de l’open data :</p><p><ul><li>La forme sous laquelle les données sont publiées.</li><li>La structure des données.</li><li>Les canals par lesquels les données sont disponsibles.</li></ul></p>",
                 "_graphic": {
                     "src": "course/fr/images/odi-4.jpg",
                     "alt": "Technical",
@@ -139,7 +139,7 @@
             },
             {
                 "title": "Exigences sociales",
-                "body": "<p>Pour que les données soient durables, il est important d’avoir une communauté d’utilisateurs engagés. Les meilleures séries de données ont :</p><p><ul><li>Des canals de soutien actif.</li><li>Des groupes et forums de discussion.</li><li>Des guides pratiques publiés au sujet de travailler avec les données.</li></ul></p>",
+                "body": "<p>Pour que les données soient durables, il est important d’avoir une communauté d’utilisateurs engagés. Les meilleurs ensembles de données ont :</p><p><ul><li>Des canaux de soutien actif.</li><li>Des groupes et forums de discussion.</li><li>Des guides pratiques expliquant comment travailler avec ces données</li></ul></p>",
                 "_graphic": {
                     "src": "course/fr/images/odi-5.jpg",
                     "alt": "Social",
@@ -182,18 +182,18 @@
       "_layout":"left",
       "title": "Marques de qualité",
       "displayTitle": "Marques de qualité",
-      "body": "<p>Les marques de qualité fournissent aux utilisateurs la confiance en la qualité et l’utilité de l’open data.</p><p>Il y a 2 indicateurs clé de la qualité de l’open data :</p>",
+      "body": "<p>Les marques de qualité garantissent la qualité et l’exploitabilité des données ouvertes pour les utilisateurs :</p>",
       "instruction": "<em>Click the headings to explore further.</em>",
       "_items": [
         {
           "alt": "5 Étoiles",
           "title": "5 Étoiles",
-          "body": "<p>Les ‘5 Étoiles’ de l’open data couplé inclue la définition de base légale et l'excellence technique de l’open data.</p><p>Inventeur du Web, Sir Tim Berners-Lee a développé les ‘5 Étoiles’ en 2001. Les ‘5 Étoiles’ font des recommandations sur la forme et la structure des données.</p><p>Vous pouvez plus apprendre au sujet des ‘5 Étoiles’ pendant les modules 10 et 13 de ce cours.</p>"
+          "body": "<p>Les ‘5 Étoiles’ de l’open data corrélé donnent la définition juridique de base et l'excellence technique des données publiées.</p><p>L’inventeur du Web, Sir Tim Berners-Lee a développé les ‘5 Étoiles’ en 2001. Les ‘5 Étoiles’ font des recommandations quant à la forme et la structure des données.</p><p>Vous en saurez plus au sujet des ‘5 Étoiles’ dans les modules 10 et 13 de ce cours.</p>"
         },
         {
           "alt": "ODI open data certificates",
           "title": "ODI open data certificates",
-          "body": "<p>Les ‘Open Data Certificates’ de l’Open Data Institute sont les exigences pratiques, sociales, légales et techniques qu’il faut prendre en compte en publiant ou utilisant l’open data.</p><p>Les maisons d’éditions et, dans certains cas, les utilisateurs employent les certificats comme un questionnaire d’autoévaluation afin d’évaluer et définir une référence de toute utilité d’une série de données.<br /><a href='https://certificates.theodi.org/' target='_blank'>Lien vers le site des Open Data Institute Certificates</a></p>"
+          "body": "<p>Les ‘Open Data Certificates’ de l’Open Data Institute sont des exigences pratiques, sociales, légales et techniques à prendre en compte lors de la publication ou de l'utilisation d’open data.</p><p>Les certificats font office d'auto -évaluation pour les éditeurs , et dans certains cas les utilisateurs de données ouvertes, leur permettant d'évaluer et de comparer la facilité d’utilisation d’un ensemble de données.<br /><a href='https://certificates.theodi.org/' target='_blank'>Lien vers le site des Open Data Institute Certificates</a></p>"
         }
       ],
       "_pageLevelProgress": {
@@ -229,7 +229,7 @@
         "_layout":"left",
         "title":"Êtes-vous prêt(e) pour l’open data de qualité ?",
         "displayTitle":"Êtes-vous prêt(e) pour l’open data de qualité ?",
-        "body":"<p>Pouvez-vous rappeler les exigences pratiques, techniques, légales et sociales pour qu’une série de données soit utile ? </p>",
+        "body":"<p>Saurez-vous citer les exigences pratiques, techniques, légales et sociales pour qu’un ensemble de données soit utile ?</p>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
@@ -265,21 +265,21 @@
         "_questionWeight":1,
         "_isRandom":true,
         "_selectable":1,
-        "title": "Qu’est-ce que c’est l’open data de qualité ?",
-        "displayTitle": "Qu’est-ce que c’est l’open data de qualité ?",
-        "body": "<p>L’open data devient utilisable quand:</p>",
-        "instruction": "<em>Choisissez votre réponse et puis cliquez sur ‘Soumettre’.</em>",
+        "title": "Qu’est-ce que l’open data de qualité ?",
+        "displayTitle": "Qu’est-ce que l’open data de qualité ?",
+        "body": "<p>Les données ouvertes deviennent utilisables lorsqu’…</p>",
+        "instruction": "<em>Choisissez votre réponse et puis cliquez sur ‘Valider’.</em>",
         "_items": [
             {
-                "text": "it is imported into our system.",
+                "text": "elles sont importées dans notre système informatique",
                 "_shouldBeSelected": false
             },
             {
-                "text": "a human can understand it, machines can manipulate it and it has an open licence.",
+                "text": "un humain peut les comprendre, une machine peut les manipuler et lorsqu’elles sont publiées sous licence ouverte.",
                 "_shouldBeSelected": true
             },
             {
-                "text": "the government publishes it.",
+                "text": "elles sont publiées par le gouvernement.",
                 "_shouldBeSelected": false
             }
         ],
@@ -295,7 +295,7 @@
           }
         },
         "_buttons":{
-            "submit":"Soumettre",
+            "submit":"Valider",
             "reset":"",
             "showCorrectAnswer":"",
             "hideCorrectAnswer":""
@@ -335,8 +335,8 @@
         "_selectable":1,
         "title": "Exigences légales",
         "displayTitle": "Exigences légales",
-        "body": "<p>Il y a 3 exigences légales qui font partie des normes pour la publication d’open data. Une desquelles est :</p>",
-        "instruction": "<em>Choisissez votre réponse et puis cliquez sur ‘Soumettre’.</em>",
+        "body": "<p>Il y a trois exigences légales à considérer lors de la publication d’open data. L’une de ces considérations stipule qu’il faut...</p>",
+        "instruction": "<em>Choisissez votre réponse et puis cliquez sur ‘Valider’.</em>",
         "_items": [
             {
                 "text": "ne pas violer les lois des licences.",
@@ -347,7 +347,7 @@
                 "_shouldBeSelected": false
             },
             {
-                "text": "protèger les informations sensibles, telles que les données personnelles.",
+                "text": "protéger les informations sensibles, telles que les données personnelles.",
                 "_shouldBeSelected": true
             }
         ],
@@ -363,7 +363,7 @@
           }
         },
         "_buttons":{
-            "submit":"Soumettre",
+            "submit":"Valider",
             "reset":"",
             "showCorrectAnswer":"",
             "hideCorrectAnswer":""
@@ -403,19 +403,19 @@
         "_selectable":1,
         "title": "Exigences techniques",
         "displayTitle": "Exigences techniques",
-        "body": "<p>Il y a 3 exigences techniques qui font partie des normes pour la publication d’open data. Une desquelles est :</p>",
-        "instruction": "<em>Choisissez votre réponse et puis cliquez sur ‘Soumettre’.</em>",
+        "body": "<p>Il y a trois exigences techniques à considérer lors de la publication d’open data. Une des exigences à considérer est...</p>",
+        "instruction": "<em>Choisissez votre réponse et puis cliquez sur ‘Valider’.</em>",
         "_items": [
             {
-                "text": "la forme sous laquelle l’open data est publié",
+                "text": " la forme sous laquelle les données ouvertes sont publiées",
                 "_shouldBeSelected": true
             },
             {
-                "text": "si on peut l’utiliser sur un ordinateur",
+                "text": " la possibilité d’utilisation sur ordinateur",
                 "_shouldBeSelected": false
             },
             {
-                "text": "la quantité de la bande passante qu’elle exige.",
+                "text": "la quantité de bande passante nécessaire.",
                 "_shouldBeSelected": false
             }
         ],
@@ -431,7 +431,7 @@
           }
         },
         "_buttons":{
-            "submit":"Soumettre",
+            "submit":"Valider",
             "reset":"",
             "showCorrectAnswer":"",
             "hideCorrectAnswer":""
@@ -471,15 +471,15 @@
         "_selectable":1,
         "title": "Marques de qualité",
         "displayTitle": "Marques de qualité",
-        "body": "<p>L’Open Data Institute recommande l’utilisation de sa propre marque de qualite, appelée :</p>",
-        "instruction": "<em>Choisissez votre réponse et puis cliquez sur ‘Soumettre’.</em>",
+        "body": "<p>L’Open Data Institute recommande l’utilisation de sa propre marque de qualité, intitulée...</p>",
+        "instruction": "<em>Choisissez votre réponse et puis cliquez sur ‘Valider’.</em>",
         "_items": [
             {
-                "text": "la grande coche verte de l’ODI.",
+                "text": "le feu vert ODI",
                 "_shouldBeSelected": false
             },
             {
-                "text": "l’approbation de l’ODI.",
+                "text": "l’approbation ODI.",
                 "_shouldBeSelected": false
             },
             {
@@ -499,7 +499,7 @@
           }
         },
         "_buttons":{
-            "submit":"Soumettre",
+            "submit":"Valider",
             "reset":"",
             "showCorrectAnswer":"",
             "hideCorrectAnswer":""
@@ -533,9 +533,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Les normes + les marques = l’open data de qualité",
+        "title":"Les normes + les marques = de l’open data de qualité",
         "displayTitle":"Les normes + les marques = l’open data de qualité",
-        "body":"<p>L’open data devient ‘utilisable’ quand une personne peut le comprendre et une machine peut le manipuler.</p><p>Toute les deux ont besoin de l’autorisation d’éditeur, accordée par une licence ouverte. Cependant, sans autres facteurs, une licence ouverte ne suffit pas à garantit l’utilité des données. Le simple fait de mettre les photos sur un site web sous une licence ouverte ne constitue pas l’open data.</p><p>Si les données ne sont pas utiles, il est peu probable que les gens puissent s’y engager d’une manière perspicace ou bénéfique.</p><p>Pendant le module prochain, on fera une comparaison des initiatives d’open data et recherchera les indicateurs clés de celles qui réussissent.</p>",
+        "body":"<p>L’open data devient utilisable lorsqu'un humain peut le comprendre et qu'une machine peut le manipuler.</p><p>TQuiconque -machine ou homme- utilise des données ouvertes doit d’abord en obtenir l’autorisation de la part de celui qui publie ces données, et cette autorisation est donnée sous forme de licence ouverte. Cependant, une licence ouverte seule ne suffit pas à garantir l’utilité des données. Le simple fait de publier un fichier sous licence ouverte sur le net ne constitue pas de l’open data.</p><p>Si les données ne sont pas utiles, il est peu probable que des utilisateurs puissent ou cherchent à les exploiter pleinement.</p><p>Le prochain module compare des initiatives d’open data et analyse les indicateurs de performance de celles qui réussissent.</p>",ß
         "_pageLevelProgress": {
           "_isEnabled": true
         }
