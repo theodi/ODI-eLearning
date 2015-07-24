@@ -1,0 +1,436 @@
+[
+    {
+        "_id":"c-01",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"intro-logo",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "",
+            "medium": "",
+            "small": "",
+            "*source":"",
+            "*credit":"",
+            "*license":""
+        }
+    },
+    {
+        "_id":"c-02",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"À quel point mes données sont-elles utilisables?",
+        "displayTitle":"À quel point mes données sont-elles utilisables?",
+        "body":"<p>Évaluer l’utilité et l’exploitabilité de l’open data dépend du domaine et du contenu. Pour faciliter ce processus, il existe un certain nombre de directives de pratiques optimales qu’il est recommandé d’appliquer, que l’on publie ou que l’on utilise les données.</p><p>Au cours de ce module, nous étudierons les 5 étoiles des ‘Données Ouvertes et Liées’ (en anglais: LOD ou ‘Linked Open Data’, terme généralement utilisé même en français) et tenterons d’expliquer comment les utiliser pour mesurer la facilité d’utilisation technique des données.</p><h5>Dans ce module, nous allons explorer les points suivants :</h5><ul class='ticks'><li>Quelles sont les cinq étoiles du ‘Linked Open Data’</li><li>Les trois premières étoiles</li><li>Comment reconnaître les étoiles dans les données</li></ul>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-11",
+        "_parentId":"b-10",
+        "_type":"component",
+        "_component":"iFrame-vimeo",
+        "_classes":"",
+        "_layout":"full",
+        "title":"Évaluer l’utilité des données - en 2 minutes.",
+        "displayTitle": "Évaluer l’utilité des données - en 2 minutes.",
+        "body": "David Tarrant, formateur à l’ODI, présente les 5 étoiles de l’open data comme un outil d’évaluation et nous aide à comprendre quand et comment les utiliser.",
+        "instruction": "",
+        "_setCompletionOn":"ended",
+        "_source": "https://player.vimeo.com/video/129197206",
+        "_width": {
+            "_small" : 300,
+            "_medium" : 500,
+            "_large" : 905
+        },
+        "_height": {
+            "_small" : 250,
+            "_medium" : 350,
+            "_large" : 508
+        }
+    },
+    {
+        "_id":"c-21",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "5 stars of open data",
+            "title": "5 stars of open data",
+            "large": "course/fr/images/odi-001.jpg",
+            "medium": "course/fr/images/odi-001.jpg",
+            "small": "course/fr/images/odi-001.jpg",
+            "*source": "http://www.shutterstock.com/pic.mhtml?id=171677003&src=lb-36497927",
+            "*credit": "vs148",
+            "*licence": "Shutterstock open licence"
+        }
+    },
+    {
+        "_id":"c-22",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"right",
+        "title":"Les 5 étoiles de l’open data",
+        "displayTitle":"Les 5 étoiles de l’open data",
+        "body":"<p>Les directives des 5 étoiles du Linked Open Data permettent de mesurer l’intégration des données sur le Web.</p><p>Elles examinent l’accessibilité et la facilité d’utilisation technique d’une série de données, allant de 1 étoile (disponibilité en ligne) à 5 étoiles (appartenance à un web des données). Les étoiles sont attribuées de manière séquentielle; on ne peut pas attribuer une étoile supérieure si les exigences de la précédente ne sont pas satisfaites.</p><p>Ces recommandations ont été développées par Sir Tim Berners-Lee en 2001 et ont depuis été adoptées par ceux qui publient de l’open data à travers le monde, guidant de nombreuses initiatives d’open data comme celles de l’Agence Numérique d’Italie.<br /><a href='http://spcdata.digitpa.gov.it/data.html' target='_blank'>Lien vers l’Agence  d’Italie numérique</a></p><p>Ce module se concentre sur les 3 premières étoiles, qui sont adaptées aux données tabulaires et transactionnelles. Nous étudierons les 2 dernières étoiles en détail dans le module 13.</p>"
+    },
+    {
+        "_id":"c-30",
+        "_parentId":"b-30",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "The first 3 stars",
+            "title": "The first 3 stars",
+            "large": "course/fr/images/odi-002.jpg",
+            "medium": "course/fr/images/odi-002.jpg",
+            "small": "course/fr/images/odi-002.jpg",
+            "*source": "http://www.shutterstock.com/pic.mhtml?id=188328170&src=lb-36497927",
+            "*credit": "vs148",
+            "*licence": "Shutterstock open licence"
+        }
+    },
+    {
+      "_id":"c-35",
+      "_parentId":"b-30",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"left",
+      "title": "Les 3 premières étoiles",
+      "displayTitle": "Les 3 premières étoiles",
+      "body": "<p>Les 3 premières étoiles de l’open data vous permettent d’établir si oui ou non les données sont utilisables.</p>",
+      "instruction": "<em>Cliquez sur les titres pour plus de détail.</em>",
+      "_items": [
+        {
+          "alt": "1 étoile - une licence ouverte",
+          "title": "1 étoile - une licence ouverte",
+          "body": "<p>La première étoile est octroyée à toutes données que l’on peut qualifier d’ouvertes, c’est-à-dire celles dont le contenu est disponible sous licence ouverte et ce sous n’importe quelle forme.</p><p>Indépendamment de la qualité d’un ensemble de données, celles-ci ne peuvent pas bénéficier de la première étoile si elles ne sont pas disponibles sous licence ouverte.</p><p>Un fichier PDF disponible sur un site Web sous licence ouverte remplit les conditions nécessaires pour obtenir la première étoile.</p>"
+        },
+        {
+          "alt": "2 étoiles - une forme réutilisable",
+          "title": "2 étoiles - une forme réutilisable",
+          "body": "<p>La deuxième étoile est octroyée aux données réutilisables facilement. Les directives stipulent que les données doivent être disponible sous ‘un format largement réutilisable et structuré,’ lisible par une machine et compréhensible par l’humain.</p><p>La clé pour atteindre les 2 étoiles est de sélectionner le format le plus réutilisable. Dans certains cas, il se peut que le format le plus réutilisable soit un format propriétaire ou fermé, comme c’est le cas pour un fichier Excel ou Numbers.</p><p>Il est préférable de rendre ses données disponibles sous n’importe quel format, quel qu’il soit, plutôt que de ne pas les rendre disponible.</p>"
+        },
+        {
+          "alt": "3 étoiles - une forme ouverte",
+          "title": "3 étoiles - une forme ouverte",
+          "body": "<p>Les directives pour la troisième étoile de l’open data stipulent que les données doivent être disponibles sous un format structuré et lisible par une machine qui n’est pas limité à un pack logiciel en particulier.</p><p>Un exemple d’un ensemble de données auquel on accorderait 3 étoiles serait un fichier CSV avec une licence ouverte appropriée.</p><p>L’entreprise d’énergie italienne Enel présente un bon exemple d’une série de données 3 étoiles qui affiche clairement son classement et le nombre d’étoiles octroyées.<br /><a href='http://data.enel.com/node/4679' target='_blank'>Lien vers la série de données de 3 étoiles d’Enel</a></p>"
+        }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+   {
+        "_id": "c-45",
+        "_parentId": "b-40",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Exploiter l’utilité de l’open data",
+        "displayTitle": "Exploiter l’utilité de l’open data",
+        "body": "Chaque étoile acquise représente une exploitabilité améliorée de l’ensemble de données. Utilisez la liste ci-dessous afin d’évaluer combien d’étoiles accorder à un ensemble de données.",
+        "instruction": "<em class='desktop-instruction'>Cliquez sur la flèche pour plus de détail.</em><em class='mobile-instruction'>Cliquez sur la flèche pour plus de détail.</em>",
+        "_items": [
+            {
+                "title": "Étoile 1er - vérifier la licence ",
+                "body": "<p>Trouver la licence pour un ensemble de données ouvertes peut se révéler l’une des étapes les plus difficiles. Consultez les endroits suivants.</p><p>Une licence ouverte autorise explicitement l’utilisation des données à des fins commerciales ainsi que non-commerciales.</p><p>Essayez de la retrouver dans les rubriques suivantes :</p><ul class=ticks><li>Les métadonnées</li><li>Les conditions générales du site ou de la page Web</li><li>Cliquez sur le fichier de données, il y a peut-être une fenêtre popup</li><li>Regardez dans le fichier lui-même</li></ol><p>Comme chaque site Web a une approche différente en ce qui concerne l’affichage des informations relatives à la licence, il se peut que vous mettiez un certain temps avant de trouver l’information requise.</p>",
+                "_graphic": {
+                    "src": "course/fr/images/odi-003.jpg",
+                    "alt": "Star 1 - Checking the license",
+                    "title": "Star 1 - Checking the license",
+                    "*source": "http://www.shutterstock.com/pic.mhtml?id=148686812&src=lb-36497927",
+                    "*credit": "vs148",
+                    "*licence": "Shutterstock open licence"
+                },
+                "strapline": "Providing certainty"
+            },
+            {
+                "title": "Étoile 2eme - vérifier l’utilité",
+                "body": "<p>Quand vous trouvez de l’open data sur le Web, il y a plusieurs manières d’en évaluer l’utilité. Considérez les questions suivantes :<ul class='ticks'><li>Pensez-vous que le format sous lequel les données sont publiées soit le plus facile à utiliser ?</li><li> Le fichier est-il identique à celui utilisé par ceux qui publient les données ?</li><li>Y a-t-il des informations supplémentaires ajoutées par un humain ?</li></ul></p>",
+                "_graphic": {
+                    "src": "course/fr/images/odi-004.jpg",
+                    "alt": "Star 2 - checking usability",
+                    "title": "Star 2 - checking usability",
+                    "*source": "http://www.shutterstock.com/pic.mhtml?id=144334663&src=lb-36497927",
+                    "*credit": "vs148",
+                    "*licence": "Shutterstock open licence"
+                },
+                "strapline": "Providing clarity"
+            },
+            {
+                "title": "Étoile 3eme - vérifier l’ouverture",
+                "body": "<pLes formats ouverts sont parfois plus difficiles à évaluer. Les questions suivantes vous aideront à identifier si les données sont publiées sous licence ouverte.<ul class='ticks'><li>Le fichier conserve-t-il sa fonctionnalité complète quel que soit le programme utilisé pour l’ouvrir ?</li><li>Lorsqu’on vérifie le format du fichier (par exemple CSV) en ligne, apprend-on qu’il est nécessaire de télécharger un programme spécifique pour l’ouvrir ?</li></ul></p><p>Le format CSV est le format ouvert le plus populaire et il est facile à identifier. Le format CSV remplit les conditions pour obtenir 3 étoiles tant que les conditions relatives aux deux étoiles précédentes sont remplies. Le portail d’open data bulgare montre de bons exemples de séries de données en format CSV 3 étoiles, où la licence et le format de fichier sont clairement indiqués.</p><br /><a href='https://opendata.government.bg/dataset/tsentralen-registar-na-yuridicheskite-litsa' target='_blank'>Lien vers le portal d’open data bulgare</a><p>Beaucoup de portails d’open data publient aussi des fichiers sous le format ‘Open Document Format’ (ODF). Bien que leur nom suggère que ces fichiers soient parfaitement ouverts, ils donnent lieu à une certaine confusion lorsque l’on tente de nommer l'outil qui peut ouvrir ces fichiers.</p>",
+                "_graphic": {
+                    "src": "course/fr/images/odi-005.jpg",
+                    "alt": "Star 3 - checking openness",
+                    "title": "Star 3 - checking openness",
+                    "*source": "http://www.shutterstock.com/pic.mhtml?id=142601674&src=lb-36497927",
+                    "*credit": "vs148",
+                    "*licence": "Shutterstock open licence"
+                },
+                "strapline": "Enabling innovation"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-52",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/fr/images/burst.png",
+            "medium": "course/fr/images/burst.png",
+            "small": "course/fr/images/burst.png"
+        }
+    },
+    {
+        "_id":"c-53",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Êtes-vous prêt(e) à évaluer l’ouverture des données ?",
+        "displayTitle":"Êtes-vous prêt(e) à évaluer l’ouverture des données ?",
+        "body":"<p>Il y a trois choses simples à prendre en compte lorsque l’on évalue à quel point des données sont ouvertes. Vous en souvenez-vous ?</p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-65",
+        "_parentId":"b-60",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "5 stars of open data",
+            "title": "",
+            "large": "course/fr/images/odi-006.jpg",
+            "medium": "course/fr/images/odi-006.jpg",
+            "small": "course/fr/images/odi-006.jpg",
+            "*source": "http://www.shutterstock.com/pic.mhtml?id=171677003&src=lb-36497927",
+            "*credit": "vs148",
+            "*licence": "Shutterstock open licence"
+        }
+    },
+    
+    {
+        "_id":"c-60",
+        "_parentId":"b-60",
+        "_type":"component",
+        "_component":"mcq",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Comment évaluer le caractère ouvert d’un ensemble de données grâce aux 5 étoiles ?",
+        "displayTitle": "Comment évaluer le caractère ouvert d’un ensemble de données grâce aux 5 étoiles ?",
+        "body": "<p>Comment procéderiez-vous pour évaluer le caractère ouvert d’un ensemble de données que vous auriez trouvées en ligne ?</p>",
+        "instruction": "<em>Choisissez votre réponse et puis cliquez sur ‘Valider’.</em>",
+        "_items": [
+            {
+                "text": "En regardant les critères de chaque étoile individuellement et en attribuant l’étoile la plus élevée atteinte par l’ensemble de données.",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "En commençant par les critères de la première étoile et en évaluant de manière séquentielle selon chaque étoile.",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "En tentant de deviner",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Vous avez raison !</h5><p>Chaque étoile est attribuée de manière séquentielle; on ne peut pas attribuer une étoile supérieure si les exigences de la précédente ne sont pas satisfaites.</p>",
+            "_incorrect": {
+                "notFinal": "h5>Êtes vous sûr(e) ?</h5><p>Chaque étoile est attribuée de manière séquentielle; on ne peut pas attribuer une étoile supérieure si les exigences de la précédente ne sont pas satisfaites.</p>",
+                "final": "<h5>Êtes vous sûr(e) ?</h5><p>Chaque étoile est attribuée de manière séquentielle; on ne peut pas attribuer une étoile supérieure si les exigences de la précédente ne sont pas satisfaites.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Êtes vous sûr(e) ?</h5><p>On gagne chaque étoile d’une manière séquentielle sans la possibilité de les enlever. </p>",
+                "final": "<h5>Êtes vous sûr(e) ?</h5><p>On gagne chaque étoile d’une manière séquentielle sans la possibilité de les enlever. </p>"
+          }
+        },
+        "_buttons":{
+            "submit":"Valider",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-70",
+        "_parentId":"b-70",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Star 2 - checking usability",
+            "title": "",
+            "large": "course/fr/images/odi-007.jpg",
+            "medium": "course/fr/images/odi-007.jpg",
+            "small": "course/fr/images/odi-007.jpg",
+            "*source": "http://www.shutterstock.com/pic.mhtml?id=144334663&src=lb-36497927",
+            "*credit": "vs148",
+            "*licence": "Shutterstock open licence"
+        }
+    },
+    {
+        "_id":"c-71",
+        "_parentId":"b-70",
+        "_type":"component",
+        "_component":"mcq",
+        "_classes":"",
+        "_layout":"right",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Que représente la deuxième étoile ?",
+        "displayTitle": "Que représente la deuxième étoile ?",
+        "body": "<p>La deuxième étoile est octroyée pour...</p>",
+        "instruction": "<em>Choisissez votre réponse et puis cliquez sur ‘Valider’.</em>",
+        "_items": [
+            {
+                "text": "Une licence ouverte",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Une forme ouverte",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Une forme réutilisable",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Vous avez raison !</h5><p>La deuxième étoile est accordée en fonction de la facilité à réutiliser des données et recommande que les données soient disponibles sous le format le plus réutilisable qui soit, même s’il s’agit d’un format propriétaire.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Êtes vous sûr(e) ?</h5><p>La deuxième étoile est accordée en fonction de la facilité à réutiliser des données et recommande que les données soient disponibles sous le format le plus réutilisable qui soit, même s’il s’agit d’un format propriétaire.</p>",
+                "final": "<h5>Êtes vous sûr(e) ?</h5><p>La deuxième étoile est accordée en fonction de la facilité à réutiliser des données et recommande que les données soient disponibles sous le format le plus réutilisable qui soit, même s’il s’agit d’un format propriétaire.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Êtes vous sûr(e) ?</h5><p>La deuxième étoile traite de la réutilité des données et recommande que les données soient disponibles sous la forme la plus réutilisable même si la forme n’est pas ouverte ou propriétaire.</p>",
+                "final": "<h5>Êtes vous sûr(e) ?</h5><p>La deuxième étoile traite de la réutilité des données et recommande que les données soient disponibles sous la forme la plus réutilisable même si la forme n’est pas ouverte ou propriétaire.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"Valider",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-115",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Summary icon clipboard",
+            "title": "Summary icon clipboard",
+            "large": "course/fr/images/summary-icon.png",
+            "medium": "course/fr/images/summary-icon.png",
+            "small": "course/fr/images/summary-icon.png",
+            "*source": "http://www.shutterstock.com/pic-189810137.html",
+            "*credit": "Kritchanut",
+            "*licence": "Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-110",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Évaluer l’open data",
+        "displayTitle":"Évaluer l’open data",
+        "body":"<p>Évaluer l’utilité et l’exploitabilité de l’open data dépend du domaine et du contenu. Pour faciliter ce processus, il existe un certain nombre de directives de pratiques optimales qu’il est recommandé d’appliquer, que l’on publie ou que l’on utilise les données.</p><p>Les directives des cinq étoiles pour le Linked Open Data permettent de mesurer l’intégration des données sur le Web. Les étoiles sont attribuées de manière séquentielle et aucune étoile ne peut être sautée ou omise.<h5>Lors de ce module, nous avons étudié les trois premières étoiles :</h5><ul class='ticks'><li>La licence ouverte</li><li>La forme réutilisable</li><li>La forme ouverte</li></ul><p>Référez-vous au module 13 pour plus de détails sur les deux dernières étoiles.</p>",
+        "_pageLevelProgress": {
+          "_isEnabled": true
+        }
+    },
+    {
+       "_id":"c-111",
+       "_parentId":"b-110",
+       "_type":"component",
+       "_component":"text",
+       "_classes":"separator",
+       "_layout":"full"
+    },
+    {
+        "_id":"c-112",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"footer-logo",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Open data institute logo",
+            "title": "Open data institute logo",
+            "large": "course/fr/images/logo-small.png",
+            "medium": "course/fr/images/logo-small.png",
+            "small": "course/fr/images/logo-small.png",
+            "*source": "http://theodi.org",
+            "*credit": "The Open Data Institute",
+            "*licence": "All rights reserved"
+        }
+    },
+    {
+        "_id":"c-113",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"social-buttons",
+        "_layout":"right",
+        "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/fr/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/fr/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/fr/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/fr/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/fr/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/fr/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/fr/images/social/flickr.png'></a>"
+    }
+]
