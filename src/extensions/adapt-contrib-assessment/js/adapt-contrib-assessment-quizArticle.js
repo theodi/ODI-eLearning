@@ -17,7 +17,9 @@ define(function(require) {
             // _questionWeight attribute
             return _.filter(childComponents.models, function(component) { 
                 if (component.get('_questionWeight')) {
-                    return component;
+                    	console.log("Found a hook");
+			console.log(component);
+			return component;
                 } 
             });
         },

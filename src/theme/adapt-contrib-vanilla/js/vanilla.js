@@ -1,7 +1,39 @@
 define(function(require) {
 	
 	var Adapt = require('coreJS/adapt');
-	
+
+	var RecordAnswers = Backbone.View.extend({
+		initialize: function() {
+	            this.listenTo(this.model, 'change:_isComplete', this.assessmentComplete);
+                    this.listenTo(Adapt, 'remove', this.removeAssessment);
+		    this.listenTo(Adapt, 'questionView:showFeedback', this.recordAnswers);
+	        },
+
+	        getQuestionComponents: function() {
+	            var childComponents = this.model.findDescendants('components');
+		    return _.filter(childComponents.models, function(component) {
+	                if (component.get('_questionWeight')) {
+				return component;
+	                }
+	            });
+		},
+
+		recordAnswers: function() {
+		    console.log("In here");
+	            _.each(this.getQuestionComponents(), function(component) {
+			console.log(component);
+			console.log("Complete: " + component.get('_isComplete'));
+			console.log("Correct: " + component.get('_isCorrect'));
+			console.log(component.get('_selectedItems'));
+		    });
+	        }
+	});
+
+	Adapt.on('articleView:postRender', function(view) {
+		console.log("Got a hook!");
+		new RecordAnswers({model:view.model});
+	});
+
 });
 
 var interval; 
