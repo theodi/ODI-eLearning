@@ -14,6 +14,10 @@ echo ""
 `rm -fR src/course/*`
 `cp -r tmp/$2 src/course/`
 `cp src/course/$2/config.json src/course/`
+echo "Updating control path"
+echo ""
+sed -i -e "s/en\/course\/en\/js\/control/$2\/course\/$2\/js\/control/g" src/index.html
+
 echo "Updating image path"
 echo ""
 sed -i -e "s/course\/en\/images/course\/$2\/images/g" src/theme/adapt-contrib-vanilla/less/header.less
@@ -26,6 +30,7 @@ echo "Restoring structure";
 `rm -fR src/course/*`
 `mv tmp/* src/course/`
 sed -i -e "s/course\/$2\/images/course\/en\/images/g" src/theme/adapt-contrib-vanilla/less/header.less
+sed -i -e "s/$2\/course\/$2\/js\/control/en\/course\/en\/js\/control/g" src/index.html
 
 echo "building scorm package"
 cd build
