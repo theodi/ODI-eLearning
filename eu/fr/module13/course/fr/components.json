@@ -1,0 +1,558 @@
+[
+    {
+        "_id":"c-01",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"intro-logo",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "",
+            "medium": "",
+            "small": "",
+            "*source":"",
+            "*credit":"",
+            "*license":""
+        }
+    },
+    {
+        "_id":"c-02",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Lier le Web des données",
+        "displayTitle":"Lier le Web des données",
+        "body":"<p>Le Web actuel est configuré comme une série de données ou ‘documents’. Alors que les documents puisent dans des sources riches en données, celles-ci sont masquées par une page destinée à être vue par des humains. Lors de ce module, nous verrons ce qui se passerait si l’on supprimait toutes les pages et les documents du Web.</p><p>Imaginez que vous n’avez que les données brutes, toutes ouvertes, toutes utilisables et toutes liées par un réseau ou ‘Web’ de données.</p><p>Ce module traite aussi du Web des données ouvertes et liées (‘ The Web of Linked Open Data’) et explique comment les 5 étoiles du ‘Linked Open Data’ (les données ouvertes et liées) donnent des consignes pour arriver à faire de cette vision une réalité.</p><h5>Dans ce module, nous allons explorer les points suivants :</h5><ul class='ticks'><li>Qu’est-ce que le Web des données ?</li><li>Comment utiliser les identifiants du Web</li><li>Ce à quoi ressemble un Web de données ouvertes et liées.</li></ul>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+    "_id":"c-11",
+    "_parentId":"b-10",
+    "_type":"component",
+    "_component":"iFrame-vimeo",
+    "_classes":"",
+    "_layout":"full",
+        "title":"Naviguer le Web des données - en 2 minutes",
+        "displayTitle": "Naviguer le Web des données - en 2 minutes",
+        "body": "David Tarrant, formateur à l’ODI, présente le Web des données ouvertes et liées et examine comment les 5 étoiles du ‘Linked Open Data’ vous aident à naviguer le Web des données.",
+        "instruction": "",
+        "_setCompletionOn":"ended",
+        "_source": "https://player.vimeo.com/video/129197209",
+        "_width": {
+            "_small" : 300,
+            "_medium" : 500,
+            "_large" : 905
+        },
+        "_height": {
+            "_small" : 250,
+            "_medium" : 350,
+            "_large" : 508
+        }
+    },
+    {
+        "_id": "c-20",
+        "_parentId": "b-20",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Comprendre le Web des données",
+        "displayTitle": "Comprendre le Web des données",
+        "body": "Le Web des données ouvertes et liées change notre façon de parcourir et naviguer l’open data.",
+        "instruction": "<em class='desktop-instruction'>Cliquez sur la flèche pour plus de détails.</em><em class='mobile-instruction'>Cliquez sur la flèche pour plus de détails.</em>",
+        "_items": [
+            {
+                "title": "Qu’est-ce que le Web des données ?",
+                "body": "<p>Le Web actuel est configuré comme une série de données ou ‘documents’. Ces documents sont crées par des humains avec une volonté de les rendre esthétiques pour que d’autres humains puissent les lire et en retirer de l’information.</p><p>Il y a une différence entre les données ‘sur le Web’ et le ‘Web des données’.</p><p>Les données ‘sur le Web’ sont des fichiers téléchargeables d’une page Web. Le ‘Web des données’ est une série de ressources de données étroitement liées immédiatement lisibles et compréhensibles par l’humain ou la machine.</p>",
+                "_graphic": {
+                    "src": "course/fr/images/odi-001.jpg",
+                    "alt": "Providing certainty",
+                    "title": "What os the web of data?",
+                    "*source":"http://www.shutterstock.com/pic-137240846",
+                    "*credit":"Anna Frajtova",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Data"
+            },
+            {
+                "title": "Lier le Web des données",
+                "body": "<p>Imaginez que les documents esthétiques soient tous supprimés du Web. Comment vous y retrouveriez-vous ?</p><p>Pour naviguer, il vous faut des panneaux vous indiquant votre emplacement actuel par rapport à vos alentours.</p><p>Le ‘Web des données ouvertes et liées’ fournit ces panneaux indicateurs en exigeant que toute donnée soit connectée à d’autres données via des liens. Les liens permettent aux humains ainsi qu’aux machines de naviguer entre les points de données.</p>",
+                "_graphic": {
+                    "src": "course/fr/images/odi-002.jpg",
+                    "alt": "Linking up the web of data",
+                    "title": "Linking up the web of data",
+                    "*source":"http://www.shutterstock.com/pic-221630044",
+                    "*credit":"Monash",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Information"
+            },
+            {
+                "title": "Un Web de données ouvertes et liées, pour quoi faire ?",
+                "body": "<p>Le Web des données est déjà une réalité dans certaines parties du Web.</p><p>De grandes corporations telles que Microsoft ont déjà lancé des recherches sur des outils qui nous permettraient de naviguer le Web de manière complétement différente, en utilisant des données au lieu de pages Web pour se déplacer.<br /><a href='http://www.ted.com/talks/gary_flake_is_pivot_a_turning_point_for_web_exploration?language=en' target='_blank'>Take me to Microsoft Pivot talk</a></p>",
+                "_graphic": {
+                    "src": "course/fr/images/odi-003.jpg",
+                    "alt": "What can LOD do?",
+                    "title": "What can LOD do?",
+                    "*source":"http://www.shutterstock.com/pic-230811505",
+                    "*credit":"Sentavio",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Knowledge"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-25",
+        "_parentId":"b-25",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Stars",
+            "title": "Stars",
+            "large": "course/fr/images/odi-004.jpg",
+            "medium": "course/fr/images/odi-004.jpg",
+            "small": "course/fr/images/odi-004.jpg",
+            "*source":"http://www.shutterstock.com/pic-109300883",
+            "*credit":"Kletr",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-26",
+        "_parentId":"b-25",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Construire un Web des données",
+        "displayTitle":"Construire un Web des données",
+        "body":"<p>Afin de construire un Web des données ouvertes et liées, deux éléments sont nécessaires :</p><ul class='ticks'><li>Des données que l’on peut référencer sur le Web</li><li>Des gens qui fournissent des liens vers ces données à partir de leurs propres données.</li></ul><p>Ce sont les deux conditions nécessaires pour satisfaire les exigences des 4ème et 5ème étoiles du ‘Linked Open Data’.</p>"
+    },
+    {
+        "_id":"c-30",
+        "_parentId":"b-28",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "4th Star",
+            "title": "4th Star",
+            "large": "course/fr/images/odi-005.jpg",
+            "medium": "course/fr/images/odi-005.jpg",
+            "small": "course/fr/images/odi-005.jpg",
+            "*source":"http://www.shutterstock.com/pic.mhtml?id=180739841&src=lb-36497927",
+            "*credit":"Tarchyshnik Andrei",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+      "_id":"c-35",
+      "_parentId":"b-28",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"left",
+      "title": "4ème étoile : identifiants ouverts",
+      "displayTitle": "4ème étoile : identifiants ouverts",
+      "body": "<p>La 4ème étoile traite de la capacité à référencer les choses sur le Web.</p>",
+      "instruction": "",
+      "_items": [
+        {
+          "alt": "Les identifiants ouverts",
+          "title": "Les identifiants ouverts",
+          "body": "<p>Un identifiant est une façon simple et rapide de référencer quelque chose de plus complexe.</p><p>Les codes ISBN pour les livres ou les codes postaux pour les lieux en sont des exemples courants.</p><p>Cependant, il y a beaucoup d'autres identifiants utilisés par les secteurs public et privé.</p><p>La difficulté de nombreux identifiants est qu'il n’est pas toujours évident de savoir à quoi le nombre se réfère. La plupart des gens comptent donc sur les moteurs de recherche pour leur en dire plus quant à ces identifiants. Les identifiants basés sur le Web ne posent pas ce problème car on peut tout simplement cliquer sur l'identifiant pour en savoir plus.</p><p>Prenons l’exemple du numéro ISBN d'un livre spécifique qui serait 9781568848624. Pour trouver le livre en utilisant cet ISBN, vous devez taper ce code dans un moteur de recherche pour savoir à quoi l’identifiant fait référence avant de trouver la ressource. En revanche, un identifiant pour ce même livre basé sur le Web vous dira immédiatement qu’il s’agit d’un livre et quel en est le titre, ce qui vous permet de le suivre directement à partir de n’importe quel navigateur Web.<br /><a href='http://bookshop.blackwell.co.uk/jsp/id/Netscape_and_the_World_Wide_Web_For_Dummies/9781568848624' target='_blank'>http://bookshop.blackwell.co.uk/jsp/id/Netscape_and_the_World_Wide_Web_For_Dummies/9781568848624</a></p>"
+        },
+        {
+          "alt": "Utiliser la 4ème étoile",
+          "title": "Utiliser la 4ème étoile",
+          "body": "<p>La 4ème étoile demande que l’on crée ou que l’on utilise des identifiants pour toute chose physique ou numérique.</p><p>L’identifiant est pour la chose physique elle-même. Un ISBN fait référence au livre physique, mais nécessite un contexte pour permettre à l’utilisateur de localiser l'objet qui l’utilise. Un identifiant pour un livre basé sur le Web fait également référence au livre et non pas à une page Web au sujet du livre, mais il ajoute le contexte nécessaire pour que les humains et les machines puissent l’utiliser sans assistance supplémentaire.</p><p>L'identifiant basé sur le Web donne aussi aux machines le contexte nécessaire afin de comprendre l'identifiant. Imaginez une imprimante 3D. En utilisant un identifiant basé sur le Web, une imprimante 3D pourrait théoriquement obtenir toutes les données nécessaires à l’impression de l’objet physique.</p>"
+        },
+        {
+          "alt": "L’open data de la 4ème étoile",
+          "title": "L’open data de la 4ème étoile",
+          "body": "<p>La 4ème étoile exige aussi que si un utilisateur clique sur un lien qui ne peut pas lui apporter la chose exacte (un livre, un objet, une personne ou un bâtiment par exemple), il reçoive de l’information contextuelle au sujet de cette chose.</p><p>Ce qui arrive souvent est que le client (humain ou machine) est redirigé vers une représentation appropriée de l’objet. Il peut s’agir d’une page Web, ou encore de données brutes sur cette page Web.</p>"
+        },
+        {
+          "alt": "À vous !",
+          "title": "À vous !",
+          "body": "<p>Certains identifiants basés sur le Web sont <a href='http://www.w3.org/TR/cooluris/' target='_blank'>cool.</a></p><p> Une URI ‘cool’ indique au lecteur ce à quoi l’identifiant fait référence grâce au texte de l’URL. Essayez de deviner à quel identifiant le lien ci-dessous fait référence :<br><br><a href='http://data.ordnancesurvey.co.uk/id/postcodeunit/SO171BJ' target='_blank'>http://data.ordnancesurvey.co.uk/id/postcodeunit/SO171BJ</a><br><br>Notez qu'une fois chargée, l’adresse de la page est différente de l'exemple ci-dessus.</p><p>L’exemple du lien ci-dessus envoie une demande au serveur pour un objet physique. Pour satisfaire cette demande, le serveur a renvoyé une page Web sur l’objet physique (comme il ne pouvait pas vous envoyer l’objet lui-même).</p><p>Votre navigateur s’est soumis à un processus appelé ‘négociation de contenu avec le serveur’ : ce que vous obtenez est ce qui se rapproche le plus de ce que le serveur devait vous donner - dans ce cas il s’agit de données au sujet de l’objet sous une forme spécifique au Web. Si un autre format correspond mieux à vos besoins, vous pouvez utiliser des extensions pour poursuivre la négociation de contenu avec le serveur.</p><p>Pourquoi ne pas tenter de négocier du contenu avec le lien vers Ordnance Survey ci-dessus en ajoutant des extensions comme '.json' et '.xml' à la fin de l'URL?</p>"
+        }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+         {
+        "_id":"c-37",
+        "_parentId":"b-30",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "5th Star",
+            "title": "5th Star",
+            "large": "course/fr/images/odi-006.jpg",
+            "medium": "course/fr/images/odi-006.jpg",
+            "small": "course/fr/images/odi-006.jpg",
+            "*source":"http://www.shutterstock.com/pic-245326720",
+            "*credit":"Omelchenko",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+      "_id":"c-38",
+      "_parentId":"b-30",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"left",
+      "title": "5ème étoile : ‘Linked Data’ (données liées)",
+      "displayTitle": "5ème étoile : ‘Linked Data’ (données liées)",
+      "body": "<p>Ici, il s’agit de lier des points individuels de données entre eux.</p>",
+      "instruction": "",
+      "_items": [
+        {
+          "alt": "Le lien",
+          "title": "Le lien",
+          "body": "<p>La 5ème étoile introduit le concept de lier des points de données entre eux (le concept du Web de données).</p><p>Ces liens permettent aux humains et aux machines de naviguer entre les sources de données sur le Web.</p><p>Le fait de lier des points de données directement les uns aux autres permet de diriger la personne ou la machine vers la bonne information au sujet de la donnée, alors que sinon chacun est responsable de la maintenance de ses propres information sur ces données. Le Web des données fonctionne comme un site officiel, en donnant à tous l’accès à une ressource faisant autorité sur le sujet. Le Web des données permet d’éviter de répéter des données vu qu’on partage une seule ressource parmi un nombre infini de séries de données grâce à des URIs.</p>"
+        },
+        {
+          "alt": "Utiliser la 5ème étoile",
+          "title": "Utiliser la 5ème étoile",
+          "body": "<p>Exemple - Un jeu de données sur tous les bâtiments d’une entreprise utilisera souvent un code postal pour chaque bâtiment de son bloc de données:<br>Le nom du bâtiment : EEE Building<br>Le numéro du bâtiment : 32<br>Le code postal du bâtiment : SO17 1BJ<br><br>Ajoutez du Web des données :<br><br>Le nom du bâtiment : EEE Building<br>Le numéro du bâtiment : 32<br>Le code postal du bâtiment :<a href='http://data.ordnancesurvey.co.uk/id/postcodeunit/SO171BJ' target='_blank'>http://data.ordnancesurvey.co.uk/id/postcodeunit/SO171BJ</a></p>"
+        },
+        {
+          "alt": "Essayez d’utiliser la 5ème étoile",
+          "title": "Essayez d’utiliser la 5ème étoile",
+          "body": "<p>Vous aurez peut-être constaté certains liens entre les données explorées jusqu’à présent dans ce module.</p><p>Essayez de charger le lien utilisé plus haut :<br><br><a href='http://data.ordnancesurvey.co.uk/id/postcodeunit/SO171BJ' target='_blank'>http://data.ordnancesurvey.co.uk/id/postcodeunit/SO171BJ</a><br><br>Maintenant, chargez ce même lien dans un navigateur de données :<br><br><a href='http://graphite.ecs.soton.ac.uk/browser/' target='_blank'>Lien vers Graphile linked data browser</a><br><br>Le navigateur de données fait automatiquement une négociation de contenu des données (pas de contenu de page Web) et affiche les données brutes sous un format lisible par l’humain.</p><p>Tout texte en rouge dans le navigateur est un lien dans les données, qui devrait mener vers plus de données.</p><p>Utilisez l'URL suivante pour voir ce que vous pouvez découvrir au sein du Web des données ouvertes et liées.</p><p><a href='http://www.bbc.co.uk/programmes/b006q2x0' target='_blank'>http://www.bbc.co.uk/programmes/b006q2x0</a>"
+        }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-42",
+        "_parentId":"b-33",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/fr/images/burst.png",
+            "medium": "course/fr/images/burst.png",
+            "small": "course/fr/images/burst.png"
+        }
+    },
+    {
+        "_id":"c-43",
+        "_parentId":"b-33",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Êtes-vous prêt(e) à surfer le Web des données ?",
+        "displayTitle":"Êtes-vous prêt(e) à surfer le Web des données ?",
+        "body":"<p>Il y a quatre éléments utiles à prendre en compte lorsqu’on surfe le Web des données ouvertes et liées. Saurez-vous vous en souvenir ?</p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-45",
+        "_parentId":"b-35",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Stars",
+            "title": "",
+            "large": "course/fr/images/odi-007.jpg",
+            "medium": "course/fr/images/odi-007.jpg",
+            "small": "course/fr/images/odi-007.jpg",
+            "*source":"http://www.shutterstock.com/pic-109300883",
+            "*credit":"Kletr",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-50",
+        "_parentId":"b-35",
+        "_type":"component",
+        "_component":"mcq",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Qu’est-ce que le Web des données ?",
+        "displayTitle": "Qu’est-ce que le Web des données ?",
+        "body": "<p>Le Web des données, c’est...</p>",
+        "instruction": "<em>Choisissez votre réponse puis cliquez sur ‘Valider’.</em>",
+        "_items": [
+            {
+                "text": "une série de ressources de données interconnectées dans le Web.",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "un Web de portails de données où on peut télécharger des données.",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "un nouveau réseau social.",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Vouz avez raison!</h5><p>Le Web des données est une série de ressources de données interconnectées immédiatement lisibles et compréhensibles par les humains ou les machines.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Êtes vous sûr(e) ? </h5><p>Le Web des données est une série de ressources de données interconnectées immédiatement lisibles et compréhensibles par les humains ou les machines.</p>",
+                "final": "<h5>Êtes vous sûr(e) ? </h5><p>Le Web des données est une série de ressources de données interconnectées immédiatement lisibles et compréhensibles par les humains ou les machines.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          }
+        },
+        "_buttons":{
+            "submit":"Valider",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-55",
+        "_parentId":"b-40",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "4th Star",
+            "title": "",
+            "large": "course/fr/images/odi-008.jpg",
+            "medium": "course/fr/images/odi-008.jpg",
+            "small": "course/fr/images/odi-008.jpg",
+            "*source":"http://www.shutterstock.com/pic.mhtml?id=180739841&src=lb-36497927",
+            "*credit":"Tarchyshnik Andrei",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-60",
+        "_parentId":"b-40",
+        "_type":"component",
+        "_component":"mcq",
+        "_classes":"",
+        "_layout":"right",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Qu’identifie le lien suivant?",
+        "displayTitle": "Qu’identifie le lien suivant?",
+        "body": "<p><a href='http://bookshop.blackwell.co.uk/jsp/id/1984/9781849432269' target='_blank'>http://bookshop.blackwell.co.uk/jsp/id/1984/9781849432269</a></p>",
+        "instruction": "<em>Choisissez votre réponse puis cliquez sur ‘Valider’.</em>",
+        "_items": [
+            {
+                "text": "Une page Web",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Le date 1984",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Le livre 1984",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Vouz avez raison!</h5><p>Rappelez-vous qu’un identifiant basé sur le Web indique la chose physique, et non pas la page Web où elle se trouve.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Êtes vous sûr(e) ? </h5><p>Rappelez-vous qu’un identifiant basé sur le Web indique la chose physique, et non pas la page Web où elle se trouve.</p>",
+                "final": "<h5>Êtes vous sûr(e) ? </h5><p>Rappelez-vous qu’un identifiant basé sur le Web indique la chose physique, et non pas la page Web où elle se trouve.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          }
+        },
+        "_buttons":{
+            "submit":"Valider",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-65",
+        "_parentId":"b-45",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "5th Star",
+            "title": "",
+            "large": "course/fr/images/odi-009.jpg",
+            "medium": "course/fr/images/odi-009.jpg",
+            "small": "course/fr/images/odi-009.jpg",
+            "*source":"http://www.shutterstock.com/pic-245326720",
+            "*credit":"Omelchenko",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-70",
+        "_parentId":"b-45",
+        "_type":"component",
+        "_component":"mcq",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":3,
+        "title": "Lesquels des identifiants suivants font référence au group ‘One Direction’?",
+        "displayTitle": "Lesquels des identifiants suivants font référence au group ‘One Direction’?",
+        "body": "",
+        "instruction": "<em>Choisissez trois réponses puis cliquez sur ‘Valider’.</em>",
+        "_items": [
+            {
+                "text": "<a href='www.bbc.co.uk/music/artists/1a425bbd-cca4-4b2c-aeb7-71cb176c828a' target='_blank'>www.bbc.co.uk/music/artists/1a425bbd-cca4-4b2c-aeb7-71cb176c828a</a>",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "<a href='https://musicbrainz.org/artist/1a425bbd-cca4-4b2c-aeb7-71cb176c828a' target='_blank'>https://musicbrainz.org/artist/1a425bbd-cca4-4b2c-aeb7-71cb176c828a</a>",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "<a href='http://dbpedia.org/resource/One_Direction' target='_blank'>http://dbpedia.org/resource/One_Direction</a>",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Vouz avez raison!</h5><p>En réalité, tous trois sont des identifiants. Les deux derniers exemples utilisent le même sous identifiant, mais dépendent d’autorités différentes. Le troisième est l’identifiant wikipedia (de dbpedia) de l'artiste. Ils sont tous liés les uns aux autres et partagent leurs données. Saurez-vous trouver les liens ?</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Êtes vous sûr(e) ? </h5><p>En réalité, tous trois sont des identifiants. Les deux derniers exemples utilisent le même sous identifiant, mais dépendent d’autorités différentes. Le troisième est l’identifiant wikipedia (de dbpedia) de l'artiste. Ils sont tous liés les uns aux autres et partagent leurs données. Saurez-vous trouver les liens ?</p>",
+                "final": "<h5>Êtes vous sûr(e) ? </h5><p>En réalité, tous trois sont des identifiants. Les deux derniers exemples utilisent le même sous identifiant, mais dépendent d’autorités différentes. Le troisième est l’identifiant wikipedia (de dbpedia) de l'artiste. Ils sont tous liés les uns aux autres et partagent leurs données. Saurez-vous trouver les liens ?</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Are you sure about that?</h5><p>In fact all three are identifiers. The first two use the same sub identifier but are different authorities. The third one is the wikipedia identifier (dbpedia) for the artist. They all link to each other and share each others data, can you find the links?</p>",
+                "final": "<h5>Are you sure about that?</h5><p>In fact all three are identifiers. The first two use the same sub identifier but are different authorities. The third one is the wikipedia identifier (dbpedia) for the artist. They all link to each other and share each others data, can you find the links?</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"Valider",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-85",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Summary icon clipboard",
+            "title": "Summary icon clipboard",
+            "large": "course/fr/images/summary-icon.png",
+            "medium": "course/fr/images/summary-icon.png",
+            "small": "course/fr/images/summary-icon.png",
+            "*source":"http://www.shutterstock.com/pic-189810137.html",
+            "*credit":"Kritchanut",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-90",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Surfer le Web des données ouvertes et liée",
+        "displayTitle":"Surfer le Web des données ouvertes et liée",
+        "body":"<p>Le Web des données est une série de ressources de données étroitement liées qui peuvent être lues et comprises instantanément par les humains ou les machines.</p><p>En 1989 Sir Tim Berners-Lee a inventé le Web des documents et nous avons mis plus de 20 ans à comprendre comment l’utiliser. Il fait à présent partie intégrante de notre société.</p><p>En 2001, Tim a envisagé le Web des données ouvertes et liées et nous commençons petit à petit à réaliser de quelle façon cela va à nouveau révolutionner le Web.</p>",
+        "_pageLevelProgress": {
+          "_isEnabled": true
+        }
+    },
+    {
+       "_id":"c-95",
+       "_parentId":"b-55",
+       "_type":"component",
+       "_component":"text",
+       "_classes":"separator",
+       "_layout":"full"
+    },
+    {
+        "_id":"c-100",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"footer-logo",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Open data institute logo",
+            "title": "Open data institute logo",
+            "large": "course/fr/images/logo-small.png",
+            "medium": "course/fr/images/logo-small.png",
+            "small": "course/fr/images/logo-small.png",
+            "*source":"http://theodi.org",
+            "*credit":"The Open Data Institute",
+            "*license":"All rights reserved"           
+        }
+    },
+    {
+        "_id":"c-105",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"social-buttons",
+        "_layout":"right",
+        "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/fr/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/fr/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/fr/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/fr/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/fr/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/fr/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/fr/images/social/flickr.png'></a>"
+    }
+]
