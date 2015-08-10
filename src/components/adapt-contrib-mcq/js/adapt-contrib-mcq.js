@@ -21,19 +21,15 @@ define(function(require) {
 
         initialize:function() {
             QuestionView.prototype.initialize.apply(this, arguments);
-	    var id = this.model.get('_id'); 
             this.model.set('_selectedItems', []);
+	    var id = this.model.get('_id'); 
 	    model = this.model;
 	    var answers = JSON.parse(localStorage.getItem("ODI_" + moduleId + "_Answers"));
-	    console.log(answers);
 	    if (answers != null) {
                $.each(answers, function(key, value) {
 		  if (key == id) {
 		     model.set('_userAnswer', value["userAnswer"]);
-//		     model.set('_selectedItems', value["selectedItems"]);
-		     model.set('_isCorrect', value["correct"]);
 		     model.set('_isComplete', value["complete"]);
-		     
 		  }
                });
                items = this.model.get('_userAnswer');
@@ -42,9 +38,7 @@ define(function(require) {
 				this.toggleSelectedItem(i);
 			}
 	       }
-	       //this.listenTo(Adapt,'pageView:ready', this.showUserAnswer);
             }
-		
         },
 
         preRender:function(){
@@ -163,7 +157,7 @@ define(function(require) {
                 this.toggleItemSelected(selectedItemObject, event);
             }
         },
-        
+       
 	toggleSelectedItem:function(itemIndex) {
 	    var item = this.model.get('_items')[itemIndex];
             var selectedItems = this.model.get('_selectedItems');
@@ -242,17 +236,8 @@ define(function(require) {
                this.setResetButtonEnabled(!this.model.get('_isComplete'));
             }
         },
-
-	showUserAnswer: function() {
-        	_.each(this.model.get('_items'), function(item, index) {
-        		this.setOptionSelected(index, this.model.get('_userAnswer')[index]);
-			if (this.model.get('_userAnswer')[index]) {
-				item.selected = true;
-			}
-        	}, this);
-	},
-
-        onModelAnswerShown: function() {
+        
+	onModelAnswerShown: function() {
         	_.each(this.model.get('_items'), function(item, index) {
         		this.setOptionSelected(index, item._shouldBeSelected);
         	}, this);
