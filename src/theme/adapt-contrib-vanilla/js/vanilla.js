@@ -1,5 +1,5 @@
 define(function(require) {
-	
+
 	var Adapt = require('coreJS/adapt');
 
 	var RecordAnswers = Backbone.View.extend({
@@ -19,12 +19,28 @@ define(function(require) {
 		},
 
 		recordAnswers: function() {
-		    console.log("In here");
+//		    var moduleId = "";
+//		    $.getJSON("course/config.json",function(data) {
+//     			moduleId = data._moduleId;
+//		    });
 	            _.each(this.getQuestionComponents(), function(component) {
-			console.log(component);
-			console.log("Complete: " + component.get('_isComplete'));
-			console.log("Correct: " + component.get('_isCorrect'));
-			console.log(component.get('_selectedItems'));
+			if (!component.get('_isComplete')) {
+				return;
+			}
+			var obj = {};
+			obj.id = component.get('_id');
+			obj.complete = component.get('_isComplete');
+			obj.correct = component.get('_isCorrect');
+			if (!component.get('_isCorrect')) {
+				obj.selectedItems = component.get('_selectedItems');
+			}
+			var answers = JSON.parse(localStorage.getItem("ODI_" + moduleId + "_Answers"));
+			if (answers == null) {
+				var answers = {};
+			}
+			answers[obj.id] = {};
+			answers[obj.id] = obj;
+			localStorage.setItem("ODI_" + moduleId + "_Answers",JSON.stringify(answers));
 		    });
 	        }
 	});
