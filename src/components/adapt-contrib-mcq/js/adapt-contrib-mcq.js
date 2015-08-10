@@ -38,6 +38,7 @@ define(function(require) {
 				this.toggleSelectedItem(i);
 			}
 	       }
+	       this.submitExisting();
             }
         },
 
@@ -236,7 +237,32 @@ define(function(require) {
                this.setResetButtonEnabled(!this.model.get('_isComplete'));
             }
         },
-        
+       
+	submitExisting: function() {
+	    if(!this.canSubmit()) {
+                this.showInstructionError();
+                this.onCannotSubmit();
+                return;
+            }
+
+            var attemptsLeft = this.model.get("_attemptsLeft") - 1;
+            this.model.set({
+                _isEnabled: false,
+                _isSubmitted: true,
+                _attemptsLeft: attemptsLeft
+            });
+            this.$(".component-widget").addClass("submitted");
+            this.$(".component-instruction-inner").removeClass("validation-error");
+
+            this.storeUserAnswer();
+            this.markQuestion();
+            
+	    if (this.canSubmit()) {
+               this.setAllItemsEnabled(false);
+               this.setResetButtonEnabled(!this.model.get('_isComplete'));
+            }
+	},
+ 
 	onModelAnswerShown: function() {
         	_.each(this.model.get('_items'), function(item, index) {
         		this.setOptionSelected(index, item._shouldBeSelected);
