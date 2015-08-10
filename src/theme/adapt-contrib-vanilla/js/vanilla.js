@@ -4,11 +4,29 @@ define(function(require) {
 
 	var RecordAnswers = Backbone.View.extend({
 		initialize: function() {
+//		    this.listenTo(Adapt,'pageView:ready', this.preAnswerQuestions);
 	            this.listenTo(this.model, 'change:_isComplete', this.assessmentComplete);
                     this.listenTo(Adapt, 'remove', this.removeAssessment);
 		    this.listenTo(Adapt, 'questionView:showFeedback', this.recordAnswers);
 	        },
-
+/*
+		preAnswerQuestions: function() {
+		    console.log("Running, might need a trigger???");
+		    var answers = JSON.parse(localStorage.getItem("ODI_" + moduleId + "_Answers"));
+		    if (answers != null) {
+	            	$.each(answers, function(key, value) {
+				var userAnswer = value["userAnswer"];
+				$.each(userAnswer, function(id,set) {
+					if (set) {
+						$("label[for='"+key+"-"+id+"']").addClass('selected');
+					} else {
+						$("label[for='"+key+"-"+id+"']").removeClass('selected');
+					}
+				});
+			});
+		    } 
+	        },
+*/
 	        getQuestionComponents: function() {
 	            var childComponents = this.model.findDescendants('components');
 		    return _.filter(childComponents.models, function(component) {
@@ -31,6 +49,7 @@ define(function(require) {
 			obj.id = component.get('_id');
 			obj.complete = component.get('_isComplete');
 			obj.correct = component.get('_isCorrect');
+			obj.userAnswer = component.get('_userAnswer');
 			if (!component.get('_isCorrect')) {
 				obj.selectedItems = component.get('_selectedItems');
 			}

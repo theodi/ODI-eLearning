@@ -2,6 +2,11 @@ define(function(require) {
     var QuestionView = require('coreViews/questionView');
     var Adapt = require('coreJS/adapt');
 
+    var moduleId = "";
+    $.getJSON("course/config.json",function(data) {
+	    moduleId = data._moduleId;
+    });
+
     var Mcq = QuestionView.extend({
 
         events: {
@@ -9,15 +14,37 @@ define(function(require) {
             'blur .mcq-item input':'onItemBlur',
             'change .mcq-item input':'onItemSelected',
             "click .mcq-widget .button.submit": "onSubmitClicked",
-			"click .mcq-widget .button.reset": "onResetClicked",
-			"click .mcq-widget .button.model": "onModelAnswerClicked",
-			"click .mcq-widget .button.user": "onUserAnswerClicked"
+	    "click .mcq-widget .button.reset": "onResetClicked",
+	    "click .mcq-widget .button.model": "onModelAnswerClicked",
+	    "click .mcq-widget .button.user": "onUserAnswerClicked"
         },
 
         initialize:function() {
             QuestionView.prototype.initialize.apply(this, arguments);
-
+	    var id = this.model.get('_id'); 
             this.model.set('_selectedItems', []);
+	    model = this.model;
+	    var answers = JSON.parse(localStorage.getItem("ODI_" + moduleId + "_Answers"));
+	    console.log(answers);
+	    if (answers != null) {
+               $.each(answers, function(key, value) {
+		  if (key == id) {
+		     model.set('_userAnswer', value["userAnswer"]);
+//		     model.set('_selectedItems', value["selectedItems"]);
+		     model.set('_isCorrect', value["correct"]);
+		     model.set('_isComplete', value["complete"]);
+		     
+		  }
+               });
+               items = this.model.get('_userAnswer');
+	       for (var i=0; i<items.length; i++) {
+		        if (items[i]) {
+				this.toggleSelectedItem(i);
+			}
+	       }
+	       //this.listenTo(Adapt,'pageView:ready', this.showUserAnswer);
+            }
+		
         },
 
         preRender:function(){
@@ -106,7 +133,7 @@ define(function(require) {
         },
 
         setOptionSelected:function(index, selected) {
-        	var $itemLabel = this.$('label').eq(index);
+            var $itemLabel = this.$('label').eq(index);
             var $itemInput = this.$('input').eq(index);
 
             $itemLabel.toggleClass('selected', selected);
@@ -131,18 +158,49 @@ define(function(require) {
         
         onItemSelected: function(event) {
             var selectedItemObject = this.model.get('_items')[$(event.currentTarget).parent('.mcq-item').index()];
-            
+ 
             if(this.model.get('_isEnabled') && !this.model.get('_isSubmitted')){
                 this.toggleItemSelected(selectedItemObject, event);
             }
         },
+        
+	toggleSelectedItem:function(itemIndex) {
+	    var item = this.model.get('_items')[itemIndex];
+            var selectedItems = this.model.get('_selectedItems');
+            var $itemLabel = this.$('label').eq(itemIndex),
+                $itemInput = this.$('input').eq(itemIndex),
+                selected = !$itemLabel.hasClass('selected');
+            
+           if(selected) {
+               if(this.model.get('_selectable') === 1){
+                        this.$('label').removeClass('selected');
+                        this.$('input').prop('checked', false);
+                        this.deselectAllItems();
+                        selectedItems[0] = item;
+                } else if(selectedItems.length < this.model.get('_selectable')) {
+                     	selectedItems.push(item);
+                } else {
+                    return;
+                }
+                $itemLabel.addClass('selected');
+            } else {
+                selectedItems.splice(_.indexOf(selectedItems, item), 1);
+                $itemLabel.removeClass('selected');
+            }
+            $itemInput.prop('checked', selected);
+            item.selected = selected;
+            this.model.set('_selectedItems', selectedItems);
+        },
 
         toggleItemSelected:function(item, clickEvent) {
+	    console.log(item);
+	    console.log(this.model.get('_items'));
             var selectedItems = this.model.get('_selectedItems');
             var itemIndex = _.indexOf(this.model.get('_items'), item),
                 $itemLabel = this.$('label').eq(itemIndex),
                 $itemInput = this.$('input').eq(itemIndex),
                 selected = !$itemLabel.hasClass('selected');
+            console.log(itemIndex);
             
                 if(selected) {
                     if(this.model.get('_selectable') === 1){
@@ -177,13 +235,22 @@ define(function(require) {
         },
 
         onSubmitClicked: function(event) {
-        	QuestionView.prototype.onSubmitClicked.apply(this, arguments);
+            QuestionView.prototype.onSubmitClicked.apply(this, arguments);
 
             if (this.canSubmit()) {
                this.setAllItemsEnabled(false);
                this.setResetButtonEnabled(!this.model.get('_isComplete'));
             }
         },
+
+	showUserAnswer: function() {
+        	_.each(this.model.get('_items'), function(item, index) {
+        		this.setOptionSelected(index, this.model.get('_userAnswer')[index]);
+			if (this.model.get('_userAnswer')[index]) {
+				item.selected = true;
+			}
+        	}, this);
+	},
 
         onModelAnswerShown: function() {
         	_.each(this.model.get('_items'), function(item, index) {
