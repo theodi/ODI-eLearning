@@ -823,7 +823,7 @@ pipwerks.UTILS.trace = function(msg){
      if(pipwerks.debug.isActive){
 
         if(window.console && window.console.log){
-            console.log(msg);
+//            console.log(msg);
         } else {
             //alert(msg);
         }
