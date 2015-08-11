@@ -1,7 +1,7 @@
-var api_url = "http://localhost/~davetaz/backend/";
-if (!localStorage.getItem("ODI_id")) {
+var api_url = "http://odinprac.theodi.org/ODI-eLearning/";
+if (!localStorage.getItem("id")) {
   	$.get( api_url + "create_id.php", function( data ) {
-  		window.localStorage.setItem("ODI_id",data);
+  		window.localStorage.setItem("id",data);
 //		console.log("KEY " + data);
 	});
 }
@@ -10,11 +10,12 @@ var moduleId = "";
 $.getJSON("course/config.json",function(data) {
 	moduleId = data._moduleId;
 });
+var id = "";
 
 $(document).ready(function() {
 	$.getJSON("course/config.json",function(data) {
 		moduleId = data._moduleId;
-		if (moduleId == "nav"){
+		if (moduleId == "ODI_nav"){
 			setInterval(function() {updateProgress();},5000);
 		}
 	});
@@ -51,6 +52,8 @@ function updateRemote() {
            url: api_url + "store.php",         
            data: send,
            success: function(ret) {
+		d = new Date();
+    		localStorage.setItem(moduleId+"_lastSave",d.toUTCString());
 //		console.log("Data stored in cloud");
 	   }
         });
@@ -58,9 +61,31 @@ function updateRemote() {
     }
 }
 
+function fetchRemote() {
+	if (typeof id == "undefined") {
+		return;
+	}
+	if (localStorage.getItem("id") == id) {
+		window.location.href=location.protocol + '//' + location.host + location.pathname;
+	}
+	url = api_url + "load.php?id=" + id;
+	return $.getJSON( url , function() {
+	})
+	.done(function(data) {
+		localStorage.clear;
+		$.each(data, function(key, value) {
+    			localStorage.setItem(key,value);
+		});
+		window.location.href=location.protocol + '//' + location.host + location.pathname;
+	})
+	.fail(function() {
+		console.log("Failed to load data");
+	});
+}
+
 function getValue(cname) {
     module_id = getModuleId();
-    cname = "ODI_" + module_id + "_" + cname;
+    cname = module_id + "_" + cname;
     value = localStorage.getItem(cname);
     if (value) return value;
     return "";
@@ -68,10 +93,40 @@ function getValue(cname) {
 
 function setValue(cname, cvalue) {
     module_id = getModuleId();
-    cname = "ODI_" + module_id + "_" + cname;
+    cname = module_id + "_" + cname;
     localStorage.setItem(cname,cvalue);
-    updateRemote();
+    setTimeout(function() {updateRemote();},2000);
 }
+
+function setValueLocal(cname, cvalue) {
+    localStorage.setItem(cname,cvalue);
+}
+
+var QueryString = function () {
+  // This function is anonymous, is executed immediately and 
+  // the return value is assigned to QueryString!
+  var query_string = {};
+  var query = window.location.search.substring(1);
+  var vars = query.split("&");
+  for (var i=0;i<vars.length;i++) {
+    var pair = vars[i].split("=");
+        // If first entry with this name
+    if (typeof query_string[pair[0]] === "undefined") {
+      query_string[pair[0]] = decodeURIComponent(pair[1]);
+        // If second entry with this name
+    } else if (typeof query_string[pair[0]] === "string") {
+      var arr = [ query_string[pair[0]],decodeURIComponent(pair[1]) ];
+      query_string[pair[0]] = arr;
+        // If third or later entry with this name
+    } else {
+      query_string[pair[0]].push(decodeURIComponent(pair[1]));
+    }
+  } 
+    return query_string;
+}();
+
+id = QueryString.id;
+fetchRemote();
 
 
 var API = {
@@ -83,15 +138,20 @@ var API = {
 			this.data["cmi.core.lesson_status"] = lesson_status;
 		}
 		this.data["cmi.suspend_data"] = getValue("cmi.suspend_data");
-		updateRemote();
-		return "true";
+		return true;
 	},
 	LMSFinish: function() {
 		return "true";
 	},
 	LMSGetValue: function(key) {
 //		window.console && console.log('LMSGetValue("' + key + '") - ' + this.data[key]);
-		return this.data[key];
+		if (typeof this.data[key] == "undefined") {
+			localValue = getValue(key);
+			this.data[key] = localValue;
+			return localValue;
+		} else {
+			return this.data[key];
+		}
 	},
 	LMSSetValue: function(key, value) {
 //		window.console && console.log('LMSSetValue("' + key + '") - ' + value);

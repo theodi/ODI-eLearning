@@ -17,7 +17,7 @@ function bannerControl(moduleId,lang) {
 	if (lang != "en") {
 		return;
 	}
-	if (moduleId != "2") {
+	if (moduleId != "ODI_2") {
 		return;
 	}
 
