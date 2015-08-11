@@ -24,7 +24,7 @@ define(function(require) {
             this.model.set('_selectedItems', []);
 	    var id = this.model.get('_id'); 
 	    model = this.model;
-	    var answers = JSON.parse(localStorage.getItem("ODI_" + moduleId + "_Answers"));
+	    var answers = JSON.parse(localStorage.getItem("cmi_" + moduleId + "_answers"));
 	    var selectedItems = [];
 	    if (answers != null) {
                $.each(answers, function(key, value) {

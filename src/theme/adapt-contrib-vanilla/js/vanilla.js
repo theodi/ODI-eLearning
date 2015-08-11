@@ -2,47 +2,6 @@ define(function(require) {
 
 	var Adapt = require('coreJS/adapt');
 
-	var RecordAnswers = Backbone.View.extend({
-		initialize: function() {
-	            this.listenTo(this.model, 'change:_isComplete', this.assessmentComplete);
-                    this.listenTo(Adapt, 'remove', this.removeAssessment);
-		    this.listenTo(Adapt, 'questionView:showFeedback', this.recordAnswers);
-	        },
-	        getQuestionComponents: function() {
-	            var childComponents = this.model.findDescendants('components');
-		    return _.filter(childComponents.models, function(component) {
-	                if (component.get('_questionWeight')) {
-				return component;
-	                }
-	            });
-		},
-
-		recordAnswers: function() {
-	            _.each(this.getQuestionComponents(), function(component) {
-			if (!component.get('_isComplete')) {
-				return;
-			}
-			var obj = {};
-			obj.id = component.get('_id');
-			obj.complete = component.get('_isComplete');
-			obj.correct = component.get('_isCorrect');
-			obj.userAnswer = component.get('_userAnswer');
-			obj.selectedItems = component.get('_selectedItems');
-			var answers = JSON.parse(localStorage.getItem("ODI_" + moduleId + "_Answers"));
-			if (answers == null) {
-				var answers = {};
-			}
-			answers[obj.id] = {};
-			answers[obj.id] = obj;
-			localStorage.setItem("ODI_" + moduleId + "_Answers",JSON.stringify(answers));
-		    });
-	        }
-	});
-
-	Adapt.on('articleView:postRender', function(view) {
-		new RecordAnswers({model:view.model});
-	});
-
 });
 
 var interval; 
