@@ -66,7 +66,7 @@ function fetchRemote() {
 		return;
 	}
 	if (localStorage.getItem("id") == id) {
-		return;
+		window.location.href=location.protocol + '//' + location.host + location.pathname;
 	}
 	url = api_url + "load.php?id=" + id;
 	return $.getJSON( url , function() {
