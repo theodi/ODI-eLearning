@@ -2,10 +2,7 @@ define(function(require) {
     var QuestionView = require('coreViews/questionView');
     var Adapt = require('coreJS/adapt');
 
-    var moduleId = "";
-    $.getJSON("course/config.json",function(data) {
-	    moduleId = data._moduleId;
-    });
+    var moduleId = 0;
 
     var Mcq = QuestionView.extend({
 
@@ -24,6 +21,9 @@ define(function(require) {
             this.model.set('_selectedItems', []);
 	    var id = this.model.get('_id'); 
 	    model = this.model;
+            if (Adapt.config.get("_moduleId")) {
+                moduleId = Adapt.config.get("_moduleId");
+            }
 	    var answers = JSON.parse(localStorage.getItem("cmi_" + moduleId + "_answers"));
 	    var selectedItems = [];
 	    if (answers != null) {
