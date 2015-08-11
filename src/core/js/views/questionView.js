@@ -9,7 +9,7 @@ define(function(require) {
     var Handlebars = require('handlebars');
     var ComponentView = require('coreViews/componentView');
     var Adapt = require('coreJS/adapt');
-
+    
     var QuestionView = ComponentView.extend({
     
         className: function() {
@@ -238,7 +238,53 @@ define(function(require) {
             
             this.storeUserAnswer();
             this.markQuestion();
+	    this.recordAnswers();
             this.showFeedback(); 
+        },
+
+	recordAnswers: function() {
+    	    var moduleId = 0;
+	    if (Adapt.config.get("_moduleId")) {
+		moduleId = Adapt.config.get("_moduleId");
+	    }
+	    var obj = {};	
+	    obj.id = this.model.get('_id');
+	    obj.complete = this.model.get('_isComplete');
+	    obj.correct = this.model.get('_isCorrect');
+	    obj.userAnswer = this.model.get('_userAnswer');
+	    obj.selectedItems = this.model.get('_selectedItems');
+	    var answers = JSON.parse(localStorage.getItem("cmi_" + moduleId + "_answers"));
+	    if (answers == null) {
+		var answers = {};
+	    }
+	    answers[obj.id] = {};
+	    answers[obj.id] = obj;
+	    localStorage.setItem("cmi_" + moduleId + "_answers",JSON.stringify(answers));
+	},
+
+	submitExisting: function() {
+            if(!this.canSubmit()) {
+                this.showInstructionError();
+                this.onCannotSubmit();
+                return;
+            }
+
+            var attemptsLeft = this.model.get("_attemptsLeft") - 1;
+            this.model.set({
+                _isEnabled: false,
+                _isSubmitted: true,
+                _attemptsLeft: attemptsLeft
+            });
+            this.$(".component-widget").addClass("submitted");
+            this.$(".component-instruction-inner").removeClass("validation-error");
+
+            this.storeUserAnswer();
+            this.markQuestion();
+
+            if (this.canSubmit()) {
+               this.setAllItemsEnabled(false);
+               this.setResetButtonEnabled(!this.model.get('_isComplete'));
+            }
         },
 
         showInstructionError: function() {
