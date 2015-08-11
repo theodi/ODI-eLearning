@@ -24,7 +24,7 @@ define(function(require) {
             if (Adapt.config.get("_moduleId")) {
                 moduleId = Adapt.config.get("_moduleId");
             }
-	    var answers = JSON.parse(localStorage.getItem("cmi_" + moduleId + "_answers"));
+	    var answers = JSON.parse(localStorage.getItem(moduleId + "_cmi.answers"));
 	    var selectedItems = [];
 	    if (answers != null) {
                $.each(answers, function(key, value) {

@@ -253,13 +253,13 @@ define(function(require) {
 	    obj.correct = this.model.get('_isCorrect');
 	    obj.userAnswer = this.model.get('_userAnswer');
 	    obj.selectedItems = this.model.get('_selectedItems');
-	    var answers = JSON.parse(localStorage.getItem("cmi_" + moduleId + "_answers"));
+	    var answers = JSON.parse(localStorage.getItem(moduleId + "_cmi.answers"));
 	    if (answers == null) {
 		var answers = {};
 	    }
 	    answers[obj.id] = {};
 	    answers[obj.id] = obj;
-	    localStorage.setItem("cmi_" + moduleId + "_answers",JSON.stringify(answers));
+	    localStorage.setItem(moduleId + "_cmi.answers",JSON.stringify(answers));
 	},
 
 	submitExisting: function() {

@@ -1,7 +1,7 @@
 var api_url = "http://localhost/~davetaz/backend/";
-if (!localStorage.getItem("ODI_id")) {
+if (!localStorage.getItem("id")) {
   	$.get( api_url + "create_id.php", function( data ) {
-  		window.localStorage.setItem("ODI_id",data);
+  		window.localStorage.setItem("id",data);
 //		console.log("KEY " + data);
 	});
 }
@@ -51,6 +51,8 @@ function updateRemote() {
            url: api_url + "store.php",         
            data: send,
            success: function(ret) {
+		d = new Date();
+    		localStorage.setItem(moduleId+"_lastSave",d.toUTCString());
 //		console.log("Data stored in cloud");
 	   }
         });
@@ -60,7 +62,7 @@ function updateRemote() {
 
 function getValue(cname) {
     module_id = getModuleId();
-    cname = "ODI_" + module_id + "_" + cname;
+    cname = module_id + "_" + cname;
     value = localStorage.getItem(cname);
     if (value) return value;
     return "";
@@ -68,9 +70,9 @@ function getValue(cname) {
 
 function setValue(cname, cvalue) {
     module_id = getModuleId();
-    cname = "ODI_" + module_id + "_" + cname;
+    cname = module_id + "_" + cname;
     localStorage.setItem(cname,cvalue);
-    updateRemote();
+    setTimeout(function() {updateRemote();},2000);
 }
 
 

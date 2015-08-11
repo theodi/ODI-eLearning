@@ -16,7 +16,7 @@ $.getJSON("course/config.json",function(data) {
 
 function emailSave() {
 	var email = $('#email').val();
-	localStorage.setItem("ODI_email",email);
+	localStorage.setItem("email",email);
 	$('#save-section').fadeOut( function() {
 		checkState();
 		interval = setInterval(function() { checkState(); },5000);
@@ -32,9 +32,9 @@ function showSave() {
 }
 
 function checkState() {
-	var sessionEmail = localStorage.getItem("ODI_email");
-	var sessionID = localStorage.getItem("ODI_id");
-	var lastSave = localStorage.getItem("ODI_lastSave");
+	var sessionEmail = localStorage.getItem("email");
+	var sessionID = localStorage.getItem("id");
+	var lastSave = localStorage.getItem(moduleId + "_lastSave");
 
 	if (!sessionEmail && sessionID) {
 		$('#save-section').html("<button onClick='showSave();' class='slbutton' id='saveSession'>Save Progress</button>");
