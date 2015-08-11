@@ -35,10 +35,9 @@ define(function(require) {
 		  }
                });
 	       for (var i=0; i<selectedItems.length; i++) {
-			var item = {};
+			var item = selectedItems[i];
 			item.selected = false;
-			item._shouldBeSelected = selectedItems[i]._shouldBeSelected;
-			item.text = selectedItems[i].text;
+			delete item.correct;
 			this.toggleItemSelected(item,event);
 	       }
 	       QuestionView.prototype.submitExisting.apply(this);
