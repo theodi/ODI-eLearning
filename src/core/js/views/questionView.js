@@ -241,6 +241,31 @@ define(function(require) {
             this.showFeedback(); 
         },
 
+	submitExisting: function() {
+            if(!this.canSubmit()) {
+                this.showInstructionError();
+                this.onCannotSubmit();
+                return;
+            }
+
+            var attemptsLeft = this.model.get("_attemptsLeft") - 1;
+            this.model.set({
+                _isEnabled: false,
+                _isSubmitted: true,
+                _attemptsLeft: attemptsLeft
+            });
+            this.$(".component-widget").addClass("submitted");
+            this.$(".component-instruction-inner").removeClass("validation-error");
+
+            this.storeUserAnswer();
+            this.markQuestion();
+
+            if (this.canSubmit()) {
+               this.setAllItemsEnabled(false);
+               this.setResetButtonEnabled(!this.model.get('_isComplete'));
+            }
+        },
+
         showInstructionError: function() {
             this.$(".component-instruction-inner").addClass("validation-error");
         },
