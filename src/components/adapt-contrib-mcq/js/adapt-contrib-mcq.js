@@ -25,18 +25,21 @@ define(function(require) {
 	    var id = this.model.get('_id'); 
 	    model = this.model;
 	    var answers = JSON.parse(localStorage.getItem("ODI_" + moduleId + "_Answers"));
+	    var selectedItems = [];
 	    if (answers != null) {
                $.each(answers, function(key, value) {
 		  if (key == id) {
 		     model.set('_userAnswer', value["userAnswer"]);
 		     model.set('_isComplete', value["complete"]);
+	       	     selectedItems = value["selectedItems"];
 		  }
                });
-               items = this.model.get('_userAnswer');
-	       for (var i=0; i<items.length; i++) {
-		        if (items[i]) {
-				this.toggleSelectedItem(i);
-			}
+	       for (var i=0; i<selectedItems.length; i++) {
+			var item = {};
+			item.selected = false;
+			item._shouldBeSelected = selectedItems[i]._shouldBeSelected;
+			item.text = selectedItems[i].text;
+			this.toggleItemSelected(item,event);
 	       }
 	       QuestionView.prototype.submitExisting.apply(this);
             }
@@ -159,43 +162,19 @@ define(function(require) {
             }
         },
        
-	toggleSelectedItem:function(itemIndex) {
-	    var item = this.model.get('_items')[itemIndex];
+        toggleItemSelected:function(item, clickEvent) {
             var selectedItems = this.model.get('_selectedItems');
+	    var itemIndex = -1;
+	    _.each(this.model.get('_items'), function(data,idx) { 
+		if(_.isEqual(data,item)) { 
+			itemIndex = idx;
+			return;
+		}
+	    });
+	    var item = this.model.get('_items')[itemIndex];
             var $itemLabel = this.$('label').eq(itemIndex),
                 $itemInput = this.$('input').eq(itemIndex),
                 selected = !$itemLabel.hasClass('selected');
-            
-           if(selected) {
-               if(this.model.get('_selectable') === 1){
-                        this.$('label').removeClass('selected');
-                        this.$('input').prop('checked', false);
-                        this.deselectAllItems();
-                        selectedItems[0] = item;
-                } else if(selectedItems.length < this.model.get('_selectable')) {
-                     	selectedItems.push(item);
-                } else {
-                    return;
-                }
-                $itemLabel.addClass('selected');
-            } else {
-                selectedItems.splice(_.indexOf(selectedItems, item), 1);
-                $itemLabel.removeClass('selected');
-            }
-            $itemInput.prop('checked', selected);
-            item.selected = selected;
-            this.model.set('_selectedItems', selectedItems);
-        },
-
-        toggleItemSelected:function(item, clickEvent) {
-	    console.log(item);
-	    console.log(this.model.get('_items'));
-            var selectedItems = this.model.get('_selectedItems');
-            var itemIndex = _.indexOf(this.model.get('_items'), item),
-                $itemLabel = this.$('label').eq(itemIndex),
-                $itemInput = this.$('input').eq(itemIndex),
-                selected = !$itemLabel.hasClass('selected');
-            console.log(itemIndex);
             
                 if(selected) {
                     if(this.model.get('_selectable') === 1){
