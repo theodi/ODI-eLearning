@@ -278,6 +278,40 @@
         "_isEnabled": true
       }
     },
+    {
+        "_id":"c-55",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/burst.png",
+            "medium": "course/en/images/burst.png",
+            "small": "course/en/images/burst.png"
+        }
+    },
+    {
+        "_id":"c-56",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Êtes-vous prêt(e) ?",
+        "displayTitle":"Êtes-vous prêt(e) ?",
+        "body":"<p>Il y a deux aspects utiles à prendre en compte par rapport à la durabilité d'open data - saurez-vous vous en souvenir?</p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
 {
         "_id":"c-61",
         "_parentId":"b-60",
