@@ -20,7 +20,6 @@ function emailSave() {
 	$('#save-section').fadeOut( function() {
 		checkState();
 		interval = setInterval(function() { checkState(); },5000);
-		$('#save-section').fadeIn();
 	});
 }
 
@@ -38,11 +37,12 @@ function checkState() {
 
 	if (!sessionEmail && sessionID) {
 		$('#save-section').html("<button onClick='showSave();' class='slbutton' id='saveSession'>Save Progress</button>");
+		$('#save-section').fadeIn();
 		clearInterval(interval);
 	} else {
 		if (!sessionID) { sessionID = "Unknown"; }
 		if (!lastSave) { lastSave = "Unknown"; }
-		$('#save-section').html("Module ID: " + moduleId + "<br/>Session ID: " + sessionID + "<br/>Last Save: " + lastSave);
+		$('#save-status').html("Module ID: " + moduleId + "<br/>Session ID: " + sessionID + "<br/>Last Save: " + lastSave);
 	}	
 
 }
