@@ -53,8 +53,7 @@ function updateRemote() {
            data: send,
            success: function(ret) {
 		d = new Date();
-    		localStorage.setItem(moduleId+"_lastSave",d.toUTCString());
-//		console.log("Data stored in cloud");
+    		localStorage.setItem(moduleId+"_lastSave",d.toString());
 	   }
         });
     } else {
