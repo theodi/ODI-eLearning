@@ -32,7 +32,7 @@ function showSave() {
 
 function checkState() {
 	var sessionEmail = localStorage.getItem("email");
-	var sessionID = localStorage.getItem("id");
+	var sessionID = localStorage.getItem("_id");
 	var lastSave = localStorage.getItem(moduleId + "_lastSave");
 
 	if (!sessionEmail && sessionID) {

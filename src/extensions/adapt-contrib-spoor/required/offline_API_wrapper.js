@@ -1,8 +1,7 @@
-var api_url = "http://odinprac.theodi.org/ODI-eLearning/";
-if (!localStorage.getItem("id")) {
+var api_url = "https://odi-elearning.herokuapp.com/";
+if (!localStorage.getItem("_id")) {
   	$.get( api_url + "create_id.php", function( data ) {
-  		window.localStorage.setItem("id",data);
-//		console.log("KEY " + data);
+  		window.localStorage.setItem("_id",data);
 	});
 }
 	
@@ -54,7 +53,11 @@ function updateRemote() {
            success: function(ret) {
 		d = new Date();
     		localStorage.setItem(moduleId+"_lastSave",d.toString());
-	   }
+	   },
+	   error: function (xhr, ajaxOptions, thrownError) {
+       		console.log(xhr.status);
+		console.log(thrownError);
+           }
         });
     } else {
     }
