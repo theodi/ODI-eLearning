@@ -65,9 +65,6 @@ function fetchRemote() {
 	if (typeof id == "undefined") {
 		return;
 	}
-	if (localStorage.getItem("id") == id) {
-		window.location.href=location.protocol + '//' + location.host + location.pathname;
-	}
 	url = api_url + "load.php?id=" + id;
 	return $.getJSON( url , function() {
 	})
@@ -80,6 +77,7 @@ function fetchRemote() {
 	})
 	.fail(function() {
 		console.log("Failed to load data");
+		window.location.href=location.protocol + '//' + location.host + location.pathname;
 	});
 }
 
