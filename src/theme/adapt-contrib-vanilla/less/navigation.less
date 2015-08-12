@@ -2,7 +2,9 @@
 // ==================
 
 .navigation {
-    width: @default-width;
+    width: 1px;
+    min-width: @default-width;
+    *width: @default-width;
     box-shadow: @page-box-shadow;
     background-color:@navigation-color;
     height:@navigation-height;
@@ -11,9 +13,14 @@
         max-width:@ie8-max-width;
     }
     @media all and (max-width:(@device-width-large - 1px)) {
-        width: 100%;
+        width: 1px;
+        min-width: 100%;
+        *width: 100%;
     }
     @media all and (max-width:(@device-width-medium - 1px)) {
+        width: 1px;
+        min-width: 100%;
+        *width: 100%;
         height:@navigation-height-mobile;
     }
     .navigation-inner {
