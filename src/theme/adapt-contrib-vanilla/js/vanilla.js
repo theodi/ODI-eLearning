@@ -18,6 +18,7 @@ function emailSave() {
 	var email = $('#email').val();
 	localStorage.setItem("email",email);
 	$('#save-section').fadeOut( function() {
+		$('#save-section').html("");
 		checkState();
 		interval = setInterval(function() { checkState(); },5000);
 	});
@@ -43,6 +44,8 @@ function checkState() {
 		if (!sessionID) { sessionID = "Unknown"; }
 		if (!lastSave) { lastSave = "Unknown"; }
 		$('#save-status').html("Module ID: " + moduleId + "<br/>Session ID: " + sessionID + "<br/>Last Save: " + lastSave);
+		$('#save-section').addClass('saving');
+		$('#save-section').fadeIn();
 	}	
 
 }
