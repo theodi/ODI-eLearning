@@ -14,8 +14,7 @@ $.getJSON("course/config.json",function(data) {
         moduleId = data._moduleId;
 });
 
-function emailSave() {
-	var email = $('#email').val();
+function emailSave(email) {
 	localStorage.setItem("email",email);
 	$('#save-section').fadeOut( function() {
 		$('#save-section').html("");
@@ -25,10 +24,23 @@ function emailSave() {
 }
 
 function showSave() {
+	var email=prompt("Please enter your email...");
+	emailSave(email);
+/*
+	Ply.dialog('prompt', {
+                title: 'Enter email address',
+                form: { name: 'Email' }
+        }).done(function (ui) {
+                var email = ui.data.name;
+		emailSave(email);
+        });
+*/
+/*
 	$('#save-section').fadeOut( function() {
 		$('#save-section').html("<div class='saveLoad'>EMail: <input type='text' id='email' name='email' cols='80'></input><button class='slbutton' id='emailSave' onClick='emailSave();'>Save</button></div>");
 		$('#save-section').fadeIn();
 	});
+*/
 }
 
 function checkState() {
