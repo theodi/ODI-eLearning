@@ -54,8 +54,6 @@ pipwerks.SCORM.isAvailable = function(){
     return true;
 };
 
-
-
 // ------------------------------------------------------------------------- //
 // --- SCORM.API functions ------------------------------------------------- //
 // ------------------------------------------------------------------------- //
@@ -72,7 +70,7 @@ pipwerks.SCORM.isAvailable = function(){
 pipwerks.SCORM.API.find = function(win){
 
     var API = null,
-        findAttempts = 0,
+    	findAttempts = 0,
         findAttemptLimit = 500,
         traceMsgPrefix = "SCORM.API.find",
         trace = pipwerks.UTILS.trace,
@@ -166,25 +164,35 @@ pipwerks.SCORM.API.find = function(win){
 ---------------------------------------------------------------------------- */
 
 pipwerks.SCORM.API.get = function(){
-
     var API = null,
         win = window,
         scorm = pipwerks.SCORM,
         find = scorm.API.find,
         trace = pipwerks.UTILS.trace;
 
-    if(win.parent && win.parent != win){
+
+    if(!API && win.parent && win.parent != win){
         API = find(win.parent);
+    }
+    if (API) {
+	console.log("Using parent API");
     }
 
     if(!API && win.top.opener){
         API = find(win.top.opener);
     }
-
+    
     //Special handling for Plateau
     //Thanks to Joseph Venditti for the patch
     if(!API && win.top.opener && win.top.opener.document) {
         API = find(win.top.opener.document);
+    }
+    
+    if(!API) {
+	API = find(win);
+    	if (API) {
+		console.log("Using local API");
+	}
     }
 
     if(API){

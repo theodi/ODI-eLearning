@@ -37,13 +37,6 @@ cd build
 zip -r course/$2/data/scorm.zip * >/dev/null 
 cd ..
 
-echo "Changing to ODI LMS"
-cd build
-mv index.html content.html
-mv main.html index.html
-sed -i -e "s/index.html/content.html/g" index.html
-cd ..
-
 echo "Moving module into place"
 `mkdir $OUTPATH/$2/`
 `rm -fR $OUTPATH/$2/$1`
