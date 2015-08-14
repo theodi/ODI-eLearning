@@ -6,3 +6,6 @@ do
 	git --git-dir=.module checkout module$i
 	git --git-dir=.module pull
 done
+cp .gitignore_module .gitignore
+git --git-dir=.module checkout navigation
+git --git-dir=.module pull
