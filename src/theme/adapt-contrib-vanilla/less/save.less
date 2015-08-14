@@ -1,27 +1,36 @@
 .page-level-progress-navigation {
 	float: left;
-	padding: 24px 10px;
+	padding: 26px 10px;
+    @media all and (max-width:(@device-width-medium - 1px)) {
+	padding: 20px 2px;
+    }
 }
 .save-section-outer {
 	float: left;
-	margin-left: 10px;
+	margin-left: 4px;
 }
 .save-section {
+	margin-top: 6px;
+    @media all and (max-width:(@device-width-medium - 1px)) {
+        margin-top: 4px;
+    }
 	font-size: 12px;
 	line-height: 1.5em;
-	margin-top: 6px;
 	color: white;
-	min-width: 100px;
-	min-height: 45px;
+	min-width: 60px;
+	min-height: 36px;
 }
 .saving {
 	background-image: url(assets/cloud_saving.gif);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 70px 45px;
+	background-size: 60px 36px;
 }
 .slbutton {
 	font-size: 18px;
+    @media all and (max-width:(@device-width-medium - 1px)) {
+        font-size: 12px;
+    }
 	border: 1px solid purple;
 	background-color: purple;
 	padding: 6px;

@@ -45,6 +45,7 @@ function getModuleId() {
 function setSaveClass(toClass) {
 //    var frame = document.getElementById('contentFrame').contentDocument;
     var sl = document.getElementById('save-section');
+    $(sl).addClass("saving");
     $(sl).fadeIn();
     $(sl).css('background-image','url(adapt/css/assets/' + toClass + '.gif)');
 }
