@@ -42,7 +42,17 @@ function getModuleId() {
 	return moduleId;
 }
 
+function setSaveClass(toClass) {
+    var frame = document.getElementById('contentFrame').contentDocument;
+    var sl = frame.getElementById('save-section');
+    $(sl).addClass('saving');
+    $(sl).fadeIn();
+    $(sl).css('background-image','url(adapt/css/assets/' + toClass + '.gif)');
+}
+
 function updateRemote() {
+    var flag = localStorage.getItem("email");
+    if (flag) { setSaveClass('cloud_saving'); }
     if(window.localStorage!==undefined) {
         send = {};
 	send.data = JSON.stringify(localStorage);
@@ -53,10 +63,12 @@ function updateRemote() {
            success: function(ret) {
 		d = new Date();
     		localStorage.setItem(moduleId+"_lastSave",d.toString());
+    		if (flag) { setSaveClass('cloud_success'); }
 	   },
 	   error: function (xhr, ajaxOptions, thrownError) {
        		console.log(xhr.status);
 		console.log(thrownError);
+    		if (flag) { setSaveClass('cloud_failed'); }
            }
         });
     } else {
