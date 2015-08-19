@@ -6,6 +6,7 @@ if (!localStorage.getItem("_id")) {
 }
 
 var moduleId = "";
+var lang = "en"
 $.getJSON("course/config.json",function(data) {
 	moduleId = data._moduleId;
 });
@@ -14,11 +15,15 @@ var id = "";
 $(document).ready(function() {
 	$.getJSON("course/config.json",function(data) {
 		moduleId = data._moduleId;
+		lang = data._defaultLanguage;
+		setValue("lang",lang);
+		setValue("theme",theme);		
 		if (moduleId == "ODI_nav"){
 			setInterval(function() {updateProgress();},5000);
 		}
 	});
 });
+
 
 function updateProgress() {
 //	var frame = document.getElementById('contentFrame').contentDocument;
@@ -66,8 +71,6 @@ function updateRemote() {
     		if (flag) { setSaveClass('cloud_success'); }
 	   },
 	   error: function (xhr, ajaxOptions, thrownError) {
-       		console.log(xhr.status);
-		console.log(thrownError);
     		if (flag) { setSaveClass('cloud_failed'); }
            }
         });

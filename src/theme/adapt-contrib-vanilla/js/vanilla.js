@@ -4,6 +4,7 @@ define(function(require) {
 
 });
 
+var theme = "ODI";
 var interval; 
 $(document).ready(function() {
 	interval = setInterval(function() { checkState(); },5000);
