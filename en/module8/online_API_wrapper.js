@@ -4,7 +4,7 @@ if (!localStorage.getItem("_id")) {
   		window.localStorage.setItem("_id",data);
 	});
 }
-	
+
 var moduleId = "";
 $.getJSON("course/config.json",function(data) {
 	moduleId = data._moduleId;
