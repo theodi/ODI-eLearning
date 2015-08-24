@@ -1,0 +1,10 @@
+#!/bin/bash
+cd deploy/eu/
+git rm -r *
+cd ../../
+cp -r modules/eu/* deploy/eu/
+cd deploy/eu
+git add *
+git commit -a -m "deploying new EU version"
+git push -u origin gh-pages
+cd ../../
