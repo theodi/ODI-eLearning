@@ -1,5 +1,10 @@
 #!/bin/bash
 # USAGE ./build-odi-all en
+if [ -z $1 ]
+then
+	echo "Specify a language you idiot!"
+	exit
+fi
 for i in `seq 1 13`;
 do
 	./bin/build-odi module$i $1

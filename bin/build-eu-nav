@@ -1,5 +1,10 @@
 #!/bin/bash
 # Syntax ./bin/build-eu-nav en
+if [ -z $1 ]
+then
+	echo "Specify a language you idiot!"
+	exit
+fi
 OUTPATH=modules/eu/
 echo "retriving navigation branch"
 echo ""

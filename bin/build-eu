@@ -1,5 +1,17 @@
 #!/bin/bash
 # Syntax ./bin/build-odi module1 en
+if [ -z $1 ]
+then
+	echo "Specify a module you idiot!"
+	echo "./bin/build module_id language"
+	exit
+fi
+if [ -z $2 ]
+then
+	echo "Specify a language you idiot!"
+	echo "./bin/build module_id language"
+	exit
+fi
 OUTPATH=modules/eu
 echo "Retriving module"
 git --git-dir=.module checkout $1
