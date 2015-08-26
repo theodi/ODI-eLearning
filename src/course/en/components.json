@@ -27,7 +27,7 @@
         "_layout":"left",
         "title":"Why do we need to license?",
         "displayTitle":"Why do we need to license?",
-        "body":"<p>In order for data to be open, it should be accessible (this usually means being published online) and licensed for anyone to access, use and share.</p><h5>In this module we’ll explore the following:</h5><ul class='ticks'><li>Why open data needs to be licensed</li><li>How licences unlock the value of open data</li><li>What type of licence suits open data?</li><li>How to provide for open data licensing in the tender, procurement and contracting lifecycle</li></ul>",
+        "body":"<p>In order for data to be open, it should be accessible (this usually means being published online) and licensed for anyone to access, use and share.</p><h5>In this module we’ll explore the following:</h5><ul class='ticks'><li>Why open data needs to be licensed</li><li>How licences unlock the value of open data</li><li>What type of licence suits open data?</li><li>How to provide for open data licensing in the tender, procurement and contracting lifecycle</li></ul><p>Even in cases where data has been made available as a public domain dedication without conditions on reuse, an explicit statement is required together with the data to provide users with legal clarity.</p>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
@@ -93,8 +93,8 @@
         "_type":"component",
         "_layout": "full",
         "_component": "dynamic-narrative",
-        "title": "Unlocking the value in open data",
-        "displayTitle": "Unlocking the value in open data",
+        "title": "Benefits of open data licensing",
+        "displayTitle": "Benefits of open data licensing",
         "body": "Licensing gives permission to businesses, startups, governments and individuals to innovate with open data.",
         "instruction": "<em class='desktop-instruction'>Click the forward arrow for more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
         "_items": [
@@ -255,9 +255,9 @@
           "body": "<p>Creative Commons licences are widely used for open content. Version 4.0 explicitly considers data licensing.</p><p>There are three Creative Commons versions of an open licence:</p><ul><li><strong>Public domain: (CC0)</strong></li><li><strong>Attribution: (CC-BY v4.0)</strong></li><li><strong>Attribution & share-alike: (CC-BY-SA v4.0)</strong></li></ul><p>The public domain and attribution licences give most flexibility in the use of data while a share-alike licence may limit the commercial use of the data.<br /><a href='https://creativecommons.org/publicdomain/zero/1.0/' target='_blank'>Show me a Public Domain licence</a><br><a href='https://creativecommons.org/licenses/by/4.0/' target='_blank'>Show me an Attribution licence</a><br><a href='https://creativecommons.org/licenses/by-sa/4.0/' target='_blank'>Show me an Attribution & share-alike licence</a></p><p>You can choose a licence that works for you at the Creative Commons website:<br><a href='https://creativecommons.org/choose/' target='_blank'>Show me how to make my own Creative Commons licence</a></p>"
         },
         {
-          "alt": "Bespoke licences",
-          "title": "Bespoke licences",
-          "body": "<p>Bespoke licences can increase the complexity for users of open data.</p><p>They may introduce specific conditions that limit usage, restrict data integration and, in some cases, are difficult for re-users to comply with.</p>"
+          "alt": "Bespoke/Custom-made licences",
+          "title": "Bespoke/Custom-made licences",
+          "body": "<p>A bespoke or custom-made licence is a creation of the data publisher which introduces specific conditions with which the user must comply. Bespoke or custom-made licences can be written by the publisher or adapted from a standard licence through the addition of new conditions and/or the modification of existing ones</p><p>Bespoke and custom-made licences can increase the complexity for users of open data.</p><p>They may introduce specific conditions that limit usage, restrict data integration and, in some cases, are difficult for re-users to comply with.</p>"
         },
         {
           "alt": "Open government licences",
@@ -296,7 +296,7 @@
             },
             {
                 "title": "Including open data in contracts",
-                "body": "<p>To ensure that data collected and used by contractors is also published as open data, an organisation can:</p><ul><li>include this as a condition in the contract.</li><li>retain ownership of the data to publish it as open data themselves.</li></ul>",
+                "body": "<p>To ensure that data collected and used by contractors is also published as open data, an organisation can:</p><ul><li>include this as a condition in the contract.</li><li>retain ownership of the data to publish it as open data themselves.</li></ul><p><a href='https://theodi.org/guides/reusers-guide-open-data-licensing' target='_blank'>Take me to a guide on licensing</a></p>",
                 "_graphic": {
                     "src": "course/en/images/odi-10.jpg",
                     "alt": "Including open data in contracts",
