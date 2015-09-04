@@ -81,7 +81,6 @@ function updateLanguageSwitcher() {
         $(".dropdown dd ul li a").click(function() {
                 var clickedValue = $(this).parent().attr("class");
                 var clickedTitle = $(this).find("em").html();
-		console.log('clicked ' + clickedValue);
                 $("#target dt").removeClass().addClass(clickedValue);
                 $("#target dt em").html(clickedTitle);
                 $languageList.hide();
@@ -101,7 +100,6 @@ function createDropDown(){
 	source.removeAttr("autocomplete");
 	var selected = source.find('[title="'+lang+'"]');
 	var options = $("option", source);
-	console.log(selected.val());
 	$("#country-select").append('<dl id="target" class="dropdown"></dl>')
 		$("#target").append('<dt class="' + selected.val() + '"><a href="#" style="display: inline;"><span class="flag"></span><em>' + selected.text() + '</em></a></dt>')
 		$("#target").append('<dd><ul></ul></dd>')
