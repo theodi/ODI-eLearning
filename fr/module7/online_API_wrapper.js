@@ -67,6 +67,7 @@ function updateRemote() {
            data: send,
            success: function(ret) {
 		d = new Date();
+    		localStorage.setItem("ODI_lastSave",d.toString());
     		localStorage.setItem(moduleId+"_lastSave",d.toString());
     		if (flag) { setSaveClass('cloud_success'); }
 	   },
@@ -86,11 +87,25 @@ function fetchRemote() {
 	return $.getJSON( url , function() {
 	})
 	.done(function(data) {
-		localStorage.clear;
-		$.each(data, function(key, value) {
-    			localStorage.setItem(key,value);
-		});
-		window.location.href=location.protocol + '//' + location.host + location.pathname;
+		var update = false;
+		if (localStorage.getItem("_id") != id) {
+			localStorage.clear();
+			update = true;
+			console.log("new data from remote");
+		} else {
+			lastGlobalSave = data["ODI_lastSave"];
+			localSave = localStorage.getItem("ODI_lastSave");
+			if (lastGlobalSave > localSave) {
+				update = true;
+				console.log("Updating data from remote");
+			}
+		}
+		if (update) {
+			$.each(data, function(key, value) {
+				localStorage.setItem(key,value);
+			});
+			window.location.href=location.protocol + '//' + location.host + location.pathname;
+		}
 	})
 	.fail(function() {
 		console.log("Failed to load data");
@@ -152,7 +167,12 @@ var QueryString = function () {
 }();
 
 id = QueryString.id;
-fetchRemote();
+if (typeof id != "undefined") {
+	fetchRemote();
+} else {
+	id = localStorage.getItem("_id");
+	fetchRemote();
+}
 
 
 var API = {
