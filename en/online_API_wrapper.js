@@ -207,8 +207,7 @@ var API = {
 id = QueryString.id;
 if (typeof id != "undefined") {
 	fetchRemote();
-}
-if (!localStorage.getItem("_id")) {
+} else if (!localStorage.getItem("_id")) {
   	$.get( api_url + "create_id.php", function( data ) {
   		window.localStorage.setItem("_id",data);
 	});
