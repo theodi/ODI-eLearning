@@ -6,7 +6,7 @@ if (!localStorage.getItem("_id")) {
 }
 
 var moduleId = "";
-var lang = "en"
+var lang = ""
 $.getJSON("course/config.json",function(data) {
 	moduleId = data._moduleId;
 });
@@ -16,12 +16,12 @@ $(document).ready(function() {
 	$.getJSON("course/config.json",function(data) {
 		moduleId = data._moduleId;
 		lang = data._defaultLanguage;
-		setValue("lang",lang);
-		setValue("theme",theme);		
+		setRawValue("lang",lang);
 		if (moduleId == "ODI_nav"){
 			setInterval(function() {updateProgress();},5000);
 		}
 	});
+	setTimeout(function() {setRawValue("theme",theme)},1000);
 });
 
 
@@ -98,12 +98,23 @@ function fetchRemote() {
 	});
 }
 
+function getRawValue(cname) {
+    value = localStorage.getItem(cname);
+    if (value) return value;
+    return "";
+}
+
 function getValue(cname) {
     module_id = getModuleId();
     cname = module_id + "_" + cname;
     value = localStorage.getItem(cname);
     if (value) return value;
     return "";
+}
+
+function setRawValue(cname,cvalue) {
+    localStorage.setItem(cname,cvalue);
+    setTimeout(function() {updateRemote();},2000);
 }
 
 function setValue(cname, cvalue) {

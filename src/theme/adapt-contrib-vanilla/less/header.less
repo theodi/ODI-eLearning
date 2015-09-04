@@ -2,6 +2,10 @@
     .article-inner {
         padding-top: 200px;
         background: url(../../course/en/images/header.jpg) no-repeat top center;
+        @media all and (max-width:(@device-width-medium - 1px)) {
+         	background: none;
+		padding: 0px;
+        }
     }
 }
 .intro-logo {
