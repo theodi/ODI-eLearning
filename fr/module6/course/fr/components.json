@@ -25,9 +25,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Mesurer le succès d’open data",
-        "displayTitle":"Mesurer le succès d’open data",
-        "body":"<p>Les initiatives d’open data réussies font plus que le simple fait de mettre les données sur le Web. Les organisation avec le plus savoir-faire concernant les données mettent en place les cadres et les politiques afin de soutenir et d’encourager l’innovation. Il faut construire les communautés d’open data et raconter les histoires réussies. Ensemble, ceux-ci aideront les gens à comprendre les bénéfices d’open data.</p><h5>Pendant le module on explorera les questions suivantes :</h5><ul class='ticks'><li>Mesurer le succès</li><li>L’approche centrée sur la demande</li><li>Rester sur la bonne voie</li></ul>",
+        "title":"Mesurer le succès de l’open data",
+        "displayTitle":"Mesurer le succès de l’open data",
+        "body":"<p>Les initiatives d’open data réussies font plus que simplement mettre les données sur le Web. Les organisation les plus pionnières dans leur utilisation de l’open data mettent en place un cadre de référence et des politiques afin de soutenir et d’encourager l’innovation. Il est important de construire des communautés d’open data et de partager les aventures qui réussissent. Ces deux aspects aideront le public à mieux comprendre les bénéfices de l’open data.</p><h5>Dans ce module, nous allons explorer les points suivants :</h5><ul class='ticks'><li>Mesurer les résultats</li><li>Avoir une approche centrée sur la demande</li><li>Rester sur la bonne voie</li></ul>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
@@ -40,9 +40,9 @@
     "_component":"iFrame-vimeo",
     "_classes":"",
     "_layout":"full",
-        "title":"Une comparaison des initiatives d’open data - dans 2 minutes",
-        "displayTitle": "Une comparaison des initiatives d’open data - dans 2 minutes",
-        "body": "Directrice du développement chez l’ODI, Liz Carolan explique les façons clés dans lesquelles on mesure la réussite des initiatives d’open data, ce qui constitue une approche centrée sur la demande et comment les indicateurs de performance ajoutent la valeur aux initiatives d’open data.",
+        "title":"Une comparaison d’initiatives d’open data - en 2 minutes",
+        "displayTitle": "Une comparaison d’initiatives d’open data - en 2 minutes",
+        "body": "Directrice du développement à l’ODI, Liz Carolan explique les méthodes clés pour mesurer la réussite d’initiatives d’open data, ce qui constitue une approche centrée sur la demande et dans quelle mesure les indicateurs de performance ajoutent de la valeur aux initiatives d’open data.",
         "instruction": "",
         "_setCompletionOn":"ended",
         "_source": "https://player.vimeo.com/video/129197044",
@@ -84,7 +84,7 @@
         "_layout":"left",
         "title":"Mesurer le succès",
         "displayTitle":"Mesurer le succès",
-        "body":"<p>En évaluant la réussite d’une initiative d’open data, il est important de ne pas se limiter à la quantité de données publiées, mais mettre l’accent sur la demande des données.</p><p>Le Baromètre d’open data fournit un indice globale pour la comparaison du progrès des pays. Il utilise trois indicateurs clés:  l’empressement, la mise en œuvre et l’impact.<br /><a href='http://barometer.opendataresearch.org/' target='_blank'>Lien vers le Baromètre d’open data</a></p>"
+        "body":"<p>Lorsqu’on évalue la réussite d’une initiative d’open data, il est important de ne pas se limiter à la quantité de données publiées, mais de se concentrer sur la demande en données.</p><p>L’Open Data Barometer (Baromètre des données ouvertes) fournit une mesure globale pour comparer le progrès des pays. Il utilise trois indicateurs clés: la disponibilité opérationnelle, l’implémentation et l’impact.<br /><a href='http://barometer.opendataresearch.org/' target='_blank'>Lien vers le Baromètre d’open data</a></p>"
     },
      {
         "_id": "c-25",
@@ -93,14 +93,14 @@
         "_type":"component",
         "_layout": "full",
         "_component": "narrative",
-        "title": "La critère pour mesure le succès",
-        "displayTitle": "La critère pour mesure le succès",
-        "body": "Il y a 3 indicateurs de performance clés pour comparer et mesurer les initiatives d’open data réussies. Le baromètre d’open data fournit plus de détails de tous ces indicateurs.",
+        "title": "Critères pour mesurer le succès",
+        "displayTitle": "Critères pour mesurer le succès",
+        "body": "Il y a trois indicateurs clés de performance pour comparer et mesurer les initiatives d’open data réussies. Le baromètre d’open data fournit plus de détails sur tous ces indicateurs.",
         "instruction": "<em class='desktop-instruction'>Cliquez sur la flèche pour plus de détail.</em><em class='mobile-instruction'>Cliquez sur la flèche pour plus de détail.</em>",
         "_items": [
             {
-                "title": "L’empressement pour l’open data",
-                "body": "<p>Jusqu’à quelle étendue est une organisation ou un pays prêts à soutenir une initiative d’open data ? Les suivants sont des indicateurs importants de la l’empressement.<li>La compatabilité des licences ouvertes</li><li>L’établissement des politiques et procédures</li><li>Les investissements existants</li><li>La disponilité du soutien éducatif</li><li>L'existence de l’engagement vaste</li></ul>",
+                "title": "Disponibilité opérationnelle pour l’open data",
+                "body": "<p>Dans quelle mesure une organisation ou un pays sont-ils prêts à soutenir une initiative d’open data ? Les points suivants sont d’importants indicateurs pour juger de la disponibilité opérationnelle :<li>Soutien des licences ouvertes</li><li>Politiques et procédures en place</li><li>Investissements existants</li><li>Soutien éducatif disponible</li><li>Engagement au sens large</li></ul>",
                 "_graphic": {
                     "src": "course/fr/images/odi-2-narrative_large.jpg",
                     "alt": "Readiness",
@@ -112,8 +112,8 @@
                 "strapline": "Readiness"
             },
             {
-                "title": "La mise en œuvre d’open data",
-                "body": "<p>De nos jours les données sont aussi importantes que les rues ou l’accès à Internet en regard de l’infrastructure nationale. En ce qui concerne les organismes publics et les gouvernements, il y a certaines séries de données dont la ouverture soutiendrait l’innovation, créerait de nouvelle valeur et contribuerait à la croissance d’économie.</p><p>Les organisations commerciales devraient penser auxquelles séries de données sont les plus utiles pour rehausser leur entreprises et trouver les nouvelles opportunités du marché.</p>",
+                "title": "L’implémentation de l’open data",
+                "body": "<p>De nos jours, les données sont aussi importantes pour notre infrastructure nationale que les routes ou l’accès à Internet. En ce qui concerne les organismes publics et les gouvernements, l’ouverture de certains ensembles de données soutiendrait l’innovation, génèrerait de la valeur et contribuerait à la croissance économique.</p><p>Les organisations commerciales devraient aussi privilégier les ensembles de données les plus utiles pour faire progresser leur entreprise et trouver de nouveaux débouchés commerciaux.</p>",
                 "_graphic": {
                     "src": "course/fr/images/odi-3-narrative_large.jpg",
                     "alt": "Implementation",
@@ -125,8 +125,8 @@
                 "strapline": "Implementation"
             },
             {
-                "title": "L’impact d’open data",
-                "body": "<p>Quels sont les avantages tangibles et réels d’open data pour les utilisateurs ?</p><p>Sans l’évidence de l’impact, il est moins probable que les communautés développent autour des données, donc l’innovation est nettement moins repandue. Les suivants sont des indicateurs importants de l’impact.</p><ul><li>Plaidoyer pour l’open data</li><li>La croissance économique avancée par l’open data</li><li>Les avantages sociales et écologiques</li></ul>",
+                "title": "L’impact de l’open data",
+                "body": "<p>Quels sont les vrais avantages tangibles de l’open data pour ses utilisateurs ?</p><p>Sans preuve tangibles de l’impact de l’open data, il est moins probable que des communautés se forment autour des données, ce qui limiterait le potentiel d’innovation. Les points suivants sont d’importants indicateurs quant à l’impact de l’open data:</p><ul><li>Mobilisation en faveur de l’open data</li><li>Une croissance économique liée à l’open data</li><li>Avantages sociaux et environnementaux</li></ul>",
                 "_graphic": {
                     "src": "course/fr/images/odi-4-narrative_large.jpg",
                     "alt": "Impact",
@@ -167,35 +167,35 @@
       "_component":"accordion",
       "_classes":"",
       "_layout":"left",
-      "title": "Centrer sur la demande de l’open data",
-      "displayTitle": "Centrer sur la demande de l’open data",
-      "body": "<p>L’approche centrée sur la demande donne la priorité aux besoins de l’utilisateur au lieu de ceux de la maison d’éditions.</p><p>L’open data centré sur la demande facilite aussi des autres avantages.</p>",
+      "title": "Se concentrer sur la demande en open data",
+      "displayTitle": "Se concentrer sur la demande en open data",
+      "body": "<p>Une approche centrée sur la demande donne la priorité aux besoins de l’utilisateur plutôt qu’aux besoins de ceux qui publient des données.</p><p>L’open data centré sur la demande permet aussi d’autres avantages.</p>",
       "instruction": "<em>Cliquez sur les titres pour plus de détail.</em>",
       "_items": [
         {
-          "alt": "L’open data en tant qu’éducateur",
-          "title": "L’open data en tant qu’éducateur",
-          "body": "<p>Les données, pas seulement l’open data, font partie d’un aspect clé de beaucoup d’emplois. Cependant, tout le monde n’a pas les compétences nécessaires à gérer, nettoyer et interpréter les données.</p><p>L’open data crée des nouvelles opportunités d’élever les niveaux de l’éducation aux données parmi la main-d’œuvre en sensibilisant le public des competences des données.</p>"
+          "alt": "L’open data comme outil pédagogique",
+          "title": "L’open data comme outil pédagogique",
+          "body": "<p>Toutes les données, et pas seulement celles dites ‘ouvertes’, font partie intégrante de nombreux emplois. Cependant, tout le monde n’a pas les compétences nécessaires pour gérer, nettoyer et interpréter les données.</p><p>L’open data crée de nouvelles opportunités pour améliorer la capacité à interpréter des données dans le monde du travail en sensibilisant le public aux compétences liées aux données.</p>"
         },
         {
-          "alt": "Pemettre de l’innovation avec l’open data.",
-          "title": "Pemettre de l’innovation avec l’open data.",
-          "body": "<p>L’open data est un instrument clé de l’innovation ouverte.</p><p>L’ouverture des données peut encourager la communication à l’interieur d’une organisation ainsi qu’avec des groupes externes.</p><p>Plume Labs, un start-up français combine l’open data au sujet de la qualité de l’air avec un système de monitorage et des visulisations avancés pour fournir la dernière version des indicateurs de la pollution atmosphérique en 18 villes européennes.<br /><a href='https://www.plumelabs.com/' target='_blank'>Lien vers Plume Labs</a></p>"
+          "alt": "Faciliter l’innovation avec l’open data.",
+          "title": "Faciliter l’innovation avec l’open data.",
+          "body": "<p>L’open data est un instrument clé de l’innovation ouverte.</p><p>L’ouverture des données peut encourager la communication au sein d’une organisation ainsi qu’avec des groupes externes.</p><p>Plume Labs, une start-up française, combine l’open data sur la qualité de l’air à des images et à un dispositif de surveillance avancés et publie les derniers indicateurs de pollution atmosphérique de 18 villes européennes.<br /><a href='https://www.plumelabs.com/' target='_blank'>Lien vers Plume Labs</a></p>"
         },
         {
-          "alt": "Enrichir le commerce grâce à l’open data ",
-          "title": "Enrichir le commerce grâce à l’open data ",
-          "body": "<p>En ce qui concerne les entreprises, l’open data peut améliorer les relations avec les consommateurs et ouvrir les nouveaux canals de clients.</p><p>Thomson Reuteurs ouvre les métadonnées pour que les données soient facile à trouver, accéder et utiliser.<br /><a href='http://site.thomsonreuters.com/site/data-identifiers/' target='_blank'>Lien vers le site Web de Thomson Reuteurs</a></p>"
+          "alt": "Améliorer les pratiques commerciales grâce à l’open data",
+          "title": "Améliorer les pratiques commerciales grâce à l’open data",
+          "body": "<p>L’open data peut améliorer les relations avec les consommateurs et ouvrir de nouvelles voies avec la clientèle.</p><p>Thomas Reuteurs a ouvert ses métadonnées pour que en rendre les données découvrables, faciles à accéder et à utiliser.<br /><a href='http://site.thomsonreuters.com/site/data-identifiers/' target='_blank'>Lien vers le site Web de Thomson Reuteurs</a></p>"
         },
         {
-          "alt": "Open data en tant qu’agent de changement",
-          "title": "Open data en tant qu’agent de changement",
-          "body": "<p>L’open data a le pouvoir de mettre en place les changements sociaux.</p><p>Par exemple, le gouvernement suisse trouve qu’une ouverture de leurs données de la sécurité des transports donnes aux gens plus de clarité autor des incidents. La cartographie des informations fournit une façon plus interactive dans laquelle ils peuvent s’engager.<br /><a href='http://unfallkarte.ch/en/' target='_blank'>Lien vers la carte des incidents suisse</a></p>"
+          "alt": "L’open data comme agent de changement",
+          "title": "L’open data comme agent de changement",
+          "body": "<p>L’open data a le pouvoir de susciter d’importants changements au sein de la société.</p><p>Ainsi, le gouvernement suisse a constaté qu’en ouvrant ses données sur la sécurité des transports, il offrait plus de transparence au public quant aux accidents. Le fait de cartographier ces informations permet un engagement plus interactif.<br /><a href='http://unfallkarte.ch/en/' target='_blank'>Lien vers la carte des incidents suisse</a></p>"
         },
         {
-          "alt": "L’open data en tant qu’un champion de la communauté",
-          "title": "L’open data en tant qu’un champion de la communauté",
-          "body": "<p>L’open data soutient les communautés communiquer entre eux.</p><p>mySociety a créé FixMyStreet qui permet aux résidents de partager les problèmes concernant leur région locale sous la forme d’open data et de créer les résolutions communes.<br /><a href='https://www.fixmystreet.com/' target='_blank'>Lien vers le programme de FixMyStreet</a></p>"
+          "alt": "L’open data, un soutien à la communauté",
+          "title": "L’open data, un soutien à la communauté",
+          "body": "<p>L’open data aide les communautés à mieux communiquer entre elles.</p><p>mySociety a lancé FixMyStreet, une application qui permet aux résidents de partager les problèmes locaux sous forme de données ouvertes et de créer des résolutions partagées.<br /><a href='https://www.fixmystreet.com/' target='_blank'>Lien vers le programme de FixMyStreet</a></p>"
         }
       ],
       "_pageLevelProgress": {
@@ -211,12 +211,12 @@
         "_component": "narrative",
         "title": "Rester sur la bonne voie",
         "displayTitle": "Rester sur la bonne voie",
-        "body": "Les indicateurs de performance clés s’assurent que les initiatives d’open data restent sur la bonne voie.",
+        "body": "Des indicateurs clés de performance permettent de s’assurer que les initiatives d’open data restent sur la bonne voie.",
         "instruction": "<em class='desktop-instruction'>Cliquez sur la flèche pour plus de détail.</em><em class='mobile-instruction'>Cliquez sur la flèche pour plus de détail.</em>",
         "_items": [
             {
                 "title": "Gérer le progrès",
-                "body": "<p>Les indicateurs de performance clés (en anglais Key Performance Indicators - KPI) aident à gérer le processus des initiatives d’open data.</p><p>On devrait fixer les KPI pour mesurer l’empressement pour l’open data, la mise en œuvre et l’impact.</p>",
+                "body": "<p>Les indicateurs clés de performance (en anglais Key Performance Indicators - KPIs) aident à gérer le processus des initiatives d’open data.</p><p>Il est conseiller d’implémenter des KPIs pour mesurer la disponibilité opérationnelle, l’implémentation et l’impact de l’open data.</p>",
                 "_graphic": {
                     "src": "course/fr/images/odi-6-narrative_large.jpg",
                     "alt": "Process management",
@@ -228,8 +228,8 @@
                 "strapline": "Process management"
             },
             {
-                "title": "L’accent sur l’utilisateur",
-                "body": "<p>Les initiatives d’open data les plus réussies mettent l’accent sur tous les indicateurs de performance (KPI) au même temps.</p><p>Il est mieux de ne pas retarder l’engagement avec les utilisateurs en développant les politiques et la demande dès le départ.</p><p>Les initiatives réussies mettent l’accent tout d’abord sur les utilisateurs afin de construire les communautés, de les éduquer et de rationaliser l’offre pour l’accès efficace à l’open data, même les données imparfaites, pour maximiser la valeur.</p><p>La Suède a un programme d’open data établi avec la gestion de management forte et l’accent gros sur l’utilisateur.<br /><a href='(http://theodi.github.io/open-data-barometer-viz/' target='_blank'>Lien vers le baromètre d’open data de la Suède</a></p>",
+                "title": "Se centrer sur l’utilisateur",
+                "body": "<p>Les initiatives d’open data les plus réussies prennent en compte tous les indicateurs clés de performance (KPIs) à la fois.</p><p>L’idéal et d’avoir développé les politiques et le stock de données dès le départ afin de ne pas retarder l’engagement avec les utilisateurs.</p><p>Les initiatives réussies se concentrent d’abord sur les utilisateurs afin de construire des communautés, de les éduquer et de rationaliser l’offre pour que l’accès aux données, même imparfaites, puisse se faire rapidement afin d’en maximiser la valeur.</p><p>La Suède bénéficie d’un programme d’open data bien établi doté d’une forte gestion des processus et entièrement centré sur l’utilisateur.<br /><a href='(http://theodi.github.io/open-data-barometer-viz/' target='_blank'>Lien vers le baromètre d’open data de la Suède</a></p>",
                 "_graphic": {
                     "src": "course/fr/images/odi-7-narrative_large.jpg",
                     "alt": "User focused",
@@ -270,9 +270,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Êtes-vous prêt(e) pour la réussite d’open data ?",
-        "displayTitle":"Êtes-vous prêt(e) pour la réussite d’open data ?",
-        "body":"<p>Rapellez-vous les indicateurs clés d’une initiative d’open data réussie ?</p>",
+        "title":"Êtes-vous prêt(e) pour le succès de l’open data ?",
+        "displayTitle":"Êtes-vous prêt(e) pour le succès de l’open data ?",
+        "body":"<p>Saurez-vous reconnaître les indicateurs clés d’une initiative d’open data réussie ?</p>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
@@ -309,27 +309,27 @@
         "_selectable":1,
         "title": "Mesures du succès",
         "displayTitle": "Mesures du succès",
-        "body": "<p>Les 3 critères clés pour comparer et mesurer les initiatives d’open data réussies sont:</p>",
-        "instruction": "<em>Choisissez votre réponse et puis cliquez sur ‘Soumettre’.</em>",
+        "body": "<p>Les trois critères clés pour comparer et mesurer les initiatives d’open data réussies sont...</p>",
+        "instruction": "<em>Choisissez votre réponse et puis cliquez sur ‘Valider’.</em>",
         "_items": [
             {
                 "text": "la validité, l’ouverture et l’utilité.",
                 "_shouldBeSelected": false
             },
             {
-                "text": "l’empressement, la mise en œuvre et l’impact.",
+                "text": " la disponibilité opérationnelle, l’implémentation et l’impact.",
                 "_shouldBeSelected": true
             },
             {
-                "text": "la pertinence, la fonctionnalité et la cohérence.",
+                "text": " la pertinence, la fonctionnalité et la cohérence.",
                 "_shouldBeSelected": false
             }
         ],
         "_feedback":{
-            "correct":"<h5>Vous avez raison !</h5><p>The capacity to implement a successful initiative and derive benefits from it.  Which important data is available and what variety and type of new value is being created?</p>",
+            "correct":"<h5>Vous avez raison !</h5><p>La capacité de mettre en œuvre une initiative réussie et d'en tirer des avantages. Quelles sont les données importantes sont disponibles et quelle variété et le type de nouvelle valeur est créée?</p>",
             "_incorrect": {
-                "notFinal": "<h5>Êtes vous sûr(e) ? </h5><p>The capacity to implement a successful initiative and derive benefits from it.  Which important data is available and what variety and type of new value is being created?</p>",
-                "final": "<h5>Êtes vous sûr(e) ? </h5><p>The capacity to implement a successful initiative and derive benefits from it.  Which important data is available and what variety and type of new value is being created?</p>"
+                "notFinal": "<h5>Êtes vous sûr(e) ? </h5><p>La capacité de mettre en œuvre une initiative réussie et d'en tirer des avantages. Quelles sont les données importantes sont disponibles et quelle variété et le type de nouvelle valeur est créée?</p>",
+                "final": "<h5>Êtes vous sûr(e) ? </h5><p>La capacité de mettre en œuvre une initiative réussie et d'en tirer des avantages. Quelles sont les données importantes sont disponibles et quelle variété et le type de nouvelle valeur est créée?</p>"
             },
             "_partlyCorrect": {
                 "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
@@ -337,7 +337,7 @@
           }
         },
         "_buttons":{
-            "submit":"Soumettre",
+            "submit":"Valider",
             "reset":"",
             "showCorrectAnswer":"",
             "hideCorrectAnswer":""
@@ -377,35 +377,35 @@
         "_selectable":3,
         "title": "Focaliser sur la demande",
         "displayTitle": "Focaliser sur la demande",
-        "body": "<p>Quels sont les 3 indicateurs d’une approche d’open data centrée sur la demande ?</p>",
-        "instruction": "<em>Choisissez votre 3 réponses et puis cliquez sur ‘Soumettre’</em>",
+        "body": "<p>Quels sont les trois indicateurs d’une approche d’open data centrée sur la demande ?</p>",
+        "instruction": "<em>Choisissez votre 3 réponses et puis cliquez sur ‘Valider’</em>",
         "_items": [
             {
-                "text": "L’open data en tant qu’éducateur.",
+                "text": "L’open data, un outil pédagogique.",
                 "_shouldBeSelected": true
             },
             {
-                "text": "L’open data en tant qu’instrument de l’innovation.",
+                "text": "L’open data, facilitateur d’innovation.",
                 "_shouldBeSelected": true
             },
             {
-                "text": "Une quantité grande des données.",
+                "text": "Une grande quantité de données.",
                 "_shouldBeSelected": false
             },
             {
-                "text": "L’open data en tant que champion de la communauté.",
+                "text": "L’open data, un soutien à la communauté.",
                 "_shouldBeSelected": true
             },
             {
-                "text": "Encourager un programme de big data..",
+                "text": "Faciliter un programme de big data.",
                 "_shouldBeSelected": false
             }
         ],
         "_feedback":{
-            "correct":"<h5>Vous avez raison !</h5><p>A demand-focused approach improves data literacy, enable innovation and support communities.</p>",
+            "correct":"<h5>Vous avez raison !</h5><p>Une approche axée sur la demande améliore l'alphabétisation de données, permettre aux communautés d'innovation et de soutien.</p>",
             "_incorrect": {
-                "notFinal": "<h5>Êtes vous sûr(e) ? </h5><p>A demand-focused approach improves data literacy, enable innovation and support communities.</p>",
-                "final": "<h5>Êtes vous sûr(e) ? </h5><p>A demand-focused approach improves data literacy, enable innovation and support communities.</p>"
+                "notFinal": "<h5>Êtes vous sûr(e) ? </h5><p>Une approche axée sur la demande améliore l'alphabétisation de données, permettre aux communautés d'innovation et de soutien.</p>",
+                "final": "<h5>Êtes vous sûr(e) ? </h5><p>Une approche axée sur la demande améliore l'alphabétisation de données, permettre aux communautés d'innovation et de soutien.</p>"
             },
             "_partlyCorrect": {
                 "notFinal": "<h5>Êtes vous sûr(e) ? </h5><p>A demand-focused approach improves data literacy, enable innovation and support communities.</p>",
@@ -413,7 +413,7 @@
           }
         },
         "_buttons":{
-            "submit":"Soumettre",
+            "submit":"Valider",
             "reset":"",
             "showCorrectAnswer":"",
             "hideCorrectAnswer":""
@@ -453,27 +453,27 @@
         "_selectable":1,
         "title": "Rester sur la bonne voie",
         "displayTitle": "Rester sur la bonne voie",
-        "body": "<p>Les indicateurs de performance clés (en anglais Key Performance Indicators - KPI) sont une bonne méthode de :</p>",
-        "instruction": "<em>Choisissez votre réponse et puis cliquez sur ‘Soumettre’.</em>",
+        "body": "<p>Les indicateurs clés de performance (en anglais Key Performance Indicators - KPIs) sont un bon moyen de ...</p>",
+        "instruction": "<em>Choisissez votre réponse et puis cliquez sur ‘Valider’.</em>",
         "_items": [
             {
                 "text": "maintenir l’équilibre entre l’offre, la demande et l’utilisation.",
                 "_shouldBeSelected": true
             },
             {
-                "text": "calculer la taille des séries de données.",
+                "text": "calculer la taille des jeux de données.",
                 "_shouldBeSelected": false
             },
             {
-                "text": "atteindre les jalons du processus.",
+                "text": "franchir des étapes importantes lors du processus.",
                 "_shouldBeSelected": false
             }
         ],
         "_feedback":{
-            "correct":"<h5>Vous avez raison !</h5><p>KPIs are a great way to maintain the balance between the supply and demand side of an open data initiative.</p>",
+            "correct":"<h5>Vous avez raison !</h5><p>KPI sont un excellent moyen de maintenir l'équilibre entre l'offre et la demande d'une initiative de données ouvertes.</p>",
             "_incorrect": {
-                "notFinal": "<h5>Êtes vous sûr(e) ? </h5><p>KPIs are a great way to maintain the balance between the supply and demand side of an open data initiative.</p>",
-                "final": "<h5>Êtes vous sûr(e) ? </h5><p>KPIs are a great way to maintain the balance between the supply and demand side of an open data initiative.</p>"
+                "notFinal": "<h5>Êtes vous sûr(e) ? </h5><p>KPI sont un excellent moyen de maintenir l'équilibre entre l'offre et la demande d'une initiative de données ouvertes.</p>",
+                "final": "<h5>Êtes vous sûr(e) ? </h5><p>KPI sont un excellent moyen de maintenir l'équilibre entre l'offre et la demande d'une initiative de données ouvertes.</p>"
             },
             "_partlyCorrect": {
                 "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
@@ -481,7 +481,7 @@
           }
         },
         "_buttons":{
-            "submit":"Soumettre",
+            "submit":"Valider",
             "reset":"",
             "showCorrectAnswer":"",
             "hideCorrectAnswer":""
@@ -517,7 +517,7 @@
         "_layout":"left",
         "title":"Comparer et mesurer la réussite",
         "displayTitle":"Comparer et mesurer la réussite",
-        "body":"<p>Lorsqu’on fait une comparaison et mésure les initiatives d’open data, il est important d’utiliser un vaste cadre et focaliser sur la demande.</p><p>Ces mèthodes aide l’initiative à rester sur la bonne voie et émuler la réussite d’autre initiatives d’open data.</p><p>Les KPI font avancer les changements dont les organisations ont besoin pour participer d’une manière active dans la communauté d’open data.</p><p>Pendant le module prochain, on explorera comment trouver les sources durables de l’open data.</p>",
+        "body":"<p>Lorsqu’on compare et mesure les initiatives d’open data, il est important d’utiliser un vaste cadre et de rester centré sur la demande.</p><p>Ces méthodes permettent à une initiative de rester sur la bonne voie et de connaître le même succès que d’autres initiatives d’open data.</p><p>Les KPIs contribuent de faire avancer le processus de changements nécessaires au sein d’une organisation afin de participer de manière efficace à la communauté de l’open data.</p><p>Le prochain module analyse comment trouver des sources durables d’open data.</p>",
         "_pageLevelProgress": {
           "_isEnabled": true
         }

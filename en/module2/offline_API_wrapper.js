@@ -5,19 +5,28 @@ if (!localStorage.getItem("_id")) {
 	});
 }
 	
-var moduleId = "";
+var lang = ""
 $.getJSON("course/config.json",function(data) {
 	moduleId = data._moduleId;
+	lang = data._defaultLanguage;
+	setRawValue("lang",lang);
 });
 var id = "";
 
 $(document).ready(function() {
 	$.getJSON("course/config.json",function(data) {
 		moduleId = data._moduleId;
-		if (moduleId == "ODI_nav"){
+		lang = data._defaultLanguage;
+		setRawValue("lang",lang);
+		if (moduleId == "ODI_nav") {
 			setInterval(function() {updateProgress();},5000);
 		}
 	});
+	setTimeout(function() {
+		if (typeof theme !== "undefined") { 
+			setRawValue("theme",theme); 
+		}
+	},1000);
 });
 
 function updateProgress() {
@@ -94,6 +103,11 @@ function fetchRemote() {
 		window.location.href=location.protocol + '//' + location.host + location.pathname;
 	});
 }
+function getRawValue(cname) {
+    value = localStorage.getItem(cname);
+    if (value) return value;
+    return "";
+}
 
 function getValue(cname) {
     module_id = getModuleId();
@@ -101,6 +115,11 @@ function getValue(cname) {
     value = localStorage.getItem(cname);
     if (value) return value;
     return "";
+}
+
+function setRawValue(cname,cvalue) {
+    localStorage.setItem(cname,cvalue);
+    setTimeout(function() {updateRemote();},2000);
 }
 
 function setValue(cname, cvalue) {

@@ -203,8 +203,8 @@
       "_component":"accordion",
       "_classes":"",
       "_layout":"left",
-      "title": "Trouver l’open data sous la bonne format",
-      "displayTitle": "Trouver l’open data sous la bonne format",
+      "title": "Trouver l’open data sous le bon format",
+      "displayTitle": "Trouver l’open data sous le bon format",
       "body": "<p>En tant qu’utilisateur d’open data, il est important de comprendre les différents formats de données utilisés par ceux qui les publient.</p><p>Le téléchargement des données n’est pas forcément la solution la plus appropriée car il se peut que le fichier soit trop large, que les données soient mises à jour trop régulièrement ou bien qu’elles soient trop complexes à exposer comme fichier statique. Certaines données doivent être divisées en ensembles de données plus petits. On préfèrera en publier d’autres sous forme de flux ‘live’ pour s’assurer qu’elles soient toujours mises à jour.</p>",
       "instruction": "<em>Cliquez sur les titres pour plus de détail.</em>",
       "_items": [
@@ -252,8 +252,8 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Choisir la bonne forme pour l’open data ",
-        "displayTitle":"Choisir la bonne forme pour l’open data ",
+        "title":"Choisir le bon format pour l’open data ",
+        "displayTitle":"Choisir le bon format pour l’open data ",
         "body":"<p>Quand il s’agit de format d’open data, commencez par utiliser CSV.</p><p>Un fichier CSV (en anglais, ‘comma separated values’, soit valeurs séparées par des virgules), est tout simplement constitué de lignes de donnés, où chaque point de données est séparé du prochain par une virgule. Le format CSV est parfaitement adapté pour les données tabulaires et peut être facilement téléchargé ou enregistré sous des applications comme Excel, ce qui le rend accessible aux utilisateurs.</p><p>Même si le format CSV ne maintient pas le formatage ou les graphiques comme Excel, il s’agit d’un format ouvert et lisible par des machines. Le format CSV est le format le plus simple capable de supporter une vaste réutilisation de l’open data. En d’autres termes, CSV est ‘le plus petit dénominateur commun’ de l’open data et devrait être utilisé en priorité autant que possible.</p>",
         "_pageLevelProgress": {
             "_isEnabled": true
