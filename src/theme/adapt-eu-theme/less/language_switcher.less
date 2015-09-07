@@ -1,12 +1,26 @@
 #country-select {
 	position: absolute;
 	top: 18px;
-	left: 20px;
 	@media all and (max-width:(@device-width-medium - 1px)) {
 		top: 13px;
-		right: 14px;
 	}
 	width: 150px;
+}
+
+.normal {
+	left: 20px;
+	@media all and (max-width:(@device-width-medium - 1px)) {
+		left: 14px;
+	}
+}
+.save-shown {
+	left: 150px;
+	@media all and (max-width:(@device-width-medium - 1px)) {
+        	left: 105px;
+    	}	
+}
+.status-shown {
+	left: 80px;
 }
 
 /* rought form styles for when JS is disabled */

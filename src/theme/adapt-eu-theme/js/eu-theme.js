@@ -1,15 +1,30 @@
 define(function(require) {
-	
+
 	var Adapt = require('coreJS/adapt');
-	
+
 });
 
 var theme = "EU";
 var interval;
+var save_enabled = false;
+var need_email = false;
 $(document).ready(function() {
-	setTimeout(function() {updateLanguageSwitcher(); },500);
-        setTimeout(function() {$(".dropdown dt a").show();$('#country-select').show();},1000);
-        interval = setInterval(function() { checkState(); },5000);
+	setTimeout(function() {updateLanguageSwitcher(); },1000);
+	setTimeout(function() {$(".dropdown dt a").show();$('#country-select').show();},2000);
+	interval = setInterval(function() { checkState(); },5000);
+	setTimeout(function() {addListeners();},1000);	
+});
+$(document).keypress(function(e) {
+        if (e.which == 115) {
+                $(".save-section-outer").fadeIn();
+        	$("#country-select").removeClass('normal');
+        	if (need_email) {
+			$("#country-select").addClass('save-shown');
+		} else {
+			$("#country-select").addClass('status-shown');
+		}
+		save_enabled = true;
+	}
 });
 
 var moduleId = "";
@@ -17,37 +32,63 @@ $.getJSON("course/config.json",function(data) {
         moduleId = data._moduleId;
 });
 
+function addListeners() {
+	$('.save-section-outer').click(function() {
+		$('#cloud-status').slideToggle();
+	});
+}
+
 function emailSave(email) {
-        localStorage.setItem("email",email);
-        $('#save-section').fadeOut( function() {
-                $('#save-section').html("");
-                checkState();
-                interval = setInterval(function() { checkState(); },5000);
-        });
+	localStorage.setItem("email",email);
+	$('#save-section').fadeOut( function() {
+		$('#save-section').html("");
+		checkState();
+		interval = setInterval(function() { checkState(); },5000);
+        	$("#country-select").removeClass('save-shown');
+        	$("#country-select").addClass('status-shown');
+	});
 }
 
 function showSave() {
-        var email=prompt("Please enter your email...");
-        emailSave(email);
+	var email=prompt("Please enter your email...");
+	emailSave(email);
 }
 
 function checkState() {
-        var sessionEmail = localStorage.getItem("email");
-        var sessionID = localStorage.getItem("_id");
-        var lastSave = localStorage.getItem(moduleId + "_lastSave");
+	var sessionEmail = localStorage.getItem("email");
+	var sessionID = localStorage.getItem("_id");
+	var lastSave = localStorage.getItem(moduleId + "_lastSave");
 
-        if (!sessionEmail && sessionID) {
-                $('#save-section').html("<button onClick='showSave();' class='slbutton' id='saveSession'>Save Progress</button>");
-                $('#save-section').fadeIn();
-                clearInterval(interval);
-        } else {
-                if (!sessionID) { sessionID = "Unknown"; }
-                if (!lastSave) { lastSave = "Unknown"; }
-                $('#save-status').html("Module ID: " + moduleId + "<br/>Session ID: " + sessionID + "<br/>Last Save: " + lastSave);
-                $('#save-section').addClass('saving');
-                $('#save-section').fadeIn();
-        }
-
+	if (!sessionEmail && sessionID) {
+		$('#save-section').html("<button onClick='showSave();' class='slbutton' id='saveSession'>Save Progress</button>");
+		$('#save-section').fadeIn();
+		need_email = true;
+        	if (save_enabled) {
+			$("#country-select").removeClass('status-shown');
+        		$("#country-select").addClass('save-shown');
+		}
+		clearInterval(interval);
+	} else if (sessionID) {
+		if (!lastSave) { lastSave = "Unknown"; }
+		$('#save-status').html("Module ID: " + moduleId + "<br/>Session ID: " + sessionID + "<br/>Last Save: " + lastSave);
+		$('#save-section').addClass('saving');
+    		var ss = document.getElementById('cloud-status-text');
+		var toClass = "cloud_saving";
+		$(ss).html(config["_phrases"][toClass]);
+		var ssi = document.getElementById('cloud-status-img');
+		$(ssi).attr('src','adapt/css/assets/' + toClass + '.gif');
+		$('#save-section').fadeIn();
+	} else {
+    		var sl = document.getElementById('save-section');
+		var ss = document.getElementById('cloud-status-text');
+		$(sl).addClass('saving');
+		var toClass = "cloud_failed";
+		$(sl).css('background-image','url(adapt/css/assets/' + toClass + '.gif)');
+		$(ss).html(config["_phrases"][toClass]);
+		var ssi = document.getElementById('cloud-status-img');
+		$(ssi).attr('src','adapt/css/assets/' + toClass + '.gif');
+		$('#save-section').fadeIn();
+	}	
 }
 
 function updateLanguageSwitcher() {

@@ -7,15 +7,22 @@ define(function(require) {
 var theme = "ODI";
 var interval; 
 $(document).ready(function() {
-	setTimeout(function() {updateLanguageSwitcher(); },500);
-	setTimeout(function() {$(".dropdown dt a").show();$('#country-select').show();},1000);
+	setTimeout(function() {updateLanguageSwitcher(); },1000);
+	setTimeout(function() {$(".dropdown dt a").show();$('#country-select').show();},2000);
 	interval = setInterval(function() { checkState(); },5000);
+	setTimeout(function() {addListeners();},1000);	
 });
 
 var moduleId = "";
 $.getJSON("course/config.json",function(data) {
         moduleId = data._moduleId;
 });
+
+function addListeners() {
+	$('.save-section-outer').click(function() {
+		$('#cloud-status').slideToggle();
+	});
+}
 
 function emailSave(email) {
 	localStorage.setItem("email",email);
@@ -40,14 +47,27 @@ function checkState() {
 		$('#save-section').html("<button onClick='showSave();' class='slbutton' id='saveSession'>Save Progress</button>");
 		$('#save-section').fadeIn();
 		clearInterval(interval);
-	} else {
-		if (!sessionID) { sessionID = "Unknown"; }
+	} else if (sessionID) {
 		if (!lastSave) { lastSave = "Unknown"; }
 		$('#save-status').html("Module ID: " + moduleId + "<br/>Session ID: " + sessionID + "<br/>Last Save: " + lastSave);
 		$('#save-section').addClass('saving');
+    		var ss = document.getElementById('cloud-status-text');
+		var toClass = "cloud_saving";
+		$(ss).html(config["_phrases"][toClass]);
+		var ssi = document.getElementById('cloud-status-img');
+		$(ssi).attr('src','adapt/css/assets/' + toClass + '.gif');
+		$('#save-section').fadeIn();
+	} else {
+    		var sl = document.getElementById('save-section');
+		var ss = document.getElementById('cloud-status-text');
+		$(sl).addClass('saving');
+		var toClass = "cloud_failed";
+		$(sl).css('background-image','url(adapt/css/assets/' + toClass + '.gif)');
+		$(ss).html(config["_phrases"][toClass]);
+		var ssi = document.getElementById('cloud-status-img');
+		$(ssi).attr('src','adapt/css/assets/' + toClass + '.gif');
 		$('#save-section').fadeIn();
 	}	
-
 }
 
 function updateLanguageSwitcher() {
