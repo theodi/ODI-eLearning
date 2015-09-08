@@ -6,9 +6,11 @@ define(function(require) {
 
 var theme = "ODI";
 var interval; 
+var click_bind = false;
+
 $(document).ready(function() {
-	setTimeout(function() {updateLanguageSwitcher(); },500);
-	setTimeout(function() {$(".dropdown dt a").show();$('#country-select').show();},1000);
+	setTimeout(function() {updateLanguageSwitcher(); },1000);
+	setTimeout(function() {$(".dropdown dt a").show();$('#country-select').show();},2000);
 	interval = setInterval(function() { checkState(); },5000);
 });
 
@@ -17,10 +19,29 @@ $.getJSON("course/config.json",function(data) {
         moduleId = data._moduleId;
 });
 
+function addListeners() {
+	if (!click_bind) {
+		$('.save-section-outer').click(function() {
+			$('#cloud-status').slideToggle();
+		});
+		click_bind = true;
+	}
+}
+
 function emailSave(email) {
 	localStorage.setItem("email",email);
 	$('#save-section').fadeOut( function() {
-		$('#save-section').html("");
+    		var sl = document.getElementById('save-section');
+		var ss = document.getElementById('cloud-status-text');
+		$(sl).html("");
+		$(sl).addClass('saving');
+		var toClass = "cloud_saving";
+		$(sl).css('background-image','url(adapt/css/assets/' + toClass + '.gif)');
+		$(ss).html(config["_phrases"][toClass]);
+		var ssi = document.getElementById('cloud-status-img');
+		$(ssi).attr('src','adapt/css/assets/' + toClass + '.gif');
+		$(sl).fadeIn();
+		addListeners();
 		checkState();
 		interval = setInterval(function() { checkState(); },5000);
 	});
@@ -40,14 +61,25 @@ function checkState() {
 		$('#save-section').html("<button onClick='showSave();' class='slbutton' id='saveSession'>Save Progress</button>");
 		$('#save-section').fadeIn();
 		clearInterval(interval);
-	} else {
-		if (!sessionID) { sessionID = "Unknown"; }
+		click_bind = false;
+		$('.save-section-outer').unbind('click');
+	} else if (sessionID) {
 		if (!lastSave) { lastSave = "Unknown"; }
 		$('#save-status').html("Module ID: " + moduleId + "<br/>Session ID: " + sessionID + "<br/>Last Save: " + lastSave);
 		$('#save-section').addClass('saving');
+		addListeners();
+	} else {
+    		var sl = document.getElementById('save-section');
+		var ss = document.getElementById('cloud-status-text');
+		$(sl).addClass('saving');
+		var toClass = "cloud_failed";
+		$(sl).css('background-image','url(adapt/css/assets/' + toClass + '.gif)');
+		$(ss).html(config["_phrases"][toClass]);
+		var ssi = document.getElementById('cloud-status-img');
+		$(ssi).attr('src','adapt/css/assets/' + toClass + '.gif');
 		$('#save-section').fadeIn();
+		addListeners();
 	}	
-
 }
 
 function updateLanguageSwitcher() {
