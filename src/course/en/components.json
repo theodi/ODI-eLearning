@@ -376,12 +376,12 @@
         "_feedback":{
             "correct":"<h5>That’s right!</h5><p>A data catalog lists datasets that are available on the web, that do not all have to be owned by the owner of the catalog. Most catalogs are domain or subject specific in order to keep the context simpler to understand.</p>",
             "_incorrect": {
-                "notFinal": "<h5>That’s right!</h5><p>A data catalog lists datasets that are available on the web, that do not all have to be owned by the owner of the catalog. Most catalogs are domain or subject specific in order to keep the context simpler to understand.</p>",
-                "final": "<h5>That’s right!</h5><p>A data catalog lists datasets that are available on the web, that do not all have to be owned by the owner of the catalog. Most catalogs are domain or subject specific in order to keep the context simpler to understand.</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>A data catalog lists datasets that are available on the web, that do not all have to be owned by the owner of the catalog. Most catalogs are domain or subject specific in order to keep the context simpler to understand.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>A data catalog lists datasets that are available on the web, that do not all have to be owned by the owner of the catalog. Most catalogs are domain or subject specific in order to keep the context simpler to understand.</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "That’s right!</h5><p>A data catalog lists datasets that are available on the web, they do not all have to be owned by the owner of the catalog. Most catalogs are domain or subject specific in order to keep the context simpler to understand.",
-                "final": "That’s right!</h5><p>A data catalog lists datasets that are available on the web, they do not all have to be owned by the owner of the catalog. Most catalogs are domain or subject specific in order to keep the context simpler to understand.."
+                "notFinal": "Are you sure about that?</h5><p>A data catalog lists datasets that are available on the web, they do not all have to be owned by the owner of the catalog. Most catalogs are domain or subject specific in order to keep the context simpler to understand.",
+                "final": "Are you sure about that?</h5><p>A data catalog lists datasets that are available on the web, they do not all have to be owned by the owner of the catalog. Most catalogs are domain or subject specific in order to keep the context simpler to understand.."
           }
         },
         "_buttons":{
