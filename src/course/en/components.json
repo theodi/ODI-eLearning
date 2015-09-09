@@ -139,8 +139,8 @@
           "body": "<p>Redundant data is anything which is not relevant to your work with the dataset. Often a dataset has been created for a specific purpose which requires details you may not need.</p><p>Common occurrences of redundant data include rows that represent total amounts.</p><p>Other times columns of data have been combined or replicated in order to assist human readability.</p>"
         },
         {
-          "alt": "Broken numerical scales",
-          "title": "Broken numerical scales",
+          "alt": "Mixed numerical scales",
+          "title": "Mixed numerical scales",
           "body": "<p>Numerical values in datasets often use different scales to make it easier for a human to read. In budget datasets, for example, the units are often in the millions. 1200000 often becomes 1.2m. However, smaller amounts like 800000 are still written in full. For a machine, this means they read the larger figure as 1.2 which causes errors.</p>"
         },
         {
@@ -185,7 +185,7 @@
             },
             {
                 "title": "Open Refine",
-                "body": "Open Refine is a software tool designed to deal with uncleaned data. The tool is a column-based browser that allows you to fix errors across an entire open dataset in a single action. The errors that can be fixed include:</h5><ul class='bullet'><li>Date formats</li><li>Multiple representations</li><li>Duplicate records</li><li>Redundant data</li><li>Broken numerical scales</li><li>Mixed ranges</li></ul>",
+                "body": "Open Refine is a software tool designed to deal with uncleaned data. The tool is a column-based browser that allows you to fix errors across an entire open dataset in a single action. The errors that can be fixed include:</h5><ul class='bullet'><li>Date formats</li><li>Multiple representations</li><li>Duplicate records</li><li>Redundant data</li><li>Mixed numerical scales</li><li>Mixed ranges</li></ul>",
                 "_graphic": {
                     "src": "course/en/images/odi-004.jpg",
                     "alt": "Open refine",
