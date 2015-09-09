@@ -4,7 +4,7 @@ define(function(require) {
 
     var AssessmentView = Backbone.View.extend({
         initialize: function() {
-            this.listenTo(this.model, 'change:_isComplete', this.assessmentComplete);
+	    this.listenTo(Adapt, "questionView:complete", this.assessmentComplete);
             this.listenTo(Adapt, 'remove', this.removeAssessment);
             this.setUpQuiz();
         },
@@ -27,7 +27,7 @@ define(function(require) {
                 return !model.get('_isComplete');
             }
 
-            if(notComplete(this.model) || _.some(this.getQuestionComponents(), notComplete)) return;
+	    if (false || _.some(this.getQuestionComponents(), notComplete)) return;
             
             var isPercentageBased = this.model.get('_assessment')._isPercentageBased;
             var scoreToPass = this.model.get('_assessment')._scoreToPass;
@@ -39,7 +39,9 @@ define(function(require) {
                 'feedbackTitle': this.model.get('_assessment')._completionMessage.title, 
                 'score': isPercentageBased ? scoreAsPercent + '%' : score
             });
-            Adapt.trigger('questionView:showFeedback', this);
+	    if (this.model.get('_assessment')._showFeedback) {
+	            Adapt.trigger('questionView:showFeedback', this);
+	    }
 
             if (isPercentageBased) {
                 isPass = (scoreAsPercent >= scoreToPass) ? true : false; 
@@ -65,7 +67,7 @@ define(function(require) {
             this.model.get('_assessment').score = 0;
             $('.' + this.model.get('_id')).addClass('assessment');
             _.each(this.getQuestionComponents(), function(component) {
-                component.set({'_isEnabledOnRevisit': false, '_canShowFeedback': false}, {pluginName: "_assessment"});
+                component.set({'_isEnabledOnRevisit': false, '_canShowFeedback': true}, {pluginName: "_assessment"});
             });
         },
         
@@ -120,7 +122,7 @@ define(function(require) {
     });
 
     Adapt.on('articleView:postRender', function(view) {
-        if (view.model.get('_assessment') && view.model.get('_assessment')._isEnabled) {
+	if (view.model.get('_assessment') && view.model.get('_assessment')._isEnabled) {
             new AssessmentView({model:view.model});
         }
     });
