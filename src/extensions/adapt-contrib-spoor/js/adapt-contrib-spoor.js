@@ -85,6 +85,7 @@ define(function(require) {
     },
 
     onCourseComplete: function() {
+      console.log("Course complete hook");
       if(Adapt.course.get('_isComplete') === true) {
         this.set('_attempts', this.get('_attempts')+1);
       }
@@ -92,6 +93,7 @@ define(function(require) {
     },
 
     onAssessmentComplete: function(event) {
+		console.log("Checking assessment completion");
 		Adapt.course.set('_isAssessmentPassed', event.isPass)
 		
 		this.persistSuspendData();
@@ -125,13 +127,22 @@ define(function(require) {
 		scormWrapper.setSuspendData(JSON.stringify(serialiser.serialise()));
 	},
 	
-	checkTrackingCriteriaMet: function() {
+    checkTrackingCriteriaMet: function() {
+		console.log("Checking tracking criteria");
 		var courseCriteriaMet = this.data._tracking._requireCourseCompleted ? Adapt.course.get('_isComplete') : true;
-		var assessmentCriteriaMet = this.data._tracking._requireAssessmentPassed ? Adapt.course.get('_isAssessmentPassed') : true;
+		console.log("Course complete: " + Adapt.course.get('_isComplete'));
 		
+		var assessmentCriteriaMet = this.data._tracking._requireAssessmentPassed ? Adapt.course.get('_isAssessmentPassed') : true;
+		console.log("Require assessment passed?: " + this.data._tracking._requireAssessmentPassed);
+		console.log("Is assessment passed: " + Adapt.course.get('_isAssessmentPassed'));
+		console.log("Criteria met: " + assessmentCriteriaMet);		
+			
 		if(courseCriteriaMet && assessmentCriteriaMet) {
+			this.set('_suspendData', serialiser.serialise());
+			this.persistSuspendData();	
 			scormWrapper.setStatus(this.data._reporting._onTrackingCriteriaMet);
 		}
+		console.log(localStorage);
 	}
     
   });
