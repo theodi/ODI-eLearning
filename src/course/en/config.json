@@ -10,13 +10,13 @@
     "_spoor": {
         "_tracking": {
             "_requireCourseCompleted": true,
-            "_requireAssessmentPassed": true,
-            "_shouldSubmitScore": false
+            "_requireAssessmentPassed": false,
+            "_shouldSubmitScore": true
         },
         "_reporting": {
             "_comment": "Your options here are 'completed', 'passed', 'failed', and 'incomplete'",
             "_onTrackingCriteriaMet": "completed",
-            "_onAssessmentFailure": "incomplete"
+            "_onAssessmentFailure": "failed"
         }
 	},
     "_phrases": {
