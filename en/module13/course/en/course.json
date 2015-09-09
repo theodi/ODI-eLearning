@@ -1,15 +1,15 @@
 {
     "_id": "course",
     "_type": "course",
-    "title": "Discovering open data",
-    "displayTitle": "Discovering open data",
+    "title": "Linking up the web of data",
+    "displayTitle": "Linking up the web of data",
     "_buttons": {
         "submit": "Submit",
         "reset": "Reset",
         "showCorrectAnswer": "Model Answer",
         "hideCorrectAnswer": "My Answer"
     },
-    "_latestTrackingId": 11,
+    "_latestTrackingId": 10,
     "_resources": [
     {
         "title": "Resources",
@@ -53,85 +53,85 @@
         "_resourcesItems": [
             {
                 "_type": "link",
-                "title": "Main menu",
+                "_local": "true",		"title": "Main menu",
                 "description": "Main menu",
                 "_link": "../"
             },
             {
                 "_type": "link",
-                "title": "Module 1",
+                "_local": "true",		"title": "Module 1",
                 "description": "What is open data?",
                 "_link": "../module1/"
             },
             {
                 "_type": "link",
-                "title": "Module 2",
+                "_local": "true",		"title": "Module 2",
                 "description": "Unlocking value from open data",
                 "_link": "../module2/"
             },
             {
                 "_type": "link",
-                "title": "Module 3",
+                "_local": "true",		"title": "Module 3",
                 "description": "Open data. Agent of change.",
                 "_link": "../module3/"
             },
             {
                 "_type": "link",
-                "title": "Module 4",
+                "_local": "true",		"title": "Module 4",
                 "description": "Why do we need to license?",
                 "_link": "../module4/"
             },
             {
                 "_type": "link",
-                "title": "Module 5",
-                "description": "Assessing open data quality",
+                "_local": "true",		"title": "Module 5",
+                "description": "What makes quality open data?",
                 "_link": "../module5/"
             },
             {
                 "_type": "link",
-                "title": "Module 6",
-                "description": "Measuring success",
+                "_local": "true",		"title": "Module 6",
+                "description": "Measuring success for open data",
                 "_link": "../module6/"
             },
             {
                 "_type": "link",
-                "title": "Module 7",
-                "description": "Sustainability",
+                "_local": "true",		"title": "Module 7",
+                "description": "Why should we worry about sustainability?",
                 "_link": "../module7/"
             },
             {
                 "_type": "link",
-                "title": "Module 8",
-                "description": "Open data platforms",
+                "_local": "true",		"title": "Module 8",
+                "description": "Getting to grips with platforms",
                 "_link": "../module8/"
             },
             {
                 "_type": "link",
-                "title": "Module 9",
-                "description": "Open data formats",
+                "_local": "true",		"title": "Module 9",
+                "description": "Choosing the right format for open data",
                 "_link": "../module9/"
             },
             {
                 "_type": "link",
-                "title": "Module 10",
-                "description": "How usable is my data?",
+                "_local": "true",		"title": "Module 10",
+                "description": "How useful is my data?",
                 "_link": "../module10/"
             },
             {
                 "_type": "link",
-                "title": "Module 11",
-                "description": "Turning data into diamonds",
+                "_local": "true",		"title": "Module 11",
+                "description": "How to clean your data",
                 "_link": "../module11/"
             },
             {
                 "_type": "link",
-                "title": "Module 12",
-                "description": "Excavating hidden data",
+                "_local": "true",		"title": "Module 12",
+                "description": "Finding hidden data on the web",
                 "_link": "../module12/"
             },
             {
                 "_type": "link",
-                "title": "Module 13",
+                "_local": "true",		"title": "Module 13",
                 "description": "Linking up the web of data",
                 "_link": "../module13/"
             }
