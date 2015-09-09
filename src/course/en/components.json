@@ -30,7 +30,7 @@
         "_layout":"left",
         "title":"Choosing the right format for open data",
         "displayTitle":"Choosing the right format for open data",
-        "body":"<p>The format of an open dataset is the way in which the data is structured and made available for humans and machines.</p><p>Choosing the right format enables simpler management and reuse of the data. To maximise reuse of the data, it may be necessary for a publisher to use a number of formats and structures available across different platforms that suit the user’s needs.</p><h5>In this module we'll explore the following:</h5><ul class='ticks'><li>Why formats matter to open data</li><li>Choosing the correct structure</li><li>Access open data formats</li><li>Keeping it simple with CSV</li></ul>",
+        "body":"<p>The format of an open dataset is the way in which the data is structured and made available for humans and machines.</p><p>Choosing the right format enables simpler management and reuse of the data. To maximise reuse of the data, it may be necessary for a publisher to use a number of formats and structures available across different platforms that suit the user’s needs.</p><h5>In this module we'll explore the following:</h5><ul class='ticks'><li>Why formats matter to open data</li><li>Choosing the correct structure</li><li>Accessible open data formats</li><li>Keeping it simple with CSV</li></ul>",
         "_pageLevelProgress": {
             "_isEnabled": true
         }
@@ -68,12 +68,12 @@
         "_component": "narrative",
         "title": "Usability, management and access",
         "displayTitle": "Usability, management and access",
-        "body": "<p>Open data must be available for anyone to access use and share. In this section we consider what formats maximise usability of the data, ease of access for everyone and makes management simple for publishers.</p>",
+        "body": "<p>Open data must be available for anyone to access, use and share. In this section we consider what formats maximise usability of the data, ease of access for everyone and makes management simple for publishers.</p>",
         "instruction": "<em>Click the forward arrow to see more</em>",
         "_items": [
             {
                 "title": "Usability",
-                "body": "<p>The most usable format for data is likely to be one in which the dataset was first created. In many cases, this format may be a proprietary software programme like Microsoft Excel. While such programmes often have the ability to export data in other formats, their popularity can make publishing in a different format a barrier to reuse by others.</p><p>Additionally, software programmes like Excel also come with richer content, like styling on tables and graphs of data. These can all help to give context to a human who is trying to understand the data.</p>",
+                "body": "<p>The most usable format for data is likely to be one in which the dataset was first created. In many cases, this format may be a proprietary software programme like Microsoft Excel. While such programmes often have the ability to export data in other formats, their popularity can make publishing in a different format a barrier to reuse by others.</p><p>Additionally, software programmes like Excel also come with richer content, such as styling on tables and graphs of data. These can all help to give context to a human who is trying to understand the data.</p>",
                 "_graphic": {
                     "src": "course/en/images/odi-001.jpg",
                     "alt": "Usability",
@@ -86,7 +86,7 @@
             },
             {
                 "title": "Management",
-                "body": "<p>For some publishers, open data is now the main source for their data, even for staff in the publishing organisation. Using open data as a way for staff to access information inside an organisation has many benefits:</p><ul><li>Increases knowledge of team on open data.</li><li>Increases sustainability and trust of data by making it a key component of the organisation’s operations.</li><li>Creates clear opportiunities for innovation.</li></ul>",
+                "body": "<p>For some publishers, open data is now the main source for their data, even for staff in the publishing organisation. Using open data as a way for staff to access information inside an organisation has many benefits:</p><ul><li>Increases knowledge of the team on open data.</li><li>Increases sustainability and trust of data by making it a key component of the organisation’s operations.</li><li>Creates clear opportunities for innovation.</li></ul>",
                 "_graphic": {
                     "src": "course/en/images/odi-002.jpg",
                     "alt": "Management",
