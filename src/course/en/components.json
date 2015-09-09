@@ -545,9 +545,9 @@
         "_questionWeight":1,
         "_isRandom":true,
         "_selectable":1,
-        "title": "How much time should be spent cleaning and preparing data?",
-        "displayTitle": "How much time should be spent cleaning and preparing data?",
-        "body": "<p>In any given data-driven project, how much time should be spent cleaning and preparing data?</p>",
+        "title": "How much time can be spent cleaning and preparing data?",
+        "displayTitle": "How much time can be spent cleaning and preparing data?",
+        "body": "<p>In any given data-driven project, how much time can be spent cleaning and preparing data?</p>",
         "instruction": "<em>Choose one answer and click 'Submit'.</em>",
         "_items": [
             {
@@ -570,8 +570,8 @@
                 "final": "<h5>Are you sure about that? </h5><p>Evidence suggests that between 60% and 80% of a data project's time will be spent cleaning, transforming and preparing data for analysis.</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "vidence suggests that between 60% and 80% of a data projects time will be spent cleaning, transforming and preparing data for analysis.",
-                "final": "vidence suggests that between 60% and 80% of a data projects time will be spent cleaning, transforming and preparing data for analysis."
+                "notFinal": "Evidence suggests that between 60% and 80% of a data projects time will be spent cleaning, transforming and preparing data for analysis.",
+                "final": "Evidence suggests that between 60% and 80% of a data projects time will be spent cleaning, transforming and preparing data for analysis."
           }
         },
         "_buttons":{
