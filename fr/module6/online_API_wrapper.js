@@ -1,8 +1,24 @@
 var api_url = "https://odi-elearning.herokuapp.com/";
+
+function setID() {
+  	$.get( api_url + "create_id.php", function( data ) {
+  		window.localStorage.setItem("_id",data);
+	})
+	.fail( function() {
+		setTimeout(function() {setID();},10000);
+	});
+}
+
+if (!localStorage.getItem("_id")) {
+	setID();  
+}
+
 var moduleId = "";
 var lang = ""
+var config = {};
 $.getJSON("course/config.json",function(data) {
 	moduleId = data._moduleId;
+	config = data;
 });
 var id = "";
 
@@ -47,6 +63,10 @@ function setSaveClass(toClass) {
     $(sl).addClass("saving");
     $(sl).fadeIn();
     $(sl).css('background-image','url(adapt/css/assets/' + toClass + '.gif)');
+    var ss = document.getElementById('cloud-status-text');
+    $(ss).html(config["_phrases"][toClass]);
+    var ssi = document.getElementById('cloud-status-img');
+    $(ssi).attr('src','adapt/css/assets/' + toClass + '.gif');
 }
 
 function updateRemote() {
@@ -103,7 +123,7 @@ function fetchRemote() {
 	})
 	.fail(function() {
 		console.log("Failed to load data");
-		window.location.href=location.protocol + '//' + location.host + location.pathname;
+		//window.location.href=location.protocol + '//' + location.host + location.pathname;
 	});
 }
 
