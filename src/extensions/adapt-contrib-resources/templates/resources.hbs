@@ -25,7 +25,11 @@
 	</div>
 	{{#each resources}}
 	<div class="resources-item drawer-item {{_type}}">
-		<a class="resources-item-open drawer-item-open" target="_blank" href="{{_link}}">
+		{{#if _local}}
+			<a class="resources-item-open drawer-item-open" href="{{_link}}">
+		{{else}}
+			<a class="resources-item-open drawer-item-open" target="_blank" href="{{_link}}">
+		{{/if}}
 			<div class="drawer-item-title">
 				<h5 class="drawer-item-title-inner">{{{title}}}</h5>
 			</div>
