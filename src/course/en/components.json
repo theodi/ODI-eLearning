@@ -139,8 +139,8 @@
           "body": "<p>Redundant data is anything which is not relevant to your work with the dataset. Often a dataset has been created for a specific purpose which requires details you may not need.</p><p>Common occurrences of redundant data include rows that represent total amounts.</p><p>Other times columns of data have been combined or replicated in order to assist human readability.</p>"
         },
         {
-          "alt": "Broken numerical scales",
-          "title": "Broken numerical scales",
+          "alt": "Mixed numerical scales",
+          "title": "Mixed numerical scales",
           "body": "<p>Numerical values in datasets often use different scales to make it easier for a human to read. In budget datasets, for example, the units are often in the millions. 1200000 often becomes 1.2m. However, smaller amounts like 800000 are still written in full. For a machine, this means they read the larger figure as 1.2 which causes errors.</p>"
         },
         {
@@ -185,7 +185,7 @@
             },
             {
                 "title": "Open Refine",
-                "body": "Open Refine is a software tool designed to deal with uncleaned data. The tool is a column-based browser that allows you to fix errors across an entire open dataset in a single action. The errors that can be fixed include:</h5><ul class='bullet'><li>Date formats</li><li>Multiple representations</li><li>Duplicate records</li><li>Redundant data</li><li>Broken numerical scales</li><li>Mixed ranges</li></ul>",
+                "body": "Open Refine is a software tool designed to deal with uncleaned data. The tool is a column-based browser that allows you to fix errors across an entire open dataset in a single action. The errors that can be fixed include:</h5><ul class='bullet'><li>Date formats</li><li>Multiple representations</li><li>Duplicate records</li><li>Redundant data</li><li>Mixed numerical scales</li><li>Mixed ranges</li></ul>",
                 "_graphic": {
                     "src": "course/en/images/odi-004.jpg",
                     "alt": "Open refine",
@@ -241,7 +241,7 @@
             },
             {
                 "title": "Enhance usability",
-                "body": "<p>Sharing a clean open dataset will make the data more usable. Tools like Open Refine allow you to share change history which lets people know what has been cleaned and how. Making the process open as well as the data adds to the sustainability and trust a user can put in a dataset.</p><p>There are also data cleaning communities emerging such as OpenStreetMap communities and  which should be supported more actively.<br><br><a class='' href='http://wiki.openstreetmap.org/wiki/WikiProject_Denmark' target='_blank'>Take me to OSM Denmark Community Wiki</a></p>",
+                "body": "<p>Sharing a clean open dataset will make the data more usable. Tools like Open Refine allow you to share change history which lets people know what has been cleaned and how. Making the process open as well as the data adds to the sustainability and trust a user can put in a dataset.</p><p>There are also data cleaning communities emerging that could be supported more actively, such as OpenStreetMap communities.<br><br><a class='' href='http://wiki.openstreetmap.org/wiki/WikiProject_Denmark' target='_blank'>Take me to OSM Denmark Community Wiki</a></p>",
                 "_graphic": {
                     "src": "course/en/images/odi-007.jpg",
                     "alt": "Prioritise cleaning",
@@ -254,7 +254,7 @@
             },
             {
                 "title": "Discover insights",
-                "body": "<p>Many data cleaning tools, including Open Refine help you to combine and enrich datasets.</p><p>Without a clean dataset, this process will not be useful to you.</p><p>Careful preparation is essential to the success of any data-driven project.</p>",
+                "body": "<p>Many data cleaning tools, including Open Refine help you to combine and enrich datasets. This can lead to valuable insights being discovered.</p>For example, enriching a dataset that refers to businesses (by name or some other identifier) can inform you if the business is still trading and its current financial position.</p><p><a class='course_link' href='http://training.theodi.org/resources/odt/Enrichingdata.pdf' target='_blank'>Get started with enriching data</a></p>",
                 "_graphic": {
                     "src": "course/en/images/odi-008.jpg",
                     "alt": "Discover insights",
@@ -296,9 +296,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Are you ready for quality open data?",
-        "displayTitle":"Are you ready for quality open data?",
-        "body":"<p>Can you recall the practical, technical, legal and social requirements for an open dataset to be useful?</p>",
+        "title":"Are you ready to clean data?",
+        "displayTitle":"Are you ready to clean data?",
+        "body":"<p>Can you recall the reasons why data needs to be cleaned, useful tools to use and which common errors to look for in datasets?</p>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
@@ -487,7 +487,7 @@
                 "_shouldBeSelected": true
             },
             {
-                "text": "No license",
+                "text": "No licence",
                 "_shouldBeSelected": false
             },
             {
@@ -545,9 +545,9 @@
         "_questionWeight":1,
         "_isRandom":true,
         "_selectable":1,
-        "title": "How much time should be spent cleaning and preparing data?",
-        "displayTitle": "How much time should be spent cleaning and preparing data?",
-        "body": "<p>In any given data-driven project, how much time should be spent cleaning and preparing data?</p>",
+        "title": "How much time can be spent cleaning and preparing data?",
+        "displayTitle": "How much time can be spent cleaning and preparing data?",
+        "body": "<p>In any given data-driven project, how much time can be spent cleaning and preparing data?</p>",
         "instruction": "<em>Choose one answer and click 'Submit'.</em>",
         "_items": [
             {
@@ -570,8 +570,8 @@
                 "final": "<h5>Are you sure about that? </h5><p>Evidence suggests that between 60% and 80% of a data project's time will be spent cleaning, transforming and preparing data for analysis.</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "vidence suggests that between 60% and 80% of a data projects time will be spent cleaning, transforming and preparing data for analysis.",
-                "final": "vidence suggests that between 60% and 80% of a data projects time will be spent cleaning, transforming and preparing data for analysis."
+                "notFinal": "Evidence suggests that between 60% and 80% of a data projects time will be spent cleaning, transforming and preparing data for analysis.",
+                "final": "Evidence suggests that between 60% and 80% of a data projects time will be spent cleaning, transforming and preparing data for analysis."
           }
         },
         "_buttons":{
@@ -611,7 +611,7 @@
         "_layout":"left",
         "title":"Cleaning data",
         "displayTitle":"Cleaning data",
-        "body":"<p>Data cleaning is essential to ensure that when the data is used, the right conclusions are made.</p><p>Often errors are not even noticed by data publishers because the data can change over many years. In other cases, errors can be the result of human mistakes in data entry, like mistyping or incorrect abbreviations.</p><p>Be aware that cleaning may take longer than you think. A careful cleaning process will, however, save substantial time in the long-run.</p><p>Follow our data cleaning exercise to get started with Open Refine and discover how easy it is for yourself.</p><p><a class='course_link' href='http://training.theodi.org/resources/Cleaning_Exercise.pdf' target='_blank'>Get started with data cleaning in Open Refine</a>",
+        "body":"<p>Data cleaning is essential to ensure that when the data is used, the right conclusions are made.</p><p>Often errors are not even noticed by data publishers because the data can change over many years. In other cases, errors can be the result of human mistakes in data entry, like mistyping or incorrect abbreviations.</p><p>Be aware that cleaning may take longer than you think. A careful cleaning process will, however, save substantial time in the long-run.</p><p>Follow our data cleaning exercise to get started with Open Refine and discover how easy it is for yourself.</p><p><a class='course_link' href='http://training.theodi.org/resources/Cleaning_Exercise.pdf' target='_blank'>Get started with data cleaning in Open Refine</a></p>",
         "_pageLevelProgress": {
           "_isEnabled": true
         }
