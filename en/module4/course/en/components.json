@@ -84,7 +84,7 @@
         "_layout":"right",
         "title":"Why license open data?",
         "displayTitle":"Why license open data?",
-        "body":"<p>Without a licence, data is not truly open.</p><p>A licence tells anyone that they can access, use and share your data.</p><p>Unless you have a licence, data will be ‘publicly available’, but users may not have permission to access, use and share it under copyright or database laws.</p>"
+        "body":"<p>Without a licence, data is not truly open.</p><p>A licence tells anyone that they can access, use and share your data.</p><p>Unless you have a licence, data may be ‘publicly available’, but users will not have permission to access, use and share it under copyright or database laws.</p>"
     },
      {
         "_id": "c-25",
@@ -113,7 +113,7 @@
             },
             {
                 "title": "Providing clarity",
-                "body": "<p>As of 2015, only around 20% of open data catalogues across the European Union are truly open licensed.</p><p>In the EU, copyright and database laws are complex. While data might be intended to be open, a licence provides legal clarity for users.</p><p>The OpenDataMonitor platform provides information and statistics on European open data catalogues.<br /><a href='http://www.opendatamonitor.eu/frontend/web/index.php?r=datacatalogue%2Findex' target='_blank'>Take me to the OpenDataMonitor platform</a></p>",
+                "body": "<p>As of 2015, only around 46% of data in open data catalogues across the European Union is truly openly licensed.</p><p>In the EU, copyright and database laws are complex. While data might be intended to be open, a licence provides legal clarity for users.</p><p>The OpenDataMonitor platform provides information and statistics on European open data catalogues.<br /><a href='http://www.opendatamonitor.eu/frontend/web/index.php?r=datacatalogue%2Findex' target='_blank'>Take me to the OpenDataMonitor platform</a></p>",
 		"_iframe": {
                     "src": "course/en/dynamic/graph1.html",
                     "alt": "A graph of open licences across countries",
@@ -246,7 +246,7 @@
       "_layout":"left",
       "title": "Types of licences",
       "displayTitle": "Types of licences",
-      "body": "<p>The simpler the licence, the better!</p><p>There are lots of different licences. To maximise reuse, try to adopt a licence standard that is already widely used.</p>",
+      "body": "<p>The simpler the licence, the better!</p><p>There are lots of different licences. To maximise reuse, try to adopt a licence standard that is already widely used.</p><p><a href='https://theodi.org/guides/reusers-guide-open-data-licensing' target='_blank'>Take me to a guide on licensing</a></p>",
       "instruction": "<em>Click the headings to explore further.</em>",
       "_items": [
         {
@@ -257,7 +257,7 @@
         {
           "alt": "Bespoke/Custom-made licences",
           "title": "Bespoke/Custom-made licences",
-          "body": "<p>A bespoke or custom-made licence is a creation of the data publisher which introduces specific conditions with which the user must comply. Bespoke or custom-made licences can be written by the publisher or adapted from a standard licence through the addition of new conditions and/or the modification of existing ones</p><p>Bespoke and custom-made licences can increase the complexity for users of open data.</p><p>They may introduce specific conditions that limit usage, restrict data integration and, in some cases, are difficult for re-users to comply with.</p>"
+          "body": "<p>A bespoke or custom-made licence is a creation of the data publisher which introduces specific conditions with which the user must comply. Bespoke or custom-made licences can be written by the publisher or adapted from a standard licence through the addition of new conditions and/or the modification of existing ones.</p><p>Bespoke and custom-made licences can increase complexity for users of open data.</p><p>They may introduce specific conditions that limit usage, restrict data integration and, in some cases, are difficult for users to comply with.</p>"
         },
         {
           "alt": "Open government licences",
@@ -296,7 +296,7 @@
             },
             {
                 "title": "Including open data in contracts",
-                "body": "<p>To ensure that data collected and used by contractors is also published as open data, an organisation can:</p><ul><li>include this as a condition in the contract.</li><li>retain ownership of the data to publish it as open data themselves.</li></ul><p><a href='https://theodi.org/guides/reusers-guide-open-data-licensing' target='_blank'>Take me to a guide on licensing</a></p>",
+                "body": "<p>To ensure that data collected and used by contractors is also published as open data, an organisation can:</p><ul><li>include this as a condition in the contract.</li><li>retain ownership of the data to publish it as open data themselves.</li></ul><p><a href='http://training.theodi.org/Procurement/Guide/' target='_blank'>Take me to a guide on embedding open data into contracts</a></p>",
                 "_graphic": {
                     "src": "course/en/images/odi-10.jpg",
                     "alt": "Including open data in contracts",
@@ -309,7 +309,7 @@
             },
             {
                 "title": "Open data about performance",
-                "body": "<p>Performance data and data related to the formation of procured services can also be required of a contractor, to be published as open data.</p><p>Past performance data helps potential suppliers understand which parts of the contract are easy or difficult, and enables competition during the tendering process.</p>",
+                "body": "<p>Performance data and data related to how services are provided can also be required of a contractor, to be published as open data.</p><p>Past performance data helps potential suppliers understand which parts of the contract are easy or difficult, and enables competition during the tendering process.</p>",
                 "_graphic": {
                     "src": "course/en/images/odi-11.jpg",
                     "alt": "Open data about performance",
@@ -408,14 +408,14 @@
             }
         ],
         "_feedback":{
-            "correct":"<h5>That’s right!</h5><p>Without a licence, data will be ‘publicly available’, but users may not have permission to access use and share it under copyright and/or database laws.</p>",
+            "correct":"<h5>That’s right!</h5><p>Without a licence, data will be ‘publicly available’, but users may not have permission to access, use and share it under copyright and/or database laws.</p>",
             "_incorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>Without a licence, data will be ‘publicly available’, but users may not have permission to access use and share it under copyright and/or database laws.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>Without a licence, data will be ‘publicly available’, but users may not have permission to access use and share it under copyright and/or database laws.</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>Without a licence, data will be ‘publicly available’, but users may not have permission to access, use and share it under copyright and/or database laws.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>Without a licence, data will be ‘publicly available’, but users may not have permission to access, use and share it under copyright and/or database laws.</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>Without a licence, data will be ‘publicly available’, but users may not have permission to access use and share it under copyright and/or database laws.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>Without a licence, data will be ‘publicly available’, but users may not have permission to access use and share it under copyright and/or database laws.</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>Without a licence, data will be ‘publicly available’, but users may not have permission to access, use and share it under copyright and/or database laws.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>Without a licence, data will be ‘publicly available’, but users may not have permission to access, use and share it under copyright and/or database laws.</p>"
           }
         },
         "_buttons":{
@@ -476,10 +476,10 @@
             }
         ],
         "_feedback":{
-            "correct":"<h5>That’s right!</h5><p>In order for data to be truly open, users must be free to use the data even for commercial purposes. This maximises the innovation. The licence does not have to provide warranty or allow others to claim ownership of the source data.</p>",
+            "correct":"<h5>That’s right!</h5><p>In order for data to be truly open, users must be free to use the data even for commercial purposes. This maximises potential innovation. The licence does not have to provide warranty or allow others to claim ownership of the source data.</p>",
             "_incorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>In order for data to be truly open, users must be free to use the data even for commercial purposes. This maximises the innovation. The licence does not have to provide warranty or allow others to claim ownership of the source data.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>In order for data to be truly open, users must be free to use the data even for commercial purposes. This maximises the innovation. The licence does not have to provide warranty or allow others to claim ownership of the source data.</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>In order for data to be truly open, users must be free to use the data even for commercial purposes. This maximises potential innovation. The licence does not have to provide warranty or allow others to claim ownership of the source data.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>In order for data to be truly open, users must be free to use the data even for commercial purposes. This maximises potential innovation. The licence does not have to provide warranty or allow others to claim ownership of the source data.</p>"
             },
             "_partlyCorrect": {
                 "notFinal": "<h5>Are you sure about that?</h5><p>Without a licence, data will be ‘publicly available’, but users may have not have permission to access use and share it under copyright and/or database laws.</p>",

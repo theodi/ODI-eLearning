@@ -30,7 +30,7 @@
         "_layout":"left",
         "title":"Choosing the right format for open data",
         "displayTitle":"Choosing the right format for open data",
-        "body":"<p>The format of an open dataset is the way in which the data is structured and made available for humans and machines.</p><p>Choosing the right format enables simpler management and reuse of the data. To maximise reuse of the data, it may be necessary for a publisher to use a number of formats and structures available across different platforms that suit the user’s needs.</p><h5>In this module we'll explore the following:</h5><ul class='ticks'><li>Why formats matter to open data</li><li>Choosing the correct structure</li><li>Access open data formats</li><li>Keeping it simple with CSV</li></ul>",
+        "body":"<p>The format of an open dataset is the way in which the data is structured and made available for humans and machines.</p><p>Choosing the right format enables simpler management and reuse of the data. To maximise reuse of the data, it may be necessary for a publisher to use a number of formats and structures available across different platforms that suit the user’s needs.</p><h5>In this module we'll explore the following:</h5><ul class='ticks'><li>Why formats matter to open data</li><li>Choosing the correct structure</li><li>Accessing different open data formats</li><li>Keeping it simple with CSV</li></ul>",
         "_pageLevelProgress": {
             "_isEnabled": true
         }
@@ -68,12 +68,12 @@
         "_component": "narrative",
         "title": "Usability, management and access",
         "displayTitle": "Usability, management and access",
-        "body": "<p>Open data must be available for anyone to access use and share. In this section we consider what formats maximise usability of the data, ease of access for everyone and makes management simple for publishers.</p>",
+        "body": "<p>Open data must be available for anyone to access, use and share. In this section we consider what formats maximise usability of the data, ease of access for everyone and makes management simple for publishers.</p>",
         "instruction": "<em>Click the forward arrow to see more</em>",
         "_items": [
             {
                 "title": "Usability",
-                "body": "<p>The most usable format for data is likely to be one in which the dataset was first created. In many cases, this format may be a proprietary software programme like Microsoft Excel. While such programmes often have the ability to export data in other formats, their popularity can make publishing in a different format a barrier to reuse by others.</p><p>Additionally, software programmes like Excel also come with richer content, like styling on tables and graphs of data. These can all help to give context to a human who is trying to understand the data.</p>",
+                "body": "<p>The most usable format for data is likely to be one in which the dataset was first created. In many cases, this format may be a proprietary software programme like Microsoft Excel. While such programmes often have the ability to export data in other formats, their popularity can make publishing in a different format a barrier to reuse by others.</p><p>Additionally, software programmes like Excel also come with richer content, such as styling on tables and graphs of data. These can all help to give context to a human who is trying to understand the data.</p>",
                 "_graphic": {
                     "src": "course/en/images/odi-001.jpg",
                     "alt": "Usability",
@@ -86,7 +86,7 @@
             },
             {
                 "title": "Management",
-                "body": "<p>For some publishers, open data is now the main source for their data, even for staff in the publishing organisation. Using open data as a way for staff to access information inside an organisation has many benefits:</p><ul><li>Increases knowledge of team on open data.</li><li>Increases sustainability and trust of data by making it a key component of the organisation’s operations.</li><li>Creates clear opportiunities for innovation.</li></ul>",
+                "body": "<p>For some publishers, open data is now the main source for their data, even for staff in the publishing organisation. Using open data as a way for staff to access information inside an organisation has many benefits:</p><ul><li>Increases knowledge of the team on open data.</li><li>Increases sustainability and trust of data by making it a key component of the organisation’s operations.</li><li>Creates clear opportunities for innovation.</li></ul>",
                 "_graphic": {
                     "src": "course/en/images/odi-002.jpg",
                     "alt": "Management",
@@ -130,7 +130,7 @@
         {
           "alt": "Tabular",
           "title": "Tabular",
-          "body": "<p>The most common structure is tabular. Data is organised into rows and columns listing sequential values, such as expenditure.</p><p>If the data is based on separate entries that are not linked to each other then a tabular file structure in a format such as CSV is ideal. An example of appropriate tabular data is the Italian data portal’s museum attendance figures.<br /><a href='http://www.datiopen.it/opendata/Visitatori_musei_pubblici_e_similari_titolo_d_accesso' target='_blank'>Take me to Italian Data Portal</a></p>",
+          "body": "<p>The most common structure for data is tabular. Data is organised into rows and columns listing sequential values, such as expenditure.</p><p>If the data is based on separate entries that are not linked to each other then a tabular file structure in a format such as CSV is ideal. An example of appropriate tabular data is the Italian data portal’s museum attendance figures.<br /><a href='http://www.datiopen.it/opendata/Visitatori_musei_pubblici_e_similari_titolo_d_accesso' target='_blank'>Take me to Italian Data Portal</a></p>",
           "_graphic": {
                     "src": "course/en/images/odi-004.jpg",
                     "alt": "Tabular",
@@ -158,7 +158,7 @@
         {
           "alt": "Network",
           "title": "Network",
-          "body": "<p>Network structured data allows relationships to exist between any combination of elements in any direction.</p><p>A good example of a network data structure are social networks. Think of your network of friends and their friends on Facebook, consider first, second and third degree contacts on LinkedIn.<p><p>The web is another example of a network data structure, where web pages link to any number of other pages in any direction.</p>",
+          "body": "<p>Network structured data allows relationships to exist between any combination of elements in any direction.</p><p>A good example of a network data structure are social networks. Think of your network of friends and their friends on Facebook; consider first, second and third degree contacts on LinkedIn.<p><p>The web is another example of a network data structure, where web pages link to any number of other pages in any direction.</p>",
           "_graphic": {
                     "src": "course/en/images/odi-006.jpg",
                     "alt": "Network",
@@ -205,7 +205,7 @@
       "_layout":"left",
       "title": "Finding open data in the right formats",
       "displayTitle": "Finding open data in the right formats",
-      "body": "<p>As a user of open data, it is important to understand how publishers are delivering different formats to you for reuse.</p><p>Not all data is suitable for download either because it is too large, too regularly updated or too complex to expose as static files. Some data may need to be split into smaller parts. Other data may need to be published as live feeds to make sure it stays in date.</p>",
+      "body": "<p>As a user of open data, it is important to understand how publishers are delivering different formats to you for reuse.</p><p>Not all data is suitable for download either because it is too large, too regularly updated or too complex to expose as static files. Some data may need to be split into smaller parts. Other data may need to be published as live feeds to make sure it stays up to date.</p>",
       "instruction": "<em>Click the headings to explore further.</em>",
       "_items": [
         {
@@ -258,6 +258,43 @@
         "_pageLevelProgress": {
             "_isEnabled": true
         }
+    },
+    {
+        "_id":"c-52",
+        "_parentId":"b-51",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"",
+        "displayTitle":"Geospatial open data formats",
+        "body":"<p>Geospatial data is often more complex than the simple tabular datasets.</p><p>It can exist as a hierarchical dataset, detailing countries and counties/states, or as a network dataset, detailing roads.</p><p>When publishing this type of data, formats like <a href='https://en.wikipedia.org/wiki/GeoJSON' target='_blank'>geoJSON</a> (based upon JavaScript Object Notation - JSON) and <a href='https://en.wikipedia.org/wiki/Keyhole_Markup_Language' target='_blank'>KML</a> (based upon Extensible Markup Language - XML) should be considered.</p><p>These formats are specifically designed with usability in mind and can easily be imported and exported into specific mapping tools like <a href='http://www.openstreetmap.org/' target='_blank'>Open Street Map</a> and <a href='https://cartodb.com' target='_blank'>CartoDB</a>.</p>",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-53",
+        "_parentId":"b-51",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+		"src": "course/en/images/odi-008-2.jpg",
+		"large": "course/en/images/odi-008-2.jpg",
+		"medium": "course/en/images/odi-008-2.jpg",
+		"small": "course/en/images/odi-008-2.jpg",
+		"alt": "Geospatial data",
+		"title": "Geospatial data",
+		"*source":"http://www.shutterstock.com/pic-53095825.html",
+		"*credit":"Mikael Damkier",
+		"*license":"Shutterstock Standard License"
+	}
     },
     {
         "_id":"c-55",
