@@ -183,7 +183,7 @@
         {
           "alt": "Using the 4th star",
           "title": "Using the 4th star",
-          "body": "<p>The 4th star requires the creation or use of identifiers for things, both physical and digital.</p><p>This identifier is for the physical thing itself. An ISBN references a physical book but requires further context to allow a user to locate the object using it, a web based identifier for the book also references the book and not a web page about the book but adds the context needed for any human or machine to use it without additional support.</p><p>The web-based identifier also gives machines the context they need to make sense of the identifier. Consider a 3D printer. Using a web based identifier, the 3D printer could, in theory, get all the data needed to print the physical thing.</p>"
+          "body": "<p>The 4th star requires the creation and use of web based (http://) identifiers for things, both physical and digital.</p><p>Currently identifiers commonly sets of charecters, like post/zip codes (e.g. EC2A 4JE) or simply numbers (08030289).</p><p>Making these web based identifiers enables the use of the HTTP name resolution service to look up these things, and even retrieve an actual copy. e.g.</p><p><a style='word-wrap: break-word;' href='http://id.southampton.ac.uk/building/59' target='_blank'>http://id.southampton.ac.uk/building/59</a></p><p><a style='word-wrap: break-word;' href='http://data.ordnancesurvey.co.uk/id/postcodeunit/EC2A4JE' target='_blank'>http://data.ordnancesurvey.co.uk/id/postcodeunit/EC2A4JE</a></p>"
         },
         {
           "alt": "4th star open data",
@@ -193,7 +193,7 @@
         {
           "alt": "Try it out...",
           "title": "Try it out...",
-          "body": "<p>Some web based identifiers tell a reader what the identifier is just from the text in the URL. Before you click the URL, why not try this for yourself? Below, try to guess what identifier it links to:<br><br><a href='http://data.ordnancesurvey.co.uk/id/postcodeunit/SO171BJ' style='word-wrap: break-word;' target='_blank'>http://data.ordnancesurvey.co.uk/id/postcodeunit/SO171BJ</a></p><p>The link sent a request to the server for a postcode. To fulfil the request, the server returned a web page about the postcode, as it couldn’t send you the postcode itself. Your browser has undergone a process known as content negotiation with the server, where you get a web page because you're viewing through a browser. If you accessed with a machine you would get another format depending on what you said you preferred.</p><p>Why not see what a machine would see with content negotiation on the Ordnance survey link above by adding extensions like “.json” and “.xml” to the end of the URL?</p>"
+          "body": "<p>Some web based identifiers tell a reader what the identifier is just from the text in the URL. Before you click the URL, why not try this for yourself? Below, try to guess what identifier it links to:<br><br><a href='http://data.ordnancesurvey.co.uk/id/postcodeunit/EC2A4JE' style='word-wrap: break-word;' target='_blank'>http://data.ordnancesurvey.co.uk/id/postcodeunit/EC2A4JE</a></p><p>The link sent a request to the server for a postcode. To fulfil the request, the server returned a web page about the postcode, as it couldn’t send you the postcode itself. Your browser has undergone a process known as content negotiation with the server, where you get a web page because you're viewing through a browser. If you accessed with a machine you would get another format depending on what you said you preferred.</p><p>Why not see what a machine would see with content negotiation on the Ordnance survey link above by adding extensions like “.json” and “.xml” to the end of the URL?</p>"
         }
       ],
       "_pageLevelProgress": {
@@ -238,7 +238,7 @@
         {
           "alt": "Using the 5th star",
           "title": "Using the 5th star",
-          "body": "<p>Example - A database of buildings owned by a company will often have Postcodes/Zip codes against each building in the data records:<br>Building name: EEE Building<br>Building number: 32<br>Building postcode: SO17 1BJ<br><br>Add linked data:<br><br>Building name: EEE Building<br>Building number: 32<br>Building postcode: <a href='http://data.ordnancesurvey.co.uk/id/postcodeunit/SO171BJ' style='word-wrap: break-word;' target='_blank'>http://data.ordnancesurvey.co.uk/id/postcodeunit/SO171BJ</a></p>"
+          "body": "<p>Example - A database of buildings owned by a company will often have Postcodes/Zip codes against each building in the data records:<br/><br><b>Building number</b>: 32<br><b>Postcode</b>: SO17 1BJ<br><b>Ward</b>: Postwood<br><b>District</b>: City of Southampton<br/><br>With linked data we have no need to replicate data like <b>ward</b> and <b>district</b> that are manged by other authorioties. Thus the record becomes:<br><br><b>Building number</b>: 32<br><b>Postcode</b>: <a href='http://data.ordnancesurvey.co.uk/id/postcodeunit/SO171BJ' style='word-wrap: break-word;' target='_blank'>http://data.ordnancesurvey.co.uk/id/postcodeunit/SO171BJ</a></p>"
         },
         {
           "alt": "Try out using the 5th Star",
@@ -383,7 +383,7 @@
         "_selectable":1,
         "title": "What does the following identify?",
         "displayTitle": "What does the following identify?",
-        "body": "<p><a href='http://bookshop.blackwell.co.uk/jsp/id/1984/9781849432269' target='_blank'>http://bookshop.blackwell.co.uk/jsp/id/1984/9781849432269</a></p>",
+        "body": "<p><a href='http://id.southampton.ac.uk/room/32-3077' target='_blank'>http://id.southampton.ac.uk/room/32-3077</a></p>",
         "instruction": "<em>Select an option, then click 'Submit'.</em>",
         "_items": [
             {
@@ -391,11 +391,11 @@
                 "_shouldBeSelected": false
             },
             {
-                "text": "The date 1984",
+                "text": "A building",
                 "_shouldBeSelected": false
             },
             {
-                "text": "The book 1984",
+                "text": "A room",
                 "_shouldBeSelected": true
             }
         ],
@@ -449,21 +449,21 @@
         "_questionWeight":1,
         "_isRandom":true,
         "_selectable":3,
-        "title": "Which of these are identifiers for the band One Direction?",
-        "displayTitle": "Which of these are identifiers for the band One Direction?",
+        "title": "Which of these are identifiers for the artist Taylor Swift?",
+        "displayTitle": "Which of these are identifiers for the artist Taylor Swift?",
         "body": "",
         "instruction": "<em>Select up to 3 options, then click 'Submit'.</em>",
         "_items": [
             {
-                "text": "<a href='https://www.bbc.co.uk/music/artists/1a425bbd-cca4-4b2c-aeb7-71cb176c828a' target='_blank'>www.bbc.co.uk/music/artists/1a425bbd-cca4-4b2c-aeb7-71cb176c828a</a>",
+                "text": "<a href='http://www.bbc.co.uk/music/artists/20244d07-534f-4eff-b4d4-930878889970' target='_blank'>http://www.bbc.co.uk/music/artists/20244d07-534f-4eff-b4d4-930878889970</a>",
                 "_shouldBeSelected": true
             },
             {
-                "text": "<a href='https://musicbrainz.org/artist/1a425bbd-cca4-4b2c-aeb7-71cb176c828a' target='_blank'>https://musicbrainz.org/artist/1a425bbd-cca4-4b2c-aeb7-71cb176c828a</a>",
+                "text": "<a href='https://musicbrainz.org/artist/20244d07-534f-4eff-b4d4-930878889970' target='_blank'>https://musicbrainz.org/artist/20244d07-534f-4eff-b4d4-930878889970</a>",
                 "_shouldBeSelected": true
             },
             {
-                "text": "<a href='http://dbpedia.org/resource/One_Direction' target='_blank'>http://dbpedia.org/resource/One_Direction</a>",
+                "text": "<a href='http://dbpedia.org/resource/Taylor_Swift' target='_blank'>http://dbpedia.org/resource/Taylor_Swift</a>",
                 "_shouldBeSelected": true
             }
         ],
