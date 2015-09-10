@@ -254,7 +254,7 @@
             },
             {
                 "title": "Discover insights",
-                "body": "<p>Many data cleaning tools, including Open Refine help you to combine and enrich datasets.</p><p>Without a clean dataset, this process will not be useful to you.</p><p>Careful preparation is essential to the success of any data-driven project.</p>",
+                "body": "<p>Many data cleaning tools, including Open Refine help you to combine and enrich datasets. This can lead to valuable insights being discovered.</p>For example, enriching a dataset that refers to businesses (by name or some other identifier) can inform you if the business is still trading and its current financial position.</p><p><a class='course_link' href='http://training.theodi.org/resources/odt/Enrichingdata.pdf' target='_blank'>Get started with enriching data</a></p>",
                 "_graphic": {
                     "src": "course/en/images/odi-008.jpg",
                     "alt": "Discover insights",
@@ -611,7 +611,7 @@
         "_layout":"left",
         "title":"Cleaning data",
         "displayTitle":"Cleaning data",
-        "body":"<p>Data cleaning is essential to ensure that when the data is used, the right conclusions are made.</p><p>Often errors are not even noticed by data publishers because the data can change over many years. In other cases, errors can be the result of human mistakes in data entry, like mistyping or incorrect abbreviations.</p><p>Be aware that cleaning may take longer than you think. A careful cleaning process will, however, save substantial time in the long-run.</p><p>Follow our data cleaning exercise to get started with Open Refine and discover how easy it is for yourself.</p><p><a class='course_link' href='http://training.theodi.org/resources/Cleaning_Exercise.pdf' target='_blank'>Get started with data cleaning in Open Refine</a>",
+        "body":"<p>Data cleaning is essential to ensure that when the data is used, the right conclusions are made.</p><p>Often errors are not even noticed by data publishers because the data can change over many years. In other cases, errors can be the result of human mistakes in data entry, like mistyping or incorrect abbreviations.</p><p>Be aware that cleaning may take longer than you think. A careful cleaning process will, however, save substantial time in the long-run.</p><p>Follow our data cleaning exercise to get started with Open Refine and discover how easy it is for yourself.</p><p><a class='course_link' href='http://training.theodi.org/resources/Cleaning_Exercise.pdf' target='_blank'>Get started with data cleaning in Open Refine</a></p>",
         "_pageLevelProgress": {
           "_isEnabled": true
         }
