@@ -1,0 +1,67 @@
+#!/bin/bash
+# Syntax ./bin/build-odi module1 en
+if [ -z $1 ]
+then
+	echo "Specify a module you idiot!"
+	echo "./bin/build module_id language"
+	exit
+fi
+if [ -z $2 ]
+then
+	echo "Specify a language you idiot!"
+	echo "./bin/build module_id language"
+	exit
+fi
+OUTPATH=modules/cordova/
+echo "Retriving module"
+git --git-dir=.module checkout $1
+#git --git-dir=.module pull
+echo "Backing up languages"
+rm -fR tmp
+mkdir tmp
+echo ""
+`cp -r src/course/* tmp/`
+echo "Selecting language"
+echo ""
+`rm -fR src/course/*`
+`cp -r tmp/$2 src/course/`
+`cp src/course/$2/config.json src/course/`
+echo "Updating control path"
+echo ""
+sed -i -e "s/en\/course\/en\/js\/control/$2\/course\/$2\/js\/control/g" src/index.html
+
+echo "Updating image path"
+echo ""
+sed -i -e "s/course\/en\/images/course\/$2\/images/g" src/theme/adapt-contrib-vanilla/less/header.less
+
+echo "Adding index.html to all internal links"
+sed -i -e "s/\"..\/\"/\"..\/index.html\"/g" src/course/en/course.json
+for i in `seq 1 13`;
+do
+	sed -i -e "s/module$i\//module$i\/index.html/g" src/course/en/course.json
+done
+echo "Activating external links"
+sed -i -e "s/var cordova = false;/var cordova = true;/g" src/extensions/adapt-contrib-spoor/required/online_API_wrapper.js
+
+echo "Building module";
+rm -fR build
+grunt build
+
+echo "Restoring structure";
+`rm -fR src/course/*`
+`mv tmp/* src/course/`
+sed -i -e "s/course\/$2\/images/course\/en\/images/g" src/theme/adapt-contrib-vanilla/less/header.less
+sed -i -e "s/$2\/course\/$2\/js\/control/en\/course\/en\/js\/control/g" src/index.html
+sed -i -e "s/var cordova = true;/var cordova = false;/g" src/extensions/adapt-contrib-spoor/required/online_API_wrapper.js
+
+echo "building scorm package"
+cd build
+zip -r course/$2/data/scorm.zip * >/dev/null 
+cd ..
+
+echo "Moving module into place"
+`mkdir $OUTPATH/$2/`
+`rm -fR $OUTPATH/$2/$1`
+`cp -r build $OUTPATH/$2/$1`
+
+`rm -fR build`
