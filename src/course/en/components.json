@@ -30,7 +30,7 @@
         "_layout":"left",
         "title":"Getting to grips with platforms",
         "displayTitle":"Geting to grips with platforms",
-        "body":"<p>A platform is a major piece of software on which smaller pieces of software and content can be run. For open data, the largest platform is the web. However, lots of other purpose-built software helps simplify publishing open data and provides interactive tools for users to explore.</p><h5>In this module we’ll explore the following:</h5><ul class='ticks'><li>Recognising open data platforms</li><li>Understanding their importance to users</li><li>Evaluating the key options</li><li>Using platforms to explore data</li></ul>",
+        "body":"<p>A platform is a major piece of software on which smaller pieces of software and content can be run. For open data, the largest platform is the web. However, lots of other purpose-built software helps simplify publishing open data and provides interactive tools to help users to explore it.</p><h5>In this module we’ll explore the following:</h5><ul class='ticks'><li>Recognising open data platforms</li><li>Understanding their importance to users</li><li>Evaluating the key options</li><li>Using platforms to explore data</li></ul>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
@@ -129,7 +129,7 @@
             },
             {
                 "title": "Consistent access to data",
-                "body": "<p>The development of open standards by the community on the web has led to consistent Application Programming Interfaces (APIs) for discovering, accessing and using data.</p><p>The evolution of open standards on the web has also led to consistent machine interfaces (APIs) for discovering, accessing and using data.</p><p>The limited number of open data platforms and the consistent features of their user interfaces make it simple for people to use the different features while feeling comfortable with the software.</p><p>The platforms also have similar structures and formats for exposing metadata as well as the data itself.</p>",
+                "body": "<p>The development of open standards by the community on the web has led to consistent Application Programming Interfaces (APIs) for discovering, accessing and using data.</p><p>The limited number of open data platforms and the consistent features of their user interfaces make it simple for people to use the different features while feeling comfortable with the software.</p><p>The platforms also have similar structures and formats for exposing metadata as well as the data itself.</p>",
                 "_graphic": {
                     "src": "course/en/images/odi-004.jpg",
                     "alt": "Access granted",
@@ -178,7 +178,7 @@
         {
           "alt": "Data catalogs",
           "title": "Data catalogs",
-          "body": "<p>An open data catalog is a platform that lists datasets on the web. Data catalogs are like directories. They know what open data exists, what it is about, where it is and how to get hold of it.</p><p>An open data catalog links users to data that is located somewhere else on the web. They provide a consistent way of locating a diverse set of data that is widely scattered.</p><p>The CKAN platform, used by cities like Amsterdam (<a href='http://www.amsterdamopendata.nl/home' target='_blank'>Take me to Amsterdam CKAN portal</a>), Berlin (<a href='http://daten.berlin.de/' target='_blank'>Take me to Berlin CKAN portal</a>) and Copenhagen (<a href='http://data.kk.dk/' target='_blank'>Take me to Copenhagen CKAN portal</a>) are all good examples of a data catalogs.</p>"
+          "body": "<p>An open data catalog is a platform that lists datasets on the web. Data catalogs are like directories. They know what open data exists, what it is about, where it is and how to get hold of it.</p><p>An open data catalog links users to data that is located somewhere else on the web. They provide a consistent way of locating a diverse set of data that is widely scattered.</p><p>The CKAN platform, used by cities like Amsterdam (<a href='http://www.amsterdamopendata.nl/home' target='_blank'>Take me to Amsterdam CKAN portal</a>), Berlin (<a href='http://daten.berlin.de/' target='_blank'>Take me to Berlin CKAN portal</a>) and Copenhagen (<a href='http://data.kk.dk/' target='_blank'>Take me to Copenhagen CKAN portal</a>), can be used as a data catalog.</p><p>CKAN provides simple, easy to use data management functionality, including data hosting. This ensures that the technical knowledge and effort required to publish open data is kept to a minimum.</p>"
         },
         {
           "alt": "Data management",
@@ -376,12 +376,12 @@
         "_feedback":{
             "correct":"<h5>That’s right!</h5><p>A data catalog lists datasets that are available on the web, that do not all have to be owned by the owner of the catalog. Most catalogs are domain or subject specific in order to keep the context simpler to understand.</p>",
             "_incorrect": {
-                "notFinal": "<h5>That’s right!</h5><p>A data catalog lists datasets that are available on the web, that do not all have to be owned by the owner of the catalog. Most catalogs are domain or subject specific in order to keep the context simpler to understand.</p>",
-                "final": "<h5>That’s right!</h5><p>A data catalog lists datasets that are available on the web, that do not all have to be owned by the owner of the catalog. Most catalogs are domain or subject specific in order to keep the context simpler to understand.</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>A data catalog lists datasets that are available on the web, that do not all have to be owned by the owner of the catalog. Most catalogs are domain or subject specific in order to keep the context simpler to understand.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>A data catalog lists datasets that are available on the web, that do not all have to be owned by the owner of the catalog. Most catalogs are domain or subject specific in order to keep the context simpler to understand.</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "That’s right!</h5><p>A data catalog lists datasets that are available on the web, they do not all have to be owned by the owner of the catalog. Most catalogs are domain or subject specific in order to keep the context simpler to understand.",
-                "final": "That’s right!</h5><p>A data catalog lists datasets that are available on the web, they do not all have to be owned by the owner of the catalog. Most catalogs are domain or subject specific in order to keep the context simpler to understand.."
+                "notFinal": "Are you sure about that?</h5><p>A data catalog lists datasets that are available on the web, they do not all have to be owned by the owner of the catalog. Most catalogs are domain or subject specific in order to keep the context simpler to understand.",
+                "final": "Are you sure about that?</h5><p>A data catalog lists datasets that are available on the web, they do not all have to be owned by the owner of the catalog. Most catalogs are domain or subject specific in order to keep the context simpler to understand.."
           }
         },
         "_buttons":{
