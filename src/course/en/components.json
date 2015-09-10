@@ -266,7 +266,7 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"",
+        "title":"Geospatial open data formats",
         "displayTitle":"Geospatial open data formats",
         "body":"<p>Geospatial data is often more complex than simple tabular datasets.</p><p>It can exist as a hierarchical dataset, detailing countries and counties/states, or as a network dataset, detailing roads.</p><p>When publishing this type of data, formats like <a href='https://en.wikipedia.org/wiki/GeoJSON' target='_blank'>geoJSON</a> (based upon JavaScript Object Notation - JSON) and <a href='https://en.wikipedia.org/wiki/Keyhole_Markup_Language' target='_blank'>KML</a> (based upon Extensible Markup Language - XML) should be considered.</p><p>These formats are specifically designed with usability in mind and can easily be imported and exported from specialist mapping tools like <a href='http://www.openstreetmap.org/' target='_blank'>Open Street Map</a> and <a href='https://cartodb.com' target='_blank'>CartoDB</a>.</p>",
         "_pageLevelProgress": {
