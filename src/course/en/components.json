@@ -116,7 +116,7 @@
             },
             {
                 "title": "Data is hiding everywhere",
-                "body": "<p>From Wikipedia pages to holiday planners, fashion websites to energy providers, the web is full of data sources.</p><p>The licences for this hidden data are not always clear, just because the data is machine readable on a public website does not make it open data. If you are uncertain about whether hidden data is openly licenced, check with the website publisher.</p>",
+                "body": "<p>From Wikipedia pages to holiday planners, fashion websites to energy providers, the web is full of data sources.</p><p>The licences for this hidden data are not always clear; just because the data is machine readable on a public website does not make it open data. If you are uncertain about whether hidden data is openly licensed, check with the website publisher.</p>",
                 "_graphic": {
                     "src": "course/en/images/odi-003.jpg",
                     "alt": "Implementation",
@@ -129,7 +129,7 @@
             },
             {
                 "title": "What type of data is hiding?",
-                "body": "<p>Hidden data looks entirely different from an open dataset you download from a website.</p><p>Machine-readable data on the web will be in formats like JSON, the most common and simple to use; XML; and sometimes RDF.</p><p>Try the exercises later in this module to see if you can extract data in these formats.</p>",
+                "body": "<p>Hidden data looks entirely different from an open dataset you download from a website.</p><p>Machine-readable data on the web will be in formats like JSON, the most common and simple to use; embedded within HTML; in XML; and sometimes in RDF.</p><p>Try the exercises later in this module to see if you can extract data in these formats.</p>",
                 "_graphic": {
                     "src": "course/en/images/odi-004.jpg",
                     "alt": "Impact",
@@ -208,7 +208,7 @@
         "_component": "narrative",
         "title": "How to find hidden data",
         "displayTitle": "How to find hidden data",
-        "body": "<p>From data we gain information, from information we gain knowledge and insight.</p><p>Please note that just because you can extract hidden data, it does not make this data open. You should always check the terms of use and licences of the website before gathering or using data for any purpose.For further details on licensing, please refer back to module 4 of this course.</p<",
+        "body": "<p>From data we gain information, from information we gain knowledge and insight.</p><p>Please note that just because you can extract hidden data, it does not make this data open. You should always check the terms of use and licences of the website before gathering or using data for any purpose. For further details on licensing, please refer back to module 4 of this course.</p<",
         "instruction": "<em class='desktop-instruction'>Click the forward arrow to see more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
         "_items": [
             {
@@ -252,7 +252,7 @@
             },
             {
                 "title": "APIs or machine-readable interfaces",
-                "body": "<p>Some websites or web services will expose a machine-readable interface, or API, for querying and accessing their data.</p><p>Examples of services that have APIs include: <a href='https://api.opencorporates.com/' target='_blank'>Open Corporates</a> (open), <a href='http://wiki.openstreetmap.org/wiki/API' target='_blank'>OpenSteetMap</a> (open), <a href='https://dev.twitter.com/rest/public' target='_blank'>Twitter</a> (not completely open), <a href='https://www.flickr.com/services/api/' target='_blank'>Flickr</a> (some content open), <a href='https://developer.linkedin.com/docs/rest-api' target='_blank'>LinkedIn</a> (not open).</p><p>Most of these services use a web based API and allow addition of extensions (try “.json” on OpenCorporates). Although this API looks appears the same as the earlier example in this section, it's formal status as an API provides a guarantee that the service will be available.</p>",
+                "body": "<p>Some websites or web services will expose a machine-readable interface, or API, for querying and accessing their data.</p><p>Examples of services that have APIs include: <a href='https://api.opencorporates.com/' target='_blank'>Open Corporates</a> (open), <a href='http://wiki.openstreetmap.org/wiki/API' target='_blank'>OpenSteetMap</a> (open), <a href='https://dev.twitter.com/rest/public' target='_blank'>Twitter</a> (not completely open), <a href='https://www.flickr.com/services/api/' target='_blank'>Flickr</a> (some content open), <a href='https://developer.linkedin.com/docs/rest-api' target='_blank'>LinkedIn</a> (not open).</p><p>Most of these services use a web based API and allow addition of extensions (try “.json” on OpenCorporates). Although this API looks the same as the earlier example in this section, it's formal status as an API provides a guarantee that the service will be available.</p>",
                 "_graphic": {
                     "src": "course/en/images/odi-009.jpg",
                     "alt": "APIs",
@@ -353,7 +353,7 @@
                 "_shouldBeSelected": false
             },
             {
-                "text": "data visible to machines but invisible to human eyes/",
+                "text": "data visible to machines but invisible to human eyes",
                 "_shouldBeSelected": true
             },
             {
@@ -621,7 +621,7 @@
         "_layout":"left",
         "title":"Finding hidden data",
         "displayTitle":"Finding hidden data",
-        "body":"<p>Data available for download is only a small fraction of data available on the web.</p><p>While the human eye cannot always see this data, it is possible to identify and grab a wealth of new data using machines.</p><p>The data accessed from these websites is often much broader and more relevant to your work that downloadable files and also draws directly from the context in which the publisher is already using it.</p><p>By raising your awareness of hidden data and learning some of the simple approaches in this module, such as extension queries and APIs, you will be able to access a broad range of relevant data for your future work.</p>",
+        "body":"<p>Data available for download is only a small fraction of data available on the web.</p><p>While the human eye cannot always see this data, it is possible to identify and grab a wealth of new data using machines.</p><p>The data accessed from these websites is often much broader and more relevant to your work than downloadable files and also draws directly from the context in which the publisher is already using it.</p><p>By raising your awareness of hidden data and learning some of the simple approaches in this module, such as extension queries and APIs, you will be able to access a broad range of relevant data for your future work.</p>",
         "_pageLevelProgress": {
           "_isEnabled": true
         }
