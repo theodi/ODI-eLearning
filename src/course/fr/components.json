@@ -183,7 +183,7 @@
         {
           "alt": "Utiliser la 4ème étoile",
           "title": "Utiliser la 4ème étoile",
-          "body": "<p>La 4ème étoile demande que l’on crée ou que l’on utilise des identifiants pour toute chose physique ou numérique.</p><p>L’identifiant est pour la chose physique elle-même. Un ISBN fait référence au livre physique, mais nécessite un contexte pour permettre à l’utilisateur de localiser l'objet qui l’utilise. Un identifiant pour un livre basé sur le Web fait également référence au livre et non pas à une page Web au sujet du livre, mais il ajoute le contexte nécessaire pour que les humains et les machines puissent l’utiliser sans assistance supplémentaire.</p><p>L'identifiant basé sur le Web donne aussi aux machines le contexte nécessaire afin de comprendre l'identifiant. Imaginez une imprimante 3D. En utilisant un identifiant basé sur le Web, une imprimante 3D pourrait théoriquement obtenir toutes les données nécessaires à l’impression de l’objet physique.</p>"
+          "body": "<p>La 4ème étoile requiert la création et l’utilisation d’identifiants sur le Web pour toutes choses, qu’elles soient physiques ou numériques.</p><p>Actuellement, ces identifiants sont souvent des ensembles de caractères, comme les codes postaux ( ex.: EC2A 4JE) ou simplement des chiffres (08030289). Ces identifiants sur le Web permettent l’utilisation du service de résolution de noms HTTP pour rechercher ces choses ou même en obtenir une copie.<p><a style='word-wrap: break-word;' href='http://id.southampton.ac.uk/building/59' target='_blank'>http://id.southampton.ac.uk/building/59</a></p><p><a style='word-wrap: break-word;' href='http://data.ordnancesurvey.co.uk/id/postcodeunit/EC2A4JE' target='_blank'>http://data.ordnancesurvey.co.uk/id/postcodeunit/EC2A4JE</a></p>"
         },
         {
           "alt": "L’open data de la 4ème étoile",
@@ -383,7 +383,7 @@
         "_selectable":1,
         "title": "Qu’identifie le lien suivant?",
         "displayTitle": "Qu’identifie le lien suivant?",
-        "body": "<p><a href='http://bookshop.blackwell.co.uk/jsp/id/1984/9781849432269' target='_blank'>http://bookshop.blackwell.co.uk/jsp/id/1984/9781849432269</a></p>",
+        "body": "<p><a href='http://id.southampton.ac.uk/room/32-3077' target='_blank'>http://id.southampton.ac.uk/room/32-3077</a></p>",
         "instruction": "<em>Choisissez votre réponse puis cliquez sur ‘Valider’.</em>",
         "_items": [
             {
@@ -391,11 +391,11 @@
                 "_shouldBeSelected": false
             },
             {
-                "text": "Le date 1984",
+                "text": "un bâtiment",
                 "_shouldBeSelected": false
             },
             {
-                "text": "Le livre 1984",
+                "text": "une pièce",
                 "_shouldBeSelected": true
             }
         ],
@@ -449,21 +449,21 @@
         "_questionWeight":1,
         "_isRandom":true,
         "_selectable":3,
-        "title": "Lesquels des identifiants suivants font référence au group ‘One Direction’?",
-        "displayTitle": "Lesquels des identifiants suivants font référence au group ‘One Direction’?",
+        "title": "Lesquels des identifiants suivants font référence au l’artiste Taylor Swift?",
+        "displayTitle": "Lesquels des identifiants suivants font référence au l’artiste Taylor Swift?",
         "body": "",
         "instruction": "<em>Choisissez trois réponses puis cliquez sur ‘Valider’.</em>",
         "_items": [
             {
-                "text": "<a href='www.bbc.co.uk/music/artists/1a425bbd-cca4-4b2c-aeb7-71cb176c828a' target='_blank'>www.bbc.co.uk/music/artists/1a425bbd-cca4-4b2c-aeb7-71cb176c828a</a>",
+                "text": "<a href='http://www.bbc.co.uk/music/artists/20244d07-534f-4eff-b4d4-930878889970' target='_blank'>http://www.bbc.co.uk/music/artists/20244d07-534f-4eff-b4d4-930878889970</a>",
                 "_shouldBeSelected": true
             },
             {
-                "text": "<a href='https://musicbrainz.org/artist/1a425bbd-cca4-4b2c-aeb7-71cb176c828a' target='_blank'>https://musicbrainz.org/artist/1a425bbd-cca4-4b2c-aeb7-71cb176c828a</a>",
+                "text": "<a href='https://musicbrainz.org/artist/20244d07-534f-4eff-b4d4-930878889970' target='_blank'>https://musicbrainz.org/artist/20244d07-534f-4eff-b4d4-930878889970</a>",
                 "_shouldBeSelected": true
             },
             {
-                "text": "<a href='http://dbpedia.org/resource/One_Direction' target='_blank'>http://dbpedia.org/resource/One_Direction</a>",
+                "text": "<a href='http://dbpedia.org/resource/Taylor_Swift' target='_blank'>http://dbpedia.org/resource/Taylor_Swift</a>",
                 "_shouldBeSelected": true
             }
         ],
