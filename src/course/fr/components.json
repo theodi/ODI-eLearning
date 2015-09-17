@@ -266,9 +266,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Geospatial open data formats",
-        "displayTitle":"Geospatial open data formats",
-        "body":"<p>Geospatial data is often more complex than simple tabular datasets.</p><p>It can exist as a hierarchical dataset, detailing countries and counties/states, or as a network dataset, detailing roads.</p><p>When publishing this type of data, formats like <a href='https://en.wikipedia.org/wiki/GeoJSON' target='_blank'>geoJSON</a> (based upon JavaScript Object Notation - JSON) and <a href='https://en.wikipedia.org/wiki/Keyhole_Markup_Language' target='_blank'>KML</a> (based upon Extensible Markup Language - XML) should be considered.</p><p>These formats are specifically designed with usability in mind and can easily be imported and exported from specialist mapping tools like <a href='http://www.openstreetmap.org/' target='_blank'>Open Street Map</a> and <a href='https://cartodb.com' target='_blank'>CartoDB</a>.</p>",
+        "title":"Formats de données géospatiales",
+        "displayTitle":"Formats de données géospatiales",
+        "body":"<p>Les données géospatiales sont souvent plus complexes que de simples ensembles de données tabulaires.</p><p>Elles existent sous forme d’ensembles de données hierarchisées, détaillant les départements / états, ou sous forme d’ensemble de données en réseau, donnant des détails sur les routes. </p><p>Lors de la publication de ce type de données, il faut considérer des formats tels que <a href='https://en.wikipedia.org/wiki/GeoJSON' target='_blank'>geoJSON</a> (basés sur JavaScript Object Notation - JSON) et <a href='https://en.wikipedia.org/wiki/Keyhole_Markup_Language' target='_blank'> KML (basés sur Extensible MArkup Knowledge - XML). Ces formats sont conçus spécifiquement pour être largement exploitable et peuvent facilement être importés ou exportés dans des outils de cartographie tels que <a href='http://www.openstreetmap.org/' target='_blank'> Open Street Map et <a href='https://cartodb.com' target='_blank'>CartoDB</a>.</p>",
         "_pageLevelProgress": {
             "_isEnabled": true
         }
