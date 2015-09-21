@@ -1,0 +1,560 @@
+[
+    {
+        "_id":"c-01",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"intro-logo",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "",
+            "medium": "",
+            "small": ""
+        }
+    },
+    {
+        "_id":"c-02",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Measuring success for open data",
+        "displayTitle":"Measuring success for open data",
+        "body":"<p>Successful open data initiatives do more than simply put data on the web. The most data-savvy organisations also put in place frameworks and policies to support and incentivise innovation. Open data communities need to be built and success stories communicated. Together, these will help more people understand the benefits of open data.</p><h5>In this module we’ll explore the following:</h5><ul class='ticks'><li>Measuring success</li><li>Being demand focused</li><li>Keeping on track</li></ul>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+     {
+    "_id":"c-11",
+    "_parentId":"b-10",
+    "_type":"component",
+    "_component":"iFrame-vimeo",
+    "_classes":"",
+    "_layout":"full",
+        "title":"Comparing open data initiatives – in 2 minutes",
+        "displayTitle": "Comparing open data initiatives – in 2 minutes",
+        "body": "ODI International Development Manager Liz Carolan explains key ways to measure the success of open data initiatives, what a demand-focused approach to open data is and how performance indicators add value to open data initiatives.",
+        "instruction": "To turn subtitles on and off, click the 'cc' button at the bottom right of the video",
+        "_setCompletionOn":"ended",
+        "_source": "https://player.vimeo.com/video/129197044",
+        "_width": {
+            "_small" : 300,
+            "_medium" : 500,
+            "_large" : 905
+        },
+        "_height": {
+            "_small" : 250,
+            "_medium" : 350,
+            "_large" : 508
+        }
+    },
+    {
+        "_id":"c-21",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Measuring success",
+            "title": "Measuring success",
+            "large": "course/en/images/odi-1-textimage_large.jpg",
+            "medium": "course/en/images/odi-1-textimage_large.jpg",
+            "small": "course/en/images/odi-1-textimage_large.jpg",
+            "*source":"http://www.shutterstock.com/pic-120780490.html",
+            "*credit":"501room",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-22",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Measuring success",
+        "displayTitle":"Measuring success",
+        "body":"<p>When evaluating the success of an open data initiative, it is important to look beyond the quantity of data published and focus on demand for the data.</p><p>The Open Data Barometer provides a global measure for comparing the progress of countries. It uses three key indicators: readiness, implementation and impact.<br /><a href='http://barometer.opendataresearch.org/' target='_blank'>Take me to the Open Data Barometer</a></p>"
+    },
+     {
+        "_id": "c-25",
+        "_parentId": "b-25",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Criteria for measuring success",
+        "displayTitle": "Criteria for measuring success",
+        "body": "There are 3 key performance indicators to compare and measure successful open data initiatives. The Open Data Barometer provides further details on all these indicators.",
+        "instruction": "<em class='desktop-instruction'>Click the forward arrow for more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
+        "_items": [
+            {
+                "title": "Open data readiness",
+                "body": "<p>To what extent is an organisation or country ready to support an open data initiative?</p><ul>The following are important indicators of readiness:<li>Open licences supported</li><li>Policies and procedures established</li><li>Investments made</li><li>Educational support available</li><li>Wider engagement undertaken</li></ul>",
+                "_graphic": {
+                    "src": "course/en/images/odi-2-narrative_large.jpg",
+                    "alt": "Readiness",
+                    "title": "Readiness",
+                    "*source":"http://www.shutterstock.com/pic-203239417.html",
+                    "*credit":"Ozerina Anna",
+                    "*license":"Ozerina Anna"
+                },
+                "strapline": "Readiness"
+            },
+            {
+                "title": "Open data implementation",
+                "body": "<p>Data is now as important to our national infrastructure as roads or internet access. For public bodies and governments, there are certain datasets that should be open as a way to support innovation, generate value and grow the economy.</p><p>Commercial organisations should also consider which datasets are most useful to help enhance their business and find new market opportunities.</p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-3-narrative_large.jpg",
+                    "alt": "Implementation",
+                    "title": "Implementation",
+                    "*source":"http://www.shutterstock.com/pic-259560827.html",
+                    "*credit":"JeKh",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Implementation"
+            },
+            {
+                "title": "Open data impact",
+                "body": "<p>What are the tangible, real world benefits of the open data for its users?</p><p>Without evidence of impact, communities are less likely to grow around the data and innovation can be less widespread. The following are important indicators of impact:</p><ul><li>Increasing efficiency and transparency of government</li><li>Economic growth driven by open data</li><li>Social and environmental benefits</li></ul>",
+                "_graphic": {
+                    "src": "course/en/images/odi-4-narrative_large.jpg",
+                    "alt": "Impact",
+                    "title": "Impact",
+                    "*source":"http://www.shutterstock.com/pic-173642015.html",
+                    "*credit":"Oleksiy Mark",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Impact"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-30",
+        "_parentId":"b-28",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Focussing on demand",
+            "title": "Focussing on demand",
+            "large": "course/en/images/odi-5-accordian_large.jpg",
+            "medium": "course/en/images/odi-5-accordian_large.jpg",
+            "small": "course/en/images/odi-5-accordian_large.jpg",
+            "*source":"http://www.shutterstock.com/pic-154597898.html",
+            "*credit":"Leone_V",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+      "_id":"c-35",
+      "_parentId":"b-28",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"left",
+      "title": "Focussing on demand for open data",
+      "displayTitle": "Focussing on demand for open data",
+      "body": "<p>A demand-focused approach prioritises the needs of the data user over the data publisher.</p><p>Demand-focussed open data also enables a range of additional benefits -</p>",
+      "instruction": "<em>Click the headings to explore further.</em>",
+      "_items": [
+        {
+          "alt": "Open data as an educator",
+          "title": "Open data as an educator",
+          "body": "<p>Data, not just open data, is now a core aspect of many people’s jobs. However, not everyone has the skills required to manage, clean and interpret data.</p><p>Open data creates opportunities to increase the level of data literacy in the workforce by raising public awareness of data skills.</p>"
+        },
+        {
+          "alt": "Enabling innovation with open data",
+          "title": "Enabling innovation with open data",
+          "body": "<p>Open data is a key enabler of open innovation.</p><p>Opening data can encourage people within an organisation to communicate with each other and with external groups.</p><p>Plume Labs, a French startup, combined open data on air quality with advanced monitoring and visualisations to provide the latest air pollution indicators for 18 European cities<br /><a href='https://www.plumelabs.com/' target='_blank'>Take me to Plume Labs.</a></p>"
+        },
+        {
+          "alt": "Enhancing business with open data",
+          "title": "Enhancing business with open data",
+          "body": "<p>For businesses, opening data can improve relationships with consumers and open up new customer channels.</p><p>Thomson Reuters has opened up its identifiers data to make the data it holds discoverable, easy to access and use.<br /><a href='http://site.thomsonreuters.com/site/data-identifiers/' target='_blank'>Take me to Thomson Reuters site</a></p>"
+        },
+        {
+          "alt": "Open data as an agent of change",
+          "title": "Open data as an agent of change",
+          "body": "<p>Open data has the ability to bring about change within societies.</p><p>For example, the Swiss government found that opening up their transport safety data gave people greater clarity about accidents. The mapping of this information gives people a more interactive way to engage with the data.<br /><a href='http://unfallkarte.ch/en/' target='_blank'>Take me to the Swiss crash map</a></p>"
+        },
+        {
+          "alt": "Open data as a community supporter",
+          "title": "Open data as a community supporter",
+          "body": "<p>Open data helps communities communicate with each other better.</p><p>mySociety created FixMyStreet, which allows residents to share problems with their local area as open data and create shared solutions.<br /><a href='https://www.fixmystreet.com/' target='_blank'>Take me to FixMyStreet programme.</a></p>"
+        }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+     {
+        "_id": "c-40",
+        "_parentId": "b-30",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Keeping on track",
+        "displayTitle": "Keeping on track",
+        "body": "Key performance indicators help keep open data initiatives on track.",
+        "instruction": "<em class='desktop-instruction'>Click the forward arrow to see more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
+        "_items": [
+            {
+                "title": "Managing progress",
+                "body": "<p>Key Performance Indicators (KPIs) help to manage the process of open data initiatives.</p><p>KPIs should be set to measure open data readiness, implementation and impact.</p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-6-narrative_large.jpg",
+                    "alt": "Process management",
+                    "title": "Process management",
+                    "*source":"http://www.shutterstock.com/pic-174926546.html",
+                    "*credit":"Ieromin",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Process management"
+            },
+            {
+                "title": "Staying user-focused",
+                "body": "<p>The most successful open data initiatives focus on all Key Performance Indicators (KPIs) at the same time.</p><p>It is best to avoid delaying engagement with users by getting policy and supply ‘right’ from the outset.</p><p>Successful initiatives focus on users first to build communities, educate and streamline supply so that even imperfect open data can get into the hands of users quickly, to maximise its value.</p><p>Sweden has an established open data programme with strong process management and user focus.<br /><a href='(http://theodi.github.io/open-data-barometer-viz/' target='_blank'>Take me to the Swedish open data barometer results</a></p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-7-narrative_large.jpg",
+                    "alt": "User focused",
+                    "title": "User focused",
+                    "*source":"http://www.shutterstock.com/pic-223607656.html",
+                    "*credit":"Studio_G",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "User focused"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    }, {
+        "_id":"c-42",
+        "_parentId":"b-33",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/burst.png",
+            "medium": "course/en/images/burst.png",
+            "small": "course/en/images/burst.png"
+        }
+    },
+    {
+        "_id":"c-43",
+        "_parentId":"b-33",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Are you ready for open data success?",
+        "displayTitle":"Are you ready for open data success?",
+        "body":"<p>Can you recall the key indicators of a successful open data initiative?</p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-45",
+        "_parentId":"b-35",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Measures of success",
+            "title": "",
+            "large": "course/en/images/odi-8-textimage_large.jpg",
+            "medium": "course/en/images/odi-8-textimage_large.jpg",
+            "small": "course/en/images/odi-8-textimage_large.jpg",
+            "*source":"http://www.shutterstock.com/pic-120780490.html",
+            "*credit":"501room",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-50",
+        "_parentId":"b-35",
+        "_type":"component",
+        "_component":"mcq",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Measures of success",
+        "displayTitle": "Measures of success",
+        "body": "<p>The 3 key criteria for comparing and measuring successful open data initiatives are...</p>",
+        "instruction": "<em>Select an option, then click 'Submit'.</em>",
+        "_items": [
+            {
+                "text": "validity, openness and usefulness.",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "readiness, implementation and impact.",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "relevance, functionality and consistency.",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>That’s right!</h5><p>The capacity to implement a successful initiative and derive benefits from it, which important data is available and what variety and type of new value is being created.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Are you sure about that?</h5><p>The capacity to implement a successful initiative and derive benefits from it, which important data is available and what variety and type of new value is being created.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>The capacity to implement a successful initiative and derive benefits from it, which important data is available and what variety and type of new value is being created.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-55",
+        "_parentId":"b-40",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Focussing on demand",
+            "title": "",
+            "large": "course/en/images/odi-9-mcq_large.jpg",
+            "medium": "course/en/images/odi-9-mcq_large.jpg",
+            "small": "course/en/images/odi-9-mcq_large.jpg",
+            "*source":"http://www.shutterstock.com/pic-203239417.html",
+            "*credit":"Ozerina Anna",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-60",
+        "_parentId":"b-40",
+        "_type":"component",
+        "_component":"mcq",
+        "_classes":"",
+        "_layout":"right",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":3,
+        "title": "Focussing on demand",
+        "displayTitle": "Focussing on demand",
+        "body": "<p>What are three indicators of a demand-focussed approach to open data?</p>",
+        "instruction": "<em>Select three answers, then click 'Submit'</em>",
+        "_items": [
+            {
+                "text": "Open data as an educator.",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "Open data as an innovation enabler.",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "Large quantities of data.",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Open data as a community supporter.",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "Enabling a big data agenda.",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>That’s right!</h5><p>A demand-focused approach improves data literacy, enables innovation and supports communities.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Are you sure about that?</h5><p>A demand-focused approach improves data literacy, enables innovation and support communities.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>A demand-focused approach improves data literacy, enables innovation and supports communities.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Are you sure about that?</h5><p>A demand-focused approach improves data literacy, enables innovation and supports communities.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>A demand-focused approach improves data literacy, enables innovation and supports communities.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-65",
+        "_parentId":"b-45",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Keeping on track",
+            "title": "",
+            "large": "course/en/images/odi-10-accordian_large.jpg",
+            "medium": "course/en/images/odi-10-accordian_large.jpg",
+            "small": "course/en/images/odi-10-accordian_large.jpg",
+            "*source":"http://www.shutterstock.com/pic-154597898.html",
+            "*credit":"Leone_V",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-70",
+        "_parentId":"b-45",
+        "_type":"component",
+        "_component":"mcq",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Keeping on track",
+        "displayTitle": "Keeping on track",
+        "body": "<p>Key performance indicators (KPIs) are a good method of...</p>",
+        "instruction": "<em>Select an option, then click 'Submit'.</em>",
+        "_items": [
+            {
+                "text": "maintaining a balance between supply, demand and usage.",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "calculating the size of datasets.",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "hitting milestones in the process.",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>That’s right!</h5><p>KPIs are a great way to maintain the balance between the supply and demand side of an open data initiative.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Are you sure about that?</h5><p>KPIs are a great way to maintain the balance between the supply and demand side of an open data initiative.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>KPIs are a great way to maintain the balance between the supply and demand side of an open data initiative.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-85",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Summary icon clipboard",
+            "title": "Summary icon clipboard",
+            "large": "course/en/images/odi-footer.png",
+            "medium": "course/en/images/odi-footer.png",
+            "small": "course/en/images/odi-footer.png",
+            "*source":"http://www.shutterstock.com/pic-189810137.html",
+            "*credit":"Kritchanut",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-90",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Comparing and measuring success",
+        "displayTitle":"Comparing and measuring success",
+        "body":"<p>When comparing and measuring open data initiatives, it is important to use a broad framework and focus on demand.</p><p>These methods help your initiative to stay on track and emulate the success of other open data initiatives.</p><p>KPIs also help drive the changes organisations require to be an effective participant in the open data community.</p><p>In the next module, we explore how to find sustainable sources of open data.</p><p><a class='course_link' href='../module7/'>Next module</a></p><p><a class='course_link' href='index.html'>Main Menu</a></p>",
+        "_pageLevelProgress": {
+          "_isEnabled": true
+        }
+    },
+    {
+       "_id":"c-95",
+       "_parentId":"b-55",
+       "_type":"component",
+       "_component":"text",
+       "_classes":"separator",
+       "_layout":"full"
+    },
+    {
+        "_id":"c-100",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"footer-logo",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Open data institute logo",
+            "title": "Open data institute logo",
+            "large": "course/en/images/logo-small.png",
+            "medium": "course/en/images/logo-small.png",
+            "small": "course/en/images/logo-small.png",
+            "*source":"http://theodi.org",
+            "*credit":"The Open Data Institute",
+            "*license":"All rights reserved"  
+        }
+    },
+    {
+        "_id":"c-105",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"social-buttons",
+        "_layout":"right",
+        "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/en/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/en/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/en/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/en/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/en/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/en/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/en/images/social/flickr.png'></a>"
+    }
+]

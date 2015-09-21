@@ -1,0 +1,436 @@
+[
+    {
+        "_id":"c-01",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"intro-logo",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "",
+            "medium": "",
+            "small": "",
+            "*source":"",
+            "*credit":"",
+            "*license":""
+        }
+    },
+    {
+        "_id":"c-02",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"How useful is my data?",
+        "displayTitle":"How useful is my data?",
+        "body":"<p>Assessing how useful open data is can vary depending on the domain and the content. To assist this process, there are a number of best practice guidelines publishers and users can follow.</p><p>In this module we look at the 5 Stars of linked open data and discover how this can be used to measure the technical usability of data.</p><h5>In this module we’ll explore the following:</h5><ul class='ticks'><li>What are the 5 Stars of linked open data</li><li>The first 3 stars</li><li>How to recognise the stars in data</li></ul>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-11",
+        "_parentId":"b-10",
+        "_type":"component",
+        "_component":"iFrame-vimeo",
+        "_classes":"",
+        "_layout":"full",
+        "title":"Assessing data usability – in 2 minutes",
+        "displayTitle": "Assessing data usability – in 2 minutes",
+        "body": "ODI Trainer David Tarrant introduces the 5 Stars of open data as an assessment tool and helps you understand how and where it can be used.",
+        "instruction": "To turn subtitles on and off, click the 'cc' button at the bottom right of the video",
+        "_setCompletionOn":"ended",
+        "_source": "https://player.vimeo.com/video/129197206",
+        "_width": {
+            "_small" : 300,
+            "_medium" : 500,
+            "_large" : 905
+        },
+        "_height": {
+            "_small" : 250,
+            "_medium" : 350,
+            "_large" : 508
+        }
+    },
+    {
+        "_id":"c-21",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "5 Stars of open data",
+            "title": "5 Stars of open data",
+            "large": "course/en/images/odi-001.jpg",
+            "medium": "course/en/images/odi-001.jpg",
+            "small": "course/en/images/odi-001.jpg",
+            "*source": "http://www.shutterstock.com/pic.mhtml?id=171677003&src=lb-36497927",
+            "*credit": "vs148",
+            "*licence": "Shutterstock open licence"
+        }
+    },
+    {
+        "_id":"c-22",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"right",
+        "title":"The 5 Stars of open data",
+        "displayTitle":"The five stars of open data",
+        "body":"<p>The 5 Stars guideline for linked open data is a way to measure how well data is integrated into the web.</p><p>It examines the accessibility and technical usability of a dataset ranging from being available online (1-star) to being part of the web of data (5 Stars). Each star must be awarded sequentially and none can be skipped.</p><p>The guidelines  were  developed by Sir Tim Berners-Lee in 2001 and have been adopted by publishers worldwide to help guide many open data initiatives such as the Italian Digital Agency who attach badges to all their datasets.<br /><a href='http://spcdata.digitpa.gov.it/data.html' target='_blank'>Take me to the Italian Digital Agency site</a></p><p>In this module we look at the first 3 stars, which tabular and transactional data is suited to. The final two stars are explored  in module 13.</p>"
+    },
+    {
+        "_id":"c-30",
+        "_parentId":"b-30",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "The first 3 stars",
+            "title": "The first 3 stars",
+            "large": "course/en/images/odi-002.jpg",
+            "medium": "course/en/images/odi-002.jpg",
+            "small": "course/en/images/odi-002.jpg",
+            "*source": "http://www.shutterstock.com/pic.mhtml?id=188328170&src=lb-36497927",
+            "*credit": "vs148",
+            "*licence": "Shutterstock open licence"
+        }
+    },
+    {
+      "_id":"c-35",
+      "_parentId":"b-30",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"left",
+      "title": "The first 3 stars",
+      "displayTitle": "The first 3 stars",
+      "body": "<p>The first 3 stars of linked open data allow you to establish if the available data is usable.</p>",
+      "instruction": "<em>Click the headings to explore further.</em>",
+      "_items": [
+        {
+          "alt": "1 star - An open licence",
+          "title": "1 star - An open licence",
+          "body": "<p>The first star is awarded to any data which is open at a basic level. The content, in any  format, must be available under an open licence.</p><p>Regardless of the quality of a dataset, it cannot qualify for the first star unless it is available under an open licence.</p><p>A PDF file on a website available under an open licence is enough to fulfil the first star.</p>"
+        },
+        {
+          "alt": "2 stars - Re-usable format",
+          "title": "2 stars - Re-usable format",
+          "body": "<p>The second star is awarded to any data that allows for simple re-use. The guidelines state  that the data must be available in a ‘highly-reusable, structured format’ that can be read by a machine and understood by a human.</p><p>The key to achieving 2-stars is to select the most re-usable format. In some cases, the most re-usable format may be a closed or proprietary one, such as an Excel or Numbers file.</p><p>Making data available in any format is better than none at all.</p>"
+        },
+        {
+          "alt": "3 stars - Open format",
+          "title": "3 stars - Open format",
+          "body": "<p>The guidelines for the third star of open data state that the data must be available in a structured, machine readable format which is not tied to a specific software package.</p><p>An example of a dataset that would be awarded 3 stars is a CSV file with an appropriate open licence.</p><p>Enel, an Italian energy company, provides a good example of a 3-star dataset with a clearly displayed star-rating badge.<br /><a href='http://data.enel.com/node/4679' target='_blank'>Take me to Enel 3-star open dataset</a></p>"
+        }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+   {
+        "_id": "c-45",
+        "_parentId": "b-40",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Unlocking the usability of open data",
+        "displayTitle": "Unlocking the usability of open data",
+        "body": "Each star gained represents an improvement in the usability of the dataset. Use the following simple checks to evaluate how many stars any dataset has.",
+        "instruction": "<em class='desktop-instruction'>Click the forward arrow to see more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
+        "_items": [
+            {
+                "title": "Star 1 - Checking the licence",
+                "body": "<p>Finding the  licence for an open data set can be one of the hardest steps.</p><p>An open licence is an explicit permission to use the data for both commercial and non-commercial purposes.</p><ul class=ticks><li>The metadata record about the data</li><li>Terms and conditions of the web page or site</li><li>Click on the data file, there might be a popup</li><li>Check inside the data file itself</li></ol></p><p>Websites feature licensing information in different ways, you may have to search a little on each site. </p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-003.jpg",
+                    "alt": "Star 1 - Checking the license",
+                    "title": "Star 1 - Checking the license",
+                    "*source": "http://www.shutterstock.com/pic.mhtml?id=148686812&src=lb-36497927",
+                    "*credit": "vs148",
+                    "*licence": "Shutterstock open licence"
+                },
+                "strapline": "Providing certainty"
+            },
+            {
+                "title": "Star 2 - Checking usability",
+                "body": "<p>When you discover open data on the web, there are several ways you can assess how usable it is. Ask yourself:<ul class='ticks'><li>Do you think that this is the most user-friendly format in which to publish this particular data?</li><li>Does the file appear to be the same as the one the publisher uses?</li><li>Is there any other information that has been added by a human?</li></ul></p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-004.jpg",
+                    "alt": "Star 2 - checking usability",
+                    "title": "Star 2 - checking usability",
+                    "*source": "http://www.shutterstock.com/pic.mhtml?id=144334663&src=lb-36497927",
+                    "*credit": "vs148",
+                    "*licence": "Shutterstock open licence"
+                },
+                "strapline": "Providing clarity"
+            },
+            {
+                "title": "Star 3 - Checking openness",
+                "body": "<p>Open formats are sometimes more difficult to assess. The following questions will help you understand if the data is available in an open format:<ul class='ticks'><li>Can I open the file in more than one programme on my computer and still see the full functionality of the file?</li><li>When I look up the file format (eg CSV) online, does it say I need to download a specific programme to open it?</li></ul></p><p>CSV is the most popular open format and is easy to identify. CSV qualifies for 3-stars as long as the other 2 are achieved. The Bulgraian open data portal provides some good examples of 3-star CSV datasets that are clearly marked with both a licence and file format.<br /><a href='https://opendata.government.bg/dataset/tsentralen-registar-na-yuridicheskite-litsa' target='_blank'>Take me to the Bulgarian open data portal</a></p><p>Many open data portals are also publishing Open Document Format (ODF) files. These files may appear perfect for open data, however it can be difficult to identify the tool that can open these files.</p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-005.jpg",
+                    "alt": "Star 3 - checking openness",
+                    "title": "Star 3 - checking openness",
+                    "*source": "http://www.shutterstock.com/pic.mhtml?id=142601674&src=lb-36497927",
+                    "*credit": "vs148",
+                    "*licence": "Shutterstock open licence"
+                },
+                "strapline": "Enabling innovation"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-52",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/burst.png",
+            "medium": "course/en/images/burst.png",
+            "small": "course/en/images/burst.png"
+        }
+    },
+    {
+        "_id":"c-53",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Are you ready to assess openness?",
+        "displayTitle":"Are you ready to assess openness?",
+        "body":"<p>There are four simple things to remember when it comes to assessing openness. Can you recall them?</p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-65",
+        "_parentId":"b-60",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "5 Stars of open data",
+            "title": "",
+            "large": "course/en/images/odi-006.jpg",
+            "medium": "course/en/images/odi-006.jpg",
+            "small": "course/en/images/odi-006.jpg",
+            "*source": "http://www.shutterstock.com/pic.mhtml?id=171677003&src=lb-36497927",
+            "*credit": "vs148",
+            "*licence": "Shutterstock open licence"
+        }
+    },
+    
+    {
+        "_id":"c-60",
+        "_parentId":"b-60",
+        "_type":"component",
+        "_component":"mcq",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "How do you rate the openness of a dataset using the 5 Stars?",
+        "displayTitle": "How do you rate the openness of a dataset using the 5 Stars?",
+        "body": "<p>How would you go about assessing the openness of a dataset you found online?</p>",
+        "instruction": "<em>Select an option, then click 'Submit'.</em>",
+        "_items": [
+            {
+                "text": "Look at each star separately and rate according to the highest achieved.",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Start with the first star and rate each one sequentially.",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "Just guess.",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>That’s right!</h5><p>Each star must be awarded sequentially and none can be skipped.</p>",
+            "_incorrect": {
+                "notFinal": "h5>Are you sure about that?</h5><p>Each star must be awarded sequentially and none can be skipped.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>Each star must be awarded sequentially and none can be skipped.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Are you sure about that?</h5><p>Each star must be awarded sequentially and none can be skipped.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>Each star must be awarded sequentially and none can be skipped.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-70",
+        "_parentId":"b-70",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Star 2 - checking usability",
+            "title": "",
+            "large": "course/en/images/odi-007.jpg",
+            "medium": "course/en/images/odi-007.jpg",
+            "small": "course/en/images/odi-007.jpg",
+            "*source": "http://www.shutterstock.com/pic.mhtml?id=144334663&src=lb-36497927",
+            "*credit": "vs148",
+            "*licence": "Shutterstock open licence"
+        }
+    },
+    {
+        "_id":"c-71",
+        "_parentId":"b-70",
+        "_type":"component",
+        "_component":"mcq",
+        "_classes":"",
+        "_layout":"right",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "What is the second star?",
+        "displayTitle": "What is the second star?",
+        "body": "<p>The second star is awarded for...</p>",
+        "instruction": "<em>Select an option, then click 'Submit'.</em>",
+        "_items": [
+            {
+                "text": "An open licence.",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "An open format.",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "A reuseable format.",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>That’s right!</h5><p>The second star is all about data re-usability and recommends that data should be available in its most re-usable form regardless of whether or not the format is open or proprietary.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Are you sure about that?</h5><p>The second star is all about data re-usability and recommends that data should be available in its most re-usable form regardless of whether or not the format is open or proprietary.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>The second star is all about data re-usability and recommends that data should be available in its most re-usable form regardless of whether or not the format is open or proprietary.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Are you sure about that?</h5><p>The second star is all about data re-usability and recommends that data should be available in its most re-usable form regardless of whether or not the format is open or proprietary.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>The second star is all about data re-usability and recommends that data should be available in its most re-usable form regardless of whether or not the format is open or proprietary.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-115",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Summary icon clipboard",
+            "title": "Summary icon clipboard",
+            "large": "course/en/images/summary-icon.png",
+            "medium": "course/en/images/summary-icon.png",
+            "small": "course/en/images/summary-icon.png",
+            "*source": "http://www.shutterstock.com/pic-189810137.html",
+            "*credit": "Kritchanut",
+            "*licence": "Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-110",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Assessing open data",
+        "displayTitle":"Assessing open data",
+        "body":"<p>Assessing how useful data is can vary widely depending on the domain and the specific content. To help with this process there are a number of guidelines, including the 5 Stars of linked open data.</p><p>The 5 Stars guideline for linked open data is a way to measure how well data is integrated into the web. Each star must be awarded sequentially and none can be skipped.<h5>In this module we looked at the first 3 stars:</h5><ul class='ticks'><li>Open license</li><li>Reusable format</li><li>Open format</li></ul><p>For more on the final two stars see module 13.</p><p><a class='course_link' href='../module11/'>Next module</a></p><p><a class='course_link' href='index.html'>Main menu</a></p>",
+        "_pageLevelProgress": {
+          "_isEnabled": true
+        }
+    },
+    {
+       "_id":"c-111",
+       "_parentId":"b-110",
+       "_type":"component",
+       "_component":"text",
+       "_classes":"separator",
+       "_layout":"full"
+    },
+    {
+        "_id":"c-112",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"footer-logo",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Open data institute logo",
+            "title": "Open data institute logo",
+            "large": "course/en/images/logo-small.png",
+            "medium": "course/en/images/logo-small.png",
+            "small": "course/en/images/logo-small.png",
+            "*source": "http://theodi.org",
+            "*credit": "The Open Data Institute",
+            "*licence": "All rights reserved"
+        }
+    },
+    {
+        "_id":"c-113",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"social-buttons",
+        "_layout":"right",
+        "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/en/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/en/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/en/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/en/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/en/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/en/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/en/images/social/flickr.png'></a>"
+    }
+]

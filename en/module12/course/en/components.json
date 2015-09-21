@@ -1,0 +1,664 @@
+[
+    {
+        "_id":"c-01",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"intro-logo",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "",
+            "medium": "",
+            "small": "",
+            "*source":"",
+            "*credit":"",
+            "*license":""
+        }
+    },
+    {
+        "_id":"c-02",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Finding hidden data on the web",
+        "displayTitle":"Finding hidden data on the web",
+        "body":"<p>‘Open data’ does not only mean datasets available to download. Downloadable open data represents only a small fraction of the available data on the web.</p><p>The majority of data available on the web is hidden from the human eye. However, machines can find and read this data. In this module we look at techniques to unlock hidden data.</p><h5>In this module we’ll explore the following:</h5><ul class='ticks'><li>How to locate hidden data</li><li>What benefits hidden data can provide</li><li>How to obtain hidden data</li></ul>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+     {
+    "_id":"c-11",
+    "_parentId":"b-10",
+    "_type":"component",
+    "_component":"iFrame-vimeo",
+    "_classes":"",
+    "_layout":"full",
+        "title":"Finding hidden data – in 2 minutes",
+        "displayTitle": "Finding hidden data – in 2 minutes",
+        "body": "ODI Trainer David Tarrant explains what hidden data is, what benefits it can provide and how you can obtain it.",
+        "instruction": "To turn subtitles on and off, click the 'cc' button at the bottom right of the video",
+        "_setCompletionOn":"ended",
+        "_source": "https://player.vimeo.com/video/129197208",
+        "_width": {
+            "_small" : 300,
+            "_medium" : 500,
+            "_large" : 905
+        },
+        "_height": {
+            "_small" : 250,
+            "_medium" : 350,
+            "_large" : 508
+        }
+    },
+    {
+        "_id":"c-21",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Tip of the iceberg",
+            "title": "Tip of the iceberg",
+            "large": "course/en/images/odi-001.jpg",
+            "medium": "course/en/images/odi-001.jpg",
+            "small": "course/en/images/odi-001.jpg",
+            "*source": "http://www.shutterstock.com/pic-278213858.html",
+            "*credit": "Lightspring",
+            "*licence": "Shutterstock standard license"
+        }
+    },
+    {
+        "_id":"c-22",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"The data people can't see",
+        "displayTitle":"The data people can't see",
+        "body":"<p>Data is not always easy to find on the web, because most of the available resources are visible only to machines. People navigate the web visually, viewing content, clicking on links and downloading files.</p><p>Machines, by contrast, only navigate the web through logical rules set out in the code. While humans look for engaging, interactive content, machines require structure, logic and clarity.</p><p>This difference creates ‘blind spots’ for how people and machines read the web.</p><p>For example, machines cannot always instantly find a download link in a page; humans find it difficult to see structured, non-visual data contained in website code.</p><p>Downloadable open data files are just one type of data on the web. Much more data remains hidden in website code.</p>"
+    },
+     {
+        "_id": "c-25",
+        "_parentId": "b-25",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Finding hidden data",
+        "displayTitle": "Finding hidden data",
+        "body": "Not all data is available for download. Often it is hidden in the different websites we visit every day.",
+        "instruction": "<em class='desktop-instruction'>Click the forward arrow to see more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
+        "_items": [
+            {
+                "title": "Why hide data?",
+                "body": "<p>The shift towards the data-driven, mobile-enabled web has led to a change in the way websites are built. To meet user expectations of interactive, visual websites, developers increasingly place data in a separate ‘layer’ or even in the code itself. This data layer is often accessible to people using the right tools.</p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-002.jpg",
+                    "alt": "Readiness",
+                    "title": "Readiness",
+                    "*source": "http://www.shutterstock.com/pic-145267489",
+                    "*credit": "kentoh",
+                    "*licence": "Shutterstock standard license"
+                },
+                "strapline": "Readiness"
+            },
+            {
+                "title": "Data is hiding everywhere",
+                "body": "<p>From Wikipedia pages to holiday planners, fashion websites to energy providers, the web is full of data sources.</p><p>The licences for this hidden data are not always clear; just because the data is machine readable on a public website does not make it open data. If you are uncertain about whether hidden data is openly licensed, check with the website publisher.</p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-003.jpg",
+                    "alt": "Implementation",
+                    "title": "Implementation",
+                    "*source": "http://www.shutterstock.com/pic-144137602",
+                    "*credit": "David Arts",
+                    "*licence": "Shutterstock standard license"
+                },
+                "strapline": "Implementation"
+            },
+            {
+                "title": "What type of data is hiding?",
+                "body": "<p>Hidden data looks entirely different from an open dataset you download from a website.</p><p>Machine-readable data on the web will be in formats like JSON, the most common and simple to use; embedded within HTML; in XML; and sometimes in RDF.</p><p>Try the exercises later in this module to see if you can extract data in these formats.</p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-004.jpg",
+                    "alt": "Impact",
+                    "title": "Impact",
+                    "*source": "http://www.shutterstock.com/pic-79079872",
+                    "*credit": "Angela Waye",
+                    "*licence": "Shutterstock standard license"
+                },
+                "strapline": "Impact"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-30",
+        "_parentId":"b-28",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Benefits of hidden data",
+            "title": "Benefits of hidden data",
+            "large": "course/en/images/odi-005.jpg",
+            "medium": "course/en/images/odi-005.jpg",
+            "small": "course/en/images/odi-005.jpg",
+            "*source": "http://www.shutterstock.com/pic-203736538",
+            "*credit": "Digital Storm",
+            "*licence": "Shutterstock standard license"
+        }
+    },
+    {
+      "_id":"c-35",
+      "_parentId":"b-28",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"left",
+      "title":"Benefits of hidden data",
+      "displayTitle": "Benefits of hidden data",
+      "instruction": "<em>Click the headings to find out more.</em>",
+      "_items": [
+        {
+          "alt": "Quality",
+          "title": "Quality",
+          "body": "<p>In many cases hidden data will be data used by a publisher to present the web page you are looking at on their site.</p><p>The hidden data is therefore an important part of their online operations and it is likely that the publisher takes care over the quality.</p><p>Data extracted from the web tends to be more reliable as it is likely to be data at the core of an organisation's operations. Therefore, it is more likely to be a dependable data source to work with.</p>"
+        },
+        {
+          "alt": "Relevance",
+          "title": "Relevance",
+          "body": "<p>Organisations do not always publish downloadable data. However, many run data-driven websites. By accessing the data directly through existing data feeds (or from within the website’s code) there is a clear use for the data already. This will help you quickly identify relevant data from this existing use, rather than having to establish the use yourself. For example, the BBC News pages, sections and related data feeds<br /><a href='http://www.bbc.co.uk/news/10628494' target='_blank'>Take me to BBC news feeds</a></p>"
+        },
+        {
+          "alt": "Context",
+          "title": "Context",
+          "body": "<p>When you access data directly from the web you are already viewing it in a context it is used in by the publisher. As we have covered in previous modules, the context of the data is an important component of its use.</p>"
+        },
+        {
+          "alt": "Breadth",
+          "title": "Breadth",
+          "body": "<p>Often an organisation is limited in the amount of data it can publish as downloadable data.  Finding hidden data opens up a broader range of resources.</p>"
+        }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+     {
+        "_id": "c-40",
+        "_parentId": "b-30",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "How to find hidden data",
+        "displayTitle": "How to find hidden data",
+        "body": "<p>From data we gain information, from information we gain knowledge and insight.</p><p>Please note that just because you can extract hidden data, it does not make this data open. You should always check the terms of use and licences of the website before gathering or using data for any purpose. For further details on licensing, please refer back to module 4 of this course.</p<",
+        "instruction": "<em class='desktop-instruction'>Click the forward arrow to see more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
+        "_items": [
+            {
+                "title": "Extension downloads",
+                "body": "<p>Some websites have been built to offer a way to extract data by adding an extension to the URL of the web page you are viewing. For such websites, usually maintained by organisations who also publish downloadable open data, adding the correct extension will trigger a download of that page in a data format, as opposed to a browser format.</p><p>A good example of this is the UK Government website (gov.uk) which provides any page in a data format simply by adding the relevant extension like “.json”, for example www.gov.uk/browse/business.json.</p><p>Try it with the UK Trade data by viewing the following page and then adding “.json” to get the data.<br /><a href='https://www.gov.uk/trade-tariff/sections' target='_blank'>Take me to the UK gov trade tariff</a></p><p>To view the data in a more human readable form copy it into jsonlint.io</p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-006.jpg",
+                    "alt": "Extensions",
+                    "title": "Extensions",
+                    "*source": "http://www.shutterstock.com/pic-119236978",
+                    "*credit": "spaxiax",
+                    "*licence": "Shutterstock standard license"
+                },
+                "strapline": "Process management"
+            },
+            {
+                "title": "Data feeds",
+                "body": "<p>Many websites provide links to data syndication feeds that can be subscribed to.</p><p>These feeds may be RSS feeds, Twitter alert feeds or other less common types. Feeds can be used to get raw data about a broad selection of content.</p><p>For an example of a raw data feed, look at the BBC news feed in XML.<br /><a href='http://feeds.bbci.co.uk/news/rss.xml' target='_blank'>Why not try out the news feeds from the BBC in XML.</a></p><p>Now you can use a free online tool to make that data easier to use<br /><a href='http://codebeautify.org/xmlviewer' target='_blank'>Go to codebeautify and enter the BBC feed URL under 'Load URL'</a></p><p>or get alerts for flooding from your nearest river (UK only).<br /><a href='http://www.gaugemap.co.uk/' target='_blank'>Take me to river level guages</a></p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-007.jpg",
+                    "alt": "Data feeds",
+                    "title": "Data feeds",
+                    "*source": "http://www.shutterstock.com/pic-72158482",
+                    "*credit": "Ing",
+                    "*licence": "Shutterstock standard license"
+                },
+                "strapline": "User focused"
+            },
+            {
+                "title": "Source code",
+                "body": "<p>Going beyond providing a simple route to data, many sites have data embedded in the web page's source code.</p><p>Why not check out the ODI's experimental 'Hidden Data Extractor' tool to find source code?<br><br><a class='course_link' href='http://odinprac.theodi.org/hidden-data-extractor/' target='_blank'>Take me to ODI Hidden Data Extractor</a></p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-008.jpg",
+                    "alt": "Source code",
+                    "title": "Source code",
+                    "*source": "http://www.shutterstock.com/pic-119236978",
+                    "*credit": "spaxiax",
+                    "*licence": "Shutterstock standard license"
+                },
+                "strapline": "User focused"
+            },
+            {
+                "title": "APIs or machine-readable interfaces",
+                "body": "<p>Some websites or web services will expose a machine-readable interface, or API, for querying and accessing their data.</p><p>Examples of services that have APIs include: <a href='https://api.opencorporates.com/' target='_blank'>Open Corporates</a> (open), <a href='http://wiki.openstreetmap.org/wiki/API' target='_blank'>OpenSteetMap</a> (open), <a href='https://dev.twitter.com/rest/public' target='_blank'>Twitter</a> (not completely open), <a href='https://www.flickr.com/services/api/' target='_blank'>Flickr</a> (some content open), <a href='https://developer.linkedin.com/docs/rest-api' target='_blank'>LinkedIn</a> (not open).</p><p>Most of these services use a web based API and allow addition of extensions (try “.json” on OpenCorporates). Although this API looks the same as the earlier example in this section, it's formal status as an API provides a guarantee that the service will be available.</p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-009.jpg",
+                    "alt": "APIs",
+                    "title": "APIs",
+                    "*source": "http://www.shutterstock.com/pic-231102415",
+                    "*credit": "Imagentle",
+                    "*licence": "Shutterstock standard license"
+                },
+                "strapline": "User focused"
+            },
+            {
+                "title": "Scraping the web",
+                "body": "<p>If none of these techniques work, you may need to scrape the human-readable web pages. While this can be reliable you have the added risk of the layout changing as well as the content.</p><p>Why not try out <a href='http://www.magic.import.io' target='_blank'>magic.import.io</a> to see how easy it can be?</p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-010.jpg",
+                    "alt": "Scraping the web",
+                    "title": "Scraping the web",
+                    "*source": "http://www.shutterstock.com/pic-231672367",
+                    "*credit": "McIek",
+                    "*licence": "Shutterstock standard license"
+                },
+                "strapline": "User focused"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    }, {
+        "_id":"c-42",
+        "_parentId":"b-33",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/burst.png",
+            "medium": "course/en/images/burst.png",
+            "small": "course/en/images/burst.png"
+        }
+    },
+    {
+        "_id":"c-43",
+        "_parentId":"b-33",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Are you ready to find hidden data?",
+        "displayTitle":"Are you ready to find hidden data?",
+        "body":"<p>Can you recall the key things about hidden data?</p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-45",
+        "_parentId":"b-35",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Tip of the iceberg",
+            "title": "Tip of the iceberg",
+            "large": "course/en/images/odi-011.jpg",
+            "medium": "course/en/images/odi-011.jpg",
+            "small": "course/en/images/odi-011.jpg",
+            "*source": "http://www.shutterstock.com/pic-278213858.html",
+            "*credit": "Lightspring",
+            "*licence": "Shutterstock standard license"
+        }
+    },
+    {
+        "_id":"c-50",
+        "_parentId":"b-35",
+        "_type":"component",
+        "_component":"mcq",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "What is hidden data?",
+        "displayTitle": "What is hidden data?",
+        "body": "<p>Hidden data is...</p>",
+        "instruction": "<em>Select an option, then click 'Submit'.</em>",
+        "_items": [
+            {
+                "text": "part of a treasure hunt.",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "data visible to machines but invisible to human eyes",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "files that are difficult to download.",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>That’s right!</h5><p>Hidden data is data that is invisible to people as they navigate the web but that a machine can easily find and understand</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Are you sure about that?</h5><p>Hidden data is data that is invisible to people as they navigate the web but that a machine can easily find and understand</p>",
+                "final": "<h5>Are you sure about that?</h5><p>Hidden data is data that is invisible to people as they navigate the web but that a machine can easily find and understand</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-55",
+        "_parentId":"b-40",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Impact",
+            "title": "",
+            "large": "course/en/images/odi-012.jpg",
+            "medium": "course/en/images/odi-012.jpg",
+            "small": "course/en/images/odi-012.jpg",
+            "*source": "http://www.shutterstock.com/pic-79079872",
+            "*credit": "Angela Waye",
+            "*licence": "Shutterstock standard license"
+        }
+    },
+    {
+        "_id":"c-60",
+        "_parentId":"b-40",
+        "_type":"component",
+        "_component":"mcq",
+        "_classes":"",
+        "_layout":"right",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Why is data hidden?",
+        "displayTitle": "Why is data hidden?",
+        "body": "<p>People hide data because...</p>",
+        "instruction": "<em>Select an option, then click 'Submit'.</em>",
+        "_items": [
+            {
+                "text": "they are ashamed of it",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "it is messy",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "most of the time they just haven't intentionally exposed it",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>That’s right!</h5><p>Most hidden data is not deliberately hidden. Often the organisation building the website is concentrating on how humans navigate the pages and therefore doesn't think about how the data is provided.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Are you sure about that?</h5><p>Most hidden data is not deliberately hidden. Often the organisation building the website is concentrating on how humans navigate the pages and therefore doesn't think about how the data is provided.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>Most hidden data is not deliberately hidden. Often the organisation building the website is concentrating on how humans navigate the pages and therefore doesn't think about how the data is provided.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Are you sure about that?</h5><p>Most hidden data is not deliberately hidden. Often the organisation building the website is concentrating on how humans navigate the pages and therefore isn’t thinking about how the data is provided.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>Most hidden data is not deliberately hidden. Often the organisation building the website is concentrating on how humans navigate the pages and therefore isn’t thinking about how the data is provided.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-65",
+        "_parentId":"b-45",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Benefits of hidden data",
+            "title": "",
+            "large": "course/en/images/odi-013.jpg",
+            "medium": "course/en/images/odi-013.jpg",
+            "small": "course/en/images/odi-013.jpg",
+            "*source": "http://www.shutterstock.com/pic-203736538",
+            "*credit": "Digital Storm",
+            "*licence": "Shutterstock standard license"
+        }
+    },
+    {
+        "_id":"c-70",
+        "_parentId":"b-45",
+        "_type":"component",
+        "_component":"mcq",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Benefits of hidden data",
+        "displayTitle": "Benefits of hidden data",
+        "body": "<p>Which of the following is not a benefit of hidden data?</p>",
+        "instruction": "<em>Select an option, then click 'Submit'.</em>",
+        "_items": [
+            {
+                "text": "Breadth",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Quality",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Readability",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "Relevance",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Context",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>That’s right!</h5><p>Hidden data can increase the relevance and quality of the data, the breadth available and highlight the context in which the data is used.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Are you sure about that?</h5>Hidden data can increase the relevance and quality of the data, the breadth available and highlight the context in which the data is used.</p>",
+                "final": "<h5>Are you sure about that?</h5>Hidden data can increase the relevance and quality of the data, the breadth available and highlight the context in which the data is used.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "Hidden data can increase the relevance and quality of the data, the breadth available and highlight the context in which the data is used.",
+                "final": "Hidden data can increase the relevance and quality of the data, the breadth available and highlight the context in which the data is used."
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-72",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Source code",
+            "title": "",
+            "large": "course/en/images/odi-014.jpg",
+            "medium": "course/en/images/odi-014.jpg",
+            "small": "course/en/images/odi-014.jpg",
+            "*source": "http://www.shutterstock.com/pic-119236978",
+            "*credit": "spaxiax",
+            "*licence": "Shutterstock standard license"
+        }
+    },
+    {
+        "_id":"c-73",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"mcq",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "How might you extract hidden data form a website?",
+        "displayTitle": "How might you extract hidden data form a website?",
+        "body": "<p>Which of the following is a useful way to extract hidden data from the website?</p>",
+        "instruction": "<em>Select an option, then click 'Submit'.</em>",
+        "_items": [
+            {
+                "text": "Caching the website link",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Reloading the page",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Inspecting the source code",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>That’s right!</h5><p>Inspecting the source code of a website often reveals hidden data embedded in the page</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Are you sure about that?</h5><p>Inspecting the source code of a website often reveals hidden data embedded in the page</p>",
+                "final": "<h5>Are you sure about that?</h5><p>Hidden data can increase the relevance and quality of the data, the breadth available and highlight the context in which the data is used.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Are you sure about that?</h5><p>Inspecting the source code of a website often reveals hidden data embedded in the page</p>",
+                "final": "<h5>Are you sure about that?</h5><p>Inspecting the source code of a website often reveals hidden data embedded in the page</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-85",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Summary icon clipboard",
+            "title": "Summary icon clipboard",
+            "large": "course/en/images/summary-icon.png",
+            "medium": "course/en/images/summary-icon.png",
+            "small": "course/en/images/summary-icon.png",
+            "*source":"http://www.shutterstock.com/pic-189810137.html",
+            "*credit":"Kritchanut",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-90",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Finding hidden data",
+        "displayTitle":"Finding hidden data",
+        "body":"<p>Data available for download is only a small fraction of data available on the web.</p><p>While the human eye cannot always see this data, it is possible to identify and grab a wealth of new data using machines.</p><p>The data accessed from these websites is often much broader and more relevant to your work than downloadable files and also draws directly from the context in which the publisher is already using it.</p><p>By raising your awareness of hidden data and learning some of the simple approaches in this module, such as extension queries and APIs, you will be able to access a broad range of relevant data for your future work.</p><p><a class='course_link' href='../module13/'>Next module</a></p><p><a class='course_link' href='index.html'>Main menu</a></p>",
+        "_pageLevelProgress": {
+          "_isEnabled": true
+        }
+    },
+    {
+       "_id":"c-95",
+       "_parentId":"b-55",
+       "_type":"component",
+       "_component":"text",
+       "_classes":"separator",
+       "_layout":"full"
+    },
+    {
+        "_id":"c-100",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"footer-logo",
+        "_layout":"left",
+        "_graphic": {
+             "alt": "Open data institute logo",
+            "title": "Open data institute logo",
+            "large": "course/en/images/logo-small.png",
+            "medium": "course/en/images/logo-small.png",
+            "small": "course/en/images/logo-small.png",
+            "*source":"http://theodi.org",
+            "*credit":"The Open Data Institute",
+            "*license":"All rights reserved"
+        }
+    },
+    {
+        "_id":"c-105",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"social-buttons",
+        "_layout":"right",
+        "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/en/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/en/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/en/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/en/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/en/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/en/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/en/images/social/flickr.png'></a>"
+    }
+]
