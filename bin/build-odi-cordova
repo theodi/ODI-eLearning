@@ -16,6 +16,10 @@ OUTPATH=modules/cordova/
 echo "Retriving module"
 git --git-dir=.module checkout $1
 #git --git-dir=.module pull
+echo "Copying video over"
+echo ""
+`cp src/course/en/video/video.mp4 src/course/$2/video/video.mp4`
+
 echo "Backing up languages"
 rm -fR tmp
 mkdir tmp
@@ -41,8 +45,20 @@ echo "Updating image path"
 echo ""
 sed -i -e "s/course\/en\/images/course\/$2\/images/g" src/theme/adapt-contrib-vanilla/less/header.less
 
+echo "Changing video to native player" 
+echo ""
+sed -i -e "s/iFrame-vimeo/media/g" src/course/$2/components.json
+sed -i -e "s/instruction/binstruction/g" src/course/$2/components.json
+
 echo "Adding index.html to all internal links"
 sed -i -e "s/\"..\/\"/\"..\/index.html\"/g" src/course/$2/course.json
+
+echo "Disabling data downloads"
+echo ""
+sed -i -e "s/course\/$2\/components.json/javascript:alert('Data is not available via the mobile application.');/g" src/course/$2/course.json
+sed -i -e "s/course\/$2\/course.json/javascript:alert('Data is not available via the mobile application.');/g" src/course/$2/course.json
+sed -i -e "s/course\/$2\/data\/scorm.zip/javascript:alert('Data is not available via the mobile application.');/g" src/course/$2/course.json
+
 for i in `seq 1 13`;
 do
 	sed -i -e "s/module$i\//module$i\/index.html/g" src/course/$2/course.json
@@ -68,19 +84,10 @@ sed -i -e "s/bcountry-select/country-select/g" src/theme/adapt-contrib-vanilla/t
 sed -i -e "s/$2\/course\/$2\/js\/control/en\/course\/en\/js\/control/g" src/index.html
 sed -i -e "s/<script type=\"text\/javascript\" src=\"..\/cordova.js\"><\/script><script type=\"text\/javascript\" src=\"..\/cordova-odi.js\"><\/script>//g" src/index.html
 
-if [ $2 == "en" ]
-then
-	sed -i -e "s/index.html'>Main/'>Main/g" src/course/en/components.json 
-	sed -i -e "s/index.html'>Next/'>Next/g" src/course/en/components.json 
-else 
-	sed -i -e "s/index.html'>Menu/'>Menu/g" src/course/fr/components.json 
-	sed -i -e "s/index.html'>Prochain/'>Prochain/g" src/course/fr/components.json 
-fi
-
-echo "building scorm package"
-cd build
-zip -r course/$2/data/scorm.zip * >/dev/null 
-cd ..
+#echo "building scorm package"
+#cd build
+#zip -r course/$2/data/scorm.zip * >/dev/null 
+#cd ..
 
 echo "Moving module into place"
 `mkdir $OUTPATH/$2/`
