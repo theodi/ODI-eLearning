@@ -46,7 +46,11 @@
         "instruction": "To turn subtitles on and off, click the 'cc' button at the bottom right of the video",
         "_setCompletionOn":"ended",
         "_source": "https://player.vimeo.com/video/129196639",
-        "_width": {
+        "_media": {
+		"mp4": "course/en/video/video.mp4",
+		"poster": "course/en/video/placeholder.jpg"
+	},
+	"_width": {
             "_small" : 300,
             "_medium" : 500,
             "_large" : 905
