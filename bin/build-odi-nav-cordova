@@ -25,15 +25,21 @@ echo "Updating image path"
 echo ""
 sed -i -e "s/course\/en\/images/course\/$1\/images/g" src/theme/adapt-contrib-vanilla/less/header.less
 
+echo "Hiding language selector in theme"
+echo "" 
+sed -i -e "s/country-select/bcountry-select/g" src/theme/adapt-contrib-vanilla/templates/navigation.hbs
+
+echo "Adding cordova javascript"
+echo ""
+sed -i -e "s/<\/head>/<script type=\"text\/javascript\" src=\"cordova.js\"><\/script><script type=\"text\/javascript\" src=\"cordova-odi.js\"><\/script><\/head>/g" src/index.html
+
+
 echo "Adding index.html to all internal links"
-sed -i -e "s/'>Click here to learn/index.html'>Click here to learn/g" src/course/en/components.json
 for i in `seq 1 13`;
 do
-	sed -i -e "s/module$i\//module$i\/index.html/g" src/course/en/course.json
+	sed -i -e "s/module$i\//module$i\/index.html/g" src/course/$1/components.json
+	sed -i -e "s/module$i\//module$i\/index.html/g" src/course/$1/course.json
 done
-echo "Activating external links"
-sed -i -e "s/var cordova = false;/var cordova = true;/g" src/extensions/adapt-contrib-spoor/required/online_API_wrapper.js
-
 
 echo "Building navigation"
 echo ""
@@ -44,7 +50,8 @@ echo "Restoring structure";
 `rm -fR src/course/*`
 `mv tmp/* src/course/`
 sed -i -e "s/course\/$1\/images/course\/en\/images/g" src/theme/adapt-contrib-vanilla/less/header.less
-sed -i -e "s/var cordova = true;/var cordova = false;/g" src/extensions/adapt-contrib-spoor/required/online_API_wrapper.js
+sed -i -e "s/bcountry-select/country-select/g" src/theme/adapt-contrib-vanilla/templates/navigation.hbs
+sed -i -e "s/<script type=\"text\/javascript\" src=\"cordova.js\"><\/script><script type=\"text\/javascript\" src=\"cordova-odi.js\"><\/script>//g" src/index.html
 
 echo "Moving items into place"
 `rm -fR $OUTPATH/$1/adapt`
