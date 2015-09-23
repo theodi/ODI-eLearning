@@ -49,7 +49,11 @@
         "instruction": "",
         "_setCompletionOn":"ended",
         "_source": "https://player.vimeo.com/video/129197206",
-        "_width": {
+        "_media": {
+		"mp4": "course/fr/video/video.mp4",
+		"poster": "course/fr/video/placeholder.jpg"
+	},
+	"_width": {
             "_small" : 300,
             "_medium" : 500,
             "_large" : 905
