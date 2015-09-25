@@ -1,5 +1,4 @@
 var api_url = "https://odi-elearning.herokuapp.com/";
-var cordova = false;
 
 function setID() {
   	$.get( api_url + "create_id.php", function( data ) {
@@ -33,21 +32,8 @@ $(document).ready(function() {
 		}
 	});
 	setTimeout(function() {setRawValue("theme",theme)},1000);
-	if (cordova) {
-//		setTimeout(function() { changeLinks(); }, 2000);
-//		document.addEventListener("deviceready",changeLinks, false);
-	}
 });
 
-function changeLinks() {
-	$('a').on("click",function(event){
-		event.preventDefault();
-		var anchor = $(this);
-		var value = anchor.attr("href");
-		window.open(value,'_system');
-		return false;
-	});
-}
 
 function updateProgress() {
 //	var frame = document.getElementById('contentFrame').contentDocument;
