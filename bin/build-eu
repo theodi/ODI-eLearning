@@ -13,6 +13,8 @@ then
 	exit
 fi
 OUTPATH=modules/eu
+`rm -fR build`
+
 echo "Retriving module"
 git --git-dir=.module checkout $1
 #git --git-dir=.module pull
@@ -26,6 +28,9 @@ echo ""
 `rm -fR src/course/*`
 `cp -r tmp/$2 src/course/`
 `cp src/course/$2/config.json src/course/`
+echo "removing video" 
+echo ""
+`rm -fR src/course/$2/video`
 echo "Updating control path"
 echo ""
 sed -i -e "s/en\/course\/en\/js\/control/eu\/$2\/course\/$2\/js\/control/g" src/index.html
@@ -58,4 +63,3 @@ echo "Moving module into place"
 `mkdir $OUTPATH/$2/`
 `rm -fR $OUTPATH/$2/$1`
 `cp -r build $OUTPATH/$2/$1`
-`rm -fR build`
