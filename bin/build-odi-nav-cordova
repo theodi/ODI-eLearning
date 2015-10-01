@@ -43,9 +43,9 @@ done
 
 echo "Disabling data downloads"
 echo ""
-sed -i -e "s/course\/$2\/components.json/javascript:alert('Data is not available via the mobile application.');/g" src/course/$2/course.json
-sed -i -e "s/course\/$2\/course.json/javascript:alert('Data is not available via the mobile application.');/g" src/course/$2/course.json
-sed -i -e "s/course\/$2\/data\/scorm.zip/javascript:alert('Data is not available via the mobile application.');/g" src/course/$2/course.json
+sed -i -e "s/course\/$1\/components.json/javascript:alert('Data is not available via the mobile application.');/g" src/course/$1/course.json
+sed -i -e "s/course\/$1\/course.json/javascript:alert('Data is not available via the mobile application.');/g" src/course/$1/course.json
+sed -i -e "s/course\/$1\/data\/scorm.zip/javascript:alert('Data is not available via the mobile application.');/g" src/course/$1/course.json
 
 echo "Building navigation"
 echo ""

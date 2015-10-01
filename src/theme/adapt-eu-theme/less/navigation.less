@@ -28,6 +28,26 @@
             color:@navigation-icon-hover-color;
         }
     }
+    #drawText {
+	font-size: 0.7em;
+	bottom: 4px;
+	position: relative;
+    	@media all and (max-width:(@device-width-medium - 1px)) {
+   		display: none;	
+	} 
+    }
+    .navigation-drawer-toggle-button {
+    	@media all and (min-width:(@device-width-medium - 1px)) {
+       		width: 75px;
+		border: 1px solid white;
+		height: 24px;
+		padding: 3px;
+		padding-bottom: 1px;
+		margin-top: 13px;
+		margin-right: 10px;
+		border-radius: 6px;
+    	}
+    }
     .page-level-progress-navigation {
         .page-level-progress-navigation-completion {
             background: @plp-navigation-background;
