@@ -1,0 +1,91 @@
+// Navigation styling
+// ==================
+
+.navigation {
+    width: 1px;
+    min-width: @default-width;
+    *width: @default-width;
+    box-shadow: @page-box-shadow;
+    background-color:@navigation-color;
+    height:@navigation-height;
+    border-bottom:@navigation-border;
+    .ie8 & {
+        max-width:@ie8-max-width;
+    }
+    @media all and (max-width:(@device-width-large - 1px)) {
+        width: 1px;
+        min-width: 100%;
+        *width: 100%;
+    }
+    @media all and (max-width:(@device-width-medium - 1px)) {
+        width: 1px;
+        min-width: 100%;
+        *width: 100%;
+        height:@navigation-height-mobile;
+    }
+    .navigation-inner {
+    }
+    #odiLearning {
+	    display: inline-block;
+	    float: left;	
+    }
+    .odi-outline {
+	height: 40px;
+	padding: 10px;
+        @media all and (max-width:(@device-width-medium - 1px)) {
+		height: 36px;
+		padding: 7px;
+	}
+    }
+    .learningTop {
+	color: white;
+        vertical-align: top;
+        font-size: 40px;
+        position: relative;
+        top: 21px;
+        left: -10px;
+        @media all and (max-width:(@device-width-medium - 1px)) {
+		display: none;
+	}
+    }
+    .icon {
+        padding:@navigation-padding;
+        @media all and (max-width:(@device-width-medium - 1px)) {
+            padding:@navigation-padding-mobile;
+        }
+        color:@navigation-icon-color;
+        .no-touch &:hover {
+            color:@navigation-icon-hover-color;
+        }
+    }
+    #drawText {
+        font-size: 0.7em;
+        bottom: 4px;
+        position: relative;
+        @media all and (max-width:(@device-width-medium - 1px)) {
+                display: none;
+        }
+    }
+    .navigation-drawer-toggle-button {
+        @media all and (min-width:(@device-width-medium - 1px)) {
+                width: 75px;
+                border: 1px solid white;
+                height: 24px;
+                padding: 3px;
+                padding-bottom: 1px;
+                margin-top: 13px;
+                margin-right: 10px;
+                border-radius: 6px;
+        }
+    }
+    .page-level-progress-navigation {
+        .page-level-progress-navigation-completion {
+            background: @plp-navigation-background;
+            border: none;
+            height: 10px;
+            .page-level-progress-navigation-bar {
+                background: @plp-navigation-completed;
+            }
+        }
+    }
+}
