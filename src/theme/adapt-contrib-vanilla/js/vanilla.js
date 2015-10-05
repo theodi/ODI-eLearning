@@ -63,10 +63,14 @@ function checkState() {
 		clearInterval(interval);
 		click_bind = false;
 		$('.save-section-outer').unbind('click');
+        	$("#country-select").removeClass('status-shown');
+		$("#country-select").addClass('save-shown');
 	} else if (sessionID) {
 		if (!lastSave) { lastSave = "Unknown"; }
 		$('#save-status').html("Module ID: " + moduleId + "<br/>Session ID: " + sessionID + "<br/>Last Save: " + lastSave);
 		$('#save-section').addClass('saving');
+		$("#country-select").removeClass('save-shown');
+		$("#country-select").addClass('status-shown');
 		addListeners();
 	} else {
     		var sl = document.getElementById('save-section');
@@ -78,6 +82,8 @@ function checkState() {
 		var ssi = document.getElementById('cloud-status-img');
 		$(ssi).attr('src','adapt/css/assets/' + toClass + '.gif');
 		$('#save-section').fadeIn();
+		$("#country-select").removeClass('save-shown');
+		$("#country-select").addClass('status-shown');
 		addListeners();
 	}	
 }
