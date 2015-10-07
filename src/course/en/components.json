@@ -25,9 +25,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Open Data Science",
-        "displayTitle":"Open Data Science",
-"body":"<p>Data science combines advanced data literacy and statistical knowledge with domain expertise. This combination of skills helps derive valuable insights and communicate them to others.</p><p>This one-day course gives you practical knowledge in open data science and the skills you need to develop in the area.</p>",
+        "title":"Open Data in a Day",
+        "displayTitle":"Open Data in a Day",
+"body":"<p>This introductory course aims to get you up to speed with latest developments in open data and its significance. It is designed to enable anyone to get started with discovering and using open data and understand the skills and processes required to make it work for you and your organisation.</p>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
@@ -60,28 +60,28 @@
       "_layout":"left",
       "title": "Course overview",
       "displayTitle": "Course overview",
-      "body": "<p>The course is split into four main sessions. These sessions start by exploring the current role of a data scientist and the key skills and competancies required. Each preceeding session then takes a practical look at applying a number of these compentancies.</p>",
+      "body": "<p>The course is split into four main sessions. These sessions start by exploring definitions of open data, examines the impacts and future directions of the field, looks at practical aspects such as licencing and best practices and concludes with a hands-on exploration of some key tools.</p>",
       "instruction": "<em>The sessions are briefly described below.</em>",
       "_items": [
         {
-          "alt": "Intorducing Open Data Science",
-          "title": "Introducing Open Data Science",
-          "body": "<p><b>What is Open Data Science?</b></p><p>This session explores the concepts, key competancies and modern charecteristics of an Open Data Scientist.</p><p>A number of key Open Data Science stories are also introduced.</p>"
+          "alt": "Introducing Open Data",
+          "title": "Introducing Open Data",
+          "body": "<p>The session explores recent changes in the definition of open data, and allow learners to understand why the current definition has been determined.</p><p>The session also examines a number of examples of open data impact from different fields and considers the potential for open data implementation</p>"
         },
         {
-          "alt": "Unlocking data from the web",
+          "alt": "Challenges of Open Data and Future Developments",
           "title": "Unlocking data from the web",
-          "body": "<p>Data litracy is the most important aspect of a modern data scientist.</p><p>This session introduces key techniques to obtain, translate and prepare data for examination.</p>"
+          "body": "<p>Open data is still a developing field and those working within it will encounter a number of common problems. This sessions presents and clarifys the main challenges before examining the future of open data.</p>"
         },
         {
-          "alt": "Machine learning and prediction",
-          "title": "Maching learning and prediction",
-          "body": "<p>Data flows are constant, but can we predict what the next outcome will be?</p><p>This session looks at using machine learning to classify large amounts of data.</p>"
+          "alt": "Licensing and Best Practices",
+          "title": "Licensing and Best Practices",
+          "body": "<p>This session begins by looking at how open licences are there to protect data publishers, while also unlocking value. We show how to build a machine readable open license that can be applied to any online content.</p><p>The session then continues by looking at the technical, legal, social and practical requirements for making different types of open data usable and some of the most relevant guidelines to support this process.</p>"
         },
         {
-          "alt": "Visualising and presenting data",
-          "title": "Visualising and presenting data",
-          "body": "<p>Communicating insight from data is now an essential skill of a modern dat scientist.</p><p>This session takes a practical look at producing advanced infographics on the web.</p>"
+          "alt": "Cleaning Open Data",
+          "title": "Cleaning Open Data",
+          "body": "<p>This session will introduce the importance of recent changes around open data modification rules which help combat data errors. We also introduce OpenRefine and how it improves data management by publishers.</p>"
         }
       ],
       "_pageLevelProgress": {
