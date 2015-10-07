@@ -264,29 +264,19 @@
       "instruction": "<em>Click below to explore each of the tools to unlock data from <b>in the web</b>.</em>",
       "_items": [
         {
-          "alt": "Adding extensions",
-          "title": "Adding extensions",
-          "body": "<p>Some web pages are also data resources in themselves. In these cases you can try adding data file extensions (e.g. csv, json, xml, rdf etc) to the web address in order to access structured data.</p><p>Try some of the examples below to see what you find:</p><b>All gov.uk data</b><br/><p>Add '.json' to any page of gov.uk (e.g. the <a href='https://www.gov.uk/trade-tariff/chapters/01' target='_blank'>UK Trade Tariff data</a>).</p><b>BBC Programme pages</b><br/><p>Add '.xml' or '.rdf' to any BBC programme page (e.g. <a href='http://www.bbc.co.uk/programmes/b006q2x0' target='_blank'>Doctor Who</a>).</p>"
+          "alt": "Open Data Readiness",
+          "title": "Open Data Readiness",
+          "body": "<p>To what extent is an organisation or country ready to support an open data initiative?</p><ul>The following are important indicators of readiness:<li>Open licences supported</li><li>Policies and procedures established</li><li>Investments made</li><li>Educational support available</li><li>Wider engagement undertaken</li></ul>"
         },
         {
-          "alt": "Finding alternative links",
-          "title": "Finding alternative links",
-          "body": "<p>Some websites offer data feeds in the form of RSS feeds or email subscriptions. Such services provide timely updates of new information and can be reused by many applications.</p><p>The following a good examples of data feeds that are available:</p><ul><li><a href='http://www.bbc.co.uk/news/10628494' target='_blank'>BBC News Feeds</a></li><li><a href='http://www.metoffice.gov.uk/guide/weather/rss' target='_blank'>Met Office Weather feeds</a></li></ul>"
+          "alt": "Open Data Implementation",
+          "title": "Open Data Implementation",
+          "body": "<p>Data is now as important to our national infrastructure as roads or internet access. For public bodies and governments, there are certain datasets that should be open as a way to support innovation, generate value and grow the economy.</p><p>Commercial organisations should also consider which datasets are most useful to help enhance their business and find new market opportunities.</p>"
         },
         {
-          "alt": "Extracting embedded data",
-          "title": "Extracting embedded data",
-          "body": "<p>Many websites dynamically load data, saving web browsers time loading endless pages. This is especially the case with embedde weather widgets and sholling websites where templates are filled with data once they are loaded.</p><p>As a nice aside, this means that your web browser has loaded structured data onto your computer. All we have to do is access it directly so it can be used.</p><a href='http://odinprac.theodi.org/hidden-data-extractor/' target='_blank'>Try out the hidden data extractor and see what you can find hiding in existing web pages.</a></p>"
-        },
-        {
-          "alt": "Content negotiation",
-          "title": "Content negotiation",
-          "body": "<p>Content negotiation is the machine equivalent of adding file extensions to ask for different formats.</p><p>Rather than add extensions, machines can provide a list of priorities for formats they would like and negotiate with the server to get these.</p><p>You can find out more about content negotiation from <a href='https://en.wikipedia.org/wiki/Content_negotiation' target='_blank'>Wikipedia</a>."
-        },
-        {
-          "alt": "Using APIs",
-          "title": "Using APIs",
-          "body": "<p>Application Programme Interfaces (APIs) are machine interfaces designed for specific serviecs.</p><p>They are most often designed to allow applications to query data and in some cases make changes to the data.</p><p>In many cases an API is simply a pattern of web addresses (URLs) that can be adjusted to perform different actions.</p><p>Examples of APIs in action include:</p><ul><li><a href='https://www.flickr.com/services/api/' target='_blank'>Flickr</a></li><li><a href='https://api.opencorporates.com/' target='_blank'>OpenCorporates</a></li><li><a href='https://developer.transportapi.com/' target='_blank'>Transport API</a></li></ul>"
+          "alt": "Open Data Impact",
+          "title": "Open Data Impact",
+          "body": "<p>What are the tangible, real world benefits of the open data for its users?</p><p>Without evidence of impact, communities are less likely to grow around the data and innovation can be less widespread. The following are important indicators of impact:</p><ul><li>Increasing efficiency and transparency of government</li><li>Economic growth driven by open data</li><li>Social and environmental benefits</li></ul>"
         }
       ],
       "_pageLevelProgress": {
@@ -316,15 +306,15 @@
         }
     },
     {
-        "_id":"c-41",
-        "_parentId":"b-40",
+        "_id":"c-61",
+        "_parentId":"b-60",
         "_type":"component",
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Data structures and formats",
-        "displayTitle":"Data structures and formats",
-        "body":"<p>The format of a dataset is the way in which the data is structured and made available for humans and machines.</p><p>Choosing the right format enables simpler management and reuse of the data. To maximise reuse of the data, it may be necessary to translate your data into a number of formats and structures.</p><p><a href='course/en/exercises/Datastructuresandformats.pdf' target='_blank'>Explore the different structures and formats with this exercise.</a></p>",
+        "title":"Discovering Open Data",
+        "displayTitle":"Discovering Open Data",
+        "body":"<p>The best way to apply your new experience of the open data field is to discover some open data on your own.</p><p>To start this process, there is an interactive exercise below. Start by access in the <a href='https://data.gov.uk/dataset/financial-transactions-data-fco' target='_blank'>Foreign and Commonwealth Office's Spend over £25000 dataset</a>.</p><p>Once you have dataset open,<a href='course/en/exercises/Discovering_Open_Data_Exercise.pdf' target='_blank'>explore the different aspects of the data with this exercise.</a></p>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
