@@ -216,17 +216,17 @@
         {
           "alt": "Lack of proper licences",
           "title": "Lack of proper licences",
-          "body": "<p>Many search engines, including google, give you the ability to use advanced searches and prefixs in order to dig out data.</p><p>Try some of the following search prefixes in google to see what you can find:</p><b>filetype:<b><br/><p>Search for specific file types only, e.g. (xls) (<a href='https://www.google.co.uk/#q=filetype:xls+common+names+' target='_blank'>example</a>)</p><b>site:<b><br/><p>Search with a specific domain or site only (<a href='https://www.google.co.uk/#q=site:gov.uk+m25' target='_blank'>example</a>)</p><b>related:<b><br/><p>Search for content related to a known page (<a href='https://www.google.co.uk/#q=related:http:%2F%2Fdrewconway.com%2Fzia%2F2013%2F3%2F26%2Fthe-data-science-venn-diagram' target='_blank'>example</a>)</p><b>link:<b><br/><p>List only pages that link to the one given (<a href='https://www.google.co.uk/#q=link:http:%2F%2Fdrewconway.com%2Fzia%2F2013%2F3%2F26%2Fthe-data-science-venn-diagram' target='_blank'>example</a>)</p>"
+          "body": "<p>The majority of datasets described as 'open' still do not have an appropriate licence to protect the ability of everyone to access, use and share them. As of 2015, only around 46% of data in open data catalogues across the European Union is truly openly licensed.</p><p>In the EU, copyright and database laws are complex. While data might be intended to be open, a licence provides legal clarity for users.</p><p><a href='http://www.opendatamonitor.eu/frontend/web/index.php?r=datacatalogue%2Findex' target='_blank'>The OpenDataMonitor platform</a> provides information and statistics on European open data catalogues.</p>"
         },
         {
-          "alt": "Aggregators and portals",
-          "title": "Aggregators and portals",
-          "body": "<p>Aggregates and portals bring together data from accross the web and expose through their own service. This creates and easy and consistant way to find and download data.</p><p>Explore the links below to find out more:</p><b><a href='http://enigma.io/' target='_blank'>enigma.io</a><b><br/><p>Powerful open data searching for structured data</p><a href='http://transportapi.com/' target='_blank'>Transport API</a><b><br/><p>All UK transport data, in one place, with one API.</p>"
+          "alt": "Failure to update consistently",
+          "title": "Failure to update consistently",
+          "body": "<p>Simply publishing a dataset is not enough to ensure reuse and relaise the benefits of open data. Datasets also need to be updated at regular intervals to ensure they remain relevant and up-to-date. However, the vast majority of datasets are not updated consistently as shown by <a href='https://thomaslevine.com/!/data-about-open-data-talk-december-2-2013/' target='_blank'>the graphics in this study by Thomas Levine</a>.</p>"
         },
         {
-          "alt": "Web scraping",
-          "title": "Web scraping",
-          "body": "<p>If you can't simply download data in a usable format, you may need to scrape it. Helpfully there are now many tools that help us achieve this easily:</p><b><a href='http://pdftables.com' target='_blank'>pdftables.com</a><b><br/><p>Upload a PDF, download data, simple.</p><b><a href='http://magic.import.io' target='_blank'>magic.import.io</a></b><br/><p>Extract data from web pages in a click.</p>"
+          "alt": "Confusion between Open, Big and Personal Data",
+          "title": "Confusion between Open, Big and Personal Data",
+          "body": "<p>The open data doamin is closely related to the concepts of 'big data' and 'personal data', leading to the terms sometimes being used incorrectly to describe each other. While open data describes what you can do with a dataset (namely access, use and share it), big data is a vendor-driven term used to describe the size of a dataset. finally personal data refers to any data which concerns individuals. It is possible for big data to be open, for personal data to be big and for open data to be personal but all three terms refer to very different things about a dataset. Using these terms correctly and understanding when data is open, big or personal is a key challenge to the understanding of the open data field.</p>"
         }
       ],
       "_pageLevelProgress": {
@@ -258,9 +258,9 @@
       "_component":"accordion",
       "_classes":"",
       "_layout":"right",
-      "title": "Unlocking data in the web",
-      "displayTitle": "Unlocking data in the web",
-      "body": "<p>A lot of data is not available via seraches or download buttons. To unlock this data we have to think more like a computer.</p>",
+      "title": "Future Developments in Open Data",
+      "displayTitle": "Future Developments in Open Data",
+      "body": "<p>When speaking about open data, it is important to understand the future developments that are emerging at a gloabl level. For this reason, the Open Data Barometer was created to monitor the developments in national open data programmes and present the results as a visual ranking. The Barometer, which can be found here, measures 3 aspects of an open data programme, discussed in greater detail below.</p>",
       "instruction": "<em>Click below to explore each of the tools to unlock data from <b>in the web</b>.</em>",
       "_items": [
         {
