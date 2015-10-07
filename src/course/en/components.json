@@ -320,7 +320,7 @@
             "_isEnabled": true
         }
     },
-    {
+{
         "_id":"c-65",
         "_parentId":"b-65",
         "_type":"component",
@@ -346,87 +346,166 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Machine learning and prediction",
-        "displayTitle":"Machine learning and prediction",
+        "title":"Licensing and Best Practices",
+        "displayTitle":"Licensing and Best Practices",
         "body":"<p></p>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
         }
     },
-    {
-        "_id":"c-70",
+     {
+        "_id":"c-71",
         "_parentId":"b-70",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
-        "_layout":"right",
-        "title":"",
-        "displayTitle":"",
-        "body":"",
-        "instruction":"",
+        "_layout":"left",
         "_graphic": {
-            "alt": "Machine learning",
-            "title": "Machine learning",
-            "large": "course/en/images/odi-70.png",
-            "medium": "course/en/images/odi-70.png",
-            "small": "course/en/images/odi-70.png",
-            "*source": "https://www.flickr.com/photos/xdxd_vs_xdxd/6829374619",
-            "*credit": "xdxd_vs_xdxd",
-            "*license": "CC-BY-SA"
+            "alt": "Why license open data?",
+            "title": "Why license open data?",
+            "large": "course/en/images/odi-1.jpg",
+            "medium": "course/en/images/odi-1.jpg",
+            "small": "course/en/images/odi-1.jpg",
+            "*source": "http://www.shutterstock.com/pic-270451631.html",
+            "*credit": "Oleksiy Mark",
+            "*license": "Shutterstock Standard License"
         }
     },
     {
-        "_id":"c-71",
+        "_id":"c-72",
         "_parentId":"b-70",
         "_type":"component",
         "_component":"text",
         "_classes":"",
-        "_layout":"left",
-        "title":"Machine learning and classification",
-        "displayTitle":"Machine learning and classification",
-        "body":"<p>Machine learning is all about the construction and study of systems that can learn from data.</p><p>There are many techniques that can be used with data, however one of the most common techniques is classification.</p><p>When classifing data, you first train the machine with a training set, and then test effectivness are error margin with a test set. This can then lead to automated ways of classifying new data.</p><p>Classification techniuqes are commonly used with facial recognition, email spam filters and fraud detection.</p><p>In this section we are going to look at classifying a dataset of houses.</p><p><a href='course/en/exercises/training-data.csv' target='_blank'>Download the houses dataset</a></p>",
-        "instruction":"",
-        "_pageLevelProgress": {
-            "_isEnabled": true
-        }
+        "_layout":"right",
+        "title":"Why license open data?",
+        "displayTitle":"Why license open data?",
+        "body":"<p>Without a licence, data is not truly open.</p><p>A licence tells anyone that they can access, use and share your data.</p><p>Unless you have a licence, data may be ‘publicly available’, but users will not have permission to access, use and share it under copyright or database laws.</p>"
     },
-    {
+{
         "_id":"c-80",
         "_parentId":"b-80",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
         "_layout":"right",
-        "title":"",
-        "displayTitle":"",
-        "body":"",
-        "instruction":"",
         "_graphic": {
-            "alt": "Exploring R",
-            "title": "Exploring R",
-            "large": "course/en/images/odi-80.png",
-            "medium": "course/en/images/odi-80.png",
-            "small": "course/en/images/odi-80.png",
-            "*source": "http://www.martingrandjean.ch/wp-content/uploads/2013/10/Graphe3.png",
-            "*credit": "Martin Grandjean",
-            "*license": "CC-BY-SA"
+            "alt": "Types of licences",
+            "title": "Types of licences",
+            "large": "course/en/images/odi-8.jpg",
+            "medium": "course/en/images/odi-8.jpg",
+            "small": "course/en/images/odi-8.jpg",
+            "*source":"http://www.shutterstock.com/pic-278179001.html",
+            "*credit":"Eugene Sergeev",
+            "*license":"Shutterstock Standard License"
         }
     },
     {
-        "_id":"c-81",
-        "_parentId":"b-80",
+      "_id":"c-81",
+      "_parentId":"b-80",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"left",
+      "title": "Types of licences",
+      "displayTitle": "Types of licences",
+      "body": "<p>The simpler the licence, the better!</p><p>There are lots of different licences. To maximise reuse, try to adopt a licence standard that is already widely used.</p><p><a href='https://theodi.org/guides/reusers-guide-open-data-licensing' target='_blank'>Take me to a guide on licensing</a></p>",
+      "instruction": "<em>Click the headings to explore further.</em>",
+      "_items": [
+        {
+          "alt": "Creative Commons licences",
+          "title": "Creative Commons licences",
+          "body": "<p>Creative Commons licences are widely used for open content. Version 4.0 explicitly considers data licensing.</p><p>There are three Creative Commons versions of an open licence:</p><ul><li><strong>Public domain: (CC0)</strong></li><li><strong>Attribution: (CC-BY v4.0)</strong></li><li><strong>Attribution & share-alike: (CC-BY-SA v4.0)</strong></li></ul><p>The public domain and attribution licences give most flexibility in the use of data while a share-alike licence may limit the commercial use of the data.<br /><a href='https://creativecommons.org/publicdomain/zero/1.0/' target='_blank'>Show me a Public Domain licence</a><br><a href='https://creativecommons.org/licenses/by/4.0/' target='_blank'>Show me an Attribution licence</a><br><a href='https://creativecommons.org/licenses/by-sa/4.0/' target='_blank'>Show me an Attribution & share-alike licence</a></p><p>You can choose a licence that works for you at the Creative Commons website:<br><a href='https://creativecommons.org/choose/' target='_blank'>Show me how to make my own Creative Commons licence</a></p>"
+        },
+        {
+          "alt": "Bespoke/Custom-made licences",
+          "title": "Bespoke/Custom-made licences",
+          "body": "<p>A bespoke or custom-made licence is a creation of the data publisher which introduces specific conditions with which the user must comply. Bespoke or custom-made licences can be written by the publisher or adapted from a standard licence through the addition of new conditions and/or the modification of existing ones.</p><p>Bespoke and custom-made licences can increase complexity for users of open data.</p><p>They may introduce specific conditions that limit usage, restrict data integration and, in some cases, are difficult for users to comply with.</p>"
+        },
+        {
+          "alt": "Open government licences",
+          "title": "Open government licences",
+          "body": "<p>Some publishers have chosen to develop their own licences.</p><p>The best examples are:</p><ul><li>short</li><li>compatible with widely used licences</li><li>easy to comply with</li></ul><p>A good example of a clear open license has been created by the French government.<br /><a href='http://wiki.data.gouv.fr/wiki/Licence_Ouverte_/_Open_Licence' target='_blank'>Take me to the French Government open licence</a></p><p>The UK Government has a good example of an open licence developed in this way that is used by UK Government departments:<br /><a href='http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/' target='_blank'>Take me to the UK Government open licence</a></p>"
+        }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-71",
+        "_parentId":"b-70",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Why license open data?",
+            "title": "Why license open data?",
+            "large": "course/en/images/odi-1.jpg",
+            "medium": "course/en/images/odi-1.jpg",
+            "small": "course/en/images/odi-1.jpg",
+            "*source": "http://www.shutterstock.com/pic-270451631.html",
+            "*credit": "Oleksiy Mark",
+            "*license": "Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-92",
+        "_parentId":"b-90",
         "_type":"component",
         "_component":"text",
         "_classes":"",
-        "_layout":"left",
-        "title":"Exploring R",
-        "displayTitle":"Exploring R",
-        "body":"<p>R is statistic programming language. It can rapidly speed up the process of freely and flexibly exploring and discovering insight from a dataset.</p><p>Additional libraries also provide automatied mechanisms for building machine learning algorithms and classifiers.</p><p><a href='http://training.theodi.org/StatsML/using_r' target='_blank'>This exercise takes you through the process of exploring R with our dataset</a></p><p>Open <a href='https://www.datacamp.com/rstudio' target='_blank'>R Studio Online</a> to get started with this exercise (requires registration).</p>",
-        "instruction":"",
-        "_pageLevelProgress": {
-            "_isEnabled": true
+        "_layout":"right",
+        "title":"Recognising Open Licences",
+        "displayTitle":"Recognising Open Licences",
+        "body":"<p>When discovering data online, it is important to be able to check the licence to understadn whether the data is open and if so, under what conditions can you access, use and share it</p><p>Take a look at each of the following licences and try to determine whether they are open licences</p><ul><li><a href='https://twitter.com/tos' target='Twitter Terms of Use'></a></li><li><a href='https://opencorporates.com/info/licence' target='Open Corporates'></a></li><li><a href='http://data.gov.sg/Metadata/OneMapMetadata.aspx?id=DENGUE_CLUSTER&t=SPATIAL' target='data.gov.sg'></a></li><li><a href='http://www.metoffice.gov.uk/datapoint/terms-conditions' target='Met Office'></a></li><li><a href='https://www.flickr.com/search/?q=cat' target='Flickr'></a></li></ul>"
+    },
+{
+        "_id":"c-100",
+        "_parentId":"b-100",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Marques of quality",
+            "title": "Marques of quality",
+            "large": "course/en/images/odi-6.jpg",
+            "medium": "course/en/images/odi-6.jpg",
+            "small": "course/en/images/odi-6.jpg",
+            "*source":"http://www.shutterstock.com/pic-254316427.html",
+            "*credit":"tostphoto",
+            "*license":"Shutterstock Standard License"
         }
+    },
+    {
+      "_id":"c-101",
+      "_parentId":"b-100",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"left",
+      "title": "Best Practices",
+      "displayTitle": "Best practices",
+      "body": "<p>Best practice standards provide users with confidence about the quality and usability of open data.</p><p>There are 2 key indicators of open data quality:</p>",
+      "instruction": "<em>Click the headings to explore further.</em>",
+      "_items": [
+        {
+          "alt": "5 Stars",
+          "title": "5 Stars",
+          "body": "<p>The 5 Stars of linked open data include the basic legal definition and technical excellence of the published data.</p><p>The 5 Stars were developed by inventor of the Web, Sir Tim Berners-Lee in 2001. The 5 Stars make recommendations on the format and structure of the data.</p><p>You can learn more about the 5 Stars in modules 10 and 13 of this course.</p>"
+        },
+        {
+          "alt": "ODI Open Data Certificates",
+          "title": "ODI Open Data Certificates",
+          "body": "<p>The Open Data Institute's Open Data Certificates are practical, social, legal and technical guidelines to consider when publishing or using open data.</p><p>The certificates act as a self-assessment questionnaire for publishers, and in some cases users, to assess and benchmark the full usability of a dataset.<br /><a href='https://certificates.theodi.org/' target='_blank'>Take me to the ODI Open Data Certificates site</a></p>"
+        }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
     },
     {
         "_id":"c-85",
