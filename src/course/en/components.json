@@ -95,49 +95,49 @@
         "_type":"component",
         "_layout": "full",
         "_component": "dynamic-narrative",
-        "title": "Introducing Open Data Science",
-        "displayTitle": "Introducing Open Data Science",
-        "body": "<p>This session explores the concepts, key competancies and modern charecteristics of an Open Data Scientist.</p>",
+        "title": "The benefits of Open Data",
+        "displayTitle": "The benefits of Open Data",
+        "body": "<p>This session explores the definition of open data and examines some examples of the benefits of open data. Below to support this discussion you can explore some of the main benefits of open data together with examples.</p>",
         "instruction": "<em class='desktop-instruction'>Click the forward arrow for more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
         "_items": [
             {
-                "title": "Jobs in data",
-                "body": "<p>There are many data centric roles now available within organisations, from data analyst and data engineer to data scientist. While data skills are key, each role is in itself very different.</p><p>This session looks at four key aspects of these data roles to differentiate them in the workplace:</p><ul><li>Domains</li><li>Core concepts</li><li>Product knowledge</li><li>Soft skills</p></ul>",
+                "title": "Support growing economies",
+                "body": "<p>To support the emergence of new data-driven businesses and the growth of existing ones, governments need to publish key datasets.</p><p>Governments also need to support data infrastructures that connect data with those who use it.</p><p>In return, governments are reaping the benefits of a growing data economy as in Finland, where SMEs with access to open data grew 15% faster than those without.</p><p><a href='http://www.epsiplatform.eu/content/finnish-study-psi-pricing-geo-data' target='_blank'>Take me to Finnish case study</a></p>",
                 "_graphic": {
-                    "src": "course/en/images/odi-30a.png",
-                    "alt": "Jobs in data",
-                    "title": "Jobs in data",
-                    "*source":"https://www.flickr.com/photos/76657755@N04/8125987596",
-                    "*credit":"Tax Credits",
-                    "*license":"Creative commons attribution 2.0 Generic"
+                    "src": "course/en/images/odi-002-narrative_large.jpg",
+                    "alt": "Support Growing Economies",
+                    "title": "Support Growing Economies",
+                    "*source":"http://www.shutterstock.com/pic-128352227.html",
+                    "*credit":"vs148",
+                    "*license":"Shutterstock Standard License"
                 },
-                "strapline": "Jobs in data"
+                "strapline": "Support Growing Economies"
             },
             {
-                "title": "Profile of a data scientist",
-                "body": "<p>Drew Conways <a href='http://drewconway.com/zia/2013/3/26/the-data-science-venn-diagram' target='_blank'>venn diagram of a data scientist</a> (shown left) offers a good insight into the key skills and profile of a data scientist.</p><p>Expanding on this using modern profiling techniques it is possible to summarise the key compentancies of a data scientist into eight main areas:</p><ul><li>Big data</li><li>Machine learning and prediction</li><li>Data collection and analysis</li><li>Maths and statistics</li><li>Interpretation and visualisation</li><li>Advanced computing and programming</li><li>Business intelligence and domain expertise</li><li>Open source tools and concepts</li></ul>",
-		              "_graphic": {
-                    "src": "course/en/images/odi-30b.png",
-                    "alt": "Key stories",
-                    "title": "Key stories",
-                    "*source":"http://drewconway.com/zia/2013/3/26/the-data-science-venn-diagram",
-                    "*credit":"Drew Conway",
-                    "*license":"Unknown"
-                },
-                "strapline": "Key stories"
-                },
-                {
-                "title": "Key open data science stories",
-                "body": "<p>Saving money, driving efficiency or creating polical policy. Data science has a key role to play in the future of our modern society.</p><p>A number of key stories help us explore the benefits further:</p><b><a href='http://prescribinganalytics.com/' target='_blank'>Perscribing analytics</a></b><br/><p>Saving money for the health service.</p><b><a href='http://london-fire.labs.theodi.org' target='_blank'>Fire station closures</a></b><br/><p>Modeling the effect of closing fire stations.</p><b><a href='http://www.statestat.maryland.gov/' target='_blank'>StateStat</a></b><br/><p>Changing the way to run a state.</p>",
+                "title": "Improved service delivery",
+                "body": "<p>Governments need to balance the demands of growing populations with the need to tackle small-scale, local issues.</p><p>The availability of detailed open data is essential to improve delivery of services at the local level.</p><p>Some of these new services are available now - <br /><a href='https://www.mysociety.org/' target='_blank'>Take me to mySociety</a> <br /><a href='http://kimittud.atlatszo.hu/' target='_blank'>Take me to the Hungarian 'right to know' portal</a> <br /><a href='http://www.fiksgatami.no/' target='_blank'>Take me to Fix my Street Norway</a></p>",
                 "_graphic": {
-                    "src": "course/en/images/odi-30c.png",
-                    "alt": "Perscribing analytics",
-                    "title": "Perscribing analytics",
-                    "*source":"http://www.prescribinganalytics.com/",
-                    "*credit":"Mastadon C",
-                    "*license":"Unknown"
+                    "src": "course/en/images/odi-003-narrative_large.jpg",
+                    "alt": "Improved service delivery",
+                    "title": "Improved service delivery",
+                    "*source":"https://www.fixmystreet.com/",
+                    "*credit":"fixmystreet",
+                    "*license":"unknown"
                 },
-                "strapline": "Key stories"
+                "strapline": "Improved service delivery"
+            },
+            {
+                "title": "Cost savings",
+                "body": "<p>By growing economies and improving services, open data allows governments to make savings in key areas, like provision of healthcare, education and utilities.</p><p>In the UK, open data helped reveal <a href='https://theodi.org/news/prescription-savings-worth-millions-identified-odi-incubated-company' target='_blank'>£200 million of savings</a> in the health service</p><p>In France, energy data is being used to drive more efficient energy generation practices<br /><a href='https://www.quandl.com/collections/france/france-energy-data' target='_blank'>Show me the France energy data.</a></p><p>Open data can also bring transparency to budgets. In Switzerland, the canton of Bern presented their <a href='http://be-asp.budget.opendata.ch/' target='_blank'>€400m annual saving</a> to the public using open data</p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-004-narrative_large.jpg",
+                    "alt": "Cost Savings",
+                    "title": "Cost Savings",
+                    "*source":"http://www.shutterstock.com/pic-75494491.html",
+                    "*credit":"vlastas",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Cost Savings"
             }
         ],
         "_pageLevelProgress": {
@@ -170,8 +170,8 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Unlocking Data from the web",
-        "displayTitle":"Unlocking Data from the web",
+        "title":"Challenges of Open Data and Future Developments",
+        "displayTitle":"Challenges of Open Data and Future Developments",
         "body":"<p></p>",
         "instruction":"",
         "_pageLevelProgress": {
@@ -181,43 +181,6 @@
     {
         "_id":"c-40",
         "_parentId":"b-40",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"right",
-        "title":"",
-        "displayTitle":"",
-        "body":"",
-        "instruction":"",
-        "_graphic": {
-            "alt": "Network data structure",
-            "title": "Network data structure",
-            "large": "course/en/images/odi-40.jpg",
-            "medium": "course/en/images/odi-40.jpg",
-            "small": "course/en/images/odi-40.jpg",
-            "*source": "http://www.shutterstock.com/pic.mhtml?id=262874696&src=id",
-            "*credit": "benjaminec",
-            "*license": "Shutterstock standard license"
-        }
-    },
-    {
-        "_id":"c-41",
-        "_parentId":"b-40",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"",
-        "_layout":"left",
-        "title":"Data structures and formats",
-        "displayTitle":"Data structures and formats",
-        "body":"<p>The format of a dataset is the way in which the data is structured and made available for humans and machines.</p><p>Choosing the right format enables simpler management and reuse of the data. To maximise reuse of the data, it may be necessary to translate your data into a number of formats and structures.</p><p><a href='course/en/exercises/Datastructuresandformats.pdf' target='_blank'>Explore the different structures and formats with this exercise.</a></p>",
-        "instruction":"",
-        "_pageLevelProgress": {
-            "_isEnabled": true
-        }
-    },
-    {
-        "_id":"c-50",
-        "_parentId":"b-50",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
@@ -234,25 +197,25 @@
         }
     },
     {
-      "_id":"c-51",
-      "_parentId":"b-50",
+      "_id":"c-41",
+      "_parentId":"b-40",
       "_type":"component",
       "_component":"accordion",
       "_classes":"",
       "_layout":"left",
-      "title": "Unlocking data on the web",
-      "displayTitle": "Unlocking data on the web",
-      "body": "<p>The first challenge with an data science project is to prepare your data. Some data you might already have, but this might be incomplete or need enriching with other data this is available on the web. Unfortunately, not all data is easy to get hold of. This session unlocks the secrets of obtaining and preparing data that is available on the web.</p>",
+      "title": "Challenges of Open Data",
+      "displayTitle": "Challenges of Open Data",
+      "body": "<p>Open data is still a developing field and faces a number of key challenges which need to be addressed. The following section outlines some of the key areas</p>",
       "instruction": "<em>Click below to explore each of the tools to unlock data that is <b>on the web</b>.</em>",
       "_items": [
         {
-          "alt": "Downloadable data",
-          "title": "Downloadable data",
-          "body": "<p>Many suppliers are helpful and give you human readable download links in order to obtain their data.</p><p>Explore the links below to discover more:</p><ul><li><a href='http://data.gov.uk/dataset/monthly-land-registry-property-transaction-data' target='_blank'>data.gov.uk - Land Registry Monthly Property Transaction Data</a></li><li><a href='http://manufacturingmap.nikeinc.com/#' target='_blank'>Nike - Manufacturing Map</a></li><li><a href='https://nycopendata.socrata.com/' target='_blank'>New York City Open Data</a></li></ul>"
+          "alt": "Inconsistent definitions",
+          "title": "Inconsistent definitions",
+          "body": "<p>Like any new field, open data needs a strong definition to give clarity around what it is and what you can do with it. While many definitions of open data currently exist, promoted by different organisations and meeting different needs, there is no consistency about the terms used in these definitions.</p><p>A recent study by GovLab has highlighted the number of different terms used when defining open data in a <a href='http://images.thegovlab.org/wordpress/wp-content/uploads/2014/01/open-data-table.pdf' target='_blank'>simple chart that illustrates the need for greater consistency</a>."
         },
         {
-          "alt": "Power search for data",
-          "title": "Power search for data",
+          "alt": "Lack of proper licences",
+          "title": "Lack of proper licences",
           "body": "<p>Many search engines, including google, give you the ability to use advanced searches and prefixs in order to dig out data.</p><p>Try some of the following search prefixes in google to see what you can find:</p><b>filetype:<b><br/><p>Search for specific file types only, e.g. (xls) (<a href='https://www.google.co.uk/#q=filetype:xls+common+names+' target='_blank'>example</a>)</p><b>site:<b><br/><p>Search with a specific domain or site only (<a href='https://www.google.co.uk/#q=site:gov.uk+m25' target='_blank'>example</a>)</p><b>related:<b><br/><p>Search for content related to a known page (<a href='https://www.google.co.uk/#q=related:http:%2F%2Fdrewconway.com%2Fzia%2F2013%2F3%2F26%2Fthe-data-science-venn-diagram' target='_blank'>example</a>)</p><b>link:<b><br/><p>List only pages that link to the one given (<a href='https://www.google.co.uk/#q=link:http:%2F%2Fdrewconway.com%2Fzia%2F2013%2F3%2F26%2Fthe-data-science-venn-diagram' target='_blank'>example</a>)</p>"
         },
         {
@@ -271,8 +234,8 @@
       }
     },
     {
-        "_id":"c-60",
-        "_parentId":"b-60",
+        "_id":"c-50",
+        "_parentId":"b-50",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
@@ -289,8 +252,8 @@
         }
     },
     {
-      "_id":"c-61",
-      "_parentId":"b-60",
+      "_id":"c-51",
+      "_parentId":"b-50",
       "_type":"component",
       "_component":"accordion",
       "_classes":"",
@@ -329,6 +292,43 @@
       "_pageLevelProgress": {
         "_isEnabled": true
       }
+    },
+     {
+        "_id":"c-60",
+        "_parentId":"b-60",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "Network data structure",
+            "title": "Network data structure",
+            "large": "course/en/images/odi-40.jpg",
+            "medium": "course/en/images/odi-40.jpg",
+            "small": "course/en/images/odi-40.jpg",
+            "*source": "http://www.shutterstock.com/pic.mhtml?id=262874696&src=id",
+            "*credit": "benjaminec",
+            "*license": "Shutterstock standard license"
+        }
+    },
+    {
+        "_id":"c-41",
+        "_parentId":"b-40",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Data structures and formats",
+        "displayTitle":"Data structures and formats",
+        "body":"<p>The format of a dataset is the way in which the data is structured and made available for humans and machines.</p><p>Choosing the right format enables simpler management and reuse of the data. To maximise reuse of the data, it may be necessary to translate your data into a number of formats and structures.</p><p><a href='course/en/exercises/Datastructuresandformats.pdf' target='_blank'>Explore the different structures and formats with this exercise.</a></p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
     },
     {
         "_id":"c-65",
