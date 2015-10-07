@@ -27,7 +27,7 @@
         "_layout":"left",
         "title":"Open Data in a Day",
         "displayTitle":"Open Data in a Day",
-"body":"<p>This introductory course aims to get you up to speed with latest developments in open data and its significance. It is designed to enable anyone to get started with discovering and using open data and understand the skills and processes required to make it work for you and your organisation.</p>",
+        "body":"<p>This introductory course aims to get you up to speed with latest developments in open data and its significance. It is designed to enable anyone to get started with discovering and using open data and understand the skills and processes required to make it work for you and your organisation.</p>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
@@ -434,8 +434,8 @@
       }
     },
     {
-        "_id":"c-71",
-        "_parentId":"b-70",
+        "_id":"c-91",
+        "_parentId":"b-90",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
@@ -508,8 +508,8 @@
       }
     },
     {
-        "_id":"c-85",
-        "_parentId":"b-85",
+        "_id":"c-110",
+        "_parentId":"b-110",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
@@ -527,14 +527,14 @@
         }
     },
     {
-        "_id":"c-86",
-        "_parentId":"b-85",
+        "_id":"c-111",
+        "_parentId":"b-110",
         "_type":"component",
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Visulising and presenting data",
-        "displayTitle":"Visulising and presenting data",
+        "title":"Cleaning Open Data",
+        "displayTitle":"Cleaning Open Data",
         "body":"<p></p>",
         "instruction":"",
         "_pageLevelProgress": {
@@ -542,114 +542,37 @@
         }
     },
     {
-        "_id": "c-90",
-        "_parentId": "b-90",
-        "_classes": "",
-        "_type":"component",
-        "_layout": "full",
-        "_component": "dynamic-narrative",
-        "title": "Exploring data through visualisation",
-        "displayTitle": "Exploting data through visualisation",
-        "body": "<p></p>",
-        "instruction": "<em class='desktop-instruction'>Click the forward arrow for more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
-        "_items": [
-            {
-                "title": "Exploring space",
-                "body": "<p>The Universe is vast and on a scale people just simply cannot grasp.</p><p>Visualising this effectively is key to increase understanding of our place in the Universe.</p>",
-                "_graphic": {
-                    "src": "course/en/images/odi-90a.png",
-                    "alt": "The planets",
-                    "title": "The planets",
-                    "*source":"https://commons.wikimedia.org/wiki/File:Relative_satellite_sizes.jpg",
-                    "*credit":"tony_g100",
-                    "*license":"CC-Zero"
-                },
-                "strapline": "Exploring space"
-            },
-            {
-                "title": "Faster transport?",
-                "body": "<p>Visualising data can quickly tell us stories of progress.</p><p>The example on the left became part of the advertising campaigne for SNCF. It was used to communicate how much fater the new TGV trains were.</p>",
-                "_graphic": {
-                    "src": "course/en/images/odi-90b.png",
-                    "alt": "SNCF",
-                    "title": "SNCF",
-                    "*source":"http://www.c82.net/blog/?id=66",
-                    "*credit":"E.J. Mare",
-                    "*license":"Unknown"
-                },
-                "strapline": "Faster transport"
-            },
-            {
-                "title": "Light cycles",
-                "body": "<p>Improving mobility is key to the future of successful and smart cities.</p><p>Visualising usage of transport systems (in this case bicycles in London) can help make key decisions about future planning of such systems.</p><p><a href='https://vimeo.com/33712288' target=''>Click here to watch the full video.</a>",
-                "_graphic": {
-                    "src": "course/en/images/odi-90c.png",
-                    "alt": "Light cycles",
-                    "title": "Light cycles",
-                    "*source":"https://vimeo.com/33712288",
-                    "*credit":"Jo Wood ",
-                    "*license":"Unknown"
-                },
-                "strapline": "Light cycles"
-            },
-            {
-                "title": "In flight",
-                "body": "<p>Transport problems are not just limited to single cities. There is a lot we can learn from analysing global transport patterns.</p><p>This example looks at the evolution of flight and uses advanced visualision to tell a story about the history of flight. Using a bit of machine learning, it even attempts to predict the future.</p><p><a href='http://www.theguardian.com/world/ng-interactive/2014/aviation-100-years' target='_blank'>Click here to explore In Flight</a></p>",
-                "_graphic": {
-                    "src": "course/en/images/odi-90d.png",
-                    "alt": "In Flight",
-                    "title": "In Flight",
-                    "*source":"http://www.theguardian.com/world/ng-interactive/2014/aviation-100-years",
-                    "*credit":"The Guardian",
-                    "*license":"Unknown"
-                },
-                "strapline": "In flight"
-            }
-        ],
-        "_pageLevelProgress": {
-        "_isEnabled": true
-        }
-    },
-    {
-        "_id":"c-100",
-        "_parentId":"b-100",
+        "_id":"c-120",
+        "_parentId":"b-120",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
-        "_layout":"right",
-        "title":"",
-        "displayTitle":"",
-        "body":"",
-        "instruction":"",
+        "_layout":"left",
         "_graphic": {
-            "alt": "Cross filters",
-            "title": "Cross filters",
-            "large": "course/en/images/odi-100.jpg",
-            "medium": "course/en/images/odi-100.jpg",
-            "small": "course/en/images/odi-100.jpg",
-            "*source":"sponge uk",
-            "*credit":"sponge uk",
-            "*license":"Creative commons attribute 4.0 international"
+            "alt": "Why license open data?",
+            "title": "Why license open data?",
+            "large": "course/en/images/odi-1.jpg",
+            "medium": "course/en/images/odi-1.jpg",
+            "small": "course/en/images/odi-1.jpg",
+            "*source": "http://www.shutterstock.com/pic-270451631.html",
+            "*credit": "Oleksiy Mark",
+            "*license": "Shutterstock Standard License"
         }
     },
     {
-        "_id":"c-101",
-        "_parentId":"b-100",
+        "_id":"c-121",
+        "_parentId":"b-120",
         "_type":"component",
         "_component":"text",
         "_classes":"",
-        "_layout":"left",
-        "title":"Exploring complex datasets",
-        "displayTitle":"Exploring complex datasets",
-        "body":"<p>Visualisations can help us explore a dataset to unlock insight.</p><p>In particular facetted browsing (or cross filters) allow consumers to filter the data visually. Such browsers are commonly now used by holiday and flight websites, such as <a href='http://www.skyscanner.net/' target='_blank'>Sky scanner</a> to help you filter your search results or change input parameters.</p><p><a href='course/en/exercises/ExploringComplexDatasets.pdf' target='_blank'>Try out this exercise to build your own cross filter with the housing data from earlier</a></p><p>You will need <a href='http://codepen.io/davetaz/pen/NGprqg' target='_blank'>this link</a> to start the exercise.</p>",
-        "instruction":"",
-        "_pageLevelProgress": {
-            "_isEnabled": true
-        }
+        "_layout":"right",
+        "title":"Recognising Open Licences",
+        "displayTitle":"Recognising Open Licences",
+        "body":"<p>When discovering data online, it is important to be able to check the licence to understadn whether the data is open and if so, under what conditions can you access, use and share it</p><p>Take a look at each of the following licences and try to determine whether they are open licences</p><ul><li><a href='https://twitter.com/tos' target='Twitter Terms of Use'></a></li><li><a href='https://opencorporates.com/info/licence' target='Open Corporates'></a></li><li><a href='http://data.gov.sg/Metadata/OneMapMetadata.aspx?id=DENGUE_CLUSTER&t=SPATIAL' target='data.gov.sg'></a></li><li><a href='http://www.metoffice.gov.uk/datapoint/terms-conditions' target='Met Office'></a></li><li><a href='https://www.flickr.com/search/?q=cat' target='Flickr'></a></li></ul>"
     },
     {
-        "_id":"c-110",
-        "_parentId":"b-110",
+        "_id":"c-130",
+        "_parentId":"b-130",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
@@ -666,8 +589,8 @@
         }
     },
     {
-        "_id":"c-111",
-        "_parentId":"b-110",
+        "_id":"c-131",
+        "_parentId":"b-130",
         "_type":"component",
         "_component":"text",
         "_classes":"",
@@ -680,16 +603,16 @@
         }
     },
     {
-       "_id":"c-112",
-       "_parentId":"b-110",
+       "_id":"c-133",
+       "_parentId":"b-130",
        "_type":"component",
        "_component":"text",
        "_classes":"separator",
        "_layout":"full"
     },
     {
-        "_id":"c-113",
-        "_parentId":"b-110",
+        "_id":"c-134",
+        "_parentId":"b-130",
         "_type":"component",
         "_component":"graphic",
         "_classes":"footer-logo",
@@ -706,8 +629,8 @@
         }
     },
     {
-        "_id":"c-114",
-        "_parentId":"b-110",
+        "_id":"c-135",
+        "_parentId":"b-130",
         "_type":"component",
         "_component":"text",
         "_classes":"social-buttons",
