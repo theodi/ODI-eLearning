@@ -119,6 +119,78 @@
     }
 	]
     },
+     {
+        "title": "Course Toolkit",
+        "description": "Click here to view the tools covered in the course",
+        "_filterButtons": {
+            "all": "All",
+            "document": "PDF",
+            "media": "Media",
+            "link": "Link"
+        },
+        "_resourcesItems": [
+        {
+        "_type": "link",
+        "title": "Open Refine",
+        "description": "The Open Refine tool is a powerful tool for cleaning messy data",
+        "_link": "http://openrefine.org/download.html"
+    },
+    {
+        "_type": "link",
+        "title": "CSV Lint",
+        "description": "CSVLint helps you to check that your CSV open data file is readable",
+        "_link": "http://csvlint.io/"
+    },
+    {
+        "_type": "link",
+        "title": "CSV Dataset Health Checker",
+        "description": "The CSV dataset health checker is a simple way to check how many variations a CSV open dataset has gone through and whether all of the files are the same or different",
+        "_link": "http://theodi.github.io/csv-dataset-validator/"
+    },
+    {
+        "_type": "link",
+        "title": "JSON Lint",
+        "description": "JSONLint helps you to check that your JSON open data file is readable",
+        "_link": "http://jsonlint.com/"
+    }
+    ]
+    },
+    {
+        "title": "Publishing Guides",
+        "description": "Click here to view useful publishing guides for open data",
+        "_filterButtons": {
+            "all": "All",
+            "document": "PDF",
+            "media": "Media",
+            "link": "Link"
+        },
+        "_resourcesItems": [
+        {
+        "_type": "link",
+        "title": "Publisher's Guide to Open Data Licensing",
+        "description": "How to licence your open data",
+        "_link": "http://theodi.org/guides/publishers-guide-open-data-licensing"
+    },
+    {
+        "_type": "link",
+        "title": "Reuser's Guide to Open Data Licensing",
+        "description": "How to understand the licence on your open data",
+        "_link": "http://theodi.org/guides/reusers-guide-open-data-licensing"
+    },
+    {
+        "_type": "link",
+        "title": "Publisher's Guide to the Open Data Rights Management",
+        "description": "How to manage the rights of your open data",
+        "_link": "http://theodi.org/guides/publishers-guide-to-the-open-data-rights-statement-vocabulary"
+    },
+    {
+        "_type": "link",
+        "title": "Reuser's Guide to the Open Data Rights Management",
+        "description": "How to understand your rights in using open data",
+        "_link": "http://theodi.org/guides/odrs-reusers-guide"
+    }
+    ]
+    },
            {
         "title": "Open data",
         "description": "Use the content of this module as open data",
