@@ -156,6 +156,24 @@
     ]
     },
     {
+        "title": "Open Refine Servers",
+        "description": "Click here to access the open refine servers needed for the cleaning exercise.",
+        "_filterButtons": {
+            "all": "All",
+            "document": "PDF",
+            "media": "Media",
+            "link": "Link"
+        },
+        "_resourcesItems": [
+        {
+	        "_type": "link",
+	        "title": "No servers online",
+	        "description": "No serviers found, please try refreshing",
+	        "_link": "#"
+    	}
+	]
+    },
+    {
         "title": "Publishing Guides",
         "description": "Click here to view useful publishing guides for open data",
         "_filterButtons": {
