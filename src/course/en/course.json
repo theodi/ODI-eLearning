@@ -156,6 +156,30 @@
     ]
     },
     {
+        "title": "Open Refine Servers",
+        "description": "Click here to access Open Refine Servers",
+        "_filterButtons": {
+            "all": "All",
+            "document": "PDF",
+            "media": "Media",
+            "link": "Link"
+        },
+        "_resourcesItems": [
+        {
+        "_type": "link",
+        "title": "Refine Server 1",
+        "description": "First open refine server for use in data cleaning exercise",
+        "_link": "http://theodi.org/guides/publishers-guide-open-data-licensing"
+    },
+    {
+        "_type": "link",
+        "title": "Refine Server 2",
+        "description": "Second open refine server for use in data cleaning exercise",
+        "_link": "http://theodi.org/guides/reusers-guide-open-data-licensing"
+    }
+    ]
+    },
+    {
         "title": "Publishing Guides",
         "description": "Click here to view useful publishing guides for open data",
         "_filterButtons": {
