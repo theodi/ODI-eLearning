@@ -157,7 +157,11 @@
     },
     {
         "title": "Open Refine Servers",
+<<<<<<< HEAD
         "description": "Click here to access Open Refine Servers",
+=======
+        "description": "Click here to access the open refine servers needed for the cleaning exercise.",
+>>>>>>> 82765180ad06a209e421d286046b548183598e24
         "_filterButtons": {
             "all": "All",
             "document": "PDF",
@@ -166,6 +170,7 @@
         },
         "_resourcesItems": [
         {
+<<<<<<< HEAD
         "_type": "link",
         "title": "Refine Server 1",
         "description": "First open refine server for use in data cleaning exercise",
@@ -178,6 +183,14 @@
         "_link": "http://theodi.org/guides/reusers-guide-open-data-licensing"
     }
     ]
+=======
+	        "_type": "link",
+	        "title": "No servers online",
+	        "description": "No serviers found, please try refreshing",
+	        "_link": "#"
+    	}
+	]
+>>>>>>> 82765180ad06a209e421d286046b548183598e24
     },
     {
         "title": "Publishing Guides",
