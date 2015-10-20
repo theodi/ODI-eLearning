@@ -24,6 +24,11 @@ echo ""
 echo "Updating image path"
 echo ""
 sed -i -e "s/course\/en\/images/course\/$1\/images/g" src/theme/adapt-contrib-vanilla/less/header.less
+
+echo "Hiding welcome block" 
+echo ""
+
+
 echo "Changing ownership"
 echo ""
 sed -i -e "s/European Data Portal/Open Data Institute's/g" src/course/$1/components.json

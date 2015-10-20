@@ -41,6 +41,11 @@ echo "Hiding language selector in theme"
 echo "" 
 sed -i -e "s/country-select/bcountry-select/g" src/theme/adapt-contrib-vanilla/templates/navigation.hbs
 
+echo "Changing ownership"
+echo ""
+sed -i -e "s/European Data Portal/Open Data Institute's/g" src/course/$2/components.json
+sed -i -e "s/Européen de Données/Open Data Institute/g" src/course/$2/components.json
+
 echo "Updating image path"
 echo ""
 sed -i -e "s/course\/en\/images/course\/$2\/images/g" src/theme/adapt-contrib-vanilla/less/header.less

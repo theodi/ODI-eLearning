@@ -3,6 +3,10 @@ define(function(require) {
 	var Adapt = require('coreJS/adapt');
 
 });
+	
+if (localStorage.getItem("email") == "") {
+	
+}
 
 var theme = "ODI";
 var interval; 
@@ -11,12 +15,19 @@ var click_bind = false;
 $(document).ready(function() {
 	setTimeout(function() {updateLanguageSwitcher(); },1000);
 	setTimeout(function() {$(".dropdown dt a").show();$('#country-select').show();},2000);
-	interval = setInterval(function() { checkState(); },5000);
+	interval = setInterval(function() { checkState(); },3000);
 });
 
 var moduleId = "";
 $.getJSON("course/config.json",function(data) {
         moduleId = data._moduleId;
+	if (moduleId != "ODI_welcome" && localStorage.getItem("email") == null) {
+		if (moduleId == "ODI_nav") {
+			window.location.href = "welcome";
+		} else {
+			window.location.href = "../welcome";
+		}
+	}
 });
 
 function addListeners() {
@@ -26,6 +37,17 @@ function addListeners() {
 		});
 		click_bind = true;
 	}
+}
+
+function getEmail() {
+	email = $("input[id='email']").val();
+	localStorage.setItem("email",email);
+	if (moduleId == "ODI_welcome") {
+		window.location.href = "../";
+	} else {
+		emailSave(email);
+	}
+	
 }
 
 function emailSave(email) {
@@ -56,15 +78,20 @@ function checkState() {
 	var sessionEmail = localStorage.getItem("email");
 	var sessionID = localStorage.getItem("_id");
 	var lastSave = localStorage.getItem(moduleId + "_lastSave");
+	console.log(moduleId);
 
 	if (!sessionEmail && sessionID) {
 		$('#save-section').html("<button onClick='showSave();' class='slbutton' id='saveSession'>Save Progress</button>");
-		$('#save-section').fadeIn();
+		if (moduleId == "ODI_welcome") {
+			$('#save-section').hide();
+		} else {
+			$('#save-section').fadeIn();
+	        	$("#country-select").removeClass('status-shown');
+			$("#country-select").addClass('save-shown');
+		}
 		clearInterval(interval);
 		click_bind = false;
 		$('.save-section-outer').unbind('click');
-        	$("#country-select").removeClass('status-shown');
-		$("#country-select").addClass('save-shown');
 	} else if (sessionID) {
 		if (!lastSave) { lastSave = "Unknown"; }
 		$('#save-status').html("Module ID: " + moduleId + "<br/>Session ID: " + sessionID + "<br/>Last Save: " + lastSave);
