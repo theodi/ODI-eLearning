@@ -62,6 +62,8 @@ function emailSave(email) {
 		$(ss).html(config["_phrases"][toClass]);
 		var ssi = document.getElementById('cloud-status-img');
 		$(ssi).attr('src','adapt/css/assets/' + toClass + '.gif');
+		var ssi2 = document.getElementById('cloud-status-img2');
+		$(ssi2).attr('src','adapt/css/assets/' + toClass + '.gif');
 		$(sl).fadeIn();
 		addListeners();
 		checkState();
@@ -78,7 +80,6 @@ function checkState() {
 	var sessionEmail = localStorage.getItem("email");
 	var sessionID = localStorage.getItem("_id");
 	var lastSave = localStorage.getItem(moduleId + "_lastSave");
-	console.log(moduleId);
 
 	if (!sessionEmail && sessionID) {
 		$('#save-section').html("<button onClick='showSave();' class='slbutton' id='saveSession'>Save Progress</button>");
@@ -108,6 +109,8 @@ function checkState() {
 		$(ss).html(config["_phrases"][toClass]);
 		var ssi = document.getElementById('cloud-status-img');
 		$(ssi).attr('src','adapt/css/assets/' + toClass + '.gif');
+		var ssi2 = document.getElementById('cloud-status-img2');
+		$(ssi2).attr('src','adapt/css/assets/' + toClass + '.gif');
 		$('#save-section').fadeIn();
 		$("#country-select").removeClass('save-shown');
 		$("#country-select").addClass('status-shown');

@@ -27,7 +27,8 @@ sed -i -e "s/course\/en\/images/course\/$1\/images/g" src/theme/adapt-contrib-va
 
 echo "Hiding welcome block" 
 echo ""
-
+sed -i -e "s/.b-01 { display: block; }/.b-01 { display: none; }/g" src/theme/adapt-contrib-vanilla/less/theme.less
+sed -i -e "s/.b-02 { display: none; }/.b-02 { display: block; }/g" src/theme/adapt-contrib-vanilla/less/theme.less
 
 echo "Changing ownership"
 echo ""
@@ -44,6 +45,8 @@ echo "Restoring structure";
 `rm -fR src/course/*`
 `mv tmp/* src/course/`
 sed -i -e "s/course\/$1\/images/course\/en\/images/g" src/theme/adapt-contrib-vanilla/less/header.less
+sed -i -e "s/.b-01 { display: none; }/.b-01 { display: block; }/g" src/theme/adapt-contrib-vanilla/less/theme.less
+sed -i -e "s/.b-02 { display: block; }/.b-01 { display: none; }/g" src/theme/adapt-contrib-vanilla/less/theme.less
 
 echo "Moving items into place"
 `rm -fR $OUTPATH/$1/adapt`

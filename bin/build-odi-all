@@ -9,3 +9,5 @@ for i in `seq 1 13`;
 do
 	./bin/build-odi module$i $1
 done
+./bin/build-odi welcome $1
+./bin/build-odi-nav $1

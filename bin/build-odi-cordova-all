@@ -9,3 +9,5 @@ for i in `seq 1 13`;
 do
 	./bin/build-odi-cordova module$i $1
 done
+./bin/build-odi-cordova welcome $1
+./bin/build-odi-nav-cordova $1

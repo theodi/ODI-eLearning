@@ -29,6 +29,11 @@ echo ""
 sed -i -e "s/European Data Portal/Open Data Institute's/g" src/course/$1/components.json
 sed -i -e "s/Européen de Données/Open Data Institute/g" src/course/$1/components.json
 
+echo "Hiding welcome block" 
+echo ""
+sed -i -e "s/.b-01 { display: block; }/.b-01 { display: none; }/g" src/theme/adapt-contrib-vanilla/less/theme.less
+sed -i -e "s/.b-02 { display: none; }/.b-02 { display: block; }/g" src/theme/adapt-contrib-vanilla/less/theme.less
+
 echo "Hiding language selector in theme"
 echo "" 
 sed -i -e "s/country-select/bcountry-select/g" src/theme/adapt-contrib-vanilla/templates/navigation.hbs
@@ -62,6 +67,8 @@ echo "Restoring structure";
 sed -i -e "s/course\/$1\/images/course\/en\/images/g" src/theme/adapt-contrib-vanilla/less/header.less
 sed -i -e "s/bcountry-select/country-select/g" src/theme/adapt-contrib-vanilla/templates/navigation.hbs
 sed -i -e "s/<script type=\"text\/javascript\" src=\"cordova.js\"><\/script><script type=\"text\/javascript\" src=\"cordova-odi.js\"><\/script>//g" src/index.html
+sed -i -e "s/.b-02 { display: block; }/.b-02 { display: none; }/g" src/theme/adapt-contrib-vanilla/less/theme.less
+sed -i -e "s/.b-01 { display: none; }/.b-01 { display: block; }/g" src/theme/adapt-contrib-vanilla/less/theme.less
 
 echo "Moving items into place"
 `rm -fR $OUTPATH/$1/adapt`
