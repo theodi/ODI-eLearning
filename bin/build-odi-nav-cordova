@@ -24,6 +24,10 @@ echo ""
 echo "Updating image path"
 echo ""
 sed -i -e "s/course\/en\/images/course\/$1\/images/g" src/theme/adapt-contrib-vanilla/less/header.less
+echo "Changing ownership"
+echo ""
+sed -i -e "s/European Data Portal/Open Data Institute's/g" src/course/$1/components.json
+sed -i -e "s/Européen de Données/Open Data Institute/g" src/course/$1/components.json
 
 echo "Hiding language selector in theme"
 echo "" 
