@@ -3,32 +3,33 @@ define(function(require) {
 	var Adapt = require('coreJS/adapt');
 
 });
-	
-if (localStorage.getItem("email") == "") {
-	
-}
 
+var moduleId = "";
+$.getJSON("course/config.json",function(data) {
+        moduleId = data._moduleId;
+	checkWelcome();
+});
+	
 var theme = "ODI";
 var interval; 
 var click_bind = false;
 
 $(document).ready(function() {
+	checkWelcome();
 	setTimeout(function() {updateLanguageSwitcher(); },1000);
 	setTimeout(function() {$(".dropdown dt a").show();$('#country-select').show();},2000);
 	interval = setInterval(function() { checkState(); },3000);
 });
 
-var moduleId = "";
-$.getJSON("course/config.json",function(data) {
-        moduleId = data._moduleId;
+function checkWelcome() {
 	if (moduleId != "ODI_welcome" && localStorage.getItem("email") == null) {
 		if (moduleId == "ODI_nav") {
-			window.location.href = "welcome";
+			window.location.href = "welcome/index.html";
 		} else {
-			window.location.href = "../welcome";
+			window.location.href = "../welcome/index.html";
 		}
 	}
-});
+}
 
 function addListeners() {
 	if (!click_bind) {
@@ -43,7 +44,7 @@ function getEmail() {
 	email = $("input[id='email']").val();
 	localStorage.setItem("email",email);
 	if (moduleId == "ODI_welcome") {
-		window.location.href = "../";
+		window.location.href = "../index.html";
 	} else {
 		emailSave(email);
 	}
@@ -82,6 +83,7 @@ function checkState() {
 	var lastSave = localStorage.getItem(moduleId + "_lastSave");
 
 	if (!sessionEmail && sessionID) {
+		checkWelcome();
 		$('#save-section').html("<button onClick='showSave();' class='slbutton' id='saveSession'>Save Progress</button>");
 		if (moduleId == "ODI_welcome") {
 			$('#save-section').hide();
