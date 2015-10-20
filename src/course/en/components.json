@@ -34,6 +34,40 @@
         }
     },
     {
+        "_id":"c-05",
+        "_parentId":"b-02",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"intro-logo",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "",
+            "medium": "",
+            "small": ""
+        }
+    },
+    {
+        "_id":"c-06",
+        "_parentId":"b-02",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Quick Start",
+        "displayTitle":"Quick Start",
+        "body":"<p><b>Scroll down to see all available lessons and get started.</b></p><p><table class='help'><tr><td class='getting-started'><div id='menu'><div class='navigation-drawer-toggle-button icon icon-list'><span id='drawText'>Menu</span></div></td><td>Navigate between modules and locate additional resources connected to each module.</td></tr><tr><td class='getting-started'><img src='course/en/images/progress.png'</td><td>View module progress. Click for in module navigation.</td></tr><tr><td class='getting-started'><img id='cloud-status-img2' src='adapt/css/assets/cloud_failed.gif'></td><td>Cloud syncronisation status for resuming progress on any device.</td></tr></table>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": false
+        }
+    },
+    {
         "_id":"c-11",
         "_parentId":"b-10",
         "_type":"component",
