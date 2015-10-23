@@ -28,30 +28,58 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"How to clean your data",
-        "displayTitle":"How to clean your data",
-        "body":"<p>One of the biggest challenges when working with any data is errors. Often errors are not even noticed by data publishers because the data can change over many years. In other cases, errors can be the result of human mistakes in data entry, like mistyping or incorrect abbreviations.</p><p>When working with any data, it is important to know how to find errors and correct them to make the data more useful.</p><h5>In this module we'll explore the following:</h5><ul class='ticks'><li>Common data errors</li><li>Useful data cleaning tools</li><li>Reasons for cleaning data</li></ul>",
+        "title":"Telling stories with data",
+        "displayTitle":"Telling stories with data",
+        "body":"<p>Data can tell incredible stories. When told correctly, these stories have the power to bring about meaningful change.</p><p>In today's world, data is a by product of everything we do. Being able to use this data to reveal new knowledge can bring real benefit back to those who generate it.</p><p>Transparancy initiatives have also driven demand for data driven stories, backed with facts and not hypothesis.</p><h5>In this module we'll explore the following:</h5><ul class='ticks'><li>The data journalism process</li><li>Communicating with data</li><li>Key examples and methods</li></ul>",
         "_pageLevelProgress": {
             "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-10",
+        "_parentId":"b-10",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Data journalism pipeline",
+            "title": "Data journalism pipeline",
+            "large": "course/en/images/ODI-10.jpg",
+            "medium": "course/en/images/ODI-10.jpg",
+            "small": "course/en/images/ODI-10.jpg",
+            "*source": "",
+            "*credit": "",
+            "*licence": ""
         }
     },
     {
         "_id":"c-11",
         "_parentId":"b-10",
         "_type":"component",
-        "_component":"iFrame-vimeo",
+        "_component":"text",
+        "_classes":"inverted",
+        "_layout":"right",
+        "title":"What is data journalism?",
+        "displayTitle":"What is data journalism?",
+        "body":"<p><p>"
+        },
+    {
+        "_id":"c-21",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"media",
         "_classes":"",
         "_layout":"full",
-        "title":"Data cleaning – in 2 minutes",
-        "displayTitle": "Data cleaning – in 2 minutes",
-        "body": "ODI Trainer David Tarrant explains why clean open data is important, how to clean open data you find and what tools are available to support you.",
-        "instruction": "To turn subtitles on and off, click the 'cc' button at the bottom right of the video",
+        "title":"Example: Hans Rosling - Factpod 17",
+        "displayTitle": "Example: Hans Rosling - Factpod 17",
+        "body": "<p>Professor Hans Rosling is a world renound comminicator of insight from data. In this video from the Factpod series he looks at the crisis is Syria. All sources of data are open data and can be used by anyone.</p>",
+        "instruction": "",
         "_setCompletionOn":"ended",
-        "_source": "https://player.vimeo.com/video/129197207",
         "_media": {
-		"mp4": "course/en/video/video.mp4",
-		"poster": "course/en/video/placeholder.jpg"
-	},
+		  "mp4": "course/en/video/video.mp4",
+		  "poster": "course/en/video/placeholder.jpg"
+	     },
 	"_width": {
             "_small" : 300,
             "_medium" : 500,
@@ -63,211 +91,130 @@
             "_large" : 508
         }
     },
-       {
-        "_id":"c-21",
-        "_parentId":"b-20",
+    {
+        "_id":"c-31",
+        "_parentId":"b-30",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
         "_layout":"left",
         "_graphic": {
-            "alt": "What do we mean by clean data?",
-            "title": "What do we mean by clean data?",
-            "large": "course/en/images/odi-001.jpg",
-            "medium": "course/en/images/odi-001.jpg",
-            "small": "course/en/images/odi-001.jpg",
-            "*source": "http://www.shutterstock.com/pic-246719938",
-            "*credit": "Sashkin",
-            "*licence": "Shutterstock standard license"
+            "alt": "Data journalism process",
+            "title": "Data journalism process",
+            "large": "course/en/images/ODI-30.jpg",
+            "medium": "course/en/images/ODI-30.jpg",
+            "small": "course/en/images/ODI-30.jpg",
+            "*source": "",
+            "*credit": "",
+            "*licence": ""
         }
     },
     {
-        "_id":"c-22",
-        "_parentId":"b-20",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"inverted",
-        "_layout":"right",
-        "title":"Revealing the value: what do we mean by clean data?",
-        "displayTitle":"Revealing the value: what do we mean by clean data?",
-        "body":"<p>Clean data is important to ensure you have a reliable starting point for working with the data and creating new value.</p><p>Clean data is data that is consistent, free from duplication and ready for machine consumption.</p><p>If data is clean, it is easier to combine different datasets and gain deeper insights.<p>"
-        },
-     {
-        "_id":"c-32",
-        "_parentId":"b-30",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"right",
-        "_graphic": {
-            "alt": "Common errors in data",
-            "title": "Common errors in data",
-            "large": "course/en/images/odi-002.jpg",
-            "medium": "course/en/images/odi-002.jpg",
-            "small": "course/en/images/odi-002.jpg",
-            "*source": "http://www.shutterstock.com/pic-232737427",
-            "*credit": "Kirill_M",
-            "*licence": "Shutterstock standard license"
-        }
-    },
-    {
-      "_id":"c-31",
+      "_id":"c-30",
       "_parentId":"b-30",
       "_type":"component",
       "_component":"accordion",
       "_classes":"",
       "_layout":"left",
-      "title": "Common errors in data",
-      "displayTitle": "Common errors in data",
-      "body": "There are a number of common errors in data that you should look out for in any dataset you are working with.",
-      "instruction": "<em>Click the headings to explore further.</em>",
+      "title": "The data journalism process",
+      "displayTitle": "The data journalism process",
+      "body": "There are very few cases where data is ready to tell a story from. In this section we split the process down into four key areas.",
+      "instruction": "<em>Click the headings to explore each one further.</em>",
       "_items": [
         {
-          "alt": "Wrong date formats",
-          "title": "Wrong date formats",
-          "body": "<p>Dates can be written in inconsistent ways. Mixed date formats are sometimes simple to spot:<br><br>8-sep-2013 vs 8/9/2013<br><br>and sometimes less obvious:<br><br>8/9/2013 vs 9/8/2013.<br><br>An additional challenge is that some applications, like Excel, will ‘guess’ the format when a dataset is opened which can hide how dates are actually written in the file.</p><p>The most common error is the mixed use of American (MM/DD/YYYY) and European (DD/MM/YYYY) format.</p>"
+          "alt": "Unlocking data",
+          "title": "Unlocking data",
+          "body": "<p></p>"
         },
         {
-          "alt": "Multiple representations",
-          "title": "Multiple representations",
-          "body": "<p>People often try to save time when entering data by abbreviating terms. If these abbreviations are not consistent, it can cause errors in the dataset.</p><p>Differences in capitalisation, spacing and genders of adjectives can all cause errors.</p>"
+          "alt": "Cleaning and enriching data",
+          "title": "Cleaning and enriching data",
+          "body": "<p></p>"
         },
         {
-          "alt": "Duplicate records",
-          "title": "Duplicate records",
-          "body": "<p>A duplicate record is where the same piece of data has been entered more than once. Duplicate records often occur when datasets have been combined or because it was not known there was already an entry.</p>"
+          "alt": "Visualising data",
+          "title": "Visualising data",
+          "body": "<p></p>"
         },
         {
-          "alt": "Redundant data",
-          "title": "Redundant data",
-          "body": "<p>Redundant data is anything which is not relevant to your work with the dataset. Often a dataset has been created for a specific purpose which requires details you may not need.</p><p>Common occurrences of redundant data include rows that represent total amounts.</p><p>Other times columns of data have been combined or replicated in order to assist human readability.</p>"
-        },
-        {
-          "alt": "Mixed numerical scales",
-          "title": "Mixed numerical scales",
-          "body": "<p>Numerical values in datasets often use different scales to make it easier for a human to read. In budget datasets, for example, the units are often in the millions. 1200000 often becomes 1.2m. However, smaller amounts like 800000 are still written in full. For a machine, this means they read the larger figure as 1.2 which causes errors.</p>"
-        },
-        {
-          "alt": "Mixed ranges",
-          "title": "Mixed ranges",
-          "body": "<p>Data is sometimes measured in ranges, such as age or salary range. In order for a machine to understand these ranges it is important to separate the high and low values.</p>"
-        },
-        {
-          "alt": "Spelling errors",
-          "title": "Spelling errors",
-          "body": "<p>Spelling errors are often difficult to identify in tabular data.</p><p>Don’t forget to also run your data through a spell checker to catch errors.</p>"
+          "alt": "Forming a story",
+          "title": "Forming a story",
+          "body": "<p></p>"
         }
       ],
       "_pageLevelProgress": {
         "_isEnabled": true
       }
     },
+     {
+        "_id":"c-40",
+        "_parentId":"b-40",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Allocating appropriate time",
+        "displayTitle":"Allocating appropriate time",
+        "body":"<p></p>",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
     {
-        "_id": "c-41",
-        "_parentId": "b-40",
+        "_id":"c-41",
+        "_parentId":"b-40",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "80/20 split",
+            "title": "80/20 split",
+            "large": "course/en/images/ODI-40.jpg",
+            "medium": "course/en/images/ODI-40.jpg",
+            "small": "course/en/images/ODI-40.jpg",
+            "*source": "",
+            "*credit": "",
+            "*licence": ""
+        }
+    },
+    {
+        "_id": "c-51",
+        "_parentId": "b-50",
         "_classes": "inverted",
         "_type":"component",
         "_layout": "full",
         "_component": "narrative",
-        "title": "The data cleaning toolkit",
-        "displayTitle": "The data cleaning toolkit",
-        "body": "Without clean data, we can’t build information. There are a number of useful tools that can help the process of cleaning data.",
+        "title": "Goals: Commication vs Understanding",
+        "displayTitle": "Goals: Commication vs Understanding",
+        "body": "",
         "instruction": "<em>Click the forward arrow to see more.</em>",
         "_items": [
             {
-                "title": "The data cleaning toolkit",
-                "body": "<p>When you are looking for errors in data, it may be necessary to download and upload datasets in many tools for cleaning and processing.</p><p>It is also important to keep a note of what changes have been made and share these openly with others so that everyone can benefit from your work, particularly if the data you are cleaning is existing published open data.</p><p>In this section we look at two of the main tools and their uses:</h5><ul class='bullet'><li>Open Refine</li><li>Excel & similar spreadsheet programmes</li></ul></p>",
+                "title": "Communication",
+                "body": "<p></p>",
                 "_graphic": {
-                    "src": "course/en/images/odi-003.jpg",
-                    "alt": "A toolkit",
-                    "title": "A toolkit",
-                    "*source": "http://www.shutterstock.com/pic-232737427",
-                    "*credit": "Kirill_M",
-                    "*licence": "Shutterstock standard license"
+                    "src": "course/en/images/ODI-50a.jpg",
+                    "alt": "",
+                    "title": "",
+                    "*source": "",
+                    "*credit": "",
+                    "*licence": ""
                 },
-                "strapline": "The data cleaning toolkit"
+                "strapline": ""
             },
             {
-                "title": "Open Refine",
-                "body": "Open Refine is a software tool designed to deal with uncleaned data. The tool is a column-based browser that allows you to fix errors across an entire open dataset in a single action. The errors that can be fixed include:</h5><ul class='bullet'><li>Date formats</li><li>Multiple representations</li><li>Duplicate records</li><li>Redundant data</li><li>Mixed numerical scales</li><li>Mixed ranges</li></ul>",
+                "title": "Understanding",
+                "body": "<p></p>",
                 "_graphic": {
-                    "src": "course/en/images/odi-004.jpg",
-                    "alt": "Open refine",
-                    "title": "open refine",
-                    "*source": "http://openrefine.org/",
-                    "*credit": "OpenRefine",
-                    "*licence": "CC3.0-BY-SA"
+                    "src": "course/en/images/ODI-50b.jpg",
+                    "alt": "",
+                    "title": "",
+                    "*source": "",
+                    "*credit": "",
+                    "*licence": ""
                 },
-                "strapline": "Open Refine"
-            },
-            {
-                "title": "Spreadsheet programmes",
-                "body": "Open Refine is a key tool for cleaning data. However, it is sometimes easier to fix some errors in a spreadsheet programme:</h5><ul class='bullet'><li>Spelling errors</li><li>Redundant data</li><li>Numerical verification</li><li>Fixing shifted data</li></ul>",
-                "_graphic": {
-                    "src": "course/en/images/odi-005.jpg",
-                    "alt": "Spreadsheet",
-                    "title": "Spreadsheet",
-                    "*source": "http://www.shutterstock.com/pic-224184241",
-                    "*credit": "McIek",
-                    "*licence": "Shutterstock Standard License"
-                },
-                "strapline": "Wide reuse"
-            }
-        ],
-        "_pageLevelProgress": {
-        "_isEnabled": true
-        }
-    },
- {
-        "_id": "c-51",
-        "_parentId": "b-50",
-        "_classes": "",
-        "_type":"component",
-        "_layout": "full",
-        "_component": "narrative",
-        "title": "What are the benefits of cleaning data?",
-        "displayTitle": "What are the benefits of cleaning data?",
-        "body": "In addition to the tools that can be used to clean open data, it is important to understand what benefits cleaning brings.",
-        "instruction": "<em>Click the forward arrow to see more.</em>",
-        "_items": [
-            {
-                "title": "Prioritise cleaning",
-                "body": "<p>If data is not clean then decisions made on the basis of it could be wrong. This can affect products or insights you develop from data and in some cases have an impact upon thousands or even millions of people. </p><p>A <a class='' href='http://www.ercim.eu/publication/ws-proceedings/12th-EDRG/EDRG12_JeDiRe.pdf' target='_blank'>recent study</a> found that the process of preparing data for analysis can take anywhere between 60 and 80% of the time of a data-driven project.</p>",
-                "_graphic": {
-                    "src": "course/en/images/odi-006.jpg",
-                    "alt": "Prioritise cleaning",
-                    "title": "Prioritise cleaning",
-                    "*source": "http://www.shutterstock.com/pic.mhtml?id=58591429&src=lb-36497927",
-                    "*credit": "higyou",
-                    "*licence": "Shutterstock Standard License"
-                },
-                "strapline": "Prioritise cleaning"
-            },
-            {
-                "title": "Enhance usability",
-                "body": "<p>Sharing a clean open dataset will make the data more usable. Tools like Open Refine allow you to share change history which lets people know what has been cleaned and how. Making the process open as well as the data adds to the sustainability and trust a user can put in a dataset.</p><p>There are also data cleaning communities emerging that could be supported more actively, such as OpenStreetMap communities.<br><br><a class='' href='http://wiki.openstreetmap.org/wiki/WikiProject_Denmark' target='_blank'>Take me to OSM Denmark Community Wiki</a></p>",
-                "_graphic": {
-                    "src": "course/en/images/odi-007.jpg",
-                    "alt": "Prioritise cleaning",
-                    "title": "Prioritise cleaning",
-                    "*source": "http://www.shutterstock.com/pic-285210746",
-                    "*credit": "Horoscope",
-                    "*licence": "Shutterstock Standard License"
-                },
-                "strapline": "Enhance usability"
-            },
-            {
-                "title": "Discover insights",
-                "body": "<p>Many data cleaning tools, including Open Refine help you to combine and enrich datasets. This can lead to valuable insights being discovered.</p>For example, enriching a dataset that refers to businesses (by name or some other identifier) can inform you if the business is still trading and its current financial position.</p><p><a class='course_link' href='http://training.theodi.org/resources/odt/Enrichingdata.pdf' target='_blank'>Get started with enriching data</a></p>",
-                "_graphic": {
-                    "src": "course/en/images/odi-008.jpg",
-                    "alt": "Discover insights",
-                    "title": "Discover insights",
-                    "*source": "http://www.shutterstock.com/pic-214238155",
-                    "*credit": "Denis Vrublevski",
-                    "*licence": "Shutterstock Standard License"
-                },
-                "strapline": "Discover insights"
+                "strapline": ""
             }
         ],
         "_pageLevelProgress": {
@@ -275,8 +222,192 @@
         }
     },
     {
-        "_id":"c-42",
-        "_parentId":"b-55",
+        "_id":"c-60",
+        "_parentId":"b-60",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"'Big' Numbers",
+        "displayTitle":"'Big' Numbers",
+        "body":"<p></p>",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-61",
+        "_parentId":"b-60",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/ODI-60.jpg",
+            "medium": "course/en/images/ODI-60.jpg",
+            "small": "course/en/images/ODI-60.jpg",
+            "*source": "",
+            "*credit": "",
+            "*licence": ""
+        }
+    },
+    {
+        "_id":"c-62",
+        "_parentId":"b-62",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"right",
+        "title":"Simple charts give powerful messages",
+        "displayTitle":"Simple charts give powerful messages",
+        "body":"<p></p>",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-63",
+        "_parentId":"b-62",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/ODI-62.jpg",
+            "medium": "course/en/images/ODI-62.jpg",
+            "small": "course/en/images/ODI-62.jpg",
+            "*source": "",
+            "*credit": "",
+            "*licence": ""
+        }
+    },
+    {
+        "_id":"c-64",
+        "_parentId":"b-64",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Maps: Where things happen is important",
+        "displayTitle":"Maps: Where things happen is important",
+        "body":"<p></p>",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-65",
+        "_parentId":"b-64",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/ODI-64.jpg",
+            "medium": "course/en/images/ODI-64.jpg",
+            "small": "course/en/images/ODI-64.jpg",
+            "*source": "",
+            "*credit": "",
+            "*licence": ""
+        }
+    },
+    {
+        "_id":"c-66",
+        "_parentId":"b-66",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"right",
+        "title":"Interactive visualisations",
+        "displayTitle":"Interactive visualisation",
+        "body":"<p></p>",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-67",
+        "_parentId":"b-66",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/ODI-66.jpg",
+            "medium": "course/en/images/ODI-66.jpg",
+            "small": "course/en/images/ODI-66.jpg",
+            "*source": "",
+            "*credit": "",
+            "*licence": ""
+        }
+    },
+    {
+        "_id": "c-71",
+        "_parentId": "b-70",
+        "_classes": "inverted",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Speeding up communication",
+        "displayTitle": "Speeding up communication",
+        "body": "",
+        "instruction": "<em>Click the forward arrow to see more.</em>",
+        "_items": [
+            {
+                "title": "Cognative processes",
+                "body": "<p></p>",
+                "_graphic": {
+                    "src": "course/en/images/ODI-70a.jpg",
+                    "alt": "",
+                    "title": "",
+                    "*source": "",
+                    "*credit": "",
+                    "*licence": ""
+                },
+                "strapline": ""
+            },
+            {
+                "title": "Using pop out",
+                "body": "<p></p>",
+                "_graphic": {
+                    "src": "course/en/images/ODI-70b.jpg",
+                    "alt": "",
+                    "title": "",
+                    "*source": "",
+                    "*credit": "",
+                    "*licence": ""
+                },
+                "strapline": ""
+            },
+            {
+                "title": "Using colour",
+                "body": "<p></p>",
+                "_graphic": {
+                    "src": "course/en/images/ODI-70c.jpg",
+                    "alt": "",
+                    "title": "",
+                    "*source": "",
+                    "*credit": "",
+                    "*licence": ""
+                },
+                "strapline": ""
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-75",
+        "_parentId":"b-75",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
@@ -294,23 +425,23 @@
         }
     },
     {
-        "_id":"c-43",
-        "_parentId":"b-55",
+        "_id":"c-76",
+        "_parentId":"b-75",
         "_type":"component",
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Are you ready to clean data?",
-        "displayTitle":"Are you ready to clean data?",
-        "body":"<p>Can you recall the reasons why data needs to be cleaned, useful tools to use and which common errors to look for in datasets?</p>",
+        "title":"Are you ready to tell stories with data?",
+        "displayTitle":"Are you ready to tell stories with data?",
+        "body":"<p>?</p>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
         }
     },
 {
-        "_id":"c-61",
-        "_parentId":"b-60",
+        "_id":"c-81",
+        "_parentId":"b-80",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
@@ -318,17 +449,17 @@
         "_graphic": {
             "alt": "unclean data",
             "title": "unclean data",
-            "large": "course/en/images/odi-009.jpg",
-            "medium": "course/en/images/odi-009.jpg",
-            "small": "course/en/images/odi-009.jpg",
+            "large": "course/en/images/ODI-009.jpg",
+            "medium": "course/en/images/ODI-009.jpg",
+            "small": "course/en/images/ODI-009.jpg",
             "*source": "http://www.shutterstock.com/pic.mhtml?id=58591429&src=lb-36497927",
             "*credit": "higyou",
             "*licence": "Shutterstock Standard License"
         }
     },
     {
-        "_id":"c-62",
-        "_parentId":"b-60",
+        "_id":"c-82",
+        "_parentId":"b-80",
         "_type":"component",
         "_component":"mcq",
         "_classes":"",
@@ -377,8 +508,8 @@
       }
     },
     {
-        "_id":"c-71",
-        "_parentId":"b-70",
+        "_id":"c-91",
+        "_parentId":"b-90",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
@@ -386,17 +517,17 @@
         "_graphic": {
             "alt": "Useful tools",
             "title": "Useful tools",
-            "large": "course/en/images/odi-010.jpg",
-            "medium": "course/en/images/odi-010.jpg",
-            "small": "course/en/images/odi-010.jpg",
+            "large": "course/en/images/ODI-010.jpg",
+            "medium": "course/en/images/ODI-010.jpg",
+            "small": "course/en/images/ODI-010.jpg",
             "*source": "http://www.shutterstock.com/pic-285210746",
             "*credit": "Horoscope",
             "*licence": "Shutterstock Standard License"
         }
     },
     {
-        "_id":"c-72",
-        "_parentId":"b-70",
+        "_id":"c-92",
+        "_parentId":"b-90",
         "_type":"component",
         "_component":"mcq",
         "_classes":"",
@@ -445,8 +576,8 @@
       }
     },
     {
-        "_id":"c-81",
-        "_parentId":"b-80",
+        "_id":"c-101",
+        "_parentId":"b-100",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
@@ -454,17 +585,17 @@
         "_graphic": {
             "alt": "A toolkit",
             "title": "",
-            "large": "course/en/images/odi-011.jpg",
-            "medium": "course/en/images/odi-011.jpg",
-            "small": "course/en/images/odi-011.jpg",
+            "large": "course/en/images/ODI-011.jpg",
+            "medium": "course/en/images/ODI-011.jpg",
+            "small": "course/en/images/ODI-011.jpg",
             "*source": "http://www.shutterstock.com/pic-232737427",
             "*credit": "Kirill_M",
             "*licence": "Shutterstock standard license"
         }
     },
     {
-        "_id":"c-82",
-        "_parentId":"b-80",
+        "_id":"c-102",
+        "_parentId":"b-100",
         "_type":"component",
         "_component":"mcq",
         "_classes":"",
@@ -521,8 +652,8 @@
       }
     },
     {
-        "_id":"c-91",
-        "_parentId":"b-90",
+        "_id":"c-111",
+        "_parentId":"b-110",
         "_type":"component",
         "_component":"graphic",
         "_classes":"illustration",
@@ -530,17 +661,17 @@
         "_graphic": {
             "alt": "Common errors is data",
             "title": "",
-            "large": "course/en/images/odi-012.jpg",
-            "medium": "course/en/images/odi-012.jpg",
-            "small": "course/en/images/odi-012.jpg",
+            "large": "course/en/images/ODI-012.jpg",
+            "medium": "course/en/images/ODI-012.jpg",
+            "small": "course/en/images/ODI-012.jpg",
             "*source": "http://www.shutterstock.com/pic-232737427",
             "*credit": "Kirill_M",
             "*licence": "Shutterstock standard license"
         }
     },
     {
-        "_id":"c-92",
-        "_parentId":"b-90",
+        "_id":"c-112",
+        "_parentId":"b-110",
         "_type":"component",
         "_component":"mcq",
         "_classes":"",
@@ -589,8 +720,8 @@
       }
     },
 {
-        "_id":"c-112",
-        "_parentId":"b-110",
+        "_id":"c-122",
+        "_parentId":"b-120",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
@@ -607,8 +738,8 @@
         }
     },
     {
-        "_id":"c-111",
-        "_parentId":"b-110",
+        "_id":"c-121",
+        "_parentId":"b-120",
         "_type":"component",
         "_component":"text",
         "_classes":"",
@@ -621,16 +752,16 @@
         }
     },
     {
-       "_id":"c-113",
-       "_parentId":"b-110",
+       "_id":"c-123",
+       "_parentId":"b-120",
        "_type":"component",
        "_component":"text",
        "_classes":"separator",
        "_layout":"full"
     },
     {
-        "_id":"c-114",
-        "_parentId":"b-110",
+        "_id":"c-124",
+        "_parentId":"b-120",
         "_type":"component",
         "_component":"graphic",
         "_classes":"footer-logo",
@@ -647,8 +778,8 @@
         }
     },
     {
-        "_id":"c-115",
-        "_parentId":"b-110",
+        "_id":"c-125",
+        "_parentId":"b-120",
         "_type":"component",
         "_component":"text",
         "_classes":"social-buttons",
