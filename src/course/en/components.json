@@ -26,8 +26,8 @@
         "_classes":"",
         "_layout":"left",
         "title":"Open Data Science",
-        "displayTitle":"Open Data Science",
-"body":"<p>Data science combines advanced data literacy and statistical knowledge with domain expertise. This combination of skills helps derive valuable insights and communicate them to others.</p><p>This one-day course gives you practical knowledge in open data science and the skills you need to develop in the area.</p>",
+        "displayTitle":"Open Data Science<br/><h5>Unlocking Data</h5>",
+"body":"<p>Data science combines advanced data literacy and statistical knowledge with domain expertise. This combination of skills helps derive valuable insights and communicate them to others.</p><p>This course gives you theorectical and practical knowledge in open data science. Specifically this course aims to provide practical experience in discovering, preparing and presenting data on the web.</p>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
@@ -60,28 +60,23 @@
       "_layout":"left",
       "title": "Course overview",
       "displayTitle": "Course overview",
-      "body": "<p>The course is split into four main sessions. These sessions start by exploring the current role of a data scientist and the key skills and competencies required. Each preceding session then takes a practical look at applying a number of these competencies.</p>",
+      "body": "<p>The course is split into three main sessions. These sessions start by exploring the current role of a data scientist and the key skills and competencies required. Each preceding session then takes a practical look at applying a number of these competencies.</p>",
       "instruction": "<em>The sessions are briefly described below.</em>",
       "_items": [
         {
-          "alt": "Intorducing Open Data Science",
-          "title": "Introducing Open Data Science",
+          "alt": "Discovering Open Data Science",
+          "title": "Discovering Open Data Science",
           "body": "<p><b>What is Open Data Science?</b></p><p>This session explores the concepts, key competencies and modern characteristics of an Open Data Scientist.</p><p>A number of key Open Data Science stories are also introduced.</p>"
         },
         {
-          "alt": "Unlocking data from the web",
-          "title": "Unlocking data from the web",
+          "alt": "Gathering and preparing data",
+          "title": "Gathering and preparing data",
           "body": "<p>Data literacy is the most important aspect of a modern data scientist.</p><p>This session introduces key techniques to obtain, translate and prepare data for examination.</p>"
         },
         {
-          "alt": "Machine learning and prediction",
-          "title": "Maching learning and prediction",
-          "body": "<p>Data flows are constant, but can we predict what the next outcome will be?</p><p>This session looks at using machine learning to classify large amounts of data.</p>"
-        },
-        {
-          "alt": "Visualising and presenting data",
-          "title": "Visualising and presenting data",
-          "body": "<p>Communicating insight from data is now an essential skill of a modern data scientist.</p><p>This session takes a practical look at producing advanced infographics on the web.</p>"
+          "alt": "Publishing insight",
+          "title": "Publishing insight",
+          "body": "<p>Communicating insight from data is now an essential skill of a modern data scientist.</p><p>This session takes a practical look at using the web to publish dynamic, data driven web pages.</p>"
         }
       ],
       "_pageLevelProgress": {
@@ -95,8 +90,8 @@
         "_type":"component",
         "_layout": "full",
         "_component": "dynamic-narrative",
-        "title": "Introducing Open Data Science",
-        "displayTitle": "Introducing Open Data Science",
+        "title": "Discovering Open Data Science",
+        "displayTitle": "Discovering Open Data Science",
         "body": "<p>This session explores the concepts, key competencies and modern characteristics of an Open Data Scientist.</p>",
         "instruction": "<em class='desktop-instruction'>Click the forward arrow for more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
         "_items": [
@@ -170,8 +165,8 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Unlocking Data from the web",
-        "displayTitle":"Unlocking Data from the web",
+        "title":"Gathering and preparing data",
+        "displayTitle":"Gathering and preparing data",
         "body":"<p></p>",
         "instruction":"",
         "_pageLevelProgress": {
@@ -331,59 +326,21 @@
       }
     },
     {
-        "_id":"c-65",
-        "_parentId":"b-65",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"right",
-        "title":"",
-        "displayTitle":"",
-        "body":"",
-        "instruction":"",
-        "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "course/en/images/burst-white.png",
-            "medium": "course/en/images/burst-white.png",
-            "small": "course/en/images/burst-white.png"
-        }
-    },
-    {
-        "_id":"c-66",
-        "_parentId":"b-65",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"",
-        "_layout":"left",
-        "title":"Machine learning and prediction",
-        "displayTitle":"Machine learning and prediction",
-        "body":"<p></p>",
-        "instruction":"",
-        "_pageLevelProgress": {
-            "_isEnabled": true
-        }
-    },
-    {
         "_id":"c-70",
         "_parentId":"b-70",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
-        "_layout":"right",
-        "title":"",
-        "displayTitle":"",
-        "body":"",
-        "instruction":"",
+        "_layout":"left",
         "_graphic": {
-            "alt": "Machine learning",
-            "title": "Machine learning",
-            "large": "course/en/images/odi-70.png",
-            "medium": "course/en/images/odi-70.png",
-            "small": "course/en/images/odi-70.png",
-            "*source": "https://www.flickr.com/photos/xdxd_vs_xdxd/6829374619",
-            "*credit": "xdxd_vs_xdxd",
-            "*license": "CC-BY-SA"
+            "alt": "Cleaning data",
+            "title": "Cleaning data",
+            "large": "course/en/images/odi-70.jpg",
+            "medium": "course/en/images/odi-70.jpg",
+            "small": "course/en/images/odi-70.jpg",
+            "*source": "http://www.shutterstock.com/pic-23541922",
+            "*credit": "Amy Walters",
+            "*license": "Shutterstock Standard License"
         }
     },
     {
@@ -392,51 +349,10 @@
         "_type":"component",
         "_component":"text",
         "_classes":"",
-        "_layout":"left",
-        "title":"Machine learning and classification",
-        "displayTitle":"Machine learning and classification",
-        "body":"<p>Machine learning is all about the construction and study of systems that can learn from data.</p><p>There are many techniques that can be used with data, however one of the most common techniques is classification.</p><p>When classifying data, you first train the machine with a training set, and then test effectiveness are error margin with a test set. This can then lead to automated ways of classifying new data.</p><p>Classification techniques are commonly used with facial recognition, email spam filters and fraud detection.</p><p>In this section we are going to look at classifying a dataset of houses.</p><p><a href='course/en/exercises/training-data.csv' target='_blank'>Download the houses dataset</a></p>",
-        "instruction":"",
-        "_pageLevelProgress": {
-            "_isEnabled": true
-        }
-    },
-    {
-        "_id":"c-80",
-        "_parentId":"b-80",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
         "_layout":"right",
-        "title":"",
-        "displayTitle":"",
-        "body":"",
-        "instruction":"",
-        "_graphic": {
-            "alt": "Exploring R",
-            "title": "Exploring R",
-            "large": "course/en/images/odi-80.png",
-            "medium": "course/en/images/odi-80.png",
-            "small": "course/en/images/odi-80.png",
-            "*source": "http://www.martingrandjean.ch/wp-content/uploads/2013/10/Graphe3.png",
-            "*credit": "Martin Grandjean",
-            "*license": "CC-BY-SA"
-        }
-    },
-    {
-        "_id":"c-81",
-        "_parentId":"b-80",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"",
-        "_layout":"left",
-        "title":"Exploring R",
-        "displayTitle":"Exploring R",
-        "body":"<p>R is statistical programming language. It can rapidly speed up the process of freely and flexibly exploring and discovering insight from a dataset.</p><p>Additional libraries also provide automated mechanisms for building machine learning algorithms and classifiers.</p><p><a href='http://training.theodi.org/StatsML/using_r' target='_blank'>This exercise takes you through the process of exploring R with our dataset</a></p><p>Open <a href='https://www.datacamp.com/rstudio' target='_blank'>R Studio Online</a> to get started with this exercise (requires registration).</p>",
-        "instruction":"",
-        "_pageLevelProgress": {
-            "_isEnabled": true
-        }
+        "title":"Getting started with Data Cleaning",
+        "displayTitle":"Getting started with Data Cleaning",
+        "body":"<p><p>Data cleaning is essential to ensure that when the data is used, the right conclusions are made.</p><p>Often errors are not even noticed by data publishers because the data can change over many years. In other cases, errors can be the result of human mistakes in data entry, like mistyping or incorrect abbreviations.</p><p>Be aware that cleaning may take longer than you think. A careful cleaning process will, however, save substantial time in the long-run.</p><p>Follow our data cleaning exercise to get started with Open Refine and discover how easy it is for yourself.</p><p><a class='course_link' href='http://training.theodi.org/resources/Cleaning_Exercise.pdf' target='_blank'>Get started with data cleaning in Open Refine</a></p><p>Below you can find the datasets used in the OpenRefine exercise</p><ul><li><a href='course/en/exercises/dataset1.xls' target='_blank'>Dataset 1: Louisiana Secretary of State Officials</a></li><li><a href='course/en/exercises/dataset2.csv' target='_blank'>Dataset 2: Projects Dataset</a></li><li><a href='course/en/exercises/dataset3.csv' target='_blank'>Dataset 3: UK GP Earnings</a></li></ul>"
     },
     {
         "_id":"c-85",
@@ -464,8 +380,8 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Visulising and presenting data",
-        "displayTitle":"Visulising and presenting data",
+        "title":"Publishing insight",
+        "displayTitle":"Publishing insight",
         "body":"<p></p>",
         "instruction":"",
         "_pageLevelProgress": {
@@ -479,62 +395,62 @@
         "_type":"component",
         "_layout": "full",
         "_component": "dynamic-narrative",
-        "title": "Exploring data through visualisation",
-        "displayTitle": "Exploring data through visualisation",
-        "body": "<p></p>",
+        "title": "Web building blocks",
+        "displayTitle": "Web building blocks",
+        "body": "<p>Modern open data scientists present compelling and interactive resources over the web. There are number of key technologies that enable this.</p>",
         "instruction": "<em class='desktop-instruction'>Click the forward arrow for more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
         "_items": [
             {
-                "title": "Exploring space",
-                "body": "<p>The Universe is vast and on a scale people just simply cannot grasp.</p><p>Visualising this effectively is key to increase understanding of our place in the Universe.</p>",
+                "title": "Defining structure",
+                "body": "<p>To define the structure of a web page, the HyperText Markup Language (HTML) is used. HTML is designed to enable human consumption of the content no matter the type of user or device.</p><p>Accessibility is key and most pages misuse structure in order to add style, making content very hard to access for disabled the and visually impaired. When was the last time you accessed your web site using a screen reader?</p>",
                 "_graphic": {
-                    "src": "course/en/images/odi-90a.png",
-                    "alt": "The planets",
-                    "title": "The planets",
-                    "*source":"https://commons.wikimedia.org/wiki/File:Relative_satellite_sizes.jpg",
-                    "*credit":"tony_g100",
-                    "*license":"CC-Zero"
+                    "src": "course/en/images/odi-90a.jpg",
+                    "alt": "Defining structure",
+                    "title": "Defining structure",
+                    "*source":"https://www.flickr.com/photos/philgradwell/10060023076",
+                    "*credit":"Phil Gradwell",
+                    "*license":"CC-BY 2.0"
                 },
-                "strapline": "Exploring space"
+                "strapline": "Structure"
             },
             {
-                "title": "Faster transport?",
-                "body": "<p>Visualising data can quickly tell us stories of progress.</p><p>The example on the left became part of the advertising campaign for SNCF. It was used to communicate how much faster the new TGV trains were.</p>",
+                "title": "Adding style",
+                "body": "<p>Adding style defines how a web page looks. This includes where the elements are on the page, what colours and borders things have and what is hidden from view. Using Cascading Style Sheets (CSS) allows the definition of multiple presentations of content for different media and users, e.g. desktop, mobile and print.</p>",
                 "_graphic": {
-                    "src": "course/en/images/odi-90b.png",
-                    "alt": "SNCF",
-                    "title": "SNCF",
-                    "*source":"http://www.c82.net/blog/?id=66",
-                    "*credit":"E.J. Mare",
-                    "*license":"Unknown"
+                    "src": "course/en/images/odi-90b.jpg",
+                    "alt": "Adding style",
+                    "title": "Adding style",
+                    "*source":"https://www.flickr.com/photos/melindasutton/6937505492",
+                    "*credit":"Melinda",
+                    "*license":"CC-BY 2.0"
                 },
-                "strapline": "Faster transport"
+                "strapline": "Adding style"
             },
             {
-                "title": "Light cycles",
-                "body": "<p>Improving mobility is key to the future of successful and smart cities.</p><p>Visualising usage of transport systems (in this case bicycles in London) can help make key decisions about future planning of such systems.</p><p><a href='https://vimeo.com/33712288' target=''>Click here to watch the full video.</a>",
+                "title": "Action and interaction",
+                "body": "<p>Modern web pages are dynamic and interactive. This is achieved by adding scripts in the form of JavaScript.</p><p>These scripts can also be used to dynamically load data, add content to a page and even add interactive visualisations.</p>",
                 "_graphic": {
-                    "src": "course/en/images/odi-90c.png",
-                    "alt": "Light cycles",
-                    "title": "Light cycles",
-                    "*source":"https://vimeo.com/33712288",
-                    "*credit":"Jo Wood ",
-                    "*license":"Unknown"
+                    "src": "course/en/images/odi-90c.jpg",
+                    "alt": "Action and interaction",
+                    "title": "Action and interaction",
+                    "*source":"https://www.flickr.com/photos/oskay/4904174150",
+                    "*credit":"Windell Oskay",
+                    "*license":"CC-BY 2.0"
                 },
-                "strapline": "Light cycles"
+                "strapline": "Action and interaction"
             },
             {
-                "title": "In flight",
-                "body": "<p>Transport problems are not just limited to single cities. There is a lot we can learn from analysing global transport patterns.</p><p>This example looks at the evolution of flight and uses advanced visualision to tell a story about the history of flight. Using a bit of machine learning, it even attempts to predict the future.</p><p><a href='http://www.theguardian.com/world/ng-interactive/2014/aviation-100-years' target='_blank'>Click here to explore In Flight</a></p>",
+                "title": "Data",
+                "body": "<p>The last key building block is Data. The majority of modern websites are driven by a content management system (CMS) or other database. Such systems are well suited to manage internal data.</p><p>Utilisation of data from third party services is possible using dynamic scripts that load the data at runtime in the users browser. This is a very common technique used to produce dynamic and interactive web pages.</p>",
                 "_graphic": {
-                    "src": "course/en/images/odi-90d.png",
-                    "alt": "In Flight",
-                    "title": "In Flight",
-                    "*source":"http://www.theguardian.com/world/ng-interactive/2014/aviation-100-years",
-                    "*credit":"The Guardian",
-                    "*license":"Unknown"
+                    "src": "course/en/images/odi-90d.jpg",
+                    "alt": "Data",
+                    "title": "Data",
+                    "*source":"https://www.flickr.com/photos/mariusb/5575021761",
+                    "*credit":"Marius B",
+                    "*license":"CC-BY 2.0"
                 },
-                "strapline": "In flight"
+                "strapline": "Data"
             }
         ],
         "_pageLevelProgress": {
@@ -553,8 +469,8 @@
         "body":"",
         "instruction":"",
         "_graphic": {
-            "alt": "Cross filters",
-            "title": "Cross filters",
+            "alt": "Data driven web pages",
+            "title": "Data driven web pages",
             "large": "course/en/images/odi-100.jpg",
             "medium": "course/en/images/odi-100.jpg",
             "small": "course/en/images/odi-100.jpg",
@@ -570,9 +486,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Exploring complex datasets",
-        "displayTitle":"Exploring complex datasets",
-        "body":"<p>Visualisations can help us explore a dataset to unlock insight.</p><p>In particular faceted browsing (or cross filters) allow consumers to filter the data visually. Such browsers are commonly now used by holiday and flight websites, such as <a href='http://www.skyscanner.net/' target='_blank'>Sky scanner</a> to help you filter your search results or change input parameters.</p><p><a href='course/en/exercises/ExploringComplexDatasets.pdf' target='_blank'>Try out this exercise to build your own cross filter with the housing data from earlier</a></p><p>You will need <a href='http://codepen.io/davetaz/pen/NGprqg' target='_blank'>this link</a> to start the exercise.</p>",
+        "title":"Data driven web pages",
+        "displayTitle":"Data driven web pages",
+        "body":"<p>To help tie all the parts of this course together an exercise has been created to combine the following aspects of data science:</p><ul><li>Data collection and analysis</li><li>Advanced computing and programming</li><li>Interpretation and visualisation</li></ul><p>The exercise uses <a href='http://codepen.io' target='_blank'>CodePen.io</a> to build a webpage that dynamically loads data from an API. Can you find your train time home?</p><p><a class='course_link' href='course/en/exercises/Web_building_blocks.pdf' target='_blank'>Web building blocks exercise</a></p>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
@@ -605,7 +521,7 @@
         "_layout":"left",
         "title":"Open Data Science",
         "displayTitle":"Open Data Science",
-        "body":"<p>Data science combines advanced data literacy and statistical knowledge with domain expertise. This combination of skills helps derive valuable insights and communicate them to others.</p><p>In this course we explored some of the key specialisms of a data scientist, in particular 'data skills', 'machine learning' and 'visualisation'.</p><p>The houses dataset provided a solid base for demonstrate and I must thank those behind <a href='http://r2d3.us/' target='_blank'>r2d3.us</a> for putting this excellent data science demo together.</p><p>Looking to the future, more data will increase the need to be able to filter it. Perhaps one day we shall all be using tools like <a href='http://www.ted.com/talks/gary_flake_is_pivot_a_turning_point_for_web_exploration?language=en' target='_blank'>Pivot</http://codepen.io/davetaz/pen/NGprqga>.</p>",
+        "body":"<p>Data science combines advanced data literacy and statistical knowledge with domain expertise. This combination of skills helps derive valuable insights and communicate them to others.</p><p>In this course we explored some of the key specialisms of a data scientist, in particular 'data collection and analysis', 'advanced computing and programming' and 'interpretation and visualisation'.</p><p>Data gathering, preparing and cleaning is the process that commonly takes up the majoity of any time doing data science. Having a good core set of data processing skills is essential to reduce this time so more effort can be put into the analysis and publishing of insight covered in later courses.</p>",
         "_pageLevelProgress": {
           "_isEnabled": true
         }
