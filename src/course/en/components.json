@@ -51,18 +51,31 @@
             "*source": "https://en.wikipedia.org/wiki/John_Snow_(physician)",
             "*credit": "John Snow",
             "*licence": "CC-Zero"
-        }
+        }    
     },
     {
         "_id":"c-11",
         "_parentId":"b-10",
         "_type":"component",
-        "_component":"text",
+        "_component":"accordion",
         "_classes":"inverted",
         "_layout":"right",
         "title":"What is data journalism?",
         "displayTitle":"What is data journalism?",
-        "body":"<p></p>"
+        "body":"<p>Data journalism puts raw data at the heart of any story.</p><p>There are <b>two</b> main data journalism methods</p>",
+         "instruction": "<em>Click the headings to explore each one further.</em>",
+         "_items": [
+           {
+            "alt": "Data first, story second (reactive)",
+            "title": "Data first, story second (reactive)",
+            "body": "<p>Such stories often arise as the result of analysis government statistical publications or other data which can be disected to try and find interesting stories. A good example is employment rates.</p>"
+           },
+           {
+            "alt": "Story first, data second (proactive)",
+            "title": "Story first, data second (proactive)",
+            "body": "<p>In this case a story may already exist and data may provide further fuel or new directions for the story. Many sports based stories are enhanced with historical data.</p>"
+           }
+          ]
         },
     {
         "_id":"c-21",
@@ -118,28 +131,28 @@
       "_layout":"left",
       "title": "The data journalism process",
       "displayTitle": "The data journalism process",
-      "body": "There are very few cases where data is ready to tell a story from. In this section we split the process down into four key areas.",
+      "body": "<p>There are very few cases where data is ready to tell a story from. In this section we split the process down into four key areas.</p>",
       "instruction": "<em>Click the headings to explore each one further.</em>",
       "_items": [
         {
-          "alt": "Unlocking data",
-          "title": "Unlocking data",
-          "body": "<p>1</p>"
+          "alt": "Gathering data",
+          "title": "Gathering data",
+          "body": "<p>There are many challenges to be faced in obtaining data. Some of it might be available via simple download, others might be available only via machine readable APIs. Some might not be available at all in a usable format and might need to be scraped from web pages or documents.</p>"
         },
         {
           "alt": "Cleaning and enriching data",
           "title": "Cleaning and enriching data",
-          "body": "<p>2</p>"
+          "body": "<p>Once data has been gathered it will be necessary to inspect the data, clean up any errors and potential translate the data into a more suitable format. It is also highly likely that a single dataset will not be suffient and may need to be combined or enriched with other available data before it can be used.</p>"
         },
         {
           "alt": "Visualising data",
           "title": "Visualising data",
-          "body": "<p>3</p>"
+          "body": "<p>With the data prepared, visualisation can help with both the understanding of the story as well as with the later communication. Scroll down to find out the key differences in visualising for communication and for understanding.</p>"
         },
         {
           "alt": "Forming a story",
           "title": "Forming a story",
-          "body": "<p>4</p>"
+          "body": "<p>The final ingediant in any data driven story, is the story. Spending a lot of time gathering, preparing and visualising data may have diluted the story. It is very important to step back and reflect on what the story is, who is the audience and how best to communicate the story to this audience?</p>"
         }
       ],
       "_pageLevelProgress": {
