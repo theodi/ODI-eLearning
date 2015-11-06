@@ -88,6 +88,35 @@
         "_isEnabled": true
       }
     },
+    {
+        "_id":"c-28",
+        "_parentId":"b-25",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "What is open data?",
+            "title": "What is open data?",
+            "large": "course/en/images/odi-1-text-image_large.jpg",
+            "medium": "course/en/images/odi-1-text-image_large.jpg",
+            "small": "course/en/images/odi-1-text-image_large.jpg",
+            "*source":"http://www.shutterstock.com/pic.mhtml?id=179384507&src=lb-35924366",
+            "*credit":"leromin",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-27",
+        "_parentId":"b-25",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"What is open data?",
+        "displayTitle":"What is open data?",
+        "body":"<p>Open data is <strong>data</strong> that <strong>anyone</strong> can <strong>access</strong>, <strong>use</strong> and <strong>share</strong>.</p><p>Open data becomes useable through being available in a common, machine-readable format.</p><p>Open data must be licensed. This licence must permit people to use the data in any way they want, including transforming, combining and sharing it with others, even commercially.</p>"
+    },
      {
         "_id": "c-30",
         "_parentId": "b-30",

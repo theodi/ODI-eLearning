@@ -108,6 +108,36 @@
 ]
     },
      {
+        "title": "Session Slides",
+        "description": "Click here to view the slides from the day",
+        "_filterButtons": {
+            "all": "All",
+            "document": "PDF",
+            "media": "Media",
+            "link": "Link"
+        },
+        "_resourcesItems": [
+        {
+        "_type": "link",
+        "title": "Definitions, Examples, Challenges and Opportunities",
+        "description": "Slides for the morning session",
+        "_link": "http://theodi.github.io/presentations/training_OneDay_Intro.html#/cover"
+    },
+    {
+        "_type": "link",
+        "title": "Law & Licensing",
+        "description": "Slides for the first afternoon session",
+        "_link": "http://training.theodi.org/resources/law_and_licensing.pdf"
+    },
+    {
+        "_type": "link",
+        "title": "Best Practices",
+        "description": "Slides for the second afternoon session",
+        "_link": "http://theodi.github.io/presentations/training-law-best-practice.html#/13"
+    }
+    ]
+     },
+     {
         "title": "Course Toolkit",
         "description": "Click here to view the tools covered in the course",
         "_filterButtons": {
