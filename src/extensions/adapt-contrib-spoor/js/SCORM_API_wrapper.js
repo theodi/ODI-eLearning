@@ -68,7 +68,6 @@ pipwerks.SCORM.isAvailable = function(){
 ---------------------------------------------------------------------------- */
 
 pipwerks.SCORM.API.find = function(win){
-  try {
     var API = null,
     	findAttempts = 0,
         findAttemptLimit = 500,
@@ -148,10 +147,6 @@ pipwerks.SCORM.API.find = function(win){
 
     }
     return API;
-  } catch(e) {
-    return null;
-  } 
-    
 
 };
 
