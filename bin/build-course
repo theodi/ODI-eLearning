@@ -28,9 +28,10 @@ echo ""
 `rm -fR src/course/*`
 `cp -r tmp/$2 src/course/`
 `cp src/course/$2/config.json src/course/`
-echo "removing video" 
-echo ""
-`rm -fR src/course/$2/video`
+
+#echo "removing video" 
+#echo ""
+#`rm -fR src/course/$2/video`
 
 echo "Updating control path"
 echo ""

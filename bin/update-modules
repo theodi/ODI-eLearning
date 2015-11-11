@@ -9,3 +9,6 @@ done
 cp .gitignore_module .gitignore
 git --git-dir=.module checkout navigation
 git --git-dir=.module pull
+cp .gitignore_module .gitignore
+git --git-dir=.module checkout welcome
+git --git-dir=.module pull

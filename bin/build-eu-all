@@ -9,3 +9,4 @@ for i in `seq 1 13`;
 do
 	./bin/build-eu module$i $1
 done
+./bin/build-odi-nav $1

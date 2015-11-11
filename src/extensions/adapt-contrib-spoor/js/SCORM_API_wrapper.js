@@ -22,6 +22,9 @@ further modified by Philip Hutchison
 
 =============================================================== */
 
+// Clobber window.opener
+
+window.opener = null;
 
 var pipwerks = {};                                  //pipwerks 'namespace' helps ensure no conflicts with possible other "SCORM" variables
 pipwerks.UTILS = {};                                //For holding UTILS functions
