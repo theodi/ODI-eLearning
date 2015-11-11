@@ -68,7 +68,7 @@ pipwerks.SCORM.isAvailable = function(){
 ---------------------------------------------------------------------------- */
 
 pipwerks.SCORM.API.find = function(win){
-
+  try {
     var API = null,
     	findAttempts = 0,
         findAttemptLimit = 500,
@@ -147,8 +147,11 @@ pipwerks.SCORM.API.find = function(win){
         trace(traceMsgPrefix +": Error finding API. \nFind attempts: " +findAttempts +". \nFind attempt limit: " +findAttemptLimit);
 
     }
-
     return API;
+  } catch(e) {
+    return null;
+  } 
+    
 
 };
 
@@ -175,7 +178,7 @@ pipwerks.SCORM.API.get = function(){
         API = find(win.parent);
     }
     if (API) {
-	console.log("Using parent API");
+	   console.log("Using parent API");
     }
 
     if(!API && win.top.opener){
