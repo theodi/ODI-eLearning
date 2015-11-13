@@ -1,19 +1,19 @@
 {
     "_id": "course",
     "_type": "course",
-    "title": "Open Data Science",
-    "displayTitle": "Open Data Science",
+    "title": "Data skills workshop",
+    "displayTitle": "Data skills workshop",
     "_buttons": {
         "submit": "Submit",
         "reset": "Reset",
         "showCorrectAnswer": "Model Answer",
         "hideCorrectAnswer": "My Answer"
     },
-    "_latestTrackingId": 13,
+    "_latestTrackingId": 9,
     "_resources": [
     {
-        "title": "Resources",
-        "description": "Click here to view resources for this course",
+        "title": "Open Refine Servers",
+        "description": "Click here to access the open refine servers needed for the cleaning exercise.",
         "_filterButtons": {
             "all": "All",
             "document": "PDF",
@@ -21,13 +21,13 @@
             "link": "Link"
         },
         "_resourcesItems": [
-            {
-                "_type": "link",
-                "title": "Course slides",
-                "description": "Click here to download the presentation slides for this course",
-                "_link": "course/en/slides/ODS.pdf"
-            }
-        ]
+        {
+            "_type": "link",
+            "title": "No servers online",
+            "description": "No serviers found, please try refreshing",
+            "_link": "#"
+        }
+    ]
     },
     {
         "title": "Image credits",
@@ -39,7 +39,7 @@
             "link": "Link"
         },
         "_resourcesItems": [
-	    {
+    {
         "_type": "link",
         "title": "Course Overview",
         "description": "Source: Shutterstock<br\/>Credit: Eugene Sergeev<br\/>Licence: Shutterstock Standard License",
@@ -47,75 +47,9 @@
     },
     {
         "_type": "link",
-        "title": "Jobs in data",
-        "description": "Source: Flickr<br\/>Credit: Tax Credits<br\/>Licence: Creative commons attribution 2.0 Generic",
-        "_link": "https:\/\/www.flickr.com\/photos\/76657755@N04\/8125987596"
-    },
-    {
-        "_type": "link",
-        "title": "Key stories",
-        "description": "Source: Unclear<br\/>Credit: Drew Conway<br\/>Licence: Unknown",
-        "_link": "http:\/\/drewconway.com\/zia\/2013\/3\/26\/the-data-science-venn-diagram"
-    },
-    {
-        "_type": "link",
-        "title": "Perscribing analytics",
-        "description": "Source: Unclear<br\/>Credit: Mastadon C<br\/>Licence: Unknown",
-        "_link": "http:\/\/www.prescribinganalytics.com\/"
-    },
-    {
-        "_type": "link",
-        "title": "Network data structure",
-        "description": "Source: Shutterstock<br\/>Credit: benjaminec<br\/>Licence: Shutterstock standard license",
-        "_link": "http:\/\/www.shutterstock.com\/pic.mhtml?id=262874696&src=id"
-    },
-    {
-        "_type": "link",
-        "title": "Unlocking data from the web",
-        "description": "Source: Shutterstock<br\/>Credit: David Arts<br\/>Licence: Shutterstock standard license",
-        "_link": "http:\/\/www.shutterstock.com\/pic-144137602"
-    },
-    {
-        "_type": "link",
-        "title": "Unlocking data in the web",
-        "description": "Source: Shutterstock<br\/>Credit: McIek<br\/>Licence: Shutterstock standard license",
-        "_link": "http:\/\/www.shutterstock.com\/pic-231672367"
-    },
-    {
-        "_type": "link",
-        "title": "Machine learning",
-        "description": "Source: Flickr<br\/>Credit: xdxd_vs_xdxd<br\/>Licence: CC-BY-SA",
-        "_link": "https:\/\/www.flickr.com\/photos\/xdxd_vs_xdxd\/6829374619"
-    },
-    {
-        "_type": "link",
-        "title": "Exploring R",
-        "description": "Source: Unclear<br\/>Credit: Martin Grandjean<br\/>Licence: CC-BY-SA",
-        "_link": "http:\/\/www.martingrandjean.ch\/wp-content\/uploads\/2013\/10\/Graphe3.png"
-    },
-    {
-        "_type": "link",
-        "title": "The planets",
-        "description": "Source: Unclear<br\/>Credit: tony_g100<br\/>Licence: CC-Zero",
-        "_link": "https:\/\/commons.wikimedia.org\/wiki\/File:Relative_satellite_sizes.jpg"
-    },
-    {
-        "_type": "link",
-        "title": "SNCF",
-        "description": "Source: Unclear<br\/>Credit: E.J. Mare<br\/>Licence: Unknown",
-        "_link": "http:\/\/www.c82.net\/blog\/?id=66"
-    },
-    {
-        "_type": "link",
-        "title": "Light cycles",
-        "description": "Source: Unclear<br\/>Credit: Jo Wood <br\/>Licence: Unknown",
-        "_link": "https:\/\/vimeo.com\/33712288"
-    },
-    {
-        "_type": "link",
-        "title": "In Flight",
-        "description": "Source: Unclear<br\/>Credit: The Guardian<br\/>Licence: Unknown",
-        "_link": "http:\/\/www.theguardian.com\/world\/ng-interactive\/2014\/aviation-100-years"
+        "title": "Data cleaning",
+        "description": "Source: Shutterstock<br\/>Credit: Amy Walters<br\/>Licence: Shutterstock Standard License",
+        "_link": "http:\/\/www.shutterstock.com\/pic-23541922"
     },
     {
         "_type": "link",
@@ -135,7 +69,7 @@
         "description": "Source: The Open Data Institute<br\/>Credit: The Open Data Institute<br\/>Licence: All rights reserved",
         "_link": "http:\/\/theodi.org"
     }
-	]
+]
     },
            {
         "title": "Open data",
