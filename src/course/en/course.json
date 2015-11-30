@@ -1,8 +1,8 @@
 {
     "_id": "course",
     "_type": "course",
-    "title": "Data skills workshop",
-    "displayTitle": "Data skills workshop",
+    "title": "Data cleaning, enriching and visualisation",
+    "displayTitle": "Data cleaning, enriching and visualisation",
     "_buttons": {
         "submit": "Submit",
         "reset": "Reset",
@@ -11,6 +11,36 @@
     },
     "_latestTrackingId": 9,
     "_resources": [
+    {
+        "title": "Course navigation",
+        "description": "Click here to browse the other sessions on this course.",
+        "_filterButtons": {
+            "all": "All",
+            "document": "PDF",
+            "media": "Media",
+            "link": "Link"
+        },
+        "_resourcesItems": [
+        {
+        "_type": "link",
+        "title": "Introducing Open Data",
+        "description": "Session 1: Introducing Open Data",
+        "_link": "../session1/"
+    },
+            {
+        "_type": "link",
+        "title": "Using open data",
+        "description": "Session 2: Data cleaning, enriching and visualisation",
+        "_link": "../session2/"
+    },
+            {
+        "_type": "link",
+        "title": "Machine learning",
+        "description": "Session 3: Machine learning for data scientists",
+        "_link": "../session3/"
+    }   
+    ]
+    },
     {
         "title": "Open Refine Servers",
         "description": "Click here to access the open refine servers needed for the cleaning exercise.",
