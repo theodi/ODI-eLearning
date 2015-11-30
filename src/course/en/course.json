@@ -1,19 +1,49 @@
 {
     "_id": "course",
     "_type": "course",
-    "title": "Open Data Science",
-    "displayTitle": "Open Data Science",
+    "title": "Machine learning for Data Scientists",
+    "displayTitle": "Machine learning for Data Scientists",
     "_buttons": {
         "submit": "Submit",
         "reset": "Reset",
         "showCorrectAnswer": "Model Answer",
         "hideCorrectAnswer": "My Answer"
     },
-    "_latestTrackingId": 13,
+    "_latestTrackingId": 3,
     "_resources": [
     {
-        "title": "Resources",
-        "description": "Click here to view resources for this course",
+        "title": "Course navigation",
+        "description": "Click here to browse the other sessions on this course.",
+        "_filterButtons": {
+            "all": "All",
+            "document": "PDF",
+            "media": "Media",
+            "link": "Link"
+        },
+        "_resourcesItems": [
+        {
+        "_type": "link",
+        "title": "Introducing Open Data",
+        "description": "Session 1: Introducing Open Data",
+        "_link": "../session1/"
+    },
+            {
+        "_type": "link",
+        "title": "Using open data",
+        "description": "Session 2: Data cleaning, enriching and visualisation",
+        "_link": "../session2/"
+    },
+            {
+        "_type": "link",
+        "title": "Machine learning",
+        "description": "Session 3: Machine learning for data scientists",
+        "_link": "../session3/"
+    }   
+    ]
+    },
+    {
+        "title": "Session slides",
+        "description": "Click here to view the slides from the session",
         "_filterButtons": {
             "all": "All",
             "document": "PDF",
@@ -25,7 +55,7 @@
                 "_type": "link",
                 "title": "Course slides",
                 "description": "Click here to download the presentation slides for this course",
-                "_link": "course/en/slides/ODS.pdf"
+                "_link": "course/en/slides/ML.pdf"
             }
         ]
     },
@@ -39,48 +69,6 @@
             "link": "Link"
         },
         "_resourcesItems": [
-	    {
-        "_type": "link",
-        "title": "Course Overview",
-        "description": "Source: Shutterstock<br\/>Credit: Eugene Sergeev<br\/>Licence: Shutterstock Standard License",
-        "_link": "http:\/\/www.shutterstock.com\/pic-278179001.html"
-    },
-    {
-        "_type": "link",
-        "title": "Jobs in data",
-        "description": "Source: Flickr<br\/>Credit: Tax Credits<br\/>Licence: Creative commons attribution 2.0 Generic",
-        "_link": "https:\/\/www.flickr.com\/photos\/76657755@N04\/8125987596"
-    },
-    {
-        "_type": "link",
-        "title": "Key stories",
-        "description": "Source: Unclear<br\/>Credit: Drew Conway<br\/>Licence: Unknown",
-        "_link": "http:\/\/drewconway.com\/zia\/2013\/3\/26\/the-data-science-venn-diagram"
-    },
-    {
-        "_type": "link",
-        "title": "Perscribing analytics",
-        "description": "Source: Unclear<br\/>Credit: Mastadon C<br\/>Licence: Unknown",
-        "_link": "http:\/\/www.prescribinganalytics.com\/"
-    },
-    {
-        "_type": "link",
-        "title": "Network data structure",
-        "description": "Source: Shutterstock<br\/>Credit: benjaminec<br\/>Licence: Shutterstock standard license",
-        "_link": "http:\/\/www.shutterstock.com\/pic.mhtml?id=262874696&src=id"
-    },
-    {
-        "_type": "link",
-        "title": "Unlocking data from the web",
-        "description": "Source: Shutterstock<br\/>Credit: David Arts<br\/>Licence: Shutterstock standard license",
-        "_link": "http:\/\/www.shutterstock.com\/pic-144137602"
-    },
-    {
-        "_type": "link",
-        "title": "Unlocking data in the web",
-        "description": "Source: Shutterstock<br\/>Credit: McIek<br\/>Licence: Shutterstock standard license",
-        "_link": "http:\/\/www.shutterstock.com\/pic-231672367"
-    },
     {
         "_type": "link",
         "title": "Machine learning",
@@ -92,36 +80,6 @@
         "title": "Exploring R",
         "description": "Source: Unclear<br\/>Credit: Martin Grandjean<br\/>Licence: CC-BY-SA",
         "_link": "http:\/\/www.martingrandjean.ch\/wp-content\/uploads\/2013\/10\/Graphe3.png"
-    },
-    {
-        "_type": "link",
-        "title": "The planets",
-        "description": "Source: Unclear<br\/>Credit: tony_g100<br\/>Licence: CC-Zero",
-        "_link": "https:\/\/commons.wikimedia.org\/wiki\/File:Relative_satellite_sizes.jpg"
-    },
-    {
-        "_type": "link",
-        "title": "SNCF",
-        "description": "Source: Unclear<br\/>Credit: E.J. Mare<br\/>Licence: Unknown",
-        "_link": "http:\/\/www.c82.net\/blog\/?id=66"
-    },
-    {
-        "_type": "link",
-        "title": "Light cycles",
-        "description": "Source: Unclear<br\/>Credit: Jo Wood <br\/>Licence: Unknown",
-        "_link": "https:\/\/vimeo.com\/33712288"
-    },
-    {
-        "_type": "link",
-        "title": "In Flight",
-        "description": "Source: Unclear<br\/>Credit: The Guardian<br\/>Licence: Unknown",
-        "_link": "http:\/\/www.theguardian.com\/world\/ng-interactive\/2014\/aviation-100-years"
-    },
-    {
-        "_type": "link",
-        "title": "Cross filters",
-        "description": "Source: Unclear<br\/>Credit: sponge uk<br\/>Licence: Creative commons attribute 4.0 international",
-        "_link": "sponge uk"
     },
     {
         "_type": "link",
