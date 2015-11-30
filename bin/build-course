@@ -41,6 +41,11 @@ echo "Updating image path"
 echo ""
 sed -i -e "s/course\/en\/images/course\/$2\/images/g" src/theme/odi-courses/less/header.less
 
+echo "moving items into place" 
+echo ""
+cp src/theme/adapt-contrib-vanilla/less/theme.less src/theme/odi-courses/less/
+cp src/theme/adapt-contrib-vanilla/less/custom.less src/theme/odi-courses/less/
+
 echo "Building module";
 rm -fR build
 grunt build --theme=odi-courses
