@@ -25,9 +25,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Open Data in a Day",
-        "displayTitle":"Open Data in a Day",
-        "body":"<p>This introductory course aims to get you up to speed with latest developments in open data and its significance. It is designed to enable anyone to get started with discovering and using open data and understand the skills and processes required to make it work for you and your organisation.</p>",
+        "title":"Introducing Open Data",
+        "displayTitle":"Introducing Open Data",
+        "body":"<p>This session aims to get you up to speed with latest developments in open data and its significance. This session pays key attention to data licensing and how enabling anyone to use data is key to maximising potential.</p>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
@@ -58,30 +58,25 @@
       "_component":"accordion",
       "_classes":"",
       "_layout":"right",
-      "title": "Course overview",
-      "displayTitle": "Course overview",
-      "body": "<p>The course is split into four main sessions. These sessions start by exploring definitions of open data, examines the impacts and future directions of the field, looks at practical aspects such as licencing and best practices and concludes with a hands-on exploration of some key tools.</p>",
+      "title": "Session overview",
+      "displayTitle": "Session overview",
+      "body": "<p>The session is split into three main parts. These parts start by exploring definitions of open data, then we examine the challenges and future directions of the field before taking a practical look at licensing to maximise reuse.</p>",
       "instruction": "<em>The sessions are briefly described below.</em>",
       "_items": [
         {
           "alt": "Introducing Open Data",
           "title": "Introducing Open Data",
-          "body": "<p>The session explores recent changes in the definition of open data, and allow learners to understand why the current definition has been determined.</p><p>The session also examines a number of examples of open data impact from different fields and considers the potential for open data implementation</p>"
+          "body": "<p>This session explores recent changes in the definition of open data, and allow learners to understand why the current definition has been determined.</p><p>The session also examines a number of examples of open data impact from different fields and considers the potential for open data implementation</p>"
         },
         {
           "alt": "Challenges of Open Data and Future Developments",
           "title": "Challenges of Open Data and Future Developments",
-          "body": "<p>Open data is still a developing field and those working within it will encounter a number of common problems. This sessions presents and clarifys the main challenges before examining the future of open data.</p>"
+          "body": "<p>Open data is still a developing field and those working within it will encounter a number of common problems. This sessions presents and clarifies the main challenges before examining the future of open data.</p>"
         },
         {
-          "alt": "Licensing and Best Practices",
-          "title": "Licensing and Best Practices",
-          "body": "<p>This session begins by looking at how open licences are there to protect data publishers, while also unlocking value. We show how to build a machine readable open license that can be applied to any online content.</p><p>The session then continues by looking at the technical, legal, social and practical requirements for making different types of open data usable and some of the most relevant guidelines to support this process.</p>"
-        },
-        {
-          "alt": "Cleaning Open Data",
-          "title": "Cleaning Open Data",
-          "body": "<p>This session will introduce the importance of recent changes around open data modification rules which help combat data errors. We also introduce OpenRefine and how it improves data management by publishers.</p>"
+          "alt": "Licensing open data",
+          "title": "Licensing open data",
+          "body": "<p>This session looks at how open licences are there to protect data publishers, while also unlocking value. We show how to build a machine readable open license that can be applied to any online content.</p>"
         }
       ],
       "_pageLevelProgress": {
@@ -375,8 +370,8 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Licensing and Best Practices",
-        "displayTitle":"Licensing and Best Practices",
+        "title":"Open data licensing",
+        "displayTitle":"Open data licensing",
         "body":"<p></p>",
         "instruction":"",
         "_pageLevelProgress": {
@@ -491,114 +486,6 @@
         "displayTitle":"Recognising Open Licences",
         "body":"<p>When discovering data online, it is important to be able to check the licence to understadn whether the data is open and if so, under what conditions can you access, use and share it</p><p>Take a look at each of the following licences and try to determine whether they are open licences</p><ul><li><a href='https://twitter.com/tos' target='_blank'>Twitter Terms of Use</a></li><li><a href='https://opencorporates.com/info/licence' target='_blank'>Open Corporates</a></li><li><a href='http://data.gov.sg/Metadata/OneMapMetadata.aspx?id=DENGUE_CLUSTER&t=SPATIAL' target='_blank'>data.gov.sg</a></li><li><a href='http://www.metoffice.gov.uk/datapoint/terms-conditions' target='_blank'>Met Office</a></li><li><a href='https://www.flickr.com/search/?q=cat' target='_blank'>Flickr</a></li></ul>"
     },
-{
-        "_id":"c-100",
-        "_parentId":"b-100",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"right",
-        "_graphic": {
-            "alt": "Marques of quality",
-            "title": "Marques of quality",
-            "large": "course/en/images/odi-6.jpg",
-            "medium": "course/en/images/odi-6.jpg",
-            "small": "course/en/images/odi-6.jpg",
-            "*source":"http://www.shutterstock.com/pic-254316427.html",
-            "*credit":"tostphoto",
-            "*license":"Shutterstock Standard License"
-        }
-    },
-    {
-      "_id":"c-101",
-      "_parentId":"b-100",
-      "_type":"component",
-      "_component":"accordion",
-      "_classes":"",
-      "_layout":"left",
-      "title": "Best Practices",
-      "displayTitle": "Best practices",
-      "body": "<p>Best practice standards provide users with confidence about the quality and usability of open data.</p><p>There are 2 key indicators of open data quality:</p>",
-      "instruction": "<em>Click the headings to explore further.</em>",
-      "_items": [
-        {
-          "alt": "5 Stars",
-          "title": "5 Stars",
-          "body": "<p>The 5 Stars of linked open data include the basic legal definition and technical excellence of the published data.</p><p>The 5 Stars were developed by inventor of the Web, Sir Tim Berners-Lee in 2001. The 5 Stars make recommendations on the format and structure of the data.</p><p>You can learn more about the 5 Stars in modules 10 and 13 of this course.</p>"
-        },
-        {
-          "alt": "ODI Open Data Certificates",
-          "title": "ODI Open Data Certificates",
-          "body": "<p>The Open Data Institute's Open Data Certificates are practical, social, legal and technical guidelines to consider when publishing or using open data.</p><p>The certificates act as a self-assessment questionnaire for publishers, and in some cases users, to assess and benchmark the full usability of a dataset.<br /><a href='https://certificates.theodi.org/' target='_blank'>Take me to the ODI Open Data Certificates site</a></p>"
-        }
-      ],
-      "_pageLevelProgress": {
-        "_isEnabled": true
-      }
-    },
-    {
-        "_id":"c-110",
-        "_parentId":"b-110",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"right",
-        "title":"",
-        "displayTitle":"",
-        "body":"",
-        "instruction":"",
-        "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "course/en/images/burst-green.png",
-            "medium": "course/en/images/burst-green.png",
-            "small": "course/en/images/burst-green.png"
-        }
-    },
-    {
-        "_id":"c-111",
-        "_parentId":"b-110",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"",
-        "_layout":"left",
-        "title":"Cleaning Open Data",
-        "displayTitle":"Cleaning Open Data",
-        "body":"<p></p>",
-        "instruction":"",
-        "_pageLevelProgress": {
-            "_isEnabled": true
-        }
-    },
-    {
-        "_id":"c-120",
-        "_parentId":"b-120",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"left",
-        "_graphic": {
-            "alt": "Why license open data?",
-            "title": "Why license open data?",
-            "large": "course/en/images/odi-010.jpg",
-            "medium": "course/en/images/odi-010.jpg",
-            "small": "course/en/images/odi-010.jpg",
-            "*source": "http://www.shutterstock.com/pic-270451631.html",
-            "*credit": "Oleksiy Mark",
-            "*license": "Shutterstock Standard License"
-        }
-    },
-    {
-        "_id":"c-121",
-        "_parentId":"b-120",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"",
-        "_layout":"right",
-        "title":"Getting started with Data Cleaning",
-        "displayTitle":"Getting started with Data Cleaning",
-        "body":"<p><p>Data cleaning is essential to ensure that when the data is used, the right conclusions are made.</p><p>Often errors are not even noticed by data publishers because the data can change over many years. In other cases, errors can be the result of human mistakes in data entry, like mistyping or incorrect abbreviations.</p><p>Be aware that cleaning may take longer than you think. A careful cleaning process will, however, save substantial time in the long-run.</p><p>Follow our data cleaning exercise to get started with Open Refine and discover how easy it is for yourself.</p><p><a class='course_link' href='http://training.theodi.org/resources/Cleaning_Exercise.pdf' target='_blank'>Get started with data cleaning in Open Refine</a></p><p>Below you can find the datasets used in the OpenRefine exercise</p><ul><li><a href='course/en/exercises/dataset1.xls' target='_blank'>Dataset 1: Louisiana Secretary of State Officials</a></li><li><a href='course/en/exercises/dataset2.csv' target='_blank'>Dataset 2: Projects Dataset</a></li><li><a href='course/en/exercises/dataset3.csv' target='_blank'>Dataset 3: UK GP Earnings</a></li></ul>"
-    },
     {
         "_id":"c-130",
         "_parentId":"b-130",
@@ -624,9 +511,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Open Data in a Day",
-        "displayTitle":"Open Data in a Day",
-        "body":"<p>Open data is <strong>data</strong> that <strong>anyone</strong> can <strong>access</strong>, <strong>use</strong> and <strong>share</strong>.</p><p>Open data is a raw material for the digital age but, unlike coal, timber or diamonds, it can be used by anyone and everyone at the same time.</p><p>Any restrictions imposed on the use of open data will limit its use in creating new value.</p><p>Open data can bring diverse benefits to governments, businesses and individuals. It has the power to improve services, grow economies and save our planet.</p><p>Open data needs to be properly licensed in order to ensure the broadest possible use. The data should also try to follow as cloesly as possible the best practices available to support publication and reuse</p><p>Want to take your open data journey further? The ODI offers a full range of courses to support those working with open data at our <a href='http://theodi.org/courses' target='courses page'></a></p>",
+        "title":"Introducing Open Data",
+        "displayTitle":"Introducing Open Data",
+        "body":"<p>Open data is <strong>data</strong> that <strong>anyone</strong> can <strong>access</strong>, <strong>use</strong> and <strong>share</strong>.</p><p>Open data is a raw material for the digital age but, unlike coal, timber or diamonds, it can be used by anyone and everyone at the same time.</p><p>Any restrictions imposed on the use of open data will limit its use in creating new value.</p><p>Open data can bring diverse benefits to governments, businesses and individuals. It has the power to improve services, grow economies and save our planet.</p><p>Open data needs to be properly licensed in order to ensure the broadest possible use. The data should also try to follow as cloesly as possible the best practices available to support publication and reuse</p><p>Want to take your open data journey further? The ODI offers a full range of courses to support those working with open data at our <a href='http://theodi.org/courses' target='_blank'>Courses page</a>.</p>",
         "_pageLevelProgress": {
           "_isEnabled": true
         }

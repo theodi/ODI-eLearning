@@ -9,11 +9,41 @@
         "showCorrectAnswer": "Model Answer",
         "hideCorrectAnswer": "My Answer"
     },
-    "_latestTrackingId": 13,
+    "_latestTrackingId": 12,
     "_resources": [
+    {
+        "title": "Course navigation",
+        "description": "Click here to browse the other sessions on this course.",
+        "_filterButtons": {
+            "all": "All",
+            "document": "PDF",
+            "media": "Media",
+            "link": "Link"
+        },
+        "_resourcesItems": [
+        {
+        "_type": "link",
+        "title": "Introducing Open Data",
+        "description": "Session 1: Introducing Open Data",
+        "_link": "../session1/"
+    },
+            {
+        "_type": "link",
+        "title": "Using open data",
+        "description": "Session 2: Data cleaning, enriching and visualising",
+        "_link": "../session1/"
+    },
+            {
+        "_type": "link",
+        "title": "Machine learning",
+        "description": "Session 3: Machine learning for data scientists",
+        "_link": "../session1/"
+    }   
+    ]
+     },
      {
         "title": "Session Slides",
-        "description": "Click here to view the slides from the day",
+        "description": "Click here to view the slides from the session",
         "_filterButtons": {
             "all": "All",
             "document": "PDF",
@@ -32,12 +62,6 @@
         "title": "Law & Licensing",
         "description": "Slides for the first afternoon session",
         "_link": "http://training.theodi.org/resources/law_and_licensing.pdf"
-    },
-    {
-        "_type": "link",
-        "title": "Best Practices",
-        "description": "Slides for the second afternoon session",
-        "_link": "http://theodi.github.io/presentations/training-law-best-practice.html#/13"
     }
     ]
      },
@@ -75,24 +99,6 @@
         "description": "JSONLint helps you to check that your JSON open data file is readable",
         "_link": "http://jsonlint.com/"
     }
-    ]
-    },
-    {
-        "title": "Open Refine Servers",
-        "description": "Click here to access the open refine servers needed for the cleaning exercise.",
-        "_filterButtons": {
-            "all": "All",
-            "document": "PDF",
-            "media": "Media",
-            "link": "Link"
-        },
-        "_resourcesItems": [
-        {
-            "_type": "link",
-            "title": "No servers online",
-            "description": "No serviers found, please try refreshing",
-            "_link": "#"
-        }
     ]
     },
     {
@@ -201,18 +207,6 @@
         "title": "Types of licences",
         "description": "Source: Shutterstock<br\/>Credit: Eugene Sergeev<br\/>Licence: Shutterstock Standard License",
         "_link": "http:\/\/www.shutterstock.com\/pic-278179001.html"
-    },
-    {
-        "_type": "link",
-        "title": "Why license open data?",
-        "description": "Source: Shutterstock<br\/>Credit: Oleksiy Mark<br\/>Licence: Shutterstock Standard License",
-        "_link": "http:\/\/www.shutterstock.com\/pic-270451631.html"
-    },
-    {
-        "_type": "link",
-        "title": "Marques of quality",
-        "description": "Source: Shutterstock<br\/>Credit: tostphoto<br\/>Licence: Shutterstock Standard License",
-        "_link": "http:\/\/www.shutterstock.com\/pic-254316427.html"
     },
     {
         "_type": "link",

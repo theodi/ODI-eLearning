@@ -132,44 +132,11 @@
         }
     },
     {
-        "_id": "b-100",
-        "_parentId": "a-01",
-        "_type": "block",
-        "_classes": "inverted",
-        "_trackingId": 12,
-        "_trickle": {
-            "_isEnabled":false,
-            "button": "Continue"
-        }
-    },
-    {
-        "_id": "b-110",
-        "_parentId": "a-01",
-        "_type": "block",
-        "_classes": "",
-        "_trackingId": 13,
-        "_trickle": {
-            "_isEnabled":false,
-            "button": "Continue"
-        }
-    },
-    {
-        "_id": "b-120",
-        "_parentId": "a-01",
-        "_type": "block",
-        "_classes": "inverted",
-        "_trackingId": 14,
-        "_trickle": {
-            "_isEnabled":false,
-            "button": "Continue"
-        }
-    },
-    {
         "_id": "b-130",
         "_parentId": "a-01",
         "_type": "block",
         "_classes": "summary",
-        "_trackingId": 15,
+        "_trackingId": 12,
         "_trickle": {
             "_isEnabled":false,
             "button": "Continue"
