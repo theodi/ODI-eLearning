@@ -1,8 +1,8 @@
 {
     "_id": "course",
     "_type": "course",
-    "title": "Open Data Science - Unlocking Data",
-    "displayTitle": "Open Data Science - Unlocking Data",
+    "title": "Open Data Science - Statistics and Machine Learning",
+    "displayTitle": "Open Data Science - Statistics and Machine Learning",
     "_buttons": {
         "submit": "Submit",
         "reset": "Reset",
@@ -25,13 +25,19 @@
                 "_type": "link",
                 "title": "Course slides",
                 "description": "Click here to download the presentation slides for this course",
-                "_link": "course/en/slides/Unlocking_Data.pdf"
-            }
+                "_link": "course/en/slides/StatsML.pdf"
+            },
+            {
+                "_type": "link",
+                "title": "RStudio online",
+                "description": "Click here to launch your own online instance of rStudio",
+                "_link": "https://www.rollapp.com/app/rstudio"
+            },
         ]
     },
     {
-        "title": "Open Refine Servers",
-        "description": "Click here to access the open refine servers needed for the cleaning exercise.",
+        "title": "Datasets used",
+        "description": "Click here to access the datasets needed in this course.",
         "_filterButtons": {
             "all": "All",
             "document": "PDF",
@@ -41,9 +47,33 @@
         "_resourcesItems": [
         {
             "_type": "link",
-            "title": "No servers online",
-            "description": "No serviers found, please try refreshing",
-            "_link": "#"
+            "title": "Life expectancy data",
+            "description": "Download the global life expectancy dataset",
+            "_link": "course/en/exercises/LifeExpTable.txt"
+        },
+        {
+            "_type": "link",
+            "title": "NY Red Bulls Salary data",
+            "description": "Download the NY Red Bulls Salary dataset",
+            "_link": "course/en/exercises/NYRedBullsSalaries.txt"
+        },
+        {
+            "_type": "link",
+            "title": "Life expectancy data (by region)",
+            "description": "Download the global life expectancy (by region) dataset",
+            "_link": "course/en/exercises/LifeExpRegion.txt"
+        },
+        {
+            "_type": "link",
+            "title": "Skeletons data",
+            "description": "Download the skeletons data",
+            "_link": "course/en/exercises/SkeletonData.txt"
+        },
+        {
+            "_type": "link",
+            "title": "Body temperature data",
+            "description": "Download the body temperature dataset",
+            "_link": "course/en/exercises/TempData.txt"
         }
     ]
     },
@@ -66,75 +96,45 @@
     },
     {
         "_type": "link",
-        "title": "Jobs in data",
-        "description": "Source: Flickr<br\/>Credit: Tax Credits<br\/>Licence: Creative commons attribution 2.0 Generic",
-        "_link": "https:\/\/www.flickr.com\/photos\/76657755@N04\/8125987596"
+        "title": "Statistics for data scientists",
+        "description": "Source: Flickr<br\/>Credit: brett jordan<br\/>Licence: CC-BY",
+        "_link": "https:\/\/www.flickr.com\/photos\/x1brett\/5010611165"
     },
     {
         "_type": "link",
-        "title": "Key stories",
-        "description": "Source: Unclear<br\/>Credit: Drew Conway<br\/>Licence: Unknown",
-        "_link": "http:\/\/drewconway.com\/zia\/2013\/3\/26\/the-data-science-venn-diagram"
+        "title": "Counting, numbers and chance",
+        "description": "Source: Flickr<br\/>Credit: Sheila Sund<br\/>Licence: CC-BY",
+        "_link": "https:\/\/www.flickr.com\/photos\/sheila_sund\/14891008391"
     },
     {
         "_type": "link",
-        "title": "Perscribing analytics",
-        "description": "Source: Unclear<br\/>Credit: Mastadon C<br\/>Licence: Unknown",
-        "_link": "http:\/\/www.prescribinganalytics.com\/"
+        "title": "Fluctuation, averages and targets",
+        "description": "Source: Flickr<br\/>Credit: Justin Ladia<br\/>Licence: CC-BY",
+        "_link": "https:\/\/www.flickr.com\/photos\/jrladia\/7245527230"
     },
     {
         "_type": "link",
-        "title": "Network data structure",
-        "description": "Source: Shutterstock<br\/>Credit: benjaminec<br\/>Licence: Shutterstock standard license",
-        "_link": "http:\/\/www.shutterstock.com\/pic.mhtml?id=262874696&src=id"
+        "title": "Risk, samples and hypothesis testing",
+        "description": "Source: Flickr<br\/>Credit: Horia Varlan<br\/>Licence: CC-BY",
+        "_link": "https:\/\/www.flickr.com\/photos\/horiavarlan\/4273225057"
     },
     {
         "_type": "link",
-        "title": "Unlocking data from the web",
-        "description": "Source: Shutterstock<br\/>Credit: David Arts<br\/>Licence: Shutterstock standard license",
-        "_link": "http:\/\/www.shutterstock.com\/pic-144137602"
+        "title": "Correlation and percentages",
+        "description": "Source: Flickr<br\/>Credit: Thierry Gregorius<br\/>Licence: CC-BY",
+        "_link": "https:\/\/www.flickr.com\/photos\/t_gregorius\/3256858704"
     },
     {
         "_type": "link",
-        "title": "Unlocking data in the web",
-        "description": "Source: Shutterstock<br\/>Credit: McIek<br\/>Licence: Shutterstock standard license",
-        "_link": "http:\/\/www.shutterstock.com\/pic-231672367"
+        "title": "Machine learning",
+        "description": "Source: Flickr<br\/>Credit: xdxd_vs_xdxd<br\/>Licence: CC-BY-SA",
+        "_link": "https:\/\/www.flickr.com\/photos\/xdxd_vs_xdxd\/6829374619"
     },
     {
         "_type": "link",
-        "title": "Cleaning data",
-        "description": "Source: Shutterstock<br\/>Credit: Amy Walters<br\/>Licence: Shutterstock Standard License",
-        "_link": "http:\/\/www.shutterstock.com\/pic-23541922"
-    },
-    {
-        "_type": "link",
-        "title": "Defining structure",
-        "description": "Source: Flickr<br\/>Credit: Phil Gradwell<br\/>Licence: CC-BY 2.0",
-        "_link": "https:\/\/www.flickr.com\/photos\/philgradwell\/10060023076"
-    },
-    {
-        "_type": "link",
-        "title": "Adding style",
-        "description": "Source: Flickr<br\/>Credit: Melinda<br\/>Licence: CC-BY 2.0",
-        "_link": "https:\/\/www.flickr.com\/photos\/melindasutton\/6937505492"
-    },
-    {
-        "_type": "link",
-        "title": "Action and interaction",
-        "description": "Source: Flickr<br\/>Credit: Windell Oskay<br\/>Licence: CC-BY 2.0",
-        "_link": "https:\/\/www.flickr.com\/photos\/oskay\/4904174150"
-    },
-    {
-        "_type": "link",
-        "title": "Data",
-        "description": "Source: Flickr<br\/>Credit: Marius B<br\/>Licence: CC-BY 2.0",
-        "_link": "https:\/\/www.flickr.com\/photos\/mariusb\/5575021761"
-    },
-    {
-        "_type": "link",
-        "title": "Data driven web pages",
-        "description": "Source: Unclear<br\/>Credit: sponge uk<br\/>Licence: Creative commons attribute 4.0 international",
-        "_link": "sponge uk"
+        "title": "Exploring R",
+        "description": "Source: Unclear<br\/>Credit: Martin Grandjean<br\/>Licence: CC-BY-SA",
+        "_link": "http:\/\/www.martingrandjean.ch\/wp-content\/uploads\/2013\/10\/Graphe3.png"
     },
     {
         "_type": "link",
