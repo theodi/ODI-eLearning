@@ -232,12 +232,12 @@
         {
           "alt": "Fluctuation",
           "title": "Fluctuation",
-          "body": "<p>Random events cluster, thus fluctuation is also important to bear in mind. Flipping a whole run of heads on a coin doesn't mean there will be more to follow. The same is the case for road accidents. Thus installing speed cameras in accident black spots might not necessarily be correlated to the subsequent reduction in accidents.</p>"
+          "body": "<p>Random events cluster, thus fluctuation is also important to bear in mind. Flipping a whole run of heads on a coin doesn't mean there will be more to follow. The same is the case for road accidents. Installing speed cameras in accident black spots might not necessarily be correlated to the subsequent reduction in accidents.</p>"
         },
         {
           "alt": "Averages",
           "title": "Averages",
-          "body": "<p>Most people know about one average, the one you get when you divided the sum by the number of samples, this is known as the mean. However the mean is not a robust statistic, so should be used with care. Of course in many instances it is mis-used.</p>"
+          "body": "<p>Most people know about one average, the one you get when you divided the sum by the number of samples, this is known as the mean. However the mean is not a robust statistic, so should be used with care. Of course in many instances it is mis-used. For example in Bush's 2008 state of the union address he attacked his opposition stating that their tax plans would mean an average tax hike of $1800 per person. As this is the mean, and peoples earnings are not evenly distributed, the proposals actually hit high earners badly, while putting money back in the pocket of those who need it. The mean is correct, just not robust.</p>"
         },
         {
           "alt": "Targets",
@@ -338,7 +338,7 @@
           "alt": "Risk",
           "title": "Risk",
           "body": "<p>Risk is another category to be careful with in statistics. Stating that a risk has doubled, or using percentages, can make the situation appear worse (or better) than it is. Another common pitfall is to not adjust figures for floating variables. e.g. Saying <a href='http://www.cancerresearchuk.org/about-us/cancer-news/news-report/2012-05-31-global-cancer-incidence-predicted-to-increase-by-75-per-cent-by-2030' target='_blank'>Global cancer incidence predicted to increase by 75 per cent by 2030</a> is pretty shocking. That is until you realise this percentage has been calculated from the raw numbers of people and has not be adjusted for population growth. Made a good headline though, didn't it?</p>"
-        },
+        }
       ],
       "_pageLevelProgress": {
         "_isEnabled": true
