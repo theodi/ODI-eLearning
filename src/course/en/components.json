@@ -25,9 +25,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Open Data Science: Accelerate",
-        "displayTitle":"Open Data Science: Accelerate",
-        "body":"<p>Welcome to 'Accelerate', a fast paced, interactive look at the current skills of an open data scientist.</p><p>This course has been designed to get you up to speed with the latest developments surrounding the responsible use of open data as a data scientist.</p><p>By the end of this course you will be able to:<p><ul><li>Describe open data</li><li>Explain some of the benefits of using data science with open data</li><li>Identify and use a number of open data licences</li><li>Clean a dataset</li><li>Enrich a dataset</li><li>Visualise a dataset</li><li>Construct a machine learning classifier.</li></ul><em>Scroll down to discover each of the sessions on this course</em></p>",
+        "title":"Open Data Science",
+        "displayTitle":"Open Data Science<br/><h5>Big data: Tidy Infographics</h5>",
+        "body":"<p>Data science combines advanced data literacy and statistical knowledge with domain expertise. This combination of skills helps derive valuable insights and communicate them to others.</p><p>This course gives you theorectical and practical knowledge in open data science. Specifically this course aims to provide practical experience in dealing with big data, data reduction and data visualisation.</p>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": false
@@ -55,9 +55,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Session 1 - Introducing Open Data",
-        "displayTitle":"Session 1 - Introducing Open Data",
-        "body":"<progress style='width: 100%;' id='ODI_Accelerate_S1' max='100' value='0'></progress><p>Open data is <strong>data</strong> that <strong>anyone</strong> can <strong>access</strong>, <strong>use</strong> and <strong>share</strong>. Governments, businesses and individuals can use open data to bring about social, economic and environmental benefits.</p><p>In this module we’ll explore more on the definitions of data, the impact is has and how licences play a central role.</p><p><a class='course_link' href='session1/'>Click here to learn more</a></p>"
+        "title":"Session 1 - Big data",
+        "displayTitle":"Session 1 - Big data",
+        "body":"<progress style='width: 100%;' id='ODI_Big_data' max='100' value='0'></progress><p></p>"
     },
     {
         "_id":"c-21",
@@ -81,9 +81,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"right",
-        "title":"Session 2 - Data cleaning, enriching and visualisation",
-        "displayTitle":"Session 2 - Data cleaning, enriching and visualisation",
-        "body":"<progress style='width: 100%;' id='ODI_DataWorkshop' max='100' value='0'></progress><p>This practical session takes an open data set and performs some simple analysis to discover insight. Using one dataset, we first clean up the common errors, reducing the data down to a minimal set of understanable data. We then enrich the dataset by adding additional columns of data through automated querying on aligned data in online services (APIs). Finally we can then visualise the dataset to aid exploration further via an interactive faceted browser.</p><p><a class='course_link' href='session2/'>Click here to learn more</a></p>"
+        "title":"Session 2 - Telling stories from data",
+        "displayTitle":"Session 2 - Telling stories from data",
+        "body":"<progress style='width: 100%;' id='ODI_FindingStories' max='100' value='0'></progress><p>Data can tell incredible stories. When told correctly, these stories have the power to bring about meaningful change. However, effectively communicating insight from data is not as easy as you might think. This session aims to unlock the secrets of telling powerful stories from data.</p><p><a class='course_link' href='session2/'>Click here to learn more</a></p>"
     },
     {
         "_id":"c-25",
@@ -95,9 +95,9 @@
         "_graphic": {
             "alt": "",
             "title": "",
-            "large": "course/en/images/odi-3-text-image_large.png",
-            "medium": "course/en/images/odi-3-text-image_large.png",
-            "small": "course/en/images/odi-3-text-image_large.png"
+            "large": "course/en/images/odi-3-text-image_large.jpg",
+            "medium": "course/en/images/odi-3-text-image_large.jpg",
+            "small": "course/en/images/odi-3-text-image_large.jpg"
         }
     },
     {
@@ -107,9 +107,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Session 3 - Machine Learning for Data Scientists",
-        "displayTitle":"Session 3 - Machine learning for Data Scientists",
-        "body":"<progress style='width: 100%;' id='ODI_Accelerate_S3' max='100' value='0'></progress><p>This short session introduces machine learning using an interactive example. Specifically, this session looks at classifiers and how these are constructed using training data and then evaluated on untagged test data.<p><p><a class='course_link' href='session3/'>Click here to learn more</a></p>"
+        "title":"Session 3 - Data cleaning, enriching and visualisation",
+        "displayTitle":"Session 3 - Data cleaning, enriching and visualisation",
+        "body":"<progress style='width: 100%;' id='ODI_DataWorkshop' max='100' value='0'></progress><p>This practical session takes an open data set and performs some simple analysis to discover insight. Using one dataset, we first clean up the common errors, reducing the data down to a minimal set of understanable data. We then enrich the dataset by adding additional columns of data through automated querying on aligned data in online services (APIs). Finally we can then visualise the dataset to aid exploration further via an interactive faceted browser.</p><p><a class='course_link' href='session2/'>Click here to learn more</a></p>"
     },
     {
         "_id":"c-151",
