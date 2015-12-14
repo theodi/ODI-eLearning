@@ -12,6 +12,53 @@
     "_latestTrackingId": 16,
     "_resources": [
     {
+        "title": "Slides and worksheets",
+        "description": "Click here to view slides and eworksheets that acompany this session",
+        "_filterButtons": {
+            "all": "All",
+            "document": "PDF",
+            "media": "Media",
+            "link": "Link"
+        },
+        "_resourcesItems": [
+        {
+        "_type": "link",
+        "title": "Infographics slides",
+        "description": "Introduction to information graphics and data visualisation slides",
+        "_link": "http://training.theodi.org/resources/Infographics.pdf"
+    },
+    {
+        "_type": "link",
+        "title": "Quick introduction to Plot.ly",
+        "description": "Discover the Plot.ly library",
+        "_link": "http://training.theodi.org/resources/QuickintroductiontoPlotly.pdf"
+    },
+    {
+        "_type": "link",
+        "title": "Mapping with CartoDB",
+        "description": "Mapping data with CartoDB",
+        "_link": "http://training.theodi.org/resources/MappingwithcartoDB.pdf"
+    },
+    {
+        "_type": "link",
+        "title": "CartoDB: Boundary file",
+        "description": "Download the boundary file required for the mapping data exercise.",
+        "_link": "http://training.theodi.org/resources/SingaporeElectoralBoundaries2011.kml"
+    },
+    {
+        "_type": "link",
+        "title": "CartoDB: Election results file",
+        "description": "Download the election results file required for the CartoDB exercise.",
+        "_link": "http://training.theodi.org/resources/SingaporeElectionWinners2011.csv"
+    },
+    {
+        "_type": "link",
+        "title": "CartoDB: Extension dataset",
+        "description": "Download the friendly buildings extension dataset for the CartoDB exercise.",
+        "_link": "http://training.theodi.org/resources/BFA2.kml"
+    },
+    ]}
+    {
         "title": "Resources",
         "description": "Click here to view resources for this course",
         "_filterButtons": {
