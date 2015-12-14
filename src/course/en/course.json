@@ -1,8 +1,8 @@
 {
     "_id": "course",
     "_type": "course",
-    "title": "Open Data Science: Accelerate",
-    "displayTitle": "Open Data Science: Accelerate",
+    "title": "Open Data Science: Big Data",
+    "displayTitle": "Open Data Science: Big Data",
     "_buttons": {
         "submit": "Submit",
         "reset": "Reset",
@@ -12,8 +12,8 @@
     "_latestTrackingId": 4,
     "_resources": [
     {
-        "title": "Course navigation",
-        "description": "Click here to browse the other sessions on this course.",
+        "title": "Session Slides and Exercises",
+        "description": "Click here to view the slides and exercises from the session",
         "_filterButtons": {
             "all": "All",
             "document": "PDF",
@@ -23,22 +23,70 @@
         "_resourcesItems": [
         {
         "_type": "link",
-        "title": "Introducing Open Data",
-        "description": "Session 1: Introducing Open Data",
-        "_link": "../session1/"
+        "title": "Big data slides",
+        "description": "Big data slides",
+        "_link": "/course/en/slides/slides.pdf"
     },
-            {
+    {
         "_type": "link",
-        "title": "Using open data",
-        "description": "Session 2: Data cleaning, enriching and visualisation",
-        "_link": "../session2/"
+        "title": "Crime stats exercise",
+        "description": "Crime stats exercise",
+        "_link": "/course/en/exercises/Socrata-BigData.pdf"
     },
-            {
+    {
         "_type": "link",
-        "title": "Machine learning",
-        "description": "Session 3: Machine learning for data scientists",
-        "_link": "../session3/"
-    }   
+        "title": "Big query exercise",
+        "description": "Big query exercise",
+        "_link": "/course/en/exercises/Big_data_in_the_cloud.pdf"
+    },
+    ]
+     },
+     {
+        "title": "Course resources",
+        "description": "References to resources covered in this course",
+        "_filterButtons": {
+            "all": "All",
+            "document": "PDF",
+            "media": "Media",
+            "link": "Link"
+        },
+        "_resourcesItems": [
+        {
+        "_type": "link",
+        "title": "City of Chicago crime data",
+        "description": "City of Chicago crime data (2001 to present)",
+        "_link": "https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2"
+    },
+    {
+        "_type": "link",
+        "title": "NASA open data portal",
+        "description": "NASA open data portal",
+        "_link": "https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2"
+    },
+    {
+        "_type": "link",
+        "title": "NOAA Nexrad data",
+        "description": "The Next Generation Weather Radar (NEXRAD) is a network of 160 high-resolution Doppler radar sites.",
+        "_link": "https://aws.amazon.com/noaa-big-data/nexrad/"
+    },
+    {
+        "_type": "link",
+        "title": "NOAA Nexrad data explorer",
+        "description": "Explore all the nexrad data back to 1991.",
+        "_link": "https://s3.amazonaws.com/noaa-nexrad-level2/index.html"
+    },
+    {
+        "_type": "link",
+        "title": "CSV dataset health check",
+        "description": "Find out the variety of a seeminly simple dataset.",
+        "_link": "http://theodi.github.io/csv-dataset-validator/"
+    },
+    {
+        "_type": "link",
+        "title": "UK Trade data",
+        "description": "Access the raw UK Trade data",
+        "_link": "https://www.uktradeinfo.com/Statistics/Pages/DataDownloads.aspx"
+    }
     ]
     },
     {
