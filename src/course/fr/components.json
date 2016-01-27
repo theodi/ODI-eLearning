@@ -46,10 +46,14 @@
         "title":"Naviguer le Web des données - en 2 minutes",
         "displayTitle": "Naviguer le Web des données - en 2 minutes",
         "body": "David Tarrant, formateur à l’ODI, présente le Web des données ouvertes et liées et examine comment les 5 étoiles du ‘Linked Open Data’ vous aident à naviguer le Web des données.",
-        "instruction": "",
+        "instruction": "Pour activer les sous-titres en français, veuillez cliquer sur le bouton marqué ‘cc’ en bas à droite de la vidéo puis sélectionner le français.",
         "_setCompletionOn":"ended",
         "_source": "https://player.vimeo.com/video/129197209",
-        "_width": {
+        "_media": {
+		"mp4": "course/fr/video/video.mp4",
+		"poster": "course/fr/video/placeholder.jpg"
+	},
+	"_width": {
             "_small" : 300,
             "_medium" : 500,
             "_large" : 905
@@ -515,7 +519,7 @@
         "_layout":"left",
         "title":"Surfer le Web des données ouvertes et liée",
         "displayTitle":"Surfer le Web des données ouvertes et liée",
-        "body":"<p>Le Web des données est une série de ressources de données étroitement liées qui peuvent être lues et comprises instantanément par les humains ou les machines.</p><p>En 1989 Sir Tim Berners-Lee a inventé le Web des documents et nous avons mis plus de 20 ans à comprendre comment l’utiliser. Il fait à présent partie intégrante de notre société.</p><p>En 2001, Tim a envisagé le Web des données ouvertes et liées et nous commençons petit à petit à réaliser de quelle façon cela va à nouveau révolutionner le Web.</p></p><p><a class='course_link' href='index.html'>Menu principal</a></p>",
+        "body":"<p>Le Web des données est une série de ressources de données étroitement liées qui peuvent être lues et comprises instantanément par les humains ou les machines.</p><p>En 1989 Sir Tim Berners-Lee a inventé le Web des documents et nous avons mis plus de 20 ans à comprendre comment l’utiliser. Il fait à présent partie intégrante de notre société.</p><p>En 2001, Tim a envisagé le Web des données ouvertes et liées et nous commençons petit à petit à réaliser de quelle façon cela va à nouveau révolutionner le Web.</p></p><p><a class='course_link' href='../'>Menu principal</a></p>",
         "_pageLevelProgress": {
           "_isEnabled": true
         }
