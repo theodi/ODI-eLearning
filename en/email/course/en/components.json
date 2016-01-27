@@ -1,0 +1,36 @@
+[
+    {
+        "_id":"c-01",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"intro-logo",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "",
+            "medium": "",
+            "small": ""
+        }
+    },
+    {
+        "_id":"c-02",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Welcome",
+        "displayTitle":"Welcome",
+        "body":"<p>Welcome to the Open Data Institute's e-learning programme. This programme has been designed to enable you to discover what open data is and how it is changing the lives of everyone on our planet.</p><p><b><em>Enter your email address to start learning:</em></b><div style='text-align: center';><input id='email' placeholder='email' type='email' style='margin: 10px;'></input><br/><button class='course_link' onClick='getEmail();'>Start Learning</button></div></p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": false
+        }
+    }
+]
