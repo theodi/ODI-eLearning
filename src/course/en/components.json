@@ -91,7 +91,7 @@
         "_layout":"left",
         "title":"What is open data?",
         "displayTitle":"What is open data?",
-        "body":"<p>Open data is <strong>data</strong> that <strong>anyone</strong> can <strong>access</strong>, <strong>use</strong> and <strong>share</strong>.</p><p>Open data becomes useable through being available in a common, machine-readable format.</p><p>Open data must be licensed. This licence must permit people to use the data in any way they want, including transforming, combining and sharing it with others, even commercially.</p>"
+        "body":"<p>Open data is data that <strong>anyone can access, use and share</strong>.</p><p>Open data becomes useable when made available in a common, machine-readable format.</p><p>Open data must be licensed. Its licence must permit people to use the data in any way they want, including transforming, combining and sharing it with others, even commercially.</p>"
     },
      {
         "_id": "c-25",
@@ -102,12 +102,12 @@
         "_component": "narrative",
         "title": "From raw material to new information and knowledge",
         "displayTitle": "From raw material to new information and knowledge",
-        "body": "Without data, we can’t build information.  And without information, there is no new knowledge.",
+        "body": "Without data we can’t build information, and without information there is no new knowledge.",
         "instruction": "<em class='desktop-instruction'>Click the forward arrow to see more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
         "_items": [
             {
                 "title": "Data",
-                "body": "<p>Data is the lowest level of raw material from which information and knowledge can be derived.</p><p>Think of data as those locations, images, descriptions, reviews and prices that form the basis of information that can help you plan a holiday, for example.</p>",
+                "body": "<p>Data is the raw material from which information and knowledge can be derived.</p><p>Think of data as those locations, images, descriptions, reviews and prices that form the basis of information that can help you plan a holiday, for example.</p>",
                 "_graphic": {
                     "src": "course/en/images/odi-2-narrative_large.jpg",
                     "alt": "Data in knowledge triangle",
@@ -120,7 +120,7 @@
             },
             {
                 "title": "Information",
-                "body": "<p>Data becomes information when it is given a context.</p><p>Following on from the previous example, locations, images, descriptions and prices can all be related to a tourist attraction.</p><p>It is the collection and presentation of the data that forms information.</p>",
+                "body": "<p>Data becomes information when it is given a context.</p><p>Following on from the previous example, locations, images, descriptions and prices can all help provide information related to a tourist attraction.</p><p>The collection and presentation of data helps to form information.</p>",
                 "_graphic": {
                     "src": "course/en/images/odi-3-narrative_large.jpg",
                     "alt": "Information in knowledge triangle",
@@ -133,7 +133,7 @@
             },
             {
                 "title": "Knowledge",
-                "body": "<p>Knowledge is what is derived from information, and personalised for your needs.</p><p>Building knowledge is a process of turning information into choices.</p><p>Building on the previous example, knowing that no one in your family likes theme parks will help you decide which places to avoid on holiday, and which would suit your family better.</p>",
+                "body": "<p>Knowledge is what is derived from information, and personalised for your needs.</p><p>Building knowledge is a process of turning information into choices.</p><p>Building on the previous example, knowing that no one in your family likes theme parks will help you to decide which places to avoid on holiday, and which would suit your family better.</p>",
                 "_graphic": {
                     "src": "course/en/images/odi-4-narrative_large.jpg",
                     "alt": "Knowledge in knowledge triangle",
@@ -182,12 +182,12 @@
         {
           "alt": "Limitations",
           "title": "Limitations",
-          "body": "<p>For data to be open, there should be no limitations that prevent any particular use</p><p>Any user should be free to use, modify, combine and share the data, even commercially</p>"
+          "body": "<p>For data to be open, it should have no limitations that prevent it from being used in any particular way</p><p>Anyone should be free to use, modify, combine and share the data, even commercially</p>"
         },
         {
           "alt": "Cost",
           "title": "Cost",
-          "body": "<p>Even though open data must be free to use, this does not mean that it must be free to access.</p><p>There is often a cost in creating, maintaining and publishing useable data.</p><p>Ideally, any fee for open data should be no more than the reasonable reproduction cost of the unit of data that is requested.</p><p>This reproduction cost tends to be negligible for many datasets.</p><p>Live data and big data can incur ongoing costs related to reliable service provision.</p>"
+          "body": "<p>Open data must be free to use, but this does not mean that it must be free to access.</p><p>There is often a cost to creating, maintaining and publishing useable data.</p><p>Ideally, any fee for accessing open data should be no more than the reasonable reproduction cost of the unit of data that is requested.</p><p>This reproduction cost tends to be negligible for many datasets.</p><p>Live data and big data can incur ongoing costs related to reliable service provision.</p>"
         },
         {
           "alt": "Reuse",
@@ -208,34 +208,34 @@
         "_component": "narrative",
         "title": "Why do we need open data?",
         "displayTitle": "Why do we need open data?",
-        "body": "Open data has the power to bring diverse benefits to governments, businesses and civil society.",
+        "body": "Open data has the power to help bring diverse benefits to governments, businesses and civil society.",
         "instruction": "<em class='desktop-instruction'>Click the forward arrow to see more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
         "_items": [
             {
-                "title": "Transform government",
-                "body": "<p>Open data helps make governments more transparent. It can provide the evidence that public money is being well spent and policies are being implemented.</p><p>For example, according to leading open government activist David Eaves, open data allowed citizens in Canada to save the government $3.2 billion in fraudulent charitable donations in 2010.<br /><a href='http://eaves.ca/2010/04/14/case-study-open-data-and-the-public-purse/' target='_blank'>Take me to David Eaves article</a></p><p>In another example, according to Follow the Money, in Nigeria, the same process is used to ensure that public funds are spent implementing the policies promised to the people.<br /><a href='http://followthemoneyng.org/' target='_blank'>Take me to Follow the Money</a></p>",
+                "title": "Transforming government",
+                "body": "<p>Open data helps make governments more transparent. It can provide the evidence that public money is being well spent and policies are being implemented.</p><p>For example, according to leading open government activist David Eaves, open data allowed citizens in Canada to save the government $3.2bn in fraudulent charitable donations in 2010.<br /><a href='http://eaves.ca/2010/04/14/case-study-open-data-and-the-public-purse/' target='_blank'>Take me to David Eaves' article</a></p><p>In another example, according to Follow the Money in Nigeria, the same process is used to ensure that public funds are spent on implementing the policies promised to the people.<br /><a href='http://followthemoneyng.org/' target='_blank'>Take me to Follow the Money</a></p>",
                 "_graphic": {
                     "src": "course/en/images/odi-6-narrative_large.jpg",
-                    "alt": "Transform government",
-                    "title": "Transform government",
+                    "alt": "Transforming government",
+                    "title": "Transforming government",
                     "*source":"http://www.shutterstock.com/pic.mhtml?id=265940657&src=lb-35924366",
                     "*credit":"hxdyl",
                     "*license":"Shutterstock Standard License"
                 },
-                "strapline": "Transform government"
+                "strapline": "Transforming government"
             },
             {
-                "title": "Build new business opportunities",
-                "body": "<p>Open data is opening up new opportunities for businesses to connect to customers.</p><p>Transport for London has released open data that developers have used to build over 800 transport apps.<br /><a href='http://www.tfl.gov.uk/' target='_blank'>Take me to Transport for London</a></p><p>Thomson Reuters is using open data to connect better with existing customers in order to provide better services.<br /><a href='http://site.thomsonreuters.com/site/data-identifiers/' target='_blank'>Take me to Thomson Reuters</a></p><p>Startups on the ODI Startup programme now have a total of over 70 employees and a total income of over £4m.<br /><a href='http://theodi.org/odis-second-year-annual-report' target='_blank'>Take me to The ODI annual report</a></p>",
+                "title": "Building new business opportunities",
+                "body": "<p>Open data is opening up new opportunities for businesses to connect with customers.</p><p>Transport for London has released open data that developers have used to build over 800 transport apps.<br /><a href='http://www.tfl.gov.uk/' target='_blank'>Take me to Transport for London</a></p><p>Thomson Reuters is using open data to connect with existing customers in order to provide better services.<br /><a href='http://site.thomsonreuters.com/site/data-identifiers/' target='_blank'>Take me to Thomson Reuters</a></p><p>Startups in the ODI Startup programme now have a total of over 70 employees and a total income of over £4m.<br /><a href='http://theodi.org/odis-second-year-annual-report' target='_blank'>Take me to The ODI annual report</a></p>",
                 "_graphic": {
                     "src": "course/en/images/odi-7-narrative_large.jpg",
-                    "alt": "Build new business opportunities",
-                    "title": "Build new business opportunities",
+                    "alt": "Building new business opportunities",
+                    "title": "Building new business opportunities",
                     "*source":"http://www.shutterstock.com/pic.mhtml?id=149924576&src=lb-35924366",
                     "*credit":"Sergey Nivens",
                     "*license":"Shutterstock Standard License"
                 },
-                "strapline": "Build new business opportunities"
+                "strapline": "Building new business opportunities"
             },
             {
                 "title": "Protect our planet",
