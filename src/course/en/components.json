@@ -255,7 +255,7 @@
         "_isEnabled": true
         }
     },
-            {
+    {
         "_id":"c-40",
         "_parentId":"b-40",
         "_type":"component",
@@ -269,9 +269,9 @@
         "_graphic": {
             "alt": "",
             "title": "",
-            "large": "course/en/images/burst-white.png",
-            "medium": "course/en/images/burst-white.png",
-            "small": "course/en/images/burst-white.png"
+            "large": "course/en/images/burst-indigo.png",
+            "medium": "course/en/images/burst-indigo.png",
+            "small": "course/en/images/burst-indigo.png"
         }
     },
     {
@@ -281,409 +281,298 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Challenges of Open Data and Future Developments",
-        "displayTitle":"Challenges of Open Data and Future Developments",
-        "body":"<p></p>",
+        "title":"Are you ready for the benefits of open data publishing?",
+        "displayTitle":"Are you ready for the benefits of open data publishing?",
+        "body":"<p>Can you recall these four things about the benefits of publishing open data for local authorities?</p>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
         }
     },
     {
-        "_id":"c-40",
-        "_parentId":"b-40",
+        "_id":"c-42",
+        "_parentId":"b-42",
         "_type":"component",
         "_component":"graphic",
-        "_classes":"",
+        "_classes":"illustration",
         "_layout":"right",
         "_graphic": {
-            "alt": "Unlocking data from the web",
-            "title": "Unlocking data from the web",
-            "large": "course/en/images/odi-50.jpg",
-            "medium": "course/en/images/odi-50.jpg",
-            "small": "course/en/images/odi-50.jpg",
-            "*source": "http://www.shutterstock.com/pic-144137602",
-            "*credit": "David Arts",
-            "*license": "Shutterstock standard license"
+            "alt": "Cases for publishing open data",
+            "title": "Cases for publishing open data",
+            "large": "course/en/images/odi-7.jpg",
+            "medium": "course/en/images/odi-7.jpg",
+            "small": "course/en/images/odi-7.jpg",
+            "*source":"http://www.shutterstock.com/pic-54795127.html",
+            "*credit":"robodread",
+            "*license":"Shutterstock Standard License"
         }
     },
+    
     {
-      "_id":"c-41",
-      "_parentId":"b-40",
-      "_type":"component",
-      "_component":"accordion",
-      "_classes":"",
-      "_layout":"left",
-      "title": "Challenges of Open Data",
-      "displayTitle": "Challenges of Open Data",
-      "body": "<p>Open data is still a developing field and faces a number of key challenges which need to be addressed. The following section outlines some of the key areas</p>",
-      "instruction": "<em>Click below to explore each of the tools to unlock data that is <b>on the web</b>.</em>",
-      "_items": [
-        {
-          "alt": "Inconsistent definitions",
-          "title": "Inconsistent definitions",
-          "body": "<p>Like any new field, open data needs a strong definition to give clarity around what it is and what you can do with it. While many definitions of open data currently exist, promoted by different organisations and meeting different needs, there is no consistency about the terms used in these definitions.</p><p>A recent study by GovLab has highlighted the number of different terms used when defining open data in a <a href='http://images.thegovlab.org/wordpress/wp-content/uploads/2014/01/open-data-table.pdf' target='_blank'>simple chart that illustrates the need for greater consistency</a>."
-        },
-        {
-          "alt": "Lack of proper licences",
-          "title": "Lack of proper licences",
-          "body": "<p>The majority of datasets described as 'open' still do not have an appropriate licence to protect the ability of everyone to access, use and share them. As of 2015, only around 46% of data in open data catalogues across the European Union is truly openly licensed.</p><p>In the EU, copyright and database laws are complex. While data might be intended to be open, a licence provides legal clarity for users.</p><p><a href='http://www.opendatamonitor.eu/frontend/web/index.php?r=datacatalogue%2Findex' target='_blank'>The OpenDataMonitor platform</a> provides information and statistics on European open data catalogues.</p>"
-        },
-        {
-          "alt": "Failure to update consistently",
-          "title": "Failure to update consistently",
-          "body": "<p>Simply publishing a dataset is not enough to ensure reuse and relaise the benefits of open data. Datasets also need to be updated at regular intervals to ensure they remain relevant and up-to-date. However, the vast majority of datasets are not updated consistently as shown by <a href='https://thomaslevine.com/!/data-about-open-data-talk-december-2-2013/' target='_blank'>the graphics in this study by Thomas Levine</a>.</p>"
-        },
-        {
-          "alt": "Confusion between Open, Big and Personal Data",
-          "title": "Confusion between Open, Big and Personal Data",
-          "body": "<p>The open data doamin is closely related to the concepts of 'big data' and 'personal data', leading to the terms sometimes being used incorrectly to describe each other. While open data describes what you can do with a dataset (namely access, use and share it), big data is a vendor-driven term used to describe the size of a dataset. finally personal data refers to any data which concerns individuals. It is possible for big data to be open, for personal data to be big and for open data to be personal but all three terms refer to very different things about a dataset. Using these terms correctly and understanding when data is open, big or personal is a key challenge to the understanding of the open data field.</p>"
-        }
-      ],
-      "_pageLevelProgress": {
-        "_isEnabled": true
-      }
-    },
-    {
-        "_id":"c-50",
-        "_parentId":"b-50",
+        "_id":"c-43",
+        "_parentId":"b-42",
         "_type":"component",
-        "_component":"graphic",
+        "_component":"mcq",
         "_classes":"",
         "_layout":"left",
-        "_graphic": {
-            "alt": "Unlocking data in the web",
-            "title": "Unlocking data in the web",
-            "large": "course/en/images/odi-60.jpg",
-            "medium": "course/en/images/odi-60.jpg",
-            "small": "course/en/images/odi-60.jpg",
-            "*source": "http://www.shutterstock.com/pic-231672367",
-            "*credit": "McIek",
-            "*license": "Shutterstock standard license"
-        }
-    },
-    {
-      "_id":"c-51",
-      "_parentId":"b-50",
-      "_type":"component",
-      "_component":"accordion",
-      "_classes":"",
-      "_layout":"right",
-      "title": "Future Developments in Open Data",
-      "displayTitle": "Future Developments in Open Data",
-      "body": "<p>When speaking about open data, it is important to understand the future developments that are emerging at a gloabl level. For this reason, the Open Data Barometer was created to monitor the developments in national open data programmes and present the results as a visual ranking. The Barometer, which can be found here, measures 3 aspects of an open data programme, discussed in greater detail below.</p>",
-      "instruction": "<em>Click below to explore each of the tools to unlock data from <b>in the web</b>.</em>",
-      "_items": [
-        {
-          "alt": "Open Data Readiness",
-          "title": "Open Data Readiness",
-          "body": "<p>To what extent is an organisation or country ready to support an open data initiative?</p><ul>The following are important indicators of readiness:<li>Open licences supported</li><li>Policies and procedures established</li><li>Investments made</li><li>Educational support available</li><li>Wider engagement undertaken</li></ul>"
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Cases for publishing open data",
+        "displayTitle": "Cases for publishing open data",
+        "body": "<p>Which of the following is NOT a case for a local authority to publish open data</p>",
+        "instruction": "<em>Select an option, then click 'Submit'.</em>",
+        "_items": [
+            {
+                "text": "improved services",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "stronger leadership",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "transparency",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "innovation",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "economic benefit",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>That’s right!</h5><p>Publishing open data can support improved service delivery, transparency, innovation economies and economic benefits to the local area</p>",
+            "_incorrect": {
+                "notFinal": "h5>Are you sure about that?</h5><p>That’s right!</h5><p>Publishing open data can support improved service delivery, transparency, innovation economies and economic benefits to the local area</p>",
+                "final": "<h5>Are you sure about that?</h5><p>That’s right!</h5><p>Publishing open data can support improved service delivery, transparency, innovation economies and economic benefits to the local area</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Are you sure about that?</h5><p>That’s right!</h5><p>Publishing open data can support improved service delivery, transparency, innovation economies and economic benefits to the local area</p>",
+                "final": "<h5>Are you sure about that?</h5><p>That’s right!</h5><p>Publishing open data can support improved service delivery, transparency, innovation economies and economic benefits to the local area</p>"
+          }
         },
-        {
-          "alt": "Open Data Implementation",
-          "title": "Open Data Implementation",
-          "body": "<p>Data is now as important to our national infrastructure as roads or internet access. For public bodies and governments, there are certain datasets that should be open as a way to support innovation, generate value and grow the economy.</p><p>Commercial organisations should also consider which datasets are most useful to help enhance their business and find new market opportunities.</p>"
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
         },
-        {
-          "alt": "Open Data Impact",
-          "title": "Open Data Impact",
-          "body": "<p>What are the tangible, real world benefits of the open data for its users?</p><p>Without evidence of impact, communities are less likely to grow around the data and innovation can be less widespread. The following are important indicators of impact:</p><ul><li>Increasing efficiency and transparency of government</li><li>Economic growth driven by open data</li><li>Social and environmental benefits</li></ul>"
-        }
-      ],
-      "_pageLevelProgress": {
-        "_isEnabled": true
-      }
-    },
-     {
-        "_id":"c-60",
-        "_parentId":"b-60",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"right",
-        "title":"",
-        "displayTitle":"",
-        "body":"",
-        "instruction":"",
-        "_graphic": {
-            "alt": "Network data structure",
-            "title": "Network data structure",
-            "large": "course/en/images/odi-40.jpg",
-            "medium": "course/en/images/odi-40.jpg",
-            "small": "course/en/images/odi-40.jpg",
-            "*source": "http://www.shutterstock.com/pic.mhtml?id=262874696&src=id",
-            "*credit": "benjaminec",
-            "*license": "Shutterstock standard license"
-        }
-    },
-    {
-        "_id":"c-61",
-        "_parentId":"b-60",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"",
-        "_layout":"left",
-        "title":"Discovering Open Data",
-        "displayTitle":"Discovering Open Data",
-        "body":"<p>The best way to apply your new experience of the open data field is to discover some open data on your own.</p><p>To start this process, there is an interactive exercise below. Start by access in the <a href='https://data.gov.uk/dataset/financial-transactions-data-fco' target='_blank'>Foreign and Commonwealth Office's Spend over £25000 dataset</a>.</p><p>Once you have dataset open, <a href='course/en/exercises/Discovering_Open_Data_Exercise.pdf' target='_blank'>explore the different aspects of the data with this exercise.</a></p>",
-        "instruction":"",
         "_pageLevelProgress": {
-            "_isEnabled": true
-        }
+        "_isEnabled": true
+      }
     },
-{
-        "_id":"c-65",
-        "_parentId":"b-65",
+    {
+        "_id":"c-44",
+        "_parentId":"b-44",
         "_type":"component",
         "_component":"graphic",
-        "_classes":"",
-        "_layout":"right",
-        "title":"",
-        "displayTitle":"",
-        "body":"",
-        "instruction":"",
+        "_classes":"illustration",
+        "_layout":"left",
         "_graphic": {
-            "alt": "",
+            "alt": "Legal considerations",
             "title": "",
-            "large": "course/en/images/burst-white.png",
-            "medium": "course/en/images/burst-white.png",
-            "small": "course/en/images/burst-white.png"
-        }
-    },
-    {
-        "_id":"c-66",
-        "_parentId":"b-65",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"",
-        "_layout":"left",
-        "title":"Licensing and Best Practices",
-        "displayTitle":"Licensing and Best Practices",
-        "body":"<p></p>",
-        "instruction":"",
-        "_pageLevelProgress": {
-            "_isEnabled": true
-        }
-    },
-     {
-        "_id":"c-71",
-        "_parentId":"b-70",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"left",
-        "_graphic": {
-            "alt": "Why license open data?",
-            "title": "Why license open data?",
-            "large": "course/en/images/odi-1.jpg",
-            "medium": "course/en/images/odi-1.jpg",
-            "small": "course/en/images/odi-1.jpg",
-            "*source": "http://www.shutterstock.com/pic-270451631.html",
-            "*credit": "Oleksiy Mark",
-            "*license": "Shutterstock Standard License"
-        }
-    },
-    {
-        "_id":"c-72",
-        "_parentId":"b-70",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"",
-        "_layout":"right",
-        "title":"Why license open data?",
-        "displayTitle":"Why license open data?",
-        "body":"<p>Without a licence, data is not truly open.</p><p>A licence tells anyone that they can access, use and share your data.</p><p>Unless you have a licence, data may be ‘publicly available’, but users will not have permission to access, use and share it under copyright or database laws.</p>"
-    },
-{
-        "_id":"c-80",
-        "_parentId":"b-80",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"right",
-        "_graphic": {
-            "alt": "Types of licences",
-            "title": "Types of licences",
             "large": "course/en/images/odi-8.jpg",
             "medium": "course/en/images/odi-8.jpg",
             "small": "course/en/images/odi-8.jpg",
-            "*source":"http://www.shutterstock.com/pic-278179001.html",
-            "*credit":"Eugene Sergeev",
+            "*source":"http://www.shutterstock.com/pic-102447179.html",
+            "*credit":"hoperan",
             "*license":"Shutterstock Standard License"
         }
     },
     {
-      "_id":"c-81",
-      "_parentId":"b-80",
-      "_type":"component",
-      "_component":"accordion",
-      "_classes":"",
-      "_layout":"left",
-      "title": "Types of licences",
-      "displayTitle": "Types of licences",
-      "body": "<p>The simpler the licence, the better!</p><p>There are lots of different licences. To maximise reuse, try to adopt a licence standard that is already widely used.</p><p><a href='https://theodi.org/guides/reusers-guide-open-data-licensing' target='_blank'>Take me to a guide on licensing</a></p>",
-      "instruction": "<em>Click the headings to explore further.</em>",
-      "_items": [
-        {
-          "alt": "Creative Commons licences",
-          "title": "Creative Commons licences",
-          "body": "<p>Creative Commons licences are widely used for open content. Version 4.0 explicitly considers data licensing.</p><p>There are three Creative Commons versions of an open licence:</p><ul><li><strong>Public domain: (CC0)</strong></li><li><strong>Attribution: (CC-BY v4.0)</strong></li><li><strong>Attribution & share-alike: (CC-BY-SA v4.0)</strong></li></ul><p>The public domain and attribution licences give most flexibility in the use of data while a share-alike licence may limit the commercial use of the data.<br /><a href='https://creativecommons.org/publicdomain/zero/1.0/' target='_blank'>Show me a Public Domain licence</a><br><a href='https://creativecommons.org/licenses/by/4.0/' target='_blank'>Show me an Attribution licence</a><br><a href='https://creativecommons.org/licenses/by-sa/4.0/' target='_blank'>Show me an Attribution & share-alike licence</a></p><p>You can choose a licence that works for you at the Creative Commons website:<br><a href='https://creativecommons.org/choose/' target='_blank'>Show me how to make my own Creative Commons licence</a></p>"
+        "_id":"c-45",
+        "_parentId":"b-44",
+        "_type":"component",
+        "_component":"mcq",
+        "_classes":"",
+        "_layout":"right",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Cost savings from open data",
+        "displayTitle": "Cost savings from open data",
+        "body": "<p>Which of the case studies below is NOT a real example of cost savings from open data?</p>",
+        "instruction": "<em>Select an option, then click 'Submit'.</em>",
+        "_items": [
+            {
+                "text": "Windsor & Maidenhead save 16% on energy consumption in their buildings",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Carisle save up to £15000 per year on business rates FoI request",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Perthshire increase bus service effiency by 24%",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>That’s right!</h5><p>Among the best local authority case studies of cost savings in open data are Windsor & Maidenhead's 16% energy reduction and Carlisle's saving on FoI from business rates.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Are you sure about that?</h5><p>Among the best local authority case studies of cost savings in open data are Windsor & Maidenhead's 16% energy reduction and Carlisle's saving on FoI from business rates.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>Among the best local authority case studies of cost savings in open data are Windsor & Maidenhead's 16% energy reduction and Carlisle's saving on FoI from business rates.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Are you sure about that?</h5><p>Among the best local authority case studies of cost savings in open data are Windsor & Maidenhead's 16% energy reduction and Carlisle's saving on FoI from business rates.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>Among the best local authority case studies of cost savings in open data are Windsor & Maidenhead's 16% energy reduction and Carlisle's saving on FoI from business rates.</p>"
+          }
         },
-        {
-          "alt": "Bespoke/Custom-made licences",
-          "title": "Bespoke/Custom-made licences",
-          "body": "<p>A bespoke or custom-made licence is a creation of the data publisher which introduces specific conditions with which the user must comply. Bespoke or custom-made licences can be written by the publisher or adapted from a standard licence through the addition of new conditions and/or the modification of existing ones.</p><p>Bespoke and custom-made licences can increase complexity for users of open data.</p><p>They may introduce specific conditions that limit usage, restrict data integration and, in some cases, are difficult for users to comply with.</p>"
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
         },
-        {
-          "alt": "Open government licences",
-          "title": "Open government licences",
-          "body": "<p>Some publishers have chosen to develop their own licences.</p><p>The best examples are:</p><ul><li>short</li><li>compatible with widely used licences</li><li>easy to comply with</li></ul><p>A good example of a clear open license has been created by the French government.<br /><a href='http://wiki.data.gouv.fr/wiki/Licence_Ouverte_/_Open_Licence' target='_blank'>Take me to the French Government open licence</a></p><p>The UK Government has a good example of an open licence developed in this way that is used by UK Government departments:<br /><a href='http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/' target='_blank'>Take me to the UK Government open licence</a></p>"
-        }
-      ],
-      "_pageLevelProgress": {
+        "_pageLevelProgress": {
         "_isEnabled": true
       }
     },
     {
-        "_id":"c-90",
-        "_parentId":"b-90",
+        "_id":"c-46",
+        "_parentId":"b-46",
         "_type":"component",
         "_component":"graphic",
-        "_classes":"",
-        "_layout":"left",
+        "_classes":"illustration",
+        "_layout":"right",
         "_graphic": {
-            "alt": "Why license open data?",
-            "title": "Why license open data?",
-            "large": "course/en/images/odi-100.jpg",
-            "medium": "course/en/images/odi-100.jpg",
-            "small": "course/en/images/odi-100.jpg",
-            "*source": "http://www.shutterstock.com/pic-270451631.html",
-            "*credit": "Oleksiy Mark",
-            "*license": "Shutterstock Standard License"
+            "alt": "Technical considerations",
+            "title": "",
+            "large": "course/en/images/odi-9.jpg",
+            "medium": "course/en/images/odi-9.jpg",
+            "small": "course/en/images/odi-9.jpg",
+            "*source":"http://www.shutterstock.com/pic-154744388.html",
+            "*credit":"Oleksiy Mark",
+            "*license":"Shutterstock Standard License"
         }
     },
     {
-        "_id":"c-91",
-        "_parentId":"b-90",
+        "_id":"c-47",
+        "_parentId":"b-46",
         "_type":"component",
-        "_component":"text",
+        "_component":"mcq",
         "_classes":"",
-        "_layout":"right",
-        "title":"Recognising Open Licences",
-        "displayTitle":"Recognising Open Licences",
-        "body":"<p>When discovering data online, it is important to be able to check the licence to understadn whether the data is open and if so, under what conditions can you access, use and share it</p><p>Take a look at each of the following licences and try to determine whether they are open licences</p><ul><li><a href='https://twitter.com/tos' target='_blank'>Twitter Terms of Use</a></li><li><a href='https://opencorporates.com/info/licence' target='_blank'>Open Corporates</a></li><li><a href='http://data.gov.sg/Metadata/OneMapMetadata.aspx?id=DENGUE_CLUSTER&t=SPATIAL' target='_blank'>data.gov.sg</a></li><li><a href='http://www.metoffice.gov.uk/datapoint/terms-conditions' target='_blank'>Met Office</a></li><li><a href='https://www.flickr.com/search/?q=cat' target='_blank'>Flickr</a></li></ul>"
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Support growing economies",
+        "displayTitle": "Support growing economies",
+        "body": "<p>Leeds Data Mill is supporting companies creating new services in a range of areas including...</p>",
+        "instruction": "<em>Select an option, then click 'Submit'.</em>",
+        "_items": [
+            {
+                "text": "Tourism, waste management and schools",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "Water management, elections and street lighting",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Phone services, drainage and trains",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>That’s right!</h5><p>Among Leeds Data Mill's 250+ registered users are companies working in tourism, waste management and schools.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Are you sure about that?</h5><p>Among Leeds Data Mill's 250+ registered users are companies working in tourism, waste management and schools.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>Among Leeds Data Mill's 250+ registered users are companies working in tourism, waste management and schools.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Are you sure about that?</h5><p>Among Leeds Data Mill's 250+ registered users are companies working in tourism, waste management and schools.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>Among Leeds Data Mill's 250+ registered users are companies working in tourism, waste management and schools.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
     },
-{
-        "_id":"c-100",
-        "_parentId":"b-100",
+    {
+        "_id":"c-48",
+        "_parentId":"b-48",
         "_type":"component",
         "_component":"graphic",
-        "_classes":"",
-        "_layout":"right",
+        "_classes":"illustration",
+        "_layout":"left",
         "_graphic": {
             "alt": "Marques of quality",
-            "title": "Marques of quality",
-            "large": "course/en/images/odi-6.jpg",
-            "medium": "course/en/images/odi-6.jpg",
-            "small": "course/en/images/odi-6.jpg",
+            "title": "",
+            "large": "course/en/images/odi-10.jpg",
+            "medium": "course/en/images/odi-10.jpg",
+            "small": "course/en/images/odi-10.jpg",
             "*source":"http://www.shutterstock.com/pic-254316427.html",
             "*credit":"tostphoto",
             "*license":"Shutterstock Standard License"
         }
     },
     {
-      "_id":"c-101",
-      "_parentId":"b-100",
-      "_type":"component",
-      "_component":"accordion",
-      "_classes":"",
-      "_layout":"left",
-      "title": "Best Practices",
-      "displayTitle": "Best practices",
-      "body": "<p>Best practice standards provide users with confidence about the quality and usability of open data.</p><p>There are 2 key indicators of open data quality:</p>",
-      "instruction": "<em>Click the headings to explore further.</em>",
-      "_items": [
-        {
-          "alt": "5 Stars",
-          "title": "5 Stars",
-          "body": "<p>The 5 Stars of linked open data include the basic legal definition and technical excellence of the published data.</p><p>The 5 Stars were developed by inventor of the Web, Sir Tim Berners-Lee in 2001. The 5 Stars make recommendations on the format and structure of the data.</p><p>You can learn more about the 5 Stars in modules 10 and 13 of this course.</p>"
+        "_id":"c-49",
+        "_parentId":"b-48",
+        "_type":"component",
+        "_component":"mcq",
+        "_classes":"",
+        "_layout":"right",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Bristol case study",
+        "displayTitle": "Bristol case study",
+        "body": "<p>What new post did Bristol council create to promote the use of its open data?</p>",
+        "instruction": "<em>Select an option, then click 'Submit'.</em>",
+        "_items": [
+            {
+                "text": "Chief data impact scientist",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Open data user specialist",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Intelligent council programme manager",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>That’s right!</h5><p>Bristol council has created the post of 'intelligent council programme manager' to make the best use of open data and ensure that the public, private and voluntary sectors can make the most of information</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Are you sure about that?</h5><p>Bristol council has created the post of 'intelligent council programme manager' to make the best use of open data and ensure that the public, private and voluntary sectors can make the most of information</p>",
+                "final": "<h5>Are you sure about that?</h5><p>Bristol council has created the post of 'intelligent council programme manager' to make the best use of open data and ensure that the public, private and voluntary sectors can make the most of information</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Are you sure about that?</h5><p>Bristol council has created the post of 'intelligent council programme manager' to make the best use of open data and ensure that the public, private and voluntary sectors can make the most of information</p>",
+                "final": "<h5>Are you sure about that?</h5><p>Bristol council has created the post of 'intelligent council programme manager' to make the best use of open data and ensure that the public, private and voluntary sectors can make the most of information</p>"
+          }
         },
-        {
-          "alt": "ODI Open Data Certificates",
-          "title": "ODI Open Data Certificates",
-          "body": "<p>The Open Data Institute's Open Data Certificates are practical, social, legal and technical guidelines to consider when publishing or using open data.</p><p>The certificates act as a self-assessment questionnaire for publishers, and in some cases users, to assess and benchmark the full usability of a dataset.<br /><a href='https://certificates.theodi.org/' target='_blank'>Take me to the ODI Open Data Certificates site</a></p>"
-        }
-      ],
-      "_pageLevelProgress": {
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
         "_isEnabled": true
       }
     },
     {
-        "_id":"c-110",
-        "_parentId":"b-110",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"right",
-        "title":"",
-        "displayTitle":"",
-        "body":"",
-        "instruction":"",
-        "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "course/en/images/burst-green.png",
-            "medium": "course/en/images/burst-green.png",
-            "small": "course/en/images/burst-green.png"
-        }
-    },
-    {
-        "_id":"c-111",
-        "_parentId":"b-110",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"",
-        "_layout":"left",
-        "title":"Cleaning Open Data",
-        "displayTitle":"Cleaning Open Data",
-        "body":"<p></p>",
-        "instruction":"",
-        "_pageLevelProgress": {
-            "_isEnabled": true
-        }
-    },
-    {
-        "_id":"c-120",
-        "_parentId":"b-120",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"left",
-        "_graphic": {
-            "alt": "Why license open data?",
-            "title": "Why license open data?",
-            "large": "course/en/images/odi-010.jpg",
-            "medium": "course/en/images/odi-010.jpg",
-            "small": "course/en/images/odi-010.jpg",
-            "*source": "http://www.shutterstock.com/pic-270451631.html",
-            "*credit": "Oleksiy Mark",
-            "*license": "Shutterstock Standard License"
-        }
-    },
-    {
-        "_id":"c-121",
-        "_parentId":"b-120",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"",
-        "_layout":"right",
-        "title":"Getting started with Data Cleaning",
-        "displayTitle":"Getting started with Data Cleaning",
-        "body":"<p><p>Data cleaning is essential to ensure that when the data is used, the right conclusions are made.</p><p>Often errors are not even noticed by data publishers because the data can change over many years. In other cases, errors can be the result of human mistakes in data entry, like mistyping or incorrect abbreviations.</p><p>Be aware that cleaning may take longer than you think. A careful cleaning process will, however, save substantial time in the long-run.</p><p>Follow our data cleaning exercise to get started with Open Refine and discover how easy it is for yourself.</p><p><a class='course_link' href='http://training.theodi.org/resources/Cleaning_Exercise.pdf' target='_blank'>Get started with data cleaning in Open Refine</a></p><p>Below you can find the datasets used in the OpenRefine exercise</p><ul><li><a href='course/en/exercises/dataset1.xls' target='_blank'>Dataset 1: Louisiana Secretary of State Officials</a></li><li><a href='course/en/exercises/dataset2.csv' target='_blank'>Dataset 2: Projects Dataset</a></li><li><a href='course/en/exercises/dataset3.csv' target='_blank'>Dataset 3: UK GP Earnings</a></li></ul>"
-    },
-    {
-        "_id":"c-130",
-        "_parentId":"b-130",
+        "_id":"c-50",
+        "_parentId":"b-50",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
@@ -700,30 +589,30 @@
         }
     },
     {
-        "_id":"c-131",
-        "_parentId":"b-130",
+        "_id":"c-51",
+        "_parentId":"b-50",
         "_type":"component",
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Open Data in a Day",
-        "displayTitle":"Open Data in a Day",
-        "body":"<p>Open data is <strong>data</strong> that <strong>anyone</strong> can <strong>access</strong>, <strong>use</strong> and <strong>share</strong>.</p><p>Open data is a raw material for the digital age but, unlike coal, timber or diamonds, it can be used by anyone and everyone at the same time.</p><p>Any restrictions imposed on the use of open data will limit its use in creating new value.</p><p>Open data can bring diverse benefits to governments, businesses and individuals. It has the power to improve services, grow economies and save our planet.</p><p>Open data needs to be properly licensed in order to ensure the broadest possible use. The data should also try to follow as cloesly as possible the best practices available to support publication and reuse</p><p>Want to take your open data journey further? The ODI offers a full range of courses to support those working with open data at our <a href='http://theodi.org/courses' target='courses page'></a></p>",
+        "title":"The benefits of open data publication",
+        "displayTitle":"The benefits of open data publication",
+        "body":"<p>Local authorities can access a range of benefits from publishing open data including cost savings on essential services, creation of local business hubs and better relationships with the public. In our next module we will examine the importance of publishing in consistent ways and how the LGA standards can make publishing simple and maximise results</p><p><a class='course_link' href='../LGA-2/'>Next module</a></p><p><a class='course_link' href='../'>Main Menu</a></p>",
         "_pageLevelProgress": {
           "_isEnabled": true
         }
     },
     {
-       "_id":"c-133",
-       "_parentId":"b-130",
+       "_id":"c-52",
+       "_parentId":"b-50",
        "_type":"component",
        "_component":"text",
        "_classes":"separator",
        "_layout":"full"
     },
     {
-        "_id":"c-134",
-        "_parentId":"b-130",
+        "_id":"c-53",
+        "_parentId":"b-50",
         "_type":"component",
         "_component":"graphic",
         "_classes":"footer-logo",
@@ -740,8 +629,8 @@
         }
     },
     {
-        "_id":"c-135",
-        "_parentId":"b-130",
+        "_id":"c-54",
+        "_parentId":"b-50",
         "_type":"component",
         "_component":"text",
         "_classes":"social-buttons",
