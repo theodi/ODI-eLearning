@@ -24,9 +24,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Why should my authority publish open data?",
-        "displayTitle":"Why should my authority publish open data?",
-        "body":"<p>This introductory module examines the benefits of publishing open data for local authorities. Below we will learn about the principles behind open data release, the benefits of publishing and successful case studies of impact in local authorities.</p>",
+        "title":"How can I take the stress out of open data publication?",
+        "displayTitle":"How can I take the stress out of open data publication?",
+        "body":"<p>In our first module we explored the benefits of publishing open data for local authorities. In this module we look at one of the biggest barriers to realising those benefits - inconsistent publishing approaches. Many authorities are unaware of the support available to them in publishing consistent, usable data.</p><p>Below you can learn about the benefits of following consistent publishing approaches, access the best resources to support you and understand a simple assessment checklist that can save hours of staff time in every release.</p>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
@@ -40,52 +40,94 @@
         "_classes":"",
         "_layout":"right",
         "_graphic": {
-            "alt": "Course Overview",
-            "title": "Course Overview",
-            "large": "course/en/images/summary-icon.png",
-            "medium": "course/en/images/summary-icon.png",
-            "small": "course/en/images/summary-icon.png",
-            "*source":"http://about.esd.org.uk/",
-            "*credit":"Local Government Association",
-            "*license":"All rights reserved"
+            "alt": "What is open data?",
+            "title": "What is open data?",
+            "large": "course/en/images/odi-1-text-image_large.jpg",
+            "medium": "course/en/images/odi-1-text-image_large.jpg",
+            "small": "course/en/images/odi-1-text-image_large.jpg",
+            "*source":"http://www.shutterstock.com/pic.mhtml?id=179384507&src=lb-35924366",
+            "*credit":"leromin",
+            "*license":"Shutterstock Standard License"
         }
     },
     {
-      "_id":"c-21",
-      "_parentId":"b-20",
-      "_type":"component",
-      "_component":"accordion",
-      "_classes":"",
-      "_layout":"left",
-      "title": "The case for publishing open data",
-      "displayTitle": "The principle behind publishing open data",
-      "body": "<p>Open data is <strong>data</strong> that <strong>anyone</strong> can <strong>access</strong>, <strong>use</strong> and <strong>share</strong>.</p><p>Local government has been releasing open data for years on everything from election results to the locations of public toilets. But why should authorities publish open data and what are the best arguements to persuade colleages?</p>",
-      "instruction": "<em>Click on each of the boxes below to expand.</em>",
-      "_items": [
-        {
-          "alt": "The case for economic benefit",
-          "title": "The case for economic benefit",
-          "body": "<p>The session explores recent changes in the definition of open data, and allow learners to understand why the current definition has been determined.</p><p>The session also examines a number of examples of open data impact from different fields and considers the potential for open data implementation</p>"
-        },
-        {
-          "alt": "The case for improved services",
-          "title": "The case for improved services",
-          "body": "<p>Open data is still a developing field and those working within it will encounter a number of common problems. This sessions presents and clarifys the main challenges before examining the future of open data.</p>"
-        },
-        {
-          "alt": "The case for transparency",
-          "title": "The case for transparency",
-          "body": "<p>This session begins by looking at how open licences are there to protect data publishers, while also unlocking value. We show how to build a machine readable open license that can be applied to any online content.</p><p>The session then continues by looking at the technical, legal, social and practical requirements for making different types of open data usable and some of the most relevant guidelines to support this process.</p>"
-        },
-        {
-          "alt": "The case for innovation",
-          "title": "The case for innovation",
-          "body": "<p>This session will introduce the importance of recent changes around open data modification rules which help combat data errors. We also introduce OpenRefine and how it improves data management by publishers.</p>"
-        }
-      ],
-      "_pageLevelProgress": {
+        "_id":"c-21",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Why does consistency matter?",
+        "displayTitle":"Why does consistency matter?",
+        "body":"<p>Open data is not just a compliance exercise. The aim of all open data is to invite others to use the data, whether for a new app, a study or just to gain a deeper understanding. Most open data users will want more than one dataset. Often they combine datasets from different authorities. When combining datasets, consistency matters. Without consistent 'schemas' or column headings, users cannot easily combine your data with others. Without consistent availability</p><p>The traditional justification for this free service has been that authorities produce their open data through the operation of taxpayer-funded services.</p><p>However, gathering and maintaining data always has a cost attached to it. For this reason, in some cases local authorities may need to charge the user a small fee to cover any costs associated with the data. For this data to qualify as open, the cost should be no more than the 'reasonable reproduction cost' of the data involved. Authorities can charge a fee to cover the costs of supporting a user's data request but should not charge a premium for the data.</p>"
+    },
+    {
+        "_id":"c-25",
+        "_parentId":"b-25",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "dynamic-narrative",
+        "title": "The benefits of publishing using consistent approaches",
+        "displayTitle": "Case studies of open data impact on local government",
+        "body": "<p>Local authorities are already seeing the benefits of publishing open data. The LGA keeps an extenisve collection of <a href='http://www.local.gov.uk/local-transparency/-/journal_content/56/10180/4049888/ARTICLE' target='_blank'>case studies</a> that catalogue these impacts. Below are some of the best examples:</p>",
+        "instruction": "<em class='desktop-instruction'>Click the forward arrow for more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
+        "_items": [
+            {
+                "title": "Redbridge council",
+                "body": "<p></p>",
+                "_graphic": {
+                    "src": "course/en/images/redbridge.jpg",
+                    "alt": "Support Growing Economies",
+                    "title": "Support Growing Economies",
+                    "*source":"http://www.shutterstock.com/pic-128352227.html",
+                    "*credit":"vs148",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Redbridge Council"
+            },
+            {
+                "title": "Leeds Council",
+                "body": "<p></p>",
+                "_graphic": {
+                    "src": "course/en/images/Leeds.jpg",
+                    "alt": "Improved service delivery",
+                    "title": "Improved service delivery",
+                    "*source":"https://www.fixmystreet.com/",
+                    "*credit":"fixmystreet",
+                    "*license":"unknown"
+                },
+                "strapline": "Leeds Council"
+            },
+            {
+                "title": "Bristol Council",
+                "body": "<p></p>",
+                "_graphic": {
+                    "src": "course/en/images/bristol.jpg",
+                    "alt": "Cost Savings",
+                    "title": "Cost Savings",
+                    "*source":"http://www.shutterstock.com/pic-75494491.html",
+                    "*credit":"vlastas",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Cost Savings"
+            },
+            {
+                "title": "Sedgemoor Council",
+                "body": "<p></p>",
+                "_graphic": {
+                    "src": "course/en/images/sedgemoor.png",
+                    "alt": "Improved service delivery",
+                    "title": "Improved service delivery",
+                    "*source":"https://www.fixmystreet.com/",
+                    "*credit":"fixmystreet",
+                    "*license":"unknown"
+                },
+                "strapline": "Better public perception"
+            }
+        ],
+        "_pageLevelProgress": {
         "_isEnabled": true
-      }
+        }
     },
     {
         "_id":"c-28",
