@@ -1,0 +1,18 @@
+#!/bin/bash
+# USAGE ./build-all en
+if [ -z $1 ]
+then
+	echo "Specify a language you idiot!"
+	exit
+fi
+THEME=$2
+if [ -z $2 ]
+then
+	THEME="default"
+	echo "Using theme $THEME"
+fi
+for i in `seq 1 13`;
+do
+	./bin/build module$i $1 $THEME
+done
+./bin/build-nav $1 $THEME

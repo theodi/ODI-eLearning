@@ -7,7 +7,7 @@ define(function(require) {
 var moduleId = "";
 $.getJSON("course/config.json",function(data) {
         moduleId = data._moduleId;
-	checkWelcome();
+//	checkWelcome();
 });
 	
 var theme = "ODI";
@@ -15,7 +15,7 @@ var interval;
 var click_bind = false;
 
 $(document).ready(function() {
-	checkWelcome();
+//	checkWelcome();
 	setTimeout(function() {updateLanguageSwitcher(); },1000);
 	setTimeout(function() {$(".dropdown dt a").show();$('#country-select').show();},2000);
 	interval = setInterval(function() { checkState(); },3000);
@@ -83,7 +83,7 @@ function checkState() {
 	var lastSave = localStorage.getItem(moduleId + "_lastSave");
 
 	if (!sessionEmail && sessionID) {
-		checkWelcome();
+//		checkWelcome();
 		$('#save-section').html("<button onClick='showSave();' class='slbutton' id='saveSession'>Save Progress</button>");
 		if (moduleId == "ODI_welcome") {
 			$('#save-section').hide();

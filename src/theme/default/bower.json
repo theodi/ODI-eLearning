@@ -1,13 +1,14 @@
 {
-  "name": "adapt-contrib-vanilla",
-  "version": "1.1.1",
+  "name": "default",
+  "version": "1.2.0",
   "homepage": "https://github.com/darylhedley/adapt-contrib-vanilla",
   "authors": [
-    "Daryl Hedley <darylhedley@hotmail.com>"
+    "Daryl Hedley <darylhedley@hotmail.com>",
+    "Dave Tarrant <davetaz@theodi.org>"
   ],
-  "displayName": "Vanilla",
-  "theme": "vanilla",
-  "description": "A core bundled theme",
+  "displayName": "ODI Default",
+  "theme": "default",
+  "description": "The ODI Default eLearning theme",
   "main": "js/vanilla.js",
   "keywords": [
     "adapt-plugin",
