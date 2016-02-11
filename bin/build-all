@@ -15,4 +15,3 @@ for i in `seq 1 13`;
 do
 	./bin/build module$i $1 $THEME
 done
-./bin/build-nav $1 $THEME
