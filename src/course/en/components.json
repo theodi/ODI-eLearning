@@ -69,6 +69,11 @@
           "body": "<p>The session explores key definitions of open data.</p><p>The session also examines types of data to determine their uses.</p>"
         },
         {
+          "alt": "Data discovery patterns",
+          "title": "Datat discovery patterns",
+          "body": "<p>The session explores key definitions of open data.</p><p>The session also examines types of data to determine their uses.</p>"
+        },
+        {
           "alt": "Publishing platforms",
           "title": "Publishing platforms",
           "body": "<p>Open data is still a developing field and those working within it will encounter a number of common problems. This sessions presents and clarifys the main challenges before examining the future of open data.</p>"
@@ -316,8 +321,67 @@
         }
     },
      {
-        "_id":"c-60",
-        "_parentId":"b-60",
+      "_id":"c-30",
+      "_parentId":"b-30",
+      "_type":"component",
+      "_component":"narrative",
+      "_classes":"",
+      "_layout":"full",
+      "title": "Common data structures",
+      "displayTitle": "Common data structures",
+      "body": "<p>Not all data can be appropriately expressed as a spreadsheet. Different file formats may have to be considered. There are three key structures to be aware of: tabular, hierarchical and network.</p>",
+      "instruction": "<em>Click the forward arrow to see more</em>",
+      "_items": [
+        {
+          "alt": "Tabular",
+          "title": "Tabular",
+          "body": "<p>The most common structure for data is tabular. Data is organised into rows and columns listing sequential values, such as expenditure.</p><p>If the data is based on separate entries that are not linked to each other then a tabular file structure in a format such as CSV is ideal. An example of appropriate tabular data is the Italian data portal’s museum attendance figures.<br /><a href='http://www.datiopen.it/opendata/Visitatori_musei_pubblici_e_similari_titolo_d_accesso' target='_blank'>Take me to Italian Data Portal</a></p>",
+          "_graphic": {
+                    "src": "course/en/images/odi-004.jpg",
+                    "alt": "Tabular",
+                    "title": "Tabular",
+                    "*source": "http://www.shutterstock.com/pic.mhtml?id=262874696&src=id",
+                    "*credit": "benjaminec",
+                    "*licence": "Shutterstock standard license"
+                },
+           "strapline": "Tabular"
+        },
+        {
+          "alt": "Hierarchical",
+          "title": "Hierarchical",
+          "body": "<p>Hierarchical data shows the relationships between data points, such as a family tree or municipalities in each country. If the dataset depends on the relationship between data points and follows a structure in which data points are linked in vertical ‘trees’, a hierarchical data structure in a format such as JSON is ideal. An example of appropriate hierarchical data is this JSON file from json.org<br /><a href='http://json.org/example.html' target='_blank'>Take me to the json.org example</a></p>",
+          "_graphic": {
+                    "src": "course/en/images/odi-005.jpg",
+                    "alt": "Hierarchical",
+                    "title": "Hierarchical",
+                    "*source": "http://www.shutterstock.com/pic.mhtml?id=103051607&src=id",
+                    "*credit": "tovovan",
+                    "*licence": "Shutterstock standard license"
+                },
+           "strapline": "Hierarchical"
+        },
+        {
+          "alt": "Network",
+          "title": "Network",
+          "body": "<p>Network structured data allows relationships to exist between any combination of elements in any direction.</p><p>A good example of a network data structure are social networks. Think of your network of friends and their friends on Facebook; consider first, second and third degree contacts on LinkedIn.<p><p>The web is another example of a network data structure, where web pages link to any number of other pages in any direction.</p>",
+          "_graphic": {
+                    "src": "course/en/images/odi-006.jpg",
+                    "alt": "Network",
+                    "title": "Network",
+                    "*source": "http://www.shutterstock.com/pic.mhtml?id=136115477&src=id",
+                    "*credit": "Ovchinnkov Vladimir",
+                    "*licence": "Shutterstock standard license"
+                },
+           "strapline": "Network"
+        }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-41",
+        "_parentId":"b-40",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
@@ -327,30 +391,42 @@
         "body":"",
         "instruction":"",
         "_graphic": {
-            "alt": "Network data structure",
-            "title": "Network data structure",
-            "large": "course/en/images/odi-40.jpg",
-            "medium": "course/en/images/odi-40.jpg",
-            "small": "course/en/images/odi-40.jpg",
-            "*source": "http://www.shutterstock.com/pic.mhtml?id=262874696&src=id",
-            "*credit": "benjaminec",
-            "*license": "Shutterstock standard license"
+            "alt": "Accessing right data format",
+            "title": "Accessing right data format",
+            "large": "course/en/images/odi-007.jpg",
+            "medium": "course/en/images/odi-007.jpg",
+            "small": "course/en/images/odi-007.jpg",
+            "*source": "http://www.shutterstock.com/pic-199692071",
+            "*credit": "Ing. Andrej Kaprinay",
+            "*licence": "Shutterstock standard license"
         }
-    },
-    {
-        "_id":"c-61",
-        "_parentId":"b-60",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"",
-        "_layout":"left",
-        "title":"Discovering Open Data",
-        "displayTitle":"Discovering Open Data",
-        "body":"<p>The best way to apply your new experience of the open data field is to discover some open data on your own.</p><p>To start this process, there is an interactive exercise below. Start by access in the <a href='https://data.gov.uk/dataset/financial-transactions-data-fco' target='_blank'>Foreign and Commonwealth Office's Spend over £25000 dataset</a>.</p><p>Once you have dataset open, <a href='course/en/exercises/Discovering_Open_Data_Exercise.pdf' target='_blank'>explore the different aspects of the data with this exercise.</a></p>",
-        "instruction":"",
-        "_pageLevelProgress": {
-            "_isEnabled": true
+   },
+   {
+      "_id":"c-40",
+      "_parentId":"b-40",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"left",
+      "title": "Finding open data in the right formats",
+      "displayTitle": "Finding open data in the right formats",
+      "body": "<p>As a user of open data, it is important to understand how publishers are delivering different formats to you for reuse.</p><p>Not all data is suitable for download either because it is too large, too regularly updated or too complex to expose as static files. Some data may need to be split into smaller parts. Other data may need to be published as live feeds to make sure it stays up to date.</p>",
+      "instruction": "<em>Click the headings to explore further.</em>",
+      "_items": [
+        {
+          "alt": "Downloadable open data",
+          "title": "Downloadable open data",
+          "body": "<p>Tabular data is the most suited for download. This is why most government open data portals are predominantly tabular data. However managing millions of rows of data may require other considerations:</p><ul><li>Should the data be split into smaller datasets?</li><li>How often should the data  be updated?</li><li>How will changes in the way you publish affect the previous releases?</li></ul>"
+        },
+        {
+          "alt": "Live data and data feeds",
+          "title": "Live data and data feeds",
+          "body": "<p>Some data is not suitable to be made available as a downloadable file.</p><p>Much of this data is updated so regularly that the file downloads would be too large for most users. This type of open data structure may be made available by a machine interface, also know as an API.</p><p>There are many services that make machine interfaces available over the web. These  services can be directly integrated into other web applications. For an example of an open data API, look at the Belgian railway company.<br /><a href='https://hello.irail.be/api/1-0/' target='_blank'>Take me to iRail API</a></p>"
         }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
     },
 {
         "_id":"c-65",
@@ -378,14 +454,15 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Licensing and Best Practices",
-        "displayTitle":"Licensing and Best Practices",
+        "title":"Data discovery patterns",
+        "displayTitle":"Data discovery patterns",
         "body":"<p></p>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
         }
     },
+    
      {
         "_id":"c-71",
         "_parentId":"b-70",
