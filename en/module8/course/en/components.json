@@ -29,8 +29,8 @@
         "_classes":"",
         "_layout":"left",
         "title":"Getting to grips with platforms",
-        "displayTitle":"Geting to grips with platforms",
-        "body":"<p>A platform is a major piece of software on which smaller pieces of software and content can be run. For open data, the largest platform is the web. However, lots of other purpose-built software helps simplify publishing open data and provides interactive tools to help users to explore it.</p><h5>In this module we’ll explore the following:</h5><ul class='ticks'><li>Recognising open data platforms</li><li>Understanding their importance to users</li><li>Evaluating the key options</li><li>Using platforms to explore data</li></ul>",
+        "displayTitle":"Getting to grips with platforms",
+        "body":"<p>A platform is a major piece of software on which smaller pieces of software and content can be run. For open data, the largest platform is the Web. However, lots of other purpose-built software can help you to publish open data, or provide interactive tools to help you to explore it.</p><h5>In this module we’ll explore the following:</h5><ul class='ticks'><li>Recognising open data platforms</li><li>Understanding why platforms are important to users</li><li>Evaluating key platform options</li><li>Using platforms to explore data</li></ul>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
@@ -45,7 +45,7 @@
     "_layout":"full",
         "title":"Open data platforms – in 2 minutes",
         "displayTitle": "Open data platforms – in 2 minutes",
-        "body": "ODI Trainer David Tarrant explains what open data platforms are, the different platforms available and the advantages of the platforms for users.",
+        "body": "ODI Trainer David Tarrant explains what open data platforms are, the different platforms available and the advantages of platforms for users.",
         "instruction": "To turn subtitles on and off, click the 'cc' button at the bottom right of the video",
         "_setCompletionOn":"ended",
         "_source": "https://player.vimeo.com/video/129196991",
@@ -91,7 +91,7 @@
         "_layout":"left",
         "title":"What is an open data platform?",
         "displayTitle":"What is an open data platform?",
-        "body":"<p>Open data platforms are pieces of software that make it simpler to publish and manage open data on the web.</p><p>For publishers, an open data platform provides a pathway to publish data on the web. Platforms guide publishers through the process of publishing the data.</p><p>For users, platforms can offer consistency and ease of access to open data from around the world.</p>"
+        "body":"<p>Open data platforms are pieces of software that make it simpler to publish and manage open data on the Web.</p><p>For publishers, an open data platform provides a pathway to publish data. Platforms guide publishers through the process of publishing data, and offer users consistency and ease of access to open data from around the world.</p>"
     },
      {
         "_id": "c-25",
@@ -107,7 +107,7 @@
         "_items": [
             {
                 "title": "Discoverable data",
-                "body": "<p>Open data platforms promote open data to users. Platforms are designed to allow users to quickly find and reuse relevant open data.</p><p>Platforms are search-optimised to make it easier to find relevant resources. Platforms also provide data feeds that can be discovered and indexed in systems across the web.</p><p>The data feeds of open data platforms allow search engines like Enigma.io to to index open data and make it easier to find.<br /><a href='http://www.enigma.io' target='_blank'>Discover more at enigma.io</a></p>",
+                "body": "<p>Open data platforms promote open data to users. Platforms are designed to allow users to quickly find and reuse relevant open data.</p><p>Platforms are search-optimised to make it easier to find relevant resources. Platforms also provide data-feeds that can be discovered and indexed in systems across the Web.</p><p>These data feeds allow search engines like Enigma.io to index open data and make it easier to find.<br /><a href='http://www.enigma.io' target='_blank'>Discover more at enigma.io</a></p>",
                 "_graphic": {
                     "src": "course/en/images/odi-002.jpg",
                     "alt": "Discovery",
@@ -120,7 +120,7 @@
             },
             {
                 "title": "Consistent user experience",
-                "body": "<p>There are a limited number of open data platforms, which means you don’t need to know lots of different technologies to discover large amounts of open data.</p><p>Open data platforms are designed with the user in mind. The platform layout and design makes it easy to discover data.</p><p>For examples of sites using open data platforms, look at: <a href='http://www.data.gov.uk' target='_blank'>data.gov.uk</a>, <a href='http://www.data.gov.br' target='_blank'>data.gov.bf</a> and <a href='http://www.data.gov.md' target='_blank'>data.gov.md</a></p><p>Note that many governments use a standard naming convention for the web address of the data platform, so a simple starting point for finding open data for a country is to enter data.gov.[country top-level domain].</p>",
+                "body": "<p>There are a limited number of open data platforms, which means you don’t need to understand lots of different technologies to discover large amounts of open data.</p><p>Open data platforms are designed with the user in mind – their layout and design can make it easier to discover data.</p><p>For examples of sites using open data platforms, look at: <a href='http://www.data.gov.uk' target='_blank'>data.gov.uk</a>, <a href='http://www.data.gov.br' target='_blank'>data.gov.bf</a> and <a href='http://www.data.gov.md' target='_blank'>data.gov.md</a></p><p>Note that many governments use a standard naming convention for the Web address of the data platform, so a simple starting point for finding open data for a country is to enter data.gov.[country top-level domain].</p>",
                 "_graphic": {
                     "src": "course/en/images/odi-003.jpg",
                     "alt": "Consistency",
@@ -133,7 +133,7 @@
             },
             {
                 "title": "Consistent access to data",
-                "body": "<p>The development of open standards by the community on the web has led to consistent Application Programming Interfaces (APIs) for discovering, accessing and using data.</p><p>The limited number of open data platforms and the consistent features of their user interfaces make it simple for people to use the different features while feeling comfortable with the software.</p><p>The platforms also have similar structures and formats for exposing metadata as well as the data itself.</p>",
+                "body": "<p>The development of open standards by the Web community has led to consistent Application Programming Interfaces (APIs) for discovering, accessing and using data.</p><p>The limited number of open data platforms and consistent features of their user interfaces make it simple for people to use the different features while feeling comfortable with the software.</p><p>The platforms also have similar structures and formats for exposing metadata, as well as the data itself.</p>",
                 "_graphic": {
                     "src": "course/en/images/odi-004.jpg",
                     "alt": "Access granted",
@@ -174,15 +174,15 @@
       "_component":"accordion",
       "_classes":"",
       "_layout":"left",
-      "title": "Open data platform design approaches",
-      "displayTitle": "Open data platform design approaches",
+      "title": "Approaches to open data platform design",
+      "displayTitle": "Approaches to open data platform design",
       "body": "<p>Platforms provide different approaches to publishing and exposing open data. Discover the different approaches below:</p>",
       "instruction": "",
       "_items": [
         {
           "alt": "Data catalogs",
           "title": "Data catalogs",
-          "body": "<p>An open data catalog is a platform that lists datasets on the web. Data catalogs are like directories. They know what open data exists, what it is about, where it is and how to get hold of it.</p><p>An open data catalog links users to data that is located somewhere else on the web. They provide a consistent way of locating a diverse set of data that is widely scattered.</p><p>The CKAN platform, used by cities like Amsterdam (<a href='http://www.amsterdamopendata.nl/home' target='_blank'>Take me to Amsterdam CKAN portal</a>), Berlin (<a href='http://daten.berlin.de/' target='_blank'>Take me to Berlin CKAN portal</a>) and Copenhagen (<a href='http://data.kk.dk/' target='_blank'>Take me to Copenhagen CKAN portal</a>), can be used as a data catalog.</p><p>CKAN provides simple, easy to use data management functionality, including data hosting. This ensures that the technical knowledge and effort required to publish open data is kept to a minimum.</p>"
+          "body": "<p>An open data catalog is a platform that lists datasets on the Web. Data catalogs are like directories. They know what open data exists, what it is about, where it is and how to get hold of it.</p><p>An open data catalog links users to data that is located somewhere else on the Web. They offer a consistent way of locating a diverse set of data that is widely scattered.</p><p>The CKAN platform, used by cities like Amsterdam (<a href='http://www.amsterdamopendata.nl/home' target='_blank'>Take me to Amsterdam CKAN portal</a>), Berlin (<a href='http://daten.berlin.de/' target='_blank'>Take me to Berlin CKAN portal</a>) and Copenhagen (<a href='http://data.kk.dk/' target='_blank'>Take me to Copenhagen CKAN portal</a>), can be used as a data catalog.</p><p>CKAN provides simple, easy to use data management functionality, including data hosting. This ensures that the technical knowledge and effort required to publish open data is kept to a minimum.</p>"
         },
         {
           "alt": "Data management",
@@ -192,7 +192,7 @@
         {
           "alt": "Comparison",
           "title": "Comparison",
-          "body": "<p>Data catalogs provide:</p></ul><li>Federated search across a wide domain.</li><li>Mechanisms for discovery.</li><li>Key metadata relating to licence and how up to date data is.</li></ul></p><p>Data management platforms provide:</p><ul><li>Authoritative sources for data.</li><li>Increased data quality.</li><li>Ability to search and manipulate data.</li></ul><p>The distinctions between data management platforms and data catalogs can also vary between providers. <a href='http://how-to.usopendata.org/basics/data-repositories.html' target='_blank'>Take me to comparative analysis of data platforms</a></p>"
+          "body": "<p>Data catalogs provide:</p></ul><li>Federated search across a wide domain.</li><li>Mechanisms for discovery.</li><li>Key metadata relating to licence and how up to date data is.</li></ul></p><p>Data management platforms provide:</p><ul><li>Authoritative sources for data.</li><li>Increased data quality.</li><li>The ability to search and manipulate data.</li></ul><p>The distinctions between data management platforms and data catalogs can also vary between providers. <a href='http://how-to.readthedocs.org/en/latest/The-Basics-of-Open-Data/Data-Repositories/' target='_blank'>Take me to comparative analysis of data platforms.</a></p>"
         }
       ],
       "_pageLevelProgress": {
@@ -301,7 +301,7 @@
                 "_shouldBeSelected": false
             },
             {
-                "text": "a piece of software that helps get open data on the web.",
+                "text": "a piece of software that helps get open data on the Web.",
                 "_shouldBeSelected": true
             },
             {
@@ -310,14 +310,14 @@
             }
         ],
         "_feedback":{
-            "correct":"<h5>That’s right!</h5><p>An open data platform is a piece of software that helps get open data on the web. It provides publishers a streamed process for publishing data and users a consistent way to access, use and share data.</p>",
+            "correct":"<h5>That’s right!</h5><p>An open data platform is a piece of software that helps get open data on the Web. It provides publishers a streamed process for publishing data and users a consistent way to access, use and share data.</p>",
             "_incorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>An open data platform is a piece of software that helps get open data on the web. It provides publishers a streamed process for publishing data and users a consistent way to access, use and share data.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>An open data platform is a piece of software that helps get open data on the web. It provides publishers a streamed process for publishing data and users a consistent way to access, use and share data.</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>An open data platform is a piece of software that helps get open data on the Web. It provides publishers a streamed process for publishing data and users a consistent way to access, use and share data.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>An open data platform is a piece of software that helps get open data on the Web. It provides publishers a streamed process for publishing data and users a consistent way to access, use and share data.</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "An open data platform is piece of software that helps get open data on the web. It provides publishers a streamed process for publishing data and users a consistent way to access, use and share data.",
-                "final": "An open data platform is piece of software that helps get open data on the web. It provides publishers a streamed process for publishing data and users a consistent way to access, use and share data."
+                "notFinal": "An open data platform is piece of software that helps get open data on the Web. It provides publishers a streamed process for publishing data and users a consistent way to access, use and share data.",
+                "final": "An open data platform is piece of software that helps get open data on the Web. It provides publishers a streamed process for publishing data and users a consistent way to access, use and share data."
           }
         },
         "_buttons":{
@@ -373,19 +373,19 @@
                 "_shouldBeSelected": false
             },
             {
-                "text": "a list of open datasets available on the web.",
+                "text": "a list of open datasets available on the Web.",
                 "_shouldBeSelected": true
             }
         ],
         "_feedback":{
-            "correct":"<h5>That’s right!</h5><p>A data catalog lists datasets that are available on the web, that do not all have to be owned by the owner of the catalog. Most catalogs are domain or subject specific in order to keep the context simpler to understand.</p>",
+            "correct":"<h5>That’s right!</h5><p>A data catalog lists datasets that are available on the Web, that do not all have to be owned by the owner of the catalog. Most catalogs are domain or subject specific in order to keep the context simpler to understand.</p>",
             "_incorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>A data catalog lists datasets that are available on the web, that do not all have to be owned by the owner of the catalog. Most catalogs are domain or subject specific in order to keep the context simpler to understand.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>A data catalog lists datasets that are available on the web, that do not all have to be owned by the owner of the catalog. Most catalogs are domain or subject specific in order to keep the context simpler to understand.</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>A data catalog lists datasets that are available on the Web, that do not all have to be owned by the owner of the catalog. Most catalogs are domain or subject specific in order to keep the context simpler to understand.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>A data catalog lists datasets that are available on the Web, that do not all have to be owned by the owner of the catalog. Most catalogs are domain or subject specific in order to keep the context simpler to understand.</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "Are you sure about that?</h5><p>A data catalog lists datasets that are available on the web, they do not all have to be owned by the owner of the catalog. Most catalogs are domain or subject specific in order to keep the context simpler to understand.",
-                "final": "Are you sure about that?</h5><p>A data catalog lists datasets that are available on the web, they do not all have to be owned by the owner of the catalog. Most catalogs are domain or subject specific in order to keep the context simpler to understand.."
+                "notFinal": "Are you sure about that?</h5><p>A data catalog lists datasets that are available on the Web, they do not all have to be owned by the owner of the catalog. Most catalogs are domain or subject specific in order to keep the context simpler to understand.",
+                "final": "Are you sure about that?</h5><p>A data catalog lists datasets that are available on the Web, they do not all have to be owned by the owner of the catalog. Most catalogs are domain or subject specific in order to keep the context simpler to understand.."
           }
         },
         "_buttons":{
@@ -454,13 +454,13 @@
             }
         ],
         "_feedback":{
-            "correct":"<h5>That’s right!</h5><p>The three main benefits of open data platforms are <em>discovery</em>, <em>consistency</em> and <em>access</em>. Although they can assist with establishing context and community these aspects require additional effort on behalf of the publisher and remain two of the key challenges in open data.</p>",
+            "correct":"<h5>That’s right!</h5><p>The three main benefits of open data platforms are <em>discovery</em>, <em>consistency</em> and <em>access</em>. Although they can assist with establishing context and community, these aspects require additional effort from the publisher and remain two of the key challenges in open data.</p>",
             "_incorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>The three main benefits of open data platforms are <em>discovery</em>, <em>consistency</em> and <em>access</em>. Although they can assist with establishing context and community these aspects require additional effort on behalf of the publisher and remain two of the key challenges in open data.</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>The three main benefits of open data platforms are <em>discovery</em>, <em>consistency</em> and <em>access</em>. Although they can assist with establishing context and community, these aspects require additional effort from the publisher and remain two of the key challenges in open data.</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "<p>The three main benefits of open data platforms are <em>discovery</em>, <em>consistency</em> and <em>access</em>. Although they can assist with establishing context and community these aspects require additional effort on behalf of the publisher and remain two of the key challenges in open data.</p>",
-                "final": "<p>The three main benefits of open data platforms are <em>discovery</em>, <em>consistency</em> and <em>access</em>. Although they can assist with establishing context and community these aspects require additional effort on behalf of the publisher and remain two of the key challenges in open data.</p>"
+                "notFinal": "<p>The three main benefits of open data platforms are <em>discovery</em>, <em>consistency</em> and <em>access</em>. Although they can assist with establishing context and community these aspects require additional effort from the publisher and remain two of the key challenges in open data.</p>",
+                "final": "<p>The three main benefits of open data platforms are <em>discovery</em>, <em>consistency</em> and <em>access</em>. Although they can assist with establishing context and community these aspects require additional effort from the publisher and remain two of the key challenges in open data.</p>"
           }
         },
         "_buttons":{
@@ -500,7 +500,7 @@
         "_layout":"left",
         "title":"Open data platforms",
         "displayTitle":"Open data platforms",
-        "body":"<p>Open data platforms are pieces of software that make it simpler to publish and manage open data on the web.</p><p>For publishers, an open data platform provides a pathway to publish data on the web. Platforms guide publishers through the process of publishing the data.</p><p>For users, platforms can help make open data from around the world consistent and easy to access.</p><p><a class='course_link' href='../module9/'>Next module</a></p><p><a class='course_link' href='../'>Main menu</a></p>",
+        "body":"<p>Open data platforms are pieces of software that make it simpler to publish and manage open data on the Web.</p><p>For publishers, an open data platform provides a pathway to publish data, guiding them through the process.</p><p>For users, platforms can help make open data from around the world consistent and easy to access.</p><p><a class='course_link' href='../module9/'>Next module</a></p><p><a class='course_link' href='../'>Main menu</a></p>",
         "_pageLevelProgress": {
           "_isEnabled": true
         }

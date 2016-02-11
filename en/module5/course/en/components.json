@@ -27,7 +27,7 @@
         "_layout":"left",
         "title":"What makes quality open data?",
         "displayTitle":"What makes quality open data?",
-        "body":"<p>Assessing how usable open data is is not something that can be done quickly.</p><p>There are a number of community-based standards and quality marques that can help you assess the usability of data.</p><h5>In this module we’ll explore the following:</h5><ul class='ticks'><li>What makes data usable?</li><li>How standards help increase the usability of data</li><li>Marques of quality</li></ul>",
+        "body":"<p>Assessing how usable open data is cannot be done quickly.</p><p>There are a number of community-based standards and quality marques that can help you assess how usable data is.</p><h5>In this module we’ll explore the following:</h5><ul class='ticks'><li>What makes data usable?</li><li>How standards help increase the usability of data</li><li>Marques of quality</li></ul>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
@@ -104,7 +104,7 @@
         "_items": [
             {
                 "title": "Legal requirements",
-                "body": "<p>In addition to the open licence, there are 3 legal requirements that need to be considered. You must:</p><p><ul><li>Protect sensitive information like personal data.</li><li>Preserve the rights of data owners.</li><li>Promote correct use of the data.</li></ul></p>",
+                "body": "<p>In addition to the open licence, there are three legal requirements that need to be considered. You must:</p><p><ul><li>Protect sensitive information like personal data.</li><li>Preserve the rights of data owners.</li><li>Promote correct use of the data.</li></ul></p>",
                 "_graphic": {
                     "src": "course/en/images/odi-2.jpg",
                     "alt": "Legal",
@@ -117,7 +117,7 @@
             },
             {
                 "title": "Practical requirements",
-                "body": "<p>It is important that open data can be found and relied on by users.</p><p>This means that open data publishers must:</p><p><ul><li>Link to the data from their website.</li><li>Update the data regularly if it changes.</li><li>Give a commitment to continue to make the data available.</li></ul></p>",
+                "body": "<p>It is important that open data can be found and relied upon by users.</p><p>This means that open data publishers must:</p><p><ul><li>Link to the data from their website.</li><li>Update the data regularly if it changes.</li><li>Commit to continue to make the data available.</li></ul></p>",
                 "_graphic": {
                     "src": "course/en/images/odi-3.jpg",
                     "alt": "Practical",
@@ -130,7 +130,7 @@
             },
             {
                 "title": "Technical requirements",
-                "body": "<p>There are 3 recommendations that define the technical aspects of open data:</p><p><ul><li>The format in which the data is published.</li><li>The structure of the data.</li><li>The channels through which the data is available.</li></ul></p>",
+                "body": "<p>There are three recommendations that define the technical aspects of open data:</p><p><ul><li>The format in which the data is published.</li><li>The structure of the data.</li><li>The channels through which the data is available.</li></ul></p>",
                 "_graphic": {
                     "src": "course/en/images/odi-4.jpg",
                     "alt": "Technical",
@@ -186,13 +186,13 @@
       "_layout":"left",
       "title": "Marques of quality",
       "displayTitle": "Marques of quality",
-      "body": "<p>Marques of quality provide users with confidence about the quality and usability of open data.</p><p>There are 2 key indicators of open data quality:</p>",
+      "body": "<p>Marques of quality provide users with confidence about the quality and usability of open data.</p><p>There are two key indicators of open data quality:</p>",
       "instruction": "<em>Click the headings to explore further.</em>",
       "_items": [
         {
           "alt": "5 Stars",
           "title": "5 Stars",
-          "body": "<p>The 5 Stars of linked open data include the basic legal definition and technical excellence of the published data.</p><p>The 5 Stars were developed by inventor of the Web, Sir Tim Berners-Lee in 2001. The 5 Stars make recommendations on the format and structure of the data.</p><p>You can learn more about the 5 Stars in modules 10 and 13 of this course.</p>"
+          "body": "<p>The '5 Stars of linked open data' include the basic legal definition and technical excellence of the published data.</p><p>The 5 Stars were developed by inventor of the Web, Sir Tim Berners-Lee, in 2001. The 5 Stars make recommendations for the format and structure of the data.</p><p>You can learn more about the 5 Stars in modules 10 and 13 of this course.</p>"
         },
         {
           "alt": "ODI Open Data Certificates",
@@ -339,7 +339,7 @@
         "_selectable":1,
         "title": "Legal considerations",
         "displayTitle": "Legal considerations",
-        "body": "<p>There are 3 legal considerations as part of the standards for publishing open data, one of which is...</p>",
+        "body": "<p>There are three legal considerations as part of the standards for publishing open data, one of which is...</p>",
         "instruction": "<em>Select an option, then click 'Submit'.</em>",
         "_items": [
             {
@@ -356,14 +356,14 @@
             }
         ],
         "_feedback":{
-            "correct":"<h5>That’s right!</h5><p>In addition to the open licence, there are 3 legal requirements that need to be considered.  Protect sensitive information like personal data, preserve the rights of data owners and promote correct use of the data.</p>",
+            "correct":"<h5>That’s right!</h5><p>In addition to the open licence, there are three legal requirements that need to be considered.  Protect sensitive information like personal data, preserve the rights of data owners and promote correct use of the data.</p>",
             "_incorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>In addition to the open licence, there are 3 legal requirements that need to be considered.  Protect sensitive information like personal data, preserve the rights of data owners and promote correct use of the data.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>In addition to the open licence, there are 3 legal requirements that need to be considered.  Protect sensitive information like personal data, preserve the rights of data owners and promote correct use of the data.</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>In addition to the open licence, there are three legal requirements that need to be considered.  Protect sensitive information like personal data, preserve the rights of data owners and promote correct use of the data.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>In addition to the open licence, there are three legal requirements that need to be considered.  Protect sensitive information like personal data, preserve the rights of data owners and promote correct use of the data.</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>In addition to the open licence, there are 3 legal requirements that need to be considered.  Protect sensitive information like personal data, preserve the rights of data owners and promote correct use of the data.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>In addition to the open licence, there are 3 legal requirements that need to be considered.  Protect sensitive information like personal data, preserve the rights of data owners and promote correct use of the data.</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>In addition to the open licence, there are three legal requirements that need to be considered.  Protect sensitive information like personal data, preserve the rights of data owners and promote correct use of the data.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>In addition to the open licence, there are three legal requirements that need to be considered.  Protect sensitive information like personal data, preserve the rights of data owners and promote correct use of the data.</p>"
           }
         },
         "_buttons":{
@@ -407,7 +407,7 @@
         "_selectable":1,
         "title": "Technical considerations",
         "displayTitle": "Technical considerations",
-        "body": "<p>There are 3 technical considerations as part of the standards for publishing open data, one of which is...</p>",
+        "body": "<p>There are three technical considerations as part of the standards for publishing open data, one of which is...</p>",
         "instruction": "<em>Select an option, then click 'Submit'.</em>",
         "_items": [
             {
@@ -424,14 +424,14 @@
             }
         ],
         "_feedback":{
-            "correct":"<h5>That’s right!</h5><p>There are 3 recommendations that define the technical aspects of open data.  The format in which the data is published in, the structure of the data and the channels through which the data is available.</p>",
+            "correct":"<h5>That’s right!</h5><p>There are three recommendations that define the technical aspects of open data.  The format in which the data is published in, the structure of the data and the channels through which the data is available.</p>",
             "_incorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>There are 3 recommendations that define the technical aspects of open data.  The format in which the data is published in, the structure of the data and the channels through which the data is available.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>There are 3 recommendations that define the technical aspects of open data.  The format in which the data is published in, the structure of the data and the channels through which the data is available.</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>There are three recommendations that define the technical aspects of open data.  The format in which the data is published in, the structure of the data and the channels through which the data is available.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>There are three recommendations that define the technical aspects of open data.  The format in which the data is published in, the structure of the data and the channels through which the data is available.</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>There are 3 recommendations that define the technical aspects of open data.  The format in which the data is published in, the structure of the data and the channels through which the data is available.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>There are 3 recommendations that define the technical aspects of open data.  The format in which the data is published in, the structure of the data and the channels through which the data is available.</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>There are three recommendations that define the technical aspects of open data.  The format in which the data is published in, the structure of the data and the channels through which the data is available.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>There are three recommendations that define the technical aspects of open data.  The format in which the data is published in, the structure of the data and the channels through which the data is available.</p>"
           }
         },
         "_buttons":{
@@ -492,14 +492,14 @@
             }
         ],
         "_feedback":{
-            "correct":"<h5>That’s right!</h5><p>The Open Data Institute has developed Open Data Certificates which include the practical and social requirements alongside in-depth legal and technical guidelines to consider when publishing open data.</p>",
+            "correct":"<h5>That’s right!</h5><p>The Open Data Institute has developed Open Data Certificates which include practical and social requirements alongside in-depth legal and technical guidelines to consider when publishing open data.</p>",
             "_incorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>The Open Data Institute has developed Open Data Certificates which include the practical and social requirements alongside in-depth legal and technical guidelines to consider when publishing open data.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>The Open Data Institute has developed Open Data Certificates which include the practical and social requirements alongside in-depth legal and technical guidelines to consider when publishing open data.</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>The Open Data Institute has developed Open Data Certificates which include practical and social requirements alongside in-depth legal and technical guidelines to consider when publishing open data.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>The Open Data Institute has developed Open Data Certificates which include practical and social requirements alongside in-depth legal and technical guidelines to consider when publishing open data.</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>The Open Data Institute has developed Open Data Certificates which include the practical and social requirements alongside in-depth legal and technical guidelines to consider when publishing open data.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>The Open Data Institute has developed Open Data Certificates which include the practical and social requirements alongside in-depth legal and technical guidelines to consider when publishing open data.</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>The Open Data Institute has developed Open Data Certificates which include practical and social requirements alongside in-depth legal and technical guidelines to consider when publishing open data.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>The Open Data Institute has developed Open Data Certificates which include practical and social requirements alongside in-depth legal and technical guidelines to consider when publishing open data.</p>"
           }
         },
         "_buttons":{
