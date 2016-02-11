@@ -202,49 +202,44 @@
       }
     },
     {
-        "_id":"c-50",
-        "_parentId":"b-50",
+        "_id":"c-30",
+        "_parentId":"b-28",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
-        "_layout":"left",
+        "_layout":"right",
         "_graphic": {
-            "alt": "Unlocking data in the web",
-            "title": "Unlocking data in the web",
-            "large": "course/en/images/odi-60.jpg",
-            "medium": "course/en/images/odi-60.jpg",
-            "small": "course/en/images/odi-60.jpg",
-            "*source": "http://www.shutterstock.com/pic-231672367",
-            "*credit": "McIek",
-            "*license": "Shutterstock standard license"
+            "alt": "Marques of quality",
+            "title": "Marques of quality",
+            "large": "course/en/images/odi-6.jpg",
+            "medium": "course/en/images/odi-6.jpg",
+            "small": "course/en/images/odi-6.jpg",
+            "*source":"http://www.shutterstock.com/pic-254316427.html",
+            "*credit":"tostphoto",
+            "*license":"Shutterstock Standard License"
         }
     },
     {
-      "_id":"c-51",
-      "_parentId":"b-50",
+      "_id":"c-35",
+      "_parentId":"b-28",
       "_type":"component",
       "_component":"accordion",
       "_classes":"",
-      "_layout":"right",
-      "title": "Future Developments in Open Data",
-      "displayTitle": "Future Developments in Open Data",
-      "body": "<p>When speaking about open data, it is important to understand the future developments that are emerging at a gloabl level. For this reason, the Open Data Barometer was created to monitor the developments in national open data programmes and present the results as a visual ranking. The Barometer, which can be found here, measures 3 aspects of an open data programme, discussed in greater detail below.</p>",
-      "instruction": "<em>Click below to explore each of the tools to unlock data from <b>in the web</b>.</em>",
+      "_layout":"left",
+      "title": "Marques of quality",
+      "displayTitle": "Marques of quality",
+      "body": "<p>Marques of quality provide users with confidence about the quality and usability of open data.</p><p>There are two key indicators of open data quality:</p>",
+      "instruction": "<em>Click the headings to explore further.</em>",
       "_items": [
         {
-          "alt": "Open Data Readiness",
-          "title": "Open Data Readiness",
-          "body": "<p>To what extent is an organisation or country ready to support an open data initiative?</p><ul>The following are important indicators of readiness:<li>Open licences supported</li><li>Policies and procedures established</li><li>Investments made</li><li>Educational support available</li><li>Wider engagement undertaken</li></ul>"
+          "alt": "5 Stars",
+          "title": "5 Stars",
+          "body": "<p>The '5 Stars of linked open data' include the basic legal definition and technical excellence of the published data.</p><p>The 5 Stars were developed by inventor of the Web, Sir Tim Berners-Lee, in 2001. The 5 Stars make recommendations for the format and structure of the data.</p><p>You can learn more about the 5 Stars in modules 10 and 13 of this course.</p>"
         },
         {
-          "alt": "Open Data Implementation",
-          "title": "Open Data Implementation",
-          "body": "<p>Data is now as important to our national infrastructure as roads or internet access. For public bodies and governments, there are certain datasets that should be open as a way to support innovation, generate value and grow the economy.</p><p>Commercial organisations should also consider which datasets are most useful to help enhance their business and find new market opportunities.</p>"
-        },
-        {
-          "alt": "Open Data Impact",
-          "title": "Open Data Impact",
-          "body": "<p>What are the tangible, real world benefits of the open data for its users?</p><p>Without evidence of impact, communities are less likely to grow around the data and innovation can be less widespread. The following are important indicators of impact:</p><ul><li>Increasing efficiency and transparency of government</li><li>Economic growth driven by open data</li><li>Social and environmental benefits</li></ul>"
+          "alt": "ODI Open Data Certificates",
+          "title": "ODI Open Data Certificates",
+          "body": "<p>The Open Data Institute's Open Data Certificates are practical, social, legal and technical guidelines to consider when publishing or using open data.</p><p>The certificates act as a self-assessment questionnaire for publishers, and in some cases users, to assess and benchmark the full usability of a dataset.<br /><a href='https://certificates.theodi.org/' target='_blank'>Take me to the ODI Open Data Certificates site</a></p>"
         }
       ],
       "_pageLevelProgress": {
