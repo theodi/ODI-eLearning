@@ -25,8 +25,8 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Open Data in a Day",
-        "displayTitle":"Open Data in a Day",
+        "title":"Open Data in Practice Day 1 - Practical Publication",
+        "displayTitle":"Open Data in Practice Day 1 - Practical Publication",
         "body":"<p>This introductory course aims to get you up to speed with latest developments in open data and its significance. It is designed to enable anyone to get started with discovering and using open data and understand the skills and processes required to make it work for you and your organisation.</p>",
         "instruction":"",
         "_pageLevelProgress": {
@@ -60,28 +60,23 @@
       "_layout":"left",
       "title": "Course overview",
       "displayTitle": "Course overview",
-      "body": "<p>The course is split into four main sessions. These sessions start by exploring definitions of open data, examines the impacts and future directions of the field, looks at practical aspects such as licencing and best practices and concludes with a hands-on exploration of some key tools.</p>",
+      "body": "<p>The first day is split into three key sessions. The first session explores definitions of open data and key characteristics, the second takes a closer look at data publishing platforms and the last will get participants hands-on with publication.</p>",
       "instruction": "<em>The sessions are briefly described below.</em>",
       "_items": [
         {
-          "alt": "Introducing Open Data",
-          "title": "Introducing Open Data",
-          "body": "<p>The session explores recent changes in the definition of open data, and allow learners to understand why the current definition has been determined.</p><p>The session also examines a number of examples of open data impact from different fields and considers the potential for open data implementation</p>"
+          "alt": "Characteristics of Data",
+          "title": "Characteristics of data",
+          "body": "<p>The session explores key definitions of open data.</p><p>The session also examines types of data to determine their uses.</p>"
         },
         {
-          "alt": "Challenges of Open Data and Future Developments",
-          "title": "Challenges of Open Data and Future Developments",
+          "alt": "Publishing platforms",
+          "title": "Publishing platforms",
           "body": "<p>Open data is still a developing field and those working within it will encounter a number of common problems. This sessions presents and clarifys the main challenges before examining the future of open data.</p>"
         },
         {
-          "alt": "Licensing and Best Practices",
-          "title": "Licensing and Best Practices",
+          "alt": "Hands-on publishing",
+          "title": "Hands-on publishing",
           "body": "<p>This session begins by looking at how open licences are there to protect data publishers, while also unlocking value. We show how to build a machine readable open license that can be applied to any online content.</p><p>The session then continues by looking at the technical, legal, social and practical requirements for making different types of open data usable and some of the most relevant guidelines to support this process.</p>"
-        },
-        {
-          "alt": "Cleaning Open Data",
-          "title": "Cleaning Open Data",
-          "body": "<p>This session will introduce the importance of recent changes around open data modification rules which help combat data errors. We also introduce OpenRefine and how it improves data management by publishers.</p>"
         }
       ],
       "_pageLevelProgress": {
@@ -117,63 +112,7 @@
         "displayTitle":"What is open data?",
         "body":"<p>Open data is <strong>data</strong> that <strong>anyone</strong> can <strong>access</strong>, <strong>use</strong> and <strong>share</strong>.</p><p>Open data becomes useable through being available in a common, machine-readable format.</p><p>Open data must be licensed. This licence must permit people to use the data in any way they want, including transforming, combining and sharing it with others, even commercially.</p>"
     },
-     {
-        "_id": "c-30",
-        "_parentId": "b-30",
-        "_classes": "",
-        "_type":"component",
-        "_layout": "full",
-        "_component": "dynamic-narrative",
-        "title": "The benefits of Open Data",
-        "displayTitle": "The benefits of Open Data",
-        "body": "<p>This session explores the definition of open data and examines some examples of the benefits of open data. Below to support this discussion you can explore some of the main benefits of open data together with examples.</p>",
-        "instruction": "<em class='desktop-instruction'>Click the forward arrow for more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
-        "_items": [
-            {
-                "title": "Support growing economies",
-                "body": "<p>To support the emergence of new data-driven businesses and the growth of existing ones, governments need to publish key datasets.</p><p>Governments also need to support data infrastructures that connect data with those who use it.</p><p>In return, governments are reaping the benefits of a growing data economy as in Finland, where SMEs with access to open data grew 15% faster than those without.</p><p><a href='http://www.epsiplatform.eu/content/finnish-study-psi-pricing-geo-data' target='_blank'>Take me to Finnish case study</a></p>",
-                "_graphic": {
-                    "src": "course/en/images/odi-002-narrative_large.jpg",
-                    "alt": "Support Growing Economies",
-                    "title": "Support Growing Economies",
-                    "*source":"http://www.shutterstock.com/pic-128352227.html",
-                    "*credit":"vs148",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "Support Growing Economies"
-            },
-            {
-                "title": "Improved service delivery",
-                "body": "<p>Governments need to balance the demands of growing populations with the need to tackle small-scale, local issues.</p><p>The availability of detailed open data is essential to improve delivery of services at the local level.</p><p>Some of these new services are available now - <br /><a href='https://www.mysociety.org/' target='_blank'>Take me to mySociety</a> <br /><a href='http://kimittud.atlatszo.hu/' target='_blank'>Take me to the Hungarian 'right to know' portal</a> <br /><a href='http://www.fiksgatami.no/' target='_blank'>Take me to Fix my Street Norway</a></p>",
-                "_graphic": {
-                    "src": "course/en/images/odi-003-narrative_large.jpg",
-                    "alt": "Improved service delivery",
-                    "title": "Improved service delivery",
-                    "*source":"https://www.fixmystreet.com/",
-                    "*credit":"fixmystreet",
-                    "*license":"unknown"
-                },
-                "strapline": "Improved service delivery"
-            },
-            {
-                "title": "Cost savings",
-                "body": "<p>By growing economies and improving services, open data allows governments to make savings in key areas, like provision of healthcare, education and utilities.</p><p>In the UK, open data helped reveal <a href='https://theodi.org/news/prescription-savings-worth-millions-identified-odi-incubated-company' target='_blank'>£200 million of savings</a> in the health service</p><p>In France, energy data is being used to drive more efficient energy generation practices<br /><a href='https://www.quandl.com/collections/france/france-energy-data' target='_blank'>Show me the France energy data.</a></p><p>Open data can also bring transparency to budgets. In Switzerland, the canton of Bern presented their <a href='http://be-asp.budget.opendata.ch/' target='_blank'>€400m annual saving</a> to the public using open data</p>",
-                "_graphic": {
-                    "src": "course/en/images/odi-004-narrative_large.jpg",
-                    "alt": "Cost Savings",
-                    "title": "Cost Savings",
-                    "*source":"http://www.shutterstock.com/pic-75494491.html",
-                    "*credit":"vlastas",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "Cost Savings"
-            }
-        ],
-        "_pageLevelProgress": {
-        "_isEnabled": true
-        }
-    },
-            {
+    {
         "_id":"c-25",
         "_parentId":"b-35",
         "_type":"component",
