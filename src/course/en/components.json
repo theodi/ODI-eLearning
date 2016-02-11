@@ -246,6 +246,75 @@
         "_isEnabled": true
       }
     },
+    {
+        "_id": "c-25",
+        "_parentId": "b-25",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "What do ODI Certificates look for?",
+        "displayTitle": "What do ODI Certificates look for?",
+        "body": "Community-driven standards define the legal, practical, technical and social requirements for an open dataset to be useful.",
+        "instruction": "<em class='desktop-instruction'>Click the forward arrow to see more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
+        "_items": [
+            {
+                "title": "Legal requirements",
+                "body": "<p>In addition to the open licence, there are three legal requirements that need to be considered. You must:</p><p><ul><li>Protect sensitive information like personal data.</li><li>Preserve the rights of data owners.</li><li>Promote correct use of the data.</li></ul></p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-2.jpg",
+                    "alt": "Legal",
+                    "title": "Legal",
+                    "*source":"http://www.shutterstock.com/pic-102447179.html",
+                    "*credit":"hoperan",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Legal"
+            },
+            {
+                "title": "Practical requirements",
+                "body": "<p>It is important that open data can be found and relied upon by users.</p><p>This means that open data publishers must:</p><p><ul><li>Link to the data from their website.</li><li>Update the data regularly if it changes.</li><li>Commit to continue to make the data available.</li></ul></p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-3.jpg",
+                    "alt": "Practical",
+                    "title": "Practical",
+                    "*source":"http://www.shutterstock.com/pic-235025131.html",
+                    "*credit":"McIek",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Practical"
+            },
+            {
+                "title": "Technical requirements",
+                "body": "<p>There are three recommendations that define the technical aspects of open data:</p><p><ul><li>The format in which the data is published.</li><li>The structure of the data.</li><li>The channels through which the data is available.</li></ul></p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-4.jpg",
+                    "alt": "Technical",
+                    "title": "Technical",
+                    "*source":"http://www.shutterstock.com/pic-154744388.html",
+                    "*credit":"Oleksiy Mark",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Technical"
+            },
+            {
+                "title": "Social requirements",
+                "body": "<p>For data use to be sustainable, it is important to have an engaged community of users. The best datasets have:</p><p><ul><li>Active support channels.</li><li>Discussion groups and forums.</li><li>Published how-to guides on working with the data.</li></ul></p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-5.jpg",
+                    "alt": "Social",
+                    "title": "Social",
+                    "*source":"http://www.shutterstock.com/pic-187711424.html",
+                    "*credit":"bluebay",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Social"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
      {
         "_id":"c-60",
         "_parentId":"b-60",
