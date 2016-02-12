@@ -25,9 +25,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Open Data in Practice Day 2 - Business & Law",
-        "displayTitle":"Open Data in Practice Day 2 - Business & Law",
-        "body":"<p>This introductory course aims to get you up to speed with latest developments in open data and its significance. It is designed to enable anyone to get started with discovering and using open data and understand the skills and processes required to make it work for you and your organisation.</p>",
+        "title":"Open Data in Practice Day 3 - Enriching & Visualising",
+        "displayTitle":"Open Data in Practice Day 3 - Enriching & Visualising",
+        "body":"<p>In this final day, participants will learn how to clean, enrich and visualise data, all core skills of modern data work.</p>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
@@ -60,23 +60,23 @@
       "_layout":"left",
       "title": "Course overview",
       "displayTitle": "Course overview",
-      "body": "<p>The second day is split into three key sessions. The first session explores definitions of open data and key characteristics, the second takes a closer look at data publishing platforms and the last will get participants hands-on with publication.</p>",
+      "body": "<p>The final day is split into three key sessions - data cleaning, enriching and visualising.</p>",
       "instruction": "<em>The sessions are briefly described below.</em>",
       "_items": [
-        {
-          "alt": "Business & Open Data",
-          "title": "Business & Open Data",
-          "body": "<p>The session explores key definitions of open data.</p><p>The session also examines types of data to determine their uses.</p>"
+         {
+          "alt": "Data cleaning",
+          "title": "Data cleaning",
+          "body": "<p>There is no such thing as a perfectly clean dataset. This session gives you the skills to quickly clean and prepare a dataset for use.</p>"
         },
         {
-          "alt": "Law & Open Data",
-          "title": "Law & Open Data",
-          "body": "<p>The session explores key definitions of open data.</p><p>The session also examines types of data to determine their uses.</p>"
+          "alt": "Enriching data",
+          "title": "Enriching data",
+          "body": "<p>A single dataset will rarely contain all the information you need.</p><p>This session gives you the practical skills to quickly enrich a dataset using open and freely available services on the web.</p>"
         },
         {
-          "alt": "Managing Open Data Projects",
-          "title": "Publishing platforms",
-          "body": "<p>Open data is still a developing field and those working within it will encounter a number of common problems. This sessions presents and clarifys the main challenges before examining the future of open data.</p>"
+          "alt": "Data visualising",
+          "title": "Data visualising",
+          "body": "<p>Visualisation data can help quickly reveal insight.</p><p>This session takes a practical look at producing advanced interactive infographics on the web.</p>"
         }
       ],
       "_pageLevelProgress": {
@@ -109,8 +109,8 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Business & Open Data",
-        "displayTitle":"Business & Open Data",
+        "title":"Cleaning data",
+        "displayTitle":"Cleaning data",
         "body":"<p></p>",
         "instruction":"",
         "_pageLevelProgress": {
@@ -125,102 +125,59 @@
         "_classes":"",
         "_layout":"right",
         "_graphic": {
-            "alt": "Unlocking data from the web",
-            "title": "Unlocking data from the web",
-            "large": "course/en/images/odi-8.jpg",
-            "medium": "course/en/images/odi-8.jpg",
-            "small": "course/en/images/odi-8.jpg",
-            "*source": "http://www.shutterstock.com/pic-144137602",
-            "*credit": "David Arts",
-            "*license": "Shutterstock standard license"
+            "alt": "Data cleaning",
+            "title": "Data cleaning",
+            "large": "course/en/images/odi-10.jpg",
+            "medium": "course/en/images/odi-10.jpg",
+            "small": "course/en/images/odi-10.jpg",
+            "*source": "http://www.shutterstock.com/pic-23541922",
+            "*credit": "Amy Walters",
+            "*license": "Shutterstock Standard License"
         }
     },
     {
       "_id":"c-36",
       "_parentId":"b-35",
       "_type":"component",
-      "_component":"accordion",
-      "_classes":"",
-      "_layout":"left",
-      "title": "Building the Value Proposition",
-      "displayTitle": "Building the Value Proposition",
-      "body": "<p>Open data is still a developing field and faces a number of key challenges which need to be addressed. The following section outlines some of the key areas</p>",
-      "instruction": "<em>Click below to explore each of the tools to unlock data that is <b>on the web</b>.</em>",
-      "_items": [
-        {
-          "alt": "What is a value proposition?",
-          "title": "What is a value proposition?",
-          "body": "<p></p>"
-        },
-        {
-          "alt": "Why are value propositions important?",
-          "title": "Why are value propositions important?",
-          "body": "<p></p>"
-        },
-        {
-          "alt": "Open data value propositions",
-          "title": "Open data value propositions",
-          "body": "<p></p>"
-        },
-        {
-          "alt": "Creating a value proposition for an open data business",
-          "title": "Creating a value proposition for an open data business",
-          "body": "<p></p>"
-        }
-      ],
-      "_pageLevelProgress": {
-        "_isEnabled": true
-      }
-    },
-    {
-        "_id":"c-40",
-        "_parentId":"b-40",
-        "_type":"component",
-        "_component":"graphic",
+      "_component":"text",
         "_classes":"",
         "_layout":"right",
-        "_graphic": {
-            "alt": "Marques of quality",
-            "title": "Marques of quality",
-            "large": "course/en/images/odi-6.jpg",
-            "medium": "course/en/images/odi-6.jpg",
-            "small": "course/en/images/odi-6.jpg",
-            "*source":"http://www.shutterstock.com/pic-254316427.html",
-            "*credit":"tostphoto",
-            "*license":"Shutterstock Standard License"
-        }
+        "title":"Getting started with Data Cleaning",
+        "displayTitle":"Getting started with Data Cleaning",
+        "body":"<p><p>Data cleaning is essential to ensure that when the data is used, the right conclusions are made.</p><p>Often errors are not even noticed by data publishers because the data can change over many years. In other cases, errors can be the result of human mistakes in data entry, like mistyping or incorrect abbreviations.</p><p>Be aware that cleaning may take longer than you think. A careful cleaning process will, however, save substantial time in the long-run.</p><p>Follow our data cleaning exercise to get started with Open Refine and discover how easy it is for yourself.</p>"
     },
     {
-      "_id":"c-41",
-      "_parentId":"b-40",
-      "_type":"component",
-      "_component":"accordion",
-      "_classes":"",
-      "_layout":"left",
-      "title": "Business Value - Case Studies",
-      "displayTitle": "Business Value - Case Studies",
-      "body": "<p></p>",
-      "instruction": "<em>Click the headings to explore further.</em>",
-      "_items": [
-        {
-          "alt": "?????",
-          "title": "?????",
-          "body": "<p></p>"
-        },
-        {
-          "alt": "?????",
-          "title": "?????",
-          "body": "<p></p>"
-        },
-        {
-          "alt": "?????",
-          "title": "?????",
-          "body": "<p></p>"
-        }
-      ],
-      "_pageLevelProgress": {
+        "_id": "c-40",
+        "_parentId": "b-40",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "accordion",
+        "title": "Exercise: Cleaning data",
+        "displayTitle": "Exercise: Cleaning data",
+        "body": "<p>For this exercise you will need a copy of <a href='http://openrefine.org/download.html' target='_blank'>Open Refine</a> and the <a href='course/en/exercises/Spend_april_10_unclean.csv'>unclean dataset</a>.</p>",
+        "instruction": "<em class='desktop-instruction'>Click the forward for more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
+        "_items": [
+            {
+                "title": "Loading your dataset",
+                "body": "<p>To get started, import your dataset into Refine.</p><p>This can be done either by uploading the file or pasting the URL of the file.</p><p>Once your file has been imported you will need an import options screen. Use this to ensure your file looks correct before naming your project and clicking 'create'.</p>"
+            },
+            {
+                "title": "Common transforms",
+                "body": "<p>Wrong date format? White space where there shouldn't be? Numbers that don't appear to be numbers?</p><p>These are all common errors on a dataset. Refine has just the tools to fix these types of errors.</p><p>Find the columns that might have these types of errors and select <b>Edit cells</b> -&gt; <b>Common transforms</b> from that columns drop down to fix them.</p>"
+            },
+            {
+                "title": "Numbers are not numbers?",
+                "body": "<p>Putting comma's in numbers helps a human, but to a computer is it one number of a comma separated list of many?</p><p>To get rid of the comma's in refine select <b>Edit cells</b> -&gt; <b>Transform...</b> from the column drop down and enter the following in the expression box:</p><p><code>value.replace(',','')</code></p>"
+            },
+            {
+                "title": "All sorts of text problems!",
+                "body": "<p>Spelling errors, misplaced apostrophes, lots of s's?, brackets and no brackets?</p><p>All of these errors are common, to find out if your dataset has them, try putting a text facet on a column of text (Select <b>Facet</b> -&gt; <b>Text Facet</b> from a column drop down.</p><p>Refine can also help you fix all the errors automatically. Try pressing the <b>Cluster</b> button from inside the facet and adjust the options to suit.</p>"
+            }
+        ],
+        "_pageLevelProgress": {
         "_isEnabled": true
-      }
+        }
     },
 {
         "_id":"c-60",
@@ -248,9 +205,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Law & Open Data",
-        "displayTitle":"Law & open data",
-        "body":"<p><p>In order for data to be open, it should be accessible (this usually means being published online) and licensed for anyone to access, use and share.</p>",
+        "title":"Enriching data",
+        "displayTitle":"Enriching data",
+        "body":"<p></p>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
@@ -264,14 +221,14 @@
         "_classes":"",
         "_layout":"left",
         "_graphic": {
-            "alt": "Why license open data?",
-            "title": "Why license open data?",
-            "large": "course/en/images/odi-1.jpg",
-            "medium": "course/en/images/odi-1.jpg",
-            "small": "course/en/images/odi-1.jpg",
-            "*source": "http://www.shutterstock.com/pic-270451631.html",
-            "*credit": "Oleksiy Mark",
-            "*license": "Shutterstock Standard License"
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/odi-50.jpg",
+            "medium": "course/en/images/odi-50.jpg",
+            "small": "course/en/images/odi-50.jpg",
+            "*source": "http://www.shutterstock.com/pic-144137602",
+            "*credit": "David Arts",
+            "*license": "Shutterstock standard license"
         }
     },
     {
@@ -280,248 +237,13 @@
         "_type":"component",
         "_component":"text",
         "_classes":"",
-        "_layout":"right",
-        "title":"Why license open data?",
-        "displayTitle":"Why license open data?",
-        "body":"<p>Without a licence, data is not open.</p><p>A licence tells anyone that they can access, use and share your data.</p><p>Unless you have a licence, data may be ‘publicly available’ but users will not have permission to access, use and share it under copyright laws.</p>"
-    },
-     {
-        "_id": "c-70",
-        "_parentId": "b-70",
-        "_classes": "",
-        "_type":"component",
-        "_layout": "full",
-        "_component": "dynamic-narrative",
-        "title": "Benefits of open data licensing",
-        "displayTitle": "Benefits of open data licensing",
-        "body": "Licensing gives permission to businesses, startups, governments and individuals to innovate with open data.",
-        "instruction": "<em class='desktop-instruction'>Click the forward arrow for more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
-        "_items": [
-            {
-                "title": "Providing certainty",
-                "body": "<p>Open data licences provide users with certainty that the data can be used and shared for a wide range of purposes.</p><p>A licence is an explicit permission to use the data for both commercial and non-commercial purposes.</p><p>Without a licence, users may find themselves in a legal grey area.</p>",
-                "_graphic": {
-                    "src": "course/en/images/odi-2.jpg",
-                    "alt": "Providing certainty",
-                    "title": "Providing certainty",
-                    "*source":"http://www.shutterstock.com/pic-77222599.html",
-                    "*credit":"Pavel Ignatov",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "Providing certainty"
-            },
-            {
-                "title": "Providing clarity",
-                "body": "<p>As of 2015, only around 46% of data in open data catalogues across the European Union is truly openly licensed.</p><p>In the EU, copyright and database laws are complex. While data might be intended to be open, a licence provides legal clarity for users.</p><p>The OpenDataMonitor platform provides information and statistics on European open data catalogues.<br /><a href='http://www.opendatamonitor.eu/frontend/web/index.php?r=datacatalogue%2Findex' target='_blank'>Take me to the OpenDataMonitor platform</a></p>",
-    "_iframe": {
-                    "src": "course/en/dynamic/graph1.html",
-                    "alt": "A graph of open licences across countries",
-                    "title": "A graph of open licences across countries"
-                },
-                "strapline": "Providing clarity"
-            },
-            {
-                "title": "Enabling innovation",
-                "body": "<p>Open data licences enable experimentation, exploration and innovative uses of open data in new products and services.</p><p>For example, Transport for London’s transport data is openly licensed. It has underpinned a wide range of public transport journey planners, available as apps on smartphones and mobile devices.<br /><a href='https://tfl.gov.uk/info-for/open-data-users/' target='_blank'>Take me to Transport for London </a></p>",
-                "_graphic": {
-                    "src": "course/en/images/odi-4.jpg",
-                    "alt": "Enabling innovation",
-                    "title": "Enabling innovation",
-                    "*source":"http://www.shutterstock.com/pic-173841626.html",
-                    "*credit":"Claudio Divizia",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "Enabling innovation"
-            }
-        ],
-        "_pageLevelProgress": {
-        "_isEnabled": true
-        }
-    },
-    {
-        "_id":"c-75",
-        "_parentId":"b-75",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"right",
-        "title":"",
-        "displayTitle":"",
-        "body":"",
-        "instruction":"",
-        "_graphic": {
-            "alt": "How to locate a licence?",
-            "title": "How to locate a licence?",
-            "large": "course/en/images/odi-5.jpg",
-            "medium": "course/en/images/odi-5.jpg",
-            "small": "course/en/images/odi-5.jpg",
-            "*source":"sponge uk",
-            "*credit":"sponge uk",
-            "*license":"Creative commons attribute 4.0 international"
-        }
-    },
-    {
-        "_id":"c-76",
-        "_parentId":"b-75",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"",
         "_layout":"left",
-        "title":"How to locate a licence?",
-        "displayTitle":"How to locate a licence?",
-        "body":"<pPublishers of open data should provide easy access to the licence for all datasets that are available to access, use and share.</p><p>The location and layout of licence information may vary according to jurisdiction, industry and individual style.</p><p>Best practice suggests that licences should be easy to find and read. In the next section, we show you how to find a licence.</p>",
+        "title":"Exercise: Enriching data",
+        "displayTitle":"Exercise: Enriching data",
+        "body":"<p>One dataset will rarely be sufficient to enable you to discover insight.</p><p>Fortunately Refine is able to do a lot more than just data cleaning. Refine is also a powerful tool for combining and enriching datasets using online services and API endpoints.</p><p>Use the following exercise to enrich your cleaned dataset:</p><p><a class='course_link' href='course/en/exercises/EnrichingData.pdf' target='_blank'>Enrich data in Refine.</a></p>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
-        }
-    },
-     {
-        "_id": "c-80",
-        "_parentId": "b-80",
-        "_classes": "",
-        "_type":"component",
-        "_layout": "full",
-        "_component": "narrative",
-        "title": "Simple licences, easily found",
-        "displayTitle": "Simple licences, easily found",
-        "body": "Every publisher of open data presents their licences differently.  Here are some examples.",
-        "instruction": "<em class='desktop-instruction'>Click the forward arrow to see more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
-        "_items": [
-            {
-                "title": "UK Government",
-                "body": "<p>The UK Government uses an Open Government Licence.</p><p>This example clearly shows the licence at the top of the web page where the dataset is accessed. The licence information is a hyperlink that displays the licence in full.</p><p>Have a look at this example dataset and its licence. While you are there, feel free to explore all the other datasets and services they offer.<br /><a href='http://data.gov.uk/dataset/financial-transactions-data-fco' target='_blank'>Take me to Data.gov.uk</a></p>",
-                "_graphic": {
-                    "src": "course/en/images/odi-6.jpg",
-                    "alt": "UK Government",
-                    "title": "UK Government",
-                    "*source":"http://data.gov.uk/dataset/financial-transactions-data-fco",
-                    "*credit":"data.gov.uk",
-                    "*license":"Open Government Licence"
-                },
-                "strapline": "UK Government"
-            },
-            {
-                "title": "Singapore Government",
-                "body": "<p>Singapore government also publishes data which is openly licensed but the licence can be difficult to locate.</p><p>The ‘licence’ terms and conditions are accessed by clicking on the data download icons or URL, or via the terms and conditions link at the very bottom of the web page.</p><p>Have a look at this example dataset and its licence. While you are there, feel free to explore all the other datasets and services they offer.<br /><a href='http://data.gov.sg/Metadata/OneMapMetadata.aspx?id=DENGUE_CLUSTER&t=SPATIAL' target='_blank'>Take me to data.gov.sg</a></p>",
-                "_graphic": {
-                    "src": "course/en/images/odi-7.jpg",
-                    "alt": "Singapore Government",
-                    "title": "Singapore Government",
-                    "*source":"http://data.gov.sg/Metadata/OneMapMetadata.aspx?id=DENGUE_CLUSTER&t=SPATIAL",
-                    "*credit":"data.gov.sg",
-                    "*license":"n/a"
-                },
-                "strapline": "Singapore Government"
-            }
-        ],
-        "_pageLevelProgress": {
-        "_isEnabled": true
-        }
-    },
-    {
-        "_id":"c-85",
-        "_parentId":"b-85",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"right",
-        "_graphic": {
-            "alt": "Types of licences",
-            "title": "Types of licences",
-            "large": "course/en/images/odi-8.jpg",
-            "medium": "course/en/images/odi-8.jpg",
-            "small": "course/en/images/odi-8.jpg",
-            "*source":"http://www.shutterstock.com/pic-278179001.html",
-            "*credit":"Eugene Sergeev",
-            "*license":"Shutterstock Standard License"
-        }
-    },
-    {
-      "_id":"c-86",
-      "_parentId":"b-85",
-      "_type":"component",
-      "_component":"accordion",
-      "_classes":"",
-      "_layout":"left",
-      "title": "Types of licences",
-      "displayTitle": "Types of licences",
-      "body": "<p>The simpler the licence, the better!</p><p>There are lots of different licences. To maximise reuse, try to adopt a licence standard that is already widely used.</p><p><a href='https://theodi.org/guides/reusers-guide-open-data-licensing' target='_blank'>Take me to a guide on licensing</a></p>",
-      "instruction": "<em>Click the headings to explore further.</em>",
-      "_items": [
-        {
-          "alt": "Creative Commons licences",
-          "title": "Creative Commons licences",
-          "body": "<p>Creative Commons licences are widely used for open content. Version 4.0 explicitly considers data licensing.</p><p>There are three Creative Commons versions of an open licence:</p><ul><li><strong>Public domain: (CC0)</strong></li><li><strong>Attribution: (CC-BY v4.0)</strong></li><li><strong>Attribution & share-alike: (CC-BY-SA v4.0)</strong></li></ul><p>The public domain and attribution licences give most flexibility in the use of data while a share-alike licence may limit the commercial use of the data.<br /><a href='https://creativecommons.org/publicdomain/zero/1.0/' target='_blank'>Show me a Public Domain licence</a><br><a href='https://creativecommons.org/licenses/by/4.0/' target='_blank'>Show me an Attribution licence</a><br><a href='https://creativecommons.org/licenses/by-sa/4.0/' target='_blank'>Show me an Attribution & share-alike licence</a></p><p>You can choose a licence that works for you at the Creative Commons website:<br><a href='https://creativecommons.org/choose/' target='_blank'>Show me how to make my own Creative Commons licence</a></p>"
-        },
-        {
-          "alt": "Bespoke/Custom-made licences",
-          "title": "Bespoke/Custom-made licences",
-          "body": "<p>A bespoke or custom-made licence is a creation of the data publisher which introduces specific conditions with which the user must comply. Bespoke or custom-made licences can be written by the publisher or adapted from a standard licence through the addition of new conditions and/or the modification of existing ones.</p><p>Bespoke and custom-made licences can increase complexity for users of open data.</p><p>They may introduce specific conditions that limit usage, restrict data integration and, in some cases, are difficult for users to comply with.</p>"
-        },
-        {
-          "alt": "Open government licences",
-          "title": "Open government licences",
-          "body": "<p>Some publishers have chosen to develop their own licences.</p><p>The best examples are:</p><ul><li>short</li><li>compatible with widely used licences</li><li>easy to comply with</li></ul><p>A good example of a clear open license has been created by the French government.<br /><a href='http://wiki.data.gouv.fr/wiki/Licence_Ouverte_/_Open_Licence' target='_blank'>Take me to the French Government open licence</a></p><p>The UK Government has a good example of an open licence developed in this way that is used by UK Government departments:<br /><a href='http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/' target='_blank'>Take me to the UK Government open licence</a></p>"
-        }
-      ],
-      "_pageLevelProgress": {
-        "_isEnabled": true
-      }
-    },
-     {
-        "_id": "c-90",
-        "_parentId": "b-90",
-        "_classes": "",
-        "_type":"component",
-        "_layout": "full",
-        "_component": "narrative",
-        "title": "Licences and third parties",
-        "displayTitle": "Licences and third parties",
-        "body": "The publication of open data may be required as part of the tendering, procurement and contracting lifecycle.",
-        "instruction": "<em class='desktop-instruction'>Click the forward arrow to see more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
-        "_items": [
-            {
-                "title": "Third parties",
-                "body": "<p>Governments and organisations use contractors to provide services on their behalf.</p><p>These governments and organisations may be committed to publishing open data, and extend that to third parties.</p><p>This publication is important because where public money is spent, it should create a public good and opening the data is an effective way to deliver this.</p>",
-                "_graphic": {
-                    "src": "course/en/images/odi-9.jpg",
-                    "alt": "Third parties",
-                    "title": "Third parties",
-                    "*source":"http://www.shutterstock.com/pic-239545075.html",
-                    "*credit":"everything possible",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "Third parties"
-            },
-            {
-                "title": "Including open data in contracts",
-                "body": "<p>To ensure that data collected and used by contractors is also published as open data, an organisation can:</p><ul><li>include this as a condition in the contract.</li><li>retain ownership of the data to publish it as open data themselves.</li></ul><p><a href='http://training.theodi.org/Procurement/Guide/' target='_blank'>Take me to a guide on embedding open data into contracts</a></p>",
-                "_graphic": {
-                    "src": "course/en/images/odi-10.jpg",
-                    "alt": "Including open data in contracts",
-                    "title": "Including open data in contracts",
-                    "*source":"http://www.shutterstock.com/pic-159737504.html",
-                    "*credit":"Myvector",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "Including open data in contracts"
-            },
-            {
-                "title": "Open data about performance",
-                "body": "<p>Performance data and data related to how services are provided can also be required of a contractor, to be published as open data.</p><p>Past performance data helps potential suppliers understand which parts of the contract are easy or difficult, and enables competition during the tendering process.</p>",
-                "_graphic": {
-                    "src": "course/en/images/odi-11.jpg",
-                    "alt": "Open data about performance",
-                    "title": "Open data about performance",
-                    "*source":"http://www.shutterstock.com/pic-201870622.html",
-                    "*credit":"Your Design",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "Open data about performance"
-            }
-        ],
-        "_pageLevelProgress": {
-        "_isEnabled": true
         }
     },
     {
@@ -550,8 +272,8 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Managing open data projects",
-        "displayTitle":"Managing open data projects",
+        "title":"Visualising data",
+        "displayTitle":"Visualising data",
         "body":"<p></p>",
         "instruction":"",
         "_pageLevelProgress": {
@@ -564,50 +286,63 @@
         "_classes": "",
         "_type":"component",
         "_layout": "full",
-        "_component": "narrative",
-        "title": "Leadership and engagement",
-        "displayTitle": "Leadership and engagement",
-        "body": "Active leadership and engagement helps foster successful initiatives.",
-        "instruction": "<em class='desktop-instruction'>Click the forward arrow to see more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
+       "_component": "dynamic-narrative",
+        "title": "Exploring data through visualisation",
+        "displayTitle": "Exploring data through visualisation",
+        "body": "<p></p>",
+        "instruction": "<em class='desktop-instruction'>Click the forward arrow for more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
         "_items": [
             {
-                "title": "Active leadership",
-                "body": "<p>As an open data programme is launched, it is common for those driving it to meet some resistance from others.</p><p>Active support from senior figures can help to encourage others to support you.</p>",
+                "title": "Exploring space",
+                "body": "<p>The Universe is vast and on a scale people just simply cannot grasp.</p><p>Visualising this effectively is key to increase understanding of our place in the Universe.</p>",
                 "_graphic": {
-                    "src": "course/en/images/odi-012_large.jpg",
-                    "alt": "Active Leadership",
-                    "title": "Active Leadership",
-                    "*source":"http://www.shutterstock.com/pic-238771996.html",
-                    "*credit":"Mangsaab",
-                    "*license":"Shutterstock Standard License"
+                    "src": "course/en/images/odi-90a.png",
+                    "alt": "The planets",
+                    "title": "The planets",
+                    "*source":"https://commons.wikimedia.org/wiki/File:Relative_satellite_sizes.jpg",
+                    "*credit":"tony_g100",
+                    "*license":"CC-Zero"
                 },
-                "strapline": "Active Leadership"
+                "strapline": "Exploring space"
             },
             {
-                "title": "Active engagement",
-                "body": "<p>Engagement with ordinary people, businesses and government are important parts of an open data initiative.</p><p>Successful initiatives tend to start with a conversation between publishers and consumers of data.</p><p>This conversation is important for both sides to understand what data can bring out the best results with the least investment.</p>",
+                "title": "Faster transport?",
+                "body": "<p>Visualising data can quickly tell us stories of progress.</p><p>The example on the left became part of the advertising campaign for SNCF. It was used to communicate how much faster the new TGV trains were.</p>",
                 "_graphic": {
-                    "src": "course/en/images/odi-013_large.jpg",
-                    "alt": "Active Engagement",
-                    "title": "Active Engagement",
-                    "*source":"http://www.shutterstock.com/pic-82049359.html",
-                    "*credit":"Carsten Reisinger",
-                    "*license":"Shutterstock Standard License"
+                    "src": "course/en/images/odi-90b.png",
+                    "alt": "SNCF",
+                    "title": "SNCF",
+                    "*source":"http://www.c82.net/blog/?id=66",
+                    "*credit":"E.J. Mare",
+                    "*license":"Unknown"
                 },
-                "strapline": "Active Engagement"
+                "strapline": "Faster transport"
             },
             {
-                "title": "Finding space to innovate",
-                "body": "<p>Strong leadership and active engagement are key to any successful initiative.</p><p>Active leadership delivers a 'push' from the organisation, active dialogue creates a 'pull' from users.</p><p>Open data leadership and dialogue unlock innovation opportunities by data with creative people.</p>",
+                "title": "Light cycles",
+                "body": "<p>Improving mobility is key to the future of successful and smart cities.</p><p>Visualising usage of transport systems (in this case bicycles in London) can help make key decisions about future planning of such systems.</p><p><a href='https://vimeo.com/33712288' target=''>Click here to watch the full video.</a>",
                 "_graphic": {
-                    "src": "course/en/images/odi-014_large.jpg",
-                    "alt": "Space to innovate",
-                    "title": "Space to innovate",
-                    "*source":"http://www.shutterstock.com/pic-33265168.html",
-                    "*credit":"Tonis Pan",
-                    "*license":"Shutterstock Standard License"
+                    "src": "course/en/images/odi-90c.png",
+                    "alt": "Light cycles",
+                    "title": "Light cycles",
+                    "*source":"https://vimeo.com/33712288",
+                    "*credit":"Jo Wood ",
+                    "*license":"Unknown"
                 },
-                "strapline": "Space to innovate"
+                "strapline": "Light cycles"
+            },
+            {
+                "title": "In flight",
+                "body": "<p>Transport problems are not just limited to single cities. There is a lot we can learn from analysing global transport patterns.</p><p>This example looks at the evolution of flight and uses advanced visualision to tell a story about the history of flight. Using a bit of machine learning, it even attempts to predict the future.</p><p><a href='http://www.theguardian.com/world/ng-interactive/2014/aviation-100-years' target='_blank'>Click here to explore In Flight</a></p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-90d.png",
+                    "alt": "In Flight",
+                    "title": "In Flight",
+                    "*source":"http://www.theguardian.com/world/ng-interactive/2014/aviation-100-years",
+                    "*credit":"The Guardian",
+                    "*license":"Unknown"
+                },
+                "strapline": "In flight"
             }
         ],
         "_pageLevelProgress": {
@@ -622,47 +357,30 @@
         "_classes":"",
         "_layout":"right",
         "_graphic": {
-            "alt": "Supply and Demand",
-            "title": "Supply and Demand",
-            "large": "course/en/images/odi-015_large.png",
-            "medium": "course/en/images/odi-015_large.png",
-            "small": "course/en/images/odi-015_large.png",
-            "*source":"http://www.shutterstock.com/pic-245234284.html",
-            "*credit":"Positive thinker",
-            "*license":"Shutterstock Standard License"
+            "alt": "Cross filters",
+            "title": "Cross filters",
+            "large": "course/en/images/odi-60.jpg",
+            "medium": "course/en/images/odi-60.jpg",
+            "small": "course/en/images/odi-60.jpg",
+            "*source":"sponge uk",
+            "*credit":"sponge uk",
+            "*license":"Creative commons attribute 4.0 international"
         }
     },
     {
       "_id":"c-106",
       "_parentId":"b-105",
       "_type":"component",
-      "_component":"accordion",
-      "_classes":"",
-      "_layout":"left",
-      "title": "Supply and demand",
-      "displayTitle": "Supply and demand",
-      "body": "<p>When examining an open data initiative, consider the following:</p>",
-      "instruction": "<em>Click the headings to explore further.</em>",
-      "_items": [
-        {
-          "alt": "Your approach",
-          "title": "Your approach",
-          "body": "<p>Many open data publishers have taken the approach of building a portal, publishing the data they have, and hoping it is what consumers want or need.</p><p>As open data becomes more popular, people are starting to think first about the needs of people are and shape their initiatives around this.</p><p>A staged approach helps ensure that an organisation does not waste time or money and achieves change in small, noticeable steps, rather than setting ambitious goals that are hard to meet.</p>"
-        },
-        {
-          "alt": "Who wants your data?",
-          "title": "Who wants your data?",
-          "body": "<p>Publishing open data that noone uses can waste time and money.</p><p>It is often best to focus on demand that currently exists.</p><p>Use conversations with those who build things with data to see where the demand is and follow it.</p><p>Think about problems that already exist and how your data relates to them. Offer your data as a tool to help build solutions.</p>"
-        },
-        {
-          "alt": "Who will use and support your data?",
-          "title": "Who will use and support your data?",
-          "body": "<p>Most successful open data initiative has an engaged community who actively use the data, with access to resources that support them.</p><p>A strong community of data users has a sense of shared responsibility over the data. This responsibility should cover both the data and the outputs generated from it.</p><p>It is important for publishers and consumers to understand each others’ perspectives.</p><p>A good example of a strong open data community is the Open Street Map project.<br /><a href='https://www.openstreetmap.org/' target='_blank'>Take me to the Open Street Map project</a></p>"
+      "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Exercise: Visualising data",
+        "displayTitle":"Exercise: Visualising data",
+        "body":"<p>Visualisations can help us explore a dataset to unlock insight.</p><p>In particular faceted browsing (or cross filters) allow consumers to filter the data visually. Such browsers are commonly now used by holiday and flight websites, such as <a href='http://www.skyscanner.net/' target='_blank'>Sky scanner</a> to help you filter your search results or change input parameters.</p><p>The following exercise use the clean and enriched dataset to create a faceted online browser.</p><p><a class='course_link' href='course/en/exercises/ExploringComplexDatasets.pdf' target='_blank'>Get started with visualisation</a></p><p>You will need <a href='http://codepen.io/davetaz/pen/Kdberx' target='_blank'>this link</a> to start the exercise.</p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
         }
-      ],
-      "_pageLevelProgress": {
-        "_isEnabled": true
-      }
     },
     {
         "_id":"c-110",
@@ -689,9 +407,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Open Data in Practice Day 2 - Business & Law",
-        "displayTitle":"Open Data in Practice Day 2 - Business & Law",
-        "body":"<p>This introductory course aims to get you up to speed with latest developments in open data and its significance. It is designed to enable anyone to get started with discovering and using open data and understand the skills and processes required to make it work for you and your organisation.</p>",
+        "title":"Open Data in Practice Day 3 - Enriching & Visualising",
+        "displayTitle":"Open Data in Practice Day 3 - Enriching & Visualising",
+        "body":"<p>In this final day, participants have learned how to clean, enrich and visualise data, all core skills of modern data work.</p>",
         "_pageLevelProgress": {
           "_isEnabled": true
         }
