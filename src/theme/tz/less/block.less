@@ -178,3 +178,23 @@
         }
     }
 }
+// Section banner (ODI ADDED)
+// ===========================================
+.block {
+    // Section banner
+    &.section-banner {
+        .block-inner {
+            padding: 30px 100px;
+            @media all and (max-width:(@device-width-medium - 1px)) {
+                padding: 30px 20px;
+            }
+        }
+        .text-inner {
+            padding-top: 70px;
+            @media all and (max-width:(@device-width-medium - 1px)) {
+                padding-top: 0px;
+                text-align: center;
+            }
+        }
+    }
+}
