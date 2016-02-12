@@ -1,6 +1,16 @@
 #!/bin/bash
 # Syntax ./bin/build module1 en eu
 MODULE=$1
+if [ $MODULE == "--help" ]
+then
+	echo "./bin/build module_id language theme"
+	exit
+fi
+if [ $MODULE == "help" ]
+then
+	echo "./bin/build module_id language theme"
+	exit
+fi
 if [ -z $1 ]
 then
 	MODULE=`git --git-dir=.module rev-parse --abbrev-ref HEAD`
