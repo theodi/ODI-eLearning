@@ -1,29 +1,36 @@
 #!/bin/bash
 # Syntax ./bin/build module1 en eu
+MODULE=$1
 if [ -z $1 ]
 then
-	echo "Specify a module you idiot!"
+	MODULE=`git --git-dir=.module rev-parse --abbrev-ref HEAD`
+	echo "No module specified, using $MODULE"
 	echo "./bin/build module_id language theme"
-	exit
 fi
+LANG=$2
 if [ -z $2 ]
 then
-	echo "Specify a language you idiot!"
+	LANG="en"
+	echo "No language specified, using 'en'"
 	echo "./bin/build module_id language theme"
-	exit
 fi
 THEME=$3
 if [ -z $3 ]
 then
+	echo "No theme specificed, using 'default'"
 	THEME="default"
 	echo "Using theme $THEME"
 fi
 OUTPATH=modules/$THEME/
 `rm -fR build`
 
-echo "Retriving module"
-git --git-dir=.module checkout $1
-#git --git-dir=.module pull
+if [ $MODULE ]
+then 
+	echo "Retriving module"
+	git --git-dir=.module checkout $MODULE
+	#git --git-dir=.module pull
+fi
+
 echo "Backing up languages"
 rm -fR tmp
 mkdir tmp
@@ -32,16 +39,16 @@ echo ""
 echo "Selecting language"
 echo ""
 `rm -fR src/course/*`
-`cp -r tmp/$2 src/course/`
-`cp src/course/$2/config.json src/course/`
+`cp -r tmp/$LANG src/course/`
+`cp src/course/$LANG/config.json src/course/`
 
 echo "removing video" 
 echo ""
-`rm -fR src/course/$2/video`
+`rm -fR src/course/$LANG/video`
 
 echo "Updating control path"
 echo ""
-sed -i -e "s/en\/course\/en\/js\/control/$THEME\/$2\/course\/$2\/js\/control/g" src/index.html
+sed -i -e "s/en\/course\/en\/js\/control/$THEME\/$LANG\/course\/$LANG\/js\/control/g" src/index.html
 
 # Find the theme path
 SRCTHEME=$THEME
@@ -56,7 +63,7 @@ then
 fi
 echo "Updating image path"
 echo ""
-sed -i -e "s/course\/en\/images/course\/$2\/images/g" src/theme/$THEME/less/header.less
+sed -i -e "s/course\/en\/images/course\/$LANG\/images/g" src/theme/$THEME/less/header.less
 
 echo "Building module";
 rm -fR build
@@ -64,14 +71,14 @@ grunt build --theme=$THEME
 
 echo "building scorm package"
 cd build
-zip -r course/$2/data/scorm.zip * >/dev/null 
+zip -r course/$LANG/data/scorm.zip * >/dev/null 
 cd ..
 
 echo "Restoring structure";
 `rm -fR src/course/*`
 `mv tmp/* src/course/`
-sed -i -e "s/course\/$2\/images/course\/en\/images/g" src/theme/$THEME/less/header.less
-sed -i -e "s/$THEME\/$2\/course\/$2\/js\/control/en\/course\/en\/js\/control/g" src/index.html
+sed -i -e "s/course\/$LANG\/images/course\/en\/images/g" src/theme/$THEME/less/header.less
+sed -i -e "s/$THEME\/$LANG\/course\/$LANG\/js\/control/en\/course\/en\/js\/control/g" src/index.html
 if [ $REMOVE ]; then
 	echo "removing theme components"
 	`rm src/theme/$THEME/less/custom.less`
@@ -80,6 +87,6 @@ fi
 
 echo "Moving module into place"
 `mkdir $OUTPATH/`
-`mkdir $OUTPATH/$2/`
-`rm -fR $OUTPATH/$2/$1`
-`cp -r build $OUTPATH/$2/$1`
+`mkdir $OUTPATH/$LANG/`
+`rm -fR $OUTPATH/$LANG/$MODULE`
+`cp -r build $OUTPATH/$LANG/$MODULE`
