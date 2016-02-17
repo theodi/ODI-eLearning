@@ -254,7 +254,7 @@
         "_layout":"left",
         "title":"How can I get an Open Data Certificate?",
         "displayTitle":"How can I get an Open Data Certificate?",
-        "body":"<p>Getting your Open Data Certificate is simple.</p>First, you complete a short questionnaire to assess the level of support you provide for the data. Depending on the answers, the ODI awards a badge that can be embedded on your website to signify the quality level of your publication.</p><p>If you are publishing your data in a machine readable way (for example, by using a data portal like ckan), the site can pre-fill many of the certificate questions. Just enter the URL on the first page to get started.</p>"
+        "body":"<p>Getting your Open Data Certificate is simple.</p>First, you complete a short questionnaire to assess the level of support you provide for the data. Depending on the answers, the ODI awards a badge that can be embedded on your website to signify the quality level of your publication.</p><p>If you are publishing your data in a machine readable way (for example, by using a data portal like ckan), the site can pre-fill many of the certificate questions. Just enter the URL on the first page to get started.<br /><a href='https://certificates.theodi.org/en' target='_blank'>Take me to the ODI Open Data Certificates Site</a></p>"
     },
     {
         "_id":"c-40",
@@ -320,37 +320,29 @@
         "_questionWeight":1,
         "_isRandom":true,
         "_selectable":1,
-        "title": "Cases for publishing open data",
-        "displayTitle": "Cases for publishing open data",
-        "body": "<p>Which of the following is NOT a case for a local authority to publish open data</p>",
+        "title": "Benefits of consistent publishing",
+        "displayTitle": "Benefits of consistent publishing",
+        "body": "<p>Which of the following is a benefit of publishing in a consistent way?</p>",
         "instruction": "<em>Select an option, then click 'Submit'.</em>",
         "_items": [
             {
-                "text": "improved services",
+                "text": "Easier to manage staff",
                 "_shouldBeSelected": false
             },
             {
-                "text": "stronger leadership",
+                "text": "Easier to share data between departments",
                 "_shouldBeSelected": true
             },
             {
-                "text": "transparency",
-                "_shouldBeSelected": false
-            },
-            {
-                "text": "innovation",
-                "_shouldBeSelected": false
-            },
-            {
-                "text": "economic benefit",
+                "text": "Easier to run payroll",
                 "_shouldBeSelected": false
             }
         ],
         "_feedback":{
-            "correct":"<h5>That’s right!</h5><p>Publishing open data can support improved service delivery, transparency, innovation economies and economic benefits to the local area</p>",
+            "correct":"<h5>That’s right!</h5><p>Publishing open data cin a consistent format makes it simple for people to get the data they need without contacting different departments.</p>",
             "_incorrect": {
-                "notFinal": "h5>Are you sure about that?</h5><p>That’s right!</h5><p>Publishing open data can support improved service delivery, transparency, innovation economies and economic benefits to the local area</p>",
-                "final": "<h5>Are you sure about that?</h5><p>That’s right!</h5><p>Publishing open data can support improved service delivery, transparency, innovation economies and economic benefits to the local area</p>"
+                "notFinal": "h5>Are you sure about that?</h5><p>That’s right!</h5><p>Publishing open data cin a consistent format makes it simple for people to get the data they need without contacting different departments.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>That’s right!</h5><p>Publishing open data cin a consistent format makes it simple for people to get the data they need without contacting different departments.</p>"
             },
             "_partlyCorrect": {
                 "notFinal": "<h5>Are you sure about that?</h5><p>That’s right!</h5><p>Publishing open data can support improved service delivery, transparency, innovation economies and economic benefits to the local area</p>",
@@ -396,33 +388,33 @@
         "_questionWeight":1,
         "_isRandom":true,
         "_selectable":1,
-        "title": "Cost savings from open data",
-        "displayTitle": "Cost savings from open data",
-        "body": "<p>Which of the case studies below is NOT a real example of cost savings from open data?</p>",
+        "title": "Best practices for local authority publishing",
+        "displayTitle": "Best practices for local authority publishing",
+        "body": "<p>Where can authorities go to find clear guidance on publishing consistently?</p>",
         "instruction": "<em>Select an option, then click 'Submit'.</em>",
         "_items": [
             {
-                "text": "Windsor & Maidenhead save 16% on energy consumption in their buildings",
+                "text": "Data.gov.uk",
                 "_shouldBeSelected": false
             },
             {
-                "text": "Carisle save up to £15000 per year on business rates FoI request",
+                "text": "Cabinet Office Website",
                 "_shouldBeSelected": false
             },
             {
-                "text": "Perthshire increase bus service effiency by 24%",
+                "text": "LG Inform Plus",
                 "_shouldBeSelected": true
             }
         ],
         "_feedback":{
-            "correct":"<h5>That’s right!</h5><p>Among the best local authority case studies of cost savings in open data are Windsor & Maidenhead's 16% energy reduction and Carlisle's saving on FoI from business rates.</p>",
+            "correct":"<h5>That’s right!</h5><p>The LGA's Inform Plus website provides comprehensve gudiance on the best practices for consistent publication of open data.</p>",
             "_incorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>Among the best local authority case studies of cost savings in open data are Windsor & Maidenhead's 16% energy reduction and Carlisle's saving on FoI from business rates.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>Among the best local authority case studies of cost savings in open data are Windsor & Maidenhead's 16% energy reduction and Carlisle's saving on FoI from business rates.</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>The LGA's Inform Plus website provides comprehensve gudiance on the best practices for consistent publication of open data.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>The LGA's Inform Plus website provides comprehensve gudiance on the best practices for consistent publication of open data.</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>Among the best local authority case studies of cost savings in open data are Windsor & Maidenhead's 16% energy reduction and Carlisle's saving on FoI from business rates.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>Among the best local authority case studies of cost savings in open data are Windsor & Maidenhead's 16% energy reduction and Carlisle's saving on FoI from business rates.</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>The LGA's Inform Plus website provides comprehensve gudiance on the best practices for consistent publication of open data.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>The LGA's Inform Plus website provides comprehensve gudiance on the best practices for consistent publication of open data.</p>"
           }
         },
         "_buttons":{
@@ -436,8 +428,76 @@
       }
     },
     {
-        "_id":"c-46",
-        "_parentId":"b-46",
+        "_id":"c-55",
+        "_parentId":"b-35",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Legal considerations",
+            "title": "",
+            "large": "course/en/images/odi-8.jpg",
+            "medium": "course/en/images/odi-8.jpg",
+            "small": "course/en/images/odi-8.jpg",
+            "*source":"http://www.shutterstock.com/pic-102447179.html",
+            "*credit":"hoperan",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-60",
+        "_parentId":"b-35",
+        "_type":"component",
+        "_component":"mcq",
+        "_classes":"",
+        "_layout":"right",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Legal considerations",
+        "displayTitle": "Legal considerations",
+        "body": "<p>There are three legal considerations as part of the standards for publishing open data, one of which is...</p>",
+        "instruction": "<em>Select an option, then click 'Submit'.</em>",
+        "_items": [
+            {
+                "text": "not to break the licensing law.",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "to publish any type of data.",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "to protect sensitive information such as personal data.",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>That’s right!</h5><p>In addition to the open licence, there are three legal requirements that need to be considered.  Protect sensitive information like personal data, preserve the rights of data owners and promote correct use of the data.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Are you sure about that?</h5><p>In addition to the open licence, there are three legal requirements that need to be considered.  Protect sensitive information like personal data, preserve the rights of data owners and promote correct use of the data.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>In addition to the open licence, there are three legal requirements that need to be considered.  Protect sensitive information like personal data, preserve the rights of data owners and promote correct use of the data.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Are you sure about that?</h5><p>In addition to the open licence, there are three legal requirements that need to be considered.  Protect sensitive information like personal data, preserve the rights of data owners and promote correct use of the data.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>In addition to the open licence, there are three legal requirements that need to be considered.  Protect sensitive information like personal data, preserve the rights of data owners and promote correct use of the data.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-65",
+        "_parentId":"b-40",
         "_type":"component",
         "_component":"graphic",
         "_classes":"illustration",
@@ -454,8 +514,8 @@
         }
     },
     {
-        "_id":"c-47",
-        "_parentId":"b-46",
+        "_id":"c-70",
+        "_parentId":"b-40",
         "_type":"component",
         "_component":"mcq",
         "_classes":"",
@@ -464,101 +524,33 @@
         "_questionWeight":1,
         "_isRandom":true,
         "_selectable":1,
-        "title": "Support growing economies",
-        "displayTitle": "Support growing economies",
-        "body": "<p>Leeds Data Mill is supporting companies creating new services in a range of areas including...</p>",
+        "title": "Technical considerations",
+        "displayTitle": "Technical considerations",
+        "body": "<p>There are three technical considerations as part of the standards for publishing open data, one of which is...</p>",
         "instruction": "<em>Select an option, then click 'Submit'.</em>",
         "_items": [
             {
-                "text": "Tourism, waste management and schools",
+                "text": "What format the open data is published in.",
                 "_shouldBeSelected": true
             },
             {
-                "text": "Water management, elections and street lighting",
+                "text": "Whether it can it be used on a computer.",
                 "_shouldBeSelected": false
             },
             {
-                "text": "Phone services, drainage and trains",
+                "text": "Whether it takes up much bandwidth.",
                 "_shouldBeSelected": false
             }
         ],
         "_feedback":{
-            "correct":"<h5>That’s right!</h5><p>Among Leeds Data Mill's 250+ registered users are companies working in tourism, waste management and schools.</p>",
+            "correct":"<h5>That’s right!</h5><p>There are three recommendations that define the technical aspects of open data.  The format in which the data is published in, the structure of the data and the channels through which the data is available.</p>",
             "_incorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>Among Leeds Data Mill's 250+ registered users are companies working in tourism, waste management and schools.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>Among Leeds Data Mill's 250+ registered users are companies working in tourism, waste management and schools.</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>There are three recommendations that define the technical aspects of open data.  The format in which the data is published in, the structure of the data and the channels through which the data is available.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>There are three recommendations that define the technical aspects of open data.  The format in which the data is published in, the structure of the data and the channels through which the data is available.</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>Among Leeds Data Mill's 250+ registered users are companies working in tourism, waste management and schools.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>Among Leeds Data Mill's 250+ registered users are companies working in tourism, waste management and schools.</p>"
-          }
-        },
-        "_buttons":{
-            "submit":"",
-            "reset":"",
-            "showCorrectAnswer":"",
-            "hideCorrectAnswer":""
-        },
-        "_pageLevelProgress": {
-        "_isEnabled": true
-      }
-    },
-    {
-        "_id":"c-48",
-        "_parentId":"b-48",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"illustration",
-        "_layout":"left",
-        "_graphic": {
-            "alt": "Marques of quality",
-            "title": "",
-            "large": "course/en/images/odi-10.jpg",
-            "medium": "course/en/images/odi-10.jpg",
-            "small": "course/en/images/odi-10.jpg",
-            "*source":"http://www.shutterstock.com/pic-254316427.html",
-            "*credit":"tostphoto",
-            "*license":"Shutterstock Standard License"
-        }
-    },
-    {
-        "_id":"c-49",
-        "_parentId":"b-48",
-        "_type":"component",
-        "_component":"mcq",
-        "_classes":"",
-        "_layout":"right",
-        "_attempts":1,
-        "_questionWeight":1,
-        "_isRandom":true,
-        "_selectable":1,
-        "title": "Bristol case study",
-        "displayTitle": "Bristol case study",
-        "body": "<p>What new post did Bristol council create to promote the use of its open data?</p>",
-        "instruction": "<em>Select an option, then click 'Submit'.</em>",
-        "_items": [
-            {
-                "text": "Chief data impact scientist",
-                "_shouldBeSelected": false
-            },
-            {
-                "text": "Open data user specialist",
-                "_shouldBeSelected": false
-            },
-            {
-                "text": "Intelligent council programme manager",
-                "_shouldBeSelected": true
-            }
-        ],
-        "_feedback":{
-            "correct":"<h5>That’s right!</h5><p>Bristol council has created the post of 'intelligent council programme manager' to make the best use of open data and ensure that the public, private and voluntary sectors can make the most of information</p>",
-            "_incorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>Bristol council has created the post of 'intelligent council programme manager' to make the best use of open data and ensure that the public, private and voluntary sectors can make the most of information</p>",
-                "final": "<h5>Are you sure about that?</h5><p>Bristol council has created the post of 'intelligent council programme manager' to make the best use of open data and ensure that the public, private and voluntary sectors can make the most of information</p>"
-            },
-            "_partlyCorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>Bristol council has created the post of 'intelligent council programme manager' to make the best use of open data and ensure that the public, private and voluntary sectors can make the most of information</p>",
-                "final": "<h5>Are you sure about that?</h5><p>Bristol council has created the post of 'intelligent council programme manager' to make the best use of open data and ensure that the public, private and voluntary sectors can make the most of information</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>There are three recommendations that define the technical aspects of open data.  The format in which the data is published in, the structure of the data and the channels through which the data is available.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>There are three recommendations that define the technical aspects of open data.  The format in which the data is published in, the structure of the data and the channels through which the data is available.</p>"
           }
         },
         "_buttons":{
@@ -596,9 +588,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"The benefits of open data publication",
-        "displayTitle":"The benefits of open data publication",
-        "body":"<p>Local authorities can access a range of benefits from publishing open data including cost savings on essential services, creation of local business hubs and better relationships with the public. In our next module we will examine the importance of publishing in consistent ways and how the LGA standards can make publishing simple and maximise results</p><p><a class='course_link' href='../LGA-2/'>Next module</a></p><p><a class='course_link' href='../'>Main Menu</a></p>",
+        "title":"How can I take the stress out of open data publication?",
+        "displayTitle":"How can I take the stress out of open data publication?",
+        "body":"<p>In our first module we explored the benefits of publishing open data for local authorities. In this module we look at one of the biggest barriers to realising those benefits - inconsistent publishing approaches. Many authorities are unaware of the support available to them in publishing consistent, usable data.</p><p>Below you can learn about the benefits of following consistent publishing approaches, access the best resources to support you and understand a simple assessment checklist that can save hours of staff time in every release.</p>",
         "_pageLevelProgress": {
           "_isEnabled": true
         }
