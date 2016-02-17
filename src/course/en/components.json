@@ -139,12 +139,12 @@
         "_graphic": {
             "alt": "What is open data?",
             "title": "What is open data?",
-            "large": "course/en/images/odi-1-text-image_large.jpg",
-            "medium": "course/en/images/odi-1-text-image_large.jpg",
-            "small": "course/en/images/odi-1-text-image_large.jpg",
-            "*source":"http://www.shutterstock.com/pic.mhtml?id=179384507&src=lb-35924366",
-            "*credit":"leromin",
-            "*license":"Shutterstock Standard License"
+            "large": "course/en/images/certificate.png",
+            "medium": "course/en/images/certificate.png",
+            "small": "course/en/images/certificate.png",
+            "*source":"https://certificates.theodi.org/assets/certificate-colourburst-72-K-1200px-061cc4491b502750ff5748edccdedec3.png",
+            "*credit":"ODI",
+            "*license":"All rights reserved"
         }
     },
     {
@@ -156,7 +156,7 @@
         "_layout":"left",
         "title":"What are ODI Open Data Certificates?",
         "displayTitle":"What are ODI Open Data Certificates?",
-        "body":"<p>ODI Open Data Certificates is a free online tool developed to assess and recognise the quality and sustainability of open datasets. The certificates are an independent quality marque designed to support open data publishers in acheiving professional results.</p><p>Open Data Certificates provide publishers with a range of benefits including: To be recognised for your open data publishing achievements</li><li>To engage with the reuser community</li><li>To build trust and sustainability in the use of open data</li><li>To be guided through best publishing practices</li><li>To acquire a free report on how to improve open data publishing</li></p>"
+        "body":"<p>ODI Open Data Certificates is a free online tool developed to assess and recognise the quality and sustainability of open datasets. The certificates are an independent quality marque designed to support open data publishers in acheiving professional results.</p><h5>Open Data Certificates provide publishers with a range of benefits including:</h5><ul class='ticks'><li>Formal recognition of your data quality</li><li>A much broader user base</li><li>Automatic trust in the quality and usability of your data</li><li>Instant, simple compliance with the best publishing practices</li><li>Free advice on improving the quality of your data</li></p>"
     },
     {
         "_id": "c-35",
@@ -226,6 +226,35 @@
         "_pageLevelProgress": {
         "_isEnabled": true
         }
+    },
+     {
+        "_id":"c-38",
+        "_parentId":"b-38",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "What is open data?",
+            "title": "What is open data?",
+            "large": "course/en/images/certificate.png",
+            "medium": "course/en/images/certificate.png",
+            "small": "course/en/images/certificate.png",
+            "*source":"https://certificates.theodi.org/assets/certificate-colourburst-72-K-1200px-061cc4491b502750ff5748edccdedec3.png",
+            "*credit":"ODI",
+            "*license":"All rights reserved"
+        }
+    },
+    {
+        "_id":"c-39",
+        "_parentId":"b-38",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"How can I get an Open Data Certificate?",
+        "displayTitle":"How can I get an Open Data Certificate?",
+        "body":"<p>Getting your Open Data Certificate is simple.</p>First, you complete a short questionnaire to assess the level of support you provide for the data. Depending on the answers, the ODI awards a badge that can be embedded on your website to signify the quality level of your publication.</p><p>If you are publishing your data in a machine readable way (for example, by using a data portal like ckan), the site can pre-fill many of the certificate questions. Just enter the URL on the first page to get started.</p>"
     },
     {
         "_id":"c-40",
