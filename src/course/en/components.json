@@ -68,12 +68,12 @@
         "_layout": "full",
         "_component": "dynamic-narrative",
         "title": "The benefits of publishing using consistent approaches",
-        "displayTitle": "Case studies of open data impact on local government",
-        "body": "<p>Local authorities are already seeing the benefits of publishing open data. The LGA keeps an extenisve collection of <a href='http://www.local.gov.uk/local-transparency/-/journal_content/56/10180/4049888/ARTICLE' target='_blank'>case studies</a> that catalogue these impacts. Below are some of the best examples:</p>",
+        "displayTitle": "The benefits of publishing using consistent approaches",
+        "body": "<p>Consistent publication brings a range of benefits for local authorities.</p>",
         "instruction": "<em class='desktop-instruction'>Click the forward arrow for more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
         "_items": [
             {
-                "title": "Redbridge council",
+                "title": "Cost savings",
                 "body": "<p></p>",
                 "_graphic": {
                     "src": "course/en/images/redbridge.jpg",
@@ -86,7 +86,7 @@
                 "strapline": "Redbridge Council"
             },
             {
-                "title": "Leeds Council",
+                "title": "Interoperability",
                 "body": "<p></p>",
                 "_graphic": {
                     "src": "course/en/images/Leeds.jpg",
@@ -99,7 +99,7 @@
                 "strapline": "Leeds Council"
             },
             {
-                "title": "Bristol Council",
+                "title": "Simplified processes",
                 "body": "<p></p>",
                 "_graphic": {
                     "src": "course/en/images/bristol.jpg",
@@ -112,7 +112,7 @@
                 "strapline": "Cost Savings"
             },
             {
-                "title": "Sedgemoor Council",
+                "title": "Easier to share between departments",
                 "body": "<p></p>",
                 "_graphic": {
                     "src": "course/en/images/sedgemoor.png",
@@ -129,35 +129,6 @@
         "_isEnabled": true
         }
     },
-    {
-        "_id":"c-28",
-        "_parentId":"b-25",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"right",
-        "_graphic": {
-            "alt": "What is open data?",
-            "title": "What is open data?",
-            "large": "course/en/images/odi-1-text-image_large.jpg",
-            "medium": "course/en/images/odi-1-text-image_large.jpg",
-            "small": "course/en/images/odi-1-text-image_large.jpg",
-            "*source":"http://www.shutterstock.com/pic.mhtml?id=179384507&src=lb-35924366",
-            "*credit":"leromin",
-            "*license":"Shutterstock Standard License"
-        }
-    },
-    {
-        "_id":"c-27",
-        "_parentId":"b-25",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"",
-        "_layout":"left",
-        "title":"What is open data?",
-        "displayTitle":"What about the costs?",
-        "body":"<p>Open data is usually free at the point of use.</p><p>The traditional justification for this free service has been that authorities produce their open data through the operation of taxpayer-funded services.</p><p>However, gathering and maintaining data always has a cost attached to it. For this reason, in some cases local authorities may need to charge the user a small fee to cover any costs associated with the data. For this data to qualify as open, the cost should be no more than the 'reasonable reproduction cost' of the data involved. Authorities can charge a fee to cover the costs of supporting a user's data request but should not charge a premium for the data.</p>"
-    },
      {
         "_id": "c-30",
         "_parentId": "b-30",
@@ -165,7 +136,7 @@
         "_type":"component",
         "_layout": "full",
         "_component": "dynamic-narrative",
-        "title": "The benefits of open data release",
+        "title": "The ",
         "displayTitle": "The benefits of open data release",
         "body": "<p>Publishing open data can provide authorities with a range of benefits. Below you can explore the main benefits together with some examples.</p>",
         "instruction": "<em class='desktop-instruction'>Click the forward arrow for more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
