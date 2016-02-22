@@ -24,8 +24,8 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"How can I take the stress out of open data publication?",
-        "displayTitle":"How can I take the stress out of open data publication?",
+        "title":"How to publish consistent open data",
+        "displayTitle":"How to publish consistent open data",
         "body":"<p>In our first module we explored the benefits of publishing open data for local authorities. In this module we look at one of the biggest barriers to realising those benefits - inconsistent publishing approaches. Many authorities are unaware of the support available to them in publishing consistent, usable data.</p><p>Below you can learn about the benefits of following consistent publishing approaches, access the best resources to support you and understand a simple assessment checklist that can save hours of staff time in every release.</p>",
         "instruction":"",
         "_pageLevelProgress": {
@@ -67,31 +67,31 @@
         "_type":"component",
         "_layout": "full",
         "_component": "dynamic-narrative",
-        "title": "The benefits of publishing using consistent approaches",
-        "displayTitle": "The benefits of publishing using consistent approaches",
+        "title": "The 3 'pre-flight checks' every open data publisher needs",
+        "displayTitle": "The 3 'pre-flight checks' every open data publisher needs",
         "body": "<p>Consistent publication brings a range of benefits for local authorities.</p>",
         "instruction": "<em class='desktop-instruction'>Click the forward arrow for more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
         "_items": [
             {
-                "title": "Cost savings",
+                "title": "Is there a schema for this dataset?",
                 "body": "<p></p>",
                 "_graphic": {
                     "src": "course/en/images/redbridge.jpg",
-                    "alt": "Support Growing Economies",
-                    "title": "Support Growing Economies",
-                    "*source":"http://www.shutterstock.com/pic-128352227.html",
-                    "*credit":"vs148",
-                    "*license":"Shutterstock Standard License"
+                    "alt": "Schemas",
+                    "title": "Schemas",
+                    "*source":"https://www.flickr.com/photos/dullhunk/7554750172",
+                    "*credit":"dullhunk",
+                    "*license":"CC-BY 2.0"
                 },
-                "strapline": "Redbridge Council"
+                "strapline": "Schemas"
             },
             {
-                "title": "Interoperability",
+                "title": "Is the dataset clean?",
                 "body": "<p></p>",
                 "_graphic": {
                     "src": "course/en/images/Leeds.jpg",
-                    "alt": "Improved service delivery",
-                    "title": "Improved service delivery",
+                    "alt": "Cleaning",
+                    "title": "Cleaning",
                     "*source":"https://www.fixmystreet.com/",
                     "*credit":"fixmystreet",
                     "*license":"unknown"
@@ -99,7 +99,7 @@
                 "strapline": "Leeds Council"
             },
             {
-                "title": "Simplified processes",
+                "title": "Where am I going to publish?",
                 "body": "<p></p>",
                 "_graphic": {
                     "src": "course/en/images/bristol.jpg",
@@ -110,19 +110,6 @@
                     "*license":"Shutterstock Standard License"
                 },
                 "strapline": "Cost Savings"
-            },
-            {
-                "title": "Easier to share between departments",
-                "body": "<p></p>",
-                "_graphic": {
-                    "src": "course/en/images/sedgemoor.png",
-                    "alt": "Improved service delivery",
-                    "title": "Improved service delivery",
-                    "*source":"https://www.fixmystreet.com/",
-                    "*credit":"fixmystreet",
-                    "*license":"unknown"
-                },
-                "strapline": "Better public perception"
             }
         ],
         "_pageLevelProgress": {
