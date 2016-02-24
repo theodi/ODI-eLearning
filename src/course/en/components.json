@@ -1,20 +1,24 @@
 [
     {
-        "_id":"c-10",
-        "_parentId":"b-10",
+        "_id":"c-01",
+        "_parentId":"b-01",
         "_type":"component",
         "_component":"graphic",
-        "_classes":"",
+        "_classes":"intro-logo",
         "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
         "_graphic": {
-            "alt": "Course Overview",
-            "title": "Course Overview",
-            "large": "course/en/images/LGA.png",
-            "medium": "course/en/images/LGA.png",
-            "small": "course/en/images/LGA.png",
-            "*source":"http://about.esd.org.uk/",
-            "*credit":"Local Government Association",
-            "*license":"All rights reserved"
+            "alt": "",
+            "title": "",
+            "large": "",
+            "medium": "",
+            "small": "",
+            "*source":"",
+            "*credit":"",
+            "*license":""
         }
     },
     {
