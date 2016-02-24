@@ -1,0 +1,79 @@
+// Navigation styling
+// ==================
+
+.navigation {
+    width: @default-width;
+    box-shadow: @page-box-shadow;
+    background-image: url('assets/LGA_image.png');
+    background-repeat: no-repeat;
+    background-color:@navigation-color;
+    height:@navigation-height;
+    border-top:@navigation-border;
+    border-bottom:@navigation-border;
+    .ie8 & {
+        max-width:@ie8-max-width;
+    }
+    @media all and (max-width:(@device-width-large - 1px)) {
+        width: 100%;
+    }
+    @media all and (max-width:(@device-width-medium - 1px)) {
+        height:@navigation-height-mobile;
+    }
+    .navigation-inner {
+    }
+    .icon {
+        padding:@navigation-padding;
+        @media all and (max-width:(@device-width-medium - 1px)) {
+            padding:@navigation-padding-mobile;
+        }
+        color:@navigation-icon-color;
+        .no-touch &:hover {
+            color:@navigation-icon-hover-color;
+        }
+    }
+    #drawText {
+	font-size: 0.7em;
+	bottom: 4px;
+	position: relative;
+    	@media all and (max-width:(@device-width-medium - 1px)) {
+   		display: none;	
+	} 
+    }
+    .navigation-drawer-toggle-button {
+    	@media all and (min-width:(@device-width-medium - 1px)) {
+       		width: 75px;
+		border: 1px solid white;
+		height: 24px;
+		padding: 3px;
+		padding-bottom: 1px;
+		margin-top: 13px;
+		margin-right: 10px;
+		border-radius: 6px;
+    	}
+    }
+    .page-level-progress-navigation {
+        .page-level-progress-navigation-completion {
+            background: @plp-navigation-background;
+            border: none;
+            height: 10px;
+            .page-level-progress-navigation-bar {
+                background: @plp-navigation-completed;
+            }
+        }
+    }
+    #odiLearning {
+            display: inline-block;
+            float: left;
+    }
+    .learningTop {
+	    color: #eeeeee;
+        vertical-align: top;
+        font-size: 40px;
+        position: relative;
+        top: 21px;
+        left: 10px;
+        @media all and (max-width:(@device-width-medium - 1px)) {
+		  display: none;
+        }
+    }
+}
