@@ -4,6 +4,15 @@
 	padding: 20px 2px;
     }
 }
+.email-input {
+	padding: 5px;
+	font-size: 1.5em;
+	color: gray;
+	width: 50%;
+	@media all and (max-width:(@device-width-medium - 1px)) {
+        width: 80%;
+    }
+}
 .save-section-outer {
 	float: left;
 	margin-left: 10px;
@@ -92,4 +101,8 @@
     border-bottom-left-radius: 10px;
     color: white;
     z-index: -10;
+}
+.popup-message {
+	text-decoration: underline;
+	cursor: pointer;
 }

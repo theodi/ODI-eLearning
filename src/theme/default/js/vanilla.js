@@ -7,7 +7,6 @@ define(function(require) {
 var moduleId = "";
 $.getJSON("course/config.json",function(data) {
         moduleId = data._moduleId;
-//	checkWelcome();
 });
 	
 var theme = "ODI";
@@ -15,20 +14,27 @@ var interval;
 var click_bind = false;
 
 $(document).ready(function() {
-//	checkWelcome();
 	setTimeout(function() {updateLanguageSwitcher(); },1000);
 	setTimeout(function() {$(".dropdown dt a").show();$('#country-select').show();},2000);
 	interval = setInterval(function() { checkState(); },3000);
 });
 
 function checkWelcome() {
-	if (moduleId != "ODI_welcome" && localStorage.getItem("email") == null) {
-		if (moduleId == "ODI_nav") {
-			window.location.href = "welcome/index.html";
-		} else {
-			window.location.href = "../welcome/index.html";
-		}
+	if (localStorage.getItem("email") == null) {
+		showMessage('enter_email');
 	}
+}
+
+function showMessage(phraseId) {
+	var Adapt = require('coreJS/adapt');
+	var foo = {};
+	foo.model = {}
+	foo.model.toJSON = function() {
+		var bar = {};
+		bar.feedbackMessage = config["_phrases"][phraseId];
+		return bar;
+	}
+	Adapt.trigger('questionView:showFeedback', foo);
 }
 
 function addListeners() {
@@ -73,8 +79,7 @@ function emailSave(email) {
 }
 
 function showSave() {
-	var email=prompt("Please enter your email...");
-	emailSave(email);
+	showMessage('enter_email');
 }
 
 function checkState() {
@@ -83,15 +88,11 @@ function checkState() {
 	var lastSave = localStorage.getItem(moduleId + "_lastSave");
 
 	if (!sessionEmail && sessionID) {
-//		checkWelcome();
+		checkWelcome();
 		$('#save-section').html("<button onClick='showSave();' class='slbutton' id='saveSession'>Save Progress</button>");
-		if (moduleId == "ODI_welcome") {
-			$('#save-section').hide();
-		} else {
-			$('#save-section').fadeIn();
-	        	$("#country-select").removeClass('status-shown');
-			$("#country-select").addClass('save-shown');
-		}
+		$('#save-section').fadeIn();
+	    $("#country-select").removeClass('status-shown');
+		$("#country-select").addClass('save-shown');
 		clearInterval(interval);
 		click_bind = false;
 		$('.save-section-outer').unbind('click');
