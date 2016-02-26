@@ -106,3 +106,46 @@
 	text-decoration: underline;
 	cursor: pointer;
 }
+.progress-badge {
+	display: inline-block;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-right: 10px;
+	width: 21%;
+	height: 310px;
+	border: 1px solid white;
+	@media all and (max-width:(@device-width-medium - 1px)) {
+		width: 45%;
+    }
+    font-size: 1.4em;
+}
+.awarded {
+	border: 1px solid black;
+}
+.explorer-awarded {
+	background-color: @odi-color-four;
+}
+.adventurer-awarded {
+	background-color: @odi-color-two;
+}
+.practitioner-awarded {
+	background-color: @odi-color-eight;
+}
+.strategist-awarded {
+	background-color: @odi-color-seven;
+}
+.user-badge {
+	padding-bottom: 10px;
+}
+.badge-progress-table {
+	width: 100%;
+}
+.badge-progress-table td {
+	padding-top: 10px;
+}
+.progress-table-mod-name {
+	text-align: left;
+}

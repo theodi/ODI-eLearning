@@ -10,7 +10,10 @@ function setID() {
 }
 
 if (!localStorage.getItem("_id")) {
-	setID();  
+	setID();
+}
+if (!localStorage.getItem("ODI_Badges")) {
+	localStorage.setItem("ODI_Badges","");
 }
 
 var moduleId = "";
@@ -29,14 +32,21 @@ $(document).ready(function() {
 		setRawValue("lang",lang);
 		if (moduleId == "ODI_nav"){
 			setInterval(function() {updateProgress();},5000);
+		} else {
+			setInterval(function() {miniProgressUpdate();},1000);
 		}
 	});
 	setTimeout(function() {setRawValue("theme",theme)},1000);
 });
 
-
-function updateProgress() {
-//	var frame = document.getElementById('contentFrame').contentDocument;
+function miniProgressUpdate() {
+	badges = localStorage.getItem("ODI_Badges");
+	try {
+		badges = $.parseJSON(badges);
+	} catch(err) {
+		badges = {};
+	}
+	var mods_done = {};
 	for (i=1;i<13;i++) {
 		key = "ODI_" + i + "_cmi.suspend_data";
     		try {
@@ -45,11 +55,75 @@ function updateProgress() {
 			completion = data.spoor.completion;
 			total = completion.length;
 			complete = completion.match(/1/g || []).length;	
-			percent = (complete/total) * 100;
-			document.getElementById('ODI_' + i).setAttribute('value',percent);
+			percent = Math.round((complete/total) * 100);
+			if (percent == 100) {
+				mods_done[i] = true;
+			}
 		}
 		catch(err) {
 		}
+	}
+//	if (mods_done[1] && mods_done[2] && mods_done[3] && !badges["explorer"]) {
+	if (mods_done[1] && !badges["explorer"]) {
+		showMessage('explorer-complete');
+		badges["explorer"] = true;	
+	}
+	if (mods_done[4] && mods_done[5] && mods_done[6] && !badges["adventurer"]) {
+		showMessage('adventurer-complete');
+		badges["adventurer"] = true;	
+	}
+	if (mods_done[8] && mods_done[9] && mods_done[11] && mods_done[12] && !bedges["practitioner"]) {
+		showMessage('practitioner-complete');
+		badges["practitioner"] = true;	
+	}
+	if (mods_done[7] && mods_done[10] && mods_done[13] && !badges["strategist"]) {
+		showMessage('strategist-complete');
+		badges["strategist"] = true;	
+	}
+	localStorage.setItem("ODI_Badges",JSON.stringify(badges));
+	
+}
+function updateProgress() {
+//	var frame = document.getElementById('contentFrame').contentDocument;
+	miniProgressUpdate();
+	for (i=1;i<13;i++) {
+		key = "ODI_" + i + "_cmi.suspend_data";
+    		try {
+			value = localStorage.getItem(key);
+			data = $.parseJSON(value);
+			completion = data.spoor.completion;
+			total = completion.length;
+			complete = completion.match(/1/g || []).length;	
+			percent = Math.round((complete/total) * 100);
+			document.getElementById('ODI_' + i).setAttribute('value',percent);
+			if (percent > 0) {
+				document.getElementById('ODI_' + i + '_tick').innerHTML = percent + "%";
+			}
+			if (percent == 100) {
+				document.getElementById('ODI_' + i + '_tick').innerHTML = "✔";
+				mods_done[i] = true;
+			}
+		}
+		catch(err) {
+		}
+	}
+	badges = localStorage.getItem("ODI_Badges");
+	try {
+		badges = $.parseJSON(badges);
+	} catch(err) {
+		badges = {};
+	}
+	if (badges["explorer"]) {
+		document.getElementById('explorer-badge').className = "progress-badge awarded explorer-awarded";	
+	}
+	if (badges["adventurer"]) {
+		document.getElementById('adventurer-badge').className = "progress-badge awarded adventurer-awarded";	
+	}
+	if (badges["practitioner"]) {
+		document.getElementById('practitioner-badge').className = "progress-badge awarded practitioner-awarded";	
+	}
+	if (badges["strategist"]) {
+		document.getElementById('strategist-badge').className = "progress-badge awarded strategist-awarded";	
 	}
 }
 
