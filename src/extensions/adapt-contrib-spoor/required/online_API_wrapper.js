@@ -63,8 +63,7 @@ function miniProgressUpdate() {
 		catch(err) {
 		}
 	}
-//	if (mods_done[1] && mods_done[2] && mods_done[3] && !badges["explorer"]) {
-	if (mods_done[1] && !badges["explorer"]) {
+	if (mods_done[1] && mods_done[2] && mods_done[3] && !badges["explorer"]) {
 		showMessage('explorer-complete');
 		badges["explorer"] = true;	
 	}
