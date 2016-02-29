@@ -71,8 +71,8 @@
         "_type":"component",
         "_layout": "full",
         "_component": "dynamic-narrative",
-        "title": "The 3 'pre-flight checks' every open data publisher needs",
-        "displayTitle": "The 3 'pre-flight checks' every open data publisher needs",
+        "title": "Before you publish - 3 questions you need to ask",
+        "displayTitle": "Before you publish - 3 questions you need to ask",
         "body": "<p>Consistent publication brings a range of benefits for local authorities.</p>",
         "instruction": "<em class='desktop-instruction'>Click the forward arrow for more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
         "_items": [
@@ -120,6 +120,76 @@
         "_isEnabled": true
         }
     },
+    {
+        "_id":"c-29",
+        "_parentId":"b-28",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Course Overview",
+            "title": "Course Overview",
+            "large": "course/en/images/summary-icon.png",
+            "medium": "course/en/images/summary-icon.png",
+            "small": "course/en/images/summary-icon.png",
+            "*source":"http://about.esd.org.uk/",
+            "*credit":"Local Government Association",
+            "*license":"All rights reserved"
+        }
+    },
+    {
+      "_id":"c-28",
+      "_parentId":"b-28",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"left",
+      "title": "When you publish - The key steps to a good open data release",
+      "displayTitle": "When you publish - The key steps to a good open data release",
+      "body": "<p>Open data is <strong>data</strong> that <strong>anyone</strong> can <strong>access</strong>, <strong>use</strong> and <strong>share</strong>.</p><p>Local government has been releasing open data for years on everything from election results to the locations of public toilets. But why should authorities publish open data and what are the best arguements to persuade colleages?</p>",
+      "instruction": "<em>Click on each of the boxes below to expand.</em>",
+      "_items": [
+        {
+          "alt": "Entering the metadata",
+          "title": "1. Entering the metadata",
+          "body": "<p></p>"
+        },
+        {
+          "alt": "Uploading the data",
+          "title": "2. Uploading the data",
+          "body": "<p></p>"
+        },
+        {
+          "alt": "Validating the dataset",
+          "title": "3. Validating the dataset",
+          "body": "<p></p>"
+        },
+        {
+          "alt": "Adding the open licence",
+          "title": "4. Adding the open licence",
+          "body": "<p></p>"
+        },
+        {
+          "alt": "Providing a consistent 'URI'",
+          "title": "5. The case for transparency",
+          "body": "<p>This session begins by looking at how open licences are there to protect data publishers, while also unlocking value. We show how to build a machine readable open license that can be applied to any online content.</p><p>The session then continues by looking at the technical, legal, social and practical requirements for making different types of open data usable and some of the most relevant guidelines to support this process.</p>"
+        },
+        {
+          "alt": "Registering the dataset in a catalogue",
+          "title": "6. Registering the dataset in a catalogue",
+          "body": "<p>This session will introduce the importance of recent changes around open data modification rules which help combat data errors. We also introduce OpenRefine and how it improves data management by publishers.</p>"
+        },
+        {
+          "alt": "7. Updating your inventory",
+          "title": "7. Updating your inventory",
+          "body": "<p>An inventory lets other people know what data you have published. It encourages consistent referencing of datasets across councils to make it easier to find datasets on the same topic or in the same format. data.gov.uk has built a harvester to automatically import inventories and so maintain up-to-date entries for a council, in its index of UK open data.</p>"
+        }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
  {
         "_id":"c-30",
         "_parentId":"b-30",
@@ -145,8 +215,8 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"What are ODI Open Data Certificates?",
-        "displayTitle":"What are ODI Open Data Certificates?",
+        "title":"After you publish - Getting an ODI Certificate",
+        "displayTitle":"After you publish - Getting an ODI Certificate",
         "body":"<p>ODI Open Data Certificates is a free online tool developed to assess and recognise the quality and sustainability of open datasets. The certificates are an independent quality marque designed to support open data publishers in acheiving professional results.</p><h5>Open Data Certificates provide publishers with a range of benefits including:</h5><ul class='ticks'><li>Formal recognition of your data quality</li><li>A much broader user base</li><li>Automatic trust in the quality and usability of your data</li><li>Instant, simple compliance with the best publishing practices</li><li>Free advice on improving the quality of your data</li></p>"
     },
     {
