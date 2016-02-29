@@ -28,8 +28,8 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"How to publish consistent open data",
-        "displayTitle":"How to publish consistent open data",
+        "title":"Where can I find examples of good publication practices?",
+        "displayTitle":"Hhere can I find examples of good publication practices?",
         "body":"<p>In our first module we explored the benefits of publishing open data for local authorities. In this module we look at one of the biggest barriers to realising those benefits - inconsistent publishing approaches. Many authorities are unaware of the support available to them in publishing consistent, usable data.</p><p>Below you can learn about the benefits of following consistent publishing approaches, access the best resources to support you and understand a simple assessment checklist that can save hours of staff time in every release.</p>",
         "instruction":"",
         "_pageLevelProgress": {
@@ -61,9 +61,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Why does consistency matter?",
-        "displayTitle":"Why does consistency matter?",
-        "body":"<p>Open data is not just a compliance exercise. The aim of all open data is to invite others to use the data, whether for a new app, a study or just to gain a deeper understanding. Most open data users will want more than one dataset. Often they combine datasets from different authorities. When combining datasets, consistency matters. Without consistent 'schemas' or column headings, users cannot easily combine your data with others. Without consistent availability</p><p>The traditional justification for this free service has been that authorities produce their open data through the operation of taxpayer-funded services.</p><p>However, gathering and maintaining data always has a cost attached to it. For this reason, in some cases local authorities may need to charge the user a small fee to cover any costs associated with the data. For this data to qualify as open, the cost should be no more than the 'reasonable reproduction cost' of the data involved. Authorities can charge a fee to cover the costs of supporting a user's data request but should not charge a premium for the data.</p>"
+        "title":"Navigating LG Inform Plus",
+        "displayTitle":"Navigating LG Inform Plus",
+        "body":"<p></p>"
     },
     {
         "_id":"c-25",
@@ -71,8 +71,8 @@
         "_type":"component",
         "_layout": "full",
         "_component": "dynamic-narrative",
-        "title": "Before you publish - 3 questions you need to ask",
-        "displayTitle": "Before you publish - 3 questions you need to ask",
+        "title": "Finding the right schema",
+        "displayTitle": "Finding the right schema",
         "body": "<p>Consistent publication brings a range of benefits for local authorities.</p>",
         "instruction": "<em class='desktop-instruction'>Click the forward arrow for more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
         "_items": [
@@ -145,9 +145,9 @@
       "_component":"accordion",
       "_classes":"",
       "_layout":"left",
-      "title": "When you publish - The key steps to a good open data release",
-      "displayTitle": "When you publish - The key steps to a good open data release",
-      "body": "<p>Open data is <strong>data</strong> that <strong>anyone</strong> can <strong>access</strong>, <strong>use</strong> and <strong>share</strong>.</p><p>Local government has been releasing open data for years on everything from election results to the locations of public toilets. But why should authorities publish open data and what are the best arguements to persuade colleages?</p>",
+      "title": "Getting a Licence",
+      "displayTitle": "Getting a licence",
+      "body": "<p></p>",
       "instruction": "<em>Click on each of the boxes below to expand.</em>",
       "_items": [
         {
@@ -164,21 +164,6 @@
           "alt": "Validating the dataset",
           "title": "3. Validating the dataset",
           "body": "<p></p>"
-        },
-        {
-          "alt": "Adding the open licence",
-          "title": "4. Adding the open licence",
-          "body": "<p></p>"
-        },
-        {
-          "alt": "Providing a consistent 'URI'",
-          "title": "5. The case for transparency",
-          "body": "<p>This session begins by looking at how open licences are there to protect data publishers, while also unlocking value. We show how to build a machine readable open license that can be applied to any online content.</p><p>The session then continues by looking at the technical, legal, social and practical requirements for making different types of open data usable and some of the most relevant guidelines to support this process.</p>"
-        },
-        {
-          "alt": "Registering the dataset in a catalogue",
-          "title": "6. Registering the dataset in a catalogue",
-          "body": "<p>This session will introduce the importance of recent changes around open data modification rules which help combat data errors. We also introduce OpenRefine and how it improves data management by publishers.</p>"
         },
         {
           "alt": "7. Updating your inventory",
@@ -215,9 +200,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"After you publish - Getting an ODI Certificate",
-        "displayTitle":"After you publish - Getting an ODI Certificate",
-        "body":"<p>ODI Open Data Certificates is a free online tool developed to assess and recognise the quality and sustainability of open datasets. The certificates are an independent quality marque designed to support open data publishers in acheiving professional results.</p><h5>Open Data Certificates provide publishers with a range of benefits including:</h5><ul class='ticks'><li>Formal recognition of your data quality</li><li>A much broader user base</li><li>Automatic trust in the quality and usability of your data</li><li>Instant, simple compliance with the best publishing practices</li><li>Free advice on improving the quality of your data</li></p>"
+        "title":"Publishing under a persistent URI",
+        "displayTitle":"Publishing under a persistent URI",
+        "body":"<p></p>"
     },
     {
         "_id": "c-37",
@@ -226,14 +211,14 @@
         "_type":"component",
         "_layout": "full",
         "_component": "dynamic-narrative",
-        "title": "What do Open Data Certificates look for?",
-        "displayTitle": "What do Open Data Certificates look for?",
-        "body": "<p>ODI Open Data Certificates consider the legal, practical, technical and social requirements for an open dataset to be useful.</p>",
+        "title": "Examples of best practice",
+        "displayTitle": "Examples of best practice",
+        "body": "<p></p>",
         "instruction": "<em class='desktop-instruction'>Click the forward arrow for more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
         "_items": [
            {
-                "title": "Legal requirements",
-                "body": "<p>In addition to the open licence, there are three legal requirements that need to be considered. You must:</p><p><ul><li>Protect sensitive information like personal data.</li><li>Preserve the rights of data owners.</li><li>Promote correct use of the data.</li></ul></p>",
+                "title": "West London Alliance",
+                "body": "<p></p>",
                 "_graphic": {
                     "src": "course/en/images/odi-2.jpg",
                     "alt": "Legal",
@@ -245,8 +230,8 @@
                 "strapline": "Legal"
             },
             {
-                "title": "Practical requirements",
-                "body": "<p>It is important that open data can be found and relied upon by users.</p><p>This means that open data publishers must:</p><p><ul><li>Link to the data from their website.</li><li>Update the data regularly if it changes.</li><li>Commit to continue to make the data available.</li></ul></p>",
+                "title": "North Somerset",
+                "body": "<p></p>",
                 "_graphic": {
                     "src": "course/en/images/odi-3.jpg",
                     "alt": "Practical",
@@ -258,8 +243,8 @@
                 "strapline": "Practical"
             },
             {
-                "title": "Technical requirements",
-                "body": "<p>There are three recommendations that define the technical aspects of open data:</p><p><ul><li>The format in which the data is published.</li><li>The structure of the data.</li><li>The channels through which the data is available.</li></ul></p>",
+                "title": "Sheffield",
+                "body": "<p></p>",
                 "_graphic": {
                     "src": "course/en/images/odi-4.jpg",
                     "alt": "Technical",
@@ -271,8 +256,8 @@
                 "strapline": "Technical"
             },
             {
-                "title": "Social requirements",
-                "body": "<p>For data use to be sustainable, it is important to have an engaged community of users. The best datasets have:</p><p><ul><li>Active support channels.</li><li>Discussion groups and forums.</li><li>Published how-to guides on working with the data.</li></ul></p>",
+                "title": "Norfolk",
+                "body": "<p></p>",
                 "_graphic": {
                     "src": "course/en/images/odi-5.jpg",
                     "alt": "Social",
@@ -307,17 +292,6 @@
         }
     },
     {
-        "_id":"c-39",
-        "_parentId":"b-42",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"",
-        "_layout":"left",
-        "title":"How can I get an Open Data Certificate?",
-        "displayTitle":"How can I get an Open Data Certificate?",
-        "body":"<p>Getting your Open Data Certificate is simple.</p>First, you complete a short questionnaire to assess the level of support you provide for the data. Depending on the answers, the ODI awards a badge that can be embedded on your website to signify the quality level of your publication.</p><p>If you are publishing your data in a machine readable way (for example, by using a data portal like ckan), the site can pre-fill many of the certificate questions. Just enter the URL on the first page to get started.<br /><a href='https://certificates.theodi.org/en' target='_blank'>Take me to the ODI Open Data Certificates Site</a></p>"
-    },
-    {
         "_id":"c-40",
         "_parentId":"b-44",
         "_type":"component",
@@ -343,8 +317,8 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Are you ready for the benefits of open data publishing?",
-        "displayTitle":"Are you ready for the benefits of open data publishing?",
+        "title":"Are you ready to find examples of good publication?",
+        "displayTitle":"Are you ready to find examples of good publication?",
         "body":"<p>Can you recall these four things about the benefits of publishing open data for local authorities?</p>",
         "instruction":"",
         "_pageLevelProgress": {
