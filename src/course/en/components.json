@@ -245,7 +245,7 @@
             },
             {
                 "title": "Enhance usability",
-                "body": "<p>Sharing a clean open dataset will make the data more usable. Tools like Open Refine allow you to share change history, letting people know what has been cleaned and how. Making the process open as well as the data adds to the sustainability and trust a user can put in a dataset.</p><p>There are also data-cleaning communities emerging that could be supported more actively, such as OpenStreetMap communities.<br><br><a class='' href='http://wiki.openstreetmap.org/wiki/WikiProject_Denmark' target='_blank'>Take me to OSM Denmark Community Wiki.</a></p>",
+                "body": "<p>Sharing a clean open dataset will make the data more usable. Tools like Open Refine allow you to share change history, letting people know what has been cleaned and how. Making the process open as well as the data adds to the sustainability and trust a user can put in a dataset.</p><p>There are also data-cleaning communities emerging that could be supported more actively, such as OpenStreetMap communities.<br><br><a class='' href='http://wiki.openstreetmap.org/wiki/WikiProject_Denmark' target='_blank'>Take me to OSM Denmark Community Wiki</a></p>",
                 "_graphic": {
                     "src": "course/en/images/odi-007.jpg",
                     "alt": "Prioritise cleaning",
@@ -340,18 +340,18 @@
         "title": "Why does data need to be cleaned?",
         "displayTitle": "Why does data need to be cleaned?",
         "body": "<p>Uncleaned open data is a problem because:</p>",
-        "instruction": "<em>Choose one answer and click 'Submit'.</em>",
+        "instruction": "<em>Choose your answer, then click 'Submit'</em>",
         "_items": [
             {
-                "text": "It cannot be plotted on a chart.",
+                "text": "it cannot be plotted on a chart",
                 "_shouldBeSelected": false
             },
             {
-                "text": "It cannot be published.",
+                "text": "it cannot be published",
                 "_shouldBeSelected": false
             },
             {
-                "text": "It can lead to wrong conclusions.",
+                "text": "it can lead to wrong conclusions",
                 "_shouldBeSelected": true
             }
         ],
@@ -408,18 +408,18 @@
         "title": "What are two of the most useful tools for cleaning data?",
         "displayTitle": "What are two of the most useful tools for cleaning data?",
         "body": "<p>Which of these pairs of tools are the most useful for cleaning data?</p>",
-        "instruction": "<em>Choose one answer and click 'Submit'.</em>",
+        "instruction": "<em>Choose your answer, then click 'Submit'</em>",
         "_items": [
             {
-                "text": "Microsoft Access and Adobe Photoshop.",
+                "text": "Microsoft Access and Adobe Photoshop",
                 "_shouldBeSelected": false
             },
             {
-                "text": "Apple Notes and Microsoft Word.",
+                "text": "Apple Notes and Microsoft Word",
                 "_shouldBeSelected": false
             },
             {
-                "text": "Microsoft Excel and Open Refine.",
+                "text": "Microsoft Excel and Open Refine",
                 "_shouldBeSelected": true
             }
         ],
@@ -476,7 +476,7 @@
         "title": "Recognising errors",
         "displayTitle": "Recognising errors",
         "body": "<p>Which of the following are errors in data that require cleaning?</p>",
-        "instruction": "<em>Choose three answers and click 'Submit'.</em>",
+        "instruction": "<em>Choose three answers and click 'Submit'</em>",
         "_items": [
             {
                 "text": "Mixed numerical scales",
@@ -552,7 +552,7 @@
         "title": "How much time can be spent cleaning and preparing data?",
         "displayTitle": "How much time can be spent cleaning and preparing data?",
         "body": "<p>In any given data-driven project, how much time can be spent cleaning and preparing data?</p>",
-        "instruction": "<em>Choose one answer and click 'Submit'.</em>",
+        "instruction": "<em>Choose your answer, then click 'Submit'</em>",
         "_items": [
             {
                 "text": "Between 20% and 40%",
