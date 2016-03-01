@@ -106,6 +106,28 @@
 	text-decoration: underline;
 	cursor: pointer;
 }
+.badge-progress-table {
+	display: inline-table;
+	@media all and (max-width:(@device-width-medium - 1px)) {
+		display: none;
+	}
+}
+.badge-progress-overall {
+	display: none;
+	padding-top: 10px;
+	font-size: 1.4em;
+	@media all and (max-width:(@device-width-medium - 1px)) {
+		display: block;
+	}
+}
+.user-badge {
+	width: 160px;
+	height: 120px;
+	@media all and (max-width:430px) {
+		width: 120px;
+        	height: 90px;
+	}
+}
 .progress-badge {
 	display: inline-block;
 	text-align: center;
@@ -120,12 +142,18 @@
 	border: 1px solid white;
 	min-width: 190px;
 	@media all and (max-width:(@device-width-medium - 1px)) {
-		width: 95%;
+		min-width: 43%;
+		max-width: 47%;
+		padding-left: 0px;
+		padding-right: 0px;
+		height: 210px;
     	}
 	@media all and (max-width:(@device-width-large - 1px)) and (min-width:(@device-width-medium)) {
 		width: 45%;
+		padding-left: 10px;
+		padding-right: 10px;
     	}
-    font-size: 1.4em;
+    	font-size: 1.4em;
 }
 .awarded {
 	border: 1px solid black;
