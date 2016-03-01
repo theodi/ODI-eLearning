@@ -39,7 +39,7 @@ sed -i -e "s/<\/head>/<script type=\"text\/javascript\" src=\"..\/cordova.js\"><
 
 echo "Hiding language selector in theme"
 echo "" 
-sed -i -e "s/country-select/bcountry-select/g" src/theme/adapt-contrib-vanilla/templates/navigation.hbs
+sed -i -e "s/country-select/bcountry-select/g" src/theme/default/templates/navigation.hbs
 
 echo "Changing ownership"
 echo ""
@@ -48,7 +48,7 @@ sed -i -e "s/Européen de Données/Open Data Institute/g" src/course/$2/componen
 
 echo "Updating image path"
 echo ""
-sed -i -e "s/course\/en\/images/course\/$2\/images/g" src/theme/adapt-contrib-vanilla/less/header.less
+sed -i -e "s/course\/en\/images/course\/$2\/images/g" src/theme/default/less/header.less
 
 echo "Changing video to native player" 
 echo ""
@@ -57,8 +57,8 @@ sed -i -e "s/instruction/binstruction/g" src/course/$2/components.json
 
 echo "Adding index.html to all internal links"
 sed -i -e "s/\"..\/\"/\"..\/index.html\"/g" src/course/$2/course.json
-sed -i -e "s/\.\.\//\.\.\/index.html/g" src/theme/adapt-contrib-vanilla/js/vanilla.js
-sed -i -e "s/welcome\//welcome\/index.html/g" src/theme/adapt-contrib-vanilla/js/vanilla.js
+sed -i -e "s/\.\.\//\.\.\/index.html/g" src/theme/default/js/vanilla.js
+sed -i -e "s/welcome\//welcome\/index.html/g" src/theme/default/js/vanilla.js
 
 echo "Disabling data downloads"
 echo ""
@@ -86,10 +86,10 @@ grunt build
 echo "Restoring structure";
 `rm -fR src/course/*`
 `mv tmp/* src/course/`
-sed -i -e "s/course\/$2\/images/course\/en\/images/g" src/theme/adapt-contrib-vanilla/less/header.less
-sed -i -e "s/\.\.\/index.html/\.\.\//g" src/theme/adapt-contrib-vanilla/js/vanilla.js
-sed -i -e "s/welcome\/index.html/welcome\//g" src/theme/adapt-contrib-vanilla/js/vanilla.js
-sed -i -e "s/bcountry-select/country-select/g" src/theme/adapt-contrib-vanilla/templates/navigation.hbs
+sed -i -e "s/course\/$2\/images/course\/en\/images/g" src/theme/default/less/header.less
+sed -i -e "s/\.\.\/index.html/\.\.\//g" src/theme/default/js/vanilla.js
+sed -i -e "s/welcome\/index.html/welcome\//g" src/theme/default/js/vanilla.js
+sed -i -e "s/bcountry-select/country-select/g" src/theme/default/templates/navigation.hbs
 sed -i -e "s/$2\/course\/$2\/js\/control/en\/course\/en\/js\/control/g" src/index.html
 sed -i -e "s/<script type=\"text\/javascript\" src=\"..\/cordova.js\"><\/script><script type=\"text\/javascript\" src=\"..\/cordova-odi.js\"><\/script>//g" src/index.html
 
