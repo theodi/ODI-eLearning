@@ -59,7 +59,7 @@ sed -i -e "s/course\/$1\/data\/scorm.zip/javascript:alert('Data is not available
 echo "Building navigation"
 echo ""
 rm -fR build
-grunt build
+grunt build --theme=default
 
 echo "Restoring structure";
 `rm -fR src/course/*`

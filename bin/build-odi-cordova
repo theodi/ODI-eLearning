@@ -81,7 +81,7 @@ fi
 
 echo "Building module";
 rm -fR build
-grunt build
+grunt build --theme=default
 
 echo "Restoring structure";
 `rm -fR src/course/*`
