@@ -134,7 +134,7 @@
         {
           "alt": "Tabular",
           "title": "Tabular",
-          "body": "<p>The most common structure for data is tabular. Data is organised into rows and columns listing sequential values, such as expenditure.</p><p>If the data is based on separate entries that are not linked to each other then a tabular file structure in a format such as CSV is ideal. An example of appropriate tabular data is the Italian data portal’s museum attendance figures.<br /><a href='http://www.datiopen.it/opendata/Visitatori_musei_pubblici_e_similari_titolo_d_accesso' target='_blank'>Take me to Italian Data Portal.</a></p>",
+          "body": "<p>The most common structure for data is tabular. Data is organised into rows and columns listing sequential values, such as expenditure.</p><p>If the data is based on separate entries that are not linked to each other then a tabular file structure in a format such as CSV is ideal. An example of appropriate tabular data is the Italian data portal’s museum attendance figures.<br /><a href='http://www.datiopen.it/opendata/Visitatori_musei_pubblici_e_similari_titolo_d_accesso' target='_blank'>Take me to Italian Data Portal</a></p>",
           "_graphic": {
                     "src": "course/en/images/odi-004.jpg",
                     "alt": "Tabular",
@@ -220,7 +220,7 @@
         {
           "alt": "Live data and data feeds",
           "title": "Live data and data feeds",
-          "body": "<p>Some data is not suitable to be made available as a downloadable file.</p><p>Much of this data is updated so regularly that the file downloads would be too large for most users. This type of open data structure may be made available by a machine interface, also know as an application programming interface (API).</p><p>There are many services that make machine interfaces available over the Web. These services can be directly integrated into other Web applications. For an example of an open data API, see at the Belgian railway company.<br /><a href='https://hello.irail.be/api/1-0/' target='_blank'>Take me to iRail API.</a></p>"
+          "body": "<p>Some data is not suitable to be made available as a downloadable file.</p><p>Much of this data is updated so regularly that the file downloads would be too large for most users. This type of open data structure may be made available by a machine interface, also know as an application programming interface (API).</p><p>There are many services that make machine interfaces available over the Web. These services can be directly integrated into other Web applications. For an example of an open data API, see at the Belgian railway company.<br /><a href='https://hello.irail.be/api/1-0/' target='_blank'>Take me to iRail API</a></p>"
         }
       ],
       "_pageLevelProgress": {
@@ -348,18 +348,18 @@
         "title": "Picking the right format.",
         "displayTitle": "Why is picking the right format for open data important?",
         "body": "<p>Why is picking the right format for open data important?</p>",
-        "instruction": "<em>Select an option, then click 'Submit'.</em>",
+        "instruction": "<em>Choose your answer, then click 'Submit'</em>",
         "_items": [
             {
-                "text": "Ensure that privacy is protected.",
+                "text": "ensure that privacy is protected",
                 "_shouldBeSelected": false
             },
             {
-                "text": "Drive down costs.",
+                "text": "drive down costs",
                 "_shouldBeSelected": false
             },
             {
-                "text": "Ease, usability, management and access.",
+                "text": "ease, usability, management and access",
                 "_shouldBeSelected": true
             }
         ],
@@ -416,18 +416,18 @@
         "title": "Picking data structures.",
         "displayTitle": "Which data structure would you use for the data in the picture?",
         "body": "<p>Which data structure would you use for the data in the picture?</p>",
-        "instruction": "<em>Select an option, then click 'Submit'.</em>",
+        "instruction": "<em>Choose your answer, then click 'Submit'</em>",
         "_items": [
             {
-                "text": "Tabular",
+                "text": "tabular",
                 "_shouldBeSelected": false
             },
             {
-                "text": "Hierarchical",
+                "text": "hierarchical",
                 "_shouldBeSelected": true
             },
             {
-                "text": "Network",
+                "text": "network",
                 "_shouldBeSelected": false
             }
         ],
@@ -484,7 +484,7 @@
         "title": "In which format should open data be made available wherever possible?",
         "displayTitle": "In which format should open data be made available wherever possible",
         "body": "<p>What format should open data be made available in wherever possible?</p>",
-        "instruction": "<em>Select an option, then click Submit.</em>",
+        "instruction": "<em>Choose your answer, then click 'Submit'</em>",
         "_items": [
             {
                 "text": "CSV",
