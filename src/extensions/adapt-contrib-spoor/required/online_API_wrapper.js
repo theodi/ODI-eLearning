@@ -113,9 +113,11 @@ function updateBadgeOverall(badge_progression,level) {
 	percent = badge_progression[level];
 	if (percent > 0) {
 		document.getElementById(level + '-overall').innerHTML = percent + "%";
+		document.getElementById(level + '-overall-side').innerHTML = percent + "%";
 	}
 	if (percent == 100) {
 		document.getElementById(level + '-overall').innerHTML = "✔";
+		document.getElementById(level + '-overall-side').innerHTML = "✔";
 	}
 }
 function updateProgress() {
