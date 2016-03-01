@@ -272,18 +272,18 @@
         "title": "What is quality open data?",
         "displayTitle": "What is quality open data?",
         "body": "<p>Open data becomes usable when...</p>",
-        "instruction": "<em>Select an option, then click 'Submit'.</em>",
+        "instruction": "<em>Choose your answer, then click 'Submit'</em>",
         "_items": [
             {
-                "text": "it is imported into our system.",
+                "text": "it is imported into our system",
                 "_shouldBeSelected": false
             },
             {
-                "text": "a human can understand it, machines can manipulate it and it has an open licence.",
+                "text": "a human can understand it, machines can manipulate it and it has an open licence",
                 "_shouldBeSelected": true
             },
             {
-                "text": "the government publishes it.",
+                "text": "the government publishes it",
                 "_shouldBeSelected": false
             }
         ],
@@ -340,18 +340,18 @@
         "title": "Legal considerations",
         "displayTitle": "Legal considerations",
         "body": "<p>There are three legal considerations as part of the standards for publishing open data, one of which is...</p>",
-        "instruction": "<em>Select an option, then click 'Submit'.</em>",
+        "instruction": "<em>Choose your answer, then click 'Submit'</em>",
         "_items": [
             {
-                "text": "not to break the licensing law.",
+                "text": "not to break the licensing law",
                 "_shouldBeSelected": false
             },
             {
-                "text": "to publish any type of data.",
+                "text": "to publish any type of data",
                 "_shouldBeSelected": false
             },
             {
-                "text": "to protect sensitive information such as personal data.",
+                "text": "to protect sensitive information such as personal data",
                 "_shouldBeSelected": true
             }
         ],
@@ -408,18 +408,18 @@
         "title": "Technical considerations",
         "displayTitle": "Technical considerations",
         "body": "<p>There are three technical considerations as part of the standards for publishing open data, one of which is...</p>",
-        "instruction": "<em>Select an option, then click 'Submit'.</em>",
+        "instruction": "<em>Choose your answer, then click 'Submit'</em>",
         "_items": [
             {
-                "text": "What format the open data is published in.",
+                "text": "What format the open data is published in",
                 "_shouldBeSelected": true
             },
             {
-                "text": "Whether it can it be used on a computer.",
+                "text": "Whether it can it be used on a computer",
                 "_shouldBeSelected": false
             },
             {
-                "text": "Whether it takes up much bandwidth.",
+                "text": "Whether it takes up much bandwidth",
                 "_shouldBeSelected": false
             }
         ],
@@ -476,18 +476,18 @@
         "title": "Marques of quality",
         "displayTitle": "Marques of quality",
         "body": "<p>The Open Data Institute advocates the use of its own quality marque known as...</p>",
-        "instruction": "<em>Select an option, then click 'Submit'.</em>",
+        "instruction": "<em>Choose your answer, then click 'Submit'</em>",
         "_items": [
             {
-                "text": "ODI big green tick.",
+                "text": "the ODI big green tick",
                 "_shouldBeSelected": false
             },
             {
-                "text": "ODI stamp of approval.",
+                "text": "the ODI stamp of approval",
                 "_shouldBeSelected": false
             },
             {
-                "text": "Open Data Certificates.",
+                "text": "Open Data Certificates",
                 "_shouldBeSelected": true
             }
         ],
