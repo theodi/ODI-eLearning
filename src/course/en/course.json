@@ -12,6 +12,42 @@
     "_latestTrackingId": 14,
     "_resources": [
     {
+        "title": "Progress tracker",
+        "description": "Earn all your open data badges",
+        "_filterButtons": {
+            "all": "All",
+            "document": "PDF",
+            "media": "Media",
+            "link": "Link"
+        },
+        "_resourcesItems": [
+            {
+                "_type": "link",
+                "_local": "true",
+		"title": "<svg class='badge-icon-medium'><image class='badge-icon-medium' xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='adapt/css/assets/badges/explorer.svg' src='adapt/css/assets/badges/explorer.png'></image></svg><span class='side-badge-title'>Explorer</span><p class='sidebar-progress' id='explorer-overall-side'>-</p>",
+                "description": ""
+            },
+            {
+                "_type": "link",
+                "_local": "true",
+		"title": "<svg class='badge-icon-medium'><image class='badge-icon-medium' xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='adapt/css/assets/badges/adventurer.svg' src='adapt/css/assets/badges/adventurer.png'></image></svg><span class='side-badge-title'>Adventurer</span><p class='sidebar-progress' id='adventurer-overall-side'>-</p>",
+                "description": ""
+            },
+            {
+                "_type": "link",
+                "_local": "true",
+		"title": "<svg class='badge-icon-medium'><image class='badge-icon-medium' xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='adapt/css/assets/badges/strategist.svg' src='adapt/css/assets/badges/strategist.png'></image></svg><span class='side-badge-title'>Strategist</span><p class='sidebar-progress' id='strategist-overall-side'>-</p>",
+                "description": ""
+            },
+            {
+                "_type": "link",
+                "_local": "true",
+		"title": "<svg class='badge-icon-medium'><image class='badge-icon-medium' xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='adapt/css/assets/badges/practitioner.svg' src='adapt/css/assets/badges/practitioner.png'></image></svg><span class='side-badge-title'>Practitioner</span><p class='sidebar-progress' id='practitioner-overall-side'>-</p>",
+                "description": ""
+            }
+        ]
+    },
+    {
         "title": "Modules",
         "description": "Switch to another module",
         "_filterButtons": {
