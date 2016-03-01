@@ -28,7 +28,7 @@ This means that you need two Git trackers in the same directory
 10. From the master directory (ODI-eLearning)
 11. mv ../ODI-modules/.module .
 12. mv ../ODI-modules/src/course src
-13. mv ../ODI-modules/src/theme/adapt-contrib-vanilla/less/\* src/theme/adapt-contrib-vanilla/less/
+13. mv ../ODI-modules/src/theme/default/less/\* src/theme/default/less/
 
 ## Add shortcut git commands (Linux)
 14. echo "alias gitmodule='cp .gitignore_module .gitignore && git --git-dir=.module'" >> ~/.bashrc
