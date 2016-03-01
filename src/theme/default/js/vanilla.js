@@ -89,7 +89,7 @@ function checkState() {
 
 	if (!sessionEmail && sessionID) {
 		checkWelcome();
-		$('#save-section').html("<button onClick='showSave();' class='slbutton' id='saveSession'>Save Progress</button>");
+		$('#save-section').html("<button onClick='showSave();' class='slbutton' id='saveSession'>Save progress</button>");
 		$('#save-section').fadeIn();
 	    $("#country-select").removeClass('status-shown');
 		$("#country-select").addClass('save-shown');

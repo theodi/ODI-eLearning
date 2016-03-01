@@ -58,7 +58,7 @@ function checkState() {
 	var lastSave = localStorage.getItem(moduleId + "_lastSave");
 
 	if (!sessionEmail && sessionID) {
-		$('#save-section').html("<button onClick='showSave();' class='slbutton' id='saveSession'>Save Progress</button>");
+		$('#save-section').html("<button onClick='showSave();' class='slbutton' id='saveSession'>Save progress</button>");
 		$('#save-section').fadeIn();
 		clearInterval(interval);
 		click_bind = false;
