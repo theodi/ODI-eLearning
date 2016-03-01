@@ -121,7 +121,10 @@
 	min-width: 190px;
 	@media all and (max-width:(@device-width-medium - 1px)) {
 		width: 95%;
-    }
+    	}
+	@media all and (max-width:(@device-width-large - 1px)) and (min-width:(@device-width-medium)) {
+		width: 45%;
+    	}
     font-size: 1.4em;
 }
 .awarded {
