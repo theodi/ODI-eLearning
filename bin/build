@@ -65,7 +65,7 @@ SRCTHEME=$THEME
 if [ ! -f src/theme/$SRCTHEME/less/custom.less ];
 then
         SRCTHEME="default"
-        echo "moving items into place" 
+        echo "moving style into from from default theme" 
 	echo ""
 	cp src/theme/$SRCTHEME/less/custom.less src/theme/$THEME/less/
 	cp src/theme/$SRCTHEME/less/theme.less src/theme/$THEME/less/
