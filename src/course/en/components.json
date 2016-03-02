@@ -120,7 +120,57 @@
         "displayTitle":"What about the costs of publication?",
         "body":"<p>Open data is usually free at the point of use.</p><p>The traditional justification for this free service has been that authorities produce their open data through the operation of taxpayer-funded services.</p><p>However, gathering and maintaining data always has a cost attached to it. For this reason, in some cases local authorities may need to charge the user a small fee to cover any costs associated with the data. For this data to qualify as open, the cost should be no more than the 'reasonable reproduction cost' of the data involved. Authorities can charge a fee to cover the costs of supporting a user's data request but should not charge a premium for the data.</p>"
     },
-    
+    {
+        "_id":"c-29",
+        "_parentId":"b-28",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "What is open data?",
+            "title": "What is open data?",
+            "large": "course/en/images/odi-1-text-image_large.jpg",
+            "medium": "course/en/images/odi-1-text-image_large.jpg",
+            "small": "course/en/images/odi-1-text-image_large.jpg",
+            "*source":"http://www.shutterstock.com/pic.mhtml?id=179384507&src=lb-35924366",
+            "*credit":"leromin",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+      "_id":"c-28",
+      "_parentId":"b-28",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"left",
+      "title": "How to publish your dataset: The basics",
+      "displayTitle": "How to publish your dataset: The basics",
+      "body": "<p></p>",
+      "instruction": "<em>Click on each of the boxes below to expand.</em>",
+      "_items": [
+        {
+          "alt": "Entering the metadata",
+          "title": "1. Entering the metadata",
+          "body": "<p></p>"
+        },
+        {
+          "alt": "Uploading the data",
+          "title": "2. Uploading the data",
+          "body": "<p></p>"
+        },
+    {
+        "_id":"c-30",
+        "_parentId":"b-28",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"How to... Licence your open dataset",
+        "displayTitle":"How to... Licence your open dataset",
+        "body":"<p>Once you know your dataset is published online, the most important thing is to place it under the correct licence. The licence is the only thing that can make your published data into open data. While local authorities can choose the licence they place on their dataset, we strongly recommend using the Open Government Licence (OGL) for all of your data. OGL is a simple, clear licence used by all government departments and many others. Placing one on your dataset takes only a few minutes. To apply your licence follow the link below.<br><a href='http://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/licensing-for-re-use/what-ogl-covers/' target='_blank'>Take me to the OGL page.</a></p>"
+    },
      {
         "_id": "c-35",
         "_parentId": "b-35",
