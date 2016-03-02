@@ -78,7 +78,7 @@
         "_items": [
             {
                 "title": "Is there a standard schema for this dataset?",
-                "body": "<p>The first question you need to answer is whether there is already a schema for your dataset. A schema is a set of column headings in the dataset. The LGA keeps standard schemas for more than 640 of the most commonly published datasets. By using a standard schema, your open data can be combined with other authorities' releases to build up regional and national overviews. Standard schemas also save you time and prevent your staff 'reinventing the wheel.</p><p>Using the standard schemas is simple. Just find the right schema for your dataset, rename you colunm heading to match and save the result. No common schema for the dataset you are publishing? Try to make your headings as simple as possible and then submit your own schema as the new standard.<br><a href='http://schemas.opendata.esd.org.uk/' target='_blank'>Take me to LG Inform Plus Schemas Directory</a>",
+                "body": "<p>The first question you need to answer is whether there is already a schema for your dataset. A schema is a set of column headings in the dataset. The LGA keeps standard schemas for 10 of the most popular open datasets in their <a href='http://opendata.esd.org.uk/ESDSchemaGuidance.pdf' target='_blank'>schema guides</a> as well as more than 640 schema examples from authorities around the UK. By using a standard schema, your open data can be combined with other authorities' releases to build up regional and national overviews. Standard schemas also save you time and prevent your staff 'reinventing the wheel.</p><p>Using the standard schemas is simple. Just find the right schema for your dataset, rename you colunm heading to match and save the result. No common schema for the dataset you are publishing? Try to make your headings as simple as possible and then submit your own schema as the new standard.<br><a href='http://schemas.opendata.esd.org.uk/' target='_blank'>Take me to LG Inform Plus Schemas Directory</a>",
                 "_graphic": {
                     "src": "course/en/images/redbridge.jpg",
                     "alt": "Schemas",
@@ -163,27 +163,27 @@
         {
           "alt": "Validating the dataset",
           "title": "3. Validating the dataset",
-          "body": "<p></p>"
+          "body": "<p>Once your data is uploaded and live, it is important to check that it meets the minimum standards for quality and usability which ensure that people can use it. The LGA has a quick validation tool that lets you check whether your data matches the quality and consistency guidelines of the DCLG transparency code.<br><a href='http://validator.opendata.esd.org.uk/' target='_blank'>Take me to the LGA Validator.</a></p>"
         },
         {
           "alt": "Adding the open licence",
           "title": "4. Adding the open licence",
-          "body": "<p></p>"
+          "body": "<p>Once you know your dataset is valid and online, the most important thing is to place it under the correct licence. The licence is the only thing that can make your published data into open data. While local authorities can choose the licence they place on their dataset, we strongly recommend using the Open Government Licence (OGL) for all of your data. OGL is a simple, clear licence used by all government departments and many others. Placing one on your dataset takes only a few minutes. To apply your licence follow the link below.<br><a href='http://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/licensing-for-re-use/what-ogl-covers/' target='_blank'>Take me to the OGL page.</a></p>"
         },
         {
           "alt": "Providing a consistent 'URI'",
           "title": "5. Providing a consistent URI",
-          "body": "<p>This session begins by looking at how open licences are there to protect data publishers, while also unlocking value. We show how to build a machine readable open license that can be applied to any online content.</p><p>The session then continues by looking at the technical, legal, social and practical requirements for making different types of open data usable and some of the most relevant guidelines to support this process.</p>"
+          "body": "<p>A URI or Uniform Resource Identifier is a web address that allows anyone to quickly and consistently locate your dataset. Putting a good URI on your dataset is an important step toward consistent publication. We reccomend using two URIs for any dataset you publish. The first should use the LGA's directory of common identifiers to refer to your local authority. This URI lets any machine or person find your dataset if they know the authority code. You can use the LGA directory to look up the correct code for your authority in seconds. The second URI should tell people, in the address bar, exactly what the dataset is. For example, a dataset from Hampshire county council about senior salaries might be under the secondary URI 'http://www3.hants.gov.uk/opendata/datasets/senior-salaries.htm'. This second URI lets anyone read what the dataset is before they navigate to it. This second URI should redirect to the main URI using the LGA directory.<br><a href='http://uris.opendata.esd.org.uk/' target='_blank'>Take me to LGAs URI directory.</a></p>"
         },
         {
           "alt": "Registering the dataset in a catalogue",
           "title": "6. Registering the dataset in a catalogue",
-          "body": "<p>This session will introduce the importance of recent changes around open data modification rules which help combat data errors. We also introduce OpenRefine and how it improves data management by publishers.</p>"
+          "body": "<p>The next step is to reference your data in a catalogue. There are two catalogues which it is important to add your data to. The first is data.gov.uk, the second in LG Inform. Data.gov.uk is the UK's national open data portal and has a huge community of users who turn data like yours into valuable results for the local area. Publishing on there will expose your dataset to national attention. LG Inform is the community resource for local authority data and allows your data to be combined with that of other authorities in order to cooperate and generate better results for you. Registering a dataset on data.gov.uk is a simple submission process where you complete key metadata information. Registration with LG Inform is automatic once you have an up-to-date inventory (see step 7)<br><a href='http://guidance.data.gov.uk/dataset_form.html' target='_blank'>Take me to the data.gov.uk dataset registration page.</a></p>"
         },
         {
           "alt": "7. Updating your inventory",
           "title": "7. Updating your inventory",
-          "body": "<p>An inventory lets other people know what data you have published. It encourages consistent referencing of datasets across councils to make it easier to find datasets on the same topic or in the same format. data.gov.uk has built a harvester to automatically import inventories and so maintain up-to-date entries for a council, in its index of UK open data.</p>"
+          "body": "<p>An inventory lets other people know what data you have published. It encourages consistent referencing of datasets across councils to make it easier to find datasets on the same topic or in the same format. data.gov.uk has built a harvester to automatically import inventories and so maintain up-to-date entries for a council, in its index of UK open data. LGA provides guidance to help you update your inventory and publish it according to the correct specifications<br><a href='http://inventories.opendata.esd.org.uk/' target='_blank'>Take me to the LGA inventories</a></p>"
         }
       ],
       "_pageLevelProgress": {
@@ -217,7 +217,7 @@
         "_layout":"left",
         "title":"After you publish - Getting an ODI Certificate",
         "displayTitle":"After you publish - Getting an ODI Certificate",
-        "body":"<p>ODI Open Data Certificates is a free online tool developed to assess and recognise the quality and sustainability of open datasets. The certificates are an independent quality marque designed to support open data publishers in acheiving professional results.</p><h5>Open Data Certificates provide publishers with a range of benefits including:</h5><ul class='ticks'><li>Formal recognition of your data quality</li><li>A much broader user base</li><li>Automatic trust in the quality and usability of your data</li><li>Instant, simple compliance with the best publishing practices</li><li>Free advice on improving the quality of your data</li></p>"
+        "body":"<p>Now have a fully-compliant open dataset published, the final step in the process is to certify your results so that others can search for your data based on quality. For this process, LGA reccomends applying an ODI certificate to your dataset. ODI Open Data Certificates is a free online tool developed to assess and recognise the quality and sustainability of open datasets. The certificates are an independent quality marque designed to support open data publishers in acheiving professional results.</p><h5>Open Data Certificates provide publishers with a range of benefits including:</h5><ul class='ticks'><li>Formal recognition of your data quality</li><li>A much broader user base</li><li>Automatic trust in the quality and usability of your data</li><li>Instant, simple compliance with the best publishing practices</li><li>Free advice on improving the quality of your data</li></p>"
     },
     {
         "_id": "c-35",
@@ -380,34 +380,42 @@
         "_attempts":1,
         "_questionWeight":1,
         "_isRandom":true,
-        "_selectable":1,
-        "title": "Benefits of consistent publishing",
-        "displayTitle": "Benefits of consistent publishing",
-        "body": "<p>Which of the following is a benefit of publishing in a consistent way?</p>",
-        "instruction": "<em>Select an option, then click 'Submit'.</em>",
+        "_selectable":3,
+        "title": "Things to check before you publish",
+        "displayTitle": "Things to check before you publish",
+        "body": "<p>Which of the following should you check before publishing your dataset?</p>",
+        "instruction": "<em>Select up to three options, then click 'Submit'.</em>",
         "_items": [
             {
-                "text": "Easier to manage staff",
-                "_shouldBeSelected": false
-            },
-            {
-                "text": "Easier to share data between departments",
+                "text": "Whether there is a common schema",
                 "_shouldBeSelected": true
             },
             {
-                "text": "Easier to run payroll",
+                "text": "How large the data file will be",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Whether the dataset is clean",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "Where the dataset will be published",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "When the data will be available",
                 "_shouldBeSelected": false
             }
         ],
         "_feedback":{
-            "correct":"<h5>That’s right!</h5><p>Publishing open data cin a consistent format makes it simple for people to get the data they need without contacting different departments.</p>",
+            "correct":"<h5>That’s right!</h5><p>Three essential considerations before publishing your dataset are whether a common schema exists, whether the dataset is clean and where the data will be published.</p>",
             "_incorrect": {
-                "notFinal": "h5>Are you sure about that?</h5><p>That’s right!</h5><p>Publishing open data cin a consistent format makes it simple for people to get the data they need without contacting different departments.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>That’s right!</h5><p>Publishing open data cin a consistent format makes it simple for people to get the data they need without contacting different departments.</p>"
+                "notFinal": "h5>Are you sure about that?</h5><p>Three essential considerations before publishing your dataset are whether a common schema exists, whether the dataset is clean and where the data will be published.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>Three essential considerations before publishing your dataset are whether a common schema exists, whether the dataset is clean and where the data will be published.</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>That’s right!</h5><p>Publishing open data can support improved service delivery, transparency, innovation economies and economic benefits to the local area</p>",
-                "final": "<h5>Are you sure about that?</h5><p>That’s right!</h5><p>Publishing open data can support improved service delivery, transparency, innovation economies and economic benefits to the local area</p>"
+                "notFinal": "<h5>Are you sure about that?</h5>Three essential considerations before publishing your dataset are whether a common schema exists, whether the dataset is clean and where the data will be published.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>Three essential considerations before publishing your dataset are whether a common schema exists, whether the dataset is clean and where the data will be published.</p>"
           }
         },
         "_buttons":{
@@ -451,7 +459,7 @@
         "_selectable":1,
         "title": "Best practices for local authority publishing",
         "displayTitle": "Best practices for local authority publishing",
-        "body": "<p>Where can authorities go to find clear guidance on publishing consistently?</p>",
+        "body": "<p>Where can authorities go to find clear guidance on URIs, schemas and standards?</p>",
         "instruction": "<em>Select an option, then click 'Submit'.</em>",
         "_items": [
             {
@@ -517,33 +525,33 @@
         "_questionWeight":1,
         "_isRandom":true,
         "_selectable":1,
-        "title": "Legal considerations",
-        "displayTitle": "Legal considerations",
-        "body": "<p>There are three legal considerations as part of the standards for publishing open data, one of which is...</p>",
+        "title": "Licensing your dataset",
+        "displayTitle": "Licensing your dataset",
+        "body": "<p>When publishing your dataset, what licence does LGA reccomend you apply to the dataset?</p>",
         "instruction": "<em>Select an option, then click 'Submit'.</em>",
         "_items": [
             {
-                "text": "not to break the licensing law.",
+                "text": "Whatever licence you want",
                 "_shouldBeSelected": false
             },
             {
-                "text": "to publish any type of data.",
+                "text": "A Creative Commons Non-Commercial Licence",
                 "_shouldBeSelected": false
             },
             {
-                "text": "to protect sensitive information such as personal data.",
+                "text": "An Open Government Licence",
                 "_shouldBeSelected": true
             }
         ],
         "_feedback":{
-            "correct":"<h5>That’s right!</h5><p>In addition to the open licence, there are three legal requirements that need to be considered.  Protect sensitive information like personal data, preserve the rights of data owners and promote correct use of the data.</p>",
+            "correct":"<h5>That’s right!</h5><p>LGA reccomends that all data published by authorities is under the Open Government Licence because it is the simplest and most accessible license for your data</p>",
             "_incorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>In addition to the open licence, there are three legal requirements that need to be considered.  Protect sensitive information like personal data, preserve the rights of data owners and promote correct use of the data.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>In addition to the open licence, there are three legal requirements that need to be considered.  Protect sensitive information like personal data, preserve the rights of data owners and promote correct use of the data.</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>LGA reccomends that all data published by authorities is under the Open Government Licence because it is the simplest and most accessible license for your data</p>",
+                "final": "<h5>Are you sure about that?</h5><p>LGA reccomends that all data published by authorities is under the Open Government Licence because it is the simplest and most accessible license for your data</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>In addition to the open licence, there are three legal requirements that need to be considered.  Protect sensitive information like personal data, preserve the rights of data owners and promote correct use of the data.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>In addition to the open licence, there are three legal requirements that need to be considered.  Protect sensitive information like personal data, preserve the rights of data owners and promote correct use of the data.</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>LGA reccomends that all data published by authorities is under the Open Government Licence because it is the simplest and most accessible license for your data</p>",
+                "final": "<h5>Are you sure about that?</h5><p>LGA reccomends that all data published by authorities is under the Open Government Licence because it is the simplest and most accessible license for your data</p>"
           }
         },
         "_buttons":{
@@ -585,9 +593,9 @@
         "_questionWeight":1,
         "_isRandom":true,
         "_selectable":1,
-        "title": "Technical considerations",
-        "displayTitle": "Technical considerations",
-        "body": "<p>There are three technical considerations as part of the standards for publishing open data, one of which is...</p>",
+        "title": "Technical considerations in ODI Certificates",
+        "displayTitle": "Technical considerations in ODI Certificates",
+        "body": "<p>There are three technical considerations as part of the ODi Certificates standards for publishing open data, one of which is...</p>",
         "instruction": "<em>Select an option, then click 'Submit'.</em>",
         "_items": [
             {
@@ -649,9 +657,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"How can I take the stress out of open data publication?",
-        "displayTitle":"How can I take the stress out of open data publication?",
-        "body":"<p>In our first module we explored the benefits of publishing open data for local authorities. In this module we look at one of the biggest barriers to realising those benefits - inconsistent publishing approaches. Many authorities are unaware of the support available to them in publishing consistent, usable data.</p><p>Below you can learn about the benefits of following consistent publishing approaches, access the best resources to support you and understand a simple assessment checklist that can save hours of staff time in every release.</p>",
+        "title":"How to publish consistent open data",
+        "displayTitle":"How to publish consistent open data",
+        "body":"<p>In this module we have explored all the steps to publishing consistent, high-quality open data for your authority. Follow the guidance above and you will produce highly usable data which can generate signifiact impact for your authority as well as saving you time and money</p><p>In our next and final module, we will look at where you can find the best examples of authorities who have followed this guidance and see how their publication helped them acheive results.</p>",
         "_pageLevelProgress": {
           "_isEnabled": true
         }
