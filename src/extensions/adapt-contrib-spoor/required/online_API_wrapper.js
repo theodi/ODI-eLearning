@@ -113,11 +113,11 @@ function updateBadgeOverall(badge_progression,level) {
 	percent = badge_progression[level];
 	if (percent > 0) {
 		document.getElementById(level + '-overall').innerHTML = percent + "%";
-		document.getElementById(level + '-overall-side').innerHTML = percent + "%";
+		try { document.getElementById(level + '-overall-side').innerHTML = percent + "%"; } catch(err) {}
 	}
 	if (percent == 100) {
 		document.getElementById(level + '-overall').innerHTML = "✔";
-		document.getElementById(level + '-overall-side').innerHTML = "✔";
+		try { document.getElementById(level + '-overall-side').innerHTML = "✔"; } catch(err) {}
 	}
 }
 function updateProgress() {
@@ -150,22 +150,16 @@ function updateProgress() {
 	} catch(err) {
 		badges = {};
 	}
-	if (badges["explorer"]) {
-		document.getElementById('explorer-badge').className = "progress-badge awarded explorer-awarded";	
-		document.getElementById('explorer-overall-side').parentNode.parentNode.parentNode.parentNode.className = 'resources-item drawer-item link explorer-awarded';
-	}
-	if (badges["adventurer"]) {
-		document.getElementById('adventurer-badge').className = "progress-badge awarded adventurer-awarded";	
-		document.getElementById('adventurer-overall-side').parentNode.parentNode.parentNode.parentNode.className = 'resources-item drawer-item link adventurer-awarded';
-	}
-	if (badges["practitioner"]) {
-		document.getElementById('practitioner-badge').className = "progress-badge awarded practitioner-awarded";	
-		document.getElementById('practitioner-overall-side').parentNode.parentNode.parentNode.parentNode.className = 'resources-item drawer-item link practitioner-awarded';
-	}
-	if (badges["strategist"]) {
-		document.getElementById('strategist-badge').className = "progress-badge awarded strategist-awarded";	
-		document.getElementById('strategist-overall-side').parentNode.parentNode.parentNode.parentNode.className = 'resources-item drawer-item link strategist-awarded';
-	}
+	if (badges["explorer"]) { updateBadgeClass('explorer'); }
+	if (badges["adventurer"]) { updateBadgeClass('adventurer'); }
+	if (badges["practitioner"]) { updateBadgeClass('prectitioner'); }
+	if (badges["strategist"]) { updateBadgeClass('strategist'); }
+}
+function updateBadgeClass(level) {
+	document.getElementById(level + '-badge').className = "progress-badge awarded " + level + "-awarded";	
+	try {	
+		document.getElementById(level + '-overall-side').parentNode.parentNode.parentNode.parentNode.className = 'resources-item drawer-item link ' + level + '-awarded';
+	} catch(err) {}
 }
 
 function getModuleId() {
