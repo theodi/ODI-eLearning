@@ -65,20 +65,20 @@
         "displayTitle":"Why does consistency matter?",
         "body":"<p>Open data is not just a compliance exercise. The aim of all open data is to invite others to use the data, whether for a new app, a study or just to gain a deeper understanding. Most open data users will want more than one dataset. Often they combine datasets from different authorities. When combining datasets, consistency matters. Without consistent 'schemas' or column headings, users cannot easily combine your data with others. Without consistent availability</p><p>The traditional justification for this free service has been that authorities produce their open data through the operation of taxpayer-funded services.</p><p>However, gathering and maintaining data always has a cost attached to it. For this reason, in some cases local authorities may need to charge the user a small fee to cover any costs associated with the data. For this data to qualify as open, the cost should be no more than the 'reasonable reproduction cost' of the data involved. Authorities can charge a fee to cover the costs of supporting a user's data request but should not charge a premium for the data.</p>"
     },
-    {
+   {
         "_id":"c-25",
         "_parentId":"b-25",
         "_type":"component",
         "_layout": "full",
         "_component": "dynamic-narrative",
-        "title": "Before you publish - 3 questions you need to ask",
-        "displayTitle": "Before you publish - 3 questions you need to ask",
-        "body": "<p>Consistent publication brings a range of benefits for local authorities.</p>",
+        "title": "Finding the right schema",
+        "displayTitle": "Finding the right schema",
+        "body": "<p>Before publishing an open dataset, there are three questions you need to ask yourself. Each of these questions can be answered through the tools available on LG Inform Plus. Click below to learn about each question and how to answer it.</p>",
         "instruction": "<em class='desktop-instruction'>Click the forward arrow for more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
         "_items": [
             {
-                "title": "Is there a schema for this dataset?",
-                "body": "<p></p>",
+                "title": "Is there a standard schema for this dataset?",
+                "body": "<p>The first question you need to answer is whether there is already a schema for your dataset. A schema is a set of column headings in the dataset. The LGA keeps standard schemas for more than 640 of the most commonly published datasets. By using a standard schema, your open data can be combined with other authorities' releases to build up regional and national overviews. Standard schemas also save you time and prevent your staff 'reinventing the wheel.</p><p>Using the standard schemas is simple. Just find the right schema for your dataset, rename you colunm heading to match and save the result. No common schema for the dataset you are publishing? Try to make your headings as simple as possible and then submit your own schema as the new standard.<br><a href='http://schemas.opendata.esd.org.uk/' target='_blank'>Take me to LG Inform Plus Schemas Directory</a>",
                 "_graphic": {
                     "src": "course/en/images/redbridge.jpg",
                     "alt": "Schemas",
@@ -91,7 +91,7 @@
             },
             {
                 "title": "Does the dataset need cleaning up?",
-                "body": "<p></p>",
+                "body": "<p>Knowing that your dataset is clean is important to ensure your users have a reliable starting point when working with it. Clean data is data that is consistent, free from duplication and blank cells and ready for machine consumption.</p><p>When you are looking for errors in data, it is useful to have tools at your fingertips to support your cleaning. We reccomend the use of OpenRefine which can help you quickly clean large datasets. It is also important to keep a note of what changes have been made and share these openly with others so that everyone, including other staff inside your authority, can benefit from your work.</p><p>To get started with OpenRefine, you can follow <a href='http://training.theodi.org/resources/Cleaning_Exercise.pdf' target='_blank'> this ODI exercise</a>. To download the free OpenRefine tool <a href='http://openrefine.org/' target='_blank'> follow this link</a>",
                 "_graphic": {
                     "src": "course/en/images/Cleaning.jpg",
                     "alt": "Cleaning",
@@ -104,7 +104,7 @@
             },
             {
                 "title": "Where am I going to publish?",
-                "body": "<p></p>",
+                "body": "<p>For publishers, the choice of a publishing location is important because it provides the pathway to your data for users. The longer that pathway or the harder it is to locate, the fewer people will walk down it. Many authorities choose to publish on their own websites and link the results to data.gov.uk. Others will choose to use a platform like <a href='http://www.cipfa.org/services/datashare' target='_blank'>CIPFA/Redbridge's Datashare</a>, <a href='http://www.swirrl.com/publishmydata' target='_blank'>Swirrl's PublishMyData</a> or <a href='http://ckan.org/' target='_blank'>CKAN</a> to simplify the process of publishing.</p><p>Wherever you choose to publish, one thing to keep in mind is that your data should always be accessible from the homepage of your authority. The number of clicks doesn't matter but people should be able to find your data quickly from anywhere on your web presence.",
                 "_graphic": {
                     "src": "course/en/images/Platform.jpg",
                     "alt": "Cost Savings",
