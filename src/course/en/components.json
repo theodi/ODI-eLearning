@@ -91,7 +91,7 @@
             },
             {
                 "title": "Community open data schemas",
-                "body": "<p>If the data</p>",
+                "body": "<p>If the dataset you are publishing is not covered by one of the core schemas published by LGA, you may be able to find a common schema from othder local authorities in the community. The LGA schema directory keeps track of over 640 schemas from local authorities across the UK. Simply search the directory for the type of data you plan to publish and it will show you the common schemas that match.<br><a href='http://schemas.opendata.esd.org.uk/' target='_blank'>Take me to the LGA community schema directory</a><br>If the dataset you are publishing isn't covered by any of those in the community, it may be nescessary to create your own schema. However there are still some guidelines that can help you create a good one. Scroll right to find these guidelines.</p>",
                 "_graphic": {
                     "src": "course/en/images/Cleaning.jpg",
                     "alt": "Cleaning",
@@ -103,8 +103,8 @@
                 "strapline": "Cleaning"
             },
             {
-                "title": "Where am I going to publish?",
-                "body": "<p></p>",
+                "title": "Creating a new schema",
+                "body": "<p>You should only create a new schema if there is no existing one in the LGA directory that matches your dataset. You should</p>",
                 "_graphic": {
                     "src": "course/en/images/Platform.jpg",
                     "alt": "Cost Savings",
@@ -119,61 +119,6 @@
         "_pageLevelProgress": {
         "_isEnabled": true
         }
-    },
-    {
-        "_id":"c-30",
-        "_parentId":"b-30",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"right",
-        "_graphic": {
-            "alt": "Course Overview",
-            "title": "Course Overview",
-            "large": "course/en/images/summary-icon.png",
-            "medium": "course/en/images/summary-icon.png",
-            "small": "course/en/images/summary-icon.png",
-            "*source":"http://about.esd.org.uk/",
-            "*credit":"Local Government Association",
-            "*license":"All rights reserved"
-        }
-    },
-    {
-      "_id":"c-31",
-      "_parentId":"b-30",
-      "_type":"component",
-      "_component":"accordion",
-      "_classes":"",
-      "_layout":"left",
-      "title": "Getting a Licence",
-      "displayTitle": "Getting a licence",
-      "body": "<p></p>",
-      "instruction": "<em>Click on each of the boxes below to expand.</em>",
-      "_items": [
-        {
-          "alt": "Entering the metadata",
-          "title": "1. Entering the metadata",
-          "body": "<p></p>"
-        },
-        {
-          "alt": "Uploading the data",
-          "title": "2. Uploading the data",
-          "body": "<p></p>"
-        },
-        {
-          "alt": "Validating the dataset",
-          "title": "3. Validating the dataset",
-          "body": "<p></p>"
-        },
-        {
-          "alt": "7. Updating your inventory",
-          "title": "7. Updating your inventory",
-          "body": "<p>An inventory lets other people know what data you have published. It encourages consistent referencing of datasets across councils to make it easier to find datasets on the same topic or in the same format. data.gov.uk has built a harvester to automatically import inventories and so maintain up-to-date entries for a council, in its index of UK open data.</p>"
-        }
-      ],
-      "_pageLevelProgress": {
-        "_isEnabled": true
-      }
     },
  {
         "_id":"c-35",
