@@ -19,7 +19,7 @@ This means that you need two Git trackers in the same directory
 
 ## Master
 5. Change directory to the one above the modules one.
-6. Clone the repository again
+6. Clone the repository as a single master branch (git clone <url> --branch master --single-branch)
 7. Change directory into this new clone (cd ODI-eLearning)
 8. mv .git .master
 9. git --git-dir=.master checkout master
