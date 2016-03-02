@@ -28,9 +28,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Why should my authority publish open data?",
-        "displayTitle":"Why should my authority publish open data?",
-        "body":"<p>This introductory module examines the benefits of publishing open data for local authorities. Below we will learn about the principles behind open data release, the benefits of publishing and successful case studies of impact in local authorities.</p>",
+        "title":"Making transparency work for you",
+        "displayTitle":"Making transparency work for you",
+        "body":"<p>This introductory module examines the benefits of publishing open data for local authorities. Below we will learn about open data release can help you save time, imrpove services and save money, how to publish a dataset under an open licence and case studies of how open data created positive impact in local authorities.</p>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
@@ -61,9 +61,9 @@
       "_component":"accordion",
       "_classes":"",
       "_layout":"left",
-      "title": "The case for publishing open data",
-      "displayTitle": "The principle behind publishing open data",
-      "body": "<p>Open data is <strong>data</strong> that <strong>anyone</strong> can <strong>access</strong>, <strong>use</strong> and <strong>share</strong>.</p><p>Local government has been releasing open data for years on everything from election results to the locations of public toilets. But why should authorities publish open data and what are the best arguements to persuade colleages?</p>",
+      "title": "What is open data and why should we publish it?",
+      "displayTitle": "What is open data and why should we publish it?",
+      "body": "<p>Open data is <strong>data</strong> that <strong>anyone</strong> can <strong>access</strong>, <strong>use</strong> and <strong>share</strong>.</p><p>Local authorities has been releasing open data for years on everything from election results to the locations of public toilets. Publishing open data can have a range of benefits for your authority. But what are the best arguements to persuade your colleages and leadership?</p>",
       "instruction": "<em>Click on each of the boxes below to expand.</em>",
       "_items": [
         {
@@ -116,19 +116,20 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"What is open data?",
-        "displayTitle":"What about the costs?",
+        "title":"What about the costs of publication?",
+        "displayTitle":"What about the costs of publication?",
         "body":"<p>Open data is usually free at the point of use.</p><p>The traditional justification for this free service has been that authorities produce their open data through the operation of taxpayer-funded services.</p><p>However, gathering and maintaining data always has a cost attached to it. For this reason, in some cases local authorities may need to charge the user a small fee to cover any costs associated with the data. For this data to qualify as open, the cost should be no more than the 'reasonable reproduction cost' of the data involved. Authorities can charge a fee to cover the costs of supporting a user's data request but should not charge a premium for the data.</p>"
     },
+    
      {
-        "_id": "c-30",
-        "_parentId": "b-30",
+        "_id": "c-35",
+        "_parentId": "b-35",
         "_classes": "",
         "_type":"component",
         "_layout": "full",
         "_component": "dynamic-narrative",
-        "title": "The benefits of open data release",
-        "displayTitle": "The benefits of open data release",
+        "title": "The benefits of publishing open data - Local authority case studies",
+        "displayTitle": "The benefits of publishing open data - Local authority case studies",
         "body": "<p>Publishing open data can provide authorities with a range of benefits. Below you can explore the main benefits together with some examples.</p>",
         "instruction": "<em class='desktop-instruction'>Click the forward arrow for more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
         "_items": [
@@ -175,77 +176,8 @@
                 "title": "Better public perception",
                 "body": "<p>Authorities have the opportunity to improve their public perception and dialogue through the release of open data.</p><p>Open data helps support transparency and also has the potential to increase favourable press coverage through a growing number of data journalists.</p><p>Norfolk council is among those improving transparency around procurement processes through the release of  <br /><a href='http://www.local.gov.uk/documents/10180/6211662/Norfolk+Case+Study+formatted+final+25.1.16.pdf/dd25a35f-77b9-4c3d-8634-1631bacce1ef' target='_blank'>contract pipeline data</a></p>",
                 "_graphic": {
-                    "src": "course/en/images/odi-003-narrative_large.jpg",
+                    "src": "course/en/images/odi-8.png",
                     "alt": "better public perce",
-                    "title": "Improved service delivery",
-                    "*source":"https://www.fixmystreet.com/",
-                    "*credit":"fixmystreet",
-                    "*license":"unknown"
-                },
-                "strapline": "Better public perception"
-            }
-        ],
-        "_pageLevelProgress": {
-        "_isEnabled": true
-        }
-    },
-    {
-        "_id": "c-35",
-        "_parentId": "b-35",
-        "_classes": "",
-        "_type":"component",
-        "_layout": "full",
-        "_component": "dynamic-narrative",
-        "title": "Case studies of open data impact on local government",
-        "displayTitle": "Case studies of open data impact on local government",
-        "body": "<p>Local authorities are already seeing the benefits of publishing open data. The LGA keeps an extenisve collection of <a href='http://www.local.gov.uk/local-transparency/-/journal_content/56/10180/4049888/ARTICLE' target='_blank'>case studies</a> that catalogue these impacts. Below are some of the best examples:</p>",
-        "instruction": "<em class='desktop-instruction'>Click the forward arrow for more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
-        "_items": [
-            {
-                "title": "Redbridge council",
-                "body": "<p></p>",
-                "_graphic": {
-                    "src": "course/en/images/redbridge.jpg",
-                    "alt": "Support Growing Economies",
-                    "title": "Support Growing Economies",
-                    "*source":"http://www.shutterstock.com/pic-128352227.html",
-                    "*credit":"vs148",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "Redbridge Council"
-            },
-            {
-                "title": "Leeds Council",
-                "body": "<p></p>",
-                "_graphic": {
-                    "src": "course/en/images/Leeds.jpg",
-                    "alt": "Improved service delivery",
-                    "title": "Improved service delivery",
-                    "*source":"https://www.fixmystreet.com/",
-                    "*credit":"fixmystreet",
-                    "*license":"unknown"
-                },
-                "strapline": "Leeds Council"
-            },
-            {
-                "title": "Bristol Council",
-                "body": "<p></p>",
-                "_graphic": {
-                    "src": "course/en/images/bristol.jpg",
-                    "alt": "Cost Savings",
-                    "title": "Cost Savings",
-                    "*source":"http://www.shutterstock.com/pic-75494491.html",
-                    "*credit":"vlastas",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "Cost Savings"
-            },
-            {
-                "title": "Sedgemoor Council",
-                "body": "<p></p>",
-                "_graphic": {
-                    "src": "course/en/images/sedgemoor.png",
-                    "alt": "Improved service delivery",
                     "title": "Improved service delivery",
                     "*source":"https://www.fixmystreet.com/",
                     "*credit":"fixmystreet",
