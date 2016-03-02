@@ -292,6 +292,35 @@
         "_isEnabled": true
       }
     },
+    {
+        "_id":"c-45",
+        "_parentId":"b-45",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Section burst",
+            "title": "Section burst",
+            "large": "course/en/images/burst-white.png",
+            "medium": "course/en/images/burst-white.png",
+            "small": "course/en/images/burst-white.png",
+            "*source":"http://theodi.org",
+            "*credit":"The Open Data Institute",
+            "*license":"All Rights Reserved"
+        }
+    },
+    {
+        "_id":"c-46",
+        "_parentId":"b-45",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"full",
+        "title":"Certifying your data",
+        "displayTitle":"Certifying your data",
+        "body":""
+    },
  {
         "_id":"c-50",
         "_parentId":"b-50",
@@ -317,9 +346,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"After you publish - Getting an ODI Certificate",
-        "displayTitle":"After you publish - Getting an ODI Certificate",
-        "body":"<p>Now have a fully-compliant open dataset published, the final step in the process is to certify your results so that others can search for your data based on quality. For this process, LGA reccomends applying an ODI certificate to your dataset. ODI Open Data Certificates is a free online tool developed to assess and recognise the quality and sustainability of open datasets. The certificates are an independent quality marque designed to support open data publishers in acheiving professional results.</p><h5>Open Data Certificates provide publishers with a range of benefits including:</h5><ul class='ticks'><li>Formal recognition of your data quality</li><li>A much broader user base</li><li>Automatic trust in the quality and usability of your data</li><li>Instant, simple compliance with the best publishing practices</li><li>Free advice on improving the quality of your data</li></p>"
+        "title":"ODI Certificates",
+        "displayTitle":"ODI Certificates",
+        "body":"<p>With a fully-compliant open dataset published, the final step in the process is to certify your results. For this process, LGA reccomends applying an ODI certificate to your dataset.</p><p>ODI Open Data Certificates is a free online tool developed to assess and recognise the quality and sustainability of open datasets. The certificates are an independent quality marque designed to support open data publishers in acheiving professional results.</p><h5>Open Data Certificates provide publishers with a range of benefits including:</h5><ul class='ticks'><li>Formal recognition of your data quality</li><li>A much broader user base</li><li>Automatic trust in the quality and usability of your data</li><li>Instant, simple compliance with the best publishing practices</li><li>Free advice on improving the quality of your data</li></p>"
     },
     {
         "_id":"c-60",
@@ -391,8 +420,8 @@
         }
     },
      {
-        "_id":"c-61",
-        "_parentId":"b-60",
+        "_id":"c-70",
+        "_parentId":"b-70",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
@@ -409,7 +438,7 @@
         }
     },
     {
-        "_id":"c-70",
+        "_id":"c-71",
         "_parentId":"b-70",
         "_type":"component",
         "_component":"text",
@@ -417,11 +446,11 @@
         "_layout":"left",
         "title":"How can I get an Open Data Certificate?",
         "displayTitle":"How can I get an Open Data Certificate?",
-        "body":"<p>Getting your Open Data Certificate is simple.</p>First, you complete a short questionnaire to assess the level of support you provide for the data. Depending on the answers, the ODI awards a badge that can be embedded on your website to signify the quality level of your publication.</p><p>If you are publishing your data in a machine readable way (for example, by using a data portal like ckan), the site can pre-fill many of the certificate questions. Just enter the URL on the first page to get started.<br /><a href='https://certificates.theodi.org/en' target='_blank'>Take me to the ODI Open Data Certificates Site</a></p>"
+        "body":"<p>Getting your Open Data Certificate is simple.</p>First, you complete a short questionnaire to assess the level of support you provide for the data. Depending on the answers, the ODI awards a badge that can be embedded on your website to signify the quality level of your publication.</p><p>If you are publishing your data in a machine readable way (for example, by using a data portal like ckan), the site can pre-fill many of the certificate questions. Just enter the URL on the first page to get started.<br/><br/><a href='https://certificates.theodi.org/en' target='_blank'>Take me to the ODI Open Data Certificates Site</a></p>"
     },
     {
-        "_id":"c-71",
-        "_parentId":"b-70",
+        "_id":"c-75",
+        "_parentId":"b-75",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
@@ -439,7 +468,7 @@
         }
     },
     {
-        "_id":"c-75",
+        "_id":"c-76",
         "_parentId":"b-75",
         "_type":"component",
         "_component":"text",
