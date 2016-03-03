@@ -3,6 +3,7 @@
     "_type": "course",
     "title": "Open Data in Practice",
     "displayTitle": "Open Data in Practice",
+    "format": "course",
     "_buttons": {
         "submit": "Submit",
         "reset": "Reset",
@@ -10,6 +11,108 @@
         "hideCorrectAnswer": "My Answer"
     },
     "_latestTrackingId": 11,
+    "_learningOutcomes": [
+    {
+        "outcome": "Identify the stages and time requirements of an investigative open data project",
+        "credits": 5,
+        "badge": "strategist"
+    },
+    {
+        "outcome": "Identify a number of different errors that exist in data.",
+        "credits": 5,
+        "badge": "practitioner"
+    },
+    {
+        "outcome": "Clean a dataset.",
+        "credits": 15,
+        "badge": "practitioner"
+    },
+    {
+        "outcome": "Enrich a dataset with available open data.",
+        "credits": 15,
+        "badge": "practitioner"
+    },
+    {
+        "outcome": "Evaluate how emerging technologies can promote fast innovation and enable required change in business models",
+        "credits": 10,
+        "badge": "strategist"
+    },
+    {
+        "outcome": "Describe the key benefits of visulising open data",
+        "credits": 5,
+        "badge": "strategist"
+    },
+    {
+        "outcome": "Describe a number of key data visualisations",
+        "credits": 5,
+        "badge": "strategist"
+    },
+    {
+        "outcome": "Differentiate between the various goals of visualising open data",
+        "credits": 5,
+        "badge": "strategist"
+    },
+    {
+        "outcome": "Select the appropriate set of goals for specific open data visulisations",
+        "credits": 5,
+        "badge": "strategist"
+    },
+    {
+        "outcome": "Describe a number of techniques for visulising different formats and structures of data",
+        "credits": 5,
+        "badge": "strategist"
+    },
+    {
+        "outcome": "Describe the role of cognitive science in data visualisation",
+        "credits": 10,
+        "badge": "strategist"
+    },
+    {
+        "outcome": "Critically evaluate how the human brain interprets information presented visually",
+        "credits": 10,
+        "badge": "strategist"
+    },
+    {
+        "outcome": "Evaluate the effectiveness of pop-out in data visulisation",
+        "credits": 10,
+        "badge": "strategist"
+    },
+    {
+        "outcome": "Evaluate the use of colour in visulising data",
+        "credits": 10,
+        "badge": "strategist"
+    },
+    {
+        "outcome": "Describe the problems and potential solutions for visualising high dimension datasets",
+        "credits": 5,
+        "badge": "strategist"
+    },
+    {
+        "outcome": "Describe the techniques for visulising temporal data",
+        "credits": 5,
+        "badge": "strategist"
+    },
+    {
+        "outcome": "Apply your knowledge of visualisation techniques to identify those which deliberately attempt to mislead their audience",
+        "credits": 10,
+        "badge": "strategist"
+    },
+    {
+        "outcome": "Create a heatmap visulisation of education open data",
+        "credits": 10,
+        "badge": "practitioner"
+    },
+    {
+        "outcome": "Create an interactive spatial visulisation of open election data",
+        "credits": 10,
+        "badge": "practitioner"
+    },
+    {
+        "outcome": "Create an interactive treemap visualisation for open spending data",
+        "credits": 15,
+        "badge": "practitioner"
+    }
+    ],
     "_resources": [
     {
         "title": "Image credits",
