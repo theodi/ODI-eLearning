@@ -49,20 +49,20 @@ function miniProgressUpdate() {
 	}
 	var mods_done = {};
 	var badge_progression = {};
-	badge_progression["explorer"] = 0;
+	badge_progression["pathfinder"] = 0;
 	badge_progression["adventurer"] = 0;
-	badge_progression["practitioner"] = 0;
-	badge_progression["strategist"] = 0;
+	badge_progression["technician"] = 0;
+	badge_progression["planner"] = 0;
 	for (i=1;i<13;i++) {
-		current_badge = "explorer";
+		current_badge = "pathfinder";
 		if (i>3 && i<7) {
 			current_badge = "adventurer";
 		}
 		if (i==8 || i==9 || i==11 || i==12) {
-			current_badge = "practitioner";
+			current_badge = "technician";
 		} 
 		if (i==7 || i==10 || i==13) {
-			current_badge = "strategist";
+			current_badge = "planner";
 		}
 		key = "ODI_" + i + "_cmi.suspend_data";
     		try {
@@ -80,31 +80,31 @@ function miniProgressUpdate() {
 		catch(err) {
 		}
 	}
-	badge_progression["explorer"] = Math.round(badge_progression["explorer"] / 3);
+	badge_progression["pathfinder"] = Math.round(badge_progression["pathfinder"] / 3);
 	badge_progression["adventurer"] = Math.round(badge_progression["adventurer"] / 3);
-	badge_progression["practitioner"] = Math.round(badge_progression["practitioner"] / 4);
-	badge_progression["strategist"] = Math.round(badge_progression["strategist"] / 3);
+	badge_progression["technician"] = Math.round(badge_progression["technician"] / 4);
+	badge_progression["planner"] = Math.round(badge_progression["planner"] / 3);
 	if (moduleId == "ODI_nav"){
-		updateBadgeOverall(badge_progression,'explorer');
+		updateBadgeOverall(badge_progression,'pathfinder');
 		updateBadgeOverall(badge_progression,'adventurer');
-		updateBadgeOverall(badge_progression,'practitioner');
-		updateBadgeOverall(badge_progression,'strategist');
+		updateBadgeOverall(badge_progression,'technician');
+		updateBadgeOverall(badge_progression,'planner');
 	}
-	if (mods_done[1] && mods_done[2] && mods_done[3] && !badges["explorer"]) {
-		showMessage('explorer-complete');
-		badges["explorer"] = true;	
+	if (mods_done[1] && mods_done[2] && mods_done[3] && !badges["pathfinder"]) {
+		showMessage('pathfinder-complete');
+		badges["pathfinder"] = true;	
 	}
 	if (mods_done[4] && mods_done[5] && mods_done[6] && !badges["adventurer"]) {
 		showMessage('adventurer-complete');
 		badges["adventurer"] = true;	
 	}
-	if (mods_done[8] && mods_done[9] && mods_done[11] && mods_done[12] && !bedges["practitioner"]) {
-		showMessage('practitioner-complete');
-		badges["practitioner"] = true;	
+	if (mods_done[8] && mods_done[9] && mods_done[11] && mods_done[12] && !bedges["technician"]) {
+		showMessage('technician-complete');
+		badges["technician"] = true;	
 	}
-	if (mods_done[7] && mods_done[10] && mods_done[13] && !badges["strategist"]) {
-		showMessage('strategist-complete');
-		badges["strategist"] = true;	
+	if (mods_done[7] && mods_done[10] && mods_done[13] && !badges["planner"]) {
+		showMessage('planner-complete');
+		badges["planner"] = true;	
 	}
 	localStorage.setItem("ODI_Badges",JSON.stringify(badges));
 	
@@ -150,10 +150,10 @@ function updateProgress() {
 	} catch(err) {
 		badges = {};
 	}
-	if (badges["explorer"]) { updateBadgeClass('explorer'); }
+	if (badges["pathfinder"]) { updateBadgeClass('pathfinder'); }
 	if (badges["adventurer"]) { updateBadgeClass('adventurer'); }
-	if (badges["practitioner"]) { updateBadgeClass('prectitioner'); }
-	if (badges["strategist"]) { updateBadgeClass('strategist'); }
+	if (badges["technician"]) { updateBadgeClass('prectitioner'); }
+	if (badges["planner"]) { updateBadgeClass('planner'); }
 }
 function updateBadgeClass(level) {
 	document.getElementById(level + '-badge').className = "progress-badge awarded " + level + "-awarded";	
