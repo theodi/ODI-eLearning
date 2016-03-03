@@ -35,6 +35,32 @@
     },
     {
         "_id":"c-06",
+        "_parentId":"b-03",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Earn your open data badges",
+        "displayTitle":"Earn your open data badges",
+        "body":"This learning has be designed to take you on a journey. The first two badges have a logical progression. Once you have earnt your adventurer badge you can then choose your path to become either a strategist, practictioner, or both!"
+    },
+    {
+        "_id":"c-05",
+        "_parentId":"b-03",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "adapt/css/assets/badges/pathway.png",
+            "medium": "adapt/css/assets/badges/pathway.png",
+            "small": "adapt/css/assets/badges/pathway.png"
+        }
+    },
+    {
+        "_id":"c-10",
         "_parentId":"b-05",
         "_type":"component",
         "_component":"text",
