@@ -1,7 +1,7 @@
 [
     {
-        "_id":"c-10",
-        "_parentId":"b-10",
+        "_id":"c-1",
+        "_parentId":"b-1",
         "_type":"component",
         "_component":"graphic",
         "_classes":"intro-logo",
@@ -22,8 +22,8 @@
         }
     },
     {
-        "_id":"c-11",
-        "_parentId":"b-10",
+        "_id":"c-2",
+        "_parentId":"b-1",
         "_type":"component",
         "_component":"text",
         "_classes":"",
@@ -36,9 +36,43 @@
             "_isEnabled": true
         }
     },
+        {
+        "_id":"c-3",
+        "_parentId":"b-2",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/burst-white.png",
+            "medium": "course/en/images/burst-white.png",
+            "small": "course/en/images/burst-white.png"
+        }
+    },
     {
-        "_id":"c-20",
-        "_parentId":"b-20",
+        "_id":"c-4",
+        "_parentId":"b-2",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Background information",
+        "displayTitle":"Background information",
+        "body":"",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-5",
+        "_parentId":"b-3",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
@@ -55,8 +89,8 @@
         }
     },
     {
-      "_id":"c-21",
-      "_parentId":"b-20",
+      "_id":"c-6",
+      "_parentId":"b-3",
       "_type":"component",
       "_component":"accordion",
       "_classes":"",
@@ -92,8 +126,8 @@
       }
     },
     {
-        "_id":"c-28",
-        "_parentId":"b-25",
+        "_id":"c-7",
+        "_parentId":"b-4",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
@@ -110,8 +144,8 @@
         }
     },
     {
-        "_id":"c-27",
-        "_parentId":"b-25",
+        "_id":"c-8",
+        "_parentId":"b-4",
         "_type":"component",
         "_component":"text",
         "_classes":"",
@@ -121,8 +155,42 @@
         "body":"<p>Open data is usually free at the point of use.</p><p>The traditional justification for this free service has been that authorities produce their open data through the operation of taxpayer-funded services.</p><p>However, gathering and maintaining data always has a cost attached to it. For this reason, in some cases local authorities may need to charge the user a small fee to cover any costs associated with the data. For this data to qualify as open, the cost should be no more than the 'reasonable reproduction cost' of the data involved. Authorities can charge a fee to cover the costs of supporting a user's data request but should not charge a premium for the data.</p>"
     },
     {
-        "_id":"c-29",
-        "_parentId":"b-28",
+        "_id":"c-9",
+        "_parentId":"b-5",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/burst-white.png",
+            "medium": "course/en/images/burst-white.png",
+            "small": "course/en/images/burst-white.png"
+        }
+    },
+    {
+        "_id":"c-10",
+        "_parentId":"b-5",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Practical guidance",
+        "displayTitle":"Practical guidance",
+        "body":"",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-11",
+        "_parentId":"b-6",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
@@ -139,41 +207,98 @@
         }
     },
     {
-      "_id":"c-28",
-      "_parentId":"b-28",
+      "_id":"c-12",
+      "_parentId":"b-6",
       "_type":"component",
       "_component":"accordion",
       "_classes":"",
       "_layout":"left",
       "title": "How to publish your dataset: The basics",
       "displayTitle": "How to publish your dataset: The basics",
-      "body": "<p></p>",
+      "body": "<p>Follow the three steps below to publish your dataset online.</p>",
       "instruction": "<em>Click on each of the boxes below to expand.</em>",
       "_items": [
         {
-          "alt": "Entering the metadata",
-          "title": "1. Entering the metadata",
-          "body": "<p></p>"
+          "alt": "Describe your data well",
+          "title": "1. Describe your data well",
+          "body": "<p>Think carefully about how you describe your dataset on your webpage. Consider in particular the title and description of your dataset. Will the audience understand your title? Is it what would be searched for? Do you need tags and subtitles? Have you described how the dataset it supported and how old data is accessed? Creating good 'metadata' is the first step to publishing a strong dataset.</p>"
         },
         {
-          "alt": "Uploading the data",
-          "title": "2. Uploading the data",
-          "body": "<p></p>"
+          "alt": "Publish the data",
+          "title": "2. Publish the data",
+          "body": "<p>Put the data online in a place which is easily accessible and referencable from other places like catalogues and other websites. Your data also needs to be directly accessible to a machine and should not require the acceptance of any terms and conditions terms and conditions.</p>"
         },
+        {
+          "alt": "Validate the dataset",
+          "title": "3. Validate the dataset",
+          "body": "<p>Check that you dataset meets the minimum standards for quality and usability. The LGA has a quick validation tool that lets you check whether your data matches the quality and consistency guidelines of the DCLG transparency code.<br><a href='http://validator.opendata.esd.org.uk/' target='_blank'>Take me to the LGA Validator.</a></p>"
+        },
+        {
+        "_id":"c-13",
+        "_parentId":"b-7",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "What is open data?",
+            "title": "What is open data?",
+            "large": "course/en/images/odi-1-text-image_large.jpg",
+            "medium": "course/en/images/odi-1-text-image_large.jpg",
+            "small": "course/en/images/odi-1-text-image_large.jpg",
+            "*source":"http://www.shutterstock.com/pic.mhtml?id=179384507&src=lb-35924366",
+            "*credit":"leromin",
+            "*license":"Shutterstock Standard License"
+        }
+    },
     {
-        "_id":"c-30",
-        "_parentId":"b-28",
+        "_id":"c-14",
+        "_parentId":"b-7",
         "_type":"component",
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"How to... Licence your open dataset",
-        "displayTitle":"How to... Licence your open dataset",
+        "title":"How to publish your dataset: The licence",
+        "displayTitle":"How to publish your dataset: The licence",
         "body":"<p>Once you know your dataset is published online, the most important thing is to place it under the correct licence. The licence is the only thing that can make your published data into open data. While local authorities can choose the licence they place on their dataset, we strongly recommend using the Open Government Licence (OGL) for all of your data. OGL is a simple, clear licence used by all government departments and many others. Placing one on your dataset takes only a few minutes. To apply your licence follow the link below.<br><a href='http://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/licensing-for-re-use/what-ogl-covers/' target='_blank'>Take me to the OGL page.</a></p>"
     },
+    {
+        "_id":"c-15",
+        "_parentId":"b-8",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/burst-white.png",
+            "medium": "course/en/images/burst-white.png",
+            "small": "course/en/images/burst-white.png"
+        }
+    },
+    {
+        "_id":"c-16",
+        "_parentId":"b-8",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Benefits",
+        "displayTitle":"Benefits",
+        "body":"",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
      {
-        "_id": "c-35",
-        "_parentId": "b-35",
+        "_id": "c-17",
+        "_parentId": "b-9",
         "_classes": "",
         "_type":"component",
         "_layout": "full",
@@ -241,8 +366,8 @@
         }
     },
     {
-        "_id":"c-40",
-        "_parentId":"b-40",
+        "_id":"c-18",
+        "_parentId":"b-10",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
@@ -260,23 +385,23 @@
         }
     },
     {
-        "_id":"c-41",
-        "_parentId":"b-40",
+        "_id":"c-19",
+        "_parentId":"b-10",
         "_type":"component",
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Are you ready for the benefits of open data publishing?",
-        "displayTitle":"Are you ready for the benefits of open data publishing?",
-        "body":"<p>Can you recall these four things about the benefits of publishing open data for local authorities?</p>",
+        "title":"Are you ready to make transparency work for you?",
+        "displayTitle":"Are you ready to make transparency work for you?",
+        "body":"<p>Can you recall these four things about publishing open data.</p>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
         }
     },
     {
-        "_id":"c-42",
-        "_parentId":"b-42",
+        "_id":"c-20",
+        "_parentId":"b-11",
         "_type":"component",
         "_component":"graphic",
         "_classes":"illustration",
@@ -294,8 +419,8 @@
     },
     
     {
-        "_id":"c-43",
-        "_parentId":"b-42",
+        "_id":"c-21",
+        "_parentId":"b-11",
         "_type":"component",
         "_component":"mcq",
         "_classes":"",
@@ -352,8 +477,8 @@
       }
     },
     {
-        "_id":"c-44",
-        "_parentId":"b-44",
+        "_id":"c-22",
+        "_parentId":"b-12",
         "_type":"component",
         "_component":"graphic",
         "_classes":"illustration",
@@ -370,8 +495,8 @@
         }
     },
     {
-        "_id":"c-45",
-        "_parentId":"b-44",
+        "_id":"c-23",
+        "_parentId":"b-12",
         "_type":"component",
         "_component":"mcq",
         "_classes":"",
@@ -420,8 +545,8 @@
       }
     },
     {
-        "_id":"c-46",
-        "_parentId":"b-46",
+        "_id":"c-24",
+        "_parentId":"b-13",
         "_type":"component",
         "_component":"graphic",
         "_classes":"illustration",
@@ -438,8 +563,8 @@
         }
     },
     {
-        "_id":"c-47",
-        "_parentId":"b-46",
+        "_id":"c-25",
+        "_parentId":"b-13",
         "_type":"component",
         "_component":"mcq",
         "_classes":"",
@@ -488,8 +613,8 @@
       }
     },
     {
-        "_id":"c-48",
-        "_parentId":"b-48",
+        "_id":"c-26",
+        "_parentId":"b-14",
         "_type":"component",
         "_component":"graphic",
         "_classes":"illustration",
@@ -506,8 +631,8 @@
         }
     },
     {
-        "_id":"c-49",
-        "_parentId":"b-48",
+        "_id":"c-27",
+        "_parentId":"b-14",
         "_type":"component",
         "_component":"mcq",
         "_classes":"",
@@ -556,8 +681,8 @@
       }
     },
     {
-        "_id":"c-50",
-        "_parentId":"b-50",
+        "_id":"c-28",
+        "_parentId":"b-15",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
@@ -574,8 +699,8 @@
         }
     },
     {
-        "_id":"c-51",
-        "_parentId":"b-50",
+        "_id":"c-29",
+        "_parentId":"b-15",
         "_type":"component",
         "_component":"text",
         "_classes":"",
@@ -588,16 +713,16 @@
         }
     },
     {
-       "_id":"c-52",
-       "_parentId":"b-50",
+       "_id":"c-30",
+       "_parentId":"b-15",
        "_type":"component",
        "_component":"text",
        "_classes":"separator",
        "_layout":"full"
     },
     {
-        "_id":"c-53",
-        "_parentId":"b-50",
+        "_id":"c-31",
+        "_parentId":"b-15",
         "_type":"component",
         "_component":"graphic",
         "_classes":"footer-logo",
@@ -614,8 +739,8 @@
         }
     },
     {
-        "_id":"c-54",
-        "_parentId":"b-50",
+        "_id":"c-32",
+        "_parentId":"b-15",
         "_type":"component",
         "_component":"text",
         "_classes":"social-buttons",
