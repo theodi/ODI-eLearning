@@ -198,7 +198,7 @@
         {
             "alt": "Pick a platform",
             "title": "Pick a platform",
-            "body": "<p>You may always have a data or content publishing platform that is suitable for your needs, or you may need to choose to use a platform like <a href='http://www.cipfa.org/services/datashare' target='_blank'>CIPFA/Redbridge's Datashare</a>, <a href='http://www.swirrl.com/publishmydata' target='_blank'>Swirrl's PublishMyData</a> or <a href='http://ckan.org/' target='_blank'>CKAN</a> to simplify the process of publishing.</p><</p>"
+            "body": "<p>You may always have a data or content publishing platform that is suitable for your needs, or you may need to choose to use a platform like <a href='http://www.cipfa.org/services/datashare' target='_blank'>CIPFA/Redbridge's Datashare</a>, <a href='http://www.swirrl.com/publishmydata' target='_blank'>Swirrl's PublishMyData</a> or <a href='http://ckan.org/' target='_blank'>CKAN</a> to simplify the process of publishing.</p>"
         },
         {
           "alt": "Talk about data",
@@ -474,9 +474,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Are you ready for the benefits of open data publishing?",
-        "displayTitle":"Are you ready for the benefits of open data publishing?",
-        "body":"<p>Can you recall these four things about the benefits of publishing open data for local authorities?</p>",
+        "title":"Are you ready to publish open data?",
+        "displayTitle":"Are you ready to publish open data?",
+        "body":"",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
@@ -633,7 +633,7 @@
         "_type":"component",
         "_component":"graphic",
         "_classes":"illustration",
-        "_layout":"left",
+        "_layout":"right",
         "_graphic": {
             "alt": "Legal considerations",
             "title": "",
@@ -651,7 +651,7 @@
         "_type":"component",
         "_component":"mcq",
         "_classes":"",
-        "_layout":"right",
+        "_layout":"left",
         "_attempts":1,
         "_questionWeight":1,
         "_isRandom":true,
@@ -701,7 +701,7 @@
         "_type":"component",
         "_component":"graphic",
         "_classes":"illustration",
-        "_layout":"right",
+        "_layout":"left",
         "_graphic": {
             "alt": "Technical considerations",
             "title": "",
@@ -719,7 +719,7 @@
         "_type":"component",
         "_component":"mcq",
         "_classes":"",
-        "_layout":"left",
+        "_layout":"right",
         "_attempts":1,
         "_questionWeight":1,
         "_isRandom":true,
