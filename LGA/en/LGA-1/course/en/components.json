@@ -1,0 +1,752 @@
+[
+    {
+        "_id":"c-1",
+        "_parentId":"b-1",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"intro-logo",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "",
+            "medium": "",
+            "small": "",
+            "*source":"",
+            "*credit":"",
+            "*license":""
+        }
+    },
+    {
+        "_id":"c-2",
+        "_parentId":"b-1",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Making transparency work for you",
+        "displayTitle":"Making transparency work for you",
+        "body":"<p>This introductory module examines the benefits of publishing open data for local authorities. Below we will learn about open data release can help you save time, imrpove services and save money, how to publish a dataset under an open licence and case studies of how open data created positive impact in local authorities.</p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+        {
+        "_id":"c-3",
+        "_parentId":"b-2",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/burst-white.png",
+            "medium": "course/en/images/burst-white.png",
+            "small": "course/en/images/burst-white.png"
+        }
+    },
+    {
+        "_id":"c-4",
+        "_parentId":"b-2",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Background information",
+        "displayTitle":"Background information",
+        "body":"",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-5",
+        "_parentId":"b-3",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Course Overview",
+            "title": "Course Overview",
+            "large": "course/en/images/summary-icon.png",
+            "medium": "course/en/images/summary-icon.png",
+            "small": "course/en/images/summary-icon.png",
+            "*source":"http://about.esd.org.uk/",
+            "*credit":"Local Government Association",
+            "*license":"All rights reserved"
+        }
+    },
+    {
+      "_id":"c-6",
+      "_parentId":"b-3",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"left",
+      "title": "What is open data and why should we publish it?",
+      "displayTitle": "What is open data and why should we publish it?",
+      "body": "<p>Open data is <strong>data</strong> that <strong>anyone</strong> can <strong>access</strong>, <strong>use</strong> and <strong>share</strong>.</p><p>Local authorities has been releasing open data for years on everything from election results to the locations of public toilets. Publishing open data can have a range of benefits for your authority. But what are the best arguements to persuade your colleages and leadership?</p>",
+      "instruction": "<em>Click on each of the boxes below to expand.</em>",
+      "_items": [
+        {
+          "alt": "The case for economic benefit",
+          "title": "The case for economic benefit",
+          "body": "<p>The session explores recent changes in the definition of open data, and allow learners to understand why the current definition has been determined.</p><p>The session also examines a number of examples of open data impact from different fields and considers the potential for open data implementation</p>"
+        },
+        {
+          "alt": "The case for improved services",
+          "title": "The case for improved services",
+          "body": "<p>Open data is still a developing field and those working within it will encounter a number of common problems. This sessions presents and clarifys the main challenges before examining the future of open data.</p>"
+        },
+        {
+          "alt": "The case for transparency",
+          "title": "The case for transparency",
+          "body": "<p>This session begins by looking at how open licences are there to protect data publishers, while also unlocking value. We show how to build a machine readable open license that can be applied to any online content.</p><p>The session then continues by looking at the technical, legal, social and practical requirements for making different types of open data usable and some of the most relevant guidelines to support this process.</p>"
+        },
+        {
+          "alt": "The case for innovation",
+          "title": "The case for innovation",
+          "body": "<p>This session will introduce the importance of recent changes around open data modification rules which help combat data errors. We also introduce OpenRefine and how it improves data management by publishers.</p>"
+        }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-7",
+        "_parentId":"b-4",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "What is open data?",
+            "title": "What is open data?",
+            "large": "course/en/images/odi-1-text-image_large.jpg",
+            "medium": "course/en/images/odi-1-text-image_large.jpg",
+            "small": "course/en/images/odi-1-text-image_large.jpg",
+            "*source":"http://www.shutterstock.com/pic.mhtml?id=179384507&src=lb-35924366",
+            "*credit":"leromin",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-8",
+        "_parentId":"b-4",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"What about the costs of publication?",
+        "displayTitle":"What about the costs of publication?",
+        "body":"<p>Open data is usually free at the point of use.</p><p>The traditional justification for this free service has been that authorities produce their open data through the operation of taxpayer-funded services.</p><p>However, gathering and maintaining data always has a cost attached to it. For this reason, in some cases local authorities may need to charge the user a small fee to cover any costs associated with the data. For this data to qualify as open, the cost should be no more than the 'reasonable reproduction cost' of the data involved. Authorities can charge a fee to cover the costs of supporting a user's data request but should not charge a premium for the data.</p>"
+    },
+    {
+        "_id":"c-9",
+        "_parentId":"b-5",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/burst-green.png",
+            "medium": "course/en/images/burst-green.png",
+            "small": "course/en/images/burst-green.png"
+        }
+    },
+    {
+        "_id":"c-10",
+        "_parentId":"b-5",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Practical guidance",
+        "displayTitle":"Practical guidance",
+        "body":"",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-11",
+        "_parentId":"b-6",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "What is open data?",
+            "title": "What is open data?",
+            "large": "course/en/images/odi-1-text-image_large.jpg",
+            "medium": "course/en/images/odi-1-text-image_large.jpg",
+            "small": "course/en/images/odi-1-text-image_large.jpg",
+            "*source":"http://www.shutterstock.com/pic.mhtml?id=179384507&src=lb-35924366",
+            "*credit":"leromin",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+      "_id":"c-12",
+      "_parentId":"b-6",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"left",
+      "title": "How to publish your dataset: The basics",
+      "displayTitle": "How to publish your dataset: The basics",
+      "body": "<p>Follow the three steps below to publish your dataset online.</p>",
+      "instruction": "<em>Click on each of the boxes below to expand.</em>",
+      "_items": [
+        {
+          "alt": "Describe your data well",
+          "title": "1. Describe your data well",
+          "body": "<p>Think carefully about how you describe your dataset on your webpage. Consider in particular the title and description of your dataset. Will the audience understand your title? Is it what would be searched for? Do you need tags and subtitles? Have you described how the dataset it supported and how old data is accessed? Creating good 'metadata' is the first step to publishing a strong dataset.</p>"
+        },
+        {
+          "alt": "Publish the data",
+          "title": "2. Publish the data",
+          "body": "<p>Put the data online in a place which is easily accessible and referencable from other places like catalogues and other websites. Your data also needs to be directly accessible to a machine and should not require the acceptance of any terms and conditions terms and conditions.</p>"
+        },
+        {
+          "alt": "Validate the dataset",
+          "title": "3. Validate the dataset",
+          "body": "<p>Check that you dataset meets the minimum standards for quality and usability. The LGA has a quick validation tool that lets you check whether your data matches the quality and consistency guidelines of the DCLG transparency code.<br><a href='http://validator.opendata.esd.org.uk/' target='_blank'>Take me to the LGA Validator.</a></p>"
+        }
+        ]
+    },
+        {
+        "_id":"c-13",
+        "_parentId":"b-7",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "What is open data?",
+            "title": "What is open data?",
+            "large": "course/en/images/odi-1-text-image_large.jpg",
+            "medium": "course/en/images/odi-1-text-image_large.jpg",
+            "small": "course/en/images/odi-1-text-image_large.jpg",
+            "*source":"http://www.shutterstock.com/pic.mhtml?id=179384507&src=lb-35924366",
+            "*credit":"leromin",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-14",
+        "_parentId":"b-7",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"How to publish your dataset: The licence",
+        "displayTitle":"How to publish your dataset: The licence",
+        "body":"<p>Once you know your dataset is published online, the most important thing is to place it under the correct licence. The licence is the only thing that can make your published data into open data. While local authorities can choose the licence they place on their dataset, we strongly recommend using the Open Government Licence (OGL) for all of your data. OGL is a simple, clear licence used by all government departments and many others. Placing one on your dataset takes only a few minutes. To apply your licence follow the link below.<br><a href='http://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/licensing-for-re-use/what-ogl-covers/' target='_blank'>Take me to the OGL page.</a></p>"
+    },
+    {
+        "_id":"c-15",
+        "_parentId":"b-8",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/burst-white.png",
+            "medium": "course/en/images/burst-white.png",
+            "small": "course/en/images/burst-white.png"
+        }
+    },
+    {
+        "_id":"c-16",
+        "_parentId":"b-8",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Benefits",
+        "displayTitle":"Benefits",
+        "body":"",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+     {
+        "_id": "c-17",
+        "_parentId": "b-9",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "dynamic-narrative",
+        "title": "The benefits of publishing open data - Local authority case studies",
+        "displayTitle": "The benefits of publishing open data - Local authority case studies",
+        "body": "<p>Publishing open data can provide authorities with a range of benefits. Below you can explore the main benefits together with some examples.</p>",
+        "instruction": "<em class='desktop-instruction'>Click the forward arrow for more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
+        "_items": [
+            {
+                "title": "Support growing economies",
+                "body": "<p>To support the emergence of new data-driven businesses and the growth of existing ones, authorities are publishing key datasets to support local data economies.</p><p>In return, local governments are reaping the benefits of a growing data economy as in Leeds, where the 'Data Mill' platform has attracted more than 250 registered users including new businesses in tourism, schools and waste collection.</p><p><a href='http://www.local.gov.uk/documents/10180/6869714/Leeds+Data+Mill+Case+Study+Final.pdf/47ee5812-7477-4246-bc58-8ef58e667bcc>Take me to Leeds case study</a></p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-002-narrative_large.jpg",
+                    "alt": "Support Growing Economies",
+                    "title": "Support Growing Economies",
+                    "*source":"http://www.shutterstock.com/pic-128352227.html",
+                    "*credit":"vs148",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Support Growing Economies"
+            },
+            {
+                "title": "Improved service delivery",
+                "body": "<p>Local authorities need to balance the demands of austerity with the need to tackle small-scale, local issues. In the absense of significant funding for non-frontline services, many authorities are using open data to improve the efficiency of their delivery.</p><p>The availability of detailed open data can improve delivery of services at the local level.</p><p>One example of this improved service delivery is the tourism initiative implemented by North Somerset council, who used open data to enable the production of a new website supporting the regional tourist economy <br /><a href='http://www.local.gov.uk/documents/10180/6869714/North+Somerset+Tourism+Data+Case+Study+Final.pdf/f2a94c14-8400-4a7d-af9a-baa0fc716681' target='_blank'>Take me to North Somerset case study</a></p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-003-narrative_large.jpg",
+                    "alt": "Improved service delivery",
+                    "title": "Improved service delivery",
+                    "*source":"https://www.fixmystreet.com/",
+                    "*credit":"fixmystreet",
+                    "*license":"unknown"
+                },
+                "strapline": "Improved service delivery"
+            },
+            {
+                "title": "Cost savings",
+                "body": "<p>By growing economies and improving services, open data allows local governments to make savings in key areas, like response to FoI requests and energy use.</p><p>In Windsor & Maidenhead council, real-time open data helped <a href='http://www.out-law.com/en/articles/2015/july/uk-government-minister-open-data-agenda-needs-to-go-viral/' target='_blank'>reduce energy spending in council buildings by 16%</a></p><p>In Carlisle, publication of real-time business rates has to significantly reduce Freedom of Information requests and is saving the council <a href='http://www.local.gov.uk/documents/10180/7206578/Carlisle+Evaluation+2015-06-24+final.pdf/35b37dca-cfdc-46d4-83f0-749366f583ab' target='_blank'>up to £15000 annually.</a></p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-004-narrative_large.jpg",
+                    "alt": "Cost Savings",
+                    "title": "Cost Savings",
+                    "*source":"http://www.shutterstock.com/pic-75494491.html",
+                    "*credit":"vlastas",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Cost Savings"
+            },
+            {
+                "title": "Better public perception",
+                "body": "<p>Authorities have the opportunity to improve their public perception and dialogue through the release of open data.</p><p>Open data helps support transparency and also has the potential to increase favourable press coverage through a growing number of data journalists.</p><p>Norfolk council is among those improving transparency around procurement processes through the release of  <br /><a href='http://www.local.gov.uk/documents/10180/6211662/Norfolk+Case+Study+formatted+final+25.1.16.pdf/dd25a35f-77b9-4c3d-8634-1631bacce1ef' target='_blank'>contract pipeline data</a></p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-8.png",
+                    "alt": "better public perce",
+                    "title": "Improved service delivery",
+                    "*source":"https://www.fixmystreet.com/",
+                    "*credit":"fixmystreet",
+                    "*license":"unknown"
+                },
+                "strapline": "Better public perception"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-18",
+        "_parentId":"b-10",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/burst-white.png",
+            "medium": "course/en/images/burst-white.png",
+            "small": "course/en/images/burst-white.png"
+        }
+    },
+    {
+        "_id":"c-19",
+        "_parentId":"b-10",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Are you ready to make transparency work for you?",
+        "displayTitle":"Are you ready to make transparency work for you?",
+        "body":"<p>Can you recall these four things about publishing open data.</p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-20",
+        "_parentId":"b-11",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Cases for publishing open data",
+            "title": "Cases for publishing open data",
+            "large": "course/en/images/odi-7.jpg",
+            "medium": "course/en/images/odi-7.jpg",
+            "small": "course/en/images/odi-7.jpg",
+            "*source":"http://www.shutterstock.com/pic-54795127.html",
+            "*credit":"robodread",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    
+    {
+        "_id":"c-21",
+        "_parentId":"b-11",
+        "_type":"component",
+        "_component":"mcq",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Cases for publishing open data",
+        "displayTitle": "Cases for publishing open data",
+        "body": "<p>Which of the following is NOT a case for a local authority to publish open data</p>",
+        "instruction": "<em>Select an option, then click 'Submit'.</em>",
+        "_items": [
+            {
+                "text": "improved services",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "stronger leadership",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "transparency",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "innovation",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "economic benefit",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>That’s right!</h5><p>Publishing open data can support improved service delivery, transparency, innovation economies and economic benefits to the local area</p>",
+            "_incorrect": {
+                "notFinal": "h5>Are you sure about that?</h5><p>That’s right!</h5><p>Publishing open data can support improved service delivery, transparency, innovation economies and economic benefits to the local area</p>",
+                "final": "<h5>Are you sure about that?</h5><p>That’s right!</h5><p>Publishing open data can support improved service delivery, transparency, innovation economies and economic benefits to the local area</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Are you sure about that?</h5><p>That’s right!</h5><p>Publishing open data can support improved service delivery, transparency, innovation economies and economic benefits to the local area</p>",
+                "final": "<h5>Are you sure about that?</h5><p>That’s right!</h5><p>Publishing open data can support improved service delivery, transparency, innovation economies and economic benefits to the local area</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-22",
+        "_parentId":"b-12",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Legal considerations",
+            "title": "",
+            "large": "course/en/images/odi-8.jpg",
+            "medium": "course/en/images/odi-8.jpg",
+            "small": "course/en/images/odi-8.jpg",
+            "*source":"http://www.shutterstock.com/pic-102447179.html",
+            "*credit":"hoperan",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-23",
+        "_parentId":"b-12",
+        "_type":"component",
+        "_component":"mcq",
+        "_classes":"",
+        "_layout":"right",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Cost savings from open data",
+        "displayTitle": "Cost savings from open data",
+        "body": "<p>Which of the case studies below is NOT a real example of cost savings from open data?</p>",
+        "instruction": "<em>Select an option, then click 'Submit'.</em>",
+        "_items": [
+            {
+                "text": "Windsor & Maidenhead save 16% on energy consumption in their buildings",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Carisle save up to £15000 per year on business rates FoI request",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Perthshire increase bus service effiency by 24%",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>That’s right!</h5><p>Among the best local authority case studies of cost savings in open data are Windsor & Maidenhead's 16% energy reduction and Carlisle's saving on FoI from business rates.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Are you sure about that?</h5><p>Among the best local authority case studies of cost savings in open data are Windsor & Maidenhead's 16% energy reduction and Carlisle's saving on FoI from business rates.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>Among the best local authority case studies of cost savings in open data are Windsor & Maidenhead's 16% energy reduction and Carlisle's saving on FoI from business rates.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Are you sure about that?</h5><p>Among the best local authority case studies of cost savings in open data are Windsor & Maidenhead's 16% energy reduction and Carlisle's saving on FoI from business rates.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>Among the best local authority case studies of cost savings in open data are Windsor & Maidenhead's 16% energy reduction and Carlisle's saving on FoI from business rates.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-24",
+        "_parentId":"b-13",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Technical considerations",
+            "title": "",
+            "large": "course/en/images/odi-9.jpg",
+            "medium": "course/en/images/odi-9.jpg",
+            "small": "course/en/images/odi-9.jpg",
+            "*source":"http://www.shutterstock.com/pic-154744388.html",
+            "*credit":"Oleksiy Mark",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-25",
+        "_parentId":"b-13",
+        "_type":"component",
+        "_component":"mcq",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Support growing economies",
+        "displayTitle": "Support growing economies",
+        "body": "<p>Leeds Data Mill is supporting companies creating new services in a range of areas including...</p>",
+        "instruction": "<em>Select an option, then click 'Submit'.</em>",
+        "_items": [
+            {
+                "text": "Tourism, waste management and schools",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "Water management, elections and street lighting",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Phone services, drainage and trains",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>That’s right!</h5><p>Among Leeds Data Mill's 250+ registered users are companies working in tourism, waste management and schools.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Are you sure about that?</h5><p>Among Leeds Data Mill's 250+ registered users are companies working in tourism, waste management and schools.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>Among Leeds Data Mill's 250+ registered users are companies working in tourism, waste management and schools.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Are you sure about that?</h5><p>Among Leeds Data Mill's 250+ registered users are companies working in tourism, waste management and schools.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>Among Leeds Data Mill's 250+ registered users are companies working in tourism, waste management and schools.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-26",
+        "_parentId":"b-14",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Marques of quality",
+            "title": "",
+            "large": "course/en/images/odi-10.jpg",
+            "medium": "course/en/images/odi-10.jpg",
+            "small": "course/en/images/odi-10.jpg",
+            "*source":"http://www.shutterstock.com/pic-254316427.html",
+            "*credit":"tostphoto",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-27",
+        "_parentId":"b-14",
+        "_type":"component",
+        "_component":"mcq",
+        "_classes":"",
+        "_layout":"right",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Bristol case study",
+        "displayTitle": "Bristol case study",
+        "body": "<p>What new post did Bristol council create to promote the use of its open data?</p>",
+        "instruction": "<em>Select an option, then click 'Submit'.</em>",
+        "_items": [
+            {
+                "text": "Chief data impact scientist",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Open data user specialist",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Intelligent council programme manager",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>That’s right!</h5><p>Bristol council has created the post of 'intelligent council programme manager' to make the best use of open data and ensure that the public, private and voluntary sectors can make the most of information</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Are you sure about that?</h5><p>Bristol council has created the post of 'intelligent council programme manager' to make the best use of open data and ensure that the public, private and voluntary sectors can make the most of information</p>",
+                "final": "<h5>Are you sure about that?</h5><p>Bristol council has created the post of 'intelligent council programme manager' to make the best use of open data and ensure that the public, private and voluntary sectors can make the most of information</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Are you sure about that?</h5><p>Bristol council has created the post of 'intelligent council programme manager' to make the best use of open data and ensure that the public, private and voluntary sectors can make the most of information</p>",
+                "final": "<h5>Are you sure about that?</h5><p>Bristol council has created the post of 'intelligent council programme manager' to make the best use of open data and ensure that the public, private and voluntary sectors can make the most of information</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-28",
+        "_parentId":"b-15",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Summary icon clipboard",
+            "title": "Summary icon clipboard",
+            "large": "course/en/images/summary-icon.png",
+            "medium": "course/en/images/summary-icon.png",
+            "small": "course/en/images/summary-icon.png",
+            "*source":"http://www.shutterstock.com/pic-189810137.html",
+            "*credit":"Kritchanut",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-29",
+        "_parentId":"b-15",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"The benefits of open data publication",
+        "displayTitle":"The benefits of open data publication",
+        "body":"<p>Local authorities can access a range of benefits from publishing open data including cost savings on essential services, creation of local business hubs and better relationships with the public. In our next module we will examine the importance of publishing in consistent ways and how the LGA standards can make publishing simple and maximise results</p><a class='button inline-button' href='../'>Main menu</a><a class='button inline-button' href='../LGA-2/'>Next module</a>",
+        "_pageLevelProgress": {
+          "_isEnabled": true
+        }
+    },
+    {
+       "_id":"c-30",
+       "_parentId":"b-15",
+       "_type":"component",
+       "_component":"text",
+       "_classes":"separator",
+       "_layout":"full"
+    },
+    {
+        "_id":"c-31",
+        "_parentId":"b-15",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"footer-logo",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Open data institute logo",
+            "title": "Open data institute logo",
+            "large": "course/en/images/logo-small.png",
+            "medium": "course/en/images/logo-small.png",
+            "small": "course/en/images/logo-small.png",
+            "*source":"http://theodi.org",
+            "*credit":"The Open Data Institute",
+            "*license":"All rights reserved"  
+        }
+    },
+    {
+        "_id":"c-32",
+        "_parentId":"b-15",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"social-buttons",
+        "_layout":"right",
+        "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/en/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/en/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/en/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/en/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/en/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/en/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/en/images/social/flickr.png'></a>"
+    }
+]
