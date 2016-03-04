@@ -13,6 +13,7 @@ then
 	exit
 fi
 OUTPATH=modules/cordova/
+THEME="default"
 echo "Retriving module"
 git --git-dir=.module checkout $1
 #git --git-dir=.module pull
@@ -29,6 +30,14 @@ echo "Selecting language"
 echo ""
 `rm -fR src/course/*`
 `cp -r tmp/$2 src/course/`
+
+echo "Merging theme configs"
+echo ""
+`node ./bin/merge.js src/course/$2/articles.json src/theme/$THEME/course/$2/articles.json`
+`node ./bin/merge.js src/course/$2/config.json src/theme/$THEME/course/$2/config.json`
+`node ./bin/merge.js src/course/$2/contentObjects.json src/theme/$THEME/course/$2/contentObjects.json`
+`node ./bin/merge.js src/course/$2/course.json src/theme/$THEME/course/$2/course.json`
+
 `cp src/course/$2/config.json src/course/`
 echo "Updating control path"
 echo ""
