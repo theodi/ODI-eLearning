@@ -484,7 +484,75 @@
         "displayTitle":"Benefits",
         "body":""
     },
-    
+    {
+       "_id": "c-35",
+       "_parentId": "b-35",
+       "_classes": "",
+       "_type":"component",
+       "_layout": "full",
+       "_component": "dynamic-narrative",
+       "title": "The benefits of publishing open data consistently - Local authority case studies",
+       "displayTitle": "The benefits of publishing open data consistently - Local authority case studies",
+       "body": "<p>Local authorities have already seen benefits of following the consistent approaches above when publishing open data. The LGA keeps an extenisve collection of <a href='http://www.local.gov.uk/local-transparency/-/journal_content/56/10180/4049888/ARTICLE' target='_blank'>case studies</a> that catalogue these impacts. Below are some of the best examples:</p>",
+       "instruction": "<em class='desktop-instruction'>Click the forward arrow for more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
+       "_items": [
+           {
+               "title": "Redbridge council",
+               "body": "<p></p>",
+               "_graphic": {
+                   "src": "course/en/images/redbridge.jpg",
+                   "alt": "Support Growing Economies",
+                   "title": "Support Growing Economies",
+                   "*source":"http://www.shutterstock.com/pic-128352227.html",
+                   "*credit":"vs148",
+                   "*license":"Shutterstock Standard License"
+               },
+               "strapline": "Redbridge Council"
+           },
+           {
+               "title": "Leeds Council",
+               "body": "<p></p>",
+               "_graphic": {
+                   "src": "course/en/images/Leeds.jpg",
+                   "alt": "Improved service delivery",
+                   "title": "Improved service delivery",
+                   "*source":"https://www.fixmystreet.com/",
+                   "*credit":"fixmystreet",
+                   "*license":"unknown"
+               },
+               "strapline": "Leeds Council"
+           },
+           {
+               "title": "Bristol Council",
+               "body": "<p></p>",
+               "_graphic": {
+                   "src": "course/en/images/bristol.jpg",
+                   "alt": "Cost Savings",
+                   "title": "Cost Savings",
+                   "*source":"http://www.shutterstock.com/pic-75494491.html",
+                   "*credit":"vlastas",
+                   "*license":"Shutterstock Standard License"
+               },
+               "strapline": "Cost Savings"
+           },
+           {
+               "title": "Sedgemoor Council",
+               "body": "<p></p>",
+               "_graphic": {
+                   "src": "course/en/images/sedgemoor.png",
+                   "alt": "Improved service delivery",
+                   "title": "Improved service delivery",
+                   "*source":"https://www.fixmystreet.com/",
+                   "*credit":"fixmystreet",
+                   "*license":"unknown"
+               },
+               "strapline": "Better public perception"
+           }
+       ],
+       "_pageLevelProgress": {
+       "_isEnabled": true
+       }
+   },
     {
         "_id":"c-75",
         "_parentId":"b-75",
@@ -549,41 +617,41 @@
         "_questionWeight":1,
         "_isRandom":true,
         "_selectable":3,
-        "title": "Things to check before you publish",
-        "displayTitle": "Things to check before you publish",
-        "body": "<p>Which of the following should you check before publishing your dataset?</p>",
-        "instruction": "<em>Select up to three options, then click 'Submit'.</em>",
+        "title": "Choosing where to publish",
+        "displayTitle": "Choosing where to publish",
+        "body": "<p>Which of the following should you consider when choosing where to publish your dataset?</p>",
+        "instruction": "<em>Select three options, then click 'Submit'.</em>",
         "_items": [
             {
-                "text": "Whether there is a common schema",
+                "text": "Can my data be discovered from anywhere on my website?",
                 "_shouldBeSelected": true
             },
             {
-                "text": "How large the data file will be",
+                "text": "How large will my data file be?",
                 "_shouldBeSelected": false
             },
             {
-                "text": "Whether the dataset is clean",
+                "text": "Is my metadata optimised for search engines?",
                 "_shouldBeSelected": true
             },
             {
-                "text": "Where the dataset will be published",
+                "text": "Do I provide links to the data from wherever it is used?",
                 "_shouldBeSelected": true
             },
             {
-                "text": "When the data will be available",
+                "text": "Will my data make me look good to my boss?",
                 "_shouldBeSelected": false
             }
         ],
         "_feedback":{
-            "correct":"<h5>That’s right!</h5><p>Three essential considerations before publishing your dataset are whether a common schema exists, whether the dataset is clean and where the data will be published.</p>",
+            "correct":"<h5>That’s right!</h5><p>Three essential considerations when choosing where to publish are whether people can find your data from anywhere, is your metadata friedly to search engines and whether you provide links to the data from wherever it is being used.</p>",
             "_incorrect": {
-                "notFinal": "h5>Are you sure about that?</h5><p>Three essential considerations before publishing your dataset are whether a common schema exists, whether the dataset is clean and where the data will be published.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>Three essential considerations before publishing your dataset are whether a common schema exists, whether the dataset is clean and where the data will be published.</p>"
+                "notFinal": "h5>Are you sure about that?</h5><p>Three essential considerations when choosing where to publish are whether people can find your data from anywhere, is your metadata friedly to search engines and whether you provide links to the data from wherever it is being used.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>Three essential considerations when choosing where to publish are whether people can find your data from anywhere, is your metadata friedly to search engines and whether you provide links to the data from wherever it is being used.</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5>Three essential considerations before publishing your dataset are whether a common schema exists, whether the dataset is clean and where the data will be published.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>Three essential considerations before publishing your dataset are whether a common schema exists, whether the dataset is clean and where the data will be published.</p>"
+                "notFinal": "<h5>Are you sure about that?</h5>Three essential considerations when choosing where to publish are whether people can find your data from anywhere, is your metadata friedly to search engines and whether you provide links to the data from wherever it is being used.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>Three essential considerations when choosing where to publish are whether people can find your data from anywhere, is your metadata friedly to search engines and whether you provide links to the data from wherever it is being used.</p>"
           }
         },
         "_buttons":{
@@ -625,8 +693,8 @@
         "_questionWeight":1,
         "_isRandom":true,
         "_selectable":1,
-        "title": "Best practices for local authority publishing",
-        "displayTitle": "Best practices for local authority publishing",
+        "title": "Finding best practices for local authority publishing",
+        "displayTitle": "Finding best practices for local authority publishing",
         "body": "<p>Where can authorities go to find clear guidance on URIs, schemas and standards?</p>",
         "instruction": "<em>Select an option, then click 'Submit'.</em>",
         "_items": [
@@ -693,33 +761,33 @@
         "_questionWeight":1,
         "_isRandom":true,
         "_selectable":1,
-        "title": "Licensing your dataset",
-        "displayTitle": "Licensing your dataset",
-        "body": "<p>When publishing your dataset, what licence does LGA reccomend you apply to the dataset?</p>",
+        "title": "Certifying your dataset",
+        "displayTitle": "Certifying your dataset",
+        "body": "<p>When publishing your dataset, what certificate does LGA reccomend you apply to the dataset?</p>",
         "instruction": "<em>Select an option, then click 'Submit'.</em>",
         "_items": [
             {
-                "text": "Whatever licence you want",
+                "text": "The UK Government Data Badge",
                 "_shouldBeSelected": false
             },
             {
-                "text": "A Creative Commons Non-Commercial Licence",
+                "text": "The LGA's Good Data Marque",
                 "_shouldBeSelected": false
             },
             {
-                "text": "An Open Government Licence",
+                "text": "The ODI Open Data Certificate",
                 "_shouldBeSelected": true
             }
         ],
         "_feedback":{
-            "correct":"<h5>That’s right!</h5><p>LGA reccomends that all data published by authorities is under the Open Government Licence because it is the simplest and most accessible license for your data</p>",
+            "correct":"<h5>That’s right!</h5><p>LGA reccomends using the ODI Open Data Certificate to signify the quality and usability of your datasets</p>",
             "_incorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>LGA reccomends that all data published by authorities is under the Open Government Licence because it is the simplest and most accessible license for your data</p>",
-                "final": "<h5>Are you sure about that?</h5><p>LGA reccomends that all data published by authorities is under the Open Government Licence because it is the simplest and most accessible license for your data</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>LGA reccomends using the ODI Open Data Certificate to signify the quality and usability of your datasets</p>",
+                "final": "<h5>Are you sure about that?</h5><p>LGA reccomends using the ODI Open Data Certificate to signify the quality and usability of your datasets</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>LGA reccomends that all data published by authorities is under the Open Government Licence because it is the simplest and most accessible license for your data</p>",
-                "final": "<h5>Are you sure about that?</h5><p>LGA reccomends that all data published by authorities is under the Open Government Licence because it is the simplest and most accessible license for your data</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>LGA reccomends using the ODI Open Data Certificate to signify the quality and usability of your datasets</p>",
+                "final": "<h5>Are you sure about that?</h5><p>LGA reccomends using the ODI Open Data Certificate to signify the quality and usability of your datasets</p>"
           }
         },
         "_buttons":{
