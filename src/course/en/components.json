@@ -28,9 +28,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"How to publish consistent open data",
-        "displayTitle":"How to publish consistent open data",
-        "body":"<p>In our first module we explored how to make transparency work for you through outlining the benefits of publishing open data for local authorities. In this module we look at one of the biggest barriers to realising those benefits - inconsistent publishing approaches.</p><p>In this module you will learn:</p><ul><li>The benefits of consistent, high-quality publishing approaches</li><li>The 3 steps to publishing quality data</li><li>How to certify the quality of your data</li></ul></p><p>This module also provides useful links out to supporting documents and services that can help save time in your publication.</p>",
+        "title":"Making publishing work for you",
+        "displayTitle":"Making publishing work for you",
+        "body":"<p>In our first module we explored how to make transparency work for you through outlining the benefits of publishing open data for local authorities. In this module we look at one of the biggest barriers to realising those benefits - inconsistent publishing approaches.</p><p>In this module you will learn:</p><ul><li>The importance of ensuring the data you publish is clean and consistent</li><li>The 5 ways to decide where you should publish</li><li>The 3 steps to making sure users can find your data</li></ul></p><p>This module also provides useful links out to supporting documents and services that can help save time in your publication.</p>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
@@ -194,104 +194,6 @@
       }
     },
     {
-        "_id":"c-11",
-        "_parentId":"b-6",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"right",
-        "_graphic": {
-            "alt": "What is open data?",
-            "title": "What is open data?",
-            "large": "course/en/images/certificate.png",
-            "medium": "course/en/images/certificate.png",
-            "small": "course/en/images/certificate.png",
-            "*source":"https://certificates.theodi.org/assets/certificate-colourburst-72-K-1200px-061cc4491b502750ff5748edccdedec3.png",
-            "*credit":"ODI",
-            "*license":"All rights reserved"
-        }
-    },
-     {
-        "_id":"c-12",
-        "_parentId":"b-6",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"",
-        "_layout":"left",
-        "title":"Why should I certify my data?",
-        "displayTitle":"Why should I certify my data?",
-        "body":"<p>There is lots of data out there, much of it messy or difficult to use. ODI Open Data Certificates is a free online tool developed to assess and recognise the quality of open datasets and let users know that any dataset with a certificate meets certain quality criteria. The certificates are an independent quality marque designed to support open data publishers in acheiving professional results.</p><h5>Open Data Certificates provide publishers with a range of benefits including:</h5><ul class='ticks'><li>Formal recognition of your data quality</li><li>A much broader user base</li><li>Automatic trust in the quality and usability of your data</li><li>Instant, simple compliance with the best publishing practices</li><li>Free advice on improving the quality of your data</li></p>"
-    },
-    {
-        "_id":"c-13",
-        "_parentId":"b-7",
-        "_classes": "",
-        "_type":"component",
-        "_layout": "full",
-        "_component": "dynamic-narrative",
-        "title": "What do Open Data Certificates look for?",
-        "displayTitle": "What do Open Data Certificates look for?",
-        "body": "<p>ODI Open Data Certificates consider the legal, practical, technical and social requirements for an open dataset to be useful.</p>",
-        "instruction": "<em class='desktop-instruction'>Click the forward arrow for more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
-        "_items": [
-           {
-                "title": "Legal requirements",
-                "body": "<p>In addition to the open licence, there are three legal requirements that need to be considered. You must:</p><p><ul><li>Protect sensitive information like personal data.</li><li>Preserve the rights of data owners.</li><li>Promote correct use of the data.</li></ul></p>",
-                "_graphic": {
-                    "src": "course/en/images/odi-2.jpg",
-                    "alt": "Legal",
-                    "title": "Legal",
-                    "*source":"http://www.shutterstock.com/pic-102447179.html",
-                    "*credit":"hoperan",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "Legal"
-            },
-            {
-                "title": "Practical requirements",
-                "body": "<p>It is important that open data can be found and relied upon by users.</p><p>This means that open data publishers must:</p><p><ul><li>Link to the data from their website.</li><li>Update the data regularly if it changes.</li><li>Commit to continue to make the data available.</li></ul></p>",
-                "_graphic": {
-                    "src": "course/en/images/odi-3.jpg",
-                    "alt": "Practical",
-                    "title": "Practical",
-                    "*source":"http://www.shutterstock.com/pic-235025131.html",
-                    "*credit":"McIek",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "Practical"
-            },
-            {
-                "title": "Technical requirements",
-                "body": "<p>There are three recommendations that define the technical aspects of open data:</p><p><ul><li>The format in which the data is published.</li><li>The structure of the data.</li><li>The channels through which the data is available.</li></ul></p>",
-                "_graphic": {
-                    "src": "course/en/images/odi-4.jpg",
-                    "alt": "Technical",
-                    "title": "Technical",
-                    "*source":"http://www.shutterstock.com/pic-154744388.html",
-                    "*credit":"Oleksiy Mark",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "Technical"
-            },
-            {
-                "title": "Social requirements",
-                "body": "<p>For data use to be sustainable, it is important to have an engaged community of users. The best datasets have:</p><p><ul><li>Active support channels.</li><li>Discussion groups and forums.</li><li>Published how-to guides on working with the data.</li></ul></p>",
-                "_graphic": {
-                    "src": "course/en/images/odi-5.jpg",
-                    "alt": "Social",
-                    "title": "Social",
-                    "*source":"http://www.shutterstock.com/pic-187711424.html",
-                    "*credit":"bluebay",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "Social"
-            }
-        ],
-        "_pageLevelProgress": {
-        "_isEnabled": true
-        }
-    },
-    {
         "_id":"c-14",
         "_parentId":"b-8",
         "_type":"component",
@@ -425,35 +327,6 @@
       "_pageLevelProgress": {
         "_isEnabled": true
       }
-    },
-    {
-        "_id":"c-20",
-        "_parentId":"b-11",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"right",
-        "_graphic": {
-            "alt": "What is open data?",
-            "title": "What is open data?",
-            "large": "course/en/images/certificate.png",
-            "medium": "course/en/images/certificate.png",
-            "small": "course/en/images/certificate.png",
-            "*source":"https://certificates.theodi.org/assets/certificate-colourburst-72-K-1200px-061cc4491b502750ff5748edccdedec3.png",
-            "*credit":"ODI",
-            "*license":"All rights reserved"
-        }
-    },
-    {
-        "_id":"c-21",
-        "_parentId":"b-11",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"",
-        "_layout":"left",
-        "title":"How to publish your dataset: Adding the certificate",
-        "displayTitle":"How to publish your dataset: Adding the certificate",
-        "body":"<p>With your dataset published, you need to let users know they can rely on the quality of your work by certifying your results through an ODI Certificate.</p><p>Getting your Open Data Certificate is simple. First, you complete a short questionnaire to assess the level of support you provide for the data. Depending on the answers, the ODI awards a badge that can be embedded on your website to signify the quality level of your publication.</p><p>If you are publishing your data in a machine readable way (for example, by using a data portal like ckan), the site can pre-fill many of the certificate questions. Just enter the URL on the first page to get started.<br/><br/><a href='https://certificates.theodi.org/en' target='_blank'>Take me to the ODI Open Data Certificates Site</a></p>"
     },
     {
         "_id":"c-22",
