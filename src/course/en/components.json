@@ -1,7 +1,7 @@
 [
     {
-        "_id":"c-10",
-        "_parentId":"b-10",
+        "_id":"c-1",
+        "_parentId":"b-1",
         "_type":"component",
         "_component":"graphic",
         "_classes":"intro-logo",
@@ -22,52 +22,23 @@
         }
     },
     {
-        "_id":"c-11",
-        "_parentId":"b-10",
+        "_id":"c-2",
+        "_parentId":"b-1",
         "_type":"component",
         "_component":"text",
         "_classes":"",
         "_layout":"left",
         "title":"How to publish consistent open data",
         "displayTitle":"How to publish consistent open data",
-        "body":"<p>In our first module we explored the benefits of publishing open data for local authorities. In this module we look at one of the biggest barriers to realising those benefits - inconsistent publishing approaches.</p><p>In this module you will learn:</p><ul><li>The benefits of consistent publishing approaches</li><li>A 7 step checklist for publishing quality data</li><li>How to certify the usability of your data</li></ul></p><p>This module also provides useful links out to supporting documents and services that can help save time in your publication.</p>",
+        "body":"<p>In our first module we explored how to make transparency work for you through outlining the benefits of publishing open data for local authorities. In this module we look at one of the biggest barriers to realising those benefits - inconsistent publishing approaches.</p><p>In this module you will learn:</p><ul><li>The benefits of consistent, high-quality publishing approaches</li><li>The 3 steps to publishing quality data</li><li>How to certify the quality of your data</li></ul></p><p>This module also provides useful links out to supporting documents and services that can help save time in your publication.</p>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
         }
     },
     {
-        "_id":"c-20",
-        "_parentId":"b-20",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"left",
-        "_graphic": {
-            "alt": "What is open data?",
-            "title": "What is open data?",
-            "large": "course/en/images/odi-1-text-image_large.jpg",
-            "medium": "course/en/images/odi-1-text-image_large.jpg",
-            "small": "course/en/images/odi-1-text-image_large.jpg",
-            "*source":"http://www.shutterstock.com/pic.mhtml?id=179384507&src=lb-35924366",
-            "*credit":"leromin",
-            "*license":"Shutterstock Standard License"
-        }
-    },
-    {
-        "_id":"c-21",
-        "_parentId":"b-20",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"",
-        "_layout":"right",
-        "title":"Why does consistency matter?",
-        "displayTitle":"Why does consistency matter?",
-        "body":"<p>The aim of all open data is to allow others to use the data, whether for a new app, a study or just to gain a deeper understanding.</p><p>The highest value comes when <b>coverage</b> is maximised. An application that tells you where local toilets are should work everywhere, not just in one town. Consistancy is important to enable users to create new services that do have complete coverage.</p><p>For publishers, making data available in commonly understood and well used standards is essential. This not only maximises the potential re-use but also the value to the publisher of that re-use, which may align with an existing goal.</p>"
-    },
-    {
-        "_id":"c-30",
-        "_parentId":"b-30",
+        "_id":"c-3",
+        "_parentId":"b-2",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
@@ -84,62 +55,48 @@
         }
     },
     {
-        "_id":"c-31",
-        "_parentId":"b-30",
+        "_id":"c-4",
+        "_parentId":"b-2",
         "_type":"component",
         "_component":"text",
         "_classes":"",
         "_layout":"full",
-        "title":"Publishing your ata",
-        "displayTitle":"Publishing your data",
-        "body":"Discover the imporatance of structuring, cleaning and properly publishing your data. Follow the 7 step guide to complete the process simply and easily."
+        "title":"Background information",
+        "displayTitle":"Background information",
+        "body":""
     },
-     {
-        "_id":"c-32",
-        "_parentId":"b-32",
-        "_classes": "",
+    {
+        "_id":"c-5",
+        "_parentId":"b-3",
         "_type":"component",
-        "_layout": "full",
-        "_component": "dynamic-narrative",
-        "title": "What is the best way to structure the data?",
-        "displayTitle": "What is the best way to structure the data?",
-        "body": "<p>The structure (or schema) of the dataset is import to enable broad re-usability. You can think of the structure as a set of standard and defined column headings for a dataset. Find out more below about apply existing schemas to your data and what to do if you can't find one.</p>",
-        "instruction": "<em class='desktop-instruction'>Click the forward arrow for more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
-        "_items": [
-           {
-                "title": "Existing schemas",
-                "body": "<p>The LGA keeps standard schemas for 10 of the most popular open datasets in their <a href='http://opendata.esd.org.uk/ESDSchemaGuidance.pdf' target='_blank'>schema guides</a> as well as more than 640 schema examples from authorities around the UK.</p><p>By using a standard schema, your open data can be combined with other authorities' releases to build up regional and national overviews.</p><p>Using the standard schemas is simple. Just find the right schema for your dataset, rename your colunm heading to match and save the result.</p>",
-                "_graphic": {
-                    "src": "course/en/images/odi-2.jpg",
-                    "alt": "Existing schemas",
-                    "title": "Existing schemas",
-                    "*source":"http://www.shutterstock.com/pic-102447179.html",
-                    "*credit":"hoperan",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "Existing schemas"
-            },
-            {
-                "title": "Creating a new schema",
-                "body": "<p>No common schema for the dataset you are publishing? Before just creating a new one, why not see if there is already some concensus amoung an existing community of users somewhere (use your favorite search engine). You might need to contirbute a new schema to the <a href='http://schemas.opendata.esd.org.uk/' target='_blank'>LG Inform Plus Schemas Directory</a>, but there may be an opportunity to get the community to help!</p>",
-                "_graphic": {
-                    "src": "course/en/images/odi-3.jpg",
-                    "alt": "Creating a new schema",
-                    "title": "Creating a new schema",
-                    "*source":"http://www.shutterstock.com/pic-235025131.html",
-                    "*credit":"McIek",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "Creating a new schema"
-            }
-        ],
-        "_pageLevelProgress": {
-        "_isEnabled": true
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "What is open data?",
+            "title": "What is open data?",
+            "large": "course/en/images/odi-1-text-image_large.jpg",
+            "medium": "course/en/images/odi-1-text-image_large.jpg",
+            "small": "course/en/images/odi-1-text-image_large.jpg",
+            "*source":"http://www.shutterstock.com/pic.mhtml?id=179384507&src=lb-35924366",
+            "*credit":"leromin",
+            "*license":"Shutterstock Standard License"
         }
     },
     {
-        "_id":"c-34",
-        "_parentId":"b-34",
+        "_id":"c-6",
+        "_parentId":"b-3",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"right",
+        "title":"Why does consistency matter?",
+        "displayTitle":"Why does consistency matter?",
+        "body":"<p>Open data needs to be simple for anyone to use, whether for a new app, a study or just to gain a deeper understanding of the subject.</p><p>The greatest use comes when the same type of data is <b>consistent</b> across different publishers. An application that tells you where local toilets are should be able to work everywhere, not just in one town. Consistancy is also important because it allows you to combine your data with that of other authorities for internal use.</p><p>For publishers in local authorities, making data available in a consistent format is the best way to make your open data useful both internally and to others.</p>"
+    },
+    {
+        "_id":"c-7",
+        "_parentId":"b-4",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
@@ -156,15 +113,15 @@
         }
     },
     {
-        "_id":"c-35",
-        "_parentId":"b-34",
+        "_id":"c-8",
+        "_parentId":"b-4",
         "_type":"component",
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Is the dataset quality suitable for publication?",
-        "displayTitle":"Is the dataset quality suitable for publication?",
-        "body":"<p>High quality datasets produce higher quality outputs. Unfortuntely, errors and inconsistancies will always occur in data. Common errors and inconsistancies include duplication, missing data, mixed use of abbreviations and spelling and everyones favorite, the random date format!</p><p>Fortunately there exists a number of purpose build clearning tools that are designed to deal with messy data. We reccomend the use of OpenRefine which can help you quickly clean large datasets. Unlike tools like Excel, OpenRefine allows you to record the history of changes and even automatically apply this to other similar datasets to fix the same errors. These change histories can even be shared with others so that everyone, including other staff inside your authority, can benefit from your clearning.</p><p>To get started with OpenRefine, why not try the ODI's data clearning tutorial (need to write).</p>"
+        "title":"Is the quality of my dataset suitable for publication?",
+        "displayTitle":"Is the quality of my dataset suitable for publication?",
+        "body":"<p>The better the quality of your datasets, the better the results from users. Unfortuntely, errors and inconsistancies will always occur in data. Common errors include duplicated entries, missing data, inconsistent use of abbreviations, spelling mistakes and different data formats</p><p>Fortunately there are free, purpose-built cleaning tools designed to deal with messy data. We recommend OpenRefine which can help you quickly and securely clean large datasets. Unlike Excel and other spreadsheet programmes, OpenRefine allows you to record the changes you make and can even automatically apply cleaning functions to other datasets. Importantly, you can share your record of changes with everyone, including other staff, so that your colleagues can benefit from your cleaning.</p><p>To get started with OpenRefine, follow our exercise here.</p>"
     },
     {
         "_id":"c-36",
