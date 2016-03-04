@@ -28,7 +28,7 @@ var _ = require('underscore'),
 	output = _.extend(oldJson, newJson);
     }
     printableJson = JSON.stringify(output, null, 2);
-
+    
     fs.writeFile(file1, printableJson, function(err) {
       if (err) throw('File save error: '+ err);
     });

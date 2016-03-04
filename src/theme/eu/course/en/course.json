@@ -18,16 +18,6 @@
             "link": "Link"
         },
         "_resourcesItems": [
-  	{
-        "title": "Modules",
-        "description": "Switch to another module",
-        "_filterButtons": {
-            "all": "All",
-            "document": "PDF",
-            "media": "Media",
-            "link": "Link"
-        },
-        "_resourcesItems": [
             {
                 "_type": "link",
                 "_local": "true",
@@ -128,7 +118,7 @@
             }
         ]
     }, 
-	{
+   {
         "title": "Open data",
         "description": "Use the content of this module as open data",
         "_filterButtons": {
@@ -217,6 +207,6 @@
                 "_link": "https://community.adaptlearning.org/"
             }
             ]
-    }
+    	}
    ]
 }
