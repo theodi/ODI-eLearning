@@ -50,6 +50,16 @@ echo "Selecting language"
 echo ""
 `rm -fR src/course/*`
 `cp -r tmp/$LANG src/course/`
+
+echo "Merging theme configs"
+echo ""
+`node ./bin/merge.js src/course/$LANG/articles.json src/theme/$THEME/course/$LANG/articles.json`
+`node ./bin/merge.js src/course/$LANG/config.json src/theme/$THEME/course/$LANG/config.json`
+`node ./bin/merge.js src/course/$LANG/contentObjects.json src/theme/$THEME/course/$LANG/contentObjects.json`
+`node ./bin/merge.js src/course/$LANG/course.json src/theme/$THEME/course/$LANG/course.json`
+
+echo "Moving config into pace"
+echo ""
 `cp src/course/$LANG/config.json src/course/`
 
 echo "removing video" 
