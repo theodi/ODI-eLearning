@@ -16,8 +16,8 @@ THEME=$3
 if [ -z $3 ]
 then
 	THEME="default"
-	echo "Using theme $THEME"
 fi
+echo "Using theme $THEME"
 OUTPATH=modules/$THEME/
 echo "retriving navigation branch"
 echo ""
@@ -55,7 +55,7 @@ SRCTHEME=$THEME
 if [ ! -f src/theme/$SRCTHEME/less/custom.less ];
 then
         SRCTHEME="default"
-        echo "moving items into place" 
+        echo "moving css into place from $SRCTHEME" 
 	echo ""
 	cp src/theme/$SRCTHEME/less/custom.less src/theme/$THEME/less/
 	cp src/theme/$SRCTHEME/less/theme.less src/theme/$THEME/less/
