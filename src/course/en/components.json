@@ -626,41 +626,49 @@
     {
         "_id":"c-32",
         "_parentId":"b-18",
-        "_type":"component",
+       "_type":"component",
         "_component":"mcq",
         "_classes":"",
         "_layout":"left",
         "_attempts":1,
         "_questionWeight":1,
         "_isRandom":true,
-        "_selectable":1,
-        "title": "Certifying your dataset",
-        "displayTitle": "Certifying your dataset",
-        "body": "<p>When publishing your dataset, what certificate does LGA reccomend you apply to the dataset?</p>",
-        "instruction": "<em>Select an option, then click 'Submit'.</em>",
+        "_selectable":3,
+        "title": "Recognising errors in your data",
+        "displayTitle": "Recognising errors in your data",
+        "body": "<p>Which of the following are errors in data that require cleaning?</p>",
+        "instruction": "<em>Choose three answers and click 'Submit'.</em>",
         "_items": [
             {
-                "text": "The UK Government Data Badge",
+                "text": "Mixed numerical scales",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "Lack of granularity",
                 "_shouldBeSelected": false
             },
             {
-                "text": "The LGA's Good Data Marque",
+                "text": "Redundant data",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "No licence",
                 "_shouldBeSelected": false
             },
             {
-                "text": "The ODI Open Data Certificate",
+                "text": "Multiple representations",
                 "_shouldBeSelected": true
             }
         ],
         "_feedback":{
-            "correct":"<h5>That’s right!</h5><p>LGA reccomends using the ODI Open Data Certificate to signify the quality and usability of your datasets</p>",
+            "correct":"<h5>That's right!</h5><p>Mixed use of scales, redundant data and multiple representations of the same data are just some of the errors that need to be fixed in unclean data. While the granularity and lack of licence are a problem, they are not related to the data itself being unclean</p>",
             "_incorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>LGA reccomends using the ODI Open Data Certificate to signify the quality and usability of your datasets</p>",
-                "final": "<h5>Are you sure about that?</h5><p>LGA reccomends using the ODI Open Data Certificate to signify the quality and usability of your datasets</p>"
+                "notFinal": "<h5>Are you sure about that? </h5><p>Mixed use of scales, redundant data and multiple representations of the same data are just some of the errors that need to be fixed in unclean data. While the granularity and lack of licence are a problem, they are not related to the data itself being unclean</p>",
+                "final": "<h5>Are you sure about that? </h5><p>Mixed use of scales, redundant data and multiple representations of the same data are just some of the errors that need to be fixed in unclean data. While the granularity and lack of licence are a problem, they are not related to the data itself being unclean</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>LGA reccomends using the ODI Open Data Certificate to signify the quality and usability of your datasets</p>",
-                "final": "<h5>Are you sure about that?</h5><p>LGA reccomends using the ODI Open Data Certificate to signify the quality and usability of your datasets</p>"
+                "notFinal": "<h5>Are you sure about that? </h5><p>Mixed use of scales, redundant data and multiple representations of the same data are just some of the errors that need to be fixed in unclean data. While the granularity and lack of licence are a problem, they are not related to the data itself being unclean</p>",
+                "final": "<h5>Are you sure about that? </h5><p>Mixed use of scales, redundant data and multiple representations of the same data are just some of the errors that need to be fixed in unclean data. While the granularity and lack of licence are a problem, they are not related to the data itself being unclean</p>"
           }
         },
         "_buttons":{
@@ -702,33 +710,33 @@
         "_questionWeight":1,
         "_isRandom":true,
         "_selectable":1,
-        "title": "Technical considerations in ODI Certificates",
-        "displayTitle": "Technical considerations in ODI Certificates",
-        "body": "<p>There are three technical considerations as part of the ODi Certificates standards for publishing open data, one of which is...</p>",
+        "title": "Finding your data",
+        "displayTitle": "Finding your data",
+        "body": "<p>When publishing your data, it is important to...</p>",
         "instruction": "<em>Select an option, then click 'Submit'.</em>",
         "_items": [
             {
-                "text": "What format the open data is published in.",
+                "text": "use a consistent URI from the LGA directory",
                 "_shouldBeSelected": true
             },
             {
-                "text": "Whether it can it be used on a computer.",
+                "text": "regularly change the web address",
                 "_shouldBeSelected": false
             },
             {
-                "text": "Whether it takes up much bandwidth.",
+                "text": "hide the location from the user",
                 "_shouldBeSelected": false
             }
         ],
         "_feedback":{
-            "correct":"<h5>That’s right!</h5><p>There are three recommendations that define the technical aspects of open data.  The format in which the data is published in, the structure of the data and the channels through which the data is available.</p>",
+            "correct":"<h5>That’s right!</h5><p>When publishing your data you should always use a consistent URI from the LGA's directory. You should also add a second URL which lets people know exactly what data they can expect to find on the page!</p>",
             "_incorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>There are three recommendations that define the technical aspects of open data.  The format in which the data is published in, the structure of the data and the channels through which the data is available.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>There are three recommendations that define the technical aspects of open data.  The format in which the data is published in, the structure of the data and the channels through which the data is available.</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>When publishing your data you should always use a consistent URI from the LGA's directory. You should also add a second URL which lets people know exactly what data they can expect to find on the page!</p>",
+                "final": "<h5>Are you sure about that?</h5><p>When publishing your data you should always use a consistent URI from the LGA's directory. You should also add a second URL which lets people know exactly what data they can expect to find on the page!</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>There are three recommendations that define the technical aspects of open data.  The format in which the data is published in, the structure of the data and the channels through which the data is available.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>There are three recommendations that define the technical aspects of open data.  The format in which the data is published in, the structure of the data and the channels through which the data is available.</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>When publishing your data you should always use a consistent URI from the LGA's directory. You should also add a second URL which lets people know exactly what data they can expect to find on the page!</p>",
+                "final": "<h5>Are you sure about that?</h5><p>When publishing your data you should always use a consistent URI from the LGA's directory. You should also add a second URL which lets people know exactly what data they can expect to find on the page!</p>"
           }
         },
         "_buttons":{
