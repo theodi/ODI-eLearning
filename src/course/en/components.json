@@ -30,7 +30,7 @@
         "_layout":"left",
         "title":"Making standards work for you",
         "displayTitle":"Making standards work for you",
-        "body":"<p>In our final module, we examine where local authorities can find the right support to help them publish good quality, consistent open data. In this module we examine how resources like LG Inform Plus can save you time and money in publishing your data.</p><p><p>In this module you will learn:</p><ul><li>The benefits of consistent, high-quality publishing approaches</li><li>The 3 steps to publishing quality data</li><li>How to certify the quality of your data</li></ul></p><p>This module also provides useful links out to supporting documents and services that can help save time in your publication.</p>",
+        "body":"<p>In our final module, we examine where local authorities can find the right support to help them publish good quality, consistent open data. In this module we examine how resources like LG Inform Plus can save you time and money in publishing your data.</p><p><p>In this module you will learn:</p><ul><li>How standard structures can make your data more useful</li><li>How to find and use common schemas for your datasets</li><li>How to certify the quality of your data</li></ul></p><p>This module also provides useful links out to supporting documents and services that can help save time in your publication.</p>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
@@ -92,7 +92,7 @@
         "_layout":"left",
         "title":"Navigating LG Inform Plus",
         "displayTitle":"Navigating LG Inform Plus",
-        "body":"<p>LG Inform Plus is a collection of support tools and guidance that can help any local government quickly make sense of open data. Maintained by LGA, Inform Plus provides the standards that allow your local open data to be combined with other authorities to create regional and national insights. Every authority has to meet the demands of the transparency agenda and publish open data. LG Inform Plus takes the pain out of this process and saves you staff time and money</p><p>In the following sections, we will guide you through the key resources available via LG Inform Plus and show you how to apply these to support your own open data publishing.</p>"
+        "body":"<p>Open data needs to be simple for anyone to use, whether for a new app, a study or just to gain a deeper understanding of the subject.</p><p>The greatest use comes when the same type of data has a <b>consistent structure</b> across different publishers. An application that tells you where local toilets are should be able to work everywhere, not just in one town. A consistent structure is also important because it allows you to combine your data with that of other authorities for internal use.</p><p>For publishers in local authorities, making data available in a consistent format is the best way to make your open data useful both internally and to others.</p>"
     },
     {
         "_id":"c-32",
@@ -101,14 +101,14 @@
         "_type":"component",
         "_layout": "full",
         "_component": "dynamic-narrative",
-        "title": "What is the best way to structure the data?",
-        "displayTitle": "What is the best way to structure the data?",
-        "body": "<p>The structure (or schema) of the dataset is import to enable broad re-usability. You can think of the structure as a set of standard and defined column headings for a dataset. Find out more below about apply existing schemas to your data and what to do if you can't find one.</p>",
+        "title": "What is the best way to consistently structure the data?",
+        "displayTitle": "What is the best way to consistently structure the data?",
+        "body": "<p>The structure (or schema) of the dataset is a major factor in how useful your data will be to others. You can think of the structure as a set of standard and defined column headings for a dataset. Find out more below about how to decide which schema should apply to your dataset.</p>",
         "instruction": "<em class='desktop-instruction'>Click the forward arrow for more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
         "_items": [
            {
-                "title": "Existing schemas",
-                "body": "<p>The LGA keeps standard schemas for 10 of the most popular open datasets in their <a href='http://opendata.esd.org.uk/ESDSchemaGuidance.pdf' target='_blank'>schema guides</a> as well as more than 640 schema examples from authorities around the UK.</p><p>By using a standard schema, your open data can be combined with other authorities' releases to build up regional and national overviews.</p><p>Using the standard schemas is simple. Just find the right schema for your dataset, rename your colunm heading to match and save the result.</p>",
+                "title": "Using an existing schemas",
+                "body": "<p>The best choice for the structure of your dataset is always a standard schema. Using a standard schema ensures your data can be instantly combined with that of other publishers. LGA keeps standard schemas for 10 of the most popular open datasets as well as more than 640 schema examples from authorities around the UK.</p><p>By using a standard schema, your open data can be combined with other authorities' releases to build up regional and national overviews.</p><p>Using the standard schemas is simple. Just find the right schema for your dataset, rename your colunm heading to match and save the result. Under the practical guidance section of this module you will find detailed instructions on using LGA standard schemas.</p>",
                 "_graphic": {
                     "src": "course/en/images/odi-2.jpg",
                     "alt": "Existing schemas",
@@ -121,7 +121,7 @@
             },
             {
                 "title": "Creating a new schema",
-                "body": "<p>No common schema for the dataset you are publishing? Before just creating a new one, why not see if there is already some concensus amoung an existing community of users somewhere (use your favorite search engine). You might need to contirbute a new schema to the <a href='http://schemas.opendata.esd.org.uk/' target='_blank'>LG Inform Plus Schemas Directory</a>, but there may be an opportunity to get the community to help!</p>",
+                "body": "<p>No common schema for the dataset you are publishing? Before just creating a new one, why not see if there is already some concensus amoung an existing community of users somewhere (use your favorite search engine). You might need to contirbute a new schema but there may be an opportunity to get the community to help!</p>",
                 "_graphic": {
                     "src": "course/en/images/odi-3.jpg",
                     "alt": "Creating a new schema",
@@ -162,8 +162,8 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Why should I certify my data?",
-        "displayTitle":"Why should I certify my data?",
+        "title":"Certifying your data",
+        "displayTitle":"Certifying your data",
         "body":"<p>There is lots of data out there, much of it messy or difficult to use. ODI Open Data Certificates is a free online tool developed to assess and recognise the quality of open datasets and let users know that any dataset with a certificate meets certain quality criteria. The certificates are an independent quality marque designed to support open data publishers in acheiving professional results.</p><h5>Open Data Certificates provide publishers with a range of benefits including:</h5><ul class='ticks'><li>Formal recognition of your data quality</li><li>A much broader user base</li><li>Automatic trust in the quality and usability of your data</li><li>Instant, simple compliance with the best publishing practices</li><li>Free advice on improving the quality of your data</li></p>"
     },
     {
@@ -277,7 +277,7 @@
         "_items": [
             {
                 "title": "Core open data schemas",
-                "body": "<p>LGA keeps a definitive set of schemas for 10 of the most popular open datasets published by local authorities. If you are publishing data in one of these categories, we strongly recommend following the relevant schema below:<br><a href='http://schemas.opendata.esd.org.uk/Contracts' target='_blank'>Contracts</a><br><a href='http://schemas.opendata.esd.org.uk/LandAndBuilding' target='_blank'>Land and Buildings</a><br><a href='http://schemas.opendata.esd.org.uk/OrganisationStructure' target='_blank'>Organisation Structure</a><br><a href='http://schemas.opendata.esd.org.uk/Parking' target='_blank'>Parking</a><br><a href='http://schemas.opendata.esd.org.uk/SeniorEmployees' target='_blank'>Senior Employees</a><br><a href='http://schemas.opendata.esd.org.uk/SeniorSalaryCount' target='_blank'>Senior Employee Count</a><br><a href='http://schemas.opendata.esd.org.uk/Spend' target='_blank'>Spend</a><br><a href='http://schemas.opendata.esd.org.uk/PlanningApplications' target='_blank'>Planning Applications</a><br><a href='http://schemas.opendata.esd.org.uk/PremisesLicences' target='_blank'>Premises Licences</a><br><a href='http://schemas.opendata.esd.org.uk/PublicToilets' target='_blank'></a>Public Toilets<br><br>If the dataset you are publishing isnt covered above, scroll right to find out about community schemas.</p>",
+                "body": "<p>LGA keeps a definitive set of schemas for 10 of the most popular open datasets published by local authorities. If you are publishing data in one of these categories, we strongly recommend following the relevant schema. For any of these schemas, simply alter your dataset's column headings to match and save the results:<br><a href='http://schemas.opendata.esd.org.uk/Contracts' target='_blank'>Contracts</a><br><a href='http://schemas.opendata.esd.org.uk/LandAndBuilding' target='_blank'>Land and Buildings</a><br><a href='http://schemas.opendata.esd.org.uk/OrganisationStructure' target='_blank'>Organisation Structure</a><br><a href='http://schemas.opendata.esd.org.uk/Parking' target='_blank'>Parking</a><br><a href='http://schemas.opendata.esd.org.uk/SeniorEmployees' target='_blank'>Senior Employees</a><br><a href='http://schemas.opendata.esd.org.uk/SeniorSalaryCount' target='_blank'>Senior Employee Count</a><br><a href='http://schemas.opendata.esd.org.uk/Spend' target='_blank'>Spend</a><br><a href='http://schemas.opendata.esd.org.uk/PlanningApplications' target='_blank'>Planning Applications</a><br><a href='http://schemas.opendata.esd.org.uk/PremisesLicences' target='_blank'>Premises Licences</a><br><a href='http://schemas.opendata.esd.org.uk/PublicToilets' target='_blank'></a>Public Toilets<br><br>If the dataset you are publishing isnt covered above, scroll right to find out about community schemas.</p>",
                 "_graphic": {
                     "src": "course/en/images/redbridge.jpg",
                     "alt": "Schemas",
@@ -303,7 +303,7 @@
             },
             {
                 "title": "Creating a new schema",
-                "body": "<p>You should only create a new schema if there is no existing one in the LGA directory that matches your dataset. You should</p>",
+                "body": "<p>You should only create a new schema if there is no existing one in the LGA directory that matches your dataset and you cannot find an existing one from another community. If you need to create a new schema, make sure that it is as simple as possible and that you submit the results back to the<a href='http://schemas.opendata.esd.org.uk/' target='_blank'> LGA community schema directory</a> so that it can benefit others in the future.</p>",
                 "_graphic": {
                     "src": "course/en/images/Platform.jpg",
                     "alt": "Cost Savings",
@@ -384,9 +384,9 @@
         "_type":"component",
         "_layout": "full",
         "_component": "dynamic-narrative",
-        "title": "Examples of best practice",
-        "displayTitle": "Examples of best practice",
-        "body": "<p></p>",
+        "title": "The benefits of publishing to standard schemas: Local authority examples",
+        "displayTitle": "The benefits of publishing to standard schemas: Local authority examples",
+        "body": "<p>Publishing standard schemas can save your authority time and money. The results can also make your data more attractive to developers and other users. The following examples show how some authorities around the UK are already using standard schemas to their advantage.</p>",
         "instruction": "<em class='desktop-instruction'>Click the forward arrow for more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
         "_items": [
            {
@@ -578,9 +578,9 @@
         "_questionWeight":1,
         "_isRandom":true,
         "_selectable":1,
-        "title": "Best practices for local authority publishing",
-        "displayTitle": "Best practices for local authority publishing",
-        "body": "<p>Where can authorities go to find clear guidance on publishing consistently?</p>",
+        "title": "LGA schemas",
+        "displayTitle": "LGA schemas",
+        "body": "<p>Which of the following datasets is <b>not<</p>",
         "instruction": "<em>Select an option, then click 'Submit'.</em>",
         "_items": [
             {
@@ -641,38 +641,38 @@
         "_type":"component",
         "_component":"mcq",
         "_classes":"",
-        "_layout":"right",
+        "_layout":"left",
         "_attempts":1,
         "_questionWeight":1,
         "_isRandom":true,
         "_selectable":1,
-        "title": "Legal considerations",
-        "displayTitle": "Legal considerations",
-        "body": "<p>There are three legal considerations as part of the standards for publishing open data, one of which is...</p>",
+        "title": "Certifying your dataset",
+        "displayTitle": "Certifying your dataset",
+        "body": "<p>When publishing your dataset, what certificate does LGA reccomend you apply to the dataset?</p>",
         "instruction": "<em>Select an option, then click 'Submit'.</em>",
         "_items": [
             {
-                "text": "not to break the licensing law.",
+                "text": "The UK Government Data Badge",
                 "_shouldBeSelected": false
             },
             {
-                "text": "to publish any type of data.",
+                "text": "The LGA's Good Data Marque",
                 "_shouldBeSelected": false
             },
             {
-                "text": "to protect sensitive information such as personal data.",
+                "text": "The ODI Open Data Certificate",
                 "_shouldBeSelected": true
             }
         ],
         "_feedback":{
-            "correct":"<h5>That’s right!</h5><p>In addition to the open licence, there are three legal requirements that need to be considered.  Protect sensitive information like personal data, preserve the rights of data owners and promote correct use of the data.</p>",
+            "correct":"<h5>That’s right!</h5><p>LGA reccomends using the ODI Open Data Certificate to signify the quality and usability of your datasets</p>",
             "_incorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>In addition to the open licence, there are three legal requirements that need to be considered.  Protect sensitive information like personal data, preserve the rights of data owners and promote correct use of the data.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>In addition to the open licence, there are three legal requirements that need to be considered.  Protect sensitive information like personal data, preserve the rights of data owners and promote correct use of the data.</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>LGA reccomends using the ODI Open Data Certificate to signify the quality and usability of your datasets</p>",
+                "final": "<h5>Are you sure about that?</h5><p>LGA reccomends using the ODI Open Data Certificate to signify the quality and usability of your datasets</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>In addition to the open licence, there are three legal requirements that need to be considered.  Protect sensitive information like personal data, preserve the rights of data owners and promote correct use of the data.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>In addition to the open licence, there are three legal requirements that need to be considered.  Protect sensitive information like personal data, preserve the rights of data owners and promote correct use of the data.</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>LGA reccomends using the ODI Open Data Certificate to signify the quality and usability of your datasets</p>",
+                "final": "<h5>Are you sure about that?</h5><p>LGA reccomends using the ODI Open Data Certificate to signify the quality and usability of your datasets</p>"
           }
         },
         "_buttons":{
