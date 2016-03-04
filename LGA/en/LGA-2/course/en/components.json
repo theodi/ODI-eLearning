@@ -1,7 +1,7 @@
 [
     {
-        "_id":"c-10",
-        "_parentId":"b-10",
+        "_id":"c-1",
+        "_parentId":"b-1",
         "_type":"component",
         "_component":"graphic",
         "_classes":"intro-logo",
@@ -22,52 +22,23 @@
         }
     },
     {
-        "_id":"c-11",
-        "_parentId":"b-10",
+        "_id":"c-2",
+        "_parentId":"b-1",
         "_type":"component",
         "_component":"text",
         "_classes":"",
         "_layout":"left",
         "title":"How to publish consistent open data",
         "displayTitle":"How to publish consistent open data",
-        "body":"<p>In our first module we explored the benefits of publishing open data for local authorities. In this module we look at one of the biggest barriers to realising those benefits - inconsistent publishing approaches.</p><p>In this module you will learn:</p><ul><li>The benefits of consistent publishing approaches</li><li>A 7 step checklist for publishing quality data</li><li>How to certify the usability of your data</li></ul></p><p>This module also provides useful links out to supporting documents and services that can help save time in your publication.</p>",
+        "body":"<p>In our first module we explored how to make transparency work for you through outlining the benefits of publishing open data for local authorities. In this module we look at one of the biggest barriers to realising those benefits - inconsistent publishing approaches.</p><p>In this module you will learn:</p><ul><li>The benefits of consistent, high-quality publishing approaches</li><li>The 3 steps to publishing quality data</li><li>How to certify the quality of your data</li></ul></p><p>This module also provides useful links out to supporting documents and services that can help save time in your publication.</p>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
         }
     },
     {
-        "_id":"c-20",
-        "_parentId":"b-20",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"left",
-        "_graphic": {
-            "alt": "What is open data?",
-            "title": "What is open data?",
-            "large": "course/en/images/odi-1-text-image_large.jpg",
-            "medium": "course/en/images/odi-1-text-image_large.jpg",
-            "small": "course/en/images/odi-1-text-image_large.jpg",
-            "*source":"http://www.shutterstock.com/pic.mhtml?id=179384507&src=lb-35924366",
-            "*credit":"leromin",
-            "*license":"Shutterstock Standard License"
-        }
-    },
-    {
-        "_id":"c-21",
-        "_parentId":"b-20",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"",
-        "_layout":"right",
-        "title":"Why does consistency matter?",
-        "displayTitle":"Why does consistency matter?",
-        "body":"<p>The aim of all open data is to allow others to use the data, whether for a new app, a study or just to gain a deeper understanding.</p><p>The highest value comes when <b>coverage</b> is maximised. An application that tells you where local toilets are should work everywhere, not just in one town. Consistancy is important to enable users to create new services that do have complete coverage.</p><p>For publishers, making data available in commonly understood and well used standards is essential. This not only maximises the potential re-use but also the value to the publisher of that re-use, which may align with an existing goal.</p>"
-    },
-    {
-        "_id":"c-30",
-        "_parentId":"b-30",
+        "_id":"c-3",
+        "_parentId":"b-2",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
@@ -84,62 +55,48 @@
         }
     },
     {
-        "_id":"c-31",
-        "_parentId":"b-30",
+        "_id":"c-4",
+        "_parentId":"b-2",
         "_type":"component",
         "_component":"text",
         "_classes":"",
         "_layout":"full",
-        "title":"Publishing your ata",
-        "displayTitle":"Publishing your data",
-        "body":"Discover the imporatance of structuring, cleaning and properly publishing your data. Follow the 7 step guide to complete the process simply and easily."
+        "title":"Background information",
+        "displayTitle":"Background information",
+        "body":""
     },
-     {
-        "_id":"c-32",
-        "_parentId":"b-32",
-        "_classes": "",
+    {
+        "_id":"c-5",
+        "_parentId":"b-3",
         "_type":"component",
-        "_layout": "full",
-        "_component": "dynamic-narrative",
-        "title": "What is the best way to structure the data?",
-        "displayTitle": "What is the best way to structure the data?",
-        "body": "<p>The structure (or schema) of the dataset is import to enable broad re-usability. You can think of the structure as a set of standard and defined column headings for a dataset. Find out more below about apply existing schemas to your data and what to do if you can't find one.</p>",
-        "instruction": "<em class='desktop-instruction'>Click the forward arrow for more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
-        "_items": [
-           {
-                "title": "Existing schemas",
-                "body": "<p>The LGA keeps standard schemas for 10 of the most popular open datasets in their <a href='http://opendata.esd.org.uk/ESDSchemaGuidance.pdf' target='_blank'>schema guides</a> as well as more than 640 schema examples from authorities around the UK.</p><p>By using a standard schema, your open data can be combined with other authorities' releases to build up regional and national overviews.</p><p>Using the standard schemas is simple. Just find the right schema for your dataset, rename your colunm heading to match and save the result.</p>",
-                "_graphic": {
-                    "src": "course/en/images/odi-2.jpg",
-                    "alt": "Existing schemas",
-                    "title": "Existing schemas",
-                    "*source":"http://www.shutterstock.com/pic-102447179.html",
-                    "*credit":"hoperan",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "Existing schemas"
-            },
-            {
-                "title": "Creating a new schema",
-                "body": "<p>No common schema for the dataset you are publishing? Before just creating a new one, why not see if there is already some concensus amoung an existing community of users somewhere (use your favorite search engine). You might need to contirbute a new schema to the <a href='http://schemas.opendata.esd.org.uk/' target='_blank'>LG Inform Plus Schemas Directory</a>, but there may be an opportunity to get the community to help!</p>",
-                "_graphic": {
-                    "src": "course/en/images/odi-3.jpg",
-                    "alt": "Creating a new schema",
-                    "title": "Creating a new schema",
-                    "*source":"http://www.shutterstock.com/pic-235025131.html",
-                    "*credit":"McIek",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "Creating a new schema"
-            }
-        ],
-        "_pageLevelProgress": {
-        "_isEnabled": true
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "What is open data?",
+            "title": "What is open data?",
+            "large": "course/en/images/odi-1-text-image_large.jpg",
+            "medium": "course/en/images/odi-1-text-image_large.jpg",
+            "small": "course/en/images/odi-1-text-image_large.jpg",
+            "*source":"http://www.shutterstock.com/pic.mhtml?id=179384507&src=lb-35924366",
+            "*credit":"leromin",
+            "*license":"Shutterstock Standard License"
         }
     },
     {
-        "_id":"c-34",
-        "_parentId":"b-34",
+        "_id":"c-6",
+        "_parentId":"b-3",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"right",
+        "title":"Why does consistency matter?",
+        "displayTitle":"Why does consistency matter?",
+        "body":"<p>Open data needs to be simple for anyone to use, whether for a new app, a study or just to gain a deeper understanding of the subject.</p><p>The greatest use comes when the same type of data is <b>consistent</b> across different publishers. An application that tells you where local toilets are should be able to work everywhere, not just in one town. Consistancy is also important because it allows you to combine your data with that of other authorities for internal use.</p><p>For publishers in local authorities, making data available in a consistent format is the best way to make your open data useful both internally and to others.</p>"
+    },
+    {
+        "_id":"c-7",
+        "_parentId":"b-4",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
@@ -156,136 +113,80 @@
         }
     },
     {
-        "_id":"c-35",
-        "_parentId":"b-34",
+        "_id":"c-8",
+        "_parentId":"b-4",
         "_type":"component",
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Is the dataset quality suitable for publication?",
-        "displayTitle":"Is the dataset quality suitable for publication?",
-        "body":"<p>High quality datasets produce higher quality outputs. Unfortuntely, errors and inconsistancies will always occur in data. Common errors and inconsistancies include duplication, missing data, mixed use of abbreviations and spelling and everyones favorite, the random date format!</p><p>Fortunately there exists a number of purpose build clearning tools that are designed to deal with messy data. We reccomend the use of OpenRefine which can help you quickly clean large datasets. Unlike tools like Excel, OpenRefine allows you to record the history of changes and even automatically apply this to other similar datasets to fix the same errors. These change histories can even be shared with others so that everyone, including other staff inside your authority, can benefit from your clearning.</p><p>To get started with OpenRefine, why not try the ODI's data clearning tutorial (need to write).</p>"
+        "title":"Is the quality of my dataset suitable for publication?",
+        "displayTitle":"Is the quality of my dataset suitable for publication?",
+        "body":"<p>The better the quality of your datasets, the better the results from users. Unfortuntely, errors and inconsistancies will always occur in data. Common errors include duplicated entries, missing data, inconsistent use of abbreviations, spelling mistakes and different data formats. In the next section you can find out how to spot these errors in your own data.</p><p>Fortunately there are free, purpose-built cleaning tools designed to deal with messy data. We recommend OpenRefine which can help you quickly and securely clean large datasets. Unlike Excel and other spreadsheet programmes, OpenRefine allows you to record the changes you make and can even automatically apply cleaning functions to other datasets. Importantly, you can share your record of changes with everyone, including other staff, so that your colleagues can benefit from your cleaning.</p><p>To get started with OpenRefine, <a class='course_link' href='http://training.theodi.org/resources/Cleaning_Exercise.pdf' target='_blank'>follow our exercise here.</a></p>"
     },
-    {
-        "_id":"c-36",
-        "_parentId":"b-36",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"left",
-        "_graphic": {
-            "alt": "What is open data?",
-            "title": "What is open data?",
-            "large": "course/en/images/odi-1-text-image_large.jpg",
-            "medium": "course/en/images/odi-1-text-image_large.jpg",
-            "small": "course/en/images/odi-1-text-image_large.jpg",
-            "*source":"http://www.shutterstock.com/pic.mhtml?id=179384507&src=lb-35924366",
-            "*credit":"leromin",
-            "*license":"Shutterstock Standard License"
-        }
-    },
-    {
-        "_id":"c-37",
-        "_parentId":"b-36",
-        "_type":"component",
-        "_component":"accordion",
-        "_classes":"",
-        "_layout":"left",
-        "title":"Where should I publish the dataset?",
-        "displayTitle":"Where should I publish the dataset?",
-        "body":"<p>Your publishing location provides the gateway for access for your users. When choosing where to publish, start by thinking about how people will search and/or discover the data and consider carefully the following:</p>",
-        "_items": [
         {
-            "alt": "Pick a platform",
-            "title": "Pick a platform",
-            "body": "<p>You may always have a data or content publishing platform that is suitable for your needs, or you may need to choose to use a platform like <a href='http://www.cipfa.org/services/datashare' target='_blank'>CIPFA/Redbridge's Datashare</a>, <a href='http://www.swirrl.com/publishmydata' target='_blank'>Swirrl's PublishMyData</a> or <a href='http://ckan.org/' target='_blank'>CKAN</a> to simplify the process of publishing.</p>"
-        },
-        {
-          "alt": "Talk about data",
-          "title": "Talk about data",
-          "body": "<p>It is a good idea to publish data on your own website, giving it a home. Making a small section and navigation header will help people discover data, but that isn't all...</p>"
-        },
-        {
-          "alt": "Context is key",
-          "title": "Context is key",
-          "body": "<p>Once the data has a home, it is unlikely that everyone will discover it this way. The majority of people will search (using a search engine) and hit some page on your (or others) websites. It is important to include links to the data on all relevent pages where data has been used to help people navigate from usage to raw data.</p>"
-        },
-        {
-          "alt": "SEO your data",
-          "title": "SEO your data",
-          "body": "<p>People find stuff on the web by searching, it's what we all do. Thus it is important to include good metadata alongside your data and allow search engines to harvest this data, creating searchable connections to your data.</p>"
-        },
-        {
-          "alt": "Links provide authority",
-          "title": "Links provide authority",
-          "body": "<p>On the web, links are key. The more you have, from more authoritiies, the easier your stuff will be to find. Using standard schemas and interlinking your data into communities of practice will help increase the authorioty your data has. One way of achieving this is through cataloging your data in others catalogues, like <a href='http://data.gov.uk' target='_blank'>data.gov.uk</a>.</p>"
-        }
-        ]
-    },
-    {
-        "_id":"c-40",
-        "_parentId":"b-40",
+        "_id":"c-9",
+        "_parentId":"b-5",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
         "_layout":"right",
         "_graphic": {
-            "alt": "Course Overview",
-            "title": "Course Overview",
-            "large": "course/en/images/summary-icon.png",
-            "medium": "course/en/images/summary-icon.png",
-            "small": "course/en/images/summary-icon.png",
-            "*source":"http://about.esd.org.uk/",
-            "*credit":"Local Government Association",
-            "*license":"All rights reserved"
+            "alt": "Common errors in data",
+            "title": "Common errors in data",
+            "large": "course/en/images/odi-002.jpg",
+            "medium": "course/en/images/odi-002.jpg",
+            "small": "course/en/images/odi-002.jpg",
+            "*source": "http://www.shutterstock.com/pic-232737427",
+            "*credit": "Kirill_M",
+            "*licence": "Shutterstock standard license"
         }
     },
     {
-      "_id":"c-41",
-      "_parentId":"b-40",
+      "_id":"c-10",
+      "_parentId":"b-5",
       "_type":"component",
       "_component":"accordion",
       "_classes":"",
       "_layout":"left",
-      "title": "Pulishing in 7 steps",
-      "displayTitle": "Pulishing in 7 steps",
-      "body": "",
-      "instruction": "<em>Follow the guide below to discover the 7 key steps to publishing usable open data.</em>",
+      "title": "Common errors in data: A spotter's guide",
+      "displayTitle": "Common errors in data: A spotter's guide",
+      "body": "When looking at the quality of your own data, there are a number of common errors you should check for.",
+      "instruction": "<em>Click the headings to explore further.</em>",
       "_items": [
         {
-          "alt": "Describe your data well",
-          "title": "1. Describe your data well",
-          "body": "<p>Think carefully about aspects like the title and description of your dataset. Will the audience understand your title? Is it what would be searched for? Do you need tags and subtitles? Have you described how the dataset it supported and how old data is accessed?</p>"
+          "alt": "Wrong date formats",
+          "title": "Wrong date formats",
+          "body": "<p>Dates can be written in inconsistent ways. Mixed date formats are sometimes simple to spot:<br><br>8-sep-2013 vs 8/9/2013<br><br>and sometimes less obvious:<br><br>8/9/2013 vs 9/8/2013.<br><br>An additional challenge is that some applications, like Excel, will ‘guess’ the format when a dataset is opened which can hide how dates are actually written in the file.</p><p>The most common error is the mixed use of American (MM/DD/YYYY) and European (DD/MM/YYYY) format.</p>"
         },
         {
-          "alt": "Publish the data",
-          "title": "2. Publish the data",
-          "body": "<p>Put the data online, in a place which is easily accessible and referencable from other places like catalogues and other websites. Make sure the data can be directly accessed by a machine and does not require a human to accept some complex terms and conditions.</p>"
+          "alt": "Multiple representations",
+          "title": "Multiple representations",
+          "body": "<p>People often try to save time when entering data by abbreviating terms. If these abbreviations are not consistent, it can cause errors in the dataset.</p><p>Differences in capitalisation, spacing and genders of adjectives can all cause errors.</p>"
         },
         {
-          "alt": "Validate the dataset",
-          "title": "3. Validate the dataset",
-          "body": "<p>Check that you dataset meets the minimum standards for quality and usability. The LGA has a quick validation tool that lets you check whether your data matches the quality and consistency guidelines of the DCLG transparency code.<br><a href='http://validator.opendata.esd.org.uk/' target='_blank'>Take me to the LGA Validator.</a></p>"
+          "alt": "Duplicate records",
+          "title": "Duplicate records",
+          "body": "<p>A duplicate record is where the same piece of data has been entered more than once. Duplicate records often occur when datasets have been combined or because it was not known there was already an entry.</p>"
         },
         {
-          "alt": "Add the open licence",
-          "title": "4. Add the open licence",
-          "body": "<p>The licence is the only thing that can make your published data into open data. You should add the licence data directly under the title of the dataset, making it clear that people can use it.</p><p>While local authorities can choose the open licence they place on their dataset, we strongly recommend using the Open Government Licence (OGL) for all of your data. <a href='http://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/licensing-for-re-use/what-ogl-covers/' target='_blank'>This OGL guide</a> can help you get started.</p>"
+          "alt": "Redundant data",
+          "title": "Redundant data",
+          "body": "<p>Redundant data is anything which is not relevant to your work with the dataset. Often a dataset has been created for a specific purpose which requires details you may not need.</p><p>Common occurrences of redundant data include rows that represent total amounts.</p><p>Other times columns of data have been combined or replicated in order to assist human readability.</p>"
         },
         {
-          "alt": "Provide a consistent location",
-          "title": "5. Provide a consistent location",
-          "body": "<p>You should provide your data through a series of reliable and consistant web addresses (URIs). We reccomend using two URIs for any dataset you publish.</p><p>The primary URI should use the LGA's directory of common identifiers to refer to your local authority (You can use the <a href='http://uris.opendata.esd.org.uk/' target='_blank'>LGA directory</a> to look up the correct code for your authority in seconds).</p><p>The secondary URI should be more informative and point to the primary. For example, a dataset from Hampshire county council about senior salaries might be accessible from 'http://www3.hants.gov.uk/opendata/datasets/senior-salaries.htm'. This second URI lets anyone read what the dataset is before they navigate to it.</p>"
+          "alt": "Mixed numerical scales",
+          "title": "Mixed numerical scales",
+          "body": "<p>Numerical values in datasets often use different scales to make it easier for a human to read. In budget datasets, for example, the units are often in the millions. 1200000 often becomes 1.2m. However, smaller amounts like 800000 are still written in full. For a machine, this means they read the larger figure as 1.2 which causes errors.</p>"
         },
         {
-          "alt": "Register the dataset in a catalogue",
-          "title": "6. Register the dataset in a catalogue",
-          "body": "<p>There are two catalogues which it is important to add your data to.</p><p>The first is data.gov.uk, the UK's national open data portal with a huge community of users, <a href='http://guidance.data.gov.uk/dataset_form.html' target='_blank'>registration</a> is simple and requires only key metadata information.</p><p>The second is LG Inform, the community resource for local authority data. Registration with LG Inform is automatic once you have an up-to-date inventory (see step 7)</p>"
+          "alt": "Mixed ranges",
+          "title": "Mixed ranges",
+          "body": "<p>Data is sometimes measured in ranges, such as age or salary range. In order for a machine to understand these ranges it is important to separate the high and low values.</p>"
         },
         {
-          "alt": "Update your inventory",
-          "title": "7. Update your inventory",
-          "body": "<p>The <a href='http://inventories.opendata.esd.org.uk/' target='_blank'>LGA inventory</a> lets other people know what data you have published. It encourages consistent referencing of datasets across councils to make it easier to find datasets on the same topic or in the same format. Your inventory entry can even be used to automatically update your datasets on data.gov.uk.</p>"
+          "alt": "Spelling errors",
+          "title": "Spelling errors",
+          "body": "<p>Spelling errors are often difficult to identify in tabular data.</p><p>Don’t forget to also run your data through a spell checker to catch errors.</p>"
         }
       ],
       "_pageLevelProgress": {
@@ -293,37 +194,8 @@
       }
     },
     {
-        "_id":"c-45",
-        "_parentId":"b-45",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"right",
-        "_graphic": {
-            "alt": "Section burst",
-            "title": "Section burst",
-            "large": "course/en/images/burst-white.png",
-            "medium": "course/en/images/burst-white.png",
-            "small": "course/en/images/burst-white.png",
-            "*source":"http://theodi.org",
-            "*credit":"The Open Data Institute",
-            "*license":"All Rights Reserved"
-        }
-    },
-    {
-        "_id":"c-46",
-        "_parentId":"b-45",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"",
-        "_layout":"full",
-        "title":"Certifying your data",
-        "displayTitle":"Certifying your data",
-        "body":""
-    },
- {
-        "_id":"c-50",
-        "_parentId":"b-50",
+        "_id":"c-11",
+        "_parentId":"b-6",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
@@ -339,20 +211,20 @@
             "*license":"All rights reserved"
         }
     },
-    {
-        "_id":"c-51",
-        "_parentId":"b-50",
+     {
+        "_id":"c-12",
+        "_parentId":"b-6",
         "_type":"component",
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"ODI Certificates",
-        "displayTitle":"ODI Certificates",
-        "body":"<p>With a fully-compliant open dataset published, the final step in the process is to certify your results. For this process, LGA reccomends applying an ODI certificate to your dataset.</p><p>ODI Open Data Certificates is a free online tool developed to assess and recognise the quality and sustainability of open datasets. The certificates are an independent quality marque designed to support open data publishers in acheiving professional results.</p><h5>Open Data Certificates provide publishers with a range of benefits including:</h5><ul class='ticks'><li>Formal recognition of your data quality</li><li>A much broader user base</li><li>Automatic trust in the quality and usability of your data</li><li>Instant, simple compliance with the best publishing practices</li><li>Free advice on improving the quality of your data</li></p>"
+        "title":"Why should I certify my data?",
+        "displayTitle":"Why should I certify my data?",
+        "body":"<p>There is lots of data out there, much of it messy or difficult to use. ODI Open Data Certificates is a free online tool developed to assess and recognise the quality of open datasets and let users know that any dataset with a certificate meets certain quality criteria. The certificates are an independent quality marque designed to support open data publishers in acheiving professional results.</p><h5>Open Data Certificates provide publishers with a range of benefits including:</h5><ul class='ticks'><li>Formal recognition of your data quality</li><li>A much broader user base</li><li>Automatic trust in the quality and usability of your data</li><li>Instant, simple compliance with the best publishing practices</li><li>Free advice on improving the quality of your data</li></p>"
     },
     {
-        "_id":"c-60",
-        "_parentId":"b-60",
+        "_id":"c-13",
+        "_parentId":"b-7",
         "_classes": "",
         "_type":"component",
         "_layout": "full",
@@ -419,9 +291,144 @@
         "_isEnabled": true
         }
     },
-     {
-        "_id":"c-70",
-        "_parentId":"b-70",
+    {
+        "_id":"c-14",
+        "_parentId":"b-8",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Section burst",
+            "title": "Section burst",
+            "large": "course/en/images/burst-blue.png",
+            "medium": "course/en/images/burst-blue.png",
+            "small": "course/en/images/burst-blue.png",
+            "*source":"http://theodi.org",
+            "*credit":"The Open Data Institute",
+            "*license":"All Rights Reserved"
+        }
+    },
+    {
+        "_id":"c-15",
+        "_parentId":"b-8",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"full",
+        "title":"Practical guidance",
+        "displayTitle":"Practical guidance",
+        "body":""
+    },
+    {
+        "_id":"c-16",
+        "_parentId":"b-9",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "What is open data?",
+            "title": "What is open data?",
+            "large": "course/en/images/odi-1-text-image_large.jpg",
+            "medium": "course/en/images/odi-1-text-image_large.jpg",
+            "small": "course/en/images/odi-1-text-image_large.jpg",
+            "*source":"http://www.shutterstock.com/pic.mhtml?id=179384507&src=lb-35924366",
+            "*credit":"leromin",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-17",
+        "_parentId":"b-9",
+        "_type":"component",
+        "_component":"accordion",
+        "_classes":"",
+        "_layout":"left",
+        "title":"How to publish your dataset: Choosing where to publish",
+        "displayTitle":"How to publish your dataset: Choosing where to publish",
+        "body":"<p>Your publishing location provides the gateway for access for your users. When choosing where to publish, start by thinking about how people will search and/or discover the data and consider carefully the following:</p>",
+        "_items": [
+        {
+            "alt": "Pick a platform",
+            "title": "1. Pick a platform",
+            "body": "<p>Platforms can simplify the process of publishing your data. You may already have a data or content publishing platform that is suitable for your needs. If so you can publish there. If you don't have a platform, you may want to consider some of the leading solutions used by other authorities such as <a href='http://www.cipfa.org/services/datashare' target='_blank'>CIPFA/Redbridge's Datashare</a>, <a href='http://www.swirrl.com/publishmydata' target='_blank'>Swirrl's PublishMyData</a> or <a href='http://ckan.org/' target='_blank'>CKAN</a> to simplify the process of publishing.</p>"
+        },
+        {
+          "alt": "Talk about data",
+          "title": "2. Talk about data",
+          "body": "<p>It is a good idea to publish data on your own website, giving it a home. Make a small section and navigation header that will help people discover data. Make sure the data section is visible from anywhere on your site.</p>"
+        },
+        {
+          "alt": "Include links across your site",
+          "title": "3. Include links across your site",
+          "body": "<p>Once the data has a home, people need to find it. It is unlikely that everyone will discover your data by browsing to it directly. Most of your users will search (using a search engine) and hit some page on your (or someone else's) website. It is important to include links to the data on all relevent pages where data has been used to help people navigate their way to the raw data.</p>"
+        },
+        {
+          "alt": "Optimise your data for search engines",
+          "title": "4. Optimise your data for search engines",
+          "body": "<p>Most people today will use a search engine to look for data. Search engines need to be able to find all the relevant details about your datasets. It is important to include good metadata alongside your data and allow search engines to harvest this data and make it easy for people to find you this way.</p>"
+        },
+        {
+          "alt": "Increase the number of links",
+          "title": "5. Increase the number of links",
+          "body": "<p>On the web, links are key. The more links you have, from more different sites, the easier your stuff will be to find. One way of achieving greater numbers of links is through cataloging your data in others catalogues, like <a href='http://data.gov.uk' target='_blank'>data.gov.uk</a>.</p>"
+        }
+        ]
+    },
+    {
+        "_id":"c-18",
+        "_parentId":"b-10",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Course Overview",
+            "title": "Course Overview",
+            "large": "course/en/images/summary-icon.png",
+            "medium": "course/en/images/summary-icon.png",
+            "small": "course/en/images/summary-icon.png",
+            "*source":"http://about.esd.org.uk/",
+            "*credit":"Local Government Association",
+            "*license":"All rights reserved"
+        }
+    },
+    {
+      "_id":"c-19",
+      "_parentId":"b-10",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"left",
+      "title": "How to publish your dataset: Improving visibility",
+      "displayTitle": "How to publish your dataset: Improving visibility",
+      "body": "",
+      "instruction": "<em>Follow the steps below to make your open data easier for people to find and use.</em>",
+      "_items": [
+        {
+          "alt": "Provide a consistent location",
+          "title": "1. Provide a consistent location",
+          "body": "<p>You should provide your data through a series of reliable and consistant web addresses (called Uniform Resource Identifiers or URIs). We reccomend using two URIs for any dataset you publish.</p><p>The primary URI should use the LGA's directory of common identifiers to refer to your local authority. You can use the <a href='http://uris.opendata.esd.org.uk/' target='_blank'>LGA directory</a> to look up the correct code for your authority in seconds.</p><p>The secondary URI should be more informative and point to the primary. For example, a dataset from Hampshire county council about senior salaries might be accessible from 'http://www3.hants.gov.uk/opendata/datasets/senior-salaries.htm'. This second URI lets anyone read what the dataset is before they navigate to it.</p>"
+        },
+        {
+          "alt": "Register the dataset in a catalogue",
+          "title": "2. Register the dataset in a catalogue",
+          "body": "<p>A catalogue is a collection of datasets published by different sources. There are two catalogues which it is important to add your authority's data to.</p><p>The first is data.gov.uk, the UK's national open data portal with a huge community of users, <a href='http://guidance.data.gov.uk/dataset_form.html' target='_blank'>registration</a> is simple and requires only key metadata information.</p><p>The second is LG Inform, the community resource for local authority data. Registration with LG Inform is automatic once you have an up-to-date inventory (see step 7)</p>"
+        },
+        {
+          "alt": "Update your inventory",
+          "title": "3. Update your inventory",
+          "body": "<p>The <a href='http://inventories.opendata.esd.org.uk/' target='_blank'>LGA inventory</a> lets other people know what data you have published. The inventory encourages consistent referencing of datasets across councils to make it easier to find datasets on the same topic or in the same format. Your inventory entry can even be used to automatically update your datasets on data.gov.uk.</p>"
+        }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-20",
+        "_parentId":"b-11",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
@@ -438,19 +445,117 @@
         }
     },
     {
-        "_id":"c-71",
-        "_parentId":"b-70",
+        "_id":"c-21",
+        "_parentId":"b-11",
         "_type":"component",
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"How can I get an Open Data Certificate?",
-        "displayTitle":"How can I get an Open Data Certificate?",
-        "body":"<p>Getting your Open Data Certificate is simple.</p>First, you complete a short questionnaire to assess the level of support you provide for the data. Depending on the answers, the ODI awards a badge that can be embedded on your website to signify the quality level of your publication.</p><p>If you are publishing your data in a machine readable way (for example, by using a data portal like ckan), the site can pre-fill many of the certificate questions. Just enter the URL on the first page to get started.<br/><br/><a href='https://certificates.theodi.org/en' target='_blank'>Take me to the ODI Open Data Certificates Site</a></p>"
+        "title":"How to publish your dataset: Adding the certificate",
+        "displayTitle":"How to publish your dataset: Adding the certificate",
+        "body":"<p>With your dataset published, you need to let users know they can rely on the quality of your work by certifying your results through an ODI Certificate.</p><p>Getting your Open Data Certificate is simple. First, you complete a short questionnaire to assess the level of support you provide for the data. Depending on the answers, the ODI awards a badge that can be embedded on your website to signify the quality level of your publication.</p><p>If you are publishing your data in a machine readable way (for example, by using a data portal like ckan), the site can pre-fill many of the certificate questions. Just enter the URL on the first page to get started.<br/><br/><a href='https://certificates.theodi.org/en' target='_blank'>Take me to the ODI Open Data Certificates Site</a></p>"
     },
     {
-        "_id":"c-75",
-        "_parentId":"b-75",
+        "_id":"c-22",
+        "_parentId":"b-12",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Section burst",
+            "title": "Section burst",
+            "large": "course/en/images/burst-white.png",
+            "medium": "course/en/images/burst-white.png",
+            "small": "course/en/images/burst-white.png",
+            "*source":"http://theodi.org",
+            "*credit":"The Open Data Institute",
+            "*license":"All Rights Reserved"
+        }
+    },
+    {
+        "_id":"c-23",
+        "_parentId":"b-12",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"full",
+        "title":"Benefits",
+        "displayTitle":"Benefits",
+        "body":""
+    },
+    {
+       "_id": "c-24",
+       "_parentId": "b-13",
+       "_classes": "",
+       "_type":"component",
+       "_layout": "full",
+       "_component": "dynamic-narrative",
+       "title": "The benefits of publishing open data consistently - Local authority case studies",
+       "displayTitle": "The benefits of publishing open data consistently - Local authority case studies",
+       "body": "<p>Local authorities have already seen benefits of following the consistent approaches above when publishing open data. The LGA keeps an extenisve collection of <a href='http://www.local.gov.uk/local-transparency/-/journal_content/56/10180/4049888/ARTICLE' target='_blank'>case studies</a> that catalogue these impacts. Below are some of the best examples:</p>",
+       "instruction": "<em class='desktop-instruction'>Click the forward arrow for more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
+       "_items": [
+           {
+               "title": "Redbridge council",
+               "body": "<p></p>",
+               "_graphic": {
+                   "src": "course/en/images/redbridge.jpg",
+                   "alt": "Support Growing Economies",
+                   "title": "Support Growing Economies",
+                   "*source":"http://www.shutterstock.com/pic-128352227.html",
+                   "*credit":"vs148",
+                   "*license":"Shutterstock Standard License"
+               },
+               "strapline": "Redbridge Council"
+           },
+           {
+               "title": "Leeds Council",
+               "body": "<p></p>",
+               "_graphic": {
+                   "src": "course/en/images/Leeds.jpg",
+                   "alt": "Improved service delivery",
+                   "title": "Improved service delivery",
+                   "*source":"https://www.fixmystreet.com/",
+                   "*credit":"fixmystreet",
+                   "*license":"unknown"
+               },
+               "strapline": "Leeds Council"
+           },
+           {
+               "title": "Bristol Council",
+               "body": "<p></p>",
+               "_graphic": {
+                   "src": "course/en/images/bristol.jpg",
+                   "alt": "Cost Savings",
+                   "title": "Cost Savings",
+                   "*source":"http://www.shutterstock.com/pic-75494491.html",
+                   "*credit":"vlastas",
+                   "*license":"Shutterstock Standard License"
+               },
+               "strapline": "Cost Savings"
+           },
+           {
+               "title": "Sedgemoor Council",
+               "body": "<p></p>",
+               "_graphic": {
+                   "src": "course/en/images/sedgemoor.png",
+                   "alt": "Improved service delivery",
+                   "title": "Improved service delivery",
+                   "*source":"https://www.fixmystreet.com/",
+                   "*credit":"fixmystreet",
+                   "*license":"unknown"
+               },
+               "strapline": "Better public perception"
+           }
+       ],
+       "_pageLevelProgress": {
+       "_isEnabled": true
+       }
+   },
+    {
+        "_id":"c-25",
+        "_parentId":"b-14",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
@@ -468,8 +573,8 @@
         }
     },
     {
-        "_id":"c-76",
-        "_parentId":"b-75",
+        "_id":"c-26",
+        "_parentId":"b-14",
         "_type":"component",
         "_component":"text",
         "_classes":"",
@@ -483,8 +588,8 @@
         }
     },
     {
-        "_id":"c-80",
-        "_parentId":"b-80",
+        "_id":"c-27",
+        "_parentId":"b-15",
         "_type":"component",
         "_component":"graphic",
         "_classes":"illustration",
@@ -502,8 +607,8 @@
     },
     
     {
-        "_id":"c-81",
-        "_parentId":"b-80",
+        "_id":"c-28",
+        "_parentId":"b-15",
         "_type":"component",
         "_component":"mcq",
         "_classes":"",
@@ -512,41 +617,41 @@
         "_questionWeight":1,
         "_isRandom":true,
         "_selectable":3,
-        "title": "Things to check before you publish",
-        "displayTitle": "Things to check before you publish",
-        "body": "<p>Which of the following should you check before publishing your dataset?</p>",
-        "instruction": "<em>Select up to three options, then click 'Submit'.</em>",
+        "title": "Choosing where to publish",
+        "displayTitle": "Choosing where to publish",
+        "body": "<p>Which of the following should you consider when choosing where to publish your dataset?</p>",
+        "instruction": "<em>Select three options, then click 'Submit'.</em>",
         "_items": [
             {
-                "text": "Whether there is a common schema",
+                "text": "Can my data be discovered from anywhere on my website?",
                 "_shouldBeSelected": true
             },
             {
-                "text": "How large the data file will be",
+                "text": "How large will my data file be?",
                 "_shouldBeSelected": false
             },
             {
-                "text": "Whether the dataset is clean",
+                "text": "Is my metadata optimised for search engines?",
                 "_shouldBeSelected": true
             },
             {
-                "text": "Where the dataset will be published",
+                "text": "Do I provide links to the data from wherever it is used?",
                 "_shouldBeSelected": true
             },
             {
-                "text": "When the data will be available",
+                "text": "Will my data make me look good to my boss?",
                 "_shouldBeSelected": false
             }
         ],
         "_feedback":{
-            "correct":"<h5>That’s right!</h5><p>Three essential considerations before publishing your dataset are whether a common schema exists, whether the dataset is clean and where the data will be published.</p>",
+            "correct":"<h5>That’s right!</h5><p>Three essential considerations when choosing where to publish are whether people can find your data from anywhere, is your metadata friedly to search engines and whether you provide links to the data from wherever it is being used.</p>",
             "_incorrect": {
-                "notFinal": "h5>Are you sure about that?</h5><p>Three essential considerations before publishing your dataset are whether a common schema exists, whether the dataset is clean and where the data will be published.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>Three essential considerations before publishing your dataset are whether a common schema exists, whether the dataset is clean and where the data will be published.</p>"
+                "notFinal": "h5>Are you sure about that?</h5><p>Three essential considerations when choosing where to publish are whether people can find your data from anywhere, is your metadata friedly to search engines and whether you provide links to the data from wherever it is being used.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>Three essential considerations when choosing where to publish are whether people can find your data from anywhere, is your metadata friedly to search engines and whether you provide links to the data from wherever it is being used.</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5>Three essential considerations before publishing your dataset are whether a common schema exists, whether the dataset is clean and where the data will be published.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>Three essential considerations before publishing your dataset are whether a common schema exists, whether the dataset is clean and where the data will be published.</p>"
+                "notFinal": "<h5>Are you sure about that?</h5>Three essential considerations when choosing where to publish are whether people can find your data from anywhere, is your metadata friedly to search engines and whether you provide links to the data from wherever it is being used.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>Three essential considerations when choosing where to publish are whether people can find your data from anywhere, is your metadata friedly to search engines and whether you provide links to the data from wherever it is being used.</p>"
           }
         },
         "_buttons":{
@@ -560,8 +665,8 @@
       }
     },
     {
-        "_id":"c-90",
-        "_parentId":"b-90",
+        "_id":"c-29",
+        "_parentId":"b-16",
         "_type":"component",
         "_component":"graphic",
         "_classes":"illustration",
@@ -578,8 +683,8 @@
         }
     },
     {
-        "_id":"c-91",
-        "_parentId":"b-90",
+        "_id":"c-30",
+        "_parentId":"b-16",
         "_type":"component",
         "_component":"mcq",
         "_classes":"",
@@ -588,8 +693,8 @@
         "_questionWeight":1,
         "_isRandom":true,
         "_selectable":1,
-        "title": "Best practices for local authority publishing",
-        "displayTitle": "Best practices for local authority publishing",
+        "title": "Finding best practices for local authority publishing",
+        "displayTitle": "Finding best practices for local authority publishing",
         "body": "<p>Where can authorities go to find clear guidance on URIs, schemas and standards?</p>",
         "instruction": "<em>Select an option, then click 'Submit'.</em>",
         "_items": [
@@ -628,8 +733,8 @@
       }
     },
     {
-        "_id":"c-100",
-        "_parentId":"b-100",
+        "_id":"c-31",
+        "_parentId":"b-17",
         "_type":"component",
         "_component":"graphic",
         "_classes":"illustration",
@@ -646,8 +751,8 @@
         }
     },
     {
-        "_id":"c-101",
-        "_parentId":"b-100",
+        "_id":"c-32",
+        "_parentId":"b-18",
         "_type":"component",
         "_component":"mcq",
         "_classes":"",
@@ -656,33 +761,33 @@
         "_questionWeight":1,
         "_isRandom":true,
         "_selectable":1,
-        "title": "Licensing your dataset",
-        "displayTitle": "Licensing your dataset",
-        "body": "<p>When publishing your dataset, what licence does LGA reccomend you apply to the dataset?</p>",
+        "title": "Certifying your dataset",
+        "displayTitle": "Certifying your dataset",
+        "body": "<p>When publishing your dataset, what certificate does LGA reccomend you apply to the dataset?</p>",
         "instruction": "<em>Select an option, then click 'Submit'.</em>",
         "_items": [
             {
-                "text": "Whatever licence you want",
+                "text": "The UK Government Data Badge",
                 "_shouldBeSelected": false
             },
             {
-                "text": "A Creative Commons Non-Commercial Licence",
+                "text": "The LGA's Good Data Marque",
                 "_shouldBeSelected": false
             },
             {
-                "text": "An Open Government Licence",
+                "text": "The ODI Open Data Certificate",
                 "_shouldBeSelected": true
             }
         ],
         "_feedback":{
-            "correct":"<h5>That’s right!</h5><p>LGA reccomends that all data published by authorities is under the Open Government Licence because it is the simplest and most accessible license for your data</p>",
+            "correct":"<h5>That’s right!</h5><p>LGA reccomends using the ODI Open Data Certificate to signify the quality and usability of your datasets</p>",
             "_incorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>LGA reccomends that all data published by authorities is under the Open Government Licence because it is the simplest and most accessible license for your data</p>",
-                "final": "<h5>Are you sure about that?</h5><p>LGA reccomends that all data published by authorities is under the Open Government Licence because it is the simplest and most accessible license for your data</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>LGA reccomends using the ODI Open Data Certificate to signify the quality and usability of your datasets</p>",
+                "final": "<h5>Are you sure about that?</h5><p>LGA reccomends using the ODI Open Data Certificate to signify the quality and usability of your datasets</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>LGA reccomends that all data published by authorities is under the Open Government Licence because it is the simplest and most accessible license for your data</p>",
-                "final": "<h5>Are you sure about that?</h5><p>LGA reccomends that all data published by authorities is under the Open Government Licence because it is the simplest and most accessible license for your data</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>LGA reccomends using the ODI Open Data Certificate to signify the quality and usability of your datasets</p>",
+                "final": "<h5>Are you sure about that?</h5><p>LGA reccomends using the ODI Open Data Certificate to signify the quality and usability of your datasets</p>"
           }
         },
         "_buttons":{
@@ -696,8 +801,8 @@
       }
     },
     {
-        "_id":"c-110",
-        "_parentId":"b-110",
+        "_id":"c-33",
+        "_parentId":"b-19",
         "_type":"component",
         "_component":"graphic",
         "_classes":"illustration",
@@ -714,8 +819,8 @@
         }
     },
     {
-        "_id":"c-111",
-        "_parentId":"b-110",
+        "_id":"c-34",
+        "_parentId":"b-19",
         "_type":"component",
         "_component":"mcq",
         "_classes":"",
@@ -764,8 +869,8 @@
       }
     },
     {
-        "_id":"c-120",
-        "_parentId":"b-120",
+        "_id":"c-35",
+        "_parentId":"b-20",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
@@ -782,8 +887,8 @@
         }
     },
     {
-        "_id":"c-121",
-        "_parentId":"b-120",
+        "_id":"c-36",
+        "_parentId":"b-20",
         "_type":"component",
         "_component":"text",
         "_classes":"",
@@ -796,16 +901,16 @@
         }
     },
     {
-       "_id":"c-122",
-       "_parentId":"b-120",
+       "_id":"c-37",
+       "_parentId":"b-20",
        "_type":"component",
        "_component":"text",
        "_classes":"separator",
        "_layout":"full"
     },
     {
-        "_id":"c-123",
-        "_parentId":"b-120",
+        "_id":"c-38",
+        "_parentId":"b-20",
         "_type":"component",
         "_component":"graphic",
         "_classes":"footer-logo",
@@ -822,8 +927,8 @@
         }
     },
     {
-        "_id":"c-124",
-        "_parentId":"b-120",
+        "_id":"c-39",
+        "_parentId":"b-20",
         "_type":"component",
         "_component":"text",
         "_classes":"social-buttons",

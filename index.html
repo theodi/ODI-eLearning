@@ -1,15 +1,19 @@
-<!DOCTYPE HTML>
-<html lang="en-US">
-    <head>
-        <meta charset="UTF-8">
-        <!--<meta http-equiv="refresh" content="1;url=http://accelerate.theodi.org/en/">
-        <script type="text/javascript">
-            window.location.href = "http://accelerate.theodi.org/en/"
-        </script>-->
-        <title>Page Redirection</title>
-    </head>
-    <body>
-        <!-- Note: don't tell people to `click` the link, just tell them that it is a link. -->
-        This is a blank holding page, for now. 
-    </body>
-</html>
+<script type="text/javascript">
+function processLang(userLang) {
+	if (userLang.indexOf('en') > -1) {
+		window.location.href = 'en';
+	} else if (userLang.indexOf('fr') > -1) {
+		window.location.href = 'fr';
+	} else {
+		window.location.href = 'en';
+	}
+}
+	var userLang = localStorage.getItem("lang");
+	console.log(userLang);
+	if (userLang == "en" || userLang == "fr") {
+		processLang(userLang);
+	} else {
+		userLang = navigator.language || navigator.userLanguage; 
+		processLang(userLang);
+	}
+</script>

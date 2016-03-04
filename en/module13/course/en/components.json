@@ -78,7 +78,7 @@
         "_items": [
             {
                 "title": "What is the web of data?",
-                "body": "<p>The current web is configured as a series of pages or ‘documents’. These documents are designed by humans to be visually attractive for other humans to read and to provide them with information.</p><p>There is a difference between data that is ‘on the web’ and the ‘web of data’.</p><p>Data ‘on the web’ is a file that can be downloaded from a webpage. The web of data is a set of deeply-linked data resources that can be instantly read and understood by both humans and machines.</p>",
+                "body": "<p>The current web is configured as a series of pages or ‘documents’. These documents are designed by humans to be visually attractive for other humans to read and to provide them with information.</p><p>There is a difference between data that is ‘on the web’ and the ‘web of data’.</p><p>Data ‘on the web’ is a file that can be downloaded from a webpage. The web of data is a set of deeply linked data resources that can be instantly read and understood by both humans and machines.</p>",
                 "_graphic": {
                     "src": "course/en/images/odi-001.jpg",
                     "alt": "Providing certainty",
@@ -91,7 +91,7 @@
             },
             {
                 "title": "Linking up the web of data",
-                "body": "<p>Imagine that all visually-attractive documents were stripped away from the Web. How would you find your way around?</p><p>To navigate, you would need signposts to tell you how your current location relates to others around it.</p><p>The ‘web of data’ provides these signposts by requiring that all data be connected, via links, to other data. The links allow you to navigate between data points and also allows machines to do so.</p>",
+                "body": "<p>Imagine that all visually attractive documents were stripped away from the Web. How would you find your way around?</p><p>To navigate, you would need signposts to tell you how your current location relates to others around it.</p><p>The ‘web of data’ provides these signposts by requiring that all data be connected, via links, to other data. The links allow you to navigate between data points and also allows machines to do so.</p>",
                 "_graphic": {
                     "src": "course/en/images/odi-002.jpg",
                     "alt": "Linking up the web of data",
@@ -104,7 +104,7 @@
             },
             {
                 "title": "What can a web of linked open data do?",
-                "body": "<p>The web of data already exists in certain parts of the Web.</p><p>Large corporations like Microsoft have even researched tools that would allow us to navigate the Web in a whole new way by using data, rather than webpages, to move around.<br /><a href='http://www.ted.com/talks/gary_flake_is_pivot_a_turning_point_for_web_exploration?language=en' target='_blank'>Take me to Microsoft Pivot talk.</a></p>",
+                "body": "<p>The web of data already exists in certain parts of the Web.</p><p>Large corporations like Microsoft have even researched tools that would allow us to navigate the Web in a whole new way by using data, rather than webpages, to move around.<br /><a href='http://www.ted.com/talks/gary_flake_is_pivot_a_turning_point_for_web_exploration?language=en' target='_blank'>Take me to Microsoft Pivot talk</a></p>",
                 "_graphic": {
                     "src": "course/en/images/odi-003.jpg",
                     "alt": "What can LOD do?",
@@ -247,7 +247,7 @@
         {
           "alt": "Try out using the 5th Star",
           "title": "Try out using the 5th Star",
-          "body": "<p>You may have noticed some links in the data that we explored earlier in this module.</p><p>Try loading the link from earlier in the module:<br><br><a href='http://data.ordnancesurvey.co.uk/id/postcodeunit/SO171BJ' style='word-wrap: break-word;' target='_blank'>http://data.ordnancesurvey.co.uk/id/postcodeunit/SO171BJ</a><br><br>Now try loading the same link into a data browser:<br><br><a href='http://graphite.ecs.soton.ac.uk/browser/' target='_blank'>Take me to Graphite linked data browser.</a><br><br>The data browser uses automatic content negotiation for data, not webpage content, and displays the raw data in a human-readable form.</p><p>Any red text in the browser is a link in the data, which should go to more data.</p><p>Use the following URL to see what you can discover within the web of linked open data.</p><p><a href='http://www.bbc.co.uk/programmes/b006q2x0' target='_blank'>http://www.bbc.co.uk/programmes/b006q2x0</a>"
+          "body": "<p>You may have noticed some links in the data that we explored earlier in this module.</p><p>Try loading the link from earlier in the module:<br><br><a href='http://data.ordnancesurvey.co.uk/id/postcodeunit/SO171BJ' style='word-wrap: break-word;' target='_blank'>http://data.ordnancesurvey.co.uk/id/postcodeunit/SO171BJ</a><br><br>Now try loading the same link into a data browser:<br><br><a href='http://graphite.ecs.soton.ac.uk/browser/' target='_blank'>Take me to Graphite linked data browser</a><br><br>The data browser uses automatic content negotiation for data, not webpage content, and displays the raw data in a human-readable form.</p><p>Any red text in the browser is a link in the data, which should go to more data.</p><p>Use the following URL to see what you can discover within the web of linked open data.</p><p><a href='http://www.bbc.co.uk/programmes/b006q2x0' target='_blank'>http://www.bbc.co.uk/programmes/b006q2x0</a>"
         }
       ],
       "_pageLevelProgress": {
@@ -320,18 +320,18 @@
         "title": "What is the web of data?",
         "displayTitle": "What is the web of data?",
         "body": "<p>The web of data is...</p>",
-        "instruction": "<em>Select an option, then click 'Submit'.</em>",
+        "instruction": "<em>Choose your answer, then click 'Submit'</em>",
         "_items": [
             {
-                "text": "a web of data portals where you can download data.",
+                "text": "a web of data portals where you can download data",
                 "_shouldBeSelected": false
             },
             {
-                "text": "a set of interlinked data resources in the Web.",
+                "text": "a set of interlinked data resources in the Web",
                 "_shouldBeSelected": true
             },
             {
-                "text": "a new social network.",
+                "text": "a new social network",
                 "_shouldBeSelected": false
             }
         ],
@@ -388,7 +388,7 @@
         "title": "What does the following identify?",
         "displayTitle": "What does the following identify?",
         "body": "<p><a href='http://id.southampton.ac.uk/room/32-3077' target='_blank'>http://id.southampton.ac.uk/room/32-3077</a></p>",
-        "instruction": "<em>Select an option, then click 'Submit'.</em>",
+        "instruction": "<em>Choose your answer, then click 'Submit'</em>",
         "_items": [
             {
                 "text": "A webpage",
@@ -456,7 +456,7 @@
         "title": "Which of these are identifiers for the artist Taylor Swift?",
         "displayTitle": "Which of these are identifiers for the artist Taylor Swift?",
         "body": "",
-        "instruction": "<em>Select up to three options, then click 'Submit'.</em>",
+        "instruction": "<em>Choose up to three options, then click 'Submit'</em>",
         "_items": [
             {
                 "text": "<a href='http://www.bbc.co.uk/music/artists/20244d07-534f-4eff-b4d4-930878889970' target='_blank'>http://www.bbc.co.uk/music/artists/20244d07-534f-4eff-b4d4-930878889970</a>",

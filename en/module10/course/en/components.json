@@ -90,8 +90,8 @@
         "_classes":"",
         "_layout":"right",
         "title":"The 5 Stars of open data",
-        "displayTitle":"The five stars of open data",
-        "body":"<p>The 5 Stars guideline for linked open data is a way to measure how well data is integrated into the Web.</p><p>It examines the accessibility and technical usability of a dataset ranging from being available online (1 star) to being part of the web of data (5 stars). Each star must be awarded sequentially and none can be skipped.</p><p>The guidelines were developed by Sir Tim Berners-Lee in 2001 and have been adopted by publishers worldwide to help guide many open data initiatives, such as the Italian Digital Agency who attach badges to all their datasets.<br/><a href='http://spcdata.digitpa.gov.it/data.html' target='_blank'>Take me to the Italian Digital Agency site.</a></p><p>In this module we look at the first 3 stars, which tabular and transactional data is suited to. The final 2 stars are explored in module 13.</p>"
+        "displayTitle":"The 5 Stars of open data",
+        "body":"<p>The 5 Stars guideline for linked open data is a way to measure how well data is integrated into the Web.</p><p>It examines the accessibility and technical usability of a dataset ranging from being available online (1 star) to being part of the web of data (5 stars). Each star must be awarded sequentially and none can be skipped.</p><p>The guidelines were developed by Sir Tim Berners-Lee in 2001 and have been adopted by publishers worldwide to help guide many open data initiatives, such as the Italian Digital Agency who attach badges to all their datasets.<br/><a href='http://spcdata.digitpa.gov.it/data.html' target='_blank'>Take me to the Italian Digital Agency site</a></p><p>In this module we look at the first 3 stars, which tabular and transactional data is suited to. The final 2 stars are explored in module 13.</p>"
     },
     {
         "_id":"c-30",
@@ -183,7 +183,7 @@
             },
             {
                 "title": "Star 3 - Checking openness",
-                "body": "<p>Open formats are sometimes difficult to assess. The following questions will help you understand if the data is available in an open format:<ul class='ticks'><li>Can I open the file in more than one programme on my computer and still see the full functionality of the file?</li><li>When I look up the file format (eg CSV) online, does it say I need to download a specific programme to open it?</li></ul></p><p>CSV is the most popular open format and is easy to identify. CSV qualifies for 3 stars as long as the other 2 are achieved. The Bulgraian open data portal provides some good examples of 3-star CSV datasets that are clearly marked with both a licence and file format.<br /><a href='https://opendata.government.bg/dataset/tsentralen-registar-na-yuridicheskite-litsa' target='_blank'>Take me to the Bulgarian open data portal.</a></p><p>Many open data portals are also publishing Open Document Format (ODF) files. These files may appear perfect for open data, however it can be difficult to identify the tool that can open these files.</p>",
+                "body": "<p>Open formats are sometimes difficult to assess. The following questions will help you understand if the data is available in an open format:<ul class='ticks'><li>Can I open the file in more than one programme on my computer and still see the full functionality of the file?</li><li>When I look up the file format (eg CSV) online, does it say I need to download a specific programme to open it?</li></ul></p><p>CSV is the most popular open format and is easy to identify. CSV qualifies for 3 stars as long as the other 2 are achieved. The Bulgraian open data portal provides some good examples of 3-star CSV datasets that are clearly marked with both a licence and file format.<br /><a href='https://opendata.government.bg/dataset/tsentralen-registar-na-yuridicheskite-litsa' target='_blank'>Take me to the Bulgarian open data portal</a></p><p>Many open data portals are also publishing Open Document Format (ODF) files. These files may appear perfect for open data, however it can be difficult to identify the tool that can open these files.</p>",
                 "_graphic": {
                     "src": "course/en/images/odi-005.jpg",
                     "alt": "Star 3 - checking openness",
@@ -266,18 +266,18 @@
         "title": "How do you rate the openness of a dataset using the 5 Stars?",
         "displayTitle": "How do you rate the openness of a dataset using the 5 Stars?",
         "body": "<p>How would you go about assessing the openness of a dataset you found online?</p>",
-        "instruction": "<em>Select an option, then click 'Submit'.</em>",
+        "instruction": "<em>Choose your answer, then click 'Submit'</em>",
         "_items": [
             {
-                "text": "Look at each star separately and rate according to the highest achieved.",
+                "text": "Look at each star separately and rate according to the highest achieved",
                 "_shouldBeSelected": false
             },
             {
-                "text": "Start with the first star and rate each one sequentially.",
+                "text": "Start with the first star and rate each one sequentially",
                 "_shouldBeSelected": true
             },
             {
-                "text": "Just guess.",
+                "text": "Just guess",
                 "_shouldBeSelected": false
             }
         ],
@@ -334,18 +334,18 @@
         "title": "What is the second star?",
         "displayTitle": "What is the second star?",
         "body": "<p>The second star is awarded for...</p>",
-        "instruction": "<em>Select an option, then click 'Submit'.</em>",
+        "instruction": "<em>Choose your answer, then click 'Submit'</em>",
         "_items": [
             {
-                "text": "An open licence.",
+                "text": "an open licence",
                 "_shouldBeSelected": false
             },
             {
-                "text": "An open format.",
+                "text": "an open format",
                 "_shouldBeSelected": false
             },
             {
-                "text": "A reuseable format.",
+                "text": "a reuseable format",
                 "_shouldBeSelected": true
             }
         ],

@@ -1,0 +1,668 @@
+[
+    {
+        "_id":"c-10",
+        "_parentId":"b-10",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"intro-logo",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "",
+            "medium": "",
+            "small": "",
+            "*source":"",
+            "*credit":"",
+            "*license":""
+        }
+    },
+    {
+        "_id":"c-11",
+        "_parentId":"b-10",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Where can I find examples of good publication practices?",
+        "displayTitle":"Where can I find examples of good publication practices?",
+        "body":"<p>In our final module, we examine where local authorities can find the right support to help them publish good quality, consistent open data. In this module we examine how resources like LG Inform Plus can save you time and money in publishing your data.</p><p>Below you can learn about how to find relevant schemas, the best way to put a licence on your dataset, using persistent URIs and some examples of where authorities have benefitted most from following these practices.</p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-20",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "LG-inform+",
+            "title": "LG-inform+",
+            "large": "course/en/images/LG.png",
+            "medium": "course/en/images/LG.pngg",
+            "small": "course/en/images/LG.png",
+            "*source":"https://pbs.twimg.com/profile_images/506435765627138049/NX97FN5Z.png",
+            "*credit":"Local Government Association",
+            "*license":"All Rights Reserved"
+        }
+    },
+    {
+        "_id":"c-21",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Navigating LG Inform Plus",
+        "displayTitle":"Navigating LG Inform Plus",
+        "body":"<p>LG Inform Plus is a collection of support tools and guidance that can help any local government quickly make sense of open data. Maintained by LGA, Inform Plus provides the standards that allow your local open data to be combined with other authorities to create regional and national insights. Every authority has to meet the demands of the transparency agenda and publish open data. LG Inform Plus takes the pain out of this process and saves you staff time and money</p><p>In the following sections, we will guide you through the key resources available via LG Inform Plus and show you how to apply these to support your own open data publishing.</p>"
+    },
+    {
+        "_id":"c-25",
+        "_parentId":"b-25",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "dynamic-narrative",
+        "title": "Finding the right schema",
+        "displayTitle": "Finding the right schema",
+        "body": "<p>Consistent publication brings a range of benefits for local authorities.</p>",
+        "instruction": "<em class='desktop-instruction'>Click the forward arrow for more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
+        "_items": [
+            {
+                "title": "Core open data schemas",
+                "body": "<p>LGA keeps a definitive set of schemas for 10 of the most popular open datasets published by local authorities. If you are publishing data in one of these categories, we strongly recommend following the relevant schema below:<br><a href='http://schemas.opendata.esd.org.uk/Contracts' target='_blank'>Contracts</a><br><a href='http://schemas.opendata.esd.org.uk/LandAndBuilding' target='_blank'>Land and Buildings</a><br><a href='http://schemas.opendata.esd.org.uk/OrganisationStructure' target='_blank'>Organisation Structure</a><br><a href='http://schemas.opendata.esd.org.uk/Parking' target='_blank'>Parking</a><br><a href='http://schemas.opendata.esd.org.uk/SeniorEmployees' target='_blank'>Senior Employees</a><br><a href='http://schemas.opendata.esd.org.uk/SeniorSalaryCount' target='_blank'>Senior Employee Count</a><br><a href='http://schemas.opendata.esd.org.uk/Spend' target='_blank'>Spend</a><br><a href='http://schemas.opendata.esd.org.uk/PlanningApplications' target='_blank'>Planning Applications</a><br><a href='http://schemas.opendata.esd.org.uk/PremisesLicences' target='_blank'>Premises Licences</a><br><a href='http://schemas.opendata.esd.org.uk/PublicToilets' target='_blank'></a>Public Toilets<br><br>If the dataset you are publishing isnt covered above, scroll right to find out about community schemas.</p>",
+                "_graphic": {
+                    "src": "course/en/images/redbridge.jpg",
+                    "alt": "Schemas",
+                    "title": "Schemas",
+                    "*source":"https://www.flickr.com/photos/dullhunk/7554750172",
+                    "*credit":"dullhunk",
+                    "*license":"CC-BY 2.0"
+                },
+                "strapline": "Schemas"
+            },
+            {
+                "title": "Community open data schemas",
+                "body": "<p>If the data</p>",
+                "_graphic": {
+                    "src": "course/en/images/Cleaning.jpg",
+                    "alt": "Cleaning",
+                    "title": "Cleaning",
+                    "*source": "http://www.shutterstock.com/pic-232737427",
+                    "*credit": "Kirill_M",
+                    "*licence": "Shutterstock standard license"
+                },
+                "strapline": "Cleaning"
+            },
+            {
+                "title": "Where am I going to publish?",
+                "body": "<p></p>",
+                "_graphic": {
+                    "src": "course/en/images/Platform.jpg",
+                    "alt": "Cost Savings",
+                    "title": "Cost Savings",
+                    "*source":"https://media.thisiszone.com/wp-content/uploads/2013/03/Data_Dot_Gov.jpg",
+                    "*credit":"data.gov.uk",
+                    "*license":"Crown Copyright"
+                },
+                "strapline": "Platform"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-30",
+        "_parentId":"b-30",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Course Overview",
+            "title": "Course Overview",
+            "large": "course/en/images/summary-icon.png",
+            "medium": "course/en/images/summary-icon.png",
+            "small": "course/en/images/summary-icon.png",
+            "*source":"http://about.esd.org.uk/",
+            "*credit":"Local Government Association",
+            "*license":"All rights reserved"
+        }
+    },
+    {
+      "_id":"c-31",
+      "_parentId":"b-30",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"left",
+      "title": "Getting a Licence",
+      "displayTitle": "Getting a licence",
+      "body": "<p></p>",
+      "instruction": "<em>Click on each of the boxes below to expand.</em>",
+      "_items": [
+        {
+          "alt": "Entering the metadata",
+          "title": "1. Entering the metadata",
+          "body": "<p></p>"
+        },
+        {
+          "alt": "Uploading the data",
+          "title": "2. Uploading the data",
+          "body": "<p></p>"
+        },
+        {
+          "alt": "Validating the dataset",
+          "title": "3. Validating the dataset",
+          "body": "<p></p>"
+        },
+        {
+          "alt": "7. Updating your inventory",
+          "title": "7. Updating your inventory",
+          "body": "<p>An inventory lets other people know what data you have published. It encourages consistent referencing of datasets across councils to make it easier to find datasets on the same topic or in the same format. data.gov.uk has built a harvester to automatically import inventories and so maintain up-to-date entries for a council, in its index of UK open data.</p>"
+        }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+ {
+        "_id":"c-35",
+        "_parentId":"b-35",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "What is open data?",
+            "title": "What is open data?",
+            "large": "course/en/images/certificate.png",
+            "medium": "course/en/images/certificate.png",
+            "small": "course/en/images/certificate.png",
+            "*source":"https://certificates.theodi.org/assets/certificate-colourburst-72-K-1200px-061cc4491b502750ff5748edccdedec3.png",
+            "*credit":"ODI",
+            "*license":"All rights reserved"
+        }
+    },
+    {
+        "_id":"c-36",
+        "_parentId":"b-35",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Publishing under a persistent URI",
+        "displayTitle":"Publishing under a persistent URI",
+        "body":"<p></p>"
+    },
+    {
+        "_id": "c-37",
+        "_parentId": "b-40",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "dynamic-narrative",
+        "title": "Examples of best practice",
+        "displayTitle": "Examples of best practice",
+        "body": "<p></p>",
+        "instruction": "<em class='desktop-instruction'>Click the forward arrow for more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
+        "_items": [
+           {
+                "title": "West London Alliance",
+                "body": "<p></p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-2.jpg",
+                    "alt": "Legal",
+                    "title": "Legal",
+                    "*source":"http://www.shutterstock.com/pic-102447179.html",
+                    "*credit":"hoperan",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Legal"
+            },
+            {
+                "title": "North Somerset",
+                "body": "<p></p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-3.jpg",
+                    "alt": "Practical",
+                    "title": "Practical",
+                    "*source":"http://www.shutterstock.com/pic-235025131.html",
+                    "*credit":"McIek",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Practical"
+            },
+            {
+                "title": "Sheffield",
+                "body": "<p></p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-4.jpg",
+                    "alt": "Technical",
+                    "title": "Technical",
+                    "*source":"http://www.shutterstock.com/pic-154744388.html",
+                    "*credit":"Oleksiy Mark",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Technical"
+            },
+            {
+                "title": "Norfolk",
+                "body": "<p></p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-5.jpg",
+                    "alt": "Social",
+                    "title": "Social",
+                    "*source":"http://www.shutterstock.com/pic-187711424.html",
+                    "*credit":"bluebay",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Social"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+     {
+        "_id":"c-38",
+        "_parentId":"b-42",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "What is open data?",
+            "title": "What is open data?",
+            "large": "course/en/images/certificate.png",
+            "medium": "course/en/images/certificate.png",
+            "small": "course/en/images/certificate.png",
+            "*source":"https://certificates.theodi.org/assets/certificate-colourburst-72-K-1200px-061cc4491b502750ff5748edccdedec3.png",
+            "*credit":"ODI",
+            "*license":"All rights reserved"
+        }
+    },
+    {
+        "_id":"c-40",
+        "_parentId":"b-44",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/burst-white.png",
+            "medium": "course/en/images/burst-white.png",
+            "small": "course/en/images/burst-white.png"
+        }
+    },
+    {
+        "_id":"c-41",
+        "_parentId":"b-44",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Are you ready to find examples of good publication?",
+        "displayTitle":"Are you ready to find examples of good publication?",
+        "body":"<p>Can you recall these four things about the benefits of publishing open data for local authorities?</p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-42",
+        "_parentId":"b-46",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Cases for publishing open data",
+            "title": "Cases for publishing open data",
+            "large": "course/en/images/odi-7.jpg",
+            "medium": "course/en/images/odi-7.jpg",
+            "small": "course/en/images/odi-7.jpg",
+            "*source":"http://www.shutterstock.com/pic-54795127.html",
+            "*credit":"robodread",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    
+    {
+        "_id":"c-43",
+        "_parentId":"b-46",
+        "_type":"component",
+        "_component":"mcq",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Benefits of consistent publishing",
+        "displayTitle": "Benefits of consistent publishing",
+        "body": "<p>Which of the following is a benefit of publishing in a consistent way?</p>",
+        "instruction": "<em>Select an option, then click 'Submit'.</em>",
+        "_items": [
+            {
+                "text": "Easier to manage staff",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Easier to share data between departments",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "Easier to run payroll",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>That’s right!</h5><p>Publishing open data cin a consistent format makes it simple for people to get the data they need without contacting different departments.</p>",
+            "_incorrect": {
+                "notFinal": "h5>Are you sure about that?</h5><p>That’s right!</h5><p>Publishing open data cin a consistent format makes it simple for people to get the data they need without contacting different departments.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>That’s right!</h5><p>Publishing open data cin a consistent format makes it simple for people to get the data they need without contacting different departments.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Are you sure about that?</h5><p>That’s right!</h5><p>Publishing open data can support improved service delivery, transparency, innovation economies and economic benefits to the local area</p>",
+                "final": "<h5>Are you sure about that?</h5><p>That’s right!</h5><p>Publishing open data can support improved service delivery, transparency, innovation economies and economic benefits to the local area</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-44",
+        "_parentId":"b-48",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Legal considerations",
+            "title": "",
+            "large": "course/en/images/odi-8.jpg",
+            "medium": "course/en/images/odi-8.jpg",
+            "small": "course/en/images/odi-8.jpg",
+            "*source":"http://www.shutterstock.com/pic-102447179.html",
+            "*credit":"hoperan",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-45",
+        "_parentId":"b-48",
+        "_type":"component",
+        "_component":"mcq",
+        "_classes":"",
+        "_layout":"right",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Best practices for local authority publishing",
+        "displayTitle": "Best practices for local authority publishing",
+        "body": "<p>Where can authorities go to find clear guidance on publishing consistently?</p>",
+        "instruction": "<em>Select an option, then click 'Submit'.</em>",
+        "_items": [
+            {
+                "text": "Data.gov.uk",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Cabinet Office Website",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "LG Inform Plus",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>That’s right!</h5><p>The LGA's Inform Plus website provides comprehensve gudiance on the best practices for consistent publication of open data.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Are you sure about that?</h5><p>The LGA's Inform Plus website provides comprehensve gudiance on the best practices for consistent publication of open data.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>The LGA's Inform Plus website provides comprehensve gudiance on the best practices for consistent publication of open data.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Are you sure about that?</h5><p>The LGA's Inform Plus website provides comprehensve gudiance on the best practices for consistent publication of open data.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>The LGA's Inform Plus website provides comprehensve gudiance on the best practices for consistent publication of open data.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-46",
+        "_parentId":"b-49",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Legal considerations",
+            "title": "",
+            "large": "course/en/images/odi-8.jpg",
+            "medium": "course/en/images/odi-8.jpg",
+            "small": "course/en/images/odi-8.jpg",
+            "*source":"http://www.shutterstock.com/pic-102447179.html",
+            "*credit":"hoperan",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-47",
+        "_parentId":"b-49",
+        "_type":"component",
+        "_component":"mcq",
+        "_classes":"",
+        "_layout":"right",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Legal considerations",
+        "displayTitle": "Legal considerations",
+        "body": "<p>There are three legal considerations as part of the standards for publishing open data, one of which is...</p>",
+        "instruction": "<em>Select an option, then click 'Submit'.</em>",
+        "_items": [
+            {
+                "text": "not to break the licensing law.",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "to publish any type of data.",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "to protect sensitive information such as personal data.",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>That’s right!</h5><p>In addition to the open licence, there are three legal requirements that need to be considered.  Protect sensitive information like personal data, preserve the rights of data owners and promote correct use of the data.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Are you sure about that?</h5><p>In addition to the open licence, there are three legal requirements that need to be considered.  Protect sensitive information like personal data, preserve the rights of data owners and promote correct use of the data.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>In addition to the open licence, there are three legal requirements that need to be considered.  Protect sensitive information like personal data, preserve the rights of data owners and promote correct use of the data.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Are you sure about that?</h5><p>In addition to the open licence, there are three legal requirements that need to be considered.  Protect sensitive information like personal data, preserve the rights of data owners and promote correct use of the data.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>In addition to the open licence, there are three legal requirements that need to be considered.  Protect sensitive information like personal data, preserve the rights of data owners and promote correct use of the data.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-48",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Technical considerations",
+            "title": "",
+            "large": "course/en/images/odi-9.jpg",
+            "medium": "course/en/images/odi-9.jpg",
+            "small": "course/en/images/odi-9.jpg",
+            "*source":"http://www.shutterstock.com/pic-154744388.html",
+            "*credit":"Oleksiy Mark",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-49",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"mcq",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Technical considerations",
+        "displayTitle": "Technical considerations",
+        "body": "<p>There are three technical considerations as part of the standards for publishing open data, one of which is...</p>",
+        "instruction": "<em>Select an option, then click 'Submit'.</em>",
+        "_items": [
+            {
+                "text": "What format the open data is published in.",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "Whether it can it be used on a computer.",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Whether it takes up much bandwidth.",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>That’s right!</h5><p>There are three recommendations that define the technical aspects of open data.  The format in which the data is published in, the structure of the data and the channels through which the data is available.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Are you sure about that?</h5><p>There are three recommendations that define the technical aspects of open data.  The format in which the data is published in, the structure of the data and the channels through which the data is available.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>There are three recommendations that define the technical aspects of open data.  The format in which the data is published in, the structure of the data and the channels through which the data is available.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Are you sure about that?</h5><p>There are three recommendations that define the technical aspects of open data.  The format in which the data is published in, the structure of the data and the channels through which the data is available.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>There are three recommendations that define the technical aspects of open data.  The format in which the data is published in, the structure of the data and the channels through which the data is available.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-50",
+        "_parentId":"b-52",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Summary icon clipboard",
+            "title": "Summary icon clipboard",
+            "large": "course/en/images/summary-icon.png",
+            "medium": "course/en/images/summary-icon.png",
+            "small": "course/en/images/summary-icon.png",
+            "*source":"http://www.shutterstock.com/pic-189810137.html",
+            "*credit":"Kritchanut",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-51",
+        "_parentId":"b-52",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"How can I take the stress out of open data publication?",
+        "displayTitle":"How can I take the stress out of open data publication?",
+        "body":"<p>In our first module we explored the benefits of publishing open data for local authorities. In this module we look at one of the biggest barriers to realising those benefits - inconsistent publishing approaches. Many authorities are unaware of the support available to them in publishing consistent, usable data.</p><p>Below you can learn about the benefits of following consistent publishing approaches, access the best resources to support you and understand a simple assessment checklist that can save hours of staff time in every release.</p>",
+        "_pageLevelProgress": {
+          "_isEnabled": true
+        }
+    },
+    {
+       "_id":"c-52",
+       "_parentId":"b-52",
+       "_type":"component",
+       "_component":"text",
+       "_classes":"separator",
+       "_layout":"full"
+    },
+    {
+        "_id":"c-53",
+        "_parentId":"b-52",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"footer-logo",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Open data institute logo",
+            "title": "Open data institute logo",
+            "large": "course/en/images/logo-small.png",
+            "medium": "course/en/images/logo-small.png",
+            "small": "course/en/images/logo-small.png",
+            "*source":"http://theodi.org",
+            "*credit":"The Open Data Institute",
+            "*license":"All rights reserved"  
+        }
+    },
+    {
+        "_id":"c-54",
+        "_parentId":"b-52",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"social-buttons",
+        "_layout":"right",
+        "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/en/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/en/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/en/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/en/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/en/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/en/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/en/images/social/flickr.png'></a>"
+    }
+]

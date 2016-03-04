@@ -33,6 +33,7 @@ $(document).ready(function() {
 		if (moduleId == "ODI_nav"){
 			setInterval(function() {updateProgress();},5000);
 		} else {
+			console.log(theme);
 			setInterval(function() {miniProgressUpdate();},1000);
 		}
 	});
@@ -47,7 +48,22 @@ function miniProgressUpdate() {
 		badges = {};
 	}
 	var mods_done = {};
+	var badge_progression = {};
+	badge_progression["pathfinder"] = 0;
+	badge_progression["adventurer"] = 0;
+	badge_progression["technician"] = 0;
+	badge_progression["planner"] = 0;
 	for (i=1;i<13;i++) {
+		current_badge = "pathfinder";
+		if (i>3 && i<7) {
+			current_badge = "adventurer";
+		}
+		if (i==8 || i==9 || i==11 || i==12) {
+			current_badge = "technician";
+		} 
+		if (i==7 || i==10 || i==13) {
+			current_badge = "planner";
+		}
 		key = "ODI_" + i + "_cmi.suspend_data";
     		try {
 			value = localStorage.getItem(key);
@@ -56,6 +72,7 @@ function miniProgressUpdate() {
 			total = completion.length;
 			complete = completion.match(/1/g || []).length;	
 			percent = Math.round((complete/total) * 100);
+			badge_progression[current_badge] = badge_progression[current_badge] + percent;
 			if (percent == 100) {
 				mods_done[i] = true;
 			}
@@ -63,24 +80,45 @@ function miniProgressUpdate() {
 		catch(err) {
 		}
 	}
-	if (mods_done[1] && mods_done[2] && mods_done[3] && !badges["explorer"]) {
-		showMessage('explorer-complete');
-		badges["explorer"] = true;	
+	badge_progression["pathfinder"] = Math.round(badge_progression["pathfinder"] / 3);
+	badge_progression["adventurer"] = Math.round(badge_progression["adventurer"] / 3);
+	badge_progression["technician"] = Math.round(badge_progression["technician"] / 4);
+	badge_progression["planner"] = Math.round(badge_progression["planner"] / 3);
+	if (moduleId == "ODI_nav"){
+		updateBadgeOverall(badge_progression,'pathfinder');
+		updateBadgeOverall(badge_progression,'adventurer');
+		updateBadgeOverall(badge_progression,'technician');
+		updateBadgeOverall(badge_progression,'planner');
+	}
+	if (mods_done[1] && mods_done[2] && mods_done[3] && !badges["pathfinder"]) {
+		showMessage('pathfinder-complete');
+		badges["pathfinder"] = true;	
 	}
 	if (mods_done[4] && mods_done[5] && mods_done[6] && !badges["adventurer"]) {
 		showMessage('adventurer-complete');
 		badges["adventurer"] = true;	
 	}
-	if (mods_done[8] && mods_done[9] && mods_done[11] && mods_done[12] && !bedges["practitioner"]) {
-		showMessage('practitioner-complete');
-		badges["practitioner"] = true;	
+	if (mods_done[8] && mods_done[9] && mods_done[11] && mods_done[12] && !bedges["technician"]) {
+		showMessage('technician-complete');
+		badges["technician"] = true;	
 	}
-	if (mods_done[7] && mods_done[10] && mods_done[13] && !badges["strategist"]) {
-		showMessage('strategist-complete');
-		badges["strategist"] = true;	
+	if (mods_done[7] && mods_done[10] && mods_done[13] && !badges["planner"]) {
+		showMessage('planner-complete');
+		badges["planner"] = true;	
 	}
 	localStorage.setItem("ODI_Badges",JSON.stringify(badges));
 	
+}
+function updateBadgeOverall(badge_progression,level) {
+	percent = badge_progression[level];
+	if (percent > 0) {
+		document.getElementById(level + '-overall').innerHTML = percent + "%";
+		try { document.getElementById(level + '-overall-side').innerHTML = percent + "%"; } catch(err) {}
+	}
+	if (percent == 100) {
+		document.getElementById(level + '-overall').innerHTML = "✔";
+		try { document.getElementById(level + '-overall-side').innerHTML = "✔"; } catch(err) {}
+	}
 }
 function updateProgress() {
 //	var frame = document.getElementById('contentFrame').contentDocument;
@@ -94,7 +132,7 @@ function updateProgress() {
 			total = completion.length;
 			complete = completion.match(/1/g || []).length;	
 			percent = Math.round((complete/total) * 100);
-			document.getElementById('ODI_' + i).setAttribute('value',percent);
+			//document.getElementById('ODI_' + i).setAttribute('value',percent);
 			if (percent > 0) {
 				document.getElementById('ODI_' + i + '_tick').innerHTML = percent + "%";
 			}
@@ -112,18 +150,16 @@ function updateProgress() {
 	} catch(err) {
 		badges = {};
 	}
-	if (badges["explorer"]) {
-		document.getElementById('explorer-badge').className = "progress-badge awarded explorer-awarded";	
-	}
-	if (badges["adventurer"]) {
-		document.getElementById('adventurer-badge').className = "progress-badge awarded adventurer-awarded";	
-	}
-	if (badges["practitioner"]) {
-		document.getElementById('practitioner-badge').className = "progress-badge awarded practitioner-awarded";	
-	}
-	if (badges["strategist"]) {
-		document.getElementById('strategist-badge').className = "progress-badge awarded strategist-awarded";	
-	}
+	if (badges["pathfinder"]) { updateBadgeClass('pathfinder'); }
+	if (badges["adventurer"]) { updateBadgeClass('adventurer'); }
+	if (badges["technician"]) { updateBadgeClass('prectitioner'); }
+	if (badges["planner"]) { updateBadgeClass('planner'); }
+}
+function updateBadgeClass(level) {
+	document.getElementById(level + '-badge').className = "progress-badge awarded " + level + "-awarded";	
+	try {	
+		document.getElementById(level + '-overall-side').parentNode.parentNode.parentNode.parentNode.className = 'resources-item drawer-item link ' + level + '-awarded';
+	} catch(err) {}
 }
 
 function getModuleId() {

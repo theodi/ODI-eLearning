@@ -186,7 +186,7 @@
         {
           "alt": "Relevance",
           "title": "Relevance",
-          "body": "<p>Organisations do not always publish downloadable data. However, many of them run data-driven websites. By accessing the data directly through existing data feeds (or from within the website’s code) there is a clear use for the data already. This will help you to quickly identify relevant data from this existing use, rather than having to establish the use yourself. For example, the BBC News pages, sections and related data feeds<br /><a href='http://www.bbc.co.uk/news/10628494' target='_blank'>Take me to BBC news feeds.</a></p>"
+          "body": "<p>Organisations do not always publish downloadable data. However, many of them run data-driven websites. By accessing the data directly through existing data feeds (or from within the website’s code) there is a clear use for the data already. This will help you to quickly identify relevant data from this existing use, rather than having to establish the use yourself. For example, the BBC News pages, sections and related data feeds<br /><a href='http://www.bbc.co.uk/news/10628494' target='_blank'>Take me to BBC news feeds</a></p>"
         },
         {
           "alt": "Context",
@@ -217,7 +217,7 @@
         "_items": [
             {
                 "title": "Extension downloads",
-                "body": "<p>Some websites have been built to offer a way to extract data by adding an extension to the URL of the webpage you are viewing. For such websites, usually maintained by organisations who also publish downloadable open data, adding the correct extension will trigger a download of that page in a data format, as opposed to a browser format.</p><p>A good example of this is the UK Government website (gov.uk) which provides any page in a data format simply by adding the relevant extension like “.json”, for example www.gov.uk/browse/business.json.</p><p>Try it with the UK Trade data by viewing the following page and then adding “.json” to get the data.<br /><a href='https://www.gov.uk/trade-tariff/sections' target='_blank'>Take me to the UK gov trade tariff.</a></p><p>To view the data in a more human readable form, copy it into jsonlint.io.</p>",
+                "body": "<p>Some websites have been built to offer a way to extract data by adding an extension to the URL of the webpage you are viewing. For such websites, usually maintained by organisations who also publish downloadable open data, adding the correct extension will trigger a download of that page in a data format, as opposed to a browser format.</p><p>A good example of this is the UK Government website (gov.uk) which provides any page in a data format simply by adding the relevant extension like “.json”, for example www.gov.uk/browse/business.json.</p><p>Try it with the UK Trade data by viewing the following page and then adding “.json” to get the data.<br /><a href='https://www.gov.uk/trade-tariff/sections' target='_blank'>Take me to the UK gov trade tariff</a></p><p>To view the data in a more human readable form, copy it into jsonlint.io.</p>",
                 "_graphic": {
                     "src": "course/en/images/odi-006.jpg",
                     "alt": "Extensions",
@@ -230,7 +230,7 @@
             },
             {
                 "title": "Data feeds",
-                "body": "<p>Many websites provide links to data syndication feeds that can be subscribed to.</p><p>These feeds may be RSS feeds, Twitter alert feeds or other less common types. Feeds can be used to get raw data about a broad selection of content.</p><p>For an example of a raw data feed, look at the BBC news feed in XML.<br /><a href='http://feeds.bbci.co.uk/news/rss.xml' target='_blank'>Why not try out the news feeds from the BBC in XML?</a></p><p>Now you can use a free online tool to make that data easier to use <br/><a href='http://codebeautify.org/xmlviewer' target='_blank'>Go to codebeautify and enter the BBC feed URL under 'Load URL'</a></p><p>or get alerts for flooding from your nearest river (UK only).<br /><a href='http://www.gaugemap.co.uk/' target='_blank'>Take me to river level guages.</a></p>",
+                "body": "<p>Many websites provide links to data syndication feeds that can be subscribed to.</p><p>These feeds may be RSS feeds, Twitter alert feeds or other less common types. Feeds can be used to get raw data about a broad selection of content.</p><p>For an example of a raw data feed, look at the BBC news feed in XML.<br /><a href='http://feeds.bbci.co.uk/news/rss.xml' target='_blank'>Why not try out the news feeds from the BBC in XML?</a></p><p>Now you can use a free online tool to make that data easier to use <br/><a href='http://codebeautify.org/xmlviewer' target='_blank'>Go to codebeautify and enter the BBC feed URL under 'Load URL'</a></p><p>or get alerts for flooding from your nearest river (UK only).<br /><a href='http://www.gaugemap.co.uk/' target='_blank'>Take me to river level guages</a></p>",
                 "_graphic": {
                     "src": "course/en/images/odi-007.jpg",
                     "alt": "Data feeds",
@@ -243,7 +243,7 @@
             },
             {
                 "title": "Source code",
-                "body": "<p>Going beyond providing a simple route to data, many sites have data embedded in the webpage's source code.</p><p>Why not check out the ODI's experimental 'Hidden Data Extractor' tool to find source code?<br><br><a class='course_link' href='http://odinprac.theodi.org/hidden-data-extractor/' target='_blank'>Take me to ODI Hidden Data Extractor.</a></p>",
+                "body": "<p>Going beyond providing a simple route to data, many sites have data embedded in the webpage's source code.</p><p>Why not check out the ODI's experimental 'Hidden Data Extractor' tool to find source code?<br><br><a class='course_link' href='http://odinprac.theodi.org/hidden-data-extractor/' target='_blank'>Take me to ODI Hidden Data Extractor</a></p>",
                 "_graphic": {
                     "src": "course/en/images/odi-008.jpg",
                     "alt": "Source code",
@@ -350,10 +350,10 @@
         "title": "What is hidden data?",
         "displayTitle": "What is hidden data?",
         "body": "<p>Hidden data is...</p>",
-        "instruction": "<em>Select an option, then click 'Submit'.</em>",
+        "instruction": "<em>Choose your answer, then click 'Submit'</em>",
         "_items": [
             {
-                "text": "part of a treasure hunt.",
+                "text": "part of a treasure hunt",
                 "_shouldBeSelected": false
             },
             {
@@ -361,7 +361,7 @@
                 "_shouldBeSelected": true
             },
             {
-                "text": "files that are difficult to download.",
+                "text": "files that are difficult to download",
                 "_shouldBeSelected": false
             }
         ],
@@ -418,7 +418,7 @@
         "title": "Why is data hidden?",
         "displayTitle": "Why is data hidden?",
         "body": "<p>People hide data because...</p>",
-        "instruction": "<em>Select an option, then click 'Submit'.</em>",
+        "instruction": "<em>Choose your answer, then click 'Submit'</em>",
         "_items": [
             {
                 "text": "they are ashamed of it",
@@ -486,7 +486,7 @@
         "title": "Benefits of hidden data",
         "displayTitle": "Benefits of hidden data",
         "body": "<p>Which of the following is not a benefit of hidden data?</p>",
-        "instruction": "<em>Select an option, then click 'Submit'.</em>",
+        "instruction": "<em>Select an option, then click 'Submit'</em>",
         "_items": [
             {
                 "text": "Breadth",
@@ -562,7 +562,7 @@
         "title": "How might you extract hidden data from a website?",
         "displayTitle": "How might you extract hidden data from a website?",
         "body": "<p>Which of the following is a useful way to extract hidden data from a website?</p>",
-        "instruction": "<em>Select an option, then click 'Submit'.</em>",
+        "instruction": "<em>Select an option, then click 'Submit'</em>",
         "_items": [
             {
                 "text": "Caching the website link",
