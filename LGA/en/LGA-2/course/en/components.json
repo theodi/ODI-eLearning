@@ -28,9 +28,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"How to publish consistent open data",
-        "displayTitle":"How to publish consistent open data",
-        "body":"<p>In our first module we explored how to make transparency work for you through outlining the benefits of publishing open data for local authorities. In this module we look at one of the biggest barriers to realising those benefits - inconsistent publishing approaches.</p><p>In this module you will learn:</p><ul><li>The benefits of consistent, high-quality publishing approaches</li><li>The 3 steps to publishing quality data</li><li>How to certify the quality of your data</li></ul></p><p>This module also provides useful links out to supporting documents and services that can help save time in your publication.</p>",
+        "title":"Making publishing work for you",
+        "displayTitle":"Making publishing work for you",
+        "body":"<p>In our first module we explored how to make transparency work for you through outlining the benefits of publishing open data for local authorities. In this module we look at one of the biggest barriers to realising those benefits - inconsistent publishing approaches.</p><p>In this module you will learn:</p><ul><li>The importance of ensuring the data you publish is clean and consistent</li><li>The 5 ways to decide where you should publish</li><li>The 3 steps to making sure users can find your data</li></ul></p><p>This module also provides useful links out to supporting documents and services that can help save time in your publication.</p>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
@@ -46,9 +46,9 @@
         "_graphic": {
             "alt": "Section burst",
             "title": "Section burst",
-            "large": "course/en/images/burst-blue.png",
-            "medium": "course/en/images/burst-blue.png",
-            "small": "course/en/images/burst-blue.png",
+            "large": "course/en/images/burst-white.png",
+            "medium": "course/en/images/burst-white.png",
+            "small": "course/en/images/burst-white.png",
             "*source":"http://theodi.org",
             "*credit":"The Open Data Institute",
             "*license":"All Rights Reserved"
@@ -194,104 +194,6 @@
       }
     },
     {
-        "_id":"c-11",
-        "_parentId":"b-6",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"right",
-        "_graphic": {
-            "alt": "What is open data?",
-            "title": "What is open data?",
-            "large": "course/en/images/certificate.png",
-            "medium": "course/en/images/certificate.png",
-            "small": "course/en/images/certificate.png",
-            "*source":"https://certificates.theodi.org/assets/certificate-colourburst-72-K-1200px-061cc4491b502750ff5748edccdedec3.png",
-            "*credit":"ODI",
-            "*license":"All rights reserved"
-        }
-    },
-     {
-        "_id":"c-12",
-        "_parentId":"b-6",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"",
-        "_layout":"left",
-        "title":"Why should I certify my data?",
-        "displayTitle":"Why should I certify my data?",
-        "body":"<p>There is lots of data out there, much of it messy or difficult to use. ODI Open Data Certificates is a free online tool developed to assess and recognise the quality of open datasets and let users know that any dataset with a certificate meets certain quality criteria. The certificates are an independent quality marque designed to support open data publishers in acheiving professional results.</p><h5>Open Data Certificates provide publishers with a range of benefits including:</h5><ul class='ticks'><li>Formal recognition of your data quality</li><li>A much broader user base</li><li>Automatic trust in the quality and usability of your data</li><li>Instant, simple compliance with the best publishing practices</li><li>Free advice on improving the quality of your data</li></p>"
-    },
-    {
-        "_id":"c-13",
-        "_parentId":"b-7",
-        "_classes": "",
-        "_type":"component",
-        "_layout": "full",
-        "_component": "dynamic-narrative",
-        "title": "What do Open Data Certificates look for?",
-        "displayTitle": "What do Open Data Certificates look for?",
-        "body": "<p>ODI Open Data Certificates consider the legal, practical, technical and social requirements for an open dataset to be useful.</p>",
-        "instruction": "<em class='desktop-instruction'>Click the forward arrow for more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
-        "_items": [
-           {
-                "title": "Legal requirements",
-                "body": "<p>In addition to the open licence, there are three legal requirements that need to be considered. You must:</p><p><ul><li>Protect sensitive information like personal data.</li><li>Preserve the rights of data owners.</li><li>Promote correct use of the data.</li></ul></p>",
-                "_graphic": {
-                    "src": "course/en/images/odi-2.jpg",
-                    "alt": "Legal",
-                    "title": "Legal",
-                    "*source":"http://www.shutterstock.com/pic-102447179.html",
-                    "*credit":"hoperan",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "Legal"
-            },
-            {
-                "title": "Practical requirements",
-                "body": "<p>It is important that open data can be found and relied upon by users.</p><p>This means that open data publishers must:</p><p><ul><li>Link to the data from their website.</li><li>Update the data regularly if it changes.</li><li>Commit to continue to make the data available.</li></ul></p>",
-                "_graphic": {
-                    "src": "course/en/images/odi-3.jpg",
-                    "alt": "Practical",
-                    "title": "Practical",
-                    "*source":"http://www.shutterstock.com/pic-235025131.html",
-                    "*credit":"McIek",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "Practical"
-            },
-            {
-                "title": "Technical requirements",
-                "body": "<p>There are three recommendations that define the technical aspects of open data:</p><p><ul><li>The format in which the data is published.</li><li>The structure of the data.</li><li>The channels through which the data is available.</li></ul></p>",
-                "_graphic": {
-                    "src": "course/en/images/odi-4.jpg",
-                    "alt": "Technical",
-                    "title": "Technical",
-                    "*source":"http://www.shutterstock.com/pic-154744388.html",
-                    "*credit":"Oleksiy Mark",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "Technical"
-            },
-            {
-                "title": "Social requirements",
-                "body": "<p>For data use to be sustainable, it is important to have an engaged community of users. The best datasets have:</p><p><ul><li>Active support channels.</li><li>Discussion groups and forums.</li><li>Published how-to guides on working with the data.</li></ul></p>",
-                "_graphic": {
-                    "src": "course/en/images/odi-5.jpg",
-                    "alt": "Social",
-                    "title": "Social",
-                    "*source":"http://www.shutterstock.com/pic-187711424.html",
-                    "*credit":"bluebay",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "Social"
-            }
-        ],
-        "_pageLevelProgress": {
-        "_isEnabled": true
-        }
-    },
-    {
         "_id":"c-14",
         "_parentId":"b-8",
         "_type":"component",
@@ -301,9 +203,9 @@
         "_graphic": {
             "alt": "Section burst",
             "title": "Section burst",
-            "large": "course/en/images/burst-blue.png",
-            "medium": "course/en/images/burst-blue.png",
-            "small": "course/en/images/burst-blue.png",
+           "large": "course/en/images/burst-white.png",
+            "medium": "course/en/images/burst-white.png",
+            "small": "course/en/images/burst-white.png",
             "*source":"http://theodi.org",
             "*credit":"The Open Data Institute",
             "*license":"All Rights Reserved"
@@ -427,35 +329,6 @@
       }
     },
     {
-        "_id":"c-20",
-        "_parentId":"b-11",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"right",
-        "_graphic": {
-            "alt": "What is open data?",
-            "title": "What is open data?",
-            "large": "course/en/images/certificate.png",
-            "medium": "course/en/images/certificate.png",
-            "small": "course/en/images/certificate.png",
-            "*source":"https://certificates.theodi.org/assets/certificate-colourburst-72-K-1200px-061cc4491b502750ff5748edccdedec3.png",
-            "*credit":"ODI",
-            "*license":"All rights reserved"
-        }
-    },
-    {
-        "_id":"c-21",
-        "_parentId":"b-11",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"",
-        "_layout":"left",
-        "title":"How to publish your dataset: Adding the certificate",
-        "displayTitle":"How to publish your dataset: Adding the certificate",
-        "body":"<p>With your dataset published, you need to let users know they can rely on the quality of your work by certifying your results through an ODI Certificate.</p><p>Getting your Open Data Certificate is simple. First, you complete a short questionnaire to assess the level of support you provide for the data. Depending on the answers, the ODI awards a badge that can be embedded on your website to signify the quality level of your publication.</p><p>If you are publishing your data in a machine readable way (for example, by using a data portal like ckan), the site can pre-fill many of the certificate questions. Just enter the URL on the first page to get started.<br/><br/><a href='https://certificates.theodi.org/en' target='_blank'>Take me to the ODI Open Data Certificates Site</a></p>"
-    },
-    {
         "_id":"c-22",
         "_parentId":"b-12",
         "_type":"component",
@@ -497,7 +370,7 @@
        "instruction": "<em class='desktop-instruction'>Click the forward arrow for more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
        "_items": [
            {
-               "title": "Redbridge council",
+               "title": "Colchester Council",
                "body": "<p></p>",
                "_graphic": {
                    "src": "course/en/images/redbridge.jpg",
@@ -523,7 +396,7 @@
                "strapline": "Leeds Council"
            },
            {
-               "title": "Bristol Council",
+               "title": "North Somerset Council",
                "body": "<p></p>",
                "_graphic": {
                    "src": "course/en/images/bristol.jpg",
@@ -536,7 +409,7 @@
                "strapline": "Cost Savings"
            },
            {
-               "title": "Sedgemoor Council",
+               "title": "York Council",
                "body": "<p></p>",
                "_graphic": {
                    "src": "course/en/images/sedgemoor.png",
@@ -753,41 +626,49 @@
     {
         "_id":"c-32",
         "_parentId":"b-18",
-        "_type":"component",
+       "_type":"component",
         "_component":"mcq",
         "_classes":"",
         "_layout":"left",
         "_attempts":1,
         "_questionWeight":1,
         "_isRandom":true,
-        "_selectable":1,
-        "title": "Certifying your dataset",
-        "displayTitle": "Certifying your dataset",
-        "body": "<p>When publishing your dataset, what certificate does LGA reccomend you apply to the dataset?</p>",
-        "instruction": "<em>Select an option, then click 'Submit'.</em>",
+        "_selectable":3,
+        "title": "Recognising errors in your data",
+        "displayTitle": "Recognising errors in your data",
+        "body": "<p>Which of the following are errors in data that require cleaning?</p>",
+        "instruction": "<em>Choose three answers and click 'Submit'.</em>",
         "_items": [
             {
-                "text": "The UK Government Data Badge",
+                "text": "Mixed numerical scales",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "Lack of granularity",
                 "_shouldBeSelected": false
             },
             {
-                "text": "The LGA's Good Data Marque",
+                "text": "Redundant data",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "No licence",
                 "_shouldBeSelected": false
             },
             {
-                "text": "The ODI Open Data Certificate",
+                "text": "Multiple representations",
                 "_shouldBeSelected": true
             }
         ],
         "_feedback":{
-            "correct":"<h5>That’s right!</h5><p>LGA reccomends using the ODI Open Data Certificate to signify the quality and usability of your datasets</p>",
+            "correct":"<h5>That's right!</h5><p>Mixed use of scales, redundant data and multiple representations of the same data are just some of the errors that need to be fixed in unclean data. While the granularity and lack of licence are a problem, they are not related to the data itself being unclean</p>",
             "_incorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>LGA reccomends using the ODI Open Data Certificate to signify the quality and usability of your datasets</p>",
-                "final": "<h5>Are you sure about that?</h5><p>LGA reccomends using the ODI Open Data Certificate to signify the quality and usability of your datasets</p>"
+                "notFinal": "<h5>Are you sure about that? </h5><p>Mixed use of scales, redundant data and multiple representations of the same data are just some of the errors that need to be fixed in unclean data. While the granularity and lack of licence are a problem, they are not related to the data itself being unclean</p>",
+                "final": "<h5>Are you sure about that? </h5><p>Mixed use of scales, redundant data and multiple representations of the same data are just some of the errors that need to be fixed in unclean data. While the granularity and lack of licence are a problem, they are not related to the data itself being unclean</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>LGA reccomends using the ODI Open Data Certificate to signify the quality and usability of your datasets</p>",
-                "final": "<h5>Are you sure about that?</h5><p>LGA reccomends using the ODI Open Data Certificate to signify the quality and usability of your datasets</p>"
+                "notFinal": "<h5>Are you sure about that? </h5><p>Mixed use of scales, redundant data and multiple representations of the same data are just some of the errors that need to be fixed in unclean data. While the granularity and lack of licence are a problem, they are not related to the data itself being unclean</p>",
+                "final": "<h5>Are you sure about that? </h5><p>Mixed use of scales, redundant data and multiple representations of the same data are just some of the errors that need to be fixed in unclean data. While the granularity and lack of licence are a problem, they are not related to the data itself being unclean</p>"
           }
         },
         "_buttons":{
@@ -829,33 +710,33 @@
         "_questionWeight":1,
         "_isRandom":true,
         "_selectable":1,
-        "title": "Technical considerations in ODI Certificates",
-        "displayTitle": "Technical considerations in ODI Certificates",
-        "body": "<p>There are three technical considerations as part of the ODi Certificates standards for publishing open data, one of which is...</p>",
+        "title": "Finding your data",
+        "displayTitle": "Finding your data",
+        "body": "<p>When publishing your data, it is important to...</p>",
         "instruction": "<em>Select an option, then click 'Submit'.</em>",
         "_items": [
             {
-                "text": "What format the open data is published in.",
+                "text": "use a consistent URI from the LGA directory",
                 "_shouldBeSelected": true
             },
             {
-                "text": "Whether it can it be used on a computer.",
+                "text": "regularly change the web address",
                 "_shouldBeSelected": false
             },
             {
-                "text": "Whether it takes up much bandwidth.",
+                "text": "hide the location from the user",
                 "_shouldBeSelected": false
             }
         ],
         "_feedback":{
-            "correct":"<h5>That’s right!</h5><p>There are three recommendations that define the technical aspects of open data.  The format in which the data is published in, the structure of the data and the channels through which the data is available.</p>",
+            "correct":"<h5>That’s right!</h5><p>When publishing your data you should always use a consistent URI from the LGA's directory. You should also add a second URL which lets people know exactly what data they can expect to find on the page!</p>",
             "_incorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>There are three recommendations that define the technical aspects of open data.  The format in which the data is published in, the structure of the data and the channels through which the data is available.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>There are three recommendations that define the technical aspects of open data.  The format in which the data is published in, the structure of the data and the channels through which the data is available.</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>When publishing your data you should always use a consistent URI from the LGA's directory. You should also add a second URL which lets people know exactly what data they can expect to find on the page!</p>",
+                "final": "<h5>Are you sure about that?</h5><p>When publishing your data you should always use a consistent URI from the LGA's directory. You should also add a second URL which lets people know exactly what data they can expect to find on the page!</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>There are three recommendations that define the technical aspects of open data.  The format in which the data is published in, the structure of the data and the channels through which the data is available.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>There are three recommendations that define the technical aspects of open data.  The format in which the data is published in, the structure of the data and the channels through which the data is available.</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>When publishing your data you should always use a consistent URI from the LGA's directory. You should also add a second URL which lets people know exactly what data they can expect to find on the page!</p>",
+                "final": "<h5>Are you sure about that?</h5><p>When publishing your data you should always use a consistent URI from the LGA's directory. You should also add a second URL which lets people know exactly what data they can expect to find on the page!</p>"
           }
         },
         "_buttons":{
@@ -893,9 +774,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"How to publish consistent open data",
-        "displayTitle":"How to publish consistent open data",
-        "body":"<p>In this module we have explored all the steps to publishing consistent, high-quality open data for your authority. Follow the guidance above and you will produce highly usable data which can generate signifiact impact for your authority as well as saving you time and money</p><p>In our next and final module, we will look at where you can find the best examples of authorities who have followed this guidance and see how their publication helped them acheive results.</p><a class='button inline-button' href='../'>Main menu</a><a class='button inline-button' href='../LGA-3/'>Next module</a>",
+        "title":"Make publishing work for you",
+        "displayTitle":"Make publishing work for you",
+        "body":"<p>In this module we have explored how to publishing consistent, high-quality open data for your authority. Follow the guidance above and you will produce highly usable data which can generate signifiact impact for your authority as well as saving you time and money</p><p>In our next and final module, we will look at where you can find the best examples of authorities who have followed this guidance and see how their publication helped them acheive results.</p><a class='button inline-button' href='../'>Main menu</a><a class='button inline-button' href='../LGA-3/'>Next module</a>",
         "_pageLevelProgress": {
           "_isEnabled": true
         }
