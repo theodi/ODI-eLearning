@@ -39,6 +39,10 @@ echo ""
 `node ./bin/merge.js src/course/$2/contentObjects.json src/theme/$THEME/course/$2/contentObjects.json`
 `node ./bin/merge.js src/course/$2/course.json src/theme/$THEME/course/$2/course.json`
 
+echo "Updating navigation links"
+echo ""
+sed -i -e "s/\.\.\///g" src/course/$2/course.json
+
 echo "Moving config into pace"
 echo ""
 `cp src/course/$2/config.json src/course/`
