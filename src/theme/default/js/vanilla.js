@@ -164,6 +164,10 @@ function updateLanguageSwitcher() {
         });
 }
 
+function navGoModule(module) {
+	window.location.href = module;
+}
+
 function createDropDown(){	
 	var $form = $("div#country-select form");
 	$form.hide();
