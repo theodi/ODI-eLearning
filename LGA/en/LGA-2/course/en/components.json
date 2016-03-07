@@ -104,9 +104,9 @@
         "_graphic": {
             "alt": "What is open data?",
             "title": "What is open data?",
-            "large": "course/en/images/odi-1-text-image_large.jpg",
-            "medium": "course/en/images/odi-1-text-image_large.jpg",
-            "small": "course/en/images/odi-1-text-image_large.jpg",
+            "large": "course/en/images/clean.jpg",
+            "medium": "course/en/images/clean.jpg",
+            "small": "course/en/images/clean.jpg",
             "*source":"http://www.shutterstock.com/pic.mhtml?id=179384507&src=lb-35924366",
             "*credit":"leromin",
             "*license":"Shutterstock Standard License"
@@ -129,7 +129,7 @@
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
-        "_layout":"right",
+        "_layout":"left",
         "_graphic": {
             "alt": "Common errors in data",
             "title": "Common errors in data",
@@ -147,7 +147,7 @@
       "_type":"component",
       "_component":"accordion",
       "_classes":"",
-      "_layout":"left",
+      "_layout":"right",
       "title": "Common errors in data: A spotter's guide",
       "displayTitle": "Common errors in data: A spotter's guide",
       "body": "When looking at the quality of your own data, there are a number of common errors you should check for.",
@@ -228,7 +228,7 @@
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
-        "_layout":"left",
+        "_layout":"right",
         "_graphic": {
             "alt": "What is open data?",
             "title": "What is open data?",
@@ -284,7 +284,7 @@
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
-        "_layout":"right",
+        "_layout":"left",
         "_graphic": {
             "alt": "Course Overview",
             "title": "Course Overview",
@@ -302,7 +302,7 @@
       "_type":"component",
       "_component":"accordion",
       "_classes":"",
-      "_layout":"left",
+      "_layout":"right",
       "title": "How to publish your dataset: Improving visibility",
       "displayTitle": "How to publish your dataset: Improving visibility",
       "body": "",
@@ -366,60 +366,47 @@
        "_component": "dynamic-narrative",
        "title": "The benefits of publishing open data consistently - Local authority case studies",
        "displayTitle": "The benefits of publishing open data consistently - Local authority case studies",
-       "body": "<p>Local authorities have already seen benefits of following the consistent approaches above when publishing open data. The LGA keeps an extenisve collection of <a href='http://www.local.gov.uk/local-transparency/-/journal_content/56/10180/4049888/ARTICLE' target='_blank'>case studies</a> that catalogue these impacts. Below are some of the best examples:</p>",
+       "body": "<p>Local authorities have already seen benefits of following the consistent approaches above when publishing open data. The LGA keeps an extenisve collection of <a href='http://www.local.gov.uk/local-transparency/-/journal_content/56/10180/4049888/ARTICLE' target='_blank'>case studies</a> that catalogue these impacts. Below are some examples of local authority benefits.</p>",
        "instruction": "<em class='desktop-instruction'>Click the forward arrow for more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
        "_items": [
            {
-               "title": "Colchester Council",
-               "body": "<p></p>",
+               "title": "Learning from others: Barnet Council",
+               "body": "<p>Barnet Council in north London is a diverse metropolitan authority. A relative latecomer to open data publishing, Barnet was able to benefit from the LGA's extensive case studies into open data publication to avoid some of the mistakes of early adopters. Using LGA, publishing guidelines, Barnet has now created a dedicated open data platform using Datapress. The platform currently hosts in excess of 180 datasets for the local area. Following LGA publishing guidelines helped Barnet save staff time and money by simplifying publishing processes. To discover more about Barnet's experience read their <a href='http://www.local.gov.uk/documents/10180/11655/Barnet+2014-08-22+Open+Data+Breakthrough+Evaluation+Final.pdf/ae8272e0-0256-4e86-a6dc-348b462da7e0' target='_blank'>case study</a> or visit their <a href='http://open.barnet.gov.uk/' target='_blank'>open data portal</a></p>",
                "_graphic": {
-                   "src": "course/en/images/redbridge.jpg",
-                   "alt": "Support Growing Economies",
-                   "title": "Support Growing Economies",
-                   "*source":"http://www.shutterstock.com/pic-128352227.html",
-                   "*credit":"vs148",
-                   "*license":"Shutterstock Standard License"
+                  "src": "course/en/images/barnet.png",
+                   "alt": "Barnet",
+                   "title": "Barnet",
+                   "*source":"https://www.barnet.gov.uk/docroot/img/barnet-logo-green.png",
+                   "*credit":"Barnet Council",
+                   "*license":"All Rights Reserved"
                },
-               "strapline": "Redbridge Council"
+               "strapline": "Barnet"
            },
            {
-               "title": "Leeds Council",
-               "body": "<p></p>",
+               "title": "Building a simple data page: Wycombe District Council",
+               "body": "<p>Wycombe council is an example of how to build a <a href='http://www.wycombe.gov.uk/council-services/council-and-democracy/transparency-and-open-data.aspx' target='_blank'>simple, informative open data</a> page on your website. The page clearly displays the approriate licence, links to external guides and provides links to pages under well-described URIs that can be found by search engines. By following LGA guidance on their page, Wycombe has created a simple resource at a fraction of the cost of early adopters.</p>",
                "_graphic": {
-                   "src": "course/en/images/Leeds.jpg",
-                   "alt": "Improved service delivery",
-                   "title": "Improved service delivery",
-                   "*source":"https://www.fixmystreet.com/",
-                   "*credit":"fixmystreet",
-                   "*license":"unknown"
+                   "src": "course/en/images/wycombe.jpg",
+                   "alt": "Wycombe",
+                   "title": "Wycombe",
+                   "*source":"http://www.saveslatemeadow.co.uk/wp-content/uploads/2015/09/Wycombe-District-Council-624x435.jpg",
+                   "*credit":"Wycombe District Council",
+                   "*license":"All Rights Reserved"
                },
-               "strapline": "Leeds Council"
+               "strapline": "Wycombe"
            },
            {
-               "title": "North Somerset Council",
-               "body": "<p></p>",
+               "title": "Making it easy for users: North Somerset Council",
+               "body": "<p>North Somerset Council used LGA guidance to publish <a href='http://data.n-somerset.gov.uk/Download/All' target='_blank'>more than 50 datasets</a>  in the Datashare platform. North Somerset's publication of clean, usable data in a single location enabled developer Eros Digital to produce the <a href='http://discovernorthsomerset.co.uk/' target='_blank'>Discover North Somerset</a> site. The website consumes a wide range of open data from tousist sites and transport links to events and hotels. The site now supports the local tourist economy, a key source of income for the area. The North Somerset example also demonstrates how publishing data based on demand from local people can create instant, tangible results.</p>",
                "_graphic": {
-                   "src": "course/en/images/bristol.jpg",
-                   "alt": "Cost Savings",
-                   "title": "Cost Savings",
-                   "*source":"http://www.shutterstock.com/pic-75494491.html",
-                   "*credit":"vlastas",
-                   "*license":"Shutterstock Standard License"
+                 "src": "course/en/images/north-somerset.png",
+                   "alt": "North Somerset",
+                   "title": "North Somerset",
+                   "*source":"http://www.petebarrisw.co.uk/wp-content/uploads/2015/04/north-somerset.png",
+                   "*credit":"North Somerset Council",
+                   "*license":"All Rights Reserved"
                },
-               "strapline": "Cost Savings"
-           },
-           {
-               "title": "York Council",
-               "body": "<p></p>",
-               "_graphic": {
-                   "src": "course/en/images/sedgemoor.png",
-                   "alt": "Improved service delivery",
-                   "title": "Improved service delivery",
-                   "*source":"https://www.fixmystreet.com/",
-                   "*credit":"fixmystreet",
-                   "*license":"unknown"
-               },
-               "strapline": "Better public perception"
+               "strapline": "North Somerset"
            }
        ],
        "_pageLevelProgress": {
@@ -607,7 +594,7 @@
     },
     {
         "_id":"c-31",
-        "_parentId":"b-17",
+        "_parentId":"b-18",
         "_type":"component",
         "_component":"graphic",
         "_classes":"illustration",
@@ -615,9 +602,9 @@
         "_graphic": {
             "alt": "Legal considerations",
             "title": "",
-            "large": "course/en/images/odi-8.jpg",
-            "medium": "course/en/images/odi-8.jpg",
-            "small": "course/en/images/odi-8.jpg",
+            "large": "course/en/images/odi-6.jpg",
+            "medium": "course/en/images/odi-6.jpg",
+            "small": "course/en/images/odi-6.jpg",
             "*source":"http://www.shutterstock.com/pic-102447179.html",
             "*credit":"hoperan",
             "*license":"Shutterstock Standard License"

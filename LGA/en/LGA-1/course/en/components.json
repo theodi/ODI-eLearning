@@ -103,22 +103,22 @@
         {
           "alt": "The case for economic benefit",
           "title": "The case for economic benefit",
-          "body": "<p>The session explores recent changes in the definition of open data, and allow learners to understand why the current definition has been determined.</p><p>The session also examines a number of examples of open data impact from different fields and considers the potential for open data implementation</p>"
+          "body": "<p>To support the emergence of new data-driven businesses and the growth of existing ones, local authorities need to publish key datasets.</p><p>In return, authorities are seeing the benefit of local data economies that attractive investment, increase employment and deliver new value to the area.</p>"
         },
         {
           "alt": "The case for improved services",
           "title": "The case for improved services",
-          "body": "<p>Open data is still a developing field and those working within it will encounter a number of common problems. This sessions presents and clarifys the main challenges before examining the future of open data.</p>"
+          "body": "<p>Authorities need to balance the demands of growing populations with the need to tackle small-scale, local issues. In an era of unprecedented strain on local budgets, open data offers an opportunity to improve the quality of local services without the outlay of full service delivery by allowing creative people to build their own solutions.</p><p>The availability of detailed open data is essential to enabling new services at the local level.</p>"
         },
         {
           "alt": "The case for transparency",
           "title": "The case for transparency",
-          "body": "<p>This session begins by looking at how open licences are there to protect data publishers, while also unlocking value. We show how to build a machine readable open license that can be applied to any online content.</p><p>The session then continues by looking at the technical, legal, social and practical requirements for making different types of open data usable and some of the most relevant guidelines to support this process.</p>"
+          "body": "<p>Open data has become a key component of authorities' transparency work. Releases are also helping to make council operations simpler to understand and reducing the burden of FoI requests in popular areas such as spending and senior salaries.</p>"
         },
         {
-          "alt": "The case for innovation",
+          "alt": "The case for cost savings",
           "title": "The case for innovation",
-          "body": "<p>This session will introduce the importance of recent changes around open data modification rules which help combat data errors. We also introduce OpenRefine and how it improves data management by publishers.</p>"
+          "body": "<p>By growing economies, improving services and building greater transparency, open data allows authorities to identify additional savings in key areas, such as healthcare, education and utilities.</p><p>Open data helped reveal <a href='https://theodi.org/news/prescription-savings-worth-millions-identified-odi-incubated-company' target='_blank'>a £200 million potential saving</a> for the National Health Service and can highlight similar efficiencies at the local level.</p>"
         }
       ],
       "_pageLevelProgress": {
@@ -131,7 +131,7 @@
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
-        "_layout":"right",
+        "_layout":"left",
         "_graphic": {
             "alt": "What is open data?",
             "title": "What is open data?",
@@ -149,7 +149,7 @@
         "_type":"component",
         "_component":"text",
         "_classes":"",
-        "_layout":"left",
+        "_layout":"right",
         "title":"What about the costs of publication?",
         "displayTitle":"What about the costs of publication?",
         "body":"<p>Open data is usually free at the point of use.</p><p>The traditional justification for this free service has been that authorities produce their open data through the operation of taxpayer-funded services.</p><p>However, gathering and maintaining data always has a cost attached to it. For this reason, in some cases local authorities may need to charge the user a small fee to cover any costs associated with the data. For this data to qualify as open, the cost should be no more than the 'reasonable reproduction cost' of the data involved. Authorities can charge a fee to cover the costs of supporting a user's data request but should not charge a premium for the data.</p>"
@@ -241,13 +241,13 @@
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
-        "_layout":"right",
+        "_layout":"left",
         "_graphic": {
             "alt": "What is open data?",
             "title": "What is open data?",
-            "large": "course/en/images/odi-1-text-image_large.jpg",
-            "medium": "course/en/images/odi-1-text-image_large.jpg",
-            "small": "course/en/images/odi-1-text-image_large.jpg",
+            "large": "course/en/images/odi-5.jpg",
+            "medium": "course/en/images/odi-5.jpg",
+            "small": "course/en/images/odi-5.jpg",
             "*source":"http://www.shutterstock.com/pic.mhtml?id=179384507&src=lb-35924366",
             "*credit":"leromin",
             "*license":"Shutterstock Standard License"
@@ -259,7 +259,7 @@
         "_type":"component",
         "_component":"text",
         "_classes":"",
-        "_layout":"left",
+        "_layout":"right",
         "title":"How to publish your dataset: The licence",
         "displayTitle":"How to publish your dataset: The licence",
         "body":"<p>Once you know your dataset is published online, the most important thing is to place it under the correct licence. The licence is the only thing that can make your published data into open data. While local authorities can choose the licence they place on their dataset, we strongly recommend using the Open Government Licence (OGL) for all of your data. OGL is a simple, clear licence used by all government departments and many others. Placing one on your dataset takes only a few minutes. To apply your licence follow the link below.<br><a href='http://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/licensing-for-re-use/what-ogl-covers/' target='_blank'>Take me to the OGL page.</a></p>"
@@ -311,54 +311,54 @@
         "instruction": "<em class='desktop-instruction'>Click the forward arrow for more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
         "_items": [
             {
-                "title": "Support growing economies",
-                "body": "<p>To support the emergence of new data-driven businesses and the growth of existing ones, authorities are publishing key datasets to support local data economies.</p><p>In return, local governments are reaping the benefits of a growing data economy as in Leeds, where the 'Data Mill' platform has attracted more than 250 registered users including new businesses in tourism, schools and waste collection.</p><p><a href='http://www.local.gov.uk/documents/10180/6869714/Leeds+Data+Mill+Case+Study+Final.pdf/47ee5812-7477-4246-bc58-8ef58e667bcc>Take me to Leeds case study</a></p>",
+                "title": "Support growing economies: Leeds Council",
+                "body": "<p>Local governments are reaping the benefits of a growing data economy as in Leeds, where the Data Mill platform has attracted more than 250 registered users including new businesses in tourism, schools and waste collection.<br><a href='http://www.local.gov.uk/documents/10180/6869714/Leeds+Data+Mill+Case+Study+Final.pdf/47ee5812-7477-4246-bc58-8ef58e667bcc' target='_blank'>Take me to Leeds case study</a></p>",
                 "_graphic": {
-                    "src": "course/en/images/odi-002-narrative_large.jpg",
-                    "alt": "Support Growing Economies",
-                    "title": "Support Growing Economies",
+                    "src": "course/en/images/Leeds.jpg",
+                    "alt": "Leeds",
+                    "title": "Leeds",
                     "*source":"http://www.shutterstock.com/pic-128352227.html",
-                    "*credit":"vs148",
-                    "*license":"Shutterstock Standard License"
+                    "*credit":"Leeds",
+                    "*license":"All Rights Reserved"
                 },
                 "strapline": "Support Growing Economies"
             },
             {
-                "title": "Improved service delivery",
-                "body": "<p>Local authorities need to balance the demands of austerity with the need to tackle small-scale, local issues. In the absense of significant funding for non-frontline services, many authorities are using open data to improve the efficiency of their delivery.</p><p>The availability of detailed open data can improve delivery of services at the local level.</p><p>One example of this improved service delivery is the tourism initiative implemented by North Somerset council, who used open data to enable the production of a new website supporting the regional tourist economy <br /><a href='http://www.local.gov.uk/documents/10180/6869714/North+Somerset+Tourism+Data+Case+Study+Final.pdf/f2a94c14-8400-4a7d-af9a-baa0fc716681' target='_blank'>Take me to North Somerset case study</a></p>",
+                "title": "Improved service delivery : North Somerset Council",
+                "body": "<p>Local authorities need to balance the demands of austerity with the need to tackle small-scale, local issues. In the absense of significant funding for non-frontline services, many authorities are using open data to improve the efficiency of their delivery.</p><p>The availability of detailed open data can improve delivery of services at the local level.</p><p>One example of this improved service delivery is the tourism initiative implemented by North Somerset council, who used open data to enable the production of a new website supporting the regional tourist economy.<br><a href='http://www.local.gov.uk/documents/10180/6869714/North+Somerset+Tourism+Data+Case+Study+Final.pdf/f2a94c14-8400-4a7d-af9a-baa0fc716681' target='_blank'>Take me to North Somerset case study</a></p>",
                 "_graphic": {
-                    "src": "course/en/images/odi-003-narrative_large.jpg",
-                    "alt": "Improved service delivery",
-                    "title": "Improved service delivery",
+                    "src": "course/en/images/north-somerset.png",
+                    "alt": "North Somerset",
+                    "title": "North Somerset",
                     "*source":"https://www.fixmystreet.com/",
-                    "*credit":"fixmystreet",
-                    "*license":"unknown"
+                    "*credit":"North Somerset",
+                    "*license":"All Rights Reserved"
                 },
                 "strapline": "Improved service delivery"
             },
             {
-                "title": "Cost savings",
-                "body": "<p>By growing economies and improving services, open data allows local governments to make savings in key areas, like response to FoI requests and energy use.</p><p>In Windsor & Maidenhead council, real-time open data helped <a href='http://www.out-law.com/en/articles/2015/july/uk-government-minister-open-data-agenda-needs-to-go-viral/' target='_blank'>reduce energy spending in council buildings by 16%</a></p><p>In Carlisle, publication of real-time business rates has to significantly reduce Freedom of Information requests and is saving the council <a href='http://www.local.gov.uk/documents/10180/7206578/Carlisle+Evaluation+2015-06-24+final.pdf/35b37dca-cfdc-46d4-83f0-749366f583ab' target='_blank'>up to £15000 annually.</a></p>",
+                "title": "Cost savings: Windsor & Maidenhead Council",
+                "body": "<p>By growing economies and improving services, open data allows local governments to make savings in key areas, like response to FoI requests and energy use.</p><p>In Windsor & Maidenhead council, real-time open data helped reduce energy use in council buildings by 16%. In Carlisle, publication of real-time business rates has to significantly reduce Freedom of Information requests and is saving the council up to £15000 annually.<br><a href='http://www.out-law.com/en/articles/2015/july/uk-government-minister-open-data-agenda-needs-to-go-viral/' target='_blank'>Take me to the Windsor & Maidenhead case study.</a><br><a href='http://www.local.gov.uk/documents/10180/7206578/Carlisle+Evaluation+2015-06-24+final.pdf/35b37dca-cfdc-46d4-83f0-749366f583ab' target='_blank'>Take me to the Carlisle case study.</a></p>",
                 "_graphic": {
-                    "src": "course/en/images/odi-004-narrative_large.jpg",
-                    "alt": "Cost Savings",
-                    "title": "Cost Savings",
+                    "src": "course/en/images/windsor.jpg",
+                    "alt": "Windsor",
+                    "title": "Windsor",
                     "*source":"http://www.shutterstock.com/pic-75494491.html",
-                    "*credit":"vlastas",
-                    "*license":"Shutterstock Standard License"
+                    "*credit":"Windsor",
+                    "*license":"All Rights Reserved"
                 },
                 "strapline": "Cost Savings"
             },
             {
-                "title": "Better public perception",
-                "body": "<p>Authorities have the opportunity to improve their public perception and dialogue through the release of open data.</p><p>Open data helps support transparency and also has the potential to increase favourable press coverage through a growing number of data journalists.</p><p>Norfolk council is among those improving transparency around procurement processes through the release of  <br /><a href='http://www.local.gov.uk/documents/10180/6211662/Norfolk+Case+Study+formatted+final+25.1.16.pdf/dd25a35f-77b9-4c3d-8634-1631bacce1ef' target='_blank'>contract pipeline data</a></p>",
+                "title": "Better public perception: Norfolk Council",
+                "body": "<p>Authorities have the opportunity to improve their public perception and dialogue through the release of open data.</p><p>Open data helps support transparency and also has the potential to increase favourable press coverage through a growing number of data journalists.</p><p>Norfolk council is among those improving transparency around procurement processes through the release of contract pipeline data.<br><a href='http://www.local.gov.uk/documents/10180/6211662/Norfolk+Case+Study+formatted+final+25.1.16.pdf/dd25a35f-77b9-4c3d-8634-1631bacce1ef' target='_blank'>Take me to the Norfolk Case Study</a></p>",
                 "_graphic": {
-                    "src": "course/en/images/odi-8.png",
-                    "alt": "better public perce",
-                    "title": "Improved service delivery",
+                    "src": "course/en/images/Norfolk.jpg",
+                    "alt": "Norfolk",
+                    "title": "Norfolk",
                     "*source":"https://www.fixmystreet.com/",
-                    "*credit":"fixmystreet",
-                    "*license":"unknown"
+                    "*credit":"Norfolk",
+                    "*license":"All Rights Reserved"
                 },
                 "strapline": "Better public perception"
             }
@@ -643,33 +643,33 @@
         "_questionWeight":1,
         "_isRandom":true,
         "_selectable":1,
-        "title": "Bristol case study",
-        "displayTitle": "Bristol case study",
-        "body": "<p>What new post did Bristol council create to promote the use of its open data?</p>",
+        "title": "Norfolk case study",
+        "displayTitle": "Norfolk case study",
+        "body": "<p>What dataset helped Norfolk council improve its accessibility with local people?</p>",
         "instruction": "<em>Select an option, then click 'Submit'.</em>",
         "_items": [
             {
-                "text": "Chief data impact scientist",
+                "text": "Waterways availability data",
                 "_shouldBeSelected": false
             },
             {
-                "text": "Open data user specialist",
+                "text": "Parking fine data",
                 "_shouldBeSelected": false
             },
             {
-                "text": "Intelligent council programme manager",
+                "text": "Contract pipeline data",
                 "_shouldBeSelected": true
             }
         ],
         "_feedback":{
-            "correct":"<h5>That’s right!</h5><p>Bristol council has created the post of 'intelligent council programme manager' to make the best use of open data and ensure that the public, private and voluntary sectors can make the most of information</p>",
+            "correct":"<h5>That’s right!</h5><p>Norfolk's contract pipeline data is helping the council demonstrate openly how money is spent on local contracts.</p>",
             "_incorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>Bristol council has created the post of 'intelligent council programme manager' to make the best use of open data and ensure that the public, private and voluntary sectors can make the most of information</p>",
-                "final": "<h5>Are you sure about that?</h5><p>Bristol council has created the post of 'intelligent council programme manager' to make the best use of open data and ensure that the public, private and voluntary sectors can make the most of information</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>Norfolk's contract pipeline data is helping the council demonstrate openly how money is spent on local contracts.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>Norfolk's contract pipeline data is helping the council demonstrate openly how money is spent on local contracts.</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>Bristol council has created the post of 'intelligent council programme manager' to make the best use of open data and ensure that the public, private and voluntary sectors can make the most of information</p>",
-                "final": "<h5>Are you sure about that?</h5><p>Bristol council has created the post of 'intelligent council programme manager' to make the best use of open data and ensure that the public, private and voluntary sectors can make the most of information</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>Norfolk's contract pipeline data is helping the council demonstrate openly how money is spent on local contracts.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>Norfolk's contract pipeline data is helping the council demonstrate openly how money is spent on local contracts.</p>"
           }
         },
         "_buttons":{
@@ -707,9 +707,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"The benefits of open data publication",
-        "displayTitle":"The benefits of open data publication",
-        "body":"<p>Local authorities can access a range of benefits from publishing open data including cost savings on essential services, creation of local business hubs and better relationships with the public. In our next module we will examine the importance of publishing in consistent ways and how the LGA standards can make publishing simple and maximise results</p><a class='button inline-button' href='../'>Main menu</a><a class='button inline-button' href='../LGA-2/'>Next module</a>",
+        "title":"Making transparency work for you",
+        "displayTitle":"Making transparency work for you",
+        "body":"<p>Local authorities can access a range of benefits from publishing open data including cost savings on essential services, creation of local business hubs and better relationships with the public. In our next module we will examine how the LGA simple publication approaches can make the process of publishing easier and more rewarding.</p><a class='button inline-button' href='../'>Main menu</a><a class='button inline-button' href='../LGA-2/'>Next module</a>",
         "_pageLevelProgress": {
           "_isEnabled": true
         }
