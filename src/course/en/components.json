@@ -34,19 +34,44 @@
         }
     },
     {
-        "_id":"c-06",
+        "_id":"c-221",
         "_parentId":"b-03",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Welcome",
+        "displayTitle":"Welcome"
+    },
+    {
+        "_id":"c-222",
+        "_parentId":"b-03",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/burst-white.png",
+            "medium": "course/en/images/burst-white.png",
+            "small": "course/en/images/burst-white.png"
+        }
+    },
+    {
+        "_id":"c-06",
+        "_parentId":"b-04",
         "_type":"component",
         "_component":"text",
         "_classes":"",
         "_layout":"left",
         "title":"Earn your open data badges",
         "displayTitle":"Earn your open data badges",
-        "body":"This learning has be designed to take you on a journey. The first two badges have a logical progression. Once you have earnt your adventurer badge you can then choose your path to become either a planner, practictioner, or both!"
+        "body":"<p>This learning has been designed to give you the essential open data knowledge as well as the practical and strategic skills to get to grips with oepn data.</p><p>Your journey consists of 13 modules. As you complete these modules you can earn your open data badges.</p><p>There are four badges available which cover everything from the basics of open data, to how to plan and execute an open data project.</p><p>You can choose to take the modules in chronological order (available from the menu) or in badge order. Details of all the modules and your progress are available below.</p>"
     },
     {
         "_id":"c-05",
-        "_parentId":"b-03",
+        "_parentId":"b-04",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
@@ -84,9 +109,9 @@
         "_graphic": {
             "alt": "",
             "title": "",
-            "large": "adapt/css/assets/badges/pathfinder-black.png",
-            "medium": "adapt/css/assets/badges/pathfinder-black.png",
-            "small": "adapt/css/assets/badges/pathfinder-black.png"
+            "large": "course/en/images/odi-1-text-image_large.jpg",
+            "medium": "course/en/images/odi-1-text-image_large.jpg",
+            "small": "course/en/images/odi-1-text-image_large.jpg"
         }
     },
     {
@@ -96,10 +121,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Open data exploerer",
-        "displayTitle":"Pathfinder",
-	"instruction":"The basics",
-        "body":""
+        "title":"Open data pathfinder",
+        "displayTitle":"<svg class='badge-icon-sm'><image class='badge-icon-sm' xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='adapt/css/assets/badges/pathfinder-black.svg' src='adapt/css/assets/badges/pathfinder-black.png'></image></svg>Pathfinder",
+        "body":"<p>Discover what open data is, what the benefits are and how it can be used to create change.</p><p>Complete these first three modules to earn your pathfinder badge.</p><table class='nav-modules'><tr onClick='navGoModule(\"module1\")'><td class='nav-modules-title'><svg class='badge-icon-small'><image class='badge-icon-small' xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='adapt/css/assets/badges/pathfinder-black.svg' src='adapt/css/assets/badges/pathfinder-black.png'></image></svg>Pathfinder 1<br/><b>What is open data?</b></td><td class='nav-modules-go'><a class='course_link' href='module1'>Go to module</a></td></tr><tr onClick='navGoModule(\"module2\")'><td class='nav-modules-title'><svg class='badge-icon-small'><image class='badge-icon-small' xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='adapt/css/assets/badges/pathfinder-black.svg' src='adapt/css/assets/badges/pathfinder-black.png'></image></svg>Pathfinder 2<br/><b>Unlocking value from open data</b></td><td class='nav-modules-go'><a class='course_link' href='module2'>Go to module</a></td></tr><tr onClick='navGoModule(\"module3\")'><td class='nav-modules-title'><svg class='badge-icon-small'><image class='badge-icon-small' xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='adapt/css/assets/badges/pathfinder-black.svg' src='adapt/css/assets/badges/pathfinder-black.png'></image></svg>Pathfinder 3<br/><b>Open data. Agent of change.</b></td><td class='nav-modules-go'><a class='course_link' href='module3'>Go to module</a></td></tr></table>"
     },
     {
         "_id":"c-21",
@@ -111,9 +135,9 @@
         "_graphic": {
             "alt": "",
             "title": "",
-            "large": "adapt/css/assets/badges/adventurer.png",
-            "medium": "adapt/css/assets/badges/adventurer.png",
-            "small": "adapt/css/assets/badges/adventurer.png"
+            "large": "course/en/images/odi-6-text-image_large.jpg",
+            "medium": "course/en/images/odi-6-text-image_large.jpg",
+            "small": "course/en/images/odi-6-text-image_large.jpg"
         }
     },
     {
@@ -123,10 +147,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"right",
-        "title":"Open data adventurer",
-        "displayTitle":"Adventurer",
-	"instruction":"The essentials",
-        "body":""
+        "title":"Adventurer",
+        "displayTitle":"<svg class='badge-icon-sm'><image class='badge-icon-sm' xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='adapt/css/assets/badges/adventurer.svg' src='adapt/css/assets/badges/adventurer.png'></image></svg>Adventurer",
+        "body":"<p>Recongise the underlying principals that make open data successful. Learn how to license open data, assess quality and measure success.</p><p>Complete these three modules to earn your adventurer badge.</p><table class='nav-modules'><tr onClick='navGoModule(\"module4\")'><td class='nav-modules-title'><svg class='badge-icon-small'><image class='badge-icon-small' xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='adapt/css/assets/badges/adventurer.svg' src='adapt/css/assets/badges/adventurer.png'></image></svg>Adventurer 1<br/><b>Why do we need to license?</b></td><td class='nav-modules-go'><a class='course_link' href='module4'>Go to module</a></td></tr><tr onClick='navGoModule(\"module5\")'><td class='nav-modules-title'><svg class='badge-icon-small'><image class='badge-icon-small' xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='adapt/css/assets/badges/adventurer.svg' src='adapt/css/assets/badges/adventurer.png'></image></svg>Adventurer 2<br/><b>What makes quality open data?</b></td><td class='nav-modules-go'><a class='course_link' href='module5'>Go to module</a></td></tr><tr onClick='navGoModule(\"module6\")'><td class='nav-modules-title'><svg class='badge-icon-small'><image class='badge-icon-small' xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='adapt/css/assets/badges/adventurer.svg' src='adapt/css/assets/badges/adventurer.png'></image></svg>Adventurer 3<br/><b>Measuring success for open data</b></td><td class='nav-modules-go'><a class='course_link' href='module6'>Go to module</a></td></tr></table>"
     },
     {
         "_id":"c-25",
@@ -138,9 +161,9 @@
         "_graphic": {
             "alt": "",
             "title": "",
-            "large": "adapt/css/assets/badges/planner-black.png",
-            "medium": "adapt/css/assets/badges/planner-black.png",
-            "small": "adapt/css/assets/badges/planner-black.png"
+            "large": "course/en/images/odi-8-text-image_large.jpg",
+            "medium": "course/en/images/odi-8-text-image_large.jpg",
+            "small": "course/en/images/odi-8-text-image_large.jpg"
         }
     },
     {
@@ -151,36 +174,34 @@
         "_classes":"",
         "_layout":"left",
         "title":"Open data planner",
-        "displayTitle":"Planner",
-	"instruction":"Taking action",
-        "body":""
+        "displayTitle":"<svg class='badge-icon-sm'><image class='badge-icon-sm' xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='adapt/css/assets/badges/planner-black.svg' src='adapt/css/assets/badges/planner-black.png'></image></svg>Planner",
+        "body":"<p>Get started on your open data strategy by assessing the potential of your data and learning where to go next. Complete these three modules to become an open data planner.</p><p><table class='nav-modules'><tr onClick='navGoModule(\"module7\")'><td class='nav-modules-title'><svg class='badge-icon-small'><image class='badge-icon-small' xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='adapt/css/assets/badges/planner-black.svg' src='adapt/css/assets/badges/planner-black.png'></image></svg>Planner 1<br/><b>Why should we worry about sustainability?</b></td><td class='nav-modules-go'><a class='course_link' href='module7'>Go to module</a></td></tr><tr onClick='navGoModule(\"module10\")'><td class='nav-modules-title'><svg class='badge-icon-small'><image class='badge-icon-small' xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='adapt/css/assets/badges/planner-black.svg' src='adapt/css/assets/badges/planner-black.png'></image></svg>Planner 2<br/><b>How useful is my data?</b></td><td class='nav-modules-go'><a class='course_link' href='module10'>Go to module</a></td></tr><tr onClick='navGoModule(\"module13\")'><td class='nav-modules-title'><svg class='badge-icon-small'><image class='badge-icon-small' xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='adapt/css/assets/badges/planner-black.svg' src='adapt/css/assets/badges/planner-black.png'></image></svg>Planner 3<br/><b>Linking up the web of data</b></td><td class='nav-modules-go'><a class='course_link' href='module13'>Go to module</a></td></tr></table>"    
     },
     {
         "_id":"c-28",
+        "_parentId":"b-28",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/odi-12-text-image_large.jpg",
+            "medium": "course/en/images/odi-12-text-image_large.jpg",
+            "small": "course/en/images/odi-12-text-image_large.jpg"
+        }
+    },
+    {
+        "_id":"c-29",
         "_parentId":"b-28",
         "_type":"component",
         "_component":"text",
         "_classes":"",
         "_layout":"right",
         "title":"Open data technician",
-        "displayTitle":"Technician",
-	"instruction":"Getting hands on",
-        "body":""
-    },
-    {
-        "_id":"c-29",
-        "_parentId":"b-28",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"right",
-        "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "adapt/css/assets/badges/technician.png",
-            "medium": "adapt/css/assets/badges/technician.png",
-            "small": "adapt/css/assets/badges/technician.png"
-        }
+        "displayTitle":"<svg class='badge-icon-sm'><image class='badge-icon-sm' xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='adapt/css/assets/badges/technician.svg' src='adapt/css/assets/badges/technician.png'></image></svg>Technician",
+        "body":"<p>Learn the best practice skills in publishing and using high quality data.</p><p>Complete these four modules to earn your technician badge.</p><p><table class='nav-modules'><tr onClick='navGoModule(\"module8\")'><td class='nav-modules-title'><svg class='badge-icon-small'><image class='badge-icon-small' xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='adapt/css/assets/badges/technician.svg' src='adapt/css/assets/badges/technician.png'></image></svg>Technician 1<br/><b>Getting to grips with platforms</b></td><td class='nav-modules-go'><a class='course_link' href='module8'>Go to module</a></td></tr><tr onClick='navGoModule(\"module9\")'><td class='nav-modules-title'><svg class='badge-icon-small'><image class='badge-icon-small' xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='adapt/css/assets/badges/technician.svg' src='adapt/css/assets/badges/technician.png'></image></svg>Technician 2<br/><b>Choosing the right format for open data</b></td><td class='nav-modules-go'><a class='course_link' href='module9'>Go to module</a></td></tr><tr onClick='navGoModule(\"module11\")'><td class='nav-modules-title'><svg class='badge-icon-small'><image class='badge-icon-small' xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='adapt/css/assets/badges/technician.svg' src='adapt/css/assets/badges/technician.png'></image></svg>Technician 3<br/><b>How to clean your data</b></td><td class='nav-modules-go'><a class='course_link' href='module11'>Go to module</a></td></tr><tr onClick='navGoModule(\"module12\")'><td class='nav-modules-title'><svg class='badge-icon-small'><image class='badge-icon-small' xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='adapt/css/assets/badges/technician.svg' src='adapt/css/assets/badges/technician.png'></image></svg>Technician 4<br/><b>Finding hidden data on the web</b></td><td class='nav-modules-go'><a class='course_link' href='module12'>Go to module</a></td></tr></table>"
     },
     {
         "_id":"c-151",
