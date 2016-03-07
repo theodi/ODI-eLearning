@@ -32,6 +32,7 @@ echo ""
 echo "Updating navigation links"
 echo ""
 sed -i -e "s/\.\.\///g" src/course/$1/course.json
+sed -i -e "s/\.\.\/index.html/index.html/g" src/theme/$THEME/templates/navigation.hbs
 
 echo "Moving config into pace"
 echo ""
@@ -80,6 +81,7 @@ grunt build --theme=default
 echo "Restoring structure";
 `rm -fR src/course/*`
 `mv tmp/* src/course/`
+sed -i -e "s/index.html/\.\.\/index.html/g" src/theme/$THEME/templates/navigation.hbs
 sed -i -e "s/course\/$1\/images/course\/en\/images/g" src/theme/default/less/header.less
 sed -i -e "s/bcountry-select/country-select/g" src/theme/default/templates/navigation.hbs
 sed -i -e "s/<script type=\"text\/javascript\" src=\"cordova.js\"><\/script><script type=\"text\/javascript\" src=\"cordova-odi.js\"><\/script>//g" src/index.html

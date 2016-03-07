@@ -42,6 +42,7 @@ echo ""
 echo "Updating navigation links"
 echo ""
 sed -i -e "s/\.\.\///g" src/course/$2/course.json
+sed -i -e "s/\.\.\/index.html/index.html/g" src/theme/$THEME/templates/navigation.hbs
 
 echo "Moving config into pace"
 echo ""
@@ -71,6 +72,8 @@ echo "Restoring structure";
 `rm -fR src/course/*`
 `mv tmp/* src/course/`
 sed -i -e "s/course\/$2\/images/course\/en\/images/g" src/theme/$THEME/less/header.less
+sed -i -e "s/index.html/\.\.\/index.html/g" src/theme/$THEME/templates/navigation.hbs
+
 if [ $REMOVE ]; then
 	echo "removing theme components"
 	`rm src/theme/$THEME/less/custom.less`
