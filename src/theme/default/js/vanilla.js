@@ -46,18 +46,23 @@ function addListeners() {
 	}
 }
 
+function validateEmail(email) {
+    var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(email);
+}
+
 function getEmail() {
 	email = $("input[id='email']").val();
-	localStorage.setItem("email",email);
-	if (moduleId == "ODI_welcome") {
-		window.location.href = "../index.html";
-	} else {
+	if (validateEmail(email)) {
+		localStorage.setItem("email",email);
 		emailSave(email);
 	}
-	
 }
 
 function emailSave(email) {
+	if (email == "" || !email) {
+		return;
+	}
 	localStorage.setItem("email",email);
 	$('#save-section').fadeOut( function() {
     		var sl = document.getElementById('save-section');

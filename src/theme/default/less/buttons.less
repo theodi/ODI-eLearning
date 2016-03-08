@@ -1,15 +1,30 @@
 // Button styling
 // ==============
-
+.extension-tutor .tutor-done {
+	.course_link {
+	    padding-top: 10px;
+	    padding-right: 10px;
+	}
+}
 .course_link {
-  border: 1px solid lightblue;
-  background-color: lightblue;
+  border: 1px solid #ed39aa;
+  background-color: #ed39aa;
   padding: 10px;
   text-decoration: none;
   font-size: inherit;
   font-family: inherit;
+  color: white;
 }
-
+.block {
+    // Inverted styles
+    &.inverted, &.summary, &.footer {
+	.course_link {
+		border: 1px solid white;
+		background-color: white;
+		color: #ed39aa;
+	}
+    }
+}
 .button {
     margin-top:@button-margin-top;
     margin-bottom:@button-margin-bottom;
