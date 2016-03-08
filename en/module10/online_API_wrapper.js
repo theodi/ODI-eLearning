@@ -123,7 +123,7 @@ function updateBadgeOverall(badge_progression,level) {
 function updateProgress() {
 //	var frame = document.getElementById('contentFrame').contentDocument;
 	miniProgressUpdate();
-	for (i=1;i<13;i++) {
+	for (i=1;i<14;i++) {
 		key = "ODI_" + i + "_cmi.suspend_data";
     		try {
 			value = localStorage.getItem(key);
@@ -133,15 +133,14 @@ function updateProgress() {
 			complete = completion.match(/1/g || []).length;	
 			percent = Math.round((complete/total) * 100);
 			//document.getElementById('ODI_' + i).setAttribute('value',percent);
-			if (percent > 0) {
-				document.getElementById('ODI_' + i + '_tick').innerHTML = percent + "%";
-			}
+			document.getElementById('ODI_' + i + '_tick').innerHTML = percent + "%";
 			if (percent == 100) {
 				document.getElementById('ODI_' + i + '_tick').innerHTML = "✔";
 				mods_done[i] = true;
 			}
 		}
 		catch(err) {
+			document.getElementById('ODI_' + i + '_tick').innerHTML = "0%";
 		}
 	}
 	badges = localStorage.getItem("ODI_Badges");
