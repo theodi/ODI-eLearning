@@ -92,7 +92,7 @@
         "_layout":"right",
         "title":"Why does consistency matter?",
         "displayTitle":"Why does consistency matter?",
-        "body":"<p>Open data needs to be simple for anyone to use, whether for a new app, a study or just to gain a deeper understanding of the subject.</p><p>The greatest use comes when the same type of data is <b>consistent</b> across different publishers. An application that tells you where local toilets are should be able to work everywhere, not just in one town. Consistancy is also important because it allows you to combine your data with that of other authorities for internal use.</p><p>For publishers in local authorities, making data available in a consistent format is the best way to make your open data useful both internally and to others.</p>"
+        "body":"<p>Open data needs to be simple for anyone to use, whether for a new app, a study or just to gain a deeper understanding of the subject.</p><p>The greatest use comes when the same type of data is <b>consistent</b> across different publishers. An application that tells you where local toilets are should be able to work everywhere, not just in one town. Consistency is also important because it allows you to combine your data with that of other authorities for internal use.</p><p>For publishers in local authorities, making data available in a consistent format is the best way to make your open data useful both internally and to others.</p>"
     },
     {
         "_id":"c-7",
@@ -121,7 +121,7 @@
         "_layout":"left",
         "title":"Is the quality of my dataset suitable for publication?",
         "displayTitle":"Is the quality of my dataset suitable for publication?",
-        "body":"<p>The better the quality of your datasets, the better the results from users. Unfortuntely, errors and inconsistancies will always occur in data. Common errors include duplicated entries, missing data, inconsistent use of abbreviations, spelling mistakes and different data formats. In the next section you can find out how to spot these errors in your own data.</p><p>Fortunately there are free, purpose-built cleaning tools designed to deal with messy data. We recommend OpenRefine which can help you quickly and securely clean large datasets. Unlike Excel and other spreadsheet programmes, OpenRefine allows you to record the changes you make and can even automatically apply cleaning functions to other datasets. Importantly, you can share your record of changes with everyone, including other staff, so that your colleagues can benefit from your cleaning.</p><p>To get started with OpenRefine, <a class='course_link' href='http://training.theodi.org/resources/Cleaning_Exercise.pdf' target='_blank'>follow our exercise here.</a></p>"
+        "body":"<p>The better the quality of your datasets, the better the results from users. Unfortunately, errors and inconsistencies will always occur in data. Common errors include duplicate entries, missing data, inconsistent use of abbreviations, spelling mistakes and different data formats. In the next section you can find out how to spot these errors in your own data.</p><p>Fortunately there are free, purpose-built cleaning tools designed to deal with messy data. We recommend OpenRefine which can help you quickly and securely clean large datasets. Unlike Excel and other spreadsheet programmes, OpenRefine allows you to record the changes you make and can even automatically apply cleaning functions to other datasets. Importantly, you can share your record of changes with everyone, including other staff, so that your colleagues can benefit from your cleaning.</p><p>To get started with OpenRefine, <a class='course_link' href='http://training.theodi.org/resources/Cleaning_Exercise.pdf' target='_blank'>follow our exercise here.</a></p>"
     },
         {
         "_id":"c-9",
@@ -264,7 +264,7 @@
         {
           "alt": "Include links across your site",
           "title": "3. Include links across your site",
-          "body": "<p>Once the data has a home, people need to find it. It is unlikely that everyone will discover your data by browsing to it directly. Most of your users will search (using a search engine) and hit some page on your (or someone else's) website. It is important to include links to the data on all relevent pages where data has been used to help people navigate their way to the raw data.</p>"
+          "body": "<p>Once the data has a home, people need to find it. It is unlikely that everyone will discover your data by browsing to it directly. Most of your users will search (using a search engine) and hit some page on your (or someone else's) website. It is important to include links to the data on all relevant pages where data has been used to help people navigate their way to the raw data.</p>"
         },
         {
           "alt": "Optimise your data for search engines",
@@ -303,15 +303,15 @@
       "_component":"accordion",
       "_classes":"",
       "_layout":"right",
-      "title": "How to publish your dataset: Improving visibility",
-      "displayTitle": "How to publish your dataset: Improving visibility",
+      "title": "How to publish your dataset: improving visibility",
+      "displayTitle": "How to publish your dataset: improving visibility",
       "body": "",
       "instruction": "<em>Follow the steps below to make your open data easier for people to find and use.</em>",
       "_items": [
         {
           "alt": "Provide a consistent location",
           "title": "1. Provide a consistent location",
-          "body": "<p>You should provide your data through a series of reliable and consistant web addresses (called Uniform Resource Identifiers or URIs). We reccomend using two URIs for any dataset you publish.</p><p>The primary URI should use the LGA's directory of common identifiers to refer to your local authority. You can use the <a href='http://uris.opendata.esd.org.uk/' target='_blank'>LGA directory</a> to look up the correct code for your authority in seconds.</p><p>The secondary URI should be more informative and point to the primary. For example, a dataset from Hampshire county council about senior salaries might be accessible from 'http://www3.hants.gov.uk/opendata/datasets/senior-salaries.htm'. This second URI lets anyone read what the dataset is before they navigate to it.</p>"
+          "body": "<p>You should provide your data through a series of reliable and consistent web addresses (called Uniform Resource Identifiers or URIs). We recommend using two URIs for any dataset you publish.</p><p>The primary URI should use the LGA's directory of common identifiers to refer to your local authority. You can use the <a href='http://uris.opendata.esd.org.uk/' target='_blank'>LGA directory</a> to look up the correct code for your authority in seconds.</p><p>The secondary URI should be more informative and point to the primary. For example, a dataset from Hampshire county council about senior salaries might be accessible from 'http://www3.hants.gov.uk/opendata/datasets/senior-salaries.htm'. This second URI lets anyone read what the dataset is before they navigate to it.</p>"
         },
         {
           "alt": "Register the dataset in a catalogue",
@@ -366,12 +366,12 @@
        "_component": "dynamic-narrative",
        "title": "The benefits of publishing open data consistently - Local authority case studies",
        "displayTitle": "The benefits of publishing open data consistently - Local authority case studies",
-       "body": "<p>Local authorities have already seen benefits of following the consistent approaches above when publishing open data. The LGA keeps an extenisve collection of <a href='http://www.local.gov.uk/local-transparency/-/journal_content/56/10180/4049888/ARTICLE' target='_blank'>case studies</a> that catalogue these impacts. Below are some examples of local authority benefits.</p>",
+       "body": "<p>Local authorities have already seen benefits of following the consistent approaches above when publishing open data. The LGA keeps an extensive collection of <a href='http://www.local.gov.uk/local-transparency/-/journal_content/56/10180/4049888/ARTICLE' target='_blank'>case studies</a> that catalogue these impacts. Below are some examples of local authority benefits.</p>",
        "instruction": "<em class='desktop-instruction'>Click the forward arrow for more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
        "_items": [
            {
                "title": "Learning from others: Barnet Council",
-               "body": "<p>Barnet Council in north London is a diverse metropolitan authority. A relative latecomer to open data publishing, Barnet was able to benefit from the LGA's extensive case studies into open data publication to avoid some of the mistakes of early adopters. Using LGA, publishing guidelines, Barnet has now created a dedicated open data platform using Datapress. The platform currently hosts in excess of 180 datasets for the local area. Following LGA publishing guidelines helped Barnet save staff time and money by simplifying publishing processes. To discover more about Barnet's experience read their <a href='http://www.local.gov.uk/documents/10180/11655/Barnet+2014-08-22+Open+Data+Breakthrough+Evaluation+Final.pdf/ae8272e0-0256-4e86-a6dc-348b462da7e0' target='_blank'>case study</a> or visit their <a href='http://open.barnet.gov.uk/' target='_blank'>open data portal</a></p>",
+               "body": "<p>Barnet Council in north London is a diverse metropolitan authority. A relative latecomer to open data publishing, Barnet was able to benefit from the LGA's extensive case studies into open data publication to avoid some of the mistakes of early adopters. Using LGA, publishing guidelines, Barnet has now created a dedicated open data platform using Datapress. The platform currently hosts in excess of 180 datasets for the local area. Following LGA publishing guidelines helped Barnet save staff time and money by simplifying publishing processes. To discover more about Barnet's experience read their <a href='http://www.local.gov.uk/documents/10180/11655/Barnet+2014-08-22+Open+Data+Breakthrough+Evaluation+Final.pdf/ae8272e0-0256-4e86-a6dc-348b462da7e0' target='_blank'>case study</a> or visit their <a href='http://open.barnet.gov.uk/' target='_blank'>open data portal.</a></p>",
                "_graphic": {
                   "src": "course/en/images/barnet.png",
                    "alt": "Barnet",
@@ -384,7 +384,7 @@
            },
            {
                "title": "Building a simple data page: Wycombe District Council",
-               "body": "<p>Wycombe council is an example of how to build a <a href='http://www.wycombe.gov.uk/council-services/council-and-democracy/transparency-and-open-data.aspx' target='_blank'>simple, informative open data</a> page on your website. The page clearly displays the approriate licence, links to external guides and provides links to pages under well-described URIs that can be found by search engines. By following LGA guidance on their page, Wycombe has created a simple resource at a fraction of the cost of early adopters.</p>",
+               "body": "<p>Wycombe council is an example of how to build a <a href='http://www.wycombe.gov.uk/council-services/council-and-democracy/transparency-and-open-data.aspx' target='_blank'>simple, informative open data</a> page on your website. The page clearly displays the appropriate licence, links to external guides and provides links to pages under well-described URIs that can be found by search engines. By following LGA guidance on their page, Wycombe has created a simple resource at a fraction of the cost of early adopters.</p>",
                "_graphic": {
                    "src": "course/en/images/wycombe.jpg",
                    "alt": "Wycombe",
@@ -397,7 +397,7 @@
            },
            {
                "title": "Making it easy for users: North Somerset Council",
-               "body": "<p>North Somerset Council used LGA guidance to publish <a href='http://data.n-somerset.gov.uk/Download/All' target='_blank'>more than 50 datasets</a>  in the Datashare platform. North Somerset's publication of clean, usable data in a single location enabled developer Eros Digital to produce the <a href='http://discovernorthsomerset.co.uk/' target='_blank'>Discover North Somerset</a> site. The website consumes a wide range of open data from tousist sites and transport links to events and hotels. The site now supports the local tourist economy, a key source of income for the area. The North Somerset example also demonstrates how publishing data based on demand from local people can create instant, tangible results.</p>",
+               "body": "<p>North Somerset Council used LGA guidance to publish <a href='http://data.n-somerset.gov.uk/Download/All' target='_blank'>more than 50 datasets</a>  in the Datashare platform. North Somerset's publication of clean, usable data in a single location enabled developer Eros Digital to produce the <a href='http://discovernorthsomerset.co.uk/' target='_blank'>Discover North Somerset</a> site. The website consumes a wide range of open data from tourist sites and transport links to events and hotels. The site now supports the local tourist economy, a key source of income for the area. The North Somerset example also demonstrates how publishing data based on demand from local people can create instant, tangible results.</p>",
                "_graphic": {
                  "src": "course/en/images/north-somerset.png",
                    "alt": "North Somerset",
@@ -763,7 +763,7 @@
         "_layout":"left",
         "title":"Make publishing work for you",
         "displayTitle":"Make publishing work for you",
-        "body":"<p>In this module we have explored how to publishing consistent, high-quality open data for your authority. Follow the guidance above and you will produce highly usable data which can generate signifiact impact for your authority as well as saving you time and money</p><p>In our next and final module, we will look at where you can find the best examples of authorities who have followed this guidance and see how their publication helped them acheive results.</p><a class='button inline-button' href='../'>Main menu</a><a class='button inline-button' href='../LGA-3/'>Next module</a>",
+        "body":"<p>In this module we have explored how to publishing consistent, high-quality open data for your authority. Follow the guidance above and you will produce highly usable data which can generate significant impact for your authority as well as saving you time and money</p><p>In our next and final module, we will look at where you can find the best examples of authorities who have followed this guidance and see how their publication helped them achieve results.</p><a class='button inline-button' href='../'>Main menu</a><a class='button inline-button' href='../LGA-3/'>Next module</a>",
         "_pageLevelProgress": {
           "_isEnabled": true
         }
