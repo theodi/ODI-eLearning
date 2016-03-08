@@ -86,9 +86,6 @@
 .nav-modules-title {
     padding-left: 10px;
     width: 70%;
-    @media all and (max-width:(@device-width-medium - 1px)) {
-	width: 100%;
-    }
 }
 .nav-modules-title b {
     text-decoration: underline;
@@ -96,10 +93,20 @@
 .nav-modules-go {
     vertical-align: middle;
     text-align: middle;
-    @media all and (max-width:(@device-width-medium - 1px)) {
-	display: none;
-    }
+    min-width: 104px;
 }
 .pathway img {
 	max-height: 500px;
+}
+.mod_arrow {
+	font-size: 2em;
+	position: relative;
+	top: 4px;
+}
+.mod_tick {
+	min-width: 50px;
+	display: inline-block;
+	font-size: 1.2em;
+	vertical-align: middle;
+	text-align: center;
 }
