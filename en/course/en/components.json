@@ -34,22 +34,47 @@
         }
     },
     {
-        "_id":"c-06",
+        "_id":"c-221",
         "_parentId":"b-03",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Welcome",
+        "displayTitle":"Welcome"
+    },
+    {
+        "_id":"c-222",
+        "_parentId":"b-03",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/burst-white.png",
+            "medium": "course/en/images/burst-white.png",
+            "small": "course/en/images/burst-white.png"
+        }
+    },
+    {
+        "_id":"c-06",
+        "_parentId":"b-04",
         "_type":"component",
         "_component":"text",
         "_classes":"",
         "_layout":"left",
         "title":"Earn your open data badges",
         "displayTitle":"Earn your open data badges",
-        "body":"This learning has be designed to take you on a journey. The first two badges have a logical progression. Once you have earnt your adventurer badge you can then choose your path to become either a planner, practictioner, or both!"
+        "body":"<p>ODI Learning is designed to ground you with the fundamental knowledge that you need to get to grips with open data.</p><p>Your journey consists of 13 modules. As you complete these modules, you will be awarded for your progress with open data badges.</p><p>There are four badges available which recognise your understanding of the benefits, the practicalities and the skills needed to plan and execute an open data project.</p><p>You can choose to take the modules in chronological order (available from the menu) or in badge order if you want to focus on a particular skill. Details of all the badges and your progress through the modules can be viewed below.</p>"
     },
     {
         "_id":"c-05",
-        "_parentId":"b-03",
+        "_parentId":"b-04",
         "_type":"component",
         "_component":"graphic",
-        "_classes":"",
+        "_classes":"pathway",
         "_layout":"right",
         "_graphic": {
             "alt": "",
@@ -64,15 +89,12 @@
         "_parentId":"b-05",
         "_type":"component",
         "_component":"text",
-        "_classes":"",
+        "_classes":"section-banner",
         "_layout":"full",
-        "title":"Earn your open data badges",
-        "displayTitle":"Earn your open data badges",
-        "body":"<div class='progress-badge' id='pathfinder-badge'><svg class='user-badge' ><image class='user-badge' xlink:href='adapt/css/assets/badges/pathfinder.svg' src='adapt/css/assets/badges/pathfinder.png'  /></svg><br/>Pathfinder<br/><span class='badge-progress-overall' id='pathfinder-overall'>-</span><table class='badge-progress-table'><tr><td class='progress-table-mod-name'>Path 1</td><td class='progress-table-complete' id='ODI_1_tick'>-</td></tr><tr><td class='progress-table-mod-name'>Path 2</td><td class='progress-table-complete' id='ODI_2_tick'>-</td></tr><tr><td class='progress-table-mod-name'>Path 3</td><td class='progress-table-complete' id='ODI_3_tick'>-</td></tr></table></div><div id='adventurer-badge' class='progress-badge'><svg class='user-badge' ><image class='user-badge' xlink:href='adapt/css/assets/badges/adventurer.svg' src='adapt/css/assets/badges/adventurer.png'  /></svg><br/>Adventurer<br/><span class='badge-progress-overall' id='adventurer-overall'>-</span><table class='badge-progress-table'><tr><td class='progress-table-mod-name'>Adv 1</td><td class='progress-table-complete' id='ODI_4_tick'>-</td></tr><tr><td class='progress-table-mod-name'>Adv 2</td><td class='progress-table-complete' id='ODI_5_tick'>-</td></tr><tr><td class='progress-table-mod-name'>Adv 3</td><td class='progress-table-complete' id='ODI_6_tick'>-</td></tr></table></div><div id='planner-badge' class='progress-badge'><svg class='user-badge' ><image class='user-badge' xlink:href='adapt/css/assets/badges/planner.svg' src='adapt/css/assets/badges/planner.png'  /></svg><br/>Planner<br/><span class='badge-progress-overall' id='planner-overall'>-</span><table class='badge-progress-table'><tr><td class='progress-table-mod-name'>Plan 1</td><td class='progress-table-complete' id='ODI_7_tick'>-</td></tr><tr><td class='progress-table-mod-name'>Plan 2</td><td class='progress-table-complete' id='ODI_10_tick'>-</td></tr><tr><td class='progress-table-mod-name'>Plan 3</td><td class='progress-table-complete' id='ODI_13_tick'>-</td></tr></table></div><div id='technician-badge' class='progress-badge'><svg class='user-badge' ><image class='user-badge' xlink:href='adapt/css/assets/badges/technician.svg' src='adapt/css/assets/badges/technician.png'  /></svg><br/>Technician<br/><span class='badge-progress-overall' id='technician-overall'>-</span><table class='badge-progress-table'><tr><td class='progress-table-mod-name'>Tech 1</td><td class='progress-table-complete' id='ODI_8_tick'>-</td></tr><tr><td class='progress-table-mod-name'>Tech 2</td><td class='progress-table-complete' id='ODI_9_tick'>-</td></tr><tr><td class='progress-table-mod-name'>Tech 3</td><td class='progress-table-complete' id='ODI_11_tick'>-</td></tr><tr><td class='progress-table-mod-name'>Tech 4</td><td class='progress-table-complete' id='ODI_12_tick'>-</td></tr></table></div>",
-        "instruction":"As you complete each lesson you will earn credits towards your open data badges. Track you progress here or from the menu.",
-        "_pageLevelProgress": {
-            "_isEnabled": true
-        }
+        "title":"Track your progress",
+        "displayTitle":"Track your progress",
+        "body":"<div onClick='$(window).scrollTo(\".b-10\");' class='progress-badge' id='pathfinder-badge'><object onClick='$(window).scrollTo(\".b-10\");' class='user-badge' data='adapt/css/assets/badges/pathfinder.svg' type='image/svg+xml'><svg onClick='$(window).scrollTo(\".b-10\");' xmlns='http://www.w3.org/2000/svg' version='1.1' class='user-badge' ><image onClick='$(window).scrollTo(\".b-10\");' class='user-badge' xlink:href='adapt/css/assets/badges/pathfinder.svg' src='adapt/css/assets/badges/pathfinder.png'  /></svg></object><br/>Pathfinder<br/><span class='badge-progress-overall' id='pathfinder-overall'>-</span></div><div onClick='$(window).scrollTo(\".b-20\");' id='adventurer-badge' class='progress-badge'><object onClick='$(window).scrollTo(\".b-20\");' type='image/svg+xml' class='user-badge' data='adapt/css/assets/badges/adventurer.svg'><svg onClick='$(window).scrollTo(\".b-20\");' xmlns='http://www.w3.org/2000/svg' version='1.1' class='user-badge' ><image onClick='$(window).scrollTo(\".b-20\");' class='user-badge' xlink:href='adapt/css/assets/badges/adventurer.svg' src='adapt/css/assets/badges/adventurer.png'  /></svg></object><br/>Adventurer<br/><span class='badge-progress-overall' id='adventurer-overall'>-</span></div><div onClick='$(window).scrollTo(\".b-25\");' id='planner-badge' class='progress-badge'><object onClick='$(window).scrollTo(\".b-25\");' type='image/svg+xml' class='user-badge' data='adapt/css/assets/badges/planner.svg'><svg onClick='$(window).scrollTo(\".b-25\");' xmlns='http://www.w3.org/2000/svg' version='1.1' class='user-badge' ><image onClick='$(window).scrollTo(\".b-25\");' class='user-badge' xlink:href='adapt/css/assets/badges/planner.svg' src='adapt/css/assets/badges/planner.png'  /></svg></object><br/>Planner<br/><span class='badge-progress-overall' id='planner-overall'>-</span></div><div onClick='$(window).scrollTo(\".b-28\");' id='technician-badge' class='progress-badge'><object onClick='$(window).scrollTo(\".b-28\");' type='image/svg+xml' class='user-badge' data='adapt/css/assets/badges/technician.svg'><svg onClick='$(window).scrollTo(\".b-28\");' xmlns='http://www.w3.org/2000/svg' version='1.1' class='user-badge' ><image onClick='$(window).scrollTo(\".b-28\");' class='user-badge' xlink:href='adapt/css/assets/badges/technician.svg' src='adapt/css/assets/badges/technician.png'  /></svg></object><br/>Technician<br/><span class='badge-progress-overall' id='technician-overall'>-</span></div>",
+        "instruction":"As you complete each lesson you will earn credits towards your open data badges. Track your progress here or from the menu."
     },
     {
         "_id":"c-11",
@@ -84,9 +106,9 @@
         "_graphic": {
             "alt": "",
             "title": "",
-            "large": "adapt/css/assets/badges/pathfinder-black.png",
-            "medium": "adapt/css/assets/badges/pathfinder-black.png",
-            "small": "adapt/css/assets/badges/pathfinder-black.png"
+            "large": "course/en/images/odi-1-text-image_large.jpg",
+            "medium": "course/en/images/odi-1-text-image_large.jpg",
+            "small": "course/en/images/odi-1-text-image_large.jpg"
         }
     },
     {
@@ -96,10 +118,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Open data exploerer",
-        "displayTitle":"Pathfinder",
-	"instruction":"The basics",
-        "body":""
+        "title":"Open data pathfinder",
+        "displayTitle":"<object type='image/svg+xml' class='badge-icon-sm' data='adapt/css/assets/badges/pathfinder-black.svg'><svg xmlns='http://www.w3.org/2000/svg' version='1.1' class='badge-icon-sm'><image class='badge-icon-sm' xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='adapt/css/assets/badges/pathfinder-black.svg' src='adapt/css/assets/badges/pathfinder-black.png'></image></svg></object>Pathfinder",
+        "body":"<p>Discover what open data is, what the benefits are and how it can be used to create change.</p><p>Complete these first three modules to earn your pathfinder badge.</p><div onClick='navGoModule(\"module1/\")' class='nav-modules'><object type='image/svg+xml' class='badge-icon-small' data='adapt/css/assets/badges/pathfinder-black.svg'><svg xmlns='http://www.w3.org/2000/svg' version='1.1' class='badge-icon-small'><image class='badge-icon-small' xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='adapt/css/assets/badges/pathfinder-black.svg' src='adapt/css/assets/badges/pathfinder-black.png'></image></svg></object>Pathfinder 1<span id='ODI_1_tick' class='mod_tick'>-</span><br/><b><a href='module1/'>What is open data?</a></b></div><div onClick='navGoModule(\"module2/\")' class='nav-modules'><object type='image/svg+xml' class='badge-icon-small' data='adapt/css/assets/badges/pathfinder-black.svg'><svg xmlns='http://www.w3.org/2000/svg' version='1.1' class='badge-icon-small'><image class='badge-icon-small' xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='adapt/css/assets/badges/pathfinder-black.svg' src='adapt/css/assets/badges/pathfinder-black.png'></image></svg></object>Pathfinder 2<span id='ODI_2_tick' class='mod_tick'>-</span><br/><b><a href='module2/'>Unlocking value from open data</a></b></div><div onClick='navGoModule(\"module3/\")' class='nav-modules'><object type='image/svg+xml' class='badge-icon-small' data='adapt/css/assets/badges/pathfinder-black.svg'><svg xmlns='http://www.w3.org/2000/svg' version='1.1' class='badge-icon-small'><image class='badge-icon-small' xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='adapt/css/assets/badges/pathfinder-black.svg' src='adapt/css/assets/badges/pathfinder-black.png'></image></svg></object>Pathfinder 3<span id='ODI_3_tick' class='mod_tick'>-</span><br/><b><a href='module3/'>Open data. Agent of change.</a></b></div>"
     },
     {
         "_id":"c-21",
@@ -111,9 +132,9 @@
         "_graphic": {
             "alt": "",
             "title": "",
-            "large": "adapt/css/assets/badges/adventurer.png",
-            "medium": "adapt/css/assets/badges/adventurer.png",
-            "small": "adapt/css/assets/badges/adventurer.png"
+            "large": "course/en/images/odi-6-text-image_large.jpg",
+            "medium": "course/en/images/odi-6-text-image_large.jpg",
+            "small": "course/en/images/odi-6-text-image_large.jpg"
         }
     },
     {
@@ -123,10 +144,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"right",
-        "title":"Open data adventurer",
-        "displayTitle":"Adventurer",
-	"instruction":"The essentials",
-        "body":""
+        "title":"Adventurer",
+        "displayTitle":"<object type='image/svg+xml' class='badge-icon-sm' data='adapt/css/assets/badges/adventurer.svg'><svg xmlns='http://www.w3.org/2000/svg' version='1.1' class='badge-icon-sm'><image class='badge-icon-sm' xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='adapt/css/assets/badges/adventurer.svg' src='adapt/css/assets/badges/adventurer.png'></image></svg></object>Adventurer",
+	"body":"<p>Recongise the underlying principals that make open data successful. Learn how to license open data, assess quality and measure success.</p><p>Complete these three modules to earn your adventurer badge.</p><div class='nav-modules' onClick='navGoModule(\"module4/\")'><object type='image/svg+xml' class='badge-icon-small' data='adapt/css/assets/badges/adventurer.svg'><svg xmlns='http://www.w3.org/2000/svg' version='1.1' class='badge-icon-small'><image class='badge-icon-small' xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='adapt/css/assets/badges/adventurer.svg' src='adapt/css/assets/badges/adventurer.png'></image></svg></object>Adventurer 1<span id='ODI_4_tick' class='mod_tick'>-</span><br/><b><a href='module4/'>Why do we need to license?</a></b></div><div class=nav-modules onClick='navGoModule(\"module5/\")'><object type='image/svg+xml' class='badge-icon-small' data='adapt/css/assets/badges/adventurer.svg'><svg xmlns='http://www.w3.org/2000/svg' version='1.1' class='badge-icon-small'><image class='badge-icon-small' xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='adapt/css/assets/badges/adventurer.svg' src='adapt/css/assets/badges/adventurer.png'></image></svg></object>Adventurer 2<span id='ODI_5_tick' class='mod_tick'>-</span><br/><b><a href='module5/'>What makes quality open data?</a></b></div><div class='nav-modules' onClick='navGoModule(\"module6/\")'><object type='image/svg+xml' class='badge-icon-small' data='adapt/css/assets/badges/adventurer.svg'><svg xmlns='http://www.w3.org/2000/svg' version='1.1' class='badge-icon-small'><image class='badge-icon-small' xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='adapt/css/assets/badges/adventurer.svg' src='adapt/css/assets/badges/adventurer.png'></image></svg></object>Adventurer 3<span id='ODI_6_tick' class='mod_tick'>-</span><br/><b><a href='module6/'>Measuring success for open data</a></b></div>"
     },
     {
         "_id":"c-25",
@@ -138,9 +158,9 @@
         "_graphic": {
             "alt": "",
             "title": "",
-            "large": "adapt/css/assets/badges/planner-black.png",
-            "medium": "adapt/css/assets/badges/planner-black.png",
-            "small": "adapt/css/assets/badges/planner-black.png"
+            "large": "course/en/images/odi-8-text-image_large.jpg",
+            "medium": "course/en/images/odi-8-text-image_large.jpg",
+            "small": "course/en/images/odi-8-text-image_large.jpg"
         }
     },
     {
@@ -151,36 +171,34 @@
         "_classes":"",
         "_layout":"left",
         "title":"Open data planner",
-        "displayTitle":"Planner",
-	"instruction":"Taking action",
-        "body":""
+        "displayTitle":"<object type='image/svg+xml' class='badge-icon-sm' data='adapt/css/assets/badges/planner-black.svg'><svg xmlns='http://www.w3.org/2000/svg' version='1.1' class='badge-icon-sm'><image class='badge-icon-sm' xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='adapt/css/assets/badges/planner-black.svg' src='adapt/css/assets/badges/planner-black.png'></image></svg></object>Planner",
+	"body":"<p>Get started on your open data strategy by assessing the potential of your data and learning where to go next. Complete these three modules to become an open data planner.</p><p><div class='nav-modules' onClick='navGoModule(\"module7/\")'><object type='image/svg+xml' class='badge-icon-small' data='adapt/css/assets/badges/planner-black.svg'><svg xmlns='http://www.w3.org/2000/svg' version='1.1' class='badge-icon-small'><image class='badge-icon-small' xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='adapt/css/assets/badges/planner-black.svg' src='adapt/css/assets/badges/planner-black.png'></image></svg></object>Planner 1<span id='ODI_7_tick' class='mod_tick'>-</span><br/><b><a href='module7/'>Why should we worry about sustainability?</a></b></div><div class='nav-modules' onClick='navGoModule(\"module10/\")'><object type='image/svg+xml' class='badge-icon-small' data='adapt/css/assets/badges/planner-black.svg'><svg xmlns='http://www.w3.org/2000/svg' version='1.1' class='badge-icon-small'><image class='badge-icon-small' xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='adapt/css/assets/badges/planner-black.svg' src='adapt/css/assets/badges/planner-black.png'></image></svg></object>Planner 2<span id='ODI_10_tick' class='mod_tick'>-</span><br/><b><a href='module10/'>How useful is my data?</a></b></div><div class='nav-modules' onClick='navGoModule(\"module13/\")'><object type='image/svg+xml' class='badge-icon-small' data='adapt/css/assets/badges/planner-black.svg'><svg xmlns='http://www.w3.org/2000/svg' version='1.1' class='badge-icon-small'><image class='badge-icon-small' xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='adapt/css/assets/badges/planner-black.svg' src='adapt/css/assets/badges/planner-black.png'></image></svg></object>Planner 3<span id='ODI_13_tick' class='mod_tick'>-</span><br/><b><a href='module13/'>Linking up the web of data</a></b></div>"
     },
     {
         "_id":"c-28",
+        "_parentId":"b-28",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/odi-12-text-image_large.jpg",
+            "medium": "course/en/images/odi-12-text-image_large.jpg",
+            "small": "course/en/images/odi-12-text-image_large.jpg"
+        }
+    },
+    {
+        "_id":"c-29",
         "_parentId":"b-28",
         "_type":"component",
         "_component":"text",
         "_classes":"",
         "_layout":"right",
         "title":"Open data technician",
-        "displayTitle":"Technician",
-	"instruction":"Getting hands on",
-        "body":""
-    },
-    {
-        "_id":"c-29",
-        "_parentId":"b-28",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"right",
-        "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "adapt/css/assets/badges/technician.png",
-            "medium": "adapt/css/assets/badges/technician.png",
-            "small": "adapt/css/assets/badges/technician.png"
-        }
+        "displayTitle":"<object type='image/svg+xml' class='badge-icon-sm' data='adapt/css/assets/badges/technician.svg'><svg xmlns='http://www.w3.org/2000/svg' version='1.1' class='badge-icon-sm'><image class='badge-icon-sm' xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='adapt/css/assets/badges/technician.svg' src='adapt/css/assets/badges/technician.png'></image></svg></object>Technician",
+	"body":"<p>Learn the best practice skills in publishing and using high quality data.</p><p>Complete these four modules to earn your technician badge.</p><p><div class='nav-modules' onClick='navGoModule(\"module8/\")'><object type='image/svg+xml' class='badge-icon-small' data='adapt/css/assets/badges/technician.svg'><svg xmlns='http://www.w3.org/2000/svg' version='1.1' class='badge-icon-small'><image class='badge-icon-small' xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='adapt/css/assets/badges/technician.svg' src='adapt/css/assets/badges/technician.png'></image></svg></object>Technician 1<span id='ODI_8_tick' class='mod_tick'>-</span><br/><b><a href='module8/'>Getting to grips with platforms</a></b></div><div class='nav-modules' onClick='navGoModule(\"module9/\")'><object type='image/svg+xml' class='badge-icon-small' data='adapt/css/assets/badges/technician.svg'><svg xmlns='http://www.w3.org/2000/svg' version='1.1' class='badge-icon-small'><image class='badge-icon-small' xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='adapt/css/assets/badges/technician.svg' src='adapt/css/assets/badges/technician.png'></image></svg></object>Technician 2<span id='ODI_9_tick' class='mod_tick'>-</span><br/><b><a href='module9/'>Choosing the right format for open data</a></b></div><div class='nav-modules' onClick='navGoModule(\"module11/\")'><object type='image/svg+xml' class='badge-icon-small' data='adapt/css/assets/badges/technician.svg'><svg xmlns='http://www.w3.org/2000/svg' version='1.1' class='badge-icon-small'><image class='badge-icon-small' xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='adapt/css/assets/badges/technician.svg' src='adapt/css/assets/badges/technician.png'></image></svg></object>Technician 3<span id='ODI_11_tick' class='mod_tick'>-</span><br/><b><a href='module11/'>How to clean your data</a></b></div><div class='nav-modules' onClick='navGoModule(\"module12/\")'><object type='image/svg+xml' class='badge-icon-small' data='adapt/css/assets/badges/technician.svg'><svg xmlns='http://www.w3.org/2000/svg' version='1.1' class='badge-icon-small'><image class='badge-icon-small' xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='adapt/css/assets/badges/technician.svg' src='adapt/css/assets/badges/technician.png'></image></svg></object>Technician 4<span id='ODI_12_tick' class='mod_tick'>-</span><br/><b><a href='module12/'>Finding hidden data on the web</a></b></div>"
     },
     {
         "_id":"c-151",
@@ -206,7 +224,7 @@
         "_layout":"left",
         "title":"Learn more",
         "displayTitle":"Learn more",
-        "body":"<p>We hope you have enjoyed our eLearning course. The European Data Portal also runs workshops on open data. If you are interested in attenting one of our workshops and developing your knowledge further, return to the learning section of the portal and click on 'workshops.</p>"
+        "body":"<p>Watch this space...</p>"
     },
     {
        "_id":"c-153",

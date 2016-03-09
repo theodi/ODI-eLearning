@@ -14,6 +14,17 @@
         "_id": "b-03",
         "_parentId": "a-01",
         "_type": "block",
+        "_classes": "inverted section-banner",
+        "_trackingId": 0,
+        "_trickle": {
+            "_isEnabled":false,
+            "button": "Continue"
+        }
+    }, 
+    {
+        "_id": "b-04",
+        "_parentId": "a-01",
+        "_type": "block",
         "_classes": "",
         "_trackingId": 0,
         "_trickle": {
@@ -25,7 +36,7 @@
         "_id": "b-05",
         "_parentId": "a-01",
         "_type": "block",
-        "_classes": "inverted",
+        "_classes": "inverted section-banner",
         "_trackingId": 0,
         "_trickle": {
             "_isEnabled":false,
@@ -37,7 +48,7 @@
         "_parentId": "a-01",
         "_type": "block",
         "_classes": "",
-        "_trackingId": 1,
+        "_trackingId": 0,
         "_trickle": {
             "_isEnabled":false,
             "button": "Continue"
@@ -48,7 +59,7 @@
         "_parentId": "a-01",
         "_type": "block",
         "_classes": "inverted",
-        "_trackingId": 2,
+        "_trackingId": 0,
         "_trickle": {
             "_isEnabled":false,
             "button": "Continue"
@@ -59,7 +70,7 @@
         "_parentId": "a-01",
         "_type": "block",
         "_classes": "",
-        "_trackingId": 3,
+        "_trackingId": 0,
         "_trickle": {
             "_isEnabled":false,
             "button": "Continue"
@@ -70,7 +81,7 @@
         "_parentId": "a-01",
         "_type": "block",
         "_classes": "inverted",
-        "_trackingId": 4,
+        "_trackingId": 0,
         "_trickle": {
             "_isEnabled":false,
             "button": "Continue"
@@ -81,7 +92,7 @@
         "_parentId": "a-01",
         "_type": "block",
         "_classes": "summary",
-        "_trackingId": 14,
+        "_trackingId": 0,
         "_trickle": {
             "_isEnabled":false,
             "button": "Continue"
