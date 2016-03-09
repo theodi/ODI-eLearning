@@ -25,18 +25,26 @@
 	</div>
 	{{#each resources}}
 	<div class="resources-item drawer-item {{_type}}">
-		{{#if _local}}
-			<a class="resources-item-open drawer-item-open" href="{{_link}}">
+		{{#if_value_equals _type "link"}}
+			{{#if _local}}
+				<a class="resources-item-open drawer-item-open" href="{{_link}}">
+			{{else}}
+				<a class="resources-item-open drawer-item-open" target="_blank" href="{{_link}}">
+			{{/if}}
 		{{else}}
-			<a class="resources-item-open drawer-item-open" target="_blank" href="{{_link}}">
-		{{/if}}
+			<div class="resources-item-open drawer-item-open">
+		{{/if_value_equals}}
 			<div class="drawer-item-title">
 				<h5 class="drawer-item-title-inner">{{{title}}}</h5>
 			</div>
 			<div class="drawer-item-description">
 				<div class="drawer-item-description-inner">{{{description}}}</div>
 			</div>
-		</a>
+		{{#if_value_equals _type "link"}}
+			</a>
+		{{else}}
+			</div>
+		{{/if_value_equals}}
 	</div>
 	{{/each}}
 </div>
