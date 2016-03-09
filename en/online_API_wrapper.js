@@ -81,7 +81,6 @@ function miniProgressUpdate() {
 			}
 		}
 		catch(err) {
-			console.log(err);
 		}
 	}
 	badge_progression["pathfinder"] = Math.round(badge_progression["pathfinder"] / 3);
