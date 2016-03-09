@@ -279,7 +279,7 @@
                 "title": "Core open data schemas",
                 "body": "<p>LGA keeps a definitive set of schemas for 10 of the most popular open datasets published by local authorities. If you are publishing data in one of these categories, we strongly recommend following the relevant schema. For any of these schemas, simply alter your dataset's column headings to match and save the results:<br><a href='http://schemas.opendata.esd.org.uk/Contracts' target='_blank'>Contracts</a><br><a href='http://schemas.opendata.esd.org.uk/LandAndBuilding' target='_blank'>Land and Buildings</a><br><a href='http://schemas.opendata.esd.org.uk/OrganisationStructure' target='_blank'>Organisation Structure</a><br><a href='http://schemas.opendata.esd.org.uk/Parking' target='_blank'>Parking</a><br><a href='http://schemas.opendata.esd.org.uk/SeniorEmployees' target='_blank'>Senior Employees</a><br><a href='http://schemas.opendata.esd.org.uk/SeniorSalaryCount' target='_blank'>Senior Employee Count</a><br><a href='http://schemas.opendata.esd.org.uk/Spend' target='_blank'>Spend</a><br><a href='http://schemas.opendata.esd.org.uk/PlanningApplications' target='_blank'>Planning Applications</a><br><a href='http://schemas.opendata.esd.org.uk/PremisesLicences' target='_blank'>Premises Licences</a><br><a href='http://schemas.opendata.esd.org.uk/PublicToilets' target='_blank'></a>Public Toilets<br><br>If the dataset you are publishing isnt covered above, scroll right to find out about community schemas.</p>",
                 "_graphic": {
-                    "src": "course/en/images/redbridge.jpg",
+                    "src": "course/en/images/sch1.jpg",
                     "alt": "Schemas",
                     "title": "Schemas",
                     "*source":"https://www.flickr.com/photos/dullhunk/7554750172",
@@ -292,9 +292,9 @@
                 "title": "Community open data schemas",
                 "body": "<p>If the dataset you are publishing is not covered by one of the core schemas published by LGA, you may be able to find a common schema from othder local authorities in the community. The LGA schema directory keeps track of over 640 schemas from local authorities across the UK. Simply search the directory for the type of data you plan to publish and it will show you the common schemas that match.<br><a href='http://schemas.opendata.esd.org.uk/' target='_blank'>Take me to the LGA community schema directory</a><br>If the dataset you are publishing isn't covered by any of those in the community, it may be nescessary to create your own schema. However there are still some guidelines that can help you create a good one. Scroll right to find these guidelines.</p>",
                 "_graphic": {
-                    "src": "course/en/images/Cleaning.jpg",
-                    "alt": "Cleaning",
-                    "title": "Cleaning",
+                    "src": "course/en/images/sch2.jpg",
+                    "alt": "Community schemas",
+                    "title": "Community schemas",
                     "*source": "http://www.shutterstock.com/pic-232737427",
                     "*credit": "Kirill_M",
                     "*licence": "Shutterstock standard license"
@@ -305,9 +305,9 @@
                 "title": "Creating a new schema",
                 "body": "<p>You should only create a new schema if there is no existing one in the LGA directory that matches your dataset and you cannot find an existing one from another community. If you need to create a new schema, make sure that it is as simple as possible and that you submit the results back to the<a href='http://schemas.opendata.esd.org.uk/' target='_blank'> LGA community schema directory</a> so that it can benefit others in the future.</p>",
                 "_graphic": {
-                    "src": "course/en/images/Platform.jpg",
-                    "alt": "Cost Savings",
-                    "title": "Cost Savings",
+                    "src": "course/en/images/sch3.jpg",
+                    "alt": "Create your own schema",
+                    "title": "Create your own schema",
                     "*source":"https://media.thisiszone.com/wp-content/uploads/2013/03/Data_Dot_Gov.jpg",
                     "*credit":"data.gov.uk",
                     "*license":"Crown Copyright"
@@ -390,56 +390,56 @@
         "instruction": "<em class='desktop-instruction'>Click the forward arrow for more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
         "_items": [
            {
-                "title": "West London Alliance",
-                "body": "<p></p>",
+                "title": "Starting Small: Colchester Council",
+                "body": "<p>When Colchester council came to publish open data under the transparency code they were faced with a choice. The council could either spend time and resources developing their own schemas or use an existing one. Using the LGA, Colchester was able to access the full range of shcmeas for transparency code datasets, ensuring their results would be clean, simple and compatible with the data of neighbouring authorities.<br><a href='http://www.colchester.gov.uk/councildata' target='_blank'>Take me to Colchester data site</a></p>",
                 "_graphic": {
-                    "src": "course/en/images/odi-2.jpg",
-                    "alt": "Legal",
-                    "title": "Legal",
+                    "src": "course/en/images/colchester.jpg",
+                    "alt": "Colchester",
+                    "title": "Colchester",
                     "*source":"http://www.shutterstock.com/pic-102447179.html",
                     "*credit":"hoperan",
                     "*license":"Shutterstock Standard License"
                 },
-                "strapline": "Legal"
+                "strapline": "Colchester"
             },
             {
-                "title": "North Somerset",
-                "body": "<p></p>",
+                "title": "Combining Data: Surrey Heath Council",
+                "body": "<p>Surrey Heath recieves more than 11,500 planning downloads every month, in neighbouring Reigate the number is even higher. Yet people searching for applications in Surrey had to browse 12 different council websites, each with its own challenges. Surrey found that there was no schema for planning data - so created their own. They shared their schema openly. Now 12 local authorities publish their data using the schema and provide everyone in surrey with planning applications through a single, simple portal. Even better, anyone can take the schema and save time on their own publication of planning data.<br><a href='https://www.youtube.com/watch?v=-Ku9qQk4IGE' target='_blank'>Take me to the Surrey Heath case study video</a></p>",
                 "_graphic": {
-                    "src": "course/en/images/odi-3.jpg",
-                    "alt": "Practical",
-                    "title": "Practical",
+                    "src": "course/en/images/surrey.jpg",
+                    "alt": "Surrey",
+                    "title": "Surrey",
                     "*source":"http://www.shutterstock.com/pic-235025131.html",
                     "*credit":"McIek",
                     "*license":"Shutterstock Standard License"
                 },
-                "strapline": "Practical"
+                "strapline": "Surrey"
             },
             {
-                "title": "Sheffield",
-                "body": "<p></p>",
+                "title": "Building on others: Hampshire Council",
+                "body": "<p>Hampshire council published their planning data according to a local shared schema. Like Surrey Hampshire build upon a shred foundation, extending their work to linking up the data they publish. The result was a visual tool, developed by MySociety, which allows users to interactively search and find planning applications in their local area.<br><a href='http://hampshire-planning.staging.mysociety.org/' target='_blank'>Take me to the Hampshire planning explorer</a></p>",
                 "_graphic": {
-                    "src": "course/en/images/odi-4.jpg",
-                    "alt": "Technical",
-                    "title": "Technical",
+                    "src": "course/en/images/hampshire.png",
+                    "alt": "Hampshire",
+                    "title": "Hampshire",
                     "*source":"http://www.shutterstock.com/pic-154744388.html",
                     "*credit":"Oleksiy Mark",
                     "*license":"Shutterstock Standard License"
                 },
-                "strapline": "Technical"
+                "strapline": "Hampshire"
             },
             {
-                "title": "Norfolk",
-                "body": "<p></p>",
+                "title": "Contributing to the Community: York Council",
+                "body": "<p>York found a number of the datasets they were publishing fell outside the standard schemas LGA provided. Wishing to save others the time and money of developing new ones, York opened up their collection of more than 70 dataset schemas for anyone to replicate. The result has been broader adoption of York schemas by other authorities, increasing the compatability of York data and cementing their position as an open data leader.<br><a href='https://data.yorkopendata.org/dataset/schemas' target='_blank'>Take me to the York schemas page</a></p>",
                 "_graphic": {
-                    "src": "course/en/images/odi-5.jpg",
+                    "src": "course/en/images/york.jpg",
                     "alt": "Social",
                     "title": "Social",
                     "*source":"http://www.shutterstock.com/pic-187711424.html",
                     "*credit":"bluebay",
                     "*license":"Shutterstock Standard License"
                 },
-                "strapline": "Social"
+                "strapline": "York"
             }
         ],
         "_pageLevelProgress": {
@@ -623,13 +623,13 @@
         "_type":"component",
         "_component":"graphic",
         "_classes":"illustration",
-        "_layout":"left",
+        "_layout":"right",
         "_graphic": {
             "alt": "Legal considerations",
             "title": "",
-            "large": "course/en/images/odi-8.jpg",
-            "medium": "course/en/images/odi-8.jpg",
-            "small": "course/en/images/odi-8.jpg",
+            "large": "course/en/images/sch4.jpg",
+            "medium": "course/en/images/sch4.jpg",
+            "small": "course/en/images/sch4.jpg",
             "*source":"http://www.shutterstock.com/pic-102447179.html",
             "*credit":"hoperan",
             "*license":"Shutterstock Standard License"
@@ -691,13 +691,13 @@
         "_type":"component",
         "_component":"graphic",
         "_classes":"illustration",
-        "_layout":"right",
+        "_layout":"left",
         "_graphic": {
             "alt": "Technical considerations",
             "title": "",
-            "large": "course/en/images/odi-9.jpg",
-            "medium": "course/en/images/odi-9.jpg",
-            "small": "course/en/images/odi-9.jpg",
+            "large": "course/en/images/sch5.jpg",
+            "medium": "course/en/images/sch5.jpg",
+            "small": "course/en/images/sch5.jpg",
             "*source":"http://www.shutterstock.com/pic-154744388.html",
             "*credit":"Oleksiy Mark",
             "*license":"Shutterstock Standard License"
@@ -709,7 +709,7 @@
         "_type":"component",
         "_component":"mcq",
         "_classes":"",
-        "_layout":"left",
+        "_layout":"right",
         "_attempts":1,
         "_questionWeight":1,
         "_isRandom":true,
