@@ -86,12 +86,11 @@ function miniProgressUpdate() {
 	badge_progression["adventurer"] = Math.round(badge_progression["adventurer"] / 3);
 	badge_progression["technician"] = Math.round(badge_progression["technician"] / 4);
 	badge_progression["planner"] = Math.round(badge_progression["planner"] / 3);
-	if (moduleId == "ODI_nav"){
-		updateBadgeOverall(badge_progression,'pathfinder');
-		updateBadgeOverall(badge_progression,'adventurer');
-		updateBadgeOverall(badge_progression,'technician');
-		updateBadgeOverall(badge_progression,'planner');
-	}
+	updateBadgeOverall(badge_progression,'pathfinder');
+	updateBadgeOverall(badge_progression,'adventurer');
+	updateBadgeOverall(badge_progression,'technician');
+	updateBadgeOverall(badge_progression,'planner');
+	
 	if (mods_done[1] && mods_done[2] && mods_done[3] && !badges["pathfinder"]) {
 		showMessage('pathfinder-complete');
 		badges["pathfinder"] = true;	
