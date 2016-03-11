@@ -64,6 +64,10 @@
     .page-level-progress-navigation {
         .page-level-progress-navigation-completion {
             background: @plp-navigation-background;
+	    width: 100px;
+            @media all and (max-width:(@device-width-medium - 1px)) {
+	    	width: 75px;
+	    }	
             border: none;
             height: 10px;
             .page-level-progress-navigation-bar {

@@ -7,7 +7,7 @@ var _ = require('underscore'),
 
     _.extend = extendify({
 	inPlace: false,
-	arrays : 'concat',
+	arrays : 'merge',
 	isDeep: true
     });
     primary = false;
