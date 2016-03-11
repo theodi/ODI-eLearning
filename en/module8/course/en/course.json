@@ -16,144 +16,6 @@
   ],
   "_resources": [
     {
-      "title": "Resources",
-      "description": "Click here to view resources for this course",
-      "_filterButtons": {
-        "all": "All",
-        "document": "PDF",
-        "media": "Media",
-        "link": "Link"
-      },
-      "_resourcesItems": [
-        {
-          "_type": "link",
-          "title": "Enigma.io",
-          "description": "Take me to Enigma.io",
-          "_link": "http://www.enigma.io"
-        },
-        {
-          "_type": "link",
-          "title": "CKAN Amsterdam",
-          "description": "Take me CKAN Amsterdam",
-          "_link": "http://www.amsterdamopendata.nl/home"
-        },
-        {
-          "_type": "link",
-          "title": "CKAN Berlin",
-          "description": "Take me CKAN Berlin",
-          "_link": "http://daten.berlin.de/"
-        },
-        {
-          "_type": "link",
-          "title": "CKAN Copenhagen",
-          "description": "Take me CKAN Copenhagen",
-          "_link": "http://data.kk.dk/"
-        },
-        {
-          "_type": "link",
-          "title": "Socrata Lombardy",
-          "description": "Take me Socrata Lombardy",
-          "_link": "https://www.dati.lombardia.it/"
-        },
-        {
-          "_type": "link",
-          "title": "ODS Issy",
-          "description": "Take me to ODS Issy",
-          "_link": "https://data.issy.com/"
-        },
-        {
-          "_type": "link",
-          "title": "OpenDataMonitor",
-          "description": "Take me to OpenDataMonitor",
-          "_link": "http://www.opendatamonitor.eu/frontend/web/index.php?r=datacatalogue%2Flist"
-        }
-      ]
-    },
-    {
-      "title": "Image credits",
-      "description": "Click here to view image credits for this module",
-      "_filterButtons": {
-        "all": "All",
-        "document": "PDF",
-        "media": "Media",
-        "link": "Link"
-      },
-      "_resourcesItems": [
-        {
-          "_type": "link",
-          "title": "What is an open data platform?",
-          "description": "Source: Shutterstock<br/>Credit: Laralova<br/>Licence: Shutterstock Standard License",
-          "_link": "http://www.shutterstock.com/pic.mhtml?id=103013084&src=id"
-        },
-        {
-          "_type": "link",
-          "title": "Discovery",
-          "description": "Source: Flickr<br/>Credit: mjtmail (tiggy)<br/>Licence: Shutterstock Standard License",
-          "_link": "https://www.flickr.com/photos/mjtmail/3008566512"
-        },
-        {
-          "_type": "link",
-          "title": "Consistency",
-          "description": "Source: Shutterstock<br/>Credit: April Cat<br/>Licence: Shutterstock Standard License",
-          "_link": "http://www.shutterstock.com/pic.mhtml?id=200818673&src=lb-36497927"
-        },
-        {
-          "_type": "link",
-          "title": "Access granted",
-          "description": "Source: Shutterstock<br/>Credit: Kirill_m<br/>Licence: Shutterstock Standard License",
-          "_link": "http://www.shutterstock.com/pic.mhtml?id=154822901&src=id"
-        },
-        {
-          "_type": "link",
-          "title": "Approaches",
-          "description": "Source: Shutterstock<br/>Credit: Nicotombo<br/>Licence: Shutterstock Standard License",
-          "_link": "http://www.shutterstock.com/pic.mhtml?id=277792007&src=id"
-        },
-        {
-          "_type": "link",
-          "title": "Open data platforms across Europe",
-          "description": "Source: Shutterstock<br/>Credit: koyacsf<br/>Licence: Shutterstock Standard License",
-          "_link": "http://www.shutterstock.com/pic.mhtml?id=117748444&src=id"
-        },
-        {
-          "_type": "link",
-          "title": "What do open data platforms help with?",
-          "description": "Source: Shutterstock<br/>Credit: dencg<br/>Licence: Shutterstock Standard License",
-          "_link": "http://www.shutterstock.com/pic-241493050/"
-        },
-        {
-          "_type": "link",
-          "title": "Summary icon clipboard",
-          "description": "Source: Shutterstock<br/>Credit: Kritchanut<br/>Licence: Shutterstock Standard License",
-          "_link": "http://www.shutterstock.com/pic-189810137.html"
-        },
-        {
-          "_type": "link",
-          "title": "Open data institute logo",
-          "description": "Source: The Open Data Institute<br/>Credit: The Open Data Institute<br/>Licence: All rights reserved",
-          "_link": "http://theodi.org"
-        }
-      ]
-    },
-    {
-      "title": "Music credits",
-      "description": "Click here to view image credits for this module",
-      "_filterButtons": {
-        "all": "All",
-        "document": "PDF",
-        "media": "Media",
-        "link": "Link"
-      },
-      "_resourcesItems": [
-        {
-          "_type": "link",
-          "title": "Your World - Delicate Beats",
-          "description": "Source: Premium Beat<br/>Credit: leromin<br/>Licence: Premium Beat Standard License",
-          "_link": "http://www.premiumbeat.com/royalty_free_music/songs/your-world"
-        }
-      ]
-    },
-    {
       "title": "Modules",
       "description": "Switch to another module",
       "_filterButtons": {
@@ -299,8 +161,134 @@
       ]
     },
     {
+      "title": "Resources",
+      "description": "View additional module resources",
+      "_filterButtons": {
+        "all": "All",
+        "document": "PDF",
+        "media": "Media",
+        "link": "Link"
+      },
+      "_resourcesItems": [
+        {
+          "_type": "link",
+          "title": "Enigma.io",
+          "description": "Take me to Enigma.io",
+          "_link": "http://www.enigma.io"
+        },
+        {
+          "_type": "link",
+          "title": "CKAN Amsterdam",
+          "description": "Take me CKAN Amsterdam",
+          "_link": "http://www.amsterdamopendata.nl/home"
+        },
+        {
+          "_type": "link",
+          "title": "CKAN Berlin",
+          "description": "Take me CKAN Berlin",
+          "_link": "http://daten.berlin.de/"
+        },
+        {
+          "_type": "link",
+          "title": "CKAN Copenhagen",
+          "description": "Take me CKAN Copenhagen",
+          "_link": "http://data.kk.dk/"
+        },
+        {
+          "_type": "link",
+          "title": "Socrata Lombardy",
+          "description": "Take me Socrata Lombardy",
+          "_link": "https://www.dati.lombardia.it/"
+        },
+        {
+          "_type": "link",
+          "title": "ODS Issy",
+          "description": "Take me to ODS Issy",
+          "_link": "https://data.issy.com/"
+        },
+        {
+          "_type": "link",
+          "title": "OpenDataMonitor",
+          "description": "Take me to OpenDataMonitor",
+          "_link": "http://www.opendatamonitor.eu/frontend/web/index.php?r=datacatalogue%2Flist"
+        }
+      ]
+    },
+    {
+      "title": "Credits and attribution",
+      "description": "View attribution for licensed content",
+      "_filterButtons": {
+        "all": "All",
+        "document": "PDF",
+        "media": "Media",
+        "link": "Link"
+      },
+      "_resourcesItems": [
+        {
+          "_type": "link",
+          "title": "What is an open data platform?",
+          "description": "Source: Shutterstock<br/>Credit: Laralova<br/>Licence: Shutterstock Standard License",
+          "_link": "http://www.shutterstock.com/pic.mhtml?id=103013084&src=id"
+        },
+        {
+          "_type": "link",
+          "title": "Discovery",
+          "description": "Source: Flickr<br/>Credit: mjtmail (tiggy)<br/>Licence: Shutterstock Standard License",
+          "_link": "https://www.flickr.com/photos/mjtmail/3008566512"
+        },
+        {
+          "_type": "link",
+          "title": "Consistency",
+          "description": "Source: Shutterstock<br/>Credit: April Cat<br/>Licence: Shutterstock Standard License",
+          "_link": "http://www.shutterstock.com/pic.mhtml?id=200818673&src=lb-36497927"
+        },
+        {
+          "_type": "link",
+          "title": "Access granted",
+          "description": "Source: Shutterstock<br/>Credit: Kirill_m<br/>Licence: Shutterstock Standard License",
+          "_link": "http://www.shutterstock.com/pic.mhtml?id=154822901&src=id"
+        },
+        {
+          "_type": "link",
+          "title": "Approaches",
+          "description": "Source: Shutterstock<br/>Credit: Nicotombo<br/>Licence: Shutterstock Standard License",
+          "_link": "http://www.shutterstock.com/pic.mhtml?id=277792007&src=id"
+        },
+        {
+          "_type": "link",
+          "title": "Open data platforms across Europe",
+          "description": "Source: Shutterstock<br/>Credit: koyacsf<br/>Licence: Shutterstock Standard License",
+          "_link": "http://www.shutterstock.com/pic.mhtml?id=117748444&src=id"
+        },
+        {
+          "_type": "link",
+          "title": "What do open data platforms help with?",
+          "description": "Source: Shutterstock<br/>Credit: dencg<br/>Licence: Shutterstock Standard License",
+          "_link": "http://www.shutterstock.com/pic-241493050/"
+        },
+        {
+          "_type": "link",
+          "title": "Summary icon clipboard",
+          "description": "Source: Shutterstock<br/>Credit: Kritchanut<br/>Licence: Shutterstock Standard License",
+          "_link": "http://www.shutterstock.com/pic-189810137.html"
+        },
+        {
+          "_type": "link",
+          "title": "Open data institute logo",
+          "description": "Source: The Open Data Institute<br/>Credit: The Open Data Institute<br/>Licence: All rights reserved",
+          "_link": "http://theodi.org"
+        },
+        {
+          "_type": "link",
+          "title": "Your World - Delicate Beats",
+          "description": "Source: Premium Beat<br/>Credit: leromin<br/>Licence: Premium Beat Standard License",
+          "_link": "http://www.premiumbeat.com/royalty_free_music/songs/your-world"
+        }
+      ]
+    },
+    {
       "title": "Open data",
-      "description": "Use the content of this module as open data",
+      "description": "Download and use module content",
       "_filterButtons": {
         "all": "All",
         "document": "PDF",
@@ -352,7 +340,7 @@
     },
     {
       "title": "About",
-      "description": "Discover about how this learning was created",
+      "description": "Discover how this learning was created",
       "_filterButtons": {
         "all": "All",
         "document": "PDF",

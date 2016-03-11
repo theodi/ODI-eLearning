@@ -33,7 +33,6 @@ $(document).ready(function() {
 		if (moduleId == "ODI_nav"){
 			setInterval(function() {updateProgress();},2000);
 		} else {
-			console.log(theme);
 			setInterval(function() {miniProgressUpdate();},1000);
 		}
 	});
@@ -65,8 +64,8 @@ function miniProgressUpdate() {
 			current_badge = "planner";
 		}
 		key = "ODI_" + i + "_cmi.suspend_data";
+		try { document.getElementById('ODI_' + i + '_tick_sidebar').innerHTML = "0%"; } catch(err) {}
     		try {
-			document.getElementById('ODI_' + i + '_tick_sidebar').innerHTML = "0%";
 			value = localStorage.getItem(key);
 			data = $.parseJSON(value);
 			completion = data.spoor.completion;
@@ -117,10 +116,10 @@ function updateBadgeOverall(badge_progression,level) {
 	if (percent < 1) {
 		percent = 0;
 	}
-	document.getElementById(level + '-overall').innerHTML = percent + "%";
+	try { document.getElementById(level + '-overall').innerHTML = percent + "%"; } catch(err) {}
 	try { document.getElementById(level + '-overall-side').innerHTML = percent + "%"; } catch(err) {}
 	if (percent == 100) {
-		document.getElementById(level + '-overall').innerHTML = "✔";
+		try { document.getElementById(level + '-overall').innerHTML = "✔"; } catch(err) {}
 		try { document.getElementById(level + '-overall-side').innerHTML = "✔"; } catch(err) {}
 	}
 }
@@ -128,6 +127,7 @@ function updateProgress() {
 //	var frame = document.getElementById('contentFrame').contentDocument;
 	miniProgressUpdate();
 	for (i=1;i<14;i++) {
+		try { document.getElementById('ODI_' + i + '_tick').innerHTML = "0%"; } catch(err) {}
 		key = "ODI_" + i + "_cmi.suspend_data";
     		try {
 			value = localStorage.getItem(key);
@@ -144,7 +144,7 @@ function updateProgress() {
 			}
 		}
 		catch(err) {
-			document.getElementById('ODI_' + i + '_tick').innerHTML = "0%";
+			//document.getElementById('ODI_' + i + '_tick').innerHTML = "0%";
 		}
 	}
 	badges = localStorage.getItem("ODI_Badges");
