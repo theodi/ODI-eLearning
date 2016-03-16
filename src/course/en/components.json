@@ -30,7 +30,7 @@
         "_layout":"left",
         "title":"Making standards work for you",
         "displayTitle":"Making standards work for you",
-        "body":"<p>In our final module, we examine where local authorities can find the right support to help them publish good quality, consistent open data. In this module we examine how resources like LG Inform Plus can save you time and money in publishing your data.</p><p><p>In this module you will learn:</p><ul><li>How standard structures can make your data more useful</li><li>How to find and use common schemas for your datasets</li><li>How to certify the quality of your data</li></ul></p><p>This module also provides useful links out to supporting documents and services that can help save time in your publication.</p>",
+        "body":"<p>In our third module, we examine where local authorities can find the right support to help them publish good quality, consistent open data. In this module we examine how local government open data standards and tools help you publish more consistent data to make better use of them.</p><p>In this module you will learn:</p><ul><li>How standard structures can make your data more useful</li><li>How to find and use common schemas for your datasets</li><li>How to develop your own schema if none is available</li><li>How to certify the quality of your data</li></ul></p><p>This module also provides useful links out to supporting documents and services that can help save time in your publication.</p>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
@@ -106,6 +106,19 @@
         "body": "<p>The structure (or schema) of the dataset is a major factor in how useful your data will be to others. You can think of the structure as a set of standard and defined column headings for a dataset. Find out more below about how to decide which schema should apply to your dataset.</p>",
         "instruction": "<em class='desktop-instruction'>Click the forward arrow for more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
         "_items": [
+            {
+                "title": "Using an existing schemas",
+                "body": "<p>The best choice for the structure of your dataset is always a standard schema. Using a standard schema ensures your data can be instantly combined with that of other publishers. LGA keeps standard schemas for 10 of the most popular open datasets as well as more than 640 schema examples from authorities around the UK.</p><p>By using a standard schema, your open data can be combined with other authorities' releases to build up regional and national overviews.</p><p>Using the standard schemas is simple. Just find the right schema for your dataset, rename your colunm heading to match and save the result. Under the practical guidance section of this module you will find detailed instructions on using LGA standard schemas.</p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-2.jpg",
+                    "alt": "Existing schemas",
+                    "title": "Existing schemas",
+                    "*source":"http://www.shutterstock.com/pic-102447179.html",
+                    "*credit":"hoperan",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Existing schemas"
+            },
            {
                 "title": "Using an existing schemas",
                 "body": "<p>The best choice for the structure of your dataset is always a standard schema. Using a standard schema ensures your data can be instantly combined with that of other publishers. LGA keeps standard schemas for 10 of the most popular open datasets as well as more than 640 schema examples from authorities around the UK.</p><p>By using a standard schema, your open data can be combined with other authorities' releases to build up regional and national overviews.</p><p>Using the standard schemas is simple. Just find the right schema for your dataset, rename your colunm heading to match and save the result. Under the practical guidance section of this module you will find detailed instructions on using LGA standard schemas.</p>",
@@ -122,6 +135,19 @@
             {
                 "title": "Creating a new schema",
                 "body": "<p>No common schema for the dataset you are publishing? Before just creating a new one, why not see if there is already some concensus amoung an existing community of users somewhere (use your favorite search engine). You might need to contirbute a new schema but there may be an opportunity to get the community to help!</p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-3.jpg",
+                    "alt": "Creating a new schema",
+                    "title": "Creating a new schema",
+                    "*source":"http://www.shutterstock.com/pic-235025131.html",
+                    "*credit":"McIek",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Creating a new schema"
+            },
+            {
+                "title": "The benefits of using standard schemas",
+                "body": "<p>A standard schema helps you</p>",
                 "_graphic": {
                     "src": "course/en/images/odi-3.jpg",
                     "alt": "Creating a new schema",
