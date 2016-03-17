@@ -254,7 +254,7 @@
         {
             "alt": "Pick a platform",
             "title": "1. Pick a platform",
-            "body": "<p>Platforms can simplify the process of publishing your data. You may already have a data or content publishing platform that is suitable for your needs. If so you can publish there. If you don't have a platform, you may want to consider some of the leading solutions used by other authorities such as <a href='http://www.cipfa.org/services/datashare' target='_blank'>CIPFA/Redbridge's Datashare</a>, <a href='http://www.swirrl.com/publishmydata' target='_blank'>Swirrl's PublishMyData</a> or <a href='http://ckan.org/' target='_blank'>CKAN</a> to simplify the process of publishing.</p>"
+            "body": "<p>Platforms can simplify the process of publishing your data. You may already have a data or content publishing platform that is suitable for your needs. If so you can publish there. If you don't have a platform, you may want to consider some examples of the leading solutions used by other authorities such as <a href='http://www.cipfa.org/services/datashare' target='_blank'>CIPFA/Redbridge's Datashare</a>, <a href='http://www.swirrl.com/publishmydata' target='_blank'>Swirrl's PublishMyData</a> or <a href='http://ckan.org/' target='_blank'>CKAN</a> to simplify the process of publishing.</p>"
         },
         {
           "alt": "Talk about data",
@@ -303,15 +303,15 @@
       "_component":"accordion",
       "_classes":"",
       "_layout":"right",
-      "title": "How to publish your dataset: improving visibility",
-      "displayTitle": "How to publish your dataset: improving visibility",
+      "title": "How to publish your dataset: improving discoverability",
+      "displayTitle": "How to publish your dataset: improving discoverability",
       "body": "",
       "instruction": "<em>Follow the steps below to make your open data easier for people to find and use.</em>",
       "_items": [
         {
           "alt": "Provide a consistent location",
           "title": "1. Provide a consistent location",
-          "body": "<p>You should provide your data through a series of reliable and consistent web addresses (called Uniform Resource Identifiers or URIs). We recommend using two URIs for any dataset you publish.</p><p>The primary URI should use the LGA's directory of common identifiers to refer to your local authority. You can use the <a href='http://uris.opendata.esd.org.uk/' target='_blank'>LGA directory</a> to look up the correct code for your authority in seconds.</p><p>The secondary URI should be more informative and point to the primary. For example, a dataset from Hampshire county council about senior salaries might be accessible from 'http://www3.hants.gov.uk/opendata/datasets/senior-salaries.htm'. This second URI lets anyone read what the dataset is before they navigate to it.</p>"
+          "body": "<p>You should provide your data through a series of reliable and consistent web addresses (called Uniform Resource Identifiers or URIs). We recommend using two URIs for any dataset you publish.</p><p>The primary URI should use the LGA's directory of common identifiers to refer to your local authority. You can use the <a href='http://uris.opendata.esd.org.uk/' target='_blank'>LGA directory</a> to look up the correct code for your authority in seconds.</p><p>The secondary URI should be more informative and point to the primary. For example, a dataset from Hampshire County Council about senior salaries might be accessible from 'http://www3.hants.gov.uk/opendata/datasets/senior-salaries.htm'. This second URI lets anyone read what the dataset is before they navigate to it.</p>"
         },
         {
           "alt": "Register the dataset in a catalogue",
@@ -370,8 +370,8 @@
        "instruction": "<em class='desktop-instruction'>Click the forward arrow for more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
        "_items": [
            {
-               "title": "Learning from others: Barnet Council",
-               "body": "<p>Barnet Council in north London is a diverse metropolitan authority. A relative latecomer to open data publishing, Barnet was able to benefit from the LGA's extensive case studies into open data publication to avoid some of the mistakes of early adopters. Using LGA, publishing guidelines, Barnet has now created a dedicated open data platform using Datapress. The platform currently hosts in excess of 180 datasets for the local area. Following LGA publishing guidelines helped Barnet save staff time and money by simplifying publishing processes. To discover more about Barnet's experience read their <a href='http://www.local.gov.uk/documents/10180/11655/Barnet+2014-08-22+Open+Data+Breakthrough+Evaluation+Final.pdf/ae8272e0-0256-4e86-a6dc-348b462da7e0' target='_blank'>case study</a> or visit their <a href='http://open.barnet.gov.uk/' target='_blank'>open data portal.</a></p>",
+               "title": "Learning from others: London Borough of Barnet",
+               "body": "<p>London Borough of Barnet is a diverse metropolitan authority.  Using LGA, publishing guidelines, Barnet has now created a dedicated open data platform using Datapress. The platform currently hosts in excess of 180 datasets for the local area. Following LGA publishing guidelines helped Barnet save staff time and money by simplifying publishing processes. To discover more about Barnet's experience read their <a href='http://www.local.gov.uk/documents/10180/11655/Barnet+2014-08-22+Open+Data+Breakthrough+Evaluation+Final.pdf/ae8272e0-0256-4e86-a6dc-348b462da7e0' target='_blank'>case study</a> or visit their <a href='http://open.barnet.gov.uk/' target='_blank'>open data portal.</a></p>",
                "_graphic": {
                   "src": "course/en/images/barnet.png",
                    "alt": "Barnet",
@@ -384,7 +384,7 @@
            },
            {
                "title": "Building a simple data page: Wycombe District Council",
-               "body": "<p>Wycombe council is an example of how to build a <a href='http://www.wycombe.gov.uk/council-services/council-and-democracy/transparency-and-open-data.aspx' target='_blank'>simple, informative open data</a> page on your website. The page clearly displays the appropriate licence, links to external guides and provides links to pages under well-described URIs that can be found by search engines. By following LGA guidance on their page, Wycombe has created a simple resource at a fraction of the cost of early adopters.</p>",
+               "body": "<p>Wycombe District Council is an example of how to build a <a href='http://www.wycombe.gov.uk/council-services/council-and-democracy/transparency-and-open-data.aspx' target='_blank'>simple, informative open data</a> page on your website. The page clearly displays the appropriate licence, links to external guides and provides links to pages under well-described URIs that can be found by search engines. By following LGA guidance on their page, Wycombe has created a simple resource at a fraction of the cost of early adopters.</p>",
                "_graphic": {
                    "src": "course/en/images/wycombe.jpg",
                    "alt": "Wycombe",
@@ -574,12 +574,12 @@
         "_feedback":{
             "correct":"<h5>That’s right!</h5><p>The LGA's Inform Plus website provides comprehensve gudiance on the best practices for consistent publication of open data.</p>",
             "_incorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>The LGA's Inform Plus website provides comprehensve gudiance on the best practices for consistent publication of open data.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>The LGA's Inform Plus website provides comprehensve gudiance on the best practices for consistent publication of open data.</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>The LGA's Inform Plus website provides comprehensive guidance on the best practices for consistent publication of open data.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>The LGA's Inform Plus website provides comprehensive guidance on the best practices for consistent publication of open data.</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>The LGA's Inform Plus website provides comprehensve gudiance on the best practices for consistent publication of open data.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>The LGA's Inform Plus website provides comprehensve gudiance on the best practices for consistent publication of open data.</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>The LGA's Inform Plus website provides comprehensive guidance on the best practices for consistent publication of open data.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>The LGA's Inform Plus website provides comprehensive guidance on the best practices for consistent publication of open data.</p>"
           }
         },
         "_buttons":{
