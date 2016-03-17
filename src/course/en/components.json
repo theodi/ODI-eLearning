@@ -27,7 +27,7 @@
         "_layout":"left",
         "title":"Open Data in Practice Day 1 - Practical Publication",
         "displayTitle":"Open Data in Practice Day 1 - Practical Publication",
-        "body":"<p>This introductory course aims to get you up to speed with latest developments in open data and its significance. It is designed to enable anyone to get started with discovering and using open data and understand the skills and processes required to make it work for you and your organisation.</p>",
+        "body":"<p>Welcome to the first session of Open Data in Practice. This course is your complete introduction to the practical skills of open data. Day 1 examines practical approaches to the publication of open data. To get started, look at the course overview below.</p>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
@@ -70,18 +70,18 @@
         },
         {
           "alt": "Data discovery patterns",
-          "title": "Datat discovery patterns",
-          "body": "<p>The session explores key definitions of open data.</p><p>The session also examines types of data to determine their uses.</p>"
+          "title": "Data discovery patterns",
+          "body": "<p>This session looks and how and where people find data online. Understanding how people discover data is a key component of good publication and allows you to make your data more visible to users.</p><p>The session also explores different types of open data feed and looks at when it is appropriate to use them.</p>"
         },
         {
           "alt": "Publishing platforms",
           "title": "Publishing platforms",
-          "body": "<p>Open data is still a developing field and those working within it will encounter a number of common problems. This sessions presents and clarifys the main challenges before examining the future of open data.</p>"
+          "body": "<p>Making your open data available online can be a tricky process. To make it easier, a number of software platforms exist that simplify the process and save you time. This session looks at some of the most popular publishing platforms.</p>"
         },
         {
           "alt": "Hands-on publishing",
           "title": "Hands-on publishing",
-          "body": "<p>This session begins by looking at how open licences are there to protect data publishers, while also unlocking value. We show how to build a machine readable open license that can be applied to any online content.</p><p>The session then continues by looking at the technical, legal, social and practical requirements for making different types of open data usable and some of the most relevant guidelines to support this process.</p>"
+          "body": "<p>This final session builds on everything you have learned throughout the day by challenging participants to publish their own dataset. The session will give participants hands-on experience of publishing and using popular data platforms.</p>"
         }
       ],
       "_pageLevelProgress": {
@@ -189,7 +189,7 @@
         {
           "alt": "Lack of proper licences",
           "title": "Lack of proper licences",
-          "body": "<p>The majority of datasets described as 'open' still do not have an appropriate licence to protect the ability of everyone to access, use and share them. As of 2015, only around 46% of data in open data catalogues across the European Union is truly openly licensed.</p><p>In the EU, copyright and database laws are complex. While data might be intended to be open, a licence provides legal clarity for users.</p><p><a href='http://www.opendatamonitor.eu/frontend/web/index.php?r=datacatalogue%2Findex' target='_blank'>The OpenDataMonitor platform</a> provides information and statistics on European open data catalogues.</p>"
+          "body": "<p>The majority of datasets described as 'open' still do not have an appropriate licence to protect the ability of everyone to access, use and share them.</p><p>In Tanzania, copyright laws are complex. While data might be intended to be open, a licence provides legal clarity for users.</p><p><a href='http://www.wipo.int/wipolex/en/text.jsp?file_id=216501' target='_blank'>The 1999 Copyright and Neighbouring Rights Act</a> provides the legal clarity on the data protections in place.</p>"
         },
         {
           "alt": "Failure to update consistently",
@@ -335,7 +335,7 @@
         {
           "alt": "Tabular",
           "title": "Tabular",
-          "body": "<p>The most common structure for data is tabular. Data is organised into rows and columns listing sequential values, such as expenditure.</p><p>If the data is based on separate entries that are not linked to each other then a tabular file structure in a format such as CSV is ideal. An example of appropriate tabular data is the Italian data portal’s museum attendance figures.<br /><a href='http://www.datiopen.it/opendata/Visitatori_musei_pubblici_e_similari_titolo_d_accesso' target='_blank'>Take me to Italian Data Portal</a></p>",
+          "body": "<p>The most common structure for data is tabular. Data is organised into rows and columns listing sequential values, such as expenditure.</p><p>If the data is based on separate entries that are not linked to each other then a tabular file structure in a format such as CSV is ideal. An example of appropriate tabular data is the Tanzania Data Portal's Number of Teachers in Secondary Schools.<br /><a href='http://opendata.go.tz/dataset/idadi-ya-walimu-wa-shule-za-sekondari-kwa-walaya' target='_blank'>Take me to Tanzania Data Portal</a></p>",
           "_graphic": {
                     "src": "course/en/images/odi-004.jpg",
                     "alt": "Tabular",
@@ -349,7 +349,7 @@
         {
           "alt": "Hierarchical",
           "title": "Hierarchical",
-          "body": "<p>Hierarchical data shows the relationships between data points, such as a family tree or municipalities in each country. If the dataset depends on the relationship between data points and follows a structure in which data points are linked in vertical ‘trees’, a hierarchical data structure in a format such as JSON is ideal. An example of appropriate hierarchical data is this JSON file from json.org<br /><a href='http://json.org/example.html' target='_blank'>Take me to the json.org example</a></p>",
+          "body": "<p>Hierarchical data shows the relationships between data points, such as a family tree or municipalities in each country. If the dataset depends on the relationship between data points and follows a structure in which data points are linked in vertical ‘trees’, a hierarchical data structure in a format such as JSON is ideal. An example of appropriate hierarchical data is this JSON file for Seirra Leone's Forestry Cover<br /><a href='http://africaopendata.org/dataset/sierra-leone-forestry-data' target='_blank'>Take me to the Sierra Leone Forestry Data</a></p>",
           "_graphic": {
                     "src": "course/en/images/odi-005.jpg",
                     "alt": "Hierarchical",
@@ -421,7 +421,7 @@
         {
           "alt": "Live data and data feeds",
           "title": "Live data and data feeds",
-          "body": "<p>Some data is not suitable to be made available as a downloadable file.</p><p>Much of this data is updated so regularly that the file downloads would be too large for most users. This type of open data structure may be made available by a machine interface, also know as an API.</p><p>There are many services that make machine interfaces available over the web. These  services can be directly integrated into other web applications. For an example of an open data API, look at the Belgian railway company.<br /><a href='https://hello.irail.be/api/1-0/' target='_blank'>Take me to iRail API</a></p>"
+          "body": "<p>Some data is not suitable to be made available as a downloadable file.</p><p>Much of this data is updated so regularly that the file downloads would be too large for most users. This type of open data structure may be made available by a machine interface, also know as an API.</p><p>There are many services that make machine interfaces available over the web. These  services can be directly integrated into other web applications. For an example of an open data API, look at the Open Data for Africa example.<br /><a href='http://opendataforafrica.org/dev/explorer' target='_blank'>Take me to Open Data for Africa API</a></p>"
         }
       ],
       "_pageLevelProgress": {
@@ -605,7 +605,7 @@
             },
             {
                 "title": "Consistent user experience",
-                "body": "<p>There are a limited number of open data platforms, which means you don’t need to know lots of different technologies to discover large amounts of open data.</p><p>Open data platforms are designed with the user in mind. The platform layout and design makes it easy to discover data.</p><p>For examples of sites using open data platforms, look at: <a href='http://www.data.gov.uk' target='_blank'>data.gov.uk</a>, <a href='http://www.data.gov.br' target='_blank'>data.gov.bf</a> and <a href='http://www.data.gov.md' target='_blank'>data.gov.md</a></p><p>Note that many governments use a standard naming convention for the web address of the data platform, so a simple starting point for finding open data for a country is to enter data.gov.[country top-level domain].</p>",
+                "body": "<p>There are a limited number of open data platforms, which means you don’t need to know lots of different technologies to discover large amounts of open data.</p><p>Open data platforms are designed with the user in mind. The platform layout and design makes it easy to discover data.</p><p>For examples of sites using open data platforms, look at: <a href='https://opendata.go.ke/' target='_blank'>opendata.go.ke/</a>, <a href='http://www.data.gov.bf' target='_blank'>data.gov.bf</a> and <a href='http://data.ug/' target='_blank'>data.ug/</a></p><p>Note that many governments use a standard naming convention for the web address of the data platform, so a simple starting point for finding open data for a country is to enter data.gov.[country top-level domain].</p>",
                 "_graphic": {
                     "src": "course/en/images/odi-003.jpg",
                     "alt": "Consistency",
@@ -667,12 +667,12 @@
         {
           "alt": "Data catalogs",
           "title": "Data catalogs",
-          "body": "<p>An open data catalog is a platform that lists datasets on the web. Data catalogs are like directories. They know what open data exists, what it is about, where it is and how to get hold of it.</p><p>An open data catalog links users to data that is located somewhere else on the web. They provide a consistent way of locating a diverse set of data that is widely scattered.</p><p>The CKAN platform, used by cities like Amsterdam (<a href='http://www.amsterdamopendata.nl/home' target='_blank'>Take me to Amsterdam CKAN portal</a>), Berlin (<a href='http://daten.berlin.de/' target='_blank'>Take me to Berlin CKAN portal</a>) and Copenhagen (<a href='http://data.kk.dk/' target='_blank'>Take me to Copenhagen CKAN portal</a>), can be used as a data catalog.</p><p>CKAN provides simple, easy to use data management functionality, including data hosting. This ensures that the technical knowledge and effort required to publish open data is kept to a minimum.</p>"
+          "body": "<p>An open data catalog is a platform that lists datasets on the web. Data catalogs are like directories. They know what open data exists, what it is about, where it is and how to get hold of it.</p><p>An open data catalog links users to data that is located somewhere else on the web. They provide a consistent way of locating a diverse set of data that is widely scattered.</p><p>The CKAN platform, used by sites like Uganda's Open Data Portal (<a href='http://data.ug/' target='_blank'>Take me to Uganda CKAN portal</a>), Edo State, Nigeria (<a href='http://data.edostate.gov.ng/' target='_blank'>Take me to the Edo State CKAN portal</a>) and Open Data for Africa (<a href='http://africaopendata.org/' target='_blank'>Take me to Africa open data CKAN portal</a>), can be used as a data catalog.</p><p>CKAN provides simple, easy to use data management functionality, including data hosting. This ensures that the technical knowledge and effort required to publish open data is kept to a minimum.</p>"
         },
         {
           "alt": "Data management",
           "title": "Data management",
-          "body": "<p>Open data management platforms can also play an active role in the way a publisher manages and maintains a dataset. Publishers can update data directly in the platform and regularly provide updates.</p><p>For users, searching for and manipulating open data without having to download it can make reusing it a lot easier.</p><p>For publishers however, there is a much greater challenge in structuring and formatting data for the platform. This can be overcome if the publisher also uses the publishing platform to access the data.</p><p>The Socrtata platform, used by the Lombardy region of Italy (<a href='https://www.dati.lombardia.it/' target='_blank'>Take me to Lombardy open data portal</a>), and the Open Data Soft platform used by the city of Issy-les-Moulineaux in France (<a href='https://data.issy.com/' target='_blank'>Take me to Issy open data portal</a>) are good examples of data management platforms.</p>"
+          "body": "<p>Open data management platforms can also play an active role in the way a publisher manages and maintains a dataset. Publishers can update data directly in the platform and regularly provide updates.</p><p>For users, searching for and manipulating open data without having to download it can make reusing it a lot easier.</p><p>For publishers however, there is a much greater challenge in structuring and formatting data for the platform. This can be overcome if the publisher also uses the publishing platform to access the data.</p><p>The Socrtata platform, used by the Kenya open data portal (<a href='https://opendata.go.ke/' target='_blank'>Take me to Kenya open data portal</a>), and the Open Data Soft platform used by the city of Issy-les-Moulineaux in France (<a href='https://data.issy.com/' target='_blank'>Take me to Issy open data portal</a>) are good examples of data management platforms.</p>"
         },
         {
           "alt": "Comparison",
