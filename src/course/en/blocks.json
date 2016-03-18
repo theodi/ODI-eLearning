@@ -50,11 +50,31 @@
 		}
 	},
 	{
+		"_id": "b-6",
+		"_parentId": "a-01",
+		"_type": "block",
+		"_classes": "inverted",
+		"_trackingId": 5,
+		"_trickle": {
+			"_isEnabled":false
+		}
+	},
+	{
+		"_id": "b-7",
+		"_parentId": "a-01",
+		"_type": "block",
+		"_classes": "",
+		"_trackingId": 7,
+		"_trickle": {
+			"_isEnabled":false
+		}
+	},
+	{
 		"_id": "b-8",
 		"_parentId": "a-01",
 		"_type": "block",
 		"_classes": "inverted section-banner",
-		"_trackingId": 7,
+		"_trackingId": 8,
 		"_trickle": {
 			"_isEnabled":false
 		}
@@ -64,23 +84,13 @@
 		"_parentId": "a-01",
 		"_type": "block",
 		"_classes": "",
-		"_trackingId": 8,
-		"_trickle": {
-			"_isEnabled":false
-		}
-	},
-	{
-		"_id": "b-10",
-		"_parentId": "a-01",
-		"_type": "block",
-		"_classes": "inverted",
 		"_trackingId": 9,
 		"_trickle": {
 			"_isEnabled":false
 		}
 	},
 	{
-		"_id": "b-12",
+		"_id": "b-10",
 		"_parentId": "a-01",
 		"_type": "block",
 		"_classes": "inverted section-banner",
@@ -90,7 +100,7 @@
 		}
 	},
 	{
-		"_id": "b-13",
+		"_id": "b-11",
 		"_parentId": "a-01",
 		"_type": "block",
 		"_classes": "",
@@ -100,7 +110,7 @@
 		}
 	},
 	{
-		"_id": "b-14",
+		"_id": "b-12",
 		"_parentId": "a-01",
 		"_type": "block",
 		"_classes": "inverted section-banner",
@@ -110,7 +120,7 @@
 		}
 	},
 	{
-		"_id": "b-15",
+		"_id": "b-13",
 		"_parentId": "a-01",
 		"_type": "block",
 		"_classes": "",
@@ -120,7 +130,7 @@
 		}
 	},
 	{
-		"_id": "b-16",
+		"_id": "b-14",
 		"_parentId": "a-01",
 		"_type": "block",
 		"_classes": "inverted",
@@ -130,7 +140,7 @@
 		}
 	},
     {
-        "_id": "b-18",
+        "_id": "b-15",
         "_parentId": "a-01",
         "_type": "block",
         "_classes": "",
@@ -140,7 +150,7 @@
         }
     },
     {
-        "_id": "b-19",
+        "_id": "b-16",
         "_parentId": "a-01",
         "_type": "block",
         "_classes": "inverted",
@@ -150,7 +160,7 @@
         }
     },
 	{
-		"_id": "b-20",
+		"_id": "b-17",
 		"_parentId": "a-01",
 		"_type": "block",
 		"_classes": "summary",
