@@ -30,7 +30,7 @@
         "_layout":"left",
         "title":"Making publishing work for you",
         "displayTitle":"Making publishing work for you",
-        "body":"<p>In the first module you explored how to make transparency work for you through outlining the benefits of publishing open data for local authorities. In this module we look at one of the biggest barriers to realising those benefits - inconsistent publishing.</p><p>In this module you will learn:</p><ul><li>The importance of ensuring the data you publish is clean and consistent</li><li>a process to decide where and how you should publish</li><li>The 3 steps to making sure users can find your data</li></ul></p><p>This module also provides useful links to supporting documents and services that can help save time and improve your publication.</p>",
+        "body":"<p>In the first module you explored how to make transparency work for you through outlining the benefits of publishing open data for local authorities and giving you the ability to publish a 'minimum viable product' dataset. In this module, we take a look at some of the ways you can publish better quality data and take you through the 12 steps of publishing a complete, high-quality dataset.</p><p>In this module you will learn:</p><ul><li>The importance of ensuring the data you publish is clean and consistent</li><li>The major factors affecting consistent publication</li><li>The 12 steps to publishing high-quality open data</li></ul></p><p>This module also provides useful links to supporting documents and services that can help save time and improve your publication.</p>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
@@ -90,9 +90,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"right",
-        "title":"Why does consistency matter?",
-        "displayTitle":"Why does consistency matter?",
-        "body":"<p>Open data needs to be simple for anyone to use, whether for a new app, a study or just to gain a deeper understanding of the subject.</p><p>The greatest use comes when the same type of data is <b>consistent</b> across different publishers. An application that tells you where local toilets are should be able to work everywhere, not just in one town. Consistency is also important because it allows you to combine your data with that of other authorities for internal use or sharing of data.</p><p>For publishers in local authorities, making data available in a consistent format is the best way to make your open data useful both internally and to others.</p>"
+        "title":"Why does quality matter?",
+        "displayTitle":"Why does quality matter?",
+        "body":"<p>Open data is designed to be used. Whether this use is by a developer to create a new app, a community group to deliver a better service or a person to improve accountability, they need to be able to quickly understand and use the dataset.</p><p>Publishing good quality data is the key to encouraging greater re-use.  Improving the quality of your open data starts before you publish by cleaning up entries and correctly formatting the data. You can also raise quality by making the data easier for people to find. Finally, through links and promotion, you can generate a bigger audience.</p><p>Creating better quality data is best done by following a process. Below you can learn why these steps matter before following the complete 12-step process yourself.</p>"
     },
     {
         "_id":"c-7",
@@ -154,19 +154,14 @@
       "instruction": "<em>Click the headings to explore further.</em>",
       "_items": [
         {
-          "alt": "Including licensed spatial data",
-          "title": "Including licensed spatial data",
-          "body": "<p>For planning applications, leave northing and easting (if derived from OS data) and <a href='https://www.ordnancesurvey.co.uk/about/news/2015/uprn-release-sharing-location-data.html' target='_blank'>UPRN</a> blank in the the published dataset, but make available on request a copy of the dataset with the coordinates (and optionally UPRNs) that is subject to the <a href='https://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/psma-licensing.html' target='_blank'>PSMA licence<a/>. Say in your submission and in your entry on data.gov.uk that licensed data for these fields is available on request.<br>For public toilets data GeoX and GeoY co-ordinates must be provided. If these are derived from Ordnance Survey data or if UPRNs are given, the GeoPointLicensingURL field must contain a <a href='http://www.ordnancesurvey.co.uk/business-and-government/help-andsupport/public-sector/guidance/derived-data-exemptions.html' target='_blank'>URL that attributes the data to Ordnance Survey.</a></p><p>If your spatial data is not derived from Ordnance Survey data or any other licensed source, it can be included without the above provisions.</p>"
-        },
-        {
           "alt": "Wrong date formats",
           "title": "Wrong date formats",
           "body": "<p>Dates can be written in inconsistent ways. Mixed date formats are sometimes simple to spot:<br><br>8-sep-2013 vs 8/9/2013<br><br>and sometimes less obvious:<br><br>8/9/2013 vs 9/8/2013.<br><br>An additional challenge is that some applications, like Excel, will ‘guess’ the format when a dataset is opened which can hide how dates are actually written in the file.</p><p>The most common error is the mixed use of American (MM/DD/YYYY) and European (DD/MM/YYYY) format.</p>"
         },
         {
-          "alt": "GeoX and GeoY co-ordinates the wrong way round",
-          "title": "GeoX and GeoY co-ordinates the wrong way round",
-          "body": "<p>GeoX should hold the longitude or easting. GeoY should hold the latitude or northing. The two fields should be included in that order: GeoX then GeoY from left to right.</p>"
+          "alt": "Incorrect geographic coordinates",
+          "title": "Incorrect geographic coordinates",
+          "body": "<p>GeoX should hold the longitude or easting. GeoY should hold the latitude or northing. The two fields should be included in that order: GeoX then GeoY from left to right. All georeferences should also use either European Terrestrial Reference System (ETRS) 89 or World Geodetic System (WGS) 84 specification. Some publishers have used previous versions such as WGS 66. Make sure all your geodata is in ETRS89 or WGS84 <a href='https://standards.data.gov.uk/proposal/exchange-location-point-information-proposal-version-2?stage=proposal' target='_blank'>using this helpful guide.</a></p>"
         },
         {
           "alt": "Misspelt headings",
@@ -177,11 +172,6 @@
           "alt": "Currency notation",
           "title": "Currency notation",
           "body": "<p>Price or cost data should not contain any prefix or suffix to the numeric value. For example, some publisher add a '£' sign before a value or 'GPB' afterward. Specify the correct column heading then only put numbers in price or cost fields.</p>"
-        },
-        {
-          "alt": "Wrong version of WGS",
-          "title": "Wrong version of WGS",
-          "body": "<p>All georeferences should use the World Geodetic System (WGS) 84 specification. Some publishers have used previous versions such as WGS 66. Make sure all your geodata is in WGS 84.</p>"
         }
       ],
       "_pageLevelProgress": {
@@ -259,35 +249,35 @@
       "_component":"accordion",
       "_classes":"",
       "_layout":"right",
-      "title": "Improving the visibility of your data",
-      "displayTitle": "Improving the visibility of your data",
-      "body": "",
-      "instruction": "<em>Follow the steps below to make your open data easier for people to find and use.</em>",
+      "title": "Making data easier to discover",
+      "displayTitle": "Making data easier to discover",
+      "body": "Another key aspect of data quality is how easily people can find your data. The following areas all contribute to making your data easier for users to discover.",
+      "instruction": "<em></em>",
       "_items": [
         {
           "alt": "Provide a consistent location",
-          "title": "1. Provide a consistent location",
-          "body": "<p>You should provide your data under a consistent address or URL. This URL should also contain a set of characters which let users locate your data quickly and easily. These common characters are called Uniform Resource Identifiers or URIs. We recommend using two URIs for any dataset you publish.</p><p>The primary URI should use the LGA's directory of common identifiers to refer to your local authority. You can use the <a href='http://uris.opendata.esd.org.uk/' target='_blank'>LGA directory</a> to look up the correct code for your authority in seconds.</p><p>The secondary URI should be more informative and point to the primary. For example, a dataset from Hampshire county council about senior salaries might be accessible from 'http://www3.hants.gov.uk/opendata/datasets/senior-salaries.htm'. This second URI lets anyone read what the dataset is before they navigate to it.</p>"
+          "title": "Providing a consistent location",
+          "body": "<p>You should provide your data under a consistent address or URL. This URL should also contain a set of characters which let users locate your data quickly and easily. These common characters are called Uniform Resource Identifiers or URIs. We recommend using two URIs for any dataset you publish.</p><p>The primary URI should use the LGA's directory of common identifiers to refer to your local authority. You can use the <a href='http://uris.opendata.esd.org.uk/' target='_blank'>LGA directory</a> to look up the correct code for your authority in seconds. For example, Norfolk County Council has the idenfitier - 'http://opendatacommunities.org/doc/county-council/norfolk'.</p><p>The secondary URI should be more informative and point to the primary. For example, a dataset from Hampshire county council about senior salaries might be accessible from 'http://www3.hants.gov.uk/opendata/datasets/senior-salaries.htm'. This second URI lets anyone read what the dataset is before they navigate to it.</p>"
         },
                 {
           "alt": "Optimise your data for search engines and aggregators",
-          "title": "2. Optimise your data for search engines and aggregators",
+          "title": "Optimising your data for search engines and aggregators",
           "body": "<p>Most people today will use either a search engine to look for data or will visit an aggregator like LG open data pages. Search engines need to be able to find all the relevant details about your datasets. It is important to include good metadata alongside your data and allow search engines to harvest this data and make it easy for people to find you this way. For an example of how to optimise your metadata for seach engines you can look at this simple <a href='http://static.googleusercontent.com/media/www.google.co.uk/en/uk/webmasters/docs/search-engine-optimization-starter-guide.pdf' target='_blank'>Google guide.</a></p>"
         },
         {
             "alt": "Update your inventory",
-          "title": "3. Update your inventory",
-          "body": "<p>The LGA harvests the datasets published by local authorities across the UK. To allow the LGA to harvest your dataset, you need to publish an up-to-date inventory. To find out how to publish a good inventory you can navigate to <a href='http://inventories.opendata.esd.org.uk/' target='_blank'>this page.</a> The inventory encourages consistent referencing of datasets across councils to make it easier to find datasets on the same topic or in the same format. Your inventory entry can even be used to automatically update your datasets on data.gov.uk.</p>"
+          "title": "Updating your inventory",
+          "body": "<p>An inventory is a record of all the open datasets published by a local authority. Inventories are read by automatic harvesters, which constantly search for new or updated datasets to add to collections like the LG open data pages. The LG open data pages harvest the datasets published by local authorities across the UK. To allow this harvesting your dataset, you need to keep your inventory up-to-date. To find out how to publish a good inventory you can navigate to <a href='http://inventories.opendata.esd.org.uk/' target='_blank'>this page.</a> The inventory encourages consistent referencing of datasets across councils to make it easier to find datasets on the same topic or in the same format. Your inventory entry can even be used to automatically update your datasets on data.gov.uk.</p>"
         },
         {
           "alt": "Register the dataset in a catalogue",
-          "title": "4. Register the dataset in a catalogue",
-          "body": "<p>A catalogue is a collection of datasets published by different sources. There are two catalogues which it is important to add your authority's data to.</p><p>The first is data.gov.uk, the UK's national open data portal with a huge community of users, <a href='http://guidance.data.gov.uk/dataset_form.html' target='_blank'>registration</a> is simple and requires only key metadata information. <a href='https://data.gov.uk/sites/default/files/User%20guide%20v2.5.pdf#page=23' target='_blank'>Click here for a step-by-step guide to registering your dataset</a></p><p>The second is local government open data pages, the community resource for local authority data. Registration with local government open data pages is automatic once you have an up-to-date inventory.</p>"
+          "title": "Registering the dataset in a catalogue",
+          "body": "<p>A catalogue is a collection of datasets published by different sources. There are a wide variety of catalogues maintained by different organisations that can automatically harvest your data once good metadata is provided. For authorities, there are two catalogues which it is particularly important to add your data to.</p><p>The first is data.gov.uk, the UK's national open data portal with a huge community of users, <a href='http://guidance.data.gov.uk/dataset_form.html' target='_blank'>registration</a> is simple and requires only key metadata information. <a href='https://data.gov.uk/sites/default/files/User%20guide%20v2.5.pdf#page=23' target='_blank'>Click here for a step-by-step guide to registering your dataset</a></p><p>The second is local government open data pages, the community resource for local authority data. Registration with local government open data pages is automatic once you have an up-to-date inventory.</p>"
         },
         {
           "alt": "Increase the number of links",
-          "title": "5. Increase the number of links",
-          "body": "<p>On the web, links are key. The more links you have, from more different sites, the easier your stuff will be to find. The best way of achieving greater numbers of links is through exposing your data in others catalogues, like <a href='http://data.gov.uk' target='_blank'>data.gov.uk</a> and <a href='http://datasets.opendata.esd.org.uk/' target='_blank'>http://datasets.opendata.esd.org.uk/</a>.</p>"
+          "title": "Increasing the number of links",
+          "body": "<p>On the web, links are key. The more links you have, from more different sites, the easier your stuff will be to find. The best way of achieving greater numbers of links is through exposing your data in others catalogues, like <a href='http://data.gov.uk' target='_blank'>data.gov.uk</a> and <a href='http://datasets.opendata.esd.org.uk/' target='_blank'>http://datasets.opendata.esd.org.uk/</a>. Another way to increase your links is to use consistent URIs. By doing so you allow other data to be linked to yours through services like <a href='http://opendatacommunities.org/' target='_blank'>http://opendatacommunities.org/</a></p>"
         }
       ],
       "_pageLevelProgress": {
@@ -374,43 +364,43 @@
           "body": "<p>Once your data is prepared, you need to redact any entries that are exempt from publication. Redaction should be applied in line with the existing guidance for FoI requests. Full guidance on redaction can be found in the <a href='http://www.nationalarchives.gov.uk/documents/information-management/redaction_toolkit.pdf' target='_blank'>National Archives Redaction Toolkit.</a></p>"
         },
         {
-          "alt": "4 Validate the data internally",
-          "title": "4. Validate the data internally",
+          "alt": "5 Validate the data internally",
+          "title": "5. Validate the data internally",
           "body": "<p>Once the data is prepared, have a colleague check your work. A new set of eyes will highlight any remaining issues with the data.</p>"
         },
         {
-          "alt": "5. Add the appropriate licence",
-          "title": "5. Add the appropriate licence",
+          "alt": "6. Add the appropriate licence",
+          "title": "6. Add the appropriate licence",
           "body": "<p>Once that data has been validated, add the appropriate licence. We reccomend using the Open Government Licence for all datasets unless there is a specific requirement with the data to use another licence. See module 1 for a walkthough of how to license your data appropriately.</p>"
         },
         {
-          "alt": "6. Pick the publishing location(s)",
-          "title": "6. Pick the publishing location(s)",
+          "alt": "7. Pick the publishing location(s)",
+          "title": "7. Pick the publishing location(s)",
           "body": "<p>With the right licence in place, it is time to decide where the data should be published. We reccomend creating an open data page on your website. You may also wish to use a publishing platform to simplify the process. Check the section above on 'choosing where to publish' for further guidance. You also need to ensure that your dataset sits under a consistent URI that matches the LGAs resources. See the section above on 'improving visibility' for how to create the right URI.</p>"
         },
         {
-          "alt": "7 load and publish the data",
-          "title": "7. Load and publish the data",
+          "alt": "8 load and publish the data",
+          "title": "8. Load and publish the data",
           "body": "<p>Time to take the data live on your chosen location(s). Upload the dataset to the website and/or publish it using your platform. Check the dataset is live, can be downloaded by anyone and displays correctly after download.</p>"
         },
         {
-          "alt": "8 validate externally",
-          "title": "8. Validate externally",
+          "alt": "9 validate externally",
+          "title": "9. Validate externally",
           "body": "<p>Now the data is live, it is time to check that your upload matches the accected guidelines. Use the <a href='http://validator.opendata.esd.org.uk/' target='_blank'>LGA Validator</a> to check your dataset matches up.</p>"
         },
         {
-          "alt": "9. Update your inventory",
-          "title": "9. Update your inventory",
+          "alt": "10 Update your inventory",
+          "title": "10. Update your inventory",
           "body": "<p>As soon as you validate your new release with the LGA, you need to update your inventory to make your data visible to harvesters. Check the section above on 'improving visibility' for details on how to do this.</p>"
         },
         {
-          "alt": "10 register with catalogues",
-          "title": "10. Register with catalogues",
+          "alt": "11 register with catalogues",
+          "title": "11. Register with catalogues",
           "body": "<p>In addition to updating your inventory, you need to let data.gov.uk and LGA open data pages know about your new dataset. Again the 'imrpoving visibility' section will tell you where you need to go.</p>"
         },
         {
-          "alt": "11 promote your work",
-          "title": "11. Promote your work",
+          "alt": "12 promote your work",
+          "title": "12. Promote your work",
           "body": "<p>Your dataset is now out there, registered in the right places and high quality. The final step is to promote your release to the world. Create a blog post or press release to let people know and make sure you flag the new data on social media. If you are aware of any open data user communities, it is also a good idea to get in touch with them and invite them to try out the new data.</p>"
         }
       ],
@@ -529,8 +519,8 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Are you ready to publish open data?",
-        "displayTitle":"Are you ready to publish open data?",
+        "title":"Are you ready to make publishing work for you?",
+        "displayTitle":"Are you ready to make publishing work for you?",
         "body":"",
         "instruction":"",
         "_pageLevelProgress": {
@@ -853,7 +843,7 @@
         "_layout":"left",
         "title":"Make publishing work for you",
         "displayTitle":"Make publishing work for you",
-        "body":"<p>In this module we have explored how to publishing consistent, high-quality open data for your authority. Follow the guidance above and you will produce highly usable data which can generate significant impact for your authority as well as saving you time and money</p><p>In our next and final module, we will look at where you can find the best examples of authorities who have followed this guidance and see how their publication helped them achieve results.</p><a class='button inline-button' href='../'>Main menu</a><a class='button inline-button' href='../LGA-3/'>Next module</a>",
+        "body":"<p>In this module we have explored how to publishing consistent, high-quality open data for your authority. Follow the 12 steps above and you will produce highly usable data which can generate significant impact for your authority as well as saving you time and money. But how can you let people know your data is high-quality?.</p><p>In our next module, you will learn how standards help improve the quality of open data. You will also learn how to certify the quality of your datasets and encourage even greater use.</p><a class='button inline-button' href='../LGA-3/'>Next module</a>",
         "_pageLevelProgress": {
           "_isEnabled": true
         }
