@@ -80,9 +80,9 @@
         "_graphic": {
             "alt": "Summary 1",
             "title": "Summary",
-            "large": "course/en/images/summary-icon.png",
-            "medium": "course/en/images/summary-icon.png",
-            "small": "course/en/images/summary-icon.png",
+            "large": "course/en/images/odi-7.jpg",
+            "medium": "course/en/images/odi-7.jpg",
+            "small": "course/en/images/odi-7.jpg",
             "*source":"http://about.esd.org.uk/",
             "*credit":"Local Government Association",
             "*license":"All rights reserved"
@@ -198,9 +198,9 @@
         "_graphic": {
             "alt": "What is open data?",
             "title": "What is open data?",
-            "large": "course/en/images/odi-1-text-image_large.jpg",
-            "medium": "course/en/images/odi-1-text-image_large.jpg",
-            "small": "course/en/images/odi-1-text-image_large.jpg",
+            "large": "course/en/images/odi-8.jpg",
+            "medium": "course/en/images/odi-8.jpg",
+            "small": "course/en/images/odi-8.jpg",
             "*source":"http://www.shutterstock.com/pic.mhtml?id=179384507&src=lb-35924366",
             "*credit":"leromin",
             "*license":"Shutterstock Standard License"
@@ -489,9 +489,9 @@
         "_graphic": {
             "alt": "Legal considerations",
             "title": "",
-            "large": "course/en/images/odi-8.jpg",
-            "medium": "course/en/images/odi-8.jpg",
-            "small": "course/en/images/odi-8.jpg",
+            "large": "course/en/images/odi-1-text-image_large.jpg",
+            "medium": "course/en/images/odi-1-text-image_large.jpg",
+            "small": "course/en/images/odi-1-text-image_large.jpg",
             "*source":"http://www.shutterstock.com/pic-102447179.html",
             "*credit":"hoperan",
             "*license":"Shutterstock Standard License"
@@ -646,7 +646,7 @@
         "_selectable":1,
         "title": "Redbridge case study",
         "displayTitle": "Redbridge case study",
-        "body": "<p>What dataset helped Norfolk council improve its accessibility with local people?</p>",
+        "body": "<p>What dataset helped Redbridge council improve its transparency to local people?</p>",
         "instruction": "<em>Select an option, then click 'Submit'.</em>",
         "_items": [
             {
@@ -658,12 +658,12 @@
                 "_shouldBeSelected": false
             },
             {
-                "text": "Contract pipeline data",
+                "text": "Contracts register",
                 "_shouldBeSelected": true
             }
         ],
         "_feedback":{
-            "correct":"<h5>That’s right!</h5><p>Norfolk's contract pipeline data is helping the council demonstrate openly how money is spent on local contracts.</p>",
+            "correct":"<h5>That’s right!</h5><p>Redbridge's contract register is helping the council demonstrate openly how money is spent on local contracts.</p>",
             "_incorrect": {
                 "notFinal": "<h5>Are you sure about that?</h5><p>Norfolk's contract pipeline data is helping the council demonstrate openly how money is spent on local contracts.</p>",
                 "final": "<h5>Are you sure about that?</h5><p>Norfolk's contract pipeline data is helping the council demonstrate openly how money is spent on local contracts.</p>"
