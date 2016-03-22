@@ -249,34 +249,34 @@
       "_component":"accordion",
       "_classes":"",
       "_layout":"right",
-      "title": "Improving the visibility of your data",
-      "displayTitle": "Improving the visibility of your data",
-      "body": "",
-      "instruction": "<em>Follow the steps below to make your open data easier for people to find and use.</em>",
+      "title": "Making data easier to discover",
+      "displayTitle": "Making data easier to discover",
+      "body": "Another key aspect of data quality is how easily people can find your data. The following areas all contribute to making your data easier for users to discover.",
+      "instruction": "<em></em>",
       "_items": [
         {
           "alt": "Provide a consistent location",
-          "title": "1. Provide a consistent location",
+          "title": "Providing a consistent location",
           "body": "<p>You should provide your data under a consistent address or URL. This URL should also contain a set of characters which let users locate your data quickly and easily. These common characters are called Uniform Resource Identifiers or URIs. We recommend using two URIs for any dataset you publish.</p><p>The primary URI should use the LGA's directory of common identifiers to refer to your local authority. You can use the <a href='http://uris.opendata.esd.org.uk/' target='_blank'>LGA directory</a> to look up the correct code for your authority in seconds.</p><p>The secondary URI should be more informative and point to the primary. For example, a dataset from Hampshire county council about senior salaries might be accessible from 'http://www3.hants.gov.uk/opendata/datasets/senior-salaries.htm'. This second URI lets anyone read what the dataset is before they navigate to it.</p>"
         },
                 {
           "alt": "Optimise your data for search engines and aggregators",
-          "title": "2. Optimise your data for search engines and aggregators",
+          "title": "Optimising your data for search engines and aggregators",
           "body": "<p>Most people today will use either a search engine to look for data or will visit an aggregator like LG open data pages. Search engines need to be able to find all the relevant details about your datasets. It is important to include good metadata alongside your data and allow search engines to harvest this data and make it easy for people to find you this way. For an example of how to optimise your metadata for seach engines you can look at this simple <a href='http://static.googleusercontent.com/media/www.google.co.uk/en/uk/webmasters/docs/search-engine-optimization-starter-guide.pdf' target='_blank'>Google guide.</a></p>"
         },
         {
             "alt": "Update your inventory",
-          "title": "3. Update your inventory",
+          "title": "Updating your inventory",
           "body": "<p>The LGA harvests the datasets published by local authorities across the UK. To allow the LGA to harvest your dataset, you need to publish an up-to-date inventory. To find out how to publish a good inventory you can navigate to <a href='http://inventories.opendata.esd.org.uk/' target='_blank'>this page.</a> The inventory encourages consistent referencing of datasets across councils to make it easier to find datasets on the same topic or in the same format. Your inventory entry can even be used to automatically update your datasets on data.gov.uk.</p>"
         },
         {
           "alt": "Register the dataset in a catalogue",
-          "title": "4. Register the dataset in a catalogue",
+          "title": "Registering the dataset in a catalogue",
           "body": "<p>A catalogue is a collection of datasets published by different sources. There are two catalogues which it is important to add your authority's data to.</p><p>The first is data.gov.uk, the UK's national open data portal with a huge community of users, <a href='http://guidance.data.gov.uk/dataset_form.html' target='_blank'>registration</a> is simple and requires only key metadata information. <a href='https://data.gov.uk/sites/default/files/User%20guide%20v2.5.pdf#page=23' target='_blank'>Click here for a step-by-step guide to registering your dataset</a></p><p>The second is local government open data pages, the community resource for local authority data. Registration with local government open data pages is automatic once you have an up-to-date inventory.</p>"
         },
         {
           "alt": "Increase the number of links",
-          "title": "5. Increase the number of links",
+          "title": "Increasing the number of links",
           "body": "<p>On the web, links are key. The more links you have, from more different sites, the easier your stuff will be to find. The best way of achieving greater numbers of links is through exposing your data in others catalogues, like <a href='http://data.gov.uk' target='_blank'>data.gov.uk</a> and <a href='http://datasets.opendata.esd.org.uk/' target='_blank'>http://datasets.opendata.esd.org.uk/</a>.</p>"
         }
       ],
@@ -364,43 +364,43 @@
           "body": "<p>Once your data is prepared, you need to redact any entries that are exempt from publication. Redaction should be applied in line with the existing guidance for FoI requests. Full guidance on redaction can be found in the <a href='http://www.nationalarchives.gov.uk/documents/information-management/redaction_toolkit.pdf' target='_blank'>National Archives Redaction Toolkit.</a></p>"
         },
         {
-          "alt": "4 Validate the data internally",
-          "title": "4. Validate the data internally",
+          "alt": "5 Validate the data internally",
+          "title": "5. Validate the data internally",
           "body": "<p>Once the data is prepared, have a colleague check your work. A new set of eyes will highlight any remaining issues with the data.</p>"
         },
         {
-          "alt": "5. Add the appropriate licence",
-          "title": "5. Add the appropriate licence",
+          "alt": "6. Add the appropriate licence",
+          "title": "6. Add the appropriate licence",
           "body": "<p>Once that data has been validated, add the appropriate licence. We reccomend using the Open Government Licence for all datasets unless there is a specific requirement with the data to use another licence. See module 1 for a walkthough of how to license your data appropriately.</p>"
         },
         {
-          "alt": "6. Pick the publishing location(s)",
-          "title": "6. Pick the publishing location(s)",
+          "alt": "7. Pick the publishing location(s)",
+          "title": "7. Pick the publishing location(s)",
           "body": "<p>With the right licence in place, it is time to decide where the data should be published. We reccomend creating an open data page on your website. You may also wish to use a publishing platform to simplify the process. Check the section above on 'choosing where to publish' for further guidance. You also need to ensure that your dataset sits under a consistent URI that matches the LGAs resources. See the section above on 'improving visibility' for how to create the right URI.</p>"
         },
         {
-          "alt": "7 load and publish the data",
-          "title": "7. Load and publish the data",
+          "alt": "8 load and publish the data",
+          "title": "8. Load and publish the data",
           "body": "<p>Time to take the data live on your chosen location(s). Upload the dataset to the website and/or publish it using your platform. Check the dataset is live, can be downloaded by anyone and displays correctly after download.</p>"
         },
         {
-          "alt": "8 validate externally",
-          "title": "8. Validate externally",
+          "alt": "9 validate externally",
+          "title": "9. Validate externally",
           "body": "<p>Now the data is live, it is time to check that your upload matches the accected guidelines. Use the <a href='http://validator.opendata.esd.org.uk/' target='_blank'>LGA Validator</a> to check your dataset matches up.</p>"
         },
         {
-          "alt": "9. Update your inventory",
-          "title": "9. Update your inventory",
+          "alt": "10 Update your inventory",
+          "title": "10. Update your inventory",
           "body": "<p>As soon as you validate your new release with the LGA, you need to update your inventory to make your data visible to harvesters. Check the section above on 'improving visibility' for details on how to do this.</p>"
         },
         {
-          "alt": "10 register with catalogues",
-          "title": "10. Register with catalogues",
+          "alt": "11 register with catalogues",
+          "title": "11. Register with catalogues",
           "body": "<p>In addition to updating your inventory, you need to let data.gov.uk and LGA open data pages know about your new dataset. Again the 'imrpoving visibility' section will tell you where you need to go.</p>"
         },
         {
-          "alt": "11 promote your work",
-          "title": "11. Promote your work",
+          "alt": "12 promote your work",
+          "title": "12. Promote your work",
           "body": "<p>Your dataset is now out there, registered in the right places and high quality. The final step is to promote your release to the world. Create a blog post or press release to let people know and make sure you flag the new data on social media. If you are aware of any open data user communities, it is also a good idea to get in touch with them and invite them to try out the new data.</p>"
         }
       ],
