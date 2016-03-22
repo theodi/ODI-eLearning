@@ -103,16 +103,16 @@
         "_component": "dynamic-narrative",
         "title": "What is the best way to consistently structure the data?",
         "displayTitle": "What is the best way to consistently structure the data?",
-        "body": "<p>The structure (or schema) of the dataset is a major factor in how useful your data will be to others, as data can be more easily combined and compared. You can think of the structure as a set of standard and defined column headings for a dataset. Find out more below about how to decide which schema should apply to your dataset.</p>",
+        "body": "<p>The structure (or schema) of the dataset is a major factor in how useful your data will be to others, as data can be more easily combined and compared. You can think of the structure as a set of standard and defined column headings for a dataset. Find out more below about how to decide which schema should apply to your dataset. For example, INSPIRE provides <a href='http://www.local.gov.uk/c/document_library/get_file?uuid=ba19b779-eb8d-404c-af07-25ecd921aed9' target='_blank'>European-standard schemas</a> for environmental data</p>",
         "instruction": "<em class='desktop-instruction'>Click the forward arrow for more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
         "_items": [
             {
-                "title": "Using an existing schemas",
-                "body": "<p>The best choice for the structure of your dataset is always a standard schema. Using a standard schema ensures your data can be instantly combined with that of other publishers. LGA keeps standard schemas for 10 of the most popular open datasets as well as more than 640 schema examples from authorities around the UK.</p><p>By using a standard schema, your open data can be combined with other authorities' releases to build up regional and national overviews.</p><p>Using the standard schemas is simple. Just find the right schema for your dataset, rename your colunm heading to match and save the result. Under the practical guidance section of this module you will find detailed instructions on using LGA standard schemas.</p>",
+                "title": "What are the benefits of schemas",
+                "body": "<p>Schemas help your publishing in two ways. First, a schema helps people combine your data with the same type from other publishers in their apps.Second, the schema saves you time and money when getting the data ready for publishing.</p><p>The schema gives people simple access to national services. The <a href='http://greatbritishpublictoiletmap.rca.ac.uk/' target='_blank'>Great British Public Toilet Map</a> is a perfect example. The only way a service like this can deliver a national picture of public conveniences is if all the local authorities publish their data to a <a href='http://schemas.opendata.esd.org.uk/PublicToilets' target='_blank'>consistent schema.</a>The map not only helps to make the experience of finding public conveniences less stressful, it also helps to surface the opportunities for <a href='http://www.theguardian.com/uk-news/2014/nov/19/uk-public-toilets-mapped-wheres-your-nearest' target='_blank'>greater collaboration between businesses and local authorities.</a></p>",
                 "_graphic": {
-                    "src": "course/en/images/odi-2.jpg",
-                    "alt": "Existing schemas",
-                    "title": "Existing schemas",
+                    "src": "course/en/images/toilets.jpg",
+                    "alt": "Benefits of schemas",
+                    "title": "Benefits of schemas",
                     "*source":"http://www.shutterstock.com/pic-102447179.html",
                     "*credit":"hoperan",
                     "*license":"Shutterstock Standard License"
@@ -121,7 +121,7 @@
             },
            {
                 "title": "Using an existing schema",
-                "body": "<p>The best choice for the structure of your dataset is an existing standard schema. Using a standard schema ensures your data can be instantly combined with that of other publishers. The LGA keeps a library of popular schemas that are encouraged to be used by all local government data publishers.</p><p>By using a standard schema, your open data can be combined with other authorities' releases to build up regional and national overviews.</p><p>Using the standard schemas is simple. Just find the right schema for your dataset, rename your colunm heading to match and save the result. Under the practical guidance section of this module you will find detailed instructions on using LGA standard schemas.</p>",
+                "body": "<p>The best choice for the structure of your dataset is an existing standard schema. Using a standard schema ensures your data can be instantly combined with that of other publishers. The LGA keeps a library of popular schemas that are encouraged to be used by all local government data publishers.</p><p>By using a standard schema, your open data can be combined with other authorities' releases to build up regional and national overviews.</p><p>Using the standard schemas is simple. Just find the right schema for your dataset, rename your colunm heading to match and save the result. Under the practical guidance section of this module you will find detailed instructions on using LG standard schemas.</p>",
                 "_graphic": {
                     "src": "course/en/images/odi-2.jpg",
                     "alt": "Existing schemas",
@@ -134,20 +134,7 @@
             },
             {
                 "title": "Creating a new schema",
-                "body": "<p>No common schema for the dataset you are publishing? Before just creating a new one, why not see if there is already some concensus amoung an existing community of users somewhere (use your favorite search engine). You might need to contirbute a new schema but there may be an opportunity to get the community to help!</p>",
-                "_graphic": {
-                    "src": "course/en/images/odi-3.jpg",
-                    "alt": "Creating a new schema",
-                    "title": "Creating a new schema",
-                    "*source":"http://www.shutterstock.com/pic-235025131.html",
-                    "*credit":"McIek",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "Creating a new schema"
-            },
-            {
-                "title": "The benefits of using standard schemas",
-                "body": "<p>A standard schema helps you</p>",
+                "body": "<p>No common schema for the dataset you are publishing? Before just creating a new one, why not see if there is already some concensus amoung an existing community of users somewhere (use your favorite search engine). You might need to contirbute a new schema but there may be an opportunity to get the community to help! A good place to start is <a href='http://i-network.org.uk/legsb-3/' target='_blank'>iStandUK</a>, an active community of local government experts who can support development of a new schema.</p>",
                 "_graphic": {
                     "src": "course/en/images/odi-3.jpg",
                     "alt": "Creating a new schema",
@@ -303,7 +290,7 @@
         "_items": [
             {
                 "title": "Core open data schemas",
-                "body": "<p>LGA keeps a definitive set of schemas for the datasets that local authorities have to publish under the local transparency code, along with other popular open datasets.  If you are publishing data in one of these categories, we strongly recommend following the relevant schema. For any of these schemas, simply alter your dataset's column headings to match and save the results:<br><a href='http://schemas.opendata.esd.org.uk/Contracts' target='_blank'>Contracts</a><br><a href='http://schemas.opendata.esd.org.uk/LandAndBuilding' target='_blank'>Land and Buildings</a><br><a href='http://schemas.opendata.esd.org.uk/OrganisationStructure' target='_blank'>Organisation Structure</a><br><a href='http://schemas.opendata.esd.org.uk/Parking' target='_blank'>Parking</a><br><a href='http://schemas.opendata.esd.org.uk/SeniorEmployees' target='_blank'>Senior Employees</a><br><a href='http://schemas.opendata.esd.org.uk/SeniorSalaryCount' target='_blank'>Senior Employee Count</a><br><a href='http://schemas.opendata.esd.org.uk/Spend' target='_blank'>Spend</a><br><a href='http://schemas.opendata.esd.org.uk/PlanningApplications' target='_blank'>Planning Applications</a><br><a href='http://schemas.opendata.esd.org.uk/PremisesLicences' target='_blank'>Premises Licences</a><br><a href='http://schemas.opendata.esd.org.uk/PublicToilets' target='_blank'></a>Public Toilets<br><br>If the dataset you are publishing isnt covered above, scroll right to find out about community schemas.</p>",
+                "body": "<p>LGA keeps a definitive set of schemas for the datasets that local authorities have to publish under the local transparency code, along with other popular open datasets.  If you are publishing data in one of these categories, we strongly recommend following the relevant schema. For any of these schemas, simply alter your dataset's column headings to match and save the results:<br><a href='http://schemas.opendata.esd.org.uk/Contracts' target='_blank'>Contracts</a><br><a href='http://schemas.opendata.esd.org.uk/LandAndBuilding' target='_blank'>Land and Buildings</a><br><a href='http://schemas.opendata.esd.org.uk/OrganisationStructure' target='_blank'>Organisation Structure</a><br><a href='http://schemas.opendata.esd.org.uk/Parking' target='_blank'>Parking</a><br><a href='http://schemas.opendata.esd.org.uk/SeniorEmployees' target='_blank'>Senior Employees</a><br><a href='http://schemas.opendata.esd.org.uk/SeniorSalaryCount' target='_blank'>Senior Employee Count</a><br><a href='http://schemas.opendata.esd.org.uk/Spend' target='_blank'>Spend</a><br><a href='http://schemas.opendata.esd.org.uk/PlanningApplications' target='_blank'>Planning Applications</a><br><a href='http://schemas.opendata.esd.org.uk/PremisesLicences' target='_blank'>Premises Licences</a><br><a href='http://schemas.opendata.esd.org.uk/PublicToilets' target='_blank'>Public Toilets</a><br>If the dataset you are publishing isnt covered above, scroll right to find out about community schemas.</p>",
                 "_graphic": {
                     "src": "course/en/images/sch1.jpg",
                     "alt": "Schemas",
@@ -316,7 +303,7 @@
             },
             {
                 "title": "Community open data schemas",
-                "body": "<p>If the dataset you are publishing is not covered by one of the core schemas published by LGA, you may be able to find a common schema from othder local authorities in the community. The LGA schema directory keeps track of over 640 schemas from local authorities across the UK. Simply search the directory for the type of data you plan to publish and it will show you the common schemas that match.<br><a href='http://schemas.opendata.esd.org.uk/' target='_blank'>Take me to the LGA community schema directory</a><br>If the dataset you are publishing isn't covered by any of those in the community, it may be nescessary to create your own schema. However there are still some guidelines that can help you create a good one. Scroll right to find these guidelines.</p>",
+                "body": "<p>If the dataset you are publishing is not covered by one of the core schemas referenced by LGA, you may be able to find a common schema from othder local authorities in the community. For certain types of data, common schemas are published by other organisations such as <a href='http://www.local.gov.uk/c/document_library/get_file?uuid=ba19b779-eb8d-404c-af07-25ecd921aed9' target='_blank'>INSPIRE</a> for environmental data and <a href='https://www.geoplace.co.uk/documents/10181/138013/BS7666%20explained' target='_blank'>BS7666</a> for land use. In addition, the LGA schema directory keeps track of over 640 schemas from local authorities across the UK. Simply search the directory for the type of data you plan to publish and it will show you the common schemas that match.<br><a href='http://schemas.opendata.esd.org.uk/' target='_blank'>Take me to the LGA community schema directory</a><br>If the dataset you are publishing isn't covered by any of those in the community, it may be nescessary to create your own schema. However there are still some guidelines that can help you create a good one. Scroll right to find these guidelines.</p>",
                 "_graphic": {
                     "src": "course/en/images/sch2.jpg",
                     "alt": "Community schemas",
@@ -412,11 +399,11 @@
         "_component": "dynamic-narrative",
         "title": "The benefits of publishing to standard schemas: Local authority examples",
         "displayTitle": "The benefits of publishing to standard schemas: Local authority examples",
-        "body": "<p>Publishing standard schemas can save your authority time and money. The results can also make your data more attractive to developers and other users. The following examples show how some authorities around the UK are already using standard schemas to their advantage.</p>",
+        "body": "<p>Publishing against standard schemas can save your authority time and money. The results can also make your data more attractive to developers and other users. The following examples show how some authorities around the UK are already using standard schemas to their advantage.</p>",
         "instruction": "<em class='desktop-instruction'>Click the forward arrow for more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
         "_items": [
            {
-                "title": "Starting Small: Colchester Borough Council",
+                "title": "Starting small: Colchester Borough Council",
                 "body": "<p>When Colchester Borough Council came to publish open data under the transparency code they were faced with a choice. The council could either spend time and resources developing their own schemas or use an existing one. Calling upon the online open data resources assembled by the LGA,  Colchester was able to access the full range of schemas for transparency code datasets, ensuring their results would be clean, simple and compatible with the data of neighbouring authorities.<br><a href='http://www.colchester.gov.uk/councildata' target='_blank'>Take me to Colchester data site.</a></p>",
                 "_graphic": {
                     "src": "course/en/images/colchester.jpg",
@@ -429,7 +416,7 @@
                 "strapline": "Colchester"
             },
             {
-                "title": "Combining Data: Surrey District Councils",
+                "title": "Combining planning data: Surrey District Councils",
                 "body": "<p>Surrey Heath District Council receives more than 11,500 planning downloads every month, in neighbouring Reigate the number is even higher. Yet people searching for applications in Surrey had to browse 12 different council websites, each with its own challenges. Surrey found that there was no schema for planning data - so they created one in collaboration with Hampshire County Council. They shared their schema openly. Now 12 local authorities publish their data using the schema and provide everyone in Surrey with planning applications through a single, simple portal. Even better, anyone can take the schema and save time on their own publication of planning data.<br><a href='https://www.youtube.com/watch?v=-Ku9qQk4IGE' target='_blank'>Take me to the Surrey Heath case study video</a></p>",
                 "_graphic": {
                     "src": "course/en/images/surrey.jpg",
@@ -443,7 +430,7 @@
             },
             {
                 "title": "Building on others: Hampshire County Council",
-                "body": "<p>Hampshire County Council published planning data harvested from districts according to a common schema. They developed the schema in collaboration with districts, the LGA and istandUK. Like Surrey, Hampshire built upon a shred foundation to bring planning applications from the districts together. The result was a visual tool, developed by MySociety, which allows users to interactively search and find planning applications across Hampshire.<br><a href='http://hampshire-planning.staging.mysociety.org/' target='_blank'>Take me to the Hampshire planning explorer</a></p>",
+                "body": "<p>Hampshire County Council published planning data harvested from districts according to a common schema. They developed the schema in collaboration with districts, the LGA and istandUK. Like Surrey, Hampshire built upon a shared foundation to bring planning applications from the districts together. The result was a visual tool, developed by MySociety, which allows users to interactively search and find planning applications across Hampshire.<br><a href='http://hampshire-planning.staging.mysociety.org/' target='_blank'>Take me to the Hampshire planning explorer</a></p>",
                 "_graphic": {
                     "src": "course/en/images/hampshire.png",
                     "alt": "Hampshire",
@@ -606,7 +593,7 @@
         "_selectable":1,
         "title": "LGA schemas",
         "displayTitle": "LGA schemas",
-        "body": "<p>Which of the following datasets is <b>not<</p>",
+        "body": "<p>Which of the following datasets is a good place to find community schemas for local government?</p>",
         "instruction": "<em>Select an option, then click 'Submit'.</em>",
         "_items": [
             {
@@ -806,7 +793,7 @@
         "_layout":"left",
        "title":"Making standards work for you",
         "displayTitle":"Making standards work for you",
-        "body":"<p>In this final module we examined where local authorities can find the right standards to help them save time and money on publishing data. We hope you have enjoyed the LGA's open data learning course. If you would like to continue your open data learning journey, why not <a href='http://theodi.org/courses' target='_blank'>join a face-to-face course with the ODI?</a></p>",
+        "body":"<p>In this third module we examined where local authorities can find the right support to make standards simple and to help them save time and money on publishing data. We hope you have enjoyed the LGA's open data learning course. If you would like to continue your open data learning journey, why not <a href='http://theodi.org/courses' target='_blank'>join a face-to-face course with the ODI?</a></p>",
         "_pageLevelProgress": {
           "_isEnabled": true
         }
