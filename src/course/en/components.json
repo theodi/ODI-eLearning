@@ -154,19 +154,14 @@
       "instruction": "<em>Click the headings to explore further.</em>",
       "_items": [
         {
-          "alt": "Including licensed spatial data",
-          "title": "Including licensed spatial data",
-          "body": "<p>For planning applications, leave northing and easting (if derived from OS data) and <a href='https://www.ordnancesurvey.co.uk/about/news/2015/uprn-release-sharing-location-data.html' target='_blank'>UPRN</a> blank in the the published dataset, but make available on request a copy of the dataset with the coordinates (and optionally UPRNs) that is subject to the <a href='https://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/psma-licensing.html' target='_blank'>PSMA licence<a/>. Say in your submission and in your entry on data.gov.uk that licensed data for these fields is available on request.<br>For public toilets data GeoX and GeoY co-ordinates must be provided. If these are derived from Ordnance Survey data or if UPRNs are given, the GeoPointLicensingURL field must contain a <a href='http://www.ordnancesurvey.co.uk/business-and-government/help-andsupport/public-sector/guidance/derived-data-exemptions.html' target='_blank'>URL that attributes the data to Ordnance Survey.</a></p><p>If your spatial data is not derived from Ordnance Survey data or any other licensed source, it can be included without the above provisions.</p>"
-        },
-        {
           "alt": "Wrong date formats",
           "title": "Wrong date formats",
           "body": "<p>Dates can be written in inconsistent ways. Mixed date formats are sometimes simple to spot:<br><br>8-sep-2013 vs 8/9/2013<br><br>and sometimes less obvious:<br><br>8/9/2013 vs 9/8/2013.<br><br>An additional challenge is that some applications, like Excel, will ‘guess’ the format when a dataset is opened which can hide how dates are actually written in the file.</p><p>The most common error is the mixed use of American (MM/DD/YYYY) and European (DD/MM/YYYY) format.</p>"
         },
         {
-          "alt": "GeoX and GeoY co-ordinates the wrong way round",
-          "title": "GeoX and GeoY co-ordinates the wrong way round",
-          "body": "<p>GeoX should hold the longitude or easting. GeoY should hold the latitude or northing. The two fields should be included in that order: GeoX then GeoY from left to right.</p>"
+          "alt": "Incorrect geographic coordinates",
+          "title": "Incorrect geographic coordinates",
+          "body": "<p>GeoX should hold the longitude or easting. GeoY should hold the latitude or northing. The two fields should be included in that order: GeoX then GeoY from left to right. All georeferences should also use either European Terrestrial Reference System (ETRS) 89 or World Geodetic System (WGS) 84 specification. Some publishers have used previous versions such as WGS 66. Make sure all your geodata is in ETRS89 or WGS84 <a href='https://standards.data.gov.uk/proposal/exchange-location-point-information-proposal-version-2?stage=proposal' target='_blank'>using this helpful guide.</a></p>"
         },
         {
           "alt": "Misspelt headings",
@@ -177,11 +172,6 @@
           "alt": "Currency notation",
           "title": "Currency notation",
           "body": "<p>Price or cost data should not contain any prefix or suffix to the numeric value. For example, some publisher add a '£' sign before a value or 'GPB' afterward. Specify the correct column heading then only put numbers in price or cost fields.</p>"
-        },
-        {
-          "alt": "Wrong version of WGS",
-          "title": "Wrong version of WGS",
-          "body": "<p>All georeferences should use the World Geodetic System (WGS) 84 specification. Some publishers have used previous versions such as WGS 66. Make sure all your geodata is in WGS 84.</p>"
         }
       ],
       "_pageLevelProgress": {
