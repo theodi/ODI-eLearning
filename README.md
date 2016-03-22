@@ -42,7 +42,7 @@ This means that you need two Git trackers in the same directory
 
 ## Using
 
-You MUST be in the top level directory of the repository to execute any git commands now! 
+You MUST be in the top level directory of the repository to execute any git commands now!
 
 You MUST now only modify the master branch with the `gitmaster` command rather than git, e.g. `gitmaster status`
 
@@ -93,13 +93,24 @@ Change the language for different language builds
 
 Change the language for different language builds
 
+### Building mobile apps
+
+* ./bin/build-odi-cordova module1 en
+
+Or
+
+* ./bin/build-odi-cordova-all en
+
+This will create the module in the right location and then symlink it to the `cordova/www` directory.
+
+Once installed you can run all the usual Cordova commands to build and package the app. For example `cordova emulate ios` will run the app in the iOS emulator.
+
 ## Viewing and exporting modules
 
-All modules are built into the modules/ dirctory. 
+All modules are built into the modules/ dirctory.
 
 At the top level is the ODI build with the different languages.
 
-There is also an eu directory for the eu-theme modules. 
+There is also an eu directory for the eu-theme modules.
 
-Each module can be compressed as a scorm package or be used natively using browser local storage to track progress. 
-
+Each module can be compressed as a scorm package or be used natively using browser local storage to track progress.
