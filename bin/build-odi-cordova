@@ -47,7 +47,7 @@ echo ""
 sed -i -e "s/<\/head>/<script type=\"text\/javascript\" src=\"..\/cordova.js\"><\/script><script type=\"text\/javascript\" src=\"..\/cordova-odi.js\"><\/script><\/head>/g" src/index.html
 
 echo "Hiding language selector in theme"
-echo "" 
+echo ""
 sed -i -e "s/country-select/bcountry-select/g" src/theme/default/templates/navigation.hbs
 
 echo "Changing ownership"
@@ -59,7 +59,7 @@ echo "Updating image path"
 echo ""
 sed -i -e "s/course\/en\/images/course\/$2\/images/g" src/theme/default/less/header.less
 
-echo "Changing video to native player" 
+echo "Changing video to native player"
 echo ""
 sed -i -e "s/iFrame-vimeo/media/g" src/course/$2/components.json
 sed -i -e "s/instruction/binstruction/g" src/course/$2/components.json
@@ -81,11 +81,11 @@ do
 done
 if [ $2 == "en" ]
 then
-	sed -i -e "s/'>Main/index.html'>Main/g" src/course/en/components.json 
-	sed -i -e "s/'>Next/index.html'>Next/g" src/course/en/components.json 
-else 
-	sed -i -e "s/'>Menu/index.html'>Menu/g" src/course/fr/components.json 
-	sed -i -e "s/'>Prochain/index.html'>Prochain/g" src/course/fr/components.json 
+	sed -i -e "s/'>Main/index.html'>Main/g" src/course/en/components.json
+	sed -i -e "s/'>Next/index.html'>Next/g" src/course/en/components.json
+else
+	sed -i -e "s/'>Menu/index.html'>Menu/g" src/course/fr/components.json
+	sed -i -e "s/'>Prochain/index.html'>Prochain/g" src/course/fr/components.json
 fi
 
 echo "Building module";
@@ -104,7 +104,7 @@ sed -i -e "s/<script type=\"text\/javascript\" src=\"..\/cordova.js\"><\/script>
 
 #echo "building scorm package"
 #cd build
-#zip -r course/$2/data/scorm.zip * >/dev/null 
+#zip -r course/$2/data/scorm.zip * >/dev/null
 #cd ..
 
 echo "Moving module into place"
@@ -113,3 +113,6 @@ echo "Moving module into place"
 `cp -r build $OUTPATH/$2/$1`
 
 `rm -fR build`
+
+echo "Symlinking to the Cordova directory"
+`ln -s $(pwd)/$OUTPATH/$2 $(pwd)/cordova/www`
