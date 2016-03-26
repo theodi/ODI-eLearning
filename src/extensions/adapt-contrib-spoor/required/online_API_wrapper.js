@@ -66,7 +66,7 @@ function miniProgressUpdate() {
 		key = "ODI_" + i + "_cmi.suspend_data";
 		try { document.getElementById('ODI_' + i + '_tick_sidebar').innerHTML = "0%"; } catch(err) {}
     		try {
-			percent = localStorage.getItem('ODI_' + i + '_progress_percent');
+			percent = parseInt(localStorage.getItem('ODI_' + i + '_progress_percent'));
 			value = localStorage.getItem(key);
 			data = $.parseJSON(value);
 			completion = data.spoor.completion;
@@ -133,7 +133,7 @@ function updateProgress() {
 		try { document.getElementById('ODI_' + i + '_tick').innerHTML = "0%"; } catch(err) {}
 		key = "ODI_" + i + "_cmi.suspend_data";
     		try {
-			percent = localStorage.getItem('ODI_' + i + '_progress_percent');
+			percent = parseInt(localStorage.getItem('ODI_' + i + '_progress_percent'));
 			value = localStorage.getItem(key);
 			data = $.parseJSON(value);
 			completion = data.spoor.completion;

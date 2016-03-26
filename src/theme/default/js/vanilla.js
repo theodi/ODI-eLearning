@@ -10,6 +10,7 @@ $.getJSON("course/config.json",function(data) {
 });
 	
 var theme = "ODI";
+var version = "1.1.4";
 var interval; 
 var click_bind = false;
 
@@ -103,7 +104,7 @@ function checkState() {
 		$('.save-section-outer').unbind('click');
 	} else if (sessionID) {
 		if (!lastSave) { lastSave = "Unknown"; }
-		$('#save-status').html("Module ID: " + moduleId + "<br/>Session ID: " + sessionID + "<br/>Last Save: " + lastSave);
+		$('#save-status').html("Version: " + version + "<br/>Module ID: " + moduleId + "<br/>Session ID: " + sessionID + "<br/>Last Save: " + lastSave);
 		$('#save-section').addClass('saving');
 		$("#country-select").removeClass('save-shown');
 		$("#country-select").addClass('status-shown');
