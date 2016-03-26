@@ -68,6 +68,8 @@ define(function(require) {
 		updateProgressBar: function() {
 			var componentCompletionRatio = this.collection.where({_isComplete:true}).length / this.collection.length;
 			var percentageOfCompleteComponents = componentCompletionRatio*100;
+			
+			localStorage.setItem(moduleId + '_progress_percent',percentageOfCompleteComponents);
 
 			this.$('.page-level-progress-navigation-bar').css('width', percentageOfCompleteComponents+'%');
 

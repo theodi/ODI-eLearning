@@ -66,12 +66,16 @@ function miniProgressUpdate() {
 		key = "ODI_" + i + "_cmi.suspend_data";
 		try { document.getElementById('ODI_' + i + '_tick_sidebar').innerHTML = "0%"; } catch(err) {}
     		try {
+			percent = localStorage.getItem('ODI_' + i + '_progress_percent');
 			value = localStorage.getItem(key);
 			data = $.parseJSON(value);
 			completion = data.spoor.completion;
-			total = completion.length;
-			complete = completion.match(/1/g || []).length;	
-			percent = Math.round((complete/total) * 100);
+			if (!percent) {
+				total = completion.length;
+				complete = completion.match(/1/g || []).length;	
+				percent = Math.round((complete/total) * 100);
+				localStorage.setItem('ODI_' + i + '_progress_percent',percent);
+			}
 			badge_progression[current_badge] = badge_progression[current_badge] + percent;
 			document.getElementById('ODI_' + i + '_tick_sidebar').innerHTML = percent + "%";
 			if (percent == 100) {
@@ -129,12 +133,16 @@ function updateProgress() {
 		try { document.getElementById('ODI_' + i + '_tick').innerHTML = "0%"; } catch(err) {}
 		key = "ODI_" + i + "_cmi.suspend_data";
     		try {
+			percent = localStorage.getItem('ODI_' + i + '_progress_percent');
 			value = localStorage.getItem(key);
 			data = $.parseJSON(value);
 			completion = data.spoor.completion;
-			total = completion.length;
-			complete = completion.match(/1/g || []).length;	
-			percent = Math.round((complete/total) * 100);
+			if (!percent) {
+				total = completion.length;
+				complete = completion.match(/1/g || []).length;	
+				percent = Math.round((complete/total) * 100);
+				localStorage.setItem('ODI_' + i + '_progress_percent',percent);
+			}
 			//document.getElementById('ODI_' + i).setAttribute('value',percent);
 			document.getElementById('ODI_' + i + '_tick').innerHTML = percent + "%";
 			if (percent == 100) {
