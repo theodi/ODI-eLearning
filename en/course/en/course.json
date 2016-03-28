@@ -123,26 +123,18 @@
       },
       "_resourcesItems": [
         {
-          "_type": "link",
-          "_local": "true",
           "title": "<object type='image/svg+xml' class='badge-icon-medium' data='adapt/css/assets/badges/pathfinder.svg'><svg xmlns='http://www.w3.org/2000/svg' version='1.1' class='badge-icon-medium'><image class='badge-icon-medium' xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='adapt/css/assets/badges/pathfinder.svg' src='adapt/css/assets/badges/pathfinder.png'></image></svg></object><span class='side-badge-title'>Pathfinder</span><p class='sidebar-progress' id='pathfinder-overall-side'>-</p>",
           "description": ""
         },
         {
-          "_type": "link",
-          "_local": "true",
           "title": "<object type='image/svg+xml' class='badge-icon-medium' data='adapt/css/assets/badges/adventurer.svg'><svg xmlns='http://www.w3.org/2000/svg' version='1.1' class='badge-icon-medium'><image class='badge-icon-medium' xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='adapt/css/assets/badges/adventurer.svg' src='adapt/css/assets/badges/adventurer.png'></image></svg></object><span class='side-badge-title'>Adventurer</span><p class='sidebar-progress' id='adventurer-overall-side'>-</p>",
           "description": ""
         },
         {
-          "_type": "link",
-          "_local": "true",
           "title": "<object type='image/svg+xml' class='badge-icon-medium' data='adapt/css/assets/badges/planner.svg'><svg xmlns='http://www.w3.org/2000/svg' version='1.1' class='badge-icon-medium'><image class='badge-icon-medium' xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='adapt/css/assets/badges/planner.svg' src='adapt/css/assets/badges/planner.png'></image></svg></object><span class='side-badge-title'>Planner</span><p class='sidebar-progress' id='planner-overall-side'>-</p>",
           "description": ""
         },
         {
-          "_type": "link",
-          "_local": "true",
           "title": "<object type='image/svg+xml' class='badge-icon-medium' data='adapt/css/assets/badges/technician.svg'><svg xmlns='http://www.w3.org/2000/svg' version='1.1' class='badge-icon-medium'><image class='badge-icon-medium' xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='adapt/css/assets/badges/technician.svg' src='adapt/css/assets/badges/technician.png'></image></svg></object><span class='side-badge-title'>Technician</span><p class='sidebar-progress' id='technician-overall-side'>-</p>",
           "description": ""
         }
@@ -168,7 +160,68 @@
         "media": "Media",
         "link": "Link"
       },
-      "_resourcesItems": []
+      "_resourcesItems": [
+        {
+          "_type": "link",
+          "title": "Pathfinder badge",
+          "description": "Source: Noun project<br/>Credit: Jardson Almeida<br/>Licence: CC-BY",
+          "_link": "https://thenounproject.com/search/?q=explorer&i=8541"
+        },
+        {
+          "_type": "link",
+          "title": "Adventurer badge",
+          "description": "Source: Noun project<br/>Credit: Cris Dobbins<br/>Licence: CC-BY",
+          "_link": "https://thenounproject.com/search/?q=adventurer&i=9010"
+        },
+        {
+          "_type": "link",
+          "title": "Planner badge",
+          "description": "Source: Noun project<br/>Credit: Scott Lewis<br/>Licence: CC-BY",
+          "_link": "https://thenounproject.com/search/?q=strategize&i=9349"
+        },
+        {
+          "_type": "link",
+          "title": "Technician badge",
+          "description": "Source: Noun project<br/>Credit: Gregor Črešnar<br/>Licence: CC-BY",
+          "_link": "https://thenounproject.com/search/?q=link+node&i=138255"
+        },
+        {
+          "_type": "link",
+          "title": "Pathfinder data image",
+          "description": "Source: Shutterstock<br/>Credit: leromin<br/>Licence: Shutterstock Standard License",
+          "_link": "http://www.shutterstock.com/pic.mhtml?id=179384507&src=lb-35924366"
+        },
+        {
+          "_type": "link",
+          "title": "Adventurer radar image",
+          "description": "Source: Shutterstock<br/>Credit: 501room<br/>Licence: Shutterstock Standard License",
+          "_link": "http://www.shutterstock.com/pic-120780490.html"
+        },
+        {
+          "_type": "link",
+          "title": "Planner glidepath image",
+          "description": "Source: Shutterstock<br/>Credit: Laralova<br/>Licence: Shutterstock Standard License",
+          "_link": "http://www.shutterstock.com/pic.mhtml?id=103013084&src=id"
+        },
+        {
+          "_type": "link",
+          "title": "Technician iceberg",
+          "description": "Source: Shutterstock<br/>Credit: Lightspring<br/>Licence: ",
+          "_link": "http://www.shutterstock.com/pic-278213858.html"
+        },
+        {
+          "_type": "link",
+          "title": "Summary icon clipboard",
+          "description": "Source: Shutterstock<br/>Credit: Kritchanut<br/>Licence: Shutterstock Standard License",
+          "_link": "http://www.shutterstock.com/pic-189810137.html"
+        },
+        {
+          "_type": "link",
+          "title": "Open data institute logo",
+          "description": "Source: The Open Data Institute<br/>Credit: The Open Data Institute<br/>Licence: All rights reserved",
+          "_link": "http://theodi.org"
+        }
+      ]
     },
     {
       "title": "Open data",

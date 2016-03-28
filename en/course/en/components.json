@@ -79,9 +79,9 @@
         "_graphic": {
             "alt": "",
             "title": "",
-            "large": "adapt/css/assets/badges/pathway.png",
-            "medium": "adapt/css/assets/badges/pathway.png",
-            "small": "adapt/css/assets/badges/pathway.png"
+            "large": "course/en/images/pathway.png",
+            "medium": "course/en/images/pathway.png",
+            "small": "course/en/images/pathway.png"
         }
     },
     {
@@ -104,12 +104,15 @@
         "_classes":"",
         "_layout":"right",
         "_graphic": {
-            "alt": "",
-            "title": "",
+            "alt": "Pathfinder data image",
+            "title": "Pathfinder data image",
             "large": "course/en/images/odi-1-text-image_large.jpg",
             "medium": "course/en/images/odi-1-text-image_large.jpg",
-            "small": "course/en/images/odi-1-text-image_large.jpg"
-        }
+            "small": "course/en/images/odi-1-text-image_large.jpg",
+            "*source":"http://www.shutterstock.com/pic.mhtml?id=179384507&src=lb-35924366",
+            "*credit":"leromin",
+            "*license":"Shutterstock Standard License"
+	}
     },
     {
         "_id":"c-12",
@@ -130,11 +133,14 @@
         "_classes":"",
         "_layout":"left",
         "_graphic": {
-            "alt": "",
-            "title": "",
+            "alt": "Adventurer radar image",
+            "title": "Adventurer radar image",
             "large": "course/en/images/odi-6-text-image_large.jpg",
             "medium": "course/en/images/odi-6-text-image_large.jpg",
-            "small": "course/en/images/odi-6-text-image_large.jpg"
+            "small": "course/en/images/odi-6-text-image_large.jpg",
+	    "*source":"http://www.shutterstock.com/pic-120780490.html",
+            "*credit":"501room",
+            "*license":"Shutterstock Standard License"
         }
     },
     {
@@ -156,11 +162,14 @@
         "_classes":"",
         "_layout":"right",
         "_graphic": {
-            "alt": "",
-            "title": "",
+            "alt": "Planner glidepath image",
+            "title": "Planner glidepath image",
             "large": "course/en/images/odi-8-text-image_large.jpg",
             "medium": "course/en/images/odi-8-text-image_large.jpg",
-            "small": "course/en/images/odi-8-text-image_large.jpg"
+            "small": "course/en/images/odi-8-text-image_large.jpg",
+	    "*source": "http://www.shutterstock.com/pic.mhtml?id=103013084&src=id",
+            "*credit": "Laralova",
+            "*license":"Shutterstock Standard License"
         }
     },
     {
@@ -182,11 +191,14 @@
         "_classes":"",
         "_layout":"left",
         "_graphic": {
-            "alt": "",
-            "title": "",
+            "alt": "Technician iceberg",
+            "title": "Technician iceberg",
             "large": "course/en/images/odi-12-text-image_large.jpg",
             "medium": "course/en/images/odi-12-text-image_large.jpg",
-            "small": "course/en/images/odi-12-text-image_large.jpg"
+            "small": "course/en/images/odi-12-text-image_large.jpg",
+	    "*source": "http://www.shutterstock.com/pic-278213858.html",
+            "*credit": "Lightspring",
+            "*licence": "Shutterstock standard license"
         }
     },
     {
@@ -208,12 +220,15 @@
         "_classes":"",
         "_layout":"right",
         "_graphic": {
-            "alt": "",
-            "title": "",
+            "alt": "Summary icon clipboard",
+            "title": "Summary icon clipboard",
             "large": "course/en/images/summary-icon.png",
             "medium": "course/en/images/summary-icon.png",
-            "small": "course/en/images/summary-icon.png"
-        }
+            "small": "course/en/images/summary-icon.png",
+            "*source":"http://www.shutterstock.com/pic-189810137.html",
+            "*credit":"Kritchanut",
+            "*license":"Shutterstock Standard License"
+	}
     },
     {
         "_id":"c-152",
@@ -242,11 +257,14 @@
         "_classes":"footer-logo",
         "_layout":"left",
         "_graphic": {
-            "alt": "",
-            "title": "",
+	    "alt": "Open data institute logo",
+            "title": "Open data institute logo",
             "large": "course/en/images/logo-small.png",
             "medium": "course/en/images/logo-small.png",
-            "small": "course/en/images/logo-small.png"
+            "small": "course/en/images/logo-small.png",
+            "*source":"http://theodi.org",
+            "*credit":"The Open Data Institute",
+            "*license":"All rights reserved"
         }
     },
     {
