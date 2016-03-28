@@ -123,8 +123,14 @@ function updateBadgeOverall(badge_progression,level) {
 	try { document.getElementById(level + '-overall').innerHTML = percent + "%"; } catch(err) {}
 	try { document.getElementById(level + '-overall-side').innerHTML = percent + "%"; } catch(err) {}
 	if (percent == 100) {
-		try { document.getElementById(level + '-overall').innerHTML = "&#10003;"; } catch(err) {}
-		try { document.getElementById(level + '-overall-side').innerHTML = "&#10003;"; } catch(err) {}
+		try { 
+			document.getElementById(level + '-overall').className = "badge-progress-overall ticked";	
+			document.getElementById(level + '-overall').innerHTML = "&#10003;"; 
+		} catch(err) {}
+		try { 
+			document.getElementById(level + '-overall-side').className = "sidebar-progress ticked";	
+			document.getElementById(level + '-overall-side').innerHTML = "&#10003;"; 
+		} catch(err) {}
 	}
 }
 function updateProgress() {
