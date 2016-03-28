@@ -66,16 +66,21 @@ function miniProgressUpdate() {
 		key = "ODI_" + i + "_cmi.suspend_data";
 		try { document.getElementById('ODI_' + i + '_tick_sidebar').innerHTML = "0%"; } catch(err) {}
     		try {
+			percent = parseInt(localStorage.getItem('ODI_' + i + '_progress_percent'));
 			value = localStorage.getItem(key);
 			data = $.parseJSON(value);
 			completion = data.spoor.completion;
-			total = completion.length;
-			complete = completion.match(/1/g || []).length;	
-			percent = Math.round((complete/total) * 100);
+			if (!percent) {
+				total = completion.length;
+				complete = completion.match(/1/g || []).length;	
+				percent = Math.round((complete/total) * 100);
+				localStorage.setItem('ODI_' + i + '_progress_percent',percent);
+			}
 			badge_progression[current_badge] = badge_progression[current_badge] + percent;
 			document.getElementById('ODI_' + i + '_tick_sidebar').innerHTML = percent + "%";
 			if (percent == 100) {
-				document.getElementById('ODI_' + i + '_tick_sidebar').innerHTML = "✔";
+				document.getElementById('ODI_' + i + '_tick_sidebar').className = "sidebar-module-progress ticked";	
+				document.getElementById('ODI_' + i + '_tick_sidebar').innerHTML = "&#10003;";
 				mods_done[i] = true;
 			}
 		}
@@ -118,8 +123,14 @@ function updateBadgeOverall(badge_progression,level) {
 	try { document.getElementById(level + '-overall').innerHTML = percent + "%"; } catch(err) {}
 	try { document.getElementById(level + '-overall-side').innerHTML = percent + "%"; } catch(err) {}
 	if (percent == 100) {
-		try { document.getElementById(level + '-overall').innerHTML = "✔"; } catch(err) {}
-		try { document.getElementById(level + '-overall-side').innerHTML = "✔"; } catch(err) {}
+		try { 
+			document.getElementById(level + '-overall').className = "badge-progress-overall ticked";	
+			document.getElementById(level + '-overall').innerHTML = "&#10003;"; 
+		} catch(err) {}
+		try { 
+			document.getElementById(level + '-overall-side').className = "sidebar-progress ticked";	
+			document.getElementById(level + '-overall-side').innerHTML = "&#10003;"; 
+		} catch(err) {}
 	}
 }
 function updateProgress() {
@@ -129,16 +140,21 @@ function updateProgress() {
 		try { document.getElementById('ODI_' + i + '_tick').innerHTML = "0%"; } catch(err) {}
 		key = "ODI_" + i + "_cmi.suspend_data";
     		try {
+			percent = parseInt(localStorage.getItem('ODI_' + i + '_progress_percent'));
 			value = localStorage.getItem(key);
 			data = $.parseJSON(value);
 			completion = data.spoor.completion;
-			total = completion.length;
-			complete = completion.match(/1/g || []).length;	
-			percent = Math.round((complete/total) * 100);
+			if (!percent) {
+				total = completion.length;
+				complete = completion.match(/1/g || []).length;	
+				percent = Math.round((complete/total) * 100);
+				localStorage.setItem('ODI_' + i + '_progress_percent',percent);
+			}
 			//document.getElementById('ODI_' + i).setAttribute('value',percent);
 			document.getElementById('ODI_' + i + '_tick').innerHTML = percent + "%";
 			if (percent == 100) {
-				document.getElementById('ODI_' + i + '_tick').innerHTML = "✔";
+				document.getElementById('ODI_' + i + '_tick').className = "mod_tick ticked";	
+				document.getElementById('ODI_' + i + '_tick').innerHTML = "&#10003;";
 				mods_done[i] = true;
 			}
 		}
