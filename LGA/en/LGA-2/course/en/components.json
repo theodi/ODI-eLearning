@@ -30,7 +30,7 @@
         "_layout":"left",
         "title":"Making publishing work for you",
         "displayTitle":"Making publishing work for you",
-        "body":"<p>In the first module you explored how to make transparency work for you through outlining the benefits of publishing open data for local authorities and giving you the ability to publish a 'minimum viable product' dataset. In this module, we take a look at some of the ways you can publish better quality data and take you through the 12 steps of publishing a complete, high-quality dataset.</p><p>In this module you will learn:</p><ul><li>The importance of ensuring the data you publish is clean and consistent</li><li>The major factors affecting consistent publication</li><li>The 12 steps to publishing high-quality open data</li></ul></p><p>This module also provides useful links to supporting documents and services that can help save time and improve your publication.</p>",
+        "body":"<p>In the first module you explored how to make transparency work for you. You learned the benefits of publishing open data for local authorities and gained the ability to publish a 'minimum viable product' open dataset. In this module, we take a look at some of the ways you can publish better quality data and take you through the 12 steps of publishing a complete, high-quality dataset.</p><p>In this module you will learn:</p><ul><li>The importance of ensuring the data you publish is clean and consistent</li><li>The major factors affecting consistent publication</li><li>The 12 steps to publishing high-quality open data</li></ul></p><p>This module also provides useful links to supporting documents and services that can help save time and improve your publication.</p>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
@@ -92,7 +92,7 @@
         "_layout":"right",
         "title":"Why does quality matter?",
         "displayTitle":"Why does quality matter?",
-        "body":"<p>Open data is designed to be used. Whether this use is by a developer to create a new app, a community group to deliver a better service or a person to improve accountability, they need to be able to quickly understand and use the dataset.</p><p>Publishing good quality data is the key to encouraging greater re-use.  Improving the quality of your open data starts before you publish by cleaning up entries and correctly formatting the data. You can also raise quality by making the data easier for people to find. Finally, through links and promotion, you can generate a bigger audience.</p><p>Creating better quality data is best done by following a process. Below you can learn why these steps matter before following the complete 12-step process yourself.</p>"
+        "body":"<p>Open data is designed to be used. Whether this use is by a developer to create a new app, a community group to deliver a better service or a citizen to improve accountability, they need to be able to quickly understand and use the dataset.</p><p>Publishing good quality data is the key to encouraging greater re-use. Improving the quality of your open data starts before you publish, by cleaning up entries and correctly formatting the data. You can also raise quality by making the data easier for people to find. Finally, through links and promotion, you can generate a bigger audience.</p><p>Creating better quality data is best done by following a process. Below you can learn why these steps matter before following the complete 12-step process yourself.</p>"
     },
     {
         "_id":"c-7",
@@ -156,12 +156,12 @@
         {
           "alt": "Wrong date formats",
           "title": "Wrong date formats",
-          "body": "<p>Dates can be written in inconsistent ways. Mixed date formats are sometimes simple to spot:<br><br>8-sep-2013 vs 8/9/2013<br><br>and sometimes less obvious:<br><br>8/9/2013 vs 9/8/2013.<br><br>An additional challenge is that some applications, like Excel, will ‘guess’ the format when a dataset is opened which can hide how dates are actually written in the file.</p><p>The most common error is the mixed use of American (MM/DD/YYYY) and European (DD/MM/YYYY) format.</p>"
+          "body": "<p>Dates can be written in inconsistent ways. Mixed date formats are sometimes simple to spot:<br><br>8-sep-2013 vs 8/9/2013<br><br>and sometimes less obvious:<br><br>8/9/2013 vs 9/8/2013.<br><br>An additional challenge is that some applications, like Excel, will ‘guess’ the format when a dataset is opened which can hide how dates are actually written in the file.</p><p>The most common error is the mixed use of American (MM/DD/YYYY) and European (DD/MM/YYYY) formats.</p>"
         },
         {
           "alt": "Incorrect geographic coordinates",
           "title": "Incorrect geographic coordinates",
-          "body": "<p>GeoX should hold the longitude or easting. GeoY should hold the latitude or northing. The two fields should be included in that order: GeoX then GeoY from left to right. All georeferences should also use either European Terrestrial Reference System (ETRS) 89 or World Geodetic System (WGS) 84 specification. Some publishers have used previous versions such as WGS 66. Make sure all your geodata is in ETRS89 or WGS84 <a href='https://standards.data.gov.uk/proposal/exchange-location-point-information-proposal-version-2?stage=proposal' target='_blank'>using this helpful guide.</a></p>"
+          "body": "<p>When publishing data to LGA standards, GeoX should hold the longitude or easting. GeoY should hold the latitude or northing. The two fields should be included in that order: GeoX then GeoY from left to right. All georeferences should also use either European Terrestrial Reference System (ETRS) 89 or World Geodetic System (WGS) 84 specification. Some publishers have used previous versions such as WGS 66. Make sure all your geodata is in ETRS89 or WGS84 <a href='https://standards.data.gov.uk/proposal/exchange-location-point-information-proposal-version-2?stage=proposal' target='_blank'>using this helpful guide.</a></p>"
         },
         {
           "alt": "Misspelt headings",
@@ -171,7 +171,7 @@
         {
           "alt": "Currency notation",
           "title": "Currency notation",
-          "body": "<p>Price or cost data should not contain any prefix or suffix to the numeric value. For example, some publisher add a '£' sign before a value or 'GPB' afterward. Specify the correct column heading then only put numbers in price or cost fields.</p>"
+          "body": "<p>Price or cost data should not contain any prefix or suffix to the numeric value. For example, some publishers add a '£' sign before a value or 'GBP' afterward. Specify the correct column heading then only put numbers in price or cost fields.</p>"
         }
       ],
       "_pageLevelProgress": {
@@ -210,7 +210,7 @@
         {
             "alt": "Consider a platform",
             "title": "Consider a platform",
-            "body": "<p>Platforms can simplify the process of publishing your data. You may already have a data or content publishing platform that is suitable for your needs. If so you can publish there. If you don't have a platform, you may want to consider some examples used by other authorities such as <a href='http://www.cipfa.org/services/datashare' target='_blank'>CIPFA/Redbridge's Datashare</a>, <a href='http://www.swirrl.com/publishmydata' target='_blank'>Swirrl's PublishMyData</a>, <a href='http://ckan.org/' target='_blank'>CKAN</a> or <a href='https://performance.westsussex.gov.uk/' target='_blank'>Socrata</a> to simplify the process of publishing.</p>"
+            "body": "<p>Platforms can simplify the process of publishing your data. You may already have a data or content publishing platform that is suitable for your needs. If so you can publish there. If you don't have a platform, you may want to consider some examples used by other authorities such as <a href='http://www.cipfa.org/services/datashare' target='_blank'>CIPFA/Redbridge's Datashare</a>, <a href='https://datapress.com/' target='_blank'>DataPress</a>, <a href='http://www.swirrl.com/publishmydata' target='_blank'>Swirrl's PublishMyData</a>, <a href='http://ckan.org/' target='_blank'>CKAN</a> or <a href='https://performance.westsussex.gov.uk/' target='_blank'>Socrata</a> to simplify the process of publishing.</p>"
         },
         {
           "alt": "Add an open data page to your site",
@@ -219,7 +219,7 @@
         },
         {
           "alt": "Include links across your site",
-          "title": "3. Include links across your site",
+          "title": "Include links across your site",
           "body": "<p>Once the data has a home, people need to find it. It is unlikely that everyone will discover your data by browsing to it directly. Most of your users will search (using a search engine) and hit some page on your (or someone else's) website. It is important to include links to the data on all relevant pages where data has been used to help people navigate their way to the raw data.</p>"
         }
         ]
@@ -257,12 +257,12 @@
         {
           "alt": "Provide a consistent location",
           "title": "Providing a consistent location",
-          "body": "<p>You should provide your data under a consistent address or URL. This URL should also contain a set of characters which let users locate your data quickly and easily. These common characters are called Uniform Resource Identifiers or URIs. We recommend using two URIs for any dataset you publish.</p><p>The primary URI should use the LGA's directory of common identifiers to refer to your local authority. You can use the <a href='http://uris.opendata.esd.org.uk/' target='_blank'>LGA directory</a> to look up the correct code for your authority in seconds. For example, Norfolk County Council has the idenfitier - 'http://opendatacommunities.org/doc/county-council/norfolk'.</p><p>The secondary URI should be more informative and point to the primary. For example, a dataset from Hampshire county council about senior salaries might be accessible from 'http://www3.hants.gov.uk/opendata/datasets/senior-salaries.htm'. This second URI lets anyone read what the dataset is before they navigate to it.</p>"
+          "body": "<p>You should provide your data under a consistent address or URL. This URL should also contain a set of characters which let users locate your data quickly and easily. These common characters are called 'Uniform Resource Identifiers' or URIs. We recommend using a URL for your dataset that uses the LGA's directory of common identifiers to refer to your local authority. You can use the <a href='http://uris.opendata.esd.org.uk/' target='_blank'>LGA directory</a> to look up the correct code for your authority in seconds. For example, Norfolk County Council has the idenfitier - 'http://opendatacommunities.org/doc/county-council/norfolk'.</p><p>You can also add another URL that redirects to the main one if you want to be more informative about the dataset. For example, a dataset from Hampshire county council about senior salaries might use a URL like 'http://www3.hants.gov.uk/opendata/datasets/senior-salaries.htm' that tells people exactly what the data is about from the address bar.</p>"
         },
                 {
           "alt": "Optimise your data for search engines and aggregators",
           "title": "Optimising your data for search engines and aggregators",
-          "body": "<p>Most people today will use either a search engine to look for data or will visit an aggregator like LG open data pages. Search engines need to be able to find all the relevant details about your datasets. It is important to include good metadata alongside your data and allow search engines to harvest this data and make it easy for people to find you this way. For an example of how to optimise your metadata for seach engines you can look at this simple <a href='http://static.googleusercontent.com/media/www.google.co.uk/en/uk/webmasters/docs/search-engine-optimization-starter-guide.pdf' target='_blank'>Google guide.</a></p>"
+          "body": "<p>Most people today will use either a search engine to look for data or will visit an aggregator like LG open data pages. Search engines need to be able to find all the relevant details about your datasets. It is important to include good metadata alongside your data and allow search engines to harvest this data and make it easy for people to find your data this way. For an example of how to optimise your metadata for search engines you can look at this simple <a href='http://static.googleusercontent.com/media/www.google.co.uk/en/uk/webmasters/docs/search-engine-optimization-starter-guide.pdf' target='_blank'>Google guide.</a></p>"
         },
         {
             "alt": "Update your inventory",
@@ -272,12 +272,12 @@
         {
           "alt": "Register the dataset in a catalogue",
           "title": "Registering the dataset in a catalogue",
-          "body": "<p>A catalogue is a collection of datasets published by different sources. There are a wide variety of catalogues maintained by different organisations that can automatically harvest your data once good metadata is provided. For authorities, there are two catalogues which it is particularly important to add your data to.</p><p>The first is data.gov.uk, the UK's national open data portal with a huge community of users, <a href='http://guidance.data.gov.uk/dataset_form.html' target='_blank'>registration</a> is simple and requires only key metadata information. <a href='https://data.gov.uk/sites/default/files/User%20guide%20v2.5.pdf#page=23' target='_blank'>Click here for a step-by-step guide to registering your dataset</a></p><p>The second is local government open data pages, the community resource for local authority data. Registration with local government open data pages is automatic once you have an up-to-date inventory.</p>"
+          "body": "<p>A catalogue is a collection of datasets published by different sources. There are a wide variety of catalogues maintained by different organisations that can automatically harvest your data once good metadata is provided. For authorities, there are two catalogues which it is particularly important to add your data to.</p><p>The first is data.gov.uk, the UK's national open data portal with a huge community of users. <a href='http://guidance.data.gov.uk/dataset_form.html' target='_blank'>Registration</a> is simple and requires only key metadata information. <a href='https://data.gov.uk/sites/default/files/User%20guide%20v2.5.pdf#page=23' target='_blank'>Click here for a step-by-step guide to registering your dataset</a></p><p>The second is local government open data pages, the community resource for local authority data. Registration with local government open data pages is automatic once you have an up-to-date inventory.</p>"
         },
         {
           "alt": "Increase the number of links",
           "title": "Increasing the number of links",
-          "body": "<p>On the web, links are key. The more links you have, from more different sites, the easier your stuff will be to find. The best way of achieving greater numbers of links is through exposing your data in others catalogues, like <a href='http://data.gov.uk' target='_blank'>data.gov.uk</a> and <a href='http://datasets.opendata.esd.org.uk/' target='_blank'>http://datasets.opendata.esd.org.uk/</a>. Another way to increase your links is to use consistent URIs. By doing so you allow other data to be linked to yours through services like <a href='http://opendatacommunities.org/' target='_blank'>http://opendatacommunities.org/</a></p>"
+          "body": "<p>On the web, links are key. The more links you have to your data, from more different sites, the easier your data will be to find. The best way of achieving greater numbers of links is through exposing your data in others' catalogues, like <a href='http://data.gov.uk' target='_blank'>data.gov.uk</a> and <a href='http://datasets.opendata.esd.org.uk/' target='_blank'>http://datasets.opendata.esd.org.uk/</a>. Another way to increase your links is to use consistent URLs. By doing so you allow other data to be linked to yours through services like <a href='http://opendatacommunities.org/' target='_blank'>http://opendatacommunities.org/</a></p>"
         }
       ],
       "_pageLevelProgress": {
@@ -371,12 +371,12 @@
         {
           "alt": "6. Add the appropriate licence",
           "title": "6. Add the appropriate licence",
-          "body": "<p>Once that data has been validated, add the appropriate licence. We reccomend using the Open Government Licence for all datasets unless there is a specific requirement with the data to use another licence. See module 1 for a walkthough of how to license your data appropriately.</p>"
+          "body": "<p>Once that data has been validated, add the appropriate licence. We recommend using the Open Government Licence for all datasets unless there is a specific requirement with the data to use another licence. See module 1 for a walkthough of how to license your data appropriately.</p>"
         },
         {
           "alt": "7. Pick the publishing location(s)",
           "title": "7. Pick the publishing location(s)",
-          "body": "<p>With the right licence in place, it is time to decide where the data should be published. We reccomend creating an open data page on your website. You may also wish to use a publishing platform to simplify the process. Check the section above on 'choosing where to publish' for further guidance. You also need to ensure that your dataset sits under a consistent URI that matches the LGAs resources. See the section above on 'improving visibility' for how to create the right URI.</p>"
+          "body": "<p>With the right licence in place, it is time to decide where the data should be published. We reccomend creating an open data page on your website. You may also wish to use a publishing platform to simplify the process. Check the section above on 'choosing where to publish' for further guidance. You also need to ensure that your dataset sits under a consistent URL that matches the LGA's resources. See the section above on 'improving visibility' for how to create the right URL.</p>"
         },
         {
           "alt": "8 load and publish the data",
@@ -396,7 +396,7 @@
         {
           "alt": "11 register with catalogues",
           "title": "11. Register with catalogues",
-          "body": "<p>In addition to updating your inventory, you need to let data.gov.uk and LGA open data pages know about your new dataset. Again the 'imrpoving visibility' section will tell you where you need to go.</p>"
+          "body": "<p>In addition to updating your inventory, you need to let data.gov.uk and LGA open data pages know about your new dataset. Again the 'imrpoving visibility' section will tell you what you need to do.</p>"
         },
         {
           "alt": "12 promote your work",
@@ -451,7 +451,7 @@
        "_items": [
            {
                "title": "Learning from others: London Borough of Barnet",
-               "body": "<p>London Borough of Barnet is a diverse metropolitan authority.  Using LGA, publishing guidelines, Barnet has now created a dedicated open data platform using Datapress. The platform currently hosts in excess of 180 datasets for the local area. Following LGA publishing guidelines helped Barnet save staff time and money by simplifying publishing processes. To discover more about Barnet's experience read their <a href='http://www.local.gov.uk/documents/10180/11655/Barnet+2014-08-22+Open+Data+Breakthrough+Evaluation+Final.pdf/ae8272e0-0256-4e86-a6dc-348b462da7e0' target='_blank'>case study</a> or visit their <a href='http://open.barnet.gov.uk/' target='_blank'>open data portal.</a></p>",
+               "body": "<p>London Borough of Barnet is a diverse metropolitan authority.  Using LGA publishing guidelines, Barnet has now created a dedicated open data platform using Datapress. The platform currently hosts in excess of 180 datasets for the local area. Following LGA publishing guidelines helped Barnet save staff time and money by simplifying their publishing processes. To discover more about Barnet's experience read their <a href='http://www.local.gov.uk/documents/10180/11655/Barnet+2014-08-22+Open+Data+Breakthrough+Evaluation+Final.pdf/ae8272e0-0256-4e86-a6dc-348b462da7e0' target='_blank'>case study</a> or visit their <a href='http://open.barnet.gov.uk/' target='_blank'>open data portal.</a></p>",
                "_graphic": {
                   "src": "course/en/images/barnet.png",
                    "alt": "Barnet",
@@ -464,7 +464,7 @@
            },
            {
                "title": "Building a simple data page: Wycombe District Council",
-               "body": "<p>Wycombe council is an example of how to build a <a href='http://www.wycombe.gov.uk/council-services/council-and-democracy/transparency-and-open-data.aspx' target='_blank'>simple, informative open data</a> page on your website. The page clearly displays the appropriate licence, links to external guides and provides links to pages under well-described URIs that can be found by search engines.</p>",
+               "body": "<p>Wycombe council is an example of how to build a <a href='http://www.wycombe.gov.uk/council-services/council-and-democracy/transparency-and-open-data.aspx' target='_blank'>simple, informative open data page</a> on your website. The page clearly displays the appropriate licence, links to external guides and provides links to pages under well-described URLs that can be found by search engines.</p>",
                "_graphic": {
                    "src": "course/en/images/wycombe.jpg",
                    "alt": "Wycombe",
@@ -584,14 +584,14 @@
             }
         ],
         "_feedback":{
-            "correct":"<h5>That’s right!</h5><p>Three essential considerations when choosing where to publish are whether people can find your data from anywhere, is your metadata friedly to search engines and whether you provide links to the data from wherever it is being used.</p>",
+            "correct":"<h5>That’s right!</h5><p>Three essential considerations when choosing where to publish are whether people can find your data from anywhere, is your metadata friendly to search engines and whether you provide links to the data from wherever it is being used.</p>",
             "_incorrect": {
-                "notFinal": "h5>Are you sure about that?</h5><p>Three essential considerations when choosing where to publish are whether people can find your data from anywhere, is your metadata friedly to search engines and whether you provide links to the data from wherever it is being used.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>Three essential considerations when choosing where to publish are whether people can find your data from anywhere, is your metadata friedly to search engines and whether you provide links to the data from wherever it is being used.</p>"
+                "notFinal": "h5>Are you sure about that?</h5><p>Three essential considerations when choosing where to publish are whether people can find your data from anywhere, is your metadata friendly to search engines and whether you provide links to the data from wherever it is being used.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>Three essential considerations when choosing where to publish are whether people can find your data from anywhere, is your metadata friendly to search engines and whether you provide links to the data from wherever it is being used.</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5>Three essential considerations when choosing where to publish are whether people can find your data from anywhere, is your metadata friedly to search engines and whether you provide links to the data from wherever it is being used.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>Three essential considerations when choosing where to publish are whether people can find your data from anywhere, is your metadata friedly to search engines and whether you provide links to the data from wherever it is being used.</p>"
+                "notFinal": "<h5>Are you sure about that?</h5>Three essential considerations when choosing where to publish are whether people can find your data from anywhere, is your metadata friendly to search engines and whether you provide links to the data from wherever it is being used.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>Three essential considerations when choosing where to publish are whether people can find your data from anywhere, is your metadata friendly to search engines and whether you provide links to the data from wherever it is being used.</p>"
           }
         },
         "_buttons":{
@@ -635,7 +635,7 @@
         "_selectable":1,
         "title": "Finding best practices for local authority publishing",
         "displayTitle": "Finding best practices for local authority publishing",
-        "body": "<p>Where can authorities go to find clear guidance on URIs, schemas and standards?</p>",
+        "body": "<p>Where can authorities go to find clear guidance on URLs, schemas and standards?</p>",
         "instruction": "<em>Select an option, then click 'Submit'.</em>",
         "_items": [
             {
@@ -643,7 +643,7 @@
                 "_shouldBeSelected": false
             },
             {
-                "text": "Cabinet Office Website",
+                "text": "Cabinet Office website",
                 "_shouldBeSelected": false
             },
             {
@@ -707,7 +707,7 @@
         "instruction": "<em>Choose three answers and click 'Submit'.</em>",
         "_items": [
             {
-                "text": "Mixed numerical scales",
+                "text": "Currency notation",
                 "_shouldBeSelected": true
             },
             {
@@ -715,7 +715,7 @@
                 "_shouldBeSelected": false
             },
             {
-                "text": "Redundant data",
+                "text": "Wrong data formats",
                 "_shouldBeSelected": true
             },
             {
@@ -723,19 +723,19 @@
                 "_shouldBeSelected": false
             },
             {
-                "text": "Multiple representations",
+                "text": "Incorrect geographic coordinates",
                 "_shouldBeSelected": true
             }
         ],
         "_feedback":{
-            "correct":"<h5>That's right!</h5><p>Mixed use of scales, redundant data and multiple representations of the same data are just some of the errors that need to be fixed in unclean data. While the granularity and lack of licence are a problem, they are not related to the data itself being unclean</p>",
+            "correct":"<h5>That's right!</h5><p>Currency notations, wrong data formats and incorrect geographic coordinates are just some of the errors that need to be fixed in unclean data. While the granularity and lack of licence are a problem, they are not related to the data itself being unclean</p>",
             "_incorrect": {
-                "notFinal": "<h5>Are you sure about that? </h5><p>Mixed use of scales, redundant data and multiple representations of the same data are just some of the errors that need to be fixed in unclean data. While the granularity and lack of licence are a problem, they are not related to the data itself being unclean</p>",
-                "final": "<h5>Are you sure about that? </h5><p>Mixed use of scales, redundant data and multiple representations of the same data are just some of the errors that need to be fixed in unclean data. While the granularity and lack of licence are a problem, they are not related to the data itself being unclean</p>"
+                "notFinal": "<h5>Are you sure about that? </h5><p>Currency notations, wrong data formats and incorrect geographic coordinates are just some of the errors that need to be fixed in unclean data. While the granularity and lack of licence are a problem, they are not related to the data itself being unclean</p>",
+                "final": "<h5>Are you sure about that? </h5><p>Currency notations, wrong data formats and incorrect geographic coordinates are just some of the errors that need to be fixed in unclean data. While the granularity and lack of licence are a problem, they are not related to the data itself being unclean</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "<h5>Are you sure about that? </h5><p>Mixed use of scales, redundant data and multiple representations of the same data are just some of the errors that need to be fixed in unclean data. While the granularity and lack of licence are a problem, they are not related to the data itself being unclean</p>",
-                "final": "<h5>Are you sure about that? </h5><p>Mixed use of scales, redundant data and multiple representations of the same data are just some of the errors that need to be fixed in unclean data. While the granularity and lack of licence are a problem, they are not related to the data itself being unclean</p>"
+                "notFinal": "<h5>Are you sure about that? </h5><p>Currency notations, wrong data formats and incorrect geographic coordinates are just some of the errors that need to be fixed in unclean data. While the granularity and lack of licence are a problem, they are not related to the data itself being unclean</p>",
+                "final": "<h5>Are you sure about that? </h5><p>Currency notations, wrong data formats and incorrect geographic coordinates are just some of the errors that need to be fixed in unclean data. While the granularity and lack of licence are a problem, they are not related to the data itself being unclean</p>"
           }
         },
         "_buttons":{
@@ -783,7 +783,7 @@
         "instruction": "<em>Select an option, then click 'Submit'.</em>",
         "_items": [
             {
-                "text": "use a consistent URI",
+                "text": "use a consistent URL",
                 "_shouldBeSelected": true
             },
             {
@@ -796,14 +796,14 @@
             }
         ],
         "_feedback":{
-            "correct":"<h5>That’s right!</h5><p>When publishing your data you should always use a consistent URI. You should also add a second URL which lets people know exactly what data they can expect to find on the page!</p>",
+            "correct":"<h5>That’s right!</h5><p>When publishing your data you should always use a consistent URL. You should also add a second URL which lets people know exactly what data they can expect to find on the page!</p>",
             "_incorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>When publishing your data you should always use a consistent URI. You should also add a second URL which lets people know exactly what data they can expect to find on the page!</p>",
-                "final": "<h5>Are you sure about that?</h5><p>When publishing your data you should always use a consistent URI. You should also add a second URL which lets people know exactly what data they can expect to find on the page!</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>When publishing your data you should always use a consistent URL. You should also add a second URL which lets people know exactly what data they can expect to find on the page!</p>",
+                "final": "<h5>Are you sure about that?</h5><p>When publishing your data you should always use a consistent URL. You should also add a second URL which lets people know exactly what data they can expect to find on the page!</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>When publishing your data you should always use a consistent URI. You should also add a second URL which lets people know exactly what data they can expect to find on the page!</p>",
-                "final": "<h5>Are you sure about that?</h5><p>When publishing your data you should always use a consistent URI. You should also add a second URL which lets people know exactly what data they can expect to find on the page!</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>When publishing your data you should always use a consistent URL. You should also add a second URL which lets people know exactly what data they can expect to find on the page!</p>",
+                "final": "<h5>Are you sure about that?</h5><p>When publishing your data you should always use a consistent URL. You should also add a second URL which lets people know exactly what data they can expect to find on the page!</p>"
           }
         },
         "_buttons":{
@@ -843,7 +843,7 @@
         "_layout":"left",
         "title":"Make publishing work for you",
         "displayTitle":"Make publishing work for you",
-        "body":"<p>In this module we have explored how to publishing consistent, high-quality open data for your authority. Follow the 12 steps above and you will produce highly usable data which can generate significant impact for your authority as well as saving you time and money. But how can you let people know your data is high-quality?.</p><p>In our next module, you will learn how standards help improve the quality of open data. You will also learn how to certify the quality of your datasets and encourage even greater use.</p><a class='button inline-button' href='../LGA-3/'>Next module</a>",
+        "body":"<p>In this module we have explored how to publishing consistent, high-quality open data for your authority. Follow the 12 steps above and you will produce highly usable data which can generate significant impact for your authority as well as saving you time and money. But how can you let people know your data is high-quality?</p><p>In our next module, you will learn how standards help improve the quality of open data. You will also learn how to certify the quality of your datasets and encourage even greater use.</p><a class='button inline-button' href='../LGA-3/'>Next module</a>",
         "_pageLevelProgress": {
           "_isEnabled": true
         }
