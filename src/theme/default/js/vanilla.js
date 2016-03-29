@@ -98,6 +98,7 @@ function checkState() {
 		checkWelcome();
 		$('#save-section').html("<button onClick='showSave();' class='slbutton' id='saveSession'>Save progress</button>");
 		$('#save-section').fadeIn();
+		$('#save-status').html("Version: " + version + "<br/>Module ID: " + moduleId + "<br/>Session ID: " + sessionID + "<br/>Last Save: " + lastSave);
 	    $("#country-select").removeClass('status-shown');
 		$("#country-select").addClass('save-shown');
 		clearInterval(interval);
