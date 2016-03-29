@@ -104,14 +104,14 @@ define(function(require) {
 
         navigateToHomeRoute: function() {
             if (Adapt.router.get('_canNavigate')) {
-                this.navigate('#', {trigger: true});                
+                //this.navigate('#', {trigger: true});                
             }
         },
 
         navigateToParent: function() {
             var parentId = Adapt.contentObjects.findWhere({_id:Adapt.location._currentId}).get("_parentId");
             var route = (parentId === Adapt.course.get("_id")) ? "#/" : "#/id/" + parentId;
-            this.navigate(route, { trigger: true });
+            //this.navigate(route, { trigger: true });
         },
 
         setContentObjectToVisited: function(model) {
@@ -119,7 +119,7 @@ define(function(require) {
         },
 
         updateLocation: function(currentLocation, type, id) {
-            // Handles updating the location
+	    // Handles updating the location
             Adapt.location._previousId = Adapt.location._currentId;
             Adapt.location._previousContentType = Adapt.location._contentType;
 
