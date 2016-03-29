@@ -61,8 +61,8 @@
         "_component":"text",
         "_classes":"",
         "_layout":"full",
-        "title":"Background information",
-        "displayTitle":"Background information",
+        "title":"Standards",
+        "displayTitle":"Standards",
         "body":""
     },
     {
@@ -150,9 +150,94 @@
         "_isEnabled": true
         }
     },
+        {
+        "_id":"c-13",
+        "_parentId":"b-5",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "dynamic-narrative",
+        "title": "How to publish your dataset: Choosing the right schema",
+        "displayTitle": "How to publish your dataset: Choosing the right schema",
+        "body": "<p>Consistent publication brings a range of benefits for local authorities.</p>",
+        "instruction": "<em class='desktop-instruction'>Click the forward arrow for more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
+        "_items": [
+            {
+                "title": "Core open data schemas",
+                "body": "<p>LGA keeps a definitive set of schemas for the datasets that local authorities have to publish under the local transparency code, along with other popular open datasets.  If you are publishing data in one of these categories, we strongly recommend following the relevant schema. For any of these schemas, simply alter your dataset's column headings to match and save the results:<br><a href='http://schemas.opendata.esd.org.uk/Contracts' target='_blank'>Contracts</a><br><a href='http://schemas.opendata.esd.org.uk/LandAndBuilding' target='_blank'>Land and Buildings</a><br><a href='http://schemas.opendata.esd.org.uk/OrganisationStructure' target='_blank'>Organisation Structure</a><br><a href='http://schemas.opendata.esd.org.uk/Parking' target='_blank'>Parking</a><br><a href='http://schemas.opendata.esd.org.uk/SeniorEmployees' target='_blank'>Senior Employees</a><br><a href='http://schemas.opendata.esd.org.uk/SeniorSalaryCount' target='_blank'>Senior Employee Count</a><br><a href='http://schemas.opendata.esd.org.uk/Spend' target='_blank'>Spend</a><br><a href='http://schemas.opendata.esd.org.uk/PlanningApplications' target='_blank'>Planning Applications</a><br><a href='http://schemas.opendata.esd.org.uk/PremisesLicences' target='_blank'>Premises Licences</a><br><a href='http://schemas.opendata.esd.org.uk/PublicToilets' target='_blank'>Public Toilets</a><br>If the dataset you are publishing isn't covered above, scroll right to find out about community schemas.</p>",
+                "_graphic": {
+                    "src": "course/en/images/sch1.jpg",
+                    "alt": "Schemas",
+                    "title": "Schemas",
+                    "*source":"https://www.flickr.com/photos/dullhunk/7554750172",
+                    "*credit":"dullhunk",
+                    "*license":"CC-BY 2.0"
+                },
+                "strapline": "Schemas"
+            },
+            {
+                "title": "Community open data schemas",
+                "body": "<p>If the dataset you are publishing is not covered by one of the core schemas referenced by LGA, you may be able to find a common schema from other local authorities in the community. For certain types of data, common schemas are published by other communities such as the open data community <a href='https://github.com/inspire-eu-validation' target='_blank'>Github INSPIRE</a> for geospatial environmental data and <a href='https://www.geoplace.co.uk/documents/10181/138013/BS7666%20explained' target='_blank'>BS7666</a> for address and land use. In addition, the LGA schema directory keeps track of over 640 schemas from local authorities across the UK. Simply search the directory for the type of data you plan to publish and it will show you the common schemas that match.<br><a href='http://schemas.opendata.esd.org.uk/' target='_blank'>Take me to the LGA community schema directory</a><br>If the dataset you are publishing isn't covered by any of those in the community, it may be necessary to create your own schema. However there are still some guidelines that can help you create a good one. Scroll right to find these guidelines.</p>",
+                "_graphic": {
+                    "src": "course/en/images/sch2.jpg",
+                    "alt": "Community schemas",
+                    "title": "Community schemas",
+                    "*source": "http://www.shutterstock.com/pic-232737427",
+                    "*credit": "Kirill_M",
+                    "*licence": "Shutterstock standard license"
+                },
+                "strapline": "Cleaning"
+            },
+            {
+                "title": "Creating a new schema",
+                "body": "<p>You may want to create a new schema if there is no existing one in the LGA directory that matches your dataset and you cannot find one from another community. If you need to create a new schema, make sure that it is as simple as possible, links to and references common URI, such as local authority name, services, unique reference numbers (see module 2 for more information) and that you submit the results back to the <a href='http://schemas.opendata.esd.org.uk/' target='_blank'>LGA community schema directory</a>.</p>",
+                "_graphic": {
+                    "src": "course/en/images/sch3.jpg",
+                    "alt": "Create your own schema",
+                    "title": "Create your own schema",
+                    "*source":"https://media.thisiszone.com/wp-content/uploads/2013/03/Data_Dot_Gov.jpg",
+                    "*credit":"data.gov.uk",
+                    "*license":"Crown Copyright"
+                },
+                "strapline": "Platform"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+
+    {
+        "_id":"c-11",
+        "_parentId":"b-7",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Section burst",
+            "title": "Section burst",
+           "large": "course/en/images/burst-white.png",
+            "medium": "course/en/images/burst-white.png",
+            "small": "course/en/images/burst-white.png",
+            "*source":"http://theodi.org",
+            "*credit":"The Open Data Institute",
+            "*license":"All Rights Reserved"
+        }
+    },
+    {
+        "_id":"c-12",
+        "_parentId":"b-7",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"full",
+        "title":"Certificates",
+        "displayTitle":"Certificates",
+        "body":""
+    },
     {
         "_id":"c-8",
-        "_parentId":"b-5",
+        "_parentId":"b-7",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
@@ -170,7 +255,7 @@
     },
      {
         "_id":"c-9",
-        "_parentId":"b-5",
+        "_parentId":"b-7",
         "_type":"component",
         "_component":"text",
         "_classes":"",
@@ -181,7 +266,7 @@
     },
     {
         "_id":"c-10",
-        "_parentId":"b-6",
+        "_parentId":"b-8",
         "_classes": "",
         "_type":"component",
         "_layout": "full",
@@ -242,90 +327,6 @@
                     "*license":"Shutterstock Standard License"
                 },
                 "strapline": "Social"
-            }
-        ],
-        "_pageLevelProgress": {
-        "_isEnabled": true
-        }
-    },
-    {
-        "_id":"c-11",
-        "_parentId":"b-7",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"right",
-        "_graphic": {
-            "alt": "Section burst",
-            "title": "Section burst",
-           "large": "course/en/images/burst-white.png",
-            "medium": "course/en/images/burst-white.png",
-            "small": "course/en/images/burst-white.png",
-            "*source":"http://theodi.org",
-            "*credit":"The Open Data Institute",
-            "*license":"All Rights Reserved"
-        }
-    },
-    {
-        "_id":"c-12",
-        "_parentId":"b-7",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"",
-        "_layout":"full",
-        "title":"Practical guidance",
-        "displayTitle":"Practical guidance",
-        "body":""
-    },
-    {
-        "_id":"c-13",
-        "_parentId":"b-8",
-        "_type":"component",
-        "_layout": "full",
-        "_component": "dynamic-narrative",
-        "title": "How to publish your dataset: Choosing the right schema",
-        "displayTitle": "How to publish your dataset: Choosing the right schema",
-        "body": "<p>Consistent publication brings a range of benefits for local authorities.</p>",
-        "instruction": "<em class='desktop-instruction'>Click the forward arrow for more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
-        "_items": [
-            {
-                "title": "Core open data schemas",
-                "body": "<p>LGA keeps a definitive set of schemas for the datasets that local authorities have to publish under the local transparency code, along with other popular open datasets.  If you are publishing data in one of these categories, we strongly recommend following the relevant schema. For any of these schemas, simply alter your dataset's column headings to match and save the results:<br><a href='http://schemas.opendata.esd.org.uk/Contracts' target='_blank'>Contracts</a><br><a href='http://schemas.opendata.esd.org.uk/LandAndBuilding' target='_blank'>Land and Buildings</a><br><a href='http://schemas.opendata.esd.org.uk/OrganisationStructure' target='_blank'>Organisation Structure</a><br><a href='http://schemas.opendata.esd.org.uk/Parking' target='_blank'>Parking</a><br><a href='http://schemas.opendata.esd.org.uk/SeniorEmployees' target='_blank'>Senior Employees</a><br><a href='http://schemas.opendata.esd.org.uk/SeniorSalaryCount' target='_blank'>Senior Employee Count</a><br><a href='http://schemas.opendata.esd.org.uk/Spend' target='_blank'>Spend</a><br><a href='http://schemas.opendata.esd.org.uk/PlanningApplications' target='_blank'>Planning Applications</a><br><a href='http://schemas.opendata.esd.org.uk/PremisesLicences' target='_blank'>Premises Licences</a><br><a href='http://schemas.opendata.esd.org.uk/PublicToilets' target='_blank'>Public Toilets</a><br>If the dataset you are publishing isn't covered above, scroll right to find out about community schemas.</p>",
-                "_graphic": {
-                    "src": "course/en/images/sch1.jpg",
-                    "alt": "Schemas",
-                    "title": "Schemas",
-                    "*source":"https://www.flickr.com/photos/dullhunk/7554750172",
-                    "*credit":"dullhunk",
-                    "*license":"CC-BY 2.0"
-                },
-                "strapline": "Schemas"
-            },
-            {
-                "title": "Community open data schemas",
-                "body": "<p>If the dataset you are publishing is not covered by one of the core schemas referenced by LGA, you may be able to find a common schema from other local authorities in the community. For certain types of data, common schemas are published by other organisations such as <a href='http://www.local.gov.uk/c/document_library/get_file?uuid=ba19b779-eb8d-404c-af07-25ecd921aed9' target='_blank'>INSPIRE</a> for environmental data and <a href='https://www.geoplace.co.uk/documents/10181/138013/BS7666%20explained' target='_blank'>BS7666</a> for land use. In addition, the LGA schema directory keeps track of over 640 schemas from local authorities across the UK. Simply search the directory for the type of data you plan to publish and it will show you the common schemas that match.<br><a href='http://schemas.opendata.esd.org.uk/' target='_blank'>Take me to the LGA community schema directory</a><br>If the dataset you are publishing isn't covered by any of those in the community, it may be necessary to create your own schema. However there are still some guidelines that can help you create a good one. Scroll right to find these guidelines.</p>",
-                "_graphic": {
-                    "src": "course/en/images/sch2.jpg",
-                    "alt": "Community schemas",
-                    "title": "Community schemas",
-                    "*source": "http://www.shutterstock.com/pic-232737427",
-                    "*credit": "Kirill_M",
-                    "*licence": "Shutterstock standard license"
-                },
-                "strapline": "Cleaning"
-            },
-            {
-                "title": "Creating a new schema",
-                "body": "<p>You are encouraged to create a new schema if there is no existing one in the LGA directory that matches your dataset and you cannot find an existing one from another community. If you need to create a new schema, make sure that it is as simple as possible and that you submit the results back to the <a href='http://schemas.opendata.esd.org.uk/' target='_blank'>LGA community schema directory</a> so that it can benefit others in the future.</p>",
-                "_graphic": {
-                    "src": "course/en/images/sch3.jpg",
-                    "alt": "Create your own schema",
-                    "title": "Create your own schema",
-                    "*source":"https://media.thisiszone.com/wp-content/uploads/2013/03/Data_Dot_Gov.jpg",
-                    "*credit":"data.gov.uk",
-                    "*license":"Crown Copyright"
-                },
-                "strapline": "Platform"
             }
         ],
         "_pageLevelProgress": {
