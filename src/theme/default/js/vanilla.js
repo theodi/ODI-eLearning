@@ -21,8 +21,9 @@ $(document).ready(function() {
 });
 
 function checkWelcome() {
-	if (localStorage.getItem("email") == null) {
+	if (localStorage.getItem("email") == null && localStorage.getItem("ODI_Welcome_Done") == null) {
 		showMessage('enter_email');
+		localStorage.setItem("ODI_Welcome_Done",true);
 	}
 }
 
