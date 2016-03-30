@@ -163,8 +163,18 @@
         "_id": "b-17",
         "_parentId": "a-01",
         "_type": "block",
-        "_classes": "summary",
+        "_classes": "inverted",
         "_trackingId": 16,
+        "_trickle": {
+            "_isEnabled":false
+        }
+    },
+    {
+        "_id": "b-18",
+        "_parentId": "a-01",
+        "_type": "block",
+        "_classes": "summary",
+        "_trackingId": 17,
         "_trickle": {
             "_isEnabled":false
         }
