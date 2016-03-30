@@ -205,7 +205,56 @@
         "_isEnabled": true
         }
     },
-
+    {
+        "_id":"c-37",
+        "_parentId":"b-6",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Linkability",
+            "title": "Linkability",
+            "large": "course/en/images/odi-006.jpg",
+            "medium": "course/en/images/odi-006.jpg",
+            "small": "course/en/images/odi-006.jpg",
+            "*source":"http://www.shutterstock.com/pic-245326720",
+            "*credit":"Omelchenko",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+      "_id":"c-38",
+      "_parentId":"b-6",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"left",
+      "title": "5th star: linked data",
+      "displayTitle": "5th star: linked data",
+      "body": "<p>The 5th star is about linking individual data points together.</p>",
+      "instruction": "",
+      "_items": [
+        {
+          "alt": "The link",
+          "title": "The link",
+          "body": "<p>The 5th star introduces the concept of linking data points together.</p><p>These links enable humans and machines to navigate between data sources on the Web.</p><p>Linking data points directly to one another allows you to direct the person or machine to a definitive record on that subject, rather than each person maintaining their own record of the data. Linked data functions like an official website by providing everyone with an authoritative resource on the subject. Linked data also saves everyone from duplicating data by sharing a single resource among an infinite number of datasets, using URIs.</p>"
+        },
+        {
+          "alt": "Using the 5th star",
+          "title": "Using the 5th star",
+          "body": "<p>Example - A database of buildings owned by a company will often have Postcodes/Zip codes against each building in the data records:<br/><br><b>Building number</b>: 32<br><b>Postcode</b>: SO17 1BJ<br><b>Ward</b>: Postwood<br><b>District</b>: City of Southampton<br/><br>With linked data we have no need to replicate data – like <b>ward</b> and <b>district</b> – that are manged by other authorioties. Therefore, the record becomes:<br><br><b>Building number</b>: 32<br><b>Postcode</b>: <a href='http://data.ordnancesurvey.co.uk/id/postcodeunit/SO171BJ' style='word-wrap: break-word;' target='_blank'>http://data.ordnancesurvey.co.uk/id/postcodeunit/SO171BJ</a></p>"
+        },
+        {
+          "alt": "Try out using the 5th Star",
+          "title": "Try out using the 5th Star",
+          "body": "<p>You may have noticed some links in the data that we explored earlier in this module.</p><p>Try loading the link from earlier in the module:<br><br><a href='http://data.ordnancesurvey.co.uk/id/postcodeunit/SO171BJ' style='word-wrap: break-word;' target='_blank'>http://data.ordnancesurvey.co.uk/id/postcodeunit/SO171BJ</a><br><br>Now try loading the same link into a data browser:<br><br><a href='http://graphite.ecs.soton.ac.uk/browser/' target='_blank'>Take me to Graphite linked data browser</a><br><br>The data browser uses automatic content negotiation for data, not webpage content, and displays the raw data in a human-readable form.</p><p>Any red text in the browser is a link in the data, which should go to more data.</p><p>Use the following URL to see what you can discover within the web of linked open data.</p><p><a href='http://www.bbc.co.uk/programmes/b006q2x0' target='_blank'>http://www.bbc.co.uk/programmes/b006q2x0</a>"
+        }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
     {
         "_id":"c-11",
         "_parentId":"b-7",
