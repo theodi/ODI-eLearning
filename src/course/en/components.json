@@ -215,17 +215,23 @@
       "_layout":"left",
       "title": "How to publish your dataset: The basics",
       "displayTitle": "How to publish your dataset: The basics",
-      "body": "<p>Follow the three steps below to publish your dataset online.</p>",
+      "body": "<p>Follow the four steps below to publish your dataset online.</p>",
       "instruction": "<em>Click on each of the boxes below to expand.</em>",
       "_items": [
         {
-          "alt": "Describe your data clearly",
-          "title": "1. Describe your data clearly",
-          "body": "<p>In order for users to understand the data, think carefully about how you describe your dataset. Consider in particular the title and description of your dataset. Will the audience understand your title? Is it what would be searched for? Do you need keywords for the dataset? Have you described how the dataset it supported and how old data can be accessed? Creating good 'metadata' for your dataset is the first step to publishing a strong dataset.</p>"
+          "alt": "1. Redact the data",
+          "title": "1. Redact the data",
+          "body": "<p>The first thing you need to do is redact any entries that are exempt from publication. Redaction is the process of removing any sensitive or restricted entries from the data. The redaction process for open data is in line with the existing guidance for your FoI requests. To help you, there is full guidance on redaction in the <a href='http://www.nationalarchives.gov.uk/documents/information-management/redaction_toolkit.pdf' target='_blank'>National Archives Redaction Toolkit.</a></p>"
         },
         {
+          "alt": "Describe your data clearly",
+          "title": "2. Describe your data clearly",
+          "body": "<p>In order for users to understand the data, think carefully about how you describe your dataset. Consider in particular the title and description of your dataset. Will the audience understand your title? Is it what would be searched for? Do you need keywords for the dataset? Have you described how the dataset it supported and how old data can be accessed? Creating good 'metadata' for your dataset is the first step to publishing a strong dataset.</p>"
+        },
+        
+        {
           "alt": "Publish the data",
-          "title": "2. Publish the data",
+          "title": "4. Publish the data",
           "body": "<p>Put the data online in a place which is easily accessible and referencable from other places such as catalogues and other websites. The LGA suggests you create a section on your website called 'open data & transparency' and place your datasets there. Your data also needs to be directly accessible to a machine so it can be automatically searched and linked to from other information on the web without the need to accept any terms and conditions. To find out more about how to make your data 'machine-readable', click on <a href='http://www.local.gov.uk/documents/10180/11655/Transparency+guidance+2014+-+publishing+data++20141201.pdf/883da835-c88b-4ffa-9270-a7ab3070e19f' target='_blank'>this guide</a></p>"
         },
         {
