@@ -118,8 +118,8 @@
         }
     },
     {
-        "_id":"c-35",
-        "_parentId":"b-35",
+        "_id":"c-40",
+        "_parentId":"b-40",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
@@ -136,8 +136,8 @@
         }
     },
     {
-      "_id":"c-36",
-      "_parentId":"b-35",
+      "_id":"c-41",
+      "_parentId":"b-40",
       "_type":"component",
       "_component":"text",
         "_classes":"",
@@ -147,8 +147,78 @@
         "body":"<p><p>Data cleaning is essential to ensure that when the data is used, the right conclusions are made.</p><p>Often errors are not even noticed by data publishers because the data can change over many years. In other cases, errors can be the result of human mistakes in data entry, like mistyping or incorrect abbreviations.</p><p>Be aware that cleaning may take longer than you think. A careful cleaning process will, however, save substantial time in the long-run.</p><p>Follow our data cleaning exercise to get started with Open Refine and discover how easy it is for yourself.</p>"
     },
     {
-        "_id": "c-40",
-        "_parentId": "b-40",
+        "_id":"c-50",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Common errors in data",
+            "title": "Common errors in data",
+            "large": "course/en/images/odi-002.jpg",
+            "medium": "course/en/images/odi-002.jpg",
+            "small": "course/en/images/odi-002.jpg",
+            "*source": "http://www.shutterstock.com/pic-232737427",
+            "*credit": "Kirill_M",
+            "*licence": "Shutterstock standard license"
+        }
+    },
+    {
+      "_id":"c-51",
+      "_parentId":"b-50",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"left",
+      "title": "Common errors in data",
+      "displayTitle": "Common errors in data",
+      "body": "There are a number of common errors in data that you should look out for in any dataset you are working with.",
+      "instruction": "<em>Click the headings to explore further.</em>",
+      "_items": [
+        {
+          "alt": "Wrong date formats",
+          "title": "Wrong date formats",
+          "body": "<p>Dates can be written in inconsistent ways. Mixed date formats are sometimes simple to spot:<br><br>8-sep-2013 vs 8/9/2013<br><br>and sometimes less obvious:<br><br>8/9/2013 vs 9/8/2013.<br><br>Another challenge is that some applications, like Excel, will ‘guess’ the format when a dataset is opened, which can hide how dates are actually written in the file.</p><p>The most common error is the mixed use of American (MM/DD/YYYY) and European (DD/MM/YYYY) formats.</p>"
+        },
+        {
+          "alt": "Multiple representations",
+          "title": "Multiple representations",
+          "body": "<p>People often try to save time when entering data by abbreviating terms. If these abbreviations are not consistent, it can cause errors in the dataset.</p><p>Differences in capitalisation, spacing and genders of adjectives can all cause errors.</p>"
+        },
+        {
+          "alt": "Duplicate records",
+          "title": "Duplicate records",
+          "body": "<p>A duplicate record is where the same piece of data has been entered more than once. Duplicate records often occur when datasets have been combined or because it was not known there was already an entry.</p>"
+        },
+        {
+          "alt": "Redundant data",
+          "title": "Redundant data",
+          "body": "<p>Redundant data is anything that is not relevant to your work with the dataset. Often a dataset has been created for a specific purpose which requires details you may not need.</p><p>Common occurrences of redundant data include rows that represent total amounts.</p><p>Other times columns of data have been combined or replicated in order to assist human readability.</p>"
+        },
+        {
+          "alt": "Mixed numerical scales",
+          "title": "Mixed numerical scales",
+          "body": "<p>Numerical values in datasets often use different scales to make it easier for a human to read. In budget datasets, for example, the units are often in the millions. 1,200,000 often becomes 1.2m. However, smaller amounts like 800,000 are still written in full. For a machine, this means they read the larger figure as 1.2, which causes errors.</p>"
+        },
+        {
+          "alt": "Mixed ranges",
+          "title": "Mixed ranges",
+          "body": "<p>Data is sometimes measured in ranges, such as age or salary range. In order for a machine to understand these ranges it is important to separate the high and low values.</p>"
+        },
+        {
+          "alt": "Spelling errors",
+          "title": "Spelling errors",
+          "body": "<p>Spelling errors are often difficult to identify in tabular data.</p><p>Don’t forget to run your data through a spell-checker to catch spelling errors.</p>"
+        }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id": "c-55",
+        "_parentId": "b-55",
         "_classes": "",
         "_type":"component",
         "_layout": "full",
@@ -247,8 +317,8 @@
         }
     },
     {
-        "_id":"c-95",
-        "_parentId":"b-95",
+        "_id":"c-70",
+        "_parentId":"b-70",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
@@ -266,8 +336,8 @@
         }
     },
     {
-        "_id":"c-96",
-        "_parentId":"b-95",
+        "_id":"c-71",
+        "_parentId":"b-70",
         "_type":"component",
         "_component":"text",
         "_classes":"",
@@ -280,9 +350,251 @@
             "_isEnabled": true
         }
     },
-     {
+    {
+        "_id":"c-75",
+        "_parentId":"b-75",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Visually communicating data",
+        "displayTitle":"Visually communicating data",
+        "body":"<p></p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-76",
+        "_parentId": "b-75",
+        "_classes": "inverted",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Goals: Communication vs Understanding",
+        "displayTitle": "Goals: Communication vs Understanding",
+        "body": "With the preparation complete, it is necessary to consider the goal of the story.",
+        "instruction": "<em>Click the forward arrow to discover more.</em>",
+        "_items": [
+            {
+                "title": "Communication",
+                "body": "<p>Powerful messages need a simple way to communicate them. Bar charts, pie charts and big clear numbers are a very effective way to communicate.</p><p>Other effective methods use large visuals and introduce figures that may help people relate to the story (e.g. stick figures could be added to represent the number of people with the visual here).</p>",
+                "_graphic": {
+                    "src": "course/en/images/ODI-50a.jpg",
+                    "alt": "",
+                    "title": "",
+                    "*source": "http://www.independent.co.uk/news/world/oregon-college-shooting-obama-is-right-that-guns-kill-more-americans-than-terrorism-but-so-do-lots-a6676366.html",
+                    "*credit": "",
+                    "*licence": ""
+                },
+                "strapline": ""
+            },
+            {
+                "title": "Understanding",
+                "body": "<p>Sometimes there can be multiple stories or points of interest. This often leads to a more complex visualisation where a greater level of engagement is required to reach understanding.</p><p>Commonly such visualisations will present multiple dimensions of data. This makes a clear message hard to spot. Additionally, this means that there is a chance that each viewer could come to a different conclusion depending on their own background and connection to the story.</p><p>As a tip, never try and present one clear message with a multi-dimensional and complex visualisation.</p>",
+                "_graphic": {
+                    "src": "course/en/images/ODI-50b.jpg",
+                    "alt": "",
+                    "title": "",
+                    "*source": "http://www.edwardtufte.com/tufte/posters",
+                    "*credit": "",
+                    "*licence": ""
+                },
+                "strapline": ""
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-80",
+        "_parentId":"b-80",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"'Big' Numbers",
+        "displayTitle":"'Big' Numbers",
+        "body":"<p>Rather than a graph, presenting a story simply using numbers can be very effective. Big numbers like $60bn are unimaginably big for most people and create high impact. Small numbers can use presented in a large print in order to appear 'big'.</p><p>Other tricks with numbers involve comparators (shown here), translating numbers to percentages, or looking at multipliers. For example if the chance of something happening (e.g. winning the lottery) has gone from 1 in 1,000,000 people to 2 in 1,000,000 people, then it has <b>doubled!</b></p>",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-81",
+        "_parentId":"b-80",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/ODI-60.jpg",
+            "medium": "course/en/images/ODI-60.jpg",
+            "small": "course/en/images/ODI-60.jpg",
+            "*source": "http://www.mirror.co.uk/news/ampp3d/conservatives-strike-law-unions-5689015",
+            "*credit": "",
+            "*licence": ""
+        }
+    },
+    {
+        "_id":"c-85",
+        "_parentId":"b-85",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"right",
+        "title":"Simple charts give powerful messages",
+        "displayTitle":"Simple charts give powerful messages",
+        "body":"<p>If all numbers are big, then simple charts can be used to convey clear messages.</p><p>Enhancing bar charts and pie charts with graphics and well placed text can also aid the clear understanding.</p><p>This said, seeing that the graph on the left is comparing the revenue of one produce to the total revenue of an entire other company, can still be difficult to see.</p>",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-86",
+        "_parentId":"b-85",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/ODI-62.jpg",
+            "medium": "course/en/images/ODI-62.jpg",
+            "small": "course/en/images/ODI-62.jpg",
+            "*source": "http://www.businessinsider.com/iphone-bigger-than-microsoft-2012-2?IR=T",
+            "*credit": "",
+            "*licence": ""
+        }
+    },
+    {
+        "_id":"c-90",
+        "_parentId":"b-90",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Maps: Where things happen is important",
+        "displayTitle":"Maps: Where things happen is important",
+        "body":"<p>Many data stories have a location aspect to them, thus using a map should seem logical. However, maps are complex and can add completely unnecessary detail and dimensions that could confuse the reader.</p><p>The example shown here details all the empty and unused building in Detroit. Having the map showing all buildings is essential.</p><p>Aaron Koblin's <a href='http://www.aaronkoblin.com/work/flightpatterns/' target='_blank'>flight patterns</a> is a good example of a spacial visualisation that doesn't require an underlying map layer.</p>  ",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-91",
+        "_parentId":"b-90",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/ODI-64.jpg",
+            "medium": "course/en/images/ODI-64.jpg",
+            "small": "course/en/images/ODI-64.jpg",
+            "*source": "https://highland-park.motorcitymapping.org/#t=search&s=highland-park&f=all&p=5339",
+            "*credit": "",
+            "*licence": ""
+        }
+    },
+    {
+        "_id":"c-95",
+        "_parentId":"b-95",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"right",
+        "title":"Interactive visualisations",
+        "displayTitle":"Interactive visualisation",
+        "body":"<p>Adding interaction allows for self exploration and higher levels of engagement.</p><p>Many visualizations can tips aspects are click upon. More advanced interaction allows for the filtering and digging into the data being displayed.</p><p>When creating interactive visualisation, each point of interactivity should be both obvious to find and obvious in what it does.</p>",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-96",
+        "_parentId":"b-95",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/ODI-66.jpg",
+            "medium": "course/en/images/ODI-66.jpg",
+            "small": "course/en/images/ODI-66.jpg",
+            "*source": "http://dataviz.pitchbook.com/founders/",
+            "*credit": "",
+            "*licence": ""
+        }
+    },
+    {
         "_id": "c-100",
         "_parentId": "b-100",
+        "_classes": "inverted",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Speeding up communication",
+        "displayTitle": "Speeding up communication",
+        "body": "",
+        "instruction": "<em>Click the forward arrow to see more.</em>",
+        "_items": [
+            {
+                "title": "Cognitive processes",
+                "body": "<p>The key to good visualisation is to apply some cognitive theory relating to how our brains take in information.</p><p>The light from our eyes is passed to our occipital lobe, here there are two parallel routes that process the information; the dorsal stream and the ventral stream.</p><p>While the ventral stream is very slow, the dorsal stream is very quick to react to where things are and what is happening. If someone throws something at you unexpectedly, it's the dorsal stream that will react to either help defend you; you act without thinking.</p><p>The dorsal stream can also be used to help messages 'pop out' from a visualisation</p>",
+                "_graphic": {
+                    "src": "course/en/images/ODI-70a.jpg",
+                    "alt": "",
+                    "title": "",
+                    "*source": "",
+                    "*credit": "",
+                    "*licence": ""
+                },
+                "strapline": ""
+            },
+            {
+                "title": "Using pop out",
+                "body": "<p>Pop out helps direct the eye to the correct place. The Dorsal stream reacts quickly to patterns and/or significant differences presented visually.</p><p>Pop out works best when a combination of different visual cues are used in combination, e.g. colour, size and line thickness.</p><p>In the case here a combination or colour and thinkness guide the eye towards the steepest line. This line represents the first high speed train from Paris to Lyon. The steepness of the line is the speed!</p>",
+                "_graphic": {
+                    "src": "course/en/images/ODI-70b.jpg",
+                    "alt": "",
+                    "title": "",
+                    "*source": "E.J. Marey 1885",
+                    "*credit": "E.J. Marey 1885",
+                    "*licence": ""
+                },
+                "strapline": ""
+            },
+            {
+                "title": "Using colour",
+                "body": "<p>Colour is most effectively used in categories and on scales that have clear meaning. Here red, amber and green represent risk from most dangerous to safest, just like in traffic lights.</p><p>Scientists like using continuous colour scales, however most only know about the rainbow and here the colours have no meaning, they are simply in an order. Using continuous colour scales is not advised for representing data.</p><p>When using colour, either use a well known categorical scale, or use one colour and vary the hue, saturation or brightness to represent different levels. If wanting to reveal detail, use a greyscale as our eyes are much more sensitive to black and white then colour.</p>",
+                "_graphic": {
+                    "src": "course/en/images/ODI-70c.jpg",
+                    "alt": "",
+                    "title": "",
+                    "*source": "http://www.telegraph.co.uk/travel/travelnews/4269453/How-to-survive-a-plane-crash.html",
+                    "*credit": "Telegraph UK",
+                    "*licence": "Unknown"
+                },
+                "strapline": ""
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+     {
+        "_id": "c-105",
+        "_parentId": "b-105",
         "_classes": "",
         "_type":"component",
         "_layout": "full",
@@ -350,8 +662,8 @@
         }
     },
     {
-        "_id":"c-105",
-        "_parentId":"b-105",
+        "_id":"c-110",
+        "_parentId":"b-110",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
@@ -368,8 +680,8 @@
         }
     },
     {
-      "_id":"c-106",
-      "_parentId":"b-105",
+      "_id":"c-111",
+      "_parentId":"b-110",
       "_type":"component",
       "_component":"text",
         "_classes":"",
@@ -383,8 +695,8 @@
         }
     },
     {
-        "_id":"c-110",
-        "_parentId":"b-110",
+        "_id":"c-150",
+        "_parentId":"b-150",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
@@ -401,8 +713,8 @@
         }
     },
     {
-        "_id":"c-111",
-        "_parentId":"b-110",
+        "_id":"c-151",
+        "_parentId":"b-150",
         "_type":"component",
         "_component":"text",
         "_classes":"",
@@ -415,16 +727,16 @@
         }
     },
     {
-       "_id":"c-112",
-       "_parentId":"b-110",
+       "_id":"c-152",
+       "_parentId":"b-150",
        "_type":"component",
        "_component":"text",
        "_classes":"separator",
        "_layout":"full"
     },
     {
-        "_id":"c-113",
-        "_parentId":"b-110",
+        "_id":"c-153",
+        "_parentId":"b-150",
         "_type":"component",
         "_component":"graphic",
         "_classes":"footer-logo",
@@ -441,8 +753,8 @@
         }
     },
     {
-        "_id":"c-114",
-        "_parentId":"b-110",
+        "_id":"c-154",
+        "_parentId":"b-150",
         "_type":"component",
         "_component":"text",
         "_classes":"social-buttons",
