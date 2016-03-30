@@ -21,22 +21,61 @@
 // @odi-color-ten: light green
 
 .b-20 {
+	background-color: #222;
+}
+.b-30 {
 	background-color: @odi-color-two;
 }
-.b-40 {
+.b-50 {
 	background-color: @odi-color-two;
 }
 .b-55 {
+	.accordion-component .accordion-item-title {
+		background-color: @odi-color-two;	
+	}
+}
+.b-60 {
 	background-color: @odi-color-three;
 }
-.b-65 {
-	background-color: @odi-color-three;
+.b-70 {
+	background-color: @odi-color-one;
 }
 .b-75 {
-	background-color: @odi-color-three;
+	.narrative-component.desktop .narrative-slide-container {
+		float: right;
+		margin-top: 30px;
+		@media all and (max-width:(@device-width-medium - 1px)) {
+        	margin-top: 5px;
+        }
+    }
+    .narrative-component .narrative-content-inner {
+       	padding: 0px;
+    }
+    .narrative-component .narrative-content {
+    	background: none;
+    	color: inherit;
+    }
 }
 .b-80 {
 	background-color: @odi-color-one;
+	.narrative-component.desktop .narrative-slide-container {
+		float: left;
+		margin-top: 30px;
+		@media all and (max-width:(@device-width-medium - 1px)) {
+        	margin-top: 5px;
+        }
+    }
+    .narrative-component .narrative-content-inner {
+     	padding: 0px;
+    }
+    .block.inverted .narrative-component .narrative-content {
+    	background: none;
+    	color: inherit;
+    }
+    .narrative-component .narrative-content {
+    	background: none;
+    	color: inherit;
+    }
 }
 .b-90 {
 	background-color: @odi-color-one;

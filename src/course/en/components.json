@@ -19,48 +19,15 @@
         }
     },
     {
-        "_id":"c-11",
-        "_parentId":"b-10",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"",
-        "_layout":"left",
-        "title":"Open Data in Practice Day 3 - Enriching & Visualising",
-        "displayTitle":"Open Data in Practice Day 3 - Enriching & Visualising",
-        "body":"<p>In this final day, participants will learn how to clean, enrich and visualise data, all core skills of modern data work.</p>",
-        "instruction":"",
-        "_pageLevelProgress": {
-            "_isEnabled": true
-        }
-    },
-    {
-        "_id":"c-20",
-        "_parentId":"b-20",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"right",
-        "_graphic": {
-            "alt": "Course Overview",
-            "title": "Course Overview",
-            "large": "course/en/images/summary-icon.png",
-            "medium": "course/en/images/summary-icon.png",
-            "small": "course/en/images/summary-icon.png",
-            "*source":"http://www.shutterstock.com/pic-278179001.html",
-            "*credit":"Eugene Sergeev",
-            "*license":"Shutterstock Standard License"
-        }
-    },
-    {
-      "_id":"c-21",
-      "_parentId":"b-20",
+      "_id":"c-11",
+      "_parentId":"b-10",
       "_type":"component",
       "_component":"accordion",
       "_classes":"",
       "_layout":"left",
-      "title": "Course overview",
-      "displayTitle": "Course overview",
-      "body": "<p>The final day is split into three key sessions - data cleaning, enriching and visualising.</p>",
+      "title": "Open Data in Practice - Enriching & Visualising data",
+      "displayTitle": "Open Data in Practice - Enriching & Visualising data",
+      "body": "<p>In this final day, participants will learn how to clean, enrich and visualise data, all core skills of modern data work.</p>",
       "instruction": "<em>The sessions are briefly described below.</em>",
       "_items": [
          {
@@ -97,9 +64,9 @@
         "_graphic": {
             "alt": "",
             "title": "",
-            "large": "course/en/images/burst-green.png",
-            "medium": "course/en/images/burst-green.png",
-            "small": "course/en/images/burst-green.png"
+            "large": "course/en/images/burst-white.png",
+            "medium": "course/en/images/burst-white.png",
+            "small": "course/en/images/burst-white.png"
         }
     },
     {
@@ -127,9 +94,9 @@
         "_graphic": {
             "alt": "Data cleaning",
             "title": "Data cleaning",
-            "large": "course/en/images/odi-10.jpg",
-            "medium": "course/en/images/odi-10.jpg",
-            "small": "course/en/images/odi-10.jpg",
+            "large": "course/en/images/c-40.jpg",
+            "medium": "course/en/images/c-40.jpg",
+            "small": "course/en/images/c-40.jpg",
             "*source": "http://www.shutterstock.com/pic-23541922",
             "*credit": "Amy Walters",
             "*license": "Shutterstock Standard License"
@@ -152,13 +119,13 @@
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
-        "_layout":"right",
+        "_layout":"left",
         "_graphic": {
             "alt": "Common errors in data",
             "title": "Common errors in data",
-            "large": "course/en/images/odi-002.jpg",
-            "medium": "course/en/images/odi-002.jpg",
-            "small": "course/en/images/odi-002.jpg",
+            "large": "course/en/images/c-50.jpg",
+            "medium": "course/en/images/c-50.jpg",
+            "small": "course/en/images/c-50.jpg",
             "*source": "http://www.shutterstock.com/pic-232737427",
             "*credit": "Kirill_M",
             "*licence": "Shutterstock standard license"
@@ -170,7 +137,7 @@
       "_type":"component",
       "_component":"accordion",
       "_classes":"",
-      "_layout":"left",
+      "_layout":"right",
       "title": "Common errors in data",
       "displayTitle": "Common errors in data",
       "body": "There are a number of common errors in data that you should look out for in any dataset you are working with.",
@@ -289,13 +256,13 @@
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
-        "_layout":"left",
+        "_layout":"right",
         "_graphic": {
             "alt": "",
             "title": "",
-            "large": "course/en/images/odi-50.jpg",
-            "medium": "course/en/images/odi-50.jpg",
-            "small": "course/en/images/odi-50.jpg",
+            "large": "course/en/images/c-65.jpg",
+            "medium": "course/en/images/c-65.jpg",
+            "small": "course/en/images/c-65.jpg",
             "*source": "http://www.shutterstock.com/pic-144137602",
             "*credit": "David Arts",
             "*license": "Shutterstock standard license"
@@ -330,29 +297,14 @@
         "_graphic": {
             "alt": "",
             "title": "",
-            "large": "course/en/images/burst-yellow.png",
-            "medium": "course/en/images/burst-yellow.png",
-            "small": "course/en/images/burst-yellow.png"
+            "large": "course/en/images/burst-white.png",
+            "medium": "course/en/images/burst-white.png",
+            "small": "course/en/images/burst-white.png"
         }
     },
     {
         "_id":"c-71",
         "_parentId":"b-70",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"",
-        "_layout":"left",
-        "title":"Visualising data",
-        "displayTitle":"Visualising data",
-        "body":"<p></p>",
-        "instruction":"",
-        "_pageLevelProgress": {
-            "_isEnabled": true
-        }
-    },
-    {
-        "_id":"c-75",
-        "_parentId":"b-75",
         "_type":"component",
         "_component":"text",
         "_classes":"",
@@ -374,14 +326,14 @@
         "_component": "narrative",
         "title": "Goals: Communication vs Understanding",
         "displayTitle": "Goals: Communication vs Understanding",
-        "body": "With the preparation complete, it is necessary to consider the goal of the story.",
+        "body": "With the data preparation complete, visualising is usually the next stage on the agenda of any project. Before you begin the process however it is worth planning what story you want to tell using the data and how a visualisation can help tell this story. Let's first have a look at the goals of visualising data.",
         "instruction": "<em>Click the forward arrow to discover more.</em>",
         "_items": [
             {
                 "title": "Communication",
                 "body": "<p>Powerful messages need a simple way to communicate them. Bar charts, pie charts and big clear numbers are a very effective way to communicate.</p><p>Other effective methods use large visuals and introduce figures that may help people relate to the story (e.g. stick figures could be added to represent the number of people with the visual here).</p>",
                 "_graphic": {
-                    "src": "course/en/images/ODI-50a.jpg",
+                    "src": "course/en/images/c-76-0.jpg",
                     "alt": "",
                     "title": "",
                     "*source": "http://www.independent.co.uk/news/world/oregon-college-shooting-obama-is-right-that-guns-kill-more-americans-than-terrorism-but-so-do-lots-a6676366.html",
@@ -394,7 +346,7 @@
                 "title": "Understanding",
                 "body": "<p>Sometimes there can be multiple stories or points of interest. This often leads to a more complex visualisation where a greater level of engagement is required to reach understanding.</p><p>Commonly such visualisations will present multiple dimensions of data. This makes a clear message hard to spot. Additionally, this means that there is a chance that each viewer could come to a different conclusion depending on their own background and connection to the story.</p><p>As a tip, never try and present one clear message with a multi-dimensional and complex visualisation.</p>",
                 "_graphic": {
-                    "src": "course/en/images/ODI-50b.jpg",
+                    "src": "course/en/images/c-76-1.jpg",
                     "alt": "",
                     "title": "",
                     "*source": "http://www.edwardtufte.com/tufte/posters",
@@ -409,150 +361,22 @@
         }
     },
     {
-        "_id":"c-80",
-        "_parentId":"b-80",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"",
-        "_layout":"left",
-        "title":"'Big' Numbers",
-        "displayTitle":"'Big' Numbers",
-        "body":"<p>Rather than a graph, presenting a story simply using numbers can be very effective. Big numbers like $60bn are unimaginably big for most people and create high impact. Small numbers can use presented in a large print in order to appear 'big'.</p><p>Other tricks with numbers involve comparators (shown here), translating numbers to percentages, or looking at multipliers. For example if the chance of something happening (e.g. winning the lottery) has gone from 1 in 1,000,000 people to 2 in 1,000,000 people, then it has <b>doubled!</b></p>",
-        "_pageLevelProgress": {
-            "_isEnabled": true
-        }
-    },
-    {
-        "_id":"c-81",
-        "_parentId":"b-80",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"right",
-        "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "course/en/images/ODI-60.jpg",
-            "medium": "course/en/images/ODI-60.jpg",
-            "small": "course/en/images/ODI-60.jpg",
-            "*source": "http://www.mirror.co.uk/news/ampp3d/conservatives-strike-law-unions-5689015",
-            "*credit": "",
-            "*licence": ""
-        }
-    },
-    {
-        "_id":"c-85",
-        "_parentId":"b-85",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"",
-        "_layout":"right",
-        "title":"Simple charts give powerful messages",
-        "displayTitle":"Simple charts give powerful messages",
-        "body":"<p>If all numbers are big, then simple charts can be used to convey clear messages.</p><p>Enhancing bar charts and pie charts with graphics and well placed text can also aid the clear understanding.</p><p>This said, seeing that the graph on the left is comparing the revenue of one produce to the total revenue of an entire other company, can still be difficult to see.</p>",
-        "_pageLevelProgress": {
-            "_isEnabled": true
-        }
-    },
-    {
-        "_id":"c-86",
-        "_parentId":"b-85",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"left",
-        "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "course/en/images/ODI-62.jpg",
-            "medium": "course/en/images/ODI-62.jpg",
-            "small": "course/en/images/ODI-62.jpg",
-            "*source": "http://www.businessinsider.com/iphone-bigger-than-microsoft-2012-2?IR=T",
-            "*credit": "",
-            "*licence": ""
-        }
-    },
-    {
-        "_id":"c-90",
-        "_parentId":"b-90",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"",
-        "_layout":"left",
-        "title":"Maps: Where things happen is important",
-        "displayTitle":"Maps: Where things happen is important",
-        "body":"<p>Many data stories have a location aspect to them, thus using a map should seem logical. However, maps are complex and can add completely unnecessary detail and dimensions that could confuse the reader.</p><p>The example shown here details all the empty and unused building in Detroit. Having the map showing all buildings is essential.</p><p>Aaron Koblin's <a href='http://www.aaronkoblin.com/work/flightpatterns/' target='_blank'>flight patterns</a> is a good example of a spacial visualisation that doesn't require an underlying map layer.</p>  ",
-        "_pageLevelProgress": {
-            "_isEnabled": true
-        }
-    },
-    {
-        "_id":"c-91",
-        "_parentId":"b-90",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"right",
-        "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "course/en/images/ODI-64.jpg",
-            "medium": "course/en/images/ODI-64.jpg",
-            "small": "course/en/images/ODI-64.jpg",
-            "*source": "https://highland-park.motorcitymapping.org/#t=search&s=highland-park&f=all&p=5339",
-            "*credit": "",
-            "*licence": ""
-        }
-    },
-    {
-        "_id":"c-95",
-        "_parentId":"b-95",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"",
-        "_layout":"right",
-        "title":"Interactive visualisations",
-        "displayTitle":"Interactive visualisation",
-        "body":"<p>Adding interaction allows for self exploration and higher levels of engagement.</p><p>Many visualizations can tips aspects are click upon. More advanced interaction allows for the filtering and digging into the data being displayed.</p><p>When creating interactive visualisation, each point of interactivity should be both obvious to find and obvious in what it does.</p>",
-        "_pageLevelProgress": {
-            "_isEnabled": true
-        }
-    },
-    {
-        "_id":"c-96",
-        "_parentId":"b-95",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"left",
-        "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "course/en/images/ODI-66.jpg",
-            "medium": "course/en/images/ODI-66.jpg",
-            "small": "course/en/images/ODI-66.jpg",
-            "*source": "http://dataviz.pitchbook.com/founders/",
-            "*credit": "",
-            "*licence": ""
-        }
-    },
-    {
-        "_id": "c-100",
-        "_parentId": "b-100",
+        "_id": "c-80",
+        "_parentId": "b-80",
         "_classes": "inverted",
         "_type":"component",
         "_layout": "full",
         "_component": "narrative",
         "title": "Speeding up communication",
         "displayTitle": "Speeding up communication",
-        "body": "",
-        "instruction": "<em>Click the forward arrow to see more.</em>",
+        "body": "Our brain likes information presented visualisually. Likewise when visualising data it is worth appealing to the brains visual processes.",
+        "instruction": "<em>Click the forward arrow to find out how.</em>",
         "_items": [
             {
                 "title": "Cognitive processes",
                 "body": "<p>The key to good visualisation is to apply some cognitive theory relating to how our brains take in information.</p><p>The light from our eyes is passed to our occipital lobe, here there are two parallel routes that process the information; the dorsal stream and the ventral stream.</p><p>While the ventral stream is very slow, the dorsal stream is very quick to react to where things are and what is happening. If someone throws something at you unexpectedly, it's the dorsal stream that will react to either help defend you; you act without thinking.</p><p>The dorsal stream can also be used to help messages 'pop out' from a visualisation</p>",
                 "_graphic": {
-                    "src": "course/en/images/ODI-70a.jpg",
+                    "src": "course/en/images/c-80-0.jpg",
                     "alt": "",
                     "title": "",
                     "*source": "",
@@ -565,7 +389,7 @@
                 "title": "Using pop out",
                 "body": "<p>Pop out helps direct the eye to the correct place. The Dorsal stream reacts quickly to patterns and/or significant differences presented visually.</p><p>Pop out works best when a combination of different visual cues are used in combination, e.g. colour, size and line thickness.</p><p>In the case here a combination or colour and thinkness guide the eye towards the steepest line. This line represents the first high speed train from Paris to Lyon. The steepness of the line is the speed!</p>",
                 "_graphic": {
-                    "src": "course/en/images/ODI-70b.jpg",
+                    "src": "course/en/images/c-80-1.jpg",
                     "alt": "",
                     "title": "",
                     "*source": "E.J. Marey 1885",
@@ -578,7 +402,7 @@
                 "title": "Using colour",
                 "body": "<p>Colour is most effectively used in categories and on scales that have clear meaning. Here red, amber and green represent risk from most dangerous to safest, just like in traffic lights.</p><p>Scientists like using continuous colour scales, however most only know about the rainbow and here the colours have no meaning, they are simply in an order. Using continuous colour scales is not advised for representing data.</p><p>When using colour, either use a well known categorical scale, or use one colour and vary the hue, saturation or brightness to represent different levels. If wanting to reveal detail, use a greyscale as our eyes are much more sensitive to black and white then colour.</p>",
                 "_graphic": {
-                    "src": "course/en/images/ODI-70c.jpg",
+                    "src": "course/en/images/c-80-2.jpg",
                     "alt": "",
                     "title": "",
                     "*source": "http://www.telegraph.co.uk/travel/travelnews/4269453/How-to-survive-a-plane-crash.html",
@@ -592,106 +416,132 @@
         "_isEnabled": true
         }
     },
-     {
-        "_id": "c-105",
-        "_parentId": "b-105",
-        "_classes": "",
+    {
+        "_id":"c-85",
+        "_parentId":"b-85",
         "_type":"component",
-        "_layout": "full",
-       "_component": "dynamic-narrative",
-        "title": "Exploring data through visualisation",
-        "displayTitle": "Exploring data through visualisation",
-        "body": "<p></p>",
-        "instruction": "<em class='desktop-instruction'>Click the forward arrow for more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
-        "_items": [
-            {
-                "title": "Exploring space",
-                "body": "<p>The Universe is vast and on a scale people just simply cannot grasp.</p><p>Visualising this effectively is key to increase understanding of our place in the Universe.</p>",
-                "_graphic": {
-                    "src": "course/en/images/odi-90a.png",
-                    "alt": "The planets",
-                    "title": "The planets",
-                    "*source":"https://commons.wikimedia.org/wiki/File:Relative_satellite_sizes.jpg",
-                    "*credit":"tony_g100",
-                    "*license":"CC-Zero"
-                },
-                "strapline": "Exploring space"
-            },
-            {
-                "title": "Faster transport?",
-                "body": "<p>Visualising data can quickly tell us stories of progress.</p><p>The example on the left became part of the advertising campaign for SNCF. It was used to communicate how much faster the new TGV trains were.</p>",
-                "_graphic": {
-                    "src": "course/en/images/odi-90b.png",
-                    "alt": "SNCF",
-                    "title": "SNCF",
-                    "*source":"http://www.c82.net/blog/?id=66",
-                    "*credit":"E.J. Mare",
-                    "*license":"Unknown"
-                },
-                "strapline": "Faster transport"
-            },
-            {
-                "title": "Light cycles",
-                "body": "<p>Improving mobility is key to the future of successful and smart cities.</p><p>Visualising usage of transport systems (in this case bicycles in London) can help make key decisions about future planning of such systems.</p><p><a href='https://vimeo.com/33712288' target=''>Click here to watch the full video.</a>",
-                "_graphic": {
-                    "src": "course/en/images/odi-90c.png",
-                    "alt": "Light cycles",
-                    "title": "Light cycles",
-                    "*source":"https://vimeo.com/33712288",
-                    "*credit":"Jo Wood ",
-                    "*license":"Unknown"
-                },
-                "strapline": "Light cycles"
-            },
-            {
-                "title": "In flight",
-                "body": "<p>Transport problems are not just limited to single cities. There is a lot we can learn from analysing global transport patterns.</p><p>This example looks at the evolution of flight and uses advanced visualision to tell a story about the history of flight. Using a bit of machine learning, it even attempts to predict the future.</p><p><a href='http://www.theguardian.com/world/ng-interactive/2014/aviation-100-years' target='_blank'>Click here to explore In Flight</a></p>",
-                "_graphic": {
-                    "src": "course/en/images/odi-90d.png",
-                    "alt": "In Flight",
-                    "title": "In Flight",
-                    "*source":"http://www.theguardian.com/world/ng-interactive/2014/aviation-100-years",
-                    "*credit":"The Guardian",
-                    "*license":"Unknown"
-                },
-                "strapline": "In flight"
-            }
-        ],
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"'Big' Numbers",
+        "displayTitle":"'Big' Numbers",
+        "body":"<p>Rather than a graph, presenting a story simply using numbers can be very effective. Big numbers like $60bn are unimaginably big for most people and create high impact. Small numbers can use presented in a large print in order to appear 'big'.</p><p>Other tricks with numbers involve comparators (shown here), translating numbers to percentages, or looking at multipliers. For example if the chance of something happening (e.g. winning the lottery) has gone from 1 in 1,000,000 people to 2 in 1,000,000 people, then it has <b>doubled!</b></p>",
         "_pageLevelProgress": {
-        "_isEnabled": true
+            "_isEnabled": true
         }
     },
     {
-        "_id":"c-110",
-        "_parentId":"b-110",
+        "_id":"c-86",
+        "_parentId":"b-85",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
         "_layout":"right",
         "_graphic": {
-            "alt": "Cross filters",
-            "title": "Cross filters",
-            "large": "course/en/images/odi-60.jpg",
-            "medium": "course/en/images/odi-60.jpg",
-            "small": "course/en/images/odi-60.jpg",
-            "*source":"sponge uk",
-            "*credit":"sponge uk",
-            "*license":"Creative commons attribute 4.0 international"
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/c-86.jpg",
+            "medium": "course/en/images/c-86.jpg",
+            "small": "course/en/images/c-86.jpg",
+            "*source": "http://www.mirror.co.uk/news/ampp3d/conservatives-strike-law-unions-5689015",
+            "*credit": "",
+            "*licence": ""
         }
     },
     {
-      "_id":"c-111",
-      "_parentId":"b-110",
-      "_type":"component",
-      "_component":"text",
+        "_id":"c-90",
+        "_parentId":"b-90",
+        "_type":"component",
+        "_component":"text",
         "_classes":"",
-        "_layout":"left",
-        "title":"Exercise: Visualising data",
-        "displayTitle":"Exercise: Visualising data",
-        "body":"<p>Visualisations can help us explore a dataset to unlock insight.</p><p>In particular faceted browsing (or cross filters) allow consumers to filter the data visually. Such browsers are commonly now used by holiday and flight websites, such as <a href='http://www.skyscanner.net/' target='_blank'>Sky scanner</a> to help you filter your search results or change input parameters.</p><p>The following exercise use the clean and enriched dataset to create a faceted online browser.</p><p><a class='course_link' href='course/en/exercises/ExploringComplexDatasets.pdf' target='_blank'>Get started with visualisation</a></p><p>You will need <a href='http://codepen.io/davetaz/pen/Kdberx' target='_blank'>this link</a> to start the exercise.</p>",
-        "instruction":"",
+        "_layout":"right",
+        "title":"Simple charts give powerful messages",
+        "displayTitle":"Simple charts give powerful messages",
+        "body":"<p>If all numbers are big, then simple charts can be used to convey clear messages.</p><p>Enhancing bar charts and pie charts with graphics and well placed text can also aid the clear understanding.</p><p>This said, seeing that the graph on the left is comparing the revenue of one produce to the total revenue of an entire other company, can still be difficult to see.</p>",
         "_pageLevelProgress": {
             "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-91",
+        "_parentId":"b-90",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/c-91.jpg",
+            "medium": "course/en/images/c-91.jpg",
+            "small": "course/en/images/c-91.jpg",
+            "*source": "http://www.businessinsider.com/iphone-bigger-than-microsoft-2012-2?IR=T",
+            "*credit": "",
+            "*licence": ""
+        }
+    },
+    {
+        "_id":"c-95",
+        "_parentId":"b-95",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Maps: Where things happen is important",
+        "displayTitle":"Maps: Where things happen is important",
+        "body":"<p>Many data stories have a location aspect to them, thus using a map should seem logical. However, maps are complex and can add completely unnecessary detail and dimensions that could confuse the reader.</p><p>The example shown here details all the empty and unused building in Detroit. Having the map showing all buildings is essential.</p><p>Aaron Koblin's <a href='http://www.aaronkoblin.com/work/flightpatterns/' target='_blank'>flight patterns</a> is a good example of a spacial visualisation that doesn't require an underlying map layer.</p>  ",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-96",
+        "_parentId":"b-95",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/c-96.jpg",
+            "medium": "course/en/images/c-96.jpg",
+            "small": "course/en/images/c-96.jpg",
+            "*source": "https://highland-park.motorcitymapping.org/#t=search&s=highland-park&f=all&p=5339",
+            "*credit": "",
+            "*licence": ""
+        }
+    },
+    {
+        "_id":"c-100",
+        "_parentId":"b-100",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"right",
+        "title":"Interactive visualisations",
+        "displayTitle":"Interactive visualisation",
+        "body":"<p>Adding interaction allows for self exploration and higher levels of engagement.</p><p>Many visualizations can tips aspects are click upon. More advanced interaction allows for the filtering and digging into the data being displayed.</p><p>When creating interactive visualisation, each point of interactivity should be both obvious to find and obvious in what it does.</p>",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-101",
+        "_parentId":"b-100",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/c-101.jpg",
+            "medium": "course/en/images/c-101.jpg",
+            "small": "course/en/images/c-101.jpg",
+            "*source": "http://dataviz.pitchbook.com/founders/",
+            "*credit": "",
+            "*licence": ""
         }
     },
     {
