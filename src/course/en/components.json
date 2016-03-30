@@ -259,11 +259,6 @@
           "title": "Providing a consistent location",
           "body": "<p>You should provide your data under a consistent address or URL. This URL should also contain a set of characters which let users locate your data quickly and easily. These common characters are called 'Uniform Resource Identifiers' or URIs. We recommend using a URL for your dataset that uses the LGA's directory of common identifiers to refer to your local authority. You can use the <a href='http://uris.opendata.esd.org.uk/' target='_blank'>LGA directory</a> to look up the correct code for your authority in seconds. For example, Norfolk County Council has the idenfitier - 'http://opendatacommunities.org/doc/county-council/norfolk'.</p><p>You can also add another URL that redirects to the main one if you want to be more informative about the dataset. For example, a dataset from Hampshire county council about senior salaries might use a URL like 'http://www3.hants.gov.uk/opendata/datasets/senior-salaries.htm' that tells people exactly what the data is about from the address bar.</p>"
         },
-                {
-          "alt": "Optimise your data for search engines and aggregators",
-          "title": "Optimising your data for search engines and aggregators",
-          "body": "<p>Most people today will use either a search engine to look for data or will visit an aggregator like LG open data pages. Search engines need to be able to find all the relevant details about your datasets. It is important to include good metadata alongside your data and allow search engines to harvest this data and make it easy for people to find your data this way. For an example of how to optimise your metadata for search engines you can look at this simple <a href='http://static.googleusercontent.com/media/www.google.co.uk/en/uk/webmasters/docs/search-engine-optimization-starter-guide.pdf' target='_blank'>Google guide.</a></p>"
-        },
         {
             "alt": "Update your inventory",
           "title": "Updating your inventory",
@@ -278,6 +273,11 @@
           "alt": "Increase the number of links",
           "title": "Increasing the number of links",
           "body": "<p>On the web, links are key. The more links you have to your data, from more different sites, the easier your data will be to find. The best way of achieving greater numbers of links is through exposing your data in others' catalogues, like <a href='http://data.gov.uk' target='_blank'>data.gov.uk</a> and <a href='http://datasets.opendata.esd.org.uk/' target='_blank'>http://datasets.opendata.esd.org.uk/</a>. Another way to increase your links is to use consistent URLs. By doing so you allow other data to be linked to yours through services like <a href='http://opendatacommunities.org/' target='_blank'>http://opendatacommunities.org/</a></p>"
+        },
+        {
+          "alt": "Optimise your data for search engines and aggregators",
+          "title": "Optimising your data for search engines and aggregators",
+          "body": "<p>Most people today will use either a search engine to look for data or will visit an aggregator like LG open data pages. Search engines need to be able to find all the relevant details about your datasets. It is important to include good metadata alongside your data and allow search engines to harvest this data and make it easy for people to find your data this way. For an example of how to optimise your metadata for search engines you can look at this simple <a href='http://static.googleusercontent.com/media/www.google.co.uk/en/uk/webmasters/docs/search-engine-optimization-starter-guide.pdf' target='_blank'>Google guide.</a></p>"
         }
       ],
       "_pageLevelProgress": {
@@ -364,7 +364,7 @@
           "body": "<p>Once your data is prepared, you need to redact any entries that are exempt from publication. Redaction should be applied in line with the existing guidance for FoI requests. Full guidance on redaction can be found in the <a href='http://www.nationalarchives.gov.uk/documents/information-management/redaction_toolkit.pdf' target='_blank'>National Archives Redaction Toolkit.</a></p>"
         },
         {
-          "alt": "5 Validate the data internally",
+          "alt": "5 Check the data quality internally",
           "title": "5. Validate the data internally",
           "body": "<p>Once the data is prepared, have a colleague check your work. A new set of eyes will highlight any remaining issues with the data.</p>"
         },
