@@ -244,7 +244,7 @@
           "alt": "Finding the right URIs for linking data",
           "title": "Finding the right URIs for linking data",
           "body": "<p>For a local authority, there are several authorities that can be used to find links for your data. The best one to choose is the <a href='http://uris.opendata.esd.org.uk/' target='_blank'>LG Inform Plus URI lookup tool</a> which provides a search for different types of link. Other good soruces of URIs include the <a href='http://opendatacommunities.org/data/local-authorities' target='_blank'>DCLG Open Data Communities list for local authority codes</a>, <a href='http://tinyurl.com/onsgeog' target='_blank'>ONS identifiers for statistical geographies</a> and Local Government Electronic Service Delivery (ESD) lists for <a href=' http://id.esd.org.uk/list/functions' target='_blank'>functions</a> and <a href='http://id.esd.org.uk/list/services' target='_blank'>services</a>.</p>"
-        }
+        },
         {
           "alt": "An example of linking data",
           "title": "An example of linking data",
@@ -286,7 +286,7 @@
     },
     {
         "_id":"c-8",
-        "_parentId":"b-7",
+        "_parentId":"b-8",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
@@ -304,7 +304,7 @@
     },
      {
         "_id":"c-9",
-        "_parentId":"b-7",
+        "_parentId":"b-8",
         "_type":"component",
         "_component":"text",
         "_classes":"",
@@ -315,7 +315,7 @@
     },
     {
         "_id":"c-10",
-        "_parentId":"b-8",
+        "_parentId":"b-9",
         "_classes": "",
         "_type":"component",
         "_layout": "full",
@@ -384,7 +384,7 @@
     },
     {
         "_id":"c-14",
-        "_parentId":"b-9",
+        "_parentId":"b-10",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
@@ -402,7 +402,7 @@
     },
     {
         "_id":"c-15",
-        "_parentId":"b-9",
+        "_parentId":"b-10",
         "_type":"component",
         "_component":"text",
         "_classes":"",
@@ -413,7 +413,7 @@
     },
     {
         "_id":"c-16",
-        "_parentId":"b-10",
+        "_parentId":"b-11",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
@@ -431,7 +431,7 @@
     },
     {
         "_id":"c-17",
-        "_parentId":"b-10",
+        "_parentId":"b-11",
         "_type":"component",
         "_component":"text",
         "_classes":"",
@@ -442,7 +442,7 @@
     },
     {
         "_id": "c-18",
-        "_parentId": "b-11",
+        "_parentId": "b-12",
         "_classes": "",
         "_type":"component",
         "_layout": "full",
@@ -511,7 +511,7 @@
     },
     {
         "_id":"c-19",
-        "_parentId":"b-12",
+        "_parentId":"b-13",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
@@ -530,7 +530,7 @@
     },
     {
         "_id":"c-20",
-        "_parentId":"b-12",
+        "_parentId":"b-13",
         "_type":"component",
         "_component":"text",
         "_classes":"",
@@ -545,7 +545,7 @@
     },
     {
         "_id":"c-21",
-        "_parentId":"b-13",
+        "_parentId":"b-14",
         "_type":"component",
         "_component":"graphic",
         "_classes":"illustration",
@@ -564,7 +564,7 @@
     
     {
         "_id":"c-22",
-        "_parentId":"b-13",
+        "_parentId":"b-14",
         "_type":"component",
         "_component":"mcq",
         "_classes":"",
@@ -614,7 +614,7 @@
     },
     {
         "_id":"c-23",
-        "_parentId":"b-14",
+        "_parentId":"b-15",
         "_type":"component",
         "_component":"graphic",
         "_classes":"illustration",
@@ -632,7 +632,7 @@
     },
     {
         "_id":"c-24",
-        "_parentId":"b-14",
+        "_parentId":"b-15",
         "_type":"component",
         "_component":"mcq",
         "_classes":"",
@@ -682,7 +682,7 @@
     },
     {
         "_id":"c-25",
-        "_parentId":"b-15",
+        "_parentId":"b-16",
         "_type":"component",
         "_component":"graphic",
         "_classes":"illustration",
@@ -700,7 +700,7 @@
     },
     {
         "_id":"c-26",
-        "_parentId":"b-15",
+        "_parentId":"b-16",
         "_type":"component",
         "_component":"mcq",
         "_classes":"",
@@ -750,7 +750,7 @@
     },
     {
         "_id":"c-27",
-        "_parentId":"b-16",
+        "_parentId":"b-17",
         "_type":"component",
         "_component":"graphic",
         "_classes":"illustration",
@@ -768,7 +768,7 @@
     },
     {
         "_id":"c-28",
-        "_parentId":"b-16",
+        "_parentId":"b-17",
         "_type":"component",
         "_component":"mcq",
         "_classes":"",
@@ -818,7 +818,7 @@
     },
     {
         "_id":"c-29",
-        "_parentId":"b-17",
+        "_parentId":"b-18",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
@@ -836,7 +836,7 @@
     },
     {
         "_id":"c-30",
-        "_parentId":"b-17",
+        "_parentId":"b-18",
         "_type":"component",
         "_component":"text",
         "_classes":"",
@@ -850,7 +850,7 @@
     },
     {
        "_id":"c-31",
-       "_parentId":"b-17",
+       "_parentId":"b-18",
        "_type":"component",
        "_component":"text",
        "_classes":"separator",
@@ -858,7 +858,7 @@
     },
     {
         "_id":"c-32",
-        "_parentId":"b-17",
+        "_parentId":"b-18",
         "_type":"component",
         "_component":"graphic",
         "_classes":"footer-logo",
@@ -876,7 +876,7 @@
     },
     {
         "_id":"c-33",
-        "_parentId":"b-17",
+        "_parentId":"b-18",
         "_type":"component",
         "_component":"text",
         "_classes":"social-buttons",
