@@ -25,13 +25,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Open Data Science: Accelerate",
-        "displayTitle":"Open Data Science: Accelerate",
-        "body":"<p>Welcome to 'Accelerate', a fast paced, interactive look at the current skills of an open data scientist.</p><p>This course has been designed to get you up to speed with the latest developments surrounding the responsible use of open data as a data scientist.</p><p>By the end of this course you will be able to:<p><ul><li>Describe open data</li><li>Explain some of the benefits of using data science with open data</li><li>Identify and use a number of open data licences</li><li>Clean a dataset</li><li>Enrich a dataset</li><li>Visualise a dataset</li><li>Construct a machine learning classifier.</li></ul><em>Scroll down to discover each of the sessions on this course</em></p>",
-        "instruction":"",
-        "_pageLevelProgress": {
-            "_isEnabled": false
-        }
+        "title":"Open Data in Practice",
+        "displayTitle":"Open Data in Practice",
+        "body":"<p>This is an intensive and interactive three day course, if you are using or looking to use open data within your organisation or company. Suitable for both individuals and teams, it has been redesigned by our experts to minimise your time out of the office and maximise your learning.</p><p>For individuals and teams who want to learn how to publish, consume and exploit open data to improve efficiency, create new services and to act on opportunities. We will cover the very best practice involved in using and publishing open data and the legal and policy requirements in order to remove any potential risks.</p>"
     },
     {
         "_id":"c-11",
@@ -43,9 +39,9 @@
         "_graphic": {
             "alt": "",
             "title": "",
-            "large": "course/en/images/odi-1-text-image_large.jpg",
-            "medium": "course/en/images/odi-1-text-image_large.jpg",
-            "small": "course/en/images/odi-1-text-image_large.jpg"
+            "large": "course/en/images/odi-002.jpg",
+            "medium": "course/en/images/odi-002.jpg",
+            "small": "course/en/images/odi-002.jpg"
         }
     },
     {
@@ -55,9 +51,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Session 1 - Introducing Open Data",
-        "displayTitle":"Session 1 - Introducing Open Data",
-        "body":"<progress style='width: 100%;' id='ODI_Accelerate_S1' max='100' value='0'></progress><p>Open data is <strong>data</strong> that <strong>anyone</strong> can <strong>access</strong>, <strong>use</strong> and <strong>share</strong>. Governments, businesses and individuals can use open data to bring about social, economic and environmental benefits.</p><p>In this module we’ll explore more on the definitions of data, the impact is has and how licences play a central role.</p><p><a class='course_link' href='session1/'>Click here to learn more</a></p>"
+        "title":"Day 1 - Practical publication",
+        "displayTitle":"Day 1 - Practical publication",
+        "body":"<p>The first day is split into three key sessions. The first session explores definitions of open data and key characteristics, the second takes a closer look at data publishing platforms and the last will get participants hands-on with publication.</p>"
     },
     {
         "_id":"c-21",
@@ -69,9 +65,9 @@
         "_graphic": {
             "alt": "",
             "title": "",
-            "large": "course/en/images/odi-2-text-image_large.png",
-            "medium": "course/en/images/odi-2-text-image_large.png",
-            "small": "course/en/images/odi-2-text-image_large.png"
+            "large": "course/en/images/odi-002.jpg",
+            "medium": "course/en/images/odi-002.jpg",
+            "small": "course/en/images/odi-002.jpg"
         }
     },
     {
@@ -81,9 +77,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"right",
-        "title":"Session 2 - Data cleaning, enriching and visualisation",
-        "displayTitle":"Session 2 - Data cleaning, enriching and visualisation",
-        "body":"<progress style='width: 100%;' id='ODI_DataWorkshop' max='100' value='0'></progress><p>This practical session takes an open data set and performs some simple analysis to discover insight. Using one dataset, we first clean up the common errors, reducing the data down to a minimal set of understanable data. We then enrich the dataset by adding additional columns of data through automated querying on aligned data in online services (APIs). Finally we can then visualise the dataset to aid exploration further via an interactive faceted browser.</p><p><a class='course_link' href='session2/'>Click here to learn more</a></p>"
+        "title":"Day 2 - Business & Law",
+        "displayTitle":"Day 2 - Business & Law",
+        "body":"<p></p>"
     },
     {
         "_id":"c-25",
@@ -95,9 +91,9 @@
         "_graphic": {
             "alt": "",
             "title": "",
-            "large": "course/en/images/odi-3-text-image_large.png",
-            "medium": "course/en/images/odi-3-text-image_large.png",
-            "small": "course/en/images/odi-3-text-image_large.png"
+            "large": "course/en/images/odi-002.jpg",
+            "medium": "course/en/images/odi-002.jpg",
+            "small": "course/en/images/odi-002.jpg"
         }
     },
     {
@@ -107,9 +103,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Session 3 - Machine Learning for Data Scientists",
-        "displayTitle":"Session 3 - Machine learning for Data Scientists",
-        "body":"<progress style='width: 100%;' id='ODI_Accelerate_S3' max='100' value='0'></progress><p>This short session introduces machine learning using an interactive example. Specifically, this session looks at classifiers and how these are constructed using training data and then evaluated on untagged test data.<p><p><a class='course_link' href='session3/'>Click here to learn more</a></p>"
+        "title":"Day 3 - Enriching and Visualising data",
+        "displayTitle":"Day 3 - Enriching and Visualising data",
+        "body":"<p>In this final day, participants will learn how to clean, enrich and visualise data, all core skills of modern data work.</p>"
     },
     {
         "_id":"c-151",
