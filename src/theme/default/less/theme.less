@@ -49,14 +49,6 @@
     display: block;
     margin-right: 10px;
 }
-.getting-started .icon {
-    color: white;
-}
-.getting-started #menu {
-    border: 1px solid white;
-    padding: 5px; 
-    border-radius: 5px;
-}
 .getting-started #cloud-status-img2 {
     width: 60px;
     height: 36px;
@@ -99,5 +91,23 @@
 .mod_tick {
 	float: right;
 	padding-right: 10px;
+}
+.getting-started {
+    .icon {
+        font-size: 1.7em;
+	color: white;
+    }
+    #drawText {
+	font-family:@font-family;
+	font-size: 0.75em;
+	bottom: 6px;
+	color: white;
+	position: relative;
+	margin-left: 3px;
+	text-transform: uppercase;
+    	@media all and (max-width:(@device-width-medium - 1px)) {
+   		display: none;	
+	} 
+    }
 }
 
