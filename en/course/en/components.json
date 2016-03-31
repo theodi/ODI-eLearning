@@ -25,9 +25,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Welcome",
-        "displayTitle":"Welcome",
-        "body":"<p>Welcome to the Open Data Institute's e-learning programme. This programme has been designed to enable you to discover what open data is and how it is changing the lives of everyone on our planet.</p><p><em>Scroll down to discover each of the available lessons</em></p><p><em><a class='popup-message' onClick='showMessage(\"nav_help\");'>Click here</a> to view a quick guide to help you navigate the learning.</em></p>",
+        "title":"Welcome to the Open Data Institute's eLearning programme.",
+        "displayTitle":"Welcome to the Open Data Institute's eLearning programme.",
+        "body":"<p>This programme has been designed to enable you to discover what open data is and how it is changing the lives of everyone on our planet.</p><p><em>Scroll down to discover each of the available lessons</em></p>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": false
@@ -37,16 +37,10 @@
         "_id":"c-222",
         "_parentId":"b-03",
         "_type":"component",
-        "_component":"graphic",
+        "_component":"text",
         "_classes":"",
         "_layout":"center",
-        "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "course/en/images/burst-white.png",
-            "medium": "course/en/images/burst-white.png",
-            "small": "course/en/images/burst-white.png"
-        }
+	"body":"<p><em><a class='popup-message' onClick='showMessage(\"nav_help\");'>Click here</a> to view a quick guide to help you navigate the learning.</em></p>"
     },
     {
         "_id":"c-06",
