@@ -10,7 +10,7 @@ $.getJSON("course/config.json",function(data) {
 });
 	
 var theme = "ODI";
-var version = "1.1.7";
+var version = "1.1.8";
 var interval; 
 var click_bind = false;
 
