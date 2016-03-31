@@ -30,7 +30,7 @@
         "_layout":"left",
         "title":"Making standards work for you",
         "displayTitle":"Making standards work for you",
-        "body":"<p>In the previous module, you learned the 12 steps to publishing quality data. In this third module, we examine where local authorities can find the right support to help them publish good quality, consistent open data. We will also look at how you can certify your data to tell everyone about its quality..</p><p>In this module you will learn:</p><ul><li>How standard structures can make your data more useful and consistent</li><li>How to find and use common schemas for your datasets</li><li>How to develop your own schema if none is available</li><li>How to certify the quality of your data</li></ul></p><p>This module also provides useful links to supporting documents and services that can help save time in your publication.</p>",
+        "body":"<p>In the previous module, you learned the 12 steps to publishing quality data. In this third module, we examine where local authorities can find the right support to help them publish good quality, consistent open data. We will also look at how you can certify your data to help prove its quality.</p><p>In this module you will learn:</p><ul><li>How standard structures can make your data more useful and consistent</li><li>How to find and use common schemas for your datasets</li><li>How to develop your own schema if none is available</li><li>How to certify the quality of your data</li></ul></p><p>This module also provides useful links to supporting documents and services that can help save time in your publication.</p>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
@@ -92,7 +92,7 @@
         "_layout":"left",
         "title":"Why do standards matter?",
         "displayTitle":"Why do standards matter?",
-        "body":"<p>Open data needs to be simple for anyone to use, whether for a new app, scrutiny, analytics and research or just to gain a deeper understanding of the subject.</p><p>The greatest use comes when the same type of data is <b>consistent</b> across different publishers. An application that tells you where local toilets are should be able to work everywhere, not just in one town. Consistency is also important because it allows you to combine and compare your data with that of other authorities for internal use or sharing of data.</p><p>For publishers in local authorities, making data available in a consistent format is the best way to make your open data useful both internally and to others.</p>"
+        "body":"<p>Open data needs to be simple for anyone to use, whether for a new app, scrutiny, analytics and research or just to gain a deeper understanding of the subject.</p><p>The greatest use comes when the same type of data is <b>consistent</b> across different publishers. An application that tells you where local toilets are should be able to work everywhere, not just in one town. Consistency is also important because it allows you to combine and compare your data with that of other authorities for internal use or sharing of data.</p><p>For publishers in local authorities, making data available in a consistent format is the best way to make your open data useful, both internally and to others.</p>"
     },
     {
         "_id":"c-7",
@@ -104,11 +104,11 @@
         "title": "What is the best way to structure the data consistently?",
         "displayTitle": "What is the best way to structure the data consistently?",
         "body": "<p>The structure (or schema) of the dataset is a major factor in how useful your data will be to others, as data can be more easily combined and compared if it is published in a consistent way. You can think of the structure as a set of standard and defined column headings for a dataset. Find out more below about how to decide which schema should apply to your dataset. For example, INSPIRE provides <a href='http://www.local.gov.uk/c/document_library/get_file?uuid=ba19b779-eb8d-404c-af07-25ecd921aed9' target='_blank'>European-standard schemas</a> for geospatial data in the environment</p>",
-        "instruction": "<em class='desktop-instruction'>Click the forward arrow for more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
+        "instruction": "<em class='desktop-instruction'>Click the forward arrow for more</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more</em>",
         "_items": [
             {
                 "title": "What are the benefits of schemas",
-                "body": "<p>Schemas help your publishing in two ways. First, a schema helps people combine or compare your data with the same type of data from other publishers for use in their apps or analytics. Second, the schema saves you time and money when getting the data ready for publishing as you can use an already existing schema.</p><p>The schema gives people simple access to national services. The <a href='http://greatbritishpublictoiletmap.rca.ac.uk/' target='_blank'>Great British Public Toilet Map</a> is a perfect example. The only way a service like this can deliver a national picture of public conveniences is if all the local authorities publish their data to a <a href='http://schemas.opendata.esd.org.uk/PublicToilets' target='_blank'>consistent schema.</a> The map not only helps to make the experience of finding public conveniences less stressful, it also helps to surface the opportunities for <a href='http://www.theguardian.com/uk-news/2014/nov/19/uk-public-toilets-mapped-wheres-your-nearest' target='_blank'>greater collaboration between businesses and local authorities.</a></p>",
+                "body": "<p>Schemas help your publishing in two ways. First, a schema helps people combine or compare their data with the same type of data from other publishers for use in their apps or analytics. Second, the schema saves you time and money when getting the data ready for publishing, as you can use a schema that already exists.</p><p>The schema gives people simple access to national services. The <a href='http://greatbritishpublictoiletmap.rca.ac.uk/' target='_blank'>Great British Public Toilet Map</a> is a perfect example. The only way a service like this can deliver a national picture of public conveniences is if all the local authorities publish their data to a <a href='http://schemas.opendata.esd.org.uk/PublicToilets' target='_blank'>consistent schema.</a> The map not only helps to make the experience of finding public conveniences less stressful, it also helps to surface the opportunities for <a href='http://www.theguardian.com/uk-news/2014/nov/19/uk-public-toilets-mapped-wheres-your-nearest' target='_blank'>greater collaboration between businesses and local authorities.</a></p>",
                 "_graphic": {
                     "src": "course/en/images/toilets.jpg",
                     "alt": "Benefits of schemas",
@@ -121,7 +121,7 @@
             },
            {
                 "title": "Using an existing schema",
-                "body": "<p>The best choice for the structure of your dataset is an existing standard schema. Using a standard schema ensures your data can be instantly combined with that of other publishers. The LGA keeps a library of popular schemas that the LGA encourages all local government data publishers to use.</p><p>By using a standard schema, your open data can be combined with other authorities' releases to build up regional and national overviews.</p><p>Using the standard schemas is simple. Just find the right schema for your dataset, rename your colunm headings to match and save the result. Under the practical guidance section of this module you will find detailed instructions on using LG standard schemas.</p>",
+                "body": "<p>The best choice for the structure of your dataset is an existing standard schema. Using a standard schema ensures your data can be instantly combined with that of other publishers. The LGA keeps a library of popular schemas that the LGA encourages all local government data publishers to use.</p><p>By using a standard schema, your open data can be combined with other authorities' releases to build up regional and national overviews.</p><p>Using the standard schemas is simple: just find the right schema for your dataset, rename your colunm headings to match and save the result. Under the practical guidance section of this module you will find detailed instructions on using LG standard schemas.</p>",
                 "_graphic": {
                     "src": "course/en/images/odi-2.jpg",
                     "alt": "Existing schemas",
@@ -134,7 +134,7 @@
             },
             {
                 "title": "Creating a new schema",
-                "body": "<p>No common schema for the dataset you are publishing? Before just creating a new one, why not see if there is already some consensus amoung an existing community of users somewhere (use your favorite search engine). You might need to contribute a new schema but there may be an opportunity to get the community to help! A good place to start is <a href='http://i-network.org.uk/legsb-3/' target='_blank'>iStandUK</a>, an active community of local government experts who can support development of a new schema.</p>",
+                "body": "<p>No common schema for the dataset you are publishing? Before creating a new one, why not see if there is already some consensus amoung an existing community of users somewhere (use your favorite search engine). You might need to contribute a new schema but there may be an opportunity to get the community to help. A good place to start is <a href='http://i-network.org.uk/legsb-3/' target='_blank'>iStandUK</a>, an active community of local government experts who can support the development of a new schema.</p>",
                 "_graphic": {
                     "src": "course/en/images/odi-3.jpg",
                     "alt": "Creating a new schema",
@@ -156,10 +156,10 @@
         "_type":"component",
         "_layout": "full",
         "_component": "dynamic-narrative",
-        "title": "How to publish your dataset: Choosing the right schema",
-        "displayTitle": "How to publish your dataset: Choosing the right schema",
+        "title": "How to publish your dataset: choosing the right schema",
+        "displayTitle": "How to publish your dataset: choosing the right schema",
         "body": "<p>Consistent publication brings a range of benefits for local authorities.</p>",
-        "instruction": "<em class='desktop-instruction'>Click the forward arrow for more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
+        "instruction": "<em class='desktop-instruction'>Click the forward arrow for more</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more</em>",
         "_items": [
             {
                 "title": "Core open data schemas",
@@ -176,7 +176,7 @@
             },
             {
                 "title": "Community open data schemas",
-                "body": "<p>If the dataset you are publishing is not covered by one of the core schemas referenced by LGA, you may be able to find a common schema from other local authorities in the community. For certain types of data, common schemas are published by other communities such as the open data community <a href='https://github.com/inspire-eu-validation' target='_blank'>Github INSPIRE</a> for geospatial environmental data and <a href='https://www.geoplace.co.uk/documents/10181/138013/BS7666%20explained' target='_blank'>BS7666</a> for address and land use. In addition, the LGA schema directory keeps track of over 640 schemas from local authorities across the UK. Simply search the directory for the type of data you plan to publish and it will show you the common schemas that match.<br><a href='http://schemas.opendata.esd.org.uk/' target='_blank'>Take me to the LGA community schema directory</a><br>If the dataset you are publishing isn't covered by any of those in the community, it may be necessary to create your own schema. However there are still some guidelines that can help you create a good one. Scroll right to find these guidelines.</p>",
+                "body": "<p>If the dataset you are publishing is not covered by one of the core schemas referenced by LGA, you may be able to find a common schema from other local authorities in the community. For certain types of data, common schemas are published by other communities, such as the open data community <a href='https://github.com/inspire-eu-validation' target='_blank'>Github INSPIRE</a> for geospatial environmental data and <a href='https://www.geoplace.co.uk/documents/10181/138013/BS7666%20explained' target='_blank'>BS7666</a> for address and land use. In addition, the LGA schema directory keeps track of over 640 schemas from local authorities across the UK. Simply search the directory for the type of data you plan to publish, and it will show you the common schemas that match.<br><a href='http://schemas.opendata.esd.org.uk/' target='_blank'>Take me to the LGA community schema directory</a><br>If the dataset you are publishing isn't covered by any of those in the community, it may be necessary to create your own schema. However there are some guidelines that can help you create a good one – scroll right to find them.</p>",
                 "_graphic": {
                     "src": "course/en/images/sch2.jpg",
                     "alt": "Community schemas",
@@ -189,7 +189,7 @@
             },
             {
                 "title": "Creating a new schema",
-                "body": "<p>You may want to create a new schema if there is no existing one in the LGA directory that matches your dataset and you cannot find one from another community. If you need to create a new schema, make sure that it is as simple as possible, links to and references common URI, such as local authority name, services, unique reference numbers (see module 2 for more information) and that you submit the results back to the <a href='http://schemas.opendata.esd.org.uk/' target='_blank'>LGA community schema directory</a>.</p>",
+                "body": "<p>You may want to create a new schema if there is none exists in the LGA directory that matches your dataset and you cannot find one from another community. If you need to create a new schema, make sure that it is as simple as possible, links to and references common URI – such as local authority name, services, unique reference numbers (see module 2 for more information) – and that you submit the results back to the <a href='http://schemas.opendata.esd.org.uk/' target='_blank'>LGA community schema directory</a>.</p>",
                 "_graphic": {
                     "src": "course/en/images/sch3.jpg",
                     "alt": "Create your own schema",
@@ -232,23 +232,23 @@
       "_layout":"left",
       "title": "Harnessing the power of links",
       "displayTitle": "Harnessing the power of links",
-      "body": "<p>Linked data is a type of open dataset that enables specific data points to be joined up with other related data. The simplest example of linked data is a Wikipedia page where you can click on individual words to access related information about them. Linked data works by using a common link called a uniform resource identifier (URI). Using URIs helps data consumers to data into context.  </p>",
+      "body": "<p>Linked data is a type of open dataset that enables specific data points to be joined up with other related data. The simplest example of linked data is a Wikipedia page where you can click on individual words to access related information about them. Linked data works by using a common link called a Uniform Resource Identifier (URI). Using URIs helps data consumers to put data into context.  </p>",
       "instruction": "",
       "_items": [
         {
           "alt": "Why links are important",
           "title": "Why links are important",
-          "body": "<p>Links enable humans and machines to navigate between data sources on the Web.</p><p>Linking data points directly to one another allows you to direct the person or machine to a definitive record on that subject, rather than each person maintaining their own record of the data. Linked data functions like an official website by providing everyone with an authoritative resource on the subject. Linked data also saves everyone from duplicating data by sharing a single resource among an infinite number of datasets, using URIs.</p>"
+          "body": "<p>Links enable humans and machines to navigate between data sources on the web.</p><p>Linking data points directly to one another allows you to direct a person or machine to a definitive record on that subject, rather than each person maintaining their own record of the data. Linked data functions like an official website by providing everyone with an authoritative resource on the subject. Linked data also saves everyone from duplicating data by sharing a single resource among an infinite number of datasets, using URIs.</p>"
         },
         {
           "alt": "Finding the right URIs for linking data",
           "title": "Finding the right URIs for linking data",
-          "body": "<p>For a local authority, there are several authorities that can be used to find links for your data. The best one to choose is the <a href='http://uris.opendata.esd.org.uk/' target='_blank'>LG Inform Plus URI lookup tool</a> which provides a search for different types of link. Other good soruces of URIs include the <a href='http://opendatacommunities.org/data/local-authorities' target='_blank'>DCLG Open Data Communities list for local authority codes</a>, <a href='http://tinyurl.com/onsgeog' target='_blank'>ONS identifiers for statistical geographies</a> and Local Government Electronic Service Delivery (ESD) lists for <a href=' http://id.esd.org.uk/list/functions' target='_blank'>functions</a> and <a href='http://id.esd.org.uk/list/services' target='_blank'>services</a>.</p>"
+          "body": "<p>For a local authority, there are several authorities that can be used to find links for your data. The best one to choose is the <a href='http://uris.opendata.esd.org.uk/' target='_blank'>LG Inform Plus URI lookup tool</a>, which provides a search for different types of link. Other good soruces of URIs include the <a href='http://opendatacommunities.org/data/local-authorities' target='_blank'>DCLG Open Data Communities list for local authority codes</a>, <a href='http://tinyurl.com/onsgeog' target='_blank'>ONS identifiers for statistical geographies</a> and Local Government Electronic Service Delivery (ESD) lists for <a href=' http://id.esd.org.uk/list/functions' target='_blank'>functions</a> and <a href='http://id.esd.org.uk/list/services' target='_blank'>services</a>.</p>"
         },
         {
           "alt": "An example of linking data",
           "title": "An example of linking data",
-          "body": "<p>Example - A database of buildings owned by an authroity will often have Postcodes/Zip codes against each building in the data records:<br/><br><b>Building number</b>: 32<br><b>Postcode</b>: SO17 1BJ<br><b>Ward</b>: Postwood<br><b>District</b>: City of Southampton<br/><br>With linked data we have no need to replicate data – like <b>ward</b> and <b>district</b> – that are manged by seperate authorioties. Therefore, the record becomes:<br><br><b>Building number</b>: 32<br><b>Postcode</b>: <a href='http://data.ordnancesurvey.co.uk/id/postcodeunit/SO171BJ' style='word-wrap: break-word;' target='_blank'>http://data.ordnancesurvey.co.uk/id/postcodeunit/SO171BJ</a></p>"
+          "body": "<p>Example – a database of buildings owned by an authroity will often have Postcodes/Zip codes against each building in the data records:<br/><br><b>Building number</b>: 32<br><b>Postcode</b>: SO17 1BJ<br><b>Ward</b>: Postwood<br><b>District</b>: City of Southampton<br/><br>With linked data we have no need to replicate data – like <b>ward</b> and <b>district</b> – that are manged by seperate authorioties. Therefore, the record becomes:<br><br><b>Building number</b>: 32<br><b>Postcode</b>: <a href='http://data.ordnancesurvey.co.uk/id/postcodeunit/SO171BJ' style='word-wrap: break-word;' target='_blank'>http://data.ordnancesurvey.co.uk/id/postcodeunit/SO171BJ</a></p>"
         }
       ],
       "_pageLevelProgress": {
@@ -311,7 +311,7 @@
         "_layout":"left",
         "title":"Certifying your data",
         "displayTitle":"Certifying your data",
-        "body":"<p>There are lots of data out there, much of it messy or difficult to use. ODI Open Data Certificates is a free online tool developed to assess and recognise the quality of open datasets and let users know that any dataset with a certificate meets certain quality criteria. The certificates are an independent quality marque designed to support open data publishers in acheiving professional results. The LGA encourage data publishers in local government to make use of ODI Open Data Certificates to reassure data consumers about the data provenance and future sustainability.</p><h5>Open Data Certificates provide publishers with a range of benefits including:</h5><ul class='ticks'><li>Formal recognition of your data quality</li><li>A much broader user base</li><li>Automatic trust in the quality and usability of your data</li><li>Instant, simple compliance with the best publishing practices</li><li>Free advice on improving the quality of your data</li></p>"
+        "body":"<p>There it a lot of data out there, much of it messy or difficult to use. ODI Open Data Certificate is a free online tool developed to assess and recognise the quality of open datasets and let users know that any dataset with a certificate meets certain quality criteria. The certificates are an independent quality marque designed to support open data publishers in acheiving professional results. The LGA encourage data publishers in local government to make use of ODI Open Data Certificates to reassure data consumers about the data provenance and future sustainability.</p><h5>Open Data Certificates provide publishers with a range of benefits including:</h5><ul class='ticks'><li>Formal recognition of your data quality</li><li>A much broader user base</li><li>Automatic trust in the quality and usability of your data</li><li>Instant, simple compliance with the best publishing practices</li><li>Free advice on improving the quality of your data</li></p>"
     },
     {
         "_id":"c-10",
@@ -323,11 +323,11 @@
         "title": "What do Open Data Certificates look for?",
         "displayTitle": "What do Open Data Certificates look for?",
         "body": "<p>ODI Open Data Certificates consider the legal, practical, technical and social requirements for an open dataset to be useful.</p>",
-        "instruction": "<em class='desktop-instruction'>Click the forward arrow for more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
+        "instruction": "<em class='desktop-instruction'>Click the forward arrow for more</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more</em>",
         "_items": [
            {
                 "title": "Legal requirements",
-                "body": "<p>In addition to the open licence, there are three legal requirements that need to be considered. You must:</p><p><ul><li>Protect sensitive information like personal data.</li><li>Preserve the rights of data owners.</li><li>Promote correct use of the data.</li></ul></p>",
+                "body": "<p>In addition to the open licence, there are three legal requirements that need to be considered. You must:</p><p><ul><li>Protect sensitive information like personal data</li><li>Preserve the rights of data owners</li><li>Promote correct use of the data</li></ul></p>",
                 "_graphic": {
                     "src": "course/en/images/leg.jpg",
                     "alt": "Legal",
@@ -340,7 +340,7 @@
             },
             {
                 "title": "Practical requirements",
-                "body": "<p>It is important that open data can be found and relied upon by users.</p><p>This means that open data publishers must:</p><p><ul><li>Link to the data from their website.</li><li>Update the data regularly if it changes.</li><li>Commit to continue to make the data available.</li></ul></p>",
+                "body": "<p>It is important that open data can be found and relied upon by users.</p><p>This means that open data publishers must:</p><p><ul><li>Link to the data from their website</li><li>Update the data regularly if it changes</li><li>Commit to continue to make the data available</li></ul></p>",
                 "_graphic": {
                     "src": "course/en/images/prac.jpg",
                     "alt": "Practical",
@@ -353,7 +353,7 @@
             },
             {
                 "title": "Technical requirements",
-                "body": "<p>There are three recommendations that define the technical aspects of open data:</p><p><ul><li>The format in which the data is published.</li><li>The structure of the data.</li><li>The channels through which the data is available.</li></ul></p>",
+                "body": "<p>There are three recommendations that define the technical aspects of open data:</p><p><ul><li>The format in which the data is published</li><li>The structure of the data</li><li>The channels through which the data is available</li></ul></p>",
                 "_graphic": {
                     "src": "course/en/images/odi-4.jpg",
                     "alt": "Technical",
@@ -366,7 +366,7 @@
             },
             {
                 "title": "Social requirements",
-                "body": "<p>For data use to be sustainable, it is important to have an engaged community of users. The best datasets have:</p><p><ul><li>Active support channels.</li><li>Discussion groups and forums.</li><li>Published how-to guides on working with the data.</li></ul></p>",
+                "body": "<p>For data use to be sustainable, it is important to have an engaged community of users. The best datasets have:</p><p><ul><li>Active support channels</li><li>Discussion groups and forums</li><li>Published how-to guides on working with the data</li></ul></p>",
                 "_graphic": {
                     "src": "course/en/images/odi-5.jpg",
                     "alt": "Social",
@@ -407,9 +407,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"How to publish your dataset: Adding the certificate",
-        "displayTitle":"How to publish your dataset: Adding the certificate",
-        "body":"<p>With your dataset published, you need to let users know they can rely on the quality of your work by certifying your results through an ODI Certificate.</p><p>Getting your Open Data Certificate is simple. First, you complete a short questionnaire to assess the level of support you provide for the data. Depending on the answers, the ODI awards a badge that can be embedded on your website to signify the quality level of your publication.</p><p>If you are publishing your data in a machine readable way (for example, by using a data portal like CKAN), the site can pre-fill many of the certificate questions. Just enter the URL on the first page to get started.<br/><br/><a href='https://certificates.theodi.org/en' target='_blank'>Take me to the ODI Open Data Certificates Site</a></p>"
+        "title":"How to publish your dataset: adding the certificate",
+        "displayTitle":"How to publish your dataset: adding the certificate",
+        "body":"<p>With your dataset published, you need to let users know they can rely on the quality of your work by certifying your results through an Open Data Certificate.</p><p>Getting your Open Data Certificate is simple: first, you complete a short questionnaire to assess the level of support you provide for the data. Depending on the answers, the ODI awards a badge that can be embedded on your website to signify the quality level of your publication.</p><p>If you are publishing your data in a machine-readable way (for example, by using a data portal like CKAN), the site can pre-fill many of the certificate questions. Just enter the URL on the first page to get started.<br/><br/><a href='https://certificates.theodi.org/en' target='_blank'>Take me to the ODI Open Data Certificate site</a></p>"
     },
     {
         "_id":"c-16",
@@ -447,14 +447,14 @@
         "_type":"component",
         "_layout": "full",
         "_component": "dynamic-narrative",
-        "title": "The benefits of publishing to standard schemas: Local authority examples",
-        "displayTitle": "The benefits of publishing to standard schemas: Local authority examples",
+        "title": "The benefits of publishing to standard schemas: local authority examples",
+        "displayTitle": "The benefits of publishing to standard schemas: local authority examples",
         "body": "<p>Publishing against standard schemas can save your authority time and money. The results can also make your data more attractive to developers and other users. The following examples show how some authorities around the UK are already using standard schemas to their advantage.</p>",
-        "instruction": "<em class='desktop-instruction'>Click the forward arrow for more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
+        "instruction": "<em class='desktop-instruction'>Click the forward arrow for more</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more</em>",
         "_items": [
            {
                 "title": "Starting small: Colchester Borough Council",
-                "body": "<p>When Colchester Borough Council came to publish open data under the transparency code they were faced with a choice. The council could either spend time and resources developing their own schemas or use an existing one. Calling upon the online open data resources assembled by the LGA,  Colchester was able to access the full range of schemas for transparency code datasets, ensuring their results would be clean, simple and compatible with the data of neighbouring authorities.<br><a href='http://www.colchester.gov.uk/councildata' target='_blank'>Take me to Colchester data site.</a></p>",
+                "body": "<p>When Colchester Borough Council came to publish open data under the transparency code they were faced with a choice. The council could either spend time and resources developing its own schemas or use an existing one. Calling upon the online open data resources assembled by the LGA,  Colchester was able to access the full range of schemas for transparency code datasets, ensuring its results would be clean, simple and compatible with the data of neighbouring authorities.<br><a href='http://www.colchester.gov.uk/councildata' target='_blank'>Take me to Colchester data site</a></p>",
                 "_graphic": {
                     "src": "course/en/images/colchester.jpg",
                     "alt": "Colchester",
@@ -467,7 +467,7 @@
             },
             {
                 "title": "Combining planning data: Surrey District Councils",
-                "body": "<p>Surrey Heath District Council receives more than 11,500 planning downloads every month, in neighbouring Reigate the number is even higher. Yet people searching for applications in Surrey had to browse 12 different council websites, each with its own challenges. Surrey found that there was no schema for planning data - so they created one in collaboration with Hampshire County Council. They shared their schema openly. Now 12 local authorities publish their data using the schema and provide everyone in Surrey with planning applications through a single, simple portal. Even better, anyone can take the schema and save time on their own publication of planning data.<br><a href='https://www.youtube.com/watch?v=-Ku9qQk4IGE' target='_blank'>Take me to the Surrey Heath case study video</a></p>",
+                "body": "<p>Surrey Heath District Council receives more than 11,500 planning downloads every month, in neighbouring Reigate the number is even higher. Yet people searching for applications in Surrey had to browse 12 different council websites, each with its own challenges. Surrey found that there was no schema for planning data, so it created one in collaboration with Hampshire County Council. They shared their schema openly, and now 12 local authorities publish their data using the schema and provide everyone in Surrey with planning applications through a simple, single portal. Even better, anyone can take the schema and save time on their own publication of planning data.<br><a href='https://www.youtube.com/watch?v=-Ku9qQk4IGE' target='_blank'>Take me to the Surrey Heath case study video</a></p>",
                 "_graphic": {
                     "src": "course/en/images/surrey.jpg",
                     "alt": "Surrey",
@@ -480,7 +480,7 @@
             },
             {
                 "title": "Building on others: Hampshire County Council",
-                "body": "<p>Hampshire County Council published planning data harvested from districts according to a common schema. They developed the schema in collaboration with districts, the LGA and iStandUK. Like Surrey, Hampshire built upon a shared foundation to bring planning applications from the districts together. The result was a visual tool, developed by MySociety, which allows users to interactively search and find planning applications across Hampshire.<br><a href='http://hampshire-planning.staging.mysociety.org/' target='_blank'>Take me to the Hampshire planning explorer</a></p>",
+                "body": "<p>Hampshire County Council published planning data harvested from districts according to a common schema. It developed the schema in collaboration with districts, the LGA and iStandUK. Like Surrey, Hampshire built upon a shared foundation to bring planning applications from the districts together. The result was a visual tool, developed by MySociety, which allows users to interactively search and find planning applications across Hampshire.<br><a href='http://hampshire-planning.staging.mysociety.org/' target='_blank'>Take me to the Hampshire planning explorer</a></p>",
                 "_graphic": {
                     "src": "course/en/images/hampshire.png",
                     "alt": "Hampshire",
@@ -492,8 +492,8 @@
                 "strapline": "Hampshire"
             },
             {
-                "title": "Contributing to the Community: York City Council",
-                "body": "<p>York City Council found a number of the datasets they were publishing fell outside the standard schemas LGA provided. Wishing to save others the time and money of developing new ones, York opened up their collection of more than 70 dataset schemas for anyone to replicate. The result has been broader adoption of York schemas by other authorities, increasing the compatibility of York data and cementing their position as an open data leader.<br><a href='https://data.yorkopendata.org/dataset/schemas' target='_blank'>Take me to the York schemas page</a></p>",
+                "title": "Contributing to the community: York City Council",
+                "body": "<p>York City Council found a number of the datasets they were publishing fell outside the standard schemas LGA provided. Wishing to save others the time and money of developing new ones, York opened up their collection of more than 70 dataset schemas for anyone to replicate. The result has been broader adoption of York schemas by other authorities, increasing the compatibility of York data and cementing its position as an open data leader.<br><a href='https://data.yorkopendata.org/dataset/schemas' target='_blank'>Take me to the York schemas page</a></p>",
                 "_graphic": {
                     "src": "course/en/images/york.jpg",
                     "alt": "Social",
@@ -576,30 +576,30 @@
         "title": "Benefits of consistent standards",
         "displayTitle": "Benefits of consistent standards",
         "body": "<p>Which of the following is a benefit of publishing to consistent standards?</p>",
-        "instruction": "<em>Select an option, then click 'Submit'.</em>",
+        "instruction": "<em>Choose an answer, then click 'Submit'</em>",
         "_items": [
             {
-                "text": "Easier to manage staff",
+                "text": "It's easier to manage staff",
                 "_shouldBeSelected": false
             },
             {
-                "text": "Easier to share data between departments",
+                "text": "It's easier to share data between departments",
                 "_shouldBeSelected": true
             },
             {
-                "text": "Easier to run payroll",
+                "text": "It's easier to run payroll",
                 "_shouldBeSelected": false
             }
         ],
         "_feedback":{
             "correct":"<h5>That’s right!</h5><p>Publishing open data in a consistent format makes it simple for people to get the data they need without contacting different departments.</p>",
             "_incorrect": {
-                "notFinal": "h5>Are you sure about that?</h5><p>That’s right!</h5><p>Publishing open data in a consistent format makes it simple for people to get the data they need without contacting different departments.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>That’s right!</h5><p>Publishing open data in a consistent format makes it simple for people to get the data they need without contacting different departments.</p>"
+                "notFinal": "h5>Are you sure about that?</h5><p>Publishing open data in a consistent format makes it simple for people to get the data they need without contacting different departments.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>Publishing open data in a consistent format makes it simple for people to get the data they need without contacting different departments.</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>That’s right!</h5><p>Publishing open data in a consistent format makes it simple for people to get the data they need without contacting different departments.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>That’s right!</h5><p>Publishing open data in a consistent format makes it simple for people to get the data they need without contacting different departments.</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>Publishing open data in a consistent format makes it simple for people to get the data they need without contacting different departments.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>Publishing open data in a consistent format makes it simple for people to get the data they need without contacting different departments.</p>"
           }
         },
         "_buttons":{
@@ -644,14 +644,14 @@
         "title": "Finding schemas",
         "displayTitle": "Finding schemas",
         "body": "<p>Which of the following is a good place to find community schemas for local government?</p>",
-        "instruction": "<em>Select an option, then click 'Submit'.</em>",
+        "instruction": "<em>Choose an answer, then click 'Submit'</em>",
         "_items": [
             {
                 "text": "Data.gov.uk",
                 "_shouldBeSelected": false
             },
             {
-                "text": "Cabinet Office Website",
+                "text": "Cabinet Office website",
                 "_shouldBeSelected": false
             },
             {
@@ -712,7 +712,7 @@
         "title": "Certifying your dataset",
         "displayTitle": "Certifying your dataset",
         "body": "<p>When publishing your dataset, what certificate does LGA recommend you apply to the dataset?</p>",
-        "instruction": "<em>Select an option, then click 'Submit'.</em>",
+        "instruction": "<em>Choose an answer, then click 'Submit'</em>",
         "_items": [
             {
                 "text": "The UK Government Data Badge",
@@ -728,14 +728,14 @@
             }
         ],
         "_feedback":{
-            "correct":"<h5>That’s right!</h5><p>LGA reccomends using the ODI Open Data Certificate to signify the quality and usability of your datasets</p>",
+            "correct":"<h5>That’s right!</h5><p>LGA reccomends using the ODI Open Data Certificate to signify the quality and usability of your datasets.</p>",
             "_incorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>LGA reccomends using the ODI Open Data Certificate to signify the quality and usability of your datasets</p>",
-                "final": "<h5>Are you sure about that?</h5><p>LGA reccomends using the ODI Open Data Certificate to signify the quality and usability of your datasets</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>LGA reccomends using the ODI Open Data Certificate to signify the quality and usability of your datasets.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>LGA reccomends using the ODI Open Data Certificate to signify the quality and usability of your datasets.</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>LGA reccomends using the ODI Open Data Certificate to signify the quality and usability of your datasets</p>",
-                "final": "<h5>Are you sure about that?</h5><p>LGA reccomends using the ODI Open Data Certificate to signify the quality and usability of your datasets</p>"
+                "notFinal": "<h5>Are you sure about that?</h5><p>LGA reccomends using the ODI Open Data Certificate to signify the quality and usability of your datasets.</p>",
+                "final": "<h5>Are you sure about that?</h5><p>LGA reccomends using the ODI Open Data Certificate to signify the quality and usability of your datasets.</p>"
           }
         },
         "_buttons":{
@@ -780,18 +780,18 @@
         "title": "Technical considerations",
         "displayTitle": "Technical considerations",
         "body": "<p>There are three technical considerations as part of the standards for publishing open data, one of which is...</p>",
-        "instruction": "<em>Select an option, then click 'Submit'.</em>",
+        "instruction": "<em>Choose an answer, then click 'Submit'</em>",
         "_items": [
             {
-                "text": "What format the open data is published in.",
+                "text": "What format the open data is published in",
                 "_shouldBeSelected": true
             },
             {
-                "text": "Whether it can it be used on a computer.",
+                "text": "Whether it can it be used on a computer",
                 "_shouldBeSelected": false
             },
             {
-                "text": "Whether it takes up much bandwidth.",
+                "text": "Whether it takes up much bandwidth",
                 "_shouldBeSelected": false
             }
         ],
@@ -881,6 +881,6 @@
         "_component":"text",
         "_classes":"social-buttons",
         "_layout":"right",
-        "body":"<p>Content developed by the <a href='http://theodi.org' target='_blank'>Open Data Institute</a> in collaboration with the <a href='http://www.local.gov.uk/' target='_blank'>Local Government Authority</a>.</p>"
+        "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/en/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/en/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/en/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/en/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/en/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/en/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/en/images/social/flickr.png'></a>"
     }
 ]
