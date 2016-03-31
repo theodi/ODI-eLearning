@@ -7,20 +7,8 @@ then
 	exit
 fi
 
-echo "Changing colors for lite version of app"
-echo ""
-sed -i -e "s/ed39aa/00b7ff/g" src/theme/default/less/buttons.less
-sed -i -e "s/ed39aa/00b7ff/g" src/theme/default/less/save.less
-sed -i -e "s/Pink/Blue/g" src/theme/default/templates/navigation.hbs
-
 for i in `seq 1 13`;
 do
 	./bin/build-odi-cordova-lite module$i $1
 done
 ./bin/build-odi-nav-cordova $1
-
-echo "Reverting color changes"
-echo ""
-sed -i -e "s/00b7ff/ed39aa/g" src/theme/default/less/buttons.less
-sed -i -e "s/00b7ff/ed39aa/g" src/theme/default/less/save.less
-sed -i -e "s/Blue/Pink/g" src/theme/default/templates/navigation.hbs
