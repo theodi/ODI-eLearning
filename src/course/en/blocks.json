@@ -14,7 +14,7 @@
         "_id": "b-20",
         "_parentId": "a-01",
         "_type": "block",
-        "_classes": "inverted",
+        "_classes": "inverted section-banner",
         "_trackingId": 1,
         "_trickle": {
             "_isEnabled":false,
@@ -36,7 +36,7 @@
         "_id": "b-30",
         "_parentId": "a-01",
         "_type": "block",
-        "_classes": "inverted section-banner",
+        "_classes": "inverted",
         "_trackingId": 3,
         "_trickle": {
             "_isEnabled":false,
@@ -91,7 +91,7 @@
         "_id": "b-55",
         "_parentId": "a-01",
         "_type": "block",
-        "_classes": "",
+        "_classes": "section-banner",
         "_trackingId": 8,
         "_trickle": {
             "_isEnabled":false,
@@ -102,7 +102,7 @@
         "_id": "b-60",
         "_parentId": "a-01",
         "_type": "block",
-        "_classes": "inverted section-banner",
+        "_classes": "inverted",
         "_trackingId": 9,
         "_trickle": {
             "_isEnabled":false,
@@ -124,7 +124,7 @@
         "_id": "b-65",
         "_parentId": "a-01",
         "_type": "block",
-        "_classes": "inverted",
+        "_classes": "inverted section-banner",
         "_trackingId": 11,
         "_trickle": {
             "_isEnabled":false,
@@ -135,7 +135,7 @@
         "_id": "b-70",
         "_parentId": "a-01",
         "_type": "block",
-        "_classes": "section-banner",
+        "_classes": "",
         "_trackingId": 12,
         "_trickle": {
             "_isEnabled":false,
@@ -159,17 +159,6 @@
         "_type": "block",
         "_classes": "",
         "_trackingId": 14,
-        "_trickle": {
-            "_isEnabled":false,
-            "button": "Continue"
-        }
-    },
-    {
-        "_id": "b-85",
-        "_parentId": "a-01",
-        "_type": "block",
-        "_classes": "inverted",
-        "_trackingId": 15,
         "_trickle": {
             "_isEnabled":false,
             "button": "Continue"

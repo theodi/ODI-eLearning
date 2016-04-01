@@ -19,19 +19,36 @@
         }
     },
     {
-        "_id":"c-11",
-        "_parentId":"b-10",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"",
-        "_layout":"left",
-        "title":"Open Data in Practice Day 1 - Practical Publication",
-        "displayTitle":"Open Data in Practice Day 1 - Practical Publication",
-        "body":"<p>Welcome to the first session of Open Data in Practice. This course is your complete introduction to the practical skills of open data. Day 1 examines practical approaches to the publication of open data. To get started, look at the course overview below.</p>",
-        "instruction":"",
-        "_pageLevelProgress": {
-            "_isEnabled": true
+      "_id":"c-11",
+      "_parentId":"b-10",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"right",
+      "title": "Open data in practice: Practical publication",
+      "displayTitle": "Open data in practice: Practical publication",
+      "body": "<p>Practical publication is all about getting data out there for everyone. This course looks at how to maximise the usability of open data and how the charecteristics of data affect design choices in publication. By the end of the course, participants will have gained experience with using and publishing different types of data and even published a dataset themselves.</p>",
+      "instruction": "<em>The sessions of the course are briefly described below.</em>",
+      "_items": [
+        { 
+          "alt": "Characteristics of open data",
+          "title": "Characteristics of open data",
+          "body": "<p>The session explores key definitions of open data and useful guidelines to help publish usable data.</p><p>The session also examines types of open data and examines how the open data ecosystem has evolved to accomodate each type.</p>"
+        },
+        {
+          "alt": "Open data discovery patterns",
+          "title": "Open data discovery patterns",
+          "body": "<p>This session looks and how and where people find open data online. Understanding how people discover data is a key component of good publication and allows you to make your data more visible to users.</p><p>The session also explores different types of open data feed and looks at when it is appropriate to use them.</p>"
+        },
+        {
+          "alt": "Open data publication",
+          "title": "Open data publication",
+          "body": "<p>Making your open data available online can be a tricky process. To make it easier, a number of software platforms exist that simplify the process and save you time. This session looks at the evolution of software platforms before getting hands on with data publication.</p>"
         }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
     },
     {
         "_id":"c-20",
@@ -39,54 +56,33 @@
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
-        "_layout":"left",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
         "_graphic": {
-            "alt": "Course Overview",
-            "title": "Course Overview",
-            "large": "course/en/images/summary-icon.png",
-            "medium": "course/en/images/summary-icon.png",
-            "small": "course/en/images/summary-icon.png",
-            "*source":"http://www.shutterstock.com/pic-278179001.html",
-            "*credit":"Eugene Sergeev",
-            "*license":"Shutterstock Standard License"
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/burst-white.png",
+            "medium": "course/en/images/burst-white.png",
+            "small": "course/en/images/burst-white.png"
         }
     },
     {
-      "_id":"c-21",
-      "_parentId":"b-20",
-      "_type":"component",
-      "_component":"accordion",
-      "_classes":"",
-      "_layout":"right",
-      "title": "Course overview",
-      "displayTitle": "Course overview",
-      "body": "<p>The first day is split into three key sessions. The first session explores definitions of open data and key characteristics, the second takes a closer look at data publishing platforms and the last will get participants hands-on with publication.</p>",
-      "instruction": "<em>The sessions are briefly described below.</em>",
-      "_items": [
-        {
-          "alt": "Characteristics of Data",
-          "title": "Characteristics of data",
-          "body": "<p>The session explores key definitions of open data.</p><p>The session also examines types of data to determine their uses.</p>"
-        },
-        {
-          "alt": "Data discovery patterns",
-          "title": "Data discovery patterns",
-          "body": "<p>This session looks and how and where people find data online. Understanding how people discover data is a key component of good publication and allows you to make your data more visible to users.</p><p>The session also explores different types of open data feed and looks at when it is appropriate to use them.</p>"
-        },
-        {
-          "alt": "Publishing platforms",
-          "title": "Publishing platforms",
-          "body": "<p>Making your open data available online can be a tricky process. To make it easier, a number of software platforms exist that simplify the process and save you time. This session looks at some of the most popular publishing platforms.</p>"
-        },
-        {
-          "alt": "Hands-on publishing",
-          "title": "Hands-on publishing",
-          "body": "<p>This final session builds on everything you have learned throughout the day by challenging participants to publish their own dataset. The session will give participants hands-on experience of publishing and using popular data platforms.</p>"
+        "_id":"c-21",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Charecteristics of open data",
+        "displayTitle":"Charecteristics of open data",
+        "body":"<p></p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
         }
-      ],
-      "_pageLevelProgress": {
-        "_isEnabled": true
-      }
     },
     {
         "_id":"c-25",
@@ -123,40 +119,6 @@
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
-        "_layout":"right",
-        "title":"",
-        "displayTitle":"",
-        "body":"",
-        "instruction":"",
-        "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "course/en/images/burst-white.png",
-            "medium": "course/en/images/burst-white.png",
-            "small": "course/en/images/burst-white.png"
-        }
-    },
-    {
-        "_id":"c-31",
-        "_parentId":"b-30",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"",
-        "_layout":"left",
-        "title":"Challenges of Open Data and Future Developments",
-        "displayTitle":"Challenges of Open Data and Future Developments",
-        "body":"<p></p>",
-        "instruction":"",
-        "_pageLevelProgress": {
-            "_isEnabled": true
-        }
-    },
-    {
-        "_id":"c-35",
-        "_parentId":"b-35",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
         "_layout":"left",
         "_graphic": {
             "alt": "Unlocking data from the web",
@@ -170,8 +132,8 @@
         }
     },
     {
-      "_id":"c-36",
-      "_parentId":"b-35",
+      "_id":"c-31",
+      "_parentId":"b-30",
       "_type":"component",
       "_component":"accordion",
       "_classes":"",
@@ -207,8 +169,8 @@
       }
     },
     {
-        "_id":"c-40",
-        "_parentId":"b-40",
+        "_id":"c-35",
+        "_parentId":"b-35",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
@@ -225,8 +187,8 @@
         }
     },
     {
-      "_id":"c-41",
-      "_parentId":"b-40",
+      "_id":"c-36",
+      "_parentId":"b-35",
       "_type":"component",
       "_component":"accordion",
       "_classes":"",
@@ -252,8 +214,8 @@
       }
     },
     {
-        "_id": "c-45",
-        "_parentId": "b-45",
+        "_id": "c-40",
+        "_parentId": "b-40",
         "_classes": "",
         "_type":"component",
         "_layout": "full",
@@ -321,8 +283,8 @@
         }
     },
      {
-      "_id":"c-50",
-      "_parentId":"b-50",
+      "_id":"c-45",
+      "_parentId":"b-45",
       "_type":"component",
       "_component":"narrative",
       "_classes":"",
@@ -349,7 +311,7 @@
         {
           "alt": "Hierarchical",
           "title": "Hierarchical",
-          "body": "<p>Hierarchical data shows the relationships between data points, such as a family tree or municipalities in each country. If the dataset depends on the relationship between data points and follows a structure in which data points are linked in vertical ‘trees’, a hierarchical data structure in a format such as JSON is ideal. An example of appropriate hierarchical data is this JSON file for Seirra Leone's Forestry Cover<br /><br/><a href='http://africaopendata.org/dataset/sierra-leone-forestry-data' target='_blank'>Take me to the Sierra Leone Forestry Data</a></p>",
+          "body": "<p>Hierarchical data shows the relationships between data points, such as a family tree or municipalities in each country. If the dataset depends on the relationship between data points and follows a structure in which data points are linked in vertical ‘trees’, a hierarchical data structure in a format such as JSON is ideal. An example of appropriate hierarchical data is this JSON file for the global trade-tariff.<br /><br/><a href='https://www.gov.uk/trade-tariff/sections' target='_blank'>Take me to the global trade-tarriff data</a></p>",
           "_graphic": {
                     "src": "course/en/images/odi-005.jpg",
                     "alt": "Hierarchical",
@@ -380,8 +342,8 @@
       }
     },
     {
-        "_id":"c-55",
-        "_parentId":"b-55",
+        "_id":"c-50",
+        "_parentId":"b-50",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
@@ -402,8 +364,8 @@
         }
    },
    {
-      "_id":"c-56",
-      "_parentId":"b-55",
+      "_id":"c-51",
+      "_parentId":"b-50",
       "_type":"component",
       "_component":"accordion",
       "_classes":"",
@@ -429,8 +391,8 @@
       }
     },
 {
-        "_id":"c-60",
-        "_parentId":"b-60",
+        "_id":"c-55",
+        "_parentId":"b-55",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
@@ -442,14 +404,14 @@
         "_graphic": {
             "alt": "",
             "title": "",
-            "large": "course/en/images/burst-white.png",
-            "medium": "course/en/images/burst-white.png",
-            "small": "course/en/images/burst-white.png"
+            "large": "course/en/images/burst-red.png",
+            "medium": "course/en/images/burst-red.png",
+            "small": "course/en/images/burst-red.png"
         }
     },
     {
-        "_id":"c-61",
-        "_parentId":"b-60",
+        "_id":"c-56",
+        "_parentId":"b-55",
         "_type":"component",
         "_component":"text",
         "_classes":"",
@@ -463,8 +425,8 @@
         }
     },
         {
-        "_id":"c-62",
-        "_parentId":"b-62",
+        "_id":"c-60",
+        "_parentId":"b-60",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
@@ -481,8 +443,8 @@
         }
     },
     {
-      "_id":"c-63",
-      "_parentId":"b-62",
+      "_id":"c-61",
+      "_parentId":"b-60",
       "_type":"component",
       "_component":"accordion",
       "_classes":"",
@@ -495,12 +457,12 @@
         {
           "alt": "Downloadable data",
           "title": "Downloadable data",
-          "body": "<p>Many suppliers are helpful and give you human readable download links in order to obtain their data.</p><p>Explore the links below to discover more:</p><ul><li><a href='http://data.gov.uk/dataset/monthly-land-registry-property-transaction-data' target='_blank'>data.gov.uk - Land Registry Monthly Property Transaction Data</a></li><li><a href='http://manufacturingmap.nikeinc.com/#' target='_blank'>Nike - Manufacturing Map</a></li><li><a href='https://nycopendata.socrata.com/' target='_blank'>New York City Open Data</a></li></ul>"
+          "body": "<p>Many suppliers are helpful and give you human readable download links in order to obtain their data.</p><p>Explore the links below to discover more:</p><ul><li><a href='http://data.gov.uk/dataset/monthly-land-registry-property-transaction-data' target='_blank'>data.gov.uk - Land Registry Monthly Property Transaction Data</a></li><li><a href='http://www.necta.go.tz/brn2015/' target='_blank'>School ranking data in Tanzania</a></li><li><a href='https://www.opendata.go.ke/ECD-and-Primary-EDU/Enrollment-of-Primary-School-Children-By-Gender-Cl/t3xp-5ce7' target='_blank'>School enrollment data in Kenya</a></li></ul>"
         },
         {
           "alt": "Power search for data",
           "title": "Power search for data",
-          "body": "<p>Many search engines, including google, give you the ability to use advanced searches and prefixs in order to dig out data.</p><p>Try some of the following search prefixes in google to see what you can find:</p><b>filetype:<b><br/><p>Search for specific file types only, e.g. (xls) (<a href='https://www.google.co.uk/#q=filetype:xls+common+names+' target='_blank'>example</a>)</p><b>site:<b><br/><p>Search with a specific domain or site only (<a href='https://www.google.co.uk/#q=site:gov.uk+m25' target='_blank'>example</a>)</p><b>related:<b><br/><p>Search for content related to a known page (<a href='https://www.google.co.uk/#q=related:http:%2F%2Fdrewconway.com%2Fzia%2F2013%2F3%2F26%2Fthe-data-science-venn-diagram' target='_blank'>example</a>)</p><b>link:<b><br/><p>List only pages that link to the one given (<a href='https://www.google.co.uk/#q=link:http:%2F%2Fdrewconway.com%2Fzia%2F2013%2F3%2F26%2Fthe-data-science-venn-diagram' target='_blank'>example</a>)</p>"
+          "body": "<p>Many search engines, including google, give you the ability to use advanced searches and prefixs in order to dig out data.</p><p>Try some of the following search prefixes in google to see what you can find:</p><b>filetype:<b><br/><p>Search for specific file types only, e.g. (xls) (<a href='https://www.google.co.uk/#q=filetype:xls+tanzania' target='_blank'>example</a>)</p><b>site:<b><br/><p>Search with a specific domain or site only (<a href='https://www.google.co.uk/#q=site:opendata.go.tz+education' target='_blank'>example</a>)</p><b>related:<b><br/><p>Search for content related to a known page (<a href='https://www.google.co.uk/#q=related:http:%2F%2Fwww.nationmaster.com%2Fcountry-info%2Fprofiles%2FTanzania%2FEducation' target='_blank'>example</a>)</p><b>link:<b><br/><p>List only pages that link to the one given (<a href='https://www.google.co.uk/#q=link:https:%2F%2Fwww.opendata.go.ke%2F' target='_blank'>example</a>)</p>"
         },
         {
           "alt": "Aggregators and portals",
@@ -518,8 +480,8 @@
       }
     },
      {
-        "_id": "c-65",
-        "_parentId": "b-65",
+        "_id": "c-62",
+        "_parentId": "b-62",
         "_classes": "",
         "_type":"component",
         "_layout": "full",
@@ -583,8 +545,8 @@
         }
     },
     {
-        "_id":"c-70",
-        "_parentId":"b-70",
+        "_id":"c-65",
+        "_parentId":"b-65",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
@@ -596,20 +558,20 @@
         "_graphic": {
             "alt": "",
             "title": "",
-            "large": "course/en/images/burst-green.png",
-            "medium": "course/en/images/burst-green.png",
-            "small": "course/en/images/burst-green.png"
+            "large": "course/en/images/burst-white.png",
+            "medium": "course/en/images/burst-white.png",
+            "small": "course/en/images/burst-white.png"
         }
     },
     {
-        "_id":"c-71",
-        "_parentId":"b-70",
+        "_id":"c-66",
+        "_parentId":"b-65",
         "_type":"component",
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Data Publishing Platforms",
-        "displayTitle":"Data Publishing Platforms",
+        "title":"Open data publication",
+        "displayTitle":"Open data publication",
         "body":"<p></p>",
         "instruction":"",
         "_pageLevelProgress": {
@@ -617,8 +579,8 @@
         }
     },
     {
-        "_id": "c-75",
-        "_parentId": "b-75",
+        "_id": "c-70",
+        "_parentId": "b-70",
         "_classes": "",
         "_type":"component",
         "_layout": "full",
@@ -673,8 +635,8 @@
         }
     },
   {
-        "_id":"c-80",
-        "_parentId":"b-80",
+        "_id":"c-75",
+        "_parentId":"b-75",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
@@ -691,8 +653,8 @@
         }
     },
     {
-      "_id":"c-81",
-      "_parentId":"b-80",
+      "_id":"c-76",
+      "_parentId":"b-75",
       "_type":"component",
       "_component":"accordion",
       "_classes":"",
@@ -723,8 +685,8 @@
       }
     },
     {
-        "_id":"c-85",
-        "_parentId":"b-85",
+        "_id":"c-80",
+        "_parentId":"b-80",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
@@ -741,8 +703,8 @@
         }
     },
     {
-      "_id":"c-86",
-      "_parentId":"b-85",
+      "_id":"c-81",
+      "_parentId":"b-80",
       "_type":"component",
       "_component":"accordion",
       "_classes":"",
@@ -769,7 +731,7 @@
         {
           "alt": "Github data publisher",
           "title": "Github data publisher",
-          "body": "<p>Github data publisher is an Open Data Institute experiment in using the Github software version control system to manage data.</p><p>Using this service requires a github account which has been enabled for web hosting (<a href='http://training.theodi.org/resources/gh-pagesgettingstarted.pdf' target='_blank'>How-To Guide here</a></p><p><a href='http://git-data-publisher.herokuapp.com/' target='_blank'>Click here</a>to access the Git Data Publisher.</p>"
+          "body": "<p>Github data publisher is an Open Data Institute experiment in using the Github software version control system to manage data.</p><p>Using this service requires a github account which has been enabled for web hosting (<a href='http://training.theodi.org/resources/gh-pagesgettingstarted.pdf' target='_blank'>How-To Guide here</a></p><p><a href='http://git-data-publisher.herokuapp.com/' target='_blank'>Click here</a> to access the Git Data Publisher.</p>"
         }
       ],
       "_pageLevelProgress": {
@@ -801,9 +763,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Open Data in Practice Day 1 - Practical Publication",
-        "displayTitle":"Open Data in Practice Day 1 - Practical Publication",
-        "body":"<p>This introductory course aims to get you up to speed with latest developments in open data and its significance. It is designed to enable anyone to get started with discovering and using open data and understand the skills and processes required to make it work for you and your organisation.</p>",
+        "title":"Open Data in practice: Practical publication",
+        "displayTitle":"Open Data in practice: Practical publication",
+        "body":"<p>Practical publication is all about getting data out there for everyone. By looking at the publication and usability requirements allows us to start thinking about the benefits of exploiting the data.</p><p>There are two other sessions in this course that focus on benefitting from open data.</p><a href='../inpractice2/'><h5>Open data innovation</h5></a><a href='../inpractice3/'><h5>Visulisation and communication</h5></a>",
         "_pageLevelProgress": {
           "_isEnabled": true
         }
