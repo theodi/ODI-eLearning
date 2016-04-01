@@ -20,27 +20,59 @@
 // @odi-color-nine: magenta
 // @odi-color-ten: light green
 
-.b-20 {
-	background-color: #222;
+.b-10 {
+    .accordion-component .accordion-item-title.visited,
+	.accordion-component .accordion-item-title  {
+		background-color: #6d6d6d;
+	}
+	.accordion-component .accordion-item-body {
+		border-right: 1px solid #6d6d6d;
+   		border-left: 1px solid #6d6d6d;
+    	border-bottom: 1px solid #6d6d6d;
+	}
+	.accordion-component .accordion-item-title.visited:hover,
+	.accordion-component .accordion-item-title:hover {
+		background-color: #000;
+	}
 }
 .b-30 {
-	background-color: @odi-color-two;
+	background-color: @odi-color-seven;
 }
 .b-50 {
-	background-color: @odi-color-two;
+	background-color: @odi-color-seven;
 }
 .b-55 {
-	.accordion-component .accordion-item-title {
-		background-color: @odi-color-two;	
+	.accordion-component .accordion-item-title.visited,
+	.accordion-component .accordion-item-title  {
+		background-color: @odi-color-seven;
+	}
+	.accordion-component .accordion-item-body {
+		border-right: 1px solid @odi-color-seven;
+   		border-left: 1px solid @odi-color-seven;
+    	border-bottom: 1px solid @odi-color-seven;
+	}
+	.accordion-component .accordion-item-title.visited:hover,
+	.accordion-component .accordion-item-title:hover {
+		background-color: #6d6d6d;
+	}
+	.course_link {
+		border: 1px solid @odi-color-seven;
+		background-color: @odi-color-seven;
+		color: white;
 	}
 }
 .b-60 {
-	background-color: @odi-color-three;
-}
-.b-70 {
 	background-color: @odi-color-one;
 }
+.b-65 {
+	background-color: @odi-color-one;
+	.course_link {
+		border: 1px solid white;
+		background-color: white;
+	}
+}
 .b-75 {
+    background-color: @odi-color-two;
 	.narrative-component.desktop .narrative-slide-container {
 		float: right;
 		margin-top: 30px;
@@ -55,9 +87,18 @@
     	background: none;
     	color: inherit;
     }
+    .narrative-component .narrative-progress {
+		background-color: white;
+		border: 1px solid white;
+	}
+	.narrative-component .narrative-progress.selected {
+		background-color: @odi-color-two;
+	}
+	.narrative-component .narrative-controls {
+		background-color: @odi-color-two;
+	}
 }
 .b-80 {
-	background-color: @odi-color-one;
 	.narrative-component.desktop .narrative-slide-container {
 		float: left;
 		margin-top: 30px;
@@ -76,10 +117,20 @@
     	background: none;
     	color: inherit;
     }
+    .narrative-component .narrative-progress {
+		background-color: @odi-color-two;
+		border: 1px solid @odi-color-two;
+	}
+	.narrative-component .narrative-progress.selected {
+		background-color: white;
+	}
+	.narrative-component .narrative-controls {
+		background-color: @odi-color-two;
+	}
 }
-.b-90 {
-	background-color: @odi-color-one;
+.b-85 {
+	background-color: @odi-color-two;
 }
-.b-100 {
-	background-color: @odi-color-one;
+.b-95 {
+	background-color: @odi-color-two;
 }

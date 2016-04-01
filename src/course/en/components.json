@@ -25,25 +25,25 @@
       "_component":"accordion",
       "_classes":"",
       "_layout":"left",
-      "title": "Open Data in Practice - Enriching & Visualising data",
-      "displayTitle": "Open Data in Practice - Enriching & Visualising data",
-      "body": "<p>In this final day, participants will learn how to clean, enrich and visualise data, all core skills of modern data work.</p>",
-      "instruction": "<em>The sessions are briefly described below.</em>",
+      "title": "Open data in practice: Visulisation and communication",
+      "displayTitle": "Open data in practice: Visulisation and communication",
+      "body": "<p>Communicating impact from data is a key skill of any modern data worker. This course takes participants though the essentials of preparing and visulising data.</p>",
+      "instruction": "<em>The structure of the day is briefly described below.</em>",
       "_items": [
          {
-          "alt": "Data cleaning",
-          "title": "Data cleaning",
-          "body": "<p>There is no such thing as a perfectly clean dataset. This session gives you the skills to quickly clean and prepare a dataset for use.</p>"
+          "alt": "Cleaning open data",
+          "title": "Cleaning open data",
+          "body": "<p>There is no such thing as a perfectly clean dataset. So before you can start using data you will need to clean it. This session gives you the skills to quickly clean and prepare a dataset for use.</p>"
         },
         {
-          "alt": "Enriching data",
-          "title": "Enriching data",
-          "body": "<p>A single dataset will rarely contain all the information you need.</p><p>This session gives you the practical skills to quickly enrich a dataset using open and freely available services on the web.</p>"
+          "alt": "Enriching open data",
+          "title": "Enriching open data",
+          "body": "<p>A single dataset will rarely contain all the information you need to tell as story.</p><p>This session gives you the practical skills to quickly enrich a dataset using open and freely available services on the web.</p>"
         },
         {
-          "alt": "Data visualising",
-          "title": "Data visualising",
-          "body": "<p>Visualisation data can help quickly reveal insight.</p><p>This session takes a practical look at producing advanced interactive infographics on the web.</p>"
+          "alt": "Visualising open data",
+          "title": "Visualising open data",
+          "body": "<p>Visualisation data can help quickly reveal insight.</p><p>This session takes a practical look at producing advanced interactive Visulisations on the web.</p>"
         }
       ],
       "_pageLevelProgress": {
@@ -77,7 +77,7 @@
         "_classes":"",
         "_layout":"left",
         "title":"Cleaning data",
-        "displayTitle":"Cleaning data",
+        "displayTitle":"Cleaning open data",
         "body":"<p></p>",
         "instruction":"",
         "_pageLevelProgress": {
@@ -184,34 +184,33 @@
       }
     },
     {
-        "_id": "c-55",
+        "_id":"c-55",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Data cleaning",
+            "title": "Data cleaning",
+            "large": "course/en/images/c-40.jpg",
+            "medium": "course/en/images/c-40.jpg",
+            "small": "course/en/images/c-40.jpg",
+            "*source": "http://www.shutterstock.com/pic-23541922",
+            "*credit": "Amy Walters",
+            "*license": "Shutterstock Standard License"
+        }
+    },
+    {
+        "_id": "c-56",
         "_parentId": "b-55",
         "_classes": "",
         "_type":"component",
-        "_layout": "full",
-        "_component": "accordion",
+        "_layout": "left",
+        "_component": "text",
         "title": "Exercise: Cleaning data",
         "displayTitle": "Exercise: Cleaning data",
-        "body": "<p>For this exercise you will need a copy of <a href='http://openrefine.org/download.html' target='_blank'>Open Refine</a> and the <a href='course/en/exercises/Spend_april_10_unclean.csv'>unclean dataset</a>.</p>",
-        "instruction": "<em class='desktop-instruction'>Click the forward for more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
-        "_items": [
-            {
-                "title": "Loading your dataset",
-                "body": "<p>To get started, import your dataset into Refine.</p><p>This can be done either by uploading the file or pasting the URL of the file.</p><p>Once your file has been imported you will need an import options screen. Use this to ensure your file looks correct before naming your project and clicking 'create'.</p>"
-            },
-            {
-                "title": "Common transforms",
-                "body": "<p>Wrong date format? White space where there shouldn't be? Numbers that don't appear to be numbers?</p><p>These are all common errors on a dataset. Refine has just the tools to fix these types of errors.</p><p>Find the columns that might have these types of errors and select <b>Edit cells</b> -&gt; <b>Common transforms</b> from that columns drop down to fix them.</p>"
-            },
-            {
-                "title": "Numbers are not numbers?",
-                "body": "<p>Putting comma's in numbers helps a human, but to a computer is it one number of a comma separated list of many?</p><p>To get rid of the comma's in refine select <b>Edit cells</b> -&gt; <b>Transform...</b> from the column drop down and enter the following in the expression box:</p><p><code>value.replace(',','')</code></p>"
-            },
-            {
-                "title": "All sorts of text problems!",
-                "body": "<p>Spelling errors, misplaced apostrophes, lots of s's?, brackets and no brackets?</p><p>All of these errors are common, to find out if your dataset has them, try putting a text facet on a column of text (Select <b>Facet</b> -&gt; <b>Text Facet</b> from a column drop down.</p><p>Refine can also help you fix all the errors automatically. Try pressing the <b>Cluster</b> button from inside the facet and adjust the options to suit.</p>"
-            }
-        ],
+        "body": "<p>For this exercise you will need a copy of <a href='http://openrefine.org/download.html' target='_blank'>Open Refine</a>. During courses, a number of online instances of Open Refine are available from the course menu.</p><p>Each part of the exercise also requires one of three datasets</p><ul><li><a href='course/en/exercises/dataset1.csv' target='_blank'>Dataset 1: Louisiana Secretary of State Officials</a></li><li><a href='course/en/exercises/dataset2.csv' target='_blank'>Dataset 2: Projects Dataset</a></li><li><a href='course/en/exercises/dataset3.csv' target='_blank'>Dataset 3: UK GP Earnings</a></li></ul><p>To get started, download the data cleaning exercise from the link below.</p><p><a class='course_link' href='course/en/exercises/Cleaning_Exercise.pdf' target='_blank' style='color: white;'>Get started with data cleaning open data</a></p>",
         "_pageLevelProgress": {
         "_isEnabled": true
         }
@@ -242,9 +241,42 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Enriching data",
-        "displayTitle":"Enriching data",
+        "title":"Enriching open data",
+        "displayTitle":"Enriching open data",
         "body":"<p></p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-62",
+        "_parentId":"b-62",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/shutterstock-113103805.jpg",
+            "medium": "course/en/images/shutterstock-113103805.jpg",
+            "small": "course/en/images/shutterstock-113103805.jpg",
+            "*source": "http://www.shutterstock.com/pic-113103805",
+            "*credit": "mini.fini",
+            "*license": "Shutterstock standard license"
+        }
+    },
+    {
+        "_id":"c-63",
+        "_parentId":"b-62",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Enriching open data",
+        "displayTitle":"Enriching open data",
+        "body":"<p>Enriching data is eqivalent to combining data. To enrich a dataset, you take one dataset and add relevant data to it from another with the intention of discovering something new.</p><p>Examples including taking a list of company numbers and adding information about their last financial return. Or taking a list of postal codes of places and adding data on which region each place is within. When plotting data on a map, enriching place data with a coordinate system is critical to plot the data and a common use of enriching services.</p><p>When enriching data you need to be careful that both datasets are available under licences that permit you to combine them with other data. A no-derivitives licence is not appropriate in this scenario.</p>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
@@ -256,7 +288,7 @@
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
-        "_layout":"right",
+        "_layout":"left",
         "_graphic": {
             "alt": "",
             "title": "",
@@ -274,10 +306,10 @@
         "_type":"component",
         "_component":"text",
         "_classes":"",
-        "_layout":"left",
-        "title":"Exercise: Enriching data",
-        "displayTitle":"Exercise: Enriching data",
-        "body":"<p>One dataset will rarely be sufficient to enable you to discover insight.</p><p>Fortunately Refine is able to do a lot more than just data cleaning. Refine is also a powerful tool for combining and enriching datasets using online services and API endpoints.</p><p>Use the following exercise to enrich your cleaned dataset:</p><p><a class='course_link' href='course/en/exercises/EnrichingData.pdf' target='_blank'>Enrich data in Refine.</a></p>",
+        "_layout":"right",
+        "title":"Exercise: Enriching open data",
+        "displayTitle":"Exercise: Enriching open data",
+        "body":"<p>Enriching open data can be challenging, fortunately Refine is able to do a lot more than just data cleaning. Refine is also a powerful tool for combining and enriching datasets using online services and API endpoints.</p><p>The following dataset has been prepared for clearning</p><p><ul><li><a href='course/en/exercises/UK-FCO-Transactions-April-2010-Pivot.csv'>UK FCO Transactions April 2010 pivot table</a></li><ul></p><p>Download the exercise below to find out how to enrich this dataset on company spending with data from Open Corporates.</p><p><a class='course_link' href='course/en/exercises/EnrichingData.pdf' target='_blank' style='color: #49ac2e;'>Enrich data in refine</a></p>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
@@ -297,9 +329,9 @@
         "_graphic": {
             "alt": "",
             "title": "",
-            "large": "course/en/images/burst-white.png",
-            "medium": "course/en/images/burst-white.png",
-            "small": "course/en/images/burst-white.png"
+            "large": "course/en/images/burst-blue.png",
+            "medium": "course/en/images/burst-blue.png",
+            "small": "course/en/images/burst-blue.png"
         }
     },
     {
@@ -309,8 +341,8 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Visually communicating data",
-        "displayTitle":"Visually communicating data",
+        "title":"Visualising open data",
+        "displayTitle":"Visualising open data",
         "body":"<p></p>",
         "instruction":"",
         "_pageLevelProgress": {
