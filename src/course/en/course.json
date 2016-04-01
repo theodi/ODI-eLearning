@@ -133,6 +133,7 @@
     	   }
     	]
      },
+     {},
      {
         "title": "Links and resources",
         "description": "Examples and links for course",
@@ -148,7 +149,31 @@
         	"title": "Open Refine",
         	"description": "The Open Refine tool is a powerful tool for cleaning messy data",
         	"_link": "http://openrefine.org/download.html"
-    	  }
+    	  },
+          {
+            "_type": "link",
+            "title": "CSV Lint",
+            "description": "CSVLint helps you to check that your CSV open data file is readable",
+            "_link": "http://csvlint.io/"
+          },
+          {
+            "_type": "link",
+            "title": "CSV Dataset Health Checker",
+            "description": "The CSV dataset health checker is a simple way to check how many variations a CSV open dataset has gone through and whether all of the files are the same or different",
+            "_link": "http://theodi.github.io/csv-dataset-validator/"
+          },
+          {
+            "_type": "link",
+            "title": "JSON Lint",
+            "description": "JSONLint helps you to check that your JSON open data file is readable",
+            "_link": "http://jsonlint.com/"
+          },
+          {
+            "_type": "link",
+            "title": "Flight patterns",
+            "description": "Aaron Koblin's flight patterns visulisation",
+            "_link": "http://www.aaronkoblin.com/work/flightpatterns/"
+          }
     ]
     },
     {
@@ -161,6 +186,102 @@
             "link": "Link"
         },
         "_resourcesItems": [
+        {
+        "_type": "link",
+        "title": "Data cleaning",
+        "description": "Source: Shutterstock<br\/>Credit: Amy Walters<br\/>Licence: Shutterstock Standard License",
+        "_link": "http:\/\/www.shutterstock.com\/pic-23541922"
+    },
+    {
+        "_type": "link",
+        "title": "Common errors in data",
+        "description": "Source: Shutterstock<br\/>Credit: Kirill_M<br\/>Licence: ",
+        "_link": "http:\/\/www.shutterstock.com\/pic-232737427"
+    },
+    {
+        "_type": "link",
+        "title": "Data cleaning",
+        "description": "Source: Shutterstock<br\/>Credit: Amy Walters<br\/>Licence: Shutterstock Standard License",
+        "_link": "http:\/\/www.shutterstock.com\/pic-23541922"
+    },
+    {
+        "_type": "link",
+        "title": "Enriching data",
+        "description": "Source: Shutterstock<br\/>Credit: mini.fini<br\/>Licence: Shutterstock standard license",
+        "_link": "http:\/\/www.shutterstock.com\/pic-113103805"
+    },
+    {
+        "_type": "link",
+        "title": "Stock vectors globe",
+        "description": "Source: Shutterstock<br\/>Credit: David Arts<br\/>Licence: Shutterstock standard license",
+        "_link": "http:\/\/www.shutterstock.com\/pic-144137602"
+    },
+    {
+        "_type": "link",
+        "title": "Terroism deaths versus gun-related deaths in the U.S.",
+        "description": "Source: Unclear<br\/>Credit: The Independent<br\/>Licence: ",
+        "_link": "http:\/\/www.independent.co.uk\/news\/world\/oregon-college-shooting-obama-is-right-that-guns-kill-more-americans-than-terrorism-but-so-do-lots-a6676366.html"
+    },
+    {
+        "_type": "link",
+        "title": "Napolean's march to Moscow",
+        "description": "Source: Unclear<br\/>Credit: Charles Joseph Minard<br\/>Licence: ",
+        "_link": "http:\/\/www.edwardtufte.com\/tufte\/posters"
+    },
+    {
+        "_type": "link",
+        "title": "Visual perception",
+        "description": "Source: Unclear<br\/>Credit: Selket<br\/>Licence: ",
+        "_link": "https:\/\/en.wikipedia.org\/wiki\/Visual_perception#\/media\/File:Ventral-dorsal_streams.svg"
+    },
+    {
+        "_type": "link",
+        "title": "TGV express train",
+        "description": "Source: Unclear<br\/>Credit: E.J. Marey 1885<br\/>Licence: ",
+        "_link": "E.J. Marey 1885"
+    },
+    {
+        "_type": "link",
+        "title": "How to survive a plane crash",
+        "description": "Source: Unclear<br\/>Credit: Telegraph UK<br\/>Licence: ",
+        "_link": "http:\/\/www.telegraph.co.uk\/travel\/travelnews\/4269453\/How-to-survive-a-plane-crash.html"
+    },
+    {
+        "_type": "link",
+        "title": "Strike law: Do the maths",
+        "description": "Source: Unclear<br\/>Credit: The Mirror (ampp3d)<br\/>Licence: ",
+        "_link": "http:\/\/www.mirror.co.uk\/news\/ampp3d\/conservatives-strike-law-unions-5689015"
+    },
+    {
+        "_type": "link",
+        "title": "iPhone vs Microsoft (revenue)",
+        "description": "Source: Unclear<br\/>Credit: Business Insider \/ David Tarrant<br\/>Licence: ",
+        "_link": "http:\/\/www.businessinsider.com\/iphone-bigger-than-microsoft-2012-2?IR=T"
+    },
+    {
+        "_type": "link",
+        "title": "Motor City Mapping",
+        "description": "Source: Unclear<br\/>Credit: Loveland technologies<br\/>Licence: ",
+        "_link": "https:\/\/highland-park.motorcitymapping.org\/#t=search&s=highland-park&f=all&p=5339"
+    },
+    {
+        "_type": "link",
+        "title": "Interactive startup founders",
+        "description": "Source: Unclear<br\/>Credit: Pitchbook<br\/>Licence: ",
+        "_link": "http:\/\/dataviz.pitchbook.com\/founders\/"
+    },
+    {
+        "_type": "link",
+        "title": "Summary icon clipboard",
+        "description": "Source: Shutterstock<br\/>Credit: Kritchanut<br\/>Licence: Shutterstock Standard License",
+        "_link": "http:\/\/www.shutterstock.com\/pic-189810137.html"
+    },
+    {
+        "_type": "link",
+        "title": "Open data institute logo",
+        "description": "Source: The Open Data Institute<br\/>Credit: The Open Data Institute<br\/>Licence: All rights reserved",
+        "_link": "http:\/\/theodi.org"
+    }
     	]
     }
 ]
