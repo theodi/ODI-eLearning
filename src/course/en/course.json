@@ -128,30 +128,60 @@
             "link": "Link"
         },
         "_resourcesItems": [
-          {
-        	"_type": "link",
-        	"title": "Open Refine",
-        	"description": "The Open Refine tool is a powerful tool for cleaning messy data",
-        	"_link": "http://openrefine.org/download.html"
-    	  },
-    	  {
-        	"_type": "link",
-        	"title": "CSV Lint",
-        	"description": "CSVLint helps you to check that your CSV open data file is readable",
-        	"_link": "http://csvlint.io/"
-    	  },
-    	  {
-        	"_type": "link",
-        	"title": "CSV Dataset Health Checker",
-        	"description": "The CSV dataset health checker is a simple way to check how many variations a CSV open dataset has gone through and whether all of the files are the same or different",
-        	"_link": "http://theodi.github.io/csv-dataset-validator/"
-    	  },
-    	  {
-        	"_type": "link",
-        	"title": "JSON Lint",
-        	"description": "JSONLint helps you to check that your JSON open data file is readable",
-        	"_link": "http://jsonlint.com/"
-    	  },
+        {
+            "_type": "link",
+            "title": "Open data deffinitions",
+            "description": "Comparison of open data deffinitions",
+            "_link": "http://images.thegovlab.org/wordpress/wp-content/uploads/2014/01/open-data-table.pdf"
+        },
+        {
+            "_type": "link",
+            "title": "Is it open data?",
+            "description": "Study on open data licensing",
+            "_link": "https://thomaslevine.com/!/data-about-open-data-talk-december-2-2013/#licensing"
+        },
+        {
+            "_type": "link",
+            "title": "Copyright in Tanzania",
+            "description": "Copyright and Neighbouring Rights Act, 1999",
+            "_link": "http://www.wipo.int/wipolex/en/text.jsp?file_id=216501"
+        },
+        {
+            "_type": "link",
+            "title": "Is it up to date?",
+            "description": "Study on how much open data is up to date",
+            "_link": "https://thomaslevine.com/!/data-about-open-data-talk-december-2-2013/#updating"
+        },
+        {
+            "_type": "link",
+            "title": "The data spectrum",
+            "description": "The Open Data Institute's data spectrum",
+            "_link": "http://theodi.org/data-spectrum"
+        },
+        {
+            "_type": "link",
+            "title": "How useful is my data?",
+            "description": "Learn about the first 3 stars of the 5-star guideline",
+            "_link": "http://www.europeandataportal.eu/elearning/en/module10/"
+        },
+        {
+            "_type": "link",
+            "title": "Linking up the web of data",
+            "description": "Learn about the last 2 stars of the 5-star guideline",
+            "_link": "http://www.europeandataportal.eu/elearning/en/module13/"
+        },
+        {
+            "_type": "link",
+            "title": "5 Star Data",
+            "description": "Technical guide to the 5-star guideline",
+            "_link": "http://5stardata.info/en/"
+        },
+        {
+            "_type": "link",
+            "title": "Open data certificates",
+            "description": "The Open Data Institute's certificate service",
+            "_link": "https://certificates.theodi.org/"
+        },
         {
         "_type": "link",
         "title": "Publisher's Guide to Open Data Licensing",
@@ -175,7 +205,211 @@
         "title": "Reuser's Guide to the Open Data Rights Management",
         "description": "How to understand your rights in using open data",
         "_link": "http://theodi.org/guides/odrs-reusers-guide"
-    }
+    },
+    {
+            "_type": "link",
+            "title": "CSV Lint",
+            "description": "CSVLint helps you to check that your CSV open data file is readable",
+            "_link": "http://csvlint.io/"
+          },
+          {
+            "_type": "link",
+            "title": "CSV Dataset Health Checker",
+            "description": "The CSV dataset health checker is a simple way to check how many variations a CSV open dataset has gone through and whether all of the files are the same or different",
+            "_link": "http://theodi.github.io/csv-dataset-validator/"
+          },
+          {
+            "_type": "link",
+            "title": "JSON Lint",
+            "description": "JSONLint helps you to check that your JSON open data file is readable",
+            "_link": "http://jsonlint.com/"
+          },
+        {
+            "_type": "link",
+            "title": "Teachers in Secondary Schools",
+            "description": "Number of Teachers in Secondary Schools in Tanzania",
+            "_link": "http://opendata.go.tz/dataset/idadi-ya-walimu-wa-shule-za-sekondari-kwa-walaya"
+        },
+        {
+            "_type": "link",
+            "title": "The Trade Tarriff",
+            "description": "The global trade tarriff data",
+            "_link": "https://www.gov.uk/trade-tariff/sections"
+        },
+        {
+            "_type": "link",
+            "title": "Open data for africa",
+            "description": "The African open data portal",
+            "_link": "http://opendataforafrica.org/dev/explorer"
+        },
+        {
+            "_type": "link",
+            "title": "UK Land registry data",
+            "description": "UK property transaction data",
+            "_link": "http://data.gov.uk/dataset/monthly-land-registry-property-transaction-data"
+        },
+        {
+            "_type": "link",
+            "title": "Schools ranking data",
+            "description": "Schools ranking data in Tanzania",
+            "_link": "http://www.necta.go.tz/brn2015/"
+        },
+        {
+            "_type": "link",
+            "title": "Primary school enrollment data",
+            "description": "Enrollment of primary school children by gender in Kenya",
+            "_link": "https://www.opendata.go.ke/ECD-and-Primary-EDU/Enrollment-of-Primary-School-Children-By-Gender-Cl/t3xp-5ce7"
+        },
+        {
+            "_type": "link",
+            "title": "Enigma.io",
+            "description": "The Enigma.io open data aggregator portal and search",
+            "_link": "http://enigma.io/"
+        },
+        {
+            "_type": "link",
+            "title": "Transport API",
+            "description": "UK aggregator for all public transport data",
+            "_link": "http://transportapi.com/"
+        },
+        {
+            "_type": "link",
+            "title": "PDFTables",
+            "description": "Extract tables from PDF files",
+            "_link": "http://pdftables.com"
+        },
+        {
+            "_type": "link",
+            "title": "Import.io",
+            "description": "Instantly scrape data from web pages",
+            "_link": "http://magic.import.io"
+        },
+        {
+            "_type": "link",
+            "title": "BBC News feed",
+            "description": "An example syndication feed for data",
+            "_link": "http://feeds.bbci.co.uk/news/rss.xml"
+        },
+        {
+            "_type": "link",
+            "title": "Code beautifier",
+            "description": "Make machine readable data more human friendly",
+            "_link": "http://codebeautify.org/xmlviewer"
+        },
+        {
+            "_type": "link",
+            "title": "Guagemap",
+            "description": "Get UK river level alerts",
+            "_link": "http://www.gaugemap.co.uk/"
+        },
+        {
+            "_type": "link",
+            "title": "Hidden data extrator",
+            "description": "The Open Data Institute's hidden data extractor",
+            "_link": "http://odinprac.theodi.org/hidden-data-extractor/"
+        },
+        {
+            "_type": "link",
+            "title": "Open Corporates API",
+            "description": "The Open Corporates API for global company data",
+            "_link": "https://api.opencorporates.com/"
+        },
+        {
+            "_type": "link",
+            "title": "Open Street Map API",
+            "description": "Read about the Open Street Map API",
+            "_link": "http://wiki.openstreetmap.org/wiki/API"
+        },
+        {
+            "_type": "link",
+            "title": "Twitter API",
+            "description": "Find out how to use the Twitter API",
+            "_link": "https://dev.twitter.com/rest/public"
+        },
+        {
+            "_type": "link",
+            "title": "Flickr API",
+            "description": "Find out how to use the Flickr API",
+            "_link": "https://www.flickr.com/services/api/"
+        },
+        {
+            "_type": "link",
+            "title": "Linkedin API",
+            "description": "Find out how to access the LinkedIn API",
+            "_link": "https://developer.linkedin.com/docs/rest-api"
+        },
+        {
+            "_type": "link",
+            "title": "Open data Kenya",
+            "description": "The Kenya open data portal",
+            "_link": "https://opendata.go.ke/"
+        },
+        {
+            "_type": "link",
+            "title": "Open data Burkina Faso",
+            "description": "The Burkina Faso open data portal",
+            "_link": "http://www.data.gov.bf"
+        },
+        {
+            "_type": "link",
+            "title": "Open data Uganda",
+            "description": "The Uganda open data portal",
+            "_link": "http://data.ug/"
+        },
+        {
+            "_type": "link",
+            "title": "Edo State government data",
+            "description": "The data repository for Edo State Governmen",
+            "_link": "http://data.edostate.gov.ng/"
+        },
+        {
+            "_type": "link",
+            "title": "Africa open data",
+            "description": "Africa's Largest Volunteer Driven Open Data Platform",
+            "_link": "http://africaopendata.org/"
+        },
+        {
+            "_type": "link",
+            "title": "Data.issy.com",
+            "description": "data.issy.com",
+            "_link": "https://data.issy.com/"
+        },
+        {
+            "_type": "link",
+            "title": "Platform comparrison",
+            "description": "Comparative analysis of data platforms",
+            "_link": "http://how-to.usopendata.org/basics/data-repositories.html"
+        },
+        {
+            "_type": "link",
+            "title": "CKAN on AWS",
+            "description": "Get running with CKAN in Amazon Web Services",
+            "_link": "https://aws.amazon.com/marketplace/pp/B015XZHNDI/ref=srh_res_product_title?ie=UTF8&sr=0-2&qid=1459255604274"
+        },
+        {
+            "_type": "link",
+            "title": "Open Data Soft",
+            "description": "Open Data Soft publising platform homepage",
+            "_link": "https://www.opendatasoft.com"
+        },
+        {
+            "_type": "link",
+            "title": "Socrata",
+            "description": "Socrata publising platform homepage",
+            "_link": "https://www.socrata.com/"
+        },
+        {
+            "_type": "link",
+            "title": "Github data publisher",
+            "description": "Publish open data in Github",
+            "_link": "http://git-data-publisher.herokuapp.com/"
+        },
+        {
+            "_type": "link",
+            "title": "Github web page hosting",
+            "description": "How-to guide to getting started with web page hosting in Github",
+            "_link": "http://training.theodi.org/resources/gh-pagesgettingstarted.pdf"
+        }
     ]
     },
     {
@@ -188,6 +422,144 @@
             "link": "Link"
         },
         "_resourcesItems": [
+        {
+        "_type": "link",
+        "title": "What is open data?",
+        "description": "Source: Shutterstock<br\/>Credit: leromin<br\/>Licence: Shutterstock Standard License",
+        "_link": "http:\/\/www.shutterstock.com\/pic.mhtml?id=179384507&src=lb-35924366"
+    },
+    {
+        "_type": "link",
+        "title": "Unlocking data from the web",
+        "description": "Source: Shutterstock<br\/>Credit: David Arts<br\/>Licence: Shutterstock standard license",
+        "_link": "http:\/\/www.shutterstock.com\/pic-144137602"
+    },
+    {
+        "_type": "link",
+        "title": "Marques of quality",
+        "description": "Source: Shutterstock<br\/>Credit: tostphoto<br\/>Licence: Shutterstock Standard License",
+        "_link": "http:\/\/www.shutterstock.com\/pic-254316427.html"
+    },
+    {
+        "_type": "link",
+        "title": "Legal",
+        "description": "Source: Shutterstock<br\/>Credit: hoperan<br\/>Licence: Shutterstock Standard License",
+        "_link": "http:\/\/www.shutterstock.com\/pic-102447179.html"
+    },
+    {
+        "_type": "link",
+        "title": "Practical",
+        "description": "Source: Shutterstock<br\/>Credit: McIek<br\/>Licence: Shutterstock Standard License",
+        "_link": "http:\/\/www.shutterstock.com\/pic-235025131.html"
+    },
+    {
+        "_type": "link",
+        "title": "Technical",
+        "description": "Source: Shutterstock<br\/>Credit: Oleksiy Mark<br\/>Licence: Shutterstock Standard License",
+        "_link": "http:\/\/www.shutterstock.com\/pic-154744388.html"
+    },
+    {
+        "_type": "link",
+        "title": "Social",
+        "description": "Source: Shutterstock<br\/>Credit: bluebay<br\/>Licence: Shutterstock Standard License",
+        "_link": "http:\/\/www.shutterstock.com\/pic-187711424.html"
+    },
+    {
+        "_type": "link",
+        "title": "Tabular",
+        "description": "Source: Shutterstock<br\/>Credit: benjaminec<br\/>Licence: Shutterstock standard license",
+        "_link": "http:\/\/www.shutterstock.com\/pic.mhtml?id=262874696&src=id"
+    },
+    {
+        "_type": "link",
+        "title": "Hierarchical",
+        "description": "Source: Shutterstock<br\/>Credit: tovovan<br\/>Licence: Shutterstock standard license",
+        "_link": "http:\/\/www.shutterstock.com\/pic.mhtml?id=103051607&src=id"
+    },
+    {
+        "_type": "link",
+        "title": "Network",
+        "description": "Source: Shutterstock<br\/>Credit: Ovchinnkov Vladimir<br\/>Licence: Shutterstock standard license",
+        "_link": "http:\/\/www.shutterstock.com\/pic.mhtml?id=136115477&src=id"
+    },
+    {
+        "_type": "link",
+        "title": "Accessing right data format",
+        "description": "Source: Shutterstock<br\/>Credit: Ing. Andrej Kaprinay<br\/>Licence: Shutterstock standard license",
+        "_link": "http:\/\/www.shutterstock.com\/pic-199692071"
+    },
+    {
+        "_type": "link",
+        "title": "Unlocking data from the web",
+        "description": "Source: Shutterstock<br\/>Credit: David Arts<br\/>Licence: Shutterstock standard license",
+        "_link": "http:\/\/www.shutterstock.com\/pic-144137602"
+    },
+    {
+        "_type": "link",
+        "title": "Extensions",
+        "description": "Source: Shutterstock<br\/>Credit: spaxiax<br\/>Licence: Shutterstock standard license",
+        "_link": "http:\/\/www.shutterstock.com\/pic-119236978"
+    },
+    {
+        "_type": "link",
+        "title": "Data feeds",
+        "description": "Source: Shutterstock<br\/>Credit: Ing<br\/>Licence: Shutterstock standard license",
+        "_link": "http:\/\/www.shutterstock.com\/pic-72158482"
+    },
+    {
+        "_type": "link",
+        "title": "Source code",
+        "description": "Source: Shutterstock<br\/>Credit: spaxiax<br\/>Licence: Shutterstock standard license",
+        "_link": "http:\/\/www.shutterstock.com\/pic-119236978"
+    },
+    {
+        "_type": "link",
+        "title": "APIs",
+        "description": "Source: Shutterstock<br\/>Credit: Imagentle<br\/>Licence: Shutterstock standard license",
+        "_link": "http:\/\/www.shutterstock.com\/pic-231102415"
+    },
+    {
+        "_type": "link",
+        "title": "Discovery",
+        "description": "Source: Flickr<br\/>Credit: mjtmail (tiggy)<br\/>Licence: https:\/\/creativecommons.org\/licenses\/by\/2.0\/",
+        "_link": "https:\/\/www.flickr.com\/photos\/mjtmail\/3008566512"
+    },
+    {
+        "_type": "link",
+        "title": "Consistency",
+        "description": "Source: Shutterstock<br\/>Credit: April Cat<br\/>Licence: Shutterstock standard license",
+        "_link": "http:\/\/www.shutterstock.com\/pic.mhtml?id=200818673&src=lb-36497927"
+    },
+    {
+        "_type": "link",
+        "title": "Access granted",
+        "description": "Source: Shutterstock<br\/>Credit: Kirill_m<br\/>Licence: http:\/\/www.shutterstock.com\/license",
+        "_link": "http:\/\/www.shutterstock.com\/pic.mhtml?id=154822901&src=id"
+    },
+    {
+        "_type": "link",
+        "title": "Approaches",
+        "description": "Source: Shutterstock<br\/>Credit: Nicotombo<br\/>Licence: http:\/\/www.shutterstock.com\/license",
+        "_link": "http:\/\/www.shutterstock.com\/pic.mhtml?id=277792007&src=id"
+    },
+    {
+        "_type": "link",
+        "title": "Course Overview",
+        "description": "Source: Shutterstock<br\/>Credit: Eugene Sergeev<br\/>Licence: Shutterstock Standard License",
+        "_link": "http:\/\/www.shutterstock.com\/pic-278179001.html"
+    },
+    {
+        "_type": "link",
+        "title": "Summary icon clipboard",
+        "description": "Source: Shutterstock<br\/>Credit: Kritchanut<br\/>Licence: Shutterstock Standard License",
+        "_link": "http:\/\/www.shutterstock.com\/pic-189810137.html"
+    },
+    {
+        "_type": "link",
+        "title": "Open data institute logo",
+        "description": "Source: The Open Data Institute<br\/>Credit: The Open Data Institute<br\/>Licence: All rights reserved",
+        "_link": "http:\/\/theodi.org"
+    }
     	]
     }
 ]
