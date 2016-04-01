@@ -17,10 +17,12 @@ if (!localStorage.getItem("ODI_Badges")) {
 }
 
 var moduleId = "";
-var lang = ""
+var lang = "";
+var noLMS = false;
 var config = {};
 $.getJSON("course/config.json",function(data) {
 	moduleId = data._moduleId;
+	noLMS = data._noLMS;
 	config = data;
 });
 var id = "";
@@ -28,6 +30,7 @@ var id = "";
 $(document).ready(function() {
 	$.getJSON("course/config.json",function(data) {
 		moduleId = data._moduleId;
+		noLMS = data._noLMS;
 		lang = data._defaultLanguage;
 		setRawValue("lang",lang);
 		if (moduleId == "ODI_nav"){
@@ -199,6 +202,10 @@ function setSaveClass(toClass) {
 function updateRemote() {
     var flag = localStorage.getItem("email");
     if (flag) { setSaveClass('cloud_saving'); }
+    if (noLMS) {
+    	if (flag) { setSaveClass('cloud_failed'); }
+	return;
+    }
     if(window.localStorage!==undefined) {
         send = {};
 	send.data = JSON.stringify(localStorage);
