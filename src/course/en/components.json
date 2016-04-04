@@ -309,7 +309,7 @@
         "_layout":"right",
         "title":"Exercise: Enriching open data",
         "displayTitle":"Exercise: Enriching open data",
-        "body":"<p>Enriching open data can be challenging, fortunately Refine is able to do a lot more than just data cleaning. Refine is also a powerful tool for combining and enriching datasets using online services and API endpoints.</p><p>The following dataset has been prepared for clearning</p><p><ul><li><a href='course/en/exercises/UK-FCO-Transactions-April-2010-Pivot.csv'>UK FCO Transactions April 2010 pivot table</a></li><ul></p><p>Download the exercise below to find out how to enrich this dataset on company spending with data from Open Corporates.</p><p><a class='course_link' href='course/en/exercises/EnrichingData.pdf' target='_blank' style='color: #49ac2e;'>Enrich data in refine</a></p>",
+        "body":"<p>Enriching open data can be challenging, fortunately Refine is able to do a lot more than just data cleaning. Refine is also a powerful toul> for combining and enriching datasets using online services and API endpoints.</p><p>The following dataset has been prepared for clearning</p><p><ul><li><a href='course/en/exercises/UK-FCO-Transactions-April-2010-Pivot.csv'>UK FCO Transactions April 2010 pivot table</a></li><ul></p><p>Download the exercise below to find out how to enrich this dataset on company spending with data from Open Corporates.</p><p><a class='course_link' href='course/en/exercises/EnrichingData.pdf' target='_blank' style='color: #49ac2e;'>Enrich data in refine</a></p>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
@@ -575,6 +575,55 @@
             "*credit": "Pitchbook",
             "*licence": "Attribution"
         }
+    },
+    {
+        "_id":"c-110",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"graphic",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Interactive startup founders",
+            "title": "Interactive startup founders",
+            "large": "course/en/images/c-101.jpg",
+            "medium": "course/en/images/c-101.jpg",
+            "small": "course/en/images/c-101.jpg",
+            "*source": "http://dataviz.pitchbook.com/founders/",
+            "*credit": "Pitchbook",
+            "*licence": "Attribution"
+        }
+    },
+    {
+      "_id":"c-111",
+      "_parentId":"b-110",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"left",
+      "title": "Visualisation hands-on",
+      "displayTitle": "Visualisation hands-on",
+      "body": "<p>The following exercises are designed to help you get started with visulisation data suitable for presentation online through embedding. Each exercise also use a different library or toul>, suited to different objectives as well as technical skill level.</p>",
+      "instruction": "<em>Click to discover more</em>",
+      "_items": [
+         {
+          "alt": "Heatmaps with numbers (plot.ly)",
+          "title": "Heatmaps with numbers (plot.ly)",
+          "body": "<p><a href='http://plot.ly' target='_blank'>Plot.ly</a> provides a simple point and click service to help you produce interactive online visulisations. Think of it a little like excel charts on the web. It is a young service, but certainly one to watch.</p><p>You will need the following dataset for this exercise:</p<ul><li><a href='course/en/exercises/QuickintroductiontoPlotly.csv'>Plot.ly exercise dataset</a></li></ul></p><p><a class='course_link' style='color: #3191d4;' href='course/en/exercises/QuickintroductiontoPlotly.pdf' target='_blank'>Get hands-on with plot.ly</a></p>"
+        },
+        {
+          "alt": "Election maps with CartoDB",
+          "title": "Election maps with CartoDB",
+          "body": "<p><a href='http://cartodb.com' target='_blank'>CartoDB</a> is a very popular online tool for creating geographic visualisations on maps. It has simple wizards to help you get started, but also allows you to expose the code and customise your GIS queries to take complete control. CartoDB can also merge and boundry locate geographic data without you having to write complex GIS queries yourself.</p><p>You will need the following datasets for this exercise:</p><ul><li><a href='course/en/exercises/SingaporeElectoralBoundaries2011.kml'>Singapore electorial districts boundary file (2011)</a></li><li><a href='course/en/exercises/SingaporeElectionWinners2011.csv'>Singapore election winners (2011)</a></li><li><a href='course/en/exercises/BFA2.kml'>Singapore friendly buildings data</a></li></ul></p><p><a class='course_link' style='color: #3191d4;' href='course/en/exercises/MappingwithcartoDB.pdf' target='_blank'>Get hands-on with CartoDB</a></p>"
+        },
+        {
+          "alt": "Treemaps in D3js",
+          "title": "Treemaps in D3js",
+          "body": "<p>This exercise uses <a href='http://d3js.org' target='_blank'>D3js</a>, a powerful javascript visualisation library, to produce an interactive multi-level treemap. D3js requires you to write raw code, so is technically more challenging, however it is worth exploring D3js to unlock the secrets of how the other visulisation libraries work. Most modern web based visulisations all use the D3js library and it is the library of choice for The New Yourk Times and Guardian (UK) data teams.</p><p>In order to complete this exercise you will need a <a href='https://github.com' target='_blank'>GitHub</a> account.</p><p><a class='course_link' style='color: #3191d4;' href='course/en/exercises/Treemap_Visualisations.pdf' target='_blank'>Treemaps in D3js</a></p>"
+        }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
     },
     {
         "_id":"c-150",
