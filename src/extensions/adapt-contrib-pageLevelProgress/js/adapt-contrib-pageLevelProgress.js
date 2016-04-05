@@ -68,10 +68,14 @@ define(function(require) {
 		updateProgressBar: function() {
 			var componentCompletionRatio = this.collection.where({_isComplete:true}).length / this.collection.length;
 			var percentageOfCompleteComponents = componentCompletionRatio*100;
-			
-			localStorage.setItem(moduleId + '_progress_percent',percentageOfCompleteComponents);
+			var globalComplete = localStorage.getItem(moduleId + '_progress_percent');
+			if (globalComplete < percentageOfCompleteComponents) {	
+				localStorage.setItem(moduleId + '_progress_percent',percentageOfCompleteComponents);
+				this.$('.page-level-progress-navigation-bar').css('width', percentageOfCompleteComponents+'%');
+			} else {
+				this.$('.page-level-progress-navigation-bar').css('width', globalComplete+'%');
+			}
 
-			this.$('.page-level-progress-navigation-bar').css('width', percentageOfCompleteComponents+'%');
 
 		},
 
