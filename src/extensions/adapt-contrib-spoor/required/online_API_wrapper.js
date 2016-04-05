@@ -40,6 +40,7 @@ $(document).ready(function() {
 		}
 	});
 	setTimeout(function() {setRawValue("theme",theme)},1000);
+	setTimeout(function() {setRawValue("platform",platform)},1000);
 });
 
 function miniProgressUpdate() {

@@ -1,12 +1,21 @@
 #!/bin/bash
-# USAGE ./build-odi-all en
+# USAGE ./build-odi-all en platform
 if [ -z $1 ]
 then
 	echo "Specify a language you idiot!"
+	echo "Usage ./build-odi-cordova-all lang platform" 
+	exit 
+fi
+if [ -z $2 ]
+then
+	echo "Please specify a platform, e.g. ios or android"
+	echo "Usage ./build-odi-cordova-all lang platform" 
 	exit
 fi
+sed -i -e "s/var platform = \"web\";/var platform = \"$2\";/g" src/theme/default/js/vanilla.js
 for i in `seq 1 13`;
 do
 	./bin/build-odi-cordova module$i $1
 done
 ./bin/build-odi-nav-cordova $1
+sed -i -e "s/var platform = \"$2\";/var platform = \"web\";/g" src/theme/default/js/vanilla.js
