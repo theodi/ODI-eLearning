@@ -46,6 +46,9 @@
 			if (strpos($graphic["*source"],"fixmystreet") > 0) {
 				$source = "Fix my street";
 			}
+			if ($graphic["*licence"] != "") {
+				$graphic["*license"] = $graphic["*licence"];
+			}
 			$out["description"] = "Source: " . $source . "<br/>Credit: " . $graphic["*credit"] . "<br/>Licence: " . $graphic["*license"];
 			$out["_link"] = $graphic["*source"];
 			$graphics[] = $out;
