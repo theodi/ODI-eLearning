@@ -1,4 +1,4 @@
-# [ODI eLearning](odilearning://) 
+#ODI eLearning
 
 WARNING: The setup of this repository is not like a normal GitHub repository
 
