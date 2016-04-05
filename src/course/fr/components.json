@@ -118,10 +118,13 @@
             {
                 "title": "Assurer la clarté",
                 "body": "<p>En 2015, seuls 20% des catalogues de données ouvertes au sein de l’Union Européenne sont sous licence les rendant réellement ‘ouvertes’.</p><p>Dans l’UE, les législations relatives aux droits d’auteurs et aux bases de données sont complexes. Certaines données sont certes destinées à être ouvertes, cependant une licence appropriée clarifie la situation légale pour les utilisateurs.</p><p>Le site OpenDataMonitor donne des informations et des statistiques au sujet des catalogues d’open data européens.<br /><a href='http://www.opendatamonitor.eu/frontend/web/index.php?r=datacatalogue%2Findex' target='_blank'>Lien vers la plate-forme de l’OpenDataMonitor</a></p>",
-		"_iframe": {
-                    "src": "course/en/dynamic/graph1.html",
-                    "alt": "A graph of open licences across countries",
-                    "title": "A graph of open licences across countries"
+		         "_graphic": {
+                    "src": "course/fr/images/odi-3.jpg",
+                    "alt": "Providing clarity",
+                    "title": "Providing clarity",
+                    "*source":"http://www.opendatamonitor.eu/",
+                    "*credit":"Open Data Monitor",
+                    "*license":"CC-BY 4.0 International"
                 },
                 "strapline": "Providing clarity"
             },
