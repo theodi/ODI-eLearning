@@ -66,9 +66,9 @@ echo "removing video"
 echo ""
 `rm -fR src/course/$LANG/video`
 
-echo "Updating control path"
-echo ""
-sed -i -e "s/en\/course\/en\/js\/control/$THEME\/$LANG\/course\/$LANG\/js\/control/g" src/index.html
+#echo "Updating control path"
+#echo ""
+#sed -i -e "s/en\/course\/en\/js\/control/$THEME\/$LANG\/course\/$LANG\/js\/control/g" src/index.html
 
 # Find the theme path
 SRCTHEME=$THEME
@@ -101,7 +101,7 @@ echo "Restoring structure";
 `rm -fR src/course/*`
 `mv tmp/* src/course/`
 sed -i -e "s/course\/$LANG\/images/course\/en\/images/g" src/theme/$THEME/less/header.less
-sed -i -e "s/$THEME\/$LANG\/course\/$LANG\/js\/control/en\/course\/en\/js\/control/g" src/index.html
+#sed -i -e "s/$THEME\/$LANG\/course\/$LANG\/js\/control/en\/course\/en\/js\/control/g" src/index.html
 if [ $REMOVE ]; then
 	echo "removing theme components"
 	`rm src/theme/$THEME/less/custom.less`
