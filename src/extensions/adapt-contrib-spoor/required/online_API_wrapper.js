@@ -27,6 +27,16 @@ $.getJSON("course/config.json",function(data) {
 });
 var id = "";
 
+function handleOpenURL(url) {
+        setTimeout(function() {
+                lid = url.split("//")[1];
+                if (typeof lid != "undefined") {
+                        id = lid;
+                        fetchRemote();
+                }
+        }, 0);
+}
+
 $(document).ready(function() {
 	$.getJSON("course/config.json",function(data) {
 		moduleId = data._moduleId;
