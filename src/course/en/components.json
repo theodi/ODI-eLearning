@@ -160,67 +160,73 @@
         {
           "alt": "The value proposition of open",
           "title": "The value proposition of open",
-          "body": "<p>Businesses working in open fields</p>"
+          "body": "<p>Businesses working in the 'open' area, whether open source software or open data, need to consider the value proposition of the open resources they consume. This consideration is important when developing a value proposition because using someone else's data or software in your business changes the problem you solve.</p>"
         },
         {
           "alt": "Creating a value proposition for an open data business",
           "title": "Creating a value proposition for an open data business",
-          "body": "<p></p>"
+          "body": "<p>Creating the value proposition for an open data business is different from a traditional business. Where a closed business solves a problem by providing a solution the customer cannot get anywhere else, an open business uses solutions which are already availble, in some form, elsewhere. This means that the the value proposition for an open business is usually based on being more convenient or cost-effective than the alternatives. Writing a strong value proposition for an open data business means explaining what problem you solve for a customer but also why your solution is better than going directly to the data themselves.</p>"
         }
       ],
       "_pageLevelProgress": {
         "_isEnabled": true
       }
     },
-    {
-        "_id":"c-40",
-        "_parentId":"b-40",
+         {
+        "_id": "c-40",
+        "_parentId": "b-40",
+        "_classes": "",
         "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"right",
-        "_graphic": {
-            "alt": "Marques of quality",
-            "title": "Marques of quality",
-            "large": "course/en/images/odi-6.jpg",
-            "medium": "course/en/images/odi-6.jpg",
-            "small": "course/en/images/odi-6.jpg",
-            "*source":"http://www.shutterstock.com/pic-254316427.html",
-            "*credit":"tostphoto",
-            "*license":"Shutterstock Standard License"
-        }
-    },
-    {
-      "_id":"c-41",
-      "_parentId":"b-40",
-      "_type":"component",
-      "_component":"accordion",
-      "_classes":"",
-      "_layout":"left",
-      "title": "Business Value - Case Studies",
-      "displayTitle": "Business Value - Case Studies",
-      "body": "<p></p>",
-      "instruction": "<em>Click the headings to explore further.</em>",
-      "_items": [
-        {
-          "alt": "?????",
-          "title": "?????",
-          "body": "<p></p>"
-        },
-        {
-          "alt": "?????",
-          "title": "?????",
-          "body": "<p></p>"
-        },
-        {
-          "alt": "?????",
-          "title": "?????",
-          "body": "<p></p>"
-        }
-      ],
-      "_pageLevelProgress": {
+        "_layout": "full",
+        "_component": "dynamic-narrative",
+        "title": "Business Value - Case Studies",
+        "displayTitle": "Business Value - Case Studies",
+        "body": "",
+        "instruction": "<em class='desktop-instruction'>Click the forward arrow for more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
+        "_items": [
+            {
+                "title": "ScholarDream",
+                "body": "<p><a href='https://www.facebook.com/scholardreamtz/' target='_blank'>Scholardream</a>allows parents to find schools for their children and also helps schools run some of their operations in the cloud.</p><p>Scholardream brings together performance statistics on schools with availability. The service solves the problem of spending hours hunting for and comparing availble schooling.</p>",
+                "_graphic": {
+                    "src": "course/en/images/scholardream.jpg",
+                    "alt": "scholardream",
+                    "title": "scholardream",
+                    "*source":"https://www.facebook.com/scholardreamtz/photos/a.913669025347526.1073741827.831523363562093/938615206186241/?type=3&theater",
+                    "*credit":"Scholardream",
+                    "*license":"All Rights Reserved"
+                },
+                "strapline": "scholardream"
+            },
+            {
+                "title": "Batainfo",
+                "body": "<p><a href='http://www.batainfo.com/home' target='_blank'>BataInfo</a> is an application that provides data on films, restaurants, sports, fashion and more. Batainfo consumes data from a variety of differenrt sources and gives users detail about the event like when and where its happening, what its about and more.</p><p>Batainfo solves the problem for customers of having to go to to many different websites to discover entertainment options. By making it simple for customers to get everything in one app, Batainfo saves time and also offers entertainment providers an attractive channel to customers.</p>",
+                "_graphic": {
+                    "src": "course/en/images/batainfo.jpg",
+                    "alt": "batainfo",
+                    "title": "batainfo",
+                    "*source":"https://twitter.com/batainfo",
+                    "*credit":"batainfo",
+                    "*license":"All Rights Reserved"
+                },
+                "strapline": "batainfo"
+            },
+            {
+                "title": "Agrimark",
+                "body": "<p><a href='http://www.agrimark.co.tz/' target='_blank'>Agrimark</a> connects farmers with the market for their crops. For farmers in Tanzania, often located in rural areas, finding suppliers for crops can be a difficult process. Likewise for hotels, restaurants and other businesses, finding food at the best price is challenging. Agrimark solves both challenges by creating an open marketplace for buyers and sellers of produce.</p>",
+                "_graphic": {
+                    "src": "course/en/images/agrimark.jpg",
+                    "alt": "agrimark",
+                    "title": "agrimark",
+                    "*source":"http://www.agrimark.co.tz/img/logo.png",
+                    "*credit":"Agrimark",
+                    "*license":"All Rights Reserved"
+                },
+                "strapline": "agrimark"
+            }
+        ],
+        "_pageLevelProgress": {
         "_isEnabled": true
-      }
+        }
     },
 {
         "_id":"c-60",
@@ -250,7 +256,7 @@
         "_layout":"left",
         "title":"Law & Open Data",
         "displayTitle":"Law & open data",
-        "body":"<p><p>In order for data to be open, it should be accessible (this usually means being published online) and licensed for anyone to access, use and share.</p>",
+        "body":"",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
