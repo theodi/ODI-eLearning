@@ -38,7 +38,7 @@ define(function(require) {
                     this._isVisibleBottom = true;
                 }
 
-                if (this._isVisibleTop && this._isVisibleBottom) {                   
+                if (this._isVisibleTop) {                   
                     this.setCompletionStatus();
                 }
             }
