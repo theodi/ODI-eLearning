@@ -41,5 +41,31 @@
         "variables": {
             "URL_SCHEME": "odilearninglite"
         }
+    },
+    "com.flyingsoftgames.xapkreader": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/agamemnus/cordova-plugin-xapkreader",
+            "subdir": ".",
+            "ref": "cordova-5.3.1"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-google-play-services": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-google-play-services"
+        },
+        "is_top_level": false,
+        "variables": {}
+    },
+    "com.google.play.services": {
+        "source": {
+            "type": "registry",
+            "id": "com.google.play.services"
+        },
+        "is_top_level": false,
+        "variables": {}
     }
 }
