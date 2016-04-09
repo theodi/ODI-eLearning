@@ -29,6 +29,7 @@
 	<splash src="src-splash/android/splash-port-xhdpi.png" density="port-xhdpi"/>
 	<splash src="src-splash/android/splash-port-xxhdpi.png" density="port-xxhdpi"/>
 	<splash src="src-splash/android/splash-port-xxxhdpi.png" density="port-xxxhdpi"/>
+        <hook type="before_compile" src="scripts/android/package_videos.rb" />
     </platform>
     <platform name="ios">
         <preference name="Orientation" value="all" />
