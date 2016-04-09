@@ -1,9 +1,8 @@
 #!/usr/bin/env ruby
 require 'find'
 require 'fileutils'
-require 'zip'
 
-wordy = false
+wordy = true
 apkName = "org.theodi.elearning1"
 
 pwd = ARGV[0]
@@ -52,18 +51,8 @@ components.each do |component|
 end
 
 puts "Creating expansion file ..." if wordy
-Zip.setup do |c|
-  c.on_exists_proc = true
-  c.continue_on_exists_proc = true
-  c.default_compression = Zlib::NO_COMPRESSION
-end
-obbFileName = "#{buildDir}/main.1.#{apkName}.obb"
-videos = Find.find(videoSrcDir).select { |f| !File.directory? f }
-Zip::File.open(obbFileName, Zip::File::CREATE) do |zipFile|
-  videos.each do |video|
-    shortName = video[videoSrcDir.length+1, video.length]
-    zipFile.add(shortName, video)
-    puts "  added #{shortName}" if wordy
-  end
-end
-puts "Expansion file created at #{obbFileName}"
+obbFileName = "main.1.#{apkName}.obb"
+zipcmd = "cd #{videoSrcDir} && zip -v -dc -r -Z store ../#{obbFileName} ."
+puts "  running '#{zipcmd}'" if wordy
+`#{zipcmd}`
+puts "Expansion file created at #{buildDir}/#{obbFileName}"
