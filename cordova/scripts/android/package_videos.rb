@@ -2,7 +2,7 @@
 require 'find'
 require 'fileutils'
 
-wordy = true
+wordy = false
 apkName = "org.theodi.elearning1"
 
 pwd = ARGV[0]
