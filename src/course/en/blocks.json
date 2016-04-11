@@ -153,8 +153,38 @@
 		"_id": "b-110",
 		"_parentId": "a-01",
 		"_type": "block",
-		"_classes": "inverted",
+		"_classes": "inverted section-banner",
 		"_trackingId": 16,
+		"_trickle": {
+			"_isEnabled":false
+		}
+	},
+	{
+		"_id": "b-120",
+		"_parentId": "a-01",
+		"_type": "block",
+		"_classes": "",
+		"_trackingId": 17,
+		"_trickle": {
+			"_isEnabled":false
+		}
+	},
+	{
+		"_id": "b-125",
+		"_parentId": "a-01",
+		"_type": "block",
+		"_classes": "inverted",
+		"_trackingId": 18,
+		"_trickle": {
+			"_isEnabled":false
+		}
+	},
+	{
+		"_id": "b-130",
+		"_parentId": "a-01",
+		"_type": "block",
+		"_classes": "",
+		"_trackingId": 19,
 		"_trickle": {
 			"_isEnabled":false
 		}
@@ -164,7 +194,7 @@
 		"_parentId": "a-01",
 		"_type": "block",
 		"_classes": "summary",
-		"_trackingId": 16,
+		"_trackingId": 20,
 		"_trickle": {
 			"_isEnabled":false
 		}
