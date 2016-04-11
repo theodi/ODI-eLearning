@@ -29,7 +29,7 @@
     // Inverted styles
     &.inverted, &.summary, &.footer {
         color: @inverted-foreground-color;
-        h1,h2,h3,h4,h5 {
+        h1,h2,h3,h4,h5,a {
             color: @inverted-foreground-color;
         }
     }
@@ -175,4 +175,39 @@
             }
         }
     }
+}
+// Section banner (ODI ADDED)
+// ===========================================
+.block {
+    // Section banner
+    &.section-banner-micro {
+        .block-inner {
+            padding: 20px;
+	        font-size: 20px;
+            @media all and (max-width:(@device-width-medium - 1px)) {
+                padding: 10px;
+                font-size: 100%;
+            }
+        }
+    }
+    &.section-banner {
+        .block-inner {
+            padding: 30px 100px;
+            @media all and (max-width:(@device-width-medium - 1px)) {
+                padding: 30px 20px;
+            }
+        }
+        .text-inner {
+            padding-top: 70px;
+            @media all and (max-width:(@device-width-medium - 1px)) {
+                padding-top: 0px;
+                text-align: center;
+            }
+        }
+    }
+}
+// MCQ Instruction Bold (ODI Added)
+// ================================
+.mcq-body-inner {
+	font-weight: bold;
 }
