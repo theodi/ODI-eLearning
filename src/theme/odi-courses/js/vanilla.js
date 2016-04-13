@@ -7,6 +7,7 @@ define(function(require) {
 var theme = "ODI";
 var interval; 
 var click_bind = false;
+var platform = "web";
 
 $(document).ready(function() {
 	setTimeout(function() {updateLanguageSwitcher(); },1000);
