@@ -120,8 +120,8 @@
     ],
     "_resources": [
      {
-        "title": "Session Slides",
-        "description": "Click here to view the slides from the day",
+        "title": "Session slides",
+        "description": "Access key course materials",
         "_filterButtons": {
             "all": "All",
             "document": "PDF",
@@ -151,7 +151,7 @@
      },
      {
         "title": "Course Toolkit",
-        "description": "Click here to view the tools covered in the course",
+        "description": "Links to tools covered in the course",
         "_filterButtons": {
             "all": "All",
             "document": "PDF",
@@ -187,7 +187,7 @@
     },
     {
         "title": "Open Refine Servers",
-        "description": "Click here to access the open refine servers needed for the cleaning exercise.",
+        "description": "Servers required for course exercises",
         "_filterButtons": {
             "all": "All",
             "document": "PDF",
@@ -205,7 +205,7 @@
     },
     {
         "title": "Publishing Guides",
-        "description": "Click here to view useful publishing guides for open data",
+        "description": "Useful publishing guides for open data",
         "_filterButtons": {
             "all": "All",
             "document": "PDF",
@@ -240,8 +240,8 @@
     ]
     },
     {
-        "title": "Image credits",
-        "description": "Click here to view image credits for this module",
+        "title": "Credits and attribution",
+        "description": "View attribution for licensed content",
         "_filterButtons": {
             "all": "All",
             "document": "PDF",
@@ -250,7 +250,7 @@
         },
         "_resourcesItems": 
         [
-    {
+     {
         "_type": "link",
         "title": "Course Overview",
         "description": "Source: Shutterstock<br\/>Credit: Eugene Sergeev<br\/>Licence: Shutterstock Standard License",
@@ -282,6 +282,24 @@
     },
     {
         "_type": "link",
+        "title": "School supplies",
+        "description": "Source: Flickr<br\/>Credit: Nick Amoscato<br\/>Licence: CC-BY 2.0",
+        "_link": "https:\/\/www.flickr.com\/photos\/infomastern\/9671353179"
+    },
+    {
+        "_type": "link",
+        "title": "Antacid",
+        "description": "Source: Flickr<br\/>Credit: Treasure<br\/>Licence: CC-BY 2.0",
+        "_link": "https:\/\/www.flickr.com\/photos\/treasureice\/16459056781"
+    },
+    {
+        "_type": "link",
+        "title": "Reaching for the sky",
+        "description": "Source: Flickr<br\/>Credit: Susanne Nilsson<br\/>Licence: CC-BY-SA 2.0",
+        "_link": "https:\/\/www.flickr.com\/photos\/infomastern\/9671353179"
+    },
+    {
+        "_type": "link",
         "title": "Unlocking data from the web",
         "description": "Source: Shutterstock<br\/>Credit: David Arts<br\/>Licence: Shutterstock standard license",
         "_link": "http:\/\/www.shutterstock.com\/pic-144137602"
@@ -309,6 +327,24 @@
         "title": "Types of licences",
         "description": "Source: Shutterstock<br\/>Credit: Eugene Sergeev<br\/>Licence: Shutterstock Standard License",
         "_link": "http:\/\/www.shutterstock.com\/pic-278179001.html"
+    },
+    {
+        "_type": "link",
+        "title": "UK Government",
+        "description": "Source: data.gov.uk<br\/>Credit: data.gov.uk<br\/>Licence: Open Government Licence",
+        "_link": "http:\/\/data.gov.uk\/dataset\/financial-transactions-data-fco"
+    },
+    {
+        "_type": "link",
+        "title": "Rwanda Government",
+        "description": "Source: data.gov.uk<br\/>Credit: Rwanda Government<br\/>Licence: All Rights Reserved",
+        "_link": "http:\/\/data.gov.uk\/dataset\/financial-transactions-data-fco"
+    },
+    {
+        "_type": "link",
+        "title": "Tanzania Government",
+        "description": "Source: data.gov.sg<br\/>Credit: Tanzania Government<br\/>Licence: All Rights Reserved",
+        "_link": "http:\/\/data.gov.sg\/Metadata\/OneMapMetadata.aspx?id=DENGUE_CLUSTER&t=SPATIAL"
     },
     {
         "_type": "link",
@@ -344,7 +380,7 @@
     },
            {
         "title": "Open data",
-        "description": "Use the content of this module as open data",
+        "description": "Download and use module content",
         "_filterButtons": {
             "all": "All",
             "document": "PDF",
@@ -410,7 +446,7 @@
     },
     {
         "title": "About",
-        "description": "Discover about how these pages were created.",
+        "description": "Discover how this learning was created",
         "_filterButtons": {
             "all": "All",
             "document": "PDF",
