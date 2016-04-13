@@ -14,29 +14,74 @@
 	padding-top: 0px;
 	background: none;
 }
+.b-10 {
+    .accordion-component .accordion-item-title.visited,
+    .accordion-component .accordion-item-title  {
+        background-color: #6d6d6d;
+    }
+    .accordion-component .accordion-item-body {
+        border-right: 1px solid #6d6d6d;
+        border-left: 1px solid #6d6d6d;
+        border-bottom: 1px solid #6d6d6d;
+    }
+    .accordion-component .accordion-item-title.visited:hover,
+    .accordion-component .accordion-item-title:hover {
+        background-color: #000;
+    }
+}
 .b-20 {
-    background-color: @odi-color-two;
+    background-color: @odi-color-six;
+}
+.b-30 {
+    .accordion-component .accordion-item-title.visited,
+    .accordion-component .accordion-item-title  {
+        background-color: @odi-color-six;
+    }
+    .accordion-component .accordion-item-body {
+        border-right: 1px solid @odi-color-six;
+        border-left: 1px solid @odi-color-six;
+        border-bottom: 1px solid @odi-color-six;
+    }
 }
 .b-35 {
     background-color: @odi-color-six;
+    .narrative-component .narrative-progress {
+        background-color: @odi-color-six;
+        border: 1px solid @odi-color-six;
+    }
+    .narrative-component .narrative-progress.selected {
+        background-color: white;
+    }
+    .narrative-component .narrative-controls {
+        background-color: @odi-color-six;
+    }
 }
 .b-50 {
-    background-color: @odi-color-six;
-}
-.b-60 {
     background-color: @odi-color-seven;
 }
 .b-70 {
     background-color: @odi-color-seven;
 }
-.b-80 {
-    background-color: @odi-color-seven;
-}
 .b-90 {
-    background-color: @odi-color-seven;
+    background-color: @odi-color-two;
+}
+.b-95 {
+    .narrative-component .narrative-progress {
+        background-color: white;
+        border: 1px solid @odi-color-two;
+    }
+    .narrative-component .narrative-progress.selected {
+        background-color: @odi-color-two;
+    }
+    .narrative-component .narrative-controls {
+        background-color: @odi-color-two;
+    }
+    .narrative-component .narrative-content {
+        background-color: @odi-color-two;
+    }
 }
 .b-100 {
-    background-color: @odi-color-five;
+    background-color: @odi-color-two;
 }
 .notify .notify-popup a {
     color:#fff;
