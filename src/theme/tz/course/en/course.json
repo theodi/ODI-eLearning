@@ -21,34 +21,41 @@
             {
                 "_type": "link",
                 "_local": "true",
-		"title": "<span class='side-single-title'>Main menu</span>",
+        "title": "<span class='side-single-title'>Main menu</span>",
                 "_link": "../index.html"
             },
             {
                 "_type": "link",
                 "_local": "true",
-		         "title": "Practical publication",
+                 "title": "Open data in a day",
+                "description": "The essentials of open data",
+                "_link": "../InADay/"
+            },
+            {
+                "_type": "link",
+                "_local": "true",
+                 "title": "Practical publication",
                 "description": "Get open data online and usable",
                 "_link": "../inpractice1/"
             },
             {
                 "_type": "link",
                 "_local": "true",
-		          "title": "Open data innovation",
+                  "title": "Open data innovation",
                 "description": "Plan for impact with open data",
                 "_link": "../inpractice2/"
             },
             {
                 "_type": "link",
                 "_local": "true",
-		        "title": "Visulisation and communication",
+                "title": "Visulisation and communication",
                 "description": "Create impact with open data",
                 "_link": "../inpractice3/"
             }
         ]
     },
     {
-        "title": "Slides and Exercises",
+        "title": "Slides and exercises",
         "description": "Access key course materials",
         "_filterButtons": {
             "all": "All",
