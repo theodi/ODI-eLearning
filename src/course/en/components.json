@@ -19,8 +19,46 @@
         }
     },
     {
+<<<<<<< HEAD
+        "_id":"c-11",
+        "_parentId":"b-10",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Open Data in Practice: Open data innovation",
+        "displayTitle":"Open Data in Practice: Open data innovation",
+        "body":"<p>Having learnt about the practical side of publishing data, the course turns it's focus to use and innovation. The legal aspects of using open data are addressed before then focussing on opportunities to innovate with open data and build new businesses. By the end, participants will have created a business model for an open data startup.</p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-20",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Course Overview",
+            "title": "Course Overview",
+            "large": "course/en/images/summary-icon.png",
+            "medium": "course/en/images/summary-icon.png",
+            "small": "course/en/images/summary-icon.png",
+            "*source":"http://www.shutterstock.com/pic-278179001.html",
+            "*credit":"Eugene Sergeev",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+      "_id":"c-21",
+      "_parentId":"b-20",
+=======
       "_id":"c-11",
       "_parentId":"b-10",
+>>>>>>> inpractice2
       "_type":"component",
       "_component":"accordion",
       "_classes":"",
@@ -41,9 +79,15 @@
           "body": "<p>This session takes a practical approach to creating a value proposition and business model around open data.</p><p>We explore the business model canvas and look how you can create a balenced business from open data.</p>"
         },
         {
+<<<<<<< HEAD
+          "alt": "Managing Open Data Projects",
+          "title": "Managing Open Data Projects",
+          "body": "<p>Open data is still a developing field and those working within it will encounter a number of common problems. This sessions presents and clarifies the main challenges before examining the future of open data.</p>"
+=======
           "alt": "Perfect pitching",
           "title": "Perfect pitching",
           "body": "<p>The final session challenges participants to pitch a new innovation with open data.</p><p>Communicating the impact of open data is of critical importance, this sessions gives participants practical experience with how to clearly communicate impact and innovation to others.</p>"
+>>>>>>> inpractice2
         }
       ],
       "_pageLevelProgress": {
@@ -122,7 +166,7 @@
         {
           "alt": "Why are value propositions important?",
           "title": "Why are value propositions important?",
-          "body": "<p>The value proposition of a business is the core of its business model. Without a strong value proposition, a business does not have the justification for operating. The value proposition is also the logic on which the rest of the business is based. If, for example, a business solves a problem for their customers which helps them save money or time, there is a reason to charge for this service. If, however, the problem the business solves a problem which customers do not value in monetary terms, that business may need to seek alternative sources of revenue. Understanding the value proposition allows the business to anchor their decisions in how customers will interact.</p>"
+          "body": "<p>The value proposition of a business is the core of its business model. Without a strong value proposition, a business does not have the justification for operating. The value proposition is also the logic on which the rest of the business is based. If, for example, a business solves a problem for their customers which helps them save money or time, there is a reason to charge for this service. If, however, the problem the business solves is a problem which customers do not value in monetary terms, that business may need to seek alternative sources of revenue. Understanding the value proposition allows the business to anchor their decisions in how customers will interact.</p>"
         },
         {
           "alt": "The value proposition of open",
@@ -132,7 +176,7 @@
         {
           "alt": "Creating a value proposition for an open data business",
           "title": "Creating a value proposition for an open data business",
-          "body": "<p>Creating the value proposition for an open data business is different from a traditional business. Where a closed business solves a problem by providing a solution the customer cannot get anywhere else, an open business uses solutions which are already availble, in some form, elsewhere. This means that the the value proposition for an open business is usually based on being more convenient or cost-effective than the alternatives. Writing a strong value proposition for an open data business means explaining what problem you solve for a customer but also why your solution is better than going directly to the data themselves.</p>"
+          "body": "<p>Creating the value proposition for an open data business is different from a traditional business. Where a closed business solves a problem by providing a solution the customer cannot get anywhere else, an open business uses solutions which are already available, in some form, elsewhere. This means that the value proposition for an open business is usually based on being more convenient or cost-effective than the alternatives. Writing a strong value proposition for an open data business means explaining what problem you solve for a customer but also why your solution is better than going directly to the data themselves.</p>"
         }
       ],
       "_pageLevelProgress": {
@@ -153,7 +197,7 @@
         "_items": [
             {
                 "title": "ScholarDream",
-                "body": "<p><a href='https://www.facebook.com/scholardreamtz/' target='_blank'>Scholardream</a>allows parents to find schools for their children and also helps schools run some of their operations in the cloud.</p><p>Scholardream brings together performance statistics on schools with availability. The service solves the problem of spending hours hunting for and comparing availble schooling.</p>",
+                "body": "<p><a href='https://www.facebook.com/scholardreamtz/' target='_blank'>Scholardream</a> allows parents to find schools for their children and also helps schools run some of their operations in the cloud.</p><p>Scholardream brings together performance statistics on schools with availability. The service solves the problem of spending hours hunting for and comparing availble schooling.</p>",
                 "_graphic": {
                     "src": "course/en/images/scholardream.jpg",
                     "alt": "scholardream",
@@ -166,7 +210,7 @@
             },
             {
                 "title": "Batainfo",
-                "body": "<p><a href='http://www.batainfo.com/home' target='_blank'>BataInfo</a> is an application that provides data on films, restaurants, sports, fashion and more. Batainfo consumes data from a variety of differenrt sources and gives users detail about the event like when and where its happening, what its about and more.</p><p>Batainfo solves the problem for customers of having to go to to many different websites to discover entertainment options. By making it simple for customers to get everything in one app, Batainfo saves time and also offers entertainment providers an attractive channel to customers.</p>",
+                "body": "<p><a href='http://www.batainfo.com/home' target='_blank'>BataInfo</a> is an application that provides data on films, restaurants, sports, fashion and more. Batainfo consumes data from a variety of differenrt sources and gives users detail about the event like when and where its happening, what it's about and more.</p><p>Batainfo solves the problem for customers of having to go to to many different websites to discover entertainment options. By making it simple for customers to get everything in one app, Batainfo saves time and also offers entertainment providers an attractive channel to customers.</p>",
                 "_graphic": {
                     "src": "course/en/images/batainfo.jpg",
                     "alt": "batainfo",
@@ -297,6 +341,65 @@
             "_isEnabled": true
         }
     },
+<<<<<<< HEAD
+     {
+        "_id": "c-80",
+        "_parentId": "b-80",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Simple licences, easily found",
+        "displayTitle": "Simple licences, easily found",
+        "body": "Every publisher of open data presents their licences differently.  Here are some examples.",
+        "instruction": "<em class='desktop-instruction'>Click the forward arrow to see more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
+        "_items": [
+            {
+                "title": "UK Government",
+                "body": "<p>The UK Government uses an Open Government Licence.</p><p>This example clearly shows the licence at the top of the webpage, where the dataset is accessed. The licence information is a hyperlink that displays the licence in full.</p><p>Have a look at this example dataset and its licence. While you are there, you can also explore all the other datasets and services they offer.<br /><a href='http://data.gov.uk/dataset/financial-transactions-data-fco' target='_blank'>Take me to Data.gov.uk</a></p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-6.jpg",
+                    "alt": "UK Government",
+                    "title": "UK Government",
+                    "*source":"http://data.gov.uk/dataset/financial-transactions-data-fco",
+                    "*credit":"data.gov.uk",
+                    "*license":"Open Government Licence"
+                },
+                "strapline": "UK Government"
+            },
+            {
+                "title": "Rwanda Government",
+                "body": "<p>The Rwandan Government uses a Creative Commons licence.</p><p>This example shows the licence at the bottom of the web page where the datasets are accessed. The licence information is a hyperlink that displays the licence in full.</p><p>Have a look at the portal and its licence. While you are there, feel free to explore all the datasets and services they offer.<br /><a href='http://statistics.gov.rw/data-portals' target='_blank'>Take me to Rwanda Stats Data Portal.</a></p>",
+                "_graphic": {
+                    "src": "course/en/images/rwportal.png",
+                    "alt": "Rwanda Government",
+                    "title": "Rwanda Government",
+                    "*source":"http://statistics.gov.rw/data-portals",
+                    "*credit":"Rwanda Government",
+                    "*license":"All Rights Reserved"
+                },
+                "strapline": "Rwanda Government"
+            },
+            {
+                "title": "Tanzania Government",
+                "body": "<p>The Tanzanian Government also publishes data which is has an open licence but the licence can be difficult to locate.</p><p>The licence is only accessed by clicking on the terms and conditions link at the very bottom of the web page.</p><p>Have a look at the portal and its licence. While you are there, feel free to explore all the other datasets and services they offer.<br /><a href='http://opendata.go.tz/pages/kanuni-na-masharti' target='_blank'>Take me to the Tanzania Open Data Portal</a></p>",
+                "_graphic": {
+                    "src": "course/en/images/tzportal.png",
+                    "alt": "Tanzania Government",
+                    "title": "Tanzania Government",
+                    "*source":"http://opendata.go.tz/pages/kanuni-na-masharti",
+                    "*credit":"Tanzania Government",
+                    "*license":"All Rights Reserved"
+                },
+                "strapline": "Tanzania Government"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+=======
+>>>>>>> inpractice2
     {
         "_id":"c-70",
         "_parentId":"b-70",
@@ -323,10 +426,17 @@
       "_component":"accordion",
       "_classes":"",
       "_layout":"left",
+<<<<<<< HEAD
+      "title": "Types of licences",
+      "displayTitle": "Types of licences",
+      "body": "<p>The simpler the licence, the better!</p><p>There are lots of different licences. To maximise reuse, try to adopt a licence that is already widely used.</p><p><a href='https://theodi.org/guides/reusers-guide-open-data-licensing' target='_blank'>Take me to a guide on licensing</a></p>",
+      "instruction": "<em>Click the headings to explore further.</em>",
+=======
       "title":"The eight box canvas",
       "displayTitle":"The eight box canvas",
       "body":"<p>Having filled in your value proposition in the middle of the canvas, there are eight other boxes to complete.</p>",
       "instruction": "<em>Explore the requirements for each below.</em>",
+>>>>>>> inpractice2
       "_items": [
         { 
           "alt": "Key Partners",
