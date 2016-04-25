@@ -89,10 +89,11 @@ echo "Building module";
 rm -fR build
 grunt build --theme=$THEME
 
-if [ -f build ];
+if [ -d "build" ] 
 then
 	echo "building scorm package"
 	cd build
+	mkdir course/$LANG/data/
 	zip -r course/$LANG/data/scorm.zip * >/dev/null 
 	cd ..
 fi
