@@ -117,7 +117,7 @@
             },
             {
                 "title": "Assurer la clarté",
-                "body": "<p>En 2015, seuls 20% des catalogues de données ouvertes au sein de l’Union Européenne sont sous licence les rendant réellement ‘ouvertes’.</p><p>Dans l’UE, les législations relatives aux droits d’auteurs et aux bases de données sont complexes. Certaines données sont certes destinées à être ouvertes, cependant une licence appropriée clarifie la situation légale pour les utilisateurs.</p><p>Le site OpenDataMonitor donne des informations et des statistiques au sujet des catalogues d’open data européens.<br /><a href='http://www.opendatamonitor.eu/frontend/web/index.php?r=datacatalogue%2Findex' target='_blank'>Lien vers la plate-forme de l’OpenDataMonitor</a></p>",
+                "body": "<p>En 2015, seuls 20% des catalogues de données ouvertes au sein de l’Union Européenne sont sous licence les rendant réellement ‘ouvertes’.</p><p>Dans l’UE, les législations relatives aux droits d’auteurs et aux bases de données sont complexes. Certaines données sont certes destinées à être ouvertes, cependant une licence appropriée clarifie la situation légale pour les utilisateurs.</p><p>Le site OpenDataMonitor donne des informations et des statistiques au sujet des catalogues d’open data européens.<br /><a href='http://www.opendatamonitor.eu' target='_blank'>Lien vers la plate-forme de l’OpenDataMonitor</a></p>",
 		         "_graphic": {
                     "src": "course/fr/images/odi-3.jpg",
                     "alt": "Providing clarity",
@@ -210,12 +210,12 @@
             },
             {
                 "title": "Le gouvernement de la Singapour",
-                "body": "<p>Le gouvernement singapourien publie lui aussi des données sous licence ouverte, mais celle-ci peut se révéler plus difficile à trouver.</p><p>Les conditions générales de la licence sont accessibles en cliquant sur l’icône de téléchargement des données ou l'adresse URL, ou via le lien des conditions générales au bas de la page.</p><p>Explorez cet ensemble de données et sa licence. N’hésitez pas à explorer les autres ensembles de données et les services offerts par ce site.<br /><a href='http://data.gov.sg/Metadata/OneMapMetadata.aspx?id=DENGUE_CLUSTER&t=SPATIAL' target='_blank'>Lien vers data.gov.sg</a></p>",
+                "body": "<p>Le gouvernement singapourien publie lui aussi des données sous licence ouverte, mais celle-ci peut se révéler plus difficile à trouver.</p><p>Les conditions générales de la licence sont accessibles en cliquant sur l’icône de téléchargement des données ou l'adresse URL, ou via le lien des conditions générales au bas de la page.</p><p>Explorez cet ensemble de données et sa licence. N’hésitez pas à explorer les autres ensembles de données et les services offerts par ce site.<br /><a href='https://data.gov.sg/dataset/dengue-clusters' target='_blank'>Lien vers data.gov.sg</a></p>",
                 "_graphic": {
                     "src": "course/fr/images/odi-7.jpg",
                     "alt": "Singapore Government",
                     "title": "Singapore Government",
-                    "*source":"http://data.gov.sg/Metadata/OneMapMetadata.aspx?id=DENGUE_CLUSTER&t=SPATIAL",
+                    "*source":"https://data.gov.sg/dataset/dengue-clusters",
                     "*credit":"data.gov.sg",
                     "*license":"n/a"
                 },
