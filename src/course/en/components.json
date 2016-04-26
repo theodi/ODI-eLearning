@@ -31,7 +31,7 @@
     },
     {
         "_id":"c-03",
-        "_parentId":"b-03",
+        "_parentId":"b-01",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
@@ -41,6 +41,17 @@
 	    "medium": "course/en/images/group-small.jpg",
 	    "large": "course/en/images/group-small.jpg"
         }
+    },
+    {
+        "_id":"c-04",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"full",
+        "title":"",
+        "displayTitle":"",
+        "body":"<table class='timetable'><tr><th>Monday</th><th>Tuesday</th><th>Wedensday</th><th>Thursday</th><th>Friday</th></tr><tr><td>Deffinitions<br/>Slides | eLearning</td><td>Discovering<br/>Slides | eLearning</td><td>Searching<br/>Slides | eLearning</td><td>Enriching<br/>Exercise</td><td>Mapping<br/>Exercise</td></tr><tr><td>Impact<br/>Slides | eLearning</td><td>Best practice<br/>Slides | eLearning</td><td>Licensing<br/>Slides | eLearning</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>Spectrum<br/>Slides | Photos</td><td>Charecteristics<br/>Slides | eLearning</td><td>Platforms<br/>Slides | eLearning</td><td>Infographics<br/>Slides | eLearning</td><td>&nbsp;</td></tr><tr><td>SWOT analysis<br/>Document</td><td>Cleaning<br/>Exercise | eLearning</td><td>Publishing<br/>Exercise</td><td>&nbsp;</td><td>&nbsp;</td></tr></table>"
     },
     {
         "_id":"c-05",
