@@ -5,6 +5,8 @@ define(function(require) {
 });
 
 var theme = "EU";
+var version = "1.1.14";
+var platform = "web";
 var interval;
 var save_enabled = false;
 var need_email = false;
