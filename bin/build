@@ -51,6 +51,12 @@ echo ""
 `rm -fR src/course/*`
 `cp -r tmp/$LANG src/course/`
 
+if [ $THEME == "eu" ] 
+then
+	echo "removing progress tracking"
+	sed -i -e "s/{},{}/{}/g" src/course/$LANG/course.json
+fi
+
 echo "Merging theme configs"
 echo ""
 `node ./bin/merge.js src/course/$LANG/articles.json src/theme/$THEME/course/$LANG/articles.json`
