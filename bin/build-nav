@@ -69,6 +69,15 @@ echo ""
 rm -fR build
 grunt build --theme=$THEME
 
+if [ -d "build" ] 
+then
+	echo "building scorm package"
+	cd build
+	mkdir course/$2/data/
+	zip -r course/$2/data/scorm.zip * >/dev/null 
+	cd ..
+fi
+
 echo "Restoring structure";
 `rm -fR src/course/*`
 `mv tmp/* src/course/`
