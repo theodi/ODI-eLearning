@@ -43,6 +43,18 @@
         ]
     },
     {
+        "title": "Resources",
+        "description": "View additional module resources",
+        "_filterButtons": {
+            "all": "All",
+            "document": "PDF",
+            "media": "Media",
+            "link": "Link"
+        },
+        "_resourcesItems": [
+	]
+    },
+    {
         "title": "Open data",
         "description": "Use the content of this module as open data",
         "_filterButtons": {
