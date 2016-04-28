@@ -121,7 +121,7 @@
             },
            {
                 "title": "Using an existing schema",
-                "body": "<p>The best choice for the structure of your dataset is an existing standard schema. Using a standard schema ensures your data can be instantly combined with that of other publishers. The LGA keeps a library of popular schemas that the LGA encourages all local government data publishers to use.</p><p>By using a standard schema, your open data can be combined with other authorities' releases to build up regional and national overviews.</p><p>Using the standard schemas is simple: just find the right schema for your dataset, rename your colunm headings to match and save the result. Under the practical guidance section of this module you will find detailed instructions on using LG standard schemas.</p>",
+                "body": "<p>The best choice for the structure of your dataset is an existing standard schema. Using a standard schema ensures your data can be instantly combined with that of other publishers. The LGA keeps a library of popular schemas that the LGA encourages all local government data publishers to use.</p><p>By using a standard schema, your open data can be combined with other authorities' releases to build up regional and national overviews.</p><p>Using the standard schemas is simple: just find the right schema for your dataset, rename your column headings to match and save the result. Under the practical guidance section of this module you will find detailed instructions on using LG standard schemas.</p>",
                 "_graphic": {
                     "src": "course/en/images/odi-2.jpg",
                     "alt": "Existing schemas",
@@ -134,7 +134,7 @@
             },
             {
                 "title": "Creating a new schema",
-                "body": "<p>No common schema for the dataset you are publishing? Before creating a new one, why not see if there is already some consensus amoung an existing community of users somewhere (use your favorite search engine). You might need to contribute a new schema but there may be an opportunity to get the community to help. A good place to start is <a href='http://i-network.org.uk/legsb-3/' target='_blank'>iStandUK</a>, an active community of local government experts who can support the development of a new schema.</p>",
+                "body": "<p>No common schema for the dataset you are publishing? Before creating a new one, why not see if there is already some consensus among an existing community of users somewhere (use your favorite search engine). You might need to contribute a new schema but there may be an opportunity to get the community to help. A good place to start is <a href='http://i-network.org.uk/legsb-3/' target='_blank'>iStandUK</a>, an active community of local government experts who can support the development of a new schema.</p>",
                 "_graphic": {
                     "src": "course/en/images/odi-3.jpg",
                     "alt": "Creating a new schema",
@@ -248,7 +248,7 @@
         {
           "alt": "An example of linking data",
           "title": "An example of linking data",
-          "body": "<p>Example – a database of buildings owned by an authroity will often have Postcodes/Zip codes against each building in the data records:<br/><br><b>Building number</b>: 32<br><b>Postcode</b>: SO17 1BJ<br><b>Ward</b>: Postwood<br><b>District</b>: City of Southampton<br/><br>With linked data we have no need to replicate data – like <b>ward</b> and <b>district</b> – that are manged by seperate authorioties. Therefore, the record becomes:<br><br><b>Building number</b>: 32<br><b>Postcode</b>: <a href='http://data.ordnancesurvey.co.uk/id/postcodeunit/SO171BJ' style='word-wrap: break-word;' target='_blank'>http://data.ordnancesurvey.co.uk/id/postcodeunit/SO171BJ</a></p>"
+          "body": "<p>Example – a database of buildings owned by an authority will often have Postcodes/Zip codes against each building in the data records:<br/><br><b>Building number</b>: 32<br><b>Postcode</b>: SO17 1BJ<br><b>Ward</b>: Postwood<br><b>District</b>: City of Southampton<br/><br>With linked data we have no need to replicate data – like <b>ward</b> and <b>district</b> – that are managed by separate authorities. Therefore, the record becomes:<br><br><b>Building number</b>: 32<br><b>Postcode</b>: <a href='http://data.ordnancesurvey.co.uk/id/postcodeunit/SO171BJ' style='word-wrap: break-word;' target='_blank'>http://data.ordnancesurvey.co.uk/id/postcodeunit/SO171BJ</a></p>"
         }
       ],
       "_pageLevelProgress": {
@@ -311,7 +311,7 @@
         "_layout":"left",
         "title":"Certifying your data",
         "displayTitle":"Certifying your data",
-        "body":"<p>There it a lot of data out there, much of it messy or difficult to use. ODI Open Data Certificate is a free online tool developed to assess and recognise the quality of open datasets and let users know that any dataset with a certificate meets certain quality criteria. The certificates are an independent quality marque designed to support open data publishers in acheiving professional results. The LGA encourage data publishers in local government to make use of ODI Open Data Certificates to reassure data consumers about the data provenance and future sustainability.</p><h5>Open Data Certificates provide publishers with a range of benefits including:</h5><ul class='ticks'><li>Formal recognition of your data quality</li><li>A much broader user base</li><li>Automatic trust in the quality and usability of your data</li><li>Instant, simple compliance with the best publishing practices</li><li>Free advice on improving the quality of your data</li></p>"
+        "body":"<p>There is a lot of data out there, much of it messy or difficult to use. ODI Open Data Certificates is a free online tool developed to assess and recognise the quality of open datasets and let users know that any dataset with a certificate meets certain quality criteria. The certificates are an independent quality marque designed to support open data publishers in acheiving professional results. The LGA encourage data publishers in local government to make use of ODI Open Data Certificates to reassure data consumers about the data provenance and future sustainability.</p><h5>Open Data Certificates provide publishers with a range of benefits including:</h5><ul class='ticks'><li>Formal recognition of your data quality</li><li>A much broader user base</li><li>Automatic trust in the quality and usability of your data</li><li>Instant, simple compliance with the best publishing practices</li><li>Free advice on improving the quality of your data</li></p>"
     },
     {
         "_id":"c-10",
