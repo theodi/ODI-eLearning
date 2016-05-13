@@ -1,16 +1,308 @@
 {
-    "_id": "course",
-    "_type": "course",
-    "title": "Open Data in Practice",
-    "displayTitle": "Open Data in Practice",
-    "format": "course",
-    "_buttons": {
-        "submit": "Submit",
-        "reset": "Reset",
-        "showCorrectAnswer": "Model Answer",
-        "hideCorrectAnswer": "My Answer"
+  "_id": "course",
+  "_type": "course",
+  "title": "Open Data in Practice",
+  "displayTitle": "Open Data in Practice",
+  "format": "course",
+  "_buttons": {
+    "submit": "Submit",
+    "reset": "Reset",
+    "showCorrectAnswer": "Model Answer",
+    "hideCorrectAnswer": "My Answer"
+  },
+  "_learningOutcomes": [
+    {
+      "outcome": "Define open data",
+      "credits": 5,
+      "badge": "explorer"
     },
-    "_resources": [
+    {
+      "outcome": "Explain how cost and availability are key aspects of open data",
+      "credits": 5,
+      "badge": "explorer"
+    },
+    {
+      "outcome": "Evaluate how to customise the definition of open data for different communities and requirements",
+      "credits": 10,
+      "badge": "strategist"
+    },
+    {
+      "outcome": "Explain the difference between big, personal and open data",
+      "credits": 5,
+      "badge": "explorer"
+    },
+    {
+      "outcome": "Describe the benefits of working with open data",
+      "credits": 5,
+      "badge": "explorer"
+    },
+    {
+      "outcome": "Describe successful case studies of using and publishing open data",
+      "credits": 5,
+      "badge": "explorer"
+    },
+    {
+      "outcome": "Explain how open data sits in the current economic climate",
+      "credits": 5,
+      "badge": "explorer"
+    },
+    {
+      "outcome": "Evaluate the success of open data projects and communities",
+      "credits": 10,
+      "badge": "explorer"
+    },
+    {
+      "outcome": "Discover a number of open datasets",
+      "credits": 5,
+      "badge": "practitioner"
+    },
+    {
+      "outcome": "Evaluate the usability of an existing open dataset",
+      "credits": 10,
+      "badge": "practitioner"
+    },
+    {
+      "outcome": "Suggest a number of ways to improve current open datasets",
+      "credits": 5,
+      "badge": "strategist"
+    },
+    {
+      "outcome": "Describe how copyright and licensing relate to open data",
+      "credits": 5,
+      "badge": "explorer"
+    },
+    {
+      "outcome": "Identify instances of open licenses and effective application",
+      "credits": 5,
+      "badge": "explorer"
+    },
+    {
+      "outcome": "Build and use open licenses",
+      "credits": 10,
+      "badge": "strategist"
+    },
+    {
+      "outcome": "Manage third party data and sublicensing",
+      "credits": 5,
+      "badge": "strategist"
+    },
+    {
+      "outcome": "Apply the five stars of linked open data to analyse technical quality of data",
+      "credits": 10,
+      "badge": "practitioner"
+    },
+    {
+      "outcome": "Describe the importance of persistent identifiers for data.",
+      "credits": 5,
+      "badge": "explorer"
+    },
+    {
+      "outcome": "Use Open Data Certificates to assess the usability of open data.",
+      "credits": 10,
+      "badge": "strategist"
+    },
+    {
+      "outcome": "Identify a number of errors that exist in data",
+      "credits": 5,
+      "badge": "explorer"
+    },
+    {
+      "outcome": "Clean a dataset",
+      "credits": 10,
+      "badge": "practitioner"
+    },
+    {
+      "outcome": "Validate data to assess usability",
+      "credits": 5,
+      "badge": "practitioner"
+    },
+    {
+      "outcome": "Describe the open data publication phases",
+      "credits": 5,
+      "badge": "strategist"
+    },
+    {
+      "outcome": "Identify a number of key processes to improve the sustainable publication of open data",
+      "credits": 5,
+      "badge": "strategist"
+    },
+    {
+      "outcome": "Apply a number of open data guidelines to ensure open data becomes sustainable",
+      "credits": 10,
+      "badge": "strategist"
+    },
+    {
+      "outcome": "Identify different characteristics in data and associated data formats",
+      "credits": 5,
+      "badge": "practitioner"
+    },
+    {
+      "outcome": "Justify approaches for publishing different types of data in different ways",
+      "credits": 10,
+      "badge": "practitioner"
+    },
+    {
+      "outcome": "Describe the data spectrum and how it applies to different types of data",
+      "credits": 10,
+      "badge": "strategist"
+    },
+    {
+      "outcome": "Describe the importance of persistent identifiers for data",
+      "credits": 5,
+      "badge": "strategist"
+    },
+    {
+      "outcome": "Apply the five stars of linked open data to analyse technical quality of data",
+      "credits": 10,
+      "badge": "practitioner"
+    },
+    {
+      "outcome": "Explain the difference between the data on the web and the web of data",
+      "credits": 5,
+      "badge": "strategist"
+    },
+    {
+      "outcome": "List a number of patterns for discovering open data on and in the Web",
+      "credits": 5,
+      "badge": "practitioner"
+    },
+    {
+      "outcome": "Create search patterns that enable discovery of open data",
+      "credits": 10,
+      "badge": "practitioner"
+    },
+    {
+      "outcome": "Analyse the challenges in using existing open data",
+      "credits": 10,
+      "badge": "strategist"
+    },
+    {
+      "outcome": "Analyse the benefits and drawbacks of publishing data on different open data platforms",
+      "credits": 10,
+      "badge": "strategist"
+    },
+    {
+      "outcome": "Describe the approaches for publishing data",
+      "credits": 5,
+      "badge": "strategist"
+    },
+    {
+      "outcome": "Differentiate between data catalogues, data portals and data management systems",
+      "credits": 5,
+      "badge": "strategist"
+    },
+    {
+      "outcome": "Publish a number of datasets on different open data platforms",
+      "credits": 15,
+      "badge": "practitioner"
+    },
+    {
+      "outcome": "Create a process model for publishing different datasets",
+      "credits": 10,
+      "badge": "practitioner"
+    },
+    {
+      "outcome": "Identify the stages and time requirements of an investigative open data project",
+      "credits": 5,
+      "badge": "strategist"
+    },
+    {
+      "outcome": "Identify a number of different errors that exist in data",
+      "credits": 5,
+      "badge": "practitioner"
+    },
+    {
+      "outcome": "Clean a dataset",
+      "credits": 15,
+      "badge": "practitioner"
+    },
+    {
+      "outcome": "Enrich a dataset with available open data",
+      "credits": 15,
+      "badge": "practitioner"
+    },
+    {
+      "outcome": "Evaluate how emerging technologies can promote fast innovation and enable required change in business models",
+      "credits": 10,
+      "badge": "strategist"
+    },
+    {
+      "outcome": "Describe the key benefits of visualising open data",
+      "credits": 5,
+      "badge": "strategist"
+    },
+    {
+      "outcome": "Describe a number of key data visualisations",
+      "credits": 5,
+      "badge": "strategist"
+    },
+    {
+      "outcome": "Differentiate between the various goals of visualising open data",
+      "credits": 5,
+      "badge": "strategist"
+    },
+    {
+      "outcome": "Select the appropriate set of goals for specific open data visulisations",
+      "credits": 5,
+      "badge": "strategist"
+    },
+    {
+      "outcome": "Describe a number of techniques for visulising different formats and structures of data",
+      "credits": 5,
+      "badge": "strategist"
+    },
+    {
+      "outcome": "Describe the role of cognitive science in data visualisation",
+      "credits": 10,
+      "badge": "strategist"
+    },
+    {
+      "outcome": "Critically evaluate how the human brain interprets information presented visually",
+      "credits": 10,
+      "badge": "strategist"
+    },
+    {
+      "outcome": "Evaluate the effectiveness of 'pop-outs' in data visulisation",
+      "credits": 10,
+      "badge": "strategist"
+    },
+    {
+      "outcome": "Evaluate the use of colour in visualising data",
+      "credits": 10,
+      "badge": "strategist"
+    },
+    {
+      "outcome": "Describe the problems and potential solutions for visualising high-dimension datasets",
+      "credits": 5,
+      "badge": "strategist"
+    },
+    {
+      "outcome": "Describe the techniques for visualising temporal data",
+      "credits": 5,
+      "badge": "strategist"
+    },
+    {
+      "outcome": "Apply your knowledge of visualisation techniques to identify those which deliberately attempt to mislead their audience",
+      "credits": 10,
+      "badge": "strategist"
+    },
+    {
+      "outcome": "Create a heatmap visulisation of education open data",
+      "credits": 10,
+      "badge": "practitioner"
+    },
+    {
+      "outcome": "Create an interactive spatial visulisation of open election data",
+      "credits": 10,
+      "badge": "practitioner"
+    },
+    {
+      "outcome": "Create an interactive treemap visualisation for open spending data",
+      "credits": 15,
+      "badge": "practitioner"
+    }
+  ],
+  "_resources": [
     {},{},{},
     {
         "title": "Credits and attribution",
