@@ -51,7 +51,7 @@ echo ""
 `rm -fR src/course/*`
 `cp -r tmp/$LANG src/course/`
 
-if [ $THEME == "eu" ] 
+if [ $THEME == "eu" ] || [ $THEME == "tz" ] 
 then
 	echo "removing progress tracking"
 	sed -i -e "s/{},{}/{}/g" src/course/$LANG/course.json
