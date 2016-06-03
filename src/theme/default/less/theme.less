@@ -31,6 +31,34 @@
 .timetable {
 	width: 100%;
 	text-align: center;
+        display: inline-block;
+        vertical-align: top;
+	margin-top: 10px;
+}
+.fourday {
+	max-width: 210px;
+}
+.fiveday {
+	min-width: 168px;
+}
+@media all and (max-width:516px) {
+	.fourday {
+		max-width: 100%;
+	}
+	.fiveday {
+		max-width: 100%;
+	}
+} 
+.buttonbar {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+@media all and (max-width:800px) {
+	.buttonbar {
+		position: inherit;
+		display: block;
+	}
 }
 .timetable th {
 	width: 20%;
@@ -40,6 +68,8 @@
 }
 .timetable td {
 	padding-top: 16px;
+	min-height: 97px;
+	display: block;
 }
 .timetable th {
 	padding-top: 16px;
@@ -72,4 +102,8 @@
 .tab-content .course_link {
 	margin: 10px;
     line-height: 2em;
+}
+.tabs-component .tabs-content-items-inner {
+	max-height: 620px;
+	overflow-y: scroll;
 }
