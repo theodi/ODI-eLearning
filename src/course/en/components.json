@@ -337,9 +337,75 @@
         "_isEnabled": true
       }
     },
+        {
+        "_id":"c-39",
+        "_parentId":"b-32",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "small": "course/en/images/c-21.jpg",
+            "medium": "course/en/images/c-21.jpg",
+            "large": "course/en/images/c-21.jpg",
+            "alt": "Open data about performance",
+            "title": "Open data about performance",
+            "*source":"http://www.shutterstock.com/pic-201870622.html",
+            "*credit":"Your Design",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+      "_id":"c-40",
+      "_parentId":"b-32",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"left",
+      "title": "Why it's best?",
+      "displayTitle": "Why it's best?",
+      "body": "<p>Open data is data that anyone can access, use and share. Unlike a traditional business where your resources belong only to you and can be protected, open data can be used by others at the same time. To understand how businesses that use open data operate, we need to consider the value proposition of open data to a business.</p>",
+      "instruction": "<em>Click below to explore tools that unlock data that is <b>on the Web</b></em>",
+      "_items": [
+        {
+          "alt": "What is a value proposition?",
+          "title": "What is a value proposition?",
+          "body": "<p>A value proposition is a credible justification for why your customers will interact with your business in the ways you expect. The core of a value proposition is the problem(s) you solve for your customers. By identifying a problem your customers have and creating a solution to that problem, you create a justification for them to interact with your business.</p>"
+        },
+        {
+          "alt": "Why are value propositions important?",
+          "title": "Why are value propositions important?",
+          "body": "<p>The value proposition of a business is the core of its business model. Without a strong value proposition, a business does not have the justification for operating. The value proposition is also the logic on which the rest of the business is based. If, for example, a business solves a problem for its customers and helps them save money or time, there is a reason to charge for this service. If, however, the problem the business solves is a problem that customers do not value in monetary terms, that business may need to seek alternative sources of revenue. Understanding the value proposition allows the business to anchor decisions in how customers will interact.</p>"
+        },
+        {
+          "alt": "The value proposition of open",
+          "title": "The value proposition of open",
+          "body": "<p>Businesses working in 'open' – whether open source software or open data – need to consider the value proposition of the open resources they consume. This consideration is important when developing a value proposition because using someone else's data or software in your business changes the problem you solve.</p>"
+        },
+        {
+          "alt": "Creating a value proposition for an open data business",
+          "title": "Creating a value proposition for an open data business",
+          "body": "<p>Creating the value proposition for an open data business is different from a traditional business. Where a closed business solves a problem with a solution the customer cannot get anywhere else, an open business uses solutions that are already available in some form elsewhere. This means that the value proposition for an open business is usually based on being more convenient or cost-effective than the alternatives. Writing a strong value proposition for an open data business means explaining what problem you solve for a customer and why your solution is better than going directly to the data themselves.</p>"
+        }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+        {
+    "_id":"c-41",
+    "_parentId":"b-33",
+    "_type":"component",
+    "_component":"text",
+    "_classes":"",
+    "_layout":"full",
+        "title":"what next?",
+        "displayTitle": "what next?",
+        "body": "<p></p>",
+    },
     {
         "_id":"c-42",
-        "_parentId":"b-33",
+        "_parentId":"b-34",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
@@ -358,14 +424,14 @@
     },
     {
         "_id":"c-43",
-        "_parentId":"b-33",
+        "_parentId":"b-34",
         "_type":"component",
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Are you ready for open data?",
-        "displayTitle":"Are you ready for open data?",
-        "body":"<p>There are four helpful things to remember when thinking about opening your data. Can you remember them?</p>",
+        "title":"Are you ready for open data advocacy?",
+        "displayTitle":"Are you ready for open data advocacy?",
+        "body":"<p>There are four helpful things to remember when advocating for open data. Can you remember them?</p>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
