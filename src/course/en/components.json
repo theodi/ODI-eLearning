@@ -28,9 +28,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"What is open data?",
-        "displayTitle":"What is open data?",
-        "body":"<p>Open data is <strong>data</strong> that <strong>anyone</strong> can <strong>access</strong>, <strong>use</strong> and <strong>share</strong>. Governments, businesses and individuals can use open data to bring about social, economic and environmental benefits.</p><h5>In this module we’ll explore the following:</h5><ul class='ticks'><li>What is open data?</li><li>What is data?</li><li>What makes data open?</li><li>Why do we need open data?</li></ul>",
+        "title":"Data advocacy",
+        "displayTitle":"Data advocacy",
+        "body":"<p></p>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
@@ -40,63 +40,22 @@
     "_id":"c-11",
     "_parentId":"b-10",
     "_type":"component",
-    "_component":"iFrame-vimeo",
+    "_component":"text",
     "_classes":"",
     "_layout":"full",
-        "title":"Discovering open data – in 2 minutes",
-        "displayTitle": "Discovering open data – in 2 minutes",
-        "body": "ODI Trainer Dr David Tarrant explains what data is, what makes it open and why we need open data.",
-        "instruction": "To turn subtitles on and off, click the 'cc' button at the bottom right of the video",
-        "_setCompletionOn":"ended",
-        "_source": "https://player.vimeo.com/video/129196637",
-	"_media": {
-		"mp4": "course/en/video/video.mp4",
-		"poster": "course/en/video/placeholder.jpg"
-	},
-        "_height": {
-            "_small" : 250,
-            "_medium" : 350,
-            "_large" : 508
-        }
+        "title":"The five components of the perfect open data pitch",
+        "displayTitle": "The five components of the perfect open data pitch",
+        "body": "<p></p>",
     },
     {
-        "_id":"c-21",
-        "_parentId":"b-20",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"right",
-        "_graphic": {
-            "alt": "What is open data?",
-            "title": "What is open data?",
-            "large": "course/en/images/odi-1-text-image_large.jpg",
-            "medium": "course/en/images/odi-1-text-image_large.jpg",
-            "small": "course/en/images/odi-1-text-image_large.jpg",
-            "*source":"http://www.shutterstock.com/pic.mhtml?id=179384507&src=lb-35924366",
-            "*credit":"leromin",
-            "*license":"Shutterstock Standard License"
-        }
-    },
-    {
-        "_id":"c-22",
-        "_parentId":"b-20",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"",
-        "_layout":"left",
-        "title":"What is open data?",
-        "displayTitle":"What is open data?",
-        "body":"<p>Open data is data that <strong>anyone can access, use and share</strong>.</p><p>Open data becomes usable when made available in a common, machine-readable format.</p><p>Open data must be licensed. Its licence must permit people to use the data in any way they want, including transforming, combining and sharing it with others, even commercially.</p>"
-    },
-     {
-        "_id": "c-25",
-        "_parentId": "b-25",
+        "_id": "c-20",
+        "_parentId": "b-20",
         "_classes": "",
         "_type":"component",
         "_layout": "full",
         "_component": "narrative",
-        "title": "From raw material to new information and knowledge",
-        "displayTitle": "From raw material to new information and knowledge",
+        "title": "What is data?",
+        "displayTitle": "What is data?",
         "body": "Without data we can’t build information, and without information there is no new knowledge.",
         "instruction": "<em class='desktop-instruction'>Click the forward arrow to see more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
         "_items": [
@@ -143,6 +102,35 @@
         "_pageLevelProgress": {
         "_isEnabled": true
         }
+    },
+    {
+        "_id":"c-25",
+        "_parentId":"b-25",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "What is open data?",
+            "title": "What is open data?",
+            "large": "course/en/images/odi-1-text-image_large.jpg",
+            "medium": "course/en/images/odi-1-text-image_large.jpg",
+            "small": "course/en/images/odi-1-text-image_large.jpg",
+            "*source":"http://www.shutterstock.com/pic.mhtml?id=179384507&src=lb-35924366",
+            "*credit":"leromin",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-26",
+        "_parentId":"b-25",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"What is open data?",
+        "displayTitle":"What is open data?",
+        "body":"<p>Open data is data that <strong>anyone can access, use and share</strong>.</p><p>Open data becomes usable when made available in a common, machine-readable format.</p><p>Open data must be licensed. Its licence must permit people to use the data in any way they want, including transforming, combining and sharing it with others, even commercially.</p>"
     },
     {
         "_id":"c-30",
@@ -201,55 +189,155 @@
         "_type":"component",
         "_layout": "full",
         "_component": "narrative",
-        "title": "Why do we need open data?",
-        "displayTitle": "Why do we need open data?",
-        "body": "Open data can help bring diverse benefits to governments, businesses and civil society.",
+        "title": "What is does",
+        "displayTitle": "What is does",
+        "body": "",
         "instruction": "<em class='desktop-instruction'>Click the forward arrow to see more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
         "_items": [
             {
-                "title": "Transforming government",
-                "body": "<p>Open data can help make governments more transparent. It can provide the evidence that public money is being well spent and policies are being implemented.</p><p>For example, according to leading open government activist David Eaves, open data allowed citizens in Canada to save the government $3.2bn in fraudulent charitable donations in 2010.<br /><a href='http://eaves.ca/2010/04/14/case-study-open-data-and-the-public-purse/' target='_blank'>Take me to David Eaves' article</a></p><p>In another example, according to Follow the Money in Nigeria, the same process is used to ensure that public funds are spent implementing the policies promised to the people.<br /><a href='http://followthemoneyng.org/' target='_blank'>Take me to Follow the Money</a></p>",
+                "title": "Leadership & Strategy",
+                "body": "<p></p>",
                 "_graphic": {
-                    "src": "course/en/images/odi-6-narrative_large.png",
-                    "alt": "Transforming government",
-                    "title": "Transforming government",
+                    "src": "course/en/images/leadership.png",
+                    "alt": "leadership",
+                    "title": "leadership",
                     "*source":"http://www.shutterstock.com/pic-255896113",
                     "*credit":"Pretty Vectors",
                     "*license":"Shutterstock Standard License"
                 },
-                "strapline": "Transforming government"
+                "strapline": "Leadership & Strategy"
             },
             {
-                "title": "Building new business opportunities",
-                "body": "<p>Open data is opening up new opportunities for businesses to connect with customers.</p><p>Transport for London has released open data that developers have used to build over 800 transport apps.<br /><a href='http://www.tfl.gov.uk/' target='_blank'>Take me to Transport for London</a></p><p>Thomson Reuters is using open data to connect with existing customers in order to provide better services.<br /><a href='http://site.thomsonreuters.com/site/data-identifiers/' target='_blank'>Take me to Thomson Reuters</a></p><p>Startups in the ODI Startup programme now collectively employ over 70 people and generate over £4m in income.<br /><a href='http://theodi.org/odis-second-year-annual-report' target='_blank'>Take me to the ODI annual report</a></p>",
+                "title": "Operations",
+                "body": "<p></p>",
                 "_graphic": {
-                    "src": "course/en/images/odi-7-narrative_large.jpg",
-                    "alt": "Building new business opportunities",
-                    "title": "Building new business opportunities",
+                    "src": "course/en/images/operations.png",
+                    "alt": "ops",
+                    "title": "ops",
                     "*source":"http://www.shutterstock.com/pic.mhtml?id=149924576&src=lb-35924366",
                     "*credit":"Sergey Nivens",
                     "*license":"Shutterstock Standard License"
                 },
-                "strapline": "Building new business opportunities"
+                "strapline": "Operations"
             },
             {
-                "title": "Protecting our planet",
-                "body": "<p>The web has become a core part of our infrastructure and open data will build on this.</p><p>Open data about weather can provide an early warning system for environmental disasters, for example.<br /><a href='http://www.un.org/apps/news/story.asp?NewsID=13077&Cr=natural&Cr1=disaster#.VVyWK_lVhBc' target='_blank'>Take me to the United Nations news centre</a></p><p>Open data is also helping consumers to understand their personal impacts on the environment, and take steps to improve it.<br /><a href='https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/39386/12-1324-better-choices-better-deals-report-on-progress-on-the-consumer-empowerment-strategy.pdf' target='_blank'>Take me to Better Choices Better Deals report</a></p>",
+                "title": "Finance/Ventures",
+                "body": "<p></p>",
                 "_graphic": {
-                    "src": "course/en/images/odi-8-narrative_large.jpg",
-                    "alt": "Protecting our planet",
-                    "title": "Protecting our planet",
+                    "src": "course/en/images/finance.png",
+                    "alt": "finance",
+                    "title": "finance",
                     "*source":"http://www.shutterstock.com/pic-185008832",
                     "*credit":"surassawadee",
                     "*license":"Shutterstock Standard License"
                 },
-                "strapline": "Protect our planet"
+                "strapline": "Finance/Ventures"
+            }
+            {
+                "title": "Communications",
+                "body": "<p></p>",
+                "_graphic": {
+                    "src": "course/en/images/comms.png",
+                    "alt": "comms",
+                    "title": "comms",
+                    "*source":"http://www.shutterstock.com/pic-255896113",
+                    "*credit":"Pretty Vectors",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Communications"
+            },
+            {
+                "title": "CSR/Foundation",
+                "body": "<p></p>",
+                "_graphic": {
+                    "src": "course/en/images/csr.png",
+                    "alt": "csr",
+                    "title": "csr",
+                    "*source":"http://www.shutterstock.com/pic.mhtml?id=149924576&src=lb-35924366",
+                    "*credit":"Sergey Nivens",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "CSR/Foundation"
+            },
+            {
+                "title": "Product/Marketing",
+                "body": "<p></p>",
+                "_graphic": {
+                    "src": "course/en/images/product.png",
+                    "alt": "product",
+                    "title": "product",
+                    "*source":"http://www.shutterstock.com/pic-185008832",
+                    "*credit":"surassawadee",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Product/Marketing"
             }
         ],
         "_pageLevelProgress": {
         "_isEnabled": true
         }
-    }, {
+    }, 
+    {
+        "_id":"c-38",
+        "_parentId":"b-31",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "What makes data open?",
+            "title": "What makes data open?",
+            "large": "course/en/images/odi-5-accordion_large.jpg",
+            "medium": "course/en/images/odi-5-accordion_large.jpg",
+            "small": "course/en/images/odi-5-accordion_large.jpg",
+            "*source":"http://www.shutterstock.com/pic.mhtml?id=154744388&src=lb-35924366",
+            "*credit":"Oleksiy Mark",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+      "_id":"c-37",
+      "_parentId":"b-31",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"left",
+      "title": "Where it's helped?",
+      "displayTitle": "Where it's helped?",
+      "body": "<p></p>",
+      "instruction": "",
+      "_items": [
+        {
+          "alt": "Communications",
+          "title": "Communications",
+          "body": "<p></p>"
+        },
+        {
+          "alt": "Generating income",
+          "title": "Generating income",
+          "body": "<p></p>"
+        },
+        {
+          "alt": "Efficiency savings",
+          "title": "Efficiency savings",
+          "body": "<p></p>"
+        },
+        {
+          "alt": "Improving services",
+          "title": "Improving services",
+          "body": "<p></p>"
+        },
+        {
+          "alt": "CSR & social impact",
+          "title": "CSR & social impact",
+          "body": "<p></p>"
+        }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
         "_id":"c-42",
         "_parentId":"b-33",
         "_type":"component",
