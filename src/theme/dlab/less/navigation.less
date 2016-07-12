@@ -130,6 +130,25 @@
 .navigation .navigation-drawer-toggle-button {
     display: none;
 }
+ul.dropdown ul { 
+        width: 320px; 
+        visibility: hidden; 
+        position: absolute; 
+        top: 100%; 
+        left: 0; 
+}
+ul.dropdown ul li { 
+        font-weight: normal; 
+        background: @odi-color-six; 
+        color: #000; 
+        border-bottom: 1px solid #ccc;
+        float: none;
+}
+ul.dropdown ul li a { 
+        border-right: none; 
+        width: 100%; 
+        display: inline-block; 
+}
 @media all and (max-width:(@device-width-medium - 1px)) {
   .navigation .navigation-drawer-toggle-button {
     display: inline-block;
@@ -145,6 +164,11 @@
     width: 100%;
     margin-left: 0px;
     margin-bottom: 0px;
+  } 
+  ul.dropdown ul li {
+    z-index: 3000;
   }
-  
+  ul.dropdown ul li a { 
+    margin-left: 10px;
+  }
 }

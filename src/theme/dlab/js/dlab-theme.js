@@ -17,7 +17,6 @@ var platform = "web";
 
 $(document).ready(function() {
 	setTimeout(function() {updateLanguageSwitcher(); },1000);
-	setTimeout(function() {$(".dropdown dt a").show();$('#country-select').show();},2000);
 	interval = setInterval(function() { checkState(); },3000);
 	$.getJSON("course/en/course.json",function(data) {
         if (typeof data.format === 'undefined') {
@@ -27,12 +26,24 @@ $(document).ready(function() {
         	showSaveSection();
         }
 	});
+	$("ul.dropdown li").hover(function(){
+		console.log("in here");
+        $(this).addClass("hover");
+        $('ul:first',this).css('visibility', 'visible');
+    }, function(){
+        $(this).removeClass("hover");
+        $('ul:first',this).css('visibility', 'hidden');
+    });
+
+    $("ul.dropdown li ul li:has(ul)").find("a:first").append(" &raquo; ");
 });
 $(document).keypress(function(e) {
     if (e.which == 115) {
     	showSaveSection();       
 	}
 });
+
+
 
 var moduleId = "";
 $.getJSON("course/config.json",function(data) {

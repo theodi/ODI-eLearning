@@ -43,6 +43,7 @@ echo "Updating navigation links"
 echo ""
 sed -i -e "s/\.\.\///g" src/course/$2/course.json
 sed -i -e "s/\.\.\/index.html/index.html/g" src/theme/$THEME/templates/navigation.hbs
+sed -i -e "s/\.\.\/mod/mod/g" src/theme/$THEME/templates/navigation.hbs
 sed -i -e "s/\.\.\/index.html/index.html/g" src/theme/$THEME/templates/drawer.hbs
 
 echo "Moving config into pace"
