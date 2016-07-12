@@ -84,6 +84,7 @@ echo "Restoring structure";
 `mv tmp/* src/course/`
 sed -i -e "s/course\/$2\/images/course\/en\/images/g" src/theme/$THEME/less/header.less
 sed -i -e "s/index.html/\.\.\/index.html/g" src/theme/$THEME/templates/navigation.hbs
+sed -i -e "s/mod/\.\.\/mod/g" src/theme/$THEME/templates/navigation.hbs
 sed -i -e "s/index.html/\.\.\/index.html/g" src/theme/$THEME/templates/drawer.hbs
 
 if [ $REMOVE ]; then
