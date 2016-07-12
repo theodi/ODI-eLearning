@@ -18,23 +18,17 @@
             "link": "Link"
         },
         "_resourcesItems": [
-             {
-                "_type": "link",
-                "_local": "true",
-        "title": "<span class='side-single-title'>Main menu</span>",
-                "_link": "../index.html"
-            },
             {
                 "_type": "link",
                 "_local": "true",
-        "title": "Module 1<span class='sidebar-module-progress' id='ODI_1_tick_sidebar'></span>",
+                "title": "Module 1<span class='sidebar-module-progress' id='ODI_1_tick_sidebar'></span>",
                 "description": "What is open data?",
                 "_link": "../module1/"
             },
             {
                 "_type": "link",
                 "_local": "true",
-        "title": "Module 2<span class='sidebar-module-progress' id='ODI_4_tick_sidebar'></span>",
+                "title": "Module 2<span class='sidebar-module-progress' id='ODI_4_tick_sidebar'></span>",
                 "description": "Why do we need to license?",
                 "_link": "../module4/"
             }

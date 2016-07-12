@@ -20,18 +20,18 @@
 	<div class="container">
 		<ul class="menu dropdown">
             <li class="menu-item">
-        		<a href="../index.html" onClick="window.location.href = '../index.html';" target="_blank">Home</a>
+        		<a class="topMenu" href="../index.html" onClick="window.location.href = '../index.html';" target="_blank">Home</a>
             </li>
-            <li class="menu-item">
+            <!--<li class="menu-item">
                 <a href="#">Modules</a>
                 <ul class="sub_menu">
                         <li><a href="../module1" onClick="window.location.href='../module1/'">What is Open Data?</a></li>
                         <li><a href="../module4" onClick="window.location.href='../module4/'">Why do we need to license?</a></li>
                 </ul>
             </li>
-            <!--<li class="menu-item">
+            <li class="menu-item">
             	<a href="#" data-event="toggleDrawer" alt="Drawer">Module Resources</a>
-            </li>-->
+            </li>
             <li class="menu-item">
         		<a href="http://www.dlab.or.tz/engagement" onClick="window.open('http://www.dlab.or.tz/engagement', '_blank');" target="_blank">Engagement</a>
             </li>
@@ -46,7 +46,7 @@
             </li>
             <li class="menu-item">
         		<a href="http://www.dlab.or.tz/contact" onClick="window.open('http://www.dlab.or.tz/contact', '_blank');" target="_blank">Contact</a>
-            </li>
+            </li>-->
         </ul>
 	</div>
   </div>
@@ -59,14 +59,54 @@
 			}
 		}
 	},1000);
-    $("ul.dropdown li").hover(function(){
-        console.log("in here");
-        $(this).addClass("hover");
-        $('ul:first',this).css('visibility', 'visible');
-    }, function(){
-        $(this).removeClass("hover");
-        $('ul:first',this).css('visibility', 'hidden');
+    $.getJSON("course/en/course.json",function(data) {
+        resources = data["_resources"];
+        $(resources).each(function(i,item) {
+            title = item.title;
+            subitems = item["_resourcesItems"];
+            if (subitems) {
+                list = document.createElement('li');
+                list.className = 'menu-item';
+                list.innerHTML = '<a class="topMenu" href="#">'+title+'</a>';
+                sub_menu = document.createElement('ul');
+                sub_menu.className = 'sub_menu';
+                list.appendChild(sub_menu);
+                $(subitems).each(function(i,links) {
+                    sublist = document.createElement('li');
+                    
+                    if (links["_type"] == "link") {
+                        link = document.createElement('a');
+                        link.href = links["_link"];
+                        link.innerHTML = "<h5>" + links.title + "</h5>";
+                        if (typeof links.description !== 'undefined') {
+                            link.innerHTML += links.description;
+                        }
+                        sublist.appendChild(link);
+                    } else {
+                        sublist.innerHTML = "<h5>" + links.title + "</h5>";
+                        if (typeof links.description !== 'undefined') {
+                            sublist.innerHTML = "<h5>" + links.title + "</h5>" + links.description;
+                        }
+                    }
+                    sub_menu.appendChild(sublist);
+                });
+                if (subitems.length > 0) {
+                    $('.menu').append(list);
+                }
+            }
+        });
+        updateListener();
     });
-
-    $("ul.dropdown li ul li:has(ul)").find("a:first").append(" &raquo; ");
+    function updateListener() {
+        $("ul.dropdown li").hover(function(){
+            $(this).addClass("hover");
+            $('ul:first',this).css('visibility', 'visible');
+        }, function(){
+            $(this).removeClass("hover");
+            $('ul:first',this).css('visibility', 'hidden');
+        });
+        $("ul.dropdown li ul li:has(ul)").find("a:first").append(" &raquo; ");
+    }
+    updateListener();
+    
 </script>
