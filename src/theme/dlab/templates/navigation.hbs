@@ -77,6 +77,13 @@
                     if (links["_type"] == "link") {
                         link = document.createElement('a');
                         link.href = links["_link"];
+                        link.onclick = function() {
+                            if (links["_local"] == "true") {
+                                window.location.href = links["_link"];
+                            } else {
+                                window.open(links["_link"],"_blank");
+                            }
+                        }
                         link.innerHTML = "<h5>" + links.title + "</h5>";
                         if (typeof links.description !== 'undefined') {
                             link.innerHTML += links.description;
