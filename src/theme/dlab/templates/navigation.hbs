@@ -1,0 +1,55 @@
+{{! Maintainers - Dave Tarrant}}
+{{! All links in the nav bar should have an attritbue of data-event, navigationView uses this to fire a global event}}
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Oswald" />
+<div class="navigation-inner clearfix">
+    <div id="odiLearning">
+	<span class="learningTop"></span>
+    </div>
+    <div class="save-section-outer">
+    <section id="save-section" class="save-section"></section>
+    </div>
+    <a href="#" class="navigation-drawer-toggle-button icon icon-list" alt="Drawer" onClick="if ( $( '#main-menu' ).is( ':hidden' ) ) { $( '#main-menu' ).slideDown(); } else { $( '#main-menu' ).slideUp();}"></a>
+
+</div>
+<section id="cloud-status" class="cloud-status">
+	<img id="cloud-status-img"></img>
+	<span id="cloud-status-text"></span>
+</section>
+<nav id="main-menu" class="navbar navbar-default" role="navigation">
+  <div class="collapse navbar-collapse" id="main-menu-inner">
+	<div class="container">
+		<ul class="menu">
+            <li class="menu-item">
+        		<a href="http://www.dlab.or.tz/training" onClick="window.open('http://www.dlab.or.tz/training', '_blank');" target="_blank">Home</a>
+            </li>
+            <li class="menu-item">
+            	<a href="#" data-event="toggleDrawer" alt="Drawer">Module Resources</a>
+            </li>
+            <li class="menu-item">
+        		<a href="http://www.dlab.or.tz/engagement" onClick="window.open('http://www.dlab.or.tz/engagement', '_blank');" target="_blank">Engagement</a>
+            </li>
+            <li class="menu-item">
+        		<a href="http://www.dlab.or.tz/management" onClick="window.open('http://www.dlab.or.tz/management', '_blank');" target="_blank">Management</a>
+            </li>
+            <li class="menu-item">
+        		<a href="http://www.dlab.or.tz/events" onClick="window.open('http://www.dlab.or.tz/events', '_blank');" target="_blank">Events</a>
+            </li>
+            <li class="menu-item">
+        		<a href="http://www.dlab.or.tz/forum" onClick="window.open('http://www.dlab.or.tz/forum', '_blank');" target="_blank">Forum</a>
+            </li>
+            <li class="menu-item">
+        		<a href="http://www.dlab.or.tz/contact" onClick="window.open('http://www.dlab.or.tz/contact', '_blank');" target="_blank">Contact</a>
+            </li>
+        </ul>
+	</div>
+  </div>
+</nav>
+<script>
+	setInterval(function() {
+		if ($(window).width() > 760) {
+			if ( $( '#main-menu' ).is( ':hidden' ) ) { 
+				$('#main-menu').slideDown();
+			}
+		}
+	},1000);
+</script>

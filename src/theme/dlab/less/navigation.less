@@ -1,0 +1,150 @@
+// Navigation styling
+// ==================
+
+.navigation {
+    width: @default-width;
+    box-shadow: @page-box-shadow;
+    background-image: url('assets/dlab_banner.png');
+    background-repeat: no-repeat;
+    background-color:@navigation-color;
+    height:@navigation-height;
+    border-top:@navigation-border;
+    border-bottom:@navigation-border;
+    background-position: right;
+    .ie8 & {
+        max-width:@ie8-max-width;
+    }
+    @media all and (max-width:(@device-width-large - 1px)) {
+        width: 100%;
+    }
+    @media all and (max-width:(@device-width-medium - 1px)) {
+        height:@navigation-height-mobile;
+    }
+    .navigation-inner {
+    }
+    .icon {
+        padding:@navigation-padding;
+        @media all and (max-width:(@device-width-medium - 1px)) {
+            padding:@navigation-padding-mobile;
+        }
+        color:@navigation-icon-color;
+        .no-touch &:hover {
+            color:@navigation-icon-hover-color;
+        }
+    }
+    #drawText {
+	font-family:@font-family;
+	font-size: 0.75em;
+	bottom: 6px;
+	position: relative;
+	margin-left: 3px;
+	text-transform: uppercase;
+    	@media all and (max-width:(@device-width-medium - 1px)) {
+   		display: none;	
+	} 
+    }
+    .navigation-drawer-toggle-button {
+    	@media all and (min-width:(@device-width-medium - 1px)) {
+       		width: 105px;
+		height: 24px;
+		padding: 3px;
+		padding-bottom: 1px;
+		margin-top: 13px;
+		border-radius: 6px;
+		font-size: 29px;
+    	}
+	@media all and (max-width:(@device-width-medium - 1px)) {
+                font-size: 2.5em;
+		padding-top: 6px;
+		padding-right: 25px;
+        }
+    }
+    .page-level-progress-navigation {
+        .page-level-progress-navigation-completion {
+            background: @plp-navigation-background;
+            border: none;
+            height: 10px;
+            .page-level-progress-navigation-bar {
+                background: @plp-navigation-completed;
+            }
+        }
+    }
+    #odiLearning {
+            display: inline-block;
+            float: left;
+    }
+    .learningTop {
+	    color: #eeeeee;
+        vertical-align: top;
+        font-size: 40px;
+        position: relative;
+        top: 21px;
+        left: 10px;
+        @media all and (max-width:(@device-width-medium - 1px)) {
+		  display: none;
+        }
+    }
+}
+#main-menu {
+  margin-bottom: 15px;
+  box-shadow: none;
+  border-radius: 0;
+  background: none;
+  border: none;
+  min-height: 0;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  top: -30px;
+}
+#main-menu .container {
+  background-color: #146c89;
+  height: 45px;
+}
+#main-menu .container ul.menu {
+  list-style: none outside;
+  font-size: 0.9em;
+  font-family: Oswald;
+}
+#main-menu .container ul.menu li {
+  display: inline-block;
+  float: left;
+  padding: 0;
+  border-left: 1px solid #4e69a2;
+  position: relative;
+  width: inherit;
+  margin-left: 0px;
+}
+#main-menu .container ul.menu li > a {
+  display: block;
+  line-height: 21px;
+  padding: 12px 20px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.076em;
+  text-decoration: none;
+}
+#main-menu .container ul.menu li a:hover {
+  color: #c01700;
+}
+.navigation .navigation-drawer-toggle-button {
+    display: none;
+}
+@media all and (max-width:(@device-width-medium - 1px)) {
+  .navigation .navigation-drawer-toggle-button {
+    display: inline-block;
+  }
+  #main-menu {
+    display: none;
+  }
+  #main-menu .container {
+    height: 325px;
+  }
+  #main-menu .container ul.menu li {
+    display: block;
+    width: 100%;
+    margin-left: 0px;
+    margin-bottom: 0px;
+  }
+  
+}

@@ -48,4 +48,4 @@ define(function(require) {
 
 	return ResourcesView;
 })
-	
+
