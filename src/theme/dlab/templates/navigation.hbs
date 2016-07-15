@@ -104,15 +104,24 @@
         });
         updateListener();
     });
+    
     function updateListener() {
-        $("ul.dropdown li").hover(function(){
-            $(this).addClass("hover");
-            $('ul:first',this).css('visibility', 'visible');
-        }, function(){
-            $(this).removeClass("hover");
-            $('ul:first',this).css('visibility', 'hidden');
+        $('.menu .sub_menu').hide();
+        $("ul.dropdown li").click(function(e) {
+            e.preventDefault();
+    
+            sub_menu = $('ul:first',this);
+            $(".menu .sub_menu").not(sub_menu).hide();
+    
+            // here is what I want to do
+            $('ul:first',this).toggle();
+            $(window).click(function() {
+                $(".menu .sub_menu").hide();
+            });
+            $('.menu').click(function(event){
+                event.stopPropagation();
+            });
         });
-        $("ul.dropdown li ul li:has(ul)").find("a:first").append(" &raquo; ");
     }
     updateListener();
     
