@@ -4,11 +4,92 @@
     <div id="odiLearning">
 	<span class="learningTop"></span>
     </div>
-    <a href="#" class="navigation-drawer-toggle-button icon icon-list" data-event="toggleDrawer" alt="Drawer"><span id="drawText">Menu</span></a>
+    <a href="#" class="navigation-drawer-toggle-button icon icon-list" alt="Drawer" onClick="if ( $( '#main-menu' ).is( ':hidden' ) ) { $( '#main-menu' ).slideDown(); } else { $( '#main-menu' ).slideUp();}"></a>
 </div>
 <section id="cloud-status" class="cloud-status">
 	<img id="cloud-status-img"></img>
 	<span id="cloud-status-text"></span>
 </section>
-<section id="odibanner" class="odibanner">
-</section>
+<nav id="main-menu" class="navbar navbar-default" role="navigation">
+  <div class="collapse navbar-collapse" id="main-menu-inner">
+	<div class="container">
+		<ul class="menu dropdown">
+            <li class="menu-item">
+        		<a class="topMenu" href="../index.html" onClick="window.location.href = '../index.html';" target="_blank">Home</a>
+            </li>
+        </ul>
+	</div>
+  </div>
+</nav>
+<script>
+	setInterval(function() {
+		if ($(window).width() > 760) {
+			if ( $( '#main-menu' ).is( ':hidden' ) ) { 
+				$('#main-menu').slideDown();
+			}
+		}
+	},1000);
+    $.getJSON("course/en/course.json",function(data) {
+        resources = data["_resources"];
+        $(resources).each(function(i,item) {
+            title = item.title;
+            subitems = item["_resourcesItems"];
+            if (subitems) {
+                list = document.createElement('li');
+                list.className = 'menu-item';
+                list.innerHTML = '<a class="topMenu" href="#">'+title+'</a>';
+                sub_menu = document.createElement('ul');
+                sub_menu.className = 'sub_menu';
+                list.appendChild(sub_menu);
+                $(subitems).each(function(i,links) {
+                    sublist = document.createElement('li');
+                    
+                    if (links["_type"] == "link") {
+                        link = document.createElement('a');
+                        link.href = links["_link"];
+                        link.onclick = function() {
+                            if (links["_local"] == "true") {
+                                window.location.href = links["_link"];
+                            } else {
+                                window.open(links["_link"],"_blank");
+                            }
+                        }
+                        link.innerHTML = "<h5>" + links.title + "</h5>";
+                        if (typeof links.description !== 'undefined') {
+                            link.innerHTML += links.description;
+                        }
+                        sublist.appendChild(link);
+                    } else {
+                        sublist.innerHTML = "<h5>" + links.title + "</h5>";
+                        if (typeof links.description !== 'undefined') {
+                            sublist.innerHTML = "<h5>" + links.title + "</h5>" + links.description;
+                        }
+                    }
+                    sub_menu.appendChild(sublist);
+                });
+                if (subitems.length > 0) {
+                    $('.menu').append(list);
+                }
+            }
+        });
+        updateListener();
+    });
+    
+    function updateListener() {
+        $("ul.dropdown li").hover(function(){
+    
+            $(this).addClass("hover");
+            $('ul:first',this).css('visibility', 'visible');
+    
+        }, function(){
+    
+            $(this).removeClass("hover");
+            $('ul:first',this).css('visibility', 'hidden');
+        
+        });
+    
+        $("ul.dropdown li ul li:has(ul)").find("a:first").append(" &raquo; ");
+    }
+    updateListener();
+    
+</script>
