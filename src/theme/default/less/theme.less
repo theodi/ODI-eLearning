@@ -20,26 +20,73 @@
 // @odi-color-nine: magenta
 // @odi-color-ten: light green
 
-.b-10 {
-    background: #722ea5;
+body {
+	font-family: "mary_ann_betabold", Arial, sans-serif
 }
 
-.b-25 {
-    background: #ff6700;
+.b-10, .b-25 {
+    background: @odi-color-five;
 }
-
-.b-30 {
-    background: #08def9;
+.b-20 {
+	.narrative-component .narrative-progress {
+		background-color: @odi-color-five;
+		border: 1px solid @odi-color-five;
+	}
+	.narrative-component .narrative-progress.selected {
+		background-color: white;
+	}
+	.narrative-component .narrative-controls {
+		background-color: @odi-color-five;
+	}
+	.narrative-component .narrative-content {
+		background-color: @odi-color-five;
+	}
+	.narrative-component.desktop .narrative-slide-container {
+		float: right;
+	}
 }
-
-.b-35 {
-    background: #1dd3a7;
+.b-28 {
+	.accordion-component .accordion-item-title.visited,
+	.accordion-component .accordion-item-title  {
+		background-color: @odi-color-five;
+	}
+	.accordion-component .accordion-item-body {
+		border-right: 1px solid @odi-color-five;
+   		border-left: 1px solid @odi-color-five;
+    	border-bottom: 1px solid @odi-color-five;
+	}
 }
-
-.b-45 {
-    background: #ef3aab;
+.b-30, .b-32 {
+    background: @odi-color-three;
 }
-.notify .notify-popup a {
-    color:#fff;
-    text-decoration: underline;
+.b-31 {
+	.accordion-component .accordion-item-title.visited,
+	.accordion-component .accordion-item-title  {
+		background-color: @odi-color-three;
+	}
+	.accordion-component .accordion-item-body {
+		border-right: 1px solid @odi-color-three;
+   		border-left: 1px solid @odi-color-three;
+    	border-bottom: 1px solid @odi-color-three;
+	}
+}
+.b-34, .b-40, .b-50 {
+    background: @odi-color-two;
+}
+.b-35, .b-45 {
+	.mcq-component .mcq-item {
+		background: @odi-color-two;
+	}
+	.mcq-component .mcq-item:hover {
+		background: @odi-color-five;
+	}
+	.mcq-component .mcq-item label {
+		background: @odi-color-two;
+	}
+	.button {
+		background-color: @odi-color-two;
+	}
+	.button:hover {
+		background-color: @odi-color-five;
+	}
 }

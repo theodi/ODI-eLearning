@@ -42,10 +42,28 @@
     "_type":"component",
     "_component":"text",
     "_classes":"",
-    "_layout":"full",
+    "_layout":"right",
         "title":"The five components of the perfect open data pitch",
         "displayTitle": "The five components of the perfect open data pitch",
         "body": "<p>Creating an effecitive pitch for open data requires 5 elements. The elements are common to most 'elevator pitches' and combine to create a clear, compelling case for action. The pitch should be delivered in 90 seconds or less.</p><h5>The five components of the perfect pitch are:</h5><ul class='ticks'><li>What it is - a plain definition of the concept</li><li>What is does - a tailored description of the benefit</li><li>Where it's helped - a relevant, quanitifed proof point</li><li>Why it's best - a justification of why it beats other options</li><li>What next - a realistic decision that can be taken on the spot</li></ul></p><p>Below we explore each of these elements in greater detail."
+    },
+    {
+        "_id":"c-12",
+        "_parentId":"b-10",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "The perfect pitch",
+            "title": "The perfect pitch",
+            "large": "course/en/images/c12.jpg",
+            "medium": "course/en/images/c12.jpg",
+            "small": "course/en/images/c12.jpg",
+            "*source":"http://www.shutterstock.com/pic-234353791.html",
+            "*credit":"tai11",
+            "*license":"Shutterstock Standard License"
+        }
     },
     {
         "_id": "c-20",
@@ -109,7 +127,7 @@
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
-        "_layout":"right",
+        "_layout":"left",
         "_graphic": {
             "alt": "What is open data?",
             "title": "What is open data?",
@@ -127,7 +145,7 @@
         "_type":"component",
         "_component":"text",
         "_classes":"",
-        "_layout":"left",
+        "_layout":"right",
         "title":"What is open data?",
         "displayTitle":"What is open data?",
         "body":"<p>Open data is data that <strong>anyone can access, use and share</strong>.</p><p>Open data becomes usable when made available in a common, machine-readable format.</p><p>Open data must be licensed. Its licence must permit people to use the data in any way they want, including transforming, combining and sharing it with others, even commercially.</p>"
@@ -198,11 +216,11 @@
                 "title": "Leadership & Strategy",
                 "body": "<p>Most organisations either already have or are already exploring the need for a data strategy. When speaking with those in strategic or leadership roles, strengthening the data strategy is a key argument.</p><p>Open data supports the wider data strategy of the organisation by enriching proprietary data at no cost and adding new options to the data sharing capabilities of the business.</p>",
                 "_graphic": {
-                    "src": "course/en/images/leadership.png",
-                    "alt": "leadership",
-                    "title": "leadership",
-                    "*source":"http://www.shutterstock.com/pic-255896113",
-                    "*credit":"Pretty Vectors",
+                    "src": "course/en/images/c36-1.jpg",
+                    "alt": "Leadership & Strategy",
+                    "title": "Leadership & Strategy",
+                    "*source":"http://www.shutterstock.com/pic-238771996.html",
+                    "*credit":"Mangsaab",
                     "*license":"Shutterstock Standard License"
                 },
                 "strapline": "Leadership & Strategy"
@@ -211,11 +229,11 @@
                 "title": "Operations",
                 "body": "<p>For those in operations roles, efficiency is a priority. Data already plays a role in efficiency savings by enabling faster exchange of information. Open data creates efficiency savings in data access orders of magnitude greater.</p><p>The ability to access and share data across multiple platforms and between numerous organisations eradicates the time and cost normally associated with acquiring valuable datasets.</p>",
                 "_graphic": {
-                    "src": "course/en/images/operations.png",
-                    "alt": "ops",
-                    "title": "ops",
-                    "*source":"http://www.shutterstock.com/pic.mhtml?id=149924576&src=lb-35924366",
-                    "*credit":"Sergey Nivens",
+                    "alt": "Operations",
+                    "title": "Operations",
+                    "src": "course/en/images/c36-2.png",
+                    "*source":"http://www.shutterstock.com/pic-245234284.html",
+                    "*credit":"Positive thinker",
                     "*license":"Shutterstock Standard License"
                 },
                 "strapline": "Operations"
@@ -224,11 +242,11 @@
                 "title": "Finance/Ventures",
                 "body": "<p>For this in ventures or finance, the priority is to ensure secure value return to the organisation from any prospective investment in open data. When speaking to those in ventures capacity, the high growth potential of open data services and initial value creation support an effective case. Open data produces viable equity ventures and business lines.<p></p>Open data has already created attractive target entities for acquisition and can contribute to the creation of viable independent business units.<p>",
                 "_graphic": {
-                    "src": "course/en/images/finance.png",
-                    "alt": "finance",
-                    "title": "finance",
-                    "*source":"http://www.shutterstock.com/pic-185008832",
-                    "*credit":"surassawadee",
+                    "src": "course/en/images/c36-3.jpg",
+                    "alt": "Finance/Ventures",
+                    "title": "Finance/Ventures",
+                    "*source":"http://www.shutterstock.com/pic-164731838.html",
+                    "*credit":"STH",
                     "*license":"Shutterstock Standard License"
                 },
                 "strapline": "Finance/Ventures"
@@ -237,11 +255,11 @@
                 "title": "Communications",
                 "body": "<p>For those in communications roles, data can seem irrelevant to their work. The key message centres on the role of open data in providing media exposure for organisational priorities and a complementary channel to different media outlets.</p><p> Open data has a proven track record in creating positive media coverage. The rise of data journalism has created a need for alternative channels that traditional releases and media alerts cannot reach. Open data also increases perceived neutrality and increases trust from the public that resulting articles are not ‘spun’.</p>",
                 "_graphic": {
-                    "src": "course/en/images/comms.png",
-                    "alt": "comms",
-                    "title": "comms",
-                    "*source":"http://www.shutterstock.com/pic-255896113",
-                    "*credit":"Pretty Vectors",
+                    "src": "course/en/images/c36-4.jpg",
+                    "alt": "Communications",
+                    "title": "Communications",
+                    "*source":"http://www.shutterstock.com/pic-239545075.html",
+                    "*credit":"everything possible",
                     "*license":"Shutterstock Standard License"
                 },
                 "strapline": "Communications"
@@ -250,11 +268,11 @@
                 "title": "CSR/Foundation",
                 "body": "<p>Those in CSR or foundation roles have the greatest natural connection to open data. In addition to the transparency aspect, this audience responds positively to the ability of open data to found and strengthen new partnerships.</p><p>Exchanging open data with other organisations has enabled more effective collaboration with existing networks and creates an open platform for innovation and shared learning. By engaging with open data, you can increase your long term profits and shareholder trust.</p>",
                 "_graphic": {
-                    "src": "course/en/images/csr.png",
-                    "alt": "csr",
-                    "title": "csr",
-                    "*source":"http://www.shutterstock.com/pic.mhtml?id=149924576&src=lb-35924366",
-                    "*credit":"Sergey Nivens",
+                    "src": "course/en/images/c36-5.jpg",
+                    "alt": "CSR/Foundation",
+                    "title": "CSR/Foundation",
+                    "*source":"http://www.shutterstock.com/pic-201870622.html",
+                    "*credit":"Your Design",
                     "*license":"Shutterstock Standard License"
                 },
                 "strapline": "CSR/Foundation"
@@ -263,11 +281,11 @@
                 "title": "Product/Marketing",
                 "body": "<p>Those in product or marketing roles will respond best to the potential of open data to enhance the customer experience. The shirt in consumer expectation toward the creation of a custom experience can be satisfied through greater provision of open data to complement the product function.</p><p>Open data has already enabled startups like CityMapper and OpenCorporates have shifted the expectations of consumers in their respective markets to demands not only for the product but the underlying data. In addition established businesses like Spotify use open data to enhance the listening experience and develop an edge over competitors.</p>",
                 "_graphic": {
-                    "src": "course/en/images/product.png",
-                    "alt": "product",
-                    "title": "product",
-                    "*source":"http://www.shutterstock.com/pic-185008832",
-                    "*credit":"surassawadee",
+                    "alt": "Product/Marketing",
+                    "title": "Product/Marketing",
+                    "src": "course/en/images/c36-6.png",
+                    "*source":"http://www.shutterstock.com/pic-134315933.html",
+                    "*credit":"Photoraidz",
                     "*license":"Shutterstock Standard License"
                 },
                 "strapline": "Product/Marketing"
@@ -343,7 +361,7 @@
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
-        "_layout":"right",
+        "_layout":"left",
         "_graphic": {
             "small": "course/en/images/c-21.jpg",
             "medium": "course/en/images/c-21.jpg",
@@ -361,7 +379,7 @@
       "_type":"component",
       "_component":"accordion",
       "_classes":"",
-      "_layout":"left",
+      "_layout":"right",
       "title": "Why it's best?",
       "displayTitle": "Why it's best?",
       "body": "<p>Open data is data that anyone can access, use and share. Unlike a traditional business where your resources belong only to you and can be protected, open data can be used by others at the same time. To understand how businesses that use open data operate, we need to consider the value proposition of open data to a business.</p>",
@@ -392,13 +410,35 @@
         "_isEnabled": true
       }
     },
-        {
+    {
+        "_id":"c-411",
+        "_parentId":"b-33",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "Accessing right data format",
+            "title": "Accessing right data format",
+            "large": "course/en/images/c-411.jpg",
+            "medium": "course/en/images/c-411.jpg",
+            "small": "course/en/images/c-411.jpg",
+            "*source": "http://www.shutterstock.com/pic-199692071",
+            "*credit": "Ing. Andrej Kaprinay",
+            "*licence": "Shutterstock standard license"
+        }
+    },
+    {
     "_id":"c-41",
     "_parentId":"b-33",
     "_type":"component",
     "_component":"text",
     "_classes":"",
-    "_layout":"full",
+    "_layout":"left",
         "title":"what next?",
         "displayTitle": "what next?",
         "body": "<p>Once you have made the key points in your pitch for open data, it is vital that you make create the conditions for action. Listeners feel good taking an action in response to a pitch. Your task is to create an action which allows them to say yes (or no) at the time without needing to go away and consider.</p><p>Creating an action someone can decide on at the time means you can ask for too much. If the person would need to consult others or consider further, the action is too big. The ideal is an action that is small, clear, and moves the agenda forward.</p><p>Good actions include, getting a date in the diary for a follow-up meeting with more people, a commitment to read and respond to a case study relevant to their interests or them sending an assessment of feasibility.</p><p>Keep the timeframe and impact clear. Finally, only ask for budget or time which is reasonable given the level of expected return.</p>"
@@ -560,7 +600,7 @@
             {
                 "text": "Open data improves outreach and forges social partnerships.",
                 "_shouldBeSelected": false
-            },
+            }
         ],
         "_feedback":{
             "correct":"<h5>That’s right!</h5><p>Open data, among other benefits, can create viable ventures, increase media reach and forge new partnerships.</p>",
