@@ -1,19 +1,19 @@
 {
-  "name": "LGA",
+  "name": "Sainsburys",
   "version": "1.2.0",
-  "description": "A contributed LGA theme",
+  "description": "A contributed Sainsburys theme",
   "main": "",
   "scripts": {
     "test": "./node_modules/.bin/karma start --single-run --browsers PhantomJS"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/davetaz/adapt-tanzania-theme.git"
+    "url": "git://github.com/davetaz/adapt-sainsburys-theme.git"
   },
   "author": "David Tarrant",
   "license": "CC-BY-SA 4.0",
   "bugs": {
-    "url": "https://github.com/davetaz/adapt-tanzania-theme/issues"
+    "url": "https://github.com/davetaz/adapt-sainsburys-theme/issues"
   },
   "devDependencies": {
     "karma": "0.10",
