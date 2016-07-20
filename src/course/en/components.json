@@ -30,7 +30,7 @@
         "_layout":"left",
         "title":"Data advocacy",
         "displayTitle":"Data advocacy",
-        "body":"<p>Open and shared data are effective resources for any business. Whether to develop a clearer picture of operations, reduce inefficiency in supply chains or increase reach, a growing number of organisations now perceive data sharing as a key source of value.</p><p>Sharing or opening data also requires in the culture of the organisation. Most businesses are configured to protect their data resources even where benefits of greater sharing outweigh costs. The key to overcoming this resistance in clear, effective communication of the benefits open and shared data provide.</p><p>This module provides you with the ability to deliver a tailored pitch for open data that highlights value and overcomes objections.</p>",
+        "body":"<p>Open and shared data are effective resources for any business. Whether to develop a clearer picture of operations, reduce inefficiency in supply chains or increase reach, a growing number of organisations now perceive data sharing as a key source of value.</p><p>Sharing or opening data also requires a change in the culture of the organisation. Most businesses are configured to protect their data resources, even where benefits of greater sharing outweigh costs. The key to overcoming this resistance is clear, effective communication of the benefits open and shared data provide.</p><p>This module provides you with the ability to deliver a tailored pitch for open data that highlights value and overcomes objections.</p>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
@@ -45,10 +45,10 @@
         "_layout":"right",
         "title":"",
         "displayTitle":"",
-        "body":"<h5>In this module we’ll explore the following:</h5><ul class='ticks'><li>What elements make up the perfect pitch for open data?</li><li>How to tailor your pitch to specific audiences?</li><li>Where to find relevant case studies</li><li>How to deliver a pitch for open data</li></ul>",
+        "body":"<h5>In this module we’ll explore the following:</h5><ul class='ticks'><li>What elements make up the perfect pitch for open data?</li><li>How to tailor your pitch to specific audiences</li><li>Where to find relevant case studies</li><li>How to deliver a pitch for open data</li></ul>",
         "instruction":"",
         "_pageLevelProgress": {
-            "_isEnabled": true
+            "_isEnabled": false
         }
     },
     {
@@ -60,7 +60,7 @@
     "_layout":"right",
         "title":"The five components of the perfect open data pitch",
         "displayTitle": "The five components of the perfect open data pitch",
-        "body": "<p>Creating an effecitive pitch for open data requires 5 elements. The elements are common to most 'elevator pitches' and combine to create a clear, compelling case for action. The pitch should be delivered in 90 seconds or less.</p><h5>The five components of the perfect pitch are:</h5><ul class='ticks'><li>What it is - a plain definition of the concept</li><li>What is does - a tailored description of the benefit</li><li>Where it's helped - a relevant, quanitifed proof point</li><li>Why it's best - a justification of why it beats other options</li><li>What next - a realistic decision that can be taken on the spot</li></ul></p><p>Below we explore each of these elements in greater detail."
+        "body": "<p>Creating an effecitive pitch for open data requires five elements. The elements are common to most 'elevator pitches' and combine to create a clear, compelling case for action. The pitch should be delivered in 90 seconds or less.</p><h5>The five components of the perfect pitch are:</h5><ul class='ticks'><li>What it is - a plain definition of the concept</li><li>What is does - a tailored description of the benefit</li><li>Where it's helped - a relevant, quanitifed proof point</li><li>Why it's best - a justification of why it beats other options</li><li>What next - a realistic decision that can be taken on the spot</li></ul></p><p>Below we explore each of these elements in greater detail."
     },
     {
         "_id":"c-12",
@@ -222,13 +222,13 @@
         "_type":"component",
         "_layout": "full",
         "_component": "narrative",
-        "title": "What is does",
-        "displayTitle": "What is does",
-        "body": "<p>Open data can deliver different benefits depending on its use. A major pitfall of open data advocates is using generic arguments when speaking about the advantages. A strong pitch for open data needs to be closely tailored to the priorities and concerns of your audience. In most cases this can be determined from their professional context. Below we examine the six most common types of decision maker along with the most relevant benefits of open data</p>",
+        "title": "What it does",
+        "displayTitle": "What it does",
+        "body": "<p>Open data can deliver different benefits depending on its use. A major pitfall of those who advocate open data is using generic arguments when speaking about the advantages. A strong pitch for open data needs to be closely tailored to the priorities and concerns of your audience. In most cases this can be determined from their professional context. Below we examine the six most common decision maker roles along with the most relevant benefits of open data.</p>",
         "instruction": "<em class='desktop-instruction'>Click the forward arrow to see more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
         "_items": [
             {
-                "title": "Leadership & Strategy",
+                "title": "Leadership and Strategy",
                 "body": "<p>Most organisations either already have or are already exploring the need for a data strategy. When speaking with those in strategic or leadership roles, strengthening the data strategy is a key argument.</p><p>Open data supports the wider data strategy of the organisation by enriching proprietary data at no cost and adding new options to the data sharing capabilities of the business.</p>",
                 "_graphic": {
                     "src": "course/en/images/c36-1.jpg",
@@ -238,11 +238,11 @@
                     "*credit":"Mangsaab",
                     "*license":"Shutterstock Standard License"
                 },
-                "strapline": "Leadership & Strategy"
+                "strapline": "Leadership and Strategy"
             },
             {
                 "title": "Operations",
-                "body": "<p>For those in operations roles, efficiency is a priority. Data already plays a role in efficiency savings by enabling faster exchange of information. Open data creates efficiency savings in data access orders of magnitude greater.</p><p>The ability to access and share data across multiple platforms and between numerous organisations eradicates the time and cost normally associated with acquiring valuable datasets.</p>",
+                "body": "<p>For those in operations roles, efficiency is a priority. Data already plays a role in efficiency savings by enabling faster exchange of information. Open data creates efficiency savings in data access orders of greater magnitude.</p><p>The ability to access and share data across multiple platforms and between numerous organisations eradicates the time and cost normally associated with acquiring valuable datasets.</p>",
                 "_graphic": {
                     "alt": "Operations",
                     "title": "Operations",
@@ -254,12 +254,12 @@
                 "strapline": "Operations"
             },
             {
-                "title": "Finance/Ventures",
-                "body": "<p>For this in ventures or finance, the priority is to ensure secure value return to the organisation from any prospective investment in open data. When speaking to those in ventures capacity, the high growth potential of open data services and initial value creation support an effective case. Open data produces viable equity ventures and business lines.<p></p>Open data has already created attractive target entities for acquisition and can contribute to the creation of viable independent business units.<p>",
+                "title": "Finance or Ventures",
+                "body": "<p>For those in ventures or finance, the priority is to ensure secure value return to the organisation from any prospective investment in open data. When speaking to those in ventures capacity, the high growth potential of open data services and initial value creation supports an effective case. Open data produces viable equity ventures and business lines.<p></p>Open data has already created attractive target entities for acquisition and can contribute to the creation of viable independent business units.<p>",
                 "_graphic": {
                     "src": "course/en/images/c36-3.jpg",
-                    "alt": "Finance/Ventures",
-                    "title": "Finance/Ventures",
+                    "alt": "Finance or Ventures",
+                    "title": "Finance or Ventures",
                     "*source":"http://www.shutterstock.com/pic-164731838.html",
                     "*credit":"STH",
                     "*license":"Shutterstock Standard License"
@@ -280,30 +280,30 @@
                 "strapline": "Communications"
             },
             {
-                "title": "CSR/Foundation",
+                "title": "CSR or Foundation",
                 "body": "<p>Those in CSR or foundation roles have the greatest natural connection to open data. In addition to the transparency aspect, this audience responds positively to the ability of open data to found and strengthen new partnerships.</p><p>Exchanging open data with other organisations has enabled more effective collaboration with existing networks and creates an open platform for innovation and shared learning. By engaging with open data, you can increase your long term profits and shareholder trust.</p>",
                 "_graphic": {
                     "src": "course/en/images/c36-5.jpg",
-                    "alt": "CSR/Foundation",
-                    "title": "CSR/Foundation",
+                    "alt": "CSR or Foundation",
+                    "title": "CSR or Foundation",
                     "*source":"http://www.shutterstock.com/pic-201870622.html",
                     "*credit":"Your Design",
                     "*license":"Shutterstock Standard License"
                 },
-                "strapline": "CSR/Foundation"
+                "strapline": "CSR or Foundation"
             },
             {
-                "title": "Product/Marketing",
-                "body": "<p>Those in product or marketing roles will respond best to the potential of open data to enhance the customer experience. The shirt in consumer expectation toward the creation of a custom experience can be satisfied through greater provision of open data to complement the product function.</p><p>Open data has already enabled startups like CityMapper and OpenCorporates have shifted the expectations of consumers in their respective markets to demands not only for the product but the underlying data. In addition established businesses like Spotify use open data to enhance the listening experience and develop an edge over competitors.</p>",
+                "title": "Product or Marketing",
+                "body": "<p>Those in product or marketing roles will respond best to the potential of open data to enhance the customer experience. The shift in consumer expectation towards the creation of a custom experience can be satisfied through greater provision of open data to complement the product function.</p><p>Open data has already enabled startups like CityMapper and OpenCorporates have shifted the expectations of consumers in their respective markets to demands not only for the product but the underlying data. In addition, established businesses like Spotify use open data to enhance the listening experience and develop an edge over competitors.</p>",
                 "_graphic": {
-                    "alt": "Product/Marketing",
-                    "title": "Product/Marketing",
+                    "alt": "Product or Marketing",
+                    "title": "Product or Marketing",
                     "src": "course/en/images/c36-6.png",
                     "*source":"http://www.shutterstock.com/pic-134315933.html",
                     "*credit":"Photoraidz",
                     "*license":"Shutterstock Standard License"
                 },
-                "strapline": "Product/Marketing"
+                "strapline": "Product or Marketing"
             }
         ],
         "_pageLevelProgress": {
@@ -335,8 +335,8 @@
       "_component":"accordion",
       "_classes":"",
       "_layout":"left",
-      "title": "Where it's helped?",
-      "displayTitle": "Where it's helped?",
+      "title": "Where it's helped",
+      "displayTitle": "Where it's helped",
       "body": "<p></p>",
       "instruction": "",
       "_items": [
@@ -395,8 +395,8 @@
       "_component":"accordion",
       "_classes":"",
       "_layout":"right",
-      "title": "Why it's best?",
-      "displayTitle": "Why it's best?",
+      "title": "Why it's best",
+      "displayTitle": "Why it's best",
       "body": "<p>Open data is data that anyone can access, use and share. Unlike a traditional business where your resources belong only to you and can be protected, open data can be used by others at the same time. To understand how businesses that use open data operate, we need to consider the value proposition of open data to a business.</p>",
       "instruction": "<em>Click below to explore tools that unlock data that is <b>on the Web</b></em>",
       "_items": [
@@ -454,8 +454,8 @@
     "_component":"text",
     "_classes":"",
     "_layout":"left",
-        "title":"what next?",
-        "displayTitle": "what next?",
+        "title":"What next?",
+        "displayTitle": "What next?",
         "body": "<p>Once you have made the key points in your pitch for open data, it is vital that you make create the conditions for action. Listeners feel good taking an action in response to a pitch. Your task is to create an action which allows them to say yes (or no) at the time without needing to go away and consider.</p><p>Creating an action someone can decide on at the time means you can ask for too much. If the person would need to consult others or consider further, the action is too big. The ideal is an action that is small, clear, and moves the agenda forward.</p><p>Good actions include, getting a date in the diary for a follow-up meeting with more people, a commitment to read and respond to a case study relevant to their interests or them sending an assessment of feasibility.</p><p>Keep the timeframe and impact clear. Finally, only ask for budget or time which is reasonable given the level of expected return.</p>"
     },
     {
@@ -613,7 +613,7 @@
                 "_shouldBeSelected": true
             },
             {
-                "text": "Open data improves outreach and forges social partnerships.",
+                "text": "Open data improves outreach and forges social partnerships",
                 "_shouldBeSelected": false
             }
         ],
@@ -673,23 +673,23 @@
         "instruction": "<em>Choose your answer, then click 'Submit'</em>",
         "_items": [
             {
-                "text": "",
+                "text": "The Climate Corporation was bought by Monsanto for $430m in 2013 for their use of farm data, which has revolutionised the agricultural industry.",
                 "_shouldBeSelected": true
             },
             {
-                "text": "",
+                "text": "The government of Catalunya achieved savings of €2.6m per year in reduced staff costs from cross-department access to map data",
                 "_shouldBeSelected": false
             },
             {
-                "text": "",
+                "text": "Prescribing Analytics identified a £200m annual saving in NHS by switching to own-brand statins and more efficient delivery routes",
                 "_shouldBeSelected": false
             }
         ],
         "_feedback":{
-            "correct":"<h5>That’s right!</h5><p></p>",
+            "correct":"<h5>That’s right!</h5><p>The Climate Corporation was bought by Monsanto for a larger amount - $930m!</p>",
             "_incorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p></p>",
-                "final": "<h5>Are you sure about that?</h5><p></p>"
+                "notFinal": "<h5>Are you sure about that?</h5>The Climate Corporation was bought by Monsanto for a larger amount than stated - $930m!<<p></p>",
+                "final": "<h5>Are you sure about that?</h5><p>The Climate Corporation was bought by Monsanto for a larger amount than stated - $930m!</p>"
             },
             "_partlyCorrect": {
                 "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
