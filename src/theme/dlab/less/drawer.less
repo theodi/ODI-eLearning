@@ -2,10 +2,21 @@
 // ==============
 
 .drawer {
+    font-family: Oswald;
+    display: none;
     background-color:@drawer-color;
     color: @drawer-text-color;
+    right: 0px;
+    position: relative;
+    float: right;
+    min-height: 70vh;
+    @media all and (max-width:(@device-width-medium)) {
+	top: -3px;
+    }
+    
     .drawer-toolbar {
         border-bottom: 1px solid @drawer-border-color;
+	display: none;
     }
     .drawer-toolbar .icon {
         padding:@navigation-padding;
@@ -17,9 +28,6 @@
             color:@drawer-icon-hover-color;
         }
 	font-size: 2em;
-    }
-    .drawer-inner {
-        border-left: 5px solid #000;
     }
     .drawer-item {
         .drawer-item-open {

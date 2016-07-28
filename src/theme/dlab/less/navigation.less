@@ -60,12 +60,17 @@
         }
     }
     .page-level-progress-navigation {
+	@media all and (min-width:(@device-width-medium + 80px)) {
+	        z-index: 5000;
+    		position: relative;
+	    	top: 50px;
+	}
         .page-level-progress-navigation-completion {
-            background: @plp-navigation-background;
-            border: none;
+            background: @plp-navigation-completed;
+            border: 1px solid #fff;
             height: 10px;
             .page-level-progress-navigation-bar {
-                background: @plp-navigation-completed;
+                background: @plp-navigation-background;
             }
         }
     }
@@ -128,6 +133,12 @@
 }
 #main-menu .container ul.menu li a:hover {
   color: #c01700;
+}
+.page-level-progress {
+	.page-level-progress-indicator {
+	    border: 1px solid #fff;
+	    width: 15%;
+	}
 }
 .navigation .navigation-drawer-toggle-button {
     display: none;
