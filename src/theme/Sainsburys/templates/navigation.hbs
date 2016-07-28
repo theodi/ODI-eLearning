@@ -60,9 +60,9 @@
                         }
                         sublist.appendChild(link);
                     } else {
-                        sublist.innerHTML = "<h5>" + links.title + "</h5>";
+                        sublist.innerHTML = "<div class='no_link'><h5>" + links.title + "</h5></div>";
                         if (typeof links.description !== 'undefined') {
-                            sublist.innerHTML = "<h5>" + links.title + "</h5>" + links.description;
+                            sublist.innerHTML = "<div class='no_link'><h5>" + links.title + "</h5>" + links.description + "</div>";
                         }
                     }
                     sub_menu.appendChild(sublist);
@@ -77,16 +77,34 @@
     
     function updateListener() {
         $("ul.dropdown li").hover(function(){
-    
-            $(this).addClass("hover");
-            $('ul:first',this).css('visibility', 'visible');
-    
-        }, function(){
-    
-            $(this).removeClass("hover");
-            $('ul:first',this).css('visibility', 'hidden');
-        
+            if (document.documentElement.clientWidth > 720) {
+	            $(this).addClass("hover");
+        	    $('ul:first',this).css('display', 'block');
+	    	}
+       	}, function(){
+            if (document.documentElement.clientWidth > 720) {
+            	$(this).removeClass("hover");
+	        $('ul:first',this).css('display', 'none');
+            }
         });
+	$("ul.dropdown li").click(function(e) {
+	    if (document.documentElement.clientWidth < 720) {
+	            e.preventDefault();
+    
+	            sub_menu = $('ul:first',this);
+	            $(".menu .sub_menu").not(sub_menu).hide();
+	    
+        	    // here is what I want to do
+	            $('ul:first',this).toggle();
+	            $(window).click(function() {
+	                $(".menu .sub_menu").hide();
+	            });
+	            $('.menu').click(function(event){
+	                event.stopPropagation();
+	            });
+	     }
+        });
+	
     
         $("ul.dropdown li ul li:has(ul)").find("a:first").append(" &raquo; ");
     }
