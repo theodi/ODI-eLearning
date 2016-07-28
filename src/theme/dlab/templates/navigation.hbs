@@ -65,9 +65,9 @@
                         }
                         sublist.appendChild(link);
                     } else {
-                        sublist.innerHTML = "<h5>" + links.title + "</h5>";
+                        sublist.innerHTML = "<div class='no_link'><h5>" + links.title + "</h5></div>";
                         if (typeof links.description !== 'undefined') {
-                            sublist.innerHTML = "<h5>" + links.title + "</h5>" + links.description;
+                            sublist.innerHTML = "<div class='no_link'><h5>" + links.title + "</h5>" + links.description + "</div>";
                         }
                     }
                     sub_menu.appendChild(sublist);

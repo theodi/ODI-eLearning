@@ -137,8 +137,8 @@ ul.dropdown ul {
         display: none;
         position: absolute; 
         top: 100%; 
-        left: 0; 
-        padding-right: 20px;
+        left: 0;
+	max-height: 70vh; 
 }
 ul.dropdown ul li { 
         font-weight: normal; 
@@ -152,19 +152,21 @@ ul.dropdown ul li a {
         display: inline-block; 
 }
 ul.sub_menu {
-  max-height: 600px;
   overflow-x: hidden;
   overflow-y: scroll;
+  font-size: 0.9em;
 }
 ul.sub_menu li {
-  max-width: 95%;
-  padding: 12px 20px;
   color: #fff;
+  text-align: left;
 }
-ul.sub_menu li a {
-  padding: 0px;
+ul.sub_menu li a, ul.sub_menu li .no_link {
+  padding: 12px;
   margin: 0px;
-  width: 95%;
+}
+ul.sub_menu li h5 {
+  font-size: 1.3em;
+  margin-bottom: 3px;
 }
 @media all and (max-width:(@device-width-medium - 1px)) {
   .navigation .navigation-drawer-toggle-button {
@@ -172,6 +174,9 @@ ul.sub_menu li a {
   }
   #main-menu {
     display: none;
+  }
+  #main-menu .topMenu {
+    text-align: left;
   }
   #main-menu .container {
     height: 325px;
