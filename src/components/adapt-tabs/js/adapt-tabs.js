@@ -34,11 +34,11 @@ define(function(require) {
 				if (tabLayout === 'top') {
 					this.setTabLayoutTop();
 				} else if (tabLayout === 'left') {
-					this.setTabLayoutLeft();
+					//this.setTabLayoutLeft();
 				}                
 			} else {
-				this.$el.addClass("tab-layout-left");
-				this.setTabLayoutLeft();
+				//this.$el.addClass("tab-layout-left");
+				//this.setTabLayoutLeft();
 			}        	
 		},
 
