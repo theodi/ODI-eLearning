@@ -18,7 +18,7 @@
             "link": "Link"
         },
         "_resourcesItems": [
-             {
+            {
                 "_type": "link",
                 "_local": "true",
         "title": "<span class='side-single-title'>Main menu</span>",
@@ -27,20 +27,68 @@
             {
                 "_type": "link",
                 "_local": "true",
-        "title": "<object type='image/svg+xml' class='badge-icon-small' data='adapt/css/assets/badges/pathfinder.svg'><svg xmlns='http://www.w3.org/2000/svg' version='1.1' class='badge-icon-small'><image class='badge-icon-small' xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='adapt/css/assets/badges/pathfinder.svg' src='adapt/css/assets/badges/pathfinder.png'></image></svg></object>Pathfinder 1<span class='sidebar-module-progress' id='ODI_1_tick_sidebar'></span>",
-                "description": "What is open data?",
-                "_link": "../module1/"
+                 "title": "Open data essentials",
+                "description": "The essentials of open data",
+                "_link": "../InADay/"
             },
             {
                 "_type": "link",
                 "_local": "true",
-        "title": "<object type='image/svg+xml' class='badge-icon-small' data='adapt/css/assets/badges/adventurer.svg'><svg xmlns='http://www.w3.org/2000/svg' version='1.1' class='badge-icon-small'><image class='badge-icon-small' xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='adapt/css/assets/badges/adventurer.svg' src='adapt/css/assets/badges/adventurer.png'></image></svg></object>Adventurer 1<span class='sidebar-module-progress' id='ODI_4_tick_sidebar'></span>",
-                "description": "Why do we need to license?",
-                "_link": "../module4/"
+                 "title": "Practical publication",
+                "description": "Get open data online and usable",
+                "_link": "../inpractice1/"
+            },
+            {
+                "_type": "link",
+                "_local": "true",
+                "title": "Visualisation and communication",
+                "description": "Create impact with open data",
+                "_link": "../inpractice3/"
             }
         ]
     },
-    {},{},
+    {
+        "title": "Slides and exercises",
+        "description": "Access key course materials",
+        "_filterButtons": {
+            "all": "All",
+            "document": "PDF",
+            "media": "Media",
+            "link": "Link"
+        },
+        "_resourcesItems": [
+        ]
+     },
+     {
+        "title": "Open Refine Servers",
+        "description": "Click here to access the open refine servers needed for the cleaning exercise.",
+        "_filterButtons": {
+            "all": "All",
+            "document": "PDF",
+            "media": "Media",
+            "link": "Link"
+        },
+        "_resourcesItems": [
+        {
+            "_type": "link",
+            "title": "No servers online",
+            "description": "No serviers found, please try refreshing",
+            "_link": "#"
+        }
+    ]
+    },
+     {
+        "title": "Links and resources",
+        "description": "Examples and links for course",
+        "_filterButtons": {
+            "all": "All",
+            "document": "PDF",
+            "media": "Media",
+            "link": "Link"
+        },
+        "_resourcesItems": [
+        ]
+    },
     {
         "title": "Credits and attribution",
         "description": "View attribution for licensed content",
