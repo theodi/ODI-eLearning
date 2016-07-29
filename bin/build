@@ -57,6 +57,13 @@ then
 	sed -i -e "s/{},{}/{}/g" src/course/$LANG/course.json
 fi
 
+if [ $THEME == "dlab" ]
+then
+	echo "Changing drawer theme"
+	`cp src/core/js/views/drawerView.js tmp/`
+	`cp src/theme/dlab/js/drawerView.js src/core/js/views/drawerView.js`
+fi
+
 echo "Merging theme configs"
 echo ""
 `node ./bin/merge.js src/course/$LANG/articles.json src/theme/$THEME/course/$LANG/articles.json`
@@ -105,6 +112,11 @@ then
 fi
 
 echo "Restoring structure";
+if [ $THEME == "dlab" ]
+then
+	`mv src/core/js/views/drawerView.js src/theme/dlab/js/drawerView.js`
+	`mv tmp/drawerView.js src/core/js/views/drawerView.js`
+fi
 `rm -fR src/course/*`
 `mv tmp/* src/course/`
 sed -i -e "s/course\/$LANG\/images/course\/en\/images/g" src/theme/$THEME/less/header.less
