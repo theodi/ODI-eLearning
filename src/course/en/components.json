@@ -341,8 +341,8 @@
       "instruction": "",
       "_items": [
         {
-          "alt": "Where open data has helped",
-          "title": "Where open data has helped",
+          "alt": "Comms and transparency",
+          "title": "Comms and transparency",
           "body": "<p>As a large organisation, agricultural product company Syngenta are reaching new markets and demystifying their work by publishing openly available datasets.</p><p>In the public sector, analysis of openly available Canada Revenue Agency data identified $3.2bn in charitable tax violations. In one case, only $1 out of every $100 went to its stated cause of helping the homeless.</p><p>As an open data startup, OpenCorporates provides 100m company records in over 100 jurisdictions, which enables the study of beneficial ownership and control.</p>"
         },
         {
@@ -673,7 +673,7 @@
         "instruction": "<em>Choose your answer, then click 'Submit'</em>",
         "_items": [
             {
-                "text": "The Climate Corporation was bought by Monsanto for $430m in 2013 for their use of farm data, which has revolutionised the agricultural industry",
+                "text": "The National Weather Service was bought by Monsanto in 2013 for their use of rain data, which has revolutionised the agricultural industry",
                 "_shouldBeSelected": true
             },
             {
@@ -686,10 +686,10 @@
             }
         ],
         "_feedback":{
-            "correct":"<h5>That’s right!</h5><p>The Climate Corporation was bought by Monsanto for a larger amount – $930m!</p>",
+            "correct":"<h5>That’s right!</h5><p>This never happened. Refer back to 'Where Open Data Has Helped' to read back on genuine proof points.</p>",
             "_incorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5>The Climate Corporation was bought by Monsanto for a larger amount – $930m!<<p></p>",
-                "final": "<h5>Are you sure about that?</h5><p>The Climate Corporation was bought by Monsanto for a larger amount – $930m!</p>"
+                "notFinal": "<h5>Are you sure about that?</h5>This never happened. Refer back to 'Where Open Data Has Helped' to read back on genuine proof points.<p></p>",
+                "final": "<h5>Are you sure about that?</h5><p>This never happened. Refer back to 'Where Open Data Has Helped' to read back on genuine proof points.w</p>"
             },
             "_partlyCorrect": {
                 "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
