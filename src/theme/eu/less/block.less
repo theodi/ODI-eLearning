@@ -32,7 +32,7 @@
     // Inverted styles
     &.inverted, &.summary, &.footer {
         color: @inverted-foreground-color;
-        h1,h2,h3,h4,h5 {
+        h1,h2,h3,h4,h5,a {
             color: @inverted-foreground-color;
         }
     }
@@ -40,21 +40,23 @@
         .mcq-component {
             .mcq-item label {
                 background: @inverted-foreground-color;
+                color: @foreground-color;
             }
             .mcq-item label,
             .mcq-item label h5,
+	    .mcq-item label a,
             .mcq-item label .mcq-answer-icon {
                 color: @inverted-background-color;
             }
             .mcq-widget.disabled .mcq-item label.selected.disabled {
                 background: #fff;
-                h5 {
+                h5,a {
                     color: @foreground-color;
                 }
             }
             .mcq-widget.disabled .mcq-item label.disabled {
                 background: #ddd;
-                h5 {
+                h5,a {
                     color: #999;
                 }
             }
