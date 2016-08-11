@@ -1,4 +1,4 @@
-{
+ {
     "_id": "course",
     "_type": "course",
     "_buttons": {
@@ -21,16 +21,93 @@
             {
                 "_type": "link",
                 "_local": "true",
-        "title": "Module 1<span class='sidebar-module-progress' id='ODI_1_tick_sidebar'></span>",
+                "title": "Module 1<span class='sidebar-module-progress' id='ODI_1_tick_sidebar'></span>",
                 "description": "What is open data?",
                 "_link": "../module1/"
             },
             {
                 "_type": "link",
                 "_local": "true",
-        "title": "Module 2<span class='sidebar-module-progress' id='ODI_4_tick_sidebar'></span>",
+                "title": "Module 2<span class='sidebar-module-progress' id='ODI_2_tick_sidebar'></span>",
+                "description": "Unlocking value from open data",
+                "_link": "../module2/"
+            },
+            {
+                "_type": "link",
+                "_local": "true",
+                "title": "Module 3<span class='sidebar-module-progress' id='ODI_3_tick_sidebar'></span>",
+                "description": "Open data. Agent of change.",
+                "_link": "../module3/"
+            },
+            {
+                "_type": "link",
+                "_local": "true",
+                "title": "Module 4<span class='sidebar-module-progress' id='ODI_4_tick_sidebar'></span>",
                 "description": "Why do we need to license?",
                 "_link": "../module4/"
+            },
+            {
+                "_type": "link",
+                "_local": "true",
+                "title": "Module 5<span class='sidebar-module-progress' id='ODI_5_tick_sidebar'></span>",
+                "description": "What makes quality open data?",
+                "_link": "../module5/"
+            },
+            {
+                "_type": "link",
+                "_local": "true",
+                "title": "Module 6<span class='sidebar-module-progress' id='ODI_6_tick_sidebar'></span>",
+                "description": "Measuring success for open data",
+                "_link": "../module6/"
+            },
+            {
+                "_type": "link",
+                "_local": "true",
+                "title": "Module 7<span class='sidebar-module-progress' id='ODI_7_tick_sidebar'></span>",
+                "description": "Why should we worry about sustainability?",
+                "_link": "../module7/"
+            },
+            {
+                "_type": "link",
+                "_local": "true",
+                "title": "Module 8<span class='sidebar-module-progress' id='ODI_8_tick_sidebar'></span>",
+                "description": "Getting to grips with platforms",
+                "_link": "../module8/"
+            },
+            {
+                "_type": "link",
+                "_local": "true",
+                "title": "Module 9<span class='sidebar-module-progress' id='ODI_9_tick_sidebar'></span>",
+                "description": "Choosing the right format for open data",
+                "_link": "../module9/"
+            },
+            {
+                "_type": "link",
+                "_local": "true",
+                "title": "Module 10<span class='sidebar-module-progress' id='ODI_10_tick_sidebar'></span>",
+                "description": "How useful is my data?",
+                "_link": "../module10/"
+            },
+            {
+                "_type": "link",
+                "_local": "true",
+                "title": "Module 11<span class='sidebar-module-progress' id='ODI_11_tick_sidebar'></span>",
+                "description": "How to clean your data",
+                "_link": "../module11/"
+            },
+            {
+                "_type": "link",
+                "_local": "true",
+                "title": "Module 12<span class='sidebar-module-progress' id='ODI_12_tick_sidebar'></span>",
+                "description": "Finding hidden data on the web",
+                "_link": "../module12/"
+            },
+            {
+                "_type": "link",
+                "_local": "true",
+                "title": "Module 13<span class='sidebar-module-progress' id='ODI_13_tick_sidebar'></span>",
+                "description": "Linking up the web of data",
+                "_link": "../module13/"
             }
         ]
     },
