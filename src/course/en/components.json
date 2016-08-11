@@ -573,8 +573,8 @@
        "_classes":"separator",
        "_layout":"full"
     },
-    {
-        "_id":"c-114",
+        {
+        "_id":"c-100",
         "_parentId":"b-110",
         "_type":"component",
         "_component":"graphic",
@@ -586,17 +586,26 @@
             "large": "course/en/images/logo-small.png",
             "medium": "course/en/images/logo-small.png",
             "small": "course/en/images/logo-small.png",
-            "*source": "http://theodi.org",
-            "*credit": "The Open Data Institute",
-            "*licence": "All rights reserved"
+            "*source":"http://theodi.org",
+            "*credit":"The Open Data Institute",
+            "*license":"All rights reserved"  
         }
     },
     {
-        "_id":"c-115",
+        "_id":"c-104",
         "_parentId":"b-110",
         "_type":"component",
         "_component":"text",
-        "_classes":"social-buttons",
+        "_classes":"attribution not-eu not-default",
+        "_layout":"right",
+        "body":"Content created by <a href='http://theodi.org' target='_blank'>The Open Data Institute</a>"
+    },
+    {
+        "_id":"c-105",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"social-buttons not-dlab",
         "_layout":"right",
         "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/en/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/en/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/en/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/en/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/en/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/en/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/en/images/social/flickr.png'></a>"
     }
