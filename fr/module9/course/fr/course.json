@@ -4,138 +4,6 @@
   "_latestTrackingId": 11,
   "_resources": [
     {
-      "title": "Resources",
-      "description": "Cliquez sur le bouton pour voir les resouces de ce cours",
-      "_filterButtons": {
-        "all": "All",
-        "document": "PDF",
-        "media": "Media",
-        "link": "Link"
-      },
-      "_resourcesItems": [
-        {
-          "_type": "link",
-          "title": "Italian open data portal",
-          "description": "Lien vers Itaian open data portal",
-          "_link": "http://www.datiopen.it/opendata/Visitatori_musei_pubblici_e_similari_titolo_d_accesso"
-        },
-        {
-          "_type": "link",
-          "title": "Gov.uk business data",
-          "description": "Lien vers Gov.uk business data",
-          "_link": "https://www.gov.uk/browse/business.json"
-        },
-        {
-          "_type": "link",
-          "title": "iRail API",
-          "description": "Lien vers iRail API",
-          "_link": "https://hello.irail.be/api/1-0/"
-        },
-        {
-          "_type": "link",
-          "title": "geoJSON format",
-          "description": "Lien vers geoJSON information",
-          "_link": "https://fr.wikipedia.org/wiki/GeoJSON"
-        },
-        {
-          "_type": "link",
-          "title": "KML format",
-          "description": "Lien vers KML information",
-          "_link": "https://fr.wikipedia.org/wiki/KML"
-        },
-        {
-          "_type": "link",
-          "title": "Open Street Map",
-          "description": "Lien vers Open Street Map",
-          "_link": "http://www.openstreetmap.org/"
-        },
-        {
-          "_type": "link",
-          "title": "CartoDB",
-          "description": "Lien vers CartoDB",
-          "_link": "https://cartodb.com"
-        }
-      ]
-    },
-    {
-      "title": "Crédits d'images",
-      "description": "Click here to view image credits for this module",
-      "_filterButtons": {
-        "all": "All",
-        "document": "PDF",
-        "media": "Media",
-        "link": "Link"
-      },
-      "_resourcesItems": [
-        {
-          "_type": "link",
-          "title": "Usability",
-          "description": "Source: Shutterstock<br/>Crédit: Sentavio<br/>Licence: ",
-          "_link": "http://www.shutterstock.com/pic.mhtml?id=234298726&src=id"
-        },
-        {
-          "_type": "link",
-          "title": "Management",
-          "description": "Source: Shutterstock<br/>Crédit: Meilun<br/>Licence: ",
-          "_link": "http://www.shutterstock.com/pic.mhtml?id=254601265&src=id"
-        },
-        {
-          "_type": "link",
-          "title": "Access",
-          "description": "Source: Shutterstock<br/>Crédit: Brian Senic<br/>Licence: ",
-          "_link": "http://www.shutterstock.com/pic.mhtml?id=238197199&src=id"
-        },
-        {
-          "_type": "link",
-          "title": "Tabular",
-          "description": "Source: Shutterstock<br/>Crédit: benjaminec<br/>Licence: ",
-          "_link": "http://www.shutterstock.com/pic.mhtml?id=262874696&src=id"
-        },
-        {
-          "_type": "link",
-          "title": "Hierarchical",
-          "description": "Source: Shutterstock<br/>Crédit: tovovan<br/>Licence: ",
-          "_link": "http://www.shutterstock.com/pic.mhtml?id=103051607&src=id"
-        },
-        {
-          "_type": "link",
-          "title": "Network",
-          "description": "Source: Shutterstock<br/>Crédit: Ovchinnkov Vladimir<br/>Licence: ",
-          "_link": "http://www.shutterstock.com/pic.mhtml?id=136115477&src=id"
-        },
-        {
-          "_type": "link",
-          "title": "Accessing right data format",
-          "description": "Source: Shutterstock<br/>Crédit: Ing. Andrej Kaprinay<br/>Licence: ",
-          "_link": "http://www.shutterstock.com/pic-199692071"
-        },
-        {
-          "_type": "link",
-          "title": "CSV",
-          "description": "Source: Shutterstock<br/>Crédit: Blan-k<br/>Licence: ",
-          "_link": "http://www.shutterstock.com/pic.mhtml?id=205002868&src=id"
-        }
-      ]
-    },
-    {
-      "title": "les crédits des musiques",
-      "description": "Cliquez sur le bouton pour voir les crédits des musique de ce cours",
-      "_filterButtons": {
-        "all": "All",
-        "document": "PDF",
-        "media": "Media",
-        "link": "Link"
-      },
-      "_resourcesItems": [
-        {
-          "_type": "link",
-          "title": "Your World - Delicate Beats",
-          "description": "Source: Premium Beat<br/>Crédit: leromin<br/>Licence: Premium Beat Standard License",
-          "_link": "http://www.premiumbeat.com/royalty_free_music/songs/your-world"
-        }
-      ]
-    },
-    {
       "title": "Progress tracker",
       "description": "Earn all your open data badges",
       "_filterButtons": {
@@ -183,52 +51,52 @@
       "_resourcesItems": [
         {
           "_type": "link",
-          "_local": "true",
           "title": "Menu principal",
           "description": "Menu principal",
-          "_link": "../index.html"
+          "_link": "../index.html",
+          "_local": "true"
         },
         {
           "_type": "link",
-          "_local": "true",
           "title": "<svg class='badge-icon-small'><image class='badge-icon-small' xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='adapt/css/assets/badges/pathfinder.svg' src='adapt/css/assets/badges/pathfinder.png'></image></svg>Pathfinder 1",
           "description": "L’open data, c’est quoi ?",
-          "_link": "../module1/"
+          "_link": "../module1/",
+          "_local": "true"
         },
         {
           "_type": "link",
-          "_local": "true",
           "title": "<svg class='badge-icon-small'><image class='badge-icon-small' xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='adapt/css/assets/badges/pathfinder.svg' src='adapt/css/assets/badges/pathfinder.png'></image></svg>Pathfinder 2",
           "description": "Générer de la valeur à partir de l’open data",
-          "_link": "../module2/"
+          "_link": "../module2/",
+          "_local": "true"
         },
         {
           "_type": "link",
-          "_local": "true",
           "title": "<svg class='badge-icon-small'><image class='badge-icon-small' xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='adapt/css/assets/badges/pathfinder.svg' src='adapt/css/assets/badges/pathfinder.png'></image></svg>Pathfinder 3",
           "description": "L’open data. Agent de changement",
-          "_link": "../module3/"
+          "_link": "../module3/",
+          "_local": "true"
         },
         {
           "_type": "link",
-          "_local": "true",
           "title": "<svg class='badge-icon-small'><image class='badge-icon-small' xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='adapt/css/assets/badges/adventurer.svg' src='adapt/css/assets/badges/adventurer.png'></image></svg>Adventurer 1",
           "description": "Quelle est l’importance d’une licence ?",
-          "_link": "../module4/"
+          "_link": "../module4/",
+          "_local": "true"
         },
         {
           "_type": "link",
-          "_local": "true",
           "title": "<svg class='badge-icon-small'><image class='badge-icon-small' xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='adapt/css/assets/badges/adventurer.svg' src='adapt/css/assets/badges/adventurer.png'></image></svg>Adventurer 2",
           "description": "Comment évaluer la qualité de l’open data ?",
-          "_link": "../module5/"
+          "_link": "../module5/",
+          "_local": "true"
         },
         {
           "_type": "link",
-          "_local": "true",
           "title": "<svg class='badge-icon-small'><image class='badge-icon-small' xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='adapt/css/assets/badges/adventurer.svg' src='adapt/css/assets/badges/adventurer.png'></image></svg>Adventurer 3",
           "description": "Mesurer le succès d’open data",
-          "_link": "../module6/"
+          "_link": "../module6/",
+          "_local": "true"
         },
         {
           "_type": "link",
@@ -320,6 +188,42 @@
           "title": "No warranty",
           "description": "The Information is licensed 'as is'. The Open Data Institute is not liable for any errors or omissions in the Information and shall not be liable for any loss, injury or damage of any kind caused by its use. The Information Provider does not guarantee the continued supply of the Information.",
           "_link": ""
+        },
+        {
+          "_type": "link",
+          "title": "Network",
+          "description": "Source: Shutterstock<br/>Crédit: Ovchinnkov Vladimir<br/>Licence: ",
+          "_link": "http://www.shutterstock.com/pic.mhtml?id=136115477&src=id"
+        },
+        {
+          "_type": "link",
+          "title": "Accessing right data format",
+          "description": "Source: Shutterstock<br/>Crédit: Ing. Andrej Kaprinay<br/>Licence: ",
+          "_link": "http://www.shutterstock.com/pic-199692071"
+        },
+        {
+          "_type": "link",
+          "title": "CSV",
+          "description": "Source: Shutterstock<br/>Crédit: Blan-k<br/>Licence: ",
+          "_link": "http://www.shutterstock.com/pic.mhtml?id=205002868&src=id"
+        }
+      ]
+    },
+    {
+      "title": "les crédits des musiques",
+      "description": "Cliquez sur le bouton pour voir les crédits des musique de ce cours",
+      "_filterButtons": {
+        "all": "All",
+        "document": "PDF",
+        "media": "Media",
+        "link": "Link"
+      },
+      "_resourcesItems": [
+        {
+          "_type": "link",
+          "title": "Your World - Delicate Beats",
+          "description": "Source: Premium Beat<br/>Crédit: leromin<br/>Licence: Premium Beat Standard License",
+          "_link": "http://www.premiumbeat.com/royalty_free_music/songs/your-world"
         }
       ]
     }

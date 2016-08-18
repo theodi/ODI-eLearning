@@ -58,7 +58,18 @@
         "_id": "b-30",
         "_parentId": "a-01",
         "_type": "block",
-        "_classes": "inverted",
+        "_classes": "inverted not-dlab",
+        "_trackingId": 5,
+        "_trickle": {
+            "_isEnabled":false,
+            "button": "Continue"
+        }
+    },
+    {
+        "_id": "b-31",
+        "_parentId": "a-01",
+        "_type": "block",
+        "_classes": "inverted not-eu not-default",
         "_trackingId": 5,
         "_trickle": {
             "_isEnabled":false,

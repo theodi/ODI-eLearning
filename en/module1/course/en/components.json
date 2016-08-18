@@ -53,11 +53,6 @@
 		"mp4": "course/en/video/video.mp4",
 		"poster": "course/en/video/placeholder.jpg"
 	},
-        "_width": {
-            "_small" : 300,
-            "_medium" : 500,
-            "_large" : 905
-        },
         "_height": {
             "_small" : 250,
             "_medium" : 350,
@@ -213,7 +208,7 @@
         "_items": [
             {
                 "title": "Transforming government",
-                "body": "<p>Open data can help make governments more transparent. It can provide the evidence that public money is being well spent and policies are being implemented.</p><p>For example, according to leading open government activist David Eaves, open data allowed citizens in Canada to save the government $3.2bn in fraudulent charitable donations in 2010.<br /><a href='http://eaves.ca/2010/04/14/case-study-open-data-and-the-public-purse/' target='_blank'>Take me to David Eaves' article</a></p><p>In another example, according to Follow the Money in Nigeria, the same process is used to ensure that public funds are spent implementing the policies promised to the people.<br /><a href='http://followthemoneyng.org/' target='_blank'>Take me to Follow the Money</a></p>",
+                "body": "<p>Open data can help make governments more transparent. It can provide the evidence that public money is being well spent and policies are being implemented.</p><p class='not-dlab'>For example, according to leading open government activist David Eaves, open data allowed citizens in Canada to save the government $3.2bn in fraudulent charitable donations in 2010.<br /><a href='http://eaves.ca/2010/04/14/case-study-open-data-and-the-public-purse/' target='_blank'>Take me to David Eaves' article</a></p><p class='not-eu not-default'>For example, according Govlab, The Open Data Dashboard for Education in Tanzania motivates citizens to demand greater accountability from their school system and public officials.<br /><a href='http://odimpact.org/case-open-education-information-in-tanzania.html' target='_blank'>Take me to the Govlab article.</a></p><p>In another example, according to Follow the Money in Nigeria, the same process is used to ensure that public funds are spent implementing the policies promised to the people.<br /><a href='http://followthemoneyng.org/' target='_blank'>Take me to Follow the Money</a></p>",
                 "_graphic": {
                     "src": "course/en/images/odi-6-narrative_large.png",
                     "alt": "Transforming government",
@@ -625,11 +620,20 @@
         }
     },
     {
+        "_id":"c-104",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"attribution not-eu not-default",
+        "_layout":"right",
+        "body":"Content created by <a href='http://theodi.org' target='_blank'>The Open Data Institute</a>"
+    },
+    {
         "_id":"c-105",
         "_parentId":"b-55",
         "_type":"component",
         "_component":"text",
-        "_classes":"social-buttons",
+        "_classes":"social-buttons not-dlab",
         "_layout":"right",
         "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/en/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/en/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/en/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/en/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/en/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/en/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/en/images/social/flickr.png'></a>"
     }

@@ -50,11 +50,6 @@
 		"mp4": "course/en/video/video.mp4",
 		"poster": "course/en/video/placeholder.jpg"
 	},
-	"_width": {
-            "_small" : 300,
-            "_medium" : 500,
-            "_large" : 905
-        },
         "_height": {
             "_small" : 250,
             "_medium" : 350,
@@ -104,7 +99,7 @@
         "_items": [
             {
                 "title": "Supporting growing economies",
-                "body": "<p>To support the emergence of new data-driven businesses and the growth of existing ones, governments need to publish key datasets.</p><p>Governments also need to support data infrastructure that connects data with those who use it.</p><p>In return, governments are reaping the benefits of a growing data economy, such as in Finland where SMEs with access to open data grew 15% faster than those without.</p><p><a href='http://www.epsiplatform.eu/content/finnish-study-psi-pricing-geo-data' target='_blank'>Take me to the Finnish case study</a></p>",
+                "body": "<p>To support the emergence of new data-driven businesses and the growth of existing ones, governments need to publish key datasets.</p><p>Governments also need to support data infrastructure that connects data with those who use it.</p><p>In return, governments are reaping the benefits of a growing data economy, such as in Finland where SMEs with access to open data grew 15% faster than those without.</p><p><a href='https://web.archive.org/web/20140531085827/http://www.epsiplatform.eu/content/finnish-study-psi-pricing-geo-data' target='_blank'>Take me to the Finnish case study</a></p>",
                 "_graphic": {
                     "src": "course/en/images/odi-002-narrative_large.jpg",
                     "alt": "Supporting Growing Economies",
@@ -130,7 +125,7 @@
             },
             {
                 "title": "Cost savings",
-                "body": "<p>By growing economies and improving services, open data allows governments to make savings in key areas, such as healthcare, education and utilities.</p><p>In the UK, open data helped reveal <a href='https://theodi.org/news/prescription-savings-worth-millions-identified-odi-incubated-company' target='_blank'>£200 million of savings</a> in the health service.</p><p>In France, energy data is being used to drive more efficient energy generation practices.<br /><a href='https://www.quandl.com/collections/france/france-energy-data' target='_blank'>Show me the France energy data.</a></p><p>Open data can also bring transparency to budgets. In Switzerland, the canton of Bern presented their <a href='http://be-asp.budget.opendata.ch/' target='_blank'>€400m annual saving</a> to the public using open data.</p>",
+                "body": "<p>Open data allows governments to make savings in key areas such as healthcare, education and utilities.</p><p>In the UK, open data helped reveal <a href='https://theodi.org/news/prescription-savings-worth-millions-identified-odi-incubated-company' target='_blank'>£200 million of savings</a> in the health service.</p><p>In France, energy data is being used to drive more efficient energy generation practices.<br /><a href='https://www.quandl.com/collections/france/france-energy-data' target='_blank'>Show me the France energy data.</a></p><p>Open data can also bring transparency to budgets. In Switzerland, the canton of Bern presented their <a href='http://be-asp.budget.opendata.ch/' target='_blank'>€400m annual saving</a> to the public using open data.</p>",
                 "_graphic": {
                     "src": "course/en/images/odi-004-narrative_large.jpg",
                     "alt": "Cost Savings",
@@ -223,7 +218,7 @@
             },
             {
                 "title": "Saving lives",
-                "body": "<p>Open data is helping to save lives. Open geographic data and aid statistics are being used by humanitarian groups to deliver targeted supplies in disaster zones.</p><p>Open mapping data helped disaster response teams target aid delivery during the 2010 Haiti earthquake.<br /><a href='http://hotosm.org/projects/haiti-2' target='_blank'>Show me the Haiti Open Street Map.</a></p><p>Open data was also used for responses to the Philippines typhoon in 2014.</p><p>Open data is also being used to track the Ebola virus outbreak in West Africa in 2015.<br /><a href='http://www.eboladata.org/' target='_blank'>Show me the Ebola open data jam.</a></p>",
+                "body": "<p>Open data is helping to save lives. Open geographic data and aid statistics are being used by humanitarian groups to deliver targeted supplies in disaster zones.</p><p>Open mapping data helped disaster response teams target aid delivery during the 2010 Haiti earthquake.<br /><a href='http://hotosm.org/projects/haiti-2' target='_blank'>Show me the Haiti Open Street Map.</a></p><p>Open data was also used for responses to the Philippines typhoon in 2014.</p><p class='not-eu'>Open data is also being used to track the Ebola virus outbreak in West Africa in 2015.<br /><a href='https://web.archive.org/web/20160123072141/http://www.eboladata.org/' target='_blank'>Show me the Ebola open data jam.</a></p>",
                 "_graphic": {
                     "src": "course/en/images/odi-007-narrative_large.jpg",
                     "alt": "Saving lives",
@@ -251,7 +246,64 @@
         "_pageLevelProgress": {
         "_isEnabled": true
         }
-    }, {
+    }, 
+    {
+        "_id": "c-31",
+        "_parentId": "b-31",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Education, Healthcare and Nutrition",
+        "displayTitle": "Education, Healthcare and Nutrition",
+        "body": "",
+        "instruction": "<em class='desktop-instruction'>Click the forward arrow for more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
+        "_items": [
+            {
+                "title": "Education",
+                "body": "<p>In Burkino Faso the <a href='http://nendo.data.gov.bf' target='_blank'>Our Schools Our Data portal</a> has been developed to improve citizens’ access to information about schools, as well as helping government better engage and empower local communities.</p><p>In Tanzania, the <a href='http://www.shule.info/' target='_blank'>shule.info</a> portal kickstarted the publication of school results in Tanzania. The portal provides information regarding school results and allows citizens to compare schools to help inform them about the best opportunities for education in their region. More recent results have been published by the National Examinations Council of Tanzania on their own <a href='http://www.necta.go.tz/brn2015/' target='_blank'>school ranking portal</a>.</p>",
+                "_graphic": {
+                    "src": "course/en/images/c-31a.jpg",
+                    "alt": "School supplies",
+                    "title": "School supplies",
+                    "*source":"https://www.flickr.com/photos/infomastern/9671353179",
+                    "*credit":"Nick Amoscato",
+                    "*license":"CC-BY 2.0"
+                },
+                "strapline": "Education"
+            },
+            {
+                "title": "Heathcare",
+                "body": "<p>In South Africa, the <a href='https://mpr.code4sa.org/' target='_blank'>Medicine price portal</a> provides services to help citizens afford the right medicines. It uses open data not only to provide price information, but also offers information on alternative cheaper generic alternatives to the expensive brand names.</p><p>In <a href='http://health.saharareporters.com/' target='_blank'>Nigeria</a> and <a href='http://health.the-star.co.ke/' target='_blank'>Kenya</a>, this service from <a href='https://codeforafrica.org/' target='_blank'>codeforafrica</a> has been expanded even further. Here open data is used to provide citizens the ability to check a doctors registered status, find the nearest specialist as well as check if they are covered for national health care services.</p>",
+                "_graphic": {
+                    "src": "course/en/images/c-31b.jpg",
+                    "alt": "Antacid",
+                    "title": "Antacid",
+                    "*source":"https://www.flickr.com/photos/treasureice/16459056781",
+                    "*credit":"Treasure",
+                    "*license":"CC-BY 2.0"
+                },
+                "strapline": "Heathcare"
+            },
+            {
+                "title": "Nutrition",
+                "body": "<p>Access to fresh water is one of the most important things in life. The <a href='http://www.tanzaniawaterproject.org/what-we-are-doing/where-we-are-working/' target='_blank'>Tanzania Water Project website</a> provides locations of new and proposed well sites to give people access to fresh water.</p><p>For farmers in Tanzania, <a href='http://www.agrimark.co.tz/' target='_blank'>Agrimark</a> connects farmers with the market for their crops. For farmers in Tanzania, often located in rural areas, finding suppliers for crops can be a difficult process. Likewise for hotels, restaurants and other businesses, finding food at the best price is challenging. Agrimark solves both challenges by creating an open marketplace for buyers and sellers of produce.</p>",
+                "_graphic": {
+                    "src": "course/en/images/c-31c.jpg",
+                    "alt": "Reaching for the sky",
+                    "title": "Reaching for the sky",
+                    "*source":"https://www.flickr.com/photos/infomastern/9671353179",
+                    "*credit":"Susanne Nilsson",
+                    "*license":"CC-BY-SA 2.0"
+                },
+                "strapline": "Nutrition"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+    {
         "_id":"c-42",
         "_parentId":"b-33",
         "_type":"component",
@@ -616,11 +668,20 @@
         }
     },
     {
+        "_id":"c-104",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"attribution not-eu not-default",
+        "_layout":"right",
+        "body":"Content created by <a href='http://theodi.org' target='_blank'>The Open Data Institute</a>"
+    },
+    {
         "_id":"c-105",
         "_parentId":"b-55",
         "_type":"component",
         "_component":"text",
-        "_classes":"social-buttons",
+        "_classes":"social-buttons not-dlab",
         "_layout":"right",
         "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/en/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/en/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/en/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/en/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/en/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/en/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/en/images/social/flickr.png'></a>"
     }

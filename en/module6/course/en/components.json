@@ -50,11 +50,6 @@
 		"mp4": "course/en/video/video.mp4",
 		"poster": "course/en/video/placeholder.jpg"
 	},
-	"_width": {
-            "_small" : 300,
-            "_medium" : 500,
-            "_large" : 905
-        },
         "_height": {
             "_small" : 250,
             "_medium" : 350,
@@ -189,7 +184,7 @@
         {
           "alt": "Enhancing business with open data",
           "title": "Enhancing business with open data",
-          "body": "<p>For businesses, opening data can improve relationships with consumers and open up new customer channels.</p><p>Thomson Reuters has opened up its identifiers data to make the data it holds discoverable, easy to access and use.<br /><a href='http://site.thomsonreuters.com/site/data-identifiers/' target='_blank'>Take me to Thomson Reuters site</a></p>"
+          "body": "<p>For businesses, opening data can improve relationships with consumers and open up new customer channels.</p><p>Thomson Reuters has opened up its identifiers data to make the data it holds discoverable, easy to access and use.<br /><a href='http://innovation.thomsonreuters.com/en/labs/data-identifiers.html' target='_blank'>Take me to Thomson Reuters site</a></p>"
         },
         {
           "alt": "Open data as an agent of change",
@@ -233,7 +228,7 @@
             },
             {
                 "title": "Staying user-focused",
-                "body": "<p>The most successful open data initiatives focus on all Key Performance Indicators (KPIs) at the same time.</p><p>It is best to avoid delaying engagement with users by getting policy and supply ‘right’ from the outset.</p><p>Successful initiatives focus on users first to build communities, educate and streamline supply so that even imperfect open data can get into the hands of users quickly, to maximise its value.</p><p>Sweden has an established open data programme with strong process management and user focus.<br /><a href='(http://theodi.github.io/open-data-barometer-viz/' target='_blank'>Take me to the Swedish open data barometer results</a></p>",
+                "body": "<p>The most successful open data initiatives focus on all Key Performance Indicators (KPIs) at the same time.</p><p>It is best to avoid delaying engagement with users by getting policy and supply ‘right’ from the outset.</p><p>Successful initiatives focus on users first to build communities, educate and streamline supply so that even imperfect open data can get into the hands of users quickly, to maximise its value.</p><p>Sweden has an established open data programme with strong process management and user focus.<br /><a href='http://theodi.github.io/open-data-barometer-viz/' target='_blank'>Take me to the Swedish open data barometer results</a></p>",
                 "_graphic": {
                     "src": "course/en/images/odi-7-narrative_large.jpg",
                     "alt": "User focused",
@@ -553,11 +548,20 @@
         }
     },
     {
+        "_id":"c-104",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"attribution not-eu not-default",
+        "_layout":"right",
+        "body":"Content created by <a href='http://theodi.org' target='_blank'>The Open Data Institute</a>"
+    },
+    {
         "_id":"c-105",
         "_parentId":"b-55",
         "_type":"component",
         "_component":"text",
-        "_classes":"social-buttons",
+        "_classes":"social-buttons not-dlab",
         "_layout":"right",
         "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/en/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/en/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/en/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/en/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/en/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/en/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/en/images/social/flickr.png'></a>"
     }

@@ -53,11 +53,6 @@
 		"mp4": "course/en/video/video.mp4",
 		"poster": "course/en/video/placeholder.jpg"
 	},
-	"_width": {
-            "_small" : 300,
-            "_medium" : 500,
-            "_large" : 905
-        },
         "_height": {
             "_small" : 250,
             "_medium" : 350,
@@ -120,7 +115,7 @@
             },
             {
                 "title": "Consistent user experience",
-                "body": "<p>There are a limited number of open data platforms, which means you don’t need to understand lots of different technologies to discover large amounts of open data.</p><p>Open data platforms are designed with the user in mind – their layout and design can make it easier to discover data.</p><p>For examples of sites using open data platforms, look at: <a href='http://www.data.gov.uk' target='_blank'>data.gov.uk</a>, <a href='http://www.data.gov.br' target='_blank'>data.gov.bf</a> and <a href='http://www.data.gov.md' target='_blank'>data.gov.md</a></p><p>Note that many governments use a standard naming convention for the Web address of the data platform, so a simple starting point for finding open data for a country is to enter data.gov.[country top-level domain].</p>",
+                "body": "<p>There are a limited number of open data platforms, which means you don’t need to understand lots of different technologies to discover large amounts of open data.</p><p>Open data platforms are designed with the user in mind – their layout and design can make it easier to discover data.</p><p>For examples of sites using open data platforms, look at: <a href='http://www.data.gov.uk' target='_blank'>data.gov.uk</a>, <a href='http://data.gov.bf' target='_blank'>data.gov.bf</a> and <a class='not-dlab' href='http://www.data.gov.md' target='_blank'>data.gov.md</a><a class='not-eu not-default' href='http://opendata.go.tz/' target='_blank'>opendata.go.tz</a></p><p>Note that many governments use a standard naming convention for the Web address of the data platform, so a simple starting point for finding open data for a country is to enter data.gov.[country top-level domain].</p>",
                 "_graphic": {
                     "src": "course/en/images/odi-003.jpg",
                     "alt": "Consistency",
@@ -182,7 +177,7 @@
         {
           "alt": "Data catalogs",
           "title": "Data catalogs",
-          "body": "<p>An open data catalog is a platform that lists datasets on the Web. Data catalogs are like directories. They know what open data exists, what it is about, where it is and how to get hold of it.</p><p>An open data catalog links users to data that is located somewhere else on the Web. They offer a consistent way of locating a diverse set of data that is widely scattered.</p><p>The CKAN platform, used by cities like Amsterdam (<a href='http://www.amsterdamopendata.nl/home' target='_blank'>Take me to Amsterdam CKAN portal</a>), Berlin (<a href='http://daten.berlin.de/' target='_blank'>Take me to Berlin CKAN portal</a>) and Copenhagen (<a href='http://data.kk.dk/' target='_blank'>Take me to Copenhagen CKAN portal</a>), can be used as a data catalog.</p><p>CKAN provides simple, easy to use data management functionality, including data hosting. This ensures that the technical knowledge and effort required to publish open data is kept to a minimum.</p>"
+          "body": "<p>An open data catalog is a platform that lists datasets on the Web. Data catalogs are like directories. They know what open data exists, what it is about, where it is and how to get hold of it.</p><p>An open data catalog links users to data that is located somewhere else on the Web. They offer a consistent way of locating a diverse set of data that is widely scattered.</p><p>The CKAN platform, used by places like <span class='not-dlab'>Amsterdam (<a href='http://data.amsterdam.nl' target='_blank'>Take me to Amsterdam CKAN portal</a>)</span><span class='not-eu not-default'>Tanzania (<a href='http://opendata.go.tz/' target='_blank'>Take me to Tanzania CKAN portal</a>)</span>, Berlin (<a href='http://daten.berlin.de/' target='_blank'>Take me to Berlin CKAN portal</a>) and Copenhagen (<a href='http://data.kk.dk/' target='_blank'>Take me to Copenhagen CKAN portal</a>), can be used as a data catalog.</p><p>CKAN provides simple, easy to use data management functionality, including data hosting. This ensures that the technical knowledge and effort required to publish open data is kept to a minimum.</p>"
         },
         {
           "alt": "Data management",
@@ -192,7 +187,7 @@
         {
           "alt": "Comparison",
           "title": "Comparison",
-          "body": "<p>Data catalogs provide:</p></ul><li>Federated search across a wide domain.</li><li>Mechanisms for discovery.</li><li>Key metadata relating to licence and how up to date data is.</li></ul></p><p>Data management platforms provide:</p><ul><li>Authoritative sources for data.</li><li>Increased data quality.</li><li>The ability to search and manipulate data.</li></ul><p>The distinctions between data management platforms and data catalogs can also vary between providers. <a href='http://how-to.readthedocs.org/en/latest/The-Basics-of-Open-Data/Data-Repositories/' target='_blank'>Take me to comparative analysis of data platforms</a></p>"
+          "body": "<p>Data catalogs provide:</p></ul><li>Federated search across a wide domain.</li><li>Mechanisms for discovery.</li><li>Key metadata relating to licence and how up to date data is.</li></ul></p><p>Data management platforms provide:</p><ul><li>Authoritative sources for data.</li><li>Increased data quality.</li><li>The ability to search and manipulate data.</li></ul><p>The distinctions between data management platforms and data catalogs can also vary between providers. <a href='https://how-to.usopendata.org/en/latest/The-Basics-of-Open-Data/Data-Repositories/' target='_blank'>Take me to comparative analysis of data platforms</a></p>"
         }
       ],
       "_pageLevelProgress": {
@@ -528,15 +523,24 @@
             "small": "course/en/images/logo-small.png",
             "*source":"http://theodi.org",
             "*credit":"The Open Data Institute",
-            "*license":"All rights reserved"
+            "*license":"All rights reserved"  
         }
+    },
+    {
+        "_id":"c-104",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"attribution not-eu not-default",
+        "_layout":"right",
+        "body":"Content created by <a href='http://theodi.org' target='_blank'>The Open Data Institute</a>"
     },
     {
         "_id":"c-105",
         "_parentId":"b-55",
         "_type":"component",
         "_component":"text",
-        "_classes":"social-buttons",
+        "_classes":"social-buttons not-dlab",
         "_layout":"right",
         "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/en/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/en/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/en/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/en/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/en/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/en/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/en/images/social/flickr.png'></a>"
     }

@@ -17,27 +17,40 @@ if (!localStorage.getItem("ODI_Badges")) {
 }
 
 var moduleId = "";
-var lang = ""
+var lang = "";
+var noLMS = false;
 var config = {};
 $.getJSON("course/config.json",function(data) {
 	moduleId = data._moduleId;
+	noLMS = data._noLMS;
 	config = data;
 });
 var id = "";
 
+function handleOpenURL(url) {
+        setTimeout(function() {
+                lid = url.split("//")[1];
+                if (typeof lid != "undefined") {
+                        id = lid;
+                        fetchRemote();
+                }
+        }, 0);
+}
+
 $(document).ready(function() {
 	$.getJSON("course/config.json",function(data) {
 		moduleId = data._moduleId;
+		noLMS = data._noLMS;
 		lang = data._defaultLanguage;
 		setRawValue("lang",lang);
 		if (moduleId == "ODI_nav"){
-			setInterval(function() {updateProgress();},5000);
+			setInterval(function() {updateProgress();},2000);
 		} else {
-			console.log(theme);
 			setInterval(function() {miniProgressUpdate();},1000);
 		}
 	});
 	setTimeout(function() {setRawValue("theme",theme)},1000);
+	setTimeout(function() {setRawValue("platform",platform)},1000);
 });
 
 function miniProgressUpdate() {
@@ -53,7 +66,7 @@ function miniProgressUpdate() {
 	badge_progression["adventurer"] = 0;
 	badge_progression["technician"] = 0;
 	badge_progression["planner"] = 0;
-	for (i=1;i<13;i++) {
+	for (i=1;i<14;i++) {
 		current_badge = "pathfinder";
 		if (i>3 && i<7) {
 			current_badge = "adventurer";
@@ -65,15 +78,23 @@ function miniProgressUpdate() {
 			current_badge = "planner";
 		}
 		key = "ODI_" + i + "_cmi.suspend_data";
+		try { document.getElementById('ODI_' + i + '_tick_sidebar').innerHTML = "0%"; } catch(err) {}
     		try {
+			percent = parseInt(localStorage.getItem('ODI_' + i + '_progress_percent'));
 			value = localStorage.getItem(key);
 			data = $.parseJSON(value);
 			completion = data.spoor.completion;
-			total = completion.length;
-			complete = completion.match(/1/g || []).length;	
-			percent = Math.round((complete/total) * 100);
+			if (!percent) {
+				total = completion.length;
+				complete = completion.match(/1/g || []).length;	
+				percent = Math.round((complete/total) * 100);
+				localStorage.setItem('ODI_' + i + '_progress_percent',percent);
+			}
 			badge_progression[current_badge] = badge_progression[current_badge] + percent;
+			document.getElementById('ODI_' + i + '_tick_sidebar').innerHTML = percent + "%";
 			if (percent == 100) {
+				document.getElementById('ODI_' + i + '_tick_sidebar').className = "sidebar-module-progress ticked";	
+				document.getElementById('ODI_' + i + '_tick_sidebar').innerHTML = "&#10003;";
 				mods_done[i] = true;
 			}
 		}
@@ -84,12 +105,11 @@ function miniProgressUpdate() {
 	badge_progression["adventurer"] = Math.round(badge_progression["adventurer"] / 3);
 	badge_progression["technician"] = Math.round(badge_progression["technician"] / 4);
 	badge_progression["planner"] = Math.round(badge_progression["planner"] / 3);
-	if (moduleId == "ODI_nav"){
-		updateBadgeOverall(badge_progression,'pathfinder');
-		updateBadgeOverall(badge_progression,'adventurer');
-		updateBadgeOverall(badge_progression,'technician');
-		updateBadgeOverall(badge_progression,'planner');
-	}
+	updateBadgeOverall(badge_progression,'pathfinder');
+	updateBadgeOverall(badge_progression,'adventurer');
+	updateBadgeOverall(badge_progression,'technician');
+	updateBadgeOverall(badge_progression,'planner');
+	
 	if (mods_done[1] && mods_done[2] && mods_done[3] && !badges["pathfinder"]) {
 		showMessage('pathfinder-complete');
 		badges["pathfinder"] = true;	
@@ -111,37 +131,50 @@ function miniProgressUpdate() {
 }
 function updateBadgeOverall(badge_progression,level) {
 	percent = badge_progression[level];
-	if (percent > 0) {
-		document.getElementById(level + '-overall').innerHTML = percent + "%";
-		try { document.getElementById(level + '-overall-side').innerHTML = percent + "%"; } catch(err) {}
+	if (percent < 1) {
+		percent = 0;
 	}
+	try { document.getElementById(level + '-overall').innerHTML = percent + "%"; } catch(err) {}
+	try { document.getElementById(level + '-overall-side').innerHTML = percent + "%"; } catch(err) {}
 	if (percent == 100) {
-		document.getElementById(level + '-overall').innerHTML = "✔";
-		try { document.getElementById(level + '-overall-side').innerHTML = "✔"; } catch(err) {}
+		try { 
+			document.getElementById(level + '-overall').className = "badge-progress-overall ticked";	
+			document.getElementById(level + '-overall').innerHTML = "&#10003;"; 
+		} catch(err) {}
+		try { 
+			document.getElementById(level + '-overall-side').className = "sidebar-progress ticked";	
+			document.getElementById(level + '-overall-side').innerHTML = "&#10003;"; 
+		} catch(err) {}
 	}
 }
 function updateProgress() {
 //	var frame = document.getElementById('contentFrame').contentDocument;
 	miniProgressUpdate();
-	for (i=1;i<13;i++) {
+	for (i=1;i<14;i++) {
+		try { document.getElementById('ODI_' + i + '_tick').innerHTML = "0%"; } catch(err) {}
 		key = "ODI_" + i + "_cmi.suspend_data";
     		try {
+			percent = parseInt(localStorage.getItem('ODI_' + i + '_progress_percent'));
 			value = localStorage.getItem(key);
 			data = $.parseJSON(value);
 			completion = data.spoor.completion;
-			total = completion.length;
-			complete = completion.match(/1/g || []).length;	
-			percent = Math.round((complete/total) * 100);
-			//document.getElementById('ODI_' + i).setAttribute('value',percent);
-			if (percent > 0) {
-				document.getElementById('ODI_' + i + '_tick').innerHTML = percent + "%";
+			if (!percent) {
+				total = completion.length;
+				complete = completion.match(/1/g || []).length;	
+				percent = Math.round((complete/total) * 100);
+				localStorage.setItem('ODI_' + i + '_progress_percent',percent);
 			}
+			//document.getElementById('ODI_' + i).setAttribute('value',percent);
+			try { document.getElementById('ODI_' + i + '_tick').innerHTML = percent + "%"; } catch(err) {}
+			try { document.getElementById('ODI_' + i).setAttribute('value',percent); } catch(err) {}
 			if (percent == 100) {
-				document.getElementById('ODI_' + i + '_tick').innerHTML = "✔";
+				document.getElementById('ODI_' + i + '_tick').className = "mod_tick ticked";	
+				document.getElementById('ODI_' + i + '_tick').innerHTML = "&#10003;";
 				mods_done[i] = true;
 			}
 		}
 		catch(err) {
+			//document.getElementById('ODI_' + i + '_tick').innerHTML = "0%";
 		}
 	}
 	badges = localStorage.getItem("ODI_Badges");
@@ -176,11 +209,19 @@ function setSaveClass(toClass) {
     $(ss).html(config["_phrases"][toClass]);
     var ssi = document.getElementById('cloud-status-img');
     $(ssi).attr('src','adapt/css/assets/' + toClass + '.gif');
+    if (theme == "ODI" && toClass == "cloud_success") {	
+	var appT = document.getElementById('appTransferBlock');
+	$(appT).html("<div><a href='odilearninglite://" + id + "' target='_system'><img onclick=\"window.open('odilearninglite://" + id + "','_system')\" src='adapt/css/assets/odilearninglite-app.png' alt='ODI Learning Lite'/></a><br/>ODI Learning Lite</div><div><a href='odilearning://" + id + "' target='_system'><img onclick=\"window.open('odilearning://" + id + "','_system')\" src='adapt/css/assets/odilearning-app.png' alt='ODI Learning'/></a><br/>ODI Learning</div>");
+    }
 }
 
 function updateRemote() {
     var flag = localStorage.getItem("email");
     if (flag) { setSaveClass('cloud_saving'); }
+    if (noLMS) {
+    	if (flag) { setSaveClass('cloud_failed'); }
+	return;
+    }
     if(window.localStorage!==undefined) {
         send = {};
 	send.data = JSON.stringify(localStorage);
