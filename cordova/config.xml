@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="org.theodi.elearning1" version="1.1.13" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>ODI Learning</name>
+    <description>
+    	ODI Learning equips anyone exploring the potential of open data with the strategic and practical skills necessary to make the most of open data. This application contains interactive modules that use videos, visuals and quizzes to cement learning and reward progress with badges. Other than the videos, all learning can be done offline, so if you have a train or plane journey then this application is the ideal way to learn all about open data.
+    </description>
+    <author email="odi.learning@theodi.org" href="http://theodi.org">
+        The Open Data Institute
+    </author>
+    <icon src="src-icons/ODI-learning-app-icon-512px.png"/>
+    <content src="index.html" />
+    <plugin name="cordova-plugin-whitelist" version="1" />
+    <preference name="windows-target-version" value="10.0" />
+    <preference name="StatusBarOverlaysWebView" value="false" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="odilearning://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <preference name="Fullscreen" value="true" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+	<splash src="src-splash/android/splash-port-hdpi.png" density="port-hdpi"/>
+	<splash src="src-splash/android/splash-port-ldpi.png" density="port-ldpi"/>
+	<splash src="src-splash/android/splash-port-mdpi.png" density="port-mdpi"/>
+	<splash src="src-splash/android/splash-port-xhdpi.png" density="port-xhdpi"/>
+	<splash src="src-splash/android/splash-port-xxhdpi.png" density="port-xxhdpi"/>
+	<splash src="src-splash/android/splash-port-xxxhdpi.png" density="port-xxxhdpi"/>
+        <hook type="before_compile" src="scripts/android/package_videos.rb" />
+    </platform>
+    <platform name="ios">
+        <preference name="Orientation" value="all" />
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+	<splash src="src-splash/ios/Default~iphone.png" width="320" height="480"/>
+	<splash src="src-splash/ios/Default@2x~iphone.png" width="640" height="960"/>
+	<splash src="src-splash/ios/Default-Portrait~ipad.png" width="768" height="1024"/>
+	<splash src="src-splash/ios/Default-Portrait@2x~ipad.png" width="1536" height="2048"/>
+	<splash src="src-splash/ios/Default-Landscape~ipad.png" width="1024" height="768"/>
+	<splash src="src-splash/ios/Default-Landscape@2x~ipad.png" width="2048" height="1536"/>
+	<splash src="src-splash/ios/Default-568h@2x~iphone.png" width="640" height="1136"/>
+	<splash src="src-splash/ios/Default-667h.png" width="750" height="1334"/>
+	<splash src="src-splash/ios/Default-736h.png" width="1242" height="2208"/>
+	<splash src="src-splash/ios/Default-Landscape-736h.png" width="2208" height="1242"/>
+    </platform>
+</widget>

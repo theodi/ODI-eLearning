@@ -1,0 +1,31 @@
+{
+  "name": "cordova-google-play-services",
+  "version": "25.0.0",
+  "description": "This is a simple Cordova plugin that adds the [Google Play Services](http://developer.android.com/google/play-services/setup.html) client library to your app.",
+  "cordova": {
+    "id": "cordova-google-play-services",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/appfeel/google-play-services.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "AppFeel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/appfeel/google-play-services/issues"
+  },
+  "homepage": "https://github.com/appfeel/google-play-services#readme"
+}

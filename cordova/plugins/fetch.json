@@ -1,0 +1,71 @@
+{
+    "cordova-plugin-whitelist": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-whitelist@1"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-inappbrowser": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-inappbrowser"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "nl.x-services.plugins.backgroundaudio": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/EddyVerbruggen/cordova-plugin-backgroundaudio.git",
+            "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-statusbar": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-statusbar"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-customurlscheme": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-customurlscheme"
+        },
+        "is_top_level": true,
+        "variables": {
+            "URL_SCHEME": "odilearninglite"
+        }
+    },
+    "com.flyingsoftgames.xapkreader": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/agamemnus/cordova-plugin-xapkreader",
+            "subdir": ".",
+            "ref": "cordova-5.3.1"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-google-play-services": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-google-play-services"
+        },
+        "is_top_level": false,
+        "variables": {}
+    },
+    "com.google.play.services": {
+        "source": {
+            "type": "registry",
+            "id": "com.google.play.services"
+        },
+        "is_top_level": false,
+        "variables": {}
+    }
+}

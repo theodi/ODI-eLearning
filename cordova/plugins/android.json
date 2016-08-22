@@ -1,0 +1,172 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "AndroidManifest.xml": {
+                "parents": {
+                    "/manifest/application": [
+                        {
+                            "xml": "<meta-data android:name=\"com.google.android.gms.version\" android:value=\"@integer/google_play_services_version\" />",
+                            "count": 1
+                        }
+                    ],
+                    "/manifest": [
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.INTERNET\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.WAKE_LOCK\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"com.android.vending.CHECK_LICENSE\" />",
+                            "count": 1
+                        }
+                    ],
+                    "application": [
+                        {
+                            "xml": "<activity android:configChanges=\"orientation|keyboardHidden|keyboard|screenSize|locale\" android:label=\"@string/app_name\" android:name=\"com.flyingsoftgames.xapkreader.XAPKDownloaderActivity\"></activity>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<service android:name=\"com.flyingsoftgames.xapkreader.XAPKDownloaderService\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<receiver android:name=\"com.flyingsoftgames.xapkreader.XAPKAlarmReceiver\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<provider android:authorities=\"@string/xapk_expansion_authority\" android:exported=\"false\" android:multiprocess=\"true\" android:name=\"com.flyingsoftgames.xapkreader.XAPKProvider\" />",
+                            "count": 1
+                        }
+                    ],
+                    "/manifest/application/activity": [
+                        {
+                            "xml": "<intent-filter><data android:scheme=\"odilearninglite\" /><action android:name=\"android.intent.action.VIEW\" /><category android:name=\"android.intent.category.DEFAULT\" /><category android:name=\"android.intent.category.BROWSABLE\" /></intent-filter>",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "res/xml/config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"XAPKReader\"><param name=\"android-package\" value=\"com.flyingsoftgames.xapkreader.XAPKReader\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"LaunchMyApp\"><param name=\"android-package\" value=\"nl.xservices.plugins.LaunchMyApp\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"InAppBrowser\"><param name=\"android-package\" value=\"org.apache.cordova.inappbrowser.InAppBrowser\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"StatusBar\"><param name=\"android-package\" value=\"org.apache.cordova.statusbar.StatusBar\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Whitelist\"><param name=\"android-package\" value=\"org.apache.cordova.whitelist.WhitelistPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "res/values/xapkreader.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<string name=\"xapk_expansion_authority\">org.theodi.elearning1</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"xapk_google_play_public_key\">YOUR_GOOGLE_PLAY_LICENSE_KEY</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"xapk_text_downloading_assets\">Downloading assets…</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"xapk_text_preparing_assets\">Preparing assets…</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"xapk_text_download_failed\">Download failed.</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"xapk_text_error\">Error.</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"xapk_text_close\">Close.</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<integer name=\"xapk_main_version\">0</integer>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<integer name=\"xapk_patch_version\">0</integer>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<integer name=\"xapk_main_file_size\">0</integer>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<integer name=\"xapk_patch_file_size\">0</integer>",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "com.flyingsoftgames.xapkreader": {
+            "PACKAGE_NAME": "org.theodi.elearning1"
+        },
+        "cordova-plugin-customurlscheme": {
+            "URL_SCHEME": "odilearninglite",
+            "PACKAGE_NAME": "org.theodi.elearning1"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "org.theodi.elearning1"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "org.theodi.elearning1"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "org.theodi.elearning1"
+        },
+        "nl.x-services.plugins.backgroundaudio": {
+            "PACKAGE_NAME": "org.theodi.elearning1"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-google-play-services": {
+            "PACKAGE_NAME": "org.theodi.elearning1"
+        }
+    }
+}
