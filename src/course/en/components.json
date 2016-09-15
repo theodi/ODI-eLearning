@@ -221,7 +221,7 @@
             },
             {
                 "title": "Building new business opportunities",
-                "body": "<p>Open data is opening up new opportunities for businesses to connect with customers.</p><p>Transport for London has released open data that developers have used to build over 800 transport apps.<br /><a href='http://www.tfl.gov.uk/' target='_blank'>Take me to Transport for London</a></p><p>Thomson Reuters is using open data to connect with existing customers in order to provide better services.<br /><a href='http://site.thomsonreuters.com/site/data-identifiers/' target='_blank'>Take me to Thomson Reuters</a></p><p>Startups in the ODI Startup programme now collectively employ over 70 people and generate over £4m in income.<br /><a href='http://theodi.org/odis-second-year-annual-report' target='_blank'>Take me to the ODI annual report</a></p>",
+                "body": "<p>Open data is opening up new opportunities for businesses to connect with customers.</p><p class='not-dlab'>Transport for London has released open data that developers have used to build over 800 transport apps.<br /><a href='http://www.tfl.gov.uk/' target='_blank'>Take me to Transport for London</a></p><p class='not-dlab'>Thomson Reuters is using open data to connect with existing customers in order to provide better services.<br /><a href='http://site.thomsonreuters.com/site/data-identifiers/' target='_blank'>Take me to Thomson Reuters</a></p><p class='not-eu'>Find My School enables you to find the right school for you by location and exam results.<br/><a href='http://findmyschool.co.ke/discover' target='_blank'>Take me to Find My School</a></p><p>Startups in the ODI Startup programme now collectively employ over 70 people and generate over £4m in income.<br /><a href='http://theodi.org/odis-second-year-annual-report' target='_blank'>Take me to the ODI annual report</a></p>",
                 "_graphic": {
                     "src": "course/en/images/odi-7-narrative_large.jpg",
                     "alt": "Building new business opportunities",
@@ -586,8 +586,8 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Open data - veni, vidi, vici",
-        "displayTitle":"Open data - veni, vidi, vici",
+        "title":"Open data<span class='not-dlab' - veni, vidi, vici</span>",
+        "displayTitle":"Open data<span class='not-dlab' - veni, vidi, vici</span>",
         "body":"<p>Open data is <strong>data that anyone can access, use and share</strong>.</p><p>Open data is a raw material for the digital age but, unlike coal, timber or diamonds, it can be used by anyone and everyone at the same time.</p><p>Any restrictions imposed on the use of open data will limit its potential for creating new value.</p><p>Open data can bring diverse benefits to governments, businesses and individuals. It has the power to help improve services, grow economies and protect our planet.</p><p>In the next module, we will explore how value is unlocked in open data.</p><p><a class='course_link' href='../module2/'>Next module</a></p><p><a class='course_link' href='../'>Main menu</a></p>",
         "_pageLevelProgress": {
           "_isEnabled": true
