@@ -28,10 +28,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Data advocacy",
-        "displayTitle":"Data advocacy",
-        "body":"<p>Open and shared data can be valuable resources for any business. Whether to develop a clearer picture of operations, reduce inefficiency in supply chains or increase reach, a growing number of organisations now benefit from publishing and using both open and shared data.</p><p>But to share or open data might require a change in the culture of an organisation. Most businesses are configured to protect their data resources, even where benefits of greater sharing outweigh costs. The key to overcoming this resistance is clear, effective communication of the benefits that open and shared data can bring.</p><p>This module will prepare you to deliver a tailored pitch for open data that highlights value and addresses risks.</p>",
-        "instruction":"",
+        "body": "<p>Open data is increasing in importance to organisations of all sizes. As the volume of open data being consumed and published increases, so does the importance of this data to the strategic decisions of the organisation. To safeguard the use of data and ensure it delivers value, organisations need a data strategy that sets out clear, consistent protocols for the collection, use and sharing of data.</p>\n\n<p>Developing data strategy can seem like a daunting process. However, with a few simple principles to guide the design and creation, data strategies can be put in place rapidly and immediately begin delivering improvements.</p>\n\n<p>This module will prepare you with the tools to develop, write and implement a data strategy.</p>\n",
+        "displayTitle": "Data Strategy",
+        "title": "Data Strategy",
         "_pageLevelProgress": {
             "_isEnabled": true
         }
@@ -52,15 +51,15 @@
         }
     },
     {
-    "_id":"c-11",
-    "_parentId":"b-10",
-    "_type":"component",
-    "_component":"text",
-    "_classes":"",
-    "_layout":"right",
-        "title":"The five components of the perfect open data pitch",
-        "displayTitle": "The five components of the perfect open data pitch",
-        "body": "<p>Creating an effective pitch for open data requires five elements. These elements are common to most 'elevator pitches' and combine to create a clear, compelling case for action. The pitch should be delivered in 90 seconds or less.</p><h5>The five components of the perfect pitch are:</h5><ul class='ticks'><li>What it is – a plain definition of the concept</li><li>What is does – a tailored description of the benefit</li><li>Where it's helped – a relevant, quantified proof point</li><li>Why it's best – justification for why it beats other options</li><li>What next – a realistic decision that can be taken on the spot</li></ul></p><p>Below we explore each of these elements in greater detail."
+        "_id":"c-11",
+        "_parentId":"b-10",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"right",
+        "body": "<p>A data strategy is a&nbsp;statement of the value the organisation sees in their data and a set of actions to capture that value. Like any strategy, it begins with the&nbsp;goal or vision of the organisation&nbsp;and then sets out guiding principles to achieve these results.</p>\n\n<p>Data strategy is primarily focussed on the data the organisation holds itself. This could be everything from sales reports and&nbsp;customer insights to&nbsp;operations to marketing.</p>\n\n<p>The strategy begins by setting out how the organisation believes data should add value to their activities. These beliefs can be very simple (e.g. data will help&nbsp;us sell our products in more markets) or more complex (e.g. data will allow us to continuously monitor the efficiency of our operations and optimise in real time).&nbsp;</p>\n\n<p>Our strategy then sets out a plan of action for achieving the value set out in the statements. This plan is used to inform the decisions managers make about how to work so must be clear, achievable and have an obvious benefit for the organisation.</p>\n\n<p>Data strategies vary dramatically in length according to the complexity of data within the organisation. A company who holds very little data will have a short strategy. A data-rich company may have more detail.</p>\n",
+        "displayTitle": "What is data strategy?",
+        "title": "What is data strategy?",
     },
     {
         "_id":"c-12",
@@ -70,14 +69,14 @@
         "_classes":"",
         "_layout":"left",
         "_graphic": {
-            "alt": "The perfect pitch",
-            "title": "The perfect pitch",
-            "large": "course/en/images/c12.jpg",
-            "medium": "course/en/images/c12.jpg",
-            "small": "course/en/images/c12.jpg",
-            "*source":"http://www.shutterstock.com/pic-234353791.html",
-            "*credit":"tai11",
-            "*license":"Shutterstock Standard License"
+            "alt": "What is data strategy?",
+            "title": "What is data strategy?",
+            "large": "course/en/images/adf8c25f008196b25dbebcd69dc2f4c7937d1746.jpg.jpg",
+            "medium": "course/en/images/adf8c25f008196b25dbebcd69dc2f4c7937d1746.jpg.jpg",
+            "small": "course/en/images/adf8c25f008196b25dbebcd69dc2f4c7937d1746.jpg.jpg",
+            "*source":"",
+            "*credit":"",
+            "*license":""
         }
     },
     {
@@ -87,84 +86,67 @@
         "_type":"component",
         "_layout": "full",
         "_component": "narrative",
-        "title": "What is data?",
-        "displayTitle": "What is data?",
-        "body": "Without data we can’t build information, and without information there is no new knowledge.",
-        "instruction": "<em class='desktop-instruction'>Click the forward arrow to see more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more</em>",
-        "_items": [
-            {
-                "title": "Data",
-                "body": "<p>Data is the raw material from which information and knowledge can be derived.</p><p>Think of data as those locations, images, descriptions, reviews and prices that form the basis of information that can help you plan a holiday, for example.</p>",
-                "_graphic": {
-                    "src": "course/en/images/odi-2-narrative_large.jpg",
-                    "alt": "Data in knowledge triangle",
-                    "title": "Data in knowledge triangle",
-                    "*source":"http://www.shutterstock.com/pic.mhtml?id=240789808&src=lb-35924366",
-                    "*credit":"Anna Frajtova",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "Data"
-            },
-            {
-                "title": "Information",
-                "body": "<p>Data becomes information when it is given a context.</p><p>Following on from the previous example, locations, images, descriptions and prices can all help provide information related to a tourist attraction.</p><p>The collection and presentation of data helps to form information.</p>",
-                "_graphic": {
-                    "src": "course/en/images/odi-3-narrative_large.jpg",
-                    "alt": "Information in knowledge triangle",
-                    "title": "Information in knowledge triangle",
-                    "*source":"http://www.shutterstock.com/pic.mhtml?id=217763944&src=lb-35924366",
-                    "*credit":"Sachezi",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "Information"
-            },
-            {
-                "title": "Knowledge",
-                "body": "<p>Knowledge is what is derived from information, and personalised for your needs.</p><p>Building knowledge is a process of turning information into choices.</p><p>Building on the previous example, knowing that no one in your family likes theme parks will help you to decide which places to avoid on holiday, and which would suit your family better.</p>",
-                "_graphic": {
-                    "src": "course/en/images/odi-4-narrative_large.jpg",
-                    "alt": "Knowledge in knowledge triangle",
-                    "title": "Knowledge in knowledge triangle",
-                    "*source":"http://www.shutterstock.com/pic.mhtml?id=250810483&src=lb-35924366",
-                    "*credit":"Oleksiy Mark",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "Knowledge"
-            }
-        ],
+        "body": "<p>Your data strategy defines the way in which people in your organisation treat data. With good strategy, you can ensure your data is maintained consistently, used professional and shared safely. Without data strategy, organisations tend to fall into one of 5 major traps...</p>\n",
+        "displayTitle": "Why does data strategy matter?",
+        "title": "Why does data strategy matter?",
+        "_isAvailable": true,
+        "_isOptional": false,
+        "_classes": "",
         "_pageLevelProgress": {
-        "_isEnabled": true
-        }
-    },
-    {
-        "_id":"c-25",
-        "_parentId":"b-25",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"left",
+            "_isEnabled": true
+        },
+        "instruction": "",
+        "mobileInstruction": "",
+        "_hasNavigationInTextArea": true,
+        "_setCompletionOn": "allItems",
+        "_items": [
+        {
+        "title": "Siloed",
+        "body": "<p>Siloes companies don&rsquo;t know where their data is stored or how it is used. There is little or no communication between areas of the business about their data assets or activities.</p>\n\n<p>Different parts of the organisation&nbsp;use their own data for their own goals with very little sharing. The typical siloed company is often surprised by what data someone else in the business holds or what they have done with data.</p>\n\n<p>The most typical phrase for someone in a siloed organisation is <em><strong>&ldquo;We don&rsquo;t know who holds what&rdquo;</strong></em></p>\n",
         "_graphic": {
-            "alt": "What is open data?",
-            "title": "What is open data?",
-            "large": "course/en/images/odi-1-text-image_large.jpg",
-            "medium": "course/en/images/odi-1-text-image_large.jpg",
-            "small": "course/en/images/odi-1-text-image_large.jpg",
-            "*source":"http://www.shutterstock.com/pic.mhtml?id=179384507&src=lb-35924366",
-            "*credit":"leromin",
-            "*license":"Shutterstock Standard License"
-        }
-    },
-    {
-        "_id":"c-26",
-        "_parentId":"b-25",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"",
-        "_layout":"right",
-        "title":"What is open data?",
-        "displayTitle":"What is open data?",
-        "body":"<p>Open data is data that <strong>anyone can access, use and share</strong>.</p><p>Open data becomes usable when made available in a common, machine-readable format.</p><p>Open data must be licensed. Its licence must permit people to use the data in any way they want, including transforming, combining and sharing it with others, even commercially.</p>"
-    },
+          "src": "course/en/assets/6d2b97fe6f54885527d2b179dc7002bef30b9368.jpg",
+          "alt": ""
+        },
+        "strapline": "Siloes"
+      },
+      {
+        "title": "Resistant",
+        "body": "<p>Resistant companies have staff who refuse, deliberately or otherwise, to tow the line when it comes to data management &amp; use. These organisations have a failed to effectively secure the support of staff for the strategy.</p>\n\n<p>The typical resistant company has a data strategy, but different people pursue their own goals regardless at the expense of this strategy.&nbsp;</p>\n\n<p>The most typical phrase for someone in a resistant organisation is&nbsp;<strong>&ldquo;that&rsquo;s not the way I work&rdquo;</strong></p>\n",
+        "_graphic": {
+          "src": "course/en/assets/b8afc87f6ab848c05d5957d09b30ac1c7235bdb0.jpg",
+          "alt": ""
+        },
+        "strapline": "Resistance"
+      },
+      {
+        "title": "Piecemeal",
+        "body": "<p>Piecemeal companies lack a central data strategy. They have many, small&nbsp;data strategies for different projects or data types. &nbsp;Each new area or project has a strategy&nbsp;set up without reference to the others.</p>\n\n<p>The piecemeal organisation struggles from the incompatibility&nbsp;of different data types caused by the different strategies.</p>\n\n<p>The most typical phrase for the piecemeal organisation is&nbsp;<strong>&ldquo;this time lets do it this way&rdquo;.</strong></p>\n",
+        "_graphic": {
+          "src": "course/en/assets/2283c9fe54cec54fc9f4409b7fb65b84b1b400c2.jpg",
+          "alt": ""
+        },
+        "strapline": "Piecemeal"
+      },
+      {
+        "title": "Legacy",
+        "body": "<p>Legacy companies have strategies designed around the constraints of their systems or workforce skills. Usually, the legacy organisation has systems they are locked into or that limit what they can do with data.</p>\n\n<p>Even where the goals of the business are different, strategy is led by resources rather than objectives.</p>\n\n<p>The most typical phrase for the legacy organisation is&nbsp;<strong>&ldquo;The system means we have to do it this way&rdquo;</strong></p>\n",
+        "_graphic": {
+          "src": "course/en/assets/dd7d873a83c4a69f5e6389f14ad50a11c6b1813a.jpg",
+          "alt": ""
+        },
+        "strapline": "Legacy"
+      },
+      {
+        "title": "Focussed",
+        "body": "<p>The focus company only cares about data that serves a single or limited set of objectives. They may have a strategy but limited to a specific project or product.</p>\n\n<p>The focussed company&nbsp;will discard or neglect any data not directly relevant to their focus area(s).</p>\n\n<p>The most typical phrase for the focussed company is&nbsp;<strong>&ldquo;that data isn&#39;t relevant to us&rdquo;.</strong></p>\n",
+        "_graphic": {
+          "src": "course/en/assets/0794a95606bd4f24b05c2c5da37acd6ec295c827.jpg",
+          "alt": ""
+        },
+        "strapline": "Focussed"
+      }
+  ]
+  },
     {
         "_id":"c-30",
         "_parentId":"b-28",
@@ -173,14 +155,14 @@
         "_classes":"",
         "_layout":"right",
         "_graphic": {
-            "alt": "What makes data open?",
-            "title": "What makes data open?",
-            "large": "course/en/images/odi-5-accordion_large.jpg",
-            "medium": "course/en/images/odi-5-accordion_large.jpg",
-            "small": "course/en/images/odi-5-accordion_large.jpg",
-            "*source":"http://www.shutterstock.com/pic.mhtml?id=154744388&src=lb-35924366",
-            "*credit":"Oleksiy Mark",
-            "*license":"Shutterstock Standard License"
+            "alt": "Components of data strategy",
+            "title": "Components of data strategy",
+            "large": "course/en/images/2813c675fbfd5a508c8e99374187733d399f4b25.png",
+            "medium": "course/en/images/2813c675fbfd5a508c8e99374187733d399f4b25.png",
+            "small": "course/en/images/2813c675fbfd5a508c8e99374187733d399f4b25.png",
+            "*source":"",
+            "*credit":"",
+            "*license":""
         }
     },
     {
@@ -190,27 +172,57 @@
       "_component":"accordion",
       "_classes":"",
       "_layout":"left",
-      "title": "What makes data open?",
-      "displayTitle": "What makes data open?",
-      "body": "<p>Data is open if anyone can access, use and share it.<br >There are some simple things to consider when defining openness: </p>",
+      "body": "<p>Data strategy is composed of 5 key elements. Each of these are essential to delivering the value the organisation wants to derive from their&nbsp;data</p>\n",
+      "displayTitle": "Components of data strategy",
+      "title": "Components of data strategy",
       "instruction": "",
       "_items": [
-        {
-          "alt": "Limitations",
-          "title": "Limitations",
-          "body": "<p>For data to be open, it should have no limitations that prevent it from being used in any particular way</p><p>Anyone should be free to use, modify, combine and share the data, even commercially.</p>"
+      {
+        "title": "Map",
+        "body": "<p>The first key element of data strategy is a comprehensive asset map of who holds and maintains your data.</p>\n\n<p>You need to develop a complete list of the data types your organisation holds &amp; has access to.</p>\n\n<p>For each dataset list an owner, how the data can be accessed and where it is held.</p>\n\n<p>Other useful information includes update frequency and format</p>\n",
+        "_graphic": {
+          "alt": "",
+          "src": ""
         },
-        {
-          "alt": "Cost",
-          "title": "Cost",
-          "body": "<p>Open data must be free to use, but this does not mean that it must be free to access.</p><p>There is often a cost to creating, maintaining and publishing usable data.</p><p>Ideally, any fee for accessing open data should be no more than the reasonable reproduction cost of the unit of data that is requested.</p><p>This reproduction cost tends to be negligible for many datasets.</p><p>Live data and big data can incur ongoing costs related to reliable service provision.</p>"
+        "_classes": ""
+      },
+      {
+        "title": "Describe",
+        "body": "<p>The second key component is a good description of each of the data types you hold, access or use.</p>\n\n<p>You need to ensure that all data is described in a uniform, meaningful way that can be easily searched</p>\n\n<p>Each dataset should have a set of common IDs such as name, topic, temporal coverage, ownership, use requirements, format &amp; permissions</p>\n\n<p>This information should be stored in a commonly accessible database pushed at least company-wide</p>\n",
+        "_graphic": {
+          "alt": "",
+          "src": ""
         },
-        {
-          "alt": "Reuse",
-          "title": "Reuse",
-          "body": "<p>Once the user has the data, they are free to use, reuse and redistribute it – even commercially.</p><p>The value of open data is measured by what it can be used for, not by how it is made available.</p><p>Aspects like format, structure and machine readability all make data more usable, and should all be carefully considered.</p><p>However, these do not make the data more open.</p>"
-        }
-      ],
+        "_classes": ""
+      },
+      {
+        "title": "Share",
+        "body": "<p>The third key component is a plan for how data will be shared both within the organisation and more broadly with partners or the public.</p>\n\n<p>Once data is mapped and described, you need to fix the appropriate access requirements to balance security with ease of use.</p>\n\n<p>Use the data spectrum to select the optimal sharing level for each dataset then consider how to provide it.</p>\n\n<p>Take account of information security throughout.</p>\n",
+        "_graphic": {
+          "alt": "",
+          "src": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Maintain",
+        "body": "<p>The fourth key element of the data strategy is a process for timely and thorough maintenance of the organisation&#39;s data assets</p>\n\n<p>Data needs common maintenance. You should put in place expected standards of data quality, educate staff on how to implement them and regularly review.</p>\n\n<p>Staff will often need new skills to maintain data correctly. Place an important emphasis on L&amp;D whether through on-job training, courses or instruction.</p>\n\n<p>Ensure standards are met and maintained through reward</p>\n",
+        "_graphic": {
+          "alt": "",
+          "src": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Govern",
+        "body": "<p>The final key element of the data strategy is a governance plan that ensures leadership and management are equipped to uphold data standards across the organisation.</p>\n\n<p>Ensure that all levels of the organisation have data strategy baked into their work. Appropriate oversight and check-ins will drive adoption and are critical to the process.</p>\n\n<p>Managers need data governance metrics and a person should be appointed as the reviewer of data quality and management.</p>\n\n<p>Govern effectively and ensure everyone understands the vision and the purpose</p>\n",
+        "_graphic": {
+          "alt": "",
+          "src": ""
+        },
+        "_classes": ""
+      }
+    ],
       "_pageLevelProgress": {
         "_isEnabled": true
       }
@@ -220,564 +232,209 @@
         "_parentId": "b-30",
         "_classes": "",
         "_type":"component",
-        "_layout": "full",
-        "_component": "narrative",
-        "title": "What open data does",
-        "displayTitle": "What open data does",
-        "body": "<p>Open data can bring different benefits, depending on its use. Many advocates of open data use generic arguments when discussing its advantages, but a strong pitch for open data needs to be closely tailored to the priorities and concerns of its audience. In most cases, this can be determined from their professional context. Below we examine six common roles of decision makers, coupled with the most relevant benefits of open data.</p>",
-        "instruction": "<em class='desktop-instruction'>Click the forward arrow to see more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more</em>",
-        "_items": [
-            {
-                "title": "Leadership and strategy",
-                "body": "<p>Most organisations already have or are exploring the need for a data strategy. When speaking with those in strategic or leadership roles, strengthening their data strategy is a key concern.</p><p>Open data supports the wider data strategy of an organisation by enriching proprietary data at no cost and adding new options to the data-sharing capabilities of the business.</p>",
-                "_graphic": {
-                    "src": "course/en/images/c36-1.jpg",
-                    "alt": "Leadership and strategy",
-                    "title": "Leadership and strategy",
-                    "*source":"http://www.shutterstock.com/pic-238771996.html",
-                    "*credit":"Mangsaab",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "Leadership and strategy"
-            },
-            {
-                "title": "Operations",
-                "body": "<p>For those in operations roles, efficiency is a priority. Data plays a role in resource-saving by enabling a faster exchange of information. Open data can enable efficiency in orders of far greater magnitude.</p><p>The ability to access and share data across multiple platforms and between numerous organisations eradicates the time and cost normally associated with acquiring valuable datasets, one by one.</p>",
-                "_graphic": {
-                    "alt": "Operations",
-                    "title": "Operations",
-                    "src": "course/en/images/c36-2.png",
-                    "*source":"http://www.shutterstock.com/pic-245234284.html",
-                    "*credit":"Positive thinker",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "Operations"
-            },
-            {
-                "title": "Finance or ventures",
-                "body": "<p>Those working in finance or ventures will want to know that the investment they put into open data will bring about value for the organisation. When speaking to those in a ventures capacity, the high growth potential of open data services, and initial value they will create, support a strong case for open data. Open data can produce viable equity ventures and business lines with businesses like Climate Corp, DataMarket and others have been acquired wholly by larger organisations.<p></p>Open data has already created attractive target entities for acquisition and can contribute to the creation of viable independent business units.<p>",
-                "_graphic": {
-                    "src": "course/en/images/c36-3.jpg",
-                    "alt": "Finance or ventures",
-                    "title": "Finance or ventures",
-                    "*source":"http://www.shutterstock.com/pic-164731838.html",
-                    "*credit":"STH",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "Finance/Ventures"
-            },
-            {
-                "title": "Communications",
-                "body": "<p>For those in communications roles, data can seem irrelevant to their work. The key message that resonates with communications professionals is that opening data maximises opportunities for media exposure in support of promoting organisational priorities, and complements existing media channels.</p><p> Opening data has a proven track record in helping to secure positive media coverage. The rise of data journalism has created a need for alternative channels that traditional releases and media alerts cannot reach. Open data also increases perceived neutrality and trust among the public that resulting articles are not ‘spun’.</p>",
-                "_graphic": {
-                    "src": "course/en/images/c36-4.jpg",
-                    "alt": "Communications",
-                    "title": "Communications",
-                    "*source":"http://www.shutterstock.com/pic-239545075.html",
-                    "*credit":"everything possible",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "Communications"
-            },
-            {
-                "title": "CSR or foundations",
-                "body": "<p>Those who work in CSR or foundations have the greatest natural inclination towards open data. Along with the transparency aspect, this audience responds well to the way in which open data helps to found and strengthen new partnerships.</p><p>Exchanging open data with other organisations supports collaboration within existing networks and creates an open platform for innovation and shared learning. By engaging with open data, you can increase your long-term profits and shareholder trust.</p>",
-                "_graphic": {
-                    "src": "course/en/images/c36-5.jpg",
-                    "alt": "CSR or Foundation",
-                    "title": "CSR or Foundation",
-                    "*source":"http://www.shutterstock.com/pic-201870622.html",
-                    "*credit":"Your Design",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "CSR or Foundation"
-            },
-            {
-                "title": "Product or marketing",
-                "body": "<p>Those in product or marketing roles will respond best to the potential of open data to enhance relationships with customers. More consumers are coming to expect a custom experience, which can be satisfied through greater provision of open data to complement the product function.</p><p>Open data has already enabled startups like CityMapper and OpenCorporates to thrive, shifting the expectations of consumers in their respective markets for not only the product but for the underlying data. Also, as an established businesses, Spotify uses open data service MusicBrainz to enhance the listening experience for its users and develop a competitive edge.</p>",
-                "_graphic": {
-                    "alt": "Product or Marketing",
-                    "title": "Product or Marketing",
-                    "src": "course/en/images/c36-6.png",
-                    "*source":"http://www.shutterstock.com/pic-134315933.html",
-                    "*credit":"Photoraidz",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "Product or Marketing"
-            }
-        ],
+        "_layout": "right",
+        "_component": "text",
+        "body": "<p>Strategy is only as effective as the ability of staff to execute it. If your organisation does not understand the importance of data strategy or the direct impact on their work, they are less likely to support your initiatives and more likely to steer the organisation into the resistant or piecemeal state.&nbsp;</p>\n\n<p>Putting in place the skills to execute data strategy begins with a profile of your workforce, their activities and current proficiencies. To help you address this for the unique challenges of open data, the ODI has created the Data Skills Framework. The Framework is a set of core skills that are important to executing data strategy.&nbsp;</p>\n\n<p>The Framework works at three levels. The top level groups your workforce into their current level of proficiency, either Explorer (newcomer), Strategist &amp; Practitioner (experienced manager or specialist respectively) or Pioneer (your leading experts).</p>\n\n<p><a href=\"https://drive.google.com/file/d/0BxZjxjoFCNfSRFV1TTlwU3p3WG8/view?usp=sharing\">To learn how to use the framework in your own data strategy, follow this exercise</a>.</p>\n",
+        "displayTitle": "Assessing the skill requirements",
+        "title": "Assessing the skill requirements",
         "_pageLevelProgress": {
         "_isEnabled": true
         }
     }, 
     {
-        "_id":"c-38",
-        "_parentId":"b-31",
+        "_id":"c-37",
+        "_parentId":"b-30",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
-        "_layout":"right",
+        "_layout":"left",
         "_graphic": {
-            "alt": "What makes data open?",
-            "title": "What makes data open?",
-            "large": "course/en/images/odi-5-accordion_large.jpg",
-            "medium": "course/en/images/odi-5-accordion_large.jpg",
-            "small": "course/en/images/odi-5-accordion_large.jpg",
-            "*source":"http://www.shutterstock.com/pic.mhtml?id=154744388&src=lb-35924366",
-            "*credit":"Oleksiy Mark",
-            "*license":"Shutterstock Standard License"
+            "alt": "Skills framework",
+            "title": "Skills framework",
+            "large": "course/en/images/79f8cb80ddb1743d65464cd5e963bf8197ea7f0d.png",
+            "medium": "course/en/images/79f8cb80ddb1743d65464cd5e963bf8197ea7f0d.png",
+            "small": "course/en/images/79f8cb80ddb1743d65464cd5e963bf8197ea7f0d.png",
+            "*source":"",
+            "*credit":"",
+            "*license":""
         }
     },
     {
-      "_id":"c-37",
-      "_parentId":"b-31",
-      "_type":"component",
-      "_component":"accordion",
-      "_classes":"",
-      "_layout":"left",
-      "title": "Where open data has helped",
-      "displayTitle": "Where open data has helped",
-      "body": "<p></p>",
-      "instruction": "",
-      "_items": [
-        {
-          "alt": "Comms and transparency",
-          "title": "Comms and transparency",
-          "body": "<p>As a large organisation, agricultural product company Syngenta are reaching new markets and demystifying their work by publishing openly available datasets.</p><p>In the public sector, analysis of openly available Canada Revenue Agency data identified $3.2bn in charitable tax violations. In one case, only $1 out of every $100 went to its stated cause of helping the homeless.</p><p>As an open data startup, OpenCorporates provides 100m company records in over 100 jurisdictions, which enables the study of beneficial ownership and control.</p>"
-        },
-        {
-          "alt": "Generating income",
-          "title": "Generating income",
-          "body": "<p>Another large organisation, Arup, incubates open data startups for new revenue sources and lower operations costs for services, and to collaboratively gain commercial insight into multiple data releases.</p><p>The Climate Corporation was bought by Monsanto for $930m in 2013 for their use of farm data, which has revolutionised the agricultural industry.</p><p>In startups, Transport API have an annual turnover of £300k, generated by cleaning up UK transport data for other businesses.</p>"
-        },
-        {
-          "alt": "Efficiency savings",
-          "title": "Efficiency savings",
-          "body": "<p>Thomson Reuters is another large organisation, who has applied open data so that their existing products can be linked together for a better sales channel, which has lowered ownership costs.</p><p>In the public sector, the Government of South Australia saves $3.2m annually on Freedom of Information requests through proactively releasing data.</p><p>Startup Prescribing Analytics – a joint venture between NHS doctors and technologists – used open data to identify a £200m annual saving for the NHS if they were to switch to own-brand statins and utilise more efficient delivery routes.</p>"
-        },
-        {
-          "alt": "Improving services",
-          "title": "Improving services",
-          "body": "<p>Another large organisation, Transport for London, released their travel data and enabled developers to provide consumer-friendly services, providing customers with an estimated £58 million per year in saved time.</p><p>In the public sector, the government of Catalunya achieved savings of €2.6m per year in reduced staff costs from cross-department access to map data.</p><p>Startup CityMapper joined up available transport data to improve the ways in which citizens could travel. Three years after its inception, CityMapper has received $10m in funding and has expanded to cover 29 cities.</p>"
-        },
-        {
-          "alt": "CSR and social impact",
-          "title": "CSR and social impact",
-          "body": "<p>In the large organisation category, the Environment Agency used open data to create community-built flood models that could save 20% on design and delivery costs of providing mandatory flood information to the public.</p><p>In the public sector, in response to the Christchurch earthquake in 2011, city officials and volunteers created a crowdsourced emergency information web app that saved NZ$4m in reconstruction costs within the first year of rebuilding.</p><p>Startup OpenSensors deployed air quality and noise sensors around Heathrow, which they released as open data, exposing the fact that emissions were double the reported figure and altering the direction of parliamentary debate on the subject.</p>"
-        }
-      ],
-      "_pageLevelProgress": {
+        "_id": "c-36",
+        "_parentId": "b-30",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "right",
+        "_component": "text",
+        "body": "<p>Strategy is only as effective as the ability of staff to execute it. If your organisation does not understand the importance of data strategy or the direct impact on their work, they are less likely to support your initiatives and more likely to steer the organisation into the resistant or piecemeal state.&nbsp;</p>\n\n<p>Putting in place the skills to execute data strategy begins with a profile of your workforce, their activities and current proficiencies. To help you address this for the unique challenges of open data, the ODI has created the Data Skills Framework. The Framework is a set of core skills that are important to executing data strategy.&nbsp;</p>\n\n<p>The Framework works at three levels. The top level groups your workforce into their current level of proficiency, either Explorer (newcomer), Strategist &amp; Practitioner (experienced manager or specialist respectively) or Pioneer (your leading experts).</p>\n\n<p><a href=\"https://drive.google.com/file/d/0BxZjxjoFCNfSRFV1TTlwU3p3WG8/view?usp=sharing\">To learn how to use the framework in your own data strategy, follow this exercise</a>.</p>\n",
+        "displayTitle": "Assessing the skill requirements",
+        "title": "Assessing the skill requirements",
+        "_pageLevelProgress": {
         "_isEnabled": true
-      }
+        }
+    }, 
+    {
+        "_id":"c-37",
+        "_parentId":"b-30",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Skills framework",
+            "title": "Skills framework",
+            "large": "course/en/images/79f8cb80ddb1743d65464cd5e963bf8197ea7f0d.png",
+            "medium": "course/en/images/79f8cb80ddb1743d65464cd5e963bf8197ea7f0d.png",
+            "small": "course/en/images/79f8cb80ddb1743d65464cd5e963bf8197ea7f0d.png",
+            "*source":"",
+            "*credit":"",
+            "*license":""
+        }
     },
-        {
+    {
+        "_id": "c-38",
+        "_parentId": "b-35",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "left",
+        "_component": "text",
+        "body": "<p>A key discipline for creating good data strategies is an understanding of how to describe your data. Internal processes within the organisation tend to dictate how we label and describe data. However, when newcomers need to search, use or contribute to data. In particular, when an organisation shares data with partners or opens that data to the public, they need to ensure that the right labels and information are in place to make it accessible and simple to use.</p>\n\n<p>There are a range of different tools that can support you when describing data well. The ODI&#39;s <a href=\"http://certificates.theodi.org/en/\">Open Data Certificates</a> are a self-assessment tool that takes you through all the fundamentals of describing data well. Certificates can be used even if the data itself is never published as open.</p>\n",
+        "displayTitle": "Describing data well",
+        "title": "Describing data well",
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    }, 
+    {
         "_id":"c-39",
-        "_parentId":"b-32",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"left",
-        "_graphic": {
-            "small": "course/en/images/c-21.jpg",
-            "medium": "course/en/images/c-21.jpg",
-            "large": "course/en/images/c-21.jpg",
-            "alt": "Open data about performance",
-            "title": "Open data about performance",
-            "*source":"http://www.shutterstock.com/pic-201870622.html",
-            "*credit":"Your Design",
-            "*license":"Shutterstock Standard License"
-        }
-    },
-    {
-      "_id":"c-40",
-      "_parentId":"b-32",
-      "_type":"component",
-      "_component":"accordion",
-      "_classes":"",
-      "_layout":"right",
-      "title": "Why open data is best",
-      "displayTitle": "Why open data is best",
-      "body": "<p>Open data is data that anyone can access, use and share. Unlike resources generally used in a traditional business, which belong only to the business and can be protected, open data can be used by others at the same time. To understand how businesses that use open data operate, we need to consider the value proposition of open data to a business.</p>",
-      "instruction": "<em>Click below to explore tools that unlock data that is <b>on the Web</b></em>",
-      "_items": [
-        {
-          "alt": "What is a value proposition of open data?",
-          "title": "What is a value proposition of open data?",
-          "body": "<p>A 'value proposition' is a credible justification for why your customers will interact with your business in the ways that you expect. At the core of a value proposition is the problem you solve for your customers. By identifying a problem your customers have and creating a solution to that problem, you give them justification to interact with your business.</p>"
-        },
-        {
-          "alt": "Why are value propositions important?",
-          "title": "Why are value propositions important?",
-          "body": "<p>The value proposition of a business is central to its business model. Without a strong value proposition, a business does not have justification to operate. The value proposition is also the logic upon which the rest of the business is based. If, for example, a business solves a problem for its customers and helps them to save money or time, there is a reason to charge for this service. If, however, the solution that a business offers is not one that customers value in monetary terms, the business may need to seek alternative sources of revenue. Understanding their value proposition allows a business to anchor decisions in how customers will interact.</p>"
-        },
-        {
-          "alt": "The value proposition of open",
-          "title": "The value proposition of open",
-          "body": "<p>Businesses embracing an open approach – whether in open source software or open data – need to consider the value proposition of the open resources that they consume. This consideration is important when developing a value proposition, because using someone else's data or software in your business can affect the problem you solve.</p>"
-        },
-        {
-          "alt": "Creating a value proposition for an open data business",
-          "title": "Creating a value proposition for an open data business",
-          "body": "<p>Creating the value proposition for an open data business is different from a traditional business. Where a closed business solves a problem with a solution that the customer cannot get anywhere else, an open business uses solutions that are already available in some form elsewhere. This means that the value proposition for an open business is usually based on being more convenient or cost-effective than the alternatives. Writing a strong value proposition for an open data business means explaining what problem you solve for a customer and why using your solution is better than going directly to the data themselves.</p>"
-        }
-      ],
-      "_pageLevelProgress": {
-        "_isEnabled": true
-      }
-    },
-    {
-        "_id":"c-411",
-        "_parentId":"b-33",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"right",
-        "title":"",
-        "displayTitle":"",
-        "body":"",
-        "instruction":"",
-        "_graphic": {
-            "alt": "Accessing right data format",
-            "title": "Accessing right data format",
-            "large": "course/en/images/c-411.jpg",
-            "medium": "course/en/images/c-411.jpg",
-            "small": "course/en/images/c-411.jpg",
-            "*source": "http://www.shutterstock.com/pic-199692071",
-            "*credit": "Ing. Andrej Kaprinay",
-            "*licence": "Shutterstock standard license"
-        }
-    },
-    {
-    "_id":"c-41",
-    "_parentId":"b-33",
-    "_type":"component",
-    "_component":"text",
-    "_classes":"",
-    "_layout":"left",
-        "title":"What next?",
-        "displayTitle": "What next?",
-        "body": "<p>Once you have made the key points in your pitch for open data, it is vital that you create the conditions for action. Listeners want to be able to take action in response to a pitch. Your task is to create an action that allows them to immediately say yes (or no), without needing to go away to consider it.</p><p>Creating an action that someone can decide on at the time means that you are not asking for too much. If the person would need to consult others or consider further, the action is too big. The ideal is an action that is small, clear, and moves the agenda forward.</p><p>Good actions include: getting a date in the diary for a follow-up meeting with more people; a commitment to read and respond to a case study relevant to their interests; or them sending a feasibility assessment of using your solution.</p><p>Keep the timeframe and impact clear. Finally, only ask for budget or time that is reasonable, given the level of expected return.</p>"
-    },
-    {
-        "_id":"c-42",
-        "_parentId":"b-34",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"right",
-        "title":"",
-        "displayTitle":"",
-        "body":"",
-        "instruction":"",
-        "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "course/en/images/burst.png",
-            "medium": "course/en/images/burst.png",
-            "small": "course/en/images/burst.png"
-        }
-    },
-    {
-        "_id":"c-43",
-        "_parentId":"b-34",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"",
-        "_layout":"left",
-        "title":"Are you ready for open data advocacy?",
-        "displayTitle":"Are you ready for open data advocacy?",
-        "body":"<p>There are four helpful things to remember when advocating for open data. Can you remember them?</p>",
-        "instruction":"",
-        "_pageLevelProgress": {
-            "_isEnabled": true
-        }
-    },
-    {
-        "_id":"c-45",
         "_parentId":"b-35",
         "_type":"component",
         "_component":"graphic",
-        "_classes":"illustration",
+        "_classes":"",
         "_layout":"right",
         "_graphic": {
-            "alt": "What is open data?",
-            "title": "",
-            "large": "course/en/images/odi-9-mcq-image_large.jpg",
-            "medium": "course/en/images/odi-9-mcq-image_large.jpg",
-            "small": "course/en/images/odi-9-mcq-image_large.jpg",
-            "*source":"http://www.shutterstock.com/pic.mhtml?id=179384507&src=lb-35924366",
-            "*credit":"leromin",
-            "*license":"Shutterstock Standard License"
+            "alt": "ODI Certificates",
+            "title": "ODI Certificates",
+            "large": "course/en/images/a3eabc9ff7af595c2356ac8a06ded65c0f635501.png",
+            "medium": "course/en/images/a3eabc9ff7af595c2356ac8a06ded65c0f635501.png",
+            "small": "course/en/images/a3eabc9ff7af595c2356ac8a06ded65c0f635501.png",
+            "*source":"",
+            "*credit":"",
+            "*license":""
         }
     },
     {
-        "_id":"c-50",
-        "_parentId":"b-35",
-        "_type":"component",
-        "_component":"mcq",
-        "_classes":"",
-        "_layout":"left",
-        "_attempts":1,
-        "_questionWeight":1,
-        "_isRandom":true,
-        "_selectable":1,
-        "title": "What is open data?",
-        "displayTitle": "What is open data?",
-        "body": "<p>Open data is...</p>",
-        "instruction": "<em>Choose your answer, then click 'Submit'</em>",
-        "_items": [
-            {
-                "text": "information that we sell to businesses",
-                "_shouldBeSelected": false
-            },
-            {
-                "text": "data that anyone can access, use and share",
-                "_shouldBeSelected": true
-            },
-            {
-                "text": "data that is visible on the Web",
-                "_shouldBeSelected": false
-            }
-        ],
-        "_feedback":{
-            "correct":"<h5>That’s right!</h5><p><strong>Open data</strong> is <strong>data that anyone can access, use and share</strong>.<br />Open data must also be licensed to allow free usage and be available for commercial use</p>",
-            "_incorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p><strong>Open data</strong> is <strong>data that anyone can access, use and share</strong>. <br/>Open data must also be licensed to allow free usage and must also be available for commercial use</p></p>",
-                "final": "<h5>Are you sure about that?</h5><p><p><strong>Open data</strong> is <strong>data that anyone can access, use and share</strong>. <br/>Open data must also be licensed to allow free usage and must also be available for commercial use</p></p>"
-            },
-            "_partlyCorrect": {
-                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-          }
-        },
-        "_buttons":{
-            "submit":"",
-            "reset":"",
-            "showCorrectAnswer":"",
-            "hideCorrectAnswer":""
-        },
-        "_pageLevelProgress": {
-        "_isEnabled": true
-      }
+    "_id": "c-60",
+    "_layout": "full",
+    "_parentId": "b-40",
+    "_type": "component",
+    "body": "<p>Welcome to the data spectrum. This tool can help you classify and agree on sharing arrangements for your data assets. Click on each of the pins below to discover which data goes under which part of the spectrum.</p>\n",
+    "displayTitle": "Selecting the right sharing arrangements",
+    "title": "Selecting the right sharing arrangements",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "hotgraphic",
+    "_pageLevelProgress": {
+      "_isEnabled": true
     },
-    {
-        "_id":"c-55",
-        "_parentId":"b-40",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"illustration",
-        "_layout":"left",
+    "instruction": "",
+    "_graphic": {
+      "src": "course/en/images/4b9908969dc041bf339cf058c604f831175f8ef8.jpg",
+      "alt": ""
+    },
+    "mobileBody": "",
+    "mobileInstruction": "",
+    "_hidePagination": false,
+    "_canCycleThroughPagination": false,
+    "_useGraphicsAsPins": false,
+    "_items": [
+      {
+        "title": "Internal Access",
+        "body": "<p>Internal access is the most private type of data shared only with selected individuals inside the organisation.</p>\n\n<p>Whether closed to protect sensitive personal information such as salaries or to keep private commercially sensitive details of operations, Internal access data can only be accessed by those in specific roles within the organisation.</p>\n",
+        "strapline": "Internal access",
         "_graphic": {
-            "alt": "Data, information, knowledge triangle",
-            "title": "",
-            "large": "course/en/images/odi-10-mcq_large.jpg",
-            "medium": "course/en/images/odi-10-mcq_large.jpg",
-            "small": "course/en/images/odi-10-mcq_large.jpg",
-            "*source":"http://www.shutterstock.com/pic.mhtml?id=240789808&src=lb-35924366",
-            "*credit":"Anna Frajtova",
-            "*license":"Shutterstock Standard License",
-            "*source":"http://www.shutterstock.com/pic.mhtml?id=217763944&src=lb-35924366",
-            "*credit":"Sachezi",
-            "*license":"Shutterstock Standard License",
-            "*source":"http://www.shutterstock.com/pic.mhtml?id=250810483&src=lb-35924366",
-            "*credit":"Oleksiy Mark",
-            "*license":"Shutterstock Standard License"
-        }
-    },
-    {
-        "_id":"c-60",
-        "_parentId":"b-40",
-        "_type":"component",
-        "_component":"mcq",
-        "_classes":"",
-        "_layout":"right",
-        "_attempts":1,
-        "_questionWeight":1,
-        "_isRandom":true,
-        "_selectable":1,
-        "title": "Benefits of open data",
-        "displayTitle": "Benefits of open data",
-        "body": "<p>Which of the following is NOT a benefit of open data?</p>",
-        "instruction": "<em>Choose your answer, then click 'Submit'</em>",
-        "_items": [
-            {
-                "text": "Open data produces viable equity ventures and business lines",
-                "_shouldBeSelected": false
-            },
-            {
-                "text": "Open data helps improve media coverage and increase reach",
-                "_shouldBeSelected": false
-            },
-            {
-                "text": "Open data improves personal features and smoothes personality flaws",
-                "_shouldBeSelected": true
-            },
-            {
-                "text": "Open data improves outreach and forges social partnerships",
-                "_shouldBeSelected": false
-            }
-        ],
-        "_feedback":{
-            "correct":"<h5>That’s right!</h5><p>Among other benefits, open data can create viable ventures, increase media reach and forge new partnerships</p>",
-            "_incorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>Among other benefits, open data can create viable ventures, increase media reach and forge new partnerships</p>",
-                "final": "<h5>Are you sure about that?</h5><p>Among other benefits, open data can create viable ventures, increase media reach and forge new partnerships</p>"
-            },
-            "_partlyCorrect": {
-                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-          }
+          "src": "course/en/images/6a0a91e76bc18535113eb85d50ab3cee62d57e04.png",
+          "alt": "",
+          "title": "",
+          "_classes": ""
         },
-        "_buttons":{
-            "submit":"",
-            "reset":"",
-            "showCorrectAnswer":"",
-            "hideCorrectAnswer":""
-        },
-        "_pageLevelProgress": {
-        "_isEnabled": true
-      }
-    },
-    {
-        "_id":"c-65",
-        "_parentId":"b-45",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"illustration",
-        "_layout":"right",
+        "_classes": "",
+        "_left": 13.3,
+        "_top": 75
+      },
+      {
+        "title": "Named access",
+        "body": "<p>Named access data is shared only with named individuals. These people can be inside the organisation or in partner organisations.</p>\n\n<p>Named access data is only accessed on the based of a signed agreement between the party sharing the data and the party accessing it.</p>\n",
+        "strapline": "Named Access",
         "_graphic": {
-            "alt": "What makes data open?",
-            "title": "",
-            "large": "course/en/images/odi-11-mcq_large.jpg",
-            "medium": "course/en/images/odi-11-mcq_large.jpg",
-            "small": "course/en/images/odi-11-mcq_large.jpg",
-            "*source":"http://www.shutterstock.com/pic.mhtml?id=154744388&src=lb-35924366",
-            "*credit":"Oleksiy Mark",
-            "*license":"Shutterstock Standard License"
-        }
-    },
-    {
-        "_id":"c-70",
-        "_parentId":"b-45",
-        "_type":"component",
-        "_component":"mcq",
-        "_classes":"",
-        "_layout":"left",
-        "_attempts":1,
-        "_questionWeight":1,
-        "_isRandom":true,
-        "_selectable":1,
-        "title": "Proof points",
-        "displayTitle": "Proof points",
-        "body": "<p>Which of the following is NOT a genuine proof point for the benefits of open data?</p>",
-        "instruction": "<em>Choose your answer, then click 'Submit'</em>",
-        "_items": [
-            {
-                "text": "The National Weather Service was bought by Monsanto in 2013 for their use of rain data, which has revolutionised the agricultural industry",
-                "_shouldBeSelected": true
-            },
-            {
-                "text": "The government of Catalunya achieved savings of €2.6m per year in reduced staff costs from cross-department access to map data",
-                "_shouldBeSelected": false
-            },
-            {
-                "text": "Prescribing Analytics identified a £200m annual saving in NHS by switching to own-brand statins and more efficient delivery routes",
-                "_shouldBeSelected": false
-            }
-        ],
-        "_feedback":{
-            "correct":"<h5>That’s right!</h5><p>This never happened. Refer back to 'Where Open Data Has Helped' to read back on genuine proof points.</p>",
-            "_incorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5>This never happened. Refer back to 'Where Open Data Has Helped' to read back on genuine proof points.<p></p>",
-                "final": "<h5>Are you sure about that?</h5><p>This never happened. Refer back to 'Where Open Data Has Helped' to read back on genuine proof points.w</p>"
-            },
-            "_partlyCorrect": {
-                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-          }
+          "src": "course/en/image/d2a6aea242ee20f9a5083afe1f520727c022484a.png",
+          "alt": "",
+          "title": "",
+          "_classes": ""
         },
-        "_buttons":{
-            "submit":"",
-            "reset":"",
-            "showCorrectAnswer":"",
-            "hideCorrectAnswer":""
-        },
-        "_pageLevelProgress": {
-        "_isEnabled": true
-      }
-    },
-    {
-        "_id":"c-75",
-        "_parentId":"b-50",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"illustration",
-        "_layout":"left",
+        "_classes": "",
+        "_left": 26.9,
+        "_top": 75
+      },
+      {
+        "title": "Group-based access",
+        "body": "<p>Group-based access data is shared with anyone who meets certain professional or usage conditions. For example, you might choose to share product availability quantities with anyone working for a retailer but not with those working for a competitor.</p>\n\n<p>Group-based access is granted on the basis of authentication. The person accessing the data must prove, to the satisfaction of the sharing organisation, that they belong to the class of people granted access.</p>\n",
+        "strapline": "Group-based",
         "_graphic": {
-            "alt": "Why do we need open data?",
-            "title": "",
-            "large": "course/en/images/odi-12-mcq_large.jpg",
-            "medium": "course/en/images/odi-12-mcq_large.jpg",
-            "small": "course/en/images/odi-12-mcq_large.jpg",
-            "*source":"http://www.shutterstock.com/pic.mhtml?id=149924576&src=lb-35924366",
-            "*credit":"Sergey Nivens",
-            "*license":"Shutterstock Standard License"
-        }
-    },
-    {
-        "_id":"c-80",
-        "_parentId":"b-50",
+          "src": "course/en/images/85a49d9ec53c78ab856cfcd3de0f7de618c4f2a4.png",
+          "alt": "",
+          "title": "",
+          "_classes": ""
+        },
+        "_classes": "",
+        "_left": 41,
+        "_top": 75
+      },
+      {
+        "title": "Public Access",
+        "body": "<p>Public access data can be located online by anyone. However, while people may be able to find this data, there are still legal protections in place that prevent the free use or sharing of this data.</p>\n\n<p>Your public access data is often part of your web presence or data you otherwise want people to experience without having the legal right to use and share that data themselves.</p>\n",
+        "strapline": "Public Access",
+        "_graphic": {
+          "src": "course/en/images/f494970aa6b0cccd94671238e7d8bd663f59fa1d.png",
+          "alt": "",
+          "title": "",
+          "_classes": ""
+        },
+        "_classes": "",
+        "_left": 61.2,
+        "_top": 75
+      },
+      {
+        "title": "Open",
+        "body": "<p>Open data is data that anyone can access use and share. Your open data is data that is accessible without limitation to the public subject to certain licence conditions such as the obligation to credit you as the source.&nbsp;</p>\n\n<p>Open data can be any non-personal data type where the organisation deems it more beneficial to share without restriction.</p>\n",
+        "strapline": "Open",
+        "_graphic": {
+          "src": "course/en/images/a3038084b5bda8cb230ca1e2ecf31c85f3abb662.png",
+          "alt": "",
+          "title": "",
+          "_classes": ""
+        },
+        "_classes": "",
+        "_left": 81.3,
+        "_top": 75
+      }
+    ]
+  },
+  {
+        "_id": "c-50",
+        "_parentId": "b-50",
+        "_classes": "",
         "_type":"component",
-        "_component":"mcq",
-        "_classes":"",
-        "_layout":"right",
-        "_attempts":1,
-        "_questionWeight":1,
-        "_isRandom":true,
-        "_selectable":1,
-        "title": "Next steps",
-        "displayTitle": "Next steps",
-        "body": "<p>Which of these next steps would be a good end to an open data pitch?</p>",
-        "instruction": "<em>Choose your answer, then click 'Submit'</em>",
-        "_items": [
-            {
-                "text": "Get a date in the diary with relevant stakeholders to discuss how to take it forward",
-                "_shouldBeSelected": true
-            },
-            {
-                "text": "Send all the datasets that could be opened to stakeholders for immediate sign off",
-                "_shouldBeSelected": false
-            },
-            {
-                "text": "Send a 2000-2500 word proposal to stakeholders to convince them to start utilising or publishing data",
-                "_shouldBeSelected": false
-            },
-            {
-                "text": "Do nothing – the data will open itself",
-                "_shouldBeSelected": false
-            }
-        ],
-        "_feedback":{
-            "correct":"<h5>That’s right!</h5><p>Getting a date in the diary to continue the discussion with the right people is a good way to move things forward</p>",
-            "_incorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>Getting a date in the diary to continue the discussion with the right people is a good way to move things forward</p>",
-                "final": "<h5>Are you sure about that?</h5><p>Getting a date in the diary to continue the discussion with the right people is a good way to move things forward</p>"
-            },
-            "_partlyCorrect": {
-                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-          }
-        },
-        "_buttons":{
-            "submit":"",
-            "reset":"",
-            "showCorrectAnswer":"",
-            "hideCorrectAnswer":""
-        },
+        "_layout": "full",
+        "_component": "text",
+         "body": "<p>In order to govern strategy effectively, one of the key components is the contribution of individual teams to the overall strategy of the organisation. Yet many organisations fail to offer the proper incentives to participate. In order to develop your teams understanding of incentives, we recommend playing the contribution game below:</p>\n\n<p>When prompted by your instructor, please click the relevant link below, enter your offer and hit &#39;submit&#39;.</p>\n\n<p style=\"text-align:center\"><a href=\"http://goo.gl/forms/Nm5B2aAwd7xJzb753\" target=\"_blank\"><span style=\"color:#FFFFFF\">Round 1</span></a></p>\n\n<p style=\"text-align:center\"><a href=\"http://goo.gl/forms/vANFi1GKsXUNgfHy2\" target=\"_blank\"><span style=\"color:#FFFFFF\">Round 2</span></a></p>\n\n<p style=\"text-align:center\"><a href=\"http://goo.gl/forms/RHtk4xX56B0Oi3203\" target=\"_blank\"><span style=\"color:#FFFFFF\">Round 3</span></a></p>\n\n<p style=\"text-align:center\"><a href=\"http://goo.gl/forms/6Q80OkSQjpU36nlp2\" target=\"_blank\"><span style=\"color:#FFFFFF\">Round 4</span></a></p>\n\n<p style=\"text-align:center\"><a href=\"http://goo.gl/forms/6Iu2Eu6vIntkTdBG3\" target=\"_blank\"><span style=\"color:#FFFFFF\">Round 5</span></a></p>\n",
+        "displayTitle": "Incentives & how to govern them",
+        "title": "Incentives & how to govern them",
         "_pageLevelProgress": {
         "_isEnabled": true
-      }
-    },
+        }
+    }, 
     {
         "_id":"c-85",
         "_parentId":"b-55",
@@ -803,9 +460,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Open data - veni, vidi, vici",
-        "displayTitle":"Open data advocacy",
-        "body":"<p>Open data can be a confusing concept to any decision maker, particularly if put in terms of transparency and accountability. Through careful positioning and the right language, you can ensure that any decision maker has a pitch they can say yes to.</p>",
+        "title":"Open data strategy",
+        "displayTitle":"Open data strategy",
+        "body":"<p>Open data strategy is your statement of the value your organisation sees in data sharing, the role of open data within in and a plan of action to achieve these values. As with all strategy, the development needs to take into account the views of the organisation. By following the processes laid out in this module, you can quickly and effectively design better open data strategy within your organisation and enjoy the benefits of better data sharing with partners and the wider world.</p>",
         "_pageLevelProgress": {
           "_isEnabled": true
         }
