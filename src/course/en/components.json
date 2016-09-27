@@ -44,7 +44,7 @@
         "_layout":"right",
         "title":"",
         "displayTitle":"",
-        "body":"<h5>In this module we’ll explore the following:</h5><ul class='ticks'><li>What elements make up the perfect pitch for open data</li><li>How to tailor your pitch to specific audiences</li><li>Where to find relevant case studies</li><li>How to deliver a pitch for open data</li></ul>",
+        "body":"<h5>In this module we’ll explore the following:</h5><ul class='ticks'><li>What a data strategy is</li><li>Why a data strategy matters</li><li>The components of a data strategy/li><li>Incentives and how to govern them</li></ul>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": false
@@ -59,7 +59,7 @@
         "_layout":"right",
         "body": "<p>A data strategy is a&nbsp;statement of the value the organisation sees in their data and a set of actions to capture that value. Like any strategy, it begins with the&nbsp;goal or vision of the organisation&nbsp;and then sets out guiding principles to achieve these results.</p>\n\n<p>Data strategy is primarily focussed on the data the organisation holds itself. This could be everything from sales reports and&nbsp;customer insights to&nbsp;operations to marketing.</p>\n\n<p>The strategy begins by setting out how the organisation believes data should add value to their activities. These beliefs can be very simple (e.g. data will help&nbsp;us sell our products in more markets) or more complex (e.g. data will allow us to continuously monitor the efficiency of our operations and optimise in real time).&nbsp;</p>\n\n<p>Our strategy then sets out a plan of action for achieving the value set out in the statements. This plan is used to inform the decisions managers make about how to work so must be clear, achievable and have an obvious benefit for the organisation.</p>\n\n<p>Data strategies vary dramatically in length according to the complexity of data within the organisation. A company who holds very little data will have a short strategy. A data-rich company may have more detail.</p>\n",
         "displayTitle": "What is data strategy?",
-        "title": "What is data strategy?",
+        "title": "What is data strategy?"
     },
     {
         "_id":"c-12",
@@ -71,9 +71,9 @@
         "_graphic": {
             "alt": "What is data strategy?",
             "title": "What is data strategy?",
-            "large": "course/en/images/adf8c25f008196b25dbebcd69dc2f4c7937d1746.jpg.jpg",
-            "medium": "course/en/images/adf8c25f008196b25dbebcd69dc2f4c7937d1746.jpg.jpg",
-            "small": "course/en/images/adf8c25f008196b25dbebcd69dc2f4c7937d1746.jpg.jpg",
+            "large": "course/en/images/adf8c25f008196b25dbebcd69dc2f4c7937d1746.jpg",
+            "medium": "course/en/images/adf8c25f008196b25dbebcd69dc2f4c7937d1746.jpg",
+            "small": "course/en/images/adf8c25f008196b25dbebcd69dc2f4c7937d1746.jpg",
             "*source":"",
             "*credit":"",
             "*license":""
@@ -97,14 +97,13 @@
         },
         "instruction": "",
         "mobileInstruction": "",
-        "_hasNavigationInTextArea": true,
         "_setCompletionOn": "allItems",
         "_items": [
         {
         "title": "Siloed",
         "body": "<p>Siloes companies don&rsquo;t know where their data is stored or how it is used. There is little or no communication between areas of the business about their data assets or activities.</p>\n\n<p>Different parts of the organisation&nbsp;use their own data for their own goals with very little sharing. The typical siloed company is often surprised by what data someone else in the business holds or what they have done with data.</p>\n\n<p>The most typical phrase for someone in a siloed organisation is <em><strong>&ldquo;We don&rsquo;t know who holds what&rdquo;</strong></em></p>\n",
         "_graphic": {
-          "src": "course/en/assets/6d2b97fe6f54885527d2b179dc7002bef30b9368.jpg",
+          "src": "course/en/images/6d2b97fe6f54885527d2b179dc7002bef30b9368.jpg",
           "alt": ""
         },
         "strapline": "Siloes"
@@ -113,7 +112,7 @@
         "title": "Resistant",
         "body": "<p>Resistant companies have staff who refuse, deliberately or otherwise, to tow the line when it comes to data management &amp; use. These organisations have a failed to effectively secure the support of staff for the strategy.</p>\n\n<p>The typical resistant company has a data strategy, but different people pursue their own goals regardless at the expense of this strategy.&nbsp;</p>\n\n<p>The most typical phrase for someone in a resistant organisation is&nbsp;<strong>&ldquo;that&rsquo;s not the way I work&rdquo;</strong></p>\n",
         "_graphic": {
-          "src": "course/en/assets/b8afc87f6ab848c05d5957d09b30ac1c7235bdb0.jpg",
+          "src": "course/en/images/b8afc87f6ab848c05d5957d09b30ac1c7235bdb0.jpg",
           "alt": ""
         },
         "strapline": "Resistance"
@@ -122,7 +121,7 @@
         "title": "Piecemeal",
         "body": "<p>Piecemeal companies lack a central data strategy. They have many, small&nbsp;data strategies for different projects or data types. &nbsp;Each new area or project has a strategy&nbsp;set up without reference to the others.</p>\n\n<p>The piecemeal organisation struggles from the incompatibility&nbsp;of different data types caused by the different strategies.</p>\n\n<p>The most typical phrase for the piecemeal organisation is&nbsp;<strong>&ldquo;this time lets do it this way&rdquo;.</strong></p>\n",
         "_graphic": {
-          "src": "course/en/assets/2283c9fe54cec54fc9f4409b7fb65b84b1b400c2.jpg",
+          "src": "course/en/images/2283c9fe54cec54fc9f4409b7fb65b84b1b400c2.jpg",
           "alt": ""
         },
         "strapline": "Piecemeal"
@@ -131,7 +130,7 @@
         "title": "Legacy",
         "body": "<p>Legacy companies have strategies designed around the constraints of their systems or workforce skills. Usually, the legacy organisation has systems they are locked into or that limit what they can do with data.</p>\n\n<p>Even where the goals of the business are different, strategy is led by resources rather than objectives.</p>\n\n<p>The most typical phrase for the legacy organisation is&nbsp;<strong>&ldquo;The system means we have to do it this way&rdquo;</strong></p>\n",
         "_graphic": {
-          "src": "course/en/assets/dd7d873a83c4a69f5e6389f14ad50a11c6b1813a.jpg",
+          "src": "course/en/images/dd7d873a83c4a69f5e6389f14ad50a11c6b1813a.jpg",
           "alt": ""
         },
         "strapline": "Legacy"
@@ -140,7 +139,7 @@
         "title": "Focussed",
         "body": "<p>The focus company only cares about data that serves a single or limited set of objectives. They may have a strategy but limited to a specific project or product.</p>\n\n<p>The focussed company&nbsp;will discard or neglect any data not directly relevant to their focus area(s).</p>\n\n<p>The most typical phrase for the focussed company is&nbsp;<strong>&ldquo;that data isn&#39;t relevant to us&rdquo;.</strong></p>\n",
         "_graphic": {
-          "src": "course/en/assets/0794a95606bd4f24b05c2c5da37acd6ec295c827.jpg",
+          "src": "course/en/images/0794a95606bd4f24b05c2c5da37acd6ec295c827.jpg",
           "alt": ""
         },
         "strapline": "Focussed"
@@ -260,38 +259,6 @@
         }
     },
     {
-        "_id": "c-36",
-        "_parentId": "b-30",
-        "_classes": "",
-        "_type":"component",
-        "_layout": "right",
-        "_component": "text",
-        "body": "<p>Strategy is only as effective as the ability of staff to execute it. If your organisation does not understand the importance of data strategy or the direct impact on their work, they are less likely to support your initiatives and more likely to steer the organisation into the resistant or piecemeal state.&nbsp;</p>\n\n<p>Putting in place the skills to execute data strategy begins with a profile of your workforce, their activities and current proficiencies. To help you address this for the unique challenges of open data, the ODI has created the Data Skills Framework. The Framework is a set of core skills that are important to executing data strategy.&nbsp;</p>\n\n<p>The Framework works at three levels. The top level groups your workforce into their current level of proficiency, either Explorer (newcomer), Strategist &amp; Practitioner (experienced manager or specialist respectively) or Pioneer (your leading experts).</p>\n\n<p><a href=\"https://drive.google.com/file/d/0BxZjxjoFCNfSRFV1TTlwU3p3WG8/view?usp=sharing\">To learn how to use the framework in your own data strategy, follow this exercise</a>.</p>\n",
-        "displayTitle": "Assessing the skill requirements",
-        "title": "Assessing the skill requirements",
-        "_pageLevelProgress": {
-        "_isEnabled": true
-        }
-    }, 
-    {
-        "_id":"c-37",
-        "_parentId":"b-30",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"left",
-        "_graphic": {
-            "alt": "Skills framework",
-            "title": "Skills framework",
-            "large": "course/en/images/79f8cb80ddb1743d65464cd5e963bf8197ea7f0d.png",
-            "medium": "course/en/images/79f8cb80ddb1743d65464cd5e963bf8197ea7f0d.png",
-            "small": "course/en/images/79f8cb80ddb1743d65464cd5e963bf8197ea7f0d.png",
-            "*source":"",
-            "*credit":"",
-            "*license":""
-        }
-    },
-    {
         "_id": "c-38",
         "_parentId": "b-35",
         "_classes": "",
@@ -368,7 +335,7 @@
         "body": "<p>Named access data is shared only with named individuals. These people can be inside the organisation or in partner organisations.</p>\n\n<p>Named access data is only accessed on the based of a signed agreement between the party sharing the data and the party accessing it.</p>\n",
         "strapline": "Named Access",
         "_graphic": {
-          "src": "course/en/image/d2a6aea242ee20f9a5083afe1f520727c022484a.png",
+          "src": "course/en/images/d2a6aea242ee20f9a5083afe1f520727c022484a.png",
           "alt": "",
           "title": "",
           "_classes": ""
