@@ -20,98 +20,66 @@
 // @odi-color-nine: magenta
 // @odi-color-ten: light green
 
-.b-01 { display: block; }
-.b-02 { display: none; }
-
 .b-10 {
-    background: @odi-color-six;
-    .course_link {
-    	background-color: white;
-    	color: @odi-color-six;
-    	border: 1px solid white;
-    }
+    background: #722ea5;
 }
 
 .b-25 {
     background: @odi-color-two;
+    .narrative-component .narrative-progress {
+	    background-color: @odi-color-two;
+		border: 1px solid white;
+	}
+	.narrative-component .narrative-progress.selected {
+		background-color: white;
+	}
+	.narrative-component .narrative-controls {
+		background-color: #6d6d6d;
+	}
 }
 .b-28 {
-	.course_link {
-    	background-color: @odi-color-six;
-    	border: 1px solid @odi-color-six;
-    	color: white;
-    }
+	.accordion-component .accordion-item-title.visited,
+	.accordion-component .accordion-item-title  {
+		background-color: @odi-color-two;
+	}
+	.accordion-component .accordion-item-body {
+		border-right: 1px solid @odi-color-two;
+   		border-left: 1px solid @odi-color-two;
+    	border-bottom: 1px solid @odi-color-two;
+	}
 }
 .b-30 {
-    background: #08def9;
+    background: @odi-color-two;
+    .narrative-component .narrative-progress {
+	    background-color: @odi-color-two;
+		border: 1px solid white;
+	}
+	.narrative-component .narrative-progress.selected {
+		background-color: white;
+	}
+	.narrative-component .narrative-controls {
+		background-color: #6d6d6d;
+	}
 }
 
 .b-35 {
-    background: #00d49b;
+    background: @odi-color-four;
 }
-
+.b-40, .b-50 {
+	.mcq-component .mcq-item label {
+		background-color: @odi-color-four;
+	}
+	.mcq-component .mcq-item label:hover {
+		background-color: @odi-color-four;
+	}
+	.button {
+		background-color: @odi-color-four;
+	}
+}
 .b-45 {
-    background: #ef3aab;
-}
-.b-80 {
-    background: @odi-color-ten;
-}
-.b-60 {
-    background: #ff6700;
-}
-.b-100 {
-    background: @odi-color-seven;
-}
-.b-120 {
-    background: @odi-color-six;
-}
-.help {
-    font-size: 0.8em;
-}
-.getting-started {
-    background: black;
-    padding: 10px;
-    color: white;
-    width: 110px;
-    text-align: center;
-    display: block;
-    border-bottom: 10px solid white;
-    margin-right: 10px;
-}
-.getting-started .icon {
-    color: white;
-}
-.getting-started #menu {
-    border: 1px solid white;
-    padding: 5px; 
-    border-radius: 5px;
-}
-.getting-started #cloud-status-img2 {
-    width: 60px;
-    height: 36px;
+    background: @odi-color-four;
 }
 .notify .notify-popup a {
     color:#fff;
     text-decoration: underline;
-}
-progress[value] {
-  /* Reset the default appearance */
-  -webkit-appearance: none;
-   appearance: none;
-
-  width: 250px;
-  height: 20px;
-}
-progress[value]::-webkit-progress-bar {
-  background-color: #6d6d6d;
-  border-radius: 2px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
-}
-#main-menu {
-  top: -15px;
-}
-@media all and (max-width:(@device-width-medium - 1px)) {
-  #main-menu {
-    top: -18px;
-  }
 }
