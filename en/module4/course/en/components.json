@@ -192,7 +192,7 @@
         "_items": [
             {
                 "title": "UK Government",
-                "body": "<p>The UK Government uses an Open Government Licence.</p><p>This example clearly shows the licence at the top of the webpage, where the dataset is accessed. The licence information is a hyperlink that displays the licence in full.</p><p>Have a look at this example dataset and its licence. While you are there, you can also explore all the other datasets and services they offer.<br /><a href='http://data.gov.uk/dataset/financial-transactions-data-fco' target='_blank'>Take me to Data.gov.uk</a></p>",
+                "body": "<p>The UK Government uses an Open Government Licence</p><p class='not-eu'>Each dataset on the UK government open data portal displays the licence direcly under the dataset title at the top of the page. This makes the licence very easy to find while also being clear that the licence relates directly to the dataset shown.</p><p class='not-dlab not-default'>This example clearly shows the licence at the top of the webpage, where the dataset is accessed. The licence information is a hyperlink that displays the licence in full.</p><p>Have a look at this example dataset and its licence. While you are there, you can also explore all the other datasets and services they offer.<br /><a href='http://data.gov.uk/dataset/financial-transactions-data-fco' target='_blank'>Take me to Data.gov.uk</a></p>",
                 "_graphic": {
                     "src": "course/en/images/odi-6.jpg",
                     "alt": "UK Government",
@@ -215,6 +215,19 @@
                     "*license":"n/a"
                 },
                 "strapline": "Singapore Government"
+            },
+            {
+                "title": "Tanzania Government",
+                "body": "<p>Like the Singapore Government, the Tanzania open data licence can also be difficult to locate.</p><p>The licence terms and conditions are accessed by clicking the terms and conditions link at the bottom of the webpage. Each individual dataset confusingly states 'license not specified'.</p><p>Have a look at this example dataset and its licence. While you are there, you can explore all the other datasets and services they offer.<br /><a href='http://opendata.go.tz/dataset/uwiano-wa-mwalimu-kwa-wanafunzi-kwa-shule-za-msingi-zisizo-za-serikali-2016' target='_blank'>Take me to opendata.go.tz</a></p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-6b.jpg",
+                    "alt": "Tanzania Government",
+                    "title": "Tanzania Government",
+                    "*source":"http://opendata.go.tz/dataset/uwiano-wa-mwalimu-kwa-wanafunzi-kwa-shule-za-msingi-zisizo-za-serikali-2016",
+                    "*credit":"opendata.go.tz",
+                    "*license":"n/a"
+                },
+                "strapline": "Tanzania Government"
             }
         ],
         "_pageLevelProgress": {
@@ -248,7 +261,7 @@
       "_layout":"left",
       "title": "Types of licences",
       "displayTitle": "Types of licences",
-      "body": "<p>The simpler the licence, the better.</p><p>There are lots of different licences. To maximise reuse, try to adopt a licence standard that is already widely used.</p><p><a href='https://theodi.org/guides/reusers-guide-open-data-licensing' target='_blank'>Take me to a guide on licensing</a></p>",
+      "body": "<p>The simpler the licence, the better.</p><p>There are lots of different licences. To maximise reuse, try to adopt a licence standard that is already widely used.</p><p><a href='https://theodi.org/guides/reusers-guide-open-data-licensing' target='_blank'>Take me to a guide on licensing</a></p><p class='not-tz not-dlab not-default'>The European portal also provides a simple <a href='http://www.europeandataportal.eu/en/licence-assistant' target='_blank'>licence assistant</a> to help you choose the right license for your data.</p>",
       "instruction": "<em>Click the headings to explore further.</em>",
       "_items": [
         {
@@ -264,7 +277,7 @@
         {
           "alt": "Open government licences",
           "title": "Open government licences",
-          "body": "<p>Some publishers have chosen to develop their own licences.</p><p>The best examples are:</p><ul><li>short</li><li>compatible with widely used licences</li><li>easy to comply with</li></ul><p>A good example of a clear open license has been created by the French government.<br /><a href='https://www.etalab.gouv.fr/licence-ouverte-open-licence' target='_blank'>Take me to the French Government open licence</a></p><p>The UK Government has a good example of an open licence developed in this way that is used by UK Government departments:<br /><a href='http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/' target='_blank'>Take me to the UK Government open licence</a></p>"
+          "body": "<p>Some publishers have chosen to develop their own licences.</p><p>The best examples are:</p><ul><li>short</li><li>compatible with widely used licences</li><li>easy to comply with</li></ul><p class='not-dlab'>A good example of a clear open license has been created by the French government.<br /><a href='https://www.etalab.gouv.fr/licence-ouverte-open-licence' target='_blank'>Take me to the French Government open licence</a></p><p>The UK Government has a good example of an open licence developed in this way that is used by UK Government departments:<br /><a href='http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/' target='_blank'>Take me to the UK Government open licence</a></p>"
         }
       ],
       "_pageLevelProgress": {
