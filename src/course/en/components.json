@@ -112,7 +112,7 @@
             },
             {
                 "title": "Improved service delivery",
-                "body": "<p>Governments need to balance the demands of growing populations with the need to tackle small-scale, local issues.</p><p>The availability of detailed open data is essential to improving delivery of services at the local level.</p><p>Some of these new services are available now: <br /><a href='https://www.mysociety.org/' target='_blank'>Take me to mySociety</a> <br /><a href='http://kimittud.atlatszo.hu/' target='_blank'>Take me to the Hungarian 'right to know' portal</a> <br /><a href='http://www.fiksgatami.no/' target='_blank'>Take me to Fix my Street Norway</a></p>",
+                "body": "<p>Governments need to balance the demands of growing populations with the need to tackle small-scale, local issues.</p><p>The availability of detailed open data is essential to improving delivery of services at the local level.</p><p>Some of these new services are available now: <br /><a href='https://www.mysociety.org/' target='_blank'>Take me to mySociety</a> <br /><a class='not-dlab' href='http://kimittud.atlatszo.hu/' target='_blank'>Take me to the Hungarian 'right to know' portal</a> <br /><a class='not-dlab' href='http://www.fiksgatami.no/' target='_blank'>Take me to Fix my Street Norway</a></p>",
                 "_graphic": {
                     "src": "course/en/images/odi-003-narrative_large.jpg",
                     "alt": "Improved service delivery",
@@ -125,7 +125,7 @@
             },
             {
                 "title": "Cost savings",
-                "body": "<p>Open data allows governments to make savings in key areas such as healthcare, education and utilities.</p><p>In the UK, open data helped reveal <a href='https://theodi.org/news/prescription-savings-worth-millions-identified-odi-incubated-company' target='_blank'>£200 million of savings</a> in the health service.</p><p>In France, energy data is being used to drive more efficient energy generation practices.<br /><a href='https://www.quandl.com/collections/france/france-energy-data' target='_blank'>Show me the France energy data.</a></p><p>Open data can also bring transparency to budgets. In Switzerland, the canton of Bern presented their <a href='http://be-asp.budget.opendata.ch/' target='_blank'>€400m annual saving</a> to the public using open data.</p>",
+                "body": "<p>Open data allows governments to make savings in key areas such as healthcare, education and utilities.</p><p>In the UK, open data helped reveal <a href='https://theodi.org/news/prescription-savings-worth-millions-identified-odi-incubated-company' target='_blank'>£200 million of savings</a> in the health service.</p><p>In France, energy data is being used to drive more efficient energy generation practices.<br /><a href='https://www.quandl.com/collections/france/france-energy-data' target='_blank'>Show me the France energy data.</a></p><p>Open data can also bring transparency to budgets. In Switzerland, the canton of Bern presented their <a href='http://be-asp.budget.opendata.ch/' target='_blank' class='not-dlab'>€400m annual saving</a><span class='not default not-eu'>€400m annual saving</span> to the public using open data.</p>",
                 "_graphic": {
                     "src": "course/en/images/odi-004-narrative_large.jpg",
                     "alt": "Cost Savings",
@@ -261,7 +261,7 @@
         "_items": [
             {
                 "title": "Education",
-                "body": "<p>In Burkino Faso the <a href='http://nendo.data.gov.bf' target='_blank'>Our Schools Our Data portal</a> has been developed to improve citizens’ access to information about schools, as well as helping government better engage and empower local communities.</p><p>In Tanzania, the <a href='http://www.shule.info/' target='_blank'>shule.info</a> portal kickstarted the publication of school results in Tanzania. The portal provides information regarding school results and allows citizens to compare schools to help inform them about the best opportunities for education in their region. More recent results have been published by the National Examinations Council of Tanzania on their own <a href='http://www.necta.go.tz/brn2015/' target='_blank'>school ranking portal</a>.</p>",
+                "body": "<p>In Burkino Faso the Our Schools Our Data portal has been developed to improve citizens’ access to information about schools, as well as helping government better engage and empower local communities.</p><p>In Tanzania, the <a href='http://www.shule.info/' target='_blank'>shule.info</a> portal kickstarted the publication of school results in Tanzania. The portal provides information regarding school results and allows citizens to compare schools to help inform them about the best opportunities for education in their region. More recent results have been published by the National Examinations Council of Tanzania on their own <a href='http://www.necta.go.tz/brn2015/' target='_blank'>school ranking portal</a>.</p>",
                 "_graphic": {
                     "src": "course/en/images/c-31a.jpg",
                     "alt": "School supplies",
