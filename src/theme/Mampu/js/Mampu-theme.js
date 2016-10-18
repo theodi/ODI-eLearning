@@ -4,7 +4,7 @@ define(function(require) {
 
 });
 
-var theme = "Sainsburys";
+var theme = "Mampu";
 var interval;
 var save_enabled = false;
 var need_email = false;

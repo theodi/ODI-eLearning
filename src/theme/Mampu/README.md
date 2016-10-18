@@ -3,7 +3,7 @@ adapt-sainburies-theme
 
 Introduction
 ---
-This is the 'sainsburys-theme' theme.
+This is the 'mampu-theme' theme.
 
 As with any Adapt compatible theme, the structure of the theme is as follows:
 
