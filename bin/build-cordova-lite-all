@@ -1,0 +1,29 @@
+#!/bin/bash
+# USAGE ./build-odi-all en
+
+if [ -z $1 ]
+then
+	echo "Specify a language you idiot!"
+	echo "Usage ./build-odi-cordova-all lang platform theme" 
+	exit
+fi
+if [ -z $2 ]
+then
+	echo "Please specify a platform, e.g. ios or android"
+	echo "Usage ./build-odi-cordova-all lang platform theme" 
+	exit
+fi
+THEME=$3
+if [ -z $3 ]
+then
+	THEME="default"
+	echo "Using theme $THEME"
+	exit
+fi
+sed -i -e "s/var platform = \"web\";/var platform = \"$2\";/g" src/theme/$THEME/js/theme.js
+for i in `seq 1 13`;
+do
+	./bin/build-cordova-lite module$i $1 $3
+done
+#./bin/build-nav-cordova $1 $3
+sed -i -e "s/var platform = \"$2\";/var platform = \"web\";/g" src/theme/$THEME/js/theme.js
