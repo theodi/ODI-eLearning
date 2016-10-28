@@ -1,0 +1,121 @@
+#!/bin/bash
+# Syntax ./bin/build-nav eu-nav en eu
+if [ -z $1 ]
+then
+	echo "Specify a nav id idiot!"
+	echo "./bin/build nav_id language theme"
+	exit
+fi
+if [ -z $2 ]
+then
+	echo "Specify a language you idiot!"
+	echo "./bin/build nav_id language theme"
+	exit
+fi
+THEME=$3
+if [ -z $3 ]
+then
+	THEME="default"
+fi
+echo "Using theme $THEME"
+OUTPATH=modules/cordova/$THEME/
+echo "retriving navigation branch"
+echo ""
+git --git-dir=.module checkout $1
+
+echo "Backing up languages"
+rm -fR tmp
+mkdir tmp
+echo ""
+`cp -r src/course/* tmp/`
+echo "Selecting language"
+echo ""
+`rm -fR src/course/*`
+`cp -r tmp/$2 src/course/`
+echo "Merging theme configs"
+echo ""
+`node ./bin/merge.js src/course/$2/articles.json src/theme/$THEME/course/$2/articles.json`
+`node ./bin/merge.js src/course/$2/config.json src/theme/$THEME/course/$2/config.json`
+`node ./bin/merge.js src/course/$2/contentObjects.json src/theme/$THEME/course/$2/contentObjects.json`
+`node ./bin/merge.js src/course/$2/course.json src/theme/$THEME/course/$2/course.json`
+
+echo "Updating navigation links"
+echo ""
+sed -i -e "s/\.\.\///g" src/course/$2/course.json
+sed -i -e "s/\.\.\/index.html/index.html/g" src/theme/$THEME/templates/navigation.hbs
+sed -i -e "s/\.\.\/mod/mod/g" src/theme/$THEME/templates/navigation.hbs
+sed -i -e "s/\.\.\/index.html/index.html/g" src/theme/$THEME/templates/drawer.hbs
+
+echo "Moving config into pace"
+echo ""
+`cp src/course/$2/config.json src/course/`
+
+echo "Updating image path"
+echo ""
+sed -i -e "s/course\/en\/images/course\/$2\/images/g" src/theme/$THEME/less/header.less
+# Find the theme path
+SRCTHEME=$THEME
+if [ ! -f src/theme/$SRCTHEME/less/custom.less ];
+then
+        SRCTHEME="default"
+        echo "moving css into place from $SRCTHEME" 
+	echo ""
+	cp src/theme/$SRCTHEME/less/custom.less src/theme/$THEME/less/
+	cp src/theme/$SRCTHEME/less/theme.less src/theme/$THEME/less/
+	REMOVE=true
+fi
+
+echo "Adding cordova javascript"
+echo ""
+sed -i -e "s/<\/head>/<script type=\"text\/javascript\" src=\"cordova.js\"><\/script><script type=\"text\/javascript\" src=\"cordova-odi.js\"><\/script><\/head>/g" src/index.html
+
+
+echo "Adding index.html to all internal links"
+for i in `seq 1 13`;
+do
+	sed -i -e "s/module$i\//module$i\/index.html/g" src/course/$2/components.json
+	sed -i -e "s/module$i\//module$i\/index.html/g" src/course/$2/course.json
+done
+
+echo "Disabling data downloads"
+echo ""
+sed -i -e "s/course\/$2\/components.json/javascript:alert('Data is not available via the mobile application.');/g" src/course/$2/course.json
+sed -i -e "s/course\/$2\/course.json/javascript:alert('Data is not available via the mobile application.');/g" src/course/$2/course.json
+sed -i -e "s/course\/$2\/data\/scorm.zip/javascript:alert('Data is not available via the mobile application.');/g" src/course/$2/course.json
+
+echo "Building navigation"
+echo ""
+rm -fR build
+grunt build --theme=$THEME
+
+if [ -d "build" ] 
+then
+	echo "building scorm package"
+	cd build
+	mkdir course/$2/data/
+	zip -r course/$2/data/scorm.zip * >/dev/null 
+	cd ..
+fi
+
+echo "Restoring structure";
+`rm -fR src/course/*`
+`mv tmp/* src/course/`
+sed -i -e "s/course\/$2\/images/course\/en\/images/g" src/theme/$THEME/less/header.less
+sed -i -e "s/index.html/\.\.\/index.html/g" src/theme/$THEME/templates/navigation.hbs
+sed -i -e "s/mod/\.\.\/mod/g" src/theme/$THEME/templates/navigation.hbs
+sed -i -e "s/index.html/\.\.\/index.html/g" src/theme/$THEME/templates/drawer.hbs
+sed -i -e "s/<script type=\"text\/javascript\" src=\"cordova.js\"><\/script><script type=\"text\/javascript\" src=\"cordova-odi.js\"><\/script>//g" src/index.html
+
+if [ $REMOVE ]; then
+	echo "removing theme components"
+	`rm src/theme/$THEME/less/custom.less`
+	`rm src/theme/$THEME/less/theme.less`
+fi
+
+echo "Moving items into place"
+`rm -fR $OUTPATH/$2/adapt`
+`rm -fR $OUTPATH/$2/assets`
+`rm -fR $OUTPATH/$2/course`
+`rm -fR $OUTPATH/$2/libraries`
+`rm -f $OUTPATH/$2/*`
+`cp -r build/* $OUTPATH/$2`

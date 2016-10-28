@@ -31,7 +31,7 @@ then
 	THEME="default"
 	echo "Using theme $THEME"
 fi
-OUTPATH=modules/$THEME/
+OUTPATH=modules/cordova/$THEME/
 `rm -fR build`
 
 if [ $MODULE ]
@@ -75,9 +75,13 @@ echo "Moving config into pace"
 echo ""
 `cp src/course/$LANG/config.json src/course/`
 
-echo "removing video" 
+#echo "removing video" 
+#echo ""
+#`rm -fR src/course/$LANG/video`
+
+echo "Adding cordova javascript"
 echo ""
-`rm -fR src/course/$LANG/video`
+sed -i -e "s/<\/head>/<script type=\"text\/javascript\" src=\"..\/cordova.js\"><\/script><script type=\"text\/javascript\" src=\"..\/cordova-odi.js\"><\/script><\/head>/g" src/index.html
 
 #echo "Updating control path"
 #echo ""
@@ -97,6 +101,35 @@ fi
 echo "Updating image path"
 echo ""
 sed -i -e "s/course\/en\/images/course\/$LANG\/images/g" src/theme/$THEME/less/header.less
+
+echo "Changing video to native player" 
+echo ""
+sed -i -e "s/iFrame-vimeo/media/g" src/course/$2/components.json
+sed -i -e "s/instruction/binstruction/g" src/course/$2/components.json
+
+echo "Adding index.html to all internal links"
+sed -i -e "s/\"..\/\"/\"..\/index.html\"/g" src/course/$2/course.json
+sed -i -e "s/\.\.\//\.\.\/index.html/g" src/theme/$THEME/js/theme.js
+sed -i -e "s/welcome\//welcome\/index.html/g" src/theme/$THEME/js/theme.js
+
+echo "Disabling data downloads"
+echo ""
+sed -i -e "s/course\/$2\/components.json/javascript:alert('Data is not available via the mobile application.');/g" src/course/$2/course.json
+sed -i -e "s/course\/$2\/course.json/javascript:alert('Data is not available via the mobile application.');/g" src/course/$2/course.json
+sed -i -e "s/course\/$2\/data\/scorm.zip/javascript:alert('Data is not available via the mobile application.');/g" src/course/$2/course.json
+
+for i in `seq 1 13`;
+do
+	sed -i -e "s/module$i\//module$i\/index.html/g" src/course/$2/course.json
+done
+if [ $2 == "en" ]
+then
+	sed -i -e "s/'>Main/index.html'>Main/g" src/course/en/components.json 
+	sed -i -e "s/'>Next/index.html'>Next/g" src/course/en/components.json 
+else 
+	sed -i -e "s/'>Menu/index.html'>Menu/g" src/course/fr/components.json 
+	sed -i -e "s/'>Prochain/index.html'>Prochain/g" src/course/fr/components.json 
+fi
 
 echo "Building module";
 rm -fR build
@@ -121,6 +154,12 @@ fi
 `mv tmp/* src/course/`
 sed -i -e "s/course\/$LANG\/images/course\/en\/images/g" src/theme/$THEME/less/header.less
 #sed -i -e "s/$THEME\/$LANG\/course\/$LANG\/js\/control/en\/course\/en\/js\/control/g" src/index.html
+sed -i -e "s/\.\.\/index.html/\.\.\//g" src/theme/$THEME/js/theme.js
+sed -i -e "s/welcome\/index.html/welcome\//g" src/theme/$THEME/js/theme.js
+sed -i -e "s/bcountry-select/country-select/g" src/theme/$THEME/templates/navigation.hbs
+#sed -i -e "s/$2\/course\/$2\/js\/control/en\/course\/en\/js\/control/g" src/index.html
+sed -i -e "s/<script type=\"text\/javascript\" src=\"..\/cordova.js\"><\/script><script type=\"text\/javascript\" src=\"..\/cordova-odi.js\"><\/script>//g" src/index.html
+
 if [ $REMOVE ]; then
 	echo "removing theme components"
 	`rm src/theme/$THEME/less/custom.less`
@@ -130,5 +169,6 @@ fi
 echo "Moving module into place"
 `mkdir $OUTPATH/`
 `mkdir $OUTPATH/$LANG/`
+`mkdir $OUTPATH/$LANG/$MODULE/`
 `rm -fR $OUTPATH/$LANG/$MODULE/*`
 `cp -r build/* $OUTPATH/$LANG/$MODULE/`

@@ -12,10 +12,17 @@ then
 	echo "Usage ./build-odi-cordova-all lang platform" 
 	exit
 fi
-sed -i -e "s/var platform = \"web\";/var platform = \"$2\";/g" src/theme/default/js/vanilla.js
+THEME=$3
+if [ -z $3 ]
+then
+	THEME="default"
+	echo "Using theme $THEME"
+	exit
+fi
+sed -i -e "s/var platform = \"web\";/var platform = \"$2\";/g" src/theme/$THEME/js/theme.js
 for i in `seq 1 13`;
 do
-	./bin/build-odi-cordova module$i $1
+	./bin/build-cordova module$i $1 $3
 done
-./bin/build-odi-nav-cordova $1
-sed -i -e "s/var platform = \"$2\";/var platform = \"web\";/g" src/theme/default/js/vanilla.js
+#./bin/build-nav-cordova $1 $3
+sed -i -e "s/var platform = \"$2\";/var platform = \"web\";/g" src/theme/$THEME/js/theme.js
