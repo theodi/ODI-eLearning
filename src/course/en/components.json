@@ -28,9 +28,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "body": "<p>Open data is increasing in importance to organisations of all sizes. As the volume of open data being consumed and published increases, so does the importance of this data to the strategic decisions of the organisation. To safeguard the use of data and ensure it delivers value, organisations need a data strategy that sets out clear, consistent protocols for the collection, use and sharing of data.</p>\n\n<p>Developing data strategy can seem like a daunting process. However, with a few simple principles to guide the design and creation, data strategies can be put in place rapidly and immediately begin delivering improvements.</p>\n\n<p>This module will prepare you with the tools to develop, write and implement a data strategy.</p>\n",
-        "displayTitle": "Data Strategy",
-        "title": "Data Strategy",
+        "body": "<p>Creating effective mechanisms for data sharing is a key part of getting value from your data. The way you choose to share data determines how your suppliers, customers and partners can interact with you. The easier it is to interact, the greater the satisfaction from the business.</p>\n\n<p>This module will prepare you with the approaches you need to decide data sharing arrangements, implement the right tools and monitor results.</p>\n",
+        "displayTitle": "Data Sharing",
+        "title": "Data Sharing",
         "_pageLevelProgress": {
             "_isEnabled": true
         }
@@ -44,7 +44,7 @@
         "_layout":"right",
         "title":"",
         "displayTitle":"",
-        "body":"<h5>In this module we’ll explore the following:</h5><ul class='ticks'><li>What a data strategy is</li><li>Why a data strategy matters</li><li>The components of a data strategy<li>Incentives and how to govern them</li></ul>",
+        "body":"<h5>In this module we’ll explore the following:</h5><ul class='ticks'><li>Why data sharing is important</li><li>The steps to share data</li><li>The blockers to data sharing<li>Selecting the best resources to share</li></ul>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": false
@@ -57,9 +57,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"right",
-        "body": "<p>A data strategy is a&nbsp;statement of the value the organisation sees in their data and a set of actions to capture that value. Like any strategy, it begins with the&nbsp;goal or vision of the organisation&nbsp;and then sets out guiding principles to achieve these results.</p>\n\n<p>Data strategy is primarily focussed on the data the organisation holds itself. This could be everything from sales reports and&nbsp;customer insights to&nbsp;operations to marketing.</p>\n\n<p>The strategy begins by setting out how the organisation believes data should add value to their activities. These beliefs can be very simple (e.g. data will help&nbsp;us sell our products in more markets) or more complex (e.g. data will allow us to continuously monitor the efficiency of our operations and optimise in real time).&nbsp;</p>\n\n<p>Our strategy then sets out a plan of action for achieving the value set out in the statements. This plan is used to inform the decisions managers make about how to work so must be clear, achievable and have an obvious benefit for the organisation.</p>\n\n<p>Data strategies vary dramatically in length according to the complexity of data within the organisation. A company who holds very little data will have a short strategy. A data-rich company may have more detail.</p>\n",
-        "displayTitle": "What is data strategy?",
-        "title": "What is data strategy?"
+        "body": "<p>Data is at the centre of your business activity. Whether looking at operations, finance or strategy, you&nbsp;increasingly use data to understand how our businesses work and how they perform.</p>\n\n<p>When your business interacts with another, either an upstream supplier&nbsp;or a downstream customer, you&nbsp;share data . Data is as much a part of what you&nbsp;supply as the physical goods and services. In the case of many businesses, data is gradually replacing conversation &amp; written reports as the main way to update customers and suppliers on progress&nbsp;and operations.</p>\n\n<p>The way you&nbsp;share data can have a big impact on how easy and productive it is to work with your business. If your data is difficult to find, messy or needs endless permission to access, your customers will feel the frustration. On the other hand, if sensitive personal or operational data is made available publically, your competitors may benefit.&nbsp;</p>\n\n<p>Sharing data appropriately requires you to understand how, when and for what purpose your suppliers and customers need your data. Once we understand this, we can choose means of sharing that make it more efficient, more relevant and ultimately easier to use your data.</p>\n",
+        "displayTitle": "Why should we share data from our supply chains?",
+        "title": "Why should we share data from our supply chains?"
     },
     {
         "_id":"c-12",
@@ -69,8 +69,8 @@
         "_classes":"",
         "_layout":"left",
         "_graphic": {
-            "alt": "What is data strategy?",
-            "title": "What is data strategy?",
+            "alt": "Why should we share our data?",
+            "title": "Why should we share our data?",
             "large": "course/en/images/adf8c25f008196b25dbebcd69dc2f4c7937d1746.jpg",
             "medium": "course/en/images/adf8c25f008196b25dbebcd69dc2f4c7937d1746.jpg",
             "small": "course/en/images/adf8c25f008196b25dbebcd69dc2f4c7937d1746.jpg",
@@ -86,9 +86,9 @@
         "_type":"component",
         "_layout": "full",
         "_component": "narrative",
-        "body": "<p>Your data strategy defines the way in which people in your organisation treat data. With good strategy, you can ensure your data is maintained consistently, used professional and shared safely. Without data strategy, organisations tend to fall into one of 5 major traps...</p>\n",
-        "displayTitle": "Why does data strategy matter?",
-        "title": "Why does data strategy matter?",
+        "body": "<p>Every organisation has different priorities. You need to choose a data sharing practice that best suits your market and your expert understanding of what your customers and suppliers need. However, certain steps are common no matter who you are and if you follow them, you will make the process easier:</p>\n",
+        "displayTitle": "The steps to effectively sharing data",
+        "title": "The steps to effectively sharing data",
         "_isAvailable": true,
         "_isOptional": false,
         "_classes": "",
@@ -100,49 +100,49 @@
         "_setCompletionOn": "allItems",
         "_items": [
         {
-        "title": "Siloed",
-        "body": "<p>Siloes companies don&rsquo;t know where their data is stored or how it is used. There is little or no communication between areas of the business about their data assets or activities.</p>\n\n<p>Different parts of the organisation&nbsp;use their own data for their own goals with very little sharing. The typical siloed company is often surprised by what data someone else in the business holds or what they have done with data.</p>\n\n<p>The most typical phrase for someone in a siloed organisation is <em><strong>&ldquo;We don&rsquo;t know who holds what&rdquo;</strong></em></p>\n",
+        "title": "List your data assets",
+        "body": "<p>The first step is to create a comprehensive list of the data you collect or maintain. Until you as an organisation understand what data you hold, you can&#39;t understand how it should be shared.</p>\n\n<p>Make sure you understand who owns the data as well as what it covers. When it comes to sharing the data you will need to get the relevant managers onboard quickly so list their names and the datasets for which they are responsible.</p>\n",
         "_graphic": {
-          "src": "course/en/images/6d2b97fe6f54885527d2b179dc7002bef30b9368.jpg",
+          "src": "course/en/images/53c8226b8c48679477085969491c3b22448dfc88.jpg",
           "alt": ""
         },
-        "strapline": "Siloes"
+        "strapline": "Asset list"
       },
       {
-        "title": "Resistant",
-        "body": "<p>Resistant companies have staff who refuse, deliberately or otherwise, to tow the line when it comes to data management &amp; use. These organisations have a failed to effectively secure the support of staff for the strategy.</p>\n\n<p>The typical resistant company has a data strategy, but different people pursue their own goals regardless at the expense of this strategy.&nbsp;</p>\n\n<p>The most typical phrase for someone in a resistant organisation is&nbsp;<strong>&ldquo;that&rsquo;s not the way I work&rdquo;</strong></p>\n",
+        "title": "Define the current sharing arrangements",
+        "body": "<p>To share things effectively you need to understand how they are currently shared. There are two actions you need to take for this step: Day in the life interviews and secret shopper.</p>\n\n<p>For the day in the life interviews, gather a small number of data owners from both the organisation and the supply chain. Ask each to describe how data sharing works day-to-day. What works well? What is frustrating? How does the experience of sharing data affect their view of their work with you?</p>\n\n<p>For the secret shopper, ask two or three of your trusted partners to fulfill a pre-defined data request with your organisation. Ask them too log the experience including whether they were successful, how long it took and what could have been improved.</p>\n\n<p>Use both these techniques to build up a picture of where data sharing is working, where it is broken and how to fix it.</p>\n",
         "_graphic": {
-          "src": "course/en/images/b8afc87f6ab848c05d5957d09b30ac1c7235bdb0.jpg",
+          "src": "course/en/images/edd355144ecbeb742e589843427b3cf2cddbc8ce.jpg",
           "alt": ""
         },
-        "strapline": "Resistance"
+        "strapline": "Current situation"
       },
       {
-        "title": "Piecemeal",
-        "body": "<p>Piecemeal companies lack a central data strategy. They have many, small&nbsp;data strategies for different projects or data types. &nbsp;Each new area or project has a strategy&nbsp;set up without reference to the others.</p>\n\n<p>The piecemeal organisation struggles from the incompatibility&nbsp;of different data types caused by the different strategies.</p>\n\n<p>The most typical phrase for the piecemeal organisation is&nbsp;<strong>&ldquo;this time lets do it this way&rdquo;.</strong></p>\n",
+        "title": "Define the desired sharing scenario",
+        "body": "<p>Using&nbsp;your &#39;current situation&#39; interviews as a starting point, set <strong>up to three goals</strong> for data sharing in the future in the form <em>&quot;In the future, our data sharing will bring [insert benefit here]. We will consider the programme a&nbsp;success when we measure a [insert metric here] .</em></p>\n\n<p>For example, I might choose to set a goal like &quot;In the future, our data sharing will reduce the <strong>amount of time our customers spend asking us for data</strong>. We will consider the programme a success when we measure <strong>a 20% reduction in the number of requests for data we receive from our 3 biggest customers</strong>.</p>\n\n<p>These goals will help you frame the requirements for data sharing and inform the ways you choose to share your data.</p>\n",
         "_graphic": {
-          "src": "course/en/images/2283c9fe54cec54fc9f4409b7fb65b84b1b400c2.jpg",
+          "src": "course/en/images/41cf261edeb1c7f7ed49870d1965049273e3a09d.jpg",
           "alt": ""
         },
-        "strapline": "Piecemeal"
+        "strapline": "Future state"
       },
       {
-        "title": "Legacy",
-        "body": "<p>Legacy companies have strategies designed around the constraints of their systems or workforce skills. Usually, the legacy organisation has systems they are locked into or that limit what they can do with data.</p>\n\n<p>Even where the goals of the business are different, strategy is led by resources rather than objectives.</p>\n\n<p>The most typical phrase for the legacy organisation is&nbsp;<strong>&ldquo;The system means we have to do it this way&rdquo;</strong></p>\n",
+        "title": "Understand the barriers",
+        "body": "<p>You have now written out in clear statements what the future state of data sharing will bring to your organisation. Before you look at how you will get there, we need to understand what has prevented the organisation from already doing this.</p>\n\n<p>Unless the result of your current situation and future state analysis was &#39;everything is perfect&#39;, something could be improved in the way you share data. So what has stopped you from improving it already?</p>\n\n<p>Barriers to improvement may be resource-driven (we don&#39;t have the money), capacity-driven (we don&#39;t have the time), data-driven (the data isn&#39;t ready) or people-driven (our staff don&#39;t have the skills).&nbsp;</p>\n\n<p>Ensure you list out the barriers along with the impact of each of them.</p>\n",
         "_graphic": {
-          "src": "course/en/images/dd7d873a83c4a69f5e6389f14ad50a11c6b1813a.jpg",
+          "src": "course/en/images/e3521cdf64de1084a9f910380878abc1f213f8af.jpg",
           "alt": ""
         },
-        "strapline": "Legacy"
+        "strapline": "Barriers"
       },
       {
-        "title": "Focussed",
-        "body": "<p>The focus company only cares about data that serves a single or limited set of objectives. They may have a strategy but limited to a specific project or product.</p>\n\n<p>The focussed company&nbsp;will discard or neglect any data not directly relevant to their focus area(s).</p>\n\n<p>The most typical phrase for the focussed company is&nbsp;<strong>&ldquo;that data isn&#39;t relevant to us&rdquo;.</strong></p>\n",
+        "title": "Decide on a test case",
+        "body": "<p>Like any big change, data sharing needs to start with a small step. Pick a test project to work out whether your approach is going to get the desired results. Picking the right project is important. Look for these three characteristics to help you find it:</p>\n\n<ol>\n\t<li>A partner with whom you have a strong, established relationship and who agrees with the idea of a pilot.</li>\n\t<li>A dataset you both value but which doesn&#39;t jeopardise any of the business you do with that partner</li>\n\t<li>A measure of success you both can monitor and record before and after the pilot.</li>\n</ol>\n",
         "_graphic": {
-          "src": "course/en/images/0794a95606bd4f24b05c2c5da37acd6ec295c827.jpg",
+          "src": "course/en/images/b9f985f7c8b8d8eaa9d54d32adbf2bfd733ffa38.jpg",
           "alt": ""
         },
-        "strapline": "Focussed"
+        "strapline": "Test case"
       }
   ]
   },
@@ -154,11 +154,11 @@
         "_classes":"",
         "_layout":"right",
         "_graphic": {
-            "alt": "Components of data strategy",
-            "title": "Components of data strategy",
-            "large": "course/en/images/2813c675fbfd5a508c8e99374187733d399f4b25.png",
-            "medium": "course/en/images/2813c675fbfd5a508c8e99374187733d399f4b25.png",
-            "small": "course/en/images/2813c675fbfd5a508c8e99374187733d399f4b25.png",
+            "alt": "The blockers to data sharing",
+            "title": "The blockers to data sharing",
+            "large": "course/en/images/02c402d1b692354b48e44b8eab1456b789f0d500.jpg",
+            "medium": "course/en/images/02c402d1b692354b48e44b8eab1456b789f0d500.jpg",
+            "small": "course/en/images/02c402d1b692354b48e44b8eab1456b789f0d500.jpg",
             "*source":"",
             "*credit":"",
             "*license":""
@@ -171,14 +171,14 @@
       "_component":"accordion",
       "_classes":"",
       "_layout":"left",
-      "body": "<p>Data strategy is composed of 5 key elements. Each of these are essential to delivering the value the organisation wants to derive from their&nbsp;data</p>\n",
-      "displayTitle": "Components of data strategy",
-      "title": "Components of data strategy",
+      "body": "<p>The following are some of the key blockers to the better sharing of data between organisations within a supply chain</p>\n",
+      "displayTitle": "The blockers to data sharing",
+      "title": "The blockers to data sharing",
       "instruction": "",
       "_items": [
       {
-        "title": "Map",
-        "body": "<p>The first key element of data strategy is a comprehensive asset map of who holds and maintains your data.</p>\n\n<p>You need to develop a complete list of the data types your organisation holds &amp; has access to.</p>\n\n<p>For each dataset list an owner, how the data can be accessed and where it is held.</p>\n\n<p>Other useful information includes update frequency and format</p>\n",
+        "title": "Lack of business case",
+        "body": "<p>Sharing data requires a firm business case. Building a business case is central to taking any action inside an organisation.</p>\n\n<p>The failure to build a clear business case for data sharing leads to an inability to communicate the benefits to the organisation and ultimately delays or cancellations in taking action.</p>\n\n<p>Effective business cases for data sharing typically focus on efficiency (reduced costs of data access and exchange), growth (increased revenue resulting directly or indirectly from data) or performance (non-financial benefit such as improved customer perception or a happier workforce).</p>\n\n<p>Build your case clearly and accompany it with clear metrics that justify investment and highlight the timeframe for benefits.</p>\n\n<p>&nbsp;</p>\n",
         "_graphic": {
           "alt": "",
           "src": ""
@@ -186,8 +186,8 @@
         "_classes": ""
       },
       {
-        "title": "Describe",
-        "body": "<p>The second key component is a good description of each of the data types you hold, access or use.</p>\n\n<p>You need to ensure that all data is described in a uniform, meaningful way that can be easily searched</p>\n\n<p>Each dataset should have a set of common IDs such as name, topic, temporal coverage, ownership, use requirements, format &amp; permissions</p>\n\n<p>This information should be stored in a commonly accessible database pushed at least company-wide</p>\n",
+        "title": "Fear of embarrassment",
+        "body": "<p>Sharing data gives your partners a greater understanding of how your organisation works. For some people,&nbsp;this can lead to the legitimate fear that the organisation will reveal something unfavourable to your suppliers, customers or the public.</p>\n\n<p>The key to overcoming fear of embarrassment is to convince your audience that this risk has less impact that first feared. Effective arguments include intention (they aren&#39;t looking for errors), mutual trust (they will forgive errors) and risk/reward (we benefit more than we risk)</p>\n",
         "_graphic": {
           "alt": "",
           "src": ""
@@ -195,8 +195,8 @@
         "_classes": ""
       },
       {
-        "title": "Share",
-        "body": "<p>The third key component is a plan for how data will be shared both within the organisation and more broadly with partners or the public.</p>\n\n<p>Once data is mapped and described, you need to fix the appropriate access requirements to balance security with ease of use.</p>\n\n<p>Use the data spectrum to select the optimal sharing level for each dataset then consider how to provide it.</p>\n\n<p>Take account of information security throughout.</p>\n",
+        "title": "Concern over competitors",
+        "body": "<p>Sharing data can lead to well-grounded fears of exposing your operational details to competitors.&nbsp;</p>\n\n<p>Most organisations overstate the ability and interest of competitors in acting on data even where they have access to it.</p>\n\n<p>When addressing this concern, begin with the protections against collusion which offer some protections form this practice. In addition it is helpful to explain, in plain language, the measures you intend to take to secure the data and ensure only the intended audience has access.</p>\n",
         "_graphic": {
           "alt": "",
           "src": ""
@@ -204,17 +204,8 @@
         "_classes": ""
       },
       {
-        "title": "Maintain",
-        "body": "<p>The fourth key element of the data strategy is a process for timely and thorough maintenance of the organisation&#39;s data assets</p>\n\n<p>Data needs common maintenance. You should put in place expected standards of data quality, educate staff on how to implement them and regularly review.</p>\n\n<p>Staff will often need new skills to maintain data correctly. Place an important emphasis on L&amp;D whether through on-job training, courses or instruction.</p>\n\n<p>Ensure standards are met and maintained through reward</p>\n",
-        "_graphic": {
-          "alt": "",
-          "src": ""
-        },
-        "_classes": ""
-      },
-      {
-        "title": "Govern",
-        "body": "<p>The final key element of the data strategy is a governance plan that ensures leadership and management are equipped to uphold data standards across the organisation.</p>\n\n<p>Ensure that all levels of the organisation have data strategy baked into their work. Appropriate oversight and check-ins will drive adoption and are critical to the process.</p>\n\n<p>Managers need data governance metrics and a person should be appointed as the reviewer of data quality and management.</p>\n\n<p>Govern effectively and ensure everyone understands the vision and the purpose</p>\n",
+        "title": "Deficit of workforce skills",
+        "body": "<p>A final blocker is the lack of capacity within the workforce to undertake effective data sharing.&nbsp;</p>\n\n<p>The skills and knowledge to deliver effective data sharing may not be present in the organisation which can prevent action even where there is support.</p>\n\n<p>To overcome this blocker it is first necessary to understand the required skills. Once you understand what is required, seek either to develop existing staff, hire new capacity or outsource delivery.&nbsp;</p>\n",
         "_graphic": {
           "alt": "",
           "src": ""
@@ -222,9 +213,9 @@
         "_classes": ""
       }
     ],
-      "_pageLevelProgress": {
-        "_isEnabled": true
-      }
+    "_pageLevelProgress": {
+       "_isEnabled": true
+    }
     },
      {
         "_id": "c-36",
@@ -233,9 +224,9 @@
         "_type":"component",
         "_layout": "right",
         "_component": "text",
-        "body": "<p>Strategy is only as effective as the ability of staff to execute it. If your organisation does not understand the importance of data strategy or the direct impact on their work, they are less likely to support your initiatives and more likely to steer the organisation into the resistant or piecemeal state.&nbsp;</p>\n\n<p>Putting in place the skills to execute data strategy begins with a profile of your workforce, their activities and current proficiencies. To help you address this for the unique challenges of open data, the ODI has created the Data Skills Framework. The Framework is a set of core skills that are important to executing data strategy.&nbsp;</p>\n\n<p>The Framework works at three levels. The top level groups your workforce into their current level of proficiency, either Explorer (newcomer), Strategist &amp; Practitioner (experienced manager or specialist respectively) or Pioneer (your leading experts).</p>\n\n<p><a href=\"https://drive.google.com/file/d/0BxZjxjoFCNfSRFV1TTlwU3p3WG8/view?usp=sharing\">To learn how to use the framework in your own data strategy, follow this exercise</a>.</p>\n",
-        "displayTitle": "Assessing the skill requirements",
-        "title": "Assessing the skill requirements",
+        "body": "<p>Sharing data resources effectively requires trade-offs. Whether between efficiency &amp; client management or future innovation &amp; current value, these trade-offs need to be understood so that you can make informed decisions about where greater sharing of data will add the greatest benefits.</p>\n\n<p>Your decision about which data to share is ultimately based on the unique situation of your organisation. However, certain things are universal no matter who you are. The two most common considerations are value and risk.</p>\n\n<p>Value measures how much value would result in sharing a data asset. Some assets may have a high value if their sharing has the potential to make things much more efficient or unlock meaningful insights. Others will have little value to those you share with because they aren&#39;t relevant or cannot be used to take action.</p>\n\n<p>Risk measures how sensitive the sharing of this data asset is. Some assets will be low risk if sharing them will not jeopardise&nbsp;significant commercial value or bring undue scrutiny on your operations from those you share with. Others will be highly risky because they might expose secrets to competitors or reduce the value of your services to those who consume them.</p>\n\n<p>To better understand the measures of value and risk, use the matrix to the left to plot your organisations data assets.</p>\n",
+        "displayTitle": "Selecting the best resources to share",
+        "title": "Selecting the best resources to share",
         "_pageLevelProgress": {
         "_isEnabled": true
         }
@@ -248,11 +239,11 @@
         "_classes":"",
         "_layout":"left",
         "_graphic": {
-            "alt": "Skills framework",
-            "title": "Skills framework",
-            "large": "course/en/images/79f8cb80ddb1743d65464cd5e963bf8197ea7f0d.png",
-            "medium": "course/en/images/79f8cb80ddb1743d65464cd5e963bf8197ea7f0d.png",
-            "small": "course/en/images/79f8cb80ddb1743d65464cd5e963bf8197ea7f0d.png",
+            "alt": "Selecting the best resources to share",
+            "title": "Selecting the best resources to share",
+            "large": "course/en/images/3e197aafa301f5e5ba9831a5f6aaa48b7b2cb48d.png",
+            "medium": "course/en/images/3e197aafa301f5e5ba9831a5f6aaa48b7b2cb48d.png",
+            "small": "course/en/images/3e197aafa301f5e5ba9831a5f6aaa48b7b2cb48d.png",
             "*source":"",
             "*credit":"",
             "*license":""
@@ -263,145 +254,58 @@
         "_parentId": "b-35",
         "_classes": "",
         "_type":"component",
-        "_layout": "left",
-        "_component": "text",
-        "body": "<p>A key discipline for creating good data strategies is an understanding of how to describe your data. Internal processes within the organisation tend to dictate how we label and describe data. However, when newcomers need to search, use or contribute to data. In particular, when an organisation shares data with partners or opens that data to the public, they need to ensure that the right labels and information are in place to make it accessible and simple to use.</p>\n\n<p>There are a range of different tools that can support you when describing data well. The ODI&#39;s <a href=\"http://certificates.theodi.org/en/\">Open Data Certificates</a> are a self-assessment tool that takes you through all the fundamentals of describing data well. Certificates can be used even if the data itself is never published as open.</p>\n",
-        "displayTitle": "Describing data well",
-        "title": "Describing data well",
+        "body": "<p>Having decided in principle that sharing some data with your supply chain partners is worth doing, the question that needs to be answered is how. The way in which data is shared&nbsp;makes a difference to how people can use it. You need to ask yourself three questions to find the right approach:</p>\n",
+        "displayTitle": "The way you share the things you share",
+        "title": "The way you share the things you share",
+        "_isAvailable": true,
+        "_isOptional": false,
+        "_classes": "",
+        "_component": "narrative",
         "_pageLevelProgress": {
-        "_isEnabled": true
-        }
-    }, 
-    {
-        "_id":"c-39",
-        "_parentId":"b-35",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"right",
-        "_graphic": {
-            "alt": "ODI Certificates",
-            "title": "ODI Certificates",
-            "large": "course/en/images/a3eabc9ff7af595c2356ac8a06ded65c0f635501.png",
-            "medium": "course/en/images/a3eabc9ff7af595c2356ac8a06ded65c0f635501.png",
-            "small": "course/en/images/a3eabc9ff7af595c2356ac8a06ded65c0f635501.png",
-            "*source":"",
-            "*credit":"",
-            "*license":""
-        }
-    },
-    {
-    "_id": "c-60",
-    "_layout": "full",
-    "_parentId": "b-40",
-    "_type": "component",
-    "body": "<p>Welcome to the data spectrum. This tool can help you classify and agree on sharing arrangements for your data assets. Click on each of the pins below to discover which data goes under which part of the spectrum.</p>\n",
-    "displayTitle": "Selecting the right sharing arrangements",
-    "title": "Selecting the right sharing arrangements",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "hotgraphic",
-    "_pageLevelProgress": {
-      "_isEnabled": true
-    },
-    "instruction": "",
-    "_graphic": {
-      "src": "course/en/images/4b9908969dc041bf339cf058c604f831175f8ef8.jpg",
-      "alt": ""
-    },
-    "mobileBody": "",
-    "mobileInstruction": "",
-    "_hidePagination": false,
-    "_canCycleThroughPagination": false,
-    "_useGraphicsAsPins": false,
-    "_items": [
-      {
-        "title": "Internal Access",
-        "body": "<p>Internal access is the most private type of data shared only with selected individuals inside the organisation.</p>\n\n<p>Whether closed to protect sensitive personal information such as salaries or to keep private commercially sensitive details of operations, Internal access data can only be accessed by those in specific roles within the organisation.</p>\n",
-        "strapline": "Internal access",
-        "_graphic": {
-          "src": "course/en/images/6a0a91e76bc18535113eb85d50ab3cee62d57e04.png",
-          "alt": "",
-          "title": "",
-          "_classes": ""
+            "_isEnabled": true
         },
-        "_classes": "",
-        "_left": 13.3,
-        "_top": 75
+        "instruction": "",
+        "mobileInstruction": "",
+        "_setCompletionOn": "allItems",
+      "_items": [
+      {
+        "title": "Request & respond",
+        "body": "<p>The simplest form of data sharing is for one person to request data and for the other party to respond with it.</p>\n\n<p>The exchange could happen via email or in a physical form like a usb key.</p>\n\n<p>Request &amp; respond requires the least investment in terms of systems. The method also offers the least in terms of data protections and requires the highest commitment of time from staff.</p>\n\n<p>Request &amp; respond is only appropriate for data shared on a periodic basis.</p>\n",
+        "_graphic": {
+          "src": "course/en/images/28fcf900d655e7a2dad53b72b5eedac76aa45567.jpg",
+          "alt": ""
+        },
+        "strapline": "Request"
       },
       {
-        "title": "Named access",
-        "body": "<p>Named access data is shared only with named individuals. These people can be inside the organisation or in partner organisations.</p>\n\n<p>Named access data is only accessed on the based of a signed agreement between the party sharing the data and the party accessing it.</p>\n",
-        "strapline": "Named Access",
+        "title": "Download",
+        "body": "<p>The download form of data sharing requires one party to upload the data to a web presence (secured or unsecured) and for counterparties to download the data at a time which suits them.</p>\n\n<p>Download requires a minimal investment in making it possible for staff to upload data to the website. The method offers some security if the website is secured and requires some periodic effort from staff to upload the latest copies.</p>\n\n<p>Download is appropriate for most datasets that do not change regularly.</p>\n",
         "_graphic": {
-          "src": "course/en/images/d2a6aea242ee20f9a5083afe1f520727c022484a.png",
-          "alt": "",
-          "title": "",
-          "_classes": ""
+          "src": "course/en/images/8ad2b756c1939caad068dddead41d53b22405dd1.jpg",
+          "alt": ""
         },
-        "_classes": "",
-        "_left": 26.9,
-        "_top": 75
+        "strapline": "Download"
       },
       {
-        "title": "Group-based access",
-        "body": "<p>Group-based access data is shared with anyone who meets certain professional or usage conditions. For example, you might choose to share product availability quantities with anyone working for a retailer but not with those working for a competitor.</p>\n\n<p>Group-based access is granted on the basis of authentication. The person accessing the data must prove, to the satisfaction of the sharing organisation, that they belong to the class of people granted access.</p>\n",
-        "strapline": "Group-based",
+        "title": "Permission",
+        "body": "<p>The permission method of data sharing involves granting individuals or whole organisations direct access to a database or other place where the data is maintained by your organisation.</p>\n\n<p>Permission can happen via a login to a database or sharing access to live documents like Google sheets.</p>\n\n<p>Permission requires a variable effort depending on the database technologies. The method offers security if those you share with cannot duplicate the data and requires effort from staff only to interpret the data for partners.</p>\n\n<p>Permission is appropriate where a human needs regualr access to the data.</p>\n\n<p>Permission</p>\n",
         "_graphic": {
-          "src": "course/en/images/85a49d9ec53c78ab856cfcd3de0f7de618c4f2a4.png",
-          "alt": "",
-          "title": "",
-          "_classes": ""
+          "src": "course/en/images/2e79d639e8485d8287961c89a953f8462cb6a3dc.jpg",
+          "alt": ""
         },
-        "_classes": "",
-        "_left": 41,
-        "_top": 75
+        "strapline": "Permission"
       },
       {
-        "title": "Public Access",
-        "body": "<p>Public access data can be located online by anyone. However, while people may be able to find this data, there are still legal protections in place that prevent the free use or sharing of this data.</p>\n\n<p>Your public access data is often part of your web presence or data you otherwise want people to experience without having the legal right to use and share that data themselves.</p>\n",
-        "strapline": "Public Access",
+        "title": "API",
+        "body": "<p>The API method of sharing involves querying a database using a pre-defined script. Once set up, the API allows the recipient to request the latest version of data from the provider. APIs can be secured with permissions or open.</p>\n\n<p>APIs require technical effort to establish and correctly configure. The method offers a high level of security and can also be interpreted by programmes without human intervention.</p>\n\n<p>APIs are appropriate for rapidly changing data and in circumstances where you need to automatically ingest data.</p>\n",
         "_graphic": {
-          "src": "course/en/images/f494970aa6b0cccd94671238e7d8bd663f59fa1d.png",
-          "alt": "",
-          "title": "",
-          "_classes": ""
+          "src": "course/en/images/36b0055b8aad82e30a0a326d6fec212cabfa6763.jpg",
+          "alt": ""
         },
-        "_classes": "",
-        "_left": 61.2,
-        "_top": 75
-      },
-      {
-        "title": "Open",
-        "body": "<p>Open data is data that anyone can access use and share. Your open data is data that is accessible without limitation to the public subject to certain licence conditions such as the obligation to credit you as the source.&nbsp;</p>\n\n<p>Open data can be any non-personal data type where the organisation deems it more beneficial to share without restriction.</p>\n",
-        "strapline": "Open",
-        "_graphic": {
-          "src": "course/en/images/a3038084b5bda8cb230ca1e2ecf31c85f3abb662.png",
-          "alt": "",
-          "title": "",
-          "_classes": ""
-        },
-        "_classes": "",
-        "_left": 81.3,
-        "_top": 75
+        "strapline": "API"
       }
     ]
   },
-  {
-        "_id": "c-50",
-        "_parentId": "b-50",
-        "_classes": "",
-        "_type":"component",
-        "_layout": "full",
-        "_component": "text",
-         "body": "<p>In order to govern strategy effectively, one of the key components is the contribution of individual teams to the overall strategy of the organisation. Yet many organisations fail to offer the proper incentives to participate. In order to develop your teams understanding of incentives, we recommend playing the contribution game below:</p>\n\n<p>When prompted by your instructor, please click the relevant link below, enter your offer and hit &#39;submit&#39;.</p>\n\n<p style=\"text-align:center\"><a href=\"http://goo.gl/forms/Nm5B2aAwd7xJzb753\" target=\"_blank\"><span style=\"color:#FFFFFF\">Round 1</span></a></p>\n\n<p style=\"text-align:center\"><a href=\"http://goo.gl/forms/vANFi1GKsXUNgfHy2\" target=\"_blank\"><span style=\"color:#FFFFFF\">Round 2</span></a></p>\n\n<p style=\"text-align:center\"><a href=\"http://goo.gl/forms/RHtk4xX56B0Oi3203\" target=\"_blank\"><span style=\"color:#FFFFFF\">Round 3</span></a></p>\n\n<p style=\"text-align:center\"><a href=\"http://goo.gl/forms/6Q80OkSQjpU36nlp2\" target=\"_blank\"><span style=\"color:#FFFFFF\">Round 4</span></a></p>\n\n<p style=\"text-align:center\"><a href=\"http://goo.gl/forms/6Iu2Eu6vIntkTdBG3\" target=\"_blank\"><span style=\"color:#FFFFFF\">Round 5</span></a></p>\n",
-        "displayTitle": "Incentives & how to govern them",
-        "title": "Incentives & how to govern them",
-        "_pageLevelProgress": {
-        "_isEnabled": true
-        }
-    }, 
     {
         "_id":"c-85",
         "_parentId":"b-55",
@@ -427,9 +331,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Open data strategy",
-        "displayTitle":"Open data strategy",
-        "body":"<p>Open data strategy is your statement of the value your organisation sees in data sharing, the role of open data within in and a plan of action to achieve these values. As with all strategy, the development needs to take into account the views of the organisation. By following the processes laid out in this module, you can quickly and effectively design better open data strategy within your organisation and enjoy the benefits of better data sharing with partners and the wider world.</p>",
+        "body": "<p>Creating effective mechanisms for data sharing is a key part of getting value from your data. The way you choose to share data determines how your suppliers, customers and partners can interact with you. The easier it is to interact, the greater the satisfaction from the business.</p>\n",
+        "displayTitle": "Data sharing",
+        "title": "Data sharing",
         "_pageLevelProgress": {
           "_isEnabled": true
         }
