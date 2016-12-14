@@ -96,19 +96,22 @@ function validateEmail(email) {
 
 function getEmail() {
 	email = $("input[id='email']").val();
+	firstname = $("input[id='firstname']").val();
+	lastname = $("input[id='lastname']").val();
 	if (validateEmail(email)) {
-		localStorage.setItem("email",email);
-		emailSave(email);
+		emailSave(email,firstname,lastname);
 	}
 }
 
-function emailSave(email) {
+function emailSave(email,firstname,lastname) {
 	if (email == "" || !email) {
 		return;
 	}
 	localStorage.setItem("email",email);
+	localStorage.setItem("firstname",firstname);
+	localStorage.setItem("lastname",lastname);
 	$('#save-section').fadeOut( function() {
-    		var sl = document.getElementById('save-section');
+    	var sl = document.getElementById('save-section');
 		var ss = document.getElementById('cloud-status-text');
 		$(sl).html("");
 		$(sl).addClass('saving');
