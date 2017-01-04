@@ -13,6 +13,17 @@
         display: block;
     }
 }
+#countries, #region {
+    padding: 5px;
+    color: gray;
+    margin: 10px;
+}
+#countries_msdd, #region_msdd {
+    width: 565px;
+    @media all and (max-width:(@device-width-medium - 1px)) {
+        width: 85%;
+    }   
+}
 .email-input {
 	padding: 5px;
 	font-size: 1.5em;
