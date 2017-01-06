@@ -61,9 +61,9 @@ function showSaveSection() {
 }
 
 function checkWelcome() {
-	if (localStorage.getItem("email") == null && localStorage.getItem("ODI_Welcome_Done") == null && save_enabled) {
+	if (localStorage.getItem("email") == null && save_enabled) {
 		showMessage('enter_email');
-		localStorage.setItem("ODI_Welcome_Done",true);
+		//localStorage.setItem("ODI_Welcome_Done",true);
 	}
 }
 
@@ -89,6 +89,36 @@ function addListeners() {
         }
 }
 
+function validateInput() {
+	email = $("input[id='email']").val();
+	firstname = $("input[id='firstname']").val();
+	lastname = $("input[id='lastname']").val();
+	country = $("#countries").val();
+	region = $("#region").val();
+	valid = true;
+	if (!validateEmail(email)) {
+		valid = false;
+	}
+	if (!firstname || !lastname || !country) {
+		valid = false;
+	}
+	return valid;
+}
+
+function closeTutor() {
+	var Adapt = require('coreJS/adapt');
+	$(".tutor").fadeOut('fast', function() {
+       	
+       	$(".tutor").remove();
+       	Adapt.trigger('tutor:closed');
+    });	
+    $(".tutor-shadow").fadeOut('fast', function() {
+    	$(".tutor-shadow").remove();
+    });
+    Adapt.trigger('popup:closed');
+}
+
+
 function validateEmail(email) {
     var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     return re.test(email);
@@ -98,10 +128,21 @@ function getEmail() {
 	email = $("input[id='email']").val();
 	firstname = $("input[id='firstname']").val();
 	lastname = $("input[id='lastname']").val();
-	country = $("input[id='countries')").val();
-	region = $("input[id='region')").val();
-	if (validateEmail(email)) {
+	country = $("#countries").val();
+	region = $("#region").val();
+	valid = true;
+	if (!validateEmail(email)) {
+		alert('Please enter a valid email');
+		valid = false;
+	}
+	if (!firstname || !lastname || !country) {
+		valid = false;
+	}
+	if (valid) {
+		closeTutor();
 		emailSave(email,firstname,lastname,country,region);
+	} else {
+		alert('Please complete all details');
 	}
 }
 
