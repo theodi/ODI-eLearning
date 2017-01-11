@@ -266,6 +266,12 @@
         },
         {
           "_type": "link",
+          "title": "<div align='center'><img class='download-image' src='adapt/css/assets/download.png'><p class='downloadp'>Download scorm package</p></div>",
+          "description": "",
+          "_link": "course/en/data/scorm.zip"
+        },
+        {
+          "_type": "link",
           "title": "Open data certificate",
           "description": "<span class='open-data-certificate'><img alt='Badge' src='adapt/css/assets/badge.png'/><ul class='open-data-certificate-details'> <li> <span>Open: ODI eLearning Data</span> </li> <li> <span>Pilot Open Data Certificate (final)</span> </li> <li> <span>Active - self certified</span> </li> </ul> </span>",
           "_link": "https://certificates.theodi.org/datasets/25215/certificate"
