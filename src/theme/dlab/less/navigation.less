@@ -23,14 +23,17 @@
     .navigation-inner {
     }
     .icon {
+      /*
         padding:@navigation-padding;
         @media all and (max-width:(@device-width-medium - 1px)) {
             padding:@navigation-padding-mobile;
         }
+        */
         color:@navigation-icon-color;
         .no-touch &:hover {
             color:@navigation-icon-hover-color;
         }
+
     }
     #drawText {
 	font-family:@font-family;
@@ -60,23 +63,37 @@
         }
     }
     .page-level-progress-navigation {
-	@media all and (min-width:(@device-width-medium + 80px)) {
-	        z-index: 5000;
-    		position: relative;
-	    	top: 50px;
-	}
-        .page-level-progress-navigation-completion {
-            background: @plp-navigation-completed;
-            border: 1px solid #fff;
-            height: 10px;
-            .page-level-progress-navigation-bar {
+      z-index: 5000;
+      position: relative;
+      float: right;
+      padding-right: 10px;
+	    @media all and (min-width:(@device-width-medium + 80px)) {  
+        clear: both;
+        top: -10px;
+      }
+      @media all and (max-width:(@device-width-medium - 1px)) {
+        padding: 20px 2px;
+      }
+	    age-level-progress-navigation-completion {
+          background: @plp-navigation-completed;
+          border: 1px solid #fff;
+          height: 10px;
+          .page-level-progress-navigation-bar {
                 background: @plp-navigation-background;
-            }
-        }
+          }
+      }
     }
     #odiLearning {
             display: inline-block;
             float: left;
+    }
+    .logo-banner {
+          height: 50px;
+          padding-top: 5px;
+          margin-left: 10px;
+          @media all and (max-width:(@device-width-medium - 1px)) {
+            height: 40px;
+          }
     }
     .learningTop {
 	    color: #eeeeee;
@@ -99,11 +116,12 @@
   min-height: 0;
   padding: 0;
   margin: 0;
-  position: relative;
-  top: -30px;
+  position: absolute;
+  top: 35px;
+  width: 100%;
 }
 #main-menu .container {
-  background-color: #146c89;
+  background-color: @odi-color-six;
   height: 45px;
 }
 #main-menu .container ul.menu {

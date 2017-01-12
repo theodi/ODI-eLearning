@@ -51,19 +51,14 @@
     color: white;
     z-index: -10;
 }
-.page-level-progress-navigation {
-        float: right;
-        padding: 26px 10px;
-    @media all and (max-width:(@device-width-medium - 1px)) {
-        padding: 20px 2px;
-    }
-}
 .save-section-outer {
-        display: none;
-	float: left;
-        margin-left: 10px;
-    @media all and (max-width:(@device-width-medium - 1px)) {
-        margin-left: 4px;
+    display: none;
+	float: right;
+    margin-right: 10px;
+    margin-left: 8px;
+    @media all and (min-width:(@device-width-medium - 1px)) {
+        position: absolute;
+        right: 5px;
     }
 }
 .save-section {
@@ -93,12 +88,11 @@
     @media all and (max-width:(@device-width-medium - 1px)) {
         font-size: 12px;
     }
-        border: 1px solid @odi-color-six;
-        background-color: @odi-color-six;
+        border: 1px solid @odi-color-three;
+        background-color: @odi-color-three;
         padding: 6px;
         text-dectoration:none;
         color: white;
-        margin-right: 0.5em;
         margin-top: 8px;
 }
 .slbutton:hover {
