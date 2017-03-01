@@ -433,6 +433,7 @@
     
     {
         "_id":"c-21",
+        "_adapt2id":"587e0cc4b61c46e176e7e222",
         "_parentId":"b-11",
         "_type":"component",
         "_component":"mcq",
@@ -448,24 +449,24 @@
         "instruction": "<em>Choose an answer, then click 'Submit'</em>",
         "_items": [
             {
-                "text": "Improved services",
+                "text": "Innovation",
                 "_shouldBeSelected": false
-            },
-            {
-                "text": "Stronger leadership",
-                "_shouldBeSelected": true
             },
             {
                 "text": "Transparency",
                 "_shouldBeSelected": false
             },
             {
-                "text": "Innovation",
+                "text": "Social and economic benefit",
                 "_shouldBeSelected": false
             },
             {
-                "text": "Social and economic benefit",
+                "text": "Improved services",
                 "_shouldBeSelected": false
+            },
+            {
+                "text": "Stronger leadership",
+                "_shouldBeSelected": true
             }
         ],
         "_feedback":{
@@ -509,6 +510,7 @@
     },
     {
         "_id":"c-23",
+        "_adapt2id":"587e0da9b61c46e176e7e236",
         "_parentId":"b-12",
         "_type":"component",
         "_component":"mcq",
@@ -524,11 +526,11 @@
         "instruction": "<em>Choose an answer, then click 'Submit'</em>",
         "_items": [
             {
-                "text": "Windsor and Maidenhead save 16% on energy consumption in their buildings",
+                "text": "Carlisle save up to £15,000 per year on FoI requests for business rates",
                 "_shouldBeSelected": false
             },
             {
-                "text": "Carlisle save up to £15,000 per year on FoI requests for business rates",
+                "text": "Windsor and Maidenhead save 16% on energy consumption in their buildings",
                 "_shouldBeSelected": false
             },
             {
@@ -577,6 +579,7 @@
     },
     {
         "_id":"c-25",
+        "_adapt2id":"587e0e3cb61c46e176e7e248",
         "_parentId":"b-13",
         "_type":"component",
         "_component":"mcq",
@@ -592,16 +595,16 @@
         "instruction": "<em>Choose an answer, then click 'Submit'</em>",
         "_items": [
             {
-                "text": "tourism, waste management and schools",
-                "_shouldBeSelected": true
-            },
-            {
                 "text": "people's voting histories",
                 "_shouldBeSelected": false
             },
             {
                 "text": "councillors' bank details",
                 "_shouldBeSelected": false
+            },
+            {
+                "text": "tourism, waste management and schools",
+                "_shouldBeSelected": true
             }
         ],
         "_feedback":{
@@ -645,6 +648,7 @@
     },
     {
         "_id":"c-27",
+        "_adapt2id":"587e0ebbb61c46e176e7e25c",
         "_parentId":"b-14",
         "_type":"component",
         "_component":"mcq",
