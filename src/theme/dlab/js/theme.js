@@ -128,6 +128,7 @@ function getEmail() {
 	email = $("input[id='email']").val();
 	firstname = $("input[id='firstname']").val();
 	lastname = $("input[id='lastname']").val();
+	gender = $("#gender").val();
 	country = $("#countries").val();
 	region = $("#region").val();
 	valid = true;
@@ -140,7 +141,7 @@ function getEmail() {
 	}
 	if (valid) {
 		closeTutor();
-		emailSave(email,firstname,lastname,country,region);
+		emailSave(email,firstname,lastname,gender,country,region);
 	} else {
 		alert('Please complete all details');
 	}
@@ -160,13 +161,14 @@ function countryChange(val) {
 
 }
 
-function emailSave(email,firstname,lastname,country,region) {
+function emailSave(email,firstname,lastname,gender,country,region) {
 	if (email == "" || !email) {
 		return;
 	}
 	localStorage.setItem("email",email);
 	localStorage.setItem("firstname",firstname);
 	localStorage.setItem("lastname",lastname);
+	localStorage.setItem("gender",gender);
 	localStorage.setItem("country",country);
 	localStorage.setItem("region",region);
 	$('#save-section').fadeOut( function() {
