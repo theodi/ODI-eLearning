@@ -1,4 +1,14 @@
 [
+	{
+        "_id": "b-001",
+        "_parentId": "a-01",
+        "_type": "block",
+        "_classes": "section-banner inverted",
+        "_trickle": {
+            "_isEnabled":false,
+            "button": "Continue"
+        }
+    },
     {
         "_id": "b-01",
         "_parentId": "a-01",
@@ -49,6 +59,17 @@
         "_type": "block",
         "_classes": "inverted",
         "_trackingId": 3,
+        "_trickle": {
+            "_isEnabled":false,
+            "button": "Continue"
+        }
+    },
+    {
+        "_id": "b-30",
+        "_parentId": "a-01",
+        "_type": "block",
+        "_classes": "",
+        "_trackingId": 4,
         "_trickle": {
             "_isEnabled":false,
             "button": "Continue"

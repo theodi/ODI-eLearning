@@ -1,5 +1,20 @@
 [
     {
+        "_id":"c-001",
+        "_parentId":"b-001",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"full",
+        "title":"New: eLearning",
+        "displayTitle":"New: eLearning",
+        "body":"<p>Good management of data makes it easy to ensure data is of high quality and can be easily analysed and visulised. Find out more with our <a href='http://tanzania.learndata.info/eLearning' target='_blank'>foundations in data management</a> eLearning.</p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
         "_id":"c-01",
         "_parentId":"b-01",
         "_type":"component",
@@ -160,6 +175,32 @@
         "title":"Visualisation and communication",
         "displayTitle":"Visualisation and communication",
         "body":"<p>Communicating impact is key to every use of open data. From cleaning to visualising, this practical course gets hands-on with data. By the end, participants will have cleaned, enriched and interactively visualised a dataset using freely available tools.</p><p><a class='course_link' href='inpractice3/' style='color: #f9c928;'>Click here to learn more</a></p>"
+    },
+    {
+        "_id":"c-25",
+        "_parentId":"b-30",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"left",
+        "_graphic": {
+                    "small": "course/en/images/c-30.jpg",
+                    "medium": "course/en/images/c-30.jpg",
+                    "large": "course/en/images/c-30.jpg",
+                    "alt": "Columns and spreadsheets",
+                    "title": "Columns and spreadsheets"
+        }
+    },
+    {
+        "_id":"c-26",
+        "_parentId":"b-30",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"right",
+        "title":"eLearning: Foundations in data management",
+        "displayTitle":"eLearning: Foundations in data management",
+        "body":"<p>Incorrect use of spreadsheets is a key challenge for data quality. Data that is not well managed cannot answer important questions or be used easily. Good management of data makes it easy to improve data quality, and ensure data can be analysed and visualised. This course will enable you to organise spreadsheet data, use tools to filter & analyse data and produce an interactive data visualisation.</p><p><a class='course_link' href='http://tanzania.learndata.info/eLearning' style='color: white;'>Click here to learn more</a></p>"
     },
     {
         "_id":"c-151",
