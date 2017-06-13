@@ -1,198 +1,18 @@
 [
   {
-    "_id": "59400156d084d5167a04f949",
-    "_layout": "right",
-    "_parentId": "b-01",
-    "_type": "component",
-    "body": "",
-    "displayTitle": "",
-    "title": "",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "intro-logo",
-    "_component": "graphic",
-    "_pageLevelProgress": {
-      "_isEnabled": false
-    },
-    "instruction": "",
-    "_graphic": {
-      "alt": "",
-      "large": "",
-      "small": "",
-      "attribution": ""
-    }
-  },
-  {
-    "_id": "59400156d084d5167a04f94b",
-    "_layout": "left",
-    "_parentId": "b-02",
-    "_type": "component",
-    "body": "<p>Change management is the <strong>process of introducing a long-term transition, change or development in an organisation. </strong></p><p>The ultimate goal of change management is to change&nbsp;how the organisation operates in the long-term, from adapting&nbsp;its systems,&nbsp;processes and&nbsp;structures&nbsp;to changing&nbsp;how people within it think and act.</p><p>Change management is equally relevant to the public and the private sectors, and to organisations large and small.</p>",
-    "displayTitle": "What is change management? ",
-    "title": "What is change management? ",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "text",
-    "_pageLevelProgress": {
-      "_isEnabled": true
-    },
-    "instruction": ""
-  },
-  {
-    "_id": "59400156d084d5167a04f94c",
-    "_layout": "right",
-    "_parentId": "b-02",
-    "_type": "component",
-    "body": "",
-    "displayTitle": "",
-    "title": "",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "graphic",
-    "_pageLevelProgress": {
-      "_isEnabled": false
-    },
-    "instruction": "",
-    "_graphic": {
-      "alt": "",
-      "large": "course/en/assets/cdce8ea3ed04a12e226ca17c8e5be93fffe1fb11.png",
-      "small": "course/en/assets/a699447adb040b8b78c36f46d46356ba124debf3.png",
-      "attribution": ""
-    }
-  },
-  {
-    "_id": "59400156d084d5167a04f94d",
-    "_layout": "right",
-    "_parentId": "b-04",
-    "_type": "component",
-    "body": "",
-    "displayTitle": "",
-    "title": "",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "graphic",
-    "_pageLevelProgress": {
-      "_isEnabled": false
-    },
-    "instruction": "",
-    "_graphic": {
-      "alt": "",
-      "large": "course/en/assets/3b66beb92878268fd90bf52b67cb10c55f741f17.jpg",
-      "small": "course/en/assets/3b66beb92878268fd90bf52b67cb10c55f741f17.jpg",
-      "attribution": "<a href=\"https://www.shutterstock.com/image-vector/flat-style-vector-icons-set-mobile-203239417\" target=\"_blank\">Ozerina Anna</a> <span class='assetLicence'>[Shutterstock standard licence]</span>"
-    }
-  },
-  {
-    "_id": "59400156d084d5167a04f95f",
-    "_layout": "left",
-    "_parentId": "b-10",
-    "_type": "component",
-    "body": "<p dir=\"ltr\">Change management is the process of introducing a long-term transition, change or development in an organisation.</p><p dir=\"ltr\">Effective management is essential to the success of&nbsp;any project or initiative, and a programme of change is no different.</p><p dir=\"ltr\">Key elements of a successful programme of change include clear ownership and vision, senior buy-in, measuring success through clear metrics and communicating impact.</p>",
-    "displayTitle": "Managing change in open data",
-    "title": "Managing change in open data",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "text",
-    "_pageLevelProgress": {
-      "_isEnabled": true
-    },
-    "instruction": ""
-  },
-  {
-    "_id": "59400156d084d5167a04f960",
-    "_layout": "left",
-    "_parentId": "b-01",
-    "_type": "component",
-    "body": "<p dir=\"ltr\">Change&nbsp;management is the process of introducing a long-term transition, change or development in an organisation.&nbsp;Change management is especially important when dealing with large changes, such as the cultural changes needed to succeed with open data.</p><p dir=\"ltr\">In this module, we&rsquo;ll explore why it is important for organisations to manage&nbsp;change and key elements to help&nbsp;build a successful&nbsp;change management process.</p><ul><li dir=\"ltr\">What is change management?</li><li dir=\"ltr\">Why is change management&nbsp;important in open data initiatives?</li><li dir=\"ltr\">Why is change management needed?</li><li dir=\"ltr\">What are the key elements of change management?</li></ul>",
-    "displayTitle": "Managing change in open data",
-    "title": "Managing change in open data",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "ticks",
-    "_component": "text",
-    "_pageLevelProgress": {
-      "_isEnabled": true
-    },
-    "instruction": ""
-  },
-  {
-    "_id": "59400156d084d5167a04f961",
-    "_layout": "left",
-    "_parentId": "b-09",
-    "_type": "component",
-    "body": "<p><strong>Three key elements of change management are...</strong></p>",
-    "displayTitle": "What are the key elements of change management?",
-    "title": "What are the key elements of change management?",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "mcq",
-    "_pageLevelProgress": {
-      "_isEnabled": true
-    },
-    "instruction": "",
-    "_items": [
-      {
-        "text": "Using the right terminology, working from the ground up and introducing change quickly",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      },
-      {
-        "text": "Having clear vision and leadership, communicating impact and building metrics",
-        "_shouldBeSelected": true,
-        "feedback": ""
-      },
-      {
-        "text": "Working from the top down, mandating change and implementing it quickly",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      }
-    ],
-    "_attempts": 1,
-    "_canShowModelAnswer": true,
-    "_canShowFeedback": true,
-    "_canShowMarking": true,
-    "_shouldDisplayAttempts": false,
-    "_isRandom": true,
-    "_recordInteraction": true,
-    "_questionWeight": 1,
-    "_selectable": 1,
-    "_feedback": {
-      "correct": "<p><strong>That&#39;s right!</strong></p><p>Three key elements of change management are: having clear vision and leadership, communicating impact and building metrics</p>",
-      "_incorrect": {
-        "final": "<p><strong>Are you sure?</strong></p><p>Three key elements of change management are: having clear vision and leadership, communicating impact and building metrics</p>",
-        "notFinal": ""
-      },
-      "_partlyCorrect": {
-        "final": "",
-        "notFinal": ""
-      }
-    },
-    "_buttons":{
-            "submit":"",
-            "reset":"",
-            "showCorrectAnswer":"",
-            "hideCorrectAnswer":""
-        }
-  },
-  {
-    "_id": "59400156d084d5167a04f962",
+    "_id": "59400a14d084d5167a04fa58",
     "_layout": "right",
     "_parentId": "b-06",
     "_type": "component",
     "body": "",
-    "displayTitle": "",
-    "title": "",
+    "displayTitle": " ",
+    "title": " ",
     "_isAvailable": true,
     "_isOptional": false,
     "_classes": "",
     "_component": "graphic",
     "_pageLevelProgress": {
-      "_isEnabled": false
+      "_isEnabled": true
     },
     "instruction": "",
     "_graphic": {
@@ -203,99 +23,13 @@
     }
   },
   {
-    "_id": "59400157d084d5167a04f96b",
+    "_id": "59400a14d084d5167a04fa73",
     "_layout": "left",
-    "_parentId": "b-06",
-    "_type": "component",
-    "body": "",
-    "displayTitle": "Are you ready to manage change?",
-    "title": "Are you ready to manage change?",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "text",
-    "_pageLevelProgress": {
-      "_isEnabled": true
-    },
-    "instruction": ""
-  },
-  {
-    "_id": "59400157d084d5167a04f96c",
-    "_layout": "right",
-    "_parentId": "b-07",
-    "_type": "component",
-    "body": "",
-    "displayTitle": "",
-    "title": "",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "graphic",
-    "_pageLevelProgress": {
-      "_isEnabled": false
-    },
-    "instruction": "",
-    "_graphic": {
-      "alt": "",
-      "large": "course/en/assets/cdce8ea3ed04a12e226ca17c8e5be93fffe1fb11.png",
-      "small": "course/en/assets/cdce8ea3ed04a12e226ca17c8e5be93fffe1fb11.png",
-      "attribution": "<a href=\"http://www.shutterstock.com/pic-134315933.html\" target=\"_blank\">Photoraiz</a> <span class='assetLicence'>[Shutterstock standard licence]</span>"
-    }
-  },
-  {
-    "_id": "59400157d084d5167a04f96d",
-    "_layout": "left",
-    "_parentId": "b-08",
-    "_type": "component",
-    "body": "",
-    "displayTitle": "",
-    "title": "",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "graphic",
-    "_pageLevelProgress": {
-      "_isEnabled": false
-    },
-    "instruction": "",
-    "_graphic": {
-      "alt": "",
-      "large": "course/en/assets/3b66beb92878268fd90bf52b67cb10c55f741f17.jpg",
-      "small": "course/en/assets/3b66beb92878268fd90bf52b67cb10c55f741f17.jpg",
-      "attribution": "<a href=\"https://www.shutterstock.com/image-vector/flat-style-vector-icons-set-mobile-203239417\" target=\"_blank\">Ozerina Anna</a> <span class='assetLicence'>[Shutterstock standard licence]</span>"
-    }
-  },
-  {
-    "_id": "59400157d084d5167a04f96e",
-    "_layout": "right",
     "_parentId": "b-09",
     "_type": "component",
-    "body": "",
-    "displayTitle": "",
-    "title": "",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "graphic",
-    "_pageLevelProgress": {
-      "_isEnabled": false
-    },
-    "instruction": "",
-    "_graphic": {
-      "alt": "",
-      "large": "course/en/assets/4d0e90f8a701b90a49898fd147c75a0149ca472f.jpg",
-      "small": "course/en/assets/4d0e90f8a701b90a49898fd147c75a0149ca472f.jpg",
-      "attribution": "<a href=\"http://www.shutterstock.com/pic.mhtml?id=149924576&src=lb-35924366\" target=\"_blank\">Sergey Nivens</a> <span class='assetLicence'>[Shutterstock standard licence]</span>"
-    }
-  },
-  {
-    "_id": "59400157d084d5167a04f971",
-    "_layout": "left",
-    "_parentId": "b-07",
-    "_type": "component",
-    "body": "<p><strong>Change management is...</strong></p>",
-    "displayTitle": "What is change management?",
-    "title": "What is change management?",
+    "body": "<p dir=\"ltr\"><strong>The social impact indicator for the Open Data in Europe assessment tool is based on the impact on...</strong></p>",
+    "displayTitle": "How do we measure impact?",
+    "title": "How do we measure impact?",
     "_isAvailable": true,
     "_isOptional": false,
     "_classes": "",
@@ -303,80 +37,20 @@
     "_pageLevelProgress": {
       "_isEnabled": true
     },
-    "instruction": "",
+    "instruction": "Choose your answer, then click 'Submit'",
     "_items": [
       {
-        "text": "The process of introducing a long-term transition, change or development in an organisation",
+        "text": "environmental sustainability and inclusion of marginalised groups",
         "_shouldBeSelected": true,
         "feedback": ""
       },
       {
-        "text": "The process of introducing a short-term alteration or change in the public sector",
+        "text": "studies assessing the market value of open data",
         "_shouldBeSelected": false,
         "feedback": ""
       },
       {
-        "text": "A process for publishing open data",
-        "_shouldBeSelected": false,
-        "feedback": ""
-      }
-    ],
-    "_attempts": 1,
-    "_canShowModelAnswer": true,
-    "_canShowFeedback": true,
-    "_canShowMarking": true,
-    "_shouldDisplayAttempts": false,
-    "_isRandom": false,
-    "_recordInteraction": true,
-    "_questionWeight": 1,
-    "_selectable": 1,
-    "_feedback": {
-      "correct": "<p><strong>That&#39;s right!</strong></p><p>Change&nbsp;management is the process of introducing a long-term transition, change or development in an organisation.</p>",
-      "_incorrect": {
-        "final": "<p><strong>Are you sure?</strong></p><p dir=\"ltr\">Change&nbsp;management is the process of introducing a long-term transition, change or development in an organisation.</p>",
-        "notFinal": ""
-      },
-      "_partlyCorrect": {
-        "final": "",
-        "notFinal": ""
-      }
-    },
-    "_buttons":{
-            "submit":"",
-            "reset":"",
-            "showCorrectAnswer":"",
-            "hideCorrectAnswer":""
-        }
-  },
-  {
-    "_id": "59400157d084d5167a04f972",
-    "_layout": "right",
-    "_parentId": "b-08",
-    "_type": "component",
-    "body": "<p><strong>Change management is important because...</strong></p>",
-    "displayTitle": "Why is managing change important?",
-    "title": "Why is managing change important?",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "mcq",
-    "_pageLevelProgress": {
-      "_isEnabled": true
-    },
-    "instruction": "",
-    "_items": [
-      {
-        "text": "you can use the latest techniques and strategies",
-        "_shouldBeSelected": true,
-        "feedback": ""
-      },
-      {
-        "text": "it helps to ensure sustainability and reduce risk",
-        "_shouldBeSelected": true,
-        "feedback": ""
-      },
-      {
-        "text": "the project will get more budget and resources",
+        "text": "government efficiency and transparency",
         "_shouldBeSelected": false,
         "feedback": ""
       }
@@ -391,9 +65,9 @@
     "_questionWeight": 1,
     "_selectable": 1,
     "_feedback": {
-      "correct": "<p><strong>That&#39;s right!</strong></p><p>Change management is important to the success of a programme, project or initiative because it helps to ensure sustainability and reduce risks.</p>",
+      "correct": "<p><strong>That&#39;s right!</strong></p><p>There are two factors that make up the social impact indicator: impact on environmental sustainability in the country and on increasing the inclusion of marginalised groups</p>",
       "_incorrect": {
-        "final": "<p><strong>Are you sure?</strong></p><p>Change management is important to the success of a programme, project or initiative because it helps to ensure sustainability and reduce risks.</p>",
+        "final": "<p><strong>Are you sure?</strong></p><p>There are two factors that make up the social impact indicator: impact on environmental sustainability in the country and on increasing the inclusion of marginalised groups</p>",
         "notFinal": ""
       },
       "_partlyCorrect": {
@@ -401,17 +75,113 @@
         "notFinal": ""
       }
     },
-    "_buttons":{
-            "submit":"",
-            "reset":"",
-            "showCorrectAnswer":"",
-            "hideCorrectAnswer":""
-        }
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
   },
   {
-    "_id": "59400157d084d5167a04f97c",
+    "_id": "59400a14d084d5167a04fa74",
+    "_layout": "left",
+    "_parentId": "b-07",
+    "_type": "component",
+    "body": "<p><strong>Achieving impact is important because...</strong></p>",
+    "displayTitle": "Why is achieving impact important?",
+    "title": "Why is achieving impact important?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "mcq",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Choose all that apply, then click 'Submit'",
+    "_items": [
+      {
+        "text": "it justifies why a programme should continue",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "it shows where you should focus all your efforts",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "you can draw unexpected conclusions",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_feedback": {
+      "correct": "<p><strong>That&#39;s right!</strong></p><p>Achieving impact is important because it&nbsp;provides a justification for why a programme of work should be continued&nbsp;as it demonstrates the return on investment.</p><p>Impact is also a key part of measuring the effectiveness of an open data policy, programme or initiative.&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>",
+      "_incorrect": {
+        "final": "<p><strong>Are you sure?</strong></p><p>Achieving impact is important because it&nbsp;provides a justification for why a programme of work should be continued as it demonstrates the return on investment.</p><p>Impact is also a key part of measuring the effectiveness of an open data policy, programme or initiative.&nbsp;</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_id": "59400a14d084d5167a04fa75",
     "_layout": "right",
-    "_parentId": "b-10",
+    "_parentId": "b-11",
     "_type": "component",
     "body": "",
     "displayTitle": " ",
@@ -421,7 +191,7 @@
     "_classes": "color-six",
     "_component": "graphic",
     "_pageLevelProgress": {
-      "_isEnabled": false
+      "_isEnabled": true
     },
     "instruction": "",
     "_graphic": {
@@ -432,36 +202,30 @@
     }
   },
   {
-    "_id": "59400157d084d5167a04f97e",
+    "_id": "59400a14d084d5167a04fa76",
     "_layout": "left",
-    "_parentId": "b-03",
+    "_parentId": "b-01",
     "_type": "component",
-    "body": "",
-    "displayTitle": "",
-    "title": "",
+    "body": "<p dir=\"ltr\">The goal of any open data project or initiative is to have some kind of impact, be it political transparency and accountability, social benefit or economic growth.&nbsp;Creating, finding and promoting&nbsp;<a href=\"http://opendatabarometer.org/3rdEdition/report/#impact\" target=\"_blank\">examples of open data being used to improve our daily lives</a>&nbsp;is one of the most challenging aspects of leading an open data project, programme or initiative.</p><p dir=\"ltr\">In this module we&#39;ll explore:</p><ul><li dir=\"ltr\">Why is achieving impact is important?</li><li dir=\"ltr\">How can we achieve impact?</li><li dir=\"ltr\">How&nbsp;can we measure the impact we&rsquo;ve achieved?</li><li dir=\"ltr\">Overcoming barriers to achieving impact</li></ul>",
+    "displayTitle": "Achieving impact with open data",
+    "title": "Achieving impact with open data",
     "_isAvailable": true,
     "_isOptional": false,
-    "_classes": "",
-    "_component": "graphic",
+    "_classes": "ticks",
+    "_component": "text",
     "_pageLevelProgress": {
-      "_isEnabled": false
+      "_isEnabled": true
     },
-    "instruction": "",
-    "_graphic": {
-      "alt": "",
-      "large": "course/en/assets/1df129630da9e360cea725c7c5eebda0b337c7ba.jpg",
-      "small": "course/en/assets/1df129630da9e360cea725c7c5eebda0b337c7ba.jpg",
-      "attribution": "<a href=\"http://www.freepik.com\" target=\"_blank\">Jannoon028 / Freepik</a> <span class='assetLicence'>[CC-BY]</span>"
-    }
+    "instruction": ""
   },
   {
-    "_id": "59400157d084d5167a04f97f",
+    "_id": "59400a14d084d5167a04fa77",
     "_layout": "right",
-    "_parentId": "b-03",
+    "_parentId": "b-02",
     "_type": "component",
-    "body": "<p dir=\"ltr\">While the technology for open data has already existed for 20 years, it has not been common to open it. That said, there has&nbsp;been high demand for transparency, driven by scandals like the UK <a href=\"https://en.wikipedia.org/wiki/United_Kingdom_parliamentary_expenses_scandal\">MPs expenses scandal in 2009</a> and the <a href=\"https://www.britannica.com/topic/FIFA-Corruption-Scandal-The-2076091\">FIFA corruption scandal in 2016</a>.</p><p dir=\"ltr\">The majority of organisations are still very comfortable with being closed by default, only granting access to information and data upon request or as part of sharing agreements. Open-by-default is the mindset that all data and information should be opened automatically unless there is a strong justification for why it should be closed.&nbsp;Change management is critical both to the success of the project and to helping people through the process who will find it difficult to change their mindframe&nbsp;to embrace open data.</p><p>To help with this change management process, the <a href=\"http://opendatacharter.net/\">Open Data Charter</a> provides a set of principles for a successful open data initiative. Many countries have already signed up to the Charter, including <a href=\"http://opendatacharter.net/adopted-by-countries-and-cities/\">France, Italy and the UK</a>. The <a href=\"http://opendatacharter.net/ukraine-used-charter-develop-open-data-roadmap/\">Ukraine has used the charter to help inform its&nbsp;long-term roadmap</a> and to get buy-in from all parts of government.</p>",
-    "displayTitle": "Why is change management important for open data initiatives?",
-    "title": "Why is change management important for open data initiatives?",
+    "body": "<p dir=\"ltr\">Impact is a key part of measuring the effectiveness of an open data policy, programme or initiative. It is hard to argue for&nbsp;a programme of work to continue&nbsp;if it cannot demonstrate&nbsp;the return on investment (ROI) by way of impact.</p><p dir=\"ltr\">This ROI might not be financial in nature, as there are wider political and social impacts&nbsp;to be gained from open data.:</p><p dir=\"ltr\">You can find out more in the module: &#39;<a href=\"https://www.europeandataportal.eu/elearning/en/module2/#/id/co-01\" target=\"_blank\">Unlocking value from open data</a>&#39;.</p>",
+    "displayTitle": " Why is achieving impact important?",
+    "title": " Why is achieving impact important?",
     "_isAvailable": true,
     "_isOptional": false,
     "_classes": "",
@@ -472,13 +236,128 @@
     "instruction": ""
   },
   {
-    "_id": "59400157d084d5167a04f980",
+    "_id": "59400a14d084d5167a04fa78",
     "_layout": "left",
-    "_parentId": "b-04",
+    "_parentId": "b-02",
     "_type": "component",
-    "body": "<p>Effective management is essential to the success of&nbsp;any project or initiative. Change management is no exception. Below we explore some of the key reasons why we need to manage the process of change.</p>",
-    "displayTitle": "Why is change management needed?",
-    "title": "Why is change management needed?",
+    "body": "",
+    "displayTitle": "",
+    "title": "Component title",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/f4b7a83ca6a5ee395ea40ef51b5e6d07ac2e288e.jpg",
+      "small": "course/en/assets/f4b7a83ca6a5ee395ea40ef51b5e6d07ac2e288e.jpg",
+      "attribution": "<a href=\"https://www.shutterstock.com/image-illustration/large-group-people-shape-chat-bubblewhite-234353791\" target=\"_blank\">tai11</a> <span class='assetLicence'>[Shutterstock standard licence]</span>"
+    }
+  },
+  {
+    "_id": "59400a14d084d5167a04fa79",
+    "_layout": "right",
+    "_parentId": "b-03",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "Component title",
+    "title": "Component title",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/edd9adfa60a0dc2b857d5e90a86fdf58f3287e66.png",
+      "small": "course/en/assets/edd9adfa60a0dc2b857d5e90a86fdf58f3287e66.png",
+      "attribution": "<a href=\"http://www.freepik.com/free-photos-vectors/business\" target=\"_blank\"> Photoroyalty - Freepik.com</a> <span class='assetLicence'>[CC-BY]</span>"
+    }
+  },
+  {
+    "_id": "59400a14d084d5167a04fa7a",
+    "_layout": "full",
+    "_parentId": "b-05",
+    "_type": "component",
+    "body": "<p>Open data is a relatively new concept, and for some that raises automatic barriers. In this section&nbsp;we explore some of the main barriers to achieving impact from open data, as well as ways to overcome them.</p>",
+    "displayTitle": "Overcoming barriers to achieving impact from open data",
+    "title": "Overcoming barriers to achieving impact from open data",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "narrative",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "mobileInstruction": "",
+    "_hasNavigationInTextArea": false,
+    "_setCompletionOn": "inview",
+    "_items": [
+      {
+        "title": "Users don't know about your data",
+        "body": "<p>You may have excellent data that could achieve positive impacts, but that is only possible if potential users know that the data exists.</p><p>One way to promote your data is to set specific challenges around it. A&nbsp;<a href=\"http://www.nesta.org.uk/project/open-data-challenge-series\" target=\"_blank\">challenge series</a>&nbsp;is a nice way to bring people together around your data. By offering a cash prize and setting out an open innovation process, you can motivate others to&nbsp;reuse your data and get some great impact stories.</p><p>Showcasing use cases alongside your data will also help to encourage reuse.</p>",
+        "_graphic": {
+          "src": "course/en/assets/44692b04753e36675bd12acf35820956832091e4.jpg",
+          "alt": "",
+          "attribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Ghozt_Tramp_-_Business_Communication_Duplicat_model.jpg\" target=\"_blank\">Ghozt Tramp</a> <span class='assetLicence'>[CC-BY-SA]</span>"
+        },
+        "strapline": "Convincing others"
+      },
+      {
+        "title": "Fear of breaching data protection",
+        "body": "<p dir=\"ltr\">Another barrier to achieving impact is when people don&rsquo;t use the data out of fear. Some licences are unclear, particularly around the use of third-party or personal data that is found in the dataset. Often &lsquo;no warranty&rsquo; clauses can make it seem that the user would be liable in this case.</p><p>In order to overcome this barrier, publishers should be clear about the legal underpinning of the data and what users can do with it.</p><p>Clearly explaining the licence terms will help this. Providing&nbsp;information on the privacy control process and privacy impact assessment if dealing with individuals&rsquo; data, and publishing the process that was followed to anonymise the data, will help to reassure users.</p>",
+        "_graphic": {
+          "src": "course/en/assets/eb7c7b7bfff664aef851578a795efa612ea1a806.jpg",
+          "alt": "",
+          "attribution": "<a href=\"https://www.flickr.com/photos/132053576@N03/17765606909/\" target=\"_blank\">Owen Moore</a> <span class='assetLicence'>[CC-BY]</span>"
+        },
+        "strapline": "Fear of breaching data protection"
+      },
+      {
+        "title": "Data quality and usability concerns",
+        "body": "<p>Another barrier to the reuse of&nbsp;open data is the fear that it may not be of a good quality.</p><p>There are a number of community-based standards that can help you, both as a publisher and a user, to assess the quality of your data and its usability.</p><p>Making sure that your data is useable, from a legal, practical and social perspective will encourage reuse and achieve impact.&nbsp;</p><p>Find out more in: &#39;<a href=\"https://www.europeandataportal.eu/elearning/en/module5/#/id/co-01\">What makes quality open data</a>&#39;</p>",
+        "_graphic": {
+          "src": "course/en/assets/b0a1356f5ad57eff61e6a22b69a2e1b6d9773220.jpg",
+          "alt": "",
+          "attribution": "<a href=\"robodread\" target=\"_blank\">robodread</a> <span class='assetLicence'>[Shutterstock standard licence]</span>"
+        },
+        "strapline": "Data quality and usability"
+      }
+    ]
+  },
+  {
+    "_id": "59400a14d084d5167a04fa7f",
+    "_layout": "left",
+    "_parentId": "b-06",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "Are you ready to achieve impact with open data?",
+    "title": "Are you ready to achieve impact with open data?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "59400a15d084d5167a04fa83",
+    "_layout": "left",
+    "_parentId": "b-03",
+    "_type": "component",
+    "body": "<p dir=\"ltr\">Achieving impact, and measuring that impact, is one of the most challenging aspects of leading an open data project, programme or initiative. There are a number of techniques that you can use to help you to achieve impact.</p>",
+    "displayTitle": " How can we achieve impact?",
+    "title": " How can we achieve impact?",
     "_isAvailable": true,
     "_isOptional": false,
     "_classes": "",
@@ -489,8 +368,8 @@
     "instruction": "",
     "_items": [
       {
-        "title": "Change doesn't happen overnight",
-        "body": "<p dir=\"ltr\">It is very difficult to implement change quickly, especially in large organisations. Over time, organisations get used to operating in a certain way.</p><p dir=\"ltr\">As implementing change takes time, there needs to be a person&nbsp;or team&nbsp;who are dedicated to overseeing and managing the change process. This also serves to ensure that the process continues.</p><p dir=\"ltr\">A <a href=\"http://www.nortonrosefulbright.com/knowledge/publications/136571/the-digital-transformation-of-the-german-emmittelstandem\">report from Germany</a> found that collaboration was key to change management and digital transformation in small and medium enterprises.</p>",
+        "title": "Identify shared goals",
+        "body": "<p>The first thing to think about is what you are trying to achieve. What is your end-goal for publishing your data openly? Having a clearly defined vision is crucial to the success of an open data initiative, programme or project.</p><p>Next, think about your potential data users. What are their goals? How would your data help them to achieve these goals?</p><p>The most successful open data initiatives&nbsp;align the goals of providers with users. It&#39;s rare that everyone starts out with identical goals, so look for areas where goals may overlap. The more closely aligned the goals are, the more successful the publication tends to be.</p>",
         "_graphic": {
           "alt": "",
           "src": "",
@@ -499,8 +378,8 @@
         "_classes": ""
       },
       {
-        "title": "Reducing risk",
-        "body": "<p>Managing the process of change reduces the overall risks to an organisation.</p><p>There are different reasons why an organisation may wish&nbsp;to implement a change management process. Sometimes this can be due to&nbsp;negative impacts from their current process, system, structure or way of working.</p><p dir=\"ltr\">In these cases, it is a risk to maintaining the current situation as it may lead to a loss in revenue or decline in&nbsp;reputation. This was the case with <a href=\"https://www.landmark.co.uk/\">Landmark</a>, a UK company whose business model was at risk as the&nbsp;data they relied upon selling to others became open. To avoid disaster <a href=\"https://theodi.org/lunchtime-lectures/friday-lunchtime-lecture-changing-tracks-with-hs2-open-data\" target=\"_blank\">they had to change their business</a>, led by the CEO and driven by the team.</p><p>However, it might be equally&nbsp;risky to implement change too quickly.&nbsp;Managing the change process is a way to control&nbsp;these risks and make sure that the change is positive.</p>",
+        "title": "Seek out and foster stories",
+        "body": "<p dir=\"ltr\">A good method to help&nbsp;demonstrate&nbsp;impact is seeking out and fostering stories. Sometimes stories manifest themselves easily but more commonly they need to be cultivated.</p><p dir=\"ltr\">Perform, commission or identify research into the impact of your organisation&rsquo;s current or potential activities so that you can very clearly communicate the impact that your&nbsp;programme, project or initiative&nbsp;has&nbsp;achieved.</p>",
         "_graphic": {
           "alt": "",
           "src": "",
@@ -509,8 +388,8 @@
         "_classes": ""
       },
       {
-        "title": "Ensuring sustainability",
-        "body": "<p dir=\"ltr\">Managing the process of change is critical for its sustainability. Having a clear leader who is managing the change process means that the change is more likely to be sustainable in the long term. This doesn&#39;t necessarily have to be the most senior person in the organisation, but they do need to be able to make decisions.</p><p dir=\"ltr\">They appoint others to drive the change alongside those with the necessary skills and responsibilities to alter how the organisation works. This is especially the case in Europe with digital and data, since&nbsp;organisations there are now required to have a data protection officer if they handle customer data. As digital and open become norms, change management and having the right people to lead it will be critical to&nbsp;an organisation&#39;s success.&nbsp;</p><p>It is also part of this role to&nbsp;ensure that others &ndash; both&nbsp;internal and external to the organisation &ndash; understand why the change is needed and support that change. Without this, any change is unlikely to be sustainable.</p>",
+        "title": "Reflect, iterate, reiterate",
+        "body": "<p>It can be hard to look back&nbsp;at&nbsp;what has already happened as a result of the project, and the reasons why it has or hasn&#39;t been successful.</p><p>Give yourself the time to reflect, so that you can be flexible and iterative in your approach. If something isn&#39;t working, don&#39;t be afraid to remove it from the scope of work.</p><p>Iterating and refining&nbsp;your approach means that your&nbsp;open data project, programme or initiative is much more likely to achieve impact.</p>",
         "_graphic": {
           "alt": "",
           "src": "",
@@ -522,13 +401,311 @@
     "_shouldCollapseItems": true
   },
   {
-    "_id": "59400157d084d5167a04f981",
-    "_layout": "full",
-    "_parentId": "b-05",
+    "_id": "59400a15d084d5167a04fa84",
+    "_layout": "right",
+    "_parentId": "b-08",
     "_type": "component",
-    "body": "<p dir=\"ltr\">There are several key elements necessary to successfully managing change within an organisation. These elements are relevant to both the private and the public sectors.</p>",
-    "displayTitle": "What are the key elements of change management?",
-    "title": "What are the key elements of change management?",
+    "body": "<p><strong>We can achieve impact through...</strong></p>",
+    "displayTitle": "How can we achieve impact?",
+    "title": "How can we achieve impact?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "mcq",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Choose your answer, then click 'Submit'",
+    "_items": [
+      {
+        "text": "identifying shared goals",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "keeping some data closed",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "commissioning research into the impact",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "reflecting and iterating on your initiative",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "sharing your methodology",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 3,
+    "_feedback": {
+      "correct": "<p><strong>That&#39;s right!</strong></p><p>Impact can be achieved though identifying shared goals of data publishers and users, seeking out and fostering stories through research and reflecting and reiterating on an initiative.&nbsp;</p>",
+      "_incorrect": {
+        "final": "<p><strong>Are you sure?</strong></p><p>Impact can be achieved though identifying shared goals of data publishers and users, seeking out and fostering stories through research and reflecting and reiterating on an initiative.&nbsp;</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_id": "59400a15d084d5167a04fa85",
+    "_layout": "right",
+    "_parentId": "b-10",
+    "_type": "component",
+    "body": "<p><strong>One key barrier to achieving impact is if there is no engagement with your data. How can you overcome this?</strong></p>",
+    "displayTitle": "Overcoming barriers",
+    "title": "Overcoming barriers",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "mcq",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Choose your answer, then click 'Submit'",
+    "_items": [
+      {
+        "text": "By promoting your data, clarifying how users can reuse your data and making your data usable",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "By publishing as much data as possible",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "By charging for your data",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_feedback": {
+      "correct": "<p><strong>That&#39;s right!</strong></p><p>You can encourage reuse of your data by promoting it, clarifying how users can reuse it and making&nbsp;it&nbsp;more usable.</p>",
+      "_incorrect": {
+        "final": "<p><strong>Are you sure?</strong></p><p dir=\"ltr\">You can encourage reuse of your data by promoting it, clarifying how users can reuse it and making&nbsp;it&nbsp;more usable.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_id": "59400a15d084d5167a04fa86",
+    "_layout": "right",
+    "_parentId": "b-07",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/f4b7a83ca6a5ee395ea40ef51b5e6d07ac2e288e.jpg",
+      "small": "course/en/assets/f4b7a83ca6a5ee395ea40ef51b5e6d07ac2e288e.jpg",
+      "attribution": "<a href=\"https://www.shutterstock.com/image-illustration/large-group-people-shape-chat-bubblewhite-234353791\" target=\"_blank\">tai11</a> <span class='assetLicence'>[Shutterstock standard licence]</span>"
+    }
+  },
+  {
+    "_id": "59400a15d084d5167a04fa87",
+    "_layout": "left",
+    "_parentId": "b-08",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/edd9adfa60a0dc2b857d5e90a86fdf58f3287e66.png",
+      "small": "course/en/assets/edd9adfa60a0dc2b857d5e90a86fdf58f3287e66.png",
+      "attribution": "<a href=\"http://www.freepik.com/free-photos-vectors/business\" target=\"_blank\"> Photoroyalty - Freepik.com</a> <span class='assetLicence'>[CC-BY]</span>"
+    }
+  },
+  {
+    "_id": "59400a15d084d5167a04fa88",
+    "_layout": "right",
+    "_parentId": "b-09",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "Component title",
+    "title": "Component title",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/0c4e44ae54cc60d53a31c2bcff4471570e961d9d.jpg",
+      "small": "course/en/assets/0c4e44ae54cc60d53a31c2bcff4471570e961d9d.jpg",
+      "attribution": "<a href=\"http://www.shutterstock.com/pic-185008832\" target=\"_blank\">suarassawadee</a> <span class='assetLicence'>[Shutterstock standard licence]</span>"
+    }
+  },
+  {
+    "_id": "59400a15d084d5167a04fa89",
+    "_layout": "left",
+    "_parentId": "b-10",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "Component title",
+    "title": "Component title",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/95974c301fcc4ee60b2f1f1019d3f1f21221dd13.jpg",
+      "small": "course/en/assets/95974c301fcc4ee60b2f1f1019d3f1f21221dd13.jpg",
+      "attribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Ghozt_Tramp_-_Business_Communication_Duplicat_model.jpg\" target=\"_blank\">Ghozt Tramp</a> <span class='assetLicence'>[CC-BY-SA]</span>"
+    }
+  },
+  {
+    "_id": "59400a15d084d5167a04fa8a",
+    "_layout": "left",
+    "_parentId": "b-11",
+    "_type": "component",
+    "body": "<p>Achieving impact with open data is an essential part to ensuring the sustainability of open data projects and initiatives. Creating, finding and promoting&nbsp;<a href=\"http://opendatabarometer.org/3rdEdition/report/#impact\" target=\"_blank\">examples of open data being used to improve our daily lives</a>&nbsp;is one of the most challenging aspects of leading an open data project, programme or initiative.</p><p>There are a number of assessment tools that can help you to measure the impact of&nbsp;an organisation or country&#39;s open data policy, programme or initiative. In this module, we focused on&nbsp;the European Data Portal&#39;s&nbsp;<a href=\"https://www.europeandataportal.eu/en/dashboard\" target=\"_blank\">Open Data in Europe</a>.</p><p>There are barriers to achieving impact, but there are ways to overcome those barriers. Find out more about leading an open data initiative&nbsp;in &#39;<a href=\"#/id/58eb788bd084d5167a04d4dd\">Managing change in open data</a>&#39;.</p>",
+    "displayTitle": "Achieving impact",
+    "title": "Achieving impact",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "59400a15d084d5167a04fa8b",
+    "_layout": "right",
+    "_parentId": "b-01",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "",
+    "title": "Component title",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "intro-logo",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/6674b6d19f88e77b508eaea51cc20c51c91e6fcf.png",
+      "small": "course/en/assets/6674b6d19f88e77b508eaea51cc20c51c91e6fcf.png",
+      "attribution": ""
+    }
+  },
+  {
+    "_id": "59400a15d084d5167a04fa92",
+    "_layout": "full",
+    "_parentId": "b-04",
+    "_type": "component",
+    "body": "<p>There are a number of assessment tools that can help you assess the impact of an organisation or country&#39;s open data policy, programme or initiative. Each assessment tool uses&nbsp;slightly different methodologies and measurements, so find the one that works best for your context. Think about which criteria are important for your organisation.</p><p>This module looks in detail at the European Data Portal&#39;s&nbsp;<a href=\"https://www.europeandataportal.eu/en/dashboard\" target=\"_blank\">Open Data in Europe tool</a>, which compares the open data initiatives of European Union countries.</p><p dir=\"ltr\">You can also look at <a href=\"https://index.okfn.org/\" target=\"_blank\">Global Open Data Index</a> and <a href=\"http://opendatabarometer.org\" target=\"_blank\">Open Data Barometer</a>, which compare countries internationally.</p><p dir=\"ltr\">Open Data in Europe looks at three areas of impact: <strong>political, economic and social.</strong></p>",
+    "displayTitle": " How do we measure impact?",
+    "title": " How do we measure impact?",
     "_isAvailable": true,
     "_isOptional": false,
     "_classes": "",
@@ -539,112 +716,38 @@
     "instruction": "",
     "mobileInstruction": "",
     "_hasNavigationInTextArea": false,
-    "_setCompletionOn": "allItems",
+    "_setCompletionOn": "inview",
     "_items": [
       {
-        "title": "Clear vision",
-        "body": "<p dir=\"ltr\">Having a&nbsp;clear vision is important for change management in order to get internal and external support for the initiative. This vision should align to the organisation&#39;s goals, otherwise, it will jar with&nbsp;its values, brand or image.</p><p dir=\"ltr\">In relation to open data, this vision should outline aspects such as being open by default, where all data will be available from, and under which&nbsp;licence.</p><p>The leader of the project needs to be able to articulate this vision to ensure support both internally and externally.<a href=\"http://www.computerweekly.com/news/450284803/France-takes-the-lead-in-the-global-open-data-race\"> </a></p><p>In France, a <a href=\"http://www.computerweekly.com/news/450284803/France-takes-the-lead-in-the-global-open-data-race\">Government Chief Data Officer</a> has been appointed to do just this, reporting on progress on winning support inside and outside government.</p>",
+        "title": "Political",
+        "body": "<p dir=\"ltr\">The factors that make up the political impact indicator are:&nbsp;impact on government efficiency and effectiveness, and impact on transparency and accountability.</p><p dir=\"ltr\">In 2016, the highest scoring countries for political impact were Slovakia, Ireland, Bulgaria, France and Greece.</p><p dir=\"ltr\"><a href=\"https://www.europeandataportal.eu/en/dashboard\">Get the data</a></p><p dir=\"ltr\">In Bulgaria, government departments no longer need to request&nbsp;data from other departments as that data is now published openly, therefore saving the time and cost involved in requesting data.</p><p dir=\"ltr\">In Ireland,&nbsp;<a href=\"https://www.google.com/url?q=http://myplan.ie&amp;sa=D&amp;ust=1496165737909000&amp;usg=AFQjCNGEgrOgEEPPmZOGBCpte6ZzCrutug\" target=\"_blank\">myplan.ie</a>&nbsp;help&nbsp;local authorities to standardise&nbsp;the publication of planning data. This helps the publishers to coordinate their efforts, but also results in more usable and comparable data.</p>",
         "_graphic": {
-          "src": "course/en/assets/e476d5412f3c230ba6365724bc2935db25901c21.jpg",
+          "src": "course/en/assets/3f1d65f956a8899071b4f3584b4a88d3851863df.jpg",
           "alt": "",
-          "attribution": "<a href=\"http://www.shutterstock.com/pic-238771996.html\" target=\"_blank\">Mangsaab</a> <span class='assetLicence'>[Shutterstock standard licence]</span>"
+          "attribution": "<a href=\"https://pixabay.com/en/hands-hand-raised-hands-raised-220163/\" target=\"_blank\">Kaz</a> <span class='assetLicence'>[CC0]</span>"
         },
-        "strapline": "Clear vision"
+        "strapline": "Political"
       },
       {
-        "title": "Data management plan",
-        "body": "<p dir=\"ltr\">Every organisation should have a data management plan which explains how data is stored, backed-up and accessed. Data is part of a modern company&rsquo;s infrastructure, and just like buildings and other assets, it needs careful management.</p><p>Open data shouldn&rsquo;t be viewed as a separate activity to the key data management activities. A good starting point to integrating open data to your data management plan is to apply the vision to it. This helps ensure the integration of the strategy into the long term processes and operating procedures of the organisation.</p>",
+        "title": "Economic",
+        "body": "<p dir=\"ltr\">The economic&nbsp;impact indicator is based upon the implementation of multiple macro-economic studies assessing the market value of open data and&nbsp;studies regarding better service delivery or looking at related subjects.</p><p dir=\"ltr\">In 2016, the highest scoring countries for economic&nbsp;impact were Slovakia and Spain.</p><p dir=\"ltr\"><a href=\"https://www.europeandataportal.eu/en/dashboard\">Get the data</a></p><p dir=\"ltr\">A Spanish study discovered that the reuse of meteorological data in the electricity sector could <a href=\"http:// http://www.ontsi.red.es/ontsi/es/estudios-informes/an%C3%A1lisis-coste-beneficio-de-la-reutilizaci%C3%B3n-de-la-informaci%C3%B3n-meteorol%C3%B3gica-en-el\">reduce costs by over &euro;1000 million</a>.</p><p dir=\"ltr\">A 2015 study found that UK companies using, producing or investing in open data have a combined <a href=\"https://theodi.org/open-data-means-business\" target=\"_blank\">annual turnover of over &pound;92 billion</a>&nbsp;and employ&nbsp;over 500,000 people.</p><p>Read more about the <a href=\"https://www.europeandataportal.eu/en/highlights/creating-value-through-open-data\" target=\"_blank\">economic value of open data in Europe</a>.</p><p dir=\"ltr\">&nbsp;</p>",
         "_graphic": {
-          "src": "course/en/assets/641546c15c0af8c554b833be3cc3dfc09ac0b997.jpg",
+          "src": "course/en/assets/e7980bbe7f0e8916f118a2bf24193c8f88211ba2.jpg",
           "alt": "",
-          "attribution": "<a href=\"theodi.org\" target=\"_blank\">Sponge UK</a> <span class='assetLicence'>[CC-BY]</span>"
+          "attribution": "<a href=\"https://www.shutterstock.com/image-vector/cloud-business-process-management-concept-blue-259560827\" target=\"_blank\">JeKh</a> <span class='assetLicence'>[Shutterstock standard licence]</span>"
         },
-        "strapline": "Data management plan"
+        "strapline": "Economic"
       },
       {
-        "title": "Senior buy-in",
-        "body": "<p>With any programme of change, it is common for those driving it to meet some resistance from within their organisations.</p><p>Active support from senior figures can help to encourage institutional buy-in.</p><p>Working with these senior figures&nbsp;is critical, as an &lsquo;insurgency strategy&rsquo; to introduce change is unlikely to be sustainable</p>",
+        "title": "Social",
+        "body": "<p dir=\"ltr\">The social impact indicator includes impact on environmental sustainability and the inclusion of marginalised groups in policymaking and in accessing government services.</p><p dir=\"ltr\">The two highest scoring countries in 2016 were Spain and the UK.</p><p><a href=\"https://www.europeandataportal.eu/en/dashboard\" target=\"_blank\">Get the data</a></p><p>In Spain, one example of including marginalised groups is&nbsp;<a href=\"http://www.sinbarrera.es/\">Sin Barrera</a>, a tool for finding car parking spaces that are accessible for wheelchair access.</p>",
         "_graphic": {
-          "src": "course/en/assets/4b63c6af07902f3f8460f8a4ca00a26d4df61cf9.jpg",
+          "src": "course/en/assets/194749d6a3d955ccf1327dff670d11d82f1e5892.jpg",
           "alt": "",
-          "attribution": "<a href=\"https://pixabay.com/en/building-blocks-toys-block-building-717309/\" target=\"_blank\">Spowell</a> <span class='assetLicence'>[CC0]</span>"
+          "attribution": "<a href=\"http://www.shutterstock.com/pic-185008832\" target=\"_blank\">suarassawadee</a> <span class='assetLicence'>[Shutterstock standard licence]</span>"
         },
-        "strapline": "Senior buy-in"
-      },
-      {
-        "title": "Metrics",
-        "body": "<p dir=\"ltr\">As well as a data management plan, organisations need to put in place key processes and lifecycles that detail how to transition to&nbsp;and then maintain&nbsp;their open data.</p><p dir=\"ltr\">Aligning these plans and lifecycles with Key Performance Indicators (KPIs) to evaluate success will help justify investment of time and money in the change programme.</p><p>When designing KPIs, think about what will have the most impact. Within open data initiatives, don&rsquo;t just think about the number of datasets put online, but also their impact and alignment with external measures of success, including the European Data Portal&rsquo;s own <a href=\"https://www.europeandataportal.eu/en/highlights/open-data-maturity-europe\">Open Data Maturity index</a>, which is a good measure of change within countries.</p>",
-        "_graphic": {
-          "src": "course/en/assets/2b5ec4242610756a70a3b5e12afaf1626f3f0d02.jpg",
-          "alt": "",
-          "attribution": "<a href=\"https://www.shutterstock.com/image-vector/3d-illustration-concept-kpi-174926546\" target=\"_blank\">leromin</a> <span class='assetLicence'>[Shutterstock standard licence]</span>"
-        },
-        "strapline": "Metrics"
-      },
-      {
-        "title": "Communicating impact",
-        "body": "<p dir=\"ltr\">Understanding the impact of a change process will help to secure its future.</p><p dir=\"ltr\">Those driving forward a change programme should focus on the tangible impact that is a direct result of the programme. A good place to focus is quick wins: areas where low effort will result in immediate impact.</p><p dir=\"ltr\">Clearly communicating impact stories will help to gain support from all those involved in the programme.</p><p>In the public sector, many countries showcase examples where others are using their open data, including <a href=\"http://datos.gob.es/es/iniciativas\">Spain</a>, <a href=\"https://data.gov.ie/showcase\">Ireland</a> and <a href=\"http://www.data.gouv.fr/fr/\">France</a>.</p>",
-        "_graphic": {
-          "src": "course/en/assets/1eef9340d96e57e84343777b61a3c23d138d02d7.jpg",
-          "alt": "",
-          "attribution": "<a href=\"http://www.shutterstock.com/pic.mhtml?id=149924576&src=lb-35924366\" target=\"_blank\">Sergey Nivens</a> <span class='assetLicence'>[Shutterstock standard licence]</span>"
-        },
-        "strapline": "Communicating impact"
-      },
-      {
-        "title": "Aligned priorities",
-        "body": "<p>Align&nbsp;the priorities of the project, programme or initiative with the priorities of the person responsible for the budget.</p><p>This could be the CEO of your company, or the organisation that manages your funding. It might even be your customers who ask for open data that they can share with others, as was the case for Thomson Reuters. You can read the full white paper <a href=\"https://theodi.org/guides/data-identifiers-white-paper\">here</a>.</p><p>Aligning your priorities will help to ensure the sustainability and the impact&nbsp;of your programme.</p>",
-        "_graphic": {
-          "src": "course/en/assets/7fec32b99da9f008a88d2622d258aaea82bf1513.jpg",
-          "alt": "",
-          "attribution": "<a href=\"https://www.shutterstock.com/image-vector/background-colorful-airplanes-vector-illustration-103013084?src=id\" target=\"_blank\">Laralova</a> <span class='assetLicence'>[Shutterstock standard licence]</span>"
-        },
-        "strapline": "Aligned priorities"
+        "strapline": "Social"
       }
     ]
-  },
-  {
-       "_id":"c-95",
-       "_parentId":"b-10",
-       "_type":"component",
-       "_component":"text",
-       "_classes":"separator",
-       "_layout":"full"
-    },
-    {
-        "_id":"c-100",
-        "_parentId":"b-10",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"footer-logo",
-        "_layout":"left",
-        "_graphic": {
-            "alt": "Open data institute logo",
-            "title": "Open data institute logo",
-            "large": "course/en/images/logo-small.png",
-            "medium": "course/en/images/logo-small.png",
-            "small": "course/en/images/logo-small.png",
-            "*source":"http://theodi.org",
-            "*credit":"The Open Data Institute",
-            "*license":"All rights reserved"  
-        }
-    },
-    {
-        "_id":"c-104",
-        "_parentId":"b-10",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"attribution not-eu not-default",
-        "_layout":"right",
-        "body":"Content created by <a href='http://theodi.org' target='_blank'>The Open Data Institute</a>"
-    },
-    {
-        "_id":"c-105",
-        "_parentId":"b-10",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"social-buttons not-dlab",
-        "_layout":"right",
-        "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/en/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/en/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/en/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/en/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/en/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/en/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/en/images/social/flickr.png'></a>"
-    }
+  }
 ]
