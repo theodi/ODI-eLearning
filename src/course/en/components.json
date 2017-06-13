@@ -1,643 +1,916 @@
 [
-    {
-        "_id":"c-01",
-        "_parentId":"b-01",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"intro-logo",
-        "_layout":"right",
-        "title":"",
-        "displayTitle":"",
-        "body":"",
-        "instruction":"",
-        "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "",
-            "medium": "",
-            "small": "",
-            "*source":"",
-            "*credit":"",
-            "*license":""
-        }
+  {
+    "_id": "593fe1d9d084d5167a04f834",
+    "_layout": "left",
+    "_parentId": "b-13",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "Component title",
+    "title": "Component title",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": true
     },
-    {
-        "_id":"c-02",
-        "_parentId":"b-01",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"",
-        "_layout":"left",
-        "title":"What is an open city?",
-        "displayTitle":"What is an open city?",
-        "body":"<p>An open city is one that puts people at the heart of its design and operation. Open cities allow people to access all of the services on offer in a way that suits their needs.</p><p>In this module, we explore how city leaders, businesses and people are creating more open cities through tools like open data.</p><h5>In this module we’ll explore the following:</h5><ul class='ticks'><li>What is an open city?</li><li>What are the building blocks of open cities?</li><li>What are the benefits of an open city?</li><li>How are cities making themselves more open?</li></ul>",
-        "instruction":"",
-        "_pageLevelProgress": {
-            "_isEnabled": true
-        }
-    },
-    {
-    "_id":"c-11",
-    "_parentId":"b-10",
-    "_type":"component",
-    "_component":"iFrame-vimeo",
-    "_classes":"",
-    "_layout":"full",
-        "title":"Discovering open cities – in 2 minutes",
-        "displayTitle": "Discovering open cities – in 2 minutes",
-        "body": "ODI Trainer Benjamin Cave explains what an open city is, how open cities use open data and what opportunities open cities are unlocking.",
-        "instruction": "To turn subtitiles on and off, click the 'cc' button at the bottom right of the video",
-        "_setCompletionOn":"ended",
-        "_source": "https://player.vimeo.com/video/140411141",
-        "_width": {
-            "_small" : 300,
-            "_medium" : 500,
-            "_large" : 905
-        },
-        "_height": {
-            "_small" : 250,
-            "_medium" : 350,
-            "_large" : 508
-        }
-    },
-    {
-        "_id":"c-21",
-        "_parentId":"b-20",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"left",
-        "_graphic": {
-            "alt": "What is an open city",
-            "title": "What is an open city?",
-            "large": "course/en/images/odi-1-text-image_large.png",
-            "medium": "course/en/images/odi-1-text-image_large.png",
-            "small": "course/en/images/odi-1-text-image_large.png",
-            "*source":"http://www.shutterstock.com/pic.mhtml?id=179384507&src=lb-35924366",
-            "*credit":"leromin",
-            "*license":"Shutterstock Standard License"
-        }
-    },
-    {
-        "_id":"c-22",
-        "_parentId":"b-20",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"",
-        "_layout":"right",
-        "title":"What is an open city?",
-        "displayTitle":"What is an open city?",
-        "body":"<p>An open city is one that puts people at the heart of its design and operation.</p><p>Open cities are made possible when city leaders, businesses and people collaborate in the design and delivery of services.</p><p>Open cities are supported by a robust data infrastructure that supports innovation by allowing anyone to access, use and share data about the city.</p><p>Open cities combine technologies, data and networks to ensure that every person can access all of the services on offer in a way that suits their needs</p>"
-    },
-    {
-        "_id":"c-23",
-        "_parentId":"b-22",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"right",
-        "_graphic": {
-            "alt": "Is an open city the same as a smart city?",
-            "title": "Is an open city the same as a smart city?",
-            "large": "course/en/images/odi-2-text-image_large.jpg",
-            "medium": "course/en/images/odi-2-text-image_large.jpg",
-            "small": "course/en/images/odi-2-text-image_large.jpg",
-            "*source":"http://www.shutterstock.com/pic.mhtml?id=179384507&src=lb-35924366",
-            "*credit":"leromin",
-            "*license":"Shutterstock Standard License"
-        }
-    },
-    {
-        "_id":"c-24",
-        "_parentId":"b-22",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"",
-        "_layout":"left",
-        "title":"Is an open city the same as a smart city?",
-        "displayTitle":"Is an open city the same as a smart city?",
-        "body":"<p>No. A ‘smart city’ is a vendor-driven term that describes any urban area that uses technology to enhance its operations or results. Companies use the term ‘smart cities’ to sell ‘off-the-shelf’ smart city technology solutions.</p><p>An open city is one that puts people at the heart of its design and operation. While open cities often use ‘smart city technologies’ as part of this people-centred process, the technology is just one tool among many.</p>"
-    },
-     {
-        "_id": "c-25",
-        "_parentId": "b-25",
-        "_classes": "",
-        "_type":"component",
-        "_layout": "full",
-        "_component": "narrative",
-        "title": "Building blocks for an open city",
-        "displayTitle": "Building blocks for an open city",
-        "body": "An open city puts people at the heart of its design and operation. To support people-centred design, open cities combine the following three enablers.",
-        "instruction": "<em class='desktop-instruction'>Click the forward arrow to see more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
-        "_items": [
-            {
-                "title": "Data Infrastructure",
-                "body": "<p>From the transport systems that move us around to the energy grids that keep the lights on, cities depend on their physical infrastructure to deliver the right services to the right people at the right times. In addition to this physical infrastructure, open cities are creating strong data infrastructures to allow people to access data when, where and how they need it.</p><p>In an open city, the data infrastructure around services like transport, energy and health is crucial to keeping people fed, warm and well.</p><p>In our cities, growing a stronger data infrastructure means joining up sources of data, data distribution channels and data-using communities into a network that people can navigate in the same way as a transport system.</p>",
-                "_graphic": {
-                    "src": "course/en/images/odi-2-narrative_large.png",
-                    "alt": "Data in knowledge triangle",
-                    "title": "Data in knowledge triangle",
-                    "*source":"http://www.shutterstock.com/pic.mhtml?id=240789808&src=lb-35924366",
-                    "*credit":"Anna Frajtova",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "Data"
-            },
-            {
-                "title": "Smart city technologies",
-                "body": "<p>‘Smart’ technologies like sensors, management software and connected devices deliver new sources of data to everyone in the city.</p><p>Open cities are using ‘smart’ technologies to unlock innovation in the design and operation of the everyday services people use.</p><p>By connecting ‘smart’ technologies to a strong data infrastructure, open cities are increasing awareness about how people interact with their cities.</p>",
-                "_graphic": {
-                    "src": "course/en/images/odi-3-narrative_large.png",
-                    "alt": "Information in knowledge triangle",
-                    "title": "Information in knowledge triangle",
-                    "*source":"http://www.shutterstock.com/pic.mhtml?id=217763944&src=lb-35924366",
-                    "*credit":"Sachezi",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "Smart"
-            },
-            {
-                "title": "Networks",
-                "body": "<p>Our cities are made up of complex networks of people, technologies and physical systems. Networks quickly gather the views and behaviours of millions of people and create feedback about how they want to interact with the city.</p><p>Historically, cities ignored networks, preferring to rely on strict management hierarchies to manage the design and delivery of services. Open cities are now using the power of the network to connect communities, discover how people want to use their city and collaborate to build better services.</p><p>Open cities use their networks to ‘flatten’ management structures, bring people into the design process and deliver services faster.</p>",
-                "_graphic": {
-                    "src": "course/en/images/odi-4-narrative_large.jpg",
-                    "alt": "Knowledge in knowledge triangle",
-                    "title": "Knowledge in knowledge triangle",
-                    "*source":"http://www.shutterstock.com/pic.mhtml?id=250810483&src=lb-35924366",
-                    "*credit":"Oleksiy Mark",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "Network"
-            }
-        ],
-        "_pageLevelProgress": {
-        "_isEnabled": true
-        }
-    },
-    {
-        "_id":"c-30",
-        "_parentId":"b-28",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"right",
-        "_graphic": {
-            "alt": "What makes data open?",
-            "title": "What makes data open?",
-            "large": "course/en/images/odi-5-accordion_large.jpg",
-            "medium": "course/en/images/odi-5-accordion_large.jpg",
-            "small": "course/en/images/odi-5-accordion_large.jpg",
-            "*source":"http://www.shutterstock.com/pic.mhtml?id=154744388&src=lb-35924366",
-            "*credit":"Oleksiy Mark",
-            "*license":"Shutterstock Standard License"
-        }
-    },
-    {
-      "_id":"c-35",
-      "_parentId":"b-28",
-      "_type":"component",
-      "_component":"accordion",
-      "_classes":"",
-      "_layout":"left",
-      "title": "Benefits of open cities",
-      "displayTitle": "Benefits of open cities",
-      "body": "The drive toward more open cities is already delivering significant benefits:",
-      "instruction": "",
-      "_items": [
-        {
-          "alt": "Supporting new businesses",
-          "title": "Supporting new businesses",
-          "body": "<p>Open cities support the emergence of new businesses that use the data infrastructure of open cities to develop and launch new services.</p><p>Services like <a href='http://datapress.com/' target='_blank'>DataPress</a> <a href='http://www.transportapi.com/' target='_blank'>TransportAPI</a> and <a href='https://thingful.net/' target='_blank'>Thingful</a> are creating businesses from providing open data as part of cities’ data infrastructures.</p><p>Meanwhile, apps like <a href='https://citymapper.com/' target='_blank'>Citymapper</a> <a href='http://bigapps.nyc/project/1457/recycle.it' target='_blank'>Recycle.it</a> and <a href='http://www.codeforamerica.org/blog/2011/04/29/meet-muralapp/' target='_blank'>MuralApp</a> are using open data to make the lives of city dwellers simpler.</p><p>In return, cities are reaping the benefits of a growing data economy.</p>"
-        },
-        {
-          "alt": "Improving services",
-          "title": "Improving services",
-          "body": "<p>Open cities are helping to balance government’s need to support complex and growing cities with a desire to maintain people-centred design.</p><p>Open data and open networks are connecting people to their local areas and helping engage city residents in creating services which better match their unique needs.</p><p>Services like <a href='https://www.fixmystreet.com/' target='_blank'>FixMyStreet</a> and <a href='http://www.openstreetmap.org/' target='_blank'>OpenStreetMap</a> are already using open data combined with strong user communities to create better solutions to local problems.</p>"
-        },
-        {
-          "alt": "Lowering costs",
-          "title": "Lowering costs",
-          "body": "<p>Open cities focus on putting people at the heart of service design and operation. In many cases, this means using open data, together with networks, to engage people in creating their own solutions for everyone.</p><p>When you allow people to build solutions for their future, you relieve the city of the burden of creating, operating and paying for some of these services.</p><p>Transport for London, for example, saves <a href='https://theodi.org/blog/the-power-of-open' target='_blank'>between £15 and £58 million</a> each year by allowing people to build new services using their open data.</p>"
-        }
-      ],
-      "_pageLevelProgress": {
-        "_isEnabled": true
-      }
-    },
-     {
-        "_id": "c-40",
-        "_parentId": "b-30",
-        "_classes": "",
-        "_type":"component",
-        "_layout": "full",
-        "_component": "narrative",
-        "title": "Building more open cities",
-        "displayTitle": "Building more open cities",
-        "body": "Creating more open cities starts with putting people at the heart of service design and delivery. The most open cities are using the following approaches to deliver change.",
-        "instruction": "<em class='desktop-instruction'>Click the forward arrow to see more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
-        "_items": [
-            {
-                "title": "Network thinking",
-                "body": "<p>Open cities are using the power of networks to improve services. People in open cities are connecting with each other to share the skills, resources and ideas that build better services.</p><p>City managers use network techniques like crowdsourcing and digital public consultations to engage people in creating solutions which make life simpler.</p>",
-                "_graphic": {
-                    "src": "course/en/images/odi-6-narrative_large.jpg",
-                    "alt": "Transform government",
-                    "title": "Transform government",
-                    "*source":"http://www.shutterstock.com/pic.mhtml?id=265940657&src=lb-35924366",
-                    "*credit":"hxdyl",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "Transform government"
-            },
-            {
-                "title": "Innovation challenges",
-                "body": "<p>A number of open cities have set up funded innovation challenges to encourage development of new services.</p><p>Competitions, like <a href='http://bigapps.nyc/' target='_blank'>BigApps</a> in the US or <a href='http://appsforghent.be/' target='_blank'>Apps4Ghent</a> in Belgium, channel creative people toward improving urban life.</p><p>Challenges also encourage the use of open data and help strengthen the data infrastructure of the city.</p>",
-                "_graphic": {
-                    "src": "course/en/images/odi-7-narrative_large.jpg",
-                    "alt": "Build new business opportunities",
-                    "title": "Build new business opportunities",
-                    "*source":"http://www.shutterstock.com/pic.mhtml?id=149924576&src=lb-35924366",
-                    "*credit":"Sergey Nivens",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "Build new business opportunities"
-            },
-            {
-                "title": "Desire lines",
-                "body": "<p>Desire lines refer to unplanned routes that people take through cities.</p><p>In open cities, planners are now studying how people like to use the city and then reshaping services to match their needs.</p><p>Open data also creates ‘digital desire lines’ by providing a clearer picture of human behaviour in the city. Open cities use digital desire lines to channel service innovation toward the needs of ordinary people.</p>",
-                "_graphic": {
-                    "src": "course/en/images/odi-8-narrative_large.jpg",
-                    "alt": "Protect our planet",
-                    "title": "Protect our planet",
-                    "*source":"http://www.shutterstock.com/pic.mhtml?id=261740228&src=lb-35924366",
-                    "*credit":"hbpictures",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "Protect our planet"
-            }
-        ],
-        "_pageLevelProgress": {
-        "_isEnabled": true
-        }
-    }, {
-        "_id":"c-42",
-        "_parentId":"b-33",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"right",
-        "title":"",
-        "displayTitle":"",
-        "body":"",
-        "instruction":"",
-        "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "course/en/images/burst.png",
-            "medium": "course/en/images/burst.png",
-            "small": "course/en/images/burst.png"
-        }
-    },
-    {
-        "_id":"c-43",
-        "_parentId":"b-33",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"",
-        "_layout":"left",
-        "title":"Are you ready for open cities?",
-        "displayTitle":"Are you ready for open cities?",
-        "body":"<p>There are four helpful things to remember when thinking about open cities, can you remember them?</p>",
-        "instruction":"",
-        "_pageLevelProgress": {
-            "_isEnabled": true
-        }
-    },
-    {
-        "_id":"c-45",
-        "_parentId":"b-35",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"illustration",
-        "_layout":"right",
-        "_graphic": {
-            "alt": "What makes an open city?",
-            "title": "",
-            "large": "course/en/images/odi-1-text-image_large.png",
-            "medium": "course/en/images/odi-1-text-image_large.png",
-            "small": "course/en/images/odi-1-text-image_large.png"
-        }
-    },
-    {
-        "_id":"c-50",
-        "_parentId":"b-35",
-        "_type":"component",
-        "_component":"mcq",
-        "_classes":"",
-        "_layout":"left",
-        "_attempts":1,
-        "_questionWeight":1,
-        "_isRandom":true,
-        "_selectable":1,
-        "title": "What makes an open city?",
-        "displayTitle": "What makes an open city?",
-        "body": "<p>An open city...</p>",
-        "instruction": "<em>Choose your answer, then click 'Submit'.</em>",
-        "_items": [
-            {
-                "text": "puts people at the heart of service design and delivery",
-                "_shouldBeSelected": true
-            },
-            {
-                "text": "tries to predict human behaviour using technology",
-                "_shouldBeSelected": false
-            },
-            {
-                "text": "links everything together using high speed wi-fi",
-                "_shouldBeSelected": false
-            }
-        ],
-        "_feedback":{
-            "correct":"<h5>That’s right!</h5><p>An open city is one that puts people at the heart of its design and operation. Open cities allow people to access all of the services on offer in a way that suits their needs.</p>",
-            "_incorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>An open city is one that puts people at the heart of its design and operation. Open cities allow people to access all of the services on offer in a way that suits their needs.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>An open city is one that puts people at the heart of its design and operation. Open cities allow people to access all of the services on offer in a way that suits their needs.</p>"
-            },
-            "_partlyCorrect": {
-                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-          }
-        },
-        "_buttons":{
-            "submit":"",
-            "reset":"",
-            "showCorrectAnswer":"",
-            "hideCorrectAnswer":""
-        },
-        "_pageLevelProgress": {
-        "_isEnabled": true
-      }
-    },
-    {
-        "_id":"c-55",
-        "_parentId":"b-40",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"illustration",
-        "_layout":"left",
-        "_graphic": {
-            "alt": "Building Blocks",
-            "title": "",
-            "large": "course/en/images/odi-3-narrative_large.png",
-            "medium": "course/en/images/odi-3-narrative_large.png",
-            "small": "course/en/images/odi-3-narrative_large.png"
-        }
-    },
-    {
-        "_id":"c-60",
-        "_parentId":"b-40",
-        "_type":"component",
-        "_component":"mcq",
-        "_classes":"",
-        "_layout":"right",
-        "_attempts":1,
-        "_questionWeight":1,
-        "_isRandom":true,
-        "_selectable":1,
-        "title": "What is data?",
-        "displayTitle": "Building blocks of an open city",
-        "body": "<p>three building blocks of an open city are...</p>",
-        "instruction": "<em>Choose your answer, then click 'Submit'.</em>",
-        "_items": [
-            {
-                "text": "Sensors, fibreoptic cables and 5G internet",
-                "_shouldBeSelected": false
-            },
-            {
-                "text": "High-speed trains, smart energy grids and digital healthcare",
-                "_shouldBeSelected": false
-            },
-            {
-                "text": "data infrastructure, smart city technologies and networks",
-                "_shouldBeSelected": true
-            }
-        ],
-        "_feedback":{
-            "correct":"<h5>That’s right!</h5><p>To build a more open city you need a strong data infrastructure to ensure access to data, ‘smart’ city technologies to generate data and collaborative networks to make use of the data.</p>",
-            "_incorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>To build a more open city you need a strong data infrastructure to ensure access to data, ‘smart’ city technologies to generate data and collaborative networks to make use of the data.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>To build a more open city you need a strong data infrastructure to ensure access to data, ‘smart’ city technologies to generate data and collaborative networks to make use of the data.</p>"
-            },
-            "_partlyCorrect": {
-                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-          }
-        },
-        "_buttons":{
-            "submit":"",
-            "reset":"",
-            "showCorrectAnswer":"",
-            "hideCorrectAnswer":""
-        },
-        "_pageLevelProgress": {
-        "_isEnabled": true
-      }
-    },
-    {
-        "_id":"c-65",
-        "_parentId":"b-45",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"illustration",
-        "_layout":"right",
-        "_graphic": {
-            "alt": "Benefits",
-            "title": "",
-            "large": "course/en/images/odi-5-accordion_large.jpg",
-            "medium": "course/en/images/odi-5-accordion_large.jpg",
-            "small": "course/en/images/odi-5-accordion_large.jpg"
-        }
-    },
-    {
-        "_id":"c-70",
-        "_parentId":"b-45",
-        "_type":"component",
-        "_component":"mcq",
-        "_classes":"",
-        "_layout":"left",
-        "_attempts":1,
-        "_questionWeight":1,
-        "_isRandom":true,
-        "_selectable":1,
-        "title": "Benefits of open cities",
-        "displayTitle": "Benefits of open cities",
-        "body": "<p>Which of the following is NOT a benefit of an open city</p>",
-        "instruction": "<em>Choose your answer, then click 'Submit'.</em>",
-        "_items": [
-            {
-                "text": "Controlling people’s choices",
-                "_shouldBeSelected": true
-            },
-            {
-                "text": "Supporting new businesses",
-                "_shouldBeSelected": false
-            },
-            {
-                "text": "Improving services",
-                "_shouldBeSelected": false
-            }
-        ],
-        "_feedback":{
-            "correct":"<h5>That’s right!</h5><p>Open cities support new businesses, improve services and lower costs.</p>",
-            "_incorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>Open cities support new businesses, improve services and lower costs.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>Open cities support new businesses, improve services and lower costs.</p>"
-            },
-            "_partlyCorrect": {
-                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-          }
-        },
-        "_buttons":{
-            "submit":"",
-            "reset":"",
-            "showCorrectAnswer":"",
-            "hideCorrectAnswer":""
-        },
-        "_pageLevelProgress": {
-        "_isEnabled": true
-      }
-    },
-    {
-        "_id":"c-75",
-        "_parentId":"b-50",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"illustration",
-        "_layout":"left",
-        "_graphic": {
-            "alt": "Why do we need open data?",
-            "title": "",
-            "large": "course/en/images/odi-8-narrative_large.jpg",
-            "medium": "course/en/images/odi-8-narrative_large.jpg",
-            "small": "course/en/images/odi-8-narrative_large.jpg"
-        }
-    },
-    {
-        "_id":"c-80",
-        "_parentId":"b-50",
-        "_type":"component",
-        "_component":"mcq",
-        "_classes":"",
-        "_layout":"right",
-        "_attempts":1,
-        "_questionWeight":1,
-        "_isRandom":true,
-        "_selectable":1,
-        "title": "Building more open cities",
-        "displayTitle": "Building more open cities",
-        "body": "<p>What are ‘desire lines’?</p>",
-        "instruction": "<em>Choose your answer, then click 'Submit'.</em>",
-        "_items": [
-            {
-                "text": "new train routes",
-                "_shouldBeSelected": false
-            },
-            {
-                "text": "architectural sketches",
-                "_shouldBeSelected": false
-            },
-            {
-                "text": "unplanned routes that people take through cities",
-                "_shouldBeSelected": true
-            }
-        ],
-        "_feedback":{
-            "correct":"<h5>That’s right!</h5><p>Desire lines refer to unplanned routes that people take through cities. Open data creates ‘digital desire lines’ by providing a clearer picture of human behaviour in the city.</p>",
-            "_incorrect": {
-                "notFinal": "<h5>Are you sure about that?</h5><p>Desire lines refer to unplanned routes that people take through cities. Open data creates ‘digital desire lines’ by providing a clearer picture of human behaviour in the city.</p>",
-                "final": "<h5>Are you sure about that?</h5><p>Desire lines refer to unplanned routes that people take through cities. Open data creates ‘digital desire lines’ by providing a clearer picture of human behaviour in the city.</p>"
-            },
-            "_partlyCorrect": {
-                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-          }
-        },
-        "_buttons":{
-            "submit":"",
-            "reset":"",
-            "showCorrectAnswer":"",
-            "hideCorrectAnswer":""
-        },
-        "_pageLevelProgress": {
-        "_isEnabled": true
-      }
-    },
-    {
-        "_id":"c-85",
-        "_parentId":"b-55",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"right",
-        "_graphic": {
-            "alt": "Summary icon clipboard",
-            "title": "Summary icon clipboard",
-            "large": "course/en/images/summary-icon.png",
-            "medium": "course/en/images/summary-icon.png",
-            "small": "course/en/images/summary-icon.png",
-            "*source":"http://www.shutterstock.com/pic-189810137.html",
-            "*credit":"Kritchanut",
-            "*license":"Shutterstock Standard License"
-        }
-    },
-    {
-        "_id":"c-90",
-        "_parentId":"b-55",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"",
-        "_layout":"left",
-        "title":"Open cities - Building together",
-        "displayTitle":"Open cities - Building together",
-        "body":"<p>An open city is one that puts people at the heart of its design and operation. Open cities allow people to access all of the services on offer in a way that suits their needs.</p><p>Open cities use strong data infrastructures, network thinking and smart technologies to support people-centred design.</p><p>Open cities are helping to unlock new opportunities for businesses, save governments money and improve the experience of urban living.</p>",
-        "_pageLevelProgress": {
-          "_isEnabled": true
-        }
-    },
-    {
-       "_id":"c-95",
-       "_parentId":"b-55",
-       "_type":"component",
-       "_component":"text",
-       "_classes":"separator",
-       "_layout":"full"
-    },
-    {
-        "_id":"c-100",
-        "_parentId":"b-55",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"footer-logo",
-        "_layout":"left",
-        "_graphic": {
-            "alt": "Open data institute logo",
-            "title": "Open data institute logo",
-            "large": "course/en/images/logo-small.png",
-            "medium": "course/en/images/logo-small.png",
-            "small": "course/en/images/logo-small.png",
-            "*source":"http://theodi.org",
-            "*credit":"The Open Data Institute",
-            "*license":"All rights reserved"  
-        }
-    },
-    {
-        "_id":"c-105",
-        "_parentId":"b-55",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"social-buttons",
-        "_layout":"right",
-        "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/en/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/en/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/en/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/en/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/en/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/en/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/en/images/social/flickr.png'></a>"
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/7c1475d034cb3de18e7b927d189ddd5185822c67.jpg",
+      "small": "course/en/assets/7c1475d034cb3de18e7b927d189ddd5185822c67.jpg",
+      "attribution": "<a href=\"http://www.freepik.com\" target=\"_blank\">D3Images / Freepik</a> <span class='assetLicence'>[CC-BY]</span>"
     }
+  },
+  {
+    "_id": "593fe1d9d084d5167a04f835",
+    "_layout": "right",
+    "_parentId": "b-07",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "Component title",
+    "title": "Component title",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/86a681b57d12594816d4184f7772e603f5413623.png",
+      "small": "course/en/assets/86a681b57d12594816d4184f7772e603f5413623.png",
+      "attribution": "<a href=\"http://www.freepik.com/free-photos-vectors/business\" target=\"_blank\">Photoroyalty - Freepik.com </a> <span class='assetLicence'>[CC-BY]</span>"
+    }
+  },
+  {
+    "_id": "593fe1d9d084d5167a04f836",
+    "_layout": "right",
+    "_parentId": "b-14",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/a516261fb9cb309e3b3d1116a192ecfc2a70fbad.png",
+      "small": "course/en/assets/a516261fb9cb309e3b3d1116a192ecfc2a70fbad.png",
+      "attribution": ""
+    }
+  },
+  {
+    "_id": "593fe1d9d084d5167a04f837",
+    "_layout": "left",
+    "_parentId": "b-05",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/86a681b57d12594816d4184f7772e603f5413623.png",
+      "small": "course/en/assets/86a681b57d12594816d4184f7772e603f5413623.png",
+      "attribution": "<a href=\"http://www.freepik.com/free-photos-vectors/business\" target=\"_blank\">Photoroyalty - Freepik.com </a> <span class='assetLicence'>[CC-BY]</span>"
+    }
+  },
+  {
+    "_id": "593fe1d9d084d5167a04f83a",
+    "_layout": "right",
+    "_parentId": "b-04",
+    "_type": "component",
+    "body": "<p>Creating an effective pitch for open data requires five elements. When brought together, these create a clear, compelling case for action that can be used when seeking management approval, budgetary and resource&nbsp;support and downstream use and reuse. The pitch should be delivered in 90 seconds or less.</p><p>The five components of the perfect pitch are:</p><ol><li>What it is &ndash;&nbsp;the problem you are solving&nbsp;for your users</li><li>What it&nbsp;can do&nbsp;&ndash; a tailored description of the benefit</li><li>Where it&#39;s helped &ndash; a relevant, quantified proof point</li><li>Why it&#39;s best &ndash; justification for why it beats other options</li><li>What next &ndash; a realistic decision that can be taken on the spot</li></ol><p>Below we explore each of these components&nbsp;in more detail.</p>",
+    "displayTitle": "The five components of the perfect open data pitch",
+    "title": "The five components of the perfect open data pitch",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "593fe1d9d084d5167a04f83e",
+    "_layout": "left",
+    "_parentId": "b-04",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "",
+    "title": "Component title",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/8e4cff29fb37a538a8012800f5a7f96e71650f8a.jpg",
+      "small": "course/en/assets/8e4cff29fb37a538a8012800f5a7f96e71650f8a.jpg",
+      "attribution": "<a href=\"https://www.shutterstock.com/image-vector/3d-illustration-concept-data-179384507?src=lb-35924366\" target=\"_blank\">leromin</a> <span class='assetLicence'>[Shutterstock standard licence]</span>"
+    }
+  },
+  {
+    "_id": "593fe1d9d084d5167a04f83f",
+    "_layout": "left",
+    "_parentId": "b-08",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "",
+    "title": "Component title",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/2813c675fbfd5a508c8e99374187733d399f4b25.png",
+      "small": "course/en/assets/2813c675fbfd5a508c8e99374187733d399f4b25.png",
+      "attribution": "<a href=\"https://www.flickr.com/photos/otacke/12221292503/\" target=\"_blank\">Oliver Tacke</a> <span class='assetLicence'>[CC-BY]</span>"
+    }
+  },
+  {
+    "_id": "593fe1d9d084d5167a04f840",
+    "_layout": "right",
+    "_parentId": "b-01",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "",
+    "title": "Component title",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "intro-logo",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/6674b6d19f88e77b508eaea51cc20c51c91e6fcf.png",
+      "small": "course/en/assets/6674b6d19f88e77b508eaea51cc20c51c91e6fcf.png",
+      "attribution": ""
+    }
+  },
+  {
+    "_id": "593fe1d9d084d5167a04f841",
+    "_layout": "left",
+    "_parentId": "b-07",
+    "_type": "component",
+    "body": "<p>You should start your elevator pitch by outlining the problem you are solving&nbsp;for your users: the value proposition.</p><p>The value proposition of a business is central to its business model. This is equally relevant in the private and public sectors. Without a strong value proposition, the organisation &ndash; whether a large corporation, startup,&nbsp;local authority or charity &ndash; does not have justification to keep delivering its services.</p><p>Top tip: think of your value proposition as the abstract or executive summary of your solution. Keep it short, keep it snappy&nbsp;and use a list of three.</p><p>For example, open data can enhance&nbsp;your business&#39; reputation, improve your customers&#39; experience and&nbsp;diversify your product portfolio.</p>",
+    "displayTitle": "What problem are you solving?",
+    "title": "What problem are you solving?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "593fe1d9d084d5167a04f842",
+    "_layout": "left",
+    "_parentId": "b-12",
+    "_type": "component",
+    "body": "<p>This is the part of your pitch where you can explain your value proposition in more detail. Don&#39;t worry about repeating yourself. Repetition is key.</p><p>The first time you said your value&nbsp;proposition, you wanted&nbsp;to catch your audience&#39;s attention. Now you have their attention, and you&#39;ve explained the benefits for them, you can explain&nbsp;your solution in more detail.</p><p>This is also your chance to justify why your solution is better than the alternatives. You can give competitive&nbsp;examples if relevant, or examples of where data has been shared with positive consequences&nbsp;to emphasise your point.&nbsp;</p><p>Use a list of three for maximum impact, and remember: repetition is key.</p>",
+    "displayTitle": "Why open data is best",
+    "title": "Why open data is best",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "593fe1d9d084d5167a04f843",
+    "_layout": "right",
+    "_parentId": "b-13",
+    "_type": "component",
+    "body": "<p>The final element of the pitch is to leave your listener with a clear action.</p><p>Listeners want to be able to take action in response to a pitch. Your task is to create an action that allows them to immediately say yes (or no) without needing to think too much about it.</p>",
+    "displayTitle": "What next?",
+    "title": "What next?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "accordion",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_items": [
+      {
+        "title": "On the spot",
+        "body": "<p>Make sure that your listener can respond to your action on the spot.&nbsp;If they need&nbsp;to consult others or consider your action for a while, it&nbsp;is too big. The ideal is an action that is small, clear,&nbsp;and moves the agenda forward.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Clear expectations",
+        "body": "<p>Make sure that you set clear expectations for&nbsp;what you are asking. Aspects such as timeframe, resourcing and potential impact should all be central to managing expectations.&nbsp;</p><p>If the listener feels that the timeframe or resourcing constraints limit the opportunity, they may even be able to help. Being open and reasonable will help the listener to become engaged in your pitch.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Reasonable requests",
+        "body": "<p>Only ask for budget or time that is reasonable, given the level of expected return. If your requests are unreasonable, you are unlikely to get a positive answer.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Examples of good actions",
+        "body": "<p>​​​​Good actions don&#39;t have to be groundbreaking. Examples of good actions include:</p><ul><li>getting a date in the diary for a follow-up meeting with more people</li><li>commitment&nbsp;to read and respond to a case study relevant to their interests</li><li>commitment to send you&nbsp;a feasibility assessment for&nbsp;your solution</li></ul>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      }
+    ],
+    "_shouldCollapseItems": true
+  },
+  {
+    "_id": "593fe1d9d084d5167a04f844",
+    "_layout": "left",
+    "_parentId": "b-01",
+    "_type": "component",
+    "body": "<p dir=\"ltr\">Opening data can be valuable for any organisation. Whether to drive innovation in the business, develop a clearer picture of operations or improve products and services, a growing number of private and public sector organisations now benefit from publishing and using open data.</p><p dir=\"ltr\">However, opening data might require a change in the culture of an organisation. Most organisations are configured to protect their data resources, even when the benefits of openness outweigh the costs. The key to overcoming this resistance is clear: effective communication of the benefits that open data can bring.</p><p dir=\"ltr\">This module will prepare you to deliver a tailored pitch for open data that highlights value and addresses risks.</p><p dir=\"ltr\">In this module we&#39;ll explore how to:</p><ul><li>Structure the perfect pitch</li><li>Identify different audiences for your pitch</li><li>Tailor your pitch to different audiences</li></ul>",
+    "displayTitle": "Open data advocacy",
+    "title": "Open data advocacy",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "ticks",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "593fe1d9d084d5167a04f845",
+    "_layout": "right",
+    "_parentId": "b-08",
+    "_type": "component",
+    "body": "<p dir=\"ltr\">There are many general arguments for using open data, but a strong pitch needs to be closely tailored to the priorities and concerns of the audience of the pitch and the decision maker.</p><p>In most cases, this can be determined from their professional context. Below we examine four common roles, coupled with the most relevant benefits of better use of data.</p>",
+    "displayTitle": "What open data can do",
+    "title": "What open data can do",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "accordion",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_items": [
+      {
+        "title": "Leadership",
+        "body": "<p>Leaders&nbsp;in an organisation are most likely to be convinced by the arguments that open data can help <strong>drive&nbsp;innovation and growth</strong> within the organisation, and <strong>improve services</strong> for users.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Operations",
+        "body": "<p>For those in operations roles, <strong>reducing costs</strong> and being more efficient&nbsp;are&nbsp;priorities. Open data plays a crucial role in resource-saving by enabling a faster exchange of information.</p><p>The ability to access, use and share data across multiple platforms and between numerous organisations eradicates the time and cost normally associated with acquiring valuable datasets, one by one.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Product or marketing",
+        "body": "<p>Those in product or marketing roles will respond best to the potential of open data to <strong>improve products and services</strong>.&nbsp;&nbsp;More consumers are coming to expect a custom experience, which can be satisfied through greater provision of open data to complement the product function.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Communications",
+        "body": "<p>For those in communications roles, open data can seem irrelevant to their work. The key message that resonates with communications professionals is that opening data can help to <strong>improve the reputation</strong> of an organisation. Open data can help to maximise&nbsp;opportunities for media exposure in support of promoting organisational priorities, and complement&nbsp;existing media channels.</p><p>As open data is easy to verify, it also increases trust that the article is not &#39;spun&#39;.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      }
+    ],
+    "_shouldCollapseItems": true
+  },
+  {
+    "_id": "593fe1d9d084d5167a04f846",
+    "_layout": "full",
+    "_parentId": "b-10",
+    "_type": "component",
+    "body": "<p>The next step in the pitch is to introduce real-life examples of where open&nbsp;data has already helped. In this section, we explore some existing case studies, grouped by the benefits identified in unlocking value from open data.</p>",
+    "displayTitle": "Where open data has helped",
+    "title": "Where open data has helped",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "narrative",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "mobileInstruction": "",
+    "_hasNavigationInTextArea": true,
+    "_setCompletionOn": "allItems",
+    "_items": [
+      {
+        "title": "Driving innovation and growth",
+        "body": "<p dir=\"ltr\">Open data drives innovation and growth in businesses by revealing opportunities to enrich products or services and make better business decisions.</p><p>Finnish company Vainu <a href=\"https://blog.vainu.io/open-data-helps-you-target-right-companies-at-right-time/\">maximise lead generation and sales</a> by using open data, whereas in Spain BBVA offer the <a href=\"https://www.bbvaresearch.com/wp-content/uploads/2016/06/DEO_Jun16_Cap3.pdf\">competitive edge using data analytic services</a>.</p><p>Open data stimulates innovation and growth by removing barriers to data&#39;s access, use and shareability.</p>",
+        "_graphic": {
+          "src": "course/en/assets/c76e953b722462498b1da45a7a926775d98c92cd.png",
+          "alt": "",
+          "attribution": ""
+        },
+        "strapline": "Driving innovation and growth"
+      },
+      {
+        "title": "Improving service delivery",
+        "body": "<p dir=\"ltr\">Open data can help organisations to improve services for users. Organisations enable their users to make decisions based on easily comparable data and information.</p><p dir=\"ltr\">Available in over 400 cities across the world, Austrian-based <a href=\"http://www.bikecitizens.net/\">Bike Citizens</a> are combining open data from cycle schemes and maps to improve the urban cyclist&rsquo;s experience.</p><p dir=\"ltr\">Open data is being used&nbsp;in the Netherlands by GoOV to <a href=\"http://www.go-ov.nl/\">reduce the barriers facing disabled people </a>by allowing them to book transport and navigate their area more easily.</p><p dir=\"ltr\">Czech company DATLOWE have created a comprehensive <a href=\"http://lekovaencyklopedie.cz/EncyclopediaApp/#home;lang=cs\">Drug Encyclopaedia</a> as a guide for patients and medical professionals to easily compare ingredients found in medication.</p>",
+        "_graphic": {
+          "src": "course/en/assets/c0eca1e9dde2d00c75333a3690c8ba35d98c1d3c.jpg",
+          "alt": "",
+          "attribution": "<a href=\"https://www.shutterstock.com/image-vector/colored-paper-pointers-signs-navigation-mapvector-154597898\" target=\"_blank\">Leone_V</a> <span class='assetLicence'>[Shutterstock standard licence]</span>"
+        },
+        "strapline": "Improving service delivery"
+      },
+      {
+        "title": "Reducing costs",
+        "body": "<p dir=\"ltr\">Open data can help businesses to reduce their costs and be more efficient in their operations.</p><p dir=\"ltr\">Swedish music-streaming giant Spotify and the UK&rsquo;s BBC both use <a href=\"https://musicbrainz.org/\">open data service MusicBrainz</a> to complement their services and enhance user&nbsp;experience without having to invest in maintaining the catalogue themselves.</p><p dir=\"ltr\">In Slovenia, winegrowers are using open data to help them <a href=\"https://www.evineyardapp.com/\">make smarter growing decisions</a>&nbsp;with eVineyard, whereas in Hungary, a <a href=\"http://filab.hu/2016/05/saving-food-2-0-2/\">revolution to stop food waste</a> is underway, built on open data and collaboration.</p>",
+        "_graphic": {
+          "src": "course/en/assets/695142676da7c48878111f3e0cdfd728d9d05718.png",
+          "alt": "",
+          "attribution": "<a href=\"http://www.freepik.com/free-photos-vectors/business\" target=\"_blank\">Freepik</a> <span class='assetLicence'>[CC-BY]</span>"
+        },
+        "strapline": "Reducing costs"
+      },
+      {
+        "title": "Improving reputation",
+        "body": "<p>Open data can help improve the reputation of an organisation. As the data is openly available, it helps to increase perceived neutrality and trust among the public that the results are not &lsquo;spun&rsquo;.</p><p>In the UK, open data helps Provenance to&nbsp;<a href=\"https://www.provenance.org/\" target=\"_blank\">inform&nbsp;consumers about the origins and journeys of their purchases</a>,&nbsp;and in Bulgaria, citizens can analyse&nbsp;<a href=\"http://opendata.yurukov.net/elections/\" target=\"_blank\">open election data</a>.</p><p>&nbsp;</p>",
+        "_graphic": {
+          "src": "course/en/assets/d1a863354f7c7c10cb246d3db2e51a54a8964b23.png",
+          "alt": "",
+          "attribution": "<a href=\"http://www.freepik.com/free-photos-vectors/business\" target=\"_blank\">Photoroyalty - Freepik.com</a> <span class='assetLicence'>[CC-BY]</span>"
+        },
+        "strapline": "Improving reputation"
+      },
+      {
+        "title": "Saving the planet",
+        "body": "<p>Open data is helping us to tackle one of the biggest environmental problems: air quality. Using open weather, air quality and traffic data, &lsquo;CityTrees&rsquo; in Germany can <a href=\"http://www.perspectiveglobal.com/lifestyle/citytree-by-green-city-solutions/\">reduce air pollution within 50 metres by 30%</a>. In Greece, <a href=\"http://envi4all.eu/#/\">Envi4All</a> makes it easier for locals to find out about air pollution levels in their area.</p>",
+        "_graphic": {
+          "src": "course/en/assets/194749d6a3d955ccf1327dff670d11d82f1e5892.jpg",
+          "alt": "",
+          "attribution": "<a href=\"http://www.shutterstock.com/pic-185008832\" target=\"_blank\">suarassawadee</a> <span class='assetLicence'>[Shutterstock standard licence]</span>"
+        },
+        "strapline": "Saving the planet"
+      }
+    ]
+  },
+  {
+    "_id": "593fe1d9d084d5167a04f847",
+    "_layout": "right",
+    "_parentId": "b-03",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "color-six",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/7120bb7ad02055a11589656852c821cae30bf616.png",
+      "small": "course/en/assets/7120bb7ad02055a11589656852c821cae30bf616.png",
+      "attribution": "<a href=\"https://theodi.org\" target=\"_blank\">The Open Data Institute</a> <span class='assetLicence'>[CC-BY-SA]</span>"
+    }
+  },
+  {
+    "_id": "593fe1d9d084d5167a04f848",
+    "_layout": "left",
+    "_parentId": "b-14",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "Are you ready to advocate open data?",
+    "title": "Are you ready to advocate open data?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "593fe1d9d084d5167a04f849",
+    "_layout": "left",
+    "_parentId": "b-02",
+    "_type": "component",
+    "body": "<p><strong>The five elements of a perfect data pitch include...</strong></p>",
+    "displayTitle": "What are the five elements of the perfect data pitch?",
+    "title": "What are the five elements of the perfect data pitch?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "mcq",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Choose all that apply, then click 'Submit'",
+    "_items": [
+      {
+        "text": "the problem you are solving",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "a tailored description of the benefit",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": " a relevant example",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "a realistic decision that can be taken on the spot",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "a complicated description designed to impress",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "a big decision in order to succeed",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 5,
+    "_feedback": {
+      "correct": "<p><strong>That&#39;s right!</strong></p><p>The perfect pitch&nbsp;should be structured around the following five components:</p><ol><li>What it is &ndash;&nbsp;the problem you are solving&nbsp;for your users</li><li>What it&nbsp;can do&nbsp;&ndash; a tailored description of the benefit</li><li>Where it&#39;s helped &ndash; a relevant, quantified proof point</li><li>Why it&#39;s best &ndash; justification for why it beats other options</li><li>What next &ndash; a realistic decision that can be taken on the spot</li></ol>",
+      "_incorrect": {
+        "final": "<p><strong>Are you sure?</strong></p><p>The perfect pitch&nbsp;should be structured around the following five components:</p><ol><li>What it is &ndash;&nbsp;the problem you are solving&nbsp;for your users</li><li>What it&nbsp;can do&nbsp;&ndash; a tailored description of the benefit</li><li>Where it&#39;s helped &ndash; a relevant, quantified proof point</li><li>Why it&#39;s best &ndash; justification for why it beats other options</li><li>What next &ndash; a realistic decision that can be taken on the spot</li></ol>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_id": "593fe1d9d084d5167a04f84a",
+    "_layout": "right",
+    "_parentId": "b-05",
+    "_type": "component",
+    "body": "<p><strong>A value proposition is...</strong></p>",
+    "displayTitle": "What is a value proposition?",
+    "title": "What is a value proposition?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "mcq",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Choose your answer, then click 'Submit'",
+    "_items": [
+      {
+        "text": "the problem you are solving for your users",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "an estimate of the value of a solution",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "how much money you will get",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_feedback": {
+      "correct": "<p><strong>That&#39;s right!</strong></p><p>The value proposition is&nbsp;the problem you are solving for your users.&nbsp;The value proposition of a business is central to its business model. This is equally relevant in the public sector.</p>",
+      "_incorrect": {
+        "final": "<p><strong>Are you sure?</strong></p><p>The value proposition is&nbsp;the problem you are solving for your users.&nbsp;The value proposition of a business is central to its business model. This is equally relevant in the public sector.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_id": "593fe1d9d084d5167a04f84b",
+    "_layout": "right",
+    "_parentId": "b-09",
+    "_type": "component",
+    "body": "<p><strong>You should end your pitch with...</strong></p>",
+    "displayTitle": "What next?",
+    "title": "What next?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "mcq",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Choose your answer, then click 'Submit'",
+    "_items": [
+      {
+        "text": "an action that enables on-the-spot decision making",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "an action for your listener to take to their manager",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "an action for your listener to think about for a few days",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_feedback": {
+      "correct": "<p><strong>That&#39;s right!</strong></p><p dir=\"ltr\">At the end of your pitch it is vital to create an action that allows your listener to give an answer immediately. If they need&nbsp;to consult others or consider your action for a while, the action is too big.</p>",
+      "_incorrect": {
+        "final": "<p><strong>Are you sure?</strong></p><p dir=\"ltr\">At the end of your pitch it is vital to create an action that allows your listener to give an answer immediately. If they need&nbsp;to consult others or consider your action for a while, the action is too big.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_id": "593fe1d9d084d5167a04f84c",
+    "_layout": "right",
+    "_parentId": "b-02",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/8e4cff29fb37a538a8012800f5a7f96e71650f8a.jpg",
+      "small": "course/en/assets/8e4cff29fb37a538a8012800f5a7f96e71650f8a.jpg",
+      "attribution": "<a href=\"https://www.shutterstock.com/image-vector/3d-illustration-concept-data-179384507?src=lb-35924366\" target=\"_blank\">leromin</a> <span class='assetLicence'>[Shutterstock standard licence]</span>"
+    }
+  },
+  {
+    "_id": "593fe1d9d084d5167a04f84d",
+    "_layout": "left",
+    "_parentId": "b-09",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "Component title",
+    "title": "Component title",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/7c1475d034cb3de18e7b927d189ddd5185822c67.jpg",
+      "small": "course/en/assets/7c1475d034cb3de18e7b927d189ddd5185822c67.jpg",
+      "attribution": "<a href=\"http://www.freepik.com\" target=\"_blank\">D3Images / Freepik</a> <span class='assetLicence'>[CC-BY]</span>"
+    }
+  },
+  {
+    "_id": "593fe1d9d084d5167a04f84e",
+    "_layout": "left",
+    "_parentId": "b-03",
+    "_type": "component",
+    "body": "<p dir=\"ltr\">Opening data can be&nbsp;valuable for any organisation to make more effective use of their resources. However, most businesses are configured to protect their data resources, even where the benefits of greater sharing outweigh the costs.</p><p>Clear, effective communication of the benefits is essential to capture imaginations and gain trust and understanding. In this module, we have learned how to deliver a tailored pitch for open data.</p>",
+    "displayTitle": "Open data advocacy",
+    "title": "Open data advocacy",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "593fe1d9d084d5167a04f860",
+    "_layout": "left",
+    "_parentId": "b-06",
+    "_type": "component",
+    "body": "<p><strong>Which argument&nbsp;for open data is the most&nbsp;appropriate in a pitch for the Head of Operations?</strong></p>",
+    "displayTitle": "What can open data do?",
+    "title": "What can open data do?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "mcq",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Choose your answer, then click 'Submit'",
+    "_items": [
+      {
+        "text": "Open data can improve the reputation of an organisation",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "Open data can reduce costs",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "Open data can drive innovation",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_feedback": {
+      "correct": "<p><strong>That&#39;s right!</strong></p><p>Reducing costs and being efficient are priorities for those in operations roles. The ability to access, use and share data across multiple platforms and between numerous organisations minimises the time and cost normally associated with acquiring valuable data.</p>",
+      "_incorrect": {
+        "final": "<p><strong>Are you sure?</strong></p><p>Reducing costs and being efficient are priorities for those in operations roles. The ability to access, use and share data across multiple platforms and between numerous organisations minimises the time and cost normally associated with acquiring valuable data.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_id": "593fe1d9d084d5167a04f86d",
+    "_layout": "full",
+    "_parentId": "b-11",
+    "_type": "component",
+    "body": "<p>To find more examples of open data being practically applied, take a look the European Data Portal&#39;s <a href=\"https://www.europeandataportal.eu/sites/default/files/re-using_open_data.pdf\" target=\"_blank\">report on the reuse of open data</a>, or browse the growing <a href=\"https://www.europeandataportal.eu/en/using-data/use-cases\" target=\"_blank\">list of use cases</a>.</p>",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "593fe1d9d084d5167a04f873",
+    "_layout": "right",
+    "_parentId": "b-06",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "Component title",
+    "title": "Component title",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/c115c54849b909d4fe542a28a3f15f2f0f541b54.png",
+      "small": "course/en/assets/c115c54849b909d4fe542a28a3f15f2f0f541b54.png",
+      "attribution": "<a href=\"http://www.freepik.com/free-photos-vectors/business\" target=\"_blank\">Freepik</a> <span class='assetLicence'>[CC-BY]</span>"
+    }
+  },
+  {
+    "_id": "593fe1d9d084d5167a04f874",
+    "_layout": "right",
+    "_parentId": "b-12",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "Component title",
+    "title": "Component title",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/d0bbb7bab4bd1d32d12fe184245de0469eb663c7.jpg",
+      "small": "course/en/assets/d0bbb7bab4bd1d32d12fe184245de0469eb663c7.jpg",
+      "attribution": "<a href=\"http://www.shutterstock.com/pic-201870622.html\" target=\"_blank\">Your Design</a> <span class='assetLicence'>[Shutterstock standard licence]</span>"
+    }
+  }
 ]
