@@ -1,602 +1,611 @@
 [
-    {
-        "_id":"c-01",
-        "_parentId":"b-01",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"intro-logo",
-        "_layout":"right",
-        "title":"",
-        "displayTitle":"",
-        "body":"",
-        "instruction":"",
+  {
+    "_id": "594100a4d084d5167a04fc7c",
+    "_layout": "right",
+    "_parentId": "b-01",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "",
+    "title": "",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "intro-logo",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "",
+      "small": "",
+      "attribution": ""
+    }
+  },
+  {
+    "_id": "594100a4d084d5167a04fc7d",
+    "_layout": "right",
+    "_parentId": "b-02",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "",
+    "title": "",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/fr/assets/cdce8ea3ed04a12e226ca17c8e5be93fffe1fb11.png",
+      "small": "course/fr/assets/a699447adb040b8b78c36f46d46356ba124debf3.png",
+      "attribution": ""
+    }
+  },
+  {
+    "_id": "594100a4d084d5167a04fc7e",
+    "_layout": "right",
+    "_parentId": "b-04",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "",
+    "title": "",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/fr/assets/3b66beb92878268fd90bf52b67cb10c55f741f17.jpg",
+      "small": "course/fr/assets/3b66beb92878268fd90bf52b67cb10c55f741f17.jpg",
+      "attribution": "<a href=\"https://www.shutterstock.com/image-vector/flat-style-vector-icons-set-mobile-203239417\" target=\"_blank\">Ozerina Anna</a> <span class='assetLicence'>[Shutterstock standard licence]</span>"
+    }
+  },
+  {
+    "_id": "594100a4d084d5167a04fc84",
+    "_layout": "right",
+    "_parentId": "b-06",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "",
+    "title": "",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/fr/assets/a516261fb9cb309e3b3d1116a192ecfc2a70fbad.png",
+      "small": "course/fr/assets/a516261fb9cb309e3b3d1116a192ecfc2a70fbad.png",
+      "attribution": ""
+    }
+  },
+  {
+    "_id": "594100a4d084d5167a04fc88",
+    "_layout": "right",
+    "_parentId": "b-07",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "",
+    "title": "",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/fr/assets/cdce8ea3ed04a12e226ca17c8e5be93fffe1fb11.png",
+      "small": "course/fr/assets/cdce8ea3ed04a12e226ca17c8e5be93fffe1fb11.png",
+      "attribution": "<a href=\"http://www.shutterstock.com/pic-134315933.html\" target=\"_blank\">Photoraiz</a> <span class='assetLicence'>[Shutterstock standard licence]</span>"
+    }
+  },
+  {
+    "_id": "594100a4d084d5167a04fc89",
+    "_layout": "left",
+    "_parentId": "b-08",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "",
+    "title": "",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/fr/assets/3b66beb92878268fd90bf52b67cb10c55f741f17.jpg",
+      "small": "course/fr/assets/3b66beb92878268fd90bf52b67cb10c55f741f17.jpg",
+      "attribution": "<a href=\"https://www.shutterstock.com/image-vector/flat-style-vector-icons-set-mobile-203239417\" target=\"_blank\">Ozerina Anna</a> <span class='assetLicence'>[Shutterstock standard licence]</span>"
+    }
+  },
+  {
+    "_id": "594100a4d084d5167a04fc8a",
+    "_layout": "right",
+    "_parentId": "b-09",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "",
+    "title": "",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/fr/assets/4d0e90f8a701b90a49898fd147c75a0149ca472f.jpg",
+      "small": "course/fr/assets/4d0e90f8a701b90a49898fd147c75a0149ca472f.jpg",
+      "attribution": "<a href=\"http://www.shutterstock.com/pic.mhtml?id=149924576&src=lb-35924366\" target=\"_blank\">Sergey Nivens</a> <span class='assetLicence'>[Shutterstock standard licence]</span>"
+    }
+  },
+  {
+    "_id": "594100a4d084d5167a04fc91",
+    "_layout": "right",
+    "_parentId": "b-10",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "color-six",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/fr/assets/7120bb7ad02055a11589656852c821cae30bf616.png",
+      "small": "course/fr/assets/7120bb7ad02055a11589656852c821cae30bf616.png",
+      "attribution": "<a href=\"https://theodi.org\" target=\"_blank\">The Open Data Institute</a> <span class='assetLicence'>[CC-BY-SA]</span>"
+    }
+  },
+  {
+    "_id": "594100a4d084d5167a04fc92",
+    "_layout": "left",
+    "_parentId": "b-03",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "",
+    "title": "",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/fr/assets/1df129630da9e360cea725c7c5eebda0b337c7ba.jpg",
+      "small": "course/fr/assets/1df129630da9e360cea725c7c5eebda0b337c7ba.jpg",
+      "attribution": "<a href=\"http://www.freepik.com\" target=\"_blank\">Jannoon028 / Freepik</a> <span class='assetLicence'>[CC-BY]</span>"
+    }
+  },
+  {
+    "_id": "594100a4d084d5167a04fc9c",
+    "_layout": "left",
+    "_parentId": "b-01",
+    "_type": "component",
+    "body": "<p>La gestion du changement est le processus&nbsp;d&#39;introduction &agrave; une transition, un changement ou un d&eacute;veloppement &agrave; long terme au sein d&#39;une organisation. La gestion du changement est particuli&egrave;rement importante lorsqu&#39;il s&#39;agit de grands changements tels que les changements culturels n&eacute;cessaires pour r&eacute;ussir avec l&#39;open data.</p><p>Dans ce module, nous explorerons pourquoi il est important pour les organisations de g&eacute;rer les changements et les &eacute;l&eacute;ments cl&eacute;s afin de contribuer &agrave; la r&eacute;ussite d&#39;un processus de gestion des changements.</p><ul><li>Qu&#39;est-ce que la gestion des changements?</li><li>Pourquoi la gestion des changements est-elle importante dans les initiatives de donn&eacute;es ouvertes?</li><li>Pourquoi la gestion des changements est-elle n&eacute;cessaire?</li><li>Quels sont les &eacute;l&eacute;ments cl&eacute;s de la gestion du&nbsp;changement?</li></ul>",
+    "displayTitle": "Gestion du changement au sein de l'open data",
+    "title": "Gestion du changement au sein de l'open data",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "ticks",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "594100a4d084d5167a04fc9d",
+    "_layout": "left",
+    "_parentId": "b-02",
+    "_type": "component",
+    "body": "<p>La gestion du changement est <strong>la&nbsp;proc&eacute;dure d&#39;introduction &agrave; une transition, un changement ou un d&eacute;veloppement &agrave; long terme au sein d&#39;une organisation</strong></p><p>Le but ultime de la gestion du changement est de changer la mani&egrave;re dont l&#39;organisation fonctionne &agrave; long terme. De l&#39;adaptation de ses syst&egrave;mes, de ses processus et de ses structures, &agrave; changer la mani&egrave;re dont les gens pensent et agissent.</p><p>La gestion du changement est &eacute;galement pertinente pour le secteur public et le secteur priv&eacute;, et pour les organisations &agrave; grande et &agrave; petite &eacute;chelle.&nbsp;</p>",
+    "displayTitle": "Qu'est-ce que la gestion des changements?",
+    "title": "Qu'est-ce que la gestion des changements?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "594100a4d084d5167a04fc9e",
+    "_layout": "right",
+    "_parentId": "b-03",
+    "_type": "component",
+    "body": "<p dir=\"ltr\">Il y a un mythe selon lequel les donn&eacute;es ouvertes ne sont qu&#39;un probl&egrave;me technologique. Cependant, la technologie pour les donn&eacute;es ouvertes existe d&eacute;j&agrave; depuis vingt ans, mais pas les donn&eacute;es ouvertes elles-m&ecirc;mes. L&#39;un des plus grands changements de cette &eacute;poque est la demande de transparence, entra&icirc;n&eacute;e par des scandales comme <a href=\"http://en.wikipedia.org/wiki/United_Kingdom_parliamentary_expenses_scandal\">le scandale des d&eacute;penses des d&eacute;put&eacute;s britanniques en 2009</a> et <a href=\"http://www.britannica.com/topic/FIFA-Corruption-Scandal-The-2076091\">le scandale de corruption de la FIFA en 2016</a>.</p><p>La majorit&eacute; des organisations se sentent encore tr&egrave;s &agrave; l&#39;aise en &eacute;tant ferm&eacute;es par d&eacute;faut, accordant uniquement l&#39;acc&egrave;s aux informations et aux donn&eacute;es sur demande ou dans le cadre d&#39;accords de partage. L&#39;ouverture par d&eacute;faut est l&#39;&eacute;tat d&#39;esprit que toutes les donn&eacute;es et informations devraient &ecirc;tre ouvertes automatiquement, &agrave; moins qu&#39;il y ait une justification solide pour expliquer pourquoi elle devrait rester ferm&eacute;e. La gestion du changement est essentielle &agrave; la fois pour le succ&egrave;s du projet et pour aider les personnes &agrave; travers le processus qui lutteront contre les changements d&#39;&eacute;tat d&#39;esprit n&eacute;cessaires.</p><p>Pour faciliter ce processus de gestion des changements, la <a href=\"http://opendatacharter.net/\">Charte de l&#39;open data</a> fournit un ensemble de principes pour une initiative de donn&eacute;es ouvertes r&eacute;ussie. Beaucoup de pays se sont d&eacute;j&agrave; inscrits &agrave; la Charte, y compris la <a href=\"http://opendatacharter.net/adopted-by-countries-and-cities/\">France, l&#39;Italie et le Royaume-Uni</a>. <a href=\"http://opendatacharter.net/ukraine-used-charter-develop-open-data-roadmap/\">L&#39;Ukraine a utilis&eacute; la Charte pour aider &agrave; informer sa feuille de route &agrave; long terme </a>et &agrave; obtenir l&#39;adh&eacute;sion de toutes les parties du gouvernement.</p><p>&nbsp;</p>",
+    "displayTitle": "Pourquoi la gestion des changements est-elle importante dans les initiatives de données ouvertes?",
+    "title": "Pourquoi la gestion des changements est-elle importante dans les initiatives de données ouvertes?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "594100a4d084d5167a04fc9f",
+    "_layout": "left",
+    "_parentId": "b-06",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "Êtes-vous prêt à gérer les changements?",
+    "title": "Êtes-vous prêt à gérer les changements?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "594100a4d084d5167a04fca4",
+    "_layout": "left",
+    "_parentId": "b-04",
+    "_type": "component",
+    "body": "<p>Une gestion efficace est essentielle &agrave; la r&eacute;ussite de tout projet ou initiative. La gestion du changement ne fait pas exception. Ci-dessous, nous explorons certaines des raisons principales&nbsp;pour lesquelles nous devons g&eacute;rer le processus de changement.</p>",
+    "displayTitle": "Pourquoi la gestion des changements est-elle nécessaire?",
+    "title": "Pourquoi la gestion des changements est-elle nécessaire?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "accordion",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_items": [
+      {
+        "title": "Le changement ne se produit pas du jour au lendemain",
+        "body": "<p dir=\"ltr\">Il est presque impossible de mettre en &oelig;uvre des changements du jour au lendemain, en particulier dans les grandes structures. Au fil du temps, les organisations s&#39;habituent &agrave; fonctionner d&#39;une certaine mani&egrave;re et il leur faut du temps pour changer.</p><p>&Eacute;tant donn&eacute; que la mise en &oelig;uvre du changement prend du temps, il faut une personne ou une &eacute;quipe de personnes qui se consacrent &agrave; la supervision et &agrave; la gestion du processus de changement. Cela permet &eacute;galement de s&#39;assurer que le processus continue.</p><p><a href=\"http://www.nortonrosefulbright.com/knowledge/publications/136571/the-digital-transformation-of-the-german-emmittelstandem\">Un rapport allemand</a> a r&eacute;v&eacute;l&eacute; que la collaboration est la cl&eacute; de la gestion du changement et de la transformation num&eacute;rique dans les petites et moyennes entreprises.</p>",
         "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "",
-            "medium": "",
-            "small": "",
-            "*source":"",
-            "*credit":"",
-            "*license":""
-        }
-    },
-    {
-        "_id":"c-02",
-        "_parentId":"b-01",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"",
-        "_layout":"left",
-        "title":"L’open data, c’est quoi ?",
-        "displayTitle":"L’open data, c’est quoi ?",
-	"body": "<p>Il s’agit de données auxquelles tout le monde peut accéder et que tout le monde peut utiliser et partager. Les gouvernements, les entreprises et les individus peuvent utiliser l’open data afin de créer des avantages sociaux, économiques et environnementaux.</p><h5>Dans ce module, nous allons explorer les points suivants :</h5><ul class='ticks'><li>L’open data (ou ‘données ouvertes’), c’est quoi ?</li><li>Qu’entend-on par données ?</li><li>Qu’est ce qui rend les données ‘ouvertes’?</li><li>Pourquoi en a-t-on besoin?</li></ul>",
-        "instruction":"",
-        "_pageLevelProgress": {
-            "_isEnabled": true
-        }
-    },
-    {
-    "_id":"c-11",
-    "_parentId":"b-10",
-    "_type":"component",
-    "_component":"iFrame-vimeo",
-    "_classes":"",
-    "_layout":"full",
-        "title":"Découvrir l’Open Data- en 2 minutes",
-        "displayTitle": "Découvrir l’Open Data- en 2 minutes",
-        "body": "Formateur à l’ODI, Dr. David Tarrant explique ce qu’on entend par données, ce qui les rend ouvertes et pourquoi l’open data est nécessaire.",
-        "instruction": "",
-        "_setCompletionOn":"ended",
-        "_source": "https://player.vimeo.com/video/129196637",
-        "_width": {
-            "_small" : 300,
-            "_medium" : 500,
-            "_large" : 905
+          "alt": "",
+          "src": "",
+          "attribution": ""
         },
-        "_height": {
-            "_small" : 250,
-            "_medium" : 350,
-            "_large" : 508
-        }
-    },
-    {
-        "_id":"c-21",
-        "_parentId":"b-20",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"right",
+        "_classes": ""
+      },
+      {
+        "title": "Réduire les risques",
+        "body": "<p>La gestion du processus de changement r&eacute;duit les risques globaux d&#39;une organisation.</p><p>Il existe diff&eacute;rentes raisons pour lesquelles une organisation souhaite mettre en &oelig;uvre un processus de gestion des changements. Parfois, cela peut &ecirc;tre d&ucirc; &agrave; des impacts n&eacute;gatifs venant de leur processus, syst&egrave;me, structure ou mode de fonctionnement actuel.</p><p>Dans ces cas, il existe un risque de maintenir la situation actuelle car cela pourrait entra&icirc;ner une perte de revenus ou une baisse de la r&eacute;putation de l&#39;organisation. C&#39;&eacute;tait le cas avec <a href=\"http://www.landmark.co.uk/\">Landmark</a>, une soci&eacute;t&eacute; anglaise dont le mod&egrave;le d&#39;entreprise &eacute;tait sur le point de dispara&icirc;tre, car les donn&eacute;es sur lesquelles ils s&#39;appuyaient pour vendre &agrave; d&#39;autres sont devenues ouvertes. Pour &eacute;viter la catastrophe, <a href=\"http://theodi.org/lunchtime-lectures/friday-lunchtime-lecture-changing-tracks-with-hs2-open-data\">ils ont d&ucirc;&nbsp;changer leur business</a>, dirig&eacute; par le chef de la direction et pilot&eacute;s par l&#39;&eacute;quipe.</p><p>Cependant, il pourrait &ecirc;tre &eacute;galement risqu&eacute; de mettre en &oelig;uvre des changements trop rapidement. La gestion du processus de changement est un moyen de contr&ocirc;ler ces risques et de s&#39;assurer que le changement soit positif.</p>",
         "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "course/fr/images/odi-1-text-image_large.jpg",
-            "medium": "course/fr/images/odi-1-text-image_large.jpg",
-            "small": "course/fr/images/odi-1-text-image_large.jpg",
-            "*source":"http://www.shutterstock.com/pic.mhtml?id=179384507&src=lb-35924366",
-            "*credit":"leromin",
-            "*license":"Shutterstock Standard License"
-        }
-    },
-    {
-        "_id":"c-22",
-        "_parentId":"b-20",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"",
-        "_layout":"left",
-        "title":"L’open data, c’est quoi ?",
-        "displayTitle":"L’open data, c’est quoi ?",
-        "body":"<p>Il s’agit de données auxquelles tout le monde peut accéder et que tout le monde peut utiliser et partager.</p><p>On peut accéder aux données car elles sont disponibles en ligne.</p><p>On peut utiliser les données car elles sont disponibles sous une forme commune et lisible par des machines.</p><p>L’open data doit être sous licence. Cette licence doit en permettre l’usage libre et autoriser les utilisateurs à transformer, combiner et partager ces données, même à des fins commerciales.</p>"
-    },
-     {
-        "_id": "c-25",
-        "_parentId": "b-25",
-        "_classes": "",
-        "_type":"component",
-        "_layout": "full",
-        "_component": "narrative",
-        "title": "De la matière première à l’information et à la connaissance nouvelle",
-        "displayTitle": "De la matière première à l’information et à la connaissance nouvelle",
-        "body": "Sans données, on ne peut pas créer d’information. Et sans information, il n’y a pas de nouvelles connaissances possibles.",
-        "instruction": "<em class='desktop-instruction'>Cliquez sur la flèche pour plus de détail.</em><em class='mobile-instruction'>Cliquez sur la flèche pour plus de détail.</em>",
-        "_items": [
-            {
-                "title": "Les données",
-                "body": "<p>Les données sont le niveau le plus bas de matière première duquel on peut retirer des connaissances.</p><p>Imaginez ainsi les données comme l’ensemble des lieux, des images, des descriptions, des critiques et des prix qui constituent l’information nécessaire à la planification de vos vacances.</p>",
-                "_graphic": {
-                    "src": "course/fr/images/odi-2-narrative_large.jpg",
-                    "alt": "Providing certainty",
-                    "title": "",
-                    "*source":"http://www.shutterstock.com/pic.mhtml?id=240789808&src=lb-35924366",
-                    "*credit":"Anna Frajtova",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "Données"
-            },
-            {
-                "title": "L’information",
-                "body": "<p>Les données deviennent de l’information lorsqu’on leur donne un contexte.</p><p>En s’inspirant de l’exemple précédant, on associe certaines destinations, images, descriptions et prix à une attraction touristique.</p><p>La collecte et la présentation des données constituent l’information.</p>",
-                "_graphic": {
-                    "src": "course/fr/images/odi-3-narrative_large.jpg",
-                    "alt": "A graph of open licences across countries",
-                    "title": "A graph of open licences across countries",
-                    "*source":"http://www.shutterstock.com/pic.mhtml?id=217763944&src=lb-35924366",
-                    "*credit":"Sachezi",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "Informations"
-            },
-            {
-                "title": "Les connaissances",
-                "body": "<p>Les connaissances sont ce qui découle de l’information et l’usage personnalisé que l’on en fait.</p><p>L’acquisition de connaissances consiste en la transformation d’information en choix.</p><p>En s’inspirant de l’exemple précédant, le fait de savoir qu’aucun membre de votre famille n’aime les parcs d’attraction va informer votre décision quant aux destinations à éviter ou à privilégier.</p>",
-                "_graphic": {
-                    "src": "course/fr/images/odi-4-narrative_large.jpg",
-                    "alt": "A map from a to b",
-                    "title": "A map from a to b",
-                    "*source":"http://www.shutterstock.com/pic.mhtml?id=250810483&src=lb-35924366",
-                    "*credit":"Oleksiy Mark",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "Connaissances"
-            }
-        ],
-        "_pageLevelProgress": {
-        "_isEnabled": true
-        }
-    },
-    {
-        "_id":"c-30",
-        "_parentId":"b-28",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"right",
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Assurer la durabilité",
+        "body": "<p>La gestion du processus de changement est essentielle pour sa durabilit&eacute;. Le fait d&#39;avoir un chef de file qui g&egrave;re le processus de changement signifie que le changement est plus susceptible d&#39;&ecirc;tre durable &agrave; long terme. Cela ne doit pas n&eacute;cessairement &ecirc;tre la personne la plus exp&eacute;riment&eacute;e de l&#39;organisation, mais ils doivent &ecirc;tre en mesure de prendre des d&eacute;cisions.</p><p>Ils d&eacute;signent d&#39;autres personnes qui ont les comp&eacute;tences et les responsabilit&eacute;s n&eacute;cessaires pour apporter des modifications dans la fa&ccedil;on dont l&#39;organisation fonctionne afin de conduire le changement &agrave; leur c&ocirc;t&eacute;. C&#39;est particuli&egrave;rement le cas en Europe avec les donn&eacute;es num&eacute;riques et la data o&ugrave; il est maintenant n&eacute;cessaire que les organisations disposent d&#39;un agent de protection des donn&eacute;es s&#39;ils traitent les donn&eacute;es des clients. &Agrave; mesure que les normes num&eacute;riques et ouvertes deviennent les normes, la gestion du changement et ayant les bonnes personnes dans la direction seront essentielles au succ&egrave;s d&#39;une organisation.</p><p>Cela fait &eacute;galement partie de ce r&ocirc;le pour s&#39;assurer que d&#39;autres, internes et externes &agrave; l&#39;organisation, comprennent pourquoi le changement est n&eacute;cessaire et qu&#39;ils soutiennent ce changement. Sans ce soutien, il est peu probable que des changements soient durables.</p>",
         "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "course/fr/images/odi-5-accordion_large.jpg",
-            "medium": "course/fr/images/odi-5-accordion_large.jpg",
-            "small": "course/fr/images/odi-5-accordion_large.jpg",
-            "*source":"http://www.shutterstock.com/pic.mhtml?id=154744388&src=lb-35924366",
-            "*credit":"Oleksiy Mark",
-            "*license":"Shutterstock Standard License"
-        }
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      }
+    ],
+    "_shouldCollapseItems": true
+  },
+  {
+    "_id": "594100a4d084d5167a04fca5",
+    "_layout": "left",
+    "_parentId": "b-07",
+    "_type": "component",
+    "body": "<p><strong>La gestion du changement est...</strong></p>",
+    "displayTitle": "Qu'est-ce que la gestion du changement?",
+    "title": "Qu'est-ce que la gestion du changement?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "mcq",
+    "_pageLevelProgress": {
+      "_isEnabled": true
     },
-    {
-      "_id":"c-35",
-      "_parentId":"b-28",
-      "_type":"component",
-      "_component":"accordion",
-      "_classes":"",
-      "_layout":"left",
-      "title": "Qu’est-ce qui rend les données ‘ouvertes’ ?",
-      "displayTitle": "Qu’est-ce qui rend les données ‘ouvertes’ ?",
-      "body": "<p>Les données sont ouvertes si tout le monde peut y accéder, les utiliser et les partager.<br />Voici quelques idées à prendre en considération lorsque l’on définit ‘ouverte’ :</p>",
-      "instruction": "",
-      "_items": [
-        {
-          "alt": "Restrictions",
-          "title": "Restrictions",
-          "body": "<p>Pour que les données soient ouvertes, il ne doit y avoir aucune restriction quant à leur utilisation, quelle qu’elle soit.</p><p>N’importe quel utilisateur devrait être libre d’utiliser, de modifier, de combiner et de partager les données, même à des fins commerciales.</p>"
-        },
-        {
-          "alt": "Coût",
-          "title": "Coût",
-          "body": "<p>Même si l’utilisation de l’open data doit être libre, cela ne signifie pas que son accès doit être gratuit.</p><p>Il y a souvent un coût associé à la création, à la maintenance et à la publication des données utilisables.</p><p>Idéalement, le prix des données ne devrait pas excéder le coût de reproduction de la donnée demandé.</p><p>Ce coût est souvent négligeable pour de nombreux ensembles de données.</p><p>Les données en temps réel et les contenus lourds peuvent cependant engager des frais continus afin de garantir leur fiabilité.</p>"
-        },
-        {
-          "alt": "Réutilisation",
-          "title": "Réutilisation",
-          "body": "<p>Une fois que l’utilisateur possède toutes les données, il est libre de les utiliser, de les réutiliser et de les redistribuer, même à des fins commerciales.</p><p>On mesure les données ouvertes en fonction des possibilités d’utilisation, et non en fonction de leur mise à disposition.</p><p>Certains aspects, comme le format, la structure et la lisibilité par une machine, rendent les données plus facilement utilisables et doivent donc être soigneusement considérés.</p><p>Cependant, ces éléments ne rendent pas les données plus ouvertes.</p>"
-        }
-      ],
-      "_pageLevelProgress": {
-        "_isEnabled": true
+    "instruction": "",
+    "_items": [
+      {
+        "text": "Le processus d'introduction d'une transition, d'un changement ou d'un développement à long terme dans une organisation",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "Le processus d'introduction d'une altération ou d'un changement à court terme dans le secteur public",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "Le processus de publication de données ouvertes",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": false,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_feedback": {
+      "correct": "<p><strong>Vous avez raison!</strong></p><p>La gestion du changement est le processus d&#39;introduction d&#39;une transition &agrave; long terme, le changement ou le d&eacute;veloppement d&#39;une organisation.</p>",
+      "_incorrect": {
+        "final": "<p><strong>&Ecirc;tes-vous s&ucirc;r?</strong></p><p dir=\"ltr\">!La gestion du changement est le processus d&#39;introduction d&#39;une transition &agrave; long terme, le changement ou le d&eacute;veloppement d&#39;une organisation.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
       }
     },
-     {
-        "_id": "c-40",
-        "_parentId": "b-30",
-        "_classes": "",
-        "_type":"component",
-        "_layout": "full",
-        "_component": "narrative",
-        "title": "Pourquoi a-t-on besoin ?",
-        "displayTitle": "Pourquoi a-t-on besoin ?",
-        "body": "Les données ouvertes ont le pouvoir de produire des avantages divers pour les gouvernements, les entreprises et la société civile.",
-        "instruction": "<em class='desktop-instruction'>Cliquez sur la flèche pour plus de détail.</em><em class='mobile-instruction'>Cliquez sur la flèche pour plus de détail.</em>",
-        "_items": [
-            {
-                "title": "Transformation gouvernementale",
-                "body": "<p>L’open data permet une plus grande transparence pour les gouvernements. Il peut aider à prouver que les fonds publics sont dépensés à bon escient et que les politiques sont bien implémentées.</p><p>Ainsi, selon un militant pour le gouvernement ouvert (« open government activist ») David Eaves, l’open data a permis aux citoyens canadiens d’économiser 3, 2 milliards de dollars en dons frauduleux aux associations caritatives en 2010.<br /><a href='http://eaves.ca/2010/04/14/case-study-open-data-and-the-public-purse/' target='_blank'>Lien vers l’article de David Eaves</a></p><p>Un autre exemple, au Nigeria cette fois, où selon Follow the Money, le même processus garantit que les fonds publics sont bel et bien utilisés pour mettre en œuvre les politiques promises au peuple.<br /><a href='http://followthemoneyng.org/' target='_blank'>Lien vers Follow the Money</a></p>",
-                "_graphic": {
-                    "src": "course/fr/images/odi-6-narrative_large.jpg",
-                    "alt": "Transform government",
-                    "title": "Transform government",
-                    "*source":"http://www.shutterstock.com/pic.mhtml?id=265940657&src=lb-35924366",
-                    "*credit":"hxdyl",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "Transform government"
-            },
-            {
-                "title": "Nouvelles opportunités d'entreprise",
-                "body": "<p>L’open data ouvre de nouvelles opportunités pour que les entreprises établissent un rapport avec leurs clients.</p><p>Transport for London a publié des données ouvertes qui ont permis la création de plus de 800 applications de transport.<br /><a href='http://www.tfl.gov.uk/' target='_blank'>Lien vers Transport for London</a></p><p>Thomson Reuters utilise les données ouvertes pour mieux communiquer avec les clients existants et afin de fournir de meilleurs services.<br /><a href='http://site.thomsonreuters.com/site/data-identifiers/' target='_blank'>Lien vers Thomson Reuters</a></p><p>Aujourd’hui, la start-up ODI a plus de 70 employés avec un revenu de plus de 4 million de livres.<br /><a href='http://theodi.org/odis-second-year-annual-report' target='_blank'>Lien vers le rapport annual de l’ODI</a></p>",
-                "_graphic": {
-                    "src": "course/fr/images/odi-7-narrative_large.jpg",
-                    "alt": "Build new business opportunities",
-                    "title": "Build new business opportunities",
-                    "*source":"http://www.shutterstock.com/pic.mhtml?id=149924576&src=lb-35924366",
-                    "*credit":"Sergey Nivens",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "Build new business opportunities"
-            },
-            {
-                "title": "Protéger notre planète",
-                "body": "<p>Le web est devenu une partie intégrante de notre infrastructure et l’open data va contribuer à ce développement.</p><p>Les données ouvertes concernant la météo permettent par exemple de donner l’alerte rapidement en cas de catastrophes naturelles.<br /><a href='http://www.un.org/apps/news/story.asp?NewsID=13077&Cr=natural&Cr1=disaster#.VVyWK_lVhBc' target='_blank'>Lien vers le Centre d’actualités de l’ONU.</a></p><p>Les données ouvertes aident les consommateurs à comprendre leur impact sur l’environnement et à prendre des mesures pour l’améliorer.<br /><a href='https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/39386/12-1324-better-choices-better-deals-report-on-progress-on-the-consumer-empowerment-strategy.pdf' target='_blank'>Lien vers le rapport de Better Choices Better Deals.</a></p>",
-                "_graphic": {
-                    "src": "course/fr/images/odi-8-narrative_large.jpg",
-                    "alt": "Protect our planet",
-                    "title": "Protect our planet",
-                    "*source":"http://www.shutterstock.com/pic.mhtml?id=261740228&src=lb-35924366",
-                    "*credit":"hbpictures",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "Protect our planet"
-            }
-        ],
-        "_pageLevelProgress": {
-        "_isEnabled": true
-        }
-    }, {
-        "_id":"c-42",
-        "_parentId":"b-33",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"right",
-        "title":"",
-        "displayTitle":"",
-        "body":"",
-        "instruction":"",
-        "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "course/fr/images/burst.png",
-            "medium": "course/fr/images/burst.png",
-            "small": "course/fr/images/burst.png"
-        }
-    },
-    {
-        "_id":"c-43",
-        "_parentId":"b-33",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"",
-        "_layout":"left",
-        "title":"Êtes-vous prêt(e) pour l’open data ?",
-        "displayTitle":"Êtes-vous prêt(e) pour l’open data ?",
-        "body":"<p>Il y a quatre éléments utiles à prendre en considération quand on pense à ouvrir ses données aux utilisateurs. Saurez-vous vous en souvenir?</p>",
-        "instruction":"",
-        "_pageLevelProgress": {
-            "_isEnabled": true
-        }
-    },
-    {
-        "_id":"c-45",
-        "_parentId":"b-35",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"illustration",
-        "_layout":"right",
-        "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "course/fr/images/odi-9-mcq-image_large.jpg",
-            "medium": "course/fr/images/odi-9-mcq-image_large.jpg",
-            "small": "course/fr/images/odi-9-mcq-image_large.jpg",
-            "*source":"http://www.shutterstock.com/pic.mhtml?id=179384507&src=lb-35924366",
-            "*credit":"leromin",
-            "*license":"Shutterstock Standard License"
-        }
-    },
-    {
-        "_id":"c-50",
-        "_parentId":"b-35",
-        "_type":"component",
-        "_component":"mcq",
-        "_classes":"",
-        "_layout":"left",
-        "_attempts":1,
-        "_questionWeight":1,
-        "_isRandom":true,
-        "_selectable":1,
-        "title": "L’open data, c’est quoi ?",
-        "displayTitle": "L’open data, c’est quoi ?",
-        "body": "<p>L’open data, c’est…</p>",
-        "instruction": "<em>Choisissez votre réponse et puis cliquez sur ‘Valider’.</em>",
-        "_items": [
-            {
-                "text": "des informations que l’on vend aux entreprises.",
-                "_shouldBeSelected": false
-            },
-            {
-                "text": "des données auxquelles tout le monde peut accéder et que tout le monde peut utiliser et partager",
-                "_shouldBeSelected": true
-            },
-            {
-                "text": "des données visibles en ligne.",
-                "_shouldBeSelected": false
-            }
-        ],
-        "_feedback":{
-            "correct":"<h5>Vous avez raison !</h5><p>L’open data, ce sont des données auxquelles tout le monde peut accéder et que tout le monde peut utiliser et partager. Les données ouvertes doivent avoir une licence permettant leur utilisation libre et doivent pouvoir être utilisées à des fins commerciales.</p>",
-            "_incorrect": {
-                "notFinal": "<h5>Êtes vous sûr(e) ? </h5><p>L’open data, ce sont des données auxquelles tout le monde peut accéder et que tout le monde peut utiliser et partager. Les données ouvertes doivent avoir une licence permettant leur utilisation libre et doivent pouvoir être utilisées à des fins commerciales.</p>",
-                "final": "<h5>Êtes vous sûr(e) ? </h5><p>L’open data, ce sont des données auxquelles tout le monde peut accéder et que tout le monde peut utiliser et partager. Les données ouvertes doivent avoir une licence permettant leur utilisation libre et doivent pouvoir être utilisées à des fins commerciales.</p>"
-            },
-            "_partlyCorrect": {
-                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-          }
-        },
-        "_buttons":{
+    "_buttons":{
             "submit":"Valider",
             "reset":"",
             "showCorrectAnswer":"",
             "hideCorrectAnswer":""
-        },
-        "_pageLevelProgress": {
-        "_isEnabled": true
+        }
+  },
+  {
+    "_id": "594100a4d084d5167a04fca6",
+    "_layout": "right",
+    "_parentId": "b-08",
+    "_type": "component",
+    "body": "<p><strong>La gestion du changement est importante parce que...</strong></p>",
+    "displayTitle": "Pourquoi la gestion du changement est-elle importante?",
+    "title": "Pourquoi la gestion du changement est-elle importante?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "mcq",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_items": [
+      {
+        "text": "Vous pouvez utiliser les dernières techniques et stratégies",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "Elle aide à assurer la durabilité et à réduire les risques",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "Le projet recevra plus de budget et de ressources",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_feedback": {
+      "correct": "<p><strong>Vous avez raison!</strong></p><p>La gestion du changement est importante pour la r&eacute;ussite d&#39;un programme, d&#39;un projet ou d&#39;une initiative, car elle permet d&#39;assurer la durabilit&eacute; et&nbsp;r&eacute;duire les risques.</p>",
+      "_incorrect": {
+        "final": "<p><strong>&Ecirc;tes-vous s&ucirc;r?</strong></p><p>La gestion du changement est importante pour la r&eacute;ussite d&#39;un programme, d&#39;un projet ou d&#39;une initiative, car elle permet d&#39;assurer la durabilit&eacute; et&nbsp;r&eacute;duire les risques.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
       }
     },
-    {
-        "_id":"c-55",
-        "_parentId":"b-40",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"illustration",
-        "_layout":"left",
-        "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "course/fr/images/odi-10-mcq_large.jpg",
-            "medium": "course/fr/images/odi-10-mcq_large.jpg",
-            "small": "course/fr/images/odi-10-mcq_large.jpg",
-            "*source":"http://www.shutterstock.com/pic.mhtml?id=240789808&src=lb-35924366",
-            "*credit":"Anna Frajtova",
-            "*license":"Shutterstock Standard License",
-            "*source":"http://www.shutterstock.com/pic.mhtml?id=217763944&src=lb-35924366",
-            "*credit":"Sachezi",
-            "*license":"Shutterstock Standard License",
-            "*source":"http://www.shutterstock.com/pic.mhtml?id=250810483&src=lb-35924366",
-            "*credit":"Oleksiy Mark",
-            "*license":"Shutterstock Standard License"
-        }
-    },
-    {
-        "_id":"c-60",
-        "_parentId":"b-40",
-        "_type":"component",
-        "_component":"mcq",
-        "_classes":"",
-        "_layout":"right",
-        "_attempts":1,
-        "_questionWeight":1,
-        "_isRandom":true,
-        "_selectable":1,
-        "title": "Qu’entend-on par données ?",
-        "displayTitle": "Qu’entend-on par données ?",
-        "body": "<p>Les données sont...</p>",
-        "instruction": "<em>Choisissez votre réponse et puis cliquez sur ‘Valider’.</em>",
-        "_items": [
-            {
-                "text": "des chiffres, des mots, des cartes et des photos.",
-                "_shouldBeSelected": false
-            },
-            {
-                "text": "des informations en ligne.",
-                "_shouldBeSelected": false
-            },
-            {
-                "text": "la matière première  de l’information et de la connaissance.",
-                "_shouldBeSelected": true
-            }
-        ],
-        "_feedback":{
-            "correct":"<h5>Vous avez raison !</h5><p>Les données sont le niveau le plus bas de matières premières duquel on peut retirer des connaissances.</p>",
-            "_incorrect": {
-                "notFinal": "<h5>Êtes vous sûr(e) ? </h5><p>Les données sont le niveau le plus bas de matières premières duquel on peut retirer des connaissances.</p>",
-                "final": "<h5>Êtes vous sûr(e) ? </h5><p>Les données sont le niveau le plus bas de matières premières duquel on peut retirer des connaissances.</p>"
-            },
-            "_partlyCorrect": {
-                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-          }
-        },
-        "_buttons":{
+    "_buttons":{
             "submit":"Valider",
             "reset":"",
             "showCorrectAnswer":"",
             "hideCorrectAnswer":""
-        },
-        "_pageLevelProgress": {
-        "_isEnabled": true
+        }
+  },
+  {
+    "_id": "594100a4d084d5167a04fca7",
+    "_layout": "left",
+    "_parentId": "b-09",
+    "_type": "component",
+    "body": "<p><strong>Les trois &eacute;l&eacute;ments cl&eacute;s de&nbsp;la gestion du&nbsp;changement&nbsp;sont...</strong></p>",
+    "displayTitle": "Quels sont les éléments clés de la gestion du changement?",
+    "title": "Quels sont les éléments clés de la gestion du changement?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "mcq",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_items": [
+      {
+        "text": "En employant la bonne terminologie, travailler à partir de la base et introduire le changement rapidement",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "Avoir une vision et un leadership clairs, communiquer l'impact et établir des mesures",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "Travailler de haut en bas, imposer le changement et l'appliquer rapidement",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_feedback": {
+      "correct": "<p><strong>Vous avez raison!</strong></p><p>Les trois &eacute;l&eacute;ments cl&eacute;s de la gestion du changement sont les suivants: avoir une vision et un leadership clairs, communiquer l&#39;impact et &eacute;tablir des indicateurs.</p>",
+      "_incorrect": {
+        "final": "<p><strong>&Ecirc;tes-vous s&ucirc;r?</strong></p><p>Les trois &eacute;l&eacute;ments cl&eacute;s de la gestion du changement sont les suivants: avoir une vision et un leadership clairs, communiquer l&#39;impact et &eacute;tablir des indicateurs.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
       }
     },
-    {
-        "_id":"c-65",
-        "_parentId":"b-45",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"illustration",
-        "_layout":"right",
-        "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "course/fr/images/odi-11-mcq_large.jpg",
-            "medium": "course/fr/images/odi-11-mcq_large.jpg",
-            "small": "course/fr/images/odi-11-mcq_large.jpg",
-            "*source":"http://www.shutterstock.com/pic.mhtml?id=154744388&src=lb-35924366",
-            "*credit":"Oleksiy Mark",
-            "*license":"Shutterstock Standard License"
-        }
-    },
-    {
-        "_id":"c-70",
-        "_parentId":"b-45",
-        "_type":"component",
-        "_component":"mcq",
-        "_classes":"",
-        "_layout":"left",
-        "_attempts":1,
-        "_questionWeight":1,
-        "_isRandom":true,
-        "_selectable":1,
-        "title": "Qu’est ce qui rend les données ouvertes ?",
-        "displayTitle": "Qu’est ce qui rend les données ouvertes ?",
-        "body": "<p>Les données ouvertes doivent...</p>",
-        "instruction": "<em>Choisissez votre réponse et puis cliquez sur ‘Valider’.</em>",
-        "_items": [
-            {
-                "text": "être libres de toute limite en ce qui concerne leur utilisation.",
-                "_shouldBeSelected": true
-            },
-            {
-                "text": "comporter des limites d’utilisation.",
-                "_shouldBeSelected": false
-            },
-            {
-                "text": "être publiées de manière sélective et payante.",
-                "_shouldBeSelected": false
-            }
-        ],
-        "_feedback":{
-            "correct":"<h5>Vous avez raison !</h5><p>S’il y a une quelconque limitation quant à l’utilisation libre des données (par exemple une limitation non-commerciale), celles-ci ne peuvent pas être considérées comme ‘ouvertes’.</p>",
-            "_incorrect": {
-                "notFinal": "<h5>Êtes vous sûr(e) ? </h5><p>S’il y a une quelconque limitation quant à l’utilisation libre des données (par exemple une limitation non-commerciale), celles-ci ne peuvent pas être considérées comme ‘ouvertes’.</p>",
-                "final": "<h5>Êtes vous sûr(e) ? </h5><p>S’il y a une quelconque limitation quant à l’utilisation libre des données (par exemple une limitation non-commerciale), celles-ci ne peuvent pas être considérées comme ‘ouvertes’.</p>"
-            },
-            "_partlyCorrect": {
-                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-          }
-        },
-        "_buttons":{
+    "_buttons":{
             "submit":"Valider",
             "reset":"",
             "showCorrectAnswer":"",
             "hideCorrectAnswer":""
-        },
-        "_pageLevelProgress": {
-        "_isEnabled": true
-      }
+        }
+  },
+  {
+    "_id": "594100a4d084d5167a04fca8",
+    "_layout": "full",
+    "_parentId": "b-05",
+    "_type": "component",
+    "body": "<p dir=\"ltr\">Il existe plusieurs &eacute;l&eacute;ments cl&eacute;s n&eacute;cessaires pour une gestion efficace du changement au sein d&#39;une organisation. Ces &eacute;l&eacute;ments sont pertinents pour les deux secteurs, priv&eacute; et public.</p>",
+    "displayTitle": "Quels sont les éléments clés de la gestion du changement?",
+    "title": "Quels sont les éléments clés de la gestion du changement?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "narrative",
+    "_pageLevelProgress": {
+      "_isEnabled": true
     },
-    {
-        "_id":"c-75",
-        "_parentId":"b-50",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"illustration",
-        "_layout":"left",
+    "instruction": "",
+    "mobileInstruction": "",
+    "_hasNavigationInTextArea": false,
+    "_setCompletionOn": "allItems",
+    "_items": [
+      {
+        "title": "Vision claire",
+        "body": "<p dir=\"ltr\">Une vision claire est importante pour la gestion du changement afin d&#39;obtenir un soutien interne et externe &agrave; l&#39;initiative. Cette vision devrait s&#39;aligner avec les objectifs de l&#39;organisation, sinon elle entrera en conflit avec les valeurs, la marque ou l&#39;image de l&#39;organisation.</p><p>En ce qui concerne les donn&eacute;es ouvertes, cette vision devrait d&eacute;crire des aspects tels que l&#39;ouverture par d&eacute;faut, o&ugrave; toutes les donn&eacute;es seront disponibles et sous quelle licence.</p><p>Le responsable du projet doit pouvoir articuler cette vision pour assurer son soutien interne et externe.</p><p>En France, <a href=\"http://www.computerweekly.com/news/450284803/France-takes-the-lead-in-the-global-open-data-race\">un responsable des donn&eacute;es du gouvernement</a> a &eacute;t&eacute; nomm&eacute; pour effectuer ces t&acirc;ches, &eacute;tablissant un rapport des progr&egrave;s r&eacute;alis&eacute;s en mati&egrave;re d&#39;obtention du soutien &agrave; l&#39;int&eacute;rieur et &agrave; l&#39;ext&eacute;rieur du gouvernement.</p>",
         "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "course/fr/images/odi-12-mcq_large.jpg",
-            "medium": "course/fr/images/odi-12-mcq_large.jpg",
-            "small": "course/fr/images/odi-12-mcq_large.jpg",
-            "*source":"http://www.shutterstock.com/pic.mhtml?id=149924576&src=lb-35924366",
-            "*credit":"Sergey Nivens",
-            "*license":"Shutterstock Standard License"
-        }
-    },
-    {
-        "_id":"c-80",
-        "_parentId":"b-50",
-        "_type":"component",
-        "_component":"mcq",
-        "_classes":"",
-        "_layout":"right",
-        "_attempts":1,
-        "_questionWeight":1,
-        "_isRandom":true,
-        "_selectable":1,
-        "title": "Pourquoi a-t-on besoin de l’open data ?",
-        "displayTitle": "Pourquoi a-t-on besoin de l’open data ?",
-        "body": "<p>Quel est le potentiel de l’open data ?</p>",
-        "instruction": "<em>Choisissez votre réponse et puis cliquez sur ‘Valider’.</em>",
-        "_items": [
-            {
-                "text": "Donner accès à d’autres ensembles de données.",
-                "_shouldBeSelected": false
-            },
-            {
-                "text": "Rendre les gouvernements plus responsables.",
-                "_shouldBeSelected": false
-            },
-            {
-                "text": "Générer de la valeur sociale, environnementale et économique.",
-                "_shouldBeSelected": true
-            }
-        ],
-        "_feedback":{
-            "correct":"<h5>Vous avez raison !</h5><p>L’open data peut transformer l’interaction entre les gouvernements, les entreprises et les individus. Il a le potentiel d’améliorer les services, de contribuer à la croissance économique et de sauver notre planète.</p>",
-            "_incorrect": {
-                "notFinal": "<h5>Êtes vous sûr(e) ? </h5><p>L’open data peut transformer l’interaction entre les gouvernements, les entreprises et les individus. Il a le potentiel d’améliorer les services, de contribuer à la croissance économique et de sauver notre planète.</p>",
-                "final": "<h5>Êtes vous sûr(e) ? </h5><p>L’open data peut transformer l’interaction entre les gouvernements, les entreprises et les individus. Il a le potentiel d’améliorer les services, de contribuer à la croissance économique et de sauver notre planète.</p>"
-            },
-            "_partlyCorrect": {
-                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-          }
+          "src": "course/fr/assets/e476d5412f3c230ba6365724bc2935db25901c21.jpg",
+          "alt": "",
+          "attribution": "<a href=\"http://www.shutterstock.com/pic-238771996.html\" target=\"_blank\">Mangsaab</a> <span class='assetLicence'>[Shutterstock standard licence]</span>"
         },
-        "_buttons":{
-            "submit":"Valider",
-            "reset":"",
-            "showCorrectAnswer":"",
-            "hideCorrectAnswer":""
-        },
-        "_pageLevelProgress": {
-        "_isEnabled": true
-      }
-    },
-    {
-        "_id":"c-85",
-        "_parentId":"b-55",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"right",
+        "strapline": "Vision claire"
+      },
+      {
+        "title": "Plan de gestion des données",
+        "body": "<p>Chaque organisation devrait disposer d&#39;un plan de gestion des donn&eacute;es qui explique comment les donn&eacute;es sont stock&eacute;es, sauvegard&eacute;es et accessibles. Les donn&eacute;es font partie de l&#39;infrastructure d&#39;une entreprise moderne, tout comme les b&acirc;timents et autres ressources, il n&eacute;cessite une gestion prudente.</p><p>Les donn&eacute;es ouvertes ne doivent pas &ecirc;tre consid&eacute;r&eacute;es comme une activit&eacute; distincte dans les activit&eacute;s cl&eacute;s de gestion des donn&eacute;es. Un bon point de d&eacute;part pour int&eacute;grer les donn&eacute;es ouvertes &agrave; votre plan de gestion des donn&eacute;es est d&#39;y appliquer la vision. Cela aide &agrave; assurer l&#39;int&eacute;gration de la strat&eacute;gie dans les processus &agrave; long terme et les proc&eacute;dures d&#39;exploitation de l&#39;organisation.</p>",
         "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "course/fr/images/summary-icon.png",
-            "medium": "course/fr/images/summary-icon.png",
-            "small": "course/fr/images/summary-icon.png",
-            "*source":"http://www.shutterstock.com/pic-189810137.html",
-            "*credit":"Kritchanut",
-            "*license":"Shutterstock Standard License"
-        }
+          "src": "course/fr/assets/641546c15c0af8c554b833be3cc3dfc09ac0b997.jpg",
+          "alt": "",
+          "attribution": "<a href=\"theodi.org\" target=\"_blank\">Sponge UK</a> <span class='assetLicence'>[CC-BY]</span>"
+        },
+        "strapline": "Plan de gestion des données"
+      },
+      {
+        "title": "L'adhésion de la haute direction",
+        "body": "<p>Comme programme de changement, il est commun &agrave; ceux qui le conduisent de rencontrer une certaine r&eacute;sistance au sein de leurs organisations.</p><p>Le soutien actif de hauts responsables peut aider &agrave; encourager l&#39;adh&eacute;sion institutionnelle.</p><p>Travailler avec ces hauts responsables est essentiel, car une &laquo;strat&eacute;gie d&#39;insurrection&raquo; pour introduire des changements est peu susceptible d&#39;&ecirc;tre durable.</p>",
+        "_graphic": {
+          "src": "course/fr/assets/4b63c6af07902f3f8460f8a4ca00a26d4df61cf9.jpg",
+          "alt": "",
+          "attribution": "<a href=\"https://pixabay.com/en/building-blocks-toys-block-building-717309/\" target=\"_blank\">Spowell</a> <span class='assetLicence'>[CC0]</span>"
+        },
+        "strapline": "L'adhésion de la haute direction"
+      },
+      {
+        "title": "Les Métriques",
+        "body": "<p dir=\"ltr\">En plus d&#39;un plan de gestion des donn&eacute;es, les organisations doivent mettre en place des processus cl&eacute;s et des cycles de vie qui d&eacute;taillent la fa&ccedil;on de se transmettre, puis conserver leurs donn&eacute;es ouvertes.</p><p>L&#39;alignement de ces plans et cycles de vie avec les indicateurs cl&eacute;s de performance (KPI) pour &eacute;valuer leur succ&egrave;s aidera &agrave; justifier l&#39;investissement de temps et d&#39;argent dans le programme de changement.</p><p>Lors de la conception de KPI, pensez &agrave; ce qui aura le plus d&#39;impact. Dans le cadre des initiatives de donn&eacute;es ouvertes, ne pensez pas seulement &agrave; l&#39;&eacute;troitesse du nombre d&#39;ensembles de donn&eacute;es mis en ligne, mais aussi &agrave; leur impact et &agrave; leur alignement sur des mesures externes de succ&egrave;s, y compris l&#39;indice d&#39;<a href=\"http://www.europeandataportal.eu/en/highlights/open-data-maturity-europe\">Open Data Maturity</a> de la European Data Portal, qui est une bonne mesure du changement au sein des pays.</p>",
+        "_graphic": {
+          "src": "course/fr/assets/2b5ec4242610756a70a3b5e12afaf1626f3f0d02.jpg",
+          "alt": "",
+          "attribution": "<a href=\"https://www.shutterstock.com/image-vector/3d-illustration-concept-kpi-174926546\" target=\"_blank\">leromin</a> <span class='assetLicence'>[Shutterstock standard licence]</span>"
+        },
+        "strapline": "Les Métriques"
+      },
+      {
+        "title": "Communication de l'impact",
+        "body": "<p dir=\"ltr\">Comprendre l&#39;impact d&#39;un processus de changement aidera &agrave; s&eacute;curiser son avenir.</p><p>Ceux qui stimulent un programme de changement devraient se concentrer sur l&#39;impact tangible qui r&eacute;sulte directement du programme. Un bon endroit pour se concentrer est une victoire rapide: des domaines o&ugrave; un faible effort aura un impact imm&eacute;diat.</p><p>Une communication claire des histoires d&#39;impact aidera &agrave; obtenir le soutien de tous les acteurs impliqu&eacute;s dans le programme.</p><p>Dans le secteur public, de nombreux pays pr&eacute;sentent des exemples o&ugrave; d&#39;autres utilisent leurs donn&eacute;es ouvertes, y compris l&#39;<a href=\"http://datos.gob.es/es/iniciativas\">Espagne</a>, l&#39;<a href=\"http://data.gov.ie/showcase\">Irlande</a> et la <a href=\"http://www.data.gouv.fr/fr/\">France</a>.</p>",
+        "_graphic": {
+          "src": "course/fr/assets/1eef9340d96e57e84343777b61a3c23d138d02d7.jpg",
+          "alt": "",
+          "attribution": "<a href=\"http://www.shutterstock.com/pic.mhtml?id=149924576&src=lb-35924366\" target=\"_blank\">Sergey Nivens</a> <span class='assetLicence'>[Shutterstock standard licence]</span>"
+        },
+        "strapline": "Communication de l'impact"
+      },
+      {
+        "title": "Prioritiés alignées",
+        "body": "<p>Aligner les priorit&eacute;s du projet, programme ou initiative avec les priorit&eacute;s de la personne responsable du budget.</p><p>Cela pourrait &ecirc;tre le chef de la direction de votre entreprise, ou l&#39;organisation qui g&egrave;re votre financement. Il pourrait m&ecirc;me s&#39;agir de vos clients qui demandent des donn&eacute;es ouvertes qu&#39;ils peuvent partager avec d&#39;autres, comme c&#39;&eacute;tait le cas pour Thomson Reuters. Vous pouvez lire le rapport complet <a href=\"http://theodi.org/guides/data-identifiers-white-paper\">ici</a>.</p><p>Aligner vos priorit&eacute;s contribuera &agrave; assurer la durabilit&eacute; et l&#39;impact de votre programme.</p>",
+        "_graphic": {
+          "src": "course/fr/assets/9c3de5f537e98a14db0f4e0fe6cf366efcb5ce4c.jpg",
+          "alt": "",
+          "attribution": "<a href=\"https://www.shutterstock.com/image-vector/background-colorful-airplanes-vector-illustration-103013084?src=id\" target=\"_blank\">Laralova</a> <span class='assetLicence'>[Shutterstock standard licence]</span>"
+        },
+        "strapline": "Prioritiés alignées"
+      }
+    ]
+  },
+  {
+    "_id": "594100a4d084d5167a04fca9",
+    "_layout": "left",
+    "_parentId": "b-10",
+    "_type": "component",
+    "body": "<p>La gestion du changement est le processus&nbsp;d&#39;introduction &agrave; une transition, un changement ou un d&eacute;veloppement &agrave; long terme au sein d&#39;une organisation.</p><p>Une gestion efficace est essentielle pour le succ&egrave;s de tout projet ou initiative, et un programme de changement n&#39;est pas diff&eacute;rent.</p><p>Les &eacute;l&eacute;ments cl&eacute;s d&#39;un programme de changement r&eacute;ussi incluent une propri&eacute;t&eacute; et une vision claires, l&#39;adh&eacute;sion de la haute direction, la mesure du succ&egrave;s gr&acirc;ce &agrave; des indicateurs clairs et la communication de cet impact.</p>",
+    "displayTitle": "Gestion du changement au sein de l'open data",
+    "title": "Gestion du changement au sein de l'open data",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
     },
-    {
-        "_id":"c-90",
-        "_parentId":"b-55",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"",
-        "_layout":"left",
-        "title":"Données ouvertes - veni, vidi, vici",
-        "displayTitle":"Données ouvertes - veni, vidi, vici",
-        "body":"<p>Les données ouvertes, ou ‘open data’, sont des données auxquelles n’importe qui peut accéder et que tout le monde peut utiliser et partager.</p><p>Les données ouvertes sont une matière première pour l’ère du numérique mais à la différence du charbon, du bois ou des diamants, elles peuvent être utilisées par n’importe qui et à n’importe quel moment.</p><p>Toute limitation mise en place sur l’usage libre de l’open data en limitera le potentiel d’utilisation.</p><p>L’open data peut transformer l’interaction entre les gouvernements, les entreprises et les individus. Il a le potentiel d’améliorer des services, de contribuer à la croissance économiques et de sauver notre planète.</p><p>Lors du prochain module, nous verrons dans quelle mesure l’open data peut générer de la valeur.</p><p><a class='course_link' href='module2/'>Prochain module</a></p><p><a class='course_link' href='index.html'>Menu principal</a></p>",
-        "_pageLevelProgress": {
-          "_isEnabled": true
-        }
-    },
-    {
+    "instruction": ""
+  },
+  {
        "_id":"c-95",
-       "_parentId":"b-55",
+       "_parentId":"b-10",
        "_type":"component",
        "_component":"text",
        "_classes":"separator",
@@ -604,7 +613,7 @@
     },
     {
         "_id":"c-100",
-        "_parentId":"b-55",
+        "_parentId":"b-10",
         "_type":"component",
         "_component":"graphic",
         "_classes":"footer-logo",
@@ -622,7 +631,7 @@
     },
     {
         "_id":"c-105",
-        "_parentId":"b-55",
+        "_parentId":"b-10",
         "_type":"component",
         "_component":"text",
         "_classes":"social-buttons",
