@@ -1,602 +1,849 @@
 [
-    {
-        "_id":"c-01",
-        "_parentId":"b-01",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"intro-logo",
-        "_layout":"right",
-        "title":"",
-        "displayTitle":"",
-        "body":"",
-        "instruction":"",
-        "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "",
-            "medium": "",
-            "small": "",
-            "*source":"",
-            "*credit":"",
-            "*license":""
-        }
+  {
+    "_id": "5940f4efd084d5167a04fb64",
+    "_layout": "right",
+    "_parentId": "b-01",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "",
+    "title": "Component title",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "intro-logo",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
     },
-    {
-        "_id":"c-02",
-        "_parentId":"b-01",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"",
-        "_layout":"left",
-        "title":"L’open data, c’est quoi ?",
-        "displayTitle":"L’open data, c’est quoi ?",
-	"body": "<p>Il s’agit de données auxquelles tout le monde peut accéder et que tout le monde peut utiliser et partager. Les gouvernements, les entreprises et les individus peuvent utiliser l’open data afin de créer des avantages sociaux, économiques et environnementaux.</p><h5>Dans ce module, nous allons explorer les points suivants :</h5><ul class='ticks'><li>L’open data (ou ‘données ouvertes’), c’est quoi ?</li><li>Qu’entend-on par données ?</li><li>Qu’est ce qui rend les données ‘ouvertes’?</li><li>Pourquoi en a-t-on besoin?</li></ul>",
-        "instruction":"",
-        "_pageLevelProgress": {
-            "_isEnabled": true
-        }
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/6674b6d19f88e77b508eaea51cc20c51c91e6fcf.png",
+      "small": "course/en/assets/6674b6d19f88e77b508eaea51cc20c51c91e6fcf.png",
+      "attribution": ""
+    }
+  },
+  {
+    "_id": "5940f4f0d084d5167a04fb65",
+    "_layout": "left",
+    "_parentId": "b-08",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "Êtes-vous prêt à vous mobiliser pour l'open data?",
+    "title": "Êtes-vous prêt à vous mobiliser pour l'open data?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
     },
-    {
-    "_id":"c-11",
-    "_parentId":"b-10",
-    "_type":"component",
-    "_component":"iFrame-vimeo",
-    "_classes":"",
-    "_layout":"full",
-        "title":"Découvrir l’Open Data- en 2 minutes",
-        "displayTitle": "Découvrir l’Open Data- en 2 minutes",
-        "body": "Formateur à l’ODI, Dr. David Tarrant explique ce qu’on entend par données, ce qui les rend ouvertes et pourquoi l’open data est nécessaire.",
-        "instruction": "",
-        "_setCompletionOn":"ended",
-        "_source": "https://player.vimeo.com/video/129196637",
-        "_width": {
-            "_small" : 300,
-            "_medium" : 500,
-            "_large" : 905
-        },
-        "_height": {
-            "_small" : 250,
-            "_medium" : 350,
-            "_large" : 508
-        }
+    "instruction": ""
+  },
+  {
+    "_id": "5940f4f0d084d5167a04fb66",
+    "_layout": "left",
+    "_parentId": "b-07",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "Component title",
+    "title": "Component title",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
     },
-    {
-        "_id":"c-21",
-        "_parentId":"b-20",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"right",
-        "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "course/fr/images/odi-1-text-image_large.jpg",
-            "medium": "course/fr/images/odi-1-text-image_large.jpg",
-            "small": "course/fr/images/odi-1-text-image_large.jpg",
-            "*source":"http://www.shutterstock.com/pic.mhtml?id=179384507&src=lb-35924366",
-            "*credit":"leromin",
-            "*license":"Shutterstock Standard License"
-        }
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/7c1475d034cb3de18e7b927d189ddd5185822c67.jpg",
+      "small": "course/en/assets/7c1475d034cb3de18e7b927d189ddd5185822c67.jpg",
+      "attribution": "<a href=\"http://www.freepik.com\" target=\"_blank\">D3Images / Freepik</a> <span class='assetLicence'>[CC-BY]</span>"
+    }
+  },
+  {
+    "_id": "5940f4f0d084d5167a04fb67",
+    "_layout": "right",
+    "_parentId": "b-03",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "Component title",
+    "title": "Component title",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
     },
-    {
-        "_id":"c-22",
-        "_parentId":"b-20",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"",
-        "_layout":"left",
-        "title":"L’open data, c’est quoi ?",
-        "displayTitle":"L’open data, c’est quoi ?",
-        "body":"<p>Il s’agit de données auxquelles tout le monde peut accéder et que tout le monde peut utiliser et partager.</p><p>On peut accéder aux données car elles sont disponibles en ligne.</p><p>On peut utiliser les données car elles sont disponibles sous une forme commune et lisible par des machines.</p><p>L’open data doit être sous licence. Cette licence doit en permettre l’usage libre et autoriser les utilisateurs à transformer, combiner et partager ces données, même à des fins commerciales.</p>"
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/86a681b57d12594816d4184f7772e603f5413623.png",
+      "small": "course/en/assets/86a681b57d12594816d4184f7772e603f5413623.png",
+      "attribution": "<a href=\"http://www.freepik.com/free-photos-vectors/business\" target=\"_blank\">Photoroyalty - Freepik.com </a> <span class='assetLicence'>[CC-BY]</span>"
+    }
+  },
+  {
+    "_id": "5940f4f0d084d5167a04fb68",
+    "_layout": "right",
+    "_parentId": "b-06",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "Component title",
+    "title": "Component title",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
     },
-     {
-        "_id": "c-25",
-        "_parentId": "b-25",
-        "_classes": "",
-        "_type":"component",
-        "_layout": "full",
-        "_component": "narrative",
-        "title": "De la matière première à l’information et à la connaissance nouvelle",
-        "displayTitle": "De la matière première à l’information et à la connaissance nouvelle",
-        "body": "Sans données, on ne peut pas créer d’information. Et sans information, il n’y a pas de nouvelles connaissances possibles.",
-        "instruction": "<em class='desktop-instruction'>Cliquez sur la flèche pour plus de détail.</em><em class='mobile-instruction'>Cliquez sur la flèche pour plus de détail.</em>",
-        "_items": [
-            {
-                "title": "Les données",
-                "body": "<p>Les données sont le niveau le plus bas de matière première duquel on peut retirer des connaissances.</p><p>Imaginez ainsi les données comme l’ensemble des lieux, des images, des descriptions, des critiques et des prix qui constituent l’information nécessaire à la planification de vos vacances.</p>",
-                "_graphic": {
-                    "src": "course/fr/images/odi-2-narrative_large.jpg",
-                    "alt": "Providing certainty",
-                    "title": "",
-                    "*source":"http://www.shutterstock.com/pic.mhtml?id=240789808&src=lb-35924366",
-                    "*credit":"Anna Frajtova",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "Données"
-            },
-            {
-                "title": "L’information",
-                "body": "<p>Les données deviennent de l’information lorsqu’on leur donne un contexte.</p><p>En s’inspirant de l’exemple précédant, on associe certaines destinations, images, descriptions et prix à une attraction touristique.</p><p>La collecte et la présentation des données constituent l’information.</p>",
-                "_graphic": {
-                    "src": "course/fr/images/odi-3-narrative_large.jpg",
-                    "alt": "A graph of open licences across countries",
-                    "title": "A graph of open licences across countries",
-                    "*source":"http://www.shutterstock.com/pic.mhtml?id=217763944&src=lb-35924366",
-                    "*credit":"Sachezi",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "Informations"
-            },
-            {
-                "title": "Les connaissances",
-                "body": "<p>Les connaissances sont ce qui découle de l’information et l’usage personnalisé que l’on en fait.</p><p>L’acquisition de connaissances consiste en la transformation d’information en choix.</p><p>En s’inspirant de l’exemple précédant, le fait de savoir qu’aucun membre de votre famille n’aime les parcs d’attraction va informer votre décision quant aux destinations à éviter ou à privilégier.</p>",
-                "_graphic": {
-                    "src": "course/fr/images/odi-4-narrative_large.jpg",
-                    "alt": "A map from a to b",
-                    "title": "A map from a to b",
-                    "*source":"http://www.shutterstock.com/pic.mhtml?id=250810483&src=lb-35924366",
-                    "*credit":"Oleksiy Mark",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "Connaissances"
-            }
-        ],
-        "_pageLevelProgress": {
-        "_isEnabled": true
-        }
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/3488880e08a0f82ccdb3dfdc68791182b5919310.png",
+      "small": "course/en/assets/3488880e08a0f82ccdb3dfdc68791182b5919310.png",
+      "attribution": ""
+    }
+  },
+  {
+    "_id": "5940f4f0d084d5167a04fb69",
+    "_layout": "right",
+    "_parentId": "b-08",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
     },
-    {
-        "_id":"c-30",
-        "_parentId":"b-28",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"right",
-        "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "course/fr/images/odi-5-accordion_large.jpg",
-            "medium": "course/fr/images/odi-5-accordion_large.jpg",
-            "small": "course/fr/images/odi-5-accordion_large.jpg",
-            "*source":"http://www.shutterstock.com/pic.mhtml?id=154744388&src=lb-35924366",
-            "*credit":"Oleksiy Mark",
-            "*license":"Shutterstock Standard License"
-        }
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/a516261fb9cb309e3b3d1116a192ecfc2a70fbad.png",
+      "small": "course/en/assets/a516261fb9cb309e3b3d1116a192ecfc2a70fbad.png",
+      "attribution": ""
+    }
+  },
+  {
+    "_id": "5940f4f0d084d5167a04fb6a",
+    "_layout": "left",
+    "_parentId": "b-10",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
     },
-    {
-      "_id":"c-35",
-      "_parentId":"b-28",
-      "_type":"component",
-      "_component":"accordion",
-      "_classes":"",
-      "_layout":"left",
-      "title": "Qu’est-ce qui rend les données ‘ouvertes’ ?",
-      "displayTitle": "Qu’est-ce qui rend les données ‘ouvertes’ ?",
-      "body": "<p>Les données sont ouvertes si tout le monde peut y accéder, les utiliser et les partager.<br />Voici quelques idées à prendre en considération lorsque l’on définit ‘ouverte’ :</p>",
-      "instruction": "",
-      "_items": [
-        {
-          "alt": "Restrictions",
-          "title": "Restrictions",
-          "body": "<p>Pour que les données soient ouvertes, il ne doit y avoir aucune restriction quant à leur utilisation, quelle qu’elle soit.</p><p>N’importe quel utilisateur devrait être libre d’utiliser, de modifier, de combiner et de partager les données, même à des fins commerciales.</p>"
-        },
-        {
-          "alt": "Coût",
-          "title": "Coût",
-          "body": "<p>Même si l’utilisation de l’open data doit être libre, cela ne signifie pas que son accès doit être gratuit.</p><p>Il y a souvent un coût associé à la création, à la maintenance et à la publication des données utilisables.</p><p>Idéalement, le prix des données ne devrait pas excéder le coût de reproduction de la donnée demandé.</p><p>Ce coût est souvent négligeable pour de nombreux ensembles de données.</p><p>Les données en temps réel et les contenus lourds peuvent cependant engager des frais continus afin de garantir leur fiabilité.</p>"
-        },
-        {
-          "alt": "Réutilisation",
-          "title": "Réutilisation",
-          "body": "<p>Une fois que l’utilisateur possède toutes les données, il est libre de les utiliser, de les réutiliser et de les redistribuer, même à des fins commerciales.</p><p>On mesure les données ouvertes en fonction des possibilités d’utilisation, et non en fonction de leur mise à disposition.</p><p>Certains aspects, comme le format, la structure et la lisibilité par une machine, rendent les données plus facilement utilisables et doivent donc être soigneusement considérés.</p><p>Cependant, ces éléments ne rendent pas les données plus ouvertes.</p>"
-        }
-      ],
-      "_pageLevelProgress": {
-        "_isEnabled": true
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/86a681b57d12594816d4184f7772e603f5413623.png",
+      "small": "course/en/assets/86a681b57d12594816d4184f7772e603f5413623.png",
+      "attribution": "<a href=\"http://www.freepik.com/free-photos-vectors/business\" target=\"_blank\">Photoroyalty - Freepik.com </a> <span class='assetLicence'>[CC-BY]</span>"
+    }
+  },
+  {
+    "_id": "5940f4f0d084d5167a04fb6f",
+    "_layout": "left",
+    "_parentId": "b-02",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "",
+    "title": "Component title",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/8e4cff29fb37a538a8012800f5a7f96e71650f8a.jpg",
+      "small": "course/en/assets/8e4cff29fb37a538a8012800f5a7f96e71650f8a.jpg",
+      "attribution": "<a href=\"https://www.shutterstock.com/image-vector/3d-illustration-concept-data-179384507?src=lb-35924366\" target=\"_blank\">leromin</a> <span class='assetLicence'>[Shutterstock standard licence]</span>"
+    }
+  },
+  {
+    "_id": "5940f4f0d084d5167a04fb70",
+    "_layout": "left",
+    "_parentId": "b-04",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "",
+    "title": "Component title",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/2813c675fbfd5a508c8e99374187733d399f4b25.png",
+      "small": "course/en/assets/2813c675fbfd5a508c8e99374187733d399f4b25.png",
+      "attribution": "<a href=\"https://www.flickr.com/photos/otacke/12221292503/\" target=\"_blank\">Oliver Tacke</a> <span class='assetLicence'>[CC-BY]</span>"
+    }
+  },
+  {
+    "_id": "5940f4f0d084d5167a04fb71",
+    "_layout": "right",
+    "_parentId": "b-13",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "color-six",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/7120bb7ad02055a11589656852c821cae30bf616.png",
+      "small": "course/en/assets/7120bb7ad02055a11589656852c821cae30bf616.png",
+      "attribution": "<a href=\"https://theodi.org\" target=\"_blank\">The Open Data Institute</a> <span class='assetLicence'>[CC-BY-SA]</span>"
+    }
+  },
+  {
+    "_id": "5940f4f0d084d5167a04fb72",
+    "_layout": "right",
+    "_parentId": "b-09",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/8e4cff29fb37a538a8012800f5a7f96e71650f8a.jpg",
+      "small": "course/en/assets/8e4cff29fb37a538a8012800f5a7f96e71650f8a.jpg",
+      "attribution": "<a href=\"https://www.shutterstock.com/image-vector/3d-illustration-concept-data-179384507?src=lb-35924366\" target=\"_blank\">leromin</a> <span class='assetLicence'>[Shutterstock standard licence]</span>"
+    }
+  },
+  {
+    "_id": "5940f4f0d084d5167a04fb73",
+    "_layout": "left",
+    "_parentId": "b-12",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "Component title",
+    "title": "Component title",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/7c1475d034cb3de18e7b927d189ddd5185822c67.jpg",
+      "small": "course/en/assets/7c1475d034cb3de18e7b927d189ddd5185822c67.jpg",
+      "attribution": "<a href=\"http://www.freepik.com\" target=\"_blank\">D3Images / Freepik</a> <span class='assetLicence'>[CC-BY]</span>"
+    }
+  },
+  {
+    "_id": "5940f4f0d084d5167a04fb83",
+    "_layout": "right",
+    "_parentId": "b-11",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "Component title",
+    "title": "Component title",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/c115c54849b909d4fe542a28a3f15f2f0f541b54.png",
+      "small": "course/en/assets/c115c54849b909d4fe542a28a3f15f2f0f541b54.png",
+      "attribution": "<a href=\"http://www.freepik.com/free-photos-vectors/business\" target=\"_blank\">Freepik</a> <span class='assetLicence'>[CC-BY]</span>"
+    }
+  },
+  {
+    "_id": "5940f4f0d084d5167a04fb84",
+    "_layout": "right",
+    "_parentId": "b-02",
+    "_type": "component",
+    "body": "<p>La creation d&rsquo;un pitch parfait sur l&rsquo;open data demande cinq composants. Une fois r&eacute;unis, ces derniers cr&eacute;ent un appel &agrave; l&#39;action clair et convaincant qui peut &ecirc;tre utilis&eacute; lors de la recherche de l&#39;approbation de la direction, du soutien budg&eacute;taire et de ressources, ainsi que de l&#39;utilisation et de la r&eacute;utilisation en aval. Le pitch doit &ecirc;tre livr&eacute; en 90 secondes ou moins.</p><p>Les cinq &eacute;l&eacute;ments pour un pitch parfait sont:</p><ol><li>Ce que c&#39;est - le probl&egrave;me que vous r&eacute;solvez pour vos utilisateurs</li><li>Ce qu&#39;il peut faire - une description sur mesure des avantages</li><li>Sa contribution - un point de preuve pertinent et quantifi&eacute;</li><li>Sa valeur - justification du pourquoi il est sup&eacute;rieur &agrave; d&#39;autres options</li><li>Ce qu&#39;il en suit - une d&eacute;cision r&eacute;aliste qui peut &ecirc;tre prise sur place</li></ol><p>Ci-dessous, nous explorons chacun de ces composants plus en d&eacute;tail.</p>",
+    "displayTitle": "Les cinq éléments pour un pitch parfait sur l'open data",
+    "title": "Les cinq éléments pour un pitch parfait sur l'open data",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "5940f4f0d084d5167a04fb85",
+    "_layout": "left",
+    "_parentId": "b-03",
+    "_type": "component",
+    "body": "<p>Vous devriez commencer votre &quot;elevator pitch&quot; (argumentaire &eacute;clair) en d&eacute;crivant le probl&egrave;me que vous r&eacute;solvez pour vos utilisateurs. Ceci est ce qu&#39;on appelle la proposition de valeur.</p><p>La proposition de valeur d&#39;une entreprise est le noyau de son mod&egrave;le d&#39;entreprise. Ceci est &eacute;galement ad&eacute;quat dans les secteurs priv&eacute;s et publics. Sans une proposition de valeur solide, l&#39;organisation - qu&#39;il s&#39;agisse d&#39;une grande entreprise, d&#39;une start-up, d&#39;une autorit&eacute; locale ou d&#39;une charit&eacute;, n&#39;a pas de motif pour continuer &agrave; fournir ses services.</p><p>Top conseil: pensez &agrave; votre proposition de valeur comme un abr&eacute;g&eacute; ou r&eacute;sum&eacute; de votre solution. Gardez-le court, restez rapide et utilisez une liste de trois.</p><p>Par exemple: les donn&eacute;es ouvertes peuvent am&eacute;liorer la r&eacute;putation de votre entreprise, am&eacute;liorer l&#39;exp&eacute;rience de vos clients et diversifier votre gamme de produits.</p>",
+    "displayTitle": "Quel problème résolvez-vous?",
+    "title": "Quel problème résolvez-vous?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "5940f4f0d084d5167a04fb86",
+    "_layout": "full",
+    "_parentId": "b-05",
+    "_type": "component",
+    "body": "<p>Pour plus d&#39;exemples de mise en pratique des donn&eacute;es ouvertes, consultez&nbsp;le <a href=\"http://www.europeandataportal.eu/sites/default/files/re-using_open_data.pdf\">rapport du European Data Portal sur la r&eacute;utilisation des donn&eacute;es ouvertes</a>, ou parcourez la <a href=\"http://www.europeandataportal.eu/en/using-data/use-cases\">liste croissante des cas d&#39;utilisation</a>.</p>",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "5940f4f0d084d5167a04fb87",
+    "_layout": "left",
+    "_parentId": "b-06",
+    "_type": "component",
+    "body": "<p>C&#39;est la partie de votre pitch o&ugrave; vous pouvez expliquer plus en d&eacute;tail votre proposition de valeur. Ne vous souciez pas de vous r&eacute;p&eacute;ter. La r&eacute;p&eacute;tition est cl&eacute;.</p><p>La premi&egrave;re fois que vous avez exprim&eacute; votre proposition de valeur, vous voulez attirer l&#39;attention de votre public. Maintenant que vous avez leur attention, et que vous leur avez expliqu&eacute; les avantages, vous pouvez expliquer votre solution plus en d&eacute;tail.</p><p>C&#39;est aussi votre opportunit&eacute; de justifier pourquoi votre solution est meilleure que les solutions alternatives. Vous pouvez donner des exemples comp&eacute;titifs&nbsp;le cas &eacute;ch&eacute;ant, ou bien des exemples o&ugrave; le partage des donn&eacute;es a&nbsp;re&ccedil;u des cons&eacute;quences positives afin souligner votre point.</p><p>Utilisez une liste de trois pour un impact maximal, et n&#39;oubliez pas: la r&eacute;p&eacute;tition est&nbsp;cl&eacute;.</p>",
+    "displayTitle": "Pourquoi l'open data est la meilleure option",
+    "title": "Pourquoi l'open data est la meilleure option",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "5940f4f0d084d5167a04fb88",
+    "_layout": "left",
+    "_parentId": "b-09",
+    "_type": "component",
+    "body": "<p><strong>Les cinq &eacute;l&eacute;ments pour un&nbsp;data pitch parfait incluent...</strong></p>",
+    "displayTitle": "Quels sont les cinq éléments pour un data pitch parfait?",
+    "title": "Quels sont les cinq éléments pour un data pitch parfait?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "mcq",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Choisissez votre réponse et puis cliquez sur ‘Valider’.",
+    "_items": [
+      {
+        "text": "Le problème que vous résolvez",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "Une description adaptée de l'avantage",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "un exemple pertinent",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "Une décision réaliste qui peut être prise sur place",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "Une description compliquée conçue pour impressionner",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "Une grande décision pour réussir",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 5,
+    "_feedback": {
+      "correct": "<p><strong>Vous avez raison</strong></p><p>Le&nbsp;pitch parfait devrait&nbsp;&ecirc;tre structur&eacute;&nbsp;autour des cinq composants suivant:</p><ol><li>Ce que c&#39;est - le probl&egrave;me que vous r&eacute;solvez pour vos utilisateurs</li><li>Ce qu&#39;il peut faire - une description sur mesure des avantages</li><li>Sa contribution - un point de preuve pertinent et quantifi&eacute;</li><li>Sa valeur - justification du pourquoi il est sup&eacute;rieur &agrave; d&#39;autres options</li><li>Ce qu&#39;il en suit - une d&eacute;cision r&eacute;aliste qui peut &ecirc;tre prise sur place</li></ol>",
+      "_incorrect": {
+        "final": "<p><strong>&Ecirc;tes-vous s&ucirc;r?</strong></p><p>Le&nbsp;pitch parfait devrait&nbsp;&ecirc;tre structur&eacute;&nbsp;autour des cinq composants suivant:</p><ol><li>Ce que c&#39;est - le probl&egrave;me que vous r&eacute;solvez pour vos utilisateurs</li><li>Ce qu&#39;il peut faire - une description sur mesure des avantages</li><li>Sa contribution - un point de preuve pertinent et quantifi&eacute;</li><li>Sa valeur - justification du pourquoi il est sup&eacute;rieur &agrave; d&#39;autres options</li><li>Ce qu&#39;il en suit - une d&eacute;cision r&eacute;aliste qui peut &ecirc;tre prise sur place</li></ol>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
       }
     },
-     {
-        "_id": "c-40",
-        "_parentId": "b-30",
-        "_classes": "",
-        "_type":"component",
-        "_layout": "full",
-        "_component": "narrative",
-        "title": "Pourquoi a-t-on besoin ?",
-        "displayTitle": "Pourquoi a-t-on besoin ?",
-        "body": "Les données ouvertes ont le pouvoir de produire des avantages divers pour les gouvernements, les entreprises et la société civile.",
-        "instruction": "<em class='desktop-instruction'>Cliquez sur la flèche pour plus de détail.</em><em class='mobile-instruction'>Cliquez sur la flèche pour plus de détail.</em>",
-        "_items": [
-            {
-                "title": "Transformation gouvernementale",
-                "body": "<p>L’open data permet une plus grande transparence pour les gouvernements. Il peut aider à prouver que les fonds publics sont dépensés à bon escient et que les politiques sont bien implémentées.</p><p>Ainsi, selon un militant pour le gouvernement ouvert (« open government activist ») David Eaves, l’open data a permis aux citoyens canadiens d’économiser 3, 2 milliards de dollars en dons frauduleux aux associations caritatives en 2010.<br /><a href='http://eaves.ca/2010/04/14/case-study-open-data-and-the-public-purse/' target='_blank'>Lien vers l’article de David Eaves</a></p><p>Un autre exemple, au Nigeria cette fois, où selon Follow the Money, le même processus garantit que les fonds publics sont bel et bien utilisés pour mettre en œuvre les politiques promises au peuple.<br /><a href='http://followthemoneyng.org/' target='_blank'>Lien vers Follow the Money</a></p>",
-                "_graphic": {
-                    "src": "course/fr/images/odi-6-narrative_large.jpg",
-                    "alt": "Transform government",
-                    "title": "Transform government",
-                    "*source":"http://www.shutterstock.com/pic.mhtml?id=265940657&src=lb-35924366",
-                    "*credit":"hxdyl",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "Transform government"
-            },
-            {
-                "title": "Nouvelles opportunités d'entreprise",
-                "body": "<p>L’open data ouvre de nouvelles opportunités pour que les entreprises établissent un rapport avec leurs clients.</p><p>Transport for London a publié des données ouvertes qui ont permis la création de plus de 800 applications de transport.<br /><a href='http://www.tfl.gov.uk/' target='_blank'>Lien vers Transport for London</a></p><p>Thomson Reuters utilise les données ouvertes pour mieux communiquer avec les clients existants et afin de fournir de meilleurs services.<br /><a href='http://site.thomsonreuters.com/site/data-identifiers/' target='_blank'>Lien vers Thomson Reuters</a></p><p>Aujourd’hui, la start-up ODI a plus de 70 employés avec un revenu de plus de 4 million de livres.<br /><a href='http://theodi.org/odis-second-year-annual-report' target='_blank'>Lien vers le rapport annual de l’ODI</a></p>",
-                "_graphic": {
-                    "src": "course/fr/images/odi-7-narrative_large.jpg",
-                    "alt": "Build new business opportunities",
-                    "title": "Build new business opportunities",
-                    "*source":"http://www.shutterstock.com/pic.mhtml?id=149924576&src=lb-35924366",
-                    "*credit":"Sergey Nivens",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "Build new business opportunities"
-            },
-            {
-                "title": "Protéger notre planète",
-                "body": "<p>Le web est devenu une partie intégrante de notre infrastructure et l’open data va contribuer à ce développement.</p><p>Les données ouvertes concernant la météo permettent par exemple de donner l’alerte rapidement en cas de catastrophes naturelles.<br /><a href='http://www.un.org/apps/news/story.asp?NewsID=13077&Cr=natural&Cr1=disaster#.VVyWK_lVhBc' target='_blank'>Lien vers le Centre d’actualités de l’ONU.</a></p><p>Les données ouvertes aident les consommateurs à comprendre leur impact sur l’environnement et à prendre des mesures pour l’améliorer.<br /><a href='https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/39386/12-1324-better-choices-better-deals-report-on-progress-on-the-consumer-empowerment-strategy.pdf' target='_blank'>Lien vers le rapport de Better Choices Better Deals.</a></p>",
-                "_graphic": {
-                    "src": "course/fr/images/odi-8-narrative_large.jpg",
-                    "alt": "Protect our planet",
-                    "title": "Protect our planet",
-                    "*source":"http://www.shutterstock.com/pic.mhtml?id=261740228&src=lb-35924366",
-                    "*credit":"hbpictures",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "Protect our planet"
-            }
-        ],
-        "_pageLevelProgress": {
-        "_isEnabled": true
-        }
-    }, {
-        "_id":"c-42",
-        "_parentId":"b-33",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"right",
-        "title":"",
-        "displayTitle":"",
-        "body":"",
-        "instruction":"",
-        "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "course/fr/images/burst.png",
-            "medium": "course/fr/images/burst.png",
-            "small": "course/fr/images/burst.png"
-        }
-    },
-    {
-        "_id":"c-43",
-        "_parentId":"b-33",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"",
-        "_layout":"left",
-        "title":"Êtes-vous prêt(e) pour l’open data ?",
-        "displayTitle":"Êtes-vous prêt(e) pour l’open data ?",
-        "body":"<p>Il y a quatre éléments utiles à prendre en considération quand on pense à ouvrir ses données aux utilisateurs. Saurez-vous vous en souvenir?</p>",
-        "instruction":"",
-        "_pageLevelProgress": {
-            "_isEnabled": true
-        }
-    },
-    {
-        "_id":"c-45",
-        "_parentId":"b-35",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"illustration",
-        "_layout":"right",
-        "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "course/fr/images/odi-9-mcq-image_large.jpg",
-            "medium": "course/fr/images/odi-9-mcq-image_large.jpg",
-            "small": "course/fr/images/odi-9-mcq-image_large.jpg",
-            "*source":"http://www.shutterstock.com/pic.mhtml?id=179384507&src=lb-35924366",
-            "*credit":"leromin",
-            "*license":"Shutterstock Standard License"
-        }
-    },
-    {
-        "_id":"c-50",
-        "_parentId":"b-35",
-        "_type":"component",
-        "_component":"mcq",
-        "_classes":"",
-        "_layout":"left",
-        "_attempts":1,
-        "_questionWeight":1,
-        "_isRandom":true,
-        "_selectable":1,
-        "title": "L’open data, c’est quoi ?",
-        "displayTitle": "L’open data, c’est quoi ?",
-        "body": "<p>L’open data, c’est…</p>",
-        "instruction": "<em>Choisissez votre réponse et puis cliquez sur ‘Valider’.</em>",
-        "_items": [
-            {
-                "text": "des informations que l’on vend aux entreprises.",
-                "_shouldBeSelected": false
-            },
-            {
-                "text": "des données auxquelles tout le monde peut accéder et que tout le monde peut utiliser et partager",
-                "_shouldBeSelected": true
-            },
-            {
-                "text": "des données visibles en ligne.",
-                "_shouldBeSelected": false
-            }
-        ],
-        "_feedback":{
-            "correct":"<h5>Vous avez raison !</h5><p>L’open data, ce sont des données auxquelles tout le monde peut accéder et que tout le monde peut utiliser et partager. Les données ouvertes doivent avoir une licence permettant leur utilisation libre et doivent pouvoir être utilisées à des fins commerciales.</p>",
-            "_incorrect": {
-                "notFinal": "<h5>Êtes vous sûr(e) ? </h5><p>L’open data, ce sont des données auxquelles tout le monde peut accéder et que tout le monde peut utiliser et partager. Les données ouvertes doivent avoir une licence permettant leur utilisation libre et doivent pouvoir être utilisées à des fins commerciales.</p>",
-                "final": "<h5>Êtes vous sûr(e) ? </h5><p>L’open data, ce sont des données auxquelles tout le monde peut accéder et que tout le monde peut utiliser et partager. Les données ouvertes doivent avoir une licence permettant leur utilisation libre et doivent pouvoir être utilisées à des fins commerciales.</p>"
-            },
-            "_partlyCorrect": {
-                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-          }
-        },
-        "_buttons":{
-            "submit":"Valider",
+    "_buttons":{
+            "submit":"",
             "reset":"",
             "showCorrectAnswer":"",
             "hideCorrectAnswer":""
-        },
-        "_pageLevelProgress": {
-        "_isEnabled": true
+        }
+  },
+  {
+    "_id": "5940f4f0d084d5167a04fb89",
+    "_layout": "right",
+    "_parentId": "b-10",
+    "_type": "component",
+    "body": "<p><strong>Une proposition de valeur est...</strong></p>",
+    "displayTitle": "Qu'est ce qu'une proposition de valeur?",
+    "title": "Qu'est ce qu'une proposition de valeur?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "mcq",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Choisissez votre réponse et puis cliquez sur ‘Valider’.",
+    "_items": [
+      {
+        "text": "Le problème que vous résolvez pour vos utilisateurs",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "Une estimation de la valeur d'une solution",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "La somme d'argent que vous recevrez",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_feedback": {
+      "correct": "<p><strong>Vous avez raison!</strong></p><p>La proposition de valeur est le probl&egrave;me que vous r&eacute;solvez pour vos utilisateurs.&nbsp;La proposition de valeur d&#39;une entreprise est le noyau de son mod&egrave;le d&#39;entreprise. Ceci est &eacute;galement ad&eacute;quat dans le&nbsp;secteur public.</p>",
+      "_incorrect": {
+        "final": "<p><strong>&Ecirc;tes-vous s&ucirc;r?</strong></p><p>La proposition de valeur est le probl&egrave;me que vous r&eacute;solvez pour vos utilisateurs.&nbsp;La proposition de valeur d&#39;une entreprise est le noyau de son mod&egrave;le d&#39;entreprise. Ceci est &eacute;galement ad&eacute;quat dans le&nbsp;secteur public.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
       }
     },
-    {
-        "_id":"c-55",
-        "_parentId":"b-40",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"illustration",
-        "_layout":"left",
-        "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "course/fr/images/odi-10-mcq_large.jpg",
-            "medium": "course/fr/images/odi-10-mcq_large.jpg",
-            "small": "course/fr/images/odi-10-mcq_large.jpg",
-            "*source":"http://www.shutterstock.com/pic.mhtml?id=240789808&src=lb-35924366",
-            "*credit":"Anna Frajtova",
-            "*license":"Shutterstock Standard License",
-            "*source":"http://www.shutterstock.com/pic.mhtml?id=217763944&src=lb-35924366",
-            "*credit":"Sachezi",
-            "*license":"Shutterstock Standard License",
-            "*source":"http://www.shutterstock.com/pic.mhtml?id=250810483&src=lb-35924366",
-            "*credit":"Oleksiy Mark",
-            "*license":"Shutterstock Standard License"
-        }
-    },
-    {
-        "_id":"c-60",
-        "_parentId":"b-40",
-        "_type":"component",
-        "_component":"mcq",
-        "_classes":"",
-        "_layout":"right",
-        "_attempts":1,
-        "_questionWeight":1,
-        "_isRandom":true,
-        "_selectable":1,
-        "title": "Qu’entend-on par données ?",
-        "displayTitle": "Qu’entend-on par données ?",
-        "body": "<p>Les données sont...</p>",
-        "instruction": "<em>Choisissez votre réponse et puis cliquez sur ‘Valider’.</em>",
-        "_items": [
-            {
-                "text": "des chiffres, des mots, des cartes et des photos.",
-                "_shouldBeSelected": false
-            },
-            {
-                "text": "des informations en ligne.",
-                "_shouldBeSelected": false
-            },
-            {
-                "text": "la matière première  de l’information et de la connaissance.",
-                "_shouldBeSelected": true
-            }
-        ],
-        "_feedback":{
-            "correct":"<h5>Vous avez raison !</h5><p>Les données sont le niveau le plus bas de matières premières duquel on peut retirer des connaissances.</p>",
-            "_incorrect": {
-                "notFinal": "<h5>Êtes vous sûr(e) ? </h5><p>Les données sont le niveau le plus bas de matières premières duquel on peut retirer des connaissances.</p>",
-                "final": "<h5>Êtes vous sûr(e) ? </h5><p>Les données sont le niveau le plus bas de matières premières duquel on peut retirer des connaissances.</p>"
-            },
-            "_partlyCorrect": {
-                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-          }
-        },
-        "_buttons":{
-            "submit":"Valider",
+    "_buttons":{
+            "submit":"",
             "reset":"",
             "showCorrectAnswer":"",
             "hideCorrectAnswer":""
-        },
-        "_pageLevelProgress": {
-        "_isEnabled": true
+        }
+  },
+  {
+    "_id": "5940f4f0d084d5167a04fb8a",
+    "_layout": "left",
+    "_parentId": "b-11",
+    "_type": "component",
+    "body": "<p><strong>Quel argument pour l&#39;open data est le plus appropri&eacute; dans un pitch pour le responsable&nbsp;des op&eacute;rations?</strong></p>",
+    "displayTitle": "Que peut faire l'open data?",
+    "title": "Que peut faire l'open data?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "mcq",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Choisissez votre réponse et puis cliquez sur ‘Valider’.",
+    "_items": [
+      {
+        "text": "Les données ouvertes peuvent améliorer la réputation d'une organisation",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "Les données ouvertes peuvent réduire les coûts",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "L'open data peut stimuler l'innovation",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_feedback": {
+      "correct": "<p><strong>That&#39;s right!</strong></p><p>La r&eacute;duction des co&ucirc;ts et l&#39;efficacit&eacute; sont les priorit&eacute;s pour les personnes qui travaillent dans les fonctions op&eacute;rationnelles. La possibilit&eacute; d&#39;acc&eacute;der, d&#39;utiliser et de partager des donn&eacute;es sur plusieurs plates-formes et entre de nombreuses organisations minimise le temps et le co&ucirc;t normalement associ&eacute;s &agrave; l&#39;acquisition de donn&eacute;es de grande valeur.</p>",
+      "_incorrect": {
+        "final": "<p><strong>&Ecirc;tes-vous s&ucirc;r?</strong></p><p>La r&eacute;duction des co&ucirc;ts et l&#39;efficacit&eacute; sont les priorit&eacute;s pour les personnes qui travaillent dans les fonctions op&eacute;rationnelles. La possibilit&eacute; d&#39;acc&eacute;der, d&#39;utiliser et de partager des donn&eacute;es sur plusieurs plates-formes et entre de nombreuses organisations minimise le temps et le co&ucirc;t normalement associ&eacute;s &agrave; l&#39;acquisition de donn&eacute;es de grande valeur.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
       }
     },
-    {
-        "_id":"c-65",
-        "_parentId":"b-45",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"illustration",
-        "_layout":"right",
-        "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "course/fr/images/odi-11-mcq_large.jpg",
-            "medium": "course/fr/images/odi-11-mcq_large.jpg",
-            "small": "course/fr/images/odi-11-mcq_large.jpg",
-            "*source":"http://www.shutterstock.com/pic.mhtml?id=154744388&src=lb-35924366",
-            "*credit":"Oleksiy Mark",
-            "*license":"Shutterstock Standard License"
-        }
-    },
-    {
-        "_id":"c-70",
-        "_parentId":"b-45",
-        "_type":"component",
-        "_component":"mcq",
-        "_classes":"",
-        "_layout":"left",
-        "_attempts":1,
-        "_questionWeight":1,
-        "_isRandom":true,
-        "_selectable":1,
-        "title": "Qu’est ce qui rend les données ouvertes ?",
-        "displayTitle": "Qu’est ce qui rend les données ouvertes ?",
-        "body": "<p>Les données ouvertes doivent...</p>",
-        "instruction": "<em>Choisissez votre réponse et puis cliquez sur ‘Valider’.</em>",
-        "_items": [
-            {
-                "text": "être libres de toute limite en ce qui concerne leur utilisation.",
-                "_shouldBeSelected": true
-            },
-            {
-                "text": "comporter des limites d’utilisation.",
-                "_shouldBeSelected": false
-            },
-            {
-                "text": "être publiées de manière sélective et payante.",
-                "_shouldBeSelected": false
-            }
-        ],
-        "_feedback":{
-            "correct":"<h5>Vous avez raison !</h5><p>S’il y a une quelconque limitation quant à l’utilisation libre des données (par exemple une limitation non-commerciale), celles-ci ne peuvent pas être considérées comme ‘ouvertes’.</p>",
-            "_incorrect": {
-                "notFinal": "<h5>Êtes vous sûr(e) ? </h5><p>S’il y a une quelconque limitation quant à l’utilisation libre des données (par exemple une limitation non-commerciale), celles-ci ne peuvent pas être considérées comme ‘ouvertes’.</p>",
-                "final": "<h5>Êtes vous sûr(e) ? </h5><p>S’il y a une quelconque limitation quant à l’utilisation libre des données (par exemple une limitation non-commerciale), celles-ci ne peuvent pas être considérées comme ‘ouvertes’.</p>"
-            },
-            "_partlyCorrect": {
-                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-          }
-        },
-        "_buttons":{
-            "submit":"Valider",
+    "_buttons":{
+            "submit":"",
             "reset":"",
             "showCorrectAnswer":"",
             "hideCorrectAnswer":""
+        }
+  },
+  {
+    "_id": "5940f4f0d084d5167a04fb8b",
+    "_layout": "left",
+    "_parentId": "b-13",
+    "_type": "component",
+    "body": "<p>L&rsquo;ouverture des donn&eacute;es peuvent &ecirc;tre une activit&eacute; de grande valeur pour toutes organisations afin d&#39;utiliser ses ressources plus efficacement. Cependant, la plupart des organisations sont configur&eacute;es pour prot&eacute;ger leurs ressources de donn&eacute;es, m&ecirc;me si les avantages de l&#39;ouverture l&#39;emportent sur les frais associ&eacute;s.</p><p>Une communication claire et efficace des avantages est essentielle pour capturer l&#39;imagination et gagner en confiance et en compr&eacute;hension. Dans ce module, nous avons appris &agrave; fournir un pitch sur mesure pour les donn&eacute;es ouvertes.</p>",
+    "displayTitle": "Mobilisation pour l'open data",
+    "title": "Mobilisation pour l'open data",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "5940f4f0d084d5167a04fb90",
+    "_layout": "right",
+    "_parentId": "b-04",
+    "_type": "component",
+    "body": "<p>Il existe de nombreux arguments g&eacute;n&eacute;raux pour l&#39;utilisation des donn&eacute;es ouvertes, mais un argument solide doit &ecirc;tre ajust&eacute; aux priorit&eacute;s et aux pr&eacute;occupations du public du pitch et du d&eacute;cideur.</p><p>Dans la plupart des cas, cela peut &ecirc;tre d&eacute;termin&eacute; &agrave; partir de leur contexte professionnel. Ci-dessous, nous examinons quatre r&ocirc;les principaux, associ&eacute;s aux avantages les plus ad&eacute;quats d&#39;une meilleure utilisation des donn&eacute;es.</p>",
+    "displayTitle": "Ce que l'open data peut faire",
+    "title": "Ce que l'open data peut faire",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "accordion",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_items": [
+      {
+        "title": "Leadership",
+        "body": "<p>Les dirigeants d&#39;une organisation sont susceptibles d&#39;&ecirc;tre convaincus par les arguments selon lesquels les donn&eacute;es ouvertes peuvent contribuer &agrave;<strong> stimuler l&#39;innovation et la croissance</strong> au sein de l&#39;organisation et &agrave; <strong>am&eacute;liorer les services</strong> aux utilisateurs.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
         },
-        "_pageLevelProgress": {
-        "_isEnabled": true
+        "_classes": ""
+      },
+      {
+        "title": "Operations",
+        "body": "<p>Pour les personnes qui occupent les fonctions op&eacute;rationnelles, <strong>la r&eacute;duction des co&ucirc;ts</strong> et l&#39;efficacit&eacute; sont leurs priorit&eacute;s. Les donn&eacute;es ouvertes jouent un r&ocirc;le crucial dans l&#39;&eacute;conomie de ressources en permettant un &eacute;change plus rapide d&#39;informations.</p><p>La possibilit&eacute; d&#39;acc&eacute;der, d&#39;utiliser et de partager des donn&eacute;es sur plusieurs plates-formes et entre de nombreuses organisations &eacute;radique le temps et le co&ucirc;t normalement associ&eacute;s &agrave; l&#39;acquisition de jeux de donn&eacute;es de grande valeur, un par un.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Produit ou marketing",
+        "body": "<p>Ceux qui ont des r&ocirc;les de gestion de produits ou de marketing r&eacute;pondront le mieux au potentiel des donn&eacute;es ouvertes pour <strong>am&eacute;liorer les produits et les services</strong>. De plus en plus de consommateurs s&#39;attendent &agrave; une exp&eacute;rience personnalis&eacute;e, ce qui peut &ecirc;tre satisfait gr&acirc;ce &agrave; une plus grande provision de donn&eacute;es ouvertes pour compl&eacute;ter la fonction du produit.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Communications",
+        "body": "<p>Pour ceux qui tiennent un r&ocirc;le dans la communication, les donn&eacute;es ouvertes peuvent sembler futile &agrave; leur travail. Le message cl&eacute; qui r&eacute;sonne avec les professionnels de la communication est que l&#39;ouverture des donn&eacute;es peut aider &agrave; <strong>am&eacute;liorer la r&eacute;putation</strong> d&#39;une organisation. Les donn&eacute;es ouvertes peuvent aider &agrave; maximiser les opportunit&eacute;s d&#39;exposition des m&eacute;dias &agrave; l&#39;appui de la promotion des priorit&eacute;s organisationnelles et compl&eacute;ter les canaux m&eacute;dia existants.</p><p>Comme les donn&eacute;es ouvertes sont faciles &agrave; v&eacute;rifier, elles ont &eacute;galement renforc&eacute; la confiance que l&#39;article ne soit pas &laquo;fil&eacute;&raquo;.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      }
+    ],
+    "_shouldCollapseItems": true
+  },
+  {
+    "_id": "5940f4f0d084d5167a04fb91",
+    "_layout": "full",
+    "_parentId": "b-05",
+    "_type": "component",
+    "body": "<p>La prochaine &eacute;tape dans le pitch est de pr&eacute;senter des exemples concrets o&ugrave; les donn&eacute;es ouvertes ont d&eacute;j&agrave; contribu&eacute;. Dans cette section, nous explorons quelques &eacute;tudes de cas existantes, regroup&eacute;es par les avantages identifi&eacute;s dans la valeur de lib&eacute;ration des donn&eacute;es ouvertes.</p>",
+    "displayTitle": "Là où l'open data a contribué",
+    "title": "Là où l'open data a contribué",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "narrative",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "mobileInstruction": "",
+    "_hasNavigationInTextArea": true,
+    "_setCompletionOn": "allItems",
+    "_items": [
+      {
+        "title": "Stimuler l'innovation et la croissance",
+        "body": "<p dir=\"ltr\">Les donn&eacute;es ouvertes stimulent l&#39;innovation et la croissance dans les entreprises en r&eacute;v&eacute;lant des possibilit&eacute;s d&#39;enrichir des produits ou des services et de prendre de meilleures d&eacute;cisions commerciales.</p><p>La soci&eacute;t&eacute; finlandaise Vainu <a href=\"http://blog.vainu.io/open-data-helps-you-target-right-companies-at-right-time/\">maximise la g&eacute;n&eacute;ration et les ventes de prospects</a> en utilisant des donn&eacute;es ouvertes, alors qu&#39;en Espagne, BBVA offre <a href=\"http://www.bbvaresearch.com/wp-content/uploads/2016/06/DEO_Jun16_Cap3.pdf\">l&#39;avantage concurrentiel &agrave; l&#39;aide de services d&#39;analyse de donn&eacute;es</a>.</p><p>Les donn&eacute;es ouvertes stimulent l&#39;innovation et la croissance en supprimant les obstacles &agrave; l&#39;acc&egrave;s, &agrave; l&#39;utilisation et au partage des donn&eacute;es.</p><p>&nbsp;</p>",
+        "_graphic": {
+          "src": "course/en/assets/c76e953b722462498b1da45a7a926775d98c92cd.png",
+          "alt": "",
+          "attribution": ""
+        },
+        "strapline": "Stimuler l'innovation et la croissance"
+      },
+      {
+        "title": "Améliorer la prestation des services",
+        "body": "<p dir=\"ltr\">Les donn&eacute;es ouvertes peuvent aider les organisations &agrave; am&eacute;liorer leurs services pour les utilisateurs. Les organisations permettent &agrave; leurs utilisateurs de prendre des d&eacute;cisions en fonction de donn&eacute;es et d&#39;informations facilement comparables.</p><p>Disponible dans plus de 400 villes &agrave; travers le monde, <a href=\"http://www.bikecitizens.net/\">Bike Citizens</a>, bas&eacute; en Autriche, combinent les donn&eacute;es ouvertes des sch&eacute;mas cycliques et des cartes pour am&eacute;liorer l&#39;exp&eacute;rience des cyclistes urbains.</p><p>Les donn&eacute;es ouvertes sont utilis&eacute;es aux Pays-Bas par le gouvernement du Haut-Commissariat afin de <a href=\"http://www.go-ov.nl/\">r&eacute;duire les obstacles auxquels sont confront&eacute;es les personnes handicap&eacute;es</a> en leur permettant de r&eacute;server les transports et de naviguer dans leur r&eacute;gion plus facilement.</p><p>La soci&eacute;t&eacute; tch&egrave;que DATLOWE a cr&eacute;&eacute; une encyclop&eacute;die pharmaceutique (<a href=\"http://lekovaencyklopedie.cz/EncyclopediaApp/#home;lang=cs\">Drug Encyclopaedia</a>) compl&egrave;te servant comme guide pour les patients et les professionnels de la sant&eacute; afin de comparer facilement les ingr&eacute;dients trouv&eacute;s dans les m&eacute;dicaments.</p>",
+        "_graphic": {
+          "src": "course/en/assets/c0eca1e9dde2d00c75333a3690c8ba35d98c1d3c.jpg",
+          "alt": "",
+          "attribution": "<a href=\"https://www.shutterstock.com/image-vector/colored-paper-pointers-signs-navigation-mapvector-154597898\" target=\"_blank\">Leone_V</a> <span class='assetLicence'>[Shutterstock standard licence]</span>"
+        },
+        "strapline": "Améliorer la prestation des services"
+      },
+      {
+        "title": "Réduire les coûts",
+        "body": "<p dir=\"ltr\">Les donn&eacute;es ouvertes peuvent aider les entreprises &agrave; r&eacute;duire leurs co&ucirc;ts et &agrave; &ecirc;tre plus efficaces dans leurs op&eacute;rations.</p><p>Le g&eacute;ant su&eacute;dois de la musique en streaming Spotify et BBC du Royaume-Uni utilisent tous les deux <a href=\"http://musicbrainz.org/\">le service de donn&eacute;es ouvert MusicBrainz</a> pour compl&eacute;ter leurs services de musique et am&eacute;liorer l&#39;exp&eacute;rience de leurs utilisateurs sans avoir &agrave; investir dans le maintien du catalogue eux-m&ecirc;mes.</p><p>En Slov&eacute;nie, les viticulteurs utilisent des donn&eacute;es ouvertes pour les aider &agrave; <a href=\"http://www.evineyardapp.com/\">prendre des d&eacute;cisions plus intelligentes</a> avec eVineyard, alors qu&#39;en Hongrie, <a href=\"http://filab.hu/2016/05/saving-food-2-0-2/\">une r&eacute;volution pour arr&ecirc;ter les d&eacute;chets alimentaires</a> est en cours, construite autour des donn&eacute;es ouvertes et de la collaboration.</p>",
+        "_graphic": {
+          "src": "course/en/assets/695142676da7c48878111f3e0cdfd728d9d05718.png",
+          "alt": "",
+          "attribution": "<a href=\"http://www.freepik.com/free-photos-vectors/business\" target=\"_blank\">Freepik</a> <span class='assetLicence'>[CC-BY]</span>"
+        },
+        "strapline": "Réduire les coûts"
+      },
+      {
+        "title": "Améliorer la réputation",
+        "body": "<p>Les donn&eacute;es ouvertes peuvent aider &agrave; am&eacute;liorer la r&eacute;putation d&#39;une organisation. Comme les donn&eacute;es sont ouvertement disponibles, cela aide &agrave; accro&icirc;tre la neutralit&eacute; et la confiance per&ccedil;ues parmi le public que les r&eacute;sultats ne sont pas &laquo;fil&eacute;s&raquo;.</p><p>Au Royaume-Uni, les donn&eacute;es ouvertes permettent d&#39;<a href=\"http://www.provenance.org/\">informer les consommateurs sur les origines et le parcours de leurs achats</a> gr&acirc;ce &agrave; Provenance, tandis qu&#39;en Bulgarie, les citoyens peuvent analyser l&#39;<a href=\"http://opendata.yurukov.net/elections/\">analyse des donn&eacute;es des &eacute;lections ouvertes</a>.</p><p>&nbsp;</p>",
+        "_graphic": {
+          "src": "course/en/assets/d1a863354f7c7c10cb246d3db2e51a54a8964b23.png",
+          "alt": "",
+          "attribution": "<a href=\"http://www.freepik.com/free-photos-vectors/business\" target=\"_blank\">Photoroyalty - Freepik.com</a> <span class='assetLicence'>[CC-BY]</span>"
+        },
+        "strapline": "Améliorer la réputation"
+      },
+      {
+        "title": "Sauver la planète",
+        "body": "<p>Les donn&eacute;es ouvertes nous aident &agrave; relever l&#39;un des plus grands d&eacute;fis environnementaux: la qualit&eacute; de l&#39;air. En utilisant les conditions m&eacute;t&eacute;orologiques, la qualit&eacute; de l&#39;air et les donn&eacute;es routi&egrave;res, les &laquo;CityTrees&raquo; en Allemagne peuvent <a href=\"http://www.perspectiveglobal.com/lifestyle/citytree-by-green-city-solutions/\">r&eacute;duire de 30% la pollution de l&#39;air &agrave; moins de 50 m&egrave;tres</a>. En Gr&egrave;ce, <a href=\"http://envi4all.eu/#/\">Envi4All</a> permet aux locaux de s&#39;informer sur les niveaux de pollution de l&#39;air dans leur r&eacute;gion.</p>",
+        "_graphic": {
+          "src": "course/en/assets/194749d6a3d955ccf1327dff670d11d82f1e5892.jpg",
+          "alt": "",
+          "attribution": "<a href=\"http://www.shutterstock.com/pic-185008832\" target=\"_blank\">suarassawadee</a> <span class='assetLicence'>[Shutterstock standard licence]</span>"
+        },
+        "strapline": "Sauver la planète"
+      }
+    ]
+  },
+  {
+    "_id": "5940f4f0d084d5167a04fb92",
+    "_layout": "right",
+    "_parentId": "b-07",
+    "_type": "component",
+    "body": "<p>L&#39;&eacute;l&eacute;ment final du pitch est de laisser votre auditeur avec une action claire.</p><p>Les auditeurs veulent pouvoir agir en r&eacute;ponse &agrave; un pitch. Votre t&acirc;che est de cr&eacute;er une action qui leur permet de dire imm&eacute;diatement oui (ou non) sans avoir besoin de trop r&eacute;fl&eacute;chir &agrave; ce sujet.</p>",
+    "displayTitle": "Quelle est la prochaine étape?",
+    "title": "Quelle est la prochaine étape?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "accordion",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_items": [
+      {
+        "title": "Sur place",
+        "body": "<p>Assurez-vous que votre auditeur puisse r&eacute;pondre &agrave; votre action sur place. S&#39;ils ont besoin de consulter d&#39;autres personnes ou de consid&eacute;rer votre action pendant un certain temps, c&#39;est trop grand. L&#39;id&eacute;al est une petite action, claire et qui fait avancer l&#39;agenda.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Attentes précises",
+        "body": "<p>Assurez-vous que vous d&eacute;finissez des attentes pr&eacute;cises pour ce que vous demandez. Les aspects tels que l&#39;&eacute;ch&eacute;ancier, les ressources et l&#39;impact potentiel devraient &ecirc;tre au c&oelig;ur de la gestion des attentes.</p><p>Si l&#39;auditeur estime que les contraintes de d&eacute;lai ou de ressourcement limitent l&#39;opportunit&eacute;, ils peuvent m&ecirc;me &ecirc;tre en mesure d&#39;aider. &Eacute;tant ouvert et raisonnable aidera l&#39;auditeur &agrave; devenir engag&eacute; dans votre argument.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Demandes raisonnables",
+        "body": "<p>Demandez seulement un budget ou un temps raisonnable, tenant compte du niveau de rendement attendu. Si vos demandes sont d&eacute;raisonnables, il est peu probable que vous obteniez une r&eacute;ponse positive.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Exemples de bonnes actions",
+        "body": "<p>Les bonnes actions ne doivent pas &ecirc;tre r&eacute;volutionnaires.</p><p>Des exemples de bonnes actions incluent:</p><ul><li>Obtenir une date dans le journal pour une r&eacute;union de suivi avec plus de personnes</li><li>Engagement &agrave; lire et &agrave; r&eacute;pondre &agrave; une &eacute;tude de cas pertinente &agrave; leurs int&eacute;r&ecirc;ts</li><li>Engagement &agrave; vous envoyer une &eacute;valuation de faisabilit&eacute; pour votre solution</li></ul>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      }
+    ],
+    "_shouldCollapseItems": true
+  },
+  {
+    "_id": "5940f4f0d084d5167a04fb93",
+    "_layout": "right",
+    "_parentId": "b-12",
+    "_type": "component",
+    "body": "<p><strong>Vous devriez finir votre pitch avec...</strong></p>",
+    "displayTitle": "Quelle est la prochaine étape?",
+    "title": "Quelle est la prochaine étape?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "mcq",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Choisissez votre réponse et puis cliquez sur ‘Valider’.",
+    "_items": [
+      {
+        "text": "Une action qui permet une prise de décision sur place",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "Une action pour votre auditeur à partager avec son manager",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "Une action pour votre auditeur à réfléchir pendant quelques jours",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_feedback": {
+      "correct": "<p><strong>Vous avez raison!</strong></p><p dir=\"ltr\">&Agrave; la fin de votre argument, il est essentiel de cr&eacute;er une action qui permet &agrave; votre auditeur de donner une r&eacute;ponse imm&eacute;diatement. S&#39;ils ont besoin de consulter d&#39;autres personnes ou de consid&eacute;rer votre action pendant un certain temps, l&#39;action est trop grande.</p>",
+      "_incorrect": {
+        "final": "<p><strong>&Ecirc;tes-vous s&ucirc;r?</strong></p><p dir=\"ltr\">&Agrave; la fin de votre argument, il est essentiel de cr&eacute;er une action qui permet &agrave; votre auditeur de donner une r&eacute;ponse imm&eacute;diatement. S&#39;ils ont besoin de consulter d&#39;autres personnes ou de consid&eacute;rer votre action pendant un certain temps, l&#39;action est trop grande.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
       }
     },
-    {
-        "_id":"c-75",
-        "_parentId":"b-50",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"illustration",
-        "_layout":"left",
-        "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "course/fr/images/odi-12-mcq_large.jpg",
-            "medium": "course/fr/images/odi-12-mcq_large.jpg",
-            "small": "course/fr/images/odi-12-mcq_large.jpg",
-            "*source":"http://www.shutterstock.com/pic.mhtml?id=149924576&src=lb-35924366",
-            "*credit":"Sergey Nivens",
-            "*license":"Shutterstock Standard License"
-        }
-    },
-    {
-        "_id":"c-80",
-        "_parentId":"b-50",
-        "_type":"component",
-        "_component":"mcq",
-        "_classes":"",
-        "_layout":"right",
-        "_attempts":1,
-        "_questionWeight":1,
-        "_isRandom":true,
-        "_selectable":1,
-        "title": "Pourquoi a-t-on besoin de l’open data ?",
-        "displayTitle": "Pourquoi a-t-on besoin de l’open data ?",
-        "body": "<p>Quel est le potentiel de l’open data ?</p>",
-        "instruction": "<em>Choisissez votre réponse et puis cliquez sur ‘Valider’.</em>",
-        "_items": [
-            {
-                "text": "Donner accès à d’autres ensembles de données.",
-                "_shouldBeSelected": false
-            },
-            {
-                "text": "Rendre les gouvernements plus responsables.",
-                "_shouldBeSelected": false
-            },
-            {
-                "text": "Générer de la valeur sociale, environnementale et économique.",
-                "_shouldBeSelected": true
-            }
-        ],
-        "_feedback":{
-            "correct":"<h5>Vous avez raison !</h5><p>L’open data peut transformer l’interaction entre les gouvernements, les entreprises et les individus. Il a le potentiel d’améliorer les services, de contribuer à la croissance économique et de sauver notre planète.</p>",
-            "_incorrect": {
-                "notFinal": "<h5>Êtes vous sûr(e) ? </h5><p>L’open data peut transformer l’interaction entre les gouvernements, les entreprises et les individus. Il a le potentiel d’améliorer les services, de contribuer à la croissance économique et de sauver notre planète.</p>",
-                "final": "<h5>Êtes vous sûr(e) ? </h5><p>L’open data peut transformer l’interaction entre les gouvernements, les entreprises et les individus. Il a le potentiel d’améliorer les services, de contribuer à la croissance économique et de sauver notre planète.</p>"
-            },
-            "_partlyCorrect": {
-                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-          }
-        },
-        "_buttons":{
-            "submit":"Valider",
+    "_buttons":{
+            "submit":"",
             "reset":"",
             "showCorrectAnswer":"",
             "hideCorrectAnswer":""
-        },
-        "_pageLevelProgress": {
-        "_isEnabled": true
-      }
-    },
-    {
-        "_id":"c-85",
-        "_parentId":"b-55",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"right",
-        "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "course/fr/images/summary-icon.png",
-            "medium": "course/fr/images/summary-icon.png",
-            "small": "course/fr/images/summary-icon.png",
-            "*source":"http://www.shutterstock.com/pic-189810137.html",
-            "*credit":"Kritchanut",
-            "*license":"Shutterstock Standard License"
         }
+  },
+  {
+    "_id": "5940f4f0d084d5167a04fba4",
+    "_layout": "left",
+    "_parentId": "b-01",
+    "_type": "component",
+    "body": "<p>L&rsquo;ouverture des donn&eacute;es peut &ecirc;tre une activit&eacute; de grande valeur pour toutes les&nbsp;organisations. Que ce soit pour g&eacute;n&eacute;rer de l&#39;innovation dans une entreprise, d&eacute;velopper une image plus claire des op&eacute;rations ou am&eacute;liorer les produits et services, un nombre important d&#39;organisations du secteur priv&eacute; et public b&eacute;n&eacute;ficie&nbsp;maintenant de la publication et de l&#39;utilisation de donn&eacute;es ouvertes.</p><p>Cependant l&rsquo;ouverture des donn&eacute;es peut exiger un changement dans la culture d&#39;une organisation. La plupart des organisations est&nbsp;configur&eacute;e&nbsp;pour prot&eacute;ger leurs ressources de donn&eacute;es, m&ecirc;me si les avantages de l&#39;ouverture l&#39;emportent sur les frais associ&eacute;s. La solution pour surmonter cette r&eacute;sistance est &eacute;vidente, une communication efficace des avantages que les&nbsp;donn&eacute;es ouvertes&nbsp;peuvent apporter et apportent.</p><p>Ce module vous pr&eacute;parera &agrave; effectuer un pitch sur mesure pour les donn&eacute;es ouvertes qui met&nbsp;l&rsquo;accent sur la valeur et r&eacute;pond aux risques.</p><p>Dans ce module, nous allons explorer comment:</p><ul><li>Structurer&nbsp;le pitch parfait</li><li>Identifier&nbsp;diff&eacute;rents publics pour votre pitch</li><li>Adapter&nbsp;votre pitch selon diff&eacute;rents publics</li></ul>",
+    "displayTitle": "Mobilisation pour l'open data",
+    "title": "Mobilisation pour l'open data",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "ticks",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
     },
-    {
-        "_id":"c-90",
-        "_parentId":"b-55",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"",
-        "_layout":"left",
-        "title":"Données ouvertes - veni, vidi, vici",
-        "displayTitle":"Données ouvertes - veni, vidi, vici",
-        "body":"<p>Les données ouvertes, ou ‘open data’, sont des données auxquelles n’importe qui peut accéder et que tout le monde peut utiliser et partager.</p><p>Les données ouvertes sont une matière première pour l’ère du numérique mais à la différence du charbon, du bois ou des diamants, elles peuvent être utilisées par n’importe qui et à n’importe quel moment.</p><p>Toute limitation mise en place sur l’usage libre de l’open data en limitera le potentiel d’utilisation.</p><p>L’open data peut transformer l’interaction entre les gouvernements, les entreprises et les individus. Il a le potentiel d’améliorer des services, de contribuer à la croissance économiques et de sauver notre planète.</p><p>Lors du prochain module, nous verrons dans quelle mesure l’open data peut générer de la valeur.</p><p><a class='course_link' href='module2/'>Prochain module</a></p><p><a class='course_link' href='index.html'>Menu principal</a></p>",
-        "_pageLevelProgress": {
-          "_isEnabled": true
-        }
-    },
-    {
+    "instruction": ""
+  },
+  {
        "_id":"c-95",
-       "_parentId":"b-55",
+       "_parentId":"b-13",
        "_type":"component",
        "_component":"text",
        "_classes":"separator",
@@ -604,7 +851,7 @@
     },
     {
         "_id":"c-100",
-        "_parentId":"b-55",
+        "_parentId":"b-13",
         "_type":"component",
         "_component":"graphic",
         "_classes":"footer-logo",
@@ -622,7 +869,7 @@
     },
     {
         "_id":"c-105",
-        "_parentId":"b-55",
+        "_parentId":"b-13",
         "_type":"component",
         "_component":"text",
         "_classes":"social-buttons",
