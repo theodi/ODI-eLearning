@@ -1,8 +1,9 @@
 {
     "_id": "course",
     "_type": "course",
-    "title": "L’open data, c’est quoi ?",
-    "displayTitle": "L’open data, c’est quoi ?",
+    "title": "Réaliser un impact avec l'open data",
+    "displayTitle": "Réaliser un impact avec l'open data",
+    "format": "eLearning",
     "_buttons": {
         "submit": "Submit",
         "reset": "Reset",
@@ -10,10 +11,14 @@
         "hideCorrectAnswer": "My Answer"
     },
     "_latestTrackingId": 11,
+     "_learningOutcomes": [
+    ],
     "_resources": [
+    {},
+    {},
     {
-        "title": "Resources",
-        "description": "Cliquez sur le bouton pour voir les resouces de ce cours",
+        "title": "Links and resources",
+        "description": "View resources for this course",
         "_filterButtons": {
             "all": "All",
             "document": "PDF",
@@ -21,53 +26,11 @@
             "link": "Link"
         },
         "_resourcesItems": [
-            {
-                "_type": "link",
-                "title": "David Eaves article",
-                "description": "Take me to David Eaves article",
-                "_link": "http://eaves.ca/2010/04/14/case-study-open-data-and-the-public-purse/"
-            },
-            {
-                "_type": "link",
-                "title": "Follow the Money",
-                "description": "Take me to Follow the Money",
-                "_link": "http://followthemoneyng.org/"
-            },
-            {
-                "_type": "link",
-                "title": "Transport for London",
-                "description": "Take me to Transport for London",
-                "_link": "http://www.tfl.gov.uk/"
-            },
-            {
-                "_type": "link",
-                "title": "Thomson Reuters",
-                "description": "Take me to Thomson Reuters",
-                "_link": "http://site.thomsonreuters.com/site/data-identifiers/"
-            },
-            {
-                "_type": "link",
-                "title": "ODI annual report",
-                "description": "Take me to The ODI annual report",
-                "_link": "http://theodi.org/odis-second-year-annual-report"
-            },
-            {
-                "_type": "link",
-                "title": "United Nations news centre",
-                "description": "Take me to the United Nations news centre",
-                "_link": "http://www.un.org/apps/news/story.asp?NewsID=13077&Cr=natural&Cr1=disaster#.VVyWK_lVhBc"
-            },
-            {
-                "_type": "link",
-                "title": "Better Choices Better Deals report",
-                "description": "Take me to Better Choices Better Deals report",
-                "_link": "https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/39386/12-1324-better-choices-better-deals-report-on-progress-on-the-consumer-empowerment-strategy.pdf"
-            }
         ]
       },
     {
-        "title": "Modules",
-        "description": "Passer à une autre module",
+        "title": "Credits and attribution",
+        "description": "View attribution for licensed content",
         "_filterButtons": {
             "all": "All",
             "document": "PDF",
@@ -77,165 +40,87 @@
         "_resourcesItems": [
             {
                 "_type": "link",
-                "_local": "true",		"title": "Menu principal",
-                "description": "Menu principal",
-                "_link": "../"
+                "title": "",
+                "description": "Source: Freepik<br\/>Credit: The Open Data Institute<br\/>Licence: CC-BY-SA",
+                "_link": "https:\/\/theodi.org"
             },
             {
                 "_type": "link",
-                "_local": "true",		"title": "Cours 1",
-                "description": "L’open data, c’est quoi ?",
-                "_link": "../module1/"
+                "title": "Why is achieving impact important?",
+                "description": "Source: Shutterstock<br\/>Credit: tai11<br\/>Licence: Shutterstock standard licence",
+                "_link": "https:\/\/www.shutterstock.com\/image-illustration\/large-group-people-shape-chat-bubblewhite-234353791"
             },
             {
                 "_type": "link",
-                "_local": "true",		"title": "Cours 2",
-                "description": "Générer de la valeur à partir de l’open data",
-                "_link": "../module2/"
+                "title": "",
+                "description": "Source: Freepik<br\/>Credit: Photoroyalty - Freepik.com<br\/>Licence: CC-BY",
+                "_link": "http:\/\/www.freepik.com\/free-photos-vectors\/business"
             },
             {
                 "_type": "link",
-                "_local": "true",		"title": "Cours 3",
-                "description": "L’open data. Agent de changement",
-                "_link": "../module3/"
+                "title": "Overcoming barriers to achieving impact from open data",
+                "description": "Source: Freepik<br\/>Credit: Ghozt Tramp<br\/>Licence: CC-BY-SA",
+                "_link": "https:\/\/commons.wikimedia.org\/wiki\/File:Ghozt_Tramp_-_Business_Communication_Duplicat_model.jpg"
             },
             {
                 "_type": "link",
-                "_local": "true",		"title": "Cours 4",
-                "description": "Quelle est l’importance d’une licence ?",
-                "_link": "../module4/"
+                "title": "Overcoming barriers to achieving impact from open data",
+                "description": "Source: Freepik<br\/>Credit: Owen Moore<br\/>Licence: CC-BY",
+                "_link": "https:\/\/www.flickr.com\/photos\/132053576@N03\/17765606909\/"
             },
             {
                 "_type": "link",
-                "_local": "true",		"title": "Cours 5",
-                "description": "Comment évaluer la qualité de l’open data ?",
-                "_link": "../module5/"
+                "title": "Overcoming barriers to achieving impact from open data",
+                "description": "Source: Shutterstock<br\/>Credit: robodread<br\/>Licence: Shutterstock standard licence",
+                "_link": "robodread"
             },
             {
                 "_type": "link",
-                "_local": "true",		"title": "Cours 6",
-                "description": "Mesurer le succès d’open data",
-                "_link": "../module6/"
+                "title": "Why is achieving impact important?",
+                "description": "Source: Shutterstock<br\/>Credit: tai11<br\/>Licence: Shutterstock standard licence",
+                "_link": "https:\/\/www.shutterstock.com\/image-illustration\/large-group-people-shape-chat-bubblewhite-234353791"
             },
             {
                 "_type": "link",
-                "_local": "true",		"title": "Cours 7",
-                "description": "Pourquoi se préoccuper de la durabilité ?",
-                "_link": "../module7/"
+                "title": "How can we achieve impact?",
+                "description": "Source: Freepik<br\/>Credit: Photoroyalty - Freepik.com<br\/>Licence: CC-BY",
+                "_link": "http:\/\/www.freepik.com\/free-photos-vectors\/business"
             },
             {
                 "_type": "link",
-                "_local": "true",		"title": "Cours 8",
-                "description": "Maîtriser les plateformes d'open data",
-                "_link": "../module8/"
+                "title": "How do we measure impact?",
+                "description": "Source: Shutterstock<br\/>Credit: suarassawadee<br\/>Licence: Shutterstock standard licence",
+                "_link": "http:\/\/www.shutterstock.com\/pic-185008832"
             },
             {
                 "_type": "link",
-                "_local": "true",		"title": "Cours 9",
-                "description": "Choisir le bon format pour l’open data",
-                "_link": "../module9/"
+                "title": "Overcoming barriers",
+                "description": "Source: Freepik<br\/>Credit: Ghozt Tramp<br\/>Licence: CC-BY-SA",
+                "_link": "https:\/\/commons.wikimedia.org\/wiki\/File:Ghozt_Tramp_-_Business_Communication_Duplicat_model.jpg"
             },
             {
                 "_type": "link",
-                "_local": "true",		"title": "Cours 10",
-                "description": "À quel point mes données sont-elles utilisables?",
-                "_link": "../module10/"
+                "title": "How do we measure impact?",
+                "description": "Source: Freepik<br\/>Credit: Kaz<br\/>Licence: CC0",
+                "_link": "https:\/\/pixabay.com\/en\/hands-hand-raised-hands-raised-220163\/"
             },
             {
                 "_type": "link",
-                "_local": "true",		"title": "Cours 11",
-                "description": "Comment nettoyer les données",
-                "_link": "../module11/"
+                "title": "How do we measure impact?",
+                "description": "Source: Shutterstock<br\/>Credit: JeKh<br\/>Licence: Shutterstock standard licence",
+                "_link": "https:\/\/www.shutterstock.com\/image-vector\/cloud-business-process-management-concept-blue-259560827"
             },
             {
                 "_type": "link",
-                "_local": "true",		"title": "Cours 12",
-                "description": "Trouver les données cachées sur le Web",
-                "_link": "../module12/"
-            },
-            {
-                "_type": "link",
-                "_local": "true",		"title": "Cours 13",
-                "description": "Lier le Web des données",
-                "_link": "../module13/"
+                "title": "How do we measure impact?",
+                "description": "Source: Shutterstock<br\/>Credit: suarassawadee<br\/>Licence: Shutterstock standard licence",
+                "_link": "http:\/\/www.shutterstock.com\/pic-185008832"
             }
         ]
     },
     {
-        "title": "Crédits d'images",
-        "description": "Cliquez sur le bouton pour voir les crédits d'images de ce cours",
-        "_filterButtons": {
-            "all": "All",
-            "document": "PDF",
-            "media": "Media",
-            "link": "Link"
-        },
-        "_resourcesItems": [
-        {
-        "_type": "link",
-        "title": "What is open data?",
-        "description": "Source: Shutterstock<br\/>Crédit: leromin<br\/>Licence: Shutterstock Standard License",
-        "_link": "http:\/\/www.shutterstock.com\/pic.mhtml?id=179384507&src=lb-35924366"
-    },
-    {
-        "_type": "link",
-        "title": "Data in knowledge triangle",
-        "description": "Source: Shutterstock<br\/>Crédit: Anna Frajtova<br\/>Licence: Shutterstock Standard License",
-        "_link": "http:\/\/www.shutterstock.com\/pic.mhtml?id=240789808&src=lb-35924366"
-    },
-    {
-        "_type": "link",
-        "title": "Information in knowledge triangle",
-        "description": "Source: Shutterstock<br\/>Crédit: Sachezi<br\/>Licence: Shutterstock Standard License",
-        "_link": "http:\/\/www.shutterstock.com\/pic.mhtml?id=217763944&src=lb-35924366"
-    },
-    {
-        "_type": "link",
-        "title": "Knowledge in knowledge triangle",
-        "description": "Source: Shutterstock<br\/>Crédit: Oleksiy Mark<br\/>Licence: Shutterstock Standard License",
-        "_link": "http:\/\/www.shutterstock.com\/pic.mhtml?id=250810483&src=lb-35924366"
-    },
-    {
-        "_type": "link",
-        "title": "What makes data open?",
-        "description": "Source: Shutterstock<br\/>Crédit: Oleksiy Mark<br\/>Licence: Shutterstock Standard License",
-        "_link": "http:\/\/www.shutterstock.com\/pic.mhtml?id=154744388&src=lb-35924366"
-    },
-    {
-        "_type": "link",
-        "title": "Transform government",
-        "description": "Source: Shutterstock<br\/>Crédit: hxdyl<br\/>Licence: Shutterstock Standard License",
-        "_link": "http:\/\/www.shutterstock.com\/pic.mhtml?id=265940657&src=lb-35924366"
-    },
-    {
-        "_type": "link",
-        "title": "Build new business opportunities",
-        "description": "Source: Shutterstock<br\/>Crédit: Sergey Nivens<br\/>Licence: Shutterstock Standard License",
-        "_link": "http:\/\/www.shutterstock.com\/pic.mhtml?id=149924576&src=lb-35924366"
-    },
-    {
-        "_type": "link",
-        "title": "Protect our planet",
-        "description": "Source: Shutterstock<br\/>Crédit: hbpictures<br\/>Licence: Shutterstock Standard License",
-        "_link": "http:\/\/www.shutterstock.com\/pic.mhtml?id=261740228&src=lb-35924366"
-    },
-    {
-        "_type": "link",
-        "title": "Summary icon clipboard",
-        "description": "Source: Shutterstock<br\/>Crédit: Kritchanut<br\/>Licence: Shutterstock Standard License",
-        "_link": "http:\/\/www.shutterstock.com\/pic-189810137.html"
-    },
-    {
-        "_type": "link",
-        "title": "Open data institute logo",
-        "description": "Source: The Open Data Institute<br\/>Crédit: The Open Data Institute<br\/>Licence: All rights reserved",
-        "_link": "http:\/\/theodi.org"
-    }
-    ]
-    },
-    {
-        "title": "les crédits des musiques",
-        "description": "Cliquez sur le bouton pour voir les crédits des musique de ce cours",
+        "title": "Music credits",
+        "description": "Click here to view image credits for this module",
         "_filterButtons": {
             "all": "All",
             "document": "PDF",
@@ -246,52 +131,11 @@
         {
         "_type": "link",
         "title": "Your World - Delicate Beats",
-        "description": "Source: Premium Beat<br\/>Crédit: leromin<br\/>Licence: Premium Beat Standard License",
+        "description": "Source: Premium Beat<br\/>Credit: leromin<br\/>Licence: Premium Beat Standard License",
         "_link": "http:\/\/www.premiumbeat.com\/royalty_free_music/songs/your-world"
     }
     ]
     },
-    {
-        "title": "L'open data",
-        "description": "Utiliser le contenu de ce module en tant qu'open data",
-        "_filterButtons": {
-            "all": "All",
-            "document": "PDF",
-            "media": "Media",
-            "link": "Link"
-        },
-        "_resourcesItems": [
-            {
-                "_type": "link",
-                "title": "Open data",
-                "description": "<div align='center'><img alt='Creative Commons Licence' style='border-width:0' src='https://i.creativecommons.org/l/by-sa/4.0/88x31.png' /></div><br /><span xmlns:dct='http://purl.org/dc/terms/' property='dct:title'>Learning open data</span> by <span xmlns:cc='http://creativecommons.org/ns# property='cc:attributionName'>Open Data Institute</span> is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.",
-                "_link": "http://creativecommons.org/licenses/by-sa/4.0/"
-            },
-        {
-                "_type": "link",
-                "title": "Content licence",
-                "description": "The content, including text and structure is available for you to <em>use</em>, <em>reuse</em> and <em>share</em> (including for commercial purposes) subject to the conditions of the license above.",
-                "_link": ""
-        },
-        {
-                "_type": "link",
-                "title": "Exclusions",
-                "description": "This license does not cover: <ul><li>Logos and trade marks belonging to the Open Data Institute</li><li>Third party content (such as images)</li></ul>",
-                "_link": ""
-        },
-        {
-                "_type": "link",
-                "title": "Non-endorsement",
-                "description": "This licence does not grant you any right to use the Information in a way that suggests any official status or that the Information Provider and/or Licensor endorse you or your use of the Information.",
-                "_link": ""
-        },
-        {
-                "_type": "link",
-                "title": "No warranty",
-                "description": "The Information is licensed 'as is'. The Open Data Institute is not liable for any errors or omissions in the Information and shall not be liable for any loss, injury or damage of any kind caused by its use. The Information Provider does not guarantee the continued supply of the Information.",
-                "_link": ""
-        }
-    ]
-    }
+    {},{}
    ]
 }

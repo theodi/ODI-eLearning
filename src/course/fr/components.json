@@ -1,632 +1,681 @@
 [
-    {
-        "_id":"c-01",
-        "_parentId":"b-01",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"intro-logo",
-        "_layout":"right",
-        "title":"",
-        "displayTitle":"",
-        "body":"",
-        "instruction":"",
-        "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "",
-            "medium": "",
-            "small": "",
-            "*source":"",
-            "*credit":"",
-            "*license":""
-        }
+  {
+    "_id": "59410700d084d5167a04fd8b",
+    "_layout": "right",
+    "_parentId": "59410700d084d5167a04fd82",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
     },
-    {
-        "_id":"c-02",
-        "_parentId":"b-01",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"",
-        "_layout":"left",
-        "title":"L’open data, c’est quoi ?",
-        "displayTitle":"L’open data, c’est quoi ?",
-	"body": "<p>Il s’agit de données auxquelles tout le monde peut accéder et que tout le monde peut utiliser et partager. Les gouvernements, les entreprises et les individus peuvent utiliser l’open data afin de créer des avantages sociaux, économiques et environnementaux.</p><h5>Dans ce module, nous allons explorer les points suivants :</h5><ul class='ticks'><li>L’open data (ou ‘données ouvertes’), c’est quoi ?</li><li>Qu’entend-on par données ?</li><li>Qu’est ce qui rend les données ‘ouvertes’?</li><li>Pourquoi en a-t-on besoin?</li></ul>",
-        "instruction":"",
-        "_pageLevelProgress": {
-            "_isEnabled": true
-        }
-    },
-    {
-    "_id":"c-11",
-    "_parentId":"b-10",
-    "_type":"component",
-    "_component":"iFrame-vimeo",
-    "_classes":"",
-    "_layout":"full",
-        "title":"Découvrir l’Open Data- en 2 minutes",
-        "displayTitle": "Découvrir l’Open Data- en 2 minutes",
-        "body": "Formateur à l’ODI, Dr. David Tarrant explique ce qu’on entend par données, ce qui les rend ouvertes et pourquoi l’open data est nécessaire.",
-        "instruction": "",
-        "_setCompletionOn":"ended",
-        "_source": "https://player.vimeo.com/video/129196637",
-        "_width": {
-            "_small" : 300,
-            "_medium" : 500,
-            "_large" : 905
-        },
-        "_height": {
-            "_small" : 250,
-            "_medium" : 350,
-            "_large" : 508
-        }
-    },
-    {
-        "_id":"c-21",
-        "_parentId":"b-20",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"right",
-        "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "course/fr/images/odi-1-text-image_large.jpg",
-            "medium": "course/fr/images/odi-1-text-image_large.jpg",
-            "small": "course/fr/images/odi-1-text-image_large.jpg",
-            "*source":"http://www.shutterstock.com/pic.mhtml?id=179384507&src=lb-35924366",
-            "*credit":"leromin",
-            "*license":"Shutterstock Standard License"
-        }
-    },
-    {
-        "_id":"c-22",
-        "_parentId":"b-20",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"",
-        "_layout":"left",
-        "title":"L’open data, c’est quoi ?",
-        "displayTitle":"L’open data, c’est quoi ?",
-        "body":"<p>Il s’agit de données auxquelles tout le monde peut accéder et que tout le monde peut utiliser et partager.</p><p>On peut accéder aux données car elles sont disponibles en ligne.</p><p>On peut utiliser les données car elles sont disponibles sous une forme commune et lisible par des machines.</p><p>L’open data doit être sous licence. Cette licence doit en permettre l’usage libre et autoriser les utilisateurs à transformer, combiner et partager ces données, même à des fins commerciales.</p>"
-    },
-     {
-        "_id": "c-25",
-        "_parentId": "b-25",
-        "_classes": "",
-        "_type":"component",
-        "_layout": "full",
-        "_component": "narrative",
-        "title": "De la matière première à l’information et à la connaissance nouvelle",
-        "displayTitle": "De la matière première à l’information et à la connaissance nouvelle",
-        "body": "Sans données, on ne peut pas créer d’information. Et sans information, il n’y a pas de nouvelles connaissances possibles.",
-        "instruction": "<em class='desktop-instruction'>Cliquez sur la flèche pour plus de détail.</em><em class='mobile-instruction'>Cliquez sur la flèche pour plus de détail.</em>",
-        "_items": [
-            {
-                "title": "Les données",
-                "body": "<p>Les données sont le niveau le plus bas de matière première duquel on peut retirer des connaissances.</p><p>Imaginez ainsi les données comme l’ensemble des lieux, des images, des descriptions, des critiques et des prix qui constituent l’information nécessaire à la planification de vos vacances.</p>",
-                "_graphic": {
-                    "src": "course/fr/images/odi-2-narrative_large.jpg",
-                    "alt": "Providing certainty",
-                    "title": "",
-                    "*source":"http://www.shutterstock.com/pic.mhtml?id=240789808&src=lb-35924366",
-                    "*credit":"Anna Frajtova",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "Données"
-            },
-            {
-                "title": "L’information",
-                "body": "<p>Les données deviennent de l’information lorsqu’on leur donne un contexte.</p><p>En s’inspirant de l’exemple précédant, on associe certaines destinations, images, descriptions et prix à une attraction touristique.</p><p>La collecte et la présentation des données constituent l’information.</p>",
-                "_graphic": {
-                    "src": "course/fr/images/odi-3-narrative_large.jpg",
-                    "alt": "A graph of open licences across countries",
-                    "title": "A graph of open licences across countries",
-                    "*source":"http://www.shutterstock.com/pic.mhtml?id=217763944&src=lb-35924366",
-                    "*credit":"Sachezi",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "Informations"
-            },
-            {
-                "title": "Les connaissances",
-                "body": "<p>Les connaissances sont ce qui découle de l’information et l’usage personnalisé que l’on en fait.</p><p>L’acquisition de connaissances consiste en la transformation d’information en choix.</p><p>En s’inspirant de l’exemple précédant, le fait de savoir qu’aucun membre de votre famille n’aime les parcs d’attraction va informer votre décision quant aux destinations à éviter ou à privilégier.</p>",
-                "_graphic": {
-                    "src": "course/fr/images/odi-4-narrative_large.jpg",
-                    "alt": "A map from a to b",
-                    "title": "A map from a to b",
-                    "*source":"http://www.shutterstock.com/pic.mhtml?id=250810483&src=lb-35924366",
-                    "*credit":"Oleksiy Mark",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "Connaissances"
-            }
-        ],
-        "_pageLevelProgress": {
-        "_isEnabled": true
-        }
-    },
-    {
-        "_id":"c-30",
-        "_parentId":"b-28",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"right",
-        "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "course/fr/images/odi-5-accordion_large.jpg",
-            "medium": "course/fr/images/odi-5-accordion_large.jpg",
-            "small": "course/fr/images/odi-5-accordion_large.jpg",
-            "*source":"http://www.shutterstock.com/pic.mhtml?id=154744388&src=lb-35924366",
-            "*credit":"Oleksiy Mark",
-            "*license":"Shutterstock Standard License"
-        }
-    },
-    {
-      "_id":"c-35",
-      "_parentId":"b-28",
-      "_type":"component",
-      "_component":"accordion",
-      "_classes":"",
-      "_layout":"left",
-      "title": "Qu’est-ce qui rend les données ‘ouvertes’ ?",
-      "displayTitle": "Qu’est-ce qui rend les données ‘ouvertes’ ?",
-      "body": "<p>Les données sont ouvertes si tout le monde peut y accéder, les utiliser et les partager.<br />Voici quelques idées à prendre en considération lorsque l’on définit ‘ouverte’ :</p>",
-      "instruction": "",
-      "_items": [
-        {
-          "alt": "Restrictions",
-          "title": "Restrictions",
-          "body": "<p>Pour que les données soient ouvertes, il ne doit y avoir aucune restriction quant à leur utilisation, quelle qu’elle soit.</p><p>N’importe quel utilisateur devrait être libre d’utiliser, de modifier, de combiner et de partager les données, même à des fins commerciales.</p>"
-        },
-        {
-          "alt": "Coût",
-          "title": "Coût",
-          "body": "<p>Même si l’utilisation de l’open data doit être libre, cela ne signifie pas que son accès doit être gratuit.</p><p>Il y a souvent un coût associé à la création, à la maintenance et à la publication des données utilisables.</p><p>Idéalement, le prix des données ne devrait pas excéder le coût de reproduction de la donnée demandé.</p><p>Ce coût est souvent négligeable pour de nombreux ensembles de données.</p><p>Les données en temps réel et les contenus lourds peuvent cependant engager des frais continus afin de garantir leur fiabilité.</p>"
-        },
-        {
-          "alt": "Réutilisation",
-          "title": "Réutilisation",
-          "body": "<p>Une fois que l’utilisateur possède toutes les données, il est libre de les utiliser, de les réutiliser et de les redistribuer, même à des fins commerciales.</p><p>On mesure les données ouvertes en fonction des possibilités d’utilisation, et non en fonction de leur mise à disposition.</p><p>Certains aspects, comme le format, la structure et la lisibilité par une machine, rendent les données plus facilement utilisables et doivent donc être soigneusement considérés.</p><p>Cependant, ces éléments ne rendent pas les données plus ouvertes.</p>"
-        }
-      ],
-      "_pageLevelProgress": {
-        "_isEnabled": true
-      }
-    },
-     {
-        "_id": "c-40",
-        "_parentId": "b-30",
-        "_classes": "",
-        "_type":"component",
-        "_layout": "full",
-        "_component": "narrative",
-        "title": "Pourquoi a-t-on besoin ?",
-        "displayTitle": "Pourquoi a-t-on besoin ?",
-        "body": "Les données ouvertes ont le pouvoir de produire des avantages divers pour les gouvernements, les entreprises et la société civile.",
-        "instruction": "<em class='desktop-instruction'>Cliquez sur la flèche pour plus de détail.</em><em class='mobile-instruction'>Cliquez sur la flèche pour plus de détail.</em>",
-        "_items": [
-            {
-                "title": "Transformation gouvernementale",
-                "body": "<p>L’open data permet une plus grande transparence pour les gouvernements. Il peut aider à prouver que les fonds publics sont dépensés à bon escient et que les politiques sont bien implémentées.</p><p>Ainsi, selon un militant pour le gouvernement ouvert (« open government activist ») David Eaves, l’open data a permis aux citoyens canadiens d’économiser 3, 2 milliards de dollars en dons frauduleux aux associations caritatives en 2010.<br /><a href='http://eaves.ca/2010/04/14/case-study-open-data-and-the-public-purse/' target='_blank'>Lien vers l’article de David Eaves</a></p><p>Un autre exemple, au Nigeria cette fois, où selon Follow the Money, le même processus garantit que les fonds publics sont bel et bien utilisés pour mettre en œuvre les politiques promises au peuple.<br /><a href='http://followthemoneyng.org/' target='_blank'>Lien vers Follow the Money</a></p>",
-                "_graphic": {
-                    "src": "course/fr/images/odi-6-narrative_large.jpg",
-                    "alt": "Transform government",
-                    "title": "Transform government",
-                    "*source":"http://www.shutterstock.com/pic.mhtml?id=265940657&src=lb-35924366",
-                    "*credit":"hxdyl",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "Transform government"
-            },
-            {
-                "title": "Nouvelles opportunités d'entreprise",
-                "body": "<p>L’open data ouvre de nouvelles opportunités pour que les entreprises établissent un rapport avec leurs clients.</p><p>Transport for London a publié des données ouvertes qui ont permis la création de plus de 800 applications de transport.<br /><a href='http://www.tfl.gov.uk/' target='_blank'>Lien vers Transport for London</a></p><p>Thomson Reuters utilise les données ouvertes pour mieux communiquer avec les clients existants et afin de fournir de meilleurs services.<br /><a href='http://site.thomsonreuters.com/site/data-identifiers/' target='_blank'>Lien vers Thomson Reuters</a></p><p>Aujourd’hui, la start-up ODI a plus de 70 employés avec un revenu de plus de 4 million de livres.<br /><a href='http://theodi.org/odis-second-year-annual-report' target='_blank'>Lien vers le rapport annual de l’ODI</a></p>",
-                "_graphic": {
-                    "src": "course/fr/images/odi-7-narrative_large.jpg",
-                    "alt": "Build new business opportunities",
-                    "title": "Build new business opportunities",
-                    "*source":"http://www.shutterstock.com/pic.mhtml?id=149924576&src=lb-35924366",
-                    "*credit":"Sergey Nivens",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "Build new business opportunities"
-            },
-            {
-                "title": "Protéger notre planète",
-                "body": "<p>Le web est devenu une partie intégrante de notre infrastructure et l’open data va contribuer à ce développement.</p><p>Les données ouvertes concernant la météo permettent par exemple de donner l’alerte rapidement en cas de catastrophes naturelles.<br /><a href='http://www.un.org/apps/news/story.asp?NewsID=13077&Cr=natural&Cr1=disaster#.VVyWK_lVhBc' target='_blank'>Lien vers le Centre d’actualités de l’ONU.</a></p><p>Les données ouvertes aident les consommateurs à comprendre leur impact sur l’environnement et à prendre des mesures pour l’améliorer.<br /><a href='https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/39386/12-1324-better-choices-better-deals-report-on-progress-on-the-consumer-empowerment-strategy.pdf' target='_blank'>Lien vers le rapport de Better Choices Better Deals.</a></p>",
-                "_graphic": {
-                    "src": "course/fr/images/odi-8-narrative_large.jpg",
-                    "alt": "Protect our planet",
-                    "title": "Protect our planet",
-                    "*source":"http://www.shutterstock.com/pic.mhtml?id=261740228&src=lb-35924366",
-                    "*credit":"hbpictures",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "Protect our planet"
-            }
-        ],
-        "_pageLevelProgress": {
-        "_isEnabled": true
-        }
-    }, {
-        "_id":"c-42",
-        "_parentId":"b-33",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"right",
-        "title":"",
-        "displayTitle":"",
-        "body":"",
-        "instruction":"",
-        "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "course/fr/images/burst.png",
-            "medium": "course/fr/images/burst.png",
-            "small": "course/fr/images/burst.png"
-        }
-    },
-    {
-        "_id":"c-43",
-        "_parentId":"b-33",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"",
-        "_layout":"left",
-        "title":"Êtes-vous prêt(e) pour l’open data ?",
-        "displayTitle":"Êtes-vous prêt(e) pour l’open data ?",
-        "body":"<p>Il y a quatre éléments utiles à prendre en considération quand on pense à ouvrir ses données aux utilisateurs. Saurez-vous vous en souvenir?</p>",
-        "instruction":"",
-        "_pageLevelProgress": {
-            "_isEnabled": true
-        }
-    },
-    {
-        "_id":"c-45",
-        "_parentId":"b-35",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"illustration",
-        "_layout":"right",
-        "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "course/fr/images/odi-9-mcq-image_large.jpg",
-            "medium": "course/fr/images/odi-9-mcq-image_large.jpg",
-            "small": "course/fr/images/odi-9-mcq-image_large.jpg",
-            "*source":"http://www.shutterstock.com/pic.mhtml?id=179384507&src=lb-35924366",
-            "*credit":"leromin",
-            "*license":"Shutterstock Standard License"
-        }
-    },
-    {
-        "_id":"c-50",
-        "_parentId":"b-35",
-        "_type":"component",
-        "_component":"mcq",
-        "_classes":"",
-        "_layout":"left",
-        "_attempts":1,
-        "_questionWeight":1,
-        "_isRandom":true,
-        "_selectable":1,
-        "title": "L’open data, c’est quoi ?",
-        "displayTitle": "L’open data, c’est quoi ?",
-        "body": "<p>L’open data, c’est…</p>",
-        "instruction": "<em>Choisissez votre réponse et puis cliquez sur ‘Valider’.</em>",
-        "_items": [
-            {
-                "text": "des informations que l’on vend aux entreprises.",
-                "_shouldBeSelected": false
-            },
-            {
-                "text": "des données auxquelles tout le monde peut accéder et que tout le monde peut utiliser et partager",
-                "_shouldBeSelected": true
-            },
-            {
-                "text": "des données visibles en ligne.",
-                "_shouldBeSelected": false
-            }
-        ],
-        "_feedback":{
-            "correct":"<h5>Vous avez raison !</h5><p>L’open data, ce sont des données auxquelles tout le monde peut accéder et que tout le monde peut utiliser et partager. Les données ouvertes doivent avoir une licence permettant leur utilisation libre et doivent pouvoir être utilisées à des fins commerciales.</p>",
-            "_incorrect": {
-                "notFinal": "<h5>Êtes vous sûr(e) ? </h5><p>L’open data, ce sont des données auxquelles tout le monde peut accéder et que tout le monde peut utiliser et partager. Les données ouvertes doivent avoir une licence permettant leur utilisation libre et doivent pouvoir être utilisées à des fins commerciales.</p>",
-                "final": "<h5>Êtes vous sûr(e) ? </h5><p>L’open data, ce sont des données auxquelles tout le monde peut accéder et que tout le monde peut utiliser et partager. Les données ouvertes doivent avoir une licence permettant leur utilisation libre et doivent pouvoir être utilisées à des fins commerciales.</p>"
-            },
-            "_partlyCorrect": {
-                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-          }
-        },
-        "_buttons":{
-            "submit":"Valider",
-            "reset":"",
-            "showCorrectAnswer":"",
-            "hideCorrectAnswer":""
-        },
-        "_pageLevelProgress": {
-        "_isEnabled": true
-      }
-    },
-    {
-        "_id":"c-55",
-        "_parentId":"b-40",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"illustration",
-        "_layout":"left",
-        "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "course/fr/images/odi-10-mcq_large.jpg",
-            "medium": "course/fr/images/odi-10-mcq_large.jpg",
-            "small": "course/fr/images/odi-10-mcq_large.jpg",
-            "*source":"http://www.shutterstock.com/pic.mhtml?id=240789808&src=lb-35924366",
-            "*credit":"Anna Frajtova",
-            "*license":"Shutterstock Standard License",
-            "*source":"http://www.shutterstock.com/pic.mhtml?id=217763944&src=lb-35924366",
-            "*credit":"Sachezi",
-            "*license":"Shutterstock Standard License",
-            "*source":"http://www.shutterstock.com/pic.mhtml?id=250810483&src=lb-35924366",
-            "*credit":"Oleksiy Mark",
-            "*license":"Shutterstock Standard License"
-        }
-    },
-    {
-        "_id":"c-60",
-        "_parentId":"b-40",
-        "_type":"component",
-        "_component":"mcq",
-        "_classes":"",
-        "_layout":"right",
-        "_attempts":1,
-        "_questionWeight":1,
-        "_isRandom":true,
-        "_selectable":1,
-        "title": "Qu’entend-on par données ?",
-        "displayTitle": "Qu’entend-on par données ?",
-        "body": "<p>Les données sont...</p>",
-        "instruction": "<em>Choisissez votre réponse et puis cliquez sur ‘Valider’.</em>",
-        "_items": [
-            {
-                "text": "des chiffres, des mots, des cartes et des photos.",
-                "_shouldBeSelected": false
-            },
-            {
-                "text": "des informations en ligne.",
-                "_shouldBeSelected": false
-            },
-            {
-                "text": "la matière première  de l’information et de la connaissance.",
-                "_shouldBeSelected": true
-            }
-        ],
-        "_feedback":{
-            "correct":"<h5>Vous avez raison !</h5><p>Les données sont le niveau le plus bas de matières premières duquel on peut retirer des connaissances.</p>",
-            "_incorrect": {
-                "notFinal": "<h5>Êtes vous sûr(e) ? </h5><p>Les données sont le niveau le plus bas de matières premières duquel on peut retirer des connaissances.</p>",
-                "final": "<h5>Êtes vous sûr(e) ? </h5><p>Les données sont le niveau le plus bas de matières premières duquel on peut retirer des connaissances.</p>"
-            },
-            "_partlyCorrect": {
-                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-          }
-        },
-        "_buttons":{
-            "submit":"Valider",
-            "reset":"",
-            "showCorrectAnswer":"",
-            "hideCorrectAnswer":""
-        },
-        "_pageLevelProgress": {
-        "_isEnabled": true
-      }
-    },
-    {
-        "_id":"c-65",
-        "_parentId":"b-45",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"illustration",
-        "_layout":"right",
-        "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "course/fr/images/odi-11-mcq_large.jpg",
-            "medium": "course/fr/images/odi-11-mcq_large.jpg",
-            "small": "course/fr/images/odi-11-mcq_large.jpg",
-            "*source":"http://www.shutterstock.com/pic.mhtml?id=154744388&src=lb-35924366",
-            "*credit":"Oleksiy Mark",
-            "*license":"Shutterstock Standard License"
-        }
-    },
-    {
-        "_id":"c-70",
-        "_parentId":"b-45",
-        "_type":"component",
-        "_component":"mcq",
-        "_classes":"",
-        "_layout":"left",
-        "_attempts":1,
-        "_questionWeight":1,
-        "_isRandom":true,
-        "_selectable":1,
-        "title": "Qu’est ce qui rend les données ouvertes ?",
-        "displayTitle": "Qu’est ce qui rend les données ouvertes ?",
-        "body": "<p>Les données ouvertes doivent...</p>",
-        "instruction": "<em>Choisissez votre réponse et puis cliquez sur ‘Valider’.</em>",
-        "_items": [
-            {
-                "text": "être libres de toute limite en ce qui concerne leur utilisation.",
-                "_shouldBeSelected": true
-            },
-            {
-                "text": "comporter des limites d’utilisation.",
-                "_shouldBeSelected": false
-            },
-            {
-                "text": "être publiées de manière sélective et payante.",
-                "_shouldBeSelected": false
-            }
-        ],
-        "_feedback":{
-            "correct":"<h5>Vous avez raison !</h5><p>S’il y a une quelconque limitation quant à l’utilisation libre des données (par exemple une limitation non-commerciale), celles-ci ne peuvent pas être considérées comme ‘ouvertes’.</p>",
-            "_incorrect": {
-                "notFinal": "<h5>Êtes vous sûr(e) ? </h5><p>S’il y a une quelconque limitation quant à l’utilisation libre des données (par exemple une limitation non-commerciale), celles-ci ne peuvent pas être considérées comme ‘ouvertes’.</p>",
-                "final": "<h5>Êtes vous sûr(e) ? </h5><p>S’il y a une quelconque limitation quant à l’utilisation libre des données (par exemple une limitation non-commerciale), celles-ci ne peuvent pas être considérées comme ‘ouvertes’.</p>"
-            },
-            "_partlyCorrect": {
-                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-          }
-        },
-        "_buttons":{
-            "submit":"Valider",
-            "reset":"",
-            "showCorrectAnswer":"",
-            "hideCorrectAnswer":""
-        },
-        "_pageLevelProgress": {
-        "_isEnabled": true
-      }
-    },
-    {
-        "_id":"c-75",
-        "_parentId":"b-50",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"illustration",
-        "_layout":"left",
-        "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "course/fr/images/odi-12-mcq_large.jpg",
-            "medium": "course/fr/images/odi-12-mcq_large.jpg",
-            "small": "course/fr/images/odi-12-mcq_large.jpg",
-            "*source":"http://www.shutterstock.com/pic.mhtml?id=149924576&src=lb-35924366",
-            "*credit":"Sergey Nivens",
-            "*license":"Shutterstock Standard License"
-        }
-    },
-    {
-        "_id":"c-80",
-        "_parentId":"b-50",
-        "_type":"component",
-        "_component":"mcq",
-        "_classes":"",
-        "_layout":"right",
-        "_attempts":1,
-        "_questionWeight":1,
-        "_isRandom":true,
-        "_selectable":1,
-        "title": "Pourquoi a-t-on besoin de l’open data ?",
-        "displayTitle": "Pourquoi a-t-on besoin de l’open data ?",
-        "body": "<p>Quel est le potentiel de l’open data ?</p>",
-        "instruction": "<em>Choisissez votre réponse et puis cliquez sur ‘Valider’.</em>",
-        "_items": [
-            {
-                "text": "Donner accès à d’autres ensembles de données.",
-                "_shouldBeSelected": false
-            },
-            {
-                "text": "Rendre les gouvernements plus responsables.",
-                "_shouldBeSelected": false
-            },
-            {
-                "text": "Générer de la valeur sociale, environnementale et économique.",
-                "_shouldBeSelected": true
-            }
-        ],
-        "_feedback":{
-            "correct":"<h5>Vous avez raison !</h5><p>L’open data peut transformer l’interaction entre les gouvernements, les entreprises et les individus. Il a le potentiel d’améliorer les services, de contribuer à la croissance économique et de sauver notre planète.</p>",
-            "_incorrect": {
-                "notFinal": "<h5>Êtes vous sûr(e) ? </h5><p>L’open data peut transformer l’interaction entre les gouvernements, les entreprises et les individus. Il a le potentiel d’améliorer les services, de contribuer à la croissance économique et de sauver notre planète.</p>",
-                "final": "<h5>Êtes vous sûr(e) ? </h5><p>L’open data peut transformer l’interaction entre les gouvernements, les entreprises et les individus. Il a le potentiel d’améliorer les services, de contribuer à la croissance économique et de sauver notre planète.</p>"
-            },
-            "_partlyCorrect": {
-                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-          }
-        },
-        "_buttons":{
-            "submit":"Valider",
-            "reset":"",
-            "showCorrectAnswer":"",
-            "hideCorrectAnswer":""
-        },
-        "_pageLevelProgress": {
-        "_isEnabled": true
-      }
-    },
-    {
-        "_id":"c-85",
-        "_parentId":"b-55",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"right",
-        "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "course/fr/images/summary-icon.png",
-            "medium": "course/fr/images/summary-icon.png",
-            "small": "course/fr/images/summary-icon.png",
-            "*source":"http://www.shutterstock.com/pic-189810137.html",
-            "*credit":"Kritchanut",
-            "*license":"Shutterstock Standard License"
-        }
-    },
-    {
-        "_id":"c-90",
-        "_parentId":"b-55",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"",
-        "_layout":"left",
-        "title":"Données ouvertes - veni, vidi, vici",
-        "displayTitle":"Données ouvertes - veni, vidi, vici",
-        "body":"<p>Les données ouvertes, ou ‘open data’, sont des données auxquelles n’importe qui peut accéder et que tout le monde peut utiliser et partager.</p><p>Les données ouvertes sont une matière première pour l’ère du numérique mais à la différence du charbon, du bois ou des diamants, elles peuvent être utilisées par n’importe qui et à n’importe quel moment.</p><p>Toute limitation mise en place sur l’usage libre de l’open data en limitera le potentiel d’utilisation.</p><p>L’open data peut transformer l’interaction entre les gouvernements, les entreprises et les individus. Il a le potentiel d’améliorer des services, de contribuer à la croissance économiques et de sauver notre planète.</p><p>Lors du prochain module, nous verrons dans quelle mesure l’open data peut générer de la valeur.</p><p><a class='course_link' href='module2/'>Prochain module</a></p><p><a class='course_link' href='index.html'>Menu principal</a></p>",
-        "_pageLevelProgress": {
-          "_isEnabled": true
-        }
-    },
-    {
-       "_id":"c-95",
-       "_parentId":"b-55",
-       "_type":"component",
-       "_component":"text",
-       "_classes":"separator",
-       "_layout":"full"
-    },
-    {
-        "_id":"c-100",
-        "_parentId":"b-55",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"footer-logo",
-        "_layout":"left",
-        "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "course/fr/images/logo-small.png",
-            "medium": "course/fr/images/logo-small.png",
-            "small": "course/fr/images/logo-small.png",
-            "*source":"",
-            "*credit":"",
-            "*license":""            
-        }
-    },
-    {
-        "_id":"c-105",
-        "_parentId":"b-55",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"social-buttons",
-        "_layout":"right",
-        "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/fr/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/fr/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/fr/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/fr/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/fr/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/fr/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/fr/images/social/flickr.png'></a>"
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/fr/assets/a516261fb9cb309e3b3d1116a192ecfc2a70fbad.png",
+      "small": "course/fr/assets/a516261fb9cb309e3b3d1116a192ecfc2a70fbad.png",
+      "attribution": ""
     }
+  },
+  {
+    "_id": "59410700d084d5167a04fd95",
+    "_layout": "right",
+    "_parentId": "59410700d084d5167a04fd7d",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "color-six",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/fr/assets/7120bb7ad02055a11589656852c821cae30bf616.png",
+      "small": "course/fr/assets/7120bb7ad02055a11589656852c821cae30bf616.png",
+      "attribution": "<a href=\"https://theodi.org\" target=\"_blank\">The Open Data Institute</a> <span class='assetLicence'>[CC-BY-SA]</span>"
+    }
+  },
+  {
+    "_id": "59410700d084d5167a04fd96",
+    "_layout": "left",
+    "_parentId": "59410700d084d5167a04fd7e",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "",
+    "title": "",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/fr/assets/f4b7a83ca6a5ee395ea40ef51b5e6d07ac2e288e.jpg",
+      "small": "course/fr/assets/f4b7a83ca6a5ee395ea40ef51b5e6d07ac2e288e.jpg",
+      "attribution": "<a href=\"https://www.shutterstock.com/image-illustration/large-group-people-shape-chat-bubblewhite-234353791\" target=\"_blank\">tai11</a> <span class='assetLicence'>[Shutterstock standard licence]</span>"
+    }
+  },
+  {
+    "_id": "59410700d084d5167a04fd97",
+    "_layout": "right",
+    "_parentId": "59410700d084d5167a04fd7f",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "",
+    "title": "",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/fr/assets/edd9adfa60a0dc2b857d5e90a86fdf58f3287e66.png",
+      "small": "course/fr/assets/edd9adfa60a0dc2b857d5e90a86fdf58f3287e66.png",
+      "attribution": "<a href=\"http://www.freepik.com/free-photos-vectors/business\" target=\"_blank\"> Photoroyalty - Freepik.com</a> <span class='assetLicence'>[CC-BY]</span>"
+    }
+  },
+  {
+    "_id": "59410700d084d5167a04fd9b",
+    "_layout": "left",
+    "_parentId": "59410700d084d5167a04fd82",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "Êtes-vous prêt à réaliser un impact avec l'open data?",
+    "title": "Êtes-vous prêt à réaliser un impact avec l'open data?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "59410700d084d5167a04fd9c",
+    "_layout": "right",
+    "_parentId": "59410700d084d5167a04fd7a",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/fr/assets/f4b7a83ca6a5ee395ea40ef51b5e6d07ac2e288e.jpg",
+      "small": "course/fr/assets/f4b7a83ca6a5ee395ea40ef51b5e6d07ac2e288e.jpg",
+      "attribution": "<a href=\"https://www.shutterstock.com/image-illustration/large-group-people-shape-chat-bubblewhite-234353791\" target=\"_blank\">tai11</a> <span class='assetLicence'>[Shutterstock standard licence]</span>"
+    }
+  },
+  {
+    "_id": "59410700d084d5167a04fd9d",
+    "_layout": "left",
+    "_parentId": "59410700d084d5167a04fd7b",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/fr/assets/edd9adfa60a0dc2b857d5e90a86fdf58f3287e66.png",
+      "small": "course/fr/assets/edd9adfa60a0dc2b857d5e90a86fdf58f3287e66.png",
+      "attribution": "<a href=\"http://www.freepik.com/free-photos-vectors/business\" target=\"_blank\"> Photoroyalty - Freepik.com</a> <span class='assetLicence'>[CC-BY]</span>"
+    }
+  },
+  {
+    "_id": "59410700d084d5167a04fd9e",
+    "_layout": "right",
+    "_parentId": "59410700d084d5167a04fd79",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "",
+    "title": "",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/fr/assets/0c4e44ae54cc60d53a31c2bcff4471570e961d9d.jpg",
+      "small": "course/fr/assets/0c4e44ae54cc60d53a31c2bcff4471570e961d9d.jpg",
+      "attribution": "<a href=\"http://www.shutterstock.com/pic-185008832\" target=\"_blank\">suarassawadee</a> <span class='assetLicence'>[Shutterstock standard licence]</span>"
+    }
+  },
+  {
+    "_id": "59410700d084d5167a04fd9f",
+    "_layout": "left",
+    "_parentId": "59410700d084d5167a04fd7c",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "",
+    "title": "",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/fr/assets/95974c301fcc4ee60b2f1f1019d3f1f21221dd13.jpg",
+      "small": "course/fr/assets/95974c301fcc4ee60b2f1f1019d3f1f21221dd13.jpg",
+      "attribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Ghozt_Tramp_-_Business_Communication_Duplicat_model.jpg\" target=\"_blank\">Ghozt Tramp</a> <span class='assetLicence'>[CC-BY-SA]</span>"
+    }
+  },
+  {
+    "_id": "59410700d084d5167a04fda0",
+    "_layout": "right",
+    "_parentId": "59410700d084d5167a04fd62",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "",
+    "title": "",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "intro-logo",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "",
+      "small": "",
+      "attribution": ""
+    }
+  },
+  {
+    "_id": "59410700d084d5167a04fdba",
+    "_layout": "left",
+    "_parentId": "59410700d084d5167a04fd62",
+    "_type": "component",
+    "body": "<p dir=\"ltr\">L&#39;objectif de tout projet ou initiative de donn&eacute;es ouvertes est d&#39;avoir un certain impact, qu&#39;il s&#39;agisse de transparence politique et de responsabilit&eacute;, d&#39;avantages sociaux ou de croissance &eacute;conomique. La cr&eacute;ation, la recherche et la promotion d&#39;<a href=\"http://opendatabarometer.org/3rdEdition/report/#impact\">exemples de donn&eacute;es ouvertes utilis&eacute;es pour am&eacute;liorer notre vie quotidienne</a> est l&#39;un des aspects les plus difficiles de la conduite d&#39;un projet, programme ou initiative de donn&eacute;es ouvertes.</p><p>Dans ce module, nous allons explorer:</p><ul><li>Pourquoi la r&eacute;alisation d&#39;impact est-elle importante?</li><li>Comment pouvons-nous avoir un impact?</li><li>Comment pouvons-nous mesurer un impact?</li><li>Surmonter les obstacles pour r&eacute;aliser un impact</li></ul>",
+    "displayTitle": "Réaliser un impact avec l'open data",
+    "title": "Réaliser un impact avec l'open data",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "ticks",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "59410700d084d5167a04fdbb",
+    "_layout": "right",
+    "_parentId": "59410700d084d5167a04fd7e",
+    "_type": "component",
+    "body": "<p dir=\"ltr\">L&#39;impact est un &eacute;l&eacute;ment cl&eacute; afin de mesurer l&#39;efficacit&eacute; d&#39;une politique, d&#39;un programme ou d&#39;une initiative de donn&eacute;es ouvertes. Il est difficile de faire valoir qu&#39;un programme continue s&#39;il ne peut pas d&eacute;montrer un retour sur investissement par le bias d&#39;un impact.</p><p>Ce retour sur investissement ou RSI pourrait ne pas &ecirc;tre de nature financi&egrave;re, car il existe des impacts politiques et sociaux plus larges gr&acirc;ce aux donn&eacute;es ouvertes.</p><p>Vous pouvez en savoir plus sur le module <a href=\"http://www.europeandataportal.eu/elearning/en/module2/#/id/co-01\">D&eacute;bloquer la valeur des donn&eacute;es ouvertes</a>.</p><p dir=\"ltr\">&nbsp;</p>",
+    "displayTitle": "Pourquoi la réalisation d'impact est-elle importante?",
+    "title": "Pourquoi la réalisation d'impact est-elle importante?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "59410700d084d5167a04fdbc",
+    "_layout": "left",
+    "_parentId": "59410700d084d5167a04fd7f",
+    "_type": "component",
+    "body": "<p dir=\"ltr\">R&eacute;aliser un impact et le mesurer, est l&#39;un des aspects les plus difficiles de la direction d&#39;un projet, programme ou initiative de donn&eacute;es ouvertes. Il existe un certain nombre de techniques que vous pouvez utiliser pour vous aider &agrave; r&eacute;aliser un impact.</p>",
+    "displayTitle": "Comment pouvons-nous avoir un impact?",
+    "title": "Comment pouvons-nous avoir un impact?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "accordion",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_items": [
+      {
+        "title": "Identifier les objectifs partagés",
+        "body": "<p>La premi&egrave;re chose &agrave; r&eacute;fl&eacute;chir est ce que vous essayez de r&eacute;aliser. Quel est votre objectif final pour publier vos donn&eacute;es ouvertement? Ayant une vision clairement d&eacute;finie est cruciale pour la r&eacute;ussite d&#39;une initiative, d&#39;un programme ou d&#39;un projet de donn&eacute;es ouvertes.</p><p>Ensuite, pensez &agrave; vos utilisateurs de donn&eacute;es potentiels. Quels sont leurs objectifs? Comment vos donn&eacute;es les aideraient-elles &agrave; atteindre ces objectifs?</p><p>Les initiatives de donn&eacute;es ouvertes les plus r&eacute;ussies alignent les objectifs des fournisseurs avec ceux des utilisateurs. Il est rare que tout le monde commence avec des objectifs identiques, alors cherchez les domaines o&ugrave; ces objectifs se chevauchent. Plus les objectifs sont align&eacute;s, plus la publication a tendance &agrave; avoir du succ&egrave;s.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Chercher et encourager les histoires",
+        "body": "<p>Une bonne m&eacute;thode pour aider &agrave; d&eacute;montrer un impact est de chercher et de mettre en valeur les histoires. Parfois, les histoires se manifestent, mais plus souvent elles doivent &ecirc;tre cultiv&eacute;es.</p><p>Effectuez, commentez ou identifiez la recherche sur l&#39;impact des activit&eacute;s actuelles ou potentielles de votre organisation afin que vous puissiez communiquer clairement l&#39;impact que votre programme, votre projet ou votre initiative a r&eacute;alis&eacute;.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Refléter, itérer, réitérer",
+        "body": "<p>Il peut &ecirc;tre difficile de regarder en arri&egrave;re ce qui s&#39;est d&eacute;j&agrave; produit &agrave; la suite du projet&nbsp;et les raisons pour lesquelles il a ou n&#39;a pas &eacute;t&eacute; un succ&egrave;s.&nbsp;</p><p>Donnez-vous le temps de refl&eacute;ter, afin que vous puissiez &ecirc;tre flexible et it&eacute;ratif dans votre approche. Si quelque chose ne fonctionne pas, n&#39;ayez pas peur de le supprimer de votre p&eacute;rim&egrave;tre de travail.</p><p>L&#39;it&eacute;ration et l&#39;am&eacute;lioration de votre approche signifient que votre projet, programme ou initiative de donn&eacute;es ouvertes est beaucoup plus susceptible d&#39;avoir un impact.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      }
+    ],
+    "_shouldCollapseItems": true
+  },
+  {
+    "_id": "59410700d084d5167a04fdbd",
+    "_layout": "full",
+    "_parentId": "59410700d084d5167a04fd80",
+    "_type": "component",
+    "body": "<p>Il existe un certain nombre d&#39;outils d&#39;&eacute;valuation qui peuvent vous aider &agrave; &eacute;valuer l&#39;impact d&#39;une politique, d&#39;un programme ou d&#39;une initiative de donn&eacute;es ouvertes d&#39;une organisation ou d&#39;un pays. Chaque outil d&#39;&eacute;valuation utilise des m&eacute;thodologies et des mesures l&eacute;g&egrave;rement diff&eacute;rentes, afin de trouver celui qui fonctionne le mieux pour votre contexte. Pensez aux crit&egrave;res importants pour votre organisation.</p><p>Ce module se penche en d&eacute;tail sur l&#39;outil de <a href=\"http://www.europeandataportal.eu/en/dashboard\">donn&eacute;es ouvertes</a> du portail europ&eacute;en de donn&eacute;es (European Data Portal&#39;s Open Data)&nbsp;en Europe&nbsp;qui compare les initiatives de donn&eacute;es ouvertes des pays de l&#39;Union Europ&eacute;enne.</p><p>Vous pouvez &eacute;galement consulter l&#39;<a href=\"http://index.okfn.org/\">index de l&#39;Open Data global</a> et le <a href=\"http://opendatabarometer.org\">barom&egrave;tre de l&#39;Open Data</a> qui comparent les pays &agrave; l&#39;international.</p><p>Les donn&eacute;es ouvertes en Europe visent trois domaines d&#39;impact: politique, &eacute;conomique et social.</p>",
+    "displayTitle": "Comment pouvons-nous mesurer un impact?",
+    "title": "Comment pouvons-nous mesurer un impact?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "narrative",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "mobileInstruction": "",
+    "_hasNavigationInTextArea": false,
+    "_setCompletionOn": "inview",
+    "_items": [
+      {
+        "title": "Politique",
+        "body": "<p dir=\"ltr\">Les facteurs qui constituent l&#39;indicateur d&#39;impact politique ont un impact sur l&#39;efficacit&eacute; &nbsp;du gouvernement, la transparence et la responsabilit&eacute;.</p><p>En 2016, les pays ayant obtenu les meilleurs scores en terme d&#39;impact politique &eacute;taient la Slovaquie, l&#39;Irlande, la Bulgarie, la France et la Gr&egrave;ce.</p><p><a href=\"http://www.europeandataportal.eu/en/dashboard\">Obtenir les donn&eacute;es</a></p><p>En Bulgarie, les minist&egrave;res n&#39;ont plus besoin de demander l&#39;acc&egrave;s aux donn&eacute;es aux autres minist&egrave;res, car ces donn&eacute;es sont dor&eacute;navant publi&eacute;es ouvertement, ce qui permet d&#39;&eacute;conomiser le temps et les co&ucirc;ts li&eacute;s &agrave; la demande de donn&eacute;es.</p><p>En Irlande, <a href=\"http://www.google.com/url?q=http://myplan.ie&amp;sa=D&amp;ust=1496165737909000&amp;usg=AFQjCNGEgrOgEEPPmZOGBCpte6ZzCrutug\">myplan.ie</a> aide les autorit&eacute;s locales &agrave; normaliser la publication des donn&eacute;es de planification. Cela aide non seulement les &eacute;diteurs &agrave; coordonner leurs efforts, mais aboutit &eacute;galement &agrave; des donn&eacute;es plus utilisables et comparables.</p>",
+        "_graphic": {
+          "src": "course/fr/assets/3f1d65f956a8899071b4f3584b4a88d3851863df.jpg",
+          "alt": "",
+          "attribution": "<a href=\"https://pixabay.com/en/hands-hand-raised-hands-raised-220163/\" target=\"_blank\">Kaz</a> <span class='assetLicence'>[CC0]</span>"
+        },
+        "strapline": "Politique"
+      },
+      {
+        "title": "Economique",
+        "body": "<p dir=\"ltr\">L&#39;indicateur d&#39;impact &eacute;conomique repose sur la mise en &oelig;uvre d&#39;&eacute;tudes macro&eacute;conomiques multiples &eacute;valuant la valeur marchande des donn&eacute;es ouvertes et des &eacute;tudes concernant une meilleure prestation des services ou examinant des sujets connexes.</p><p>En 2016, les pays les mieux not&eacute;s en terme d&#39;impact &eacute;conomique &eacute;taient la Slovaquie et l&#39;Espagne.</p><p><a href=\"http://www.europeandataportal.eu/en/dashboard\">Obtenir les donn&eacute;es</a></p><p>Une &eacute;tude espagnole a r&eacute;v&eacute;l&eacute; que la r&eacute;utilisation des donn&eacute;es m&eacute;t&eacute;orologiques dans le secteur de l&#39;&eacute;lectricit&eacute; pourrait <a href=\"http:// http://www.ontsi.red.es/ontsi/es/estudios-informes/an%C3%A1lisis-coste-beneficio-de-la-reutilizaci%C3%B3n-de-la-informaci%C3%B3n-meteorol%C3%B3gica-en-el\">r&eacute;duire les co&ucirc;ts de plus de 1000 millions d&#39;euros</a>.</p><p>Une &eacute;tude de 2015 a r&eacute;v&eacute;l&eacute; que les entreprises britanniques utilisant, produisant ou investissant dans des donn&eacute;es ouvertes ont <a href=\"http://theodi.org/open-data-means-business\">un chiffre d&#39;affaires annuel r&eacute;uni de plus de &pound;92 milliards</a> et emploient plus de 500 000 personnes.</p><p>En savoir plus sur <a href=\"http://www.europeandataportal.eu/en/highlights/creating-value-through-open-data\">la valeur &eacute;conomique des donn&eacute;es ouvertes en Europe</a></p>",
+        "_graphic": {
+          "src": "course/fr/assets/e7980bbe7f0e8916f118a2bf24193c8f88211ba2.jpg",
+          "alt": "",
+          "attribution": "<a href=\"https://www.shutterstock.com/image-vector/cloud-business-process-management-concept-blue-259560827\" target=\"_blank\">JeKh</a> <span class='assetLicence'>[Shutterstock standard licence]</span>"
+        },
+        "strapline": "Economique"
+      },
+      {
+        "title": "Social",
+        "body": "<p dir=\"ltr\">L&#39;indicateur d&#39;impact social comprend l&#39;impact sur la durabilit&eacute; environnementale et l&#39;inclusion des groupes marginalis&eacute;s dans l&#39;&eacute;laboration des politiques et l&#39;acc&egrave;s aux services gouvernementaux.</p><p>Les deux pays les mieux not&eacute;s en 2016 &eacute;taient l&#39;Espagne et le Royaume-Uni.</p><p><a href=\"http://www.europeandataportal.eu/en/dashboard\">Obtenir les donn&eacute;es</a></p><p>En Espagne, un exemple d&#39;inclusion des groupes marginalis&eacute;s est <a href=\"http://www.sinbarrera.es/\">Sin Barrera</a>, un outil pour trouver des places de parking accessibles aux personnes en fauteuil roulant.</p>",
+        "_graphic": {
+          "src": "course/fr/assets/194749d6a3d955ccf1327dff670d11d82f1e5892.jpg",
+          "alt": "",
+          "attribution": "<a href=\"http://www.shutterstock.com/pic-185008832\" target=\"_blank\">suarassawadee</a> <span class='assetLicence'>[Shutterstock standard licence]</span>"
+        },
+        "strapline": "Social"
+      }
+    ]
+  },
+  {
+    "_id": "59410700d084d5167a04fdbe",
+    "_layout": "full",
+    "_parentId": "59410700d084d5167a04fd81",
+    "_type": "component",
+    "body": "<p>Les donn&eacute;es ouvertes sont un concept relativement nouveau&nbsp;et soul&egrave;ve des barri&egrave;res automatiques dans certaines situations. Dans cette section, nous explorons certains des obstacles principaux &agrave; la r&eacute;alisation d&#39;impacts que font face les donn&eacute;es ouvertes, ainsi que les moyens de les surmonter.</p>",
+    "displayTitle": "Surmonter les obstacles pour réaliser un impact",
+    "title": "Surmonter les obstacles pour réaliser un impact",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "narrative",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "mobileInstruction": "",
+    "_hasNavigationInTextArea": false,
+    "_setCompletionOn": "inview",
+    "_items": [
+      {
+        "title": "Convaincre les autres",
+        "body": "<p>Vous pouvez avoir d&#39;excellentes donn&eacute;es qui pourraient avoir des r&eacute;percussions positives, mais seulement si les utilisateurs savent que ces donn&eacute;es existent.</p><p>Une fa&ccedil;on de promouvoir vos donn&eacute;es est de d&eacute;finir des d&eacute;fis sp&eacute;cifiques autour de vos donn&eacute;es. Une <a href=\"http://www.nesta.org.uk/project/open-data-challenge-series\">s&eacute;rie de d&eacute;fis</a> est un bon moyen de rassembler les gens autour de vos donn&eacute;es. En offrant un prix en esp&egrave;ces et en &eacute;tablissant un processus d&#39;innovation ouvert, vous pouvez motiver les autres &agrave; r&eacute;utiliser vos donn&eacute;es et &agrave; obtenir de superbes histoires d&#39;impact.</p><p>Pr&eacute;senter des cas d&#39;utilisation &agrave; c&ocirc;t&eacute; de vos donn&eacute;es aidera &eacute;galement &agrave; leur r&eacute;utilisation.</p>",
+        "_graphic": {
+          "src": "course/fr/assets/44692b04753e36675bd12acf35820956832091e4.jpg",
+          "alt": "",
+          "attribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Ghozt_Tramp_-_Business_Communication_Duplicat_model.jpg\" target=\"_blank\">Ghozt Tramp</a> <span class='assetLicence'>[CC-BY-SA]</span>"
+        },
+        "strapline": "Convaincre les autres"
+      },
+      {
+        "title": "Crainte d'enfreindre de la protection des données",
+        "body": "<p>Un autre obstacle &agrave; l&#39;impact est lorsque les personnes n&#39;utilisent pas les donn&eacute;es par peur. Certaines licences ne sont pas claires, notamment en ce qui concerne l&#39;utilisation de donn&eacute;es d&#39;une tierce personne ou personnelles qui se trouvent dans l&#39;ensemble de donn&eacute;es. Souvent, les clauses &laquo;sans garantie&raquo; peuvent faire en sorte que l&#39;utilisateur serait responsable dans ce cas.</p><p>Afin de surmonter cette barri&egrave;re, les &eacute;diteurs doivent &ecirc;tre clairs quant &agrave; la base juridique des donn&eacute;es et &agrave; ce que les utilisateurs peuvent faire avec les donn&eacute;es.</p><p>Expliquer clairement les termes de la licence sera utile. Fournir des informations sur le processus de contr&ocirc;le de la vie priv&eacute;e, l&#39;&eacute;valuation de l&#39;impact sur la vie priv&eacute;e si vous avez &agrave; faire aux les donn&eacute;es des individus et publier le processus suivi pour anonymiser les donn&eacute;es aideront &agrave; rassurer les utilisateurs.</p>",
+        "_graphic": {
+          "src": "course/fr/assets/eb7c7b7bfff664aef851578a795efa612ea1a806.jpg",
+          "alt": "",
+          "attribution": "<a href=\"https://www.flickr.com/photos/132053576@N03/17765606909/\" target=\"_blank\">Owen Moore</a> <span class='assetLicence'>[CC-BY]</span>"
+        },
+        "strapline": "Crainte d'enfreindre de la protection des données"
+      },
+      {
+        "title": "Problèmes de qualité et la fonctionnalité des données",
+        "body": "<p>Il existe un certain nombre de normes communautaires qui peuvent vous aider, &agrave; la fois comme &eacute;diteur et utilisateur, &agrave; &eacute;valuer la qualit&eacute; de vos donn&eacute;es et leur facilit&eacute; d&#39;utilisation.</p><p>S&#39;assurer que vos donn&eacute;es sont utilisables, du point de vue juridique, pratique et social, favorisera la r&eacute;utilisation et l&#39;impact.</p><p>En savoir plus sur <a href=\"http://www.europeandataportal.eu/elearning/en/module5/#/id/co-01\">ce qui font des donn&eacute;es ouvertes de qualit&eacute;s</a></p>",
+        "_graphic": {
+          "src": "course/fr/assets/b0a1356f5ad57eff61e6a22b69a2e1b6d9773220.jpg",
+          "alt": "",
+          "attribution": "<a href=\"robodread\" target=\"_blank\">robodread</a> <span class='assetLicence'>[Shutterstock standard licence]</span>"
+        },
+        "strapline": "Problèmes de qualité et la fonctionnalité des données"
+      }
+    ]
+  },
+  {
+    "_id": "59410700d084d5167a04fdbf",
+    "_layout": "left",
+    "_parentId": "59410700d084d5167a04fd7a",
+    "_type": "component",
+    "body": "<p><strong>La r&eacute;alisation d&#39;impact est&nbsp;importante&nbsp;parce que...</strong></p>",
+    "displayTitle": "Pourquoi la réalisation d'impact est-elle importante?",
+    "title": "Pourquoi la réalisation d'impact est-elle importante?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "mcq",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Choisissez votre réponse et puis cliquez sur ‘Valider’.",
+    "_items": [
+      {
+        "text": "Cela justifie pourquoi un programme devrait continuer",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "Cela montre où vous devez concentrer tous vos efforts",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "Vous pouvez tirer des conclusions inattendues",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_feedback": {
+      "correct": "<p><strong>Vous avez raison!</strong></p><p>R&eacute;aliser un impact est important car il justifie pourquoi un programme devrait &ecirc;tre poursuivi vu qu&#39;il d&eacute;montre un retour sur investissement</p><p>L&#39;impact est &eacute;galement un &eacute;l&eacute;ment cl&eacute; afin de mesurer&nbsp;l&#39;efficacit&eacute; d&#39;une politique, d&#39;un programme ou d&#39;une initiative de donn&eacute;es ouvertes.</p><p>&nbsp;</p><p>&nbsp;</p>",
+      "_incorrect": {
+        "final": "<p><strong>&Ecirc;tes-vous s&ucirc;r?</strong></p><p>R&eacute;aliser un impact est important car il justifie pourquoi un programme devrait &ecirc;tre poursuivi vu qu&#39;il d&eacute;montre un retour sur investissement</p><p>L&#39;impact est &eacute;galement un &eacute;l&eacute;ment cl&eacute; afin de mesurer&nbsp;l&#39;efficacit&eacute; d&#39;une politique, d&#39;un programme ou d&#39;une initiative de donn&eacute;es ouvertes.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons":{
+            "submit":"Valider",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        }
+  },
+  {
+    "_id": "59410700d084d5167a04fdc0",
+    "_layout": "right",
+    "_parentId": "59410700d084d5167a04fd7b",
+    "_type": "component",
+    "body": "<p><strong>Nous pouvons r&eacute;aliser un impact en...</strong></p>",
+    "displayTitle": "Comment pouvons-nous avoir un impact?",
+    "title": "Comment pouvons-nous avoir un impact?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "mcq",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Choisissez votre réponse et puis cliquez sur ‘Valider’.",
+    "_items": [
+      {
+        "text": "Identifiant les objectifs partagés",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "Gardant certaines données fermées",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "Commandant des recherches sur l'impact",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "Reflétant et itérant sur votre initiative",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "Partageant votre méthodologie",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 3,
+    "_feedback": {
+      "correct": "<p><strong>Vous avez raison!</strong></p><p>Un impact peut &ecirc;tre r&eacute;alis&eacute; en identifiant les objectifs partag&eacute;s des &eacute;diteurs de donn&eacute;es et des utilisateurs, en recherchant et en favorisant les histoires, en commandant des recherches et, en refl&eacute;tant et r&eacute;it&eacute;rant sur une initiative.</p>",
+      "_incorrect": {
+        "final": "<p><strong>&Ecirc;tes-vous s&ucirc;r?</strong></p><p>Un impact peut &ecirc;tre r&eacute;alis&eacute; en identifiant les objectifs partag&eacute;s des &eacute;diteurs de donn&eacute;es et des utilisateurs, en recherchant et en favorisant les histoires, en commandant des recherches et, en r&eacute;fl&eacute;tant et r&eacute;it&eacute;rant sur une initiative.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons":{
+            "submit":"Valider",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        }
+  },
+  {
+    "_id": "59410700d084d5167a04fdc1",
+    "_layout": "left",
+    "_parentId": "59410700d084d5167a04fd79",
+    "_type": "component",
+    "body": "<p dir=\"ltr\"><strong>L&#39;indicateur d&#39;impact social pour l&#39;outil d&#39;&eacute;valuation Open Data en Europe est bas&eacute; sur l&#39;impact sur...</strong></p>",
+    "displayTitle": "Comment pouvons-nous mesurer un impact?",
+    "title": "Comment pouvons-nous mesurer un impact?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "mcq",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Choisissez votre réponse et puis cliquez sur ‘Valider’.",
+    "_items": [
+      {
+        "text": "La durabilité environnementale et l'inclusion des groupes marginalisés",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "Les études évaluant la valeur marchande des données ouvertes",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "L'efficacité et transparence du gouvernement",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_feedback": {
+      "correct": "<p><strong>Vous avez raison!</strong></p><p>Il existe deux facteurs qui composent l&#39;indicateur d&#39;impact social: impact sur la durabilit&eacute; environnementale dans le pays et impact sur l&#39;augmentation d&#39;int&eacute;gration des groupes marginalis&eacute;s.</p>",
+      "_incorrect": {
+        "final": "<p><strong>&Ecirc;tes-vous s&ucirc;r?</strong></p><p>Il existe deux facteurs qui composent l&#39;indicateur d&#39;impact social: impact sur la durabilit&eacute; environnementale dans le pays et impact sur l&#39;augmentation d&#39;int&eacute;gration des groupes marginalis&eacute;s.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons":{
+            "submit":"Valider",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        }
+  },
+  {
+    "_id": "59410700d084d5167a04fdc2",
+    "_layout": "right",
+    "_parentId": "59410700d084d5167a04fd7c",
+    "_type": "component",
+    "body": "<p><strong>Un obstacle majeur &agrave; la r&eacute;alisation d&#39;un impact est l&#39;absence d&#39;engagement avec vos donn&eacute;es. Comment peut-on surmonter cet obstacle?</strong></p>",
+    "displayTitle": "Surmonter les obstacles ",
+    "title": "Surmonter les obstacles ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "mcq",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Choisissez votre réponse et puis cliquez sur ‘Valider’.",
+    "_items": [
+      {
+        "text": "En promouvant vos données, en précisant comment les utilisateurs peuvent réutiliser vos données et rendre vos données utilisables",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "En publiant autant de données que possible",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "En exigeant des frais pour vos données",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_feedback": {
+      "correct": "<p><strong>Vous avez raison!</strong></p><p>Vous pouvez encourager la r&eacute;utilisation de vos donn&eacute;es en faisant la promotion de vos donn&eacute;es, en pr&eacute;cisant comment les utilisateurs peuvent r&eacute;utiliser vos donn&eacute;es et rendre vos donn&eacute;es plus utilisables.</p>",
+      "_incorrect": {
+        "final": "<p><strong>&Ecirc;tes-vous s&ucirc;r?</strong></p><p dir=\"ltr\">Vous pouvez encourager la r&eacute;utilisation de vos donn&eacute;es en faisant la promotion de vos donn&eacute;es, en pr&eacute;cisant comment les utilisateurs peuvent r&eacute;utiliser vos donn&eacute;es et rendre vos donn&eacute;es plus utilisables.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons":{
+            "submit":"Valider",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        }
+  },
+  {
+    "_id": "59410700d084d5167a04fdc3",
+    "_layout": "left",
+    "_parentId": "59410700d084d5167a04fd7d",
+    "_type": "component",
+    "body": "<p>R&eacute;aliser un impact avec les donn&eacute;es ouvertes est un &eacute;l&eacute;ment essentiel pour assurer la durabilit&eacute; des projets et des initiatives de donn&eacute;es ouvertes. La cr&eacute;ation, la recherche et la promotion d&#39;<a href=\"http://opendatabarometer.org/3rdEdition/report/#impact\">exemples de donn&eacute;es ouvertes utilis&eacute;es pour am&eacute;liorer notre vie quotidienne</a> est l&#39;un des aspects les plus difficiles de la direction d&#39;un projet, programme ou initiative de donn&eacute;es ouvertes.</p><p>Il existe un certain nombre d&#39;outils d&#39;&eacute;valuation qui peuvent vous aider &agrave; mesurer l&#39;impact d&#39;une politique, d&#39;un programme ou d&#39;une initiative de donn&eacute;es ouvertes d&#39;une organisation ou d&#39;un pays. Dans ce module, nous nous sommes concentr&eacute;s sur les <a href=\"http://www.europeandataportal.eu/en/dashboard\">donn&eacute;es ouvertes</a> du portail europ&eacute;en de donn&eacute;es en Europe.</p><p>Il y a des obstacles &agrave; l&#39;impact, mais il existe des moyens de surmonter ces obstacles. Pour en savoir plus sur la gestion d&#39;une initiative de donn&eacute;es ouvertes dans &laquo;La gestion des changements dans les donn&eacute;es ouvertes&raquo;.</p>",
+    "displayTitle": "Réaliser un impact",
+    "title": "Réaliser un impact",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  }
 ]
