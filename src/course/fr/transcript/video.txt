@@ -1,0 +1,23 @@
+Choisir le bon format pour l’open data
+
+Je suis David Tarrant formateur et chercheur ici à l’Open Data Institute 
+
+Pourquoi le format de l’open data est-il important?
+
+Par format, on entend la manière dont les données sont mises à disposition des personnes et des machines il faut aussi considérer la structure des données et comment celles-ci sont distribuées aux utilisateurs 
+
+Comment choisir le bon format pour l’open data?
+
+le choix du bon format est crucial pour maintenir l’exploitabilité et l’accès aux données il y a trois caractéristiques principales le choix du format, de la structure et la méthode de distribution pour le choix du format le plus réutilisable est sans doute celui qui est déjà en place pour gérer et utiliser les données il s’agira d’un format adapté au contexte d’utilisation des données mais celui-ci n’est pas forcément le format le plus répandu ou le plus largement compris donc il faudra peut-être aussi publier sous format .csv, en plus du format d’origine comme vous pouvez le constater, il faut penser à publier sous plusieurs formats différents et se préparer à l’obsolescence de certains formats les données peuvent exister sous différentes structures la plus communément utilisée est la structure tabulaire, avec des colonnes et des rangées c’est la structure utilisée pour des données de frais, par exemple il y a aussi les données hiérarchiques, qui représentent les relations entre des personnes comme pour un arbre généalogique et il y a aussi la structure en réseau, plus difficile à se représenter en termes de format de fichier mais qui représente tous les liens possibles comme ceux entre vos amis sur Facebook, qui peuvent partir dans n’importe quelle direction enfin, il faut penser au moyen de distribution 
+
+est-ce qu’il va s’agir d’un fichier à télécharger?
+
+si oui, il faudra penser à la taille du fichier pour qu’il soit facile à télécharger rapidement à la fréquence de la mise à jour 
+
+régulière? mensuelle?
+
+et à la terminologie utilisée, pour que ce soit compréhensible s’il s’agit plutôt d’un flux de données en temps réel comme des données de transports, il vaut mieux les publier sous forme de flux de données lisibles par une machine plutôt qu’un format fichier 
+
+Quels changements dans les formats au cours des dernières années?
+
+nous encourageons la plus grande variété possible en termes de formats structures et moyens de distribution dans l’utilisation des données mais le format le plus utilisé pour l’open data en ligne est le format .csv au-delà de .csv, lorsque vous décidez quel format adopter il est important d’engager les utilisateurs et que les utilisateurs s’engagent avec les fournisseurs de données cela fera gagner du temps aux deux partis 
