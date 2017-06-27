@@ -110,6 +110,13 @@ then
 	zip -r course/$LANG/data/scorm.zip * >/dev/null 
 	cd ..
 fi
+if [ -d "build" ] 
+then
+	echo "packaging transcripts"
+	cd build
+	zip -j -r course/$LANG/data/transcripts.zip course/$LANG/transcript/* >/dev/null
+	cd ..
+fi
 
 echo "Restoring structure";
 if [ $THEME == "dlab" ]

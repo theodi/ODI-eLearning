@@ -2,7 +2,7 @@
     "_id": "course",
     "_type": "course",
     "_buttons": {
-        "submit": "Submit",
+        "submit": "Valider",
         "reset": "Reset",
         "showCorrectAnswer": "Model Answer",
         "hideCorrectAnswer": "My Answer"
@@ -115,10 +115,31 @@
 		"title": "Cours 13",
                 "description": "Lier le Web des données",
                 "_link": "../module13/"
+            },
+            {
+                "_type": "link",
+                "_local": "true",
+                "title": "Cours 14",
+                "description": "Mobilisation pour l'open data ",
+                "_link": "../module14/"
+            },
+            {
+                "_type": "link",
+                "_local": "true",
+                "title": "Cours 15",
+                "description": "Gestion du changement au sein de l'open data",
+                "_link": "../module15/"
+            },
+            {
+                "_type": "link",
+                "_local": "true",
+                "title": "Cours 16",
+                "description": "Réaliser un impact avec l'open data",
+                "_link": "../module16/"
             }
         ]
     },
-    {},{},{},
+    {},{},
     {
         "title": "L'open data",
         "description": "Utiliser le contenu de ce module en tant qu'open data",
@@ -146,6 +167,12 @@
                 "title": "<div align='center'><img class='download-image' src='adapt/css/assets/download.png'><p class='downloadp'>Download scorm object</p></div>",
                 "description": "",
                 "_link": "course/fr/data/scorm.zip"
+            },
+            {
+                "_type": "link",
+                "title": "<div align='center'><img class='download-image' src='adapt/css/assets/download.png'><p class='downloadp'>Download transcripts</p></div>",
+                "description": "",
+                "_link": "course/fr/data/transcripts.zip"
             },
             {
                 "_type": "link",

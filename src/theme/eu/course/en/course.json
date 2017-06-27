@@ -115,33 +115,31 @@
 		"title": "Module 13",
                 "description": "Linking up the web of data",
                 "_link": "../module13/"
+            },
+            {
+                "_type": "link",
+                "_local": "true",
+                "title": "Module 14",
+                "description": "Open data advocacy",
+                "_link": "../module14/"
+            },
+            {
+                "_type": "link",
+                "_local": "true",
+                "title": "Module 15",
+                "description": "Managing change in open data",
+                "_link": "../module15/"
+            },
+            {
+                "_type": "link",
+                "_local": "true",
+                "title": "Module 16",
+                "description": "Achieving impact with open data",
+                "_link": "../module16/"
             }
         ]
     },
-    {
-        "title": "Resources",
-        "description": "View additional module resources",
-        "_filterButtons": {
-            "all": "All",
-            "document": "PDF",
-            "media": "Media",
-            "link": "Link"
-        },
-        "_resourcesItems": [
-    ]
-    },
-    {
-        "title": "Credits and attribution",
-        "description": "View attribution for licensed content",
-        "_filterButtons": {
-            "all": "All",
-            "document": "PDF",
-            "media": "Media",
-            "link": "Link"
-        },
-        "_resourcesItems": [
-    ]
-    },
+    {},{},
     {
         "title": "Open data",
         "description": "Download and use module content",
@@ -169,6 +167,12 @@
                 "title": "<div align='center'><img class='download-image' src='adapt/css/assets/download.png'><p class='downloadp'>Download scorm object</p></div>",
                 "description": "",
                 "_link": "course/en/data/scorm.zip"
+            },
+            {
+                "_type": "link",
+                "title": "<div align='center'><img class='download-image' src='adapt/css/assets/download.png'><p class='downloadp'>Download transcripts</p></div>",
+                "description": "",
+                "_link": "course/en/data/transcripts.zip"
             },
             {
                 "_type": "link",

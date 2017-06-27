@@ -11,7 +11,7 @@ then
 	THEME="default"
 	echo "Using theme $THEME"
 fi
-for i in `seq 1 13`;
+for i in `seq 1 16`;
 do
 	./bin/build module$i $1 $THEME
 done
