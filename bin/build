@@ -114,7 +114,7 @@ if [ -d "build" ]
 then
 	echo "packaging transcripts"
 	cd build
-	zip -r course/$LANG/data/transcripts.zip course/$LANG/transcript/* >/dev/null
+	zip -j -r course/$LANG/data/transcripts.zip course/$LANG/transcript/* >/dev/null
 	cd ..
 fi
 
