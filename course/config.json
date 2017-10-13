@@ -1,0 +1,69 @@
+{
+  "_defaultLanguage": "en",
+  "_defaultDirection": "ltr",
+  "_questionWeight": 1,
+  "_generateSourcemap": false,
+  "_forceRouteLocking": true,
+  "screenSize": {
+    "large": 1024,
+    "medium": 759,
+    "small": 519
+  },
+  "_id": "58862552b61c46e176e7e649",
+  "_drawer": {
+    "_duration": 400,
+    "_hideEasing": "easeInQuart",
+    "_showEasing": "easeOutQuart"
+  },
+  "_courseId": "58862552b61c46e176e7e648",
+  "_accessibility": {
+    "_isTextProcessorEnabled": false,
+    "_shouldSupportLegacyBrowsers": true,
+    "_isDisabledOnTouchDevices": false,
+    "_isEnabled": false
+  },
+  "__v": 0,
+  "_tutor": {
+    "_isEnabled": false
+  },
+  "_trackingHub": {
+    "_channels": [
+      {
+        "_isStateSource": true,
+        "_saveStateIsEnabled": true,
+        "_transport": {
+          "_auth": {
+            "_password": "",
+            "_username": ""
+          },
+          "_endpoint": "https://lms2.learndata.info/api/v2/",
+          "_handlerName": "ODILRSStorageTransportHandler"
+        },
+        "_msgComposerName": "learnifyMessageComposer",
+        "_isEnabled": true,
+        "_name": "ODI LRS"
+      }
+    ],
+    "_courseID": "http://accelerate.theodi.org/",
+    "_isEnabled": true
+  },
+  "build": {
+    "includes": [
+      "adapt-theme-odi",
+      "adapt-contrib-boxMenu",
+      "adapt-odi-licence",
+      "adapt-skillsFramework",
+      "adapt-contrib-tutor",
+      "adapt-contrib-pageLevelProgress",
+      "adapt-contrib-aboutPage",
+      "adapt-trackingHub",
+      "adapt-contrib-text",
+      "adapt-contrib-graphic",
+      "adapt-contrib-media",
+      "adapt-contrib-narrative",
+      "adapt-contrib-accordion",
+      "adapt-contrib-mcq",
+      "adapt-contrib-gmcq"
+    ]
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "_globals": {
+    "_accessibility": {
+      "accessibilityToggleTextOn": "Turn accessibility on?",
+      "accessibilityToggleTextOff": "Turn accessibility off?",
+      "_accessibilityInstructions": {
+        "touch": "Usage instructions. Use swipe left for next. Use swipe right for previous. Use a double tab to select. Use a two finger slide up to go to the top of the page.",
+        "notouch": "Usage instructions. Use tab for next. Use shift tab for previous. Use enter to select. Use escape to go to the top of the page.",
+        "ipad": "Usage instructions for touchscreens. Use swipe left for next. Use swipe right for previous. Use a double tab to select. Use a two finger slide up to go to the top of the page. Usage instructions for keyboard access. Use left for next. Use right for previous. Use up and down together to select."
+      },
+      "_ariaLabels": {
+        "navigation": "Course navigation bar",
+        "menuLoaded": "Menu loaded",
+        "menu": "Menu",
+        "menuItem": "Menu item",
+        "menuViewButton": "Select here to enter",
+        "page": "Page",
+        "pageLoaded": "Page loaded",
+        "previous": "Back",
+        "navigationBack": "Navigate back",
+        "navigationDrawer": "Open course resources and search",
+        "closeResources": "Close resources",
+        "drawerBack": "Back to drawer",
+        "drawer": "Side drawer",
+        "closePopup": "Close popup",
+        "next": "Next",
+        "done": "Done",
+        "complete": "Complete",
+        "incomplete": "Incomplete",
+        "correct": "Correct",
+        "locked": "Locked",
+        "accessibilityToggleButton": "By selecting this button you can set whether accessibility is turned on or off",
+        "feedbackPopUp": "Popup opened",
+        "visited": "Visited",
+        "menuBack": "Back to menu",
+        "menuIndicatorHeading": "Menu item heading "
+      }
+    },
+    "_components": {
+      "_graphic": {
+        "ariaRegion": ""
+      },
+      "_text": {
+        "ariaRegion": ""
+      },
+      "_media": {
+        "ariaRegion": "This is a media component which plays a video. Select the play / pause button to watch or listen.",
+        "transcriptButton": "Alternatively you can select the link below for the transcript."
+      },
+      "_mcq": {
+        "ariaRegion": "This component is a multiple choice question. Once you have selected an option select the submit button below"
+      },
+      "_narrative": {
+        "ariaRegion": "This component displays an image gallery with accompanying text. Use the next and back navigation controls to work through the narrative."
+      },
+      "_gmcq": {
+        "ariaRegion": "This component is a graphical multiple choice question. Once you have selected an option select the submit button below."
+      },
+      "_accordion": {
+        "ariaRegion": "This component is an accordion comprised of collapsible content panels containing display text. Select the item titles to toggle the visibility of these content panels."
+      }
+    },
+    "_extensions": {
+      "_pageLevelProgress": {
+        "pageLevelProgress": "Page sections",
+        "pageLevelProgressIndicatorBar": "Progress bar. Select here to view your current progress, and select an item to navigate to it. You have completed ",
+        "pageLevelProgressMenuBar": "You have completed ",
+        "pageLevelProgressEnd": "You have reached the end of the list of page sections.",
+        "optionalContent": "Optional Content"
+      },
+      "_skillsFramework": {
+        "linkText": "Outcomes",
+        "titleText": "Learning outcomes"
+      },
+      "_aboutPage": {
+        "linkText": "About",
+        "titleText": "About",
+        "contactEMail": "training@theodi.org",
+        "contactLinkText": "Contact",
+        "aboutCredit": "",
+        "SL_text": "",
+        "SL_facebook": "MyODIHQ",
+        "SL_flickr": "ukodi",
+        "SL_github": "theodi",
+        "SL_scribd": "OpenDataInstitute",
+        "SL_soundcloud": "theodi",
+        "SL_twitter": "ODIHQ",
+        "SL_vimeo": "theodiuk",
+        "SL_youtube": "OpenDataInstituteUK"
+      },
+      "_ODILicence": {
+        "linkText": "Licence",
+        "titleText": "Licence"
+      }
+    }
+  },
+  "_id": "course",
+  "_start": {
+    "_isMenuDisabled": false,
+    "_force": false,
+    "_startIds": [],
+    "_isEnabled": false
+  },
+  "_type": "course",
+  "_lockType": "",
+  "_classes": "",
+  "_buttons": {
+    "disabledAriaLabel": "This button is disabled at the moment",
+    "remainingAttemptText": "final attempt",
+    "remainingAttemptsText": "remaining attempts",
+    "_showFeedback": {
+      "ariaLabel": "Show feedback",
+      "buttonText": "Show feedback"
+    },
+    "_hideCorrectAnswer": {
+      "ariaLabel": "Hide correct answer",
+      "buttonText": "Hide correct answer"
+    },
+    "_showCorrectAnswer": {
+      "ariaLabel": "Show correct answer",
+      "buttonText": "Show correct answer"
+    },
+    "_reset": {
+      "ariaLabel": "Reset",
+      "buttonText": "Reset"
+    },
+    "_submit": {
+      "ariaLabel": "Submit",
+      "buttonText": "Submit"
+    }
+  },
+  "_latestTrackingId": 149,
+  "body": "<p>Welcome to the Open Data Institute&#39;s e-Learning programme developed for the European Commission.&nbsp;This programme has been designed to enable you to discover what open data is and how it is changing the lives of everyone on our planet. There are 13 lessons for you to explore covering the essentials of open data, how to plan and measure success and how to implement an open data programme technically.&nbsp;This programme is&nbsp;<strong>free</strong>&nbsp;and should take a maximum of 2-3 hours to complete.</p><p><em>Scroll down to discover each of the available lessons</em></p>",
+  "displayTitle": "Open data essentials",
+  "title": "Open data essentials",
+  "_pageLevelProgress": {
+    "_isEnabled": true,
+    "_showPageCompletion": true
+  },
+  "_aboutPage": {
+    "_items": [
+      {
+        "title": "ODI Training Team",
+        "description": "<p>Expert knowledge, content development and learning plans provided by the by <a href=\"https://theodi.org\">Open Data Institute</a> training team.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "adapt/css/assets/logo-small.png"
+        }
+      },
+      {
+        "title": "European Data Portal",
+        "description": "<p>Funding for module development and implementation provided by the <a href=\"https://www.europeandataportal.eu/\">European Data Portal</a>. Original content used under a <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">Creative Commons Attribution-ShareAlike 4.0 International Licence</a>.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "adapt/css/assets/edp.png"
+        }
+      },
+      {
+        "title": "Sponge UK",
+        "description": "<p>Learning solutions, content production and eLearning expertise originally provided by<a href=\"https://spongeuk.com/\"> Sponge UK</a>.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "adapt/css/assets/sponge.png"
+        }
+      },
+      {
+        "title": "Adapt learning",
+        "description": "<p>Open source learning platform developed by <a href=\"https://www.adaptlearning.org/\">Adapt learning</a>.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "adapt/css/assets/adapt.png"
+        }
+      }
+    ]
+  },
+  "_ODILicence": {
+    "_items": [
+      {
+        "title": "",
+        "description": "<p>Open data essentials e-Learning by <a href=\"https://theodi.org\">Open Data Institute</a> is licensed under a&nbsp;<a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">Creative Commons Attribution-ShareAlike 4.0 International Licence</a></p>",
+        "_graphic": {
+          "alt": "",
+          "src": "https://licensebuttons.net/l/by-sa/4.0/88x31.png"
+        }
+      },
+      {
+        "title": "Attribution requirements",
+        "description": "<p>Suitable attribution should follow the attribution best practice guidelines as outlined<a href=\"https://wiki.creativecommons.org/wiki/Best_practices_for_attribution\"> here</a>.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": ""
+        }
+      },
+      {
+        "title": "Content usage",
+        "description": "<p>The content, including text and structure is available for you to use, reuse and share (including for commercial purposes) subject to the conditions of the licence above.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": ""
+        }
+      },
+      {
+        "title": "Exclusions",
+        "description": "<p dir=\"ltr\">This licence does not cover:</p><ul dir=\"ltr\"><li>Logos and trade marks such as those belonging to the Open Data Institute</li><li>Third party content (such as images)</li><li>Any other content as outlined under &#39;About&#39;</li></ul>",
+        "_graphic": {
+          "alt": "",
+          "src": ""
+        }
+      },
+      {
+        "title": "Non-endorsement",
+        "description": "<p>This licence does not grant you any right to use the Information in a way that suggests any official status or that the Information Provider and/or Licensor endorse you or your use of the Information.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": ""
+        }
+      },
+      {
+        "title": "No warranty",
+        "description": "<p>The Information is licensed &#39;as is&#39;. The Open Data Institute is not liable for any errors or omissions in the Information and shall not be liable for any loss, injury or damage of any kind caused by its use. The Information Provider does not guarantee the continued supply of the Information.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": ""
+        }
+      }
+    ]
+  }
+}
