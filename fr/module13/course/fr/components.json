@@ -311,6 +311,7 @@
         "_parentId":"b-35",
         "_type":"component",
         "_component":"mcq",
+        "_adapt2id":"58b833ebfda9f5660ad85aae",
         "_classes":"",
         "_layout":"left",
         "_attempts":1,
@@ -379,6 +380,7 @@
         "_parentId":"b-40",
         "_type":"component",
         "_component":"mcq",
+        "_adapt2id":"58b8369efda9f5660ad85ac0",
         "_classes":"",
         "_layout":"right",
         "_attempts":1,
@@ -447,6 +449,7 @@
         "_parentId":"b-45",
         "_type":"component",
         "_component":"mcq",
+        "_adapt2id":"58b8377cfda9f5660ad85ac8",
         "_classes":"",
         "_layout":"left",
         "_attempts":1,
@@ -519,7 +522,7 @@
         "_layout":"left",
         "title":"Surfer le Web des données ouvertes et liée",
         "displayTitle":"Surfer le Web des données ouvertes et liée",
-        "body":"<p>Le Web des données est une série de ressources de données étroitement liées qui peuvent être lues et comprises instantanément par les humains ou les machines.</p><p>En 1989 Sir Tim Berners-Lee a inventé le Web des documents et nous avons mis plus de 20 ans à comprendre comment l’utiliser. Il fait à présent partie intégrante de notre société.</p><p>En 2001, Tim a envisagé le Web des données ouvertes et liées et nous commençons petit à petit à réaliser de quelle façon cela va à nouveau révolutionner le Web.</p></p><p><a class='course_link' href='../'>Menu principal</a></p>",
+        "body":"<p>Le Web des données est une série de ressources de données étroitement liées qui peuvent être lues et comprises instantanément par les humains ou les machines.</p><p>En 1989 Sir Tim Berners-Lee a inventé le Web des documents et nous avons mis plus de 20 ans à comprendre comment l’utiliser. Il fait à présent partie intégrante de notre société.</p><p>En 2001, Tim a envisagé le Web des données ouvertes et liées et nous commençons petit à petit à réaliser de quelle façon cela va à nouveau révolutionner le Web.</p></p><p><a class='course_link' href='../module14/'>Prochain module</a></p><p><a class='course_link' href='../'>Menu principal</a></p>",
         "_pageLevelProgress": {
           "_isEnabled": true
         }
@@ -530,6 +533,15 @@
        "_type":"component",
        "_component":"text",
        "_classes":"separator",
+       "_layout":"full"
+    },
+    {
+       "_id":"c-96",
+       "_parentId":"b-55",
+       "_type":"component",
+       "_component":"text",
+       "_classes": "attribution",
+       "body":"&copy; <a href='https://ec.europa.eu/commission/index_en' target='_blank'>European Commission</a>",
        "_layout":"full"
     },
     {

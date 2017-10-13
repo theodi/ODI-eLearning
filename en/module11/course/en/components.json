@@ -326,6 +326,7 @@
         "_parentId":"b-60",
         "_type":"component",
         "_component":"mcq",
+        "_adapt2id":"58948132fda9f5660ad841d6",
         "_classes":"",
         "_layout":"left",
         "_attempts":1,
@@ -394,6 +395,7 @@
         "_parentId":"b-70",
         "_type":"component",
         "_component":"mcq",
+        "_adapt2id":"589482a6fda9f5660ad841dc",
         "_classes":"",
         "_layout":"right",
         "_attempts":1,
@@ -462,6 +464,7 @@
         "_parentId":"b-80",
         "_type":"component",
         "_component":"mcq",
+        "_adapt2id":"589483b9fda9f5660ad841e0",
         "_classes":"",
         "_layout":"left",
         "_attempts":1,
@@ -538,6 +541,7 @@
         "_parentId":"b-90",
         "_type":"component",
         "_component":"mcq",
+        "_adapt2id":"589484a1fda9f5660ad841e6",
         "_classes":"",
         "_layout":"right",
         "_attempts":1,
@@ -621,6 +625,15 @@
        "_type":"component",
        "_component":"text",
        "_classes":"separator",
+       "_layout":"full"
+    },
+    {
+       "_id":"c-1111",
+       "_parentId":"b-110",
+       "_type":"component",
+       "_component":"text",
+       "_classes": "attribution",
+       "body":"&copy; <a href='https://ec.europa.eu/commission/index_en' target='_blank'>European Commission</a>",
        "_layout":"full"
     },
         {

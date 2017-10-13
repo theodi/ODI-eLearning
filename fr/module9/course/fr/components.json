@@ -148,7 +148,7 @@
         {
           "alt": "La structure hiérachique ",
           "title": "La structure hiérachique ",
-          "body": "<p>Les données hiérarchiques montrent les rapports entre des points de données, comme pour un arbre généalogique ou les régions d’un pays par exemple. Si l’ensemble de données dépend du rapport entre les points de données et suit une structure où les points sont liés sous forme d’ ‘arbres’ verticaux, une structure de données hiérarchique sous un format tel que JSON est idéale. Les données commerciales de gov.uk sont un bon exemple d’une structure de données hiérarchique appropriée.<br /><a href='https://www.gov.uk/browse/business.json' target='_blank'>Lien vers json données du commerce de gov.uk</a></p>",
+          "body": "<p>Les données hiérarchiques montrent les rapports entre des points de données, comme pour un arbre généalogique ou les régions d’un pays par exemple. Si l’ensemble de données dépend du rapport entre les points de données et suit une structure où les points sont liés sous forme d’‘arbres’ verticaux, une structure de données hiérarchique sous un format tel que JSON est idéale. Les données commerciales de gov.uk sont un bon exemple d’une structure de données hiérarchique appropriée.<br /><a href='https://www.gov.uk/browse/business.json' target='_blank'>Lien vers json données du commerce de gov.uk</a></p>",
           "_graphic": {
                     "src": "course/fr/images/odi-005.jpg",
                     "alt": "Hierarchical",
@@ -339,6 +339,7 @@
         "_parentId":"b-60",
         "_type":"component",
         "_component":"mcq",
+        "_adapt2id":"5890bdf9b61c46e176e7eba5",
         "_classes":"",
         "_layout":"left",
         "_attempts":1,
@@ -407,6 +408,7 @@
         "_parentId":"b-70",
         "_type":"component",
         "_component":"mcq",
+        "_adapt2id":"5890c10bb61c46e176e7ebab",
         "_classes":"",
         "_layout":"right",
         "_attempts":1,
@@ -475,6 +477,7 @@
         "_parentId":"b-80",
         "_type":"component",
         "_component":"mcq",
+        "_adapt2id":"5891cc24b61c46e176e7f029",
         "_classes":"",
         "_layout":"left",
         "_attempts":1,
@@ -576,6 +579,15 @@
        "_type":"component",
        "_component":"text",
        "_classes":"separator",
+       "_layout":"full"
+    },
+    {
+       "_id":"c-1111",
+       "_parentId":"b-110",
+       "_type":"component",
+       "_component":"text",
+       "_classes": "attribution",
+       "body":"&copy; <a href='https://ec.europa.eu/commission/index_en' target='_blank'>European Commission</a>",
        "_layout":"full"
     },
     {

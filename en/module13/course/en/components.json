@@ -306,6 +306,7 @@
         "_parentId":"b-35",
         "_type":"component",
         "_component":"mcq",
+        "_adapt2id":"58b833ebfda9f5660ad85aae",
         "_classes":"",
         "_layout":"left",
         "_attempts":1,
@@ -374,6 +375,7 @@
         "_parentId":"b-40",
         "_type":"component",
         "_component":"mcq",
+        "_adapt2id":"58b8369efda9f5660ad85ac0",
         "_classes":"",
         "_layout":"right",
         "_attempts":1,
@@ -442,6 +444,7 @@
         "_parentId":"b-45",
         "_type":"component",
         "_component":"mcq",
+        "_adapt2id":"58b8377cfda9f5660ad85ac8",
         "_classes":"",
         "_layout":"left",
         "_attempts":1,
@@ -514,7 +517,7 @@
         "_layout":"left",
         "title":"Surfing the web of linked open data",
         "displayTitle":"Surfing the web of linked open data",
-        "body":"<p>The web of data is a set of deeply linked data resources that can be instantly read and understood by both humans and machines.</p><p>In 1989, Sir Tim Berners-Lee invented the web of documents and it took us over 20 years to understand how to use it. It is now a fundamental part of our society.</p><p>In 2001, Tim envisioned the web of linked open data and we are still realising how this is going to fundamentally change the web all over again.</p><p><a class='course_link' href='../'>Main menu</a></p>",
+        "body":"<p>The web of data is a set of deeply linked data resources that can be instantly read and understood by both humans and machines.</p><p>In 1989, Sir Tim Berners-Lee invented the web of documents and it took us over 20 years to understand how to use it. It is now a fundamental part of our society.</p><p>In 2001, Tim envisioned the web of linked open data and we are still realising how this is going to fundamentally change the web all over again.</p><p><a class='course_link' href='../module14/'>Next module</a></p><p><a class='course_link' href='../'>Main menu</a></p>",
         "_pageLevelProgress": {
           "_isEnabled": true
         }
@@ -525,6 +528,15 @@
        "_type":"component",
        "_component":"text",
        "_classes":"separator",
+       "_layout":"full"
+    },
+    {
+       "_id":"c-96",
+       "_parentId":"b-55",
+       "_type":"component",
+       "_component":"text",
+       "_classes": "attribution",
+       "body":"&copy; <a href='https://ec.europa.eu/commission/index_en' target='_blank'>European Commission</a>",
        "_layout":"full"
     },
     {

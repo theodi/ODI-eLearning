@@ -143,7 +143,7 @@
             },
             {
                 "title": "Exigences sociales",
-                "body": "<p>Pour que les données soient durables, il est important d’avoir une communauté d’utilisateurs engagés. Les meilleurs ensembles de données ont :</p><p><ul><li>Des canaux de soutien actif.</li><li>Des groupes et forums de discussion.</li><li>Des guides pratiques expliquant comment travailler avec ces données</li></ul></p>",
+                "body": "<p>Pour que les données soient durables, il est important d’avoir une communauté d’utilisateurs engagés. Les meilleurs ensembles de données ont :</p><p><ul><li>Des canaux de soutien actif.</li><li>Des groupes et forums de discussion.</li><li>Des guides pratiques expliquant comment travailler avec ces données.</li></ul></p>",
                 "_graphic": {
                     "src": "course/fr/images/odi-5.jpg",
                     "alt": "Social",
@@ -263,6 +263,7 @@
         "_parentId":"b-32",
         "_type":"component",
         "_component":"mcq",
+        "_adapt2id":"588f38a8b61c46e176e7ea8f",
         "_classes":"",
         "_layout":"left",
         "_attempts":1,
@@ -331,6 +332,7 @@
         "_parentId":"b-35",
         "_type":"component",
         "_component":"mcq",
+        "_adapt2id":"588f3d0fb61c46e176e7ea98",
         "_classes":"",
         "_layout":"right",
         "_attempts":1,
@@ -399,6 +401,7 @@
         "_parentId":"b-40",
         "_type":"component",
         "_component":"mcq",
+        "_adapt2id":"588f3de4b61c46e176e7ea9a",
         "_classes":"",
         "_layout":"left",
         "_attempts":1,
@@ -467,6 +470,7 @@
         "_parentId":"b-45",
         "_type":"component",
         "_component":"mcq",
+        "_adapt2id":"588f3eb1b61c46e176e7eaa0",
         "_classes":"",
         "_layout":"right",
         "_attempts":1,
@@ -539,7 +543,7 @@
         "_layout":"left",
         "title":"Les standards + les marques = de l’open data de qualité",
         "displayTitle":"Les standards + les marques = l’open data de qualité",
-        "body":"<p>L’open data devient utilisable lorsqu'un humain peut le comprendre et qu'une machine peut le manipuler.</p><p>TQuiconque -machine ou homme- utilise des données ouvertes doit d’abord en obtenir l’autorisation de la part de celui qui publie ces données, et cette autorisation est donnée sous forme de licence ouverte. Cependant, une licence ouverte seule ne suffit pas à garantir l’utilité des données. Le simple fait de publier un fichier sous licence ouverte sur le net ne constitue pas de l’open data.</p><p>Si les données ne sont pas utiles, il est peu probable que des utilisateurs puissent ou cherchent à les exploiter pleinement.</p><p>Le prochain module compare des initiatives d’open data et analyse les indicateurs de performance de celles qui réussissent.</p><p><a class='course_link' href='../module6/'>Prochain module</a></p><p><a class='course_link' href='../'>Menu principal</a></p>",
+        "body":"<p>L’open data devient utilisable lorsqu'un humain peut le comprendre et qu'une machine peut le manipuler.</p><p>Quiconque -machine ou homme- utilise des données ouvertes doit d’abord en obtenir l’autorisation de la part de celui qui publie ces données, et cette autorisation est donnée sous forme de licence ouverte. Cependant, une licence ouverte seule ne suffit pas à garantir l’utilité des données. Le simple fait de publier un fichier sous licence ouverte sur le net ne constitue pas de l’open data.</p><p>Si les données ne sont pas utiles, il est peu probable que des utilisateurs puissent ou cherchent à les exploiter pleinement.</p><p>Le prochain module compare des initiatives d’open data et analyse les indicateurs de performance de celles qui réussissent.</p><p><a class='course_link' href='../module6/'>Prochain module</a></p><p><a class='course_link' href='../'>Menu principal</a></p>",
         "_pageLevelProgress": {
           "_isEnabled": true
         }
@@ -550,6 +554,15 @@
        "_type":"component",
        "_component":"text",
        "_classes":"separator",
+       "_layout":"full"
+    },
+    {
+       "_id":"c-96",
+       "_parentId":"b-50",
+       "_type":"component",
+       "_component":"text",
+       "_classes": "attribution",
+       "body":"&copy; <a href='https://ec.europa.eu/commission/index_en' target='_blank'>European Commission</a>",
        "_layout":"full"
     },
     {

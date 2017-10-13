@@ -280,6 +280,7 @@
         "_parentId":"b-35",
         "_type":"component",
         "_component":"mcq",
+        "_adapt2id":"58905c59b61c46e176e7eb53",
         "_classes":"",
         "_layout":"left",
         "_attempts":1,
@@ -348,6 +349,7 @@
         "_parentId":"b-40",
         "_type":"component",
         "_component":"mcq",
+        "_adapt2id":"58905d4db61c46e176e7eb58",
         "_classes":"",
         "_layout":"right",
         "_attempts":1,
@@ -416,6 +418,7 @@
         "_parentId":"b-45",
         "_type":"component",
         "_component":"mcq",
+        "_adapt2id":"58905de5b61c46e176e7eb5e",
         "_classes":"",
         "_layout":"left",
         "_attempts":1,
@@ -506,6 +509,15 @@
        "_type":"component",
        "_component":"text",
        "_classes":"separator",
+       "_layout":"full"
+    },
+    {
+       "_id":"c-96",
+       "_parentId":"b-55",
+       "_type":"component",
+       "_component":"text",
+       "_classes": "attribution",
+       "body":"&copy; <a href='https://ec.europa.eu/commission/index_en' target='_blank'>European Commission</a>",
        "_layout":"full"
     },
     {

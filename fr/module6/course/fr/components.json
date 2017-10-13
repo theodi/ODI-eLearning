@@ -233,7 +233,7 @@
             },
             {
                 "title": "Se centrer sur l’utilisateur",
-                "body": "<p>Les initiatives d’open data les plus réussies prennent en compte tous les indicateurs clés de performance (KPIs) à la fois.</p><p>L’idéal et d’avoir développé les politiques et le stock de données dès le départ afin de ne pas retarder l’engagement avec les utilisateurs.</p><p>Les initiatives réussies se concentrent d’abord sur les utilisateurs afin de construire des communautés, de les éduquer et de rationaliser l’offre pour que l’accès aux données, même imparfaites, puisse se faire rapidement afin d’en maximiser la valeur.</p><p>La Suède bénéficie d’un programme d’open data bien établi doté d’une forte gestion des processus et entièrement centré sur l’utilisateur.<br /><a href='(http://theodi.github.io/open-data-barometer-viz/' target='_blank'>Lien vers le baromètre d’open data de la Suède</a></p>",
+                "body": "<p>Les initiatives d’open data les plus réussies prennent en compte tous les indicateurs clés de performance (KPIs) à la fois.</p><p>L’idéal est d’avoir développé les politiques et le stock de données dès le départ afin de ne pas retarder l’engagement avec les utilisateurs.</p><p>Les initiatives réussies se concentrent d’abord sur les utilisateurs afin de construire des communautés, de les éduquer et de rationaliser l’offre pour que l’accès aux données, même imparfaites, puisse se faire rapidement afin d’en maximiser la valeur.</p><p>La Suède bénéficie d’un programme d’open data bien établi doté d’une forte gestion des processus et entièrement centré sur l’utilisateur.<br /><a href='(http://theodi.github.io/open-data-barometer-viz/' target='_blank'>Lien vers le baromètre d’open data de la Suède</a></p>",
                 "_graphic": {
                     "src": "course/fr/images/odi-7-narrative_large.jpg",
                     "alt": "User focused",
@@ -305,6 +305,7 @@
         "_parentId":"b-35",
         "_type":"component",
         "_component":"mcq",
+        "_adapt2id":"588f525ab61c46e176e7ead3",
         "_classes":"",
         "_layout":"left",
         "_attempts":1,
@@ -373,6 +374,7 @@
         "_parentId":"b-40",
         "_type":"component",
         "_component":"mcq",
+        "_adapt2id":"588f5311b61c46e176e7ead8",
         "_classes":"",
         "_layout":"right",
         "_attempts":1,
@@ -449,6 +451,7 @@
         "_parentId":"b-45",
         "_type":"component",
         "_component":"mcq",
+        "_adapt2id":"588f53fbb61c46e176e7eade",
         "_classes":"",
         "_layout":"left",
         "_attempts":1,
@@ -521,7 +524,7 @@
         "_layout":"left",
         "title":"Comparer et mesurer la réussite",
         "displayTitle":"Comparer et mesurer la réussite",
-        "body":"<p>Lorsqu’on compare et mesure les initiatives d’open data, il est important d’utiliser un vaste cadre et de rester centré sur la demande.</p><p>Ces méthodes permettent à une initiative de rester sur la bonne voie et de connaître le même succès que d’autres initiatives d’open data.</p><p>Les KPIs contribuent de faire avancer le processus de changements nécessaires au sein d’une organisation afin de participer de manière efficace à la communauté de l’open data.</p><p>Le prochain module analyse comment trouver des sources durables d’open data.</p><p><a class='course_link' href='../module7s/'>Prochain module</a></p><p><a class='course_link' href='../'>Menu principal</a></p>",
+        "body":"<p>Lorsqu’on compare et mesure les initiatives d’open data, il est important d’utiliser un vaste cadre et de rester centré sur la demande.</p><p>Ces méthodes permettent à une initiative de rester sur la bonne voie et de connaître le même succès que d’autres initiatives d’open data.</p><p>Les KPIs contribuent de faire avancer le processus de changements nécessaires au sein d’une organisation afin de participer de manière efficace à la communauté de l’open data.</p><p>Le prochain module analyse comment trouver des sources durables d’open data.</p><p><a class='course_link' href='../module7/'>Prochain module</a></p><p><a class='course_link' href='../'>Menu principal</a></p>",
         "_pageLevelProgress": {
           "_isEnabled": true
         }
@@ -532,6 +535,15 @@
        "_type":"component",
        "_component":"text",
        "_classes":"separator",
+       "_layout":"full"
+    },
+    {
+       "_id":"c-96",
+       "_parentId":"b-55",
+       "_type":"component",
+       "_component":"text",
+       "_classes": "attribution",
+       "body":"&copy; <a href='https://ec.europa.eu/commission/index_en' target='_blank'>European Commission</a>",
        "_layout":"full"
     },
     {

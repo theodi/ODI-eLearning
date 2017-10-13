@@ -240,8 +240,8 @@
       ]
     },
     {
-      "title": "les crédits des musiques",
-      "description": "Cliquez sur le bouton pour voir les crédits des musique de ce cours",
+      "title": "L'open data",
+      "description": "Utiliser le contenu de ce module en tant qu'open data",
       "_filterButtons": {
         "all": "All",
         "document": "PDF",
@@ -251,9 +251,55 @@
       "_resourcesItems": [
         {
           "_type": "link",
-          "title": "Your World - Delicate Beats",
-          "description": "Source: Premium Beat<br/>Crédit: leromin<br/>Licence: Premium Beat Standard License",
-          "_link": "http://www.premiumbeat.com/royalty_free_music/songs/your-world"
+          "title": "<div align='center'><img class='download-image' src='adapt/css/assets/download.png'><p class='downloadp'>Download menu data</p></div>",
+          "description": "",
+          "_link": "course/fr/components.json"
+        },
+        {
+          "_type": "link",
+          "title": "<div align='center'><img class='download-image' src='adapt/css/assets/download.png'><p class='downloadp'>Download sidebar data</p></div>",
+          "description": "",
+          "_link": "course/fr/course.json"
+        },
+        {
+          "_type": "link",
+          "title": "<div align='center'><img class='download-image' src='adapt/css/assets/download.png'><p class='downloadp'>Download scorm object</p></div>",
+          "description": "",
+          "_link": "course/fr/data/scorm.zip"
+        },
+        {
+          "_type": "link",
+          "title": "<div align='center'><img class='download-image' src='adapt/css/assets/download.png'><p class='downloadp'>Download transcripts</p></div>",
+          "description": "",
+          "_link": "course/fr/data/transcripts.zip"
+        },
+        {
+          "_type": "link",
+          "title": "Open data certificate",
+          "description": "<span class='open-data-certificate'><img alt='Badge' src='adapt/css/assets/badge.png'/><ul class='open-data-certificate-details'> <li> <span>Open: ODI eLearning Data</span> </li> <li> <span>Pilot Open Data Certificate (final)</span> </li> <li> <span>Active - self certified</span> </li> </ul> </span>",
+          "_link": "https://certificates.theodi.org/datasets/25215/certificate"
+        },
+        {
+          "_type": "link",
+          "title": "Open licence",
+          "description": "<div align='center'><img alt='Creative Commons Licence' style='border-width:0' src='https://i.creativecommons.org/l/by-sa/4.0/88x31.png' /></div><br />&quot;<span xmlns:dct='http://purl.org/dc/terms/' property='dct:title'>Trouver les données cachées sur le Web</span>&quot; by <span xmlns:cc='http://creativecommons.org/ns# property='cc:attributionName'>European Commission</span> is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.",
+          "_link": "http://creativecommons.org/licenses/by-sa/4.0/"
+        },
+        {
+          "title": "Content usage",
+          "description": "The content, including text and structure is available for you to <em>use</em>, <em>reuse</em> and <em>share</em> (including for commercial purposes) subject to the conditions of the license above."
+        },
+        {
+          "title": "Exclusions",
+          "description": "This license does not cover: <ul><li>Logos and trade marks belonging to the European Commission or Open Data Institute</li><li>Third party content (such as images)</li></ul>"
+        },
+        {
+          "title": "Non-endorsement",
+          "description": "This licence does not grant you any right to use the Information in a way that suggests any official status or that the Information Provider and/or Licensor endorse you or your use of the Information."
+        },
+        {
+          "title": "No warranty",
+          "description": "The Information is licensed 'as is'. The European Commission is not liable for any errors or omissions in the Information and shall not be liable for any loss, injury or damage of any kind caused by its use. The Information Provider does not guarantee the continued supply of the Information."
         }
       ]
     }

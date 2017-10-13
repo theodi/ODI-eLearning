@@ -361,8 +361,10 @@
           "_link": "http://creativecommons.org/licenses/by-sa/4.0/"
         },
         {
+          "_type": "link",
           "title": "Content usage",
-          "description": "The content, including text and structure is available for you to <em>use</em>, <em>reuse</em> and <em>share</em> (including for commercial purposes) subject to the conditions of the license above."
+          "description": "The content, including text and structure is available for you to <em>use</em>, <em>reuse</em> and <em>share</em> (including for commercial purposes) subject to the conditions of the license above.",
+          "_link": "http://creativecommons.org/licenses/by-sa/4.0/"
         },
         {
           "title": "Exclusions",
@@ -375,6 +377,10 @@
         {
           "title": "No warranty",
           "description": "The Information is licensed 'as is'. The Open Data Institute is not liable for any errors or omissions in the Information and shall not be liable for any loss, injury or damage of any kind caused by its use. The Information Provider does not guarantee the continued supply of the Information."
+        },
+        {
+          "title": "No warranty",
+          "description": "The Information is licensed 'as is'. The European Commission is not liable for any errors or omissions in the Information and shall not be liable for any loss, injury or damage of any kind caused by its use. The Information Provider does not guarantee the continued supply of the Information."
         }
       ]
     },
@@ -397,7 +403,7 @@
         {
           "_type": "link",
           "title": "European Data Portal",
-          "description": "<div align='center'><img alt='EDP' style='border-width:0; max-height: 150px;' src='adapt/css/assets/edp.png' /></div><br />Funding for module development and implementation provided by the <span xmlns:cc='http://creativecommons.org/ns# property='cc:attributionName'>European Data Portal</span>. Original content used under a Creative Commons Attribution-ShareAlike 4.0 International Licence.",
+          "description": "<div align='center'><img alt='EDP' style='border-width:0; max-height: 150px;' src='adapt/css/assets/edp.png' /></div><br />Funding for module development and implementation provided by the <span xmlns:cc='http://creativecommons.org/ns# property='cc:attributionName'>European Data Portal</span>.",
           "_link": "http://www.europeandataportal.eu/"
         },
         {

@@ -106,7 +106,7 @@
         "_items": [
             {
                 "title": "Un financement sûr pour l’open data",
-                "body": "Le fait qu’un ensemble de données puisse être utilisé librement ne signifie pas qu’il n’y a pas de frais associés à la collecte ou la publication des données. On peut garantir un financement :</h5><ul class='bullet'><li>U en rendant l’accès ou les services supplémentaires payants</li><li>grâce au financement d’une source alternative qui soutient la publication de données ouvertes.</li><li>   en démontrant la valeur continue de l’open data pour l’organisation</li></ul>",
+                "body": "Le fait qu’un ensemble de données puisse être utilisé librement ne signifie pas qu’il n’y a pas de frais associés à la collecte ou la publication des données. On peut garantir un financement :</h5><ul class='bullet'><li> en rendant l’accès ou les services supplémentaires payants.</li><li>grâce au financement d’une source alternative qui soutient la publication de données ouvertes.</li><li>   en démontrant la valeur continue de l’open data pour l’organisation.</li></ul>",
                 "_graphic": {
                     "src": "course/fr/images/odi-002.jpg",
                     "alt": "Secure funding",
@@ -321,6 +321,7 @@
         "_parentId":"b-60",
         "_type":"component",
         "_component":"gmcq",
+        "_adapt2id":"58905530b61c46e176e7eb16",
         "_classes":"",
         "_layout":"full",
         "_attempts":1,
@@ -433,6 +434,7 @@
         "_parentId":"b-70",
         "_type":"component",
         "_component":"mcq",
+        "_adapt2id":"589056d1b61c46e176e7eb22",
         "_classes":"",
         "_layout":"left",
         "_attempts":1,
@@ -524,6 +526,15 @@
        "_type":"component",
        "_component":"text",
        "_classes":"separator",
+       "_layout":"full"
+    },
+    {
+       "_id":"c-1111",
+       "_parentId":"b-110",
+       "_type":"component",
+       "_component":"text",
+       "_classes": "attribution",
+       "body":"&copy; <a href='https://ec.europa.eu/commission/index_en' target='_blank'>European Commission</a>",
        "_layout":"full"
     },
     {
