@@ -1,0 +1,703 @@
+[
+    {
+        "_id":"c-01",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"intro-logo",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "",
+            "medium": "",
+            "small": ""
+        }
+    },
+    {
+        "_id":"c-02",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Hur man bäst nyttjar öppna data",
+        "displayTitle":"Hur man bäst nyttjar öppna data",
+        "body":"<p>Öppna data har potential att hjälpa ekonomier att växa, omvandla samhällen och skydda miljön.</p><p>I den här modulen undersöker vi hur regeringar, företag och privatpersoner använder öppna data för att skapa nya värden.</p><h5>I denna modul utforskar vi:</h5><ul class='ticks'><li>Innovation och tillväxt i företag</li><li>Nya möjligheter för regeringar</li><li>Påverkan på samhället och offentlig förvaltning</li><li>Fördelar för kultur och miljö.</li></ul>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+    "_id":"c-11",
+    "_parentId":"b-10",
+    "_type":"component",
+    "_component":"iFrame-vimeo",
+    "_classes":"",
+    "_layout":"full",
+        "title":"Ta fram värdet ur öppna data - på tre minuter
+",
+        "displayTitle": "Ta fram värdet ur öppna data - på tre minuter
+",
+        "body": "ODI-läraren Ben Cave granskar hur företag och regeringar nyttjar öppna data och de positiva effekter som detta har på ekonomin, samhället och miljön.",
+        "instruction": "To turn subtitles on and off, click the 'cc' button at the bottom right of the video",
+        "_setCompletionOn":"ended",
+        "_source": "https://player.vimeo.com/video/129196639",
+        "_media": {
+		"mp4": "course/sv/video/video.mp4",
+		"poster": "course/sv/video/placeholder.jpg"
+	},
+        "_height": {
+            "_small" : 250,
+            "_medium" : 350,
+            "_large" : 508
+        }
+    },
+    {
+        "_id":"c-21",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Innovation och tillväxt i näringslivet",
+            "title": "Innovation och tillväxt i näringslivet",
+            "large": "course/sv/images/odi-001-text-image_large.png",
+            "medium": "course/sv/images/odi-001-text-image_large.png",
+            "small": "course/sv/images/odi-001-text-image_large.png",
+            "*source":"http://www.shutterstock.com/pic-230887714.html",
+            "*credit":"Bloomua",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-22",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Innovation och tillväxt i näringslivet",
+        "displayTitle":"Innovation och tillväxt i företag",
+        "body":"<p>Öppna data stöder innovation och tillväxt genom att ge möjligheter för företag, stora som små, att bygga nya tjänster, effektivisera och förbättra verksamheten.</p><p class='not-dlab'>I Paris använder caféägare öppna data för att locka turister till <a href='https://web.archive.org/web/20150515035949/http://www.paris.fr/accueil/paris-mag/ou-boire-un-cafe-pour-1-a-paris/rub_9683_actu_116311_port_23863' target='_blank'>stadens mest prisvärda kaffe</a>, medan bönder på Island använder <a href='http://weblog.linkingpaths.com/post/78767700473/icelandic-open-data-lambs-and-maps' target='_blank'>öppna data rörande kvaliteten på deras lamm</a> för att locka nya kunder.</p><p>Öppna data stimulerar innovation genom att ta bort hinder för tillgång, användning och delbarhet av data.</p><p>Datakompetens är en kärnkunskap för företag som vill utnyttja möjligheterna som öppna data ger för att skapa nya värden och förbättra verksamheten.</p>"
+    },
+     {
+        "_id": "c-25",
+        "_parentId": "b-25",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Möjligheter för stadsförvaltningen",
+        "displayTitle": "Möjligheter för stadsförvaltningen",
+        "body": "Den offentliga sektorn drar fördel av öppna data-initiativ på många sätt:",
+        "instruction": "<em class='desktop-instruction'>Click the forward arrow to see more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
+        "_items": [
+            {
+                "title": "Stöd till växande ekonomier",
+                "body": "<p>För att stödja framväxten av nya datastyrda företag, och tillväxten av befintliga, måste regeringar publicera viktiga dataset.</p><p>Regeringar måste också stödja en datainfrastruktur som förbinder datan med dem som använder den.</p><p class='not-dlab'>I gengäld skördar regeringarna fördelarna med en växande dataekonomi, till exempel i Finland där små och medelstora företag med tillgång till öppna data växte 15 procent snabbare än de utan.<p class='not-dlab'><a href='https://web.archive.org/web/20140531085827/http://www.epsiplatform.eu/content/finnish-study-psi-pricing-geo-data' target='_blank'>Ta med mig till den finska fallstudien</a></p>",
+                "_graphic": {
+                    "src": "course/sv/images/odi-002-narrative_large.jpg",
+                    "alt": "Supporting Growing Economies",
+                    "title": "Supporting Growing Economies",
+                    "*source":"http://www.shutterstock.com/pic-128352227.html",
+                    "*credit":"vs148",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Supporting Growing Economies"
+            },
+            {
+                "title": "Förbättrad serviceleverans",
+                "body": "<p>Regeringar måste balansera kraven från växande befolkningar med behovet av att ta itu med småskaliga lokala frågor.</p><p>Tillgången till detaljerade öppna data är avgörande för att förbättra leveransen av tjänster på lokal nivå.</p><p>Några av dessa nya tjänster finns tillgängliga nu:<br /><a href='https://www.mysociety.org/' target='_blank'>Ta mig till mySociety</a> <br /><a class='not-dlab' href='http://kimittud.atlatszo.hu/' target='_blank'>Ta mig till den ungerska ""rätten att veta"" portalen</a> <br /><a class='not-dlab' href='http://www.fiksgatami.no/' target='_blank'>Ta mig till Fix my Street Norway</a></p>",
+                "_graphic": {
+                    "src": "course/sv/images/odi-003-narrative_large.jpg",
+                    "alt": "Förbättrad serviceleverans",
+                    "title": "Förbättrad serviceleverans",
+                    "*source":"https://www.fixmystreet.com/",
+                    "*credit":"fixmystreet",
+                    "*license":"unknown"
+                },
+                "strapline": "Förbättrad serviceleverans"
+            },
+            {
+                "title": "Kostnadsbesparingar",
+                "body": "<p>Öppna data gör att regeringar kan göra besparingar inom nyckelområden som sjukvård, utbildning och samhällsservice.</p><p>I Storbritannien bidrog öppna data till att <a href='https://theodi.org/news/prescription-savings-worth-millions-identified-odi-incubated-company' target='_blank'>200 miljoner pund kunde sparas</a> inom hälsovården.<p>I Frankrike används energidata för att driva en effektivare energiproduktion.<br /><a href='https://www.quandl.com/collections/france/france-energy-data' target='_blank'>Visa mig Frankrikes energidata.</a></p><p>Öppna data kan också göra budgetar mer transparanta. I Schweiz presenterade Berns kanton sina årliga besparingar på <a href='http://be-asp.budget.opendata.ch/' target='_blank' class='not-dlab'>400 miljoner euro för allmänheten</a> med hjälp av öppna data.</p>",
+                "_graphic": {
+                    "src": "course/sv/images/odi-004-narrative_large.jpg",
+                    "alt": "Cost Savings",
+                    "title": "Cost Savings",
+                    "*source":"http://www.shutterstock.com/pic-75494491.html",
+                    "*credit":"vlastas",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Cost Savings"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-30",
+        "_parentId":"b-28",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Ändra samhällen och offentligt beslutsfattande",
+            "title": "Ändra samhällen och offentligt beslutsfattande",
+            "large": "course/sv/images/odi-005_accordian_large.jpg",
+            "medium": "course/sv/images/odi-005_accordian_large.jpg",
+            "small": "course/sv/images/odi-005_accordian_large.jpg",
+            "*source":"http://www.shutterstock.com/pic-234353791.html",
+            "*credit":"tai11",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+      "_id":"c-35",
+      "_parentId":"b-28",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"left",
+      "title": "Ändra samhällen och offentligt beslutsfattande",
+      "displayTitle": "Ändra samhällen och offentligt beslutsfattande",
+      "body": "<p>Öppna data öppnar för nya samhälleliga insikter och möjliggör bättre riktade offentliga policyer.</p>",
+      "instruction": "Click the headings to explore further.",
+      "_items": [
+        {
+          "alt": "Förbättra sätten vi rör oss på",
+          "title": "Förbättra sätten vi rör oss på",
+          "body": "<p>Öppna data har kraften att revolutionera hur vi reser.</p><p class='not-dlab'>Inom den nederländska transportbranschen hjälper öppna data ett växande antal småföretag att utveckla nya tjänster.</p><p class='not-tz not-dlab not-default'><a href='http://www.europeandataportal.eu/sites/default/files/use_case_france_-_tranquilien_v1.pdf' target='_blank'>Den franska appen Tranquilien</a> förbättrar passagerarkomforten på olika färdmedel och främjar effektiv användning av kollektivtrafik genom att ge relevant information om lediga platser och avgångstider.</p><p class='not-dlab'>En ny holländsk app, vinnare av den prestigefyllda Apps4Europe-tävlingen, hjälper funktionshindrade att boka resehjälp för sina resor med hjälp av öppna data.<p>Öppna transportdata sparar pendlingsltid, gör resor mer tillgängliga och hjälper turister att resa i obekanta städer.</p>"
+        },
+        {
+          "alt": "Förbättra hur vi jobbar",
+          "title": "Förbättra hur vi jobbar",
+          "body": "<p>Öppna data förändrar hur vi arbetar.</p><p>Öppna data minskar den tid som behövs för att hitta information och gör det möjligt för yrkesverksamma att fokusera mer av sin tid på produktivitet.</p><p>OpenCorporates erbjuder en öppen databas över företag över hela världen: deras nätverk, finansiella stabilitet och miljöpåverkan. Detta hjälper organisationer att lära sig mer om potentiella kunder, leverantörer och partners.<br /><a href='https://opencorporates.com/info/about' target='_blank'>Ta mig till OpenCorporates</a></p><p class='not-tz not-dlab not-default'><a href='http://www.europeandataportal.eu/sites/default/files/use_case_finland_-_kannattaako_kaupp.pdf' target='_blank'>Den finska Kannattaako kauppa-tjänsten</a> ger insikter om prisutvecklingen av fastigheter i framtiden, vilket gör det enkelt att jämföra hus och bostadsområden utifrån pris och befolkning.</p>"
+        },
+        {
+          "alt": "Förbättra det sätt vi styr på",
+          "title": "Förbättra det sätt vi styr på",
+          "body": "<p>Öppna data blir en viktig grund när nya lagar och policyer ska skapas.</p><p class='not-tz not-dlab not-default'>Den offentliga förvaltningen är överlägset den sektor som kommer att ha mest nytta av öppna data, med ett värde av <a href='http://www.europeandataportal.eu/sites/default/files/edp_creating_value_through_open_data_0.pdf' target='_blank'>22 miljarder euro 2020</a>. Detta bekräftar tesen att den offentliga sektorn är den främsta återanvändaren av sina egna data. Inom jordbruksektorn samt inom konst och underhållning är den förväntade vinsten mindre, med 379 miljoner euro vardera. Öppna data har fortfarande stor potential inom dessa sektorer, men det kommer ta mer tid att nå full potential.<p>Öppna data gör också politiken mer transparent och stödjer dialogen mellan regeringar och medborgare.</p><p>Öppna data rörande viktiga frågor som invandring, handel och budgetnedskärningar kan användas som underlag för viktiga politiska beslut.</p><p class='not-tz not-dlab not-default'><a href='www.kurgyvenue.lt' targevt='_blank'>Where do I live</a> är ett litauiskt verktyg som ger litauiska medborgare information om deras grannskap, t ex lokala föroreningsnivåer, buller, brottsnivåer, bostadspriser, skolor, dagis, genomsnittliga fastighets- och levnadskostnader.</p><p>Till exempel hjälpte en analys av öppna data kring brandstationerna i London att visa vilka stationer som kunde stängas med minst påverkan på tjänsterna.</p><p><a href='http://london-fire.labs.theodi.org/' target='_blank'>Ta mig till Londons brandstationanalys</a></p>"
+        }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+     {
+        "_id": "c-40",
+        "_parentId": "b-30",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Fördelar inom kultur- och miljöområden",
+        "displayTitle": "Fördelar inom kultur- och miljöområden",
+        "body": "Öppna data hjälper till att styra initiativ för att få de största kulturella och miljömässiga fördelarna.",
+        "instruction": "<em class='desktop-instruction'>Click the forward arrow to see more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
+        "_items": [
+            {
+                "title": "Miljö",
+                "body": "<p>Öppna data hjälper jordbrukare att förbättra avkastningen och stödja en växande befolkning utan att behöva förstöra värdefulla livsmiljöer.</p><p>Plantwise samlar in öppna data för att producera värdefulla informationspaket för jordbrukare om växthälsa och hot från sjukdomar.<br /><a href='https://www.plantwise.org/' target='_blank'>Ta mig till Plantwise</a></p><p>CIARD har producerat ett centralt förråd av mer än 1 500 öppna jordbruksforskningssamlingar över hela världen, vilket skapar nya forskningsmöjligheter.<br /><a href='http://www.ciard.net/' target='_blank'>Ta mig till CIARD</a></p>",
+                "_graphic": {
+                    "src": "course/sv/images/odi-006-narrative_large.jpg",
+                    "alt": "Miljö",
+                    "title": "Miljö",
+                    "*source":"http://www.shutterstock.com/pic-94664593.html",
+                    "*credit":"Madlen",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Miljö"
+            },
+            {
+                "title": "Sparar liv",
+                "body": "<p>Öppna data hjälper till att rädda liv. Öppna geografiska data och bidragsstatistik används av humanitära organisationer för att leverera riktade leveranser i katastrofzoner.</p><p>Öppna kartdata hjälpte katastrofresponsteam att rikta insatserna under jordbävningen på Haiti 2010.<br /><a href='http://hotosm.org/projects/haiti-2' target='_blank'>Visa mig Haiti Open Street Map.</a></p><p>Öppna data användes också för insatserna efter tyfonen på Filippinerna 2014.</p>",
+                "_graphic": {
+                    "src": "course/sv/images/odi-007-narrative_large.jpg",
+                    "alt": "Sparar liv",
+                    "title": "Sparar liv",
+                    "*source":"http://www.itoworld.com/static/ted_video.html",
+                    "*credit":"Ito World Ltd.",
+                    "*license":"Creative Commons Attribution ShareAlike"
+                },
+                "strapline": "Sparar liv"
+            },
+            {
+                "title": "Kultur",
+                "body": "<p>Öppna data kopplar samman människor med viktiga kulturella frågeställningar och bidrar till att skapa en högre kunskapsnivå kring dessa.</p><p>OpenGLAM hjälper till att bevara arv och kulturminnen från grupper i Tyskland, Schweiz och Finland.<br /><a href='http://openglam.org/' target='blank'>Ta mig till OpenGLAM.</a></p><p>Open Data Institute leder ett globalt Data as Culture-program, med artists-in-residence, som omprövar de grundläggande sätten på vilka data uppfattas.<br /><a href='http://theodi.org/culture' target='_blank'>Ta mig till ODI Data as Culture</a></p>",
+                "_graphic": {
+                    "src": "course/sv/images/odi-008-narrative_large.jpg",
+                    "alt": "Kultur",
+                    "title": "Kultur",
+                    "*source":"https://www.flickr.com/photos/ukodi/13400679614/in/album-72157642859056285/",
+                    "*credit":"Open Data Institute",
+                    "*license":"Creative Commons Attribution ShareAlike"
+                },
+                "strapline": "Kultur"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    }, 
+    {
+        "_id": "c-31",
+        "_parentId": "b-31",
+        "_classes": "not-eu",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Education, Healthcare and Nutrition",
+        "displayTitle": "Education, Healthcare and Nutrition",
+        "body": "",
+        "instruction": "<em class='desktop-instruction'>Click the forward arrow for more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
+        "_items": [
+            {
+                "title": "Education",
+                "body": "<p>In Burkino Faso the Our Schools Our Data portal has been developed to improve citizens’ access to information about schools, as well as helping government better engage and empower local communities.</p><p>In Tanzania, the <a href='http://www.shule.info/' target='_blank'>shule.info</a> portal kickstarted the publication of school results in Tanzania. The portal provides information regarding school results and allows citizens to compare schools to help inform them about the best opportunities for education in their region. More recent results have been published by the National Examinations Council of Tanzania on their own <a href='http://www.necta.go.tz/brn2015/' target='_blank'>school ranking portal</a>.</p>",
+                "_graphic": {
+                    "src": "course/sv/images/c-31a.jpg",
+                    "alt": "School supplies",
+                    "title": "School supplies",
+                    "*source":"https://www.flickr.com/photos/infomastern/9671353179",
+                    "*credit":"Nick Amoscato",
+                    "*license":"CC-BY 2.0"
+                },
+                "strapline": "Education"
+            },
+            {
+                "title": "Heathcare",
+                "body": "<p>In South Africa, the <a href='https://mpr.code4sa.org/' target='_blank'>Medicine price portal</a> provides services to help citizens afford the right medicines. It uses open data not only to provide price information, but also offers information on alternative cheaper generic alternatives to the expensive brand names.</p><p>In <a href='http://health.saharareporters.com/' target='_blank'>Nigeria</a> and <a href='http://health.the-star.co.ke/' target='_blank'>Kenya</a>, this service from <a href='https://codeforafrica.org/' target='_blank'>Code for Africa</a> has been expanded even further. Here open data is used to provide citizens the ability to check a doctors registered status, find the nearest specialist as well as check if they are covered for national health care services.</p>",
+                "_graphic": {
+                    "src": "course/sv/images/c-31b.jpg",
+                    "alt": "Antacid",
+                    "title": "Antacid",
+                    "*source":"https://www.flickr.com/photos/treasureice/16459056781",
+                    "*credit":"Treasure",
+                    "*license":"CC-BY 2.0"
+                },
+                "strapline": "Heathcare"
+            },
+            {
+                "title": "Nutrition",
+                "body": "<p>Access to fresh water is one of the most important things in life. The <a href='http://www.tanzaniawaterproject.org/what-we-are-doing/where-we-are-working/' target='_blank'>Tanzania Water Project website</a> provides locations of new and proposed well sites to give people access to fresh water.</p><p>For farmers in Tanzania, <a href='http://www.agrimark.co.tz/' target='_blank'>Agrimark</a> connects farmers with the market for their crops. For farmers in Tanzania, often located in rural areas, finding suppliers for crops can be a difficult process. Likewise for hotels, restaurants and other businesses, finding food at the best price is challenging. Agrimark solves both challenges by creating an open marketplace for buyers and sellers of produce.</p>",
+                "_graphic": {
+                    "src": "course/sv/images/c-31c.jpg",
+                    "alt": "Reaching for the sky",
+                    "title": "Reaching for the sky",
+                    "*source":"https://www.flickr.com/photos/infomastern/9671353179",
+                    "*credit":"Susanne Nilsson",
+                    "*license":"CC-BY-SA 2.0"
+                },
+                "strapline": "Nutrition"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-42",
+        "_parentId":"b-33",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/sv/images/burst.png",
+            "medium": "course/sv/images/burst.png",
+            "small": "course/sv/images/burst.png"
+        }
+    },
+    {
+        "_id":"c-43",
+        "_parentId":"b-33",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Är du redo att nyttja öppna data?",
+        "displayTitle":"Är du redo att nyttja öppna data?",
+        "body":"<p>Det finns många värdefulla exempel på öppna data-initiativ som ger sociala, ekonomiska och miljömässiga fördelar. Är du redo att delta i den öppna data-rörelsen?</p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-45",
+        "_parentId":"b-35",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Är du redo att nyttja öppna data?",
+            "title": "",
+            "large": "course/sv/images/odi-009-mcq_large.png",
+            "medium": "course/sv/images/odi-009-mcq_large.png",
+            "small": "course/sv/images/odi-009-mcq_large.png",
+            "*source":"http://www.shutterstock.com/pic-230887714.html",
+            "*credit":"Bloomua",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-50",
+        "_parentId":"b-35",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"588a0892b61c46e176e7e8e9",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Innovation och tillväxt i näringslivet",
+        "displayTitle": "Innovation och tillväxt i näringslivet",
+        "body": "<p>Öppna data driver innovation och tillväxt inom den privata sektorn genom att ...</p>",
+        "instruction": "<em>Choose an answer, then click 'Submit'</em>",
+        "_items": [
+            {
+                "text": "göras tillgänglig på webben",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "visa på möjligheter att bygga nya tjänster och förbättra verksamheten",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "motivera innovatörer att använda statliga data",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Rätt!</h5><p>Datakompetens är en kärnkunskap för företag som vill utnyttja möjligheterna som öppna data ger för att skapa nya värden och förbättra verksamheten.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Är du säker?</h5><p>Datakompetens är en kärnkunskap för företag som vill utnyttja möjligheterna som öppna data ger för att skapa nya värden och förbättra verksamheten.</p>",
+                "final": "<h5>Är du säker?</h5><p>Datakompetens är en kärnkunskap för företag som vill utnyttja möjligheterna som öppna data ger för att skapa nya värden och förbättra verksamheten.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "",
+                "final": ""
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-55",
+        "_parentId":"b-40",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Innovation och tillväxt i näringslivet",
+            "title": "",
+            "large": "course/sv/images/odi-010-mcq_large.jpg",
+            "medium": "course/sv/images/odi-010-mcq_large.jpg",
+            "small": "course/sv/images/odi-010-mcq_large.jpg",
+            "*source":"http://www.shutterstock.com/pic-128352227.html",
+            "*credit":"vs148",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-60",
+        "_parentId":"b-40",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"588a0bc3b61c46e176e7e8f1",
+        "_classes":"",
+        "_layout":"right",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Möjligheter för stadsförvaltningen",
+        "displayTitle": "Möjligheter för stadsförvaltningen",
+        "body": "<p>Att känna till öppna data är inte längre en lyx för de som jobbar i den offentliga sektorn, det är nu ...</p>",
+        "instruction": "<em>Choose an answer, then click Submit</em>",
+        "_items": [
+            {
+                "text": "lite viktigare än det brukade vara",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "något som borde undersökas",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "en viktig del av stödet till samhället",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Rätt!</h5><p>Öppna data är ett avgörande stöd för framväxten av nya datadrivna företag och tillväxten av befintliga.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Är du säker?</h5><p>Öppna data är ett avgörande stöd för framväxten av nya datadrivna företag och tillväxten av befintliga.</p>",
+                "final": "<h5>Är du säker?</h5><p>Öppna data är ett avgörande stöd för framväxten av nya datadrivna företag och tillväxten av befintliga.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "",
+                "final": ""
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-65",
+        "_parentId":"b-45",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Ändrar samhället",
+            "title": "",
+            "large": "course/sv/images/odi-011-mcq_large.jpg",
+            "medium": "course/sv/images/odi-011-mcq_large.jpg",
+            "small": "course/sv/images/odi-011-mcq_large.jpg",
+            "*source":"http://www.shutterstock.com/pic-234353791.html",
+            "*credit":"tai11",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-70",
+        "_parentId":"b-45",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"588a175eb61c46e176e7e901",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Ändrar samhället",
+        "displayTitle": "Ändrar samhället",
+        "body": "<p>Vilka är fördelarna med att ha öppna transportdata?</p>",
+        "instruction": "<em>Choose an answer, then click 'Submit'</em>",
+        "_items": [
+            {
+                "text": "Det sparar tid och förbättrar tillgängligheten",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "Det gör tåg snabbare",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Det gör biljetter billigare",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Rätt!</h5><p>Öppna transportdata sparar pendeltid och gör resor mer tillgängliga.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Är du säker?</h5><p>Öppna transportdata sparar pendeltid och gör resor mer tillgängliga.</p>",
+                "final": "<h5>Är du säker?</h5><p>Öppna transportdata sparar pendeltid och gör resor mer tillgängliga.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "",
+                "final": ""
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-75",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Ändrar kultur och miljö",
+            "title": "",
+            "large": "course/sv/images/odi-012-mcq_large.jpg",
+            "medium": "course/sv/images/odi-012-mcq_large.jpg",
+            "small": "course/sv/images/odi-012-mcq_large.jpg",
+            "*source":"http://www.itoworld.com/static/ted_video.html",
+            "*credit":"Ito World Ltd.",
+            "*license":"n/a"
+        }
+    },
+    {
+        "_id":"c-80",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"588a26d7b61c46e176e7e907",
+        "_classes":"",
+        "_layout":"right",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Ändrar kultur och miljö",
+        "displayTitle": "Ändrar kultur och miljö",
+        "body": "<p>Vilken typ av öppna data användes för att stödja katastrofinsatserna på Haiti och Filippinerna?</p>",
+        "instruction": "<em>Choose an answer, then click 'Submit'</em>",
+        "_items": [
+            {
+                "text": "Demografiska data från folkräkningen",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Öppna data om folks löner",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Öppna kartdata och bidragsstatistik",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Rätt!</h5><p>Öppna data hjälper till att rädda liv. Öppna geografiska data och bidragsstatistik används av humanitära grupper för att leverera viktiga leveranser i katastrofzoner.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Är du säker?</h5><p>Öppna data hjälper till att rädda liv. Öppna geografiska data och bidragsstatistik används av humanitära grupper för att leverera viktiga leveranser i katastrofzoner.</p>",
+                "final": "<h5>Är du säker?</h5><p>Öppna data hjälper till att rädda liv. Öppna geografiska data och bidragsstatistik används av humanitära grupper för att leverera viktiga leveranser i katastrofzoner.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "",
+                "final": ""
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-85",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Summary icon clipboard",
+            "title": "Summary icon clipboard",
+            "large": "course/sv/images/odi-footer.png",
+            "medium": "course/sv/images/odi-footer.png",
+            "small": "course/sv/images/odi-footer.png",
+            "*source":"http://www.shutterstock.com/pic-189810137.html",
+            "*credit":"Kritchanut",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-90",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Redo att nyttja öppna data?",
+        "displayTitle":"Redo att nyttja öppna data?",
+        "body":"<p>Öppna data har kraften att hjälpa till att få ekonomier att växa, omvandla samhällen och skydda miljön.</p><p>Öppna data kan hjälpa regeringar att få ekonomier att växa, förbättra serviceleveransen och spara på kostnader.</p><p>Öppna data kan gynna samhället genom att förbättra hur vi rör oss, hur vi arbetar och hur vi styr.</p><p>Öppna data kan hjälpa till att rädda liv och hjälpa oss att bättre förstå den värld vi lever i.</p><p>Redo att börja? I nästa modul undersöker vi hur man engagerar sig i ett öppet data-initiativ.</p><p><a class='course_link' href='../module3/'>Nästa modul</a></p><p><a class='course_link' href='../'>Huvudmeny</a></p>",
+        "_pageLevelProgress": {
+          "_isEnabled": true
+        }
+    },
+    {
+       "_id":"c-95",
+       "_parentId":"b-55",
+       "_type":"component",
+       "_component":"text",
+       "_classes":"separator",
+       "_layout":"full"
+    },
+    {
+       "_id":"c-96",
+       "_parentId":"b-55",
+       "_type":"component",
+       "_component":"text",
+       "_classes": "attribution",
+       "body":"&copy; <a href='https://ec.europa.eu/commission/index_en' target='_blank'>European Commission</a>",
+       "_layout":"full"
+    },
+    {
+        "_id":"c-100",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"footer-logo",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Open data institute logo",
+            "title": "Open data institute logo",
+            "large": "course/sv/images/logo-small.png",
+            "medium": "course/sv/images/logo-small.png",
+            "small": "course/sv/images/logo-small.png",
+            "*source":"http://theodi.org",
+            "*credit":"The Open Data Institute",
+            "*license":"All rights reserved"  
+        }
+    },
+    {
+        "_id":"c-104",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"attribution not-eu not-default",
+        "_layout":"right",
+        "body":"Content created by <a href='http://theodi.org' target='_blank'>The Open Data Institute</a>"
+    },
+    {
+        "_id":"c-105",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"social-buttons not-dlab",
+        "_layout":"right",
+        "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/sv/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/sv/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/sv/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/sv/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/sv/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/sv/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/sv/images/social/flickr.png'></a>"
+    }
+]
