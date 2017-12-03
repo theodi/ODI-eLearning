@@ -1,0 +1,646 @@
+[
+    {
+        "_id":"c-01",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"intro-logo",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "",
+            "medium": "",
+            "small": ""
+        }
+    },
+    {
+        "_id":"c-02",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Öppna data: en förändringsfaktor",
+        "displayTitle":"Öppna data: en förändringsfaktor",
+        "body":"<p>De mest framgångsrika öppna data-initiativen har liknande egenskaper. Att förstå framgångsrika tillvägagångssätt kan hjälpa till att nyttja öppna data.</p><h5>I den här modulen utforskar vi följande:</h5><ul class='ticks'><li>Öppna data som förändringsfaktor</li><li>Ledarskap och engagemang</li><li>Tillgång och efterfrågan</li><li>Kulturförändring för nya marknader</li></ul>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+    "_id":"c-11",
+    "_parentId":"b-10",
+    "_type":"component",
+    "_component":"iFrame-vimeo",
+    "_classes":"",
+    "_layout":"full",
+        "title":"Att engagera sig i öppna data-initiativ - på 2 minuter",
+        "displayTitle": "Att engagera sig i öppna data-initiativ - på 2 minuter",
+        "body": "ODI International Development Manager Liz Carolan berättar om fem egenskaper som kännetecknar framgångsrika öppna data-initiativ. ",
+        "instruction": "To turn subtitles on and off, click the 'cc' button at the bottom right of the video",
+        "_setCompletionOn":"ended",
+        "_source": "https://player.vimeo.com/video/129196638",
+        "_media": {
+		"mp4": "course/sv/video/video.mp4",
+		"poster": "course/sv/video/placeholder.jpg"
+	},
+        "_height": {
+            "_small" : 250,
+            "_medium" : 350,
+            "_large" : 508
+        }
+    },
+    {
+        "_id":"c-21",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Öppna data: en förändringsfaktor.",
+            "title": "Öppna data: en förändringsfaktor.",
+            "large": "course/sv/images/odi-001-text_image_large.png",
+            "medium": "course/sv/images/odi-001-text_image_large.png",
+            "small": "course/sv/images/odi-001-text_image_large.png",
+            "*source":"http://www.shutterstock.com/pic-134315933.html",
+            "*credit":"Photoraidz",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-22",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"right",
+        "title":"Öppna data: en förändringsfaktor.",
+        "displayTitle":"Öppna data: en förändringsfaktor.",
+        "body":"<p>Att genomföra ett öppet data-initiativ innebär ofta en kulturell och institutionell förändring.</p><p>Att öppna upp data går långt utöver att publicera data på en webbplats under en öppen licens. Att tillämpa tekniken är den enkla delen – den kulturella förändringen kan bli mycket svårare.</p>"
+    },
+     {
+        "_id": "c-25",
+        "_parentId": "b-25",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Ledarskap och engagemang",
+        "displayTitle": "Ledarskap och engagemang",
+        "body": "Ett aktivt ledarskap och engagemang hjälper till att främja framgångsrika öppna data-initiativ och skapa positiv förändring.",
+        "instruction": "<em class='desktop-instruction'>Click the forward arrow to see more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
+        "_items": [
+            {
+                "title": "Aktivt ledarskap",
+                "body": "<p>När ett öppet data-program lanseras är det vanligt att de som jobbar med det möter ett visst motstånd från sina organisationer.</p><p>Ett aktivt stöd från ledningen kan bidra till att få med organisationen på noterna.</p>",
+                "_graphic": {
+                    "src": "course/sv/images/odi-002_large.jpg",
+                    "alt": "Aktivt ledarskap",
+                    "title": "Aktivt ledarskap",
+                    "*source":"http://www.shutterstock.com/pic-238771996.html",
+                    "*credit":"Mangsaab",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Active Leadership"
+            },
+            {
+                "title": "Aktivt engagemang",
+                "body": "<p>Samverkan och dialog med det civila samhället, näringslivet och regeringen är viktiga aspekter av alla öppna data-initiativ.</p><p>Framgångsrika initiativ tenderar att börja med en öppen dialog mellan de som publicerar öppna data och konsumenterna.</p><p>Denna dialog är viktig för att få båda parter att förstå efterfrågan på data och möjligheterna att nyttja den på bästa sätt.</p>",
+                "_graphic": {
+                    "src": "course/sv/images/odi-003_large.jpg",
+                    "alt": "Aktivt engagemang",
+                    "title": "Aktivt engagemang",
+                    "*source":"http://www.shutterstock.com/pic-82049359.html",
+                    "*credit":"Carsten Reisinger",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Aktivt engagemang"
+            },
+            {
+                "title": "Hitta utrymme att förbättra och innovera",
+                "body": "<p>Starkt ledarskap och aktiv dialog med huvudaktörerna är nyckeln till framgångsrika initiativ.</p><p>Aktivt ledarskap delivers a 'push' from the organisation, active dialogue creates a 'pull' from data users.</p><p>Öppna data-ledarskap och dialog låser upp innovationsmöjligheter genom att koppla samman  problem med potentiella lösningar.</p>",
+                "_graphic": {
+                    "src": "course/sv/images/odi-004_large.jpg",
+                    "alt": "Space to innovate",
+                    "title": "Space to innovate",
+                    "*source":"http://www.shutterstock.com/pic-33265168.html",
+                    "*credit":"Tonis Pan",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Space to innovate"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-30",
+        "_parentId":"b-28",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Supply and Demand",
+            "title": "Supply and Demand",
+            "large": "course/sv/images/odi-005_large.png",
+            "medium": "course/sv/images/odi-005_large.png",
+            "small": "course/sv/images/odi-005_large.png",
+            "*source":"http://www.shutterstock.com/pic-245234284.html",
+            "*credit":"Positive thinker",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+      "_id":"c-35",
+      "_parentId":"b-28",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"left",
+      "title": "Tillgång och efterfrågan",
+      "displayTitle": "Tillgång och efterfrågan",
+      "body": "<p>Titta på följande när du granskar ett öppet data-initiativ:</p>",
+      "instruction": "<em>Click the headings to explore further.</em>",
+      "_items": [
+        {
+          "alt": "Tillvägagångssättet",
+          "title": "Tillvägagångssättet",
+          "body": "<p>Många öppna data-publicerare har valt tillvägagångssättet att bygga en portal, publicera de data de har och hoppas att det är vad konsumenterna vill ha eller behöver.</p><p>I och med att öppna data-kompetensen växer börjar folk att i första hand tänka på datakonsumenternas behov, och utforma sina initiativ i enlighet därmed.</p><p>Ett stegvis tillvägagångssätt hjälper till att säkerställa att en organisation kan gå innan den försöker springa, och att uppnå förändring bitvis, snarare än att ställa upp ambitiösa mål som är svåra att uppfylla.</p>"
+        },
+        {
+          "alt": "Vem vill ha dina data?",
+          "title": "Vem vill ha dina data?",
+          "body": "<p>Det finns ingen anledning att publicera öppna data om det inte finns någon som är beredd eller motiverad att nyttja dem..</p><p>Det är ofta bäst att fokusera på den efterfrågan som finns i dagsläget.</p><p>Använd befintliga konsumentkanaler och opinionsundersökningar för att se vad som efterfrågas.</p><p>Tänk på problem som redan existerar och hur dina uppgifter är relevanta för dem. Erbjud dina data som ett verktyg för att hjälpa till att bygga lösningar.</p>"
+        },
+        {
+          "alt": "Vem ska använda och stödja dina data?",
+          "title": "Vem ska använda och stödja dina data?",
+          "body": "<p>Ett framgångsrikt öppet data-initiativ har en engagerad gemenskap som aktivt använder datamängderna.</p><p>En stark gemenskap av öppna data-användare har en känsla av ägande över datan. Detta ägande bör täcka både ursprungsdatan och de utdata som genereras av den.</p><p>Det är viktigt för publicerare och konsumenter att fullt ut förstå varandras perspektiv.</p><p class='not-dlab'>Ett bra exempel på en stark öppna data-gemenskap är Open Street Map-projektet.<br /><a href='https://www.openstreetmap.org/' target='_blank'>Ta mig till Open Street Map-projektet</a></p><p class='not-eu not-default'>In Tanzania, The Humanitarian OpenStreetMap Team through Ramani Huria Project is able to support disaster prevention and response to areas that were previously off the map, literally. <br /><a href='https://hotosm.org/updates/2015-11-19_mapping_drainage_in_dar_es_salaam' target='_blank'>Take me to the report from the Humanitarian OpenStreetMap team.</a></p>"
+        }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+     {
+        "_id": "c-40",
+        "_parentId": "b-30",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Kulturförändring för nya marknader",
+        "displayTitle": "Kulturförändring för nya marknader",
+        "body": "Att tillämpa tekniken är den lätta delen. Genomförandet av kulturförändringar kan bli mycket svårare.",
+        "instruction": "<em class='desktop-instruction'>Click the forward arrow to see more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
+        "_items": [
+            {
+                "title": "Identifiera nya marknader",
+                "body": "<p>Den traditionella marknaden för öppna data, där regeringar publicerar data för andra att konsumera, har förändrats.</p><p>Regeringar, företag och samhälle är alla nu både leverantörer och konsumenter av öppna data.</p>",
+                "_graphic": {
+                    "src": "course/sv/images/odi-006_large.jpg",
+                    "alt": "New markets",
+                    "title": "New markets",
+                    "*source":"http://www.shutterstock.com/pic-164731838.html",
+                    "*credit":"STH",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "New markets"
+            },
+            {
+                "title": "Kulturförändring",
+                "body": "<p>Att ta sig an öppna data kräver ofta en förändring av hur en institution fungerar.</p><p>Initiativtagarna måste spendera tid på att utveckla en gemensam vision, övervinna hinder och bygga koalitioner för förändring.</p><p>Konsumenterna bör ha befogenhet att engagera sig i öppna data som en kärnkomponent i sin datainfrastruktur.</p>",
+                "_graphic": {
+                    "src": "course/sv/images/odi-007_large.jpg",
+                    "alt": "Kulturförändring",
+                    "title": "Kulturförändring",
+                    "*source":"http://www.shutterstock.com/pic-257301595.html",
+                    "*credit":"Anna Omelchenko",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Kulturförändring"
+            },
+            {
+                "title": "Planera för förändring",
+                "body": "<p>Sätt att hantera och planera för kulturförändring blir tydligare.</p><p>Regeringar, organisationer och individer bör ha fri tillgång till viktiga utbildningar, verktyg och guider som hjälper till att planera för framtiden.</p><p>Piloter och praktiska initiativ spelar viktiga roller för att förstå effekterna av öppna data och förändringsprocessen. Det finns verktyg och guider som hjälper dig att bedöma och planera för förändring, såsom ODIs Open Data Pathway Pathway.<br /><a href='http://pathway.theodi.org/' target='_blank'>Ta mig till ODI Open Data Pathway</a></p>",
+                "_graphic": {
+                    "src": "course/sv/images/odi-008_large.jpg",
+                    "alt": "Planera för förändring",
+                    "title": "Planera för förändring",
+                    "*source":"http://www.shutterstock.com/pic-53095825.html",
+                    "*credit":"Mikael Damkier",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Planera för förändring"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-42",
+        "_parentId":"b-32",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/sv/images/burst-indigo.png",
+            "medium": "course/sv/images/burst-indigo.png",
+            "small": "course/sv/images/burst-indigo.png"
+        }
+    },
+    {
+        "_id":"c-43",
+        "_parentId":"b-32",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Är du redo för kulturförändring?",
+        "displayTitle":"Är du redo för kulturförändring?",
+        "body":"<p>Det finns fyra viktiga egenskaper som framgångsrika öppna data-initiativ brukar ha. Kan du komma ihåg dem?</p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-45",
+        "_parentId":"b-35",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Ledarskap och engagemang",
+            "title": "",
+            "large": "course/sv/images/odi-009-text-image_large.png",
+            "medium": "course/sv/images/odi-009-text-image_large.png",
+            "small": "course/sv/images/odi-009-text-image_large.png",
+            "*source":"http://www.shutterstock.com/pic-134315933.html",
+            "*credit":"Photoraidz",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    
+    {
+        "_id":"c-50",
+        "_parentId":"b-35",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"588f1806b61c46e176e7ea52",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Ledarskap och engagemang",
+        "displayTitle": "Ledarskap och engagemang",
+        "body": "<p>Vad är två kritiska förhållningsfaktorer som behövs för ett framgångsrikt öppet data-initiativ?</p>",
+        "instruction": "<em>Choose your answer, then click 'Submit'</em>",
+        "_items": [
+            {
+                "text": "Emotionell intelligens och tålamod",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Starkt ledarskap och aktivt engagemang",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "Vänlighet och empati",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Rätt!</h5><p>Starkt ledarskap och aktivt engagemang med nyckelaktörer är avgörande för ett framgångsrikt initiativ.</p>",
+            "_incorrect": {
+                "notFinal": "h5>Är du säker?</h5><p>Starkt ledarskap och aktivt engagemang med nyckelaktörer är avgörande för ett framgångsrikt initiativ.</p>",
+                "final": "<h5>Är du säker?</h5><p>Starkt ledarskap och aktivt engagemang med nyckelaktörer är avgörande för ett framgångsrikt initiativ.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Är du säker?</h5><p>Starkt ledarskap och aktivt engagemang with key stakeholders is critical to a successful initiative.</p>",
+                "final": "<h5>Är du säker?</h5><p>Starkt ledarskap och aktivt engagemang with key stakeholders is critical to a successful initiative.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-55",
+        "_parentId":"b-40",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Tillgång och efterfrågan",
+            "title": "",
+            "large": "course/sv/images/odi-010-mcq_large.png",
+            "medium": "course/sv/images/odi-010-mcq_large.png",
+            "small": "course/sv/images/odi-010-mcq_large.png",
+            "*source":"http://www.shutterstock.com/pic-238771996.html",
+            "*credit":"Mangsaab",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-60",
+        "_parentId":"b-40",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"588f1a34b61c46e176e7ea58",
+        "_classes":"",
+        "_layout":"right",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Tillgång och efterfrågan",
+        "displayTitle": "Tillgång och efterfrågan",
+        "body": "<p>Vilket tillvägagångssätt bör du ha när du planerar ett öppet datainitiativ?</p>",
+        "instruction": "<em>Choose your answer, then click 'Submit'</em>",
+        "_items": [
+            {
+                "text": "Publicera data och hoppas att folk använder den",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Tänka på mina behov",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Ha konsumentens perspektiv",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Rätt!</h5><p>Nu när öppna data-gemenskapen har mognat så tar många konsumenternas perspektiv och tydliggör de fördelar de kan få från datan.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Är du säker?</h5><p>Nu när öppna data-gemenskapen har mognat så tar många konsumenternas perspektiv och tydliggör de fördelar de kan få från datan.</p>",
+                "final": "<h5>Är du säker?</h5><p>Nu när öppna data-gemenskapen har mognat så tar många konsumenternas perspektiv och tydliggör de fördelar de kan få från datan.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Är du säker?</h5><p>Nu när öppna data-gemenskapen har mognat så tar många konsumenternas perspektiv och tydliggör de fördelar de kan få från datan.</p>",
+                "final": "<h5>Är du säker?</h5><p>Nu när öppna data-gemenskapen har mognat så tar många konsumenternas perspektiv och tydliggör de fördelar de kan få från datan.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-65",
+        "_parentId":"b-45",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Kulturförändring för nya marknader",
+            "title": "",
+            "large": "course/sv/images/odi-011-mcq_large.jpg",
+            "medium": "course/sv/images/odi-011-mcq_large.jpg",
+            "small": "course/sv/images/odi-011-mcq_large.jpg",
+            "*source":"http://www.shutterstock.com/pic-245234284.html",
+            "*credit":"Positive thinker",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-70",
+        "_parentId":"b-45",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"588f1fe8b61c46e176e7ea5c",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Kulturförändring för nya marknader",
+        "displayTitle": "Kulturförändring för nya marknader",
+        "body": "<p>Människor som driver öppna data-initiativ måste spendera mest tid ...</p>",
+        "instruction": "<em>Choose your answer, then click 'Submit'</em>",
+        "_items": [
+            {
+                "text": "övervinna hinder, bygga koalitioner och driva på förändring",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "pratar med andra datautgivare",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "lära känna sina egna dataset",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Rätt!</h5><p>Open data often requires change in the way an institution operates. People driving initiatives need to spend time övervinna hinder, bygga koalitioner och driva på förändring.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Är du säker?</h5><p>Öppna data kräver ofta förändring av hur en institution fungerar. Människor som driver initiativ måste spendera tid att övervinna hinder, bygga koalitioner och driva förändringar.</p>",
+                "final": "<h5>Är du säker?</h5><p>Öppna data kräver ofta förändring av hur en institution fungerar. Människor som driver initiativ måste spendera tid att övervinna hinder, bygga koalitioner och driva förändringar.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Är du säker?</h5><p>Öppna data kräver ofta förändring av hur en institution fungerar. Människor som driver initiativ måste spendera tid att övervinna hinder, bygga koalitioner och driva förändringar.</p>",
+                "final": "<h5>Är du säker?</h5><p>Öppna data kräver ofta förändring av hur en institution fungerar. Människor som driver initiativ måste spendera tid att övervinna hinder, bygga koalitioner och driva förändringar.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-75",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Planera för förändring",
+            "title": "",
+            "large": "course/sv/images/odi-012-mcq_large.png",
+            "medium": "course/sv/images/odi-012-mcq_large.png",
+            "small": "course/sv/images/odi-012-mcq_large.png",
+            "*source":"http://www.shutterstock.com/pic-164731838.html",
+            "*credit":"STH",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-80",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"588f2133b61c46e176e7ea62",
+        "_classes":"",
+        "_layout":"right",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Planera för förändring",
+        "displayTitle": "Planera för förändring",
+        "body": "<p><strong>Regeringar, organisationer och individer borde ha fri tillgång till ...</strong></p>",
+        "instruction": "<em>Choose your answer, then click 'Submit'</em>",
+        "_items": [
+            {
+                "text": "stora data",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "allas öppna data",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "nyckelutbildningar, verktyg och guider",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Rätt!</h5><p>Regeringar, organisationer och individer bör ha fri tillgång till viktiga utbildningar, verktyg och guider som hjälper till att planera för framtiden.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Är du säker?</h5><p>Regeringar, organisationer och individer bör ha fri tillgång till viktiga utbildningar, verktyg och guider som hjälper till att planera för framtiden.</p>",
+                "final": "<h5>Är du säker?</h5><p>Regeringar, organisationer och individer bör ha fri tillgång till viktiga utbildningar, verktyg och guider som hjälper till att planera för framtiden.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Är du säker?</h5><p>Implementing an open data initiative involves cultural and institutional change.</p>",
+                "final": "<h5>Är du säker?</h5><p>Implementing an open data initiative involves cultural and institutional change.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-85",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Summary icon clipboard",
+            "title": "Summary icon clipboard",
+            "large": "course/sv/images/summary-icon.png",
+            "medium": "course/sv/images/summary-icon.png",
+            "small": "course/sv/images/summary-icon.png",
+            "*source":"http://www.shutterstock.com/pic-189810137.html",
+            "*credit":"Kritchanut",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-90",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Öppna data: en förändringsfaktor.",
+        "displayTitle":"Öppna data: en förändringsfaktor.",
+        "body":"<p>Att genomföra ett öppet data-initiativ innebär ofta en kulturell och institutionell förändring.</p><p>Att föra samverkan och dialog med det civila samhället, företag och regeringar är en viktig del av processen.</p><p>När det öppna datavärlden mognar, tar många initiativ hänsyn till användarnas behov tidigt i planeringen av sina aktiviteter.</p><p>Öppna data kräver att vi tänker annorlunda på hur marknaden för data fungerar.</p><p>I nästa modul tittar vi på att förenkla öppna data-licenser.</p><p><a class='course_link' href='../module4/'>Nästa modul</a></p><p><a class='course_link' href='../'>Huvudmeny</a></p>",
+        "_pageLevelProgress": {
+          "_isEnabled": true
+        }
+    },
+    {
+       "_id":"c-95",
+       "_parentId":"b-55",
+       "_type":"component",
+       "_component":"text",
+       "_classes":"separator",
+       "_layout":"full"
+    },
+    {
+       "_id":"c-96",
+       "_parentId":"b-55",
+       "_type":"component",
+       "_component":"text",
+       "_classes": "attribution",
+       "body":"&copy; <a href='https://ec.europa.eu/commission/index_en' target='_blank'>European Commission</a>",
+       "_layout":"full"
+    },
+    {
+        "_id":"c-100",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"footer-logo",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Open data institute logo",
+            "title": "Open data institute logo",
+            "large": "course/sv/images/logo-small.png",
+            "medium": "course/sv/images/logo-small.png",
+            "small": "course/sv/images/logo-small.png",
+            "*source":"http://theodi.org",
+            "*credit":"The Open Data Institute",
+            "*license":"All rights reserved"  
+        }
+    },
+    {
+        "_id":"c-104",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"attribution not-eu not-default",
+        "_layout":"right",
+        "body":"Content created by <a href='http://theodi.org' target='_blank'>The Open Data Institute</a>"
+    },
+    {
+        "_id":"c-105",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"social-buttons not-dlab",
+        "_layout":"right",
+        "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/sv/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/sv/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/sv/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/sv/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/sv/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/sv/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/sv/images/social/flickr.png'></a>"
+    }
+]
