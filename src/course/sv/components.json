@@ -1,0 +1,739 @@
+[
+    {
+        "_id":"c-01",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"intro-logo",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "",
+            "medium": "",
+            "small": ""
+        }
+    },
+    {
+        "_id":"c-02",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Varför behöver vi licenser?",
+        "displayTitle":"Varför behöver vi licenser?",
+        "body":"<p>För att data ska vara öppen bör den vara tillgänglig (det innebär vanligen att den publiceras på nätet) och licensieras för att alla ska få tillgång till, använda och dela.</p><h5>I den här modulen utforskar vi följande:</h5><ul class='ticks'><li>Varför öppna data måste licensieras</li><li>Hur licenser gör öppna data användbara</li><li>Vilken typ av licens passar öppna data</li><li>Hur man tillhandahåller öppna data-licensiering i upphandlings-, anbudsförfarande- och kontraktlivscykeln</li></ul><p>Även i de fall där data har gjorts tillgängliga som Public Domain, utan villkor för återanvändning, krävs ett tydligt klargörande om att så är fallet. Detta för att ge användarna juridisk klarhet.</p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+    "_id":"c-11",
+    "_parentId":"b-10",
+    "_type":"component",
+    "_component":"iFrame-vimeo",
+    "_classes":"",
+    "_layout":"full",
+        "title":"Förenkla öppna data-licenser - på två minuter",
+        "displayTitle": "Förenkla öppna data-licenser - på två minuter",
+        "body": "ODI Policy Lead Ellen Broad förklarar varför vi behöver öppna data-licenser, hur licenserna hjälper till att utvinna värdet av data och Best Practise när man ska välja rätt typ av licens.",
+        "instruction": "To turn subtitles on and off, click the 'cc' button at the bottom right of the video",
+        "_setCompletionOn":"ended",
+        "_source": "https://player.vimeo.com/video/129116798",
+        "_media": {
+		"mp4": "course/sv/video/video.mp4",
+		"poster": "course/sv/video/placeholder.jpg"
+	},
+        "_height": {
+            "_small" : 250,
+            "_medium" : 350,
+            "_large" : 508
+        }
+    },
+    {
+        "_id":"c-21",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Varför licensiera öppna data?",
+            "title": "Varför licensiera öppna data?",
+            "large": "course/sv/images/odi-1.jpg",
+            "medium": "course/sv/images/odi-1.jpg",
+            "small": "course/sv/images/odi-1.jpg",
+            "*source": "http://www.shutterstock.com/pic-270451631.html",
+            "*credit": "Oleksiy Mark",
+            "*license": "Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-22",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"right",
+        "title":"Varför licensiera öppna data?",
+        "displayTitle":"Varför licensiera öppna data?",
+        "body":"<p>Utan en licens är uppgifterna inte riktigt öppna.</p><p>En licens berättar för alla att de kan komma åt, använda och dela dina data.</p><p>Om du inte har en licens kan data vara \"allmänt tillgängliga\", men användarna har inte tillstånd att komma åt, använda och dela den enligt upphovsrätts- eller databaslagarna.</p>"
+    },
+     {
+        "_id": "c-25",
+        "_parentId": "b-25",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "dynamic-narrative",
+        "title": "Fördelarna med öppna data-licens",
+        "displayTitle": "Fördelarna med öppna data-licens",
+        "body": "Licensiering ger företag, startups, regeringar och individer tillstånd att skapa nytt med öppna data.",
+        "instruction": "<em class='desktop-instruction'>Click the forward arrow for more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
+        "_items": [
+            {
+                "title": "Ger säkerhet",
+                "body": "<p>Öppna datalicenser ger användarna säkerheten att datan kan användas och delas för ett brett spann av ändamål.</p><p>En öppna data-licens är ett uttryckligt tillstånd att använda data för både kommersiella och icke-kommersiella ändamål.</p><p>Utan licens kan användarna hamna i ett lagligt ingenmansland.</p>",
+                "_graphic": {
+                    "src": "course/sv/images/odi-2.jpg",
+                    "alt": "Ger säkerhet",
+                    "title": "Ger säkerhet",
+                    "*source":"http://www.shutterstock.com/pic-77222599.html",
+                    "*credit":"Pavel Ignatov",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Ger säkerhet"
+            },
+            {
+                "title": "Ger tydlighet",
+                "body": "<p>År 2015 var endast omkring 46% av datan i öppna data-kataloger inom EU licensierade.</p><p>I EU är upphovsrätt- och databaslagar komplexa. Även om data kan vara avsedda att vara öppna så ger en uttalad licens att så är fallet juridisk klarhet för användarna.</p><p>Webbsidan OpenDataMonitor ger information om och statistik över europeiska datakataloger.<br /><a href='http://www.opendatamonitor.eu' target='_blank'>Ta mig till OpenDataMonitor</a></p>",
+		        "_graphic": {
+                    "src": "course/sv/images/odi-3.jpg",
+                    "alt": "Ger tydlighet",
+                    "title": "Ger tydlighet",
+                    "*source":"http://www.opendatamonitor.eu/",
+                    "*credit":"Open Data Monitor",
+                    "*license":"CC-BY 4.0 International"
+                },
+                "strapline": "Ger tydlighet"
+            },
+            {
+                "title": "Möjliggör innovation",
+                "body": "<p>Öppna data-licenser möjliggör experiment, utforskning och innovativ användning av öppna data i nya produkter och tjänster.</p><p>Till exempel är Transport för Londons transportdata licensierad. Den datan utgör grunden för ett brett utbud av kollektivtrafikplanerare som finns tillgängliga som appar för smartphones och mobila enheter.<br /><a href='https://tfl.gov.uk/info-for/open-data-users/' target='_blank'>Ta mig till Transport för London</a></p>",
+                "_graphic": {
+                    "src": "course/sv/images/odi-4.jpg",
+                    "alt": "Möjliggör innovation",
+                    "title": "Möjliggör innovation",
+                    "*source":"http://www.shutterstock.com/pic-173841626.html",
+                    "*credit":"Claudio Divizia",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Möjliggör innovation"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-26",
+        "_parentId":"b-26",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "Så här hittar du en licens?",
+            "title": "Så här hittar du en licens?",
+            "large": "course/sv/images/odi-5.jpg",
+            "medium": "course/sv/images/odi-5.jpg",
+            "small": "course/sv/images/odi-5.jpg",
+            "*source":"sponge uk",
+            "*credit":"sponge uk",
+            "*license":"Creative commons attribute 4.0 international"
+        }
+    },
+    {
+        "_id":"c-27",
+        "_parentId":"b-26",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Så här hittar du en licens",
+        "displayTitle":"Så här hittar du en licens",
+        "body":"<p>Öppna data-utgivare ska ge enkel åtkomst till licensen för alla dataset som är tillgängliga för åtkomst, användning och delning.</p><p>Licensinformationens placering och layout kan variera beroende på t ex jurisdiktion och bransch.</p><p>Bästa praxis säger att licenser ska vara lätta att hitta och läsa. I nästa avsnitt visar vi dig hur man hittar en licens.</p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+     {
+        "_id": "c-28",
+        "_parentId": "b-27",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Enkla licenser, lätt hittade",
+        "displayTitle": "Enkla licenser, lätt hittade",
+        "body": "EVarje utgivare av öppna data presenterar sina licenser annorlunda. Här är några exempel.",
+        "instruction": "<em class='desktop-instruction'>Click the forward arrow to see more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
+        "_items": [
+            {
+                "title": "Den brittiska regeringen",
+                "body": "<p>The Den brittiska regeringen uses an Open Government Licence</p><p class='not-dlab not-default'>Detta exempel visar klart licensen högst upp på webbsidan, där datamängden finns tillgänglig. Licensinformationen är en hyperlänk som visar licensen i sin helhet.</p><p>Ta en titt på det här datamängd-exemplet och dess licens. Medan du är där kan du också utforska alla andra datamängder och tjänster som de erbjuder.<br /><a href='http://data.gov.uk/dataset/financial-transactions-data-fco' target='_blank'>Ta mig till Data.gov.uk</a></p>",
+                "_graphic": {
+                    "src": "course/sv/images/odi-6.jpg",
+                    "alt": "Den brittiska regeringen",
+                    "title": "Den brittiska regeringen",
+                    "*source":"http://data.gov.uk/dataset/financial-transactions-data-fco",
+                    "*credit":"data.gov.uk",
+                    "*license":"Open Government Licence"
+                },
+                "strapline": "Den brittiska regeringen"
+            },
+            {
+                "title": "Singapores regering",
+                "body": "<p>Singapores regering publicerar även de data som är öppet licensierad, men licensen kan vara svår att lokalisera.</p><p>Licensvillkoren är tillgängliga genom att man klickar på ikonerna eller URLen för nedladdning av data, eller via Terms and conditions-länken längst ner på webbsidan.</p><p>Ta en titt på det här datamängdsexemplet och dess licens. Medan du är där kan du utforska alla andra dataset och tjänster som de erbjuder.<br /><a href='https://data.gov.sg/dataset/dengue-clusters' target='_blank'>Ta mig till data.gov.sg</a></p>",
+                "_graphic": {
+                    "src": "course/sv/images/odi-7.jpg",
+                    "alt": "Singapores regering",
+                    "title": "Singapores regering",
+                    "*source":"https://data.gov.sg/dataset/dengue-clusters",
+                    "*credit":"data.gov.sg",
+                    "*license":"n/a"
+                },
+                "strapline": "Singapores regering"
+            },
+            {
+                "title": "Tanzanias regering",
+                "body": "<p>Likt Singapores regering så kan Tanzanias öppna data-licens vara svår att hitta.</p><p>Licensvillkoren fås fram genom att man klickar på länkvillkoren längst ner på webbsidan. Varje enskild datamängd säger förvirrande att \"license not specified\".</p><p>Ta en titt på det här datamängdsexemplet och dess licens. Medan du är där kan du utforska alla andra dataset och tjänster som de erbjuder.<br /><a href='http://opendata.go.tz/dataset/uwiano-wa-mwalimu-kwa-wanafunzi-kwa-shule-za-msingi-zisizo-za-serikali-2016' target='_blank'>Ta mig till opendata.go.tz</a></p>",
+                "_graphic": {
+                    "src": "course/sv/images/odi-6b.jpg",
+                    "alt": "Tanzanias regering",
+                    "title": "Tanzanias regering",
+                    "*source":"http://opendata.go.tz/dataset/uwiano-wa-mwalimu-kwa-wanafunzi-kwa-shule-za-msingi-zisizo-za-serikali-2016",
+                    "*credit":"opendata.go.tz",
+                    "*license":"n/a"
+                },
+                "strapline": "Tanzanias regering"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-30",
+        "_parentId":"b-28",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Typer av licenser",
+            "title": "Typer av licenser",
+            "large": "course/sv/images/odi-8.jpg",
+            "medium": "course/sv/images/odi-8.jpg",
+            "small": "course/sv/images/odi-8.jpg",
+            "*source":"http://www.shutterstock.com/pic-353727374",
+            "*credit":"Icons vector",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+      "_id":"c-35",
+      "_parentId":"b-28",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"left",
+      "title": "Typer av licenser",
+      "displayTitle": "Typer av licenser",
+      "body": "<p>Ju enklare licens, desto bättre.</p><p>Det finns många olika licenser. För att maximera återanvändningen, försök att anta en licensstandard som redan används allmänt.</p><p><a href='https://theodi.org/guides/reusers-guide-open-data-licensing' target='_blank'>Ta mig till en guide om licensiering</a></p><p class='not-tz not-dlab not-default'>Den europeiska portalen erbjuder en enkel  <a href='http://www.europeandataportal.eu/en/licence-assistant' target='_blank'>licensassistent</a> för att hjälpa dig att välja rätt licens för dina uppgifter.</p>",
+      "instruction": "<em>Click the headings to explore further.</em>",
+      "_items": [
+        {
+          "alt": "Creative Commons-licenser",
+          "title": "Creative Commons-licenser",
+          "body": "<p>Creative Commons-licenser används ofta för öppet innehåll. Version 4.0 innehåller data-licensiering.</p><p>Det finns fyra Creative Commons-versioner av en öppen licens:</p><ul><li><strong>Inga upphovsrättsanspråk/Public Domain Mark: (CC0/PDM)  Läs mer om skillnaden mellan de båda här: http://www.digisam.se/naer-ska-man-egentligen-anvaenda-cc0-och-pdm/</strong></li><li><strong>Erkännande/Attribution: (CC BY v4.0)</strong></li><li><strong>Erkännande-Dela lika/Attribution & share-alike: (CC BY-SA v4.0)</strong></li></ul><p>PD, CC0 och CC BY ger största möjliga flexibilitet vid användningen av data, medan CC BY-SA kan begränsa den kommersiella användningen av data.<br /><a href='https://creativecommons.org/publicdomain/zero/1.0/' target='_blank'>Visa mig en CC0-licens</a><br><a href='https://creativecommons.org/licenses/by/4.0/' target='_blank'>Visa mig en CC BY-licens</a><br><a href='https://creativecommons.org/licenses/by-sa/4.0/' target='_blank'>Visa mig en CC BY-SA-licens.</a></p><p>Du kan välja en licens som fungerar för dig på Creative Commons hemsida:<br><a href='https://creativecommons.org/choose/' target='_blank'>Visa mig hur man gör en egen Creative Commons-licens.</a></p>"
+        },
+        {
+          "alt": "Skräddarsydda / anpassade licenser",
+          "title": "Skräddarsydda / anpassade licenser",
+          "body": "<p>En skräddarsydd licens skapas av datapubliceraren och innehåller specifika villkor som användaren måste följa. Skräddarsydda licenser kan skrivas från grunden eller anpassas utifrån en standardlicens genom tillägg av nya villkor och / eller modifiering av befintliga.</p><p>Skräddarsydda licenser kan öka komplexiteten för användare av öppna data.</p><p>De kan innebära särskilda villkor som begränsar användningen, begränsar dataintegrationen och i vissa fall gör det svårt för användarna att följa licensen.</p>"
+        },
+        {
+          "alt": "Öppna statslicenser",
+          "title": "Öppna statslicenser",
+          "body": "<p>Vissa publicerare har valt att utveckla egna licenser.</p><p>De bästa exemplen är:</p><ul><li>Korta</li><li>kompatibla med allmänt använda licenser</li><li>lätta att följa</li></ul><p class='not-dlab'>Ett bra exempel på en tydlig öppen licens har skapats av den franska regeringen.<br /><a href='https://www.etalab.gouv.fr/licence-ouverte-open-licence' target='_blank'>Ta mig till den franska regeringens öppna licens</a></p><p>The Den brittiska regeringen has a good example of an open licence developed in this way that is used by Den brittiska regeringen departments:<br /><a href='http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/' target='_blank'>Take me to the Den brittiska regeringen open licence</a></p>"
+        }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+     {
+        "_id": "c-40",
+        "_parentId": "b-30",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Licenser och tredje part",
+        "displayTitle": "Licenser och tredje part",
+        "body": "Publicerande av öppna data kan krävas som en del av anbudsförfarande-, upphandlings- och kontraktslivscykel.",
+        "instruction": "<em class='desktop-instruction'>Click the forward arrow to see more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
+        "_items": [
+            {
+                "title": "Tredjepart",
+                "body": "<p>Regeringar och organisationer använder ofta entreprenörer för att tillhandahålla tjänster å deras vägnar.</p><p>Dessa regeringar och organisationer kan vara skyldiga att publicera öppna data om tjänster, och i förlängningen kan det även gälla tredje part.</p><p>Denna publicering är viktig eftersom när offentliga medel spenderas bör det skapa samhällsnytta.  Att öppna dessa data är ett effektivt sätt att hjälpa till att skapa detta och göra det mer transparent.</p>",
+                "_graphic": {
+                    "src": "course/sv/images/odi-9.jpg",
+                    "alt": "Tredjepart",
+                    "title": "Tredjepart",
+                    "*source":"http://www.shutterstock.com/pic-239545075.html",
+                    "*credit":"everything possible",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Tredjepart"
+            },
+            {
+                "title": "Inkludera öppna data i kontrakt",
+                "body": "<p>För att säkerställa att uppgifter som samlats in och används av entreprenörer publiceras som öppna data kan en organisation:</p><ul><li>Ta med detta som ett villkor i kontraktet.</li><li>behålla äganderätten till datan för att själva publicera den som öppna data.</li></ul><p><a href='http://training.theodi.org/Procurement/Guide/' target='_blank'>Ta mig till en guide om att ta med öppna data i kontrakt</a></p>",
+                "_graphic": {
+                    "src": "course/sv/images/odi-10.jpg",
+                    "alt": "Inkludera öppna data i kontrakt",
+                    "title": "Inkludera öppna data i kontrakt",
+                    "*source":"http://www.shutterstock.com/pic-159737504.html",
+                    "*credit":"Myvector",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Inkludera öppna data i kontrakt"
+            },
+            {
+                "title": "Öppna data om prestanda",
+                "body": "<p>Prestandadata och data relaterade till hur tjänster tillhandahålls kan också krävas av en entreprenör, i syfte att offentliggöras som öppna data.</p><p>Tidigare prestandadata hjälper potentiella leverantörer att förstå vilka delar av kontraktet som är enkla eller svåra, och stimulerar konkurrensen i anbudsförfarandet.</p>",
+                "_graphic": {
+                    "src": "course/sv/images/odi-11.jpg",
+                    "alt": "Öppna data om prestanda",
+                    "title": "Öppna data om prestanda",
+                    "*source":"http://www.shutterstock.com/pic-201870622.html",
+                    "*credit":"Your Design",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Öppna data om prestanda"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-42",
+        "_parentId":"b-32",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/sv/images/burst-indigo.png",
+            "medium": "course/sv/images/burst-indigo.png",
+            "small": "course/sv/images/burst-indigo.png"
+        }
+    },
+    {
+        "_id":"c-43",
+        "_parentId":"b-32",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Är du redo att licensiera?",
+        "displayTitle":"Är du redo att licensiera?",
+        "body":"<p>Det finns fyra enkla saker att komma ihåg när det gäller licensiering. Kan du komma ihåg dem?</p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-45",
+        "_parentId":"b-35",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Är du redo att licensiera?",
+            "title": "",
+            "large": "course/sv/images/odi-12.jpg",
+            "medium": "course/sv/images/odi-12.jpg",
+            "small": "course/sv/images/odi-12.jpg",
+            "*source":"http://www.shutterstock.com/pic-270451631.html",
+            "*credit":"Oleksiy Mark",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    
+    {
+        "_id":"c-50",
+        "_parentId":"b-35",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"588b5379b61c46e176e7e9e7",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Varför licensiera öppna data?",
+        "displayTitle": "Varför licensiera öppna data?",
+        "body": "<p>Vad behöver dina data för att tillåta användare att komma åt, använda och dela den?</p>",
+        "instruction": "<em>Choose your answer, then click 'Submit'</em>",
+        "_items": [
+            {
+                "text": "Rubrikinformation",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Licens",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "Ett email från webmastern",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Rätt!</h5><p>Utan en licens kommer datan att vara \"allmänt tillgänglig\", men användarna kanske inte har behörighet att komma åt, använda och dela den enligt upphovsrätt- och / eller databaslagar.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Är du säker?</h5><p>Utan en licens kommer datan att vara \"allmänt tillgänglig\", men användarna kanske inte har behörighet att komma åt, använda och dela den enligt upphovsrätt- och / eller databaslagar.</p>",
+                "final": "<h5>Är du säker?</h5><p>Utan en licens kommer datan att vara \"allmänt tillgänglig\", men användarna kanske inte har behörighet att komma åt, använda och dela den enligt upphovsrätt- och / eller databaslagar.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Är du säker?</h5><p>Utan en licens kommer datan att vara \"allmänt tillgänglig\", men användarna kanske inte har behörighet att komma åt, använda och dela den enligt upphovsrätt- och / eller databaslagar.</p>",
+                "final": "<h5>Är du säker?</h5><p>Utan en licens kommer datan att vara \"allmänt tillgänglig\", men användarna kanske inte har behörighet att komma åt, använda och dela den enligt upphovsrätt- och / eller databaslagar.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-55",
+        "_parentId":"b-40",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Att nyttja öppna data",
+            "title": "",
+            "large": "course/sv/images/odi-13.jpg",
+            "medium": "course/sv/images/odi-13.jpg",
+            "small": "course/sv/images/odi-13.jpg",
+            "*source":"http://www.shutterstock.com/pic-77222599.html",
+            "*credit":"Pavel Ignatov",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-60",
+        "_parentId":"b-40",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"588b557ab61c46e176e7e9f1",
+        "_classes":"",
+        "_layout":"right",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Att nyttja öppna data",
+        "displayTitle": "Att nyttja öppna data",
+        "body": "<p>En öppen licens tillåter användarna att komma åt, använda och dela öppna data. Vilket annat tillstånd måste en öppen licens ge användarna?</p>",
+        "instruction": "<em>Choose your answer, then click 'Submit'</em>",
+        "_items": [
+            {
+                "text": "Möjligheten att lösa brott",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Möjligheten att imitera den som publicerat datan",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Möjligheten att använda den öppna datan kommersiellt",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Rätt!</h5><p>För att data ska kunna vara riktigt öppna måste användarna vara fria att använda data även för kommersiella ändamål. Detta maximerar potentiell innovation. </p>",
+            "_incorrect": {
+                "notFinal": "<h5>Är du säker?</h5><p>För att data ska kunna vara riktigt öppna måste användarna vara fria att använda data även för kommersiella ändamål. Detta maximerar potentiell innovation. </p>",
+                "final": "<h5>Är du säker?</h5><p>För att data ska kunna vara riktigt öppna måste användarna vara fria att använda data även för kommersiella ändamål. Detta maximerar potentiell innovation. </p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Är du säker?</h5><p>För att data ska kunna vara riktigt öppna måste användarna vara fria att använda data även för kommersiella ändamål. Detta maximerar potentiell innovation. </p>",
+                "final": "<h5>Är du säker?</h5><p>För att data ska kunna vara riktigt öppna måste användarna vara fria att använda data även för kommersiella ändamål. Detta maximerar potentiell innovation.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-65",
+        "_parentId":"b-45",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Typer av licenser",
+            "title": "",
+            "large": "course/sv/images/odi-14.png",
+            "medium": "course/sv/images/odi-14.png",
+            "small": "course/sv/images/odi-14.png",
+            "*source":"http://data.gov.uk/dataset/financial-transactions-data-fco",
+            "*credit":"data.gov.uk",
+            "*license":"Open Government Licence"
+        }
+    },
+    {
+        "_id":"c-70",
+        "_parentId":"b-45",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"5899cb00fda9f5660ad84578",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Typer av licenser",
+        "displayTitle": "Typer av licenser",
+        "body": "<p>Vilken av följande licenstyper passar bäst?</p>",
+        "instruction": "<em>Choose your answer, then click 'Submit'</em>",
+        "_items": [
+            {
+                "text": "Ingen licens",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Creative Commons-standardlicens",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "En skräddarsydd licens",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Rätt!</h5><p>En Creative Commons-standardlicens är den lämpligaste licensen för en publicerare som inte är skyldig att använda en specifik licensfamilj.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Är du säker?</h5><p>En Creative Commons-standardlicens är den lämpligaste licensen för en publicerare som inte är skyldig att använda en specifik licensfamilj.</p>",
+                "final": "<h5>Är du säker?</h5><p>En Creative Commons-standardlicens är den lämpligaste licensen för en publicerare som inte är skyldig att använda en specifik licensfamilj.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Är du säker?</h5><p>En Creative Commons-standardlicens är den lämpligaste licensen för en publicerare som inte är skyldig att använda en specifik licensfamilj.</p>",
+                "final": "<h5>Är du säker?</h5><p>En Creative Commons-standardlicens är den lämpligaste licensen för en publicerare som inte är skyldig att använda en specifik licensfamilj.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-75",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Licenser och tredje part",
+            "title": "",
+            "large": "course/sv/images/odi-8.jpg",
+            "medium": "course/sv/images/odi-8.jpg",
+            "small": "course/sv/images/odi-8.jpg",
+            "*source":"http://www.shutterstock.com/pic-353727374",
+            "*credit":"Icons vector",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-80",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"5899cb93fda9f5660ad8457d",
+        "_classes":"",
+        "_layout":"right",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Licenser och tredje part",
+        "displayTitle": "Licenser och tredje part",
+        "body": "<p>Har öppna licenser en plats i anbuds-, upphandlings- och kontraktsförfarandet?</p>",
+        "instruction": "<em>Choose your answer, then click 'Submit'</em>",
+        "_items": [
+            {
+                "text": "Endast om entreprenörer frågar efter dem",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Nej, en licens bör inte ingå i processen",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Öppna licenser ska vara integrerade i kontraktsförfarandet",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Rätt!</h5><p>Öppna data är kärnan i upphandlings-cykeln. Organisationer som erbjuder tjänster kan publicera resultatdata och relaterade data för att hjälpa företag att lämna anbud på tjänster.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Är du säker?</h5><p>Öppna data är kärnan i upphandlings-cykeln. Organisationer som erbjuder tjänster kan publicera resultatdata och relaterade data för att hjälpa företag att lämna anbud på tjänster. </p>",
+                "final": "<h5>Är du säker?</h5><p>Öppna data är kärnan i upphandlings-cykeln. Organisationer som erbjuder tjänster kan publicera resultatdata och relaterade data för att hjälpa företag att lämna anbud på tjänster.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Är du säker?</h5><p>Öppna data är kärnan i upphandlings-cykeln. Organisationer som erbjuder tjänster kan publicera resultatdata och relaterade data för att hjälpa företag att lämna anbud på tjänster.</p>",
+                "final": "<h5>Är du säker?</h5><p>Öppna data är kärnan i upphandlings-cykeln. Organisationer som erbjuder tjänster kan publicera resultatdata och relaterade data för att hjälpa företag att lämna anbud på tjänster.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-85",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Summary icon clipboard",
+            "title": "Summary icon clipboard",
+            "large": "course/sv/images/summary-icon.png",
+            "medium": "course/sv/images/summary-icon.png",
+            "small": "course/sv/images/summary-icon.png",
+            "*source":"http://www.shutterstock.com/pic-189810137.html",
+            "*credit":"Kritchanut",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-90",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Kort om öppna data-licenser",
+        "displayTitle":"Kort om öppna data-licenser",
+        "body":"<p>För att dina data ska vara öppna bör den vara licensierad för alla att komma åt, använda och dela.</p><p>Licensiering ger tillstånd till företag, startups, regeringar och individer att skapa nya värden med din öppna data.</p><p>Öppen data-licensiering bör anges i anbuds-, upphandlings- och kontraktsförfarandet.</p><p>Och kom ihåg, desto enklare licens, desto bättre.</p><p>I nästa modul bedömer vi öppna data-kvalitet och ser hur lätt det är att förbereda data för användare att använda.</p><p><a class='course_link' href='../module5/'>Nästa modul</a></p><p><a class='course_link' href='../'>Huvudmeny</a></p>",
+        "_pageLevelProgress": {
+          "_isEnabled": true
+        }
+    },
+    {
+       "_id":"c-95",
+       "_parentId":"b-55",
+       "_type":"component",
+       "_component":"text",
+       "_classes":"separator",
+       "_layout":"full"
+    },
+    {
+       "_id":"c-96",
+       "_parentId":"b-55",
+       "_type":"component",
+       "_component":"text",
+       "_classes": "attribution",
+       "body":"&copy; <a href='https://ec.europa.eu/commission/index_en' target='_blank'>European Commission</a>",
+       "_layout":"full"
+    },
+    {
+        "_id":"c-100",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"footer-logo",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Open data institute logo",
+            "title": "Open data institute logo",
+            "large": "course/sv/images/logo-small.png",
+            "medium": "course/sv/images/logo-small.png",
+            "small": "course/sv/images/logo-small.png",
+            "*source":"http://theodi.org",
+            "*credit":"The Open Data Institute",
+            "*license":"All rights reserved"  
+        }
+    },
+    {
+        "_id":"c-104",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"attribution not-eu not-default",
+        "_layout":"right",
+        "body":"Content created by <a href='http://theodi.org' target='_blank'>The Open Data Institute</a>"
+    },
+    {
+        "_id":"c-105",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"social-buttons not-dlab",
+        "_layout":"right",
+        "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/sv/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/sv/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/sv/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/sv/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/sv/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/sv/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/sv/images/social/flickr.png'></a>"
+    }
+]
