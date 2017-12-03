@@ -1,0 +1,510 @@
+[
+    {
+        "_id":"c-01",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"intro-logo",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "",
+            "medium": "",
+            "small": ""
+        }
+    },
+    {
+        "_id":"c-02",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Välkommen",
+        "displayTitle":"Välkommen",
+        "body":"<p>Välkommen till e-learningprogrammet European Data Portal. Programmet har utformats för att du ska kunna upptäcka vilka öppna data som är och hur det förändrar livet för alla på vår planet.</p><p><em>Bläddra ner för att upptäcka var och en av de tillgängliga lektionerna</em></p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": false
+        }
+    },
+    {
+        "_id":"c-11",
+        "_parentId":"b-10",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/sv/images/odi-1-text-image_large.jpg",
+            "medium": "course/sv/images/odi-1-text-image_large.jpg",
+            "small": "course/sv/images/odi-1-text-image_large.jpg"
+        }
+    },
+    {
+        "_id":"c-12",
+        "_parentId":"b-10",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Lektion 1 - Vad är öppna data?",
+        "displayTitle":"Lektion 1 - Vad är öppna data?",
+        "body":"<progress style='width: 100%;' id='ODI_1' max='100' value='0'></progress><p>Öppna data är <strong>data som alla kan komma åt, använda och dela</strong>. Regeringar, företag och privatpersoner kan använda öppna data för att skapa sociala, ekonomiska och miljömässiga värden.</p><h5>I den här modulen utforskar vi följande:</h5><ul class='ticks'><li>Vad är öppna data?</li><li>Vad är data?</li><li>Vad gör data öppna?</li><li>Varför behöver vi öppna data?</li></ul><p><a class='course_link' href='module1/'>Klicka här för att lära dig mer</a></p>"
+    },
+    {
+        "_id":"c-21",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/sv/images/odi-2-text-image_large.png",
+            "medium": "course/sv/images/odi-2-text-image_large.png",
+            "small": "course/sv/images/odi-2-text-image_large.png"
+        }
+    },
+    {
+        "_id":"c-22",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"right",
+        "title":"Lektion 2 - Hur man bäst nyttjar öppna data",
+        "displayTitle":"Lektion 2 - Hur man bäst nyttjar öppna data",
+        "body":"<progress style='width: 100%;' id='ODI_2' max='100' value='0'></progress><p>Öppna data har potential att hjälpa ekonomier att växa, omvandla samhällen och skydda miljön.</p><p>I den här modulen undersöker vi hur regeringar, företag och privatpersoner använder öppna data för att skapa nya värden.</p><h5>I denna modul utforskar vi:</h5><ul class='ticks'><li>Innovation och tillväxt i företag</li><li>Nya möjligheter för regeringar</li><li>Påverkan på samhället och offentlig förvaltning</li><li>Fördelar för kultur och miljö.</li></ul><p><a class='course_link' href='module2/'>Klicka här för att lära dig mer</a></p>"
+    },
+    {
+        "_id":"c-25",
+        "_parentId":"b-25",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/sv/images/odi-3-text-image_large.png",
+            "medium": "course/sv/images/odi-3-text-image_large.png",
+            "small": "course/sv/images/odi-3-text-image_large.png"
+        }
+    },
+    {
+        "_id":"c-26",
+        "_parentId":"b-25",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Lektion 3 - Öppna data: en förändringsfaktor",
+        "displayTitle":"Lektion 3 - Öppna data: en förändringsfaktor",
+        "body":"<progress style='width: 100%;' id='ODI_3' max='100' value='0'></progress><p>De mest framgångsrika öppna data-initiativen har liknande egenskaper. Att förstå framgångsrika tillvägagångssätt kan hjälpa till att nyttja öppna data.</p><h5>I den här modulen utforskar vi följande:</h5><ul class='ticks'><li>Öppna data som förändringsfaktor</li><li>Ledarskap och engagemang</li><li>Tillgång och efterfrågan</li><li>Kulturförändring för nya marknader</li></ul><p><a class='course_link' href='module3/'>Klicka här för att lära dig mer</a></p>"
+    },
+    {
+        "_id":"c-28",
+        "_parentId":"b-28",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"right",
+        "title":"Lektion 4 - Varför behöver vi licenser?",
+        "displayTitle":"Lektion 4 - Varför behöver vi licenser?",
+        "body":"<progress style='width: 100%;' id='ODI_4' max='100' value='0'></progress><p>För att data ska vara öppen bör den vara tillgänglig (det innebär vanligen att den publiceras på nätet) och licensieras för att alla ska få tillgång till, använda och dela.</p><h5>I den här modulen utforskar vi följande:</h5><ul class='ticks'><li>Varför öppna data måste licensieras</li><li>Hur licenser gör öppna data användbara</li><li>Vilken typ av licens passar öppna data</li><li>Hur man tillhandahåller öppna data-licensiering i upphandlings-, anbudsförfarande- och kontraktlivscykeln</li></ul><p><a class='course_link' href='module4/'>Klicka här för att lära dig mer</a></p>"
+    },
+    {
+        "_id":"c-29",
+        "_parentId":"b-28",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/sv/images/odi-4-text-image_large.jpg",
+            "medium": "course/sv/images/odi-4-text-image_large.jpg",
+            "small": "course/sv/images/odi-4-text-image_large.jpg"
+        }
+    },
+    {
+        "_id":"c-30",
+        "_parentId":"b-30",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/sv/images/odi-5-text-image_large.png",
+            "medium": "course/sv/images/odi-5-text-image_large.png",
+            "small": "course/sv/images/odi-5-text-image_large.png"
+        }
+    },
+    {
+        "_id":"c-31",
+        "_parentId":"b-30",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Lektion 5 - Öppen data av god kvalitet",
+        "displayTitle":"Lektion 5 - Öppen data av god kvalitet",
+        "body":"<progress style='width: 100%;' id='ODI_5' max='100' value='0'></progress><p>Att bedöma användbarheten hos öppna data är inte gjort i en handvändning.</p><p>Det finns ett antal gemenskaps-baserade standarder och kvalitetsmarkörer som kan hjälpa dig att bedöma hur användbar datan är.</p><h5>I den här modulen utforskar vi följande:</h5><ul class='ticks'><li>Vad gör datan användbar</li><li>Hur standarder bidrar till att öka användbarheten av data</li><li>Kvalitetsmarkörer</li></ul><p><a class='course_link' href='module5/'>Klicka här för att lära dig mer</a></p>"
+    },
+    {
+        "_id":"c-40",
+        "_parentId":"b-40",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"right",
+        "title":"Lektion 6 - Att mäta framgång hos öppna data",
+        "displayTitle":"Lektion 6 - Att mäta framgång hos öppna data",
+        "body":"<progress style='width: 100%;' id='ODI_6' max='100' value='0'></progress><p>Framgångsrika öppna data-initiativ gör mer än att bara få upp data på webben. De mest datakunniga organisationerna sätter också upp ramar och strategier för att stödja och stimulera innovation. Öppna datasamhällen behöver byggas och framgångshistorier kommuniceras. Tillsammans kommer det att hjälpa fler människor att förstå fördelarna med öppna data.</p><h5>I den här modulen utforskar vi följande:</h5><ul class='ticks'><li>Att mäta framgång</li><li>Att vara fokuserad på efterfrågan</li><li>Hålla sig på rätt spår</li></ul><p><a class='course_link' href='module6/'>Klicka här för att lära dig mer</a></p>"
+    },
+    {
+        "_id":"c-41",
+        "_parentId":"b-40",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/sv/images/odi-6-text-image_large.jpg",
+            "medium": "course/sv/images/odi-6-text-image_large.jpg",
+            "small": "course/sv/images/odi-6-text-image_large.jpg"
+        }
+    },
+    {
+        "_id":"c-60",
+        "_parentId":"b-60",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Lektion 7 - Varför borde vi oroa oss för hållbarhet?",
+        "displayTitle":"Lektion 7 - Varför borde vi oroa oss för hållbarhet?",
+        "body":"<progress style='width: 100%;' id='ODI_7' max='100' value='0'></progress><p>Öppna data måste vara relevanta, aktuella och tillgängliga för att kunna användas.</p><p>Ett hållbart öppet data-initiativ är ett som fortsätter att släppa data regelbundet med åtminstone samma eller förbättra kvalitet och kvantitet.</p><h5>I den här modulen utforskar vi följande:</h5><ul class='ticks'><li>Vad är hållbarhet</li><li>Varför hållbarhet är viktig för dig</li><li>Vad ska man leta efter i hållbara öppna dataset</li></ul><p><a class='course_link' href='module7/'>Klicka här för att lära dig mer</a></p>"
+    },
+    {
+        "_id":"c-61",
+        "_parentId":"b-60",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/sv/images/odi-7-text-image_large.jpg",
+            "medium": "course/sv/images/odi-7-text-image_large.jpg",
+            "small": "course/sv/images/odi-7-text-image_large.jpg"
+        }
+    },
+    {
+        "_id":"c-71",
+        "_parentId":"b-70",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/sv/images/odi-8-text-image_large.jpg",
+            "medium": "course/sv/images/odi-8-text-image_large.jpg",
+            "small": "course/sv/images/odi-8-text-image_large.jpg"
+        }
+    },
+    {
+        "_id":"c-72",
+        "_parentId":"b-70",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"right",
+        "title":"Lektion 8 - Getting to grips with platforms",
+        "displayTitle":"Lektion 8 - Getting to grips with platforms",
+        "body":"<progress style='width: 100%;' id='ODI_8' max='100' value='0'></progress><p>A platform is a major piece of software on which smaller pieces of software and content can be run. For open data, the largest platform is the web. However, lots of other purpose-built software helps simplify publishing open data and provides interactive tools for users to explore.</p><h5>In this module we’ll explore the following:</h5><ul class='ticks'><li>Recognising open data platforms</li><li>Understanding their importance to users</li><li>Evaluating the key options</li><li>Using platforms to explore data</li></ul><p><a class='course_link' href='module8/'>Klicka här för att lära dig mer</a></p>"
+    },
+    {
+        "_id":"c-81",
+        "_parentId":"b-80",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/sv/images/odi-9-text-image_large.jpg",
+            "medium": "course/sv/images/odi-9-text-image_large.jpg",
+            "small": "course/sv/images/odi-9-text-image_large.jpg"
+        }
+    },
+    {
+        "_id":"c-82",
+        "_parentId":"b-80",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Lektion 9 - Choosing the right format for open data",
+        "displayTitle":"Lektion 9 - Choosing the right format for open data",
+        "body":"<progress style='width: 100%;' id='ODI_9' max='100' value='0'></progress><p>The format of an open dataset is the way the data is structured and made available for humans and machines.</p><p>Choosing the right format enables simpler management and reuse of the data. To maximise reuse of the data, it may be necessary for a publisher to use a number of formats and structures available across different platforms that suit a user’s needs.</p><h5>In this module we'll explore the following:</h5><ul class='ticks'><li>Why formats matter to open data</li><li>Choosing the correct structure</li><li>Access open data formats</li><li>Keeping it simple with CSV</li></ul><p><a class='course_link' href='module9/'>Klicka här för att lära dig mer</a></p>"
+    },
+    {
+        "_id":"c-91",
+        "_parentId":"b-90",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/sv/images/odi-10-text-image_large.jpg",
+            "medium": "course/sv/images/odi-10-text-image_large.jpg",
+            "small": "course/sv/images/odi-10-text-image_large.jpg"
+        }
+    },
+    {
+        "_id":"c-92",
+        "_parentId":"b-90",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"right",
+        "title":"Lektion 10 - How useful is my data?",
+        "displayTitle":"Lektion 10 - How useful is my data?",
+        "body":"<progress style='width: 100%;' id='ODI_10' max='100' value='0'></progress><p>Assessing how useful open data is can vary depending on the domain and the content. To assist this process, there are a number of best practice guidelines publishers and users can follow.</p><p>In this module we look at the 5-Stars of linked open data and discover how this can be used to measure the technical usability of data.</p><h5>In this module we’ll explore the following:</h5><ul class='ticks'><li>What are the 5-stars of linked open data</li><li>The first three stars</li><li>How to recognise the stars in data</li></ul><p><a class='course_link' href='module10/'>Klicka här för att lära dig mer</a></p>"
+    },
+    {
+        "_id":"c-101",
+        "_parentId":"b-100",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Lektion 11 - How to clean your data",
+        "displayTitle":"Lektion 11 - How to clean your data",
+        "body":"<progress style='width: 100%;' id='ODI_11' max='100' value='0'></progress><p>One of the biggest challenges when working with any data is errors. Often errors are not even noticed by data publishers because the data can change over many years. In other cases, errors can be the result of human mistakes in data entry, like mistyping or incorrect abbreviations.</p><p>When working with any data, it is important to know how to find errors and correct them to make the data more useful.</p><h5>In this module we'll explore the following:</h5><ul class='ticks'><li>Common data errors</li><li>Useful data cleaning tools</li><li>Why clean data?</li></ul><p><a class='course_link' href='module11/'>Klicka här för att lära dig mer</a></p>"
+    },
+    {
+        "_id":"c-102",
+        "_parentId":"b-100",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/sv/images/odi-11-text-image_large.jpg",
+            "medium": "course/sv/images/odi-11-text-image_large.jpg",
+            "small": "course/sv/images/odi-11-text-image_large.jpg"
+        }
+    },
+    {
+        "_id":"c-111",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/sv/images/odi-12-text-image_large.jpg",
+            "medium": "course/sv/images/odi-12-text-image_large.jpg",
+            "small": "course/sv/images/odi-12-text-image_large.jpg"
+        }
+    },
+    {
+        "_id":"c-112",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"right",
+        "title":"Lektion 12 - Finding hidden data on the web",
+        "displayTitle":"Lektion 12 - Finding hidden data on the web",
+        "body":"<progress style='width: 100%;' id='ODI_12' max='100' value='0'></progress><p>‘Open data’ does not only mean datasets available to download. Downloadable open data represents only a small fraction of the available data on the web.</p><p>The majority of data available on the web is hidden from the human eye. However, machines can find and read this data. In this module we look at techniques to unlock hidden data.</p><h5>In this module we’ll explore the following:</h5><ul class='ticks'><li>How to locate hidden data</li><li>What benefits hidden data can provide</li><li>How to obtain hidden data</li></ul><p><a class='course_link' href='module12/'>Klicka här för att lära dig mer</a></p>"
+    },
+    {
+        "_id":"c-121",
+        "_parentId":"b-120",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Lektion 13 - Linking up the web of data",
+        "displayTitle":"Lektion 13 - Linking up the web of data",
+        "body":"<progress style='width: 100%;' id='ODI_13' max='100' value='0'></progress><p>The current web is configured as a series of pages or ‘documents’. While these documents draw on rich sources of data, they disguise it beneath pages designed for humans to view. In this module, we explore what would happen if all the pages or documents were removed from the web.</p><p>Imagine you only had the raw data, all open, all usable and all linked together in a network or 'web' of data.</p><p>This module also introduces the web of open linked data and look at how the 5-stars of linked open data provide a roadmap for achieving this vision.</p><h5>In this module we’ll explore the following:</h5><ul class='ticks'><li>What is the web of data?</li><li>How web identifiers are used</li><li>What a web of open linked data looks like</li></ul><p><a class='course_link' href='module13/'>Klicka här för att lära dig mer</a></p>"
+    },
+    {
+        "_id":"c-122",
+        "_parentId":"b-120",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/sv/images/odi-13-text-image_large.jpg",
+            "medium": "course/sv/images/odi-13-text-image_large.jpg",
+            "small": "course/sv/images/odi-13-text-image_large.jpg"
+        }
+    },
+    {
+        "_id":"c-130",
+        "_parentId":"b-130",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/sv/images/odi-14-text-image_large.png",
+            "medium": "course/sv/images/odi-14-text-image_large.png",
+            "small": "course/sv/images/odi-14-text-image_large.png"
+        }
+    },
+    {
+        "_id":"c-131",
+        "_parentId":"b-130",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"right",
+        "title":"Lektion 14 - Open data advocacy",
+        "displayTitle":"Lektion 14 - Open data advocacy",
+        "body":"<progress style='width: 100%;' id='ODI_14' max='100' value='0'></progress><p dir=\"ltr\">Opening data can be valuable for any organisation. Whether to drive innovation in the business, develop a clearer picture of operations or improve products and services, a growing number of private and public sector organisations now benefit from publishing and using open data.</p><p dir=\"ltr\">However, opening data might require a change in the culture of an organisation. Most organisations are configured to protect their data resources, even when the benefits of openness outweigh the costs. The key to overcoming this resistance is clear: effective communication of the benefits that open data can bring.</p><p dir=\"ltr\">This module will prepare you to deliver a tailored pitch for open data that highlights value and addresses risks.</p><p dir=\"ltr\">In this module we&#39;ll explore how to:</p><ul class='ticks'><li>Structure the perfect pitch</li><li>Identify different audiences for your pitch</li><li>Tailor your pitch to different audiences</li></ul><p><a class='course_link' href='module14/'>Klicka här för att lära dig mer</a></p>"
+    },
+    {
+        "_id":"c-135",
+        "_parentId":"b-135",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Lektion 15 - Managing change in open data",
+        "displayTitle":"Lektion 15 - Managing change in open data",
+        "body":"<progress style='width: 100%;' id='ODI_15' max='100' value='0'></progress><p dir=\"ltr\">Change&nbsp;management is the process of introducing a long-term transition, change or development in an organisation.&nbsp;Change management is especially important when dealing with large changes, such as the cultural changes needed to succeed with open data.</p><p dir=\"ltr\">In this module, we&rsquo;ll explore why it is important for organisations to manage&nbsp;change and key elements to help&nbsp;build a successful&nbsp;change management process.</p><ul class='ticks'><li dir=\"ltr\">What is change management?</li><li dir=\"ltr\">Why is change management&nbsp;important in open data initiatives?</li><li dir=\"ltr\">Why is change management needed?</li><li dir=\"ltr\">What are the key elements of change management?</li></ul><p><a class='course_link' href='module15/'>Klicka här för att lära dig mer</a></p>"
+    },
+    {
+        "_id":"c-136",
+        "_parentId":"b-135",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/sv/images/odi-15-text-image_large.jpg",
+            "medium": "course/sv/images/odi-15-text-image_large.jpg",
+            "small": "course/sv/images/odi-15-text-image_large.jpg"
+        }
+    },
+    {
+        "_id":"c-140",
+        "_parentId":"b-140",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/sv/images/odi-16-text-image_large.jpg",
+            "medium": "course/sv/images/odi-16-text-image_large.jpg",
+            "small": "course/sv/images/odi-16-text-image_large.jpg"
+        }
+    },
+    {
+        "_id":"c-141",
+        "_parentId":"b-140",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"right",
+        "title":"Lektion 16 - Achieving impact with open data",
+        "displayTitle":"Lektion 16 - Achieving impact with open data",
+        "body":"<progress style='width: 100%;' id='ODI_16' max='100' value='0'></progress><p dir=\"ltr\">The goal of any open data project or initiative is to have some kind of impact, be it political transparency and accountability, social benefit or economic growth.&nbsp;Creating, finding and promoting&nbsp;<a href=\"http://opendatabarometer.org/3rdEdition/report/#impact\" target=\"_blank\">examples of open data being used to improve our daily lives</a>&nbsp;is one of the most challenging aspects of leading an open data project, programme or initiative.</p><p dir=\"ltr\">In this module we&#39;ll explore:</p><ul class='ticks'><li dir=\"ltr\">Why is achieving impact is important?</li><li dir=\"ltr\">How can we achieve impact?</li><li dir=\"ltr\">How&nbsp;can we measure the impact we&rsquo;ve achieved?</li><li dir=\"ltr\">Overcoming barriers to achieving impact</li></ul><p><a class='course_link' href='module16/'>Klicka här för att lära dig mer</a></p>"
+    },
+    {
+        "_id":"c-151",
+        "_parentId":"b-150",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/sv/images/summary-icon.png",
+            "medium": "course/sv/images/summary-icon.png",
+            "small": "course/sv/images/summary-icon.png"
+        }
+    },
+    {
+        "_id":"c-152",
+        "_parentId":"b-150",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Learn more",
+        "displayTitle":"Learn more",
+        "body":"<p>We hope you have enjoyed our eLearning course. The European Data Portal also runs workshops on open data. If you are interested in attenting one of our workshops and developing your knowledge further, return to the learning section of the portal and click on 'workshops.</p>"
+    },
+    {
+       "_id":"c-153",
+       "_parentId":"b-150",
+       "_type":"component",
+       "_component":"text",
+       "_classes":"separator",
+       "_layout":"full"
+    },
+    {
+        "_id":"c-154",
+        "_parentId":"b-150",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"footer-logo",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/sv/images/logo-small.png",
+            "medium": "course/sv/images/logo-small.png",
+            "small": "course/sv/images/logo-small.png"
+        }
+    },
+    {
+        "_id":"c-155",
+        "_parentId":"b-150",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"social-buttons",
+        "_layout":"right",
+        "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/sv/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/sv/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/sv/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/sv/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/sv/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/sv/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/sv/images/social/flickr.png'></a>"
+    }
+]
