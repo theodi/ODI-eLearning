@@ -1,0 +1,599 @@
+[
+    {
+        "_id":"c-01",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"intro-logo",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "",
+            "medium": "",
+            "small": ""
+        }
+    },
+    {
+        "_id":"c-02",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Öppen data av god kvalitet",
+        "displayTitle":"Öppen data av god kvalitet",
+        "body":"<p>Att bedöma användbarheten hos öppna data är inte gjort i en handvändning.</p><p>Det finns ett antal gemenskaps-baserade standarder och kvalitetsmarkörer som kan hjälpa dig att bedöma hur användbar datan är.</p><h5>I den här modulen utforskar vi följande:</h5><ul class='ticks'><li>Vad gör datan användbar</li><li>Hur standarder bidrar till att öka användbarheten av data</li><li>Kvalitetsmarkörer</li></ul>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+    "_id":"c-11",
+    "_parentId":"b-10",
+    "_type":"component",
+    "_component":"iFrame-vimeo",
+    "_classes":"",
+    "_layout":"full",
+        "title":"Bedömning av öppna datakvalitet på två minuter",
+        "displayTitle": "Bedömning av öppna datakvalitet på två minuter",
+        "body": "ODI-läraren David Tarrant förklarar vad kvalitetsdata är, hur man känner igen den och vilka kvalitetsmarkörer som öppna data-konsumenterna bör leta efter.",
+        "instruction": "To turn subtitles on and off, click the 'cc' button at the bottom right of the video",
+        "_setCompletionOn":"ended",
+        "_source": "https://player.vimeo.com/video/129197043",
+        "_media": {
+		"mp4": "course/sv/video/video.mp4",
+		"poster": "course/sv/video/placeholder.jpg"
+	},
+        "_height": {
+            "_small" : 250,
+            "_medium" : 350,
+            "_large" : 508
+        }
+    },
+    {
+        "_id":"c-21",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Vad är öppna datakvalitet?",
+            "title": "Vad är öppna datakvalitet?",
+            "large": "course/sv/images/odi-1.jpg",
+            "medium": "course/sv/images/odi-1.jpg",
+            "small": "course/sv/images/odi-1.jpg",
+            "*source":"http://www.shutterstock.com/pic-54795127.html",
+            "*credit":"robodread",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-22",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Vad är öppna datakvalitet?",
+        "displayTitle":"Vad är öppna datakvalitet?",
+        "body":"<p>Öppna data blir användbara när en människa kan förstå den och en maskin kan hantera den.</p><p>Användarna av öppna data behöver tillstånd av den som publicerat datan genom en öppen licens. Men den öppna licensen är inte tillräcklig för att garantera datans användbarhet.</p><p>Det är osannolikt att människor kommer att kunna ha utbyte av data för att få insikter och information om datan inte är användbar.</p>"
+    },
+     {
+        "_id": "c-25",
+        "_parentId": "b-25",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Gemenskapsdrivna standarder",
+        "displayTitle": "Gemenskapsdrivna standarder",
+        "body": "Gemenskapsdrivna standarder definierar de rättsliga, praktiska, tekniska och sociala krav som föreligger för att en öppna data-mängd ska vara användbar.",
+        "instruction": "<em class='desktop-instruction'>Click the forward arrow to see more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
+        "_items": [
+            {
+                "title": "Juridiska krav",
+                "body": "<p>Förutom den öppna licensen finns det tre lagkrav som måste beaktas. Man måste:</p><p><ul><li>Skydda känslig information, t ex personuppgifter.</li><li>Bevara dataägarnas rättigheter.</li><li>Främja korrekt användning av data.</li></ul></p>",
+                "_graphic": {
+                    "src": "course/sv/images/odi-2.jpg",
+                    "alt": "Legal",
+                    "title": "Legal",
+                    "*source":"http://www.shutterstock.com/pic-102447179.html",
+                    "*credit":"hoperan",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Legal"
+            },
+            {
+                "title": "Praktiska krav",
+                "body": "<p>Det är viktigt att öppna data kan hittas av användarna, och att de kan lita på den.</p><p>Det innebär att öppna data-publicerare måste:</p><p><ul><li>Länka till datamängderna från deras hemsida.</li><li>Uppdatera datamängderna regelbundet om de ändras.</li><li>Åta sig att löpande göra datamängderna tillgängliga.</li></ul></p>",
+                "_graphic": {
+                    "src": "course/sv/images/odi-3.jpg",
+                    "alt": "Practical",
+                    "title": "Practical",
+                    "*source":"http://www.shutterstock.com/pic-235025131.html",
+                    "*credit":"McIek",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Practical"
+            },
+            {
+                "title": "Tekniska krav",
+                "body": "<p>Det finns tre rekommendationer som definierar de tekniska aspekterna av öppna data:</p><p><ul><li>Formatet i vilket data publiceras.</li><li>Uppbyggnaden av data.</li><li>De kanaler genom vilka data är tillgängliga.</li></ul></p>",
+                "_graphic": {
+                    "src": "course/sv/images/odi-4.jpg",
+                    "alt": "Technical",
+                    "title": "Technical",
+                    "*source":"http://www.shutterstock.com/pic-154744388.html",
+                    "*credit":"Oleksiy Mark",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Technical"
+            },
+            {
+                "title": "Sociala krav",
+                "body": "<p>För att få datanvändningen hållbar är det viktigt att ha en engagerad användaregemenskap. De bästa datamängderna har:</p><p><ul><li>Aktiva supportkanaler.</li><li>Diskussionsgrupper och forum.</li><li>Publicerade instruktioner om att arbeta med data.</li></ul></p>",
+                "_graphic": {
+                    "src": "course/sv/images/odi-5.jpg",
+                    "alt": "Social",
+                    "title": "Social",
+                    "*source":"http://www.shutterstock.com/pic-187711424.html",
+                    "*credit":"bluebay",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Social"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-30",
+        "_parentId":"b-28",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Kvalitetsmarkörer",
+            "title": "Kvalitetsmarkörer",
+            "large": "course/sv/images/odi-6.jpg",
+            "medium": "course/sv/images/odi-6.jpg",
+            "small": "course/sv/images/odi-6.jpg",
+            "*source":"http://www.shutterstock.com/pic-254316427.html",
+            "*credit":"tostphoto",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+      "_id":"c-35",
+      "_parentId":"b-28",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"left",
+      "title": "Kvalitetsmarkörer",
+      "displayTitle": "Kvalitetsmarkörer",
+      "body": "<p>Kvalitetsmarkörer ger användarna förtroende för kvaliteten och användbarheten hos öppna data.</p><p>Det finns två nyckelindikatorer för att mäta kvaliteten hos öppna data:</p>",
+      "instruction": "<em>Click the headings to explore further.</em>",
+      "_items": [
+        {
+          "alt": "5 stjärnor",
+          "title": "5 stjärnor",
+          "body": "<p>\"5 stjärnor av länkade öppna data\" inkluderar den grundläggande juridiska definitionen och den tekniska utmärkelsen för de publicerade uppgifterna.</p><p>De 5 stjärnorna utvecklades av uppfinnaren av webben, Sir Tim Berners-Lee, 2001. De 5 stjärnorna ger rekommendationer för format och struktur av data.</p><p>Du kan lära dig mer om 5 stjärnor i modulerna 10 och 13 i kursen.</p>"
+        },
+        {
+          "alt": "ODI Öppna datacertifikat",
+          "title": "ODI Öppna datacertifikat",
+          "body": "<p>Open Data Institutes öppna datacertifikat är praktiska, sociala, juridiska och tekniska riktlinjer för att överväga när man publicerar eller använder öppna data.</p><p>Certifikaten fungerar som ett självbedömningsformulär för utgivare, och i vissa fall användare, att bedöma och benchmarka en datasats fullständiga användbarhet.<br /><a href='https://certificates.theodi.org/' target='_blank'>Ta mig till ODI Öppna datacertifikat webbplats</a></p>"
+        }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+     
+    {
+        "_id":"c-42",
+        "_parentId":"b-30",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/sv/images/burst-indigo.png",
+            "medium": "course/sv/images/burst-indigo.png",
+            "small": "course/sv/images/burst-indigo.png"
+        }
+    },
+    {
+        "_id":"c-43",
+        "_parentId":"b-30",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Är du redo för kvalitets-öppna data?",
+        "displayTitle":"Är du redo för kvalitets-öppna data?",
+        "body":"<p>Kommer du ihåg de praktiska, tekniska, juridiska och sociala kraven för en öppna datamängd för att vara användbar?</p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-45",
+        "_parentId":"b-32",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Vad är kvalitet öppna data?",
+            "title": "Vad är kvalitet öppna data?",
+            "large": "course/sv/images/odi-7.jpg",
+            "medium": "course/sv/images/odi-7.jpg",
+            "small": "course/sv/images/odi-7.jpg",
+            "*source":"http://www.shutterstock.com/pic-54795127.html",
+            "*credit":"robodread",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    
+    {
+        "_id":"c-50",
+        "_parentId":"b-32",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"588f38a8b61c46e176e7ea8f",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Vad är kvalitet öppna data?",
+        "displayTitle": "Vad är kvalitet öppna data?",
+        "body": "<p>Öppna data blir användbar när ...</p>",
+        "instruction": "<em>Choose your answer, then click 'Submit'</em>",
+        "_items": [
+            {
+                "text": "Det importeras till vårt system",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "en människa kan förstå det, maskiner kan manipulera det och det har en öppen licens",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "regeringen publicerar den",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Rätt!</h5><p>Öppna data blir användbara när en människa kan förstå det, maskiner kan manipulera det och det görs tillgängligt under en öppen licens.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Är du säker?</h5><p>Öppna data blir användbara när en människa kan förstå det, maskiner kan manipulera det och det görs tillgängligt under en öppen licens.</p>",
+                "final": "<h5>Är du säker?</h5><p>Öppna data blir användbara när en människa kan förstå det, maskiner kan manipulera det och det görs tillgängligt under en öppen licens.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Är du säker?</h5><p>Öppna data blir användbara när en människa kan förstå det, maskiner kan manipulera det och det görs tillgängligt under en öppen licens.</p>",
+                "final": "<h5>Är du säker?</h5><p>Öppna data blir användbara när en människa kan förstå det, maskiner kan manipulera det och det görs tillgängligt under en öppen licens.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-55",
+        "_parentId":"b-35",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Juridiska överväganden",
+            "title": "",
+            "large": "course/sv/images/odi-8.jpg",
+            "medium": "course/sv/images/odi-8.jpg",
+            "small": "course/sv/images/odi-8.jpg",
+            "*source":"http://www.shutterstock.com/pic-102447179.html",
+            "*credit":"hoperan",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-60",
+        "_parentId":"b-35",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"588f3d0fb61c46e176e7ea98",
+        "_classes":"",
+        "_layout":"right",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Juridiska överväganden",
+        "displayTitle": "Juridiska överväganden",
+        "body": "<p>Det finns tre rättsliga överväganden som en del av standarderna för publicering av öppna data, varav en är...</p>",
+        "instruction": "<em>Choose your answer, then click 'Submit'</em>",
+        "_items": [
+            {
+                "text": "att inte bryta licenslagen",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "att publicera alla typer av data",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "för att skydda känslig information som personuppgifter",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Rätt!</h5><p>Förutom det öppna licensen finns det tre lagkrav som måste beaktas. Skydda känslig information som personuppgifter, bevara dataägarnas rättigheter och främja korrekt användning av data. </p>",
+            "_incorrect": {
+                "notFinal": "<h5>Är du säker?</h5><p>Förutom det öppna licensen finns det tre lagkrav som måste beaktas. Skydda känslig information som personuppgifter, bevara dataägarnas rättigheter och främja korrekt användning av data. </p>",
+                "final": "<h5>Är du säker?</h5><p>Förutom det öppna licensen finns det tre lagkrav som måste beaktas. Skydda känslig information som personuppgifter, bevara dataägarnas rättigheter och främja korrekt användning av data. </p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Är du säker?</h5><p>Förutom det öppna licensen finns det tre lagkrav som måste beaktas. Skydda känslig information som personuppgifter, bevara dataägarnas rättigheter och främja korrekt användning av data. </p>",
+                "final": "<h5>Är du säker?</h5><p>Förutom det öppna licensen finns det tre lagkrav som måste beaktas. Skydda känslig information som personuppgifter, bevara dataägarnas rättigheter och främja korrekt användning av data. </p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-65",
+        "_parentId":"b-40",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Tekniska överväganden",
+            "title": "",
+            "large": "course/sv/images/odi-9.jpg",
+            "medium": "course/sv/images/odi-9.jpg",
+            "small": "course/sv/images/odi-9.jpg",
+            "*source":"http://www.shutterstock.com/pic-154744388.html",
+            "*credit":"Oleksiy Mark",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-70",
+        "_parentId":"b-40",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"588f3de4b61c46e176e7ea9a",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Tekniska överväganden",
+        "displayTitle": "Tekniska överväganden",
+        "body": "<p>Det finns tre tekniska överväganden som en del av standarderna för publicering av öppna data, varav en är ...</p>",
+        "instruction": "<em>Choose your answer, then click 'Submit'</em>",
+        "_items": [
+            {
+                "text": "vilket format de öppna data publiceras i",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "om det kan användas på en dator",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "om det tar upp mycket bandbredd",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Rätt!</h5><p>Det finns tre rekommendationer som definierar de tekniska aspekterna av öppna data. Formatet där data publiceras i, datans struktur och de kanaler genom vilka data är tillgängliga.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Är du säker?</h5><p>Det finns tre rekommendationer som definierar de tekniska aspekterna av öppna data. Formatet där data publiceras i, datans struktur och de kanaler genom vilka data är tillgängliga.</p>",
+                "final": "<h5>Är du säker?</h5><p>Det finns tre rekommendationer som definierar de tekniska aspekterna av öppna data. Formatet där data publiceras i, datans struktur och de kanaler genom vilka data är tillgängliga.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Är du säker?</h5><p>Det finns tre rekommendationer som definierar de tekniska aspekterna av öppna data. Formatet där data publiceras i, datans struktur och de kanaler genom vilka data är tillgängliga.</p>",
+                "final": "<h5>Är du säker?</h5><p>Det finns tre rekommendationer som definierar de tekniska aspekterna av öppna data. Formatet där data publiceras i, datans struktur och de kanaler genom vilka data är tillgängliga.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-75",
+        "_parentId":"b-45",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Kvalitetsmarkörer",
+            "title": "",
+            "large": "course/sv/images/odi-10.jpg",
+            "medium": "course/sv/images/odi-10.jpg",
+            "small": "course/sv/images/odi-10.jpg",
+            "*source":"http://www.shutterstock.com/pic-254316427.html",
+            "*credit":"tostphoto",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-80",
+        "_parentId":"b-45",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"588f3eb1b61c46e176e7eaa0",
+        "_classes":"",
+        "_layout":"right",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Kvalitetsmarkörer",
+        "displayTitle": "Kvalitetsmarkörer",
+        "body": "<p>Open Data Institute förespråkar användningen av sin egen kvalitetsmarknad känd som ...</p>",
+        "instruction": "<em>Choose your answer, then click 'Submit'</em>",
+        "_items": [
+            {
+                "text": "Den stora gröna ODI-bocken",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "ODIs Godkänd-stämpel",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Öppna datacertifikat",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Rätt!</h5><p>Open Data Institute har utvecklat Öppna datacertifikat som innehåller praktiska och sociala krav tillsammans med djupgående juridiska och tekniska riktlinjer för att överväga vid publicering av öppna data.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Är du säker?</h5><p>Open Data Institute har utvecklat Öppna datacertifikat som innehåller praktiska och sociala krav tillsammans med djupgående juridiska och tekniska riktlinjer för att överväga vid publicering av öppna data.</p>",
+                "final": "<h5>Är du säker?</h5><p>Open Data Institute har utvecklat Öppna datacertifikat som innehåller praktiska och sociala krav tillsammans med djupgående juridiska och tekniska riktlinjer för att överväga vid publicering av öppna data.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Är du säker?</h5><p>Open Data Institute har utvecklat Öppna datacertifikat som innehåller praktiska och sociala krav tillsammans med djupgående juridiska och tekniska riktlinjer för att överväga vid publicering av öppna data.</p>",
+                "final": "<h5>Är du säker?</h5><p>Open Data Institute har utvecklat Öppna datacertifikat som innehåller praktiska och sociala krav tillsammans med djupgående juridiska och tekniska riktlinjer för att överväga vid publicering av öppna data.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-85",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Summary icon clipboard",
+            "title": "Summary icon clipboard",
+            "large": "course/sv/images/summary-icon.png",
+            "medium": "course/sv/images/summary-icon.png",
+            "small": "course/sv/images/summary-icon.png",
+            "*source":"http://www.shutterstock.com/pic-189810137.html",
+            "*credit":"Kritchanut",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-90",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Kvalitetsmarkörer",
+        "displayTitle":"Kvalitetsmarkörer",
+        "body":"<p>Öppna data blir användbara när en människa kan förstå den och en maskin kan hantera den.</p><p>Båda dessa kräver tillstånd från utgivaren, beviljas via en öppen licens. Det öppna licensavtalet är emellertid inte tillräckligt för att garantera användbarheten av data. Att helt enkelt lägga en fil på en webbplats med en öppen licens utgör inte öppna data.</p><p>Det är osannolikt att användarna kommer att kunna engagera sig med oanvändbara data för att få insikter och visa fördelar.</p><p>I nästa modul jämför vi öppna data-initiativ och tittar på de viktigaste resultatindikatorerna för framgångsrika.</p><p><a class='course_link' href='../module6/'>Nästa modul</a></p><p><a class='course_link' href='../'>Huvudmeny</a></p>",
+        "_pageLevelProgress": {
+          "_isEnabled": true
+        }
+    },
+    {
+       "_id":"c-95",
+       "_parentId":"b-50",
+       "_type":"component",
+       "_component":"text",
+       "_classes":"separator",
+       "_layout":"full"
+    },
+    {
+       "_id":"c-96",
+       "_parentId":"b-50",
+       "_type":"component",
+       "_component":"text",
+       "_classes": "attribution",
+       "body":"&copy; <a href='https://ec.europa.eu/commission/index_en' target='_blank'>European Commission</a>",
+       "_layout":"full"
+    },
+    {
+        "_id":"c-100",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"footer-logo",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Open data institute logo",
+            "title": "Open data institute logo",
+            "large": "course/sv/images/logo-small.png",
+            "medium": "course/sv/images/logo-small.png",
+            "small": "course/sv/images/logo-small.png",
+            "*source":"http://theodi.org",
+            "*credit":"The Open Data Institute",
+            "*license":"All rights reserved"  
+        }
+    },
+    {
+        "_id":"c-104",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"attribution not-eu not-default",
+        "_layout":"right",
+        "body":"Content created by <a href='http://theodi.org' target='_blank'>The Open Data Institute</a>"
+    },
+    {
+        "_id":"c-105",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"social-buttons not-dlab",
+        "_layout":"right",
+        "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/sv/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/sv/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/sv/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/sv/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/sv/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/sv/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/sv/images/social/flickr.png'></a>"
+    }
+]
