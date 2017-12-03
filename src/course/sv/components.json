@@ -1,0 +1,571 @@
+[
+    {
+        "_id":"c-02",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"intro-logo",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "",
+            "medium": "",
+            "small": "",
+            "*source":"",
+            "*credit":"",
+            "*license":""
+        }
+    },
+    {
+        "_id":"c-01",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Varför borde vi oroa oss för hållbarhet?",
+        "displayTitle":"Varför borde vi oroa oss för hållbarhet?",
+        "body":"<p>Öppna data måste vara relevanta, aktuella och tillgängliga för att kunna användas.</p><p>Ett hållbart öppet data-initiativ är ett som fortsätter att släppa data regelbundet med åtminstone samma eller förbättra kvalitet och kvantitet.</p><h5>I den här modulen utforskar vi följande:</h5><ul class='ticks'><li>Vad är hållbarhet</li><li>Varför hållbarhet är viktig för dig</li><li>Vad ska man leta efter i hållbara öppna dataset</li></ul>",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-11",
+        "_parentId":"b-10",
+        "_type":"component",
+        "_component":"iFrame-vimeo",
+        "_classes":"",
+        "_layout":"full",
+        "title":"Göra öppna data hållbar - på två minuter",
+        "displayTitle": "Göra öppna data hållbar - på två minuter",
+        "body": "ODI Startup Programme Manager Ulrich Atz förklarar vikten av hållbarhet för öppna data och varför det är viktigt för användarna. Han berättar också om några av de nyckelindikatorer som visar om ett öppet data-initiativ är byggt för att hålla långsiktigt.",
+        "instruction": "To turn subtitles on and off, click the 'cc' button at the bottom right of the video",
+        "_setCompletionOn":"ended",
+        "_source": "https://player.vimeo.com/video/129879004",
+        "_media": {
+		"mp4": "course/sv/video/video.mp4",
+		"poster": "course/sv/video/placeholder.jpg"
+	},
+        "_height": {
+            "_small" : 250,
+            "_medium" : 350,
+            "_large" : 508
+        }
+    },
+       {
+        "_id":"c-21",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Hållbar öppna data",
+            "title": "Hållbar öppna data",
+            "large": "course/sv/images/odi-001.jpg",
+            "medium": "course/sv/images/odi-001.jpg",
+            "small": "course/sv/images/odi-001.jpg",
+            "*source":"http://www.shutterstock.com/pic.mhtml?id=199444121&src=id",
+            "*credit":"Tarchyshnik Andrei",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-32",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"inverted",
+        "_layout":"right",
+        "title":"Vad gör öppna data hållbar?",
+        "displayTitle":"Vad gör öppna data hållbar?",
+        "body":"<h5>Ett hållbar öppna data-mängd stöds av:</h5><ul class='ticks'><li><b>Säker finansiering</b> för att täcka kostnaderna för uppdateringar</li><li><b>Aktivt stöd</b> från publiceraren att prioritera uppdateringar</li><li><b>Bred återanvändning</b> av andra för att visa värdet</li></ul>"
+    },
+     {
+        "_id": "c-31",
+        "_parentId": "b-30",
+        "_classes": "inverted",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Att förstå hållbarhet inom öppna data",
+        "displayTitle": "Att förstå hållbarhet inom öppna data",
+        "body": "Vilka faktorer bidrar till att göra en öppna datamängd hållbar?",
+        "instruction": "<em>Click the forward arrow to see more</em>",
+        "_items": [
+            {
+                "title": "Att få finansiering för öppna data",
+                "body": "Bara för att en datamängd kan användas fritt betyder inte det att det är gratis att samla ihop eller publicera datan. Finansiering kan säkras genom:</h5><ul class='bullet'><li>Ta betalt för åtkomst eller förbättrade tjänster</li><li>Finansiering från en annan källa som stöder öppna datapublicering</li><li>Visa på det löpande värdet av öppna data för organisationen</li></ul>",
+                "_graphic": {
+                    "src": "course/sv/images/odi-002.jpg",
+                    "alt": "Säker finansiering",
+                    "title": "Säker finansiering",
+                    "*source":"http://www.shutterstock.com/pic.mhtml?id=272132873&src=id",
+                    "*credit":"Jiunn",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Säker finansiering"
+            },
+            {
+                "title": "Aktivt stöd för öppna data",
+                "body": "<p>Att göra öppna data hållbara för en organisation kräver vanligtvis stöd från ledningen - att göra det till en prioritering - samt stöd från den  personal som ansvarar för att upprätthålla kvaliteten.</p><p>Aktivt stöd uppnås ofta av de företag som förbinder sig att behålla öppna data som en del av sin dagliga verksamhet.",
+                "_graphic": {
+                    "src": "course/sv/images/odi-003.jpg",
+                    "alt": "Aktivt stöd",
+                    "title": "Aktivt stöd",
+                    "*source":"http://www.shutterstock.com/pic.mhtml?id=239488546&src=id",
+                    "*credit":"GiDesign",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Aktivt stöd"
+            },
+            {
+                "title": "Bred återanvändning av öppna data",
+                "body": "<p class='not-dlab'>Hållbar återanvändning uppnås när de tjänster som skapas med datan blir nödvändiga för att framgångsrikt driva publicerarens verksamhet. Berlins transportsystem Verkehrsverbund Berlin-Brandenburgs (VBB) datamängder används av miljontals när de nyttjar transportappar som t ex Citymapper. Dessa appar driver på användningen av VBBs tjänster och därför har VBB ett åtagande i sin digitala strategi att regelbundet uppdatera datan.<br /><a href='https://citymapper.com/berlin' target='_blank'>Ta mig till Citymapper Berlin</a></p>",
+                "_graphic": {
+                    "src": "course/sv/images/odi-004.jpg",
+                    "alt": "Bred återanvändning",
+                    "title": "Bred återanvändning",
+                    "*source":"http://www.shutterstock.com/pic-144050605",
+                    "*credit":"graphego",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Bred återanvändning"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+ {
+        "_id": "c-41",
+        "_parentId": "b-40",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Varför spelar hållbarhet någon roll?",
+        "displayTitle": "Varför spelar hållbarhet någon roll?",
+        "body": "Varför ska jag bry sig om huruvida de öppna data jag jobbar med är hållbara?",
+        "instruction": "<em>Click the forward arrow to see more.</em>",
+        "_items": [
+            {
+                "title": "En stadig grund",
+                "body": "Hållbarhet är inte bara bra för användarna. Utgivaren drar också nytta av ett hållbart öppet dataprogram genom att:</h5><ul class='bullet'><li>Öka samhällets förtroende för publicerarens organisation.</li><li>Stödja skapandet av nya produkter och tjänster.</li><li>Förenkla publicerarnas återanvändning av sina egna data.</li></ul>",
+                "_graphic": {
+                    "src": "course/sv/images/odi-005.jpg",
+                    "alt": "En stadig grund",
+                    "title": "En stadig grund",
+                    "*source":"http://www.shutterstock.com/pic.mhtml?id=271074140&src=id",
+                    "*credit":"Saibarakova Ilona",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "En stadig grund"
+            },
+            {
+                "title": "Ökar förtroendet",
+                "body": "Hållbara öppna data gör att en stor gemenskap/community kan bygga med och analysera data för att dra sina egna slutsatser.",
+                "_graphic": {
+                    "src": "course/sv/images/odi-006.jpg",
+                    "alt": "Ökar förtroendet",
+                    "title": "Ökar förtroendet",
+                    "*source":"http://www.shutterstock.com/pic.mhtml?id=246120358&src=lb-36497927",
+                    "*credit":"Arthimedes",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Useful for users"
+            },
+            {
+                "title": "Bygga affärsförbindelser",
+                "body": "Hållbar öppna data har kraften att öppna nya kanaler för kunder, så att andra företag kan bygga på en publicerares data. I många fall ger dessa företag direkta fördelar tillbaka till publiceraren.",
+                "_graphic": {
+                    "src": "course/sv/images/odi-007.jpg",
+                    "alt": "Bygga affärsförbindelser",
+                    "title": "Bygga affärsförbindelser",
+                    "*source":"http://www.shutterstock.com/pic.mhtml?id=119824141&src=id",
+                    "*credit":"Palau",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Better for business"
+            },
+            {
+                "title": "Förbättra datans användbarhet",
+                "body": "En av de vanligaste användarna av en publicerares data kan vara publiceraren själv. Varför separera den offentliga utgåvan av data från den interna datanvändningen?",
+                "_graphic": {
+                    "src": "course/sv/images/odi-008.jpg",
+                    "alt": "Förbättra datans användbarhet",
+                    "title": "Förbättra datans användbarhet",
+                    "*source":"http://www.shutterstock.com/pic.mhtml?id=165242216&src=id",
+                    "*credit":"LovArt",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Perfect for publishers"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+ {
+        "_id":"c-52",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Leta efter ledtrådar",
+            "title": "Leta efter ledtrådar",
+            "large": "course/sv/images/odi-009.png",
+            "medium": "course/sv/images/odi-009.png",
+            "small": "course/sv/images/odi-009.png",
+            "*source":"http://www.shutterstock.com/pic-217749400",
+            "*credit":"robuart",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+      "_id":"c-51",
+      "_parentId":"b-50",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"left",
+      "title": "Leta efter ledtrådar",
+      "displayTitle": "Leta efter ledtrådar",
+      "body": "En hållbar publicering kombinerar säker finansiering, aktivt stöd och omfattande återanvändning. Dessa egenskaper är inte alltid uppenbara när du först hittar en datamängd. Fråga dig själv följande för att hjälpa till att upptäcka bra källor:",
+      "instruction": "<em>Click the headings to learn more.</em>",
+      "_items": [
+        {
+          "alt": "Vad är källan?",
+          "title": "Vad är källan?",
+          "body": "<p>Fråga dig själv vem som har publicerat datan och hur mycket förtroende du har för deras engagemang för att fortsätta uppdatera datan.<br><br>En av de viktigaste indikatorerna för hållbarhet är hur säker du känner dig på organisationen som samlar datan.<br><br>Om datamängderna kommer från regeringen, kan ett val eller en prioritetsförändring påverka publiceringen?</p>"
+        },
+        {
+          "alt": "Vem finansierar publiceringen?",
+          "title": "Vem finansierar publiceringen?",
+          "body": "<p>Data som är gratis kanske verkar idealiskt, men det är viktigt att fråga sig hur en utgivare finansierar sin nuvarande och framtida publicering.<br><br>Fråga dig själv om datan släpps för att publiceraren har tryck på sig att öka transparensen, eller om det finns ett större användningsområde som driver på publiceringen.<br><br>Försök att ta reda på om det finns ett specifikt kortsiktigt program som finansierar datans tillgänglighet eller huruvida publiceringen är en del av organisationens kärnstrategi.</p>"
+        },
+        {
+          "alt": "Vad säger licensen?",
+          "title": "Vad säger licensen?",
+          "body": "<p>Licenser kan också erbjuda ledtrådar om datas hållbarhet.<br><br>När du tittar på en licens så fråga dig själv vad texten kan ge för ledtrådar om datamängdens framtid och publicerarens förtroende för datan? Innehåller licensen ett åtagande att uppdatera datamängden regelbundet?<br><br>Kom ihåg att utan licens är data inte riktigt öppna. Licensen ger dig trygghet att datan kan fritt användas och delas.</p>"
+        },
+        {
+          "alt": "Vem använder datan?",
+          "title": "Vem använder datan?",
+          "body": "<p>Ju mer en datamängd används, desto mer tryck finns för att den ska vara bestående.<br><br>Fråga dig själv vilka andra som använder  datamängden och för vilka ändamål.<br><br>Försök ta reda på om datamängden används internt av publiceraren.<br><br>Bägge dessa aspekter visar om utgivaren bryr sig om datamängden och är under externt tryck för att inte ta bort åtkomsten till den eller ändra den för egna ändamål.</p>"
+        },
+        {
+          "alt": "Vad är publiceringshistoriken?",
+          "title": "Vad är publiceringshistoriken?",
+          "body": "<p>Att bedöma öppna datas hållbarhet beror i slutändan på hur mycket du litar på utgivaren.<br><br>Fundera på hur länge datamängden har funnits publicerad. En lång historia av uppdateringar är ett gott tecken, men ta hänsyn till externa faktorer som projektlängd.</p>"
+        },
+        {
+          "alt": "Hur kan jag bidra?",
+          "title": "Hur kan jag bidra?",
+          "body": "<p>Att använda en datamängd hjälper till att driva efterfrågan och påverka dess hållbarhet.<br><br>Fundera på att gå med i eventuella gemenskaper/communities som finns runt datamängden.<br><br>Försök att ta reda på om utgivaren spelar en aktiv roll i dessa gemenskaper/communities och om de tar till sig feedback för att förbättra sina tjänster.<br><br>Fråga dig själv vilket värde du kan påvisa som kommer att förbättra hållbarheten som säkerställs av dataförlaget.</p>"
+        }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-42",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/sv/images/burst.png",
+            "medium": "course/sv/images/burst.png",
+            "small": "course/sv/images/burst.png"
+        }
+    },
+    {
+        "_id":"c-43",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Är du redo för hållbara öppna data?",
+        "displayTitle":"Är du redo för hållbara öppna data?",
+        "body":"<p>Det finns två användbara saker att komma ihåg när man tänker på hållbara öppna data, kan du komma ihåg dem?</p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-61",
+        "_parentId":"b-60",
+        "_type":"component",
+        "_component":"gmcq",
+        "_adapt2id":"58905530b61c46e176e7eb16",
+        "_classes":"",
+        "_layout":"full",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Vad påverkar hållbarheten?",
+        "displayTitle": "Vad påverkar hållbarheten?",
+        "body": "Vilken av dessa påverkar inte hållbarheten hos en öppna datamängd?",
+        "instruction": "<em>Choose your answer, then click 'Submit'</em>",
+        "_items": [
+            {
+                "text": "Säker finansiering",
+                "_shouldBeSelected":false,
+                "_graphic": {
+                    "alt": "Säker finansiering",
+                    "title": "",
+                    "large": "course/sv/images/odi-010.jpg",
+                    "medium": "course/sv/images/odi-010.jpg",
+                    "small": "course/sv/images/odi-010.jpg",
+                    "*source":"http://www.shutterstock.com/pic.mhtml?id=272132873&src=id",
+                    "*credit":"Jiunn",
+                    "*license":"Shutterstock Standard License"
+                }
+            },
+            {
+                "text": "Stor filstorlek",
+                "_shouldBeSelected":true,
+                "_graphic": {
+                    "alt": "Stor filstorlek",
+                    "title": "Stor filstorlek",
+                    "large": "course/sv/images/file.png",
+                    "medium": "course/sv/images/file.png",
+                    "small": "course/sv/images/file.png",
+                    "*source":"https://farm3.staticflickr.com/2712/4485684994_b92ca0b0b3_b.jpg",
+                    "*credit":"Dave Matos",
+                    "*license":"CC BY-SA 2.0"
+                }
+            },
+            {
+                "text": "Aktivt stöd",
+                "_shouldBeSelected":false,
+                "_graphic": {
+                    "alt": "Aktivt stöd",
+                    "title": "",
+                    "large": "course/sv/images/odi-011.jpg",
+                    "medium": "course/sv/images/odi-011.jpg",
+                    "small": "course/sv/images/odi-011.jpg",
+                    "*source":"http://www.shutterstock.com/pic.mhtml?id=239488546&src=id",
+                    "*credit":"GiDesign",
+                    "*license":"Shutterstock Standard License"
+                }
+            },
+            {
+                "text": "Bred återanvändning",
+                "_shouldBeSelected":false,
+                "_graphic": {
+                    "alt": "Bred återanvändning",
+                    "title": "",
+                    "large": "course/sv/images/odi-012.jpg",
+                    "medium": "course/sv/images/odi-012.jpg",
+                    "small": "course/sv/images/odi-012.jpg",
+                    "*source":"http://www.shutterstock.com/pic-144050605",
+                    "*credit":"graphego",
+                    "*license":"Shutterstock Standard License"
+                }
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Rätt!</h5><p>Filstorlek är inte en faktor i datans hållbarhet. Vad som betyder mest är en säker finansieringskälla, utgivarens aktiva stöd och en bred återanvändning för att generera värde från data.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Är du säker?</h5><p>Filstorlek är inte en faktor i datans hållbarhet. Vad som betyder mest är en säker finansieringskälla, utgivarens aktiva stöd och en bred återanvändning för att generera värde från data.</p>",
+                "final": "<h5>Är du säker?</h5><p>Filstorlek är inte en faktor i datans hållbarhet. Vad som betyder mest är en säker finansieringskälla, utgivarens aktiva stöd och en bred återanvändning för att generera värde från data.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Är du säker?</h5><p>Filstorlek är inte en faktor i datans hållbarhet. Vad som betyder mest är en säker finansieringskälla, utgivarens aktiva stöd och en bred återanvändning för att generera värde från data.</p>",
+                "final": "<h5>Filstorlek är inte en faktor i datans hållbarhet. Vad som betyder mest är en säker finansieringskälla, utgivarens aktiva stöd och en bred återanvändning för att generera värde från data.</p>"
+            }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+          "_isEnabled": true
+        }
+    },
+{
+        "_id":"c-71",
+        "_parentId":"b-70",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Säker finansiering",
+            "title": "",
+            "large": "course/sv/images/odi-013.jpg",
+            "medium": "course/sv/images/odi-013.jpg",
+            "small": "course/sv/images/odi-013.jpg",
+            "*source":"http://www.shutterstock.com/pic.mhtml?id=272132873&src=id",
+            "*credit":"Jiunn",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-72",
+        "_parentId":"b-70",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"589056d1b61c46e176e7eb22",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":3,
+        "title": "Vad ska jag leta efter när jag bedömer hållbarhet?",
+        "displayTitle": "Vad ska jag leta efter när jag bedömer hållbarhet?",
+        "body": "<p>Vad ska du leta efter när du bedömer hållbarheten hos en öppna datamängd?</p>",
+        "instruction": "<em>Choose three of the options below and select 'Submit'</em>",
+        "_items": [
+            {
+                "text": "Datans publiceringshistorik",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "Hur mycket kostar det",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Vem använder redan datan",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "Vilket format datan finns i",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Vem finansierar publiceringen av datan",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Rätt!</h5><p>Publiceringshistoriken, vem använder data och hur den betalas är alla viktiga frågor att fråga när man bestämmer datamängdens hållbarhet.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Är du säker?</h5><p>Publiceringshistoriken, vem använder data och hur den betalas är alla viktiga frågor att fråga när man bestämmer datamängdens hållbarhet.</p>",
+                "final": "<h5>Är du säker?</h5><p>Publiceringshistoriken, vem använder data och hur den betalas är alla viktiga frågor att fråga när man bestämmer datamängdens hållbarhet.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Är du säker?</h5><p>Publiceringshistoriken, vem använder data och hur den betalas är alla viktiga frågor att fråga när man bestämmer datamängdens hållbarhet.</p>",
+                "final": "<h5>Är du säker?</h5><p>Publiceringshistoriken, vem använder data och hur den betalas är alla viktiga frågor att fråga när man bestämmer datamängdens hållbarhet.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-112",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Summary icon clipboard",
+            "title": "Summary icon clipboard",
+            "large": "course/sv/images/summary-icon.png",
+            "medium": "course/sv/images/summary-icon.png",
+            "small": "course/sv/images/summary-icon.png",
+            "*source":"http://www.shutterstock.com/pic-189810137.html",
+            "*credit":"Kritchanut",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-111",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Hållbar öppna data",
+        "displayTitle":"Hållbar öppna data",
+        "body":"<p>När man söker efter hållbara källor till öppna data är det viktigt att de är relevanta, aktuella och tillgängliga.</p><p>Ett hållbart initiativ är ett som fortsätter att släppa data regelbundet, som upprätthåller eller förbättrar kvalitet och kvantitet.</p><p>Med hjälp av de enkla indikatorerna listade ovan är det möjligt att identifiera hållbara källor till öppna data som kan användas i ditt framtida arbete.</p><p>I nästa modul undersöker vi hur öppna data-plattformar kan förenkla processen att publicera och använda data.</p><p><a class='course_link' href='../module8/'>Nästa modul</a></p><p><a class='course_link' href='../'>Huvudmeny</a></p>",
+        "_pageLevelProgress": {
+          "_isEnabled": true
+        }
+    },
+    {
+       "_id":"c-113",
+       "_parentId":"b-110",
+       "_type":"component",
+       "_component":"text",
+       "_classes":"separator",
+       "_layout":"full"
+    },
+    {
+       "_id":"c-1111",
+       "_parentId":"b-110",
+       "_type":"component",
+       "_component":"text",
+       "_classes": "attribution",
+       "body":"&copy; <a href='https://ec.europa.eu/commission/index_en' target='_blank'>European Commission</a>",
+       "_layout":"full"
+    },
+    {
+        "_id":"c-100",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"footer-logo",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Open data institute logo",
+            "title": "Open data institute logo",
+            "large": "course/sv/images/logo-small.png",
+            "medium": "course/sv/images/logo-small.png",
+            "small": "course/sv/images/logo-small.png",
+            "*source":"http://theodi.org",
+            "*credit":"The Open Data Institute",
+            "*license":"All rights reserved"  
+    }
+    },
+    {
+        "_id":"c-104",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"attribution not-eu not-default",
+        "_layout":"right",
+        "body":"Content created by <a href='http://theodi.org' target='_blank'>The Open Data Institute</a>"
+    },
+    {
+        "_id":"c-105",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"social-buttons not-dlab",
+        "_layout":"right",
+        "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/sv/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/sv/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/sv/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/sv/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/sv/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/sv/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/sv/images/social/flickr.png'></a>"
+    }
+]
