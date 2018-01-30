@@ -27,7 +27,7 @@
         "_layout":"left",
         "title":"Välkommen",
         "displayTitle":"Välkommen",
-        "body":"<p>Välkommen till e-learningprogrammet European Data Portal. Programmet har utformats för att du ska kunna upptäcka vilka öppna data som är och hur det förändrar livet för alla på vår planet.</p><p><em>Bläddra ner för att upptäcka var och en av de tillgängliga lektionerna</em></p>",
+        "body":"<p>Välkommen till e-learningprogrammet European Data Portal. Programmet har utformats för att du ska kunna upptäcka vad öppna data är och hur det förändrar livet för alla på vår planet.</p><p><em>Bläddra ner för att upptäcka var och en av de tillgängliga lektionerna</em></p>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": false
@@ -237,9 +237,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"right",
-        "title":"Lektion 8 - Getting to grips with platforms",
-        "displayTitle":"Lektion 8 - Getting to grips with platforms",
-        "body":"<progress style='width: 100%;' id='ODI_8' max='100' value='0'></progress><p>A platform is a major piece of software on which smaller pieces of software and content can be run. For open data, the largest platform is the web. However, lots of other purpose-built software helps simplify publishing open data and provides interactive tools for users to explore.</p><h5>In this module we’ll explore the following:</h5><ul class='ticks'><li>Recognising open data platforms</li><li>Understanding their importance to users</li><li>Evaluating the key options</li><li>Using platforms to explore data</li></ul><p><a class='course_link' href='module8/'>Klicka här för att lära dig mer</a></p>"
+        "title":"Lektion 8 - Vad är en plattform?",
+        "displayTitle":"Lektion 8 - Vad är en plattform?",
+        "body":"<progress style='width: 100%;' id='ODI_8' max='100' value='0'></progress><p>En plattform är en stor bit programvara där mindre bitar av programvara och innehåll kan köras. När det gäller öppna data så är webben den största plattformen. Många andra specialbyggda program kan hjälpa dig att publicera öppna data, eller bidra med interaktiva verktyg för att hjälpa dig att utforska datan.</p><h5>I den här modulen tar vi upp följande:</h5><ul class='ticks'><li>Vad som kännetecknar öppna data-plattformar</li><li>Förstå varför plattformar är viktiga för användarna</li><li>Utvärdering av de plattformsalternativ som finns</li><li>Använda plattformar för att utforska data</li></ul><a class='course_link' href='module8/'>Klicka här för att lära dig mer</a></p>"
     },
     {
         "_id":"c-81",
@@ -263,9 +263,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Lektion 9 - Choosing the right format for open data",
-        "displayTitle":"Lektion 9 - Choosing the right format for open data",
-        "body":"<progress style='width: 100%;' id='ODI_9' max='100' value='0'></progress><p>The format of an open dataset is the way the data is structured and made available for humans and machines.</p><p>Choosing the right format enables simpler management and reuse of the data. To maximise reuse of the data, it may be necessary for a publisher to use a number of formats and structures available across different platforms that suit a user’s needs.</p><h5>In this module we'll explore the following:</h5><ul class='ticks'><li>Why formats matter to open data</li><li>Choosing the correct structure</li><li>Access open data formats</li><li>Keeping it simple with CSV</li></ul><p><a class='course_link' href='module9/'>Klicka här för att lära dig mer</a></p>"
+        "title":"Lektion 9 - Att välja rätt format för öppna data",
+        "displayTitle":"Lektion 9 - Att välja rätt format för öppna data",
+        "body":"<progress style='width: 100%;' id='ODI_9' max='100' value='0'></progress><p>'Formatet’ för en öppna data-mängd relaterar till hur datan är strukturerad och hur den görs tillgänglig för människor och maskiner.</p><p>Att välja rätt format hjälper till att säkerställa att datan blir enkel att hantera och återanvända. För att maximera användningen av data kan det vara nödvändigt för en publicerare att använda de format och strukturer som används på de olika plattformar för att passa användarnas behov.</p><h5>I den här modulen utforskar vi följande:</h5><ul class='ticks'><li>Varför format har betydelse för öppna data</li><li>Att välja rätt struktur</li><li>Åtkomst till olika öppna data-format</li><li>Hålla det enkelt med CSV</li></ul><p><a class='course_link' href='module9/'>Klicka här för att lära dig mer</a></p>"
     },
     {
         "_id":"c-91",
@@ -289,9 +289,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"right",
-        "title":"Lektion 10 - How useful is my data?",
-        "displayTitle":"Lektion 10 - How useful is my data?",
-        "body":"<progress style='width: 100%;' id='ODI_10' max='100' value='0'></progress><p>Assessing how useful open data is can vary depending on the domain and the content. To assist this process, there are a number of best practice guidelines publishers and users can follow.</p><p>In this module we look at the 5-Stars of linked open data and discover how this can be used to measure the technical usability of data.</p><h5>In this module we’ll explore the following:</h5><ul class='ticks'><li>What are the 5-stars of linked open data</li><li>The first three stars</li><li>How to recognise the stars in data</li></ul><p><a class='course_link' href='module10/'>Klicka här för att lära dig mer</a></p>"
+        "title":"Lektion 10 - Hur användbar är mina data?",
+        "displayTitle":"Lektion 10 - Hur användbar är mina data?",
+        "body":"<progress style='width: 100%;' id='ODI_10' max='100' value='0'></progress><p>Metoden för att avgöra hur användbar en öppna data-mängd är varierar, beroende på domänen och innehållet. För att stödja denna process finns det ett antal riktlinjer för bästa praxis som publicerare och användare kan följa.</p><p>I denna modul tittar vi på Femstjärnemodellen och upptäcker hur de kan användas för att mäta en datamängds tekniska användbarhet.</p><h5>I den här modulen utforskar vi följande:</h5><ul class='ticks'><li>Vad är Femstjärnemodellen</li><li>De första tre stjärnorna</li><li>Hur man känner igen stjärnorna i data</li></ul><p><a class='course_link' href='module10/'>Klicka här för att lära dig mer</a></p>"
     },
     {
         "_id":"c-101",
@@ -300,9 +300,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Lektion 11 - How to clean your data",
-        "displayTitle":"Lektion 11 - How to clean your data",
-        "body":"<progress style='width: 100%;' id='ODI_11' max='100' value='0'></progress><p>One of the biggest challenges when working with any data is errors. Often errors are not even noticed by data publishers because the data can change over many years. In other cases, errors can be the result of human mistakes in data entry, like mistyping or incorrect abbreviations.</p><p>When working with any data, it is important to know how to find errors and correct them to make the data more useful.</p><h5>In this module we'll explore the following:</h5><ul class='ticks'><li>Common data errors</li><li>Useful data cleaning tools</li><li>Why clean data?</li></ul><p><a class='course_link' href='module11/'>Klicka här för att lära dig mer</a></p>"
+        "title":"Lektion 11 - Så här rengör du dina data",
+        "displayTitle":"Lektion 11 - Så här rengör du dina data",
+        "body":"<progress style='width: 100%;' id='ODI_11' max='100' value='0'></progress><p>En av de största utmaningarna när man arbetar med data handlar om fel. Ofta märks inte felen av datapubliceraren eftersom data kan förändras under många år. I andra fall kan fel vara resultatet av mänskliga misstag vid datainmatning, som felskrivning eller felaktiga förkortningar.</p><p>När du arbetar med data är det viktigt att veta hur man hittar fel och korrigerar dem för att göra data mer användbara.</p><h5>I den här modulen utforskar vi följande:</h5><ul class='ticks'><li>Vanliga datafel</li><li>Användbara verktyg för rensning av data</li><li>Skäl att rensa data</li></ul><p><a class='course_link' href='module11/'>Klicka här för att lära dig mer</a></p>"
     },
     {
         "_id":"c-102",
@@ -341,9 +341,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"right",
-        "title":"Lektion 12 - Finding hidden data on the web",
-        "displayTitle":"Lektion 12 - Finding hidden data on the web",
-        "body":"<progress style='width: 100%;' id='ODI_12' max='100' value='0'></progress><p>‘Open data’ does not only mean datasets available to download. Downloadable open data represents only a small fraction of the available data on the web.</p><p>The majority of data available on the web is hidden from the human eye. However, machines can find and read this data. In this module we look at techniques to unlock hidden data.</p><h5>In this module we’ll explore the following:</h5><ul class='ticks'><li>How to locate hidden data</li><li>What benefits hidden data can provide</li><li>How to obtain hidden data</li></ul><p><a class='course_link' href='module12/'>Klicka här för att lära dig mer</a></p>"
+        "title":"Lektion 12 - Hitta dolda data på webben",
+        "displayTitle":"Lektion 12 - Hitta dolda data på webben",
+        "body":"<progress style='width: 100%;' id='ODI_12' max='100' value='0'></progress><p>\"Öppna data\" betyder inte bara datamängder som är tillgängliga för nedladdning. Nedladdningsbara öppna data representerar endast en liten del av den tillgängliga datan på webben.</p><p>De flesta data som finns tillgängliga på webben är dolda från det mänskliga ögat. Maskiner kan dock hitta och läsa dessa data. </p><h5>I den här modulen utforskar vi följande:</h5><ul class='ticks'><li>Så här hittar du dolda data</li><li>Vilka fördelar dolda data kan ge</li><li>Så här hämtar du dolda data</li></ul><p><a class='course_link' href='module12/'>Klicka här för att lära dig mer</a></p>"
     },
     {
         "_id":"c-121",
@@ -352,9 +352,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Lektion 13 - Linking up the web of data",
-        "displayTitle":"Lektion 13 - Linking up the web of data",
-        "body":"<progress style='width: 100%;' id='ODI_13' max='100' value='0'></progress><p>The current web is configured as a series of pages or ‘documents’. While these documents draw on rich sources of data, they disguise it beneath pages designed for humans to view. In this module, we explore what would happen if all the pages or documents were removed from the web.</p><p>Imagine you only had the raw data, all open, all usable and all linked together in a network or 'web' of data.</p><p>This module also introduces the web of open linked data and look at how the 5-stars of linked open data provide a roadmap for achieving this vision.</p><h5>In this module we’ll explore the following:</h5><ul class='ticks'><li>What is the web of data?</li><li>How web identifiers are used</li><li>What a web of open linked data looks like</li></ul><p><a class='course_link' href='module13/'>Klicka här för att lära dig mer</a></p>"
+        "title":"Lektion 13 - Länka ihop datawebben",
+        "displayTitle":"Lektion 13 - Länka ihop datawebben",
+        "body":"<progress style='width: 100%;' id='ODI_13' max='100' value='0'></progress><p>Den aktuella webben är konfigurerad som en serie sidor eller \"dokument\". Medan dessa dokument vilar på rika datakällor döljer de dessa under webbsidor som är avsedda för människor att se. I den här modulen utforskar vi vad som skulle hända om alla sidor eller dokument togs bort från webben.</p><p>Föreställ dig att du bara hade rådata, alla öppna, alla användbara och alla länkade i ett nätverk eller \"web\" av data.</p><p>Denna modul introducerar den länkade öppna data-webben, och tittar på hur Femstjärnemodellen ger en färdplan för att uppnå denna vision.</p><h5>I den här modulen utforskar vi följande:</h5><ul class='ticks'><li>Vad är datawebben?</li><li>Hur webbidentifierare används</li><li>Hur en semantisk webb med länkade öppna data ser ut</li></ul><p><a class='course_link' href='module13/'>Klicka här för att lära dig mer</a></p>"
     },
     {
         "_id":"c-122",
@@ -393,9 +393,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"right",
-        "title":"Lektion 14 - Open data advocacy",
-        "displayTitle":"Lektion 14 - Open data advocacy",
-        "body":"<progress style='width: 100%;' id='ODI_14' max='100' value='0'></progress><p dir=\"ltr\">Opening data can be valuable for any organisation. Whether to drive innovation in the business, develop a clearer picture of operations or improve products and services, a growing number of private and public sector organisations now benefit from publishing and using open data.</p><p dir=\"ltr\">However, opening data might require a change in the culture of an organisation. Most organisations are configured to protect their data resources, even when the benefits of openness outweigh the costs. The key to overcoming this resistance is clear: effective communication of the benefits that open data can bring.</p><p dir=\"ltr\">This module will prepare you to deliver a tailored pitch for open data that highlights value and addresses risks.</p><p dir=\"ltr\">In this module we&#39;ll explore how to:</p><ul class='ticks'><li>Structure the perfect pitch</li><li>Identify different audiences for your pitch</li><li>Tailor your pitch to different audiences</li></ul><p><a class='course_link' href='module14/'>Klicka här för att lära dig mer</a></p>"
+        "title":"Lektion 14 - Att förespråka öppna data",
+        "displayTitle":"Lektion 14 - Att förespråka öppna data",
+        "body":"<progress style='width: 100%;' id='ODI_14' max='100' value='0'></progress><p dir=\"ltr\">Att öppna upp data kan vara värdefullt för alla organisationer.  Ett ökande antal privata och offentliga organisationer har nu nytta av att publicera och använda öppna data när det gäller att driva innovation, få en tydligare bild av verksamheten eller förbättra produkter och tjänster.</p><p dir=\"ltr\">Att öppna upp data kan vara värdefullt för alla organisationer.  Ett ökande antal privata och offentliga organisationer har nu nytta av att publicera och använda öppna data när det gäller att driva innovation, få en tydligare bild av verksamheten eller förbättra produkter och tjänster.</p><p dir=\"ltr\">Denna modul kommer att förbereda dig för att leverera en anpassad pitch för öppna data som både belyser värdet och tar upp risker.</p><p dir=\"ltr\">I den här modulen kommer vi att undersöka hur man:</p><ul class='ticks'><li>Konstruerar den perfekta pitchen</li><li>Identifierar olika målgrupper för din pitch</li><li>Skräddarsyr din pitch för olika publiker</li></ul><p><a class='course_link' href='module14/'>Klicka här för att lära dig mer</a></p>"
     },
     {
         "_id":"c-135",
@@ -404,9 +404,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Lektion 15 - Managing change in open data",
-        "displayTitle":"Lektion 15 - Managing change in open data",
-        "body":"<progress style='width: 100%;' id='ODI_15' max='100' value='0'></progress><p dir=\"ltr\">Change&nbsp;management is the process of introducing a long-term transition, change or development in an organisation.&nbsp;Change management is especially important when dealing with large changes, such as the cultural changes needed to succeed with open data.</p><p dir=\"ltr\">In this module, we&rsquo;ll explore why it is important for organisations to manage&nbsp;change and key elements to help&nbsp;build a successful&nbsp;change management process.</p><ul class='ticks'><li dir=\"ltr\">What is change management?</li><li dir=\"ltr\">Why is change management&nbsp;important in open data initiatives?</li><li dir=\"ltr\">Why is change management needed?</li><li dir=\"ltr\">What are the key elements of change management?</li></ul><p><a class='course_link' href='module15/'>Klicka här för att lära dig mer</a></p>"
+        "title":"Lektion 15 - Hantera förändringar inom öppna data",
+        "displayTitle":"Lektion 15 - Hantera förändringar inom öppna data",
+        "body":"<progress style='width: 100%;' id='ODI_15' max='100' value='0'></progress><p dir=\"ltr\">Förändringshantering/Change management är ett strukturerat tillvägagångssätt för att uppnå förändring i en organisation. Förändringshantering är särskilt viktig när det gäller stora förändringar, t ex de kulturella förändringar som behövs för att lyckas med öppna data.</p><p dir=\"ltr\">I den här modulen undersöker vi varför det är viktigt för organisationer att kunna hantera förändringar och nyckelfaktorer för att bygga en framgångsrik förändringshanteringsprocess.</p><ul class='ticks'><li dir=\"ltr\">Vad är förändringshantering?</li><li dir=\"ltr\">Varför är förändringshantering viktig för öppna data-initiativ?</li><li dir=\"ltr\">Varför behövs förändringshantering?</li><li dir=\"ltr\">Vilka är de viktigaste delarna inom förändringshantering?</li></ul><p><a class='course_link' href='module15/'>Klicka här för att lära dig mer</a></p>"
     },
     {
         "_id":"c-136",
@@ -445,9 +445,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"right",
-        "title":"Lektion 16 - Achieving impact with open data",
-        "displayTitle":"Lektion 16 - Achieving impact with open data",
-        "body":"<progress style='width: 100%;' id='ODI_16' max='100' value='0'></progress><p dir=\"ltr\">The goal of any open data project or initiative is to have some kind of impact, be it political transparency and accountability, social benefit or economic growth.&nbsp;Creating, finding and promoting&nbsp;<a href=\"http://opendatabarometer.org/3rdEdition/report/#impact\" target=\"_blank\">examples of open data being used to improve our daily lives</a>&nbsp;is one of the most challenging aspects of leading an open data project, programme or initiative.</p><p dir=\"ltr\">In this module we&#39;ll explore:</p><ul class='ticks'><li dir=\"ltr\">Why is achieving impact is important?</li><li dir=\"ltr\">How can we achieve impact?</li><li dir=\"ltr\">How&nbsp;can we measure the impact we&rsquo;ve achieved?</li><li dir=\"ltr\">Overcoming barriers to achieving impact</li></ul><p><a class='course_link' href='module16/'>Klicka här för att lära dig mer</a></p>"
+        "title":"Lektion 16 - Uppnå effekt och påverkan med öppna data",
+        "displayTitle":"Lektion 16 - Uppnå effekt och påverkan med öppna data",
+        "body":"<progress style='width: 100%;' id='ODI_16' max='100' value='0'></progress><p dir=\"ltr\">Målet med ett öppet data-projekt eller initiativ är att åstadkomma någon form av påverkan, vare sig det är politisk öppenhet och ansvarsskyldighet, sociala förmåner eller ekonomisk tillväxt. Att skapa, hitta och marknadsföra <a href=\"http://opendatabarometer.org/3rdEdition/report/#impact\" target=\"_blank\">exempel på öppna data som används för att förbättra våra dagliga liv</a> är en av de mest utmanande aspekterna av att leda ett öppet data-projekt, program eller initiativ.</p><p dir=\"ltr\">I denna modul utforskar vi:</p><ul class='ticks'><li dir=\"ltr\">Varför är det viktigt att uppnå påverkan?</li><li dir=\"ltr\">Hur kan vi uppnå påverkan?</li><li dir=\"ltr\">Hur kan vi mäta den påverkan vi har uppnått?</li><li dir=\"ltr\">Att övervinna hinder för att uppnå påverkan</li></ul><p><a class='course_link' href='module16/'>Klicka här för att lära dig mer</a></p>"
     },
     {
         "_id":"c-151",
