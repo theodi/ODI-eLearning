@@ -1,0 +1,455 @@
+[
+    {
+        "_id":"c-01",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"intro-logo",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "",
+            "medium": "",
+            "small": "",
+            "*source":"",
+            "*credit":"",
+            "*license":""
+        }
+    },
+    {
+        "_id":"c-02",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Hur användbar är mina data?",
+        "displayTitle":"Hur användbar är mina data?",
+        "body":"<p>Metoden för att avgöra hur användbar en öppna data-mängd är varierar, beroende på domänen och innehållet. För att stödja denna process finns det ett antal riktlinjer för bästa praxis som publicerare och användare kan följa.</p><p>I denna modul tittar vi på Femstjärnemodellen och upptäcker hur de kan användas för att mäta en datamängds tekniska användbarhet.</p><h5>I den här modulen utforskar vi följande:</h5><ul class='ticks'><li>Vad är Femstjärnemodellen</li><li>De första tre stjärnorna</li><li>Hur man känner igen stjärnorna i data</li></ul>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-11",
+        "_parentId":"b-10",
+        "_type":"component",
+        "_component":"iFrame-vimeo",
+        "_classes":"",
+        "_layout":"full",
+        "title":"Bedömning av datans användbarhet - på två minuter",
+        "displayTitle": "Bedömning av datans användbarhet - på två minuter",
+        "body": "ODI-läraren David Tarrant introducerar Femstjärnemodellen som ett utvärderingsverktyg och hjälper dig att förstå hur och var det kan användas.",
+        "instruction": "Om du vill aktivera och avaktivera undertexter klickar du på knappen 'cc' längst ned till höger om videoen",
+        "_setCompletionOn":"ended",
+        "_source": "https://player.vimeo.com/video/129197206",
+        "_media": {
+		"mp4": "course/sv/video/video.mp4",
+		"poster": "course/sv/video/placeholder.jpg"
+	},
+        "_height": {
+            "_small" : 250,
+            "_medium" : 350,
+            "_large" : 508
+        }
+    },
+    {
+        "_id":"c-21",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "5 Stars of open data",
+            "title": "5 Stars of open data",
+            "large": "course/sv/images/odi-001.jpg",
+            "medium": "course/sv/images/odi-001.jpg",
+            "small": "course/sv/images/odi-001.jpg",
+            "*source": "http://www.shutterstock.com/pic.mhtml?id=171677003&src=lb-36497927",
+            "*credit": "vs148",
+            "*licence": "Shutterstock open licence"
+        }
+    },
+    {
+        "_id":"c-22",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"right",
+        "title":"De fem stjärnorna hos öppna data",
+        "displayTitle":"De fem stjärnorna hos öppna data",
+        "body":"<p>Den fem-stjärniga riktlinjen för länkade öppna data är ett sätt att mäta hur väl data integreras i webben.</p><p>Den undersöker tillgängligheten och den tekniska användbarheten hos en datamängd som sträcker sig från att vara tillgänglig online (en stjärna) för att vara en del av datasystemet (fem stjärnor). Varje stjärna måste tilldelas i följd och ingen kan hoppas över.</p><p>Riktlinjerna har utvecklats av Sir Tim Berners-Lee 2001 och har antagits av datapublicerare världen över för att hjälpa till att styra många öppna data-initiativ, t.ex. italienska Digital Agency som bifogar märken till alla sina datamängder. <br/><a href='http://spcdata.digitpa.gov.it/data.html' target='_blank'>Ta mig till Digital Agencys webbplats</a><p>I den här modulen tittar vi på de första tre stjärnorna, som passar tabell- och transaktionsdata. De sista två stjärnorna utforskas i <a href='../module13/'>modul 13</a>.</p>"
+    },
+    {
+        "_id":"c-30",
+        "_parentId":"b-30",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "De första tre stjärnorna",
+            "title": "De första tre stjärnorna",
+            "large": "course/sv/images/odi-002.jpg",
+            "medium": "course/sv/images/odi-002.jpg",
+            "small": "course/sv/images/odi-002.jpg",
+            "*source": "http://www.shutterstock.com/pic.mhtml?id=188328170&src=lb-36497927",
+            "*credit": "vs148",
+            "*licence": "Shutterstock open licence"
+        }
+    },
+    {
+      "_id":"c-35",
+      "_parentId":"b-30",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"left",
+      "title": "De första tre stjärnorna",
+      "displayTitle": "De första tre stjärnorna",
+      "body": "<p>De första tre stjärnorna gör det möjligt att fastställa om datamängden i fråga är användbar.</p>",
+      "instruction": "<em>Klicka på rubrikerna för att utforska ytterligare.</em>",
+      "_items": [
+        {
+          "alt": "En stjärna - En öppen licens",
+          "title": "En stjärna - En öppen licens",
+          "body": "<p>Den första stjärnan tilldelas alla data som är öppna på en grundläggande nivå. Innehållet, i vilket format som helst, måste vara tillgängligt under en öppen licens.</p><p>Oavsett kvaliteten på en datamängd kan den inte kvalificera sig för den första stjärnan om den inte är tillgänglig under en öppen licens.</p><p>En PDF-fil på en webbplats som gjorts tillgänglig under en öppen licens är tillräcklig för att uppfylla den första stjärnan.</p>"
+        },
+        {
+          "alt": "2 stars - Re-usable format",
+          "title": "2 stars - Re-usable format",
+          "body": "<p>Den andra stjärnan tilldelas data som möjliggör enkel återanvändning. Riktlinjerna anger att data måste vara tillgängliga i ett 'mycket återanvändbart, strukturerat format' som kan läsas av en maskin och förstås av en människa.</p><p>Nyckeln till att uppnå två stjärnor är att välja det mest återanvändbara formatet. I vissa fall kan det mest återanvändbara formatet vara ett stängt eller proprietärt format, t.ex. en Excel- eller Numbers-fil.</p><p>Att göra data tillgängliga i vilket format som helst är bättre än inget alls.</p>"
+        },
+        {
+          "alt": "3 stars - Öppet format",
+          "title": "3 stars - Öppet format",
+          "body": "<p>Riktlinjerna för den tredje stjärnan anger att datamängden måste vara tillgänglig i ett strukturerat, maskinomvandlat format som inte är kopplat till ett specifikt mjukvarupaket.</p><p>Ett exempel på en datamängd som skulle tilldelas tre stjärnor är en CSV-fil med en lämplig öppen licens.</p><p>Enel, ett italienskt energibolag, ger ett bra exempel på en tre-stjärnig datamängd med ett tydligt placerat stjärn-märke.<br /><a href='http://data.enel.com/node/4679' target='_blank'>Ta mig till Enel tre-stjärniga öppna datamängd</a></p>"
+        }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+   {
+        "_id": "c-45",
+        "_parentId": "b-40",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Låsa upp användbarheten för öppna data",
+        "displayTitle": "Låsa upp användbarheten för öppna data",
+        "body": "Varje stjärna som uppnåtts representerar en förbättring av användbarheten hos en datamängd. Använd följande enkla kontroller för att utvärdera hur många stjärnor som en datamängd har.",
+        "instruction": "<em class='desktop-instruction'>Klicka på framåtpilen för att se mer.</em><em class='mobile-instruction'>Välj \"+\" tecknet för att utforska ytterligare, och svep sedan bilden för att se mer.</em>",
+        "_items": [
+            {
+                "title": "Stjärna ett - kontrollera licensen",
+                "body": "<p>Att hitta licensen för en öppna datamängd kan vara ett av de svåraste stegen.</p><p>En öppen licens är ett uttryckligt tillstånd att använda data för både kommersiella och icke-kommersiella ändamål.</p><ul class=ticks><li>Datamängdens metadata</li><li>Villkor för webbsidan eller webbplatsen</li><li>Klicka på datafilen, det kan finnas en popup</li><li>Kontrollera inuti själva datafilen</li></ol></p><p>Webbplatser visar licensinformation på olika sätt, du kan behöva söka lite på varje webbplats för att hitta dem. </p>",
+                "_graphic": {
+                    "src": "course/sv/images/odi-003.jpg",
+                    "alt": "Star 1 - Checking the license",
+                    "title": "Star 1 - Checking the license",
+                    "*source": "http://www.shutterstock.com/pic.mhtml?id=148686812&src=lb-36497927",
+                    "*credit": "vs148",
+                    "*licence": "Shutterstock open licence"
+                },
+                "strapline": "Stjärna ett - kontrollera licensen"
+            },
+            {
+                "title": "Stjärna två – kontrollera användbarhet",
+                "body": "<p>När du upptäcker öppna data på webben finns det flera sätt på vilka du kan bedöma hur användbar det är. Fråga dig själv:<ul class='ticks'><li>Tror jag att det här är det mest användarvänliga formatet för att publicera denna data?</li><li>Verkar filen vara densamma som den som utgivaren använder?</li><li>Finns det någon annan information som har lagts till av en människa?</li></ul></p>",
+                "_graphic": {
+                    "src": "course/sv/images/odi-004.jpg",
+                    "alt": "Star 2 - checking usability",
+                    "title": "Star 2 - checking usability",
+                    "*source": "http://www.shutterstock.com/pic.mhtml?id=144334663&src=lb-36497927",
+                    "*credit": "vs148",
+                    "*licence": "Shutterstock open licence"
+                },
+                "strapline": "Stjärna två – kontrollera användbarhet"
+            },
+            {
+                "title": "Stjärna tre – kontrollera öppenhet",
+                "body": "<p>Öppna format är ibland svåra att bedöma. Följande frågor hjälper dig att förstå om data finns tillgängliga i ett öppet format:<ul class='ticks'><li> Kan jag öppna filen i mer än ett program på min dator och ändå se filens fullständiga funktionalitet?</li><li> När jag tittar på filformatet (t.ex. CSV) online, säger det att jag behöver ladda ner ett specifikt program för att öppna det?</li></ul></p><p>CSV är det mest populära öppna formatet och är lätt att identifiera. CSV kvalificerar sig till tre stjärnor så länge som de andra två uppnås. Den öppna data-portalen i Storbritannien ger några bra exempel på tre-stjärniga CSV-datamängder som tydligt markeras med både licens och filformat.<br /><a href='https://data.gov.uk/dataset/spend-over-25-000-in-fco-services' target='_blank'>Ta mig till den brittiska öppna dataportalen</a></span></p><p>Många öppna dataportaler publicerar också ODF-filer (Open Document Format). Dessa filer kan vara perfekta för öppna data, men det kan vara svårt att identifiera verktyget som kan öppna dessa filer.</p>",
+                "_graphic": {
+                    "src": "course/sv/images/odi-005.jpg",
+                    "alt": "Star 3 - checking openness",
+                    "title": "Star 3 - checking openness",
+                    "*source": "http://www.shutterstock.com/pic.mhtml?id=142601674&src=lb-36497927",
+                    "*credit": "vs148",
+                    "*licence": "Shutterstock open licence"
+                },
+                "strapline": "Stjärna tre – kontrollera öppenhet"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-52",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/sv/images/burst.png",
+            "medium": "course/sv/images/burst.png",
+            "small": "course/sv/images/burst.png"
+        }
+    },
+    {
+        "_id":"c-53",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Är du redo att bedöma öppenhet?",
+        "displayTitle":"Är du redo att bedöma öppenhet?",
+        "body":"<p>Det finns fyra enkla saker att komma ihåg när det gäller att bedöma öppenhet. Kan du komma ihåg dem?</p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-65",
+        "_parentId":"b-60",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "5 Stars of open data",
+            "title": "",
+            "large": "course/sv/images/odi-006.jpg",
+            "medium": "course/sv/images/odi-006.jpg",
+            "small": "course/sv/images/odi-006.jpg",
+            "*source": "http://www.shutterstock.com/pic.mhtml?id=171677003&src=lb-36497927",
+            "*credit": "vs148",
+            "*licence": "Shutterstock open licence"
+        }
+    },
+    
+    {
+        "_id":"c-60",
+        "_parentId":"b-60",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"58920ea1b61c46e176e7f075",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Hur rankar du öppenheten för en datamängd med fem stjärnor?",
+        "displayTitle": "Hur rankar du öppenheten för en datamängd med fem stjärnor?",
+        "body": "<p>Hur skulle du gå tillväga för att bedöma öppenheten hos en datamängd du hittade online?</p>",
+        "instruction": "<em>Välj ditt svar och klicka sedan på 'Skicka'</em>",
+        "_items": [
+            {
+                "text": "Titta på varje stjärna separat och betygsätt enligt den högst uppnådda",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Börja med den första stjärnan och betygsätta var och en i följd",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "Gissa bara",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Rätt!</h5><p>Varje stjärna måste tilldelas i följd och ingen kan hoppas över.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Är det säkert?</h5><p>Varje stjärna måste tilldelas i följd och ingen kan hoppas över.</p>",
+                "final": "<h5>Är det säkert?</h5><p>Varje stjärna måste tilldelas i följd och ingen kan hoppas över.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Är det säkert?</h5><p>Varje stjärna måste tilldelas i följd och ingen kan hoppas över.</p>",
+                "final": "<h5>Är det säkert?</h5><p>Varje stjärna måste tilldelas i följd och ingen kan hoppas över.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-70",
+        "_parentId":"b-70",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Star 2 - checking usability",
+            "title": "",
+            "large": "course/sv/images/odi-007.jpg",
+            "medium": "course/sv/images/odi-007.jpg",
+            "small": "course/sv/images/odi-007.jpg",
+            "*source": "http://www.shutterstock.com/pic.mhtml?id=144334663&src=lb-36497927",
+            "*credit": "vs148",
+            "*licence": "Shutterstock open licence"
+        }
+    },
+    {
+        "_id":"c-71",
+        "_parentId":"b-70",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"5892127cb61c46e176e7f080",
+        "_classes":"",
+        "_layout":"right",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Vad är den andra stjärnan?",
+        "displayTitle": "Vad är den andra stjärnan?",
+        "body": "<p>Den andra stjärnan tilldelas för ...</p>",
+        "instruction": "<em>Välj ditt svar och klicka sedan på 'Skicka'</em>",
+        "_items": [
+            {
+                "text": "en öppen licens",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "ett öppet format",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "a reuseable format",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Rätt!</h5><p>Den andra stjärnan handlar om dataåteranvändbarhet och rekommenderar att data ska vara tillgängliga i dess mest återanvändbara form oavsett huruvida formatet är öppet eller proprietärt.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Är det säkert?</h5><p>Den andra stjärnan handlar om dataåteranvändbarhet och rekommenderar att data ska vara tillgängliga i dess mest återanvändbara form oavsett huruvida formatet är öppet eller proprietärt.</p>",
+                "final": "<h5>Är det säkert?</h5><p>Den andra stjärnan handlar om dataåteranvändbarhet och rekommenderar att data ska vara tillgängliga i dess mest återanvändbara form oavsett huruvida formatet är öppet eller proprietärt.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Är det säkert?</h5><p>Den andra stjärnan handlar om dataåteranvändbarhet och rekommenderar att data ska vara tillgängliga i dess mest återanvändbara form oavsett huruvida formatet är öppet eller proprietärt.</p>",
+                "final": "<h5>Är det säkert?</h5><p>Den andra stjärnan handlar om dataåteranvändbarhet och rekommenderar att data ska vara tillgängliga i dess mest återanvändbara form oavsett huruvida formatet är öppet eller proprietärt.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-115",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Summary icon clipboard",
+            "title": "Summary icon clipboard",
+            "large": "course/sv/images/summary-icon.png",
+            "medium": "course/sv/images/summary-icon.png",
+            "small": "course/sv/images/summary-icon.png",
+            "*source": "http://www.shutterstock.com/pic-189810137.html",
+            "*credit": "Kritchanut",
+            "*licence": "Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-110",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Bedömning av öppna data",
+        "displayTitle":"Bedömning av öppna data",
+        "body":"<p>Metoden för att avgöra hur användbar en öppna data-mängd är varierar, beroende på domänen och innehållet. För att stödja denna process finns det ett antal riktlinjer för bästa praxis som publicerare och användare kan följa, t ex Fem stjärnon för länkade öppna data.</p><p>Den fem-stjärniga riktlinjen för länkade öppna data är ett sätt att mäta hur väl data integreras i webben. Varje stjärna måste tilldelas i följd och ingen kan hoppas över.<h5>I den här modulen tittade vi på de första tre stjärnorna:</h5><ul class='ticks'><li>Öppen licens</li><li>Återanvändningsformat</li><li>Öppet format</li></ul><p>För mer om de sista två stjärnorna se <a href='../module13/'>modul 13</a>.</p><p><a class='course_link' href='../module11/'>Nästa modul</a></p><p><a class='course_link' href='../'>Huvudmeny</a></p>",
+        "_pageLevelProgress": {
+          "_isEnabled": true
+        }
+    },
+    {
+       "_id":"c-111",
+       "_parentId":"b-110",
+       "_type":"component",
+       "_component":"text",
+       "_classes":"separator",
+       "_layout":"full"
+    },
+    {
+       "_id":"c-1111",
+       "_parentId":"b-110",
+       "_type":"component",
+       "_component":"text",
+       "_classes": "attribution",
+       "body":"&copy; <a href='https://ec.europa.eu/commission/index_en' target='_blank'>European Commission</a>",
+       "_layout":"full"
+    },
+    {
+        "_id":"c-100",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"footer-logo",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Open data institute logo",
+            "title": "Open data institute logo",
+            "large": "course/sv/images/logo-small.png",
+            "medium": "course/sv/images/logo-small.png",
+            "small": "course/sv/images/logo-small.png",
+            "*source":"http://theodi.org",
+            "*credit":"The Open Data Institute",
+            "*license":"All rights reserved"  
+        }
+    },
+    {
+        "_id":"c-104",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"attribution not-eu not-default",
+        "_layout":"right",
+        "body":"Content created by <a href='http://theodi.org' target='_blank'>The Open Data Institute</a>"
+    },
+    {
+        "_id":"c-105",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"social-buttons not-dlab",
+        "_layout":"right",
+        "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/sv/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/sv/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/sv/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/sv/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/sv/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/sv/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/sv/images/social/flickr.png'></a>"
+    }
+]
