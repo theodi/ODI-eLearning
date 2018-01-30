@@ -1,0 +1,734 @@
+[
+  {
+    "_id": "59400a14d084d5167a04fa58",
+    "_layout": "right",
+    "_parentId": "b-06",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/sv/assets/a516261fb9cb309e3b3d1116a192ecfc2a70fbad.png",
+      "small": "course/sv/assets/a516261fb9cb309e3b3d1116a192ecfc2a70fbad.png",
+      "attribution": ""
+    }
+  },
+  {
+    "_id": "59400a14d084d5167a04fa73",
+    "_layout": "left",
+    "_parentId": "b-09",
+    "_type": "component",
+    "body": "<p dir=\"ltr\"><strong>Den sociala konsekvensindikatorn för utvärderingsverktyget Open Data in Europe mäter påverkan på ...</strong></p>",
+    "displayTitle": "Hur mäter vi effekten?",
+    "title": "Hur mäter vi effekten?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "mcq",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Välj ditt svar och klicka sedan på \"Skicka\"",
+    "_items": [
+      {
+        "text": "miljöhållbarhet och inkludering av marginaliserade grupper",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "studier som bedömer marknadsvärdet av öppna data",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "regeringens effektivitet och öppenhet",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_feedback": {
+      "correct": "<p><strong>Rätt!</strong></p><p>Den sociala påverkan mäts av två faktorer: påverkan på miljöhållbarheten i landet och på att öka inkluderingen av marginaliserade grupper</p>",
+      "_incorrect": {
+        "final": "<p><strong>Är det säkert?</strong></p><p>Den sociala påverkan mäts av två faktorer: påverkan på miljöhållbarheten i landet och på att öka inkluderingen av marginaliserade grupper</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        }
+  },
+  {
+    "_id": "59400a14d084d5167a04fa74",
+    "_layout": "left",
+    "_parentId": "b-07",
+    "_type": "component",
+    "body": "<p><strong>Att uppnå påverkan är viktigt eftersom ...</strong></p>",
+    "displayTitle": "Varför är påverkan viktig?",
+    "title": "Varför är påverkan viktig?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "mcq",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Välj allt som gäller och klicka sedan på \"Skicka\"",
+    "_items": [
+      {
+        "text": "det ger motivation till varför ett initiativ ska fortsätta",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "det visar var du ska fokusera alla dina ansträngningar",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "du kan dra oväntade slutsatser",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_feedback": {
+      "correct": "<p><strong>Rätt!</strong></p><p>Att nå påverkan är viktigt eftersom det ger motivation för varför ett arbetsprogram borde fortsätta, eftersom det visar avkastningen på investeringen.</p><p>Påverkan är också en viktig del i att mäta effektiviteten av en öppna datapolitik, program eller initiativ.</p>",
+      "_incorrect": {
+        "final": "<p><strong>Är det säkert?</strong></p><p>Att nå påverkan är viktigt eftersom det ger motivation för varför ett arbetsprogram borde fortsätta, eftersom det visar avkastningen på investeringen.</p><p>Påverkan är också en viktig del i att mäta effektiviteten av en öppna datapolitik, program eller initiativ.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        }
+  },
+  {
+    "_id": "59400a14d084d5167a04fa75",
+    "_layout": "right",
+    "_parentId": "b-11",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "color-six",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/sv/assets/7120bb7ad02055a11589656852c821cae30bf616.png",
+      "small": "course/sv/assets/7120bb7ad02055a11589656852c821cae30bf616.png",
+      "attribution": "<a href=\"https://theodi.org\" target=\"_blank\">The Open Data Institute</a> <span class='assetLicence'>[CC-BY-SA]</span>"
+    }
+  },
+  {
+    "_id": "59400a14d084d5167a04fa76",
+    "_layout": "left",
+    "_parentId": "b-01",
+    "_type": "component",
+    "body": "<p dir=\"ltr\">Målet med ett öppet data-projekt eller initiativ är att åstadkomma någon form av påverkan, vare sig det är politisk öppenhet och ansvarsskyldighet, sociala förmåner eller ekonomisk tillväxt. Att skapa, hitta och marknadsföra <a href=\"http://opendatabarometer.org/3rdEdition/report/#impact\" target=\"_blank\">exempel på öppna data som används för att förbättra våra dagliga liv</a> är en av de mest utmanande aspekterna av att leda ett öppet data-projekt, program eller initiativ.</p><p dir=\"ltr\">I denna modul utforskar vi:</p><ul class='ticks'><li dir=\"ltr\">Varför är det viktigt att uppnå påverkan?</li><li dir=\"ltr\">Hur kan vi uppnå påverkan?</li><li dir=\"ltr\">Hur kan vi mäta den påverkan vi har uppnått?</li><li dir=\"ltr\">Att övervinna hinder för att uppnå påverkan</li></ul>",
+    "displayTitle": "Uppnå effekt och påverkan med öppna data",
+    "title": "Uppnå effekt och påverkan med öppna data",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "ticks",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "59400a14d084d5167a04fa77",
+    "_layout": "right",
+    "_parentId": "b-02",
+    "_type": "component",
+    "body": "<p dir=\"ltr\">Påverkan är en viktig del av mätningen av effektiviteten hos en öppna data-policy, program eller initiativ. Det är svårt att argumentera för att ett arbetsprogram ska fortsätta om man inte kan visa effekterna av programmet.</p><p dir=\"ltr\">Denna effekter kanske inte är av ekonomisk karaktär, eftersom det finns bredare politiska och sociala effekter att hämta från öppna data.</p><p dir=\"ltr\">Du kan läsa mer i modulen: '<a href=\"https://www.europeandataportal.eu/elearning/sv/module2/#/id/co-01\" target=\"_blank\">Hur man bäst nyttjar öppna data</a>'.</p>",
+    "displayTitle": "Varför är påverkan viktig?",
+    "title": "Varför är påverkan viktig?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "59400a14d084d5167a04fa78",
+    "_layout": "left",
+    "_parentId": "b-02",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "",
+    "title": "",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/sv/assets/f4b7a83ca6a5ee395ea40ef51b5e6d07ac2e288e.jpg",
+      "small": "course/sv/assets/f4b7a83ca6a5ee395ea40ef51b5e6d07ac2e288e.jpg",
+      "attribution": "<a href=\"https://www.shutterstock.com/image-illustration/large-group-people-shape-chat-bubblewhite-234353791\" target=\"_blank\">tai11</a> <span class='assetLicence'>[Shutterstock standard licence]</span>"
+    }
+  },
+  {
+    "_id": "59400a14d084d5167a04fa79",
+    "_layout": "right",
+    "_parentId": "b-03",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "",
+    "title": "",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/sv/assets/edd9adfa60a0dc2b857d5e90a86fdf58f3287e66.png",
+      "small": "course/sv/assets/edd9adfa60a0dc2b857d5e90a86fdf58f3287e66.png",
+      "attribution": "<a href=\"http://www.freepik.com/free-photos-vectors/business\" target=\"_blank\"> Photoroyalty - Freepik.com</a> <span class='assetLicence'>[CC-BY]</span>"
+    }
+  },
+  {
+    "_id": "59400a14d084d5167a04fa7a",
+    "_layout": "full",
+    "_parentId": "b-05",
+    "_type": "component",
+    "body": "<p>Öppna data är ett relativt nytt koncept, som väcker automatiska hinder för vissa. I det här avsnittet undersöker vi några av de viktigaste hindren för att uppnå effekter från öppna data, liksom sätt att övervinna dem.</p>",
+    "displayTitle": "Övervinna hinder för att uppnå påverkan från öppna data",
+    "title": "Övervinna hinder för att uppnå påverkan från öppna data",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "narrative",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "mobileInstruction": "",
+    "_hasNavigationInTextArea": false,
+    "_setCompletionOn": "inview",
+    "_items": [
+      {
+        "title": "Användarna känner inte till dina data",
+        "body": "<p>Du kan ha utmärkta data som kan uppnå positiv påverkan, men det är bara möjligt om de potentiella användarna vet om att datan finns.</p><p>Ett sätt att marknadsföra dina data är att ställa specifika utmaningar. En <a href=\"http://www.nesta.org.uk/project/open-data-challenge-series\" target=\"_blank\">serie utmaningar</a> är ett bra sätt att samla människor kring dina data. Genom att erbjuda en prissumma och utarbeta en öppen innovationsprocess kan du motivera andra att återanvända dina data och få fantastiska resultat.</p><p>Att visa användarfall vid sidan av dina data kommer också att bidra till att uppmuntra återanvändning.</p>",
+        "_graphic": {
+          "src": "course/sv/assets/44692b04753e36675bd12acf35820956832091e4.jpg",
+          "alt": "",
+          "attribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Ghozt_Tramp_-_Business_Communication_Duplicat_model.jpg\" target=\"_blank\">Ghozt Tramp</a> <span class='assetLicence'>[CC-BY-SA]</span>"
+        },
+        "strapline": "Användarna känner inte till dina data"
+      },
+      {
+        "title": "Rädsla för att bryta mot dataskyddslagar",
+        "body": "<p dir=\"ltr\">Ett annat hinder för att uppnå påverkan är när data inte används för att användarna är rädda. Vissa licenser är oklara, särskilt kring användningen av tredje parts- eller persondata som finns i datamängden. Ofta kan \"ingen garanti\"-klausuler göra att det verkar som användaren skulle vara ansvarig i det här fallet.</p><p>För att komma till rätta med detta hinder bör publicerarna vara tydliga när det gäller datans rättsliga grund och vad användarna kan göra med datan.</p><p>Det är bra att tydligt förklara licensvillkoren.  Att ge information om integritetsprocessen och konsekvensbedömningen när det gäller att hantera persondata, och att publicera processen som följdes för att anonymisera datan, kommer att bidra till att göra användarna trygga.</p>",
+        "_graphic": {
+          "src": "course/sv/assets/eb7c7b7bfff664aef851578a795efa612ea1a806.jpg",
+          "alt": "",
+          "attribution": "<a href=\"https://www.flickr.com/photos/132053576@N03/17765606909/\" target=\"_blank\">Owen Moore</a> <span class='assetLicence'>[CC-BY]</span>"
+        },
+        "strapline": "Rädsla för att bryta mot dataskyddslagar"
+      },
+      {
+        "title": "Datakvalitet och användarfrågor",
+        "body": "<p>Ett annat hinder för återanvändning av öppna data är rädslan att den kanske inte är av god kvalitet.</p><p>Det finns ett antal gemenskapsbaserade standarder som kan hjälpa dig, både som publicerare och användare, att bedöma kvaliteten och användbarheten på dina data.</p><p>Att se till att dina data är användbara, från ett juridiskt, praktiskt och socialt perspektiv, kommer att uppmuntra till återanvändning och uppnå effekt.</p><p>Ta reda på mer: '<a href=\"https://www.europeandataportal.eu/elearning/sv/module5/#/id/co-01\">Vad innebär öppna data av god kvalitet?</a>'</p>",
+        "_graphic": {
+          "src": "course/sv/assets/b0a1356f5ad57eff61e6a22b69a2e1b6d9773220.jpg",
+          "alt": "",
+          "attribution": "<a href=\"robodread\" target=\"_blank\">robodread</a> <span class='assetLicence'>[Shutterstock standard licence]</span>"
+        },
+        "strapline": "Datakvalitet och användarfrågor"
+      }
+    ]
+  },
+  {
+    "_id": "59400a14d084d5167a04fa7f",
+    "_layout": "left",
+    "_parentId": "b-06",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "Är du redo att påverka med öppna data?",
+    "title": "Är du redo att påverka med öppna data?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "59400a15d084d5167a04fa83",
+    "_layout": "left",
+    "_parentId": "b-03",
+    "_type": "component",
+    "body": "<p dir=\"ltr\">Att uppnå påverkan, och mäta den påverkan, är en av de mest utmanande aspekterna av att leda ett öppet data-projekt, program eller initiativ. Det finns ett antal tekniker som du kan använda för att hjälpa dig att uppnå påverkan.</p>",
+    "displayTitle": " Hur kan vi uppnå påverkan?",
+    "title": " Hur kan vi uppnå påverkan?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "accordion",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_items": [
+      {
+        "title": "Identifiera gemensamma mål",
+        "body": "<p>Det första man bör tänka på är vad man försöker uppnå. Vad är slutmålet för att publicera data öppet? Att ha en tydligt definierad vision är avgörande för huruvida ett öppet datainitiativ, program eller projekt blir framgångsrikt.</p><p>Nästa steg är att fundera på de potentiella datanvändarna. Vad är deras mål? Hur skulle din data kunna hjälpa dem att uppnå dessa mål?</p><p>De mest framgångsrika öppna data-initiativen likriktar målen för datapublicisterna med de för användarna. Det är sällsynt att alla börjar med identiska mål, så leta efter områden där målen kan överlappa varandra. Ju mer anpassade målen är desto mer framgångsrik brukar  publiceringen vara.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Sök upp och forma berättelser",
+        "body": "<p dir=\"ltr\">En bra metod för att visa påverkan är att söka upp och forma berättelser. Ibland är det lätt att hitta bra berättelser, men ofta behöver de kultiveras.</p><p dir=\"ltr\">Utför, beställ eller identifiera forskning rörande påverkan av din organisations nuvarande eller kommande aktiviteter så att du mycket tydligt kan kommunicera vilken påverkan ditt program, projekt eller initiativ har uppnått.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Reflektera och upprepa",
+        "body": "<p>Det kan vara svårt att se tillbaka på det som redan har hänt som ett resultat av projektet, och anledningarna till att det har eller inte har varit framgångsrikt.</p><p>Ge dig själv tid att reflektera, så att du kan vara flexibel och iterativ i din strategi. Om något inte fungerar, var inte rädd för att ta bort det från arbetsområdet.</p><p>Upprepning och förbättring av ditt tillvägagångssätt innebär att ditt öppna dataprojekt, program eller initiativ är mycket mer sannolikt att få effekt.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      }
+    ],
+    "_shouldCollapseItems": true
+  },
+  {
+    "_id": "59400a15d084d5167a04fa84",
+    "_layout": "right",
+    "_parentId": "b-08",
+    "_type": "component",
+    "body": "<p><strong>Vi kan uppnå påverkan genom att…</strong></p>",
+    "displayTitle": "Hur kan vi uppnå påverkan?",
+    "title": "Hur kan vi uppnå påverkan?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "mcq",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Välj ditt svar och klicka sedan på \"Skicka\"",
+    "_items": [
+      {
+        "text": "identifiera gemensamma mål",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "hålla några data stängda",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "beställa en utredning om påverkan",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "reflektera över ditt initiativ",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "dela din metodologi",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 3,
+    "_feedback": {
+      "correct": "<p><strong>Rätt!</strong></p><p>Påverkan kan uppnås genom identifiering av gemensamma mål för datapublicerare och användare, att söka upp och forma historier genom research samt att reflektera över och upprepa ett initiativ.</p>",
+      "_incorrect": {
+        "final": "<p><strong>Är det säkert?</strong></p><p>Påverkan kan uppnås genom identifiering av gemensamma mål för datapublicerare och användare, att söka upp och forma historier genom research samt att reflektera över och upprepa ett initiativ.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        }
+  },
+  {
+    "_id": "59400a15d084d5167a04fa85",
+    "_layout": "right",
+    "_parentId": "b-10",
+    "_type": "component",
+    "body": "<p><strong>Ett viktigt hinder för att uppnå påverkan är om det inte finns något engagemang i dina data. Hur kan du övervinna detta?</strong></p>",
+    "displayTitle": "Övervinna hinder",
+    "title": "Övervinna hinder",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "mcq",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Välj ditt svar och klicka sedan på \"Skicka\"",
+    "_items": [
+      {
+        "text": "Genom att marknadsföra dina data, klargöra hur användarna kan återanvända dina data och göra dina data användbara",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "Genom att publicera så mycket data som möjligt",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "Genom att ta ut avgifter för dina data",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_feedback": {
+      "correct": "<p><strong>Rätt!</strong></p><p>Du kan uppmuntra återanvändning av dina data genom att marknadsföra den, vara tydlig med hur användarna kan återanvända den och göra den mer användbar.</p>",
+      "_incorrect": {
+        "final": "<p><strong>Är det säkert?</strong></p><p dir=\"ltr\">Du kan uppmuntra återanvändning av dina data genom att marknadsföra den, vara tydlig med hur användarna kan återanvända den och göra den mer användbar.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        }
+  },
+  {
+    "_id": "59400a15d084d5167a04fa86",
+    "_layout": "right",
+    "_parentId": "b-07",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/sv/assets/f4b7a83ca6a5ee395ea40ef51b5e6d07ac2e288e.jpg",
+      "small": "course/sv/assets/f4b7a83ca6a5ee395ea40ef51b5e6d07ac2e288e.jpg",
+      "attribution": "<a href=\"https://www.shutterstock.com/image-illustration/large-group-people-shape-chat-bubblewhite-234353791\" target=\"_blank\">tai11</a> <span class='assetLicence'>[Shutterstock standard licence]</span>"
+    }
+  },
+  {
+    "_id": "59400a15d084d5167a04fa87",
+    "_layout": "left",
+    "_parentId": "b-08",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/sv/assets/edd9adfa60a0dc2b857d5e90a86fdf58f3287e66.png",
+      "small": "course/sv/assets/edd9adfa60a0dc2b857d5e90a86fdf58f3287e66.png",
+      "attribution": "<a href=\"http://www.freepik.com/free-photos-vectors/business\" target=\"_blank\"> Photoroyalty - Freepik.com</a> <span class='assetLicence'>[CC-BY]</span>"
+    }
+  },
+  {
+    "_id": "59400a15d084d5167a04fa88",
+    "_layout": "right",
+    "_parentId": "b-09",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "",
+    "title": "",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/sv/assets/0c4e44ae54cc60d53a31c2bcff4471570e961d9d.jpg",
+      "small": "course/sv/assets/0c4e44ae54cc60d53a31c2bcff4471570e961d9d.jpg",
+      "attribution": "<a href=\"http://www.shutterstock.com/pic-185008832\" target=\"_blank\">suarassawadee</a> <span class='assetLicence'>[Shutterstock standard licence]</span>"
+    }
+  },
+  {
+    "_id": "59400a15d084d5167a04fa89",
+    "_layout": "left",
+    "_parentId": "b-10",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "",
+    "title": "",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/sv/assets/95974c301fcc4ee60b2f1f1019d3f1f21221dd13.jpg",
+      "small": "course/sv/assets/95974c301fcc4ee60b2f1f1019d3f1f21221dd13.jpg",
+      "attribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Ghozt_Tramp_-_Business_Communication_Duplicat_model.jpg\" target=\"_blank\">Ghozt Tramp</a> <span class='assetLicence'>[CC-BY-SA]</span>"
+    }
+  },
+  {
+    "_id": "59400a15d084d5167a04fa8a",
+    "_layout": "left",
+    "_parentId": "b-11",
+    "_type": "component",
+    "body": "<p>Att uppnå påverkan med öppna data är en viktig del för att säkerställa hållbarheten i öppna dataprojekt och initiativ. Att skapa, hitta och marknadsföra <a href=\"http://opendatabarometer.org/3rdEdition/report/#impact\" target=\"_blank\">exempel på öppna data som används för att förbättra våra dagliga liv</a> är en av de mest utmanande aspekterna av att leda ett öppna data-projekt, program eller initiativ.</p><p>Det finns ett antal bedömningsverktyg som kan hjälpa dig att mäta effekterna av en organisations eller ett lands öppna data-politik, program eller initiativ. I den här modulen fokuserade vi på den europeiska dataportalens <a href=\"https://www.europeandataportal.eu/sv/dashboard\" target=\"_blank\">öppna data i Europa</a>.</p><p>Det finns hinder för att nå påverkan, men det finns sätt att övervinna dessa hinder. Läs mer om att leda ett öppet datainitiativ i \"<a href=\"https://www.europeandataportal.eu/elearning/sv/module15/#/id/co-01\">Hantera förändringar inom öppna data</a>\".</p><p><a class='course_link' href='../'>Huvudmeny</a></p>",
+    "displayTitle": "Uppnå påverkan",
+    "title": "Uppnå påverkan",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "59400a15d084d5167a04fa8b",
+    "_layout": "right",
+    "_parentId": "b-01",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "",
+    "title": "",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "intro-logo",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "",
+      "small": "",
+      "attribution": ""
+    }
+  },
+  {
+    "_id": "59400a15d084d5167a04fa92",
+    "_layout": "full",
+    "_parentId": "b-04",
+    "_type": "component",
+    "body": "<p>Det finns ett antal verktyg som kan hjälpa dig att bedöma effekterna av en organisation eller ett lands öppna data-politik, -program eller -initiativ. Varje utvärderingsverktyg använder olika metoder och enheter, så hitta den som fungerar bäst för ditt sammanhang. Tänk på vilka kriterier som är viktiga för din organisation.</p><p>Denna modul behandlar i detalj i Europeiska dataportalens <a href=\"https://www.europeandataportal.eu/sv/dashboard\" target=\"_blank\">Open Data in Europe-verktyg,</a> vilket jämför öppna data-initiativ i EU-länder.</p><p dir=\"ltr\">Du kan också titta på <a href=\"https://index.okfn.org/\" target=\"_blank\">Global Open Data Index</a> och <a href=\"http://opendatabarometer.org\" target=\"_blank\">Open Data Barometer</a>, som jämför länder internationellt.</p><p dir=\"ltr\">Open Data in Europe tittar på tre områden av påverkan: <strong>politiska, ekonomiska och sociala</strong>.</p>",
+    "displayTitle": " Hur mäter vi effekten?",
+    "title": " Hur mäter vi effekten?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "narrative",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "mobileInstruction": "",
+    "_hasNavigationInTextArea": false,
+    "_setCompletionOn": "inview",
+    "_items": [
+      {
+        "title": "Politisk påverkan",
+        "body": "<p dir=\"ltr\">De faktorer som utgör den politiska effektindikatorn är: påverkan på myndigheters effektivitet och påverkan på öppenhet och ansvar.</p><p dir=\"ltr\">År 2016 var de länder som hade högst poäng för politisk påverkan Slovakien, Irland, Bulgarien, Frankrike och Grekland.</p><p dir=\"ltr\"><a href=\"https://www.europeandataportal.eu/sv/dashboard\">Hämta datan</a></p><p dir=\"ltr\">I Bulgarien behöver statliga myndigheter inte längre begära ut data från andra avdelningar eftersom datan nu publiceras öppet, vilket sparar tid och kostnader när det gäller att begära ut data.</p><p dir=\"ltr\">I Irland hjälper <a href=\"https://www.google.com/url?q=http://myplan.ie&amp;sa=D&amp;ust=1496165737909000&amp;usg=AFQjCNGEgrOgEEPPmZOGBCpte6ZzCrutug\" target=\"_blank\">myplan.ie</a> lokala myndigheter att standardisera publiceringen av planeringsdata. Detta hjälper utgivarna att samordna sina ansträngningar men resulterar också i mer användbara och jämförbara data.</p>",
+        "_graphic": {
+          "src": "course/sv/assets/3f1d65f956a8899071b4f3584b4a88d3851863df.jpg",
+          "alt": "",
+          "attribution": "<a href=\"https://pixabay.com/sv/hands-hand-raised-hands-raised-220163/\" target=\"_blank\">Kaz</a> <span class='assetLicence'>[CC0]</span>"
+        },
+        "strapline": "Politisk påverkan"
+      },
+      {
+        "title": "Ekonomisk påverkan",
+        "body": "<p dir=\"ltr\">Den ekonomiska konsekvensindikatorn är baserad på genomförandet av flera makroekonomiska studier som bedömer marknadsvärdet av öppna data och studier avseende bättre serviceleverans eller tittar på relaterade ämnen.</p><p dir=\"ltr\">År 2016 var de länderna som hade högst poäng för  ekonomisk påverkan Slovakien och Spanien.</p><p dir=\"ltr\"><a href=\"https://www.europeandataportal.eu/sv/dashboard\">Hämta datan</a></p><p dir=\"ltr\">En spansk studie upptäckte att återanvändningen av meteorologiska data i elsektorn kunde <a href=\"http://http://www.ontsi.red.es/ontsi/es/estudios-informes/an%C3%A1lisis-coste-beneficio-de-la-reutilizaci%C3%B3n-de-la-informaci%C3%B3n-meteorol%C3%B3gica-en-el\">minska kostnaderna med över 1000 miljoner euro</a>.</p><p dir=\"ltr\">En studie från 2015 visade att brittiska företag som använder, producerar eller investerar i öppna data har en sammanlagd <a href=\"https://theodi.org/open-data-means-business\" target=\"_blank\">årlig omsättning på över 92 miljarder pund</a> och sysselsätter över 500 000 personer.</p><p>Läs mer om det <a href=\"https://www.europeandataportal.eu/sv/highlights/creating-value-through-open-data\" target=\"_blank\">ekonomiska värdet av öppna data i Europa</a>.</p>",
+        "_graphic": {
+          "src": "course/sv/assets/e7980bbe7f0e8916f118a2bf24193c8f88211ba2.jpg",
+          "alt": "",
+          "attribution": "<a href=\"https://www.shutterstock.com/image-vector/cloud-business-process-management-concept-blue-259560827\" target=\"_blank\">JeKh</a> <span class='assetLicence'>[Shutterstock standard licence]</span>"
+        },
+        "strapline": "Ekonomisk påverkan"
+      },
+      {
+        "title": "Social påverkan påverkan",
+        "body": "<p dir=\"ltr\">Den sociala påverkansindikatorn inbegriper inverkan på miljömässig hållbarhet och införandet av marginaliserade grupper i policyskapande och tillgång till statliga tjänster.</p><p dir=\"ltr\">De två länderna som hade högst poäng för 2016 var Spanien och Storbritannien.</p><p><a href=\"https://www.europeandataportal.eu/sv/dashboard\" target=\"_blank\">Hämta datan</a></p><p>Ett spanskt exempel på att inkludera marginaliserade grupper är <a href=\"http://www.sinbarrera.es/\" target=\"_blank\">Sin Barrera</a>, ett verktyg för att hitta handikappsparkeringsplatser.</p>",
+        "_graphic": {
+          "src": "course/sv/assets/194749d6a3d955ccf1327dff670d11d82f1e5892.jpg",
+          "alt": "",
+          "attribution": "<a href=\"http://www.shutterstock.com/pic-185008832\" target=\"_blank\">suarassawadee</a> <span class='assetLicence'>[Shutterstock standard licence]</span>"
+        },
+        "strapline": "Social påverkan påverkan"
+      }
+    ]
+  },
+  {
+       "_id":"c-95",
+       "_parentId":"b-11",
+       "_type":"component",
+       "_component":"text",
+       "_classes":"separator",
+       "_layout":"full"
+    },
+    {
+       "_id":"c-96",
+       "_parentId":"b-11",
+       "_type":"component",
+       "_component":"text",
+       "_classes": "attribution",
+       "body":"&copy; <a href='https://theodi.org' target='_blank'>Open Data Institute</a>",
+       "_layout":"full"
+    },
+    {
+        "_id":"c-100",
+        "_parentId":"b-11",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"footer-logo",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Open data institute logo",
+            "title": "Open data institute logo",
+            "large": "course/sv/images/logo-small.png",
+            "medium": "course/sv/images/logo-small.png",
+            "small": "course/sv/images/logo-small.png",
+            "*source":"http://theodi.org",
+            "*credit":"The Open Data Institute",
+            "*license":"All rights reserved"  
+        }
+    },
+    {
+        "_id":"c-104",
+        "_parentId":"b-11",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"attribution not-eu not-default",
+        "_layout":"right",
+        "body":"Content created by <a href='http://theodi.org' target='_blank'>The Open Data Institute</a>"
+    },
+    {
+        "_id":"c-105",
+        "_parentId":"b-11",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"social-buttons not-dlab",
+        "_layout":"right",
+        "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/sv/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/sv/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/sv/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/sv/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/sv/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/sv/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/sv/images/social/flickr.png'></a>"
+    }
+]
