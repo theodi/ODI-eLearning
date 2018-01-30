@@ -1,0 +1,685 @@
+[
+    {
+        "_id":"c-01",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"intro-logo",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "",
+            "medium": "",
+            "small": "",
+            "*source":"",
+            "*credit":"",
+            "*license":""
+        }
+    },
+    {
+        "_id":"c-02",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Hitta dolda data på webben",
+        "displayTitle":"Hitta dolda data på webben",
+        "body":"<p>.</p><p>De flesta data som finns tillgängliga på webben är dolda från det mänskliga ögat. Maskiner kan dock hitta och läsa dessa data. </p><h5>I den här modulen utforskar vi följande:</h5><ul class='ticks'><li>Så här hittar du dolda data</li><li>Vilka fördelar dolda data kan ge</li><li>Så här hämtar du dolda data</li></ul>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+     {
+    "_id":"c-11",
+    "_parentId":"b-10",
+    "_type":"component",
+    "_component":"iFrame-vimeo",
+    "_classes":"",
+    "_layout":"full",
+        "title":"Hitta dolda data – in 2 minutes",
+        "displayTitle": "Hitta dolda data – in 2 minutes",
+        "body": "ODI-läraren David Tarrant förklarar vad dolda data är, vilka fördelar den kan ge och var man kan hitta den.",
+        "instruction": "Om du vill aktivera och avaktivera undertexter klickar du på knappen 'cc' längst ned till höger om videoen",
+        "_setCompletionOn":"ended",
+        "_source": "https://player.vimeo.com/video/129197208",
+        "_media": {
+		"mp4": "course/sv/video/video.mp4",
+		"poster": "course/sv/video/placeholder.jpg"
+	},
+        "_height": {
+            "_small" : 250,
+            "_medium" : 350,
+            "_large" : 508
+        }
+    },
+    {
+        "_id":"c-21",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "The tip of the iceberg",
+            "title": "The tip of the iceberg",
+            "large": "course/sv/images/odi-001.jpg",
+            "medium": "course/sv/images/odi-001.jpg",
+            "small": "course/sv/images/odi-001.jpg",
+            "*source": "http://www.shutterstock.com/pic-278213858.html",
+            "*credit": "Lightspring",
+            "*licence": "Shutterstock standard license"
+        }
+    },
+    {
+        "_id":"c-22",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Data som folk inte kan se",
+        "displayTitle":"Data som folk inte kan se",
+        "body":"<p>Data är inte alltid lätt att hitta på webben, eftersom de flesta tillgängliga resurser endast är synliga för maskiner. Människor navigerar på webben visuellt, tittar på innehåll, klickar på länkar och laddar ner filer.</p><p>Maskiner, däremot, navigerar bara på webben genom logiska regler som anges i koden. Medan människor söker engagerande, interaktivt innehåll kräver maskiner struktur, logik och klarhet.</p><p>Denna skillnad skapar 'blinda fläckar' för hur människor och maskiner läser webben.</p><p>Till exempel kan maskiner inte alltid hitta en hämtningslänk på en sida; Människor har svårt att se strukturerad, icke-visuell data i webbkoden.</p><p>Nedladdningsbara öppna datafiler är bara en typ av data på webben. Mycket mer data förblir dolda i webbplatskoden.</p>"
+    },
+     {
+        "_id": "c-25",
+        "_parentId": "b-25",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Hitta dolda data",
+        "displayTitle": "Hitta dolda data",
+        "body": "Inte alla data är tillgängliga för nedladdning. Det finns ofta dold data på de olika webbplatser som vi besöker varje dag.",
+        "instruction": "<em class='desktop-instruction'>Klicka på framåtpilen för att se mer.</em><em class='mobile-instruction'>Välj '+' tecknet för att utforska ytterligare, och svep sedan bilden för att se mer.</em>",
+        "_items": [
+            {
+                "title": "Varför dölja data?",
+                "body": "<p>Växlingen till den datadrivna, mobilaktiverade webben har lett till en förändring av hur webbplatser byggs. För att möta användarnas förväntningar på interaktiva, visuella webbplatser, placerar utvecklare alltmer data i ett separat 'lager' eller ens i själva koden. Detta datalagret är ofta tillgängligt för personer som använder rätt verktyg.</p>",
+                "_graphic": {
+                    "src": "course/sv/images/odi-002.jpg",
+                    "alt": "Readiness",
+                    "title": "Readiness",
+                    "*source": "http://www.shutterstock.com/pic-145267489",
+                    "*credit": "kentoh",
+                    "*licence": "Shutterstock standard license"
+                },
+                "strapline": "Varför dölja data?"
+            },
+            {
+                "title": "Dolda data finns överallt",
+                "body": "<p>Webben är full av datakällor: från Wikipedia-sidor till semesterplanerare, modewebbplatser till energileverantörer.</p><p>Licenserna för denna dolda data är inte alltid tydliga. Bara för att data finns maskinläsbara på en offentlig webbplats innebär det inte att det är öppna data. Om du är osäker på om dolda data är licensierade som öppna, kolla med informationstillhandahållaren.</p>",
+                "_graphic": {
+                    "src": "course/sv/images/odi-003.jpg",
+                    "alt": "Implementation",
+                    "title": "Implementation",
+                    "*source": "http://www.shutterstock.com/pic-144137602",
+                    "*credit": "David Arts",
+                    "*licence": "Shutterstock standard license"
+                },
+                "strapline": "Dolda data finns överallt"
+            },
+            {
+                "title": "Vilken typ av data finns dolda?",
+                "body": "<p>Dolda data ser helt annorlunda ut än de öppna datamängder du laddar ner från en webbplats.</p><p>Maskinläsbar data på webben finns i format som JSON – det vanligaste och enklaste att använda - inbäddad i HTML, i XML och ibland i RDF.</p><p>Gör övningarna i den här modulen för att se om du kan extrahera data i dessa format.</p>",
+                "_graphic": {
+                    "src": "course/sv/images/odi-004.jpg",
+                    "alt": "Impact",
+                    "title": "Impact",
+                    "*source": "http://www.shutterstock.com/pic-79079872",
+                    "*credit": "Angela Waye",
+                    "*licence": "Shutterstock standard license"
+                },
+                "strapline": "Vilken typ av data finns dolda?"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-30",
+        "_parentId":"b-28",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Fördelar med dolda data",
+            "title": "Fördelar med dolda data",
+            "large": "course/sv/images/odi-005.jpg",
+            "medium": "course/sv/images/odi-005.jpg",
+            "small": "course/sv/images/odi-005.jpg",
+            "*source": "http://www.shutterstock.com/pic-203736538",
+            "*credit": "Digital Storm",
+            "*licence": "Shutterstock standard license"
+        }
+    },
+    {
+      "_id":"c-35",
+      "_parentId":"b-28",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"left",
+      "title":"Fördelar med dolda data",
+      "displayTitle": "Fördelar med dolda data",
+      "instruction": "<em>Klicka på rubrikerna för att få reda på mer.</em>",
+      "_items": [
+        {
+          "alt": "Kvalitet",
+          "title": "Kvalitet",
+          "body": "<p>I många fall är dolda data de data som används av en publicerare för att presentera den sida du besöker på deras webbplats.</p><p>Dolda data är därför en viktig del av deras online-verksamhet och det är troligt att publicisten bry sig om kvaliteten.</p><p>Data som extraheras från webben tenderar att vara mer tillförlitlig eftersom det är sannolikt att den datan är en del av kärnan i en organisations verksamhet. Därför är den mer sannolik att vara en pålitlig datakälla att arbeta med.</p>"
+        },
+        {
+          "alt": "Relevans",
+          "title": "Relevans",
+          "body": "<p>Organisationer publicerar inte alltid nedladdningsbara data. Men många av dem kör datadrivna webbplatser. Genom att få tillgång till data direkt genom befintliga dataflöden (eller från webbplatsens kod) ser man tydligt hur datan används. Detta gör att man snabbt kan identifiera relevant data genom den befintliga användningen, snarare än att behöva reda ut användningen själv. Till exempel BBC News-sidorna och deras dataflöden.<br /><a href='http://www.bbc.co.uk/news/10628494' target='_blank'>Ta mig till BBCs nyhetsflöden</a></p>"
+        },
+        {
+          "alt": "Sammanhang",
+          "title": "Sammanhang",
+          "body": "<p>När du har tillgång till data direkt från webben ser du den i ett kontext som används av publiceraren. Som vi har tagit upp i tidigare moduler är datakontexten en viktig del av dess användning.</p>"
+        },
+        {
+          "alt": "Bredd",
+          "title": "Bredd",
+          "body": "<p>Ofta är en organisation begränsad i mängden data som kan publiceras som nedladdningsbar data. Att hitta dolda data öppnar ett bredare utbud av resurser.</p>"
+        }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+     {
+        "_id": "c-40",
+        "_parentId": "b-30",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Så här hittar du dolda data",
+        "displayTitle": "Så här hittar du dolda data",
+        "body": "<p>Från data får vi information, från information vi får kunskap och insikt.</p><p>Observera att det faktum att du kan extrahera dolda data innebär inte att datan är öppen. Du bör alltid kolla webbplatsens användarvillkor och licenser innan du samlar eller använder data för något ändamål. För mer information om licensiering, se modul 4.</p<",
+        "instruction": "<em class='desktop-instruction'>Klicka på framåtpilen för att se mer.</em><em class='mobile-instruction'>Välj '+'' tecknet för att utforska ytterligare, och svep sedan bilden för att se mer.</em>",
+        "_items": [
+            {
+                "title": "Nedladdning av webbtillägg",
+                "body": "<p>Vissa webbplatser har byggts för att erbjuda ett sätt att extrahera data genom att lägga till en förlängning till webbadressen till den webbsida du tittar på. För sådana webbplatser, som vanligtvis underhålls av organisationer som också publicerar nedladdningsbara öppna data, kommer det korrekta tillägget att starta en nedladdning av webbsidan i ett dataformat, i motsats till ett webbläsarformat.</p><p>Ett bra exempel på detta är den brittiska regeringens webbplats (gov.uk) som tillhandahåller alla sina sidor i ett dataformat genom att helt enkelt lägga till den relevanta tillägget som '.json', till exempel www.gov.uk/browse/business.json.</p><p>Testa principen med Storbritanniens handelsdata genom att titta på följande sida och sedan lägga till '.json' för att få data.<br /><a href='https://www.gov.uk/trade-tariff/sections' target='_blank'>Ta mig till Storbritaniens handelsdata</a></p><p>För att se datan i en mer mänsklig läsbar form, kopiera den till jsonlint.com.</p>",
+                "_graphic": {
+                    "src": "course/sv/images/odi-006.jpg",
+                    "alt": "Extensions",
+                    "title": "Extensions",
+                    "*source": "http://www.shutterstock.com/pic-119236978",
+                    "*credit": "spaxiax",
+                    "*licence": "Shutterstock standard license"
+                },
+                "strapline": "Nedladdning av webbtillägg"
+            },
+            {
+                "title": "Dataflöden",
+                "body": "<p>Många webbplatser tillhandahåller länkar till datasyndikeringsfeeds som man kan prenumerera på.</p><p>Dessa flöden kan vara RSS-flöden, Twitter-varningsfeeds eller andra mindre vanliga typer. Flöden kan användas för att få rå data om ett brett urval av innehåll.</p><p>För ett exempel på en rådata-feed, titta på BBC News Feed i XML.<br /><a href='http://feeds.bbci.co.uk/news/rss.xml' target='_blank'>Varför inte prova nyheterna från BBC i XML?</a></p><p>Nu kan du använda ett gratis onlineverktyg för att göra data enklare att använda.<br/><a href='http://codebeautify.org/xmlviewer' target='_blank'>Gå till codebeautify och ange BBC-feedadressen under \"Ladda URL\"</a></p><p class='not-dlab'>eller få varningar för översvämning från din närmaste flod (endast Storbritannien).<br /><a href='http://www.gaugemap.co.uk/' target='_blank'>Ta mig till flodnivåguiderna</a></p>",
+                "_graphic": {
+                    "src": "course/sv/images/odi-007.jpg",
+                    "alt": "Dataflöden",
+                    "title": "Dataflöden",
+                    "*source": "http://www.shutterstock.com/pic-72158482",
+                    "*credit": "Ing",
+                    "*licence": "Shutterstock standard license"
+                },
+                "strapline": "Dataflöden"
+            },
+            {
+                "title": "Källkod",
+                "body": "<p>Utöver att ge en enkel väg till data har många webbplatser data inbäddade i webbsidans källkod.</p><p>Ta en titt på ODIs experimentella verktyg \"Hidden Data Extractor\" och prova att hitta källkod.<br><br><a href='http://odinprac.theodi.org/hidden-data-extractor/' target='_blank'>Ta mig till ODI Hidden Data Extractor</a></p>",
+                "_graphic": {
+                    "src": "course/sv/images/odi-008.jpg",
+                    "alt": "Källkod",
+                    "title": "Källkod",
+                    "*source": "http://www.shutterstock.com/pic-119236978",
+                    "*credit": "spaxiax",
+                    "*licence": "Shutterstock standard license"
+                },
+                "strapline": "Källkod"
+            },
+            {
+                "title": "API eller maskinläsbara gränssnitt",
+                "body": "<p>Vissa webbplatser eller webbtjänster har ett maskinläsbart gränssnitt, eller API, för att fråga och komma åt deras data.</p><p>Exempel på tjänster som har API:er är <a href='https://api.opencorporates.com/' target='_blank'>Open Corporates</a> (öppen), <a href='http://wiki.openstreetmap.org/wiki/API' target='_blank'>OpenSteetMap</a> (öppen), <a href='https://dev.twitter.com/rest/public' target='_blank'>Twitter</a> (inte helt öppen), <a href='https://www.flickr.com/services/api/' target='_blank'>Flickr</a> (en del öppet), <a href='https://developer.linkedin.com/docs/rest-api' target='_blank'>LinkedIn</a> (ej öppet).</p><p>De flesta av dessa tjänster använder ett webbaserat API och tillåter tillägg (prova att lägga till '.json' på OpenCorporates). Även om detta API ser ut som det tidigare exemplet i det här avsnittet, ger dess formella status som API en garanti för att tjänsten kommer att finnas tillgänglig.</p>",
+                "_graphic": {
+                    "src": "course/sv/images/odi-009.jpg",
+                    "alt": "APIs",
+                    "title": "APIs",
+                    "*source": "http://www.shutterstock.com/pic-231102415",
+                    "*credit": "Imagentle",
+                    "*licence": "Shutterstock standard license"
+                },
+                "strapline": "API eller maskinläsbara gränssnitt"
+            },
+            {
+                "title": "Skrapning av webben",
+                "body": "<p>Om ingen av dessa tekniker fungerar kan du behöva skrapa de för en människa läsbara webbsidorna. Även om detta kan vara tillförlitligt, finns det risk för att layouten ändras såväl som innehållet.</p>",
+                "_graphic": {
+                    "src": "course/sv/images/odi-010.jpg",
+                    "alt": "Scraping the web",
+                    "title": "Scraping the web",
+                    "*source": "http://www.shutterstock.com/pic-231672367",
+                    "*credit": "McIek",
+                    "*licence": "Shutterstock standard license"
+                },
+                "strapline": "Skrapning av webben"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    }, {
+        "_id":"c-42",
+        "_parentId":"b-33",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/sv/images/burst.png",
+            "medium": "course/sv/images/burst.png",
+            "small": "course/sv/images/burst.png"
+        }
+    },
+    {
+        "_id":"c-43",
+        "_parentId":"b-33",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Är du redo att hitta dolda data?",
+        "displayTitle":"Är du redo att hitta dolda data?",
+        "body":"<p>Kan du komma ihåg de viktigaste sakerna om dolda data?</p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-45",
+        "_parentId":"b-35",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Tip of the iceberg",
+            "title": "Tip of the iceberg",
+            "large": "course/sv/images/odi-011.jpg",
+            "medium": "course/sv/images/odi-011.jpg",
+            "small": "course/sv/images/odi-011.jpg",
+            "*source": "http://www.shutterstock.com/pic-278213858.html",
+            "*credit": "Lightspring",
+            "*licence": "Shutterstock standard license"
+        }
+    },
+    {
+        "_id":"c-50",
+        "_parentId":"b-35",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"58b83ba0fda9f5660ad85ae1",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Vad är dolda data?",
+        "displayTitle": "Vad är dolda data?",
+        "body": "<p>Dolda data är ...</p>",
+        "instruction": "<em>Välj ditt svar och klicka sedan på 'Skicka'</em>",
+        "_items": [
+            {
+                "text": "En del av en skattejakt",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "data som är synliga för maskiner men osynliga för mänskliga ögon",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "filer som är svåra att ladda ner",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Rätt!</h5><p>Dolda data är data som är osynliga för människor när de navigerar på webben men som en maskin lätt kan hitta och förstå</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Är det säkert?</h5><p>Dolda data är data som är osynliga för människor när de navigerar på webben men som en maskin lätt kan hitta och förstå</p>",
+                "final": "<h5>Är det säkert?</h5><p>Dolda data är data som är osynliga för människor när de navigerar på webben men som en maskin lätt kan hitta och förstå</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "",
+                "final": ""
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-55",
+        "_parentId":"b-40",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Impact",
+            "title": "",
+            "large": "course/sv/images/odi-012.jpg",
+            "medium": "course/sv/images/odi-012.jpg",
+            "small": "course/sv/images/odi-012.jpg",
+            "*source": "http://www.shutterstock.com/pic-79079872",
+            "*credit": "Angela Waye",
+            "*licence": "Shutterstock standard license"
+        }
+    },
+    {
+        "_id":"c-60",
+        "_parentId":"b-40",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"58b83d11fda9f5660ad85ae5",
+        "_classes":"",
+        "_layout":"right",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Varför är data dolda?",
+        "displayTitle": "Varför är data dolda?",
+        "body": "<p>Folk gömmer data eftersom ...</p>",
+        "instruction": "<em>Välj ditt svar och klicka sedan på 'Skicka'</em>",
+        "_items": [
+            {
+                "text": "de skäms över datan",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "datan är rörig",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "de flesta dolda data har inte lagts ut medvetet",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Rätt!</h5><p>De flesta dolda data är inte avsiktligt gömda. Ofta är den organisation som bygger webbplatsen fokuserad på hur människor navigerar på sidorna och därför tänker de inte på hur data tillhandahålls.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Är det säkert?</h5><p>De flesta dolda data är inte avsiktligt gömda. Ofta är den organisation som bygger webbplatsen fokuserad på hur människor navigerar på sidorna och därför tänker de inte på hur data tillhandahålls.</p>",
+                "final": "<h5>Är det säkert?</h5><p>De flesta dolda data är inte avsiktligt gömda. Ofta är den organisation som bygger webbplatsen fokuserad på hur människor navigerar på sidorna och därför tänker de inte på hur data tillhandahålls.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Är det säkert?</h5><p>De flesta dolda data är inte avsiktligt gömda. Ofta är den organisation som bygger webbplatsen fokuserad på hur människor navigerar på sidorna och därför tänker de inte på hur data tillhandahålls.</p>",
+                "final": "<h5>Är det säkert?</h5><p>De flesta dolda data är inte avsiktligt gömda. Ofta är den organisation som bygger webbplatsen fokuserad på hur människor navigerar på sidorna och därför tänker de inte på hur data tillhandahålls.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-65",
+        "_parentId":"b-45",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Fördelar med dolda data",
+            "title": "",
+            "large": "course/sv/images/odi-013.jpg",
+            "medium": "course/sv/images/odi-013.jpg",
+            "small": "course/sv/images/odi-013.jpg",
+            "*source": "http://www.shutterstock.com/pic-203736538",
+            "*credit": "Digital Storm",
+            "*licence": "Shutterstock standard license"
+        }
+    },
+    {
+        "_id":"c-70",
+        "_parentId":"b-45",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"58b83d8dfda9f5660ad85ae9",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Fördelar med dolda data",
+        "displayTitle": "Fördelar med dolda data",
+        "body": "<p>Vilket av följande är inte en fördel med dolda data?</p>",
+        "instruction": "<em>Välj ett alternativ och klicka sedan på 'Skicka'</em>",
+        "_items": [
+            {
+                "text": "Bredd",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Kvalitet",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Läsbarhet",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "Relevans",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Sammanhang",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Rätt!</h5><p>Dolda data kan öka relevansen, kvaliteten och bredden på data, samt belysa kontekten där datan används.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Är det säkert?</h5>Dolda data kan öka relevansen, kvaliteten och bredden på data, samt belysa kontekten där datan används.</p>",
+                "final": "<h5>Är det säkert?</h5>Dolda data kan öka relevansen, kvaliteten och bredden på data, samt belysa kontekten där datan används.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "Dolda data kan öka relevansen, kvaliteten och bredden på data, samt belysa kontekten där datan används.",
+                "final": "Dolda data kan öka relevansen, kvaliteten och bredden på data, samt belysa kontekten där datan används."
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-72",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Källkod",
+            "title": "",
+            "large": "course/sv/images/odi-014.jpg",
+            "medium": "course/sv/images/odi-014.jpg",
+            "small": "course/sv/images/odi-014.jpg",
+            "*source": "http://www.shutterstock.com/pic-119236978",
+            "*credit": "spaxiax",
+            "*licence": "Shutterstock standard license"
+        }
+    },
+    {
+        "_id":"c-73",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"58b83ffdfda9f5660ad85af2",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Hur kan du extrahera dolda data från en webbplats?",
+        "displayTitle": "Hur kan du extrahera dolda data från en webbplats?",
+        "body": "<p>Vilket av följande är ett användbart sätt att extrahera dolda data från en webbplats?</p>",
+        "instruction": "<em>Välj ett alternativ och klicka sedan på 'Skicka'</em>",
+        "_items": [
+            {
+                "text": "Cacha länken till webbplatsen",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Ladda om sidan",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Inspektera källkoden",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Rätt!</h5><p>Att inspektera källkoden på en webbplats avslöjar ofta dolda data</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Är det säkert?</h5><p>Inspektera källkoden of a website often reveals hidden data embedded in the page</p>",
+                "final": "<h5>Är det säkert?</h5><p>Dolda data kan öka relevansen, kvaliteten och bredden på data, samt belysa kontekten där datan används.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Är det säkert?</h5><p>Inspektera källkoden of a website often reveals hidden data embedded in the page</p>",
+                "final": "<h5>Är det säkert?</h5><p>Att inspektera källkoden på en webbplats avslöjar ofta dolda data</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-85",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Summary icon clipboard",
+            "title": "Summary icon clipboard",
+            "large": "course/sv/images/summary-icon.png",
+            "medium": "course/sv/images/summary-icon.png",
+            "small": "course/sv/images/summary-icon.png",
+            "*source":"http://www.shutterstock.com/pic-189810137.html",
+            "*credit":"Kritchanut",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-90",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Hitta dolda data",
+        "displayTitle":"Hitta dolda data",
+        "body":"<p>Data som är tillgänglig för nedladdning är endast en liten del av den data som finns tillgänglig på webben.</p><p>Det mänskliga ögat kan inte alltid upptäcka data, men det är möjligt att identifiera och hämta en mängd nya data med hjälp av maskiner.</p><p>Data från dessa webbplatser är ofta mycket bredare och mer relevanta för ditt arbete än nedladdningsbara filer och kommer också direkt från det sammanhang där utgivaren redan använder den.</p><p>Genom att öka din medvetenhet om dolda data och lära dig några av de enkla metoderna i den här modulen, som att lägga till extensions på webbadresser och API:er, kommer du att kunna få tillgång till ett brett spektrum av relevanta data för ditt framtida arbete.</p><p><a class='course_link' href='../module13/'>Nästa modul</a></p><p><a class='course_link' href='../'>Huvudmeny</a></p>",
+        "_pageLevelProgress": {
+          "_isEnabled": true
+        }
+    },
+    {
+       "_id":"c-95",
+       "_parentId":"b-55",
+       "_type":"component",
+       "_component":"text",
+       "_classes":"separator",
+       "_layout":"full"
+    },
+    {
+       "_id":"c-96",
+       "_parentId":"b-55",
+       "_type":"component",
+       "_component":"text",
+       "_classes": "attribution",
+       "body":"&copy; <a href='https://ec.europa.eu/commission/index_en' target='_blank'>European Commission</a>",
+       "_layout":"full"
+    },
+    {
+        "_id":"c-100",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"footer-logo",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Open data institute logo",
+            "title": "Open data institute logo",
+            "large": "course/sv/images/logo-small.png",
+            "medium": "course/sv/images/logo-small.png",
+            "small": "course/sv/images/logo-small.png",
+            "*source":"http://theodi.org",
+            "*credit":"The Open Data Institute",
+            "*license":"All rights reserved"  
+        }
+    },
+    {
+        "_id":"c-104",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"attribution not-eu not-default",
+        "_layout":"right",
+        "body":"Content created by <a href='http://theodi.org' target='_blank'>The Open Data Institute</a>"
+    },
+    {
+        "_id":"c-105",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"social-buttons not-dlab",
+        "_layout":"right",
+        "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/sv/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/sv/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/sv/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/sv/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/sv/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/sv/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/sv/images/social/flickr.png'></a>"
+    }
+]
