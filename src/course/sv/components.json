@@ -1,0 +1,676 @@
+[
+    {
+        "_id":"c-02",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"intro-logo",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "",
+            "medium": "",
+            "small": "",
+            "*source": "",
+            "*credit": "",
+            "*license": ""
+        }
+    },
+    {
+        "_id":"c-01",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Så här rengör du dina data",
+        "displayTitle":"Så här rengör du dina data",
+        "body":"<p>En av de största utmaningarna när man arbetar med data handlar om fel. Ofta märks inte felen av datapubliceraren eftersom data kan förändras under många år. I andra fall kan fel vara resultatet av mänskliga misstag vid datainmatning, som felskrivning eller felaktiga förkortningar.</p><p>När du arbetar med data är det viktigt att veta hur man hittar fel och korrigerar dem för att göra data mer användbara.</p><h5>I den här modulen utforskar vi följande:</h5><ul class='ticks'><li>Vanliga datafel</li><li>Användbara verktyg för rensning av data</li><li>Skäl att rensa data</li></ul>",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-11",
+        "_parentId":"b-10",
+        "_type":"component",
+        "_component":"iFrame-vimeo",
+        "_classes":"",
+        "_layout":"full",
+        "title":"Datarengöring - på två minuter",
+        "displayTitle": "Datarengöring - på två minuter",
+        "body": "ODI-läraren David Tarrant förklarar varför ren öppna data är viktig, hur man rengör öppna data du hittar och vilka verktyg som finns tillgängliga som stöd.",
+        "instruction": "Om du vill aktivera och avaktivera undertexter klickar du på knappen \"cc\" längst ned till höger om videoen",
+        "_setCompletionOn":"ended",
+        "_source": "https://player.vimeo.com/video/129197207",
+        "_media": {
+		"mp4": "course/sv/video/video.mp4",
+		"poster": "course/sv/video/placeholder.jpg"
+	},
+        "_height": {
+            "_small" : 250,
+            "_medium" : 350,
+            "_large" : 508
+        }
+    },
+       {
+        "_id":"c-21",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "What do we mean by clean data?",
+            "title": "What do we mean by clean data?",
+            "large": "course/sv/images/odi-001.jpg",
+            "medium": "course/sv/images/odi-001.jpg",
+            "small": "course/sv/images/odi-001.jpg",
+            "*source": "http://www.shutterstock.com/pic-246719938",
+            "*credit": "Sashkin",
+            "*license": "Shutterstock standard license"
+        }
+    },
+    {
+        "_id":"c-22",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"inverted",
+        "_layout":"right",
+        "title":"Visa på värdet: vad menar vi med rena data?",
+        "displayTitle":"Visa på värdet: vad menar vi med rena data?",
+        "body":"<p>Att veta att data är rena är viktiga för att du ska ha en pålitlig utgångspunkt när du arbetar med data och skapar nytt värde från data.</p><p>Ren data är data som är konsekvent, fri från dubbletter och redo för maskinkonsumtion.</p><p>Om data är rena är det lättare att kombinera det med olika dataset och få djupare insikter.<p>"
+        },
+     {
+        "_id":"c-32",
+        "_parentId":"b-30",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Vanliga fel i data",
+            "title": "Vanliga fel i data",
+            "large": "course/sv/images/odi-002.jpg",
+            "medium": "course/sv/images/odi-002.jpg",
+            "small": "course/sv/images/odi-002.jpg",
+            "*source": "http://www.shutterstock.com/pic-232737427",
+            "*credit": "Kirill_M",
+            "*license": "Shutterstock standard license"
+        }
+    },
+    {
+      "_id":"c-31",
+      "_parentId":"b-30",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"left",
+      "title": "Vanliga fel i data",
+      "displayTitle": "Vanliga fel i data",
+      "body": "Det finns ett antal vanliga fel i data som du bör se upp för i alla datamängder som du arbetar med.",
+      "instruction": "<em>Klicka på rubrikerna för att utforska ytterligare.</em>",
+      "_items": [
+        {
+          "alt": "Fel datumformat",
+          "title": "Fel datumformat",
+          "body": "<p>Datum kan skrivas på inkonsekvent sätt. Blandade datumformat är ibland enkla att upptäcka:<br><br>8-sep-2013 vs 8/9/2013<br><br>och ibland mindre uppenbart:<br><br>8/9/2013 vs 9/8/2013.<br><br>En annan utmaning är att vissa applikationer, som Excel, kommer att 'gissa' formatet när en datamängd öppnas, vilket kan dölja hur datumen faktiskt skrivs i filen.</p><p>Det vanligaste felet är blandad användning av amerikanska (MM / DD / ÅÅÅÅ) och europeiska (DD / MM / ÅÅÅÅ) format.</p>"
+        },
+        {
+          "alt": "Flera representationer",
+          "title": "Flera representationer",
+          "body": "<p>Man har ofta försökt spara tid när man anger data med förkortande villkor. Om dessa förkortningar inte är konsekventa kan det orsaka fel i datamängden.</p><p>Skillnader i kapitalisering, avstånd och könsbestämningar kan ge upphov till fel.</p>"
+        },
+        {
+          "alt": "Duplicerade poster",
+          "title": "Duplicerade poster",
+          "body": "<p>En duplikatpost är en post där samma data har skrivits in mer än en gång. Duplikatposter förekommer ofta när datamängder har kombinerats eller om man inte kände till att posten i fråga redan fanns.</p>"
+        },
+        {
+          "alt": "Överflödiga data",
+          "title": "Överflödiga data",
+          "body": "<p>Överflödiga data är data som inte är relevanta för ditt arbete med datamängden. Ofta har en datamängd skapats för ett specifikt syfte som kräver detaljer som du kanske inte behöver.</p><p>Vanliga förekomster av redundanta data inkluderar rader som representerar totala belopp.</p><p>Andra gånger har datakolumner kombinerats eller replikerats för att hjälpa den mänskliga läsbarheten.</p>"
+        },
+        {
+          "alt": "Blandade numeriska skalor",
+          "title": "Blandade numeriska skalor",
+          "body": "<p>Numeriska värden i datamängder använder ofta olika skalor för att underlätta för en människa att läsa. I budgetdatamängder är enheterna ofta i miljoner. 1.200.000 blir ofta 1,2m. Men mindre belopp som 800 000 skrivs fortfarande i sin helhet. För en maskin betyder det att de läser den större siffran som 1,2, vilket orsakar fel.</p>"
+        },
+        {
+          "alt": "Blandade intervall",
+          "title": "Blandade intervall",
+          "body": "<p>Data mäts ibland i intervall, t.ex. ålders- eller löneintervall. För att en maskin ska kunna förstå dessa intervall är det viktigt att skilja de höga och låga värdena åt.</p>"
+        },
+        {
+          "alt": "Stavfel",
+          "title": "Stavfel",
+          "body": "<p>Stavfel är ofta svåra att identifiera i tabelldata.</p><p>Glöm inte att köra dina data via en stavningskontroll för att fånga stavfel.</p>"
+        }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id": "c-41",
+        "_parentId": "b-40",
+        "_classes": "inverted",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Datatreningsverktyget",
+        "displayTitle": "Datatreningsverktyget",
+        "body": "Utan rena data kan vi inte bygga upp information. Det finns ett antal användbara verktyg som kan hjälpa till att rensa data.",
+        "instruction": "<em>Klicka på framåtpilen för att se mer.</em>",
+        "_items": [
+            {
+                "title": "Datatreningsverktyget",
+                "body": "<p>När du letar efter fel i data kan det vara nödvändigt att ladda ner och ladda upp datamängder i många verktyg för rensning och bearbetning.</p><p>Det är också viktigt att notera vilka förändringar som gjorts och dela dem öppet med andra så att alla kan dra nytta av ditt arbete, särskilt om de data du städar är befintliga öppna data som har publicerats.</p><p>I det här avsnittet tittar vi på två av de viktigaste verktygen och deras användningsområden:</h5><ul class='bullet'><li>Open Refine</li><li> Excel och liknande kalkylarksprogram</li></ul></p>",
+                "_graphic": {
+                    "src": "course/sv/images/odi-003.jpg",
+                    "alt": "A toolkit",
+                    "title": "A toolkit",
+                    "*source": "http://www.shutterstock.com/pic-232737427",
+                    "*credit": "Kirill_M",
+                    "*license": "Shutterstock standard license"
+                },
+                "strapline": "Datatreningsverktyget"
+            },
+            {
+                "title": "Open Refine",
+                "body": "Open Refine är ett mjukvaruverktyg som är utformat för att hantera oren data. Verktyget är en kolumnbaserad webbläsare som låter dig rätta fel i hela datamängd med en enda åtgärd. Fel som kan lösas inkluderar:</h5><ul class='bullet'><li>Datumformat</li><li>Flera representationer</li><li>Duplicerade poster</li><li>Överflödiga data</li><li>Blandade numeriska skalor</li><li>Blandade intervall</li></ul>",
+                "_graphic": {
+                    "src": "course/sv/images/odi-004.jpg",
+                    "alt": "Open refine",
+                    "title": "open refine",
+                    "*source": "http://openrefine.org/",
+                    "*credit": "OpenRefine",
+                    "*license": "CC3.0-BY-SA"
+                },
+                "strapline": "Open Refine"
+            },
+            {
+                "title": "Kalkylarksprogram",
+                "body": "Open Refine är ett viktigt verktyg för att rensa data. Det är emellertid ibland lättare att rätta vissa fel i ett kalkylprogram:</h5><ul class='bullet'><li>Stavfel</li><li>Överflödiga data</li><li>Numerisk verifiering</li><li>Korrigera ostrukturerad data</li></ul>",
+                "_graphic": {
+                    "src": "course/sv/images/odi-005.jpg",
+                    "alt": "Spreadsheet",
+                    "title": "Spreadsheet",
+                    "*source": "http://www.shutterstock.com/pic-224184241",
+                    "*credit": "McIek",
+                    "*license": "Shutterstock Standard License"
+                },
+                "strapline": "Kalkylarksprogram"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+ {
+        "_id": "c-51",
+        "_parentId": "b-50",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Vilka är fördelarna med att rensa data?",
+        "displayTitle": "Vilka är fördelarna med att rensa data?",
+        "body": "Förutom de verktyg som kan användas för att rensa öppna data så är det viktigt att förstå de fördelar som rensning ger.",
+        "instruction": "<em>Klicka på framåtpilen för att se mer.</em>",
+        "_items": [
+            {
+                "title": "Prioritera rensning",
+                "body": "<p>Om data inte är rena kan beslut som fattas utifrån datan vara fel. Detta kan påverka produkter eller insikter du utvecklar från datan och i vissa fall påverkar tusentals eller till och med miljontals människor. </p><p>En <a class='' href='http://www.ercim.eu/publication/ws-proceedings/12th-EDRG/EDRG12_JeDiRe.pdf' target='_blank'>ny studie visade</a> att processen med att förbereda data för analys kan ta allt mellan 60% till 80% av tiden för ett data-driven projekt.</p>",
+                "_graphic": {
+                    "src": "course/sv/images/odi-006.jpg",
+                    "alt": "Prioritera rensning",
+                    "title": "Prioritera rensning",
+                    "*source": "http://www.shutterstock.com/pic.mhtml?id=58591429&src=lb-36497927",
+                    "*credit": "higyou",
+                    "*license": "Shutterstock Standard License"
+                },
+                "strapline": "Prioritera rensning"
+            },
+            {
+                "title": "Förbättra användbarheten",
+                "body": "<p>Att dela en ren öppna data-mängd gör datan mer användbar. Verktyg som Open Refine låter dig dela förändringshistorik och visar vad som har rengjorts och hur. Att göra rensningsprocessen öppen, såväl som datan, bidrar till hållbarheten och tilliten hos datamängden.</p><p>Det finns också datarengöringsgemenskaper, till exempel OpenStreetMap communities.<br><br><a class='' href='http://wiki.openstreetmap.org/wiki/WikiProject_Denmark' target='_blank'>Ta mig till OSM Denmark Community Wiki</a></p>",
+                "_graphic": {
+                    "src": "course/sv/images/odi-007.jpg",
+                    "alt": "Prioritera rensning",
+                    "title": "Prioritera rensning",
+                    "*source": "http://www.shutterstock.com/pic-285210746",
+                    "*credit": "Horoscope",
+                    "*license": "Shutterstock Standard License"
+                },
+                "strapline": "Förbättra användbarheten"
+            },
+            {
+                "title": "Upptäck mer",
+                "body": "<p>Många dataväxlingsverktyg, inklusive Open Refine, hjälper dig att kombinera och berika dataset. Detta kan leda till att värdefulla upptäckter görs.</p>Till exempel kan berikande av en datamängd som avser företag (med namn eller någon annan identifierare) informera dig om verksamheten fortfarande är igång och dess nuvarande ekonomiska ställning.</p><p><a href='http://training.theodi.org/resources/odt/Enrichingdata.pdf' target='_blank'>Kom igång med att berika data.</a></p>",
+                "_graphic": {
+                    "src": "course/sv/images/odi-008.jpg",
+                    "alt": "Upptäck mer",
+                    "title": "Upptäck mer",
+                    "*source": "http://www.shutterstock.com/pic-68619337",
+                    "*credit": "Paperboat",
+                    "*license": "Shutterstock Standard License"
+                },
+                "strapline": "Upptäck mer"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-42",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/sv/images/burst.png",
+            "medium": "course/sv/images/burst.png",
+            "small": "course/sv/images/burst.png"
+        }
+    },
+    {
+        "_id":"c-43",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Är du redo att rensa data?",
+        "displayTitle":"Är du redo att rensa data?",
+        "body":"<p>Kan du komma ihåg skälen till varför data måste rensas, vilka verktyg som ska användas och vilka vanliga fel du ska leta efter i datamängder?</p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+{
+        "_id":"c-61",
+        "_parentId":"b-60",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "unclean data",
+            "title": "unclean data",
+            "large": "course/sv/images/odi-009.jpg",
+            "medium": "course/sv/images/odi-009.jpg",
+            "small": "course/sv/images/odi-009.jpg",
+            "*source": "http://www.shutterstock.com/pic.mhtml?id=58591429&src=lb-36497927",
+            "*credit": "higyou",
+            "*license": "Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-62",
+        "_parentId":"b-60",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"58948132fda9f5660ad841d6",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Varför behöver data rensas?",
+        "displayTitle": "Varför behöver data rensas?",
+        "body": "<p>Oren öppna data är ett problem eftersom:</p>",
+        "instruction": "<em>Välj ditt svar och klicka sedan på 'Skicka'</em>",
+        "_items": [
+            {
+                "text": "den kan inte ritas upp i ett diagram",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "den kan inte publiceras",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "den kan leda till felaktiga slutsatser",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Rätt!</h5><p>Oren data är ett problem eftersom det kan leda till att felaktiga slutsatser dras. Detta bör inte förhindra att data publiceras eller används, men den måste rengöras.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Är det säkert? </h5><p>Oren data är ett problem eftersom det kan leda till att felaktiga slutsatser dras. Detta bör inte förhindra att data publiceras eller används, men den måste rengöras.</p>",
+                "final": "<h5>Är det säkert? </h5><p>Oren data är ett problem eftersom det kan leda till att felaktiga slutsatser dras. Detta bör inte förhindra att data publiceras eller används, men den måste rengöras.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "Oren data är ett problem eftersom det kan leda till att felaktiga slutsatser dras. Detta bör inte förhindra att data publiceras eller används, men den måste rengöras.",
+                "final": "Oren data är ett problem eftersom det kan leda till att felaktiga slutsatser dras. Detta bör inte förhindra att data publiceras eller används, men den måste rengöras."
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-71",
+        "_parentId":"b-70",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Useful tools",
+            "title": "Useful tools",
+            "large": "course/sv/images/odi-010.jpg",
+            "medium": "course/sv/images/odi-010.jpg",
+            "small": "course/sv/images/odi-010.jpg",
+            "*source": "http://www.shutterstock.com/pic-285210746",
+            "*credit": "Horoscope",
+            "*license": "Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-72",
+        "_parentId":"b-70",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"589482a6fda9f5660ad841dc",
+        "_classes":"",
+        "_layout":"right",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Vilka är två av de mest användbara verktygen för att rensa data?",
+        "displayTitle": "Vilka är två av de mest användbara verktygen för att rensa data?",
+        "body": "<p>Vilka är två av de mest användbara verktygen för att rensa data?</p>",
+        "instruction": "<em>Välj ditt svar och klicka sedan på 'Skicka'</em>",
+        "_items": [
+            {
+                "text": "Microsoft Access och Adobe Photoshop",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Apple Notes och Microsoft Word",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Microsoft Excel och Open Refine",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Rätt!</h5><p>Open Refine och Excel (eller motsvarande kalkylbladredigerare) är två av de mest användbara verktygen för att rensa öppna data.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Är det säkert?</h5><p>Open Refine och Excel (eller motsvarande kalkylbladredigerare) är två av de mest användbara verktygen för att rensa öppna data.</p>",
+                "final": "<h5>Är det säkert?</h5><p>Open Refine och Excel (eller motsvarande kalkylbladredigerare) är två av de mest användbara verktygen för att rensa öppna data.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "Open Refine och Excel (eller motsvarande kalkylbladredigerare) är två av de mest användbara verktygen för att rensa öppna data.",
+                "final": "Open Refine och Excel (eller motsvarande kalkylbladredigerare) är två av de mest användbara verktygen för att rensa öppna data."
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-81",
+        "_parentId":"b-80",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "A toolkit",
+            "title": "",
+            "large": "course/sv/images/odi-011.jpg",
+            "medium": "course/sv/images/odi-011.jpg",
+            "small": "course/sv/images/odi-011.jpg",
+            "*source": "http://www.shutterstock.com/pic-232737427",
+            "*credit": "Kirill_M",
+            "*license": "Shutterstock standard license"
+        }
+    },
+    {
+        "_id":"c-82",
+        "_parentId":"b-80",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"589483b9fda9f5660ad841e0",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":3,
+        "title": "Identifiera fel",
+        "displayTitle": "Identifiera fel",
+        "body": "<p>Vilket av följande är fel i data som kräver rensning?</p>",
+        "instruction": "<em>Välj tre svar och klicka på 'Skicka'</em>",
+        "_items": [
+            {
+                "text": "Blandade numeriska skalor",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "Brist på granularitet",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Överflödiga data",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "Brist på licens",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Flera representationer",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Rätt!</h5><p>Blandad användning av skalor, överflödiga data och flera representationer av samma data är bara några av de fel som behöver lösas i oren data. Medan granularitet och brist på licens är ett problem, är det inte relaterat till att själva datan är oren.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Är det säkert? </h5><p>Blandad användning av skalor, överflödiga data och flera representationer av samma data är bara några av de fel som behöver lösas i oren data. Medan granularitet och brist på licens är ett problem, är det inte relaterat till att själva datan är oren.</p>",
+                "final": "<h5>Är det säkert? </h5><p>Blandad användning av skalor, överflödiga data och flera representationer av samma data är bara några av de fel som behöver lösas i oren data. Medan granularitet och brist på licens är ett problem, är det inte relaterat till att själva datan är oren.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Är det säkert? </h5><p>Blandad användning av skalor, överflödiga data och flera representationer av samma data är bara några av de fel som behöver lösas i oren data. Medan granularitet och brist på licens är ett problem, är det inte relaterat till att själva datan är oren.</p>",
+                "final": "<h5>Är det säkert? </h5><p>Blandad användning av skalor, överflödiga data och flera representationer av samma data är bara några av de fel som behöver lösas i oren data. Medan granularitet och brist på licens är ett problem, är det inte relaterat till att själva datan är oren.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-91",
+        "_parentId":"b-90",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Common errors is data",
+            "title": "",
+            "large": "course/sv/images/odi-012.jpg",
+            "medium": "course/sv/images/odi-012.jpg",
+            "small": "course/sv/images/odi-012.jpg",
+            "*source": "http://www.shutterstock.com/pic-232737427",
+            "*credit": "Kirill_M",
+            "*license": "Shutterstock standard license"
+        }
+    },
+    {
+        "_id":"c-92",
+        "_parentId":"b-90",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"589484a1fda9f5660ad841e6",
+        "_classes":"",
+        "_layout":"right",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Hur mycket tid kan spenderas på att rensa och förbereda data?",
+        "displayTitle": "Hur mycket tid kan spenderas på att rensa och förbereda data?",
+        "body": "<p>I vilket datadrivet projekt som helst, hur mycket tid kan du spendera för att rensa och förbereda data?</p>",
+        "instruction": "<em>Välj ditt svar och klicka sedan på 'Skicka'</em>",
+        "_items": [
+            {
+                "text": "Mellan 20% och 40%",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Mellan 40% och 60%",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Mellan 60% och 80%",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Rätt!</h5><p>Bevis tyder på att mellan 60% och 80% av ett dataprojekts tid kommer att gå till att rengöra, transformera och förbereda data för analys.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Är det säkert? </h5><p>Bevis tyder på att mellan 60% och 80% av ett dataprojekts tid kommer att gå till att rengöra, transformera och förbereda data för analys.</p>",
+                "final": "<h5>Är det säkert? </h5><p>Bevis tyder på att mellan 60% och 80% av ett dataprojekts tid kommer att gå till att rengöra, transformera och förbereda data för analys.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "Bevis tyder på att mellan 60% och 80% av ett dataprojekts tid kommer att gå till att rengöra, transformera och förbereda data för analys.",
+                "final": "Bevis tyder på att mellan 60% och 80% av ett dataprojekts tid kommer att gå till att rengöra, transformera och förbereda data för analys."
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+{
+        "_id":"c-112",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Summary icon clipboard",
+            "title": "Summary icon clipboard",
+            "large": "course/sv/images/summary-icon.png",
+            "medium": "course/sv/images/summary-icon.png",
+            "small": "course/sv/images/summary-icon.png",
+            "*source":"http://www.shutterstock.com/pic-189810137.html",
+            "*credit":"Kritchanut",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-111",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Rengöring av data",
+        "displayTitle":"Rengöring av data",
+        "body":"<p>Datarengöring är viktigt för att säkerställa att när datan används så dras de rätta slutsatserna.</p><p>Ofta märker inte datapubliceraren felen eftersom data kan förändras under många år. Fel kan vara resultatet av mänskliga misstag vid datainmatning, som felskrivningar eller felaktiga förkortningar.</p><p>Var medveten om att rensning kan ta längre tid än du tror. En noggrann rensningsprocess kommer dock att spara betydande tid på lång sikt.</p><p>Följ vår rensningsövning för att komma igång med Open Refine och upptäck hur enkelt det är för dig själv.</p><p><a class='course_link' href='http://training.theodi.org/resources/Cleaning_Exercise.pdf' target='_blank'>Kom igång med dataväxling i Open Refine</a></p><p><a class='course_link' href='../module12/'>Nästa modul</a></p><p><a class='course_link' href='../'>Huvudmeny</a></p>",
+        "_pageLevelProgress": {
+          "_isEnabled": true
+        }
+    },
+    {
+       "_id":"c-113",
+       "_parentId":"b-110",
+       "_type":"component",
+       "_component":"text",
+       "_classes":"separator",
+       "_layout":"full"
+    },
+    {
+       "_id":"c-1111",
+       "_parentId":"b-110",
+       "_type":"component",
+       "_component":"text",
+       "_classes": "attribution",
+       "body":"&copy; <a href='https://ec.europa.eu/commission/index_en' target='_blank'>European Commission</a>",
+       "_layout":"full"
+    },
+        {
+        "_id":"c-100",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"footer-logo",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Open data institute logo",
+            "title": "Open data institute logo",
+            "large": "course/sv/images/logo-small.png",
+            "medium": "course/sv/images/logo-small.png",
+            "small": "course/sv/images/logo-small.png",
+            "*source":"http://theodi.org",
+            "*credit":"The Open Data Institute",
+            "*license":"All rights reserved"  
+        }
+    },
+    {
+        "_id":"c-104",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"attribution not-eu not-default",
+        "_layout":"right",
+        "body":"Content created by <a href='http://theodi.org' target='_blank'>The Open Data Institute</a>"
+    },
+    {
+        "_id":"c-105",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"social-buttons not-dlab",
+        "_layout":"right",
+        "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/sv/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/sv/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/sv/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/sv/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/sv/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/sv/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/sv/images/social/flickr.png'></a>"
+    }
+]
+
