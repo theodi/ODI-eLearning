@@ -1,0 +1,624 @@
+[
+    {
+        "_id":"c-02",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"intro-logo",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "",
+            "medium": "",
+            "small": "",
+            "*source": "",
+            "*credit": "",
+            "*licence": ""
+        }
+    },
+    {
+        "_id":"c-01",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Att välja rätt format för öppna data",
+        "displayTitle":"Att välja rätt format för öppna data",
+        "body":"<p>'Formatet’ för en öppna data-mängd relaterar till hur datan är strukturerad och hur den görs tillgänglig för människor och maskiner.</p><p>Att välja rätt format hjälper till att säkerställa att datan blir enkel att hantera och återanvända. För att maximera användningen av data kan det vara nödvändigt för en publicerare att använda de format och strukturer som används på de olika plattformar för att passa användarnas behov.</p><h5>I den här modulen utforskar vi följande:</h5><ul class='ticks'><li>Varför format har betydelse för öppna data</li><li>Att välja rätt struktur</li><li>Åtkomst till olika öppna data-format</li><li>Hålla det enkelt med CSV</li></ul>",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-11",
+        "_parentId":"b-10",
+        "_type":"component",
+        "_component":"iFrame-vimeo",
+        "_classes":"",
+        "_layout":"full",
+        "title":"Öppna data-format",
+        "displayTitle": "Öppna data-format",
+        "body": "ODI-läraren David Tarrant förklarar vad format betyder inom öppna data, hur man väljer rätt struktur och format, och varför CSV är en bra utgångspunkt för de flesta tabulära öppna data.",
+        "instruction": "Om du vill aktivera och avaktivera undertexter klickar du på knappen 'cc' längst ned till höger om videoen",
+        "_setCompletionOn":"ended",
+        "_source": "https://player.vimeo.com/video/129197202",
+        "_media": {
+		"mp4": "course/sv/video/video.mp4",
+		"poster": "course/sv/video/placeholder.jpg"
+	},
+        "_height": {
+                "_small" : 250,
+                "_medium" : 350,
+                "_large" : 508
+        }
+    },
+    {
+        "_id": "c-20",
+        "_parentId": "b-20",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Användbarhet, hantering och åtkomst",
+        "displayTitle": "Användbarhet, hantering och åtkomst",
+        "body": "<p>Öppna data måste vara tillgängliga för alla att få tillgång till, använda och dela. Det här avsnittet behandlar vilka format som maximerar användbarheten för data och som ger enkel åtkomst för användare och enkel hantering för utgivare.</p>",
+        "instruction": "<em>Klicka på framåtpilen för att se mer</em>",
+        "_items": [
+            {
+                "title": "Användbarhet",
+                "body": "<p>Det mest användbara formatet för data är sannolikt det i vilket datamängden skapades först. I många fall kan detta format vara ett proprietärt program som Microsoft Excel. Även om sådana program ofta har möjlighet att exportera data i andra format, kan deras popularitet göra så att publikation i ett annat format blir ett hinder för återbruk.</p><p>Programvaror som Excel kommer också med rikare innehåll, såsom formgivning av tabeller och datagrafer. Dessa kan alla hjälpa till att ge kontext till någon som försöker förstå datan.</p>",
+                "_graphic": {
+                    "src": "course/sv/images/odi-001.jpg",
+                    "alt": "Användbarhet",
+                    "title": "Användbarhet",
+                    "*source": "http://www.shutterstock.com/pic.mhtml?id=234298726&src=id",
+                    "*credit": "Sentavio",
+                    "*licence": "Shutterstock standard license"
+                },
+                "strapline": "Användbarhet"
+            },
+            {
+                "title": "Förvaltning",
+                "body": "<p>För vissa publicerare är öppna data nu huvudkällan för deras data, även för personal i publiceringsorganisationen. Att använda öppna data som ett sätt för den egna personalen att få tillgång till information inom en organisation har många fördelar:</p><ul><li>Det ökar kunskapen om öppna data inom teamet.</li><li>Det ökar hållbarheten och förtroendet för datan genom att göra den till en nyckelkomponent i organisationens verksamhet.</li><li>Det skapar tydliga möjligheter till innovation.</li></ul>",
+                "_graphic": {
+                    "src": "course/sv/images/odi-002.jpg",
+                    "alt": "Förvaltning",
+                    "title": "Förvaltning",
+                    "*source": "http://www.shutterstock.com/pic.mhtml?id=254601265&src=id",
+                    "*credit": "Meilun",
+                    "*licence": "Shutterstock standard license"
+                },
+                "strapline": "Förvaltning"
+            },
+            {
+                "title": "Tillgång",
+                "body": "<p>För att öppna data ska vara så tillgängliga som möjligt måste de vara:</p><ul><li>I ett format som användaren kan förstå.</li><li>I ett format som är maskinläsbart.</li><li>I ett format som gör datan lätt att återanvända.</li><li>I ett format som inte kräver dyra verktyg för åtkomst.</li></ul><p>Vilket format som är det lämpligaste kan skilja sig från datamängd till datamängd . Ett dokument (till exempel i PDF) kan göra data lätt för en människa att förstå men är kanske inte det mest läsbara för en maskin. Av denna anledning nås ofta tillgänglighet genom att göra samma data tillgängliga i en rad olika format.</p>",
+                "_graphic": {
+                    "src": "course/sv/images/odi-003.jpg",
+                    "alt": "Tillgång",
+                    "title": "Tillgång",
+                    "*source": "http://www.shutterstock.com/pic.mhtml?id=238197199&src=id",
+                    "*credit": "Brian Senic",
+                    "*licence": "Shutterstock standard license"
+                },
+                "strapline": "Tillgång"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+    {
+      "_id":"c-30",
+      "_parentId":"b-30",
+      "_type":"component",
+      "_component":"narrative",
+      "_classes":"",
+      "_layout":"full",
+      "title": "Vanliga datastrukturer",
+      "displayTitle": "Vanliga datastrukturer",
+      "body": "<p>Inte alla data kan uttryckas på ett lämpligt sätt i ett kalkylblad. Olika filformat kan behöva övervägas. Det finns tre huvudstrukturer att vara medveten om: tabulär, hierarkisk och nätverk.</p>",
+      "instruction": "<em>Klicka på framåtpilen för att se mer</em>",
+      "_items": [
+        {
+          "alt": "Tabulär",
+          "title": "Tabulär",
+          "body": "<p>Den vanligaste strukturen för data är tabellformat. Datan är organiserad i rader och kolumner som anger sekventiella värden, till exempel utgifter.</p><p>Om datamängden är baserad på separata poster som inte är länkade till varandra är en tabellformad filstruktur i ett format som CSV idealisk. Ett exempel på lämplig tabelldata är den italienska dataportalens museibesökssiffror.<br /><a href='http://www.datiopen.it/opendata/Visitatori_musei_pubblici_e_similari_titolo_d_accesso' target='_blank'>Ta mig till Italian Data Portal</a></span></p>",
+          "_graphic": {
+                    "src": "course/sv/images/odi-004.jpg",
+                    "alt": "Tabulär",
+                    "title": "Tabulär",
+                    "*source": "http://www.shutterstock.com/pic.mhtml?id=262874696&src=id",
+                    "*credit": "benjaminec",
+                    "*licence": "Shutterstock standard license"
+                },
+           "strapline": "Tabulär"
+        },
+        {
+          "alt": "Hierarkisk",
+          "title": "Hierarkisk",
+          "body": "<p>Hierarkiska data visar förhållandena mellan dataobjekt, till exempel ett släktträd eller kommuner i varje land. Om datamängden följer en struktur där dataobjekt är länkade i vertikala 'träd', är en hierarkisk datastruktur i ett format som JSON idealisk. Ett exempel på lämpliga hierarkiska data är denna JSON-fil från json.org.<br /><a href='http://json.org/example.html' target='_blank'>Ta mig till json.org-exemplet</a></p>",
+          "_graphic": {
+                    "src": "course/sv/images/odi-005.jpg",
+                    "alt": "Hierarkisk",
+                    "title": "Hierarkisk",
+                    "*source": "http://www.shutterstock.com/pic.mhtml?id=103051607&src=id",
+                    "*credit": "tovovan",
+                    "*licence": "Shutterstock standard license"
+                },
+           "strapline": "Hierarkisk"
+        },
+        {
+          "alt": "Nätverk",
+          "title": "Nätverk",
+          "body": "<p>Nätverksstrukturerad data möjliggör relationer mellan vilken kombination av element som helst i vilken riktning som helst.</p><p>Ett bra exempel på en nätverksdatastruktur är ett socialt nätverk. Tänk på ett nätverk av vänner och deras vänner på Facebook, eller första, andra och tredje graders kontakter på LinkedIn.<p><p>Webben är ett annat exempel på en nätverksdatastruktur, där webbsidor länkar till ett antal andra sidor i vilken riktning som helst.</p>",
+          "_graphic": {
+                    "src": "course/sv/images/odi-006.jpg",
+                    "alt": "Nätverk",
+                    "title": "Nätverk",
+                    "*source": "http://www.shutterstock.com/pic.mhtml?id=136115477&src=id",
+                    "*credit": "Ovchinnkov Vladimir",
+                    "*licence": "Shutterstock standard license"
+                },
+           "strapline": "Nätverk"
+        }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-41",
+        "_parentId":"b-40",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "Tillgånging right data format",
+            "title": "Tillgånging right data format",
+            "large": "course/sv/images/odi-007.jpg",
+            "medium": "course/sv/images/odi-007.jpg",
+            "small": "course/sv/images/odi-007.jpg",
+            "*source": "http://www.shutterstock.com/pic-199692071",
+            "*credit": "Ing. Andrej Kaprinay",
+            "*licence": "Shutterstock standard license"
+        }
+   },
+   {
+      "_id":"c-40",
+      "_parentId":"b-40",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"left",
+      "title": "Hitta öppna data i rätt format",
+      "displayTitle": "Hitta öppna data i rätt format",
+      "body": "<p>Som användare av öppna data är det viktigt att förstå hur de som publicerar data avänder sig av olika format.</p><p>Inte alla data lämpar sig för nedladdning, antingen för att datamängden är för stor, att den uppdateras för regelbundet eller är för komplex för att kunna exponeras som statiska filer. Vissa data kan behöva delas upp i mindre delar. Andra data kan behöva publiceras som levande flöden för att se till att den håller sig uppdaterad.</p>",
+      "instruction": "<em>Klicka på rubrikerna för att utforska ytterligare.</em>",
+      "_items": [
+        {
+          "alt": "Nedladdningsbara öppna data",
+          "title": "Nedladdningsbara öppna data",
+          "body": "<p>Tabelldata passar bäst för nedladdning. Det är därför som de flesta offentliga dataportaler övervägande utgörs av tabelldata. Men hanteringen av miljontals rader av data kan behöva andra överväganden:</p><ul><li>Ska datan delas upp i mindre datamängder?</li><li>Hur ofta ska datan uppdateras?</li><li>Hur påverkar förändringar i publiceringsprocessen de tidigare utgåvorna?</li></ul>"
+        },
+        {
+          "alt": "Live data och data feeds",
+          "title": "Live data och data feeds",
+          "body": "<p>Vissa data är inte lämpliga att göras tillgängliga som en nedladdningsbar fil.</p><p>Mycket av dessa data uppdateras så regelbundet att filnedladdningarna skulle vara för stora för de flesta användare. Denna typ av öppna datastruktur kan tillhandahållas av ett maskingränssnitt, även känt som ett applikationsprogrammeringsgränssnitt (API).</p><p>Det finns många tjänster som gör maskingränssnitt tillgängliga över nätet. Dessa tjänster kan integreras direkt i andra webbapplikationer. För ett exempel på ett öppet data API, se på det belgiska järnvägsbolaget.<br /><a href='https://hello.irail.be/api/1-0/' target='_blank'>Ta mig till iRail API</a></p>"
+        }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-50",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "CSV",
+            "title": "CSV",
+            "large": "course/sv/images/odi-008.jpg",
+            "medium": "course/sv/images/odi-008.jpg",
+            "small": "course/sv/images/odi-008.jpg",
+            "*source": "http://www.shutterstock.com/pic.mhtml?id=205002868&src=id",
+            "*credit": "Blan-k",
+            "*licence": "Shutterstock standard license"
+        }
+    },
+    {
+        "_id":"c-51",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Att välja rätt format för öppna data",
+        "displayTitle":"Att välja rätt format för öppna data",
+        "body":"<p>När det gäller öppna data-format, börja med CSV.</p><p>En CSV-fil med kommaseparerade värden är helt enkelt rader med data, med varje dataobjekt separerad från nästa med ett komma. CSV är perfekt för tabelldata och kan enkelt laddas in och sparas från applikationer som Excel, vilket gör det tillgängligt för användarna.</p><p>Även om CSV inte behåller formatering och grafer som Excel-formatet gör, är det ett öppet, maskinläsbart format. CSV representerar det enklaste formatet som fortfarande stöder bred återanvändning av öppna data. CSV är med andra ord den 'lägsta gemensamma nämnaren' för öppna data - öppna data bör finnas tillgängliga i detta format, om möjligt.</p>",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-52",
+        "_parentId":"b-51",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Geospatiala öppna data-format",
+        "displayTitle":"Geospatiala öppna data-format",
+        "body":"<p>Geospatiala data är ofta mer komplexa än enkla tabulära dataset.</p><p>De kan existera som en hierarkisk datamängd, som beskriver länder och län / stater eller som nätverksdataset, som beskriver vägar.</p><p>Vid publicering av denna typ av data bör format som <a href='https://en.wikipedia.org/wiki/GeoJSON' target='_blank'>geoJSON</a> (baserat på JavaScript Object Notation - JSON) och <a href='https://en.wikipedia.org/wiki/Keyhole_Markup_Language' target='_blank'>KML</a> (baserat på Extensible Markup Language - XML) övervägas.</p><p>Dessa format är speciellt utformade med tanke på användbarhet och kan enkelt importeras och exporteras från specialkartläggningsverktyg som <a href='http://www.openstreetmap.org/' target='_blank'>Open Street Map</a> och <a href='https://cartodb.com' target='_blank'>CartoDB</a>.</p>",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-53",
+        "_parentId":"b-51",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+		"src": "course/sv/images/odi-008-2.jpg",
+		"large": "course/sv/images/odi-008-2.jpg",
+		"medium": "course/sv/images/odi-008-2.jpg",
+		"small": "course/sv/images/odi-008-2.jpg",
+		"alt": "Geospatial data",
+		"title": "Geospatial data",
+		"*source":"http://www.shutterstock.com/pic-53095825.html",
+		"*credit":"Mikael Damkier",
+		"*license":"Shutterstock Standard License"
+	}
+    },
+    {
+        "_id":"c-55",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/sv/images/burst.png",
+            "medium": "course/sv/images/burst.png",
+            "small": "course/sv/images/burst.png"
+        }
+    },
+    {
+        "_id":"c-56",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Har du ordning på formaten?",
+        "displayTitle":"Har du ordning på formaten?",
+        "body":"<p>Testa din kunskap om öppna data-format. Kan du komma ihåg de viktiga punkterna?</p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-60",
+        "_parentId":"b-60",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"5890bdf9b61c46e176e7eba5",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Plockar rätt format.",
+        "displayTitle": "Varför är det viktigt att välja rätt format?",
+        "body": "<p>Varför är det viktigt att välja rätt format?</p>",
+        "instruction": "<em>Välj ditt svar och klicka sedan på 'Skicka'</em>",
+        "_items": [
+            {
+                "text": "Se till att integriteten är skyddad",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Få ned kostnaderna",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Enkelhet, användbarhet, hantering och åtkomst",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Rätt!</h5><p>Att välja rätt format hjälper användbarheten, gör hanteringen enklare och sänker åtkomsthindren..</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Är det säkert?</h5><p>Att välja rätt format hjälper användbarheten, gör hanteringen enklare och sänker åtkomsthindren..</p>",
+                "final": "<h5>Är det säkert?</h5><p>Att välja rätt format hjälper användbarheten, gör hanteringen enklare och sänker åtkomsthindren..</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Är det säkert?</h5><p>Att välja rätt format hjälper användbarheten, gör hanteringen enklare och sänker åtkomsthindren..</p>",
+                "final": "<h5>Är det säkert?</h5><p>Att välja rätt format hjälper användbarheten, gör hanteringen enklare och sänker åtkomsthindren..</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-61",
+        "_parentId":"b-60",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Användbarhet",
+            "title": "",
+            "large": "course/sv/images/odi-009.png",
+            "medium": "course/sv/images/odi-009.png",
+            "small": "course/sv/images/odi-009.png",
+            "*source": "http://www.shutterstock.com/pic.mhtml?id=234298726&src=id",
+            "*credit": "Sentavio",
+            "*licence": "Shutterstock standard license"
+        }
+    },
+    {
+        "_id":"c-70",
+        "_parentId":"b-70",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"5890c10bb61c46e176e7ebab",
+        "_classes":"",
+        "_layout":"right",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Plocka datastrukturer.",
+        "displayTitle": "Vilken datastruktur skulle du använda för datan på bilden?",
+        "body": "<p>Vilken datastruktur skulle du använda för datan på bilden?</p>",
+        "instruction": "<em>Välj ditt svar och klicka sedan på 'Skicka'</em>",
+        "_items": [
+            {
+                "text": "Tabulär",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Hierarkisk",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "Nätverk",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Rätt!</h5><p>Bilden visar att relationerna mellan dataobjektna är viktiga. Dessa relationer är alla 'parentchild' -förhållanden, vilket betyder att en hierarkisk struktur är idealisk.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Är det säkert?</h5><p>Bilden visar att relationerna mellan dataobjektna är viktiga. Dessa relationer är alla 'parentchild' -förhållanden, vilket betyder att en hierarkisk struktur är idealisk.</p>",
+                "final": "<h5>Är det säkert?</h5><p>Bilden visar att relationerna mellan dataobjektna är viktiga. Dessa relationer är alla 'parentchild' -förhållanden, vilket betyder att en hierarkisk struktur är idealisk.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Är det säkert?</h5><p>Bilden visar att relationerna mellan dataobjektna är viktiga. Dessa relationer är alla 'parentchild' -förhållanden, vilket betyder att en hierarkisk struktur är idealisk.</p>",
+                "final": "<h5>Är det säkert?</h5><p>Bilden visar att relationerna mellan dataobjektna är viktiga. Dessa relationer är alla 'parentchild' -förhållanden, vilket betyder att en hierarkisk struktur är idealisk.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-71",
+        "_parentId":"b-70",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Structure",
+            "title": "Structure",
+            "large": "course/sv/images/odi-9-1.png",
+            "medium": "course/sv/images/odi-9-1.png",
+            "small": "course/sv/images/odi-9-1.png",
+            "*source": "http://businesscasestudies.co.uk/unison/developing-responsiveness-through-organisational-structure/job-roles-within-a-trade-union.html#axzz3eADPmy4F",
+            "*credit": "UNISON",
+            "*licence": ""
+        }
+    },
+        {
+        "_id":"c-80",
+        "_parentId":"b-80",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"5891cc24b61c46e176e7f029",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "I vilket format borde öppna data göras tillgängliga om möjligt?",
+        "displayTitle": "I vilket format borde öppna data göras tillgängliga om möjligt?",
+        "body": "<p>I vilket format borde öppna data göras tillgängliga om möjligt?</p>",
+        "instruction": "<em>Välj ditt svar och klicka sedan på 'Skicka'</em>",
+        "_items": [
+            {
+                "text": "CSV",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "PDF",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "DOC",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Rätt!</h5><p>Kommaseparerade värden-formatet (comma separated values, CSV) är ett lättförståeligt och återanvändbart format. Det är också öppet för alla att skriva nya verktyg för att tolka det. De andra formaten är användbara men inte lika allmänt vedertagna.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Är det säkert?</h5><p>Kommaseparerade värden-formatet (comma separated values, CSV) är ett lättförståeligt och återanvändbart format. Det är också öppet för alla att skriva nya verktyg för att tolka det. De andra formaten är användbara men inte lika allmänt vedertagna.</p>",
+                "final": "<h5>Är det säkert?</h5><p>Kommaseparerade värden-formatet (comma separated values, CSV) är ett lättförståeligt och återanvändbart format. Det är också öppet för alla att skriva nya verktyg för att tolka det. De andra formaten är användbara men inte lika allmänt vedertagna.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Är det säkert?</h5><p>Kommaseparerade värden-formatet (comma separated values, CSV) är ett lättförståeligt och återanvändbart format. Det är också öppet för alla att skriva nya verktyg för att tolka det. De andra formaten är användbara men inte lika allmänt vedertagna.</p>",
+                "final": "<h5>Är det säkert?</h5><p>Kommaseparerade värden-formatet (comma separated values, CSV) är ett lättförståeligt och återanvändbart format. Det är också öppet för alla att skriva nya verktyg för att tolka det. De andra formaten är användbara men inte lika allmänt vedertagna.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-81",
+        "_parentId":"b-80",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Format image",
+            "title": "Format image",
+            "large": "course/sv/images/odi-010.jpg",
+            "medium": "course/sv/images/odi-010.jpg",
+            "small": "course/sv/images/odi-010.jpg",
+            "*source": "http://www.shutterstock.com/pic.mhtml?id=205002868&src=id",
+            "*credit": "Blan-k",
+            "*licence": "Shutterstock standard license"
+        }
+    },
+    {
+        "_id":"c-85",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Summary icon clipboard",
+            "title": "Summary icon clipboard",
+            "large": "course/sv/images/summary-icon.png",
+            "medium": "course/sv/images/summary-icon.png",
+            "small": "course/sv/images/summary-icon.png",
+            "*source": "http://www.shutterstock.com/pic-189810137.html",
+            "*credit": "Kritchanut",
+            "*licence": "Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-110",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Öppna data-format",
+        "displayTitle":"Öppna data-format",
+        "body":"<p>Formatet för en öppna datamängd refererar till hur datan är strukturerad, och hur den görs tillgänglig för människor och maskiner.</p><p>Att välja rätt format hjälper till att säkerställa att datan är enkel att hantera och återanvända. För att maximera återanvändningen av data kan det vara nödvändigt för en publicerare att använda ett antal format och strukturer som finns tillgängliga på olika plattformar för att passa användarnas behov.</p><p>När så är möjligt ska CSV-filformatet användas för att dela öppna data. CSV är ett mycket återanvändbart, lättförståeligt och maskinläsbart format.</p><p><a class='course_link' href='../module10/'>Nästa modul</a></p><p><a class='course_link' href='../'>Huvudmeny</a></p>",
+        "_pageLevelProgress": {
+          "_isEnabled": true
+        }
+    },
+    {
+       "_id":"c-113",
+       "_parentId":"b-110",
+       "_type":"component",
+       "_component":"text",
+       "_classes":"separator",
+       "_layout":"full"
+    },
+    {
+       "_id":"c-1111",
+       "_parentId":"b-110",
+       "_type":"component",
+       "_component":"text",
+       "_classes": "attribution",
+       "body":"&copy; <a href='https://ec.europa.eu/commission/index_en' target='_blank'>European Commission</a>",
+       "_layout":"full"
+    },
+        {
+        "_id":"c-100",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"footer-logo",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Open data institute logo",
+            "title": "Open data institute logo",
+            "large": "course/sv/images/logo-small.png",
+            "medium": "course/sv/images/logo-small.png",
+            "small": "course/sv/images/logo-small.png",
+            "*source":"http://theodi.org",
+            "*credit":"The Open Data Institute",
+            "*license":"All rights reserved"  
+        }
+    },
+    {
+        "_id":"c-104",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"attribution not-eu not-default",
+        "_layout":"right",
+        "body":"Content created by <a href='http://theodi.org' target='_blank'>The Open Data Institute</a>"
+    },
+    {
+        "_id":"c-105",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"social-buttons not-dlab",
+        "_layout":"right",
+        "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/sv/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/sv/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/sv/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/sv/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/sv/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/sv/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/sv/images/social/flickr.png'></a>"
+    }
+]
