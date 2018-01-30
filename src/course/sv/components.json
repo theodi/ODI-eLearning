@@ -1,0 +1,578 @@
+[
+    {
+        "_id":"c-01",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"intro-logo",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "",
+            "medium": "",
+            "small": "",
+            "*source":"",
+            "*credit":"",
+            "*license":""
+        }
+    },
+    {
+        "_id":"c-02",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Länka ihop datawebben",
+        "displayTitle":"Länka ihop datawebben",
+        "body":"<p>Den aktuella webben är konfigurerad som en serie sidor eller \"dokument\". Medan dessa dokument vilar på rika datakällor döljer de dessa under webbsidor som är avsedda för människor att se. I den här modulen utforskar vi vad som skulle hända om alla sidor eller dokument togs bort från webben.</p><p>Föreställ dig att du bara hade rådata, alla öppna, alla användbara och alla länkade i ett nätverk eller \"web\" av data.</p><p>Denna modul introducerar den länkade öppna data-webben, och tittar på hur Femstjärnemodellen ger en färdplan för att uppnå denna vision.</p><h5>I den här modulen utforskar vi följande:</h5><ul class='ticks'><li>Vad är datawebben?</li><li>Hur webbidentifierare används</li><li>Hur en semantisk webb med länkade öppna data ser ut</li></ul>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+    "_id":"c-11",
+    "_parentId":"b-10",
+    "_type":"component",
+    "_component":"iFrame-vimeo",
+    "_classes":"",
+    "_layout":"full",
+        "title":"Surfa på datawebben - på två minuter",
+        "displayTitle": "Surfa på datawebben - på två minuter",
+        "body": "ODI-läraren David Tarrant introducerar den länkade öppna data-webben och undersöker hur Femstjärnemodellen kan hjälpa dig att börja surfa på datawebben.",
+        "instruction": "Om du vill aktivera och avaktivera undertexter klickar du på knappen \"cc\" längst ned till höger om videoen",
+        "_setCompletionOn":"ended",
+        "_source": "https://player.vimeo.com/video/129197209",
+        "_media": {
+		"mp4": "course/sv/video/video.mp4",
+		"poster": "course/sv/video/placeholder.jpg"
+	},
+        "_height": {
+            "_small" : 250,
+            "_medium" : 350,
+            "_large" : 508
+        }
+    },
+    {
+        "_id": "c-20",
+        "_parentId": "b-20",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Att förstå datawebben",
+        "displayTitle": "Att förstå datawebben",
+        "body": "Den länkade öppna data-webben förändrar hur vi når och tar del av öppna data.",
+        "instruction": "<em class='desktop-instruction'>Klicka på framåtpilen för att se mer.</em><em class='mobile-instruction'>Välj \"+\" tecknet för att utforska ytterligare, och svep sedan bilden för att se mer.</em>",
+        "_items": [
+            {
+                "title": "Vad är datawebben?",
+                "body": "<p>Den aktuella webben är konfigurerad som en serie sidor eller \"dokument\". Dessa dokument är utformade av människor för att vara visuellt attraktiva för andra människor att läsa och ge dem information.</p><p>Det finns en skillnad mellan data som är \"på webben\" och \"datawebben\".</p><p>Data \"på webben\" är en fil som kan hämtas från en webbsida. Datawebben är en uppsättning djupt länkade datafiler som direkt kan läsas och förstås av både människor och maskiner.</p>",
+                "_graphic": {
+                    "src": "course/sv/images/odi-001.jpg",
+                    "alt": "Providing certainty",
+                    "title": "What os the web of data?",
+                    "*source":"http://www.shutterstock.com/pic-137240846",
+                    "*credit":"Anna Frajtova",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Vad är datawebben?"
+            },
+            {
+                "title": "Länka ihop datawebben",
+                "body": "<p>Föreställ dig att alla visuellt attraktiva dokument har tagits bort från webben. Hur skulle du kunna navigera?</p><p>För att navigera skulle du behöva skyltar för att berätta hur din nuvarande plats relaterar till andra runt den.</p><p>Datawebben tillhandahåller dessa skyltar genom att kräva att all data kopplas, via länkar, till andra data. Länkarna låter dig navigera mellan dataobjekt och tillåter även maskiner att göra det.</p>",
+                "_graphic": {
+                    "src": "course/sv/images/odi-002.jpg",
+                    "alt": "Länka ihop datawebben",
+                    "title": "Länka ihop datawebben",
+                    "*source":"http://www.shutterstock.com/pic-221630044",
+                    "*credit":"Monash",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Länka ihop datawebben"
+            },
+            {
+                "title": "Vad kan en webb av länkade öppna data göra?",
+                "body": "<p>Datawebben finns redan i vissa delar av webben.</p><p>Stora företag som Microsoft har även granskat verktyg som skulle göra det möjligt för oss att navigera på webben på ett helt nytt sätt genom att använda data, snarare än webbsidor, för att surfa runt.<br /><a href='http://www.ted.com/talks/gary_flake_is_pivot_a_turning_point_for_web_exploration?language=en' target='_blank'>Ta mig till Microsoft Pivot Talk</a></p>",
+                "_graphic": {
+                    "src": "course/sv/images/odi-003.jpg",
+                    "alt": "What can LOD do?",
+                    "title": "What can LOD do?",
+                    "*source":"http://www.shutterstock.com/pic-230811505",
+                    "*credit":"Sentavio",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Vad kan en webb av länkade öppna data göra?"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-25",
+        "_parentId":"b-25",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Stars",
+            "title": "Stars",
+            "large": "course/sv/images/odi-004.jpg",
+            "medium": "course/sv/images/odi-004.jpg",
+            "small": "course/sv/images/odi-004.jpg",
+            "*source":"http://www.shutterstock.com/pic-109300883",
+            "*credit":"Kletr",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-26",
+        "_parentId":"b-25",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Bygga en webb av data",
+        "displayTitle":"Bygga en webb av data",
+        "body":"<p>För att bygga en webb med länkade öppna data krävs två saker:</p><ul class='ticks'><li>Data som kan hänvisas till på webben</li><li>Folk som tillhandahåller webblänkar till dessa data från sin egen data</li></ul><p>Det här är de två förutsättningar som uppfyller kraven för att nå den fjärde och femte stjärnan i Femstjärnemodellen</p>"
+    },
+    {
+        "_id":"c-30",
+        "_parentId":"b-28",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "4th Star",
+            "title": "4th Star",
+            "large": "course/sv/images/odi-005.jpg",
+            "medium": "course/sv/images/odi-005.jpg",
+            "small": "course/sv/images/odi-005.jpg",
+            "*source":"http://www.shutterstock.com/pic.mhtml?id=180739841&src=lb-36497927",
+            "*credit":"Tarchyshnik Andrei",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+      "_id":"c-35",
+      "_parentId":"b-28",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"left",
+      "title": "Den fjärde stjärnan: öppna identifierare",
+      "displayTitle": "Den fjärde stjärnan: öppna identifierare",
+      "body": "<p>Den fjärde stjärnan handlar om att kunna referera till saker på webben.</p>",
+      "instruction": "",
+      "_items": [
+        {
+          "alt": "Öppna identifierare",
+          "title": "Öppna identifierare",
+          "body": "<p>En identifierare är ett kortfattat sätt att referera till en mer komplex sak.</p><p>Företagsnummer för företag och postnummer för platser är vanliga exempel.</p><p>Det finns emellertid många andra identifierare som används både av den offentliga och privata sektorn.</p><p>Utmaningen med många identifierare är att det inte är uppenbart utifrån numret själv vad det hänvisar till. De flesta använder sig därför av sökmotorer för att få reda på mer om vad dessa identifierare står för. Webbaserade identifierare har inte detta problem eftersom man enkelt kan klicka på identifieraren för att få veta mer.</p><p>Telefonnummret för ett företag är exempelvis 08030289. För att hitta företaget utifrån det här numret måste man skriva in det i en sökmotor för att ta reda på vad namnet på företaget är, innan man klickar på länken. Däremot kan man följa en webbaserad identifierare för samma nummer direkt från en webbläsare, till exempel:<br /><a href='https://beta.companieshouse.gov.uk/company/08030289' style='word-wrap: break-word;' target='_blank'>https://beta.companieshouse.gov.uk/company/08030289</a></p>"
+        },
+        {
+          "alt": "Den fjärde stjärnan",
+          "title": "Den fjärde stjärnan",
+          "body": "<p>Den fjärde stjärnan kräver skapande och användning av webbaserade (http: //) identifierare för saker, både fysiska och digitala.</p><p>Identifierare är vanligtvis en uppsättning tecken, som post / zip-koder (t.ex. EC2A 4JE) eller helt enkelt nummer (08030289).</p><p>Genom att skapa dessa webbaserade identifierare kan man använda HTTP-namnuppslagningstjänsten för att hitta dessa saker och till och med hämta en faktisk kopia. t.ex </p><p><a style='word-wrap: break-word;' href='http://id.southampton.ac.uk/building/59' target='_blank'>http://id.southampton.ac.uk/building/59</a></p><p><a style='word-wrap: break-word;' href='http://data.ordnancesurvey.co.uk/id/postcodeunit/EC2A4JE' target='_blank'>http://data.ordnancesurvey.co.uk/id/postcodeunit/EC2A4JE</a></p>"
+        },
+        {
+          "alt": "Fyrstjärniga öppna data",
+          "title": "Fyrstjärniga öppna data",
+          "body": "<p>Den fjärde stjärnan kräver också att när en användare klickar på en länk och inte kan förses med exakt objekt (till exempel en bok, en person eller en byggnad) ska de istället få kontextuell information om det objektet.</p><p>Detta görs ofta genom att omdirigera klienten (människa eller maskin) till den kontextuella informationen. Informationen kan vara i form av en webbsida eller rådata.</p>"
+        },
+        {
+          "alt": "Testa själv",
+          "title": "Testa själv",
+          "body": "<p>Vissa webbaserade identifierare berättar för en klient vilken identifierare det rör sig om genom texten i webbadressen. Innan du klickar på webbadressen, varför inte prova det här själv?Försök gissa vilken identifierare den här länken leder till:<br><br><a href='http://data.ordnancesurvey.co.uk/id/postcodeunit/EC2A4JE' style='word-wrap: break-word;' target='_blank'>http://data.ordnancesurvey.co.uk/id/postcodeunit/EC2A4JE</a></p><p>Länken skickade en begäran till servern för ett postnummer. För att uppfylla förfrågan returnerade servern en webbsida om postnumret eftersom det inte kunde skicka dig själva postnumret. Din webbläsare har gått igenom en process som kallas innehållsförhandling med servern, där du får en webbsida eftersom du tittar på informationen genom en webbläsare. Om du öppnade detta med en maskin skulle du få det i ett annat format, beroende på vad du angav för preferens.</p><p>Du kan prova vad en maskin skulle se med innehållsförhandlingar på postkodslänken ovan genom att lägga till ett tillägg som \".json\" och \".xml\" till slutet av webbadressen.</p>"
+        }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+         {
+        "_id":"c-37",
+        "_parentId":"b-30",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "5th Star",
+            "title": "5th Star",
+            "large": "course/sv/images/odi-006.jpg",
+            "medium": "course/sv/images/odi-006.jpg",
+            "small": "course/sv/images/odi-006.jpg",
+            "*source":"http://www.shutterstock.com/pic-245326720",
+            "*credit":"Omelchenko",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+      "_id":"c-38",
+      "_parentId":"b-30",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"left",
+      "title": "Den femte stjärnan: länkad data",
+      "displayTitle": "Den femte stjärnan: länkad data",
+      "body": "<p>Den femte stjärnan handlar om att länka ihop enskilda dataobjekt.</p>",
+      "instruction": "",
+      "_items": [
+        {
+          "alt": "Att länka dataobjekt",
+          "title": "Att länka dataobjekt",
+          "body": "<p>Den femte stjärnan introducerar begreppet att länka dataobjekt med varandra.</p><p>Dessa länkar gör det möjligt för människor och maskiner att navigera mellan datakällor på webben.</p><p>Genom att länka dataobjekt direkt till varandra kan du peka personen eller maskinen till en slutgiltig post om ämnet, i stället för att varje person upprätthåller sitt eget dataregister. Länkade data fungerar som en officiell webbplats genom att ge alla en auktoritativ resurs om ämnet. Länkade data hjälper till att undvika duplicerade data genom att dela en enda resurs bland ett oändligt antal datamängder, med hjälp av URI.</p>"
+        },
+        {
+          "alt": "Den femte stjärnan",
+          "title": "Den femte stjärnan",
+          "body": "<p>Exempel: En databas med byggnader som ägs av ett företag kommer ofta att ha postnummer angivna för varje byggnad i dataposterna:<br/><br><b>Byggnadsnummer</b>: 32<br><b>Postnummer</b>: SO17 1BJ<br><b>Avdelning</b>: Postwood<br><b>Distrikt</b>: City of Southampton<br/><br>Med länkade data behöver vi inte replikera data – t ex avdelning och distrikt - som hanteras av andra auktoriteter. Därför blir posten:<br><br><b>Byggnadsnummer</b>: 32<br><b>Postnummer</b>: <a href='http://data.ordnancesurvey.co.uk/id/postcodeunit/SO171BJ' style='word-wrap: break-word;' target='_blank'>http://data.ordnancesurvey.co.uk/id/postcodeunit/SO171BJ</a></p>"
+        },
+        {
+          "alt": "Prova att använda femte stjärnan",
+          "title": "Prova att använda femte stjärnan",
+          "body": "<p>Du kanske har noterat några länkar i de data som vi undersökte tidigare i den här modulen.</p><p>Prova att ladda den här länken från tidigare i modulen:<br><br><a href='http://data.ordnancesurvey.co.uk/id/postcodeunit/SO171BJ' style='word-wrap: break-word;' target='_blank'>http://data.ordnancesurvey.co.uk/id/postcodeunit/SO171BJ</a><br><br>Försök nu ladda samma länk till en datawebbläsare:<br><br><a href='http://graphite.ecs.soton.ac.uk/browser/' target='_blank'>Ta mig till Graphite Linked Data Browser</a><br><br>Datawebbläsaren använder automatisk innehållsförhandling för data, inte webbsidans innehåll, och visar rådata i en läsbar form.</p><p>Alla röda textbitar i webbläsaren är länkar som bör leda till mer data.</p><p>Använd följande URL för att se vad du kan upptäcka på webben av länkade öppna data.</p><p><a href='http://www.bbc.co.uk/programmes/b006q2x0' target='_blank'>http://www.bbc.co.uk/programmes/b006q2x0</a>"
+        }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-42",
+        "_parentId":"b-33",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/sv/images/burst.png",
+            "medium": "course/sv/images/burst.png",
+            "small": "course/sv/images/burst.png"
+        }
+    },
+    {
+        "_id":"c-43",
+        "_parentId":"b-33",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Är du redo att surfa på datawebben?",
+        "displayTitle":"Är du redo att surfa på datawebben?",
+        "body":"<p>Det finns fyra användbara saker att komma ihåg när du överväger att surfa på webben av länkade öppna data, kan du komma ihåg dem?</p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-45",
+        "_parentId":"b-35",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Stars",
+            "title": "",
+            "large": "course/sv/images/odi-007.jpg",
+            "medium": "course/sv/images/odi-007.jpg",
+            "small": "course/sv/images/odi-007.jpg",
+            "*source":"http://www.shutterstock.com/pic-109300883",
+            "*credit":"Kletr",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-50",
+        "_parentId":"b-35",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"58b833ebfda9f5660ad85aae",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Vad är datawebben?",
+        "displayTitle": "Vad är datawebben?",
+        "body": "<p>Datawebben är ...</p>",
+        "instruction": "<em>Välj ditt svar och klicka sedan på \"Skicka\"</em>",
+        "_items": [
+            {
+                "text": "en webb av dataportaler där du kan ladda ner data",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "en uppsättning sammankopplade datafiler på webben",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "ett nytt socialt nätverk",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Rätt!</h5><p>Datanätet är en uppsättning sammankopplade datafiler som direkt kan läsas och förstås av både människor och maskiner.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Är det säkert?</h5>Datanätet är en uppsättning sammankopplade datafiler som direkt kan läsas och förstås av både människor och maskiner.</p>",
+                "final": "<h5>Är det säkert?</h5><p>Datanätet är en uppsättning sammankopplade datafiler som direkt kan läsas och förstås av både människor och maskiner.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "",
+                "final": ""
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-55",
+        "_parentId":"b-40",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "4th Star",
+            "title": "",
+            "large": "course/sv/images/odi-008.jpg",
+            "medium": "course/sv/images/odi-008.jpg",
+            "small": "course/sv/images/odi-008.jpg",
+            "*source":"http://www.shutterstock.com/pic.mhtml?id=180739841&src=lb-36497927",
+            "*credit":"Tarchyshnik Andrei",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-60",
+        "_parentId":"b-40",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"58b8369efda9f5660ad85ac0",
+        "_classes":"",
+        "_layout":"right",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Vad identifierar följande?",
+        "displayTitle": "Vad identifierar följande?",
+        "body": "<p><a href='http://id.southampton.ac.uk/room/32-3077' target='_blank'>http://id.southampton.ac.uk/room/32-3077</a></p>",
+        "instruction": "<em>Välj ditt svar och klicka sedan på \"Skicka\"</em>",
+        "_items": [
+            {
+                "text": "en webbsida",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "en byggnad",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "ett rum",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Rätt!</h5><p>Kom ihåg att den webbaserade identifieraren pekar på själva saken och inte på den webbsida som den finns på.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Är det säkert?</h5><p>Kom ihåg att den webbaserade identifieraren pekar på själva saken och inte på den webbsida som den finns på.</p>",
+                "final": "<h5>Är det säkert?</h5><p>Kom ihåg att den webbaserade identifieraren pekar på själva saken och inte på den webbsida som den finns på.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "",
+                "final": ""
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-65",
+        "_parentId":"b-45",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "5th Star",
+            "title": "",
+            "large": "course/sv/images/odi-009.jpg",
+            "medium": "course/sv/images/odi-009.jpg",
+            "small": "course/sv/images/odi-009.jpg",
+            "*source":"http://www.shutterstock.com/pic-245326720",
+            "*credit":"Omelchenko",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-70",
+        "_parentId":"b-45",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"58b8377cfda9f5660ad85ac8",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":3,
+        "title": "Vilka av dessa är identifierare för artisten Taylor Swift?",
+        "displayTitle": "Vilka av dessa är identifierare för artisten Taylor Swift?",
+        "body": "",
+        "instruction": "<em>Välj upp till tre alternativ och klicka sedan på \"Skicka\"</em>",
+        "_items": [
+            {
+                "text": "<a href='http://www.bbc.co.uk/music/artists/20244d07-534f-4eff-b4d4-930878889970' target='_blank'>http://www.bbc.co.uk/music/artists/20244d07-534f-4eff-b4d4-930878889970</a>",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "<a href='https://musicbrainz.org/artist/20244d07-534f-4eff-b4d4-930878889970' target='_blank'>https://musicbrainz.org/artist/20244d07-534f-4eff-b4d4-930878889970</a>",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "<a href='http://dbpedia.org/resource/Taylor_Swift' target='_blank'>http://dbpedia.org/resource/Taylor_Swift</a>",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Rätt!</h5><p>De är alla identifierare! De två första använder samma underidentifierare men är från olika auktoriteter. Den tredje är Wikipedia-identifieraren (dbpedia) för artisten. De länkar alla till varandra och delar varandras data, kan du hitta länkarna?</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Är det säkert?</h5><p>De är alla identifierare! De två första använder samma underidentifierare men är från olika auktoriteter. Den tredje är Wikipedia-identifieraren (dbpedia) för artisten. De länkar alla till varandra och delar varandras data, kan du hitta länkarna?</p>",
+                "final": "<h5>Är det säkert?</h5><p>De är alla identifierare! De två första använder samma underidentifierare men är från olika auktoriteter. Den tredje är Wikipedia-identifieraren (dbpedia) för artisten. De länkar alla till varandra och delar varandras data, kan du hitta länkarna?</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Är det säkert?</h5><p>De är alla identifierare! De två första använder samma underidentifierare men är från olika auktoriteter. Den tredje är Wikipedia-identifieraren (dbpedia) för artisten. De länkar alla till varandra och delar varandras data, kan du hitta länkarna?</p>",
+                "final": "<h5>Är det säkert?</h5><p>De är alla identifierare! De två första använder samma underidentifierare men är från olika auktoriteter. Den tredje är Wikipedia-identifieraren (dbpedia) för artisten. De länkar alla till varandra och delar varandras data, kan du hitta länkarna?</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-85",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Summary icon clipboard",
+            "title": "Summary icon clipboard",
+            "large": "course/sv/images/summary-icon.png",
+            "medium": "course/sv/images/summary-icon.png",
+            "small": "course/sv/images/summary-icon.png",
+            "*source":"http://www.shutterstock.com/pic-189810137.html",
+            "*credit":"Kritchanut",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-90",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Surfa på webben av länkade öppna data",
+        "displayTitle":"Surfa på webben av länkade öppna data",
+        "body":"<p>Datawebben är en uppsättning djupt länkade datafiler som direkt kan läsas och förstås av både människor och maskiner.</p><p>1989 uppfann Sir Tim Berners-Lee dokumentwebben och det tog oss över 20 år att förstå hur man använder den. Den är nu en grundläggande del av vårt samhälle.</p><p>Under 2001 förutsåg Tim nätet av länkade öppna data och det kommer att förändra webben på nytt.</p><p><a class='course_link' href='../module14/'>Nästa modul</a></p><p><a class='course_link' href='../'>Huvudmeny</a></p>",
+        "_pageLevelProgress": {
+          "_isEnabled": true
+        }
+    },
+    {
+       "_id":"c-95",
+       "_parentId":"b-55",
+       "_type":"component",
+       "_component":"text",
+       "_classes":"separator",
+       "_layout":"full"
+    },
+    {
+       "_id":"c-96",
+       "_parentId":"b-55",
+       "_type":"component",
+       "_component":"text",
+       "_classes": "attribution",
+       "body":"&copy; <a href='https://ec.europa.eu/commission/index_en' target='_blank'>European Commission</a>",
+       "_layout":"full"
+    },
+    {
+        "_id":"c-100",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"footer-logo",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Open data institute logo",
+            "title": "Open data institute logo",
+            "large": "course/sv/images/logo-small.png",
+            "medium": "course/sv/images/logo-small.png",
+            "small": "course/sv/images/logo-small.png",
+            "*source":"http://theodi.org",
+            "*credit":"The Open Data Institute",
+            "*license":"All rights reserved"  
+        }
+    },
+    {
+        "_id":"c-104",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"attribution not-eu not-default",
+        "_layout":"right",
+        "body":"Content created by <a href='http://theodi.org' target='_blank'>The Open Data Institute</a>"
+    },
+    {
+        "_id":"c-105",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"social-buttons not-dlab",
+        "_layout":"right",
+        "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/sv/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/sv/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/sv/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/sv/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/sv/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/sv/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/sv/images/social/flickr.png'></a>"
+    }
+]
