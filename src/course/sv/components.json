@@ -1,0 +1,559 @@
+[
+    {
+        "_id":"c-01",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"intro-logo",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "",
+            "medium": "",
+            "small": "",
+            "*source":"",
+            "*credit":"",
+            "*license":""
+        }
+    },
+    {
+        "_id":"c-02",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Vad är en plattform?",
+        "displayTitle":"Vad är en plattform?",
+        "body":"<p>En plattform är en stor bit programvara där mindre bitar av programvara och innehåll kan köras. När det gäller öppna data så är webben den största plattformen. Många andra specialbyggda program kan hjälpa dig att publicera öppna data, eller bidra med interaktiva verktyg för att hjälpa dig att utforska datan.</p><h5>I den här modulen tar vi upp följande:</h5><ul class='ticks'><li>Vad som kännetecknar öppna data-plattformar</li><li>Förstå varför plattformar är viktiga för användarna</li><li>Utvärdering av de plattformsalternativ som finns</li><li>Använda plattformar för att utforska data</li></ul>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+    "_id":"c-11",
+    "_parentId":"b-10",
+    "_type":"component",
+    "_component":"iFrame-vimeo",
+    "_classes":"",
+    "_layout":"full",
+        "title":"Öppna data-plattformar – in 2 minutes",
+        "displayTitle": "Öppna data-plattformar – in 2 minutes",
+        "body": "ODI-läraren David Tarrant förklarar vad öppna data-plattformar är, vilka olika plattformar som finns samt fördelarna med plattformar ur ett användarperspektiv.",
+        "instruction": "Om du vill aktivera och avaktivera undertexter klickar du på knappen 'cc' längst ned till höger om videoen",
+        "_setCompletionOn":"ended",
+        "_source": "https://player.vimeo.com/video/129196991",
+        "_media": {
+		"mp4": "course/sv/video/video.mp4",
+		"poster": "course/sv/video/placeholder.jpg"
+	},
+        "_height": {
+            "_small" : 250,
+            "_medium" : 350,
+            "_large" : 508
+        }
+    },
+    {
+        "_id":"c-21",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Vad är en öppna data-plattform?",
+            "title": "Vad är en öppna data-plattform?",
+            "*source": "http://www.shutterstock.com/pic.mhtml?id=103013084&src=id",
+            "*credit": "Laralova",
+            "*licence": "Shutterstock standard licence",
+            "large": "course/sv/images/odi-001.jpg",
+            "medium": "course/sv/images/odi-001.jpg",
+            "small": "course/sv/images/odi-001.jpg"
+        }
+    },
+    {
+        "_id":"c-22",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Vad är en öppna data-plattform?",
+        "displayTitle":"Vad är en öppna data-plattform?",
+        "body":"<p>Öppna data-plattformar är programvaror som gör det enklare att publicera och hantera öppna data på webben.</p><p>Ett sätt att publicera data är att använda sig av en öppna data-plattform. Plattformarna ger vägledning genom processen att publicera data, och erbjuder användarna enkel och beständig åtkomst till öppna data från hela världen.</p>"
+    },
+     {
+        "_id": "c-25",
+        "_parentId": "b-25",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Viktiga funktioner hos öppna data-plattformar",
+        "displayTitle": "Viktiga funktioner hos öppna data-plattformar",
+        "body": "Öppna data-plattformar gör att data blir <em>användbara</em> och <em>lätta</em> att <em>upptäcka</em>.",
+        "instruction": "<em class='desktop-instruction'>Klicka på framåtpilen för mer.</em><em class='mobile-instruction'>Välj \"+\" tecknet för att utforska ytterligare, och svep sedan bilden för att se mer.</em>",
+        "_items": [
+            {
+                "title": "Upptäckbara data",
+                "body": "<p>Öppna data-plattformar lyfter fram öppna data till användarna. Plattformarna är utformade så att användarna snabbt kan hitta och återanvända relevanta öppna data.</p><p>Plattformarna är sökmotor-optimerade för att göra det lättare att hitta relevanta resurser. Plattformarna tillhandahåller även dataflöden som kan hittas och indexeras i system över hela webben.</p><p>Dessa dataflöden tillåter sökmotorer som Enigma.io att indexera öppna data och göra data enklare att hitta.<br /><a href='http://www.enigma.io' target='_blank'>Läs mer på enigma.io</a></p>",
+                "_graphic": {
+                    "src": "course/sv/images/odi-002.jpg",
+                    "alt": "Discovery",
+                    "title": "Discovery",
+                    "*source": "https://www.flickr.com/photos/mjtmail/3008566512",
+                    "*credit": "mjtmail (tiggy)",
+                    "*licence": "CC-BY 2.0"
+                },
+                "strapline": "Upptäckbara data"
+            },
+            {
+                "title": "Bra användarupplevelse",
+                "body": "<p>Det finns ett begränsat antal öppna data-plattformar, vilket innebär att du inte behöver förstå många olika tekniker för att upptäcka stora mängder öppna data.</p><p>Öppna data-plattformarna är utformade med användaren i åtanke - deras layout och design kan göra det enklare att upptäcka data.</p><p>Exempel på webbplatser som använder sig av öppna data-plattformar är: <a href='http://www.data.gov.uk' target='_blank'>data.gov.uk</a>, <a href='https://africaopendata.org/ target='_blank'>africaopendata.org</a> och <a class='not-dlab' href='http://www.data.gov.md' target='_blank'>data.gov.md</a>.</p><p>Observera att många regeringar använder samma standard för namngivning av dataplatformens webbadress, så ett enkelt tips för att hitta öppna data från ett speciellt land är att ange data.gov. och sedan namnet på landets toppdomän, t ex data.gov.uk.</p>",
+                "_graphic": {
+                    "src": "course/sv/images/odi-003.jpg",
+                    "alt": "Consistency",
+                    "title": "Consistency",
+                    "*source": "http://www.shutterstock.com/pic.mhtml?id=200818673&src=lb-36497927",
+                    "*credit": "April Cat",
+                    "*licence": "Shutterstock standard license"
+                },
+                "strapline": "Bra användarupplevelse"
+            },
+            {
+                "title": "Beständig tillgång till data",
+                "body": "<p>Utvecklingen av öppna standarder av webbaserade nätverk har lett till beständiga applikationsprogrammeringsgränssnitt (API) för att upptäcka, komma åt och använda data.</p><p>Det begränsade antalet öppna data-plattformar och de likartade funktionerna i deras användargränssnitt gör det enkelt för folk att använda de olika funktionerna samtidigt som de känner sig bekväma med programvaran.</p><p>Plattformarna har också liknande strukturer och format för att visa metadata, såväl som själva datan.</p>",
+                "_graphic": {
+                    "src": "course/sv/images/odi-004.jpg",
+                    "alt": "Access granted",
+                    "title": "Access granted",
+                    "*source": "http://www.shutterstock.com/pic.mhtml?id=154822901&src=id",
+                    "*credit": "Kirill_m",
+                    "*licence": "Shutterstock standard licence"
+                },
+                "strapline": "Beständig tillgång till data"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-30",
+        "_parentId":"b-28",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Approaches",
+            "title": "Approaches",
+            "large": "course/sv/images/odi-005.jpg",
+            "medium": "course/sv/images/odi-005.jpg",
+            "small": "course/sv/images/odi-005.jpg",
+            "*source": "http://www.shutterstock.com/pic.mhtml?id=277792007&src=id",
+            "*credit": "Nicotombo",
+            "*licence": "Shutterstock standard licence"
+        }
+    },
+    {
+      "_id":"c-35",
+      "_parentId":"b-28",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"left",
+      "title": "Olika sätt att utforma öppna data-plattformar",
+      "displayTitle": "Olika sätt att utforma öppna data-plattformar",
+      "body": "<p>Plattformar erbjuder olika sätt att publicera och visa upp öppna data. Läs mer om de olika metoderna nedan:</p>",
+      "instruction": "",
+      "_items": [
+        {
+          "alt": "Datakataloger",
+          "title": "Datakataloger",
+          "body": "<p>En öppna data-katalog är en plattform som listar dataset på webben. Datakataloger är som register. De vet vilka öppna data som finns och var de finns, vad datan handlar om och hur man får tag på den.</p><p>En öppna data-katalog länkar användarna till data som finns någon annanstans på webben. Katalogerna tillhandahåller ett konsistent sätt att lokalisera en mångfaldig uppsättning data som är allmänt utspridda.</p><p>Plattformen CKAN, som används av städer som Amsterdam (<a href='http://data.amsterdam.nl' target='_blank'>Ta mig till Amsterdams CKAN-portal</a>), Berlin (<a href='http://daten.berlin.de/' target='_blank'>Ta mig till Berlins CKAN-portal</a>) och Köpenhamn (<a href='http://data.kk.dk/' target='_blank'>Ta mig till Köpenhamns CKAN-portal</a>), kan användas som en.</p>"
+        },
+        {
+          "alt": "Datahantering",
+          "title": "Datahantering",
+          "body": "<p>Öppna datahanteringsplattformar kan också spela en aktiv roll i hur en förläggare hanterar och underhåller en datamängd. Publicerarna kan uppdatera sina data direkt i plattformen och regelbundet tillhandahålla uppdateringar.</p><p>Att söka fram och jobba med öppna data utan att behöva ladda ner den kan göra det mycket lättare för användarna.</p><p>För publicerarna är det emellertid en mycket större utmaning att strukturera och formatera data för plattformen i fråga. Detta kan övervinnas om utgivaren också använder publiceringsplattformen för att nå data.</p><p>Socrata-plattformen, som används av Lombardiens region i Italien (<a href='https://www.dati.lombardia.it/' target='_blank'>Ta mig till den öppna data-portalen i Lombardiet</a>) och Open Data Soft-plattformen som används av staden Issy-les-Moulineaux i Frankrike (<a href='https://data.issy.com/' target='_blank'>Ta mig till öppna data-portalen Issy</a>) är bra exempel på datahanteringsplattformar.</p>"
+        },
+        {
+          "alt": "Jämförelse",
+          "title": "Jämförelse",
+          "body": "<p>Datakataloger ger:</p></ul><li>Samordnad sökning över en bred domän.</li><li>Mekanismer för upptäckt.</li><li>Viktiga metadata relaterade till licens och hur aktuell datan är.</li></ul></p><p>Datahanteringsplattformar tillhandahåller:</p><ul><li>Auktoritära källor till data.</li><li>Ökad datakvalitet.</li><li>Möjligheten att söka och använda data.</li></ul><p>Skillnaderna mellan datahanteringsplattformar och datakataloger kan också variera mellan leverantörer. <a href='https://how-to.usopendata.org/sv/latest/The-Basics-of-Open-Data/Data-Repositories/' target='_blank'>Ta mig till en jämförande analys av dataplattformar</a></p>"
+        }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-31",
+        "_parentId":"b-30",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Öppna data-plattformar i hela Europa",
+            "title": "Öppna data-plattformar i hela Europa",
+            "*source": "http://www.shutterstock.com/pic.mhtml?id=117748444&src=id",
+            "*credit": "koyacsf",
+            "*licence": "Shutterstock standard licence",
+            "large": "course/sv/images/odi-006.jpg",
+            "medium": "course/sv/images/odi-006.jpg",
+            "small": "course/sv/images/odi-006.jpg"
+        }
+    },
+    {
+        "_id":"c-32",
+        "_parentId":"b-30",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Öppna data-plattformar i hela Europa",
+        "displayTitle":"Öppna data-plattformar i hela Europa",
+        "body":"<p>I Europa finns hundratals Öppna data-plattformar på lokal, regional och nationell nivå. När du letar efter öppna data kan det vara användbart att komma åt en katalog med dessa plattformar för att hjälpa dig att hitta vilka källor som finns tillgängliga. OpenDataMonitor-projektet är ett europeiskt index för öppna data-sidor och tillhandahåller en användbar referensguide. Varför inte utforska indexet för att upptäcka vilka data som finns tillgängliga för olika länder, regioner och städer?<br /><a href='http://www.opendatamonitor.eu/frontend/web/index.php?r=datacatalogue%2Flist' target='_blank'></a></p>"
+    },
+    {
+        "_id":"c-42",
+        "_parentId":"b-33",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/sv/images/burst.png",
+            "medium": "course/sv/images/burst.png",
+            "small": "course/sv/images/burst.png"
+        }
+    },
+    {
+        "_id":"c-43",
+        "_parentId":"b-33",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Är du redo att utforska Öppna data-plattformar?",
+        "displayTitle":"Är du redo att utforska Öppna data-plattformar?",
+        "body":"<p>Det finns tre användbara saker att komma ihåg när man tänker på Öppna data-plattformar. Kan du komma ihåg dem?</p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-45",
+        "_parentId":"b-35",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Vad är en öppna data-plattform?",
+            "title": "",
+            "*source": "http://www.shutterstock.com/pic.mhtml?id=103013084&src=id",
+            "*credit": "Laralova",
+            "*licence": "Shutterstock standard licence",
+            "large": "course/sv/images/odi-007.jpg",
+            "medium": "course/sv/images/odi-007.jpg",
+            "small": "course/sv/images/odi-007.jpg"
+        }
+    },
+    {
+        "_id":"c-50",
+        "_parentId":"b-35",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"58905c59b61c46e176e7eb53",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Vad är en öppna data-plattform?",
+        "displayTitle": "Vad är en öppna data-plattform?",
+        "body": "<p>En öppna data-plattform är ...</p>",
+        "instruction": "<em>Välj ditt svar och klicka sedan på 'Skicka'</em>",
+        "_items": [
+            {
+                "text": "en försäljningsplattform för företag",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "en programvara som hjälper till att få ut öppna data på webben",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "ett internt datahanteringsverktyg",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Rätt!</h5><p>En öppna data-plattform är en programvara som hjälper till att få ut öppna data på webben. Det ger publicerarna en strömlinjeformad process för att publicera data och ger användarna ett enhetligt sätt att komma åt, använda och dela data.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Är det säkert?</h5><p>En öppna data-plattform är en programvara som hjälper till att få ut öppna data på webben. Det ger publicerarna en strömlinjeformad process för att publicera data och ger användarna ett enhetligt sätt att komma åt, använda och dela data.</p>",
+                "final": "<h5>Är det säkert?</h5><p>En öppna data-plattform är en programvara som hjälper till att få ut öppna data på webben. Det ger publicerarna en strömlinjeformad process för att publicera data och ger användarna ett enhetligt sätt att komma åt, använda och dela data.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "En öppna data-plattform är en programvara som hjälper till att få ut öppna data på webben. Det ger publicerarna en strömlinjeformad process för att publicera data och ger användarna ett enhetligt sätt att komma åt, använda och dela data.",
+                "final": "En öppna data-plattform är en programvara som hjälper till att få ut öppna data på webben. Det ger publicerarna en strömlinjeformad process för att publicera data och ger användarna ett enhetligt sätt att komma åt, använda och dela data."
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-55",
+        "_parentId":"b-40",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Approaches",
+            "title": "",
+            "large": "course/sv/images/odi-008.jpg",
+            "medium": "course/sv/images/odi-008.jpg",
+            "small": "course/sv/images/odi-008.jpg",
+            "*source": "http://www.shutterstock.com/pic.mhtml?id=277792007&src=id",
+            "*credit": "Nicotombo",
+            "*licence": "Shutterstock standard licence"
+        }
+    },
+    {
+        "_id":"c-60",
+        "_parentId":"b-40",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"58905d4db61c46e176e7eb58",
+        "_classes":"",
+        "_layout":"right",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Vad är en datakatalog?",
+        "displayTitle": "Vad är en datakatalog?",
+        "body": "<p>En datakatalog är ...</p>",
+        "instruction": "<em>Välj ditt svar och klicka sedan på 'Skicka'</em>",
+        "_items": [
+            {
+                "text": "en lista över öppna datamängder som finns tillgängliga på webben",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "En organisation som har en lista över dataset och priser",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "en lista över öppna datamängder available on the Web",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Rätt!</h5><p>En datakatalog listar datamängder som är tillgängliga på webben. Datamängderna behöver inte ägas av katalogens ägare. De flesta kataloger är domän- eller ämnesspecifika för att göra kontexten enklare att förstå.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Är det säkert?</h5><p>En datakatalog listar datamängder som är tillgängliga på webben. Datamängderna behöver inte ägas av katalogens ägare. De flesta kataloger är domän- eller ämnesspecifika för att göra kontexten enklare att förstå.</p>",
+                "final": "<h5>Är det säkert</h5><p>En datakatalog listar datamängder som är tillgängliga på webben. Datamängderna behöver inte ägas av katalogens ägare. De flesta kataloger är domän- eller ämnesspecifika för att göra kontexten enklare att förstå.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "Är det säkert?</h5><p>En datakatalog listar datamängder som är tillgängliga på webben. Datamängderna behöver inte ägas av katalogens ägare. De flesta kataloger är domän- eller ämnesspecifika för att göra kontexten enklare att förstå.",
+                "final": "Är det säkert?</h5><p>En datakatalog listar datamängder som är tillgängliga på webben. Datamängderna behöver inte ägas av katalogens ägare. De flesta kataloger är domän- eller ämnesspecifika för att göra kontexten enklare att förstå."
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-65",
+        "_parentId":"b-45",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "What do open data platforms help with?",
+            "title": "What do open data platforms help with?",
+            "large": "course/sv/images/odi-009.jpg",
+            "medium": "course/sv/images/odi-009.jpg",
+            "small": "course/sv/images/odi-009.jpg",
+            "*source": "http://www.shutterstock.com/pic-241493050/",
+            "*credit": "dencg",
+            "*licence": "Shutterstock standard licence"
+        }
+    },
+    {
+        "_id":"c-70",
+        "_parentId":"b-45",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"58905de5b61c46e176e7eb5e",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":3,
+        "title": "Vilka tre saker hjälper Öppna data-plattformar till med?",
+        "displayTitle": "Vilka tre saker hjälper Öppna data-plattformar till med?",
+        "body": "<p></p>",
+        "instruction": "<em>Välj tre alternativ och klicka sedan på 'Skicka'</em>",
+        "_items": [
+            {
+                "text": "gör det lättare att hitta öppna data",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "säkra beständighet",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "stödja åtkomst till öppna data",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "tillhandahålla kontext",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "bygga en gemenskap",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Rätt!</h5><p>De tre största fördelarna med öppna data-plattformar är upptäckt, beständighet och åtkomst. Trots att de kan hjälpa till med att skapa kontext och gemenskap behöver dessa aspekter större insatser från publiceraren och förbli två av de största utmaningarna inom öppna data.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Är det säkert??</h5><p>De tre största fördelarna med öppna data-plattformar är upptäckt, beständighet och åtkomst. Trots att de kan hjälpa till med att skapa kontext och gemenskap behöver dessa aspekter större insatser från publiceraren och förbli två av de största utmaningarna inom öppna data.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<p>De tre största fördelarna med öppna data-plattformar är upptäckt, beständighet och åtkomst. Trots att de kan hjälpa till med att skapa kontext och gemenskap behöver dessa aspekter större insatser från publiceraren och förbli två av de största utmaningarna inom öppna data.</p>",
+                "final": "<p>De tre största fördelarna med öppna data-plattformar är upptäckt, beständighet och åtkomst. Trots att de kan hjälpa till med att skapa kontext och gemenskap behöver dessa aspekter större insatser från publiceraren och förbli två av de största utmaningarna inom öppna data.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-85",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Summary icon clipboard",
+            "title": "Summary icon clipboard",
+            "large": "course/sv/images/summary-icon.png",
+            "medium": "course/sv/images/summary-icon.png",
+            "small": "course/sv/images/summary-icon.png",
+            "*source":"http://www.shutterstock.com/pic-189810137.html",
+            "*credit":"Kritchanut",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-90",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Öppna data-plattformar",
+        "displayTitle":"Öppna data-plattformar",
+        "body":"<p>Öppna data-plattformar är programvaror som gör det enklare att publicera och hantera öppna data på webben.</p><p>En öppna data-plattform ger publicerarna möjlighet att publicera data, och att få vägledning genom processen.</p><p>Plattformar kan hjälpa användarna genom att göra öppna data från hela världen beständiga och lättillgängliga.</p><p><a class='course_link' href='../module9/'>Nästa modul</a></p><p><a class='course_link' href='../'>Huvudmeny</a></p>",
+        "_pageLevelProgress": {
+          "_isEnabled": true
+        }
+    },
+    {
+       "_id":"c-95",
+       "_parentId":"b-55",
+       "_type":"component",
+       "_component":"text",
+       "_classes":"separator",
+       "_layout":"full"
+    },
+    {
+       "_id":"c-96",
+       "_parentId":"b-55",
+       "_type":"component",
+       "_component":"text",
+       "_classes": "attribution",
+       "body":"&copy; <a href='https://ec.europa.eu/commission/index_en' target='_blank'>European Commission</a>",
+       "_layout":"full"
+    },
+    {
+        "_id":"c-100",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"footer-logo",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Open data institute logo",
+            "title": "Open data institute logo",
+            "large": "course/sv/images/logo-small.png",
+            "medium": "course/sv/images/logo-small.png",
+            "small": "course/sv/images/logo-small.png",
+            "*source":"http://theodi.org",
+            "*credit":"The Open Data Institute",
+            "*license":"All rights reserved"  
+        }
+    },
+    {
+        "_id":"c-104",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"attribution not-eu not-default",
+        "_layout":"right",
+        "body":"Content created by <a href='http://theodi.org' target='_blank'>The Open Data Institute</a>"
+    },
+    {
+        "_id":"c-105",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"social-buttons not-dlab",
+        "_layout":"right",
+        "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/sv/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/sv/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/sv/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/sv/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/sv/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/sv/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/sv/images/social/flickr.png'></a>"
+    }
+]
