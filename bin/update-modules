@@ -1,14 +1,9 @@
 #!/bin/bash
 # USAGE ./update-modules
-for i in `seq 1 14`;
+for i in `seq 1 16`;
 do
 	cp .gitignore_module .gitignore
 	git --git-dir=.module checkout module$i
 	git --git-dir=.module pull
 done
 cp .gitignore_module .gitignore
-git --git-dir=.module checkout navigation
-git --git-dir=.module pull
-cp .gitignore_module .gitignore
-git --git-dir=.module checkout navigation-eu
-git --git-dir=.module pull
