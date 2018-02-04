@@ -1,0 +1,701 @@
+[
+    {
+        "_id": "c-01",
+        "_parentId": "b-01",
+        "_type": "component",
+        "_component": "graphic",
+        "_classes": "intro-logo",
+        "_layout": "right",
+        "title": "",
+        "displayTitle": "",
+        "body": "",
+        "instruction": "",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "",
+            "medium": "",
+            "small": ""
+        }
+    },
+    {
+        "_id": "c-02",
+        "_parentId": "b-01",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "",
+        "_layout": "left",
+        "title": "Il valore aggiunto degli open data",
+        "displayTitle": "Il valore aggiunto degli open data",
+        "body": "<p>Gli open data hanno il potenziale per aiutare a far crescere l'economia, a trasformare la società e a proteggere l'ambiente.</p><p>In questo modulo vedremo come le pubbliche amministrazioni, le imprese e i singoli individui stanno utilizzando gli open data per creare valore aggiunto.</p><h5>In questo modulo vedremo:</h5><ul class='ticks'><li>L'innovazione e la crescita delle imprese</li><li>Opportunità per le pubbliche amministrazioni</li><li>Impatto sulla società e sulle politiche pubbliche</li><li>Vantaggi per la cultura e l'ambiente.</li></ul>",
+        "instruction": "",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-11",
+        "_parentId": "b-10",
+        "_type": "component",
+        "_component": "iFrame-vimeo",
+        "_classes": "",
+        "_layout": "full",
+        "title": " Il valore aggiunto degli open data - in 3 minuti",
+        "displayTitle": "Il valore aggiunto degli open data - in 3 minuti",
+        "body": "Ben Cave, che si occupa di formazione presso ODI, analizza il modo in cui le imprese e le amministrazioni stanno creando valore attraverso gli open data e gli impatti positivi che si osservano sull'economia, sulla società e sull'ambiente.",
+        "instruction": "Per attivare e disattivare i sottotitoli, fai clic sul pulsante \"cc\" in basso a destra del video",
+        "_setCompletionOn": "ended",
+        "_source": "https://player.vimeo.com/video/129196639",
+        "_media": {
+            "mp4": "course/it/video/video.mp4",
+            "poster": "course/it/video/placeholder.jpg"
+        },
+        "_height": {
+            "_small": 250,
+            "_medium": 350,
+            "_large": 508
+        }
+    },
+    {
+        "_id": "c-21",
+        "_parentId": "b-20",
+        "_type": "component",
+        "_component": "graphic",
+        "_classes": "",
+        "_layout": "right",
+        "_graphic": {
+            "alt": "Innovazione e crescita nelle aziende",
+            "title": "Innovazione e crescita nelle aziende",
+            "large": "course/it/images/odi-001-text-image_large.png",
+            "medium": "course/it/images/odi-001-text-image_large.png",
+            "small": "course/it/images/odi-001-text-image_large.png",
+            "*source": "http://www.shutterstock.com/pic-230887714.html",
+            "*credit": "Bloomua",
+            "*license": "Shutterstock Standard License"
+        }
+    },
+    {
+        "_id": "c-22",
+        "_parentId": "b-20",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "",
+        "_layout": "left",
+        "title": "Innovazione e crescita nelle aziende",
+        "displayTitle": "L'innovazione e la crescita delle imprese",
+        "body": "<p>Gli open data supportano l'innovazione e la crescita fornendo opportunità per grandi e piccole imprese di costruire nuovi servizi, identificare occasioni di risparmio e migliorare la loro funzionalità.</p><p class='not-dlab'></p><p class='not-eu not-default'><a href='http://www.shule.info/' target='_blank'>Schule.info</a> provides data regarding the results of the candidates who sat for the National Examinations in Tanzania in year 2012. Publishing a school's results enables them to showcase success and strive for better results. <a href='http://www.mfarm.co.ke/' target='_blank'>MFarm</a> connects buyers and farmers around the country to sell produce.</p><p>Gli open data stimolano l'innovazione perché eliminano le barriere all'accesso, all'uso e alla condivisione dei dati.</p><p>La cultura del dato è fondamentale per quelle aziende che desiderano sfruttare le opportunità offerte dagli open data per creare valore aggiunto e migliorare la loro funzionalità.</p>"
+    },
+    {
+        "_id": "c-25",
+        "_parentId": "b-25",
+        "_classes": "",
+        "_type": "component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Le opportunità per le amministrazioni pubbliche",
+        "displayTitle": "Le opportunità per le amministrazioni pubbliche",
+        "body": "Il settore pubblico può trarre beneficio dagli open data in molti modi:",
+        "instruction": "<em class='desktop-instruction'>Fare clic sulla freccia avanti per vedere di più.</em><em class='mobile-instruction'>Seleziona il segno \"+\" per esplorare ulteriormente, quindi scorri l'immagine per vedere di più.</em>",
+        "_items": [
+            {
+                "title": "Sostenere le economie in crescita",
+                "body": "<p>Per sostenere l'emergere di nuove attività basate sull'utilizzo dei dati e la crescita di quelle esistenti, le pubbliche amministrazioni devono pubblicare dataset chiave.</p><p>Le amministrazioni devono inoltre sostenere l'infrastruttura che mette in collegamento i dati con coloro che li utilizzano.</p><p class='not-dlab'>In cambio, le amministrazioni stanno raccogliendo i frutti di un'economia in crescita basata sui dati. In Finlandia le PMI con accesso a open data sono cresciute del 15% più velocemente di quelle senza accesso.</p><p class='not-dlab'><a href='https://web.archive.org/web/20140531085827/http://www.epsiplatform.eu/content/finnish-study-psi-pricing-geo-data' target='_blank'>Portami al caso di studio finlandese</a></p><p class='not-eu not-default'>In return, governments are reaping the benefits of a growing data economy, as shown by the Dar es Salaam Stock Exchange market report<br/><a href='http://www.dse.co.tz/dse/market-report' target='_blank'>Take me to the Stock Exchange market report</a></p>",
+                "_graphic": {
+                    "src": "course/it/images/odi-002-narrative_large.jpg",
+                    "alt": "Supporting Growing Economies",
+                    "title": "Supporting Growing Economies",
+                    "*source": "http://www.shutterstock.com/pic-128352227.html",
+                    "*credit": "vs148",
+                    "*license": "Shutterstock Standard License"
+                },
+                "strapline": "Sostenere le economie in crescita"
+            },
+            {
+                "title": "Migliorare l'offerta di servizi",
+                "body": "<p>Le amministrazioni devono trovare un equilibrio tra le esigenze di popolazioni sempre più numerose e la necessità di affrontare questioni locali su piccola scala.</p><p>La disponibilità di open data dettagliati è essenziale per migliorare la fornitura di servizi a livello locale.</p><p>Alcuni di questi nuovi servizi sono già disponibili: <br /><a href='https://www.mysociety.org/' target='_blank'>Portami a mySociety</a> <br /><a class='not-dlab' href='http://kimittud.atlatszo.hu/' target='_blank'>Portami al portale 'right to know' ungherese</a> <br /><a class='not-dlab' href='http://www.fiksgatami.no/' target='_blank'>Portami a Fix my Street Norway</a></p>",
+                "_graphic": {
+                    "src": "course/it/images/odi-003-narrative_large.jpg",
+                    "alt": "Migliorare l'offerta di servizi",
+                    "title": "Migliorare l'offerta di servizi",
+                    "*source": "https://www.fixmystreet.com/",
+                    "*credit": "fixmystreet",
+                    "*license": "unknown"
+                },
+                "strapline": "Migliorare l'offerta di servizi"
+            },
+            {
+                "title": "Riduzione dei costi",
+                "body": "<p>Gli open data consentono alle amministrazioni di ottimizzare i costi in settori chiave come la sanità, l'istruzione e i servizi pubblici.</p><p></p><p>In Francia, i dati relativi all'energia vengono utilizzati per sviluppare tecniche di produzione di energia più efficienti.<br /><a href='https://www.quandl.com/collections/france/france-energy-data' target='_blank'>Mostrami i dati energetici della Francia.</a></p><p>Gli open data possono anche aumentare la trasparenza dei budget. In Svizzera, il cantone di Berna ha reso pubblico un risparmio annuo di <a href='http://be-asp.budget.opendata.ch/' target='_blank' class='not-dlab'>400 milioni di euro</a>, realizzato utilizzando open data.</p>",
+                "_graphic": {
+                    "src": "course/it/images/odi-004-narrative_large.jpg",
+                    "alt": "Cost Savings",
+                    "title": "Cost Savings",
+                    "*source": "http://www.shutterstock.com/pic-75494491.html",
+                    "*credit": "vlastas",
+                    "*license": "Shutterstock Standard License"
+                },
+                "strapline": "Riduzione dei costi"
+            }
+        ],
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-30",
+        "_parentId": "b-28",
+        "_type": "component",
+        "_component": "graphic",
+        "_classes": "",
+        "_layout": "right",
+        "_graphic": {
+            "alt": "Changing societies and public policy",
+            "title": "Changing societies and public policy",
+            "large": "course/it/images/odi-005_accordian_large.jpg",
+            "medium": "course/it/images/odi-005_accordian_large.jpg",
+            "small": "course/it/images/odi-005_accordian_large.jpg",
+            "*source": "http://www.shutterstock.com/pic-234353791.html",
+            "*credit": "tai11",
+            "*license": "Shutterstock Standard License"
+        }
+    },
+    {
+        "_id": "c-35",
+        "_parentId": "b-28",
+        "_type": "component",
+        "_component": "accordion",
+        "_classes": "",
+        "_layout": "left",
+        "title": "Changing societies and public policy",
+        "displayTitle": "Changing societies and public policy",
+        "body": "<p>Gli open data creano nuovo valore sociale e consentono di indirizzare in modo più efficiente le politiche pubbliche.</p>",
+        "instruction": "Fai clic sui titoli per esplorare ulteriormente.",
+        "_items": [
+            {
+                "alt": "Migliorare il modo in cui ci spostiamo",
+                "title": "Migliorare il modo in cui ci spostiamo",
+                "body": "<p>Gli open data hanno il potere di rivoluzionare il nostro modo di viaggiare.</p><p class='not-eu'>All over the world open transport data allows companies like Citymapper and Google to give people accurate transport information. This not only helps people understand and use complex transport systems, it also decreases the number of people in cars and increases revenue for public transport systems.</p><p class='not-eu'>Efforts have already begun in Tanzania to open up transport data relating to the Dar es Salaam rapid transit system. The data is being collected and made available through openstreetmap, a collaborative tool that enables anyone to access and use the data, even commercially.<br /><a href='https://wiki.openstreetmap.org/wiki/Dar_es_Salaam/Transport' target='_blank'>Take me to the DART data on openstreetmap</a></p><p class='not-dlab'>All'interno dell'industria dei trasporti olandesi, gli open data aiutano un numero crescente di piccole imprese a sviluppare nuovi servizi.</p><p class='not-tz not-dlab not-default'><a href='http://www.europeandataportal.eu/sites/default/files/use_case_france_-_tranquilien_v1.pdf' target='_blank'>L'app francese Tranquilien</a> migliora il comfort dei passeggeri sui mezzi di trasporto e promuove l'uso efficiente del trasporto pubblico fornendo importanti informazioni relative ai posti disponibili e agli orari di partenza.</p><p class='not-dlab'>Una nuova app olandese, vincitrice della prestigiosa competizione Apps4Europe, utilizzando open data, aiuta i disabili a prenotare l'assistenza durante i loro viaggi.<p>Gli open data relativi ai trasporti consentono di risparmiare tempo, rendono i viaggi più accessibili e aiutano i turisti a viaggiare in città non note.</p>"
+            },
+            {
+                "alt": "Migliorare il modo di lavorare",
+                "title": "Migliorare il modo di lavorare",
+                "body": "<p>Gli open data stanno cambiando il nostro modo di lavorare.</p><p>Gli open data riducono il tempo necessario per trovare informazioni e consentono ai professionisti di concentrare maggiormente il loro tempo sulle attività produttive.</p><p>OpenCorporates offre un database relativo alle aziende in tutto il mondo, mostrando le loro reti, la loro stabilità finanziaria e il loro impatto ambientale. Questo aiuta le organizzazioni a conoscere meglio i potenziali clienti, i fornitori e i partner.<br /><a href='https://opencorporates.com/info/about' target='_blank'>Portami a OpenCorporates</a></p><p class='not-tz not-dlab not-default'><a href='http://www.europeandataportal.eu/sites/default/files/use_case_finland_-_kannattaako_kaupp.pdf' target='_blank'>Il servizio finlandese Kannattaako kauppa fornisce</a> indicazioni in merito all'andamento dei prezzi degli immobili, rendendo più facile confrontare case e quartieri rispetto al prezzo e alla popolazione.</p>"
+            },
+            {
+                "alt": "Migliorare il nostro modo di governare",
+                "title": "Migliorare il nostro modo di governare",
+                "body": "<p>Gli open data stanno diventando una fonte chiave di informazioni per le amministrazioni nella progettazione e nell'attuazione di politiche pubbliche.</p><p class='not-tz not-dlab not-default'>La pubblica amministrazione è di gran lunga il settore che otterrà i maggiori vantaggi dall'apertura dei dati, con un valore di <a href='http://www.europeandataportal.eu/sites/default/files/edp_creating_value_through_open_data_0.pdf' target='_blank'>22 miliardi di euro nel 2020</a>. Ciò conferma che il settore pubblico è il primo riutilizzatore dei propri dati. Per i settori dell'agricoltura, dell'arte e dello spettacolo, i benefici previsti sono minori, con 379 milioni di euro ciascuno. Gli open data hanno ancora un grande potenziale in questi settori, ma ci vorrà del tempo prima di riuscire a sfruttarlo interamente.</p><p>Gli open data stanno anche rendendo più trasparente lo sviluppo delle politiche pubbliche, sostenendo il dialogo tra amministrazioni e cittadini.</p><p>Gli open data su temi cruciali quali l'immigrazione, il commercio e i tagli di bilancio possono essere utilizzati per supportare importanti decisioni politiche.</p><p class='not-tz not-dlab not-default'><a href='www.kurgyvenue.lt' target='_blank'>Where do I live</a> è uno strumento che fornisce ai cittadini lituani informazioni sul loro quartiere: il livello locale dell'inquinamento, il rumore, i livelli di criminalità, i prezzi delle abitazioni, le scuole, l'asilo, il costo medio di beni e servizi.</p><p>Ad esempio, un'analisi degli open data sulle chiusure delle stazioni dei vigili del fuoco a Londra ha contribuito a dimostrare quali stazioni potrebbero essere chiuse minimizzando l'impatto sui servizi.</p><p><a href='http://london-fire.labs.theodi.org/' target='_blank'>Portami all'analisi relativa alle stazioni dei vigili del fuoco di Londra</a></p>"
+            }
+        ],
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-40",
+        "_parentId": "b-30",
+        "_classes": "",
+        "_type": "component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Portare benefici ad ambiente e cultura",
+        "displayTitle": "Portare benefici ad ambiente e cultura",
+        "body": "Gli open data aiutano la popolazione ad orientare le proprie iniziative a sostegno dell'ambiente e della cultura.",
+        "instruction": "<em class='desktop-instruction'>Fare clic sulla freccia avanti per vedere di più.</em><em class='mobile-instruction'>Seleziona il segno \"+\" per esplorare ulteriormente, quindi scorri l'immagine per vedere di più.</em>",
+        "_items": [
+            {
+                "title": "Ambiente",
+                "body": "<p>Gli open data aiutano gli agricoltori a migliorare la produzione e a sostenere una popolazione in crescita senza la necessità di distruggere preziosi habitat.</p><p>Plantwise sta raccogliendo open data per produrre preziosi pacchetti informativi per gli agricoltori relativi alla salute delle piante e alle minacce derivanti da malattie.<br /><a href='https://www.plantwise.org/' target='_blank'>Portami a Plantwise</a></p><p>CIARD ha prodotto una raccolta centralizzata con più di 1.500 ricerche condotte in campo agricolo nel mondo, evidenziando nuove opportunità di ricerca.<br /><a href='http://www.ciard.net/' target='_blank'>Portami a CIARD</a></p>",
+                "_graphic": {
+                    "src": "course/it/images/odi-006-narrative_large.jpg",
+                    "alt": "Ambiente",
+                    "title": "Ambiente",
+                    "*source": "http://www.shutterstock.com/pic-94664593.html",
+                    "*credit": "Madlen",
+                    "*license": "Shutterstock Standard License"
+                },
+                "strapline": "Ambiente"
+            },
+            {
+                "title": "Salvare vite",
+                "body": "<p>Gli open data aiutano a salvare le vite umane. Open geographic data and aid statistics are being used by humanitarian groups to deliver targeted supplies in disaster zones.</p><p>Durante il terremoto di Haiti nel 2010 gli open data geografici hanno aiutato le squadre di emergenza ad indirizzare gli interventi di aiuto.<br /><a href='http://hotosm.org/projects/haiti-2' target='_blank'>Mostrami Haiti Open Street Map.</a></p><p>Gli open data sono stati utilizzati anche per gestire l'emergenza dovuta al tifone nelle Filippine nel 2014.</p><p class='not-eu'>Open data is also being used to track the Ebola virus outbreak in West Africa in 2015.<br /><a href='https://web.archive.org/web/20160123072141/http://www.eboladata.org/' target='_blank'>Show me the Ebola open data jam.</a></p>",
+                "_graphic": {
+                    "src": "course/it/images/odi-007-narrative_large.jpg",
+                    "alt": "Salvare vite",
+                    "title": "Salvare vite",
+                    "*source": "http://www.itoworld.com/static/ted_video.html",
+                    "*credit": "Ito World Ltd.",
+                    "*license": "Creative Commons Attribution ShareAlike"
+                },
+                "strapline": "Salvare vite"
+            },
+            {
+                "title": "Cultura",
+                "body": "<p>Gli open data avvicinano le persone ad importanti questioni culturali e aiutano ad alimentare su queste questioni un dibattito più informato.</p><p>OpenGLAM sta aiutando a salvare il patrimonio culturale dei gruppi in Germania, Svizzera e Finlandia.<br /><a href='http://openglam.org/' target='blank'>Portami a OpenGLAM.</a></p><p>L'Open Data Institute coordina un programma globale, Data as Culture, con artisti in sede che reinterpretano il modo in cui i dati vengono percepiti.<br /><a href='http://theodi.org/culture' target='_blank'>Portami a ODI Data as Cultura</a></p>",
+                "_graphic": {
+                    "src": "course/it/images/odi-008-narrative_large.jpg",
+                    "alt": "Cultura",
+                    "title": "Cultura",
+                    "*source": "https://www.flickr.com/photos/ukodi/13400679614/in/album-72157642859056285/",
+                    "*credit": "Open Data Institute",
+                    "*license": "Creative Commons Attribution ShareAlike"
+                },
+                "strapline": "Cultura"
+            }
+        ],
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-31",
+        "_parentId": "b-31",
+        "_classes": "not-eu",
+        "_type": "component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Education, Healthcare and Nutrition",
+        "displayTitle": "Education, Healthcare and Nutrition",
+        "body": "",
+        "instruction": "<em class='desktop-instruction'>Click the forward arrow for more.</em><em class='mobile-instruction'>Seleziona il segno \"+\" per esplorare ulteriormente, quindi scorri l'immagine per vedere di più.</em>",
+        "_items": [
+            {
+                "title": "Education",
+                "body": "<p>In Burkino Faso the Our Schools Our Data portal has been developed to improve citizens’ access to information about schools, as well as helping government better engage and empower local communities.</p><p>In Tanzania, the <a href='http://www.shule.info/' target='_blank'>shule.info</a> portal kickstarted the publication of school results in Tanzania. The portal provides information regarding school results and allows citizens to compare schools to help inform them about the best opportunities for education in their region. More recent results have been published by the National Examinations Council of Tanzania on their own <a href='http://www.necta.go.tz/brn2015/' target='_blank'>school ranking portal</a>.</p>",
+                "_graphic": {
+                    "src": "course/it/images/c-31a.jpg",
+                    "alt": "School supplies",
+                    "title": "School supplies",
+                    "*source": "https://www.flickr.com/photos/infomastern/9671353179",
+                    "*credit": "Nick Amoscato",
+                    "*license": "CC-BY 2.0"
+                },
+                "strapline": "Education"
+            },
+            {
+                "title": "Heathcare",
+                "body": "<p>In South Africa, the <a href='https://mpr.code4sa.org/' target='_blank'>Medicine price portal</a> provides services to help citizens afford the right medicines. It uses open data not only to provide price information, but also offers information on alternative cheaper generic alternatives to the expensive brand names.</p><p>In <a href='http://health.saharareporters.com/' target='_blank'>Nigeria</a> and <a href='http://health.the-star.co.ke/' target='_blank'>Kenya</a>, this service from <a href='https://codeforafrica.org/' target='_blank'>Code for Africa</a> has been expanded even further. Here open data is used to provide citizens the ability to check a doctors registered status, find the nearest specialist as well as check if they are covered for national health care services.</p>",
+                "_graphic": {
+                    "src": "course/it/images/c-31b.jpg",
+                    "alt": "Antacid",
+                    "title": "Antacid",
+                    "*source": "https://www.flickr.com/photos/treasureice/16459056781",
+                    "*credit": "Treasure",
+                    "*license": "CC-BY 2.0"
+                },
+                "strapline": "Heathcare"
+            },
+            {
+                "title": "Nutrition",
+                "body": "<p>Access to fresh water is one of the most important things in life. The <a href='http://www.tanzaniawaterproject.org/what-we-are-doing/where-we-are-working/' target='_blank'>Tanzania Water Project website</a> provides locations of new and proposed well sites to give people access to fresh water.</p><p>For farmers in Tanzania, <a href='http://www.agrimark.co.tz/' target='_blank'>Agrimark</a> connects farmers with the market for their crops. For farmers in Tanzania, often located in rural areas, finding suppliers for crops can be a difficult process. Likewise for hotels, restaurants and other businesses, finding food at the best price is challenging. Agrimark solves both challenges by creating an open marketplace for buyers and sellers of produce.</p>",
+                "_graphic": {
+                    "src": "course/it/images/c-31c.jpg",
+                    "alt": "Reaching for the sky",
+                    "title": "Reaching for the sky",
+                    "*source": "https://www.flickr.com/photos/infomastern/9671353179",
+                    "*credit": "Susanne Nilsson",
+                    "*license": "CC-BY-SA 2.0"
+                },
+                "strapline": "Nutrition"
+            }
+        ],
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-42",
+        "_parentId": "b-33",
+        "_type": "component",
+        "_component": "graphic",
+        "_classes": "",
+        "_layout": "right",
+        "title": "",
+        "displayTitle": "",
+        "body": "",
+        "instruction": "",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/it/images/burst.png",
+            "medium": "course/it/images/burst.png",
+            "small": "course/it/images/burst.png"
+        }
+    },
+    {
+        "_id": "c-43",
+        "_parentId": "b-33",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "",
+        "_layout": "left",
+        "title": "Sei pronto per creare valore aggiunto con gli open data?",
+        "displayTitle": "Sei pronto per creare valore aggiunto con gli open data?",
+        "body": "<p>Ci sono molti esempi preziosi di iniziative legate agli open data che portano vantaggi dal punto di vista sociale, economico e ambientale. Sei pronto ad aderire al movimento degli open data?</p>",
+        "instruction": "",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-45",
+        "_parentId": "b-35",
+        "_type": "component",
+        "_component": "graphic",
+        "_classes": "illustration",
+        "_layout": "right",
+        "_graphic": {
+            "alt": "Sei pronto per creare valore aggiunto con gli open data?",
+            "title": "",
+            "large": "course/it/images/odi-009-mcq_large.png",
+            "medium": "course/it/images/odi-009-mcq_large.png",
+            "small": "course/it/images/odi-009-mcq_large.png",
+            "*source": "http://www.shutterstock.com/pic-230887714.html",
+            "*credit": "Bloomua",
+            "*license": "Shutterstock Standard License"
+        }
+    },
+    {
+        "_id": "c-50",
+        "_parentId": "b-35",
+        "_type": "component",
+        "_component": "mcq",
+        "_adapt2id": "588a0892b61c46e176e7e8e9",
+        "_classes": "",
+        "_layout": "left",
+        "_attempts": 1,
+        "_questionWeight": 1,
+        "_isRandom": true,
+        "_selectable": 1,
+        "title": "Innovazione e crescita nelle aziende",
+        "displayTitle": "Innovazione e crescita nelle aziende",
+        "body": "<p>Gli open data stanno guidando l'innovazione e la crescita nel settore privato poiché...</p>",
+        "instruction": "<em>Choose an answer, then click 'Submit'</em>",
+        "_items": [
+            {
+                "text": "sono disponibili sul Web",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "offrono l'opportunità di costruire nuovi servizi e migliorare l'attività",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "motivano gli innovatori ad utilizzare i dati delle pubbliche amministrazioni",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback": {
+            "correct": "<h5>Esatto!</h5><p>La cultura del dato è fondamentale per quelle aziende che desiderano sfruttare le opportunità offerte dagli open data per creare valore aggiunto e migliorare la loro funzionalità.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Sei sicuro??</h5><p>La cultura del dato è fondamentale per quelle aziende che desiderano sfruttare le opportunità offerte dagli open data per creare valore aggiunto e migliorare la loro funzionalità.</p>",
+                "final": "<h5>Sei sicuro??</h5><p>La cultura del dato è fondamentale per quelle aziende che desiderano sfruttare le opportunità offerte dagli open data per creare valore aggiunto e migliorare la loro funzionalità.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "",
+                "final": ""
+            }
+        },
+        "_buttons": {
+            "submit": "",
+            "reset": "",
+            "showCorrectAnswer": "",
+            "hideCorrectAnswer": ""
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-55",
+        "_parentId": "b-40",
+        "_type": "component",
+        "_component": "graphic",
+        "_classes": "illustration",
+        "_layout": "left",
+        "_graphic": {
+            "alt": "Innovazione e crescita nelle aziende",
+            "title": "",
+            "large": "course/it/images/odi-010-mcq_large.jpg",
+            "medium": "course/it/images/odi-010-mcq_large.jpg",
+            "small": "course/it/images/odi-010-mcq_large.jpg",
+            "*source": "http://www.shutterstock.com/pic-128352227.html",
+            "*credit": "vs148",
+            "*license": "Shutterstock Standard License"
+        }
+    },
+    {
+        "_id": "c-60",
+        "_parentId": "b-40",
+        "_type": "component",
+        "_component": "mcq",
+        "_adapt2id": "588a0bc3b61c46e176e7e8f1",
+        "_classes": "",
+        "_layout": "right",
+        "_attempts": 1,
+        "_questionWeight": 1,
+        "_isRandom": true,
+        "_selectable": 1,
+        "title": "Le opportunità per le amministrazioni pubbliche",
+        "displayTitle": "Le opportunità per le amministrazioni pubbliche",
+        "body": "<p>La conoscenza degli open data non è più un lusso per i funzionari pubblici, oggigiorno è...</p>",
+        "instruction": "<em>Choose an answer, then click Submit</em>",
+        "_items": [
+            {
+                "text": "un po' più importante di quanto non fosse tempo fa",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "una cosa da approfondire",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "un aspetto fondamentale nella fornitura di servizi moderni",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback": {
+            "correct": "<h5>Esatto!</h5><p>A new generation of voters across the world have grown to expect a digitally literate and engaged public sector.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Sei sicuro??</h5><p>A new generation of voters across the world have grown to expect a digitally literate and engaged public sector.</p>",
+                "final": "<h5>Sei sicuro??</h5><p>A new generation of voters across the world have grown to expect a digitally literate and engaged public sector.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "",
+                "final": ""
+            }
+        },
+        "_buttons": {
+            "submit": "",
+            "reset": "",
+            "showCorrectAnswer": "",
+            "hideCorrectAnswer": ""
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-65",
+        "_parentId": "b-45",
+        "_type": "component",
+        "_component": "graphic",
+        "_classes": "illustration",
+        "_layout": "right",
+        "_graphic": {
+            "alt": "Cambiare la società e le politiche pubbliche",
+            "title": "",
+            "large": "course/it/images/odi-011-mcq_large.jpg",
+            "medium": "course/it/images/odi-011-mcq_large.jpg",
+            "small": "course/it/images/odi-011-mcq_large.jpg",
+            "*source": "http://www.shutterstock.com/pic-234353791.html",
+            "*credit": "tai11",
+            "*license": "Shutterstock Standard License"
+        }
+    },
+    {
+        "_id": "c-70",
+        "_parentId": "b-45",
+        "_type": "component",
+        "_component": "mcq",
+        "_adapt2id": "588a175eb61c46e176e7e901",
+        "_classes": "",
+        "_layout": "left",
+        "_attempts": 1,
+        "_questionWeight": 1,
+        "_isRandom": true,
+        "_selectable": 1,
+        "title": "Cambiare la società e le politiche pubbliche",
+        "displayTitle": "Cambiare la società e le politiche pubbliche",
+        "body": "<p>Qual è il vantaggio di avere open data sui trasporti?</p>",
+        "instruction": "<em>Choose an answer, then click 'Submit'</em>",
+        "_items": [
+            {
+                "text": "Fa risparmiare tempo alle persone e migliora l'accesso al servizio",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "Rende i treni più veloci",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Rende i biglietti più economici",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback": {
+            "correct": "<h5>Esatto!</h5><p>Gli open data sui trasporti consentono di risparmiare tempo, rendono i viaggi più accessibili e ottimizzano l'accesso per i turisti.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Sei sicuro??</h5><p>Gli open data sui trasporti consentono di risparmiare tempo, rendono i viaggi più accessibili e ottimizzano l'accesso per i turisti.</p>",
+                "final": "<h5>Sei sicuro??</h5><p>Gli open data sui trasporti consentono di risparmiare tempo, rendono i viaggi più accessibili e ottimizzano l'accesso per i turisti.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "",
+                "final": ""
+            }
+        },
+        "_buttons": {
+            "submit": "",
+            "reset": "",
+            "showCorrectAnswer": "",
+            "hideCorrectAnswer": ""
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-75",
+        "_parentId": "b-50",
+        "_type": "component",
+        "_component": "graphic",
+        "_classes": "illustration",
+        "_layout": "left",
+        "_graphic": {
+            "alt": "Cambiare la cultura e l'ambiente",
+            "title": "",
+            "large": "course/it/images/odi-012-mcq_large.jpg",
+            "medium": "course/it/images/odi-012-mcq_large.jpg",
+            "small": "course/it/images/odi-012-mcq_large.jpg",
+            "*source": "http://www.itoworld.com/static/ted_video.html",
+            "*credit": "Ito World Ltd.",
+            "*license": "n/a"
+        }
+    },
+    {
+        "_id": "c-80",
+        "_parentId": "b-50",
+        "_type": "component",
+        "_component": "mcq",
+        "_adapt2id": "588a26d7b61c46e176e7e907",
+        "_classes": "",
+        "_layout": "right",
+        "_attempts": 1,
+        "_questionWeight": 1,
+        "_isRandom": true,
+        "_selectable": 1,
+        "title": "Cambiare la cultura e l'ambiente",
+        "displayTitle": "Cambiare la cultura e l'ambiente",
+        "body": "<p>Quale tipo di open data è stato utilizzato per aiutare la gestione dell'emergenza durante le catastrofi ad Haiti e nelle Filippine?</p>",
+        "instruction": "<em>Choose an answer, then click 'Submit'</em>",
+        "_items": [
+            {
+                "text": "Dati demografici del censimento",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Gli open data relativi agli stipendi delle persone",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Gli open data geografici e le statistiche sugli interventi",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback": {
+            "correct": "<h5>Esatto!</h5><p>Gli open data aiutano a salvare le vite umane. I gruppi umanitari utilizzano open data geografici e statistiche relative agli interventi per fornire aiuti mirati in zone disastrate.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Sei sicuro??</h5><p>Gli open data aiutano a salvare le vite umane. I gruppi umanitari utilizzano open data geografici e statistiche relative agli interventi per fornire aiuti mirati in zone disastrate.</p>",
+                "final": "<h5>Sei sicuro??</h5><p>Gli open data aiutano a salvare le vite umane. I gruppi umanitari utilizzano open data geografici e statistiche relative agli interventi per fornire aiuti mirati in zone disastrate.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "",
+                "final": ""
+            }
+        },
+        "_buttons": {
+            "submit": "",
+            "reset": "",
+            "showCorrectAnswer": "",
+            "hideCorrectAnswer": ""
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-85",
+        "_parentId": "b-55",
+        "_type": "component",
+        "_component": "graphic",
+        "_classes": "",
+        "_layout": "right",
+        "_graphic": {
+            "alt": "Summary icon clipboard",
+            "title": "Summary icon clipboard",
+            "large": "course/it/images/odi-footer.png",
+            "medium": "course/it/images/odi-footer.png",
+            "small": "course/it/images/odi-footer.png",
+            "*source": "http://www.shutterstock.com/pic-189810137.html",
+            "*credit": "Kritchanut",
+            "*license": "Shutterstock Standard License"
+        }
+    },
+    {
+        "_id": "c-90",
+        "_parentId": "b-55",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "",
+        "_layout": "left",
+        "title": "Siamo pronti per liberare il valore dei dati?",
+        "displayTitle": "Siamo pronti per liberare il valore dei dati?",
+        "body": "<p>Gli open data sono un potenziale per far crescere l'economia, trasformare la società e proteggere l'ambiente.</p><p>Gli open data possono aiutare le amministrazioni a far crescere l'economia, a migliorare la fornitura di servizi e ad ottimizzare i costi.</p><p>La società può trarre beneficio dagli open data, che possono migliorare il modo in cui ci muoviamo, il modo in cui lavoriamo e il modo in cui governiamo.</p><p>Gli open data possono aiutare a salvare vite umane ed aiutarci a comprendere meglio il mondo in cui viviamo.</p><p>Sei pronto a partecipare? Nel prossimo modulo, vedremo come intraprendere un'iniziativa legata agli open data.</p><p><a class='course_link' href='../module3/'>Modulo successivo</a></p><p><a class='course_link' href='../'>Menù principale</a></p>",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-95",
+        "_parentId": "b-55",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "separator",
+        "_layout": "full"
+    },
+    {
+        "_id": "c-96",
+        "_parentId": "b-55",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "attribution",
+        "body": "&copy; <a href='https://ec.europa.eu/commission/index_en' target='_blank'>European Commission</a>",
+        "_layout": "full"
+    },
+    {
+        "_id": "c-100",
+        "_parentId": "b-55",
+        "_type": "component",
+        "_component": "graphic",
+        "_classes": "footer-logo",
+        "_layout": "left",
+        "_graphic": {
+            "alt": "Open data institute logo",
+            "title": "Open data institute logo",
+            "large": "course/it/images/logo-small.png",
+            "medium": "course/it/images/logo-small.png",
+            "small": "course/it/images/logo-small.png",
+            "*source": "http://theodi.org",
+            "*credit": "The Open Data Institute",
+            "*license": "All rights reserved"
+        }
+    },
+    {
+        "_id": "c-104",
+        "_parentId": "b-55",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "attribution not-eu not-default",
+        "_layout": "right",
+        "body": "Content created by <a href='http://theodi.org' target='_blank'>The Open Data Institute</a>"
+    },
+    {
+        "_id": "c-105",
+        "_parentId": "b-55",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "social-buttons not-dlab",
+        "_layout": "right",
+        "body": "<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/it/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/it/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/it/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/it/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/it/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/it/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/it/images/social/flickr.png'></a>"
+    }
+]
