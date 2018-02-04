@@ -1,0 +1,734 @@
+[
+  {
+    "_id": "59400a14d084d5167a04fa58",
+    "_layout": "right",
+    "_parentId": "b-06",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/it/assets/a516261fb9cb309e3b3d1116a192ecfc2a70fbad.png",
+      "small": "course/it/assets/a516261fb9cb309e3b3d1116a192ecfc2a70fbad.png",
+      "attribution": ""
+    }
+  },
+  {
+    "_id": "59400a14d084d5167a04fa73",
+    "_layout": "left",
+    "_parentId": "b-09",
+    "_type": "component",
+    "body": "<p dir=\"ltr\"><strong>L'indicatore di impatto sociale per lo strumento di valutazione Open Data in Europe si basa sull'impatto su...</strong></p>",
+    "displayTitle": "Come misuriamo l'impatto?",
+    "title": "Come misuriamo l'impatto?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "mcq",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Scegli la tua risposta, quindi fai clic su \"Invia\"",
+    "_items": [
+      {
+        "text": "la sostenibilità ambientale e l'inclusione di gruppi marginalizzati",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "studi di valutazione del valore di mercato degli open data",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "l'efficienza e la trasparenza della pubblica amministrazione",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_feedback": {
+      "correct": "<p><strong>Esatto!</strong></p><p>Ci sono due variabili che compongono l'indicatore di impatto sociale: l'impatto sulla sostenibilità ambientale e sull'aumento dell'inclusione di gruppi marginalizzati</p>",
+      "_incorrect": {
+        "final": "<p><strong>Sei sicuro?</strong></p><p>Ci sono due variabili che compongono l'indicatore di impatto sociale: l'impatto sulla sostenibilità ambientale e sull'aumento dell'inclusione di gruppi marginalizzati</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        }
+  },
+  {
+    "_id": "59400a14d084d5167a04fa74",
+    "_layout": "left",
+    "_parentId": "b-07",
+    "_type": "component",
+    "body": "<p><strong>Ottenere dei risultati è importante perché...</strong></p>",
+    "displayTitle": "Perché è importante ottenere dei risultati?",
+    "title": "Perché è importante ottenere dei risultati?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "mcq",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Scegli tutte le risposte pertinenti, quindi fai clic su \"Invia\"",
+    "_items": [
+      {
+        "text": "fornisce un motivo per far continuare il programma",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "mostra dove dovresti concentrare tutti i tuoi sforzi",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "si possono trarre conclusioni inaspettate",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_feedback": {
+      "correct": "<p><strong>Esatto!</strong></p><p>Conseguire risultati è importante poiché fornisce un motivo per cui il programma avviato debba proseguire in quanto dimostra il ritorno sugli investimenti.</p><p>I risultati sono un aspetto chiave per misurare l'efficacia di politiche, programmi o iniziative relative agli open data. </p><p> </p><p> </p>",
+      "_incorrect": {
+        "final": "<p><strong>Sei sicuro?</strong></p><p>Conseguire risultati è importante poiché fornisce un motivo per cui il programma avviato debba proseguire in quanto dimostra il ritorno sugli investimenti.</p><p>I risultati sono un aspetto chiave per misurare l'efficacia di politiche, programmi o iniziative relative agli open data. </p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        }
+  },
+  {
+    "_id": "59400a14d084d5167a04fa75",
+    "_layout": "right",
+    "_parentId": "b-11",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "color-six",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/it/assets/7120bb7ad02055a11589656852c821cae30bf616.png",
+      "small": "course/it/assets/7120bb7ad02055a11589656852c821cae30bf616.png",
+      "attribution": "<a href=\"https://theodi.org\" target=\"_blank\">The Open Data Institute</a> <span class='assetLicence'>[CC-BY-SA]</span>"
+    }
+  },
+  {
+    "_id": "59400a14d084d5167a04fa76",
+    "_layout": "left",
+    "_parentId": "b-01",
+    "_type": "component",
+    "body": "<p dir=\"ltr\">L'obiettivo di qualsiasi progetto o iniziativa relativa agli open data è quello di ottenere dei risultati che possono essere: la trasparenza e la responsabilizzazione della governance; benefici sociali o la crescita economica. Creare, individuare e promuovere <a href=\"http://opendatabarometer.org/3rdEdition/report/#impact\" target=\"_blank\">esempi in cui gli open data sono utilizzati per migliorare</a> la nostra vita quotidiana è una delle sfide nel guidare un progetto, un programma o un'iniziativa relativa agli open data.</p><p dir=\"ltr\">In questo modulo vedremo:</p><ul class='ticks'><li dir=\"ltr\">Perché è importante ottenere dei risultati?</li><li dir=\"ltr\">Come possiamo ottenere dei risultati?</li><li dir=\"ltr\">Come possiamo misurare i risultati che abbiamo raggiunto?</li><li dir=\"ltr\">Superare gli ostacoli al raggiungimento degli obiettivi</li></ul>",
+    "displayTitle": "Ottenere risultati con gli open data",
+    "title": "Ottenere risultati con gli open data",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "ticks",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "59400a14d084d5167a04fa77",
+    "_layout": "right",
+    "_parentId": "b-02",
+    "_type": "component",
+    "body": "<p dir=\"ltr\">I risultati sono un aspetto cruciale per misurare l'efficacia di politiche, programmi o iniziative relative agli open data. E’ difficile sostenere che un programma di lavoro deve continuare se non si riesce a dimostrare il ritorno sugli investimenti (ROI) attraverso dei risultati.</p><p dir=\"ltr\">Questo ROI può non essere di natura finanziaria, in quanto ci sono anche più ampi risultati di natura politica e sociale che possono essere ottenuti attraverso gli open data:</p><p dir=\"ltr\">Puoi scoprire di più nel modulo: '<a href=\"https://www.europeandataportal.eu/elearning/it/module2/#/id/co-01\" target=\"_blank\">Il valore aggiunto degli open data</a>'.</p>",
+    "displayTitle": " Perché è importante ottenere dei risultati?",
+    "title": " Perché è importante ottenere dei risultati?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "59400a14d084d5167a04fa78",
+    "_layout": "left",
+    "_parentId": "b-02",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "",
+    "title": "",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/it/assets/f4b7a83ca6a5ee395ea40ef51b5e6d07ac2e288e.jpg",
+      "small": "course/it/assets/f4b7a83ca6a5ee395ea40ef51b5e6d07ac2e288e.jpg",
+      "attribution": "<a href=\"https://www.shutterstock.com/image-illustration/large-group-people-shape-chat-bubblewhite-234353791\" target=\"_blank\">tai11</a> <span class='assetLicence'>[Shutterstock standard licence]</span>"
+    }
+  },
+  {
+    "_id": "59400a14d084d5167a04fa79",
+    "_layout": "right",
+    "_parentId": "b-03",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "",
+    "title": "",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/it/assets/edd9adfa60a0dc2b857d5e90a86fdf58f3287e66.png",
+      "small": "course/it/assets/edd9adfa60a0dc2b857d5e90a86fdf58f3287e66.png",
+      "attribution": "<a href=\"http://www.freepik.com/free-photos-vectors/business\" target=\"_blank\"> Photoroyalty - Freepik.com</a> <span class='assetLicence'>[CC-BY]</span>"
+    }
+  },
+  {
+    "_id": "59400a14d084d5167a04fa7a",
+    "_layout": "full",
+    "_parentId": "b-05",
+    "_type": "component",
+    "body": "<p>Gli open data sono un concetto relativamente nuovo e in alcuni casi sollevano blocchi istintivi. In questa sezione vediamo alcuni dei principali ostacoli al raggiungimento di risultati, nonché i modi per superarli.</p>",
+    "displayTitle": "Come superare gli ostacoli al raggiungimento di risultati",
+    "title": "Come superare gli ostacoli al raggiungimento di risultati",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "narrative",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "mobileInstruction": "",
+    "_hasNavigationInTextArea": false,
+    "_setCompletionOn": "inview",
+    "_items": [
+      {
+        "title": "Gli utenti non conoscono l'esistenza dei tuoi dati",
+        "body": "<p>Puoi avere dati eccellenti che potrebbero avere un impatto positivo, ma ciò è possibile solo se i potenziali utenti sanno che i dati esistono.</p><p>Un modo per promuovere i tuoi dati è quello di definire delle sfide (challenge) attorno a quei dati. Una <a href=\"http://www.nesta.org.uk/project/open-data-challenge-series\" target=\"_blank\">serie di sfide</a> è un buon modo per raccogliere delle persone attorno ai tuoi dati. Offrendo un premio in denaro e stabilendo un processo di open innovation, puoi motivare a riutilizzare i tuoi dati e creare ottime esperienze da raccontare.</p><p>Presentare esperienze di utilizzo insieme ai tuoi dati contribuirà anche ad incoraggiare il riutilizzo.</p>",
+        "_graphic": {
+          "src": "course/it/assets/44692b04753e36675bd12acf35820956832091e4.jpg",
+          "alt": "",
+          "attribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Ghozt_Tramp_-_Business_Communication_Duplicat_model.jpg\" target=\"_blank\">Ghozt Tramp</a> <span class='assetLicence'>[CC-BY-SA]</span>"
+        },
+        "strapline": "Gli utenti non conoscono l'esistenza dei tuoi dati"
+      },
+      {
+        "title": "Il timore di violare la protezione dei dati",
+        "body": "<p dir=\"ltr\">Un altro ostacolo al riutilizzo degli open data è la paura che i dati possano non essere di buona qualità. Alcune licenze non sono chiare, sopratutto sull'uso di dati di terze parti o dati personali che si possono trovare nei dataset. Spesso le clausole \"senza garanzia\" possono far sembrare che in questi casi l'utente sia responsabile.</p><p>Per superare questo ostacolo, chi pubblica i dati deve essere chiaro in merito alla base legale dei dati e a cosa gli utenti possono fare quando li utilizzano.</p><p>Chiarire i termini della licenza sarà di aiuto. Dare informazioni sul processo di controllo della privacy e sulla valutazione dell'impatto sulla privacy se si trattano dati personali, come anche rendere pubblico il processo seguito per anonimizzare i dati, contribuirà a dare sicurezza agli utenti.</p>",
+        "_graphic": {
+          "src": "course/it/assets/eb7c7b7bfff664aef851578a795efa612ea1a806.jpg",
+          "alt": "",
+          "attribution": "<a href=\"https://www.flickr.com/photos/132053576@N03/17765606909/\" target=\"_blank\">Owen Moore</a> <span class='assetLicence'>[CC-BY]</span>"
+        },
+        "strapline": "Il timore di violare la protezione dei dati"
+      },
+      {
+        "title": "Qualità dei dati e problemi di fruibilità",
+        "body": "<p>Un altro ostacolo al riutilizzo degli open data è la paura che i dati possano non essere di buona qualità.</p><p>Ci sono diversi standard condivisi dalla comunità che possono aiutarti a valutare la qualità dei tuoi dati e la loro fruibilità, sia come persona che pubblica e sia come utente.</p><p>Assicurarsi che i tuoi dati siano utilizzabili, da un punto di vista giuridico, pratico e sociale, favorirà il riutilizzo e il raggiungimento di risultati. </p><p>Scopri di più: '<a href=\"https://www.europeandataportal.eu/elearning/it/module5/#/id/co-01\">Che cosa rende gli open data dati di qualità</a>'</p>",
+        "_graphic": {
+          "src": "course/it/assets/b0a1356f5ad57eff61e6a22b69a2e1b6d9773220.jpg",
+          "alt": "",
+          "attribution": "<a href=\"robodread\" target=\"_blank\">robodread</a> <span class='assetLicence'>[Shutterstock standard licence]</span>"
+        },
+        "strapline": "Qualità dei dati e problemi di fruibilità"
+      }
+    ]
+  },
+  {
+    "_id": "59400a14d084d5167a04fa7f",
+    "_layout": "left",
+    "_parentId": "b-06",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "Sei pronto per ottenere risultati con gli open data?",
+    "title": "Sei pronto per ottenere risultati con gli open data?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "59400a15d084d5167a04fa83",
+    "_layout": "left",
+    "_parentId": "b-03",
+    "_type": "component",
+    "body": "<p dir=\"ltr\">Raggiungere dei risultati e misurare il loro impatto è uno degli aspetti più impegnativi quando si conduce un progetto, un programma o un'iniziativa relativa agli open data. Ci sono una serie di tecniche che puoi utilizzare e che possono aiutarti ad ottenere dei risultati.</p>",
+    "displayTitle": " Come possiamo ottenere dei risultati?",
+    "title": " Come possiamo ottenere dei risultati?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "accordion",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_items": [
+      {
+        "title": "Identificare obiettivi condivisi",
+        "body": "<p>La prima cosa da fare è pensare a quello che vuoi ottenere. Qual è l'obiettivo finale per cui pubblichi i tuoi dati in modo aperto? Per il successo di una iniziativa, un programma o un progetto relativo agli open data è fondamentale avere un'idea chiara e ben strutturata.</p><p>Quindi devi pensare ai potenziali utilizzatori dei tuoi dati. Che obiettivi hanno? In che modo i tuoi dati potrebbero aiutare a raggiungere questi obiettivi?</p><p>Le iniziative di maggior successo relative agli open data allineano gli obiettivi di chi fornisce i dati con quelli degli utenti. E’ raro che ognuno parta con gli stessi obiettivi, quindi è meglio cercare degli ambiti in cui gli obiettivi possano incontrarsi. Quanto più si allineano gli obiettivi, tanto più successo la pubblicazione tenderà ad avere.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Trovare e promuovere casi d'uso interessanti",
+        "body": "<p dir=\"ltr\">Un buon metodo che aiuta a mostrare i risultati ottenuti è quello di cercare e di promuovere casi d'uso interessanti. A volte queste storie sono evidenti ma di solito devono essere promosse.</p><p dir=\"ltr\">E' utile eseguire, commissionare o identificare ricerche sull'impatto attuale o potenziale degli open data sulla tua organizzazione, in modo che tu possa comunicare chiaramente i risultati raggiunti dal tuo programma, progetto o iniziativa.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Riflettere, ripetere, ribadire",
+        "body": "<p>Può essere difficile guardare a ciò che è accaduto come conseguenza del tuo progetto e le ragioni per cui esso abbia o non abbia avuto successo.</p><p>Prenditi il tempo per riflettere, in modo da poter avere un approccio flessibile e costante. Se qualcosa non funziona, non avere paura di toglierlo dai tuoi obiettivi.</p><p>Ripetere e raffinare la strategia significa dare al tuo progetto, programma o iniziativa maggiori possibilità di ottenere dei risultati.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      }
+    ],
+    "_shouldCollapseItems": true
+  },
+  {
+    "_id": "59400a15d084d5167a04fa84",
+    "_layout": "right",
+    "_parentId": "b-08",
+    "_type": "component",
+    "body": "<p><strong>Possiamo ottenere risultati...</strong></p>",
+    "displayTitle": "Come possiamo ottenere dei risultati?",
+    "title": "Come possiamo ottenere dei risultati?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "mcq",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Scegli la tua risposta, quindi fai clic su \"Invia\"",
+    "_items": [
+      {
+        "text": "identificando obiettivi condivisi",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "mantenendo alcuni dati chiusi",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "commissionando una ricerca sull'impatto del progetto",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "riflettendo e insistendo sulla nostra iniziativa",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "condividendo la metodologia",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 3,
+    "_feedback": {
+      "correct": "<p><strong>Esatto!</strong></p><p>Si possono ottenere risultati individuando obiettivi condivisi tra chi pubblica e chi utilizza i dati, individuando e sostenendo esperienze positive attraverso la ricerca e riflettendo e ripetendo quelle esperienze. </p>",
+      "_incorrect": {
+        "final": "<p><strong>Sei sicuro?</strong></p><p>Si possono ottenere risultati individuando obiettivi condivisi tra chi pubblica e chi utilizza i dati, individuando e sostenendo esperienze positive attraverso la ricerca e riflettendo e ripetendo quelle esperienze. </p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        }
+  },
+  {
+    "_id": "59400a15d084d5167a04fa85",
+    "_layout": "right",
+    "_parentId": "b-10",
+    "_type": "component",
+    "body": "<p><strong>Un tipico ostacolo al raggiungimento di risultati è la mancanza di coinvolgimento sui tuoi dati. Come si può superare?</strong></p>",
+    "displayTitle": "Superare gli ostacoli",
+    "title": "Superare gli ostacoli",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "mcq",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Scegli la tua risposta, quindi fai clic su \"Invia\"",
+    "_items": [
+      {
+        "text": "Promuovendo i tuoi dati, chiarendo come gli utenti possono riutilizzare i tuoi dati e rendendo utilizzabili i tuoi dati",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "Pubblicando il maggior numero possibile di dati",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "Fornendo i dati a pagamento",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_feedback": {
+      "correct": "<p><strong>Esatto!</strong></p><p>Puoi incoraggiare il riutilizzo dei tuoi dati promuovendoli, chiarendo come gli utenti possono riutilizzarli e rendendoli più utilizzabili.</p>",
+      "_incorrect": {
+        "final": "<p><strong>Sei sicuro?</strong></p><p dir=\"ltr\">Puoi incoraggiare il riutilizzo dei tuoi dati promuovendoli, chiarendo come gli utenti possono riutilizzarli e rendendoli più utilizzabili.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        }
+  },
+  {
+    "_id": "59400a15d084d5167a04fa86",
+    "_layout": "right",
+    "_parentId": "b-07",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/it/assets/f4b7a83ca6a5ee395ea40ef51b5e6d07ac2e288e.jpg",
+      "small": "course/it/assets/f4b7a83ca6a5ee395ea40ef51b5e6d07ac2e288e.jpg",
+      "attribution": "<a href=\"https://www.shutterstock.com/image-illustration/large-group-people-shape-chat-bubblewhite-234353791\" target=\"_blank\">tai11</a> <span class='assetLicence'>[Shutterstock standard licence]</span>"
+    }
+  },
+  {
+    "_id": "59400a15d084d5167a04fa87",
+    "_layout": "left",
+    "_parentId": "b-08",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/it/assets/edd9adfa60a0dc2b857d5e90a86fdf58f3287e66.png",
+      "small": "course/it/assets/edd9adfa60a0dc2b857d5e90a86fdf58f3287e66.png",
+      "attribution": "<a href=\"http://www.freepik.com/free-photos-vectors/business\" target=\"_blank\"> Photoroyalty - Freepik.com</a> <span class='assetLicence'>[CC-BY]</span>"
+    }
+  },
+  {
+    "_id": "59400a15d084d5167a04fa88",
+    "_layout": "right",
+    "_parentId": "b-09",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "",
+    "title": "",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/it/assets/0c4e44ae54cc60d53a31c2bcff4471570e961d9d.jpg",
+      "small": "course/it/assets/0c4e44ae54cc60d53a31c2bcff4471570e961d9d.jpg",
+      "attribution": "<a href=\"http://www.shutterstock.com/pic-185008832\" target=\"_blank\">suarassawadee</a> <span class='assetLicence'>[Shutterstock standard licence]</span>"
+    }
+  },
+  {
+    "_id": "59400a15d084d5167a04fa89",
+    "_layout": "left",
+    "_parentId": "b-10",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "",
+    "title": "",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/it/assets/95974c301fcc4ee60b2f1f1019d3f1f21221dd13.jpg",
+      "small": "course/it/assets/95974c301fcc4ee60b2f1f1019d3f1f21221dd13.jpg",
+      "attribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Ghozt_Tramp_-_Business_Communication_Duplicat_model.jpg\" target=\"_blank\">Ghozt Tramp</a> <span class='assetLicence'>[CC-BY-SA]</span>"
+    }
+  },
+  {
+    "_id": "59400a15d084d5167a04fa8a",
+    "_layout": "left",
+    "_parentId": "b-11",
+    "_type": "component",
+    "body": "<p>Ottenere risultati con gli open data è una parte essenziale per garantire la sostenibilità di progetti e iniziative ad essi collegati. Creare, individuare e promuovere <a href=\"http://opendatabarometer.org/3rdEdition/report/#impact\" target=\"_blank\">esempi in cui gli open data sono utilizzati per migliorare la nostra vita quotidiana</a> è una delle sfide nel guidare un progetto, un programma o un'iniziativa relativa agli open data.</p><p>Ci sono diversi strumenti di valutazione che possono aiutare a valutare l'impatto di una politica, un programma o un'iniziativa relativa agli open data di un'organizzazione o di un paese. In questo modulo, abbiamo visto Open Data in <a href=\"https://www.europeandataportal.eu/it/dashboard\" target=\"_blank\">Europe del Portale Europeo dei Dati</a>.</p><p>Esistono ostacoli al raggiungimento di risultati, ma ci sono anche modi per superarli. Scopri di più su come condurre un'iniziativa relativa agli open data in '<a href=\"https://www.europeandataportal.eu/elearning/it/module15/#/id/co-01\">Gestire il cambiamento degli open data</a>'.</p><p><a class='course_link' href='../'>Menù principale</a></p>",
+    "displayTitle": "Ottenere dei risultati",
+    "title": "Ottenere dei risultati",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "59400a15d084d5167a04fa8b",
+    "_layout": "right",
+    "_parentId": "b-01",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "",
+    "title": "",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "intro-logo",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "",
+      "small": "",
+      "attribution": ""
+    }
+  },
+  {
+    "_id": "59400a15d084d5167a04fa92",
+    "_layout": "full",
+    "_parentId": "b-04",
+    "_type": "component",
+    "body": "<p>Ci sono diversi strumenti di valutazione che possono aiutare a misurare l'impatto di una politica, un programma o un'iniziativa relativa agli open data di un'organizzazione o di un paese. Ogni strumento di valutazione utilizza metodologie e misure leggermente diverse, quindi trova quello che funziona meglio per il tuo contesto. Pensa a quali criteri sono rilevanti per la tua organizzazione.</p><p>Questo modulo analizza in dettaglio lo strumento Open Data in Europe del <a href=\"https://www.europeandataportal.eu/it/dashboard\" target=\"_blank\">Portale Europeo Dei Dati</a>, che confronta le iniziative open data dei paesi dell'Unione europea.</p><p dir=\"ltr\">Puoi anche guardare <a href=\"https://index.okfn.org/\" target=\"_blank\">Global Open Data Index</a> e <a href=\"http://opendatabarometer.org\" target=\"_blank\">Open Data Barometer</a>, che fanno comparazioni fra i diversi paesi a livello internazionale.</p><p dir=\"ltr\">Open Data in Europe considera tre ambiti di impatto: <social>politico, economico e sociale</social>.</p>",
+    "displayTitle": " Come misuriamo l'impatto?",
+    "title": " Come misuriamo l'impatto?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "narrative",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "mobileInstruction": "",
+    "_hasNavigationInTextArea": false,
+    "_setCompletionOn": "inview",
+    "_items": [
+      {
+        "title": "Politico",
+        "body": "<p dir=\"ltr\">Le variabili che compongono l'indicatore dell'impatto politico sono: impatto sull'efficienza e sull'efficacia del governo e impatto sulla trasparenza e sulla responsabilità.</p><p dir=\"ltr\">Nel 2016, i paesi che hanno avuto un maggior impatto politico sono stati la Slovacchia, l'Irlanda, la Bulgaria, la Francia e la Grecia.</p><p dir=\"ltr\"><a href=\"https://www.europeandataportal.eu/it/dashboard\">Vedi i dati</a></p><p dir=\"ltr\">In Bulgaria, i dipartimenti governativi non hanno più bisogno di richiedere dati provenienti da altri dipartimenti poiché i dati sono ora pubblicati apertamente, risparmiando così il tempo e i costi collegati alle richieste di dati.</p><p dir=\"ltr\">In Irlanda, <a href=\"https://www.google.com/url?q=http://myplan.ie&amp;sa=D&amp;ust=1496165737909000&amp;usg=AFQjCNGEgrOgEEPPmZOGBCpte6ZzCrutug\" target=\"_blank\">myplan.ie</a> aiuta le autorità locali a standardizzare la pubblicazione dei dati della pianificazione. Questo aiuta chi pubblica dati a coordinare i propri sforzi, ma ha anche l'effetto di rendere i dati più utilizzabili e confrontabili.</p>",
+        "_graphic": {
+          "src": "course/it/assets/3f1d65f956a8899071b4f3584b4a88d3851863df.jpg",
+          "alt": "",
+          "attribution": "<a href=\"https://pixabay.com/it/hands-hand-raised-hands-raised-220163/\" target=\"_blank\">Kaz</a> <span class='assetLicence'>[CC0]</span>"
+        },
+        "strapline": "Politico"
+      },
+      {
+        "title": "Economicoo",
+        "body": "<p dir=\"ltr\">L'indicatore dell'impatto economico si basa su molteplici studi macroeconomici che valutano il valore di mercato degli open data e su studi relativi alla migliore erogazione di servizi o ad argomenti correlati a questi aspetti.</p><p dir=\"ltr\">Nel 2016, i paesi con un impatto economico maggiore sono stati la Slovacchia e la Spagna.</p><p dir=\"ltr\"><a href=\"https://www.europeandataportal.eu/it/dashboard\">Vedi i dati</a></p><p dir=\"ltr\">Uno studio spagnolo ha scoperto che il riutilizzo di dati meteorologici nel settore dell'elettricità potrebbe <a href=\"http:// http://www.ontsi.red.es/ontsi/es/estudios-informes/an%C3%A1lisis-coste-beneficio-de-la-reutilizaci%C3%B3n-de-la-informaci%C3%B3n-meteorol%C3%B3gica-en-el\">ridurre i costi energetici di oltre 1000 milioni di euro</a>.</p><p dir=\"ltr\">Uno studio del 2015 ha scoperto che le società britanniche che utilizzano, producono o investono in open data hanno un fatturato <a href=\"https://theodi.org/open-data-means-business\" target=\"_blank\">annuo complessivo di oltre 92 miliardi</a> di sterline e impiegano oltre 500.000 persone.</p><p>Leggi di più sul valore <a href=\"https://www.europeandataportal.eu/it/highlights/creating-value-through-open-data\" target=\"_blank\">economico degli open data in Europa</a>.</p>",
+        "_graphic": {
+          "src": "course/it/assets/e7980bbe7f0e8916f118a2bf24193c8f88211ba2.jpg",
+          "alt": "",
+          "attribution": "<a href=\"https://www.shutterstock.com/image-vector/cloud-business-process-management-concept-blue-259560827\" target=\"_blank\">JeKh</a> <span class='assetLicence'>[Shutterstock standard licence]</span>"
+        },
+        "strapline": "Economicoo"
+      },
+      {
+        "title": "Socialee",
+        "body": "<p dir=\"ltr\">L'indicatore di impatto sociale include l'impatto sulla sostenibilità ambientale e l'inclusione di gruppi marginalizzati nell'elaborazione delle politiche e nell'accesso ai servizi governativi.</p><p dir=\"ltr\">I due paesi con maggiore impatto nel 2016 sono stati Spagna e Regno Unito.</p><p><a href=\"https://www.europeandataportal.eu/it/dashboard\" target=\"_blank\">Vedi i dati</a></p><p>In Spagna, un esempio di inclusione di gruppi marginalizzati è <a href=\"http://www.sinbarrera.es/\" target=\"_blank\">Sin Barrera</a>, uno strumento per trovare parcheggi accessibili ai disabili.</p>",
+        "_graphic": {
+          "src": "course/it/assets/194749d6a3d955ccf1327dff670d11d82f1e5892.jpg",
+          "alt": "",
+          "attribution": "<a href=\"http://www.shutterstock.com/pic-185008832\" target=\"_blank\">suarassawadee</a> <span class='assetLicence'>[Shutterstock standard licence]</span>"
+        },
+        "strapline": "Socialee"
+      }
+    ]
+  },
+  {
+       "_id":"c-95",
+       "_parentId":"b-11",
+       "_type":"component",
+       "_component":"text",
+       "_classes":"separator",
+       "_layout":"full"
+    },
+    {
+       "_id":"c-96",
+       "_parentId":"b-11",
+       "_type":"component",
+       "_component":"text",
+       "_classes": "attribution",
+       "body":"&copy; <a href='https://theodi.org' target='_blank'>Open Data Institute</a>",
+       "_layout":"full"
+    },
+    {
+        "_id":"c-100",
+        "_parentId":"b-11",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"footer-logo",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Open data institute logo",
+            "title": "Open data institute logo",
+            "large": "course/it/images/logo-small.png",
+            "medium": "course/it/images/logo-small.png",
+            "small": "course/it/images/logo-small.png",
+            "*source":"http://theodi.org",
+            "*credit":"The Open Data Institute",
+            "*license":"All rights reserved"  
+        }
+    },
+    {
+        "_id":"c-104",
+        "_parentId":"b-11",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"attribution not-eu not-default",
+        "_layout":"right",
+        "body":"Content created by <a href='http://theodi.org' target='_blank'>The Open Data Institute</a>"
+    },
+    {
+        "_id":"c-105",
+        "_parentId":"b-11",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"social-buttons not-dlab",
+        "_layout":"right",
+        "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/it/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/it/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/it/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/it/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/it/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/it/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/it/images/social/flickr.png'></a>"
+    }
+]
