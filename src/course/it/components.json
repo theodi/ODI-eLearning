@@ -1,0 +1,645 @@
+[
+    {
+        "_id": "c-01",
+        "_parentId": "b-01",
+        "_type": "component",
+        "_component": "graphic",
+        "_classes": "intro-logo",
+        "_layout": "right",
+        "title": "",
+        "displayTitle": "",
+        "body": "",
+        "instruction": "",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "",
+            "medium": "",
+            "small": ""
+        }
+    },
+    {
+        "_id": "c-02",
+        "_parentId": "b-01",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "",
+        "_layout": "left",
+        "title": "Open data: un fattore di cambiamento",
+        "displayTitle": "Open data: un fattore di cambiamento",
+        "body": "<p>Le iniziative di maggior successo legate agli open data hanno caratteristiche comuni. Capire quali approcci abbiano successo può aiutare ad utilizzare gli open data per creare valore aggiunto.</p><h5>In questo modulo vedremo quanto segue:</h5><ul class='ticks'><li>Gli open data come fattore di cambiamento</li><li>Leadership e coinvolgimento</li><li>Domanda e offerta</li><li>Cambiamento culturale per nuovi mercati</li></ul>",
+        "instruction": "",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-11",
+        "_parentId": "b-10",
+        "_type": "component",
+        "_component": "iFrame-vimeo",
+        "_classes": "",
+        "_layout": "full",
+        "title": "Intraprendere azioni legate agli open data - in 2 minuti",
+        "displayTitle": "Intraprendere azioni legate agli open data - in 2 minuti",
+        "body": "Il direttore del settore Sviluppo Internazionale di Open Data Institute, Liz Carolan, illustra cinque caratteristiche condivise da alcune azioni di successo legate agli open data",
+        "instruction": "Per attivare e disattivare i sottotitoli, fai clic sul pulsante \"cc\" in basso a destra del video",
+        "_setCompletionOn": "ended",
+        "_source": "https://player.vimeo.com/video/129196638",
+        "_media": {
+            "mp4": "course/it/video/video.mp4",
+            "poster": "course/it/video/placeholder.jpg"
+        },
+        "_height": {
+            "_small": 250,
+            "_medium": 350,
+            "_large": 508
+        }
+    },
+    {
+        "_id": "c-21",
+        "_parentId": "b-20",
+        "_type": "component",
+        "_component": "graphic",
+        "_classes": "",
+        "_layout": "left",
+        "_graphic": {
+            "alt": "Open data: fattore di cambiamento.",
+            "title": "Open data: fattore di cambiamento.",
+            "large": "course/it/images/odi-001-text_image_large.png",
+            "medium": "course/it/images/odi-001-text_image_large.png",
+            "small": "course/it/images/odi-001-text_image_large.png",
+            "*source": "http://www.shutterstock.com/pic-134315933.html",
+            "*credit": "Photoraidz",
+            "*license": "Shutterstock Standard License"
+        }
+    },
+    {
+        "_id": "c-22",
+        "_parentId": "b-20",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "",
+        "_layout": "right",
+        "title": "Open data: fattore di cambiamento.",
+        "displayTitle": "Open data: fattore di cambiamento.",
+        "body": "<p>Una iniziativa legata agli open data richiede spesso cambiamenti culturali e istituzionali.</p><p>L'apertura dei dati va ben oltre l'inserimento di dati su un sito Web applicando una licenza aperta. L'utilizzo delle tecnologie è la parte più facile - introdurre il cambiamento culturale può essere molto più difficile.</p>"
+    },
+    {
+        "_id": "c-25",
+        "_parentId": "b-25",
+        "_classes": "",
+        "_type": "component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Leadership e coinvolgimento",
+        "displayTitle": "Leadership e coinvolgimento",
+        "body": "Una leadership attiva e il coinvolgimento contribuiscono a promuovere iniziative di successo legate agli open data e ad introdurre cambiamenti positivi.",
+        "instruction": "<em class='desktop-instruction'>Fare clic sulla freccia avanti per vedere di più.</em><em class='mobile-instruction'>Seleziona il segno \"+\" per esplorare ulteriormente, quindi scorri l'immagine per vedere di più.</em>",
+        "_items": [
+            {
+                "title": "Leadership attiva",
+                "body": "<p>Dopo aver avviato un'azione legata agli open data, è comune trovare, da parte di chi la guida, una certa resistenza all'interno della propria organizzazione.</p><p>Il sostegno attivo da parte di figure senior può contribuire ad incoraggiare un investimento istituzionale.</p>",
+                "_graphic": {
+                    "src": "course/it/images/odi-002_large.jpg",
+                    "alt": "Active Leadership",
+                    "title": "Active Leadership",
+                    "*source": "http://www.shutterstock.com/pic-238771996.html",
+                    "*credit": "Mangsaab",
+                    "*license": "Shutterstock Standard License"
+                },
+                "strapline": "Leadership attiva"
+            },
+            {
+                "title": "Coinvolgimento attivo",
+                "body": "<p>Il coinvolgimento della società civile, delle imprese e delle amministrazioni è un aspetto fondamentale di qualsiasi iniziativa legata agli open data.</p><p>Le iniziative di successo partono da un dialogo aperto tra chi pubblica i dati e chi li utilizza.</p><p>Questo dialogo è importante per entrambe le parti, al fine di comprendere qual è la domanda e quali sono le opportunità per trarre benefici dai dati.</p>",
+                "_graphic": {
+                    "src": "course/it/images/odi-003_large.jpg",
+                    "alt": "Active Engagement",
+                    "title": "Active Engagement",
+                    "*source": "http://www.shutterstock.com/pic-82049359.html",
+                    "*credit": "Carsten Reisinger",
+                    "*license": "Shutterstock Standard License"
+                },
+                "strapline": "Coinvolgimento attivo"
+            },
+            {
+                "title": "Trovare degli spazi per l'innovazione",
+                "body": "<p>Una forte leadership e un coinvolgimento attivo degli stakeholder sono fondamentali in ogni iniziativa di successo.</p><p>Una leadership attiva offre una \"spinta\" da parte dell'organizzazione, un dialogo attivo crea un \"richiamo\" da parte di chi utilizza i dati.</p><p>In tema di open data, la leadership e il dialogo aprono opportunità di innovazione creando un collegamento tra i problemi e le potenziali soluzioni.</p>",
+                "_graphic": {
+                    "src": "course/it/images/odi-004_large.jpg",
+                    "alt": "Space to innovate",
+                    "title": "Space to innovate",
+                    "*source": "http://www.shutterstock.com/pic-33265168.html",
+                    "*credit": "Tonis Pan",
+                    "*license": "Shutterstock Standard License"
+                },
+                "strapline": "Trovare degli spazi per l'innovazione"
+            }
+        ],
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-30",
+        "_parentId": "b-28",
+        "_type": "component",
+        "_component": "graphic",
+        "_classes": "",
+        "_layout": "right",
+        "_graphic": {
+            "alt": "Supply and Demand",
+            "title": "Supply and Demand",
+            "large": "course/it/images/odi-005_large.png",
+            "medium": "course/it/images/odi-005_large.png",
+            "small": "course/it/images/odi-005_large.png",
+            "*source": "http://www.shutterstock.com/pic-245234284.html",
+            "*credit": "Positive thinker",
+            "*license": "Shutterstock Standard License"
+        }
+    },
+    {
+        "_id": "c-35",
+        "_parentId": "b-28",
+        "_type": "component",
+        "_component": "accordion",
+        "_classes": "",
+        "_layout": "left",
+        "title": "Domanda e offerta",
+        "displayTitle": "Domanda e offerta",
+        "body": "<p>Nell'esaminare un'iniziativa legata agli open data, si deve prendere in considerazione quanto segue:</p>",
+        "instruction": "<em>Fai clic sui titoli per esplorare ulteriormente.</em>",
+        "_items": [
+            {
+                "alt": "L'approccio",
+                "title": "L'approccio",
+                "body": "<p>Tra coloro che pubblicano open data, molti procedono costruendo un portale, pubblicando i dati che hanno e sperando che sia ciò che i consumatori vogliono o ciò di cui hanno bisogno.</p><p>Man mano che cresce la competenza in materia di open data, le persone iniziano a pensare prima alle esigenze di chi utilizza i dati e ad adeguare le loro azioni a queste esigenze.</p><p>Un approccio pianificato aiuta a garantire che un'organizzazione possa camminare prima di provare a correre, ed ottenere cambiamenti a piccoli passi rilevanti, piuttosto che fissare obiettivi ambiziosi difficili da raggiungere.</p>"
+            },
+            {
+                "alt": "Chi vuole i nostri dati?",
+                "title": "Chi vuole i nostri dati?",
+                "body": "<p>Non c'è molto senso nel pubblicare open data se non c'è nessuno preparato o motivato per creare valore utilizzandoli.</p><p>Spesso è meglio concentrarsi sulla domanda che esiste in quel momento.</p><p>Per capire quali sono le richieste e cercare di soddisfarle, può essere utile seguire le discussioni tra consumatori e i sondaggi di opinione o 'vox populi'.</p><p>E' utile pensare ai problemi esistenti e a come i nostri dati vi sono collegati. E' utile proporre i nostri dati come strumento per aiutare a creare soluzioni.</p>"
+            },
+            {
+                "alt": "Chi utilizzerà e chi aiuterà a mantenere i nostri dati?",
+                "title": "Chi utilizzerà e chi aiuterà a mantenere i nostri dati?",
+                "body": "<p>Un'iniziativa di successo legata agli open data coinvolge una comunità che utilizza attivamente i dati e ha accesso alle risorse per mantenerli.</p><p>Una comunità solida di utilizzatori di open data si sente responsabile dei dati. Questo senso di responsabilità deve riguardare sia i dati che ciò che si produce con i dati.</p><p>È importante che chi pubblica i dati capisca il punto di vista di chi li utilizza e viceversa.</p><p class='not-dlab'>Un buon esempio di comunità solida che lavora con gli open data è quella del progetto Open Street Map.<br /><a href='https://www.openstreetmap.org/' target='_blank'>Portami al progetto Open Street Map</a></p><p class='not-eu not-default'>In Tanzania, The Humanitarian OpenStreetMap Team through Ramani Huria Project is able to support disaster prevention and response to areas that were previously off the map, literally. <br /><a href='https://hotosm.org/updates/2015-11-19_mapping_drainage_in_dar_es_salaam' target='_blank'>Take me to the report from the Humanitarian OpenStreetMap team.</a></p>"
+            }
+        ],
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-40",
+        "_parentId": "b-30",
+        "_classes": "",
+        "_type": "component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Cambiamento culturale per nuovi mercati",
+        "displayTitle": "Cambiamento culturale per nuovi mercati",
+        "body": "L'utilizzo dei mezzi tecnologici è la parte più facile. L'attuazione del cambiamento culturale può essere molto più difficile.",
+        "instruction": "<em class='desktop-instruction'>Fare clic sulla freccia avanti per vedere di più.</em><em class='mobile-instruction'>Seleziona il segno \"+\" per esplorare ulteriormente, quindi scorri l'immagine per vedere di più.</em>",
+        "_items": [
+            {
+                "title": "Identificare nuovi mercati",
+                "body": "<p>Il mercato tradizionale degli open data, dove le amministrazioni pubblicano i dati affinché gli altri li utilizzino, è cambiato.</p><p>Le amministrazioni, le imprese e la società ora sono sia fornitori che utilizzatori di open data.</p>",
+                "_graphic": {
+                    "src": "course/it/images/odi-006_large.jpg",
+                    "alt": "New markets",
+                    "title": "New markets",
+                    "*source": "http://www.shutterstock.com/pic-164731838.html",
+                    "*credit": "STH",
+                    "*license": "Shutterstock Standard License"
+                },
+                "strapline": "Identificare nuovi mercati"
+            },
+            {
+                "title": "Cambiamento culturale",
+                "body": "<p>Utilizzare open data richiede spesso una modifica nel modo in cui un'istituzione lavora.</p><p>Le persone che guidano le azioni devono investire del tempo per sviluppare una visione condivisa, superando le barriere e costruendo collaborazioni per il cambiamento.</p><p>Chi utilizza i dati dovrebbe poter investire negli open data come parte fondamentale della propria infrastruttura di dati.</p>",
+                "_graphic": {
+                    "src": "course/it/images/odi-007_large.jpg",
+                    "alt": "Cambiamento culturale",
+                    "title": "Cambiamento culturale",
+                    "*source": "http://www.shutterstock.com/pic-257301595.html",
+                    "*credit": "Anna Omelchenko",
+                    "*license": "Shutterstock Standard License"
+                },
+                "strapline": "Cambiamento culturale"
+            },
+            {
+                "title": "Pianificare il cambiamento",
+                "body": "<p>I modi per gestire e pianificare il cambiamento culturale stanno diventando più chiari.</p><p>Le amministrazioni, le organizzazioni e i singoli individui dovrebbero avere libero accesso alla formazione di base, agli strumenti e manuali pratici che aiutano a pianificare il futuro.</p><p>Le iniziative pilota e le esperienze concrete svolgono un ruolo importante nella comprensione dell'impatto degli open data e del processo di cambiamento. Esistono degli strumenti e manuali che aiutano a valutare e pianificare il cambiamento, ad esempio \"Open Data Pathway di ODI\".<br /><a href='http://pathway.theodi.org/' target='_blank'>Portami a ODI Open Data Pathway</a></p>",
+                "_graphic": {
+                    "src": "course/it/images/odi-008_large.jpg",
+                    "alt": "Pianificare il cambiamento",
+                    "title": "Pianificare il cambiamento",
+                    "*source": "http://www.shutterstock.com/pic-53095825.html",
+                    "*credit": "Mikael Damkier",
+                    "*license": "Shutterstock Standard License"
+                },
+                "strapline": "Pianificare il cambiamento"
+            }
+        ],
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-42",
+        "_parentId": "b-32",
+        "_type": "component",
+        "_component": "graphic",
+        "_classes": "",
+        "_layout": "right",
+        "title": "",
+        "displayTitle": "",
+        "body": "",
+        "instruction": "",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/it/images/burst-indigo.png",
+            "medium": "course/it/images/burst-indigo.png",
+            "small": "course/it/images/burst-indigo.png"
+        }
+    },
+    {
+        "_id": "c-43",
+        "_parentId": "b-32",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "",
+        "_layout": "left",
+        "title": "Sei pronto per il cambiamento culturale?",
+        "displayTitle": "Sei pronto per il cambiamento culturale?",
+        "body": "<p>Ci sono quattro caratteristiche chiave per iniziative di successo relative agli open data. Le ricordi?</p>",
+        "instruction": "",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-45",
+        "_parentId": "b-35",
+        "_type": "component",
+        "_component": "graphic",
+        "_classes": "illustration",
+        "_layout": "right",
+        "_graphic": {
+            "alt": "Leadership e coinvolgimento",
+            "title": "",
+            "large": "course/it/images/odi-009-text-image_large.png",
+            "medium": "course/it/images/odi-009-text-image_large.png",
+            "small": "course/it/images/odi-009-text-image_large.png",
+            "*source": "http://www.shutterstock.com/pic-134315933.html",
+            "*credit": "Photoraidz",
+            "*license": "Shutterstock Standard License"
+        }
+    },
+    {
+        "_id": "c-50",
+        "_parentId": "b-35",
+        "_type": "component",
+        "_component": "mcq",
+        "_adapt2id": "588f1806b61c46e176e7ea52",
+        "_classes": "",
+        "_layout": "left",
+        "_attempts": 1,
+        "_questionWeight": 1,
+        "_isRandom": true,
+        "_selectable": 1,
+        "title": "Leadership e coinvolgimento",
+        "displayTitle": "Leadership e coinvolgimento",
+        "body": "<p>Quali sono due fattori relazionali decisivi necessari per un'iniziativa di successo legata agli open data?</p>",
+        "instruction": "<em>Välj ditt svar och klicka sedan på 'Skicka'</em>",
+        "_items": [
+            {
+                "text": "Intelligenza emotiva e pazienza",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Forte leadership e coinvolgimento attivo",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "Amicizia ed empatia",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback": {
+            "correct": "<h5>Esatto!</h5><p>Una forte leadership e un coinvolgimento attivo con gli stakeholder sono fondamentali in ogni iniziativa di successo.</p>",
+            "_incorrect": {
+                "notFinal": "h5>Sei sicuro??</h5><p>Una forte leadership e un coinvolgimento attivo con gli stakeholder sono fondamentali in ogni iniziativa di successo.</p>",
+                "final": "<h5>Sei sicuro??</h5><p>Una forte leadership e un coinvolgimento attivo con gli stakeholder sono fondamentali in ogni iniziativa di successo.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Sei sicuro??</h5><p>Una forte leadership e un coinvolgimento attivo con gli stakeholder sono fondamentali in ogni iniziativa di successo.</p>",
+                "final": "<h5>Sei sicuro??</h5><p>Una forte leadership e un coinvolgimento attivo con gli stakeholder sono fondamentali in ogni iniziativa di successo.</p>"
+            }
+        },
+        "_buttons": {
+            "submit": "",
+            "reset": "",
+            "showCorrectAnswer": "",
+            "hideCorrectAnswer": ""
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-55",
+        "_parentId": "b-40",
+        "_type": "component",
+        "_component": "graphic",
+        "_classes": "illustration",
+        "_layout": "left",
+        "_graphic": {
+            "alt": "Domanda e offerta",
+            "title": "",
+            "large": "course/it/images/odi-010-mcq_large.png",
+            "medium": "course/it/images/odi-010-mcq_large.png",
+            "small": "course/it/images/odi-010-mcq_large.png",
+            "*source": "http://www.shutterstock.com/pic-238771996.html",
+            "*credit": "Mangsaab",
+            "*license": "Shutterstock Standard License"
+        }
+    },
+    {
+        "_id": "c-60",
+        "_parentId": "b-40",
+        "_type": "component",
+        "_component": "mcq",
+        "_adapt2id": "588f1a34b61c46e176e7ea58",
+        "_classes": "",
+        "_layout": "right",
+        "_attempts": 1,
+        "_questionWeight": 1,
+        "_isRandom": true,
+        "_selectable": 1,
+        "title": "Domanda e offerta",
+        "displayTitle": "Domanda e offerta",
+        "body": "<p>Quale approccio si deve avere quando si pianifica un'azione relativa agli open data?</p>",
+        "instruction": "<em>Välj ditt svar och klicka sedan på 'Skicka'</em>",
+        "_items": [
+            {
+                "text": "Pubblicare i dati e sperare che la gente li usi",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Pensare alle proprie esigenze",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Considerare il punto di vista di chi li utilizzerà",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback": {
+            "correct": "<h5>Esatto!</h5><p>Dopo aver maturato esperienza nella comunità degli open data, molti oggi assumono il punto di vista del consumatore e si concentrano sui benefici che si possono ottenere dall'utilizzo dei dati.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Sei sicuro??</h5><p>Dopo aver maturato esperienza nella comunità degli open data, molti oggi assumono il punto di vista del consumatore e si concentrano sui benefici che si possono ottenere dall'utilizzo dei dati.</p>",
+                "final": "<h5>Sei sicuro??</h5><p>Dopo aver maturato esperienza nella comunità degli open data, molti oggi assumono il punto di vista del consumatore e si concentrano sui benefici che si possono ottenere dall'utilizzo dei dati.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Sei sicuro??</h5><p>Dopo aver maturato esperienza nella comunità degli open data, molti oggi assumono il punto di vista del consumatore e si concentrano sui benefici che si possono ottenere dall'utilizzo dei dati.</p>",
+                "final": "<h5>Sei sicuro??</h5><p>Dopo aver maturato esperienza nella comunità degli open data, molti oggi assumono il punto di vista del consumatore e si concentrano sui benefici che si possono ottenere dall'utilizzo dei dati.</p>"
+            }
+        },
+        "_buttons": {
+            "submit": "",
+            "reset": "",
+            "showCorrectAnswer": "",
+            "hideCorrectAnswer": ""
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-65",
+        "_parentId": "b-45",
+        "_type": "component",
+        "_component": "graphic",
+        "_classes": "illustration",
+        "_layout": "right",
+        "_graphic": {
+            "alt": "Cambiamento culturale per nuovi mercati",
+            "title": "",
+            "large": "course/it/images/odi-011-mcq_large.jpg",
+            "medium": "course/it/images/odi-011-mcq_large.jpg",
+            "small": "course/it/images/odi-011-mcq_large.jpg",
+            "*source": "http://www.shutterstock.com/pic-245234284.html",
+            "*credit": "Positive thinker",
+            "*license": "Shutterstock Standard License"
+        }
+    },
+    {
+        "_id": "c-70",
+        "_parentId": "b-45",
+        "_type": "component",
+        "_component": "mcq",
+        "_adapt2id": "588f1fe8b61c46e176e7ea5c",
+        "_classes": "",
+        "_layout": "left",
+        "_attempts": 1,
+        "_questionWeight": 1,
+        "_isRandom": true,
+        "_selectable": 1,
+        "title": "Cambiamento culturale per nuovi mercati",
+        "displayTitle": "Cambiamento culturale per nuovi mercati",
+        "body": "<p>Le persone che conducono iniziative relative agli open data devono investire la maggior parte del tempo...</p>",
+        "instruction": "<em>Välj ditt svar och klicka sedan på 'Skicka'</em>",
+        "_items": [
+            {
+                "text": "superando le barriere, costruendo collaborazioni e portando avanti il ​​cambiamento",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "parlando con altre persone che pubblicano dati",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "studiando i propri dataset",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback": {
+            "correct": "<h5>Esatto!</h5><p>Gli open data richiedono spesso un cambiamento nel modo in cui un'istituzione opera. Le persone che guidano le iniziative devono investire del tempo per superare le barriere, costruire collaborazioni e promuovere il cambiamento.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Sei sicuro??</h5><p>Gli open data richiedono spesso un cambiamento nel modo in cui un'istituzione opera.  Le persone che guidano le iniziative devono investire del tempo per superare le barriere, costruire collaborazioni e promuovere il cambiamento.</p>",
+                "final": "<h5>Sei sicuro??</h5><p>Gli open data richiedono spesso un cambiamento nel modo in cui un'istituzione opera.  Le persone che guidano le iniziative devono investire del tempo per superare le barriere, costruire collaborazioni e promuovere il cambiamento.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Sei sicuro??</h5><p>Gli open data richiedono spesso un cambiamento nel modo in cui un'istituzione opera.  Le persone che guidano le iniziative devono investire del tempo per superare le barriere, costruire collaborazioni e promuovere il cambiamento..</p>",
+                "final": "<h5>Sei sicuro??</h5><p>Gli open data richiedono spesso un cambiamento nel modo in cui un'istituzione opera.  Le persone che guidano le iniziative devono investire del tempo per superare le barriere, costruire collaborazioni e promuovere il cambiamento.</p>"
+            }
+        },
+        "_buttons": {
+            "submit": "",
+            "reset": "",
+            "showCorrectAnswer": "",
+            "hideCorrectAnswer": ""
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-75",
+        "_parentId": "b-50",
+        "_type": "component",
+        "_component": "graphic",
+        "_classes": "illustration",
+        "_layout": "left",
+        "_graphic": {
+            "alt": "Pianificare il cambiamento",
+            "title": "",
+            "large": "course/it/images/odi-012-mcq_large.png",
+            "medium": "course/it/images/odi-012-mcq_large.png",
+            "small": "course/it/images/odi-012-mcq_large.png",
+            "*source": "http://www.shutterstock.com/pic-164731838.html",
+            "*credit": "STH",
+            "*license": "Shutterstock Standard License"
+        }
+    },
+    {
+        "_id": "c-80",
+        "_parentId": "b-50",
+        "_type": "component",
+        "_component": "mcq",
+        "_adapt2id": "588f2133b61c46e176e7ea62",
+        "_classes": "",
+        "_layout": "right",
+        "_attempts": 1,
+        "_questionWeight": 1,
+        "_isRandom": true,
+        "_selectable": 1,
+        "title": "Pianificare il cambiamento",
+        "displayTitle": "Pianificare il cambiamento",
+        "body": "<p><strong>Le amministrazioni, le organizzazioni e i singoli individui devono avere libero accesso...</strong></p>",
+        "instruction": "<em>Välj ditt svar och klicka sedan på 'Skicka'</em>",
+        "_items": [
+            {
+                "text": "ai ai big data",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "agli open data di tutti",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "alla formazione di base, agli strumenti e a manuali pratici",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback": {
+            "correct": "<h5>Esatto!</h5><p>Le amministrazioni, le organizzazioni e i singoli individui dovrebbero avere libero accesso alla formazione di base, agli strumenti e manuali pratici che aiutano a pianificare il futuro.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Sei sicuro??</h5><p>Le amministrazioni, le organizzazioni e i singoli individui dovrebbero avere libero accesso alla formazione di base, agli strumenti e manuali pratici che aiutano a pianificare il futuro.</p>",
+                "final": "<h5>Sei sicuro??</h5><p>Le amministrazioni, le organizzazioni e i singoli individui dovrebbero avere libero accesso alla formazione di base, agli strumenti e manuali pratici che aiutano a pianificare il futuro.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Sei sicuro??</h5><p>Un'iniziativa legata agli open data richiede spesso cambiamenti culturali e istituzionali.</p>",
+                "final": "<h5>Sei sicuro??</h5><p>Un'iniziativa legata agli open data richiede spesso cambiamenti culturali e istituzionali.</p>"
+            }
+        },
+        "_buttons": {
+            "submit": "",
+            "reset": "",
+            "showCorrectAnswer": "",
+            "hideCorrectAnswer": ""
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-85",
+        "_parentId": "b-55",
+        "_type": "component",
+        "_component": "graphic",
+        "_classes": "",
+        "_layout": "right",
+        "_graphic": {
+            "alt": "Summary icon clipboard",
+            "title": "Summary icon clipboard",
+            "large": "course/it/images/summary-icon.png",
+            "medium": "course/it/images/summary-icon.png",
+            "small": "course/it/images/summary-icon.png",
+            "*source": "http://www.shutterstock.com/pic-189810137.html",
+            "*credit": "Kritchanut",
+            "*license": "Shutterstock Standard License"
+        }
+    },
+    {
+        "_id": "c-90",
+        "_parentId": "b-55",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "",
+        "_layout": "left",
+        "title": "Open data: fattore di cambiamento.",
+        "displayTitle": "Open data: fattore di cambiamento.",
+        "body": "<p>Una iniziativa legata agli open data richiede spesso cambiamenti culturali e istituzionali.</p><p>L'impegno con la società civile, le imprese e le amministrazioni è una parte importante del processo.</p><p>Con il maturare delle esperienze nelle comunità degli open data, nella pianificazione delle attività si prendono in considerazione in primo luogo le esigenze degli utenti.</p><p>Gli open data richiedono di pensare in modo diverso ai meccanismi che regolano il mercato.</p><p>Nel prossimo modulo, cercheremo di spiegare le licenze che accompagnano gli open data.</p><p><a class='course_link' href='../module4/'>Modulo successivo</a></p><p><a class='course_link' href='../'>Menù principale</a></p>",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-95",
+        "_parentId": "b-55",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "separator",
+        "_layout": "full"
+    },
+    {
+        "_id": "c-96",
+        "_parentId": "b-55",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "attribution",
+        "body": "&copy; <a href='https://ec.europa.eu/commission/index_en' target='_blank'>European Commission</a>",
+        "_layout": "full"
+    },
+    {
+        "_id": "c-100",
+        "_parentId": "b-55",
+        "_type": "component",
+        "_component": "graphic",
+        "_classes": "footer-logo",
+        "_layout": "left",
+        "_graphic": {
+            "alt": "Open data institute logo",
+            "title": "Open data institute logo",
+            "large": "course/it/images/logo-small.png",
+            "medium": "course/it/images/logo-small.png",
+            "small": "course/it/images/logo-small.png",
+            "*source": "http://theodi.org",
+            "*credit": "The Open Data Institute",
+            "*license": "All rights reserved"
+        }
+    },
+    {
+        "_id": "c-104",
+        "_parentId": "b-55",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "attribution not-eu not-default",
+        "_layout": "right",
+        "body": "Content created by <a href='http://theodi.org' target='_blank'>The Open Data Institute</a>"
+    },
+    {
+        "_id": "c-105",
+        "_parentId": "b-55",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "social-buttons not-dlab",
+        "_layout": "right",
+        "body": "<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/it/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/it/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/it/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/it/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/it/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/it/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/it/images/social/flickr.png'></a>"
+    }
+]
