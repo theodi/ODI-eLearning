@@ -1,0 +1,739 @@
+[
+    {
+        "_id":"c-01",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"intro-logo",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "",
+            "medium": "",
+            "small": ""
+        }
+    },
+    {
+        "_id":"c-02",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Perché ai dati deve avere assegnata una licenza?",
+        "displayTitle":"Perché ai dati deve avere assegnata una licenza?",
+        "body":"<p>Perché i dati siano aperti, dovrebbero essere accessibili (di solito significa essere pubblicati online) ed essere provvisti di una licenza in modo che chiunque possa accedervi, utilizzarli e condividerli in modo legittimo.</p><h5>In questo modulo vedremo quanto segue:</h5><ul class='ticks'><li>Perché gli open data devono avere assegnata una licenza</li><li>Come le licenze aiutano a liberare il valore insito negli open data</li><li>Qual è il tipo di licenza adatta per gli open data</li><li>Come garantire una licenza aperta all'interno del processo delle gare d'appalto e dei relativi contratti di servizio</li></ul><p>Anche nei casi in cui i dati siano stati resi disponibili nella forma \"public domain dedication\", senza restrizioni sul loro riutilizzo, è necessaria una dichiarazione esplicita da rilasciare insieme ai dati per assicurare chiarezza dal punto di vista giuridico a chi li utilizzerà.</p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+    "_id":"c-11",
+    "_parentId":"b-10",
+    "_type":"component",
+    "_component":"iFrame-vimeo",
+    "_classes":"",
+    "_layout":"full",
+        "title":"Semplificare le licenze di utilizzo degli open data - in 2 minuti",
+        "displayTitle": "Semplificare le licenze di utilizzo degli open data - in 2 minuti",
+        "body": "La responsabile delle politiche Open Data Institute, Ellen Broad, spiega perché abbiamo bisogno di licenze sugli open data, come le licenze aiutino a creare liberare il valore insito nei dati e quali siano le buone pratiche per scegliere il tipo di licenza adatto.",
+        "instruction": "Per attivare e disattivare i sottotitoli, fai clic sul pulsante \"cc\" in basso a destra del video",
+        "_setCompletionOn":"ended",
+        "_source": "https://player.vimeo.com/video/129116798",
+        "_media": {
+		"mp4": "course/it/video/video.mp4",
+		"poster": "course/it/video/placeholder.jpg"
+	},
+        "_height": {
+            "_small" : 250,
+            "_medium" : 350,
+            "_large" : 508
+        }
+    },
+    {
+        "_id":"c-21",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Perché gli open data hanno bisogno di una licenza?",
+            "title": "Perché gli open data hanno bisogno di una licenza?",
+            "large": "course/it/images/odi-1.jpg",
+            "medium": "course/it/images/odi-1.jpg",
+            "small": "course/it/images/odi-1.jpg",
+            "*source": "http://www.shutterstock.com/pic-270451631.html",
+            "*credit": "Oleksiy Mark",
+            "*license": "Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-22",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"right",
+        "title":"Perché gli open data hanno bisogno di una licenza?",
+        "displayTitle":"Perché gli open data hanno bisogno di una licenza?",
+        "body":"<p>Senza una licenza i dati non sono veramente aperti.</p><p>Una licenza permette a chiunque di accedere, utilizzare e condividere i nostri dati.</p><p>Se non si assegna una licenza, i dati possono essere \"pubblicamente disponibili\", ma gli utenti non sono autorizzati ad accedere, utilizzare e condividere i dati in base alle leggi relative al diritto d'autore e ad altre specifiche leggi che regolano l'utilizzo dei database.</p>"
+    },
+     {
+        "_id": "c-25",
+        "_parentId": "b-25",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "dynamic-narrative",
+        "title": "I vantaggi nel fornire una licenza di utilizzo per gli open data",
+        "displayTitle": "I vantaggi nel fornire una licenza di utilizzo per gli open data",
+        "body": "La licenza autorizza le imprese, le startup, le amministrazioni e i singoli individui a creare innovazione usando quegli open data.",
+        "instruction": "<em class='desktop-instruction'>Click the forward arrow for more.</em><em class='mobile-instruction'>Seleziona il segno \"+\" per esplorare ulteriormente, quindi scorri l'immagine per vedere di più.</em>",
+        "_items": [
+            {
+                "title": "Dare certezza",
+                "body": "<p>Le licenze di utilizzo degli open data forniscono agli utilizzatori la certezza che quei dati possono essere utilizzati e condivisi per molteplici scopi.</p><p>Una licenza d'uso degli open data è un'autorizzazione esplicita ad utilizzare i dati per scopi commerciali e non commerciali.</p><p>Senza una licenza, gli utilizzatori, possono ritrovarsi in uno spazio giuridico ambiguo.</p>",
+                "_graphic": {
+                    "src": "course/it/images/odi-2.jpg",
+                    "alt": "Dare certezza",
+                    "title": "Dare certezza",
+                    "*source":"http://www.shutterstock.com/pic-77222599.html",
+                    "*credit":"Pavel Ignatov",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Dare certezza"
+            },
+            {
+                "title": "Dare chiarezza",
+                "body": "<p>Nel 2015, nei cataloghi di open data dell'Unione Europea, solo circa il 46% dei dati aveva assegnata una licenza che potesse renderli veramente aperti.</p><p>Nell'Unione Europea, le leggi sul copyright e sull'utilizzo dei database sono complesse. Talvolta si da come sottinteso che i dati siano aperti, ma una licenza offre chiarezza giuridica a chiunque li utilizzi.</p><p>La piattaforma OpenDataMonitor fornisce informazioni e statistiche sui cataloghi di open data europei.<br /><a href='http://www.opendatamonitor.eu' target='_blank'>Portami alla piattaforma OpenDataMonitor</a></p>",
+		        "_graphic": {
+                    "src": "course/it/images/odi-3.jpg",
+                    "alt": "Dare chiarezza",
+                    "title": "Dare chiarezza",
+                    "*source":"http://www.opendatamonitor.eu/",
+                    "*credit":"Open Data Monitor",
+                    "*license":"CC-BY 4.0 International"
+                },
+                "strapline": "Dare chiarezza"
+            },
+            {
+                "title": "Abilitare l'innovazione",
+                "body": "<p>Le licenze di utilizzo degli open data consentono la sperimentazione, l'esplorazione e l'utilizzo innovativo dei dati per realizzare nuovi prodotti e servizi.</p><p>Ad esempio, i dati sui trasporti della società \"Transport for London\" sono dotati di una licenza aperta. Questa licenza ha permesso lo sviluppo di molte iniziative relative alla pianificazione di viaggi con i trasporti pubblici, resi poi disponibili come app su smartphone e altri dispositivi mobili.<br /><a href='https://tfl.gov.uk/info-for/open-data-users/' target='_blank'>Portami al sito di Transport for London</a></p>",
+                "_graphic": {
+                    "src": "course/it/images/odi-4.jpg",
+                    "alt": "Abilitare l'innovazione",
+                    "title": "Abilitare l'innovazione",
+                    "*source":"http://www.shutterstock.com/pic-173841626.html",
+                    "*credit":"Claudio Divizia",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Abilitare l'innovazione"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-26",
+        "_parentId":"b-26",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "Dove collocare la licenza?",
+            "title": "Dove collocare la licenza?",
+            "large": "course/it/images/odi-5.jpg",
+            "medium": "course/it/images/odi-5.jpg",
+            "small": "course/it/images/odi-5.jpg",
+            "*source":"sponge uk",
+            "*credit":"sponge uk",
+            "*license":"Creative commons attribute 4.0 international"
+        }
+    },
+    {
+        "_id":"c-27",
+        "_parentId":"b-26",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Dove collocare la licenza",
+        "displayTitle":"Dove collocare la licenza",
+        "body":"<p>Coloro che pubblicano open data devono fare in modo che la licenza sia facilmente accessibile per tutti i dataset che possono essere consultati, utilizzati e condivisi.</p><p>La collocazione e la struttura della licenza possono variare in base alla normativa, al settore di interesse e allo stile personale.</p><p>Alcune buone pratiche indicano che le licenze dovrebbero essere facili da reperire e da leggere. Nella sezione successiva, mostriamo come trovare una licenza.</p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+     {
+        "_id": "c-28",
+        "_parentId": "b-27",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Licenze semplici e facilmente individuabili",
+        "displayTitle": "Licenze semplici e facilmente individuabili",
+        "body": "Le licenze vengono presentate in modo diverso, in base a chi pubblica i dati.  Ecco alcuni esempi.",
+        "instruction": "<em class='desktop-instruction'>Fare clic sulla freccia avanti per vedere di più.</em><em class='mobile-instruction'>Seleziona il segno \"+\" per esplorare ulteriormente, quindi scorri l'immagine per vedere di più.</em>",
+        "_items": [
+            {
+                "title": "Governo del Regno Unito",
+                "body": "<p>Il governo britannico utilizza una licenza \"Open Government\"</p><p class='not-eu'>Each dataset on the UK government open data portal displays the licence direcly under the dataset title at the top of the page. This makes the licence very easy to find while also being clear that the licence relates directly to the dataset shown.</p><p class='not-dlab not-default'>Questo esempio mostra chiaramente la licenza nella parte superiore della pagina web da cui si accede al dataset. Le informazioni sulla licenza sono disponibili tramite un collegamento ipertestuale che visualizza interamente la licenza.</p><p>Si guardi per esempio questo dataset e la sua licenza. While you are there, you can also explore all the other datasets and services they offer.<br /><a href='http://data.gov.uk/dataset/financial-transactions-data-fco' target='_blank'>Portami a data.gov.uk</a></p>",
+                "_graphic": {
+                    "src": "course/it/images/odi-6.jpg",
+                    "alt": "Governo del Regno Unito",
+                    "title": "Governo del Regno Unito",
+                    "*source":"http://data.gov.uk/dataset/financial-transactions-data-fco",
+                    "*credit":"data.gov.uk",
+                    "*license":"Open Government Licence"
+                },
+                "strapline": "Governo del Regno Unito"
+            },
+            {
+                "title": "Governo di Singapore",
+                "body": "<p>Anche il governo di Singapore pubblica open data, ma può risultare difficile individuare la licenza.</p><p>I termini e le condizioni della licenza sono accessibili facendo clic sulle icone di download dei dati o sull'URL, oppure tramite il link \"termini e condizioni\" nella parte inferiore della pagina web.</p><p>Si guardi per esempio questo dataset e la sua licenza. Da questa pagina si possono esplorare tutti gli altri dataset e i servizi che offrono.<br /><a href='https://data.gov.sg/dataset/dengue-clusters' target='_blank'>Portami a data.gov.sg</a></p>",
+                "_graphic": {
+                    "src": "course/it/images/odi-7.jpg",
+                    "alt": "Governo di Singapore",
+                    "title": "Governo di Singapore",
+                    "*source":"https://data.gov.sg/dataset/dengue-clusters",
+                    "*credit":"data.gov.sg",
+                    "*license":"n/a"
+                },
+                "strapline": "Governo di Singapore"
+            },
+            {
+                "title": "Governo della Tanzania",
+                "body": "<p>Come per il governo di Singapore, anche la licenza relativa agli open data della Tanzania può essere difficile da individuare.</p><p>I termini e le condizioni della licenza sono accessibili facendo clic sul link \"termini e condizioni\" nella parte inferiore della pagina web. Per ogni singolo dataset compare, in un modo che può creare confusione, la dicitura 'licenza non specificata'.</p><p>Si guardi per esempio questo dataset e la sua licenza. Da questa pagina si possono esplorare tutti gli altri dataset e i servizi che offrono.<br /><a href='http://opendata.go.tz/dataset/uwiano-wa-mwalimu-kwa-wanafunzi-kwa-shule-za-msingi-zisizo-za-serikali-2016' target='_blank'>Portatemi a opendata.go.tz</a></p>",
+                "_graphic": {
+                    "src": "course/it/images/odi-6b.jpg",
+                    "alt": "Governo della Tanzania",
+                    "title": "Governo della Tanzania",
+                    "*source":"http://opendata.go.tz/dataset/uwiano-wa-mwalimu-kwa-wanafunzi-kwa-shule-za-msingi-zisizo-za-serikali-2016",
+                    "*credit":"opendata.go.tz",
+                    "*license":"n/a"
+                },
+                "strapline": "Governo della Tanzania"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-30",
+        "_parentId":"b-28",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "I tipi di licenze",
+            "title": "I tipi di licenze",
+            "large": "course/it/images/odi-8.jpg",
+            "medium": "course/it/images/odi-8.jpg",
+            "small": "course/it/images/odi-8.jpg",
+            "*source":"http://www.shutterstock.com/pic-353727374",
+            "*credit":"Icons vector",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+      "_id":"c-35",
+      "_parentId":"b-28",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"left",
+      "title": "I tipi di licenze",
+      "displayTitle": "I tipi di licenze",
+      "body": "<p>Più semplice è la licenza meglio è.</p><p>Ci sono molte licenze diverse. Per massimizzare la possibilità di riutilizzo, cerca di adottare un licenza standard già ampiamente utilizzata.</p><p><a href='https://theodi.org/guides/reusers-guide-open-data-licensing' target='_blank'>Portami a una guida sulle licenze</a></p><p class='not-tz not-dlab not-default'>Anche il portale europeo offre una semplice <a href='http://www.europeandataportal.eu/it/licence-assistant' target='_blank'>guida alle licenze</a> per aiutarti a scegliere la licenza giusta per i tuoi dati.</p>",
+      "instruction": "<em>Fai clic sui titoli per esplorare ulteriormente.</em>",
+      "_items": [
+        {
+          "alt": "Licenze Creative Commons",
+          "title": "Licenze Creative Commons",
+          "body": "<p>Le licenze Creative Commons sono ampiamente utilizzate per rendere aperti e quindi riusabili testi, opere creative e in generale \"contenuti\". La versione 4.0 rende esplicito il tema della licenza dei dati.</p><p>Ci sono tre versioni Creative Commons di una licenza aperta:</p><ul><li><strong>Public domain: (CC0)</strong></li><li><strong>Attribution: (CC-BY v4.0)</strong></li><li><strong>Attribution & share-alike: (CC-BY-SA v4.0)</strong></li></ul><p>Le licenze \"Public Domain\" e \"Attribution\" assicurano la massima flessibilità nell'utilizzo dei dati mentre una licenza Share-alike può limitare l'uso commerciale dei dati.<br /><a href='https://creativecommons.org/publicdomain/zero/1.0/' target='_blank'>Mostrami una licenza Public Domain</a><br><a href='https://creativecommons.org/licenses/by/4.0/' target='_blank'>Mostrami una licenza Attribution</a><br><a href='https://creativecommons.org/licenses/by-sa/4.0/' target='_blank'>Show me an Attribution & share-alike licence.</a></p><p>Puoi scegliere una licenza adatta alla tua situazione nel sito web \"Creative Commons\":<br><a href='https://creativecommons.org/choose/' target='_blank'>Mostrami come creare la mia licenza Creative Commons.</a></p>"
+        },
+        {
+          "alt": "Licenze personalizzate",
+          "title": "Licenze personalizzate",
+          "body": "<p>Una licenza personalizzata viene creata da chi pubblica i dati e pone specifiche condizioni che l'utente deve rispettare. Le licenze personalizzate possono essere scritte da chi pubblica i dati o adattate a partire da una licenza standard mediante l'aggiunta di nuove condizioni e/o la modifica di quelle esistenti.</p><p>Le licenze personalizzate possono rendere più complesso l'utilizzo degli open data.</p><p>Possono introdurre condizioni specifiche che limitano l'utilizzo o l'integrazione dei dati e, in alcuni casi, sono difficili da rispettare da parte degli utenti.</p>"
+        },
+        {
+          "alt": "Licenze Open Government",
+          "title": "Licenze Open Government",
+          "body": "<p>Alcuni hanno scelto di sviluppare le proprie licenze.</p><p>Le migliori licenze sono:</p><ul><li>brevi</li><li>compatibili con altre licenze ampiamente utilizzate</li><li>facili da rispettare</li></ul><p class='not-dlab'>Un buon esempio di una chiara licenza per open data è quella creata dal governo francese.<br /><a href='https://www.etalab.gouv.fr/licence-ouverte-open-licence' target='_blank'>Portami alla licenza del governo francese</a></p><p>Un altro buon esempio è fornito dal governo britannico, che ha sviluppato una licenza per open data che viene utilizzata da tutti i dipartimenti governativi: Dipartimenti Governativi:<br /><a href='http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/' target='_blank'>Portami alla licenza del governo britannico</a></p>"
+        }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+     {
+        "_id": "c-40",
+        "_parentId": "b-30",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Licenze e terze parti",
+        "displayTitle": "Licenze e terze parti",
+        "body": "La pubblicazione di open data può essere richiesta esplicitamente nei processi delle gare d'appalto e relativi contratti di servizio.",
+        "instruction": "<em class='desktop-instruction'>Fare clic sulla freccia avanti per vedere di più.</em><em class='mobile-instruction'>Seleziona il segno \"+\" per esplorare ulteriormente, quindi scorri l'immagine per vedere di più.</em>",
+        "_items": [
+            {
+                "title": "Parti Terze",
+                "body": "<p>Le amministrazioni e le organizzazioni utilizzano spesso collaboratori o consulenti esterni per la fornitura di servizi a loro nome.</p><p>Queste amministrazioni e organizzazioni possono pubblicare open data relativi ai propri servizi ed estendere queste azioni a terze parti.</p><p>Diffondere queste pratiche è importante perché quando si spende denaro pubblico si dovrebbe produrre bene pubblico. L'apertura dei dati è un modo efficace per farlo e per rendere questa attività più trasparente.</p>",
+                "_graphic": {
+                    "src": "course/it/images/odi-9.jpg",
+                    "alt": "Parti Terze",
+                    "title": "Parti Terze",
+                    "*source":"http://www.shutterstock.com/pic-239545075.html",
+                    "*credit":"everything possible",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Parti Terze"
+            },
+            {
+                "title": "Come includere gli open data nei contratti",
+                "body": "<p>Per garantire che i dati raccolti e utilizzati dalle aziende appaltate siano pubblicati come open data, un'organizzazione può:</p><ul><li>includere questa condizione nel contratto.</li><li>mantenere la proprietà dei dati per pubblicarli essa stessa come open data.</li></ul><p><a href='http://training.theodi.org/Procurement/Guide/' target='_blank'>Portami a una guida su come incorporare la questione degli open data nei contratti</a></p>",
+                "_graphic": {
+                    "src": "course/it/images/odi-10.jpg",
+                    "alt": "Come includere gli open data nei contratti",
+                    "title": "Come includere gli open data nei contratti",
+                    "*source":"http://www.shutterstock.com/pic-159737504.html",
+                    "*credit":"Myvector",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Come includere gli open data nei contratti"
+            },
+            {
+                "title": "Gli open data relativi alle prestazioni",
+                "body": "<p>Si può anche richiedere ad una azienda appaltante di pubblicare in modalità aperta i dati relativi alle prestazioni e/o alla fornitura di servizi.</p><p>I dati relativi ai contratti precedenti aiutano potenziali nuovi fornitori a capire quali parti del contratto siano più semplici o più complesse e stimolano la concorrenza nelle offerte.</p>",
+                "_graphic": {
+                    "src": "course/it/images/odi-11.jpg",
+                    "alt": "Gli open data relativi alle prestazioni",
+                    "title": "Gli open data relativi alle prestazioni",
+                    "*source":"http://www.shutterstock.com/pic-201870622.html",
+                    "*credit":"Your Design",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Gli open data relativi alle prestazioni"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-42",
+        "_parentId":"b-32",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/it/images/burst-indigo.png",
+            "medium": "course/it/images/burst-indigo.png",
+            "small": "course/it/images/burst-indigo.png"
+        }
+    },
+    {
+        "_id":"c-43",
+        "_parentId":"b-32",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Sei pronto per le licenze?",
+        "displayTitle":"Sei pronto per le licenze?",
+        "body":"<p>Ci sono quattro cose da ricordare quando si tratta di licenze. Le ricordi?</p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-45",
+        "_parentId":"b-35",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Sei pronto per le licenze?",
+            "title": "",
+            "large": "course/it/images/odi-12.jpg",
+            "medium": "course/it/images/odi-12.jpg",
+            "small": "course/it/images/odi-12.jpg",
+            "*source":"http://www.shutterstock.com/pic-270451631.html",
+            "*credit":"Oleksiy Mark",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    
+    {
+        "_id":"c-50",
+        "_parentId":"b-35",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"588b5379b61c46e176e7e9e7",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Perché gli open data hanno bisogno di una licenza?",
+        "displayTitle": "Perché gli open data hanno bisogno di una licenza?",
+        "body": "<p>Di cosa hanno bisogno i tuoi dati per consentire agli utenti di accedervi, utilizzarli e condividerli?</p>",
+        "instruction": "<em>Välj ditt svar och klicka sedan på 'Skicka'</em>",
+        "_items": [
+            {
+                "text": "Informazioni di intestazione",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Una licenza",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "Un'email dal webmaster",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Esatto!</h5><p>Senza una licenza i dati saranno \"pubblicamente disponibili\" ma gli utenti potrebbero non avere l'autorizzazione per accedervi, utilizzarli e condividerli in base alle leggi sul copyright e/o sull'utilizzo dei database.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Sei sicuro??</h5><p>Senza una licenza i dati saranno \"pubblicamente disponibili\" ma gli utenti potrebbero non avere l'autorizzazione per accedervi, utilizzarli e condividerli in base alle leggi sul copyright e/o sull'utilizzo dei database.</p>",
+                "final": "<h5>Sei sicuro??</h5><p>Senza una licenza i dati saranno \"pubblicamente disponibili\" ma gli utenti potrebbero non avere l'autorizzazione per accedervi, utilizzarli e condividerli in base alle leggi sul copyright e/o sull'utilizzo dei database.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Sei sicuro??</h5><p>Senza una licenza i dati saranno \"pubblicamente disponibili\" ma gli utenti potrebbero non avere l'autorizzazione per accedervi, utilizzarli e condividerli in base alle leggi sul copyright e/o sull'utilizzo dei database.</p>",
+                "final": "<h5>Sei sicuro??</h5><p>Senza una licenza i dati saranno \"pubblicamente disponibili\" ma gli utenti potrebbero non avere l'autorizzazione per accedervi, utilizzarli e condividerli in base alle leggi sul copyright e/o sull'utilizzo dei database.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-55",
+        "_parentId":"b-40",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Come liberare il valore degli open data",
+            "title": "",
+            "large": "course/it/images/odi-13.jpg",
+            "medium": "course/it/images/odi-13.jpg",
+            "small": "course/it/images/odi-13.jpg",
+            "*source":"http://www.shutterstock.com/pic-77222599.html",
+            "*credit":"Pavel Ignatov",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-60",
+        "_parentId":"b-40",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"588b557ab61c46e176e7e9f1",
+        "_classes":"",
+        "_layout":"right",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Come liberare il valore degli open data",
+        "displayTitle": "Come liberare il valore degli open data",
+        "body": "<p>Una licenza aperta consente agli utenti di accedere, utilizzare e condividere open data. Quale altra autorizzazione deve fornire una licenza aperta agli utenti?</p>",
+        "instruction": "<em>Välj ditt svar och klicka sedan på 'Skicka'</em>",
+        "_items": [
+            {
+                "text": "La capacità di risolvere i crimini",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "La capacità di rappresentare chi pubblica i dati",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "La possibilità di utilizzare gli open data per scopi commerciali",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Esatto!</h5><p>Perché i dati siano veramente aperti, gli utenti devono essere liberi di utilizzare i dati anche per scopi commerciali. Questo massimizza la possibilità di creare innovazione. La licenza serve a dare una garanzia, a non consentire ad altri di poter rivendicare la proprietà dei dati di origine.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Sei sicuro??</h5><p>Perché i dati siano veramente aperti, gli utenti devono essere liberi di utilizzare i dati anche per scopi commerciali. Questo massimizza la possibilità di creare innovazione. La licenza serve a dare una garanzia, a non consentire ad altri di poter rivendicare la proprietà dei dati di origine.</p>",
+                "final": "<h5>Sei sicuro??</h5><p>Perché i dati siano veramente aperti, gli utenti devono essere liberi di utilizzare i dati anche per scopi commerciali. Questo massimizza la possibilità di creare innovazione. La licenza serve a dare una garanzia, a non consentire ad altri di poter rivendicare la proprietà dei dati di origine.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Sei sicuro??</h5><p>Senza una licenza, i dati saranno \"pubblicamente disponibili\", ma gli utenti potrebbero non avere l'autorizzazione per accedervi, utilizzarli e condividerli in base alle leggi sul copyright e/o sull'utilizzo dei database.</p>",
+                "final": "<h5>Sei sicuro??</h5><p>Senza una licenza, i dati saranno \"pubblicamente disponibili\", ma gli utenti potrebbero non avere l'autorizzazione per accedervi, utilizzarli e condividerli in base alle leggi sul copyright e/o sull'utilizzo dei database.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-65",
+        "_parentId":"b-45",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "I tipi di licenze",
+            "title": "",
+            "large": "course/it/images/odi-14.png",
+            "medium": "course/it/images/odi-14.png",
+            "small": "course/it/images/odi-14.png",
+            "*source":"http://data.gov.uk/dataset/financial-transactions-data-fco",
+            "*credit":"data.gov.uk",
+            "*license":"Open Government Licence"
+        }
+    },
+    {
+        "_id":"c-70",
+        "_parentId":"b-45",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"5899cb00fda9f5660ad84578",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "I tipi di licenze",
+        "displayTitle": "I tipi di licenze",
+        "body": "<p>Quale dei seguenti tipi di licenza sarebbe più adatto per chi vuole pubblicare open data?</p>",
+        "instruction": "<em>Välj ditt svar och klicka sedan på 'Skicka'</em>",
+        "_items": [
+            {
+                "text": "Nessuna licenza",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "La licenza Creative Commons standard",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "Una licenza personalizzata",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Esatto!</h5><p>La licenza Creative Commons standard è la licenza più appropriata per chiunque voglia pubblicare open data senza dover utilizzare licenze specifiche.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Sei sicuro??</h5><p>La licenza Creative Commons standard è la licenza più appropriata per chiunque voglia pubblicare open data senza dover utilizzare licenze specifiche.</p>",
+                "final": "<h5>Sei sicuro??</h5><p>La licenza Creative Commons standard è la licenza più appropriata per chiunque voglia pubblicare open data senza dover utilizzare licenze specifiche.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Sei sicuro??</h5><p>La licenza Creative Commons standard è la licenza più appropriata per chiunque voglia pubblicare open data senza dover utilizzare licenze specifiche.</p>",
+                "final": "<h5>Sei sicuro??</h5><p>La licenza Creative Commons standard è la licenza più appropriata per chiunque voglia pubblicare open data senza dover utilizzare licenze specifiche.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-75",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Licenze e terze parti",
+            "title": "",
+            "large": "course/it/images/odi-8.jpg",
+            "medium": "course/it/images/odi-8.jpg",
+            "small": "course/it/images/odi-8.jpg",
+            "*source":"http://www.shutterstock.com/pic-353727374",
+            "*credit":"Icons vector",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-80",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"5899cb93fda9f5660ad8457d",
+        "_classes":"",
+        "_layout":"right",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Licenze e terze parti",
+        "displayTitle": "Licenze e terze parti",
+        "body": "<p>Che ruolo hanno le licenze open data nel processo di definizione delle gare d'appalto e dei relativi contratti di servizio?</p>",
+        "instruction": "<em>Välj ditt svar och klicka sedan på 'Skicka'</em>",
+        "_items": [
+            {
+                "text": "Intervengono solo se gli appaltatori ne fanno specifica richiesta",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Non sono parte del processo",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Le licenze open data devono essere parte integrante del processo",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Esatto!</h5><p>Gli open data sono un nodo fondamentale durante il processo di definizione della gare d'appalto. Le organizzazioni che appaltano servizi possono pubblicare dati di performance e dati collegati per aiutare le aziende a presentare le loro offerte.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Sei sicuro??</h5><p>Gli open data sono un nodo fondamentale durante il processo di definizione della gare d'appalto. Le organizzazioni che appaltano servizi possono pubblicare dati di performance e dati collegati per aiutare le aziende a presentare le loro offerte. </p>",
+                "final": "<h5>Sei sicuro??</h5><p>Gli open data sono un nodo fondamentale durante il processo di definizione della gare d'appalto. Le organizzazioni che appaltano servizi possono pubblicare dati di performance e dati collegati per aiutare le aziende a presentare le loro offerte.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Sei sicuro??</h5><p>Gli open data sono un nodo fondamentale durante il processo di definizione della gare d'appalto. Le organizzazioni che appaltano servizi possono pubblicare dati di performance e dati collegati per aiutare le aziende a presentare le loro offerte.</p>",
+                "final": "<h5>Sei sicuro??</h5><p>Gli open data sono un nodo fondamentale durante il processo di definizione della gare d'appalto. Le organizzazioni che appaltano servizi possono pubblicare dati di performance e dati collegati per aiutare le aziende a presentare le loro offerte.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-85",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Summary icon clipboard",
+            "title": "Summary icon clipboard",
+            "large": "course/it/images/summary-icon.png",
+            "medium": "course/it/images/summary-icon.png",
+            "small": "course/it/images/summary-icon.png",
+            "*source":"http://www.shutterstock.com/pic-189810137.html",
+            "*credit":"Kritchanut",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-90",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Licenze open data. Semplice.",
+        "displayTitle":"Licenze open data. Semplice.",
+        "body":"<p>Perché i tuoi dati siano aperti, devono aver assegnata una licenza che consenta a chiunque di accedervi, utilizzarli e condividerli.</p><p>La licenza autorizza le imprese, le startup, le amministrazioni e i singoli individui a creare innovazione attraverso gli open data.</p><p>Le licenze open data dovrebbero essere parte del processo delle gare d'appalto e relativi contratti di servizio.</p><p>E ricorda: più la licenza è semplice e meglio è.</p><p>Nel prossimo modulo, valuteremo la qualità degli open data e vedremo com'è semplice predisporre i dati affinché gli utenti possano utilizzarli.</p><p><a class='course_link' href='../module5/'>Modulo successivo</a></p><p><a class='course_link' href='../'>Menù principale</a></p>",
+        "_pageLevelProgress": {
+          "_isEnabled": true
+        }
+    },
+    {
+       "_id":"c-95",
+       "_parentId":"b-55",
+       "_type":"component",
+       "_component":"text",
+       "_classes":"separator",
+       "_layout":"full"
+    },
+    {
+       "_id":"c-96",
+       "_parentId":"b-55",
+       "_type":"component",
+       "_component":"text",
+       "_classes": "attribution",
+       "body":"&copy; <a href='https://ec.europa.eu/commission/index_en' target='_blank'>European Commission</a>",
+       "_layout":"full"
+    },
+    {
+        "_id":"c-100",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"footer-logo",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Open data institute logo",
+            "title": "Open data institute logo",
+            "large": "course/it/images/logo-small.png",
+            "medium": "course/it/images/logo-small.png",
+            "small": "course/it/images/logo-small.png",
+            "*source":"http://theodi.org",
+            "*credit":"The Open Data Institute",
+            "*license":"All rights reserved"  
+        }
+    },
+    {
+        "_id":"c-104",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"attribution not-eu not-default",
+        "_layout":"right",
+        "body":"Content created by <a href='http://theodi.org' target='_blank'>The Open Data Institute</a>"
+    },
+    {
+        "_id":"c-105",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"social-buttons not-dlab",
+        "_layout":"right",
+        "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/it/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/it/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/it/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/it/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/it/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/it/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/it/images/social/flickr.png'></a>"
+    }
+]
