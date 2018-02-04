@@ -1,0 +1,648 @@
+[
+    {
+        "_id": "c-01",
+        "_parentId": "b-01",
+        "_type": "component",
+        "_component": "graphic",
+        "_classes": "intro-logo",
+        "_layout": "right",
+        "title": "",
+        "displayTitle": "",
+        "body": "",
+        "instruction": "",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "",
+            "medium": "",
+            "small": "",
+            "*source": "",
+            "*credit": "",
+            "*license": ""
+        }
+    },
+    {
+        "_id": "c-02",
+        "_parentId": "b-01",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "",
+        "_layout": "left",
+        "title": "Cosa sono gli open data (dati aperti)?",
+        "displayTitle": "Cosa sono gli open data (dati aperti)?",
+        "body": "<p> Le pubbliche amministrazioni, le imprese e i singoli individui possono utilizzare gli open data per i propri interessi in ambito per es. sociale, economico o legato all'ambiente.</p><h5>In questo modulo vedremo quanto segue:</h5><ul class='ticks'><li>Cosa sono gli open data (dati aperti)?</li><li>Cosa sono i dati?</li><li>Cosa rende i dati aperti?</li><li>Perché abbiamo bisogno di dati aperti?</li></ul>",
+        "instruction": "",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-11",
+        "_parentId": "b-10",
+        "_type": "component",
+        "_component": "iFrame-vimeo",
+        "_classes": "",
+        "_layout": "full",
+        "title": "Scoprire gli open data - in 2 minuti",
+        "displayTitle": "Scoprire gli open data - in 2 minuti",
+        "body": "Il dott. David Tarrant, consulente dell'Open I dati Institute, spiega cosa sono i dati, che cosa li rende aperti e perché abbiamo bisogno di dati aperti.",
+        "instruction": "Om du vill aktivera och avaktivera undertexter klickar du på knappen \"cc\" längst ned till höger om videoen",
+        "_setCompletionOn": "ended",
+        "_source": "https://player.vimeo.com/video/129196637",
+        "_media": {
+            "mp4": "course/it/video/video.mp4",
+            "poster": "course/it/video/placeholder.jpg"
+        },
+        "_height": {
+            "_small": 250,
+            "_medium": 350,
+            "_large": 508
+        }
+    },
+    {
+        "_id": "c-21",
+        "_parentId": "b-20",
+        "_type": "component",
+        "_component": "graphic",
+        "_classes": "",
+        "_layout": "right",
+        "_graphic": {
+            "alt": "Cosa sono gli open data (dati aperti)?",
+            "title": "Cosa sono gli open data (dati aperti)?",
+            "large": "course/it/images/odi-1-text-image_large.jpg",
+            "medium": "course/it/images/odi-1-text-image_large.jpg",
+            "small": "course/it/images/odi-1-text-image_large.jpg",
+            "*source": "http://www.shutterstock.com/pic.mhtml?id=179384507&src=lb-35924366",
+            "*credit": "leromin",
+            "*license": "Shutterstock Standard License"
+        }
+    },
+    {
+        "_id": "c-22",
+        "_parentId": "b-20",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "",
+        "_layout": "left",
+        "title": "Cosa sono gli open data (dati aperti)?",
+        "displayTitle": "Cosa sono gli open data (dati aperti)?",
+        "body": "<p></p><p>Gli open data diventano utilizzabili quando sono resi disponibili in un formato comune e leggibile in modo automatico.</p><p>Gli open data devono essere resi disponibili con una licenza. La licenza deve consentire alle persone di utilizzare i dati in qualunque modo, di elaborarli, aggregarli ad altri dati, condividerli con altre persone, anche per scopi commerciali.</p>"
+    },
+    {
+        "_id": "c-25",
+        "_parentId": "b-25",
+        "_classes": "",
+        "_type": "component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Dai dati grezzi allo sviluppo di nuove informazioni e conoscenze",
+        "displayTitle": "Dai dati grezzi allo sviluppo di nuove informazioni e conoscenze",
+        "body": "Senza dati non possiamo ricavare informazioni e senza informazioni non possiamo costruire nuove conoscenze.",
+        "instruction": "<em class='desktop-instruction'>Fare clic sulla freccia avanti per vedere di più.</em><em class='mobile-instruction'>Seleziona il segno \"+\" per esplorare ulteriormente, quindi scorri l'immagine per vedere di più.</em>",
+        "_items": [
+            {
+                "title": "I dati",
+                "body": "<p>I dati sono la materia prima con cui produrre informazioni e conoscenze.</p><p>Ad esempio, possiamo pensare ai dati come a tutte quelle informazioni quali: i luoghi, le immagini, le descrizioni, le recensioni e i prezzi che costituiscono la base di informazioni che possono aiutarci a pianificare una vacanza.</p>",
+                "_graphic": {
+                    "src": "course/it/images/odi-2-narrative_large.jpg",
+                    "alt": "I dati in knowledge triangle",
+                    "title": "I dati in knowledge triangle",
+                    "*source": "http://www.shutterstock.com/pic.mhtml?id=240789808&src=lb-35924366",
+                    "*credit": "Anna Frajtova",
+                    "*license": "Shutterstock Standard License"
+                },
+                "strapline": "I dati"
+            },
+            {
+                "title": "Le informazioni",
+                "body": "<p>I dati diventano informazioni quando vengono inseriti in un contesto.</p><p>Seguendo l'esempio precedente, le posizioni, le immagini, le descrizioni e i prezzi possono contribuire a fornire informazioni relative ad un'attrazione turistica.</p><p>La raccolta e la presentazione dei dati aiuta a creare informazioni.</p>",
+                "_graphic": {
+                    "src": "course/it/images/odi-3-narrative_large.jpg",
+                    "alt": "Le informazioni in knowledge triangle",
+                    "title": "Le informazioni in knowledge triangle",
+                    "*source": "http://www.shutterstock.com/pic.mhtml?id=217763944&src=lb-35924366",
+                    "*credit": "Sachezi",
+                    "*license": "Shutterstock Standard License"
+                },
+                "strapline": "Le informazioni"
+            },
+            {
+                "title": "La conoscenza, il sapere",
+                "body": "<p>La conoscenza è ciò che deriva dalla rielaborazione delle informazioni ed è personalizzata per soddisfare le proprie esigenze.</p><p>Si crea conoscenza attraverso un processo che trasforma le informazioni in azioni di scelta.</p><p>Sulla base dell'esempio precedente: sapere che nessuno nella nostra famiglia ama i parchi tematici ci aiuta a decidere quali luoghi evitare e quali sono invece adatti per una visita durante la vacanza con la nostra famiglia.</p>",
+                "_graphic": {
+                    "src": "course/it/images/odi-4-narrative_large.jpg",
+                    "alt": "La conoscenza, il sapere in knowledge triangle",
+                    "title": "La conoscenza, il sapere in knowledge triangle",
+                    "*source": "http://www.shutterstock.com/pic.mhtml?id=250810483&src=lb-35924366",
+                    "*credit": "Oleksiy Mark",
+                    "*license": "Shutterstock Standard License"
+                },
+                "strapline": "La conoscenza, il sapere"
+            }
+        ],
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-30",
+        "_parentId": "b-28",
+        "_type": "component",
+        "_component": "graphic",
+        "_classes": "",
+        "_layout": "right",
+        "_graphic": {
+            "alt": "Cosa rende i dati aperti?",
+            "title": "Cosa rende i dati aperti?",
+            "large": "course/it/images/odi-5-accordion_large.jpg",
+            "medium": "course/it/images/odi-5-accordion_large.jpg",
+            "small": "course/it/images/odi-5-accordion_large.jpg",
+            "*source": "http://www.shutterstock.com/pic.mhtml?id=154744388&src=lb-35924366",
+            "*credit": "Oleksiy Mark",
+            "*license": "Shutterstock Standard License"
+        }
+    },
+    {
+        "_id": "c-35",
+        "_parentId": "b-28",
+        "_type": "component",
+        "_component": "accordion",
+        "_classes": "",
+        "_layout": "left",
+        "title": "Cosa rende i dati aperti?",
+        "displayTitle": "Cosa rende i dati aperti?",
+        "body": "<p>I dati sono aperti se tutti possono avervi accesso, utilizzarli e condividerli.<br />Ecco alcuni semplici aspetti da considerare quando si definisce il concetto di \"open\": </p>",
+        "instruction": "",
+        "_items": [
+            {
+                "alt": "I limiti",
+                "title": "I limiti",
+                "body": "<p>Perché i dati siano aperti, non dovrebbero esserci limitazioni che ne impediscano l'uso in qualche modo particolare</p><p>Chiunque dovrebbe essere libero di utilizzare, modificare, aggregare e condividere i dati, anche per scopi commerciali</p>"
+            },
+            {
+                "alt": "Il costo",
+                "title": "Il costo",
+                "body": "<p>I dati aperti devono essere utilizzabili liberamente, ma ciò non significa che debbano essere gratuiti.</p><p>Spesso possono esserci dei costi per creare, mantenere, pubblicare dati che siano veramente utilizzabili.</p><p>In linea di principio, qualsiasi somma da pagare per l'accesso a dati aperti non dovrebbe essere superiore al costo da sostenere per riprodurre i dati richiesti.</p><p>Per molti dataset, questo costo di riproduzione è tendenzialmente trascurabile.</p><p>La raccolta di dati in tempo reale (live data) e di big data potrebbe comportare dei costi per garantire una fornitura di servizi affidabili.</p>"
+            },
+            {
+                "alt": "Il riutilizzo",
+                "title": "Il riutilizzo",
+                "body": "<p>Una volta che l'utente ha i dati, è libero di utilizzarli, riutilizzarli e ridistribuirli - anche per scopi commerciali.</p><p>Gli open data sono definiti dal modo in cui possono essere utilizzati e non dal modo in cui sono resi disponibili.</p><p>Aspetti come il formato, la struttura e la leggibilità in automatico rendono i dati più utilizzabili e devono essere considerati attentamente.</p><p>Tuttavia, questi aspetti non rendono i dati \"più aperti\".</p>"
+            }
+        ],
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-40",
+        "_parentId": "b-30",
+        "_classes": "",
+        "_type": "component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Perché abbiamo bisogno di dati aperti?",
+        "displayTitle": "Perché abbiamo bisogno di dati aperti?",
+        "body": "Gli open data possono fornire molti vantaggi alle pubbliche amministrazioni, alle imprese e alla società civile.",
+        "instruction": "<em class='desktop-instruction'>Fare clic sulla freccia avanti per vedere di più.</em><em class='mobile-instruction'>Seleziona il segno \"+\" per esplorare ulteriormente, quindi scorri l'immagine per vedere di più.</em>",
+        "_items": [
+            {
+                "title": "Trasformare le pubbliche amministrazioni",
+                "body": "<p>Gli open data possono contribuire a rendere le pubbliche amministrazioni più trasparenti. Possono dimostrare che i soldi pubblici vengono spesi bene e che le politiche vengono realmente attuate.</p><p class='not-dlab'>Ad esempio, secondo l'attivista della comunità \"Open government\" David Eaves, i dati aperti hanno permesso ai cittadini canadesi di far risparmiare al governo 3,2 miliardi di dollari, che nel 2010 erano stati spesi in donazioni caritatevoli fraudolente.<br /><a href='http://eaves.ca/2010/04/14/case-study-open-data-and-the-public-purse/' target='_blank'>Mostrami l'articolo di David Eaves</a></p><p class='not-tz not-dlab not-default'>Sulla base del PIL previsto per il 2020 nei paesi EU28+ e tenendo conto della rispettiva spesa media pubblica, si può calcolare, per ogni paese, il risparmio realizzabile. I risparmi previsti per i paesi EU28+ nel 2020 sono <a href='http://www.europeandataportal.eu/sites/default/files/edp_creating_value_through_open_data_0.pdf#page=11' target='_blank'>pari a 1,7 miliardi di euro</a>.</p><p class='not-tz not-dlab not-default'>. Sul sito si possono trovare atti giudiziali relativi a casi penali e civili riguardanti persone e aziende. Il database viene aggiornato ogni giorno con nuovi atti giudiziari e nuove decisioni. </p><p class='not-eu not-default'>For example, The open data dashboard for education in Tanzania motivates citizens to demand greater accountability from their school system and public officials.<br /><a href='http://odimpact.org/case-open-education-information-in-tanzania.html' target='_blank'>Take me to the education dashboard.</a></p><p>Un altro esempio. \"Follow the Money\" riporta che la Nigeria utilizza lo stesso procedimento per garantire che i fondi pubblici siano spesi mantenendo gli impegni presi nei confronti dei cittadini.<br /><a href='http://followthemoneyng.org/' target='_blank'>Portami al sito di Follow the Money</a></p>",
+                "_graphic": {
+                    "src": "course/it/images/odi-6-narrative_large.png",
+                    "alt": "Trasformare le pubbliche amministrazioni",
+                    "title": "Trasformare le pubbliche amministrazioni",
+                    "*source": "http://www.shutterstock.com/pic-255896113",
+                    "*credit": "Pretty Vectors",
+                    "*license": "Shutterstock Standard License"
+                },
+                "strapline": "Trasformare le pubbliche amministrazioni"
+            },
+            {
+                "title": "Il costoruire nuove opportunità per le imprese",
+                "body": "<p>Gli open data stanno creando nuovi strumenti e opportunità per mettere in contatto le aziende con i propri clienti.</p><p class='not-dlab'>Con gli open data pubblicati da \"Transport for London\" gli sviluppatori hanno realizzato oltre 800 applicazioni relative ai trasporti.<br /><a href='http://www.tfl.gov.uk/' target='_blank'>Portami al sito di Transport for London</a></p><p class='not-dlab'>.<br /><a href='http://site.thomsonreuters.com/site/data-identifiers/' target='_blank'>Portami al sito di Thomson Reuters</a></p><p class='not-eu'>Find My School enables you to find the right school for you by location and exam results.<br/><a href='http://findmyschool.co.ke/discover' target='_blank'>Take me to Find My School</a></p><p>Le startup nel programma \"ODI Startup\" in questo momento stanno dando impiego ad oltre 70 persone e stanno generando oltre 4 milioni di sterline di fatturato.<br /><a href='http://theodi.org/odis-second-year-annual-report' target='_blank'>Portami alla relazione annuale di ODI</a></p>",
+                "_graphic": {
+                    "src": "course/it/images/odi-7-narrative_large.jpg",
+                    "alt": "Il costoruire nuove opportunità per le imprese",
+                    "title": "Il costoruire nuove opportunità per le imprese",
+                    "*source": "http://www.shutterstock.com/pic.mhtml?id=149924576&src=lb-35924366",
+                    "*credit": "Sergey Nivens",
+                    "*license": "Shutterstock Standard License"
+                },
+                "strapline": "Il costoruire nuove opportunità per le imprese"
+            },
+            {
+                "title": "Proteggere il pianeta",
+                "body": "<p>Il web è diventato un'infrastruttura fondamentale e gli open data si baseranno su questo.</p><p>Per esempio, i dati meteorologici aperti possono essere utilizzati per elaborare un sistema di allarme tempestivo in caso di disastri ambientali.<br /><a href='http://www.un.org/apps/news/story.asp?NewsID=13077&Cr=natural&Cr1=disaster#.VVyWK_lVhBc' target='_blank'>Portami al sito del centro di informazione delle Nazioni Unite</a></p><p>Gli open data aiutano anche i consumatori a comprendere quale sia il loro impatto sull'ambiente e ad adottare misure per migliorarlo.<br /><a href='https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/39386/12-1324-better-choices-better-deals-report-on-progress-on-the-consumer-empowerment-strategy.pdf' target='_blank'>Portami al rapporto Better Choices Better Deals</a></p>",
+                "_graphic": {
+                    "src": "course/it/images/odi-8-narrative_large.jpg",
+                    "alt": "Proteggere il pianeta",
+                    "title": "Proteggere il pianeta",
+                    "*source": "http://www.shutterstock.com/pic-185008832",
+                    "*credit": "surassawadee",
+                    "*license": "Shutterstock Standard License"
+                },
+                "strapline": "Proteggere il pianeta"
+            }
+        ],
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-42",
+        "_parentId": "b-33",
+        "_type": "component",
+        "_component": "graphic",
+        "_classes": "",
+        "_layout": "right",
+        "title": "",
+        "displayTitle": "",
+        "body": "",
+        "instruction": "",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/it/images/burst.png",
+            "medium": "course/it/images/burst.png",
+            "small": "course/it/images/burst.png"
+        }
+    },
+    {
+        "_id": "c-43",
+        "_parentId": "b-33",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "",
+        "_layout": "left",
+        "title": "Allora, sei pronto per gli open data?",
+        "displayTitle": "Allora, sei pronto per gli open data?",
+        "body": "<p>Quando si pensa all'apertura dei dati ci sono quattro cose utili da tenere a mente. Riesci a ricordarle?</p>",
+        "instruction": "",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-45",
+        "_parentId": "b-35",
+        "_type": "component",
+        "_component": "graphic",
+        "_classes": "illustration",
+        "_layout": "right",
+        "_graphic": {
+            "alt": "Cosa sono gli open data (dati aperti)?",
+            "title": "",
+            "large": "course/it/images/odi-9-mcq-image_large.jpg",
+            "medium": "course/it/images/odi-9-mcq-image_large.jpg",
+            "small": "course/it/images/odi-9-mcq-image_large.jpg",
+            "*source": "http://www.shutterstock.com/pic.mhtml?id=179384507&src=lb-35924366",
+            "*credit": "leromin",
+            "*license": "Shutterstock Standard License"
+        }
+    },
+    {
+        "_id": "c-50",
+        "_parentId": "b-35",
+        "_type": "component",
+        "_component": "mcq",
+        "_adapt2id": "58b82f84fda9f5660ad859dd",
+        "_classes": "",
+        "_layout": "left",
+        "_attempts": 1,
+        "_questionWeight": 1,
+        "_isRandom": true,
+        "_selectable": 1,
+        "title": "Cosa sono gli open data (dati aperti)?",
+        "displayTitle": "Cosa sono gli open data (dati aperti)?",
+        "body": "<p>Gli open data sono...</p>",
+        "instruction": "<em>Välj ditt svar och klicka sedan på 'Skicka'</em>",
+        "_items": [
+            {
+                "text": "informazioni che vendiamo alle aziende",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "dati a cui tutti possono avere accesso e che tutti possono utilizzare e condividere",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "dati visibili sul Web",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback": {
+            "correct": "<h5>Esatto!</h5><p><strong>Gli open data</strong> is <strong>dati a cui tutti possono avere accesso e che tutti possono utilizzare e condividere</strong>.<br />Gli open data devono essere resi disponibili con una licenza per consentirne il libero utilizzo, anche per scopi commerciali.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Sei sicuro??</h5><p><strong>Gli open data</strong> is <strong>dati a cui tutti possono avere accesso e che tutti possono utilizzare e condividere</strong>. <br/>Gli open data must also be licensed to allow free usage and must also be available for commercial use.</p></p>",
+                "final": "<h5>Sei sicuro??</h5><p><p><strong>Gli open data</strong> is <strong>dati a cui tutti possono avere accesso e che tutti possono utilizzare e condividere</strong>. <br/>Gli open data must also be licensed to allow free usage and must also be available for commercial use.</p></p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "",
+                "final": ""
+            }
+        },
+        "_buttons": {
+            "submit": "",
+            "reset": "",
+            "showCorrectAnswer": "",
+            "hideCorrectAnswer": ""
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-55",
+        "_parentId": "b-40",
+        "_type": "component",
+        "_component": "graphic",
+        "_classes": "illustration",
+        "_layout": "left",
+        "_graphic": {
+            "alt": "I dati, information, knowledge tiangle",
+            "title": "",
+            "large": "course/it/images/odi-10-mcq_large.jpg",
+            "medium": "course/it/images/odi-10-mcq_large.jpg",
+            "small": "course/it/images/odi-10-mcq_large.jpg",
+            "*source": "http://www.shutterstock.com/pic.mhtml?id=250810483&src=lb-35924366",
+            "*credit": "Oleksiy Mark",
+            "*license": "Shutterstock Standard License"
+        }
+    },
+    {
+        "_id": "c-60",
+        "_parentId": "b-40",
+        "_type": "component",
+        "_component": "mcq",
+        "_adapt2id": "58b82f84fda9f5660ad859e5",
+        "_classes": "",
+        "_layout": "right",
+        "_attempts": 1,
+        "_questionWeight": 1,
+        "_isRandom": true,
+        "_selectable": 1,
+        "title": "Cosa sono i dati?",
+        "displayTitle": "Cosa sono i dati?",
+        "body": "<p>I dati sono...</p>",
+        "instruction": "<em>Välj ditt svar och klicka sedan på 'Skicka'.</em>",
+        "_items": [
+            {
+                "text": "numeri, parole, mappe e foto.",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "informazioni pubblicate sul Web.",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "la materia prima per ottenere informazioni e conoscenze.",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback": {
+            "correct": "<h5>Esatto!</h5><p>I dati sono la materia prima da cui derivano informazioni e conoscenze.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Sei sicuro??</h5><p>I dati sono la materia prima da cui derivano informazioni e conoscenze.</p>",
+                "final": "<h5>Sei sicuro??</h5><p>I dati sono la materia prima da cui derivano informazioni e conoscenze.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "",
+                "final": ""
+            }
+        },
+        "_buttons": {
+            "submit": "",
+            "reset": "",
+            "showCorrectAnswer": "",
+            "hideCorrectAnswer": ""
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-65",
+        "_parentId": "b-45",
+        "_type": "component",
+        "_component": "graphic",
+        "_classes": "illustration",
+        "_layout": "right",
+        "_graphic": {
+            "alt": "Cosa rende i dati aperti?",
+            "title": "",
+            "large": "course/it/images/odi-11-mcq_large.jpg",
+            "medium": "course/it/images/odi-11-mcq_large.jpg",
+            "small": "course/it/images/odi-11-mcq_large.jpg",
+            "*source": "http://www.shutterstock.com/pic.mhtml?id=154744388&src=lb-35924366",
+            "*credit": "Oleksiy Mark",
+            "*license": "Shutterstock Standard License"
+        }
+    },
+    {
+        "_id": "c-70",
+        "_parentId": "b-45",
+        "_type": "component",
+        "_component": "mcq",
+        "_adapt2id": "58b82f84fda9f5660ad859e6",
+        "_classes": "",
+        "_layout": "left",
+        "_attempts": 1,
+        "_questionWeight": 1,
+        "_isRandom": true,
+        "_selectable": 1,
+        "title": "Cosa rende i dati aperti?",
+        "displayTitle": "Cosa rende i dati aperti?",
+        "body": "<p>Gli open data devono essere...</p>",
+        "instruction": "<em>Välj ditt svar och klicka sedan på 'Skicka'</em>",
+        "_items": [
+            {
+                "text": "liberi da restrizioni per il loro uso",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "limitati nel loro utilizzo",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "rilasciati in modo selettivo e a pagamento",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback": {
+            "correct": "<h5>Esatto!</h5><p>Se qualcosa limita il libero utilizzo dei dati, ad esempio una restrizione che ne vieta l'uso per scopi commerciali, questi dati non possono essere definiti aperti.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Sei sicuro??</h5><p>Se qualcosa limita il libero utilizzo dei dati, ad esempio una restrizione che ne vieta l'uso per scopi commerciali, questi dati non possono essere definiti aperti.</p>",
+                "final": "<h5>Sei sicuro??</h5><p>Se qualcosa limita il libero utilizzo dei dati, ad esempio una restrizione che ne vieta l'uso per scopi commerciali, questi dati non possono essere definiti aperti.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "",
+                "final": ""
+            }
+        },
+        "_buttons": {
+            "submit": "",
+            "reset": "",
+            "showCorrectAnswer": "",
+            "hideCorrectAnswer": ""
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-75",
+        "_parentId": "b-50",
+        "_type": "component",
+        "_component": "graphic",
+        "_classes": "illustration",
+        "_layout": "left",
+        "_graphic": {
+            "alt": "Perché abbiamo bisogno di dati aperti?",
+            "title": "",
+            "large": "course/it/images/odi-12-mcq_large.jpg",
+            "medium": "course/it/images/odi-12-mcq_large.jpg",
+            "small": "course/it/images/odi-12-mcq_large.jpg",
+            "*source": "http://www.shutterstock.com/pic.mhtml?id=149924576&src=lb-35924366",
+            "*credit": "Sergey Nivens",
+            "*license": "Shutterstock Standard License"
+        }
+    },
+    {
+        "_id": "c-80",
+        "_parentId": "b-50",
+        "_type": "component",
+        "_component": "mcq",
+        "_adapt2id": "58b82f84fda9f5660ad859ed",
+        "_classes": "",
+        "_layout": "right",
+        "_attempts": 1,
+        "_questionWeight": 1,
+        "_isRandom": true,
+        "_selectable": 1,
+        "title": "Perché abbiamo bisogno di dati aperti?",
+        "displayTitle": "Perché abbiamo bisogno di dati aperti?",
+        "body": "<p>Cosa si può fare con gli open data?</p>",
+        "instruction": "<em>Välj ditt svar och klicka sedan på 'Skicka'</em>",
+        "_items": [
+            {
+                "text": "Permettere l'accesso ad altri dataset",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Rendere le pubbliche amministrazioni responsabili",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Togliere vincoli alla produzione di valore sociale, ambientale ed economico",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback": {
+            "correct": "<h5>Esatto!</h5><p>Gli open data possono cambiare le interazioni tra le pubbliche amministrazioni, le imprese e i singoli individui. Hanno il potere di contribuire a migliorare i servizi, far crescere le economie e proteggere il nostro pianeta.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Sei sicuro??</h5><p>Gli open data possono cambiare le interazioni tra le pubbliche amministrazioni, le imprese e i singoli individui. Hanno il potere di contribuire a migliorare i servizi, far crescere le economie e proteggere il nostro pianeta.</p>",
+                "final": "<h5>Sei sicuro??</h5><p>Gli open data possono cambiare le interazioni tra le pubbliche amministrazioni, le imprese e i singoli individui. Hanno il potere di contribuire a migliorare i servizi, far crescere le economie e proteggere il nostro pianeta.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "",
+                "final": ""
+            }
+        },
+        "_buttons": {
+            "submit": "",
+            "reset": "",
+            "showCorrectAnswer": "",
+            "hideCorrectAnswer": ""
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-85",
+        "_parentId": "b-55",
+        "_type": "component",
+        "_component": "graphic",
+        "_classes": "",
+        "_layout": "right",
+        "_graphic": {
+            "alt": "Summary icon clipboard",
+            "title": "Summary icon clipboard",
+            "large": "course/it/images/summary-icon.png",
+            "medium": "course/it/images/summary-icon.png",
+            "small": "course/it/images/summary-icon.png",
+            "*source": "http://www.shutterstock.com/pic-189810137.html",
+            "*credit": "Kritchanut",
+            "*license": "Shutterstock Standard License"
+        }
+    },
+    {
+        "_id": "c-90",
+        "_parentId": "b-55",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "",
+        "_layout": "left",
+        "title": "Gli open data<span class='not-dlab' - veni, vidi, vici</span>",
+        "displayTitle": "Gli open data<span class='not-dlab' - veni, vidi, vici</span>",
+        "body": "<p>Gli open data is <strong>dati a cui tutti possono avere accesso e che tutti possono utilizzare e condividere</strong>.</p><p>Gli open data sono la materia prima nell'era digitale, ma, a differenza del carbone, del legname o dei diamanti, possono essere utilizzati da chiunque e mentre chiunque altro li sta usando.</p><p>Tutte le restrizioni imposte sull'utilizzo degli open data limiteranno il loro potenziale di creazione di valore aggiunto.</p><p>Gli open data possono portare svariati benefici alle pubbliche amministrazioni, alle imprese e ai singoli individui. Hanno il potere di contribuire a migliorare i servizi, far crescere le economie e proteggere il nostro pianeta.</p><p>Nel prossimo modulo vedremo come creare valore attraverso gli open data.</p><p><a class='course_link' href='../module2/'>Modulo successivo</a></p><p><a class='course_link' href='../'>Menù principale</a></p>",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-95",
+        "_parentId": "b-55",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "separator",
+        "_layout": "full"
+    },
+    {
+        "_id": "c-96",
+        "_parentId": "b-55",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "attribution",
+        "body": "&copy; <a href='https://ec.europa.eu/commission/index_en' target='_blank'>European Commission</a>",
+        "_layout": "full"
+    },
+    {
+        "_id": "c-100",
+        "_parentId": "b-55",
+        "_type": "component",
+        "_component": "graphic",
+        "_classes": "footer-logo",
+        "_layout": "left",
+        "_graphic": {
+            "alt": "Gli open data institute logo",
+            "title": "Gli open data institute logo",
+            "large": "course/it/images/logo-small.png",
+            "medium": "course/it/images/logo-small.png",
+            "small": "course/it/images/logo-small.png",
+            "*source": "http://theodi.org",
+            "*credit": "The Open I dati Institute",
+            "*license": "All rights reserved"
+        }
+    },
+    {
+        "_id": "c-104",
+        "_parentId": "b-55",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "attribution not-eu not-default",
+        "_layout": "right",
+        "body": "Content created by <a href='http://theodi.org' target='_blank'>The Open I dati Institute</a>"
+    },
+    {
+        "_id": "c-105",
+        "_parentId": "b-55",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "social-buttons not-dlab",
+        "_layout": "right",
+        "body": "<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/it/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/it/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenI datiInstitute'><img src='course/it/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/it/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/it/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenI datiInstituteUK'><img src='course/it/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/it/images/social/flickr.png'></a>"
+    }
+]
