@@ -1,0 +1,12 @@
+#!/bin/bash
+# USAGE ./update-modules
+for i in `seq 1 16`;
+do
+	cp .gitignore_module .gitignore
+	git --git-dir=.module checkout module$i
+	sed -i 's/\/en\//\/it\//g' src/course/it/course.json
+	sed -i 's/\/en\//\/sv\//g' src/course/sv/course.json
+	git --git-dir=.module commit -a -m "Updating sidebar links"
+	git --git-dir=.module push -u origin module$i
+done
+cp .gitignore_module .gitignore
