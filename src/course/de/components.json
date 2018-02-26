@@ -1,0 +1,701 @@
+[
+    {
+        "_id":"c-01",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"intro-logo",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "",
+            "medium": "",
+            "small": ""
+        }
+    },
+    {
+        "_id":"c-02",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Wertschöpfung durch Open Data",
+        "displayTitle":"Wertschöpfung durch Open Data",
+        "body":"<p>Offene Daten können das Wachstum von Volkswirtschaften, die Transformation von Gesellschaften und den Schutz der Umwelt fördern.</p><p>Offene Daten haben das Potenzial die Wirtschaft eines Landes anzukürbeln, Gesellschaften umzuwandeln und die Umwelt zu schützen.</p><h5>In this module we’ll explore the following:</h5><ul class='ticks'><li>Innovation und Wachstum für Unternehmen</li><li>Innovation und Wachstum für Unternehmen ermöglichen</li><li>Neue Möglichkeiten für Regierungen schaffen</li><li>Gesellschaftlichen und politischen Wandel herbeiführen</li></ul>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+    "_id":"c-11",
+    "_parentId":"b-10",
+    "_type":"component",
+    "_component":"iFrame-vimeo",
+    "_classes":"",
+    "_layout":"full",
+        "title":"Das Potenzial von Open Data erschließen - in 3 Minuten",
+        "displayTitle": "Das Potenzial von Open Data erschließen - in 3 Minuten",
+        "body": "Der ODI Trainer Ben Cave erläutert wie Unternehmen und Regierungen das Potenzial der offenen Daten nutzen und erklärt den positiven Einfluss, die die offenem Daten auf die Wirtschaft, Gesellschaft und die Umwelt haben.",
+        "instruction": "Um Untertitel ein- und auszuschalten, klicken Sie auf die Schaltfläche 'cc' in der Videoleiste",
+        "_setCompletionOn":"ended",
+        "_source": "https://player.vimeo.com/video/129196639",
+        "_media": {
+        "mp4": "course/de/video/video.mp4",
+        "poster": "course/de/video/placeholder.jpg"
+    },
+        "_height": {
+            "_small" : 250,
+            "_medium" : 350,
+            "_large" : 508
+        }
+    },
+    {
+        "_id":"c-21",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Innovation und Wachstum für die Wirtschaft",
+            "title": "Innovation und Wachstum für die Wirtschaft",
+            "large": "course/de/images/odi-001-text-image_large.png",
+            "medium": "course/de/images/odi-001-text-image_large.png",
+            "small": "course/de/images/odi-001-text-image_large.png",
+            "*source":"http://www.shutterstock.com/pic-230887714.html",
+            "*credit":"Bloomua",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-22",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Innovation und Wachstum für die Wirtschaft",
+        "displayTitle":"Innovation und Wachstum für Unternehmen",
+        "body":"<p>Offene Daten unterstützen Innovation und Wachstum, indem sie Geschäftsmöglichkeiten für Unternehmen – groß oder klein – offenlegen, um neue Dienste zu entwickeln, Einsparpotenziale zu identifizieren und Prozesse zu optimieren.</p><p class='not-dlab'>In Paris nutzen Café-Betreiber offene Daten, um Touristen zu den  <a href='https://web.archive.org/web/20150515035949/http://www.paris.fr/accueil/paris-mag/ou-boire-un-cafe-pour-1-a-paris/rub_9683_actu_116311_port_23863' target='_blank'>güngstigen Cafés in der Stadt zu locken</a>, während in Island offene Daten von Bauern genutzt werden, <a href='http://weblog.linkingpaths.com/post/78767700473/icelandic-open-data-lambs-and-maps' target='_blank'>um über die Qualität ihrer Lämmer zu informieren</a> und dadurch neue Kunden anzulocken.</p><p>Offene Daten können Innovation fördern, indem sie die Hindernisse zum Datenzugang und zur Datenverbreitung beseitigen.</p><p>Datenkompetenz ist eine der wichtigen Fähigkeiten für Unternehmen, die das Potenzial von offenen Daten zu Wertschöpfung und Optimierungen im Betrieb erschließen möchten.</p>"
+    },
+     {
+        "_id": "c-25",
+        "_parentId": "b-25",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Neue Möglichkeiten für die Verwaltung",
+        "displayTitle": "Neue Möglichkeiten für die Verwaltung",
+        "body": "Der öffentliche Sektor profitiert auf verschiedene Weise von Open Data Initiativen.",
+        "instruction": "<em class='desktop-instruction'>Klicken Sie auf den Vorwärtspfeil um mehr zu erfahren.</em><em class='mobile-instruction'>Klicken Sie auf das '+' Symbol um mehr zu erfahren. Klicken Sie rechts auf das Bild, um mehr zu sehen.</em>",
+        "_items": [
+            {
+                "title": "Die Wirtschaft fördern",
+                "body": "<p>Um neue datengetriebene Geschäftsmodelle entstehen zu lassen und zu fördern sowie Bestehende weiterzuentwickeln, sollten Verwaltungen wichtige Datensätze bereitstellen.</p><p>Regierungen sollte auch Dateninfrastrukturen unterstützen, die diese Daten mit ihren potenziellen Nutzern in Verbindung bringen.</p><p class='not-dlab'>Im Gegenzug profitieren Regierungen von einer wachsenden Datenwirtschaft. In Finnland zum Beipiel sind die KMUs, die Zugang zu offenen Daten haben, 15% schneller gewachsen als KMUs, die keinen Zugang zu offenen Daten hatten</p><p class='not-dlab'><a href='https://web.archive.org/web/20140531085827/http://www.epsiplatform.eu/content/finnish-study-psi-pricing-geo-data' target='_blank'>Hier geht’s zum finnischen Beispiel</a></p>",
+                "_graphic": {
+                    "src": "course/de/images/odi-002-narrative_large.jpg",
+                    "alt": "Supporting Growing Economies",
+                    "title": "Supporting Growing Economies",
+                    "*source":"http://www.shutterstock.com/pic-128352227.html",
+                    "*credit":"vs148",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Supporting Growing Economies"
+            },
+            {
+                "title": "Dienstleistungen besser erbringen",
+                "body": "<p>Regierungen müssen global auf die wachsenden Bevölkerungszahlen reagieren sowie die Bedürfnisse nach individualisierten Lösungen eauf der lokalen Ebene rfüllen.</p><p>Detaillierte Open Data bereitzustellen ist maßgebend, um die Serviceerbringung auf lokaler Ebene zu verbessern.</p><p>Einige dieser neuen Services sind bereits verfügbar: <br /><a href='https://www.mysociety.org/' target='_blank'>Hier geht’s zum mySociety Beispiel</a> <br /><a class='not-dlab' href='http://kimittud.atlatszo.hu/' target='_blank'>Hier geht’s zum ‚Right to know‘ Portal aus Ungarn</a> <br /><a class='not-dlab' href='http://www.fiksgatami.no/' target='_blank'>Hier geht’s zum ‚Fix my Street‘ Beispiel aus Norwegen</a></p>",
+                "_graphic": {
+                    "src": "course/de/images/odi-003-narrative_large.jpg",
+                    "alt": "Dienstleistungen besser erbringen",
+                    "title": "Dienstleistungen besser erbringen",
+                    "*source":"https://www.fixmystreet.com/",
+                    "*credit":"fixmystreet",
+                    "*license":"unknown"
+                },
+                "strapline": "Dienstleistungen besser erbringen"
+            },
+            {
+                "title": "Kosten sparen",
+                "body": "<p>Offene Daten ermöglichen Regierungen, Kosten in Bereichen wie Gesundheit, Bildung oder Energie zu sparen.</p><p>In Großbritannien trugen offene Daten dazu bei, Einsparungen von <a href='https://theodi.org/news/prescription-savings-worth-millions-identified-odi-incubated-company' target='_blank'>200 Millionen Pfund im Gesundheitswesen zu ermöglichen</a>.</p><p>In Frankreichen werden offene Daten im Energiesektor genutzt, um effizientere Energieerzeugungsverfahren zu entwickeln.<br /><a href='https://www.quandl.com/collections/france/france-energy-data' target='_blank'>Hier geht's zum französischen Open Data Beispiel</a></p><p>Offene Daten können auch die Transparenz im öffentlichen Etat erhöhen. In der Schweiz präsentierte der Kanton Bern seine jährliche Ersparnis in Höhe von <a href='http://be-asp.budget.opendata.ch/' target='_blank' class='not-dlab'>400 Millionen Euro</a>, die mit Hilfe von offenen Daten, ermöglicht wurde.</p>",
+                "_graphic": {
+                    "src": "course/de/images/odi-004-narrative_large.jpg",
+                    "alt": "Cost Savings",
+                    "title": "Cost Savings",
+                    "*source":"http://www.shutterstock.com/pic-75494491.html",
+                    "*credit":"vlastas",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Cost Savings"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-30",
+        "_parentId":"b-28",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Gesellschaftlicher und politischer Wandel",
+            "title": "Gesellschaftlicher und politischer Wandel",
+            "large": "course/de/images/odi-005_accordian_large.jpg",
+            "medium": "course/de/images/odi-005_accordian_large.jpg",
+            "small": "course/de/images/odi-005_accordian_large.jpg",
+            "*source":"http://www.shutterstock.com/pic-234353791.html",
+            "*credit":"tai11",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+      "_id":"c-35",
+      "_parentId":"b-28",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"left",
+      "title": "Gesellschaftlicher und politischer Wandel",
+      "displayTitle": "Gesellschaftlicher und politischer Wandel",
+      "body": "<p>Offene Daten öffnen Wege um gesellschaftliche Mehrwerte zu schaffen sowie zielgerichtete Politiken zu gestalten.</p>",
+      "instruction": "Klicken Sie auf die jeweiligen Überschriften, um mehr zu erfahren.",
+      "_items": [
+        {
+          "alt": "Die Mobilität verbessern",
+          "title": "Die Mobilität verbessern",
+          "body": "<p>Offene Daten können unsere Art zu reisen revolutionieren.</p><p class='not-dlab'>In der niederländischen Transportbranche helfen offene Daten einer wachsenden Zahl kleiner Unternehmen, neue Services zu entwickeln.</p><p class='not-tz not-dlab not-default'><a href='http://www.europeandataportal.eu/sites/default/files/use_case_france_-_tranquilien_v1.pdf' target='_blank'>Die französische App Tranquilien</a> verbessert den Fahrgastkomfort in den Verkehrsmitteln und fördert die effiziente Nutzung öffentlicher Verkehrsmittel, indem relevante Informationen über leere Sitzplätze und Abfahrtzeiten bereitgestellt werden.</p><p class='not-dlab'>Eine neue Open Data Anwendung in den Niederlanden, die zu den Gewinnern des angesehenen Apps4Europe-Wettbewerb zählt, hilft Menschen mit Behinderung, Reiseunterstützung für ihre Reisen zu buchen<p>Offene Transportdaten helfen Pendlern dabei, Zeit zu sparen, die Reise zugänglicher zu machen und helfen Touristen sich in unbekannten Städten zu Recht zu finden.</p>"
+        },
+        {
+          "alt": "Die Arbeitsweise verbessern",
+          "title": "Die Arbeitsweise verbessern",
+          "body": "<p>Offene Daten verändern unsere Arbeitsweise.</p><p>Offene Daten reduzieren die Zeit, die wir für die Suche nach Informationen benötigt wird, und ermöglichen es den Fachleuten, mehr Zeit für die wichtigeren Aufgaben zu haben.</p><p>OpenCorporates bietet eine offene Datenbank von Unternehmen auf der ganzen Welt, die Informationen über ihre Netzwerke, finanzielle Lage und ihren ökologischen Fußabdruck zur Verfügung stellt. Dies hilft Organisationen, mehr über potenzielle Kunden, Diesntleister und Geschäftspartner zu erfahren.<br /><a href='https://opencorporates.com/info/about' target='_blank'>Hier geht’s zum OpenCorporates Beispiel</a></p><p class='not-tz not-dlab not-default'><a href='http://www.europeandataportal.eu/sites/default/files/use_case_finland_-_kannattaako_kaupp.pdf' target='_blank'>Der finnische Kannattaako-Kauppa-Service</a> bietet Einblicke in die  Preisentwicklung von Immobilien und erleichtert den Vergleich von Häusern und Stadtteilen nach Preisen und Einwohnerzahlen.</p>"
+        },
+        {
+          "alt": "Das Regierunghandeln verbessern",
+          "title": "Das Regierunghandeln verbessern",
+          "body": "<p>Offene Daten werden zur wichtigen Informationsquelle für Regierungen im politischen Entscheidungsprozess.</p><p class='not-tz not-dlab not-default'>Die öffentliche Verwaltung ist bei weitem der Sektor, der am meisten von der Öffnung seiner eigenen Daten profitieren wird, mit einem geschätzten Wert von 22 Mrd. <a href='http://www.europeandataportal.eu/sites/default/files/edp_creating_value_through_open_data_0.pdf' target='_blank'>EUR im Jahr 2020</a>. Dies bestätigt, dass der öffentliche Sektor der erste Nutzer seiner eigenen Daten ist. Für die Landwirtschaft und den Mediensektor sind die prognostizierten Vorteile mit jeweils 379 Mio. EUR geringer. Open Data hat in diesen Sektoren noch viel Potenzial, diese Sektoren werden jedoch länger brauchen, um das volle Potenzial von offenen Daten zu erschließen. Open Data still has a lot of potential in these sectors but will take more time to reach the full potential.</p><p>Offene Daten machen auch die Gestaltung der öffentlichen Politik transparenter und unterstützen den Dialog zwischen Regierung und Bürgern.</p><p>Offene Daten zu wichtigen Themen wie Einwanderung, Handel und Haushaltskürzungen können als Informationsquelle für wichtige politische Entscheidungen dienen.</p><p class='not-tz not-dlab not-default'><a href='www.kurgyvenue.lt' target='_blank'>Where do I live</a> ist eine litauische Anwendung, die Bürgern Informationen über ihre Nachbarschaft liefert, wie z.B. Zahlen über den  Luftverschmutzungspegel, Lärm, die Kriminalität, Wohnungspreise, Schulen, Kindergärten, durchschnittliche Wohn- und Nebenkosten.</p><p>Eine Analyse der offenen Daten rund um die Schließung von Feuerwachen in London hat beispielsweise gezeigt, welche Stationen geschlossen werden könnten, ohne große Auswirkungen auf den Feuerwehrdienst in der Stadt zu haben.</p><p><a href='http://london-fire.labs.theodi.org/' target='_blank'>Hier geht’s zur Londoner Feuerwache Analyse</a></p>"
+        }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+     {
+        "_id": "c-40",
+        "_parentId": "b-30",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Mehrwerte für den Kultur- und Umweltbereich",
+        "displayTitle": "Mehrwerte für den Kultur- und Umweltbereich",
+        "body": "Offene Daten helfen Leuten dabei, Initiativen auf kulturelle und ökologische Vorteile auszurichten.",
+        "instruction": "<em class='desktop-instruction'>Klicken Sie auf den Vorwärtspfeil um mehr zu erfahren.</em><em class='mobile-instruction'>Klicken Sie auf das '+' Symbol um mehr zu erfahren. Klicken Sie rechts auf das Bild, um mehr zu sehen.</em>",
+        "_items": [
+            {
+                "title": "Umwelt",
+                "body": "<p>Offene Daten helfen Landwirte, ihre Erträge zu erhöhen und die Ernährung für die wachsende Bevölkerung sichern zu helfen , ohne dass wertvolle Lebensräume für Tiere und Pflanzen zerstört werden.</p><p>Plantwise sammelt offene Daten, um Landwirten wertvolle Informationen über Pflanzengesundheit und Krankheiten zur Verfügung zu stellen.<br /><a href='https://www.plantwise.org/' target='_blank'>Hier geht’s zum Plantwise Beispiel</a></p><p>CIARD hat weltweit eine zentrale Datenbank von mehr als 1.500 offenen landwirtschaftlichen Forschungssammlungen erstellt, die neue Forschungsmöglichkeiten aufzeigt<br /><a href='http://www.ciard.net/' target='_blank'>Hier geht’s zum CIARD Beispiel</a></p>",
+                "_graphic": {
+                    "src": "course/de/images/odi-006-narrative_large.jpg",
+                    "alt": "Umwelt",
+                    "title": "Umwelt",
+                    "*source":"http://www.shutterstock.com/pic-94664593.html",
+                    "*credit":"Madlen",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Umwelt"
+            },
+            {
+                "title": "Leben retten",
+                "body": "<p>Offene Daten helfen Leben zu retten Open geographic data and aid statistics are being used by humanitarian groups to deliver targeted supplies in disaster zones.</p><p>Offene Mapping-Daten halfen den Katastropheneinsatzteams bei der Hilfeleistung während des Erdbebens 2010 in Haiti.<br /><a href='http://hotosm.org/projects/haiti-2' target='_blank'>Hier geht’s zum ‚Haiti Open Street Map‘ Beispiel</a></p><p>Offene Daten wurden auch im Rahmen der Hilfsaktionen auf den Taifun auf den Philippinen im Jahr 2014 verwendet.</p><p class='not-eu'>Open data is also being used to track the Ebola virus outbreak in West Africa in 2015.<br /><a href='https://web.archive.org/web/20160123072141/http://www.eboladata.org/' target='_blank'>Show me the Ebola open data jam.</a></p>",
+                "_graphic": {
+                    "src": "course/de/images/odi-007-narrative_large.jpg",
+                    "alt": "Leben retten",
+                    "title": "Leben retten",
+                    "*source":"http://www.itoworld.com/static/ted_video.html",
+                    "*credit":"Ito World Ltd.",
+                    "*license":"Creative Commons Attribution ShareAlike"
+                },
+                "strapline": "Leben retten"
+            },
+            {
+                "title": "Kultur",
+                "body": "<p>Offene Daten verbinden Menschen mit wichtigen kulturellen Themen und tragen dazu bei, eine sachkundigere Debatte um diese Themen zu ermöglichen.</p><p>OpenGLAM hilft dabei, das Erbe und die kulturellen Erinnerungen von Gruppen in Deutschland, der Schweiz und Finnland zu erfassen.<br /><a href='http://openglam.org/' target='blank'>Hier geht’s zum OpenGLAM Beispiel</a></p><p>Das Open Data Institute führt ein globales Programm 'Data as Culture', bei dem Künstler die verschiedenen Wahrnehmungen der Daten untersuchen.<br /><a href='http://theodi.org/culture' target='_blank'>Hier geht’s zum ODI Program ‘Data as Kultur’</a></p>",
+                "_graphic": {
+                    "src": "course/de/images/odi-008-narrative_large.jpg",
+                    "alt": "Kultur",
+                    "title": "Kultur",
+                    "*source":"https://www.flickr.com/photos/ukodi/13400679614/in/album-72157642859056285/",
+                    "*credit":"Open Data Institute",
+                    "*license":"Creative Commons Attribution ShareAlike"
+                },
+                "strapline": "Kultur"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    }, 
+    {
+        "_id": "c-31",
+        "_parentId": "b-31",
+        "_classes": "not-eu",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Education, Healthcare and Nutrition",
+        "displayTitle": "Education, Healthcare and Nutrition",
+        "body": "",
+        "instruction": "<em class='desktop-instruction'>Click the forward arrow for more.</em><em class='mobile-instruction'>Klicken Sie auf das '+' Symbol um mehr zu erfahren. Klicken Sie rechts auf das Bild, um mehr zu sehen.</em>",
+        "_items": [
+            {
+                "title": "Education",
+                "body": "<p>In Burkino Faso the Our Schools Our Data portal has been developed to improve citizensâ€™ access to information about schools, as well as helping government better engage and empower local communities.</p><p>In Tanzania, the <a href='http://www.shule.info/' target='_blank'>shule.info</a> portal kickstarted the publication of school results in Tanzania. The portal provides information regarding school results and allows citizens to compare schools to help inform them about the best opportunities for education in their region. More recent results have been published by the National Examinations Council of Tanzania on their own <a href='http://www.necta.go.tz/brn2015/' target='_blank'>school ranking portal</a>.</p>",
+                "_graphic": {
+                    "src": "course/de/images/c-31a.jpg",
+                    "alt": "School supplies",
+                    "title": "School supplies",
+                    "*source":"https://www.flickr.com/photos/infomastern/9671353179",
+                    "*credit":"Nick Amoscato",
+                    "*license":"CC-BY 2.0"
+                },
+                "strapline": "Education"
+            },
+            {
+                "title": "Heathcare",
+                "body": "<p>In South Africa, the <a href='https://mpr.code4sa.org/' target='_blank'>Medicine price portal</a> provides services to help citizens afford the right medicines. It uses open data not only to provide price information, but also offers information on alternative cheaper generic alternatives to the expensive brand names.</p><p>In <a href='http://health.saharareporters.com/' target='_blank'>Nigeria</a> and <a href='http://health.the-star.co.ke/' target='_blank'>Kenya</a>, this service from <a href='https://codeforafrica.org/' target='_blank'>Code for Africa</a> has been expanded even further. Here open data is used to provide citizens the ability to check a doctors registered status, find the nearest specialist as well as check if they are covered for national health care services.</p>",
+                "_graphic": {
+                    "src": "course/de/images/c-31b.jpg",
+                    "alt": "Antacid",
+                    "title": "Antacid",
+                    "*source":"https://www.flickr.com/photos/treasureice/16459056781",
+                    "*credit":"Treasure",
+                    "*license":"CC-BY 2.0"
+                },
+                "strapline": "Heathcare"
+            },
+            {
+                "title": "Nutrition",
+                "body": "<p>Access to fresh water is one of the most important things in life. The <a href='http://www.tanzaniawaterproject.org/what-we-are-doing/where-we-are-working/' target='_blank'>Tanzania Water Project website</a> provides locations of new and proposed well sites to give people access to fresh water.</p><p>For farmers in Tanzania, <a href='http://www.agrimark.co.tz/' target='_blank'>Agrimark</a> connects farmers with the market for their crops. For farmers in Tanzania, often located in rural areas, finding suppliers for crops can be a difficult process. Likewise for hotels, restaurants and other businesses, finding food at the best price is challenging. Agrimark solves both challenges by creating an open marketplace for buyers and sellers of produce.</p>",
+                "_graphic": {
+                    "src": "course/de/images/c-31c.jpg",
+                    "alt": "Reaching for the sky",
+                    "title": "Reaching for the sky",
+                    "*source":"https://www.flickr.com/photos/infomastern/9671353179",
+                    "*credit":"Susanne Nilsson",
+                    "*license":"CC-BY-SA 2.0"
+                },
+                "strapline": "Nutrition"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-42",
+        "_parentId":"b-33",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/de/images/burst.png",
+            "medium": "course/de/images/burst.png",
+            "small": "course/de/images/burst.png"
+        }
+    },
+    {
+        "_id":"c-43",
+        "_parentId":"b-33",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Sind Sie bereit, den Mehrwert offener Daten zu erschließen?",
+        "displayTitle":"Sind Sie bereit, den Mehrwert offener Daten zu erschließen?",
+        "body":"<p>Es gibt viele wertvolle Beispiele von Open Data Initiativen, die soziale, wirtschaftliche und ökologische Vorteile erbringen. Sind Sie bereit, sich der Open Data Bewegung anzuschließen?</p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-45",
+        "_parentId":"b-35",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Sind Sie bereit, den Mehrwert offener Daten zu erschließen?",
+            "title": "",
+            "large": "course/de/images/odi-009-mcq_large.png",
+            "medium": "course/de/images/odi-009-mcq_large.png",
+            "small": "course/de/images/odi-009-mcq_large.png",
+            "*source":"http://www.shutterstock.com/pic-230887714.html",
+            "*credit":"Bloomua",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-50",
+        "_parentId":"b-35",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"588a0892b61c46e176e7e8e9",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Innovation und Wachstum für die Wirtschaft",
+        "displayTitle": "Innovation und Wachstum für die Wirtschaft",
+        "body": "<p>Offene Daten fördern Innovation und Wachstum im privaten Sektor indem sie...</p>",
+        "instruction": "<em>Wählen Sie Ihre Antwort und klicken Sie dann auf 'Absenden'</em>",
+        "_items": [
+            {
+                "text": "Im Internet zur Verfügung gestellt werden",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Möglichkeiten aufzeigen, um neue Dienste zu entwickeln und bestehende Dienste zu verbessern",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "Innovative Köpfe motivieren, Verwaltungsdaten zu verwenden",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Das ist richtig!</h5><p>Datenkompetenz ist eine der wichtigen Fähigkeiten für Unternehmen, die das Potenzial von offenen Daten zu Wertschöpfung und Optimierungen im Betrieb erschließen möchten.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Sind Sie sicher?</h5><p>Datenkompetenz ist eine der wichtigen Fähigkeiten für Unternehmen, die das Potenzial von offenen Daten zu Wertschöpfung und Optimierungen im Betrieb erschließen möchten.</p>",
+                "final": "<h5>Sind Sie sicher?</h5><p>Datenkompetenz ist eine der wichtigen Fähigkeiten für Unternehmen, die das Potenzial von offenen Daten zu Wertschöpfung und Optimierungen im Betrieb erschließen möchten.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-55",
+        "_parentId":"b-40",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Innovation und Wachstum für die Wirtschaft",
+            "title": "",
+            "large": "course/de/images/odi-010-mcq_large.jpg",
+            "medium": "course/de/images/odi-010-mcq_large.jpg",
+            "small": "course/de/images/odi-010-mcq_large.jpg",
+            "*source":"http://www.shutterstock.com/pic-128352227.html",
+            "*credit":"vs148",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-60",
+        "_parentId":"b-40",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"588a0bc3b61c46e176e7e8f1",
+        "_classes":"",
+        "_layout":"right",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Neue Möglichkeiten für die Verwaltung",
+        "displayTitle": "Neue Möglichkeiten für die Verwaltung",
+        "body": "<p>Das Bewusstsein um offene Daten ist kein Novum mehr, es ist jetzt</p>",
+        "instruction": "<em>Choose an answer, then click Submit</em>",
+        "_items": [
+            {
+                "text": "ein bisschen wichtiger als früher geworden",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "etwas, das mehr erforscht werden sollte",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "ein entscheidender Teil der modernen Dienstleistungserbringung",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Das ist richtig!</h5><p>A new generation of voters across the world have grown to expect a digitally literate and engaged public sector.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Sind Sie sicher?</h5><p>A new generation of voters across the world have grown to expect a digitally literate and engaged public sector.</p>",
+                "final": "<h5>Sind Sie sicher?</h5><p>A new generation of voters across the world have grown to expect a digitally literate and engaged public sector.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-65",
+        "_parentId":"b-45",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Veränderungen für die Gesellschaft und öffentliche Politik",
+            "title": "",
+            "large": "course/de/images/odi-011-mcq_large.jpg",
+            "medium": "course/de/images/odi-011-mcq_large.jpg",
+            "small": "course/de/images/odi-011-mcq_large.jpg",
+            "*source":"http://www.shutterstock.com/pic-234353791.html",
+            "*credit":"tai11",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-70",
+        "_parentId":"b-45",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"588a175eb61c46e176e7e901",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Veränderungen für die Gesellschaft und öffentliche Politik",
+        "displayTitle": "Veränderungen für die Gesellschaft und öffentliche Politik",
+        "body": "<p>Welchen Vorteil haben offene Transportdaten?</p>",
+        "instruction": "<em>Wählen Sie Ihre Antwort und klicken Sie dann auf 'Absenden'</em>",
+        "_items": [
+            {
+                "text": "Sie sparen Zeit und ermöglichen eine bessere Mobilität",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "Sie helfen dabei, dass Züge schneller fahren",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Sie tragen dazu bei, dass Tickets billiger werden",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Das ist richtig!</h5><p>Offene Daten helfen Pendlern dabei, Zeit zu sparen, Fahrten zugänglicher zu machen und den Zugang für Touristen zu erleichtern</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Sind Sie sicher?</h5><p>Offene Daten helfen Pendlern dabei, Zeit zu sparen, Fahrten zugänglicher zu machen und den Zugang für Touristen zu erleichtern</p>",
+                "final": "<h5>Sind Sie sicher?</h5><p>Offene Daten helfen Pendlern dabei, Zeit zu sparen, Fahrten zugänglicher zu machen und den Zugang für Touristen zu erleichtern</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-75",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Kultur und Umwelt verändern",
+            "title": "",
+            "large": "course/de/images/odi-012-mcq_large.jpg",
+            "medium": "course/de/images/odi-012-mcq_large.jpg",
+            "small": "course/de/images/odi-012-mcq_large.jpg",
+            "*source":"http://www.itoworld.com/static/ted_video.html",
+            "*credit":"Ito World Ltd.",
+            "*license":"n/a"
+        }
+    },
+    {
+        "_id":"c-80",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"588a26d7b61c46e176e7e907",
+        "_classes":"",
+        "_layout":"right",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Kultur und Umwelt verändern",
+        "displayTitle": "Kultur und Umwelt verändern",
+        "body": "<p>Welche Art von offenen Daten wurden für die Katastrophenhilfe in Haiti und auf den Philippinen verwendet?</p>",
+        "instruction": "<em>Wählen Sie Ihre Antwort und klicken Sie dann auf 'Absenden'</em>",
+        "_items": [
+            {
+                "text": "Demographische Daten aus dem Zensus",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Offene Daten über die Gehälter der Menschen",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Offene Kartendaten und Hilfestatistiken",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Das ist richtig!</h5><p>Offene Daten helfen Leben zu retten Offene Geodaten und Statistiken über humanitäre Hilfe werden von humanitären Organisationen genutzt, um gezielt Hilfsgüter in Katastrophengebiete zu entsenden.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Sind Sie sicher?</h5><p>Offene Daten helfen Leben zu retten Offene Geodaten und Statistiken über humanitäre Hilfe werden von humanitären Organisationen genutzt, um gezielt Hilfsgüter in Katastrophengebiete zu entsenden.</p>",
+                "final": "<h5>Sind Sie sicher?</h5><p>Offene Daten helfen Leben zu retten Offene Geodaten und Statistiken über humanitäre Hilfe werden von humanitären Organisationen genutzt, um gezielt Hilfsgüter in Katastrophengebiete zu entsenden.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-85",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Summary icon clipboard",
+            "title": "Summary icon clipboard",
+            "large": "course/de/images/odi-footer.png",
+            "medium": "course/de/images/odi-footer.png",
+            "small": "course/de/images/odi-footer.png",
+            "*source":"http://www.shutterstock.com/pic-189810137.html",
+            "*credit":"Kritchanut",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-90",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Sind Sie bereit den Mehrwert von offenen Daten zu erschließen?",
+        "displayTitle":"Sind Sie bereit den Mehrwert von offenen Daten zu erschließen?",
+        "body":"<p>Offene Daten können dazu beitragen, die Wirtschaft anzukurbeln, die Gesellschaft zu verändern und die Umwelt zu schützen.</p><p>Offene Daten können Regierungen dabei helfen, ihre Wirtschaft anzukurbeln, die Diensterbringung zu verbessern und Kosten zu sparen.</p><p>Offene Daten können der Gesellschaft zugute kommen, indem sie uns helfen unsere Mobilitä und Arbeitsweise sowie das Regierungshandeln zu verbessern.</p><p>Offene Daten können helfen, Leben zu retten und uns dabei unterstützen, die Welt, in der wir leben, besser zu verstehen.</p><p>Bist du bereit dich zu engagieren? Im nächsten Modul schauen wir, wie man sich in einer Open Data Initiative engagieren kann.</p><p><a class='course_link' href='../module3/'>Nächstes Modul</a></p><p><a class='course_link' href='../'>Hauptmenü</a></p>",
+        "_pageLevelProgress": {
+          "_isEnabled": true
+        }
+    },
+    {
+       "_id":"c-95",
+       "_parentId":"b-55",
+       "_type":"component",
+       "_component":"text",
+       "_classes":"separator",
+       "_layout":"full"
+    },
+    {
+       "_id":"c-96",
+       "_parentId":"b-55",
+       "_type":"component",
+       "_component":"text",
+       "_classes": "attribution",
+       "body":"&copy; <a href='https://ec.europa.eu/commission/index_en' target='_blank'>European Commission</a>",
+       "_layout":"full"
+    },
+    {
+        "_id":"c-100",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"footer-logo",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Open data institute logo",
+            "title": "Open data institute logo",
+            "large": "course/de/images/logo-small.png",
+            "medium": "course/de/images/logo-small.png",
+            "small": "course/de/images/logo-small.png",
+            "*source":"http://theodi.org",
+            "*credit":"The Open Data Institute",
+            "*license":"All rights reserved"  
+        }
+    },
+    {
+        "_id":"c-104",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"attribution not-eu not-default",
+        "_layout":"right",
+        "body":"Content created by <a href='http://theodi.org' target='_blank'>The Open Data Institute</a>"
+    },
+    {
+        "_id":"c-105",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"social-buttons not-dlab",
+        "_layout":"right",
+        "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/de/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/de/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/de/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/de/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/de/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/de/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/de/images/social/flickr.png'></a>"
+    }
+]
