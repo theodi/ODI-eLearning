@@ -1,15 +1,15 @@
 [
     {
-        "_id": "c-02",
-        "_parentId": "b-01",
-        "_type": "component",
-        "_component": "graphic",
-        "_classes": "intro-logo",
-        "_layout": "right",
-        "title": "",
-        "displayTitle": "",
-        "body": "",
-        "instruction": "",
+        "_id":"c-02",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"intro-logo",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
         "_graphic": {
             "alt": "",
             "title": "",
@@ -22,49 +22,49 @@
         }
     },
     {
-        "_id": "c-01",
-        "_parentId": "b-01",
-        "_type": "component",
-        "_component": "text",
-        "_classes": "",
-        "_layout": "left",
-        "title": "Come pulire i tuoi dati",
-        "displayTitle": "Come pulire i tuoi dati",
-        "body": "<p>Una delle sfide più grandi, quando si lavora con qualsiasi tipo di dati, riguarda la gestione degli errori. Spesso gli errori non vengono nemmeno notati da chi pubblica i dati perché i dati cambiano nel corso degli anni. In altri casi, possono essere il risultato di errori umani commessi durante l'inserimento dei dati, come errori di battitura o abbreviazioni errate.</p><p>Quando si lavora con qualsiasi tipo di dati, è importante saper trovare gli errori e correggerli per rendere i dati più utili.</p><h5>In questo modulo vedremo quanto segue:</h5><ul class='ticks'><li>Common data errors</li><li>Utili strumenti per pulire i dati</li><li>Perché pulire i dati</li></ul>",
+        "_id":"c-01",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Come pulire i tuoi dati",
+        "displayTitle":"Come pulire i tuoi dati",
+        "body":"<p>Una delle sfide più grandi, quando si lavora con qualsiasi tipo di dati, riguarda la gestione degli errori. Spesso gli errori non vengono nemmeno notati da chi pubblica i dati perché i dati cambiano nel corso degli anni. In altri casi, possono essere il risultato di errori umani commessi durante l'inserimento dei dati, come errori di battitura o abbreviazioni errate.</p><p>Quando si lavora con qualsiasi tipo di dati, è importante saper trovare gli errori e correggerli per rendere i dati più utili.</p><h5>In questo modulo vedremo quanto segue:</h5><ul class='ticks'><li>Errori comuni nei dati</li><li>Strumenti utili per pulire i dati</li><li>Perché pulire i dati</li></ul>",
         "_pageLevelProgress": {
             "_isEnabled": true
         }
     },
     {
-        "_id": "c-11",
-        "_parentId": "b-10",
-        "_type": "component",
-        "_component": "iFrame-vimeo",
-        "_classes": "",
-        "_layout": "full",
-        "title": "Pulizia dei dati - in 2 minuti",
+        "_id":"c-11",
+        "_parentId":"b-10",
+        "_type":"component",
+        "_component":"iFrame-vimeo",
+        "_classes":"",
+        "_layout":"full",
+        "title":"Pulizia dei dati - in 2 minuti",
         "displayTitle": "Pulizia dei dati - in 2 minuti",
-        "body": "Il formatore di ODI, David Tarrant, spiega perché è importante pulire gli open data, come pulirli, quali strumenti ci sono per aiutare questa operazione.",
+        "body": "Il formatore di ODI, David Tarrant, spiega perché è importante pulire gli open data, come pulirli, quali strumenti sono disponibili per compiere questa operazione.",
         "instruction": "Per attivare e disattivare i sottotitoli, fai clic sul pulsante \"cc\" in basso a destra del video",
-        "_setCompletionOn": "ended",
+        "_setCompletionOn":"ended",
         "_source": "https://player.vimeo.com/video/129197207",
         "_media": {
-            "mp4": "course/it/video/video.mp4",
-            "poster": "course/it/video/placeholder.jpg"
-        },
+		"mp4": "course/it/video/video.mp4",
+		"poster": "course/it/video/placeholder.jpg"
+	},
         "_height": {
-            "_small": 250,
-            "_medium": 350,
-            "_large": 508
+            "_small" : 250,
+            "_medium" : 350,
+            "_large" : 508
         }
     },
-    {
-        "_id": "c-21",
-        "_parentId": "b-20",
-        "_type": "component",
-        "_component": "graphic",
-        "_classes": "",
-        "_layout": "left",
+       {
+        "_id":"c-21",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"left",
         "_graphic": {
             "alt": "What do we mean by clean data?",
             "title": "What do we mean by clean data?",
@@ -77,23 +77,23 @@
         }
     },
     {
-        "_id": "c-22",
-        "_parentId": "b-20",
-        "_type": "component",
-        "_component": "text",
-        "_classes": "inverted",
-        "_layout": "right",
-        "title": "Scoprire il valore: cosa intendiamo per dati puliti?",
-        "displayTitle": "Scoprire il valore: cosa intendiamo per dati puliti?",
-        "body": "<p>Sapere che i dati sono puliti è importante perché rappresenta un buon punto di partenza quando si vuole creare del valore aggiunto dall'uso dei dati.</p><p>I dati sono puliti quando sono uniformi, privi di duplicazioni e pronti per essere utilizzati da una macchina.</p><p>Se i dati sono puliti è più facile unirli ad altri set di dati e ottenere informazioni più approfondite.<p>"
-    },
-    {
-        "_id": "c-32",
-        "_parentId": "b-30",
-        "_type": "component",
-        "_component": "graphic",
-        "_classes": "",
-        "_layout": "right",
+        "_id":"c-22",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"inverted",
+        "_layout":"right",
+        "title":"Scoprire il valore: cosa intendiamo per dati puliti?",
+        "displayTitle":"Scoprire il valore: cosa intendiamo per dati puliti?",
+        "body":"<p>Sapere che i dati sono puliti è importante perché rappresenta un buon punto di partenza quando si vuole creare del valore aggiunto usando i dati.</p><p>I dati sono puliti quando sono uniformi, privi di duplicazioni e pronti per essere utilizzati da una macchina.</p><p>Se i dati sono puliti è più facile unirli ad altri dataset e ottenere informazioni più approfondite.<p>"
+        },
+     {
+        "_id":"c-32",
+        "_parentId":"b-30",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
         "_graphic": {
             "alt": "Errori comuni nei dati",
             "title": "Errori comuni nei dati",
@@ -106,72 +106,72 @@
         }
     },
     {
-        "_id": "c-31",
-        "_parentId": "b-30",
-        "_type": "component",
-        "_component": "accordion",
-        "_classes": "",
-        "_layout": "left",
-        "title": "Errori comuni nei dati",
-        "displayTitle": "Errori comuni nei dati",
-        "body": "Ci sono degli errori comuni nei dati che si dovrebbero controllare in ogni dataset con cui si lavora.",
-        "instruction": "<em>Fai clic sui titoli per esplorare ulteriormente.</em>",
-        "_items": [
-            {
-                "alt": "Wrong date formats",
-                "title": "Wrong date formats",
-                "body": "<p>Le date possono essere scritte in modo discordante. A volte i formati misti di date sono semplici da individuare:<br><br>8-sep-2013 vs 8/9/2013<br><br>altre volte sono meno evidenti:<br><br>8/9/2013 vs 9/8/2013.<br><br>Un'altra sfida riguarda alcune applicazioni, come Excel, che assegna alle date un formato \"sensato\" quando viene aperto un dataset, che potrebbe nascondere il modo in cui esse sono realmente scritte nel file.</p><p>L'errore più comune è l'uso misto di formati americani (MM/DD/YYYY) ed europei (DD/MM/YYYY).</p>"
-            },
-            {
-                "alt": "Rappresentazioni multiple",
-                "title": "Rappresentazioni multiple",
-                "body": "<p>Le persone spesso cercano di risparmiare tempo durante l'inserimento di dati abbreviando i termini. Se queste abbreviazioni non sono coerenti, possono introdurre errori nel dataset.</p><p>Possono essere causa di errore anche le differenze nell'uso delle lettere maiuscole, delle spaziature e del genere degli aggettivi.</p>"
-            },
-            {
-                "alt": "Record duplicati",
-                "title": "Record duplicati",
-                "body": "<p>Quando alcuni dati vengono inseriti più di una volta abbiamo delle duplicazione di record. I record duplicati si generano spesso quando si aggregano dataset diversi o perché chi inserisce il dato non sa che alcuni dati erano già  stati inseriti.</p>"
-            },
-            {
-                "alt": "Dati ridondanti",
-                "title": "Dati ridondanti",
-                "body": "<p>I dati ridondanti sono tutto ciò che non è rilevante per il tuo lavoro con un dataset. Spesso un dataset è stato creato per uno scopo specifico che richiede dettagli che per te potrebbero non essere necessari.</p><p>Esempi comuni di dati ridondanti sono le righe che riportano gli importi totali.</p><p>Altre volte colonne di dati sono state combinate o replicate per renderne più facile la lettura.</p>"
-            },
-            {
-                "alt": "Notazioni numeriche miste",
-                "title": "Notazioni numeriche miste",
-                "body": "<p>Per i valori numerici nei dataset si utilizzano spesso notazioni diverse per renderne più facile la lettura. Ad esempio, nei dati di bilancio le unità  sono spesso in milioni. 1.200.000 diventa spesso 1.2m. Mentre numeri più piccoli, come 800.000, rimangono scritti normalmente. Per una macchina, ciò significa leggere il numero più grande come 1.2 e questo provoca errori.</p>"
-            },
-            {
-                "alt": "Intervalli misti",
-                "title": "Intervalli misti",
-                "body": "<p>I dati vengono talvolta registrati in intervalli, come ad esempio la fascia d'età  o la fascia di reddito. Affinché una macchina capisca questi intervalli, è importante separare gli estremi di questi intervalli (inserendoli ad esempio in due colonne distinte).</p>"
-            },
-            {
-                "alt": "Errori di ortografia",
-                "title": "Errori di ortografia",
-                "body": "<p>Gli errori di ortografia sono spesso difficili da individuare nei dati tabulari.</p><p>Non dimenticare di eseguire un controllo ortografico automatico dei tuoi dati per correggere gli errori di ortografia.</p>"
-            }
-        ],
-        "_pageLevelProgress": {
-            "_isEnabled": true
+      "_id":"c-31",
+      "_parentId":"b-30",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"left",
+      "title": "Errori comuni nei dati",
+      "displayTitle": "Errori comuni nei dati",
+      "body": "Ci sono degli errori comuni nei dati che si dovrebbero controllare in ogni dataset con cui si lavora.",
+      "instruction": "<em>Fai clic sui titoli per esplorare ulteriormente.</em>",
+      "_items": [
+        {
+          "alt": "Formati errati",
+          "title": "Formati errati",
+          "body": "<p>Le date possono essere scritte in modo discordante. A volte i formati misti di date sono semplici da individuare:<br><br>8-sep-2013 vs 8/9/2013<br><br>altre volte sono meno evidenti:<br><br>8/9/2013 vs 9/8/2013.<br><br>Un'altra sfida riguarda alcune applicazioni, come Excel, che assegnano automaticamente alle date un formato \"sensato\" quando viene aperto un dataset, che potrebbe tenere nascosto il formato originario in cui sono scritte nel file.</p><p>L'errore più comune è l'uso misto di formati americani (MM/DD/YYYY) ed europei (DD/MM/YYYY).</p>"
+        },
+        {
+          "alt": "Rappresentazioni multiple",
+          "title": "Rappresentazioni multiple",
+          "body": "<p>Le persone spesso cercano di risparmiare tempo durante l'inserimento di dati abbreviando i termini. Se queste abbreviazioni non sono coerenti, possono introdurre errori nel dataset.</p><p>Possono essere causa di errore anche le differenze nell'uso delle lettere maiuscole, delle spaziature e del genere degli aggettivi.</p>"
+        },
+        {
+          "alt": "Record duplicati",
+          "title": "Record duplicati",
+          "body": "<p>Quando alcuni dati vengono inseriti più di una volta abbiamo delle duplicazioni di record. I record duplicati si generano spesso quando si aggregano dataset diversi o quando chi inserisce il dato non sa che alcuni dati erano già stati inseriti.</p>"
+        },
+        {
+          "alt": "Dati ridondanti",
+          "title": "Dati ridondanti",
+          "body": "<p>I dati ridondanti sono tutto ciò che non è rilevante per il tuo lavoro con un dataset. Spesso un dataset è stato creato per uno scopo specifico che richiede dettagli che per te potrebbero non essere necessari.</p><p>Esempi comuni di dati ridondanti sono le righe che riportano gli importi totali.</p><p>Altre volte colonne di dati sono state combinate o replicate per renderne più facile la lettura.</p>"
+        },
+        {
+          "alt": "Notazioni numeriche miste",
+          "title": "Notazioni numeriche miste",
+          "body": "<p>Per i valori numerici nei dataset si utilizzano spesso notazioni diverse per renderne più facile la lettura. Ad esempio, nei dati di bilancio le unità sono spesso i milioni. 1.200.000 diventa spesso 1.2m. Mentre numeri più piccoli, come 800.000, rimangono scritti normalmente. Per una macchina, ciò significa leggere il numero più grande come 1.2 e questo provoca errori.</p>"
+        },
+        {
+          "alt": "Intervalli misti",
+          "title": "Intervalli misti",
+          "body": "<p>I dati vengono talvolta registrati in intervalli, come ad esempio la fascia d'età o la fascia di reddito. Affinché una macchina capisca questi intervalli, è importante separare gli estremi di questi intervalli (inserendoli ad esempio in due colonne distinte).</p>"
+        },
+        {
+          "alt": "Errori di ortografia",
+          "title": "Errori di ortografia",
+          "body": "<p>Gli errori di ortografia sono spesso difficili da individuare nei dati tabulari.</p><p>Non dimenticare di eseguire un controllo ortografico automatico dei tuoi dati per correggere gli errori di ortografia.</p>"
         }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
     },
     {
         "_id": "c-41",
         "_parentId": "b-40",
         "_classes": "inverted",
-        "_type": "component",
+        "_type":"component",
         "_layout": "full",
         "_component": "narrative",
         "title": "Strumenti per la pulizia dei dati",
         "displayTitle": "Strumenti per la pulizia dei dati",
-        "body": "Se i dati non sono puliti, non possiamo derivarne informazioni. Ci sono diversi strumenti utili per aiutare il processo di pulizia dei dati.",
+        "body": "Se i dati non sono puliti, non possiamo derivarne informazioni. Ci sono diversi strumenti utili per semplificare il processo di pulizia dei dati.",
         "instruction": "<em>Fare clic sulla freccia avanti per vedere di più.</em>",
         "_items": [
             {
                 "title": "Strumenti per la pulizia dei dati",
-                "body": "<p>Per cercare errori nei dati, si possono scaricare e poi caricare in diversi strumenti per la pulizia e l'elaborazione.</p><p>E’ inoltre importante tenere nota delle modifiche apportate e condividerle apertamente con gli altri in modo che tutti possano beneficiare del tuo lavoro, sopratutto se i dati che stai pulendo sono dati aperti che sono stati pubblicati.</p><p>In questa sezione esaminiamo due di questi principali strumenti e il loro utilizzo:</h5><ul class='bullet'><li>Open Refine</li><li>Excel e fogli di calcolo simili</li></ul></p>",
+                "body": "<p>Per cercare errori nei dati, si possono utilizzare diversi strumenti per la pulizia e l'elaborazione.</p><p>E’ inoltre importante tenere nota delle modifiche apportate e condividerle apertamente con gli altri in modo che tutti possano beneficiare del tuo lavoro, sopratutto se i dati che stai pulendo sono dati aperti che sono stati pubblicati.</p><p>In questa sezione esaminiamo due di questi strumenti e spieghiamo come utilizzarli:</h5><ul class='bullet'><li>Open Refine</li><li>Excel e fogli di calcolo simili</li></ul></p>",
                 "_graphic": {
                     "src": "course/it/images/odi-003.jpg",
                     "alt": "A toolkit",
@@ -180,11 +180,11 @@
                     "*credit": "Kirill_M",
                     "*license": "Shutterstock standard license"
                 },
-                "strapline": "Strumenti per la pulizia dei dati"
+                "strapline": "The data cleaning toolkit"
             },
             {
                 "title": "Open Refine",
-                "body": "Open Refine è un software progettato per gestire dati da ripulire. Lo strumento è un browser organizzato in colonne che consente con un'unica azione di correggere gli errori in un intero dataset aperto. Gli errori che possono essere corretti includono:</h5><ul class='bullet'><li>Formati delle date</li><li>Rappresentazioni multiple</li><li>Record duplicati</li><li>Dati ridondanti</li><li>Notazioni numeriche miste</li><li>Intervalli misti</li></ul>",
+                "body": "Open Refine è un software progettato per gestire dati da ripulire. Lo strumento è un browser organizzato in colonne che consente con un'unica azione di correggere gli errori in un intero dataset. Gli errori che possono essere corretti includono:</h5><ul class='bullet'><li>Formati delle date</li><li>Rappresentazioni multiple</li><li>Record duplicati</li><li>Dati ridondanti</li><li>Notazioni numeriche miste</li><li>Intervalli misti</li></ul>",
                 "_graphic": {
                     "src": "course/it/images/odi-004.jpg",
                     "alt": "Open refine",
@@ -206,45 +206,45 @@
                     "*credit": "McIek",
                     "*license": "Shutterstock Standard License"
                 },
-                "strapline": "Fogli elettronici"
+                "strapline": "Wide reuse"
             }
         ],
         "_pageLevelProgress": {
-            "_isEnabled": true
+        "_isEnabled": true
         }
     },
-    {
+ {
         "_id": "c-51",
         "_parentId": "b-50",
         "_classes": "",
-        "_type": "component",
+        "_type":"component",
         "_layout": "full",
         "_component": "narrative",
-        "title": "Quali sono i vantaggi nel pulire i dati?",
-        "displayTitle": "Quali sono i vantaggi nel pulire i dati?",
+        "title": "Che vantaggi ci sono a pulire i dati?",
+        "displayTitle": "Che vantaggi ci sono a pulire i dati?",
         "body": "Oltre agli strumenti che possono essere usati per pulire i dati aperti, è importante comprendere i vantaggi della pulizia.",
         "instruction": "<em>Fare clic sulla freccia avanti per vedere di più.</em>",
         "_items": [
             {
-                "title": "Dare priorità  alla pulizia",
-                "body": "<p>Se i dati non sono puliti, le decisioni prese in base a questi dati potrebbero essere sbagliate. Ciò può influire sui prodotti o sulle informazioni che si sviluppano dai dati e, in alcuni casi, hanno un impatto su migliaia o addirittura milioni di persone. </p><p></p>",
+                "title": "Dare priorità alla pulizia",
+                "body": "<p>Se i dati non sono puliti, le decisioni prese in base a quei dati potrebbero essere sbagliate. Ciò può influire sui prodotti o sulle informazioni che si sviluppano dai dati e, in alcuni casi, avere un impatto su migliaia o addirittura milioni di persone. </p><p>Uno <a class='' href='http://www.ercim.eu/publication/ws-proceedings/12th-EDRG/EDRG12_JeDiRe.pdf' target='_blank'>studio recente</a> ha mostrato che, in un progetto, il processo di preparazione dei dati per l'analisi può occupare tra il 60% e l'80% del tempo.</p>",
                 "_graphic": {
                     "src": "course/it/images/odi-006.jpg",
-                    "alt": "Dare priorità  alla pulizia",
-                    "title": "Dare priorità  alla pulizia",
+                    "alt": "Dare priorità alla pulizia",
+                    "title": "Dare priorità alla pulizia",
                     "*source": "http://www.shutterstock.com/pic.mhtml?id=58591429&src=lb-36497927",
                     "*credit": "higyou",
                     "*license": "Shutterstock Standard License"
                 },
-                "strapline": "Dare priorità  alla pulizia"
+                "strapline": "Dare priorità alla pulizia"
             },
             {
                 "title": "Migliorare la fruibilità ",
-                "body": "<p>Condividere un dataset aperto pulito renderà  i dati più utilizzabili. Strumenti come Open Refine permettono di condividere la cronologia dei cambiamenti, consentendo alle persone di sapere cosa è stato pulito e come. Rendere questo processo aperto, come i dati, aumenta la sostenibilità  e la fiducia che un utente può riporre in un dataset.</p><p>Ci sono anche comunità  nascenti che si occupano di pulizia dei dati e che potrebbero essere supportate in modo più attivo, ad esempio le comunità  di OpenStreetMap.<br><br><a class='' href='http://wiki.openstreetmap.org/wiki/WikiProject_Denmark' target='_blank'>Portami a OSM Danimarca Community Wiki</a></p>",
+                "body": "<p>Condividere un dataset aperto pulito renderà i dati più utilizzabili. Strumenti come Open Refine permettono di condividere la cronologia dei cambiamenti, consentendo alle persone di sapere cosa è stato pulito e come. Rendere questo processo aperto, come i dati, aumenta la sostenibilità e la fiducia che un utente ripone in un dataset.</p><p>Stanno anche nascendo delle comunità che si occupano di pulizia dei dati e che potrebbero essere supportate in modo più attivo, come ad esempio le comunità di OpenStreetMap.<br><br><a class='' href='http://wiki.openstreetmap.org/wiki/WikiProject_Denmark' target='_blank'>Portami a OSM Danimarca Community Wiki</a></p>",
                 "_graphic": {
                     "src": "course/it/images/odi-007.jpg",
-                    "alt": "Dare priorità  alla pulizia",
-                    "title": "Dare priorità  alla pulizia",
+                    "alt": "Dare priorità alla pulizia",
+                    "title": "Dare priorità alla pulizia",
                     "*source": "http://www.shutterstock.com/pic-285210746",
                     "*credit": "Horoscope",
                     "*license": "Shutterstock Standard License"
@@ -266,20 +266,20 @@
             }
         ],
         "_pageLevelProgress": {
-            "_isEnabled": true
+        "_isEnabled": true
         }
     },
     {
-        "_id": "c-42",
-        "_parentId": "b-55",
-        "_type": "component",
-        "_component": "graphic",
-        "_classes": "",
-        "_layout": "right",
-        "title": "",
-        "displayTitle": "",
-        "body": "",
-        "instruction": "",
+        "_id":"c-42",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
         "_graphic": {
             "alt": "",
             "title": "",
@@ -289,27 +289,27 @@
         }
     },
     {
-        "_id": "c-43",
-        "_parentId": "b-55",
-        "_type": "component",
-        "_component": "text",
-        "_classes": "",
-        "_layout": "left",
-        "title": "Sei pronto a pulire i dati?",
-        "displayTitle": "Sei pronto a pulire i dati?",
-        "body": "<p>Ricordi i motivi per cui i dati devono essere puliti, gli strumenti validi da utilizzare e quali errori comuni dovresti cercare nei dataset?</p>",
-        "instruction": "",
+        "_id":"c-43",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Sei pronto a pulire i dati?",
+        "displayTitle":"Sei pronto a pulire i dati?",
+        "body":"<p>Ricordi i motivi per cui i dati devono essere puliti, gli strumenti validi da utilizzare e quali errori comuni dovresti cercare nei dataset?</p>",
+        "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
         }
     },
-    {
-        "_id": "c-61",
-        "_parentId": "b-60",
-        "_type": "component",
-        "_component": "graphic",
-        "_classes": "",
-        "_layout": "right",
+{
+        "_id":"c-61",
+        "_parentId":"b-60",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
         "_graphic": {
             "alt": "unclean data",
             "title": "unclean data",
@@ -322,17 +322,17 @@
         }
     },
     {
-        "_id": "c-62",
-        "_parentId": "b-60",
-        "_type": "component",
-        "_component": "mcq",
-        "_adapt2id": "58948132fda9f5660ad841d6",
-        "_classes": "",
-        "_layout": "left",
-        "_attempts": 1,
-        "_questionWeight": 1,
-        "_isRandom": true,
-        "_selectable": 1,
+        "_id":"c-62",
+        "_parentId":"b-60",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"58948132fda9f5660ad841d6",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
         "title": "Perché i dati devono essere puliti?",
         "displayTitle": "Perché i dati devono essere puliti?",
         "body": "<p>Gli open data non puliti sono un problema perché:</p>",
@@ -351,34 +351,34 @@
                 "_shouldBeSelected": true
             }
         ],
-        "_feedback": {
-            "correct": "<h5>Esatto!</h5><p>I dati non puliti sono un problema perché possono portare a conclusioni sbagliate. Ciò non dovrebbe impedire la pubblicazione o l'utilizzo dei dati, ma è comunque necessario pulire i dati.</p>",
+        "_feedback":{
+            "correct":"<h5>Esatto!</h5><p>I dati non puliti sono un problema perché possono portare a conclusioni sbagliate. Ciò non dovrebbe impedire la pubblicazione o l'utilizzo dei dati, ma è comunque necessario pulire i dati.</p>",
             "_incorrect": {
-                "notFinal": "<h5>Sei sicuro?? </h5><p>I dati non puliti sono un problema perché possono portare a conclusioni sbagliate. Ciò non dovrebbe impedire la pubblicazione o l'utilizzo dei dati, ma è comunque necessario pulire i dati.</p>",
-                "final": "<h5>Sei sicuro?? </h5><p>I dati non puliti sono un problema perché possono portare a conclusioni sbagliate. Ciò non dovrebbe impedire la pubblicazione o l'utilizzo dei dati, ma è comunque necessario pulire i dati.</p>"
+                "notFinal": "<h5>Sei sicuro? </h5><p>I dati non puliti sono un problema perché possono portare a conclusioni sbagliate. Ciò non dovrebbe impedire la pubblicazione o l'utilizzo dei dati, ma è comunque necessario pulire i dati.</p>",
+                "final": "<h5>Sei sicuro? </h5><p>I dati non puliti sono un problema perché possono portare a conclusioni sbagliate. Ciò non dovrebbe impedire la pubblicazione o l'utilizzo dei dati, ma è comunque necessario pulire i dati.</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "I dati non puliti sono un problema perché possono portare a conclusioni sbagliate. Ciò non dovrebbe impedire la pubblicazione o l'utilizzo dei dati, ma è comunque necessario pulire i dati.",
-                "final": "I dati non puliti sono un problema perché possono portare a conclusioni sbagliate. Ciò non dovrebbe impedire la pubblicazione o l'utilizzo dei dati, ma è comunque necessario pulire i dati."
-            }
+                "notFinal": "unclean data is a problem because it can result in the wrong conclusions being made. Ciò non dovrebbe impedire la pubblicazione o l'utilizzo dei dati, ma è comunque necessario pulire i dati.",
+                "final": "unclean data is a problem because it can result in the wrong conclusions being made. Ciò non dovrebbe impedire la pubblicazione o l'utilizzo dei dati, ma è comunque necessario pulire i dati."
+          }
         },
-        "_buttons": {
-            "submit": "",
-            "reset": "",
-            "showCorrectAnswer": "",
-            "hideCorrectAnswer": ""
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
         },
         "_pageLevelProgress": {
-            "_isEnabled": true
-        }
+        "_isEnabled": true
+      }
     },
     {
-        "_id": "c-71",
-        "_parentId": "b-70",
-        "_type": "component",
-        "_component": "graphic",
-        "_classes": "",
-        "_layout": "left",
+        "_id":"c-71",
+        "_parentId":"b-70",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"left",
         "_graphic": {
             "alt": "Useful tools",
             "title": "Useful tools",
@@ -391,20 +391,20 @@
         }
     },
     {
-        "_id": "c-72",
-        "_parentId": "b-70",
-        "_type": "component",
-        "_component": "mcq",
-        "_adapt2id": "589482a6fda9f5660ad841dc",
-        "_classes": "",
-        "_layout": "right",
-        "_attempts": 1,
-        "_questionWeight": 1,
-        "_isRandom": true,
-        "_selectable": 1,
+        "_id":"c-72",
+        "_parentId":"b-70",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"589482a6fda9f5660ad841dc",
+        "_classes":"",
+        "_layout":"right",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
         "title": "Quali sono gli strumenti più utili per la pulizia dei dati?",
         "displayTitle": "Quali sono gli strumenti più utili per la pulizia dei dati?",
-        "body": "<p>Which of these pairs of tools are the most useful for cleaning data?</p>",
+        "body": "<p>Quali sono gli strumenti più utili per la pulizia dei dati?</p>",
         "instruction": "<em>Scegli la tua risposta, quindi fai clic su \"Invia\"</em>",
         "_items": [
             {
@@ -420,34 +420,34 @@
                 "_shouldBeSelected": true
             }
         ],
-        "_feedback": {
-            "correct": "<h5>Esatto!</h5><p>Open Refine ed Excel (o editor di fogli di calcolo equivalenti) sono due degli strumenti più utili per la pulizia degli open data.</p>",
+        "_feedback":{
+            "correct":"<h5>Esatto!</h5><p>Open Refine ed Excel (o editor di fogli di calcolo equivalenti) sono due degli strumenti più utili per la pulizia degli open data.</p>",
             "_incorrect": {
-                "notFinal": "<h5>Sei sicuro??</h5><p>Open Refine ed Excel (o editor di fogli di calcolo equivalenti) sono due degli strumenti più utili per la pulizia degli open data.</p>",
-                "final": "<h5>Sei sicuro??</h5><p>Open Refine ed Excel (o editor di fogli di calcolo equivalenti) sono due degli strumenti più utili per la pulizia degli open data.</p>"
+                "notFinal": "<h5>Sei sicuro?</h5><p>Open Refine ed Excel (o editor di fogli di calcolo equivalenti) sono due degli strumenti più utili per la pulizia degli open data.</p>",
+                "final": "<h5>Sei sicuro?</h5><p>Open Refine ed Excel (o editor di fogli di calcolo equivalenti) sono due degli strumenti più utili per la pulizia degli open data.</p>"
             },
             "_partlyCorrect": {
                 "notFinal": "Open Refine ed Excel (o editor di fogli di calcolo equivalenti) sono due degli strumenti più utili per la pulizia degli open data.",
                 "final": "Open Refine ed Excel (o editor di fogli di calcolo equivalenti) sono due degli strumenti più utili per la pulizia degli open data."
-            }
+          }
         },
-        "_buttons": {
-            "submit": "",
-            "reset": "",
-            "showCorrectAnswer": "",
-            "hideCorrectAnswer": ""
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
         },
         "_pageLevelProgress": {
-            "_isEnabled": true
-        }
+        "_isEnabled": true
+      }
     },
     {
-        "_id": "c-81",
-        "_parentId": "b-80",
-        "_type": "component",
-        "_component": "graphic",
-        "_classes": "",
-        "_layout": "right",
+        "_id":"c-81",
+        "_parentId":"b-80",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
         "_graphic": {
             "alt": "A toolkit",
             "title": "",
@@ -460,21 +460,21 @@
         }
     },
     {
-        "_id": "c-82",
-        "_parentId": "b-80",
-        "_type": "component",
-        "_component": "mcq",
-        "_adapt2id": "589483b9fda9f5660ad841e0",
-        "_classes": "",
-        "_layout": "left",
-        "_attempts": 1,
-        "_questionWeight": 1,
-        "_isRandom": true,
-        "_selectable": 3,
+        "_id":"c-82",
+        "_parentId":"b-80",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"589483b9fda9f5660ad841e0",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":3,
         "title": "Riconoscere gli errori",
         "displayTitle": "Riconoscere gli errori",
-        "body": "<p>Quali dei seguenti sono errori nei dati che devono essere puliti?</p>",
-        "instruction": "<em>Choose three answers and click 'Submit'</em>",
+        "body": "<p>Quali tra i seguenti sono errori nei dati che devono essere puliti?</p>",
+        "instruction": "<em>Scegli tre risposte, quindi fai clic su \"Invia\"</em>",
         "_items": [
             {
                 "text": "Notazioni numeriche miste",
@@ -497,34 +497,34 @@
                 "_shouldBeSelected": true
             }
         ],
-        "_feedback": {
-            "correct": "<h5>Esatto!</h5><p>L'uso di notazioni numeriche miste, dati ridondanti e molteplici rappresentazioni degli stessi dati sono solo alcuni degli errori che devono essere risolti in dati non puliti. Il livello di dettaglio (granularità ) e la mancanza di licenza sono un problema, ma rappresentano criticità  che non sono correlate alla mancanza di pulizia dei dati</p>",
+        "_feedback":{
+            "correct":"<h5>Esatto!</h5><p>L'uso di notazioni numeriche miste, dati ridondanti e rappresentazioni ripetute degli stessi dati sono alcuni degli errori che devono essere corretti in un dataset da pulire. Il livello di dettaglio (granularità ) e la mancanza di licenza sono un problema, ma rappresentano criticità  che non sono correlate alla mancanza di pulizia dei dati</p>",
             "_incorrect": {
-                "notFinal": "<h5>Sei sicuro?? </h5><p>L'uso di notazioni numeriche miste, dati ridondanti e molteplici rappresentazioni degli stessi dati sono solo alcuni degli errori che devono essere risolti in dati non puliti. Il livello di dettaglio (granularità ) e la mancanza di licenza sono un problema, ma rappresentano criticità  che non sono correlate alla mancanza di pulizia dei dati</p>",
-                "final": "<h5>Sei sicuro?? </h5><p>L'uso di notazioni numeriche miste, dati ridondanti e molteplici rappresentazioni degli stessi dati sono solo alcuni degli errori che devono essere risolti in dati non puliti. Il livello di dettaglio (granularità ) e la mancanza di licenza sono un problema, ma rappresentano criticità  che non sono correlate alla mancanza di pulizia dei dati</p>"
+                "notFinal": "<h5>Sei sicuro? </h5><p>L'uso di notazioni numeriche miste, dati ridondanti e rappresentazioni ripetute degli stessi dati sono alcuni degli errori che devono essere corretti in un dataset da pulire. Il livello di dettaglio (granularità ) e la mancanza di licenza sono un problema, ma rappresentano criticità  che non sono correlate alla mancanza di pulizia dei dati</p>",
+                "final": "<h5>Sei sicuro? </h5><p>L'uso di notazioni numeriche miste, dati ridondanti e rappresentazioni ripetute degli stessi dati sono alcuni degli errori che devono essere corretti in un dataset da pulire. Il livello di dettaglio (granularità ) e la mancanza di licenza sono un problema, ma rappresentano criticità  che non sono correlate alla mancanza di pulizia dei dati</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "<h5>Sei sicuro?? </h5><p>L'uso di notazioni numeriche miste, dati ridondanti e molteplici rappresentazioni degli stessi dati sono solo alcuni degli errori che devono essere risolti in dati non puliti. Il livello di dettaglio (granularità ) e la mancanza di licenza sono un problema, ma rappresentano criticità  che non sono correlate alla mancanza di pulizia dei dati</p>",
-                "final": "<h5>Sei sicuro?? </h5><p>L'uso di notazioni numeriche miste, dati ridondanti e molteplici rappresentazioni degli stessi dati sono solo alcuni degli errori che devono essere risolti in dati non puliti. Il livello di dettaglio (granularità ) e la mancanza di licenza sono un problema, ma rappresentano criticità  che non sono correlate alla mancanza di pulizia dei dati</p>"
-            }
+                "notFinal": "<h5>Sei sicuro? </h5><p>L'uso di notazioni numeriche miste, dati ridondanti e rappresentazioni ripetute degli stessi dati sono alcuni degli errori che devono essere corretti in un dataset da pulire. Il livello di dettaglio (granularità ) e la mancanza di licenza sono un problema, ma rappresentano criticità  che non sono correlate alla mancanza di pulizia dei dati</p>",
+                "final": "<h5>Sei sicuro? </h5><p>L'uso di notazioni numeriche miste, dati ridondanti e rappresentazioni ripetute degli stessi dati sono alcuni degli errori che devono essere corretti in un dataset da pulire. Il livello di dettaglio (granularità ) e la mancanza di licenza sono un problema, ma rappresentano criticità  che non sono correlate alla mancanza di pulizia dei dati</p>"
+          }
         },
-        "_buttons": {
-            "submit": "",
-            "reset": "",
-            "showCorrectAnswer": "",
-            "hideCorrectAnswer": ""
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
         },
         "_pageLevelProgress": {
-            "_isEnabled": true
-        }
+        "_isEnabled": true
+      }
     },
     {
-        "_id": "c-91",
-        "_parentId": "b-90",
-        "_type": "component",
-        "_component": "graphic",
-        "_classes": "illustration",
-        "_layout": "left",
+        "_id":"c-91",
+        "_parentId":"b-90",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"left",
         "_graphic": {
             "alt": "Common errors is data",
             "title": "",
@@ -537,17 +537,17 @@
         }
     },
     {
-        "_id": "c-92",
-        "_parentId": "b-90",
-        "_type": "component",
-        "_component": "mcq",
-        "_adapt2id": "589484a1fda9f5660ad841e6",
-        "_classes": "",
-        "_layout": "right",
-        "_attempts": 1,
-        "_questionWeight": 1,
-        "_isRandom": true,
-        "_selectable": 1,
+        "_id":"c-92",
+        "_parentId":"b-90",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"589484a1fda9f5660ad841e6",
+        "_classes":"",
+        "_layout":"right",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
         "title": "Quanto tempo si impiega di solito per la pulizia e la preparazione dei dati?",
         "displayTitle": "Quanto tempo si impiega di solito per la pulizia e la preparazione dei dati?",
         "body": "<p>In un determinato progetto incentrato sui dati, quanto tempo può essere impiegato per la pulizia e la preparazione dei dati?</p>",
@@ -566,110 +566,111 @@
                 "_shouldBeSelected": true
             }
         ],
-        "_feedback": {
-            "correct": "<h5>Esatto!</h5><p>E' provato che tra il 60% e l'80% del tempo di un progetto verranno spesi per la pulizia, la trasformazione e la preparazione dei dati per l'analisi.</p>",
+        "_feedback":{
+            "correct":"<h5>Esatto!</h5><p>E' provato che tra il 60% e l'80% del tempo di un progetto verrà speso per la pulizia, la trasformazione e la preparazione dei dati per l'analisi.</p>",
             "_incorrect": {
-                "notFinal": "<h5>Sei sicuro?? </h5><p>E' provato che tra il 60% e l'80% del tempo di un progetto verranno spesi per la pulizia, la trasformazione e la preparazione dei dati per l'analisi.</p>",
-                "final": "<h5>Sei sicuro?? </h5><p>E' provato che tra il 60% e l'80% del tempo di un progetto verranno spesi per la pulizia, la trasformazione e la preparazione dei dati per l'analisi.</p>"
+                "notFinal": "<h5>Sei sicuro? </h5><p>E' provato che tra il 60% e l'80% del tempo di un progetto verrà speso per la pulizia, la trasformazione e la preparazione dei dati per l'analisi.</p>",
+                "final": "<h5>Sei sicuro? </h5><p>E' provato che tra il 60% e l'80% del tempo di un progetto verrà speso per la pulizia, la trasformazione e la preparazione dei dati per l'analisi.</p>"
             },
             "_partlyCorrect": {
                 "notFinal": "Evidence suggests that between 60% and 80% of a data projects time will be spent cleaning, transforming and preparing data for analysis.",
                 "final": "Evidence suggests that between 60% and 80% of a data projects time will be spent cleaning, transforming and preparing data for analysis."
-            }
+          }
         },
-        "_buttons": {
-            "submit": "",
-            "reset": "",
-            "showCorrectAnswer": "",
-            "hideCorrectAnswer": ""
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
         },
         "_pageLevelProgress": {
-            "_isEnabled": true
-        }
+        "_isEnabled": true
+      }
     },
-    {
-        "_id": "c-112",
-        "_parentId": "b-110",
-        "_type": "component",
-        "_component": "graphic",
-        "_classes": "",
-        "_layout": "right",
+{
+        "_id":"c-112",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
         "_graphic": {
             "alt": "Summary icon clipboard",
             "title": "Summary icon clipboard",
             "large": "course/it/images/summary-icon.png",
             "medium": "course/it/images/summary-icon.png",
             "small": "course/it/images/summary-icon.png",
-            "*source": "http://www.shutterstock.com/pic-189810137.html",
-            "*credit": "Kritchanut",
-            "*license": "Shutterstock Standard License"
+            "*source":"http://www.shutterstock.com/pic-189810137.html",
+            "*credit":"Kritchanut",
+            "*license":"Shutterstock Standard License"
         }
     },
     {
-        "_id": "c-111",
-        "_parentId": "b-110",
-        "_type": "component",
-        "_component": "text",
-        "_classes": "",
-        "_layout": "left",
-        "title": "Pulire i dati",
-        "displayTitle": "Pulire i dati",
-        "body": "<p>La pulizia dei dati è essenziale per garantire che l'utilizzo dei dati porti a conclusioni corrette.</p><p>Spesso gli errori non vengono nemmeno notati da chi pubblica i dati perché i dati cambiano nel corso degli anni. Gli errori possono essere il risultato di errori commessi durante l'inserimento dei dati, come errori di battitura o abbreviazioni errate.</p><p>Tieni presente che la pulizia può richiedere più tempo di quanto pensi. Un attento processo di pulizia, tuttavia, consente di risparmiare una considerevole quantità  di tempo nel lungo periodo.</p><p>Prova a fare il nostro esercizio di pulizia dei dati per iniziare ad usare Open Refine e scopri quanto è facile.</p><p><a class='course_link' href='http://training.theodi.org/resources/Cleaning_Exercise.pdf' target='_blank'>Kom igång med dataväxling i Open Refine</a></p><p><a class='course_link' href='../module12/'>Modulo successivo</a></p><p><a class='course_link' href='../'>Menù principale</a></p>",
+        "_id":"c-111",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Pulire i dati",
+        "displayTitle":"Pulire i dati",
+        "body":"<p>La pulizia dei dati è essenziale per garantire che l'utilizzo dei dati porti a conclusioni corrette.</p><p>Spesso gli errori non vengono nemmeno notati da chi pubblica i dati perché i dati cambiano nel corso degli anni. Gli errori possono essere commessi durante l'inserimento dei dati, come errori di battitura o abbreviazioni errate.</p><p>Tieni presente che la pulizia può richiedere più tempo di quanto pensi. Un attento processo di pulizia, tuttavia, consente di risparmiare una considerevole quantità di tempo nel lungo periodo.</p><p>Prova ad <a class='' href='http://training.theodi.org/resources/Cleaning_Exercise.pdf' target='_blank'>utilizzare</a> Open Refine seguendo il nostro esercizio di pulizia dei dati e scopri quanto è facile.</p><p><a class='course_link' href='../module12/'>Modulo successivo</a></p><p><a class='course_link' href='../'>Menù principale</a></p>",
         "_pageLevelProgress": {
-            "_isEnabled": true
+          "_isEnabled": true
         }
     },
     {
-        "_id": "c-113",
-        "_parentId": "b-110",
-        "_type": "component",
-        "_component": "text",
-        "_classes": "separator",
-        "_layout": "full"
+       "_id":"c-113",
+       "_parentId":"b-110",
+       "_type":"component",
+       "_component":"text",
+       "_classes":"separator",
+       "_layout":"full"
     },
     {
-        "_id": "c-1111",
-        "_parentId": "b-110",
-        "_type": "component",
-        "_component": "text",
-        "_classes": "attribution",
-        "body": "&copy; <a href='https://ec.europa.eu/commission/index_en' target='_blank'>European Commission</a>",
-        "_layout": "full"
+       "_id":"c-1111",
+       "_parentId":"b-110",
+       "_type":"component",
+       "_component":"text",
+       "_classes": "attribution",
+       "body":"&copy; <a href='https://ec.europa.eu/commission/index_en' target='_blank'>European Commission</a>",
+       "_layout":"full"
     },
-    {
-        "_id": "c-100",
-        "_parentId": "b-110",
-        "_type": "component",
-        "_component": "graphic",
-        "_classes": "footer-logo",
-        "_layout": "left",
+        {
+        "_id":"c-100",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"footer-logo",
+        "_layout":"left",
         "_graphic": {
             "alt": "Open data institute logo",
             "title": "Open data institute logo",
             "large": "course/it/images/logo-small.png",
             "medium": "course/it/images/logo-small.png",
             "small": "course/it/images/logo-small.png",
-            "*source": "http://theodi.org",
-            "*credit": "The Open Data Institute",
-            "*license": "All rights reserved"
+            "*source":"http://theodi.org",
+            "*credit":"The Open Data Institute",
+            "*license":"All rights reserved"  
         }
     },
     {
-        "_id": "c-104",
-        "_parentId": "b-110",
-        "_type": "component",
-        "_component": "text",
-        "_classes": "attribution not-eu not-default",
-        "_layout": "right",
-        "body": "Content created by <a href='http://theodi.org' target='_blank'>The Open Data Institute</a>"
+        "_id":"c-104",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"attribution not-eu not-default",
+        "_layout":"right",
+        "body":"Content created by <a href='http://theodi.org' target='_blank'>The Open Data Institute</a>"
     },
     {
-        "_id": "c-105",
-        "_parentId": "b-110",
-        "_type": "component",
-        "_component": "text",
-        "_classes": "social-buttons not-dlab",
-        "_layout": "right",
-        "body": "<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/it/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/it/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/it/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/it/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/it/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/it/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/it/images/social/flickr.png'></a>"
+        "_id":"c-105",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"social-buttons not-dlab",
+        "_layout":"right",
+        "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/it/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/it/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/it/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/it/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/it/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/it/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/it/images/social/flickr.png'></a>"
     }
 ]
+
