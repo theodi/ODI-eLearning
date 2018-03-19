@@ -1,71 +1,71 @@
 [
     {
-        "_id": "c-01",
-        "_parentId": "b-01",
-        "_type": "component",
-        "_component": "graphic",
-        "_classes": "intro-logo",
-        "_layout": "right",
-        "title": "",
-        "displayTitle": "",
-        "body": "",
-        "instruction": "",
+        "_id":"c-01",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"intro-logo",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
         "_graphic": {
             "alt": "",
             "title": "",
             "large": "",
             "medium": "",
             "small": "",
-            "*source": "",
-            "*credit": "",
-            "*license": ""
+            "*source":"",
+            "*credit":"",
+            "*license":""
         }
     },
     {
-        "_id": "c-02",
-        "_parentId": "b-01",
-        "_type": "component",
-        "_component": "text",
-        "_classes": "",
-        "_layout": "left",
-        "title": "Quanto sono utili i miei dati?",
-        "displayTitle": "Quanto sono utili i miei dati?",
-        "body": "<p>La valutazione dell'utilità  dei dati può variare a seconda dell'ambito e dell'argomento. Per favorire questo processo, ci sono buone pratiche che sia utenti che chi pubblica i dati può seguire.</p><p>In questo modulo esaminiamo il metodo delle 5 stelle degli open data e scopriremo come possano essere utilizzate per misurare la fruibilità  dei dati dal punto di vista tecnico.</p><h5>In questo modulo vedremo quanto segue:</h5><ul class='ticks'><li>Cosa sono le 5 stelle degli open data</li><li>Le prime 3 stelle</li><li>Come riconoscere le stelle nei dati</li></ul>",
-        "instruction": "",
+        "_id":"c-02",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Quanto utili sono i miei dati?",
+        "displayTitle":"Quanto utili sono i miei dati?",
+        "body":"<p>La valutazione dell'utilità dei dati può variare a seconda dell'ambito e dell'argomento. Per favorire la valutazione, si possono seguire delle buone pratiche consolidate, sia per chi pubblica che per chi utilizza i dati.</p><p>In questo modulo esamineremo il metodo delle 5 stelle degli open data e scopriremo come possa essere utilizzato per misurare la fruibilità dei dati dal punto di vista tecnico.</p><h5>In questo modulo vedremo quanto segue:</h5><ul class='ticks'><li>Cosa sono le 5 stelle degli open data</li><li>Le prime 3 stelle</li><li>Come riconoscere le stelle nei dati</li></ul>",
+        "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
         }
     },
     {
-        "_id": "c-11",
-        "_parentId": "b-10",
-        "_type": "component",
-        "_component": "iFrame-vimeo",
-        "_classes": "",
-        "_layout": "full",
-        "title": "Valutare la fruibilità  dei dati - in 2 minuti",
+        "_id":"c-11",
+        "_parentId":"b-10",
+        "_type":"component",
+        "_component":"iFrame-vimeo",
+        "_classes":"",
+        "_layout":"full",
+        "title":"Valutare la fruibilità  dei dati - in 2 minuti",
         "displayTitle": "Valutare la fruibilità  dei dati - in 2 minuti",
         "body": "Il formatore ODI, David Tarrant, presenta le 5 stelle degli open data come uno strumento di valutazione e ci aiuta a capire come e dove possono essere utilizzate.",
         "instruction": "Om du vill aktivera och avaktivera undertexter klickar du på knappen \"cc\" längst ned till höger om videoen",
-        "_setCompletionOn": "ended",
+        "_setCompletionOn":"ended",
         "_source": "https://player.vimeo.com/video/129197206",
         "_media": {
-            "mp4": "course/it/video/video.mp4",
-            "poster": "course/it/video/placeholder.jpg"
-        },
+		"mp4": "course/it/video/video.mp4",
+		"poster": "course/it/video/placeholder.jpg"
+	},
         "_height": {
-            "_small": 250,
-            "_medium": 350,
-            "_large": 508
+            "_small" : 250,
+            "_medium" : 350,
+            "_large" : 508
         }
     },
     {
-        "_id": "c-21",
-        "_parentId": "b-20",
-        "_type": "component",
-        "_component": "graphic",
-        "_classes": "",
-        "_layout": "left",
+        "_id":"c-21",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"left",
         "_graphic": {
             "alt": "5 Stars of open data",
             "title": "5 Stars of open data",
@@ -78,23 +78,23 @@
         }
     },
     {
-        "_id": "c-22",
-        "_parentId": "b-20",
-        "_type": "component",
-        "_component": "text",
-        "_classes": "",
-        "_layout": "right",
-        "title": "Le 5 stelle degli open data",
-        "displayTitle": "Le 5 stelle degli open data",
-        "body": "<p>Il modello delle 5 Stelle per gli open data è un modo per misurare se i dati sono ben integrati nel Web.</p><p>Il modello esamina l'accessibilità  e la fruibilità  tecnica di un dataset, partendo dall'essere disponibili online (1 stella) fino all'essere parte del web dei dati (5 stelle). Le stelle vengono conferite in ordine sequenziale, senza la possibilità  di saltarne alcuna.</p><p>Il modello è stato sviluppato da Sir Tim Berners-Lee nel 2001 ed è stato adottato in tutto il mondo da chi pubblica dati come guida di riferimento di molte iniziative legate agli open data; ad esempio l'Agenzia per l'Italia Digitale aggiunge un'etichetta (badge) informativa/valutativa a tutti i propri dataset.<br/><a href='http://spcdata.digitpa.gov.it/data.html' target='_blank'>Portami al sito dell'Agenzia per l'Italia Digitale</a></p><p>In questo modulo esaminiamo le prime 3 stelle, a cui si adattano dati di tipo tabulare e commerciali.</p>"
+        "_id":"c-22",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"right",
+        "title":"Le 5 stelle degli open data",
+        "displayTitle":"Le 5 stelle degli open data",
+        "body":"<p>Il modello delle 5 stelle per gli open data è un modo per valutare se i dati sono ben integrati nel Web.</p><p>Il modello esamina l'accessibilità e la fruibilità tecnica di un dataset, partendo dall'essere disponibili online (1 stella) fino all'essere parte del web dei dati (5 stelle). Le stelle vengono conferite in ordine sequenziale, senza la possibilità di saltarne alcuna.</p><p>Il modello è stato sviluppato da Sir Tim Berners-Lee nel 2001 ed è stato adottato in tutto il mondo da chi pubblica open data come guida di riferimento; ad esempio l'Agenzia per l'Italia Digitale aggiunge un'etichetta (badge) informativa/valutativa a tutti i propri dataset.<br/><a href='http://spcdata.digitpa.gov.it/data.html' target='_blank'>Portami al sito dell'Agenzia per l'Italia Digitale</a></span></p><p>In questo modulo esaminiamo le prime 3 stelle, a cui si adattano dati di tipo tabulare e commerciali. Vedremo le altre due stelle nel <a href='../module13/'>modulo 13</a>.</p>"
     },
     {
-        "_id": "c-30",
-        "_parentId": "b-30",
-        "_type": "component",
-        "_component": "graphic",
-        "_classes": "",
-        "_layout": "right",
+        "_id":"c-30",
+        "_parentId":"b-30",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
         "_graphic": {
             "alt": "Le prime 3 stelle",
             "title": "Le prime 3 stelle",
@@ -107,52 +107,52 @@
         }
     },
     {
-        "_id": "c-35",
-        "_parentId": "b-30",
-        "_type": "component",
-        "_component": "accordion",
-        "_classes": "",
-        "_layout": "left",
-        "title": "Le prime 3 stelle",
-        "displayTitle": "Le prime 3 stelle",
-        "body": "<p>Le prime 3 stelle degli open data consentono di stabilire se i dati disponibili sono utilizzabili.</p>",
-        "instruction": "<em>Fai clic sui titoli per esplorare ulteriormente.</em>",
-        "_items": [
-            {
-                "alt": "1 stella - Una licenza aperta",
-                "title": "1 stella - Una licenza aperta",
-                "body": "<p>La prima stella viene assegnata a tutti i dati che sono aperti ad un livello base. Il contenuto, in qualsiasi formato, deve essere disponibile con una licenza di tipo aperto.</p><p>Indipendentemente dalla qualità , un dataset non può avere i requisiti per la prima stella se non è disponibile con una licenza di tipo aperto.</p><p>Un file PDF, in un sito web, disponibile con una licenza di tipo aperto è sufficiente per guadagnare la prima stella.</p>"
-            },
-            {
-                "alt": "2 stelle - Formato adatto per il riuso",
-                "title": "2 stelle - Formato adatto per il riuso",
-                "body": "<p>La seconda stella viene assegnata a tutti i dati che consentono un semplice riutilizzo. I criteri di assegnazione indicano che i dati devono essere disponibili in un formato 'altamente riutilizzabile e strutturato' che può essere letto da una macchina e compreso da una persona.</p><p>La chiave per ottenere 2 stelle è quella di selezionare il formato più adatto al riuso. In alcuni casi il formato più adatto al riuso può essere un file non aperto o proprietario ad esempio un file Excel o Numbers.</p><p>Rendere disponibili i dati in qualsiasi formato è meglio di niente.</p>"
-            },
-            {
-                "alt": "3 stelle - Formato aperto",
-                "title": "3 stelle - Formato aperto",
-                "body": "<p>I criteri di assegnazione della terza stella degli open data si applicano quando i dati sono disponibili in un formato strutturato e leggibile da una macchina, non vincolato a nessun pacchetto software specifico.</p><p>Un esempio di un dataset che otterrebbe 3 stelle è un file CSV con un'appropriata licenza di tipo aperto.</p><p>Enel, società  italiana produttrice e distributrice di energia elettrica, fornisce un buon esempio di un dataset a 3 stelle con un etichetta (badge) relativa alla classificazione chiaramente visualizzata.<br /><a href='http://data.enel.com/node/4679' target='_blank'>Portami al dataset aperto a 3 stelle di Enel</a></p>"
-            }
-        ],
-        "_pageLevelProgress": {
-            "_isEnabled": true
+      "_id":"c-35",
+      "_parentId":"b-30",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"left",
+      "title": "Le prime 3 stelle",
+      "displayTitle": "Le prime 3 stelle",
+      "body": "<p>Le prime 3 stelle degli open data consentono di stabilire se i dati disponibili sono utilizzabili.</p>",
+      "instruction": "<em>Fai clic sui titoli per esplorare ulteriormente.</em>",
+      "_items": [
+        {
+          "alt": "1 stella - Una licenza aperta",
+          "title": "1 stella - Una licenza aperta",
+          "body": "<p>La prima stella viene assegnata a tutti i dati che sono aperti ad un livello base. Il contenuto, in qualsiasi formato, deve essere disponibile con una licenza di tipo aperto.</p><p>Indipendentemente dalla qualità, un dataset non può avere i requisiti per la prima stella se non è disponibile con una licenza di tipo aperto.</p><p>Un file PDF, in un sito web, disponibile con una licenza di tipo aperto è sufficiente per guadagnare la prima stella.</p>"
+        },
+        {
+          "alt": "2 stelle - Formato adatto per il riuso",
+          "title": "2 stelle - Formato adatto per il riuso",
+          "body": "<p>La seconda stella viene assegnata a tutti i dati che sono adatti per semplice riutilizzo. I criteri di assegnazione indicano che i dati devono essere disponibili in un formato \"altamente riutilizzabile e strutturato\" che può essere letto da una macchina e compreso da una persona.</p><p>La chiave per ottenere 2 stelle è quella di selezionare il formato più adatto al riuso. In alcuni casi il formato più adatto potrebbe essere non aperto o proprietario, ad esempio un file Excel o Numbers.</p><p>Rendere disponibili i dati in qualsiasi formato è meglio di niente.</p>"
+        },
+        {
+          "alt": "3 stars - Formato aperto",
+          "title": "3 stars - Formato aperto",
+          "body": "<p>I criteri di assegnazione della terza stella degli open data si applicano quando i dati sono disponibili in un formato strutturato e leggibile da una macchina, non vincolato a nessun pacchetto software specifico.</p><p>Un esempio di un dataset che otterrebbe 3 stelle è un file CSV con un'appropriata licenza di tipo aperto.</p><p>Enel, società italiana produttrice e distributrice di energia elettrica, fornisce un buon esempio di un dataset a 3 stelle con un etichetta (badge) chiaramente visualizzata che ne specifica la classificazione.<br /><a href='http://data.enel.com/node/4679' target='_blank'>Portami al dataset aperto a 3 stelle di Enel</a></p>"
         }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
     },
-    {
+   {
         "_id": "c-45",
         "_parentId": "b-40",
         "_classes": "",
-        "_type": "component",
+        "_type":"component",
         "_layout": "full",
         "_component": "narrative",
-        "title": "Liberare la fruibilità  degli open data",
-        "displayTitle": "Liberare la fruibilità  degli open data",
-        "body": "Ogni stella guadagnata rappresenta un miglioramento nella fruibilità  di un dataset. Puoi utilizzare i seguenti semplici controlli per valutare quante stelle possiede un dataset.",
+        "title": "Liberare la fruibilità degli open data",
+        "displayTitle": "Liberare la fruibilità degli open data",
+        "body": "Ogni stella guadagnata rappresenta un miglioramento nella fruibilità di un dataset. Puoi utilizzare i seguenti semplici controlli per valutare quante stelle possiede un dataset.",
         "instruction": "<em class='desktop-instruction'>Fare clic sulla freccia avanti per vedere di più.</em><em class='mobile-instruction'>Seleziona il segno \"+\" per esplorare ulteriormente, quindi scorri l'immagine per vedere di più.</em>",
         "_items": [
             {
                 "title": "Prima stella - Controllo della licenza",
-                "body": "<p>Trovare la licenza per un dataset aperto può essere uno dei passaggi più difficili.</p><p>Una licenza di tipo aperto è un'autorizzazione esplicita per permettere di utilizzare i dati sia per scopi commerciali che non commerciali.</p><ul class=ticks><li>La documentazione dei metadati relativi ai dati</li><li>Termini e condizioni della pagina web o del sito</li><li>Fai clic sul file di dati, potrebbe esserci un popup</li><li>Controlla all'interno del file di dati stesso</li></ol></p><p>I siti web forniscono informazioni sulle licenze in modi diversi, potrebbe essere necessario cercare un po' per trovarle. </p>",
+                "body": "<p>Trovare la licenza per un dataset aperto può essere uno dei passaggi più difficili.</p><p>Una licenza di tipo aperto è un'autorizzazione esplicita che consente di utilizzare i dati sia per scopi commerciali che non commerciali.</p><ul class=ticks><li>La documentazione dei metadati relativi ai dati</li><li>Termini e condizioni della pagina web o del sito</li><li>Fai clic sul file di dati, potrebbe esserci un popup</li><li>Controlla all'interno del file di dati stesso</li></ol></p><p>I siti web forniscono informazioni sulle licenze in modi diversi, potrebbe essere necessario cercare un po' per trovarle. </p>",
                 "_graphic": {
                     "src": "course/it/images/odi-003.jpg",
                     "alt": "Star 1 - Checking the license",
@@ -161,11 +161,11 @@
                     "*credit": "vs148",
                     "*licence": "Shutterstock open licence"
                 },
-                "strapline": "Prima stella - Controllo della licenza"
+                "strapline": "Providing certainty"
             },
             {
                 "title": "Seconda stella - Verifica della fruibilità ",
-                "body": "<p>Quando trovi open data sul Web ci sono diversi modi con cui valutare la loro fruibilità . Chiediti:<ul class='ticks'><li>Questo è il formato più user-friendly in cui questi dati potevano essere pubblicati?</li><li>Il file è lo stesso di quello utilizzato da chi l'ha pubblicato?</li><li>C'è qualche altra informazione che è stata aggiunta da qualcuno?</li></ul></p>",
+                "body": "<p>Quando trovi open data sul Web ci sono diversi modi con cui valutare la loro fruibilità . Chiediti:<ul class='ticks'><li>Questo è il formato più user-friendly in cui questi dati possono essere pubblicati?</li><li>Il file è lo stesso di quello utilizzato da chi l'ha pubblicato?</li><li>C'è qualche altra informazione che è stata aggiunta in seguito?</li></ul></p>",
                 "_graphic": {
                     "src": "course/it/images/odi-004.jpg",
                     "alt": "Star 2 - checking usability",
@@ -174,11 +174,11 @@
                     "*credit": "vs148",
                     "*licence": "Shutterstock open licence"
                 },
-                "strapline": "Seconda stella - Verifica della fruibilità"
+                "strapline": "Providing clarity"
             },
             {
                 "title": "Terza stella - Controllo dell'apertura",
-                "body": "<p>A volte è difficile valutare i formati aperti. Le seguenti domande ti aiuteranno a capire se i dati sono disponibili in un formato aperto:<ul class='ticks'><li>Posso aprire il file sul mio computer con più di un programma mantenendo la funzionalità  completa del file?</li><li>Quando vado a cercare il formato del file (ad es. CSV) online, devo scaricare un programma specifico per aprirlo?</li></ul></p><p>CSV è il formato aperto più diffuso ed è facile da identificare. Con il formato CSV puoi avere 3 stelle se hai già  guadagnato le altre 2. <span class='not-dlab not-default'>The Bulgarian open data portal provides some good examples of 3-star CSV datasets that are clearly marked with both a licence and file format.<br /><a href='https://opendata.government.bg/dataset/tsentralen-registar-na-yuridicheskite-litsa' target='_blank'>Take me to the Bulgarian open data portal</a></span><span class='not-eu'>Il portale open data del Regno Unito fornisce alcuni buoni esempi di set di dati CSV a 3 stelle la cui licenza e il cui formato dei file sono chiaramente indicati.<br /><a href='https://data.gov.uk/dataset/spend-over-25-000-in-fco-services' target='_blank'>Portami al portale open data del Regno Unito</a></span></p><p>Molti portali open data stanno pubblicando anche file Open Document Format (ODF). Questi file possono sembrare perfetti per gli open data, tuttavia può essere difficile identificare uno strumento in grado di aprire questi file.</p>",
+                "body": "<p>A volte è difficile capire se un formato è aperto. Le seguenti domande ti aiuteranno a capire se i dati sono disponibili in un formato aperto:<ul class='ticks'><li>Posso aprire il file sul mio computer con più di un programma mantenendo la funzionalità completa del file?</li><li>Quando vado a cercare il formato del file (ad es. CSV) online, devo scaricare un programma specifico per aprirlo?</li></ul></p><p>CSV è il formato aperto più diffuso ed è facile da identificare. Con il formato CSV puoi ottenere la terza stella, se hai già guadagnato le altre 2. Il portale open data del Regno Unito fornisce alcuni buoni esempi di dataset CSV a 3 stelle la cui licenza e il cui formato dei file sono chiaramente indicati.<br /><a href='https://data.gov.uk/dataset/spend-over-25-000-in-fco-services' target='_blank'>Portami al portale open data del Regno Unito</a></p><p>Molti portali open data stanno pubblicando anche file Open Document Format (ODF). Questi file possono sembrare perfetti per gli open data, tuttavia può essere difficile capire come aprirli.</p>",
                 "_graphic": {
                     "src": "course/it/images/odi-005.jpg",
                     "alt": "Star 3 - checking openness",
@@ -187,24 +187,24 @@
                     "*credit": "vs148",
                     "*licence": "Shutterstock open licence"
                 },
-                "strapline": "Terza stella - Controllo dell'apertura"
+                "strapline": "Enabling innovation"
             }
         ],
         "_pageLevelProgress": {
-            "_isEnabled": true
+        "_isEnabled": true
         }
     },
     {
-        "_id": "c-52",
-        "_parentId": "b-50",
-        "_type": "component",
-        "_component": "graphic",
-        "_classes": "",
-        "_layout": "right",
-        "title": "",
-        "displayTitle": "",
-        "body": "",
-        "instruction": "",
+        "_id":"c-52",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
         "_graphic": {
             "alt": "",
             "title": "",
@@ -214,27 +214,27 @@
         }
     },
     {
-        "_id": "c-53",
-        "_parentId": "b-50",
-        "_type": "component",
-        "_component": "text",
-        "_classes": "",
-        "_layout": "left",
-        "title": "Sei pronto per valutare gli open data?",
-        "displayTitle": "Sei pronto per valutare gli open data?",
-        "body": "<p>Ci sono quattro semplici cose da ricordare quando si tratta di valutare gli open data. Le ricordi?</p>",
-        "instruction": "",
+        "_id":"c-53",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Sei pronto per valutare gli open data?",
+        "displayTitle":"Sei pronto per valutare gli open data?",
+        "body":"<p>Ci sono quattro semplici cose da ricordare quando si tratta di valutare gli open data. Le ricordi?</p>",
+        "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
         }
     },
     {
-        "_id": "c-65",
-        "_parentId": "b-60",
-        "_type": "component",
-        "_component": "graphic",
-        "_classes": "illustration",
-        "_layout": "right",
+        "_id":"c-65",
+        "_parentId":"b-60",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
         "_graphic": {
             "alt": "5 Stars of open data",
             "title": "",
@@ -246,18 +246,19 @@
             "*licence": "Shutterstock open licence"
         }
     },
+    
     {
-        "_id": "c-60",
-        "_parentId": "b-60",
-        "_type": "component",
-        "_component": "mcq",
-        "_adapt2id": "58920ea1b61c46e176e7f075",
-        "_classes": "",
-        "_layout": "left",
-        "_attempts": 1,
-        "_questionWeight": 1,
-        "_isRandom": true,
-        "_selectable": 1,
+        "_id":"c-60",
+        "_parentId":"b-60",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"58920ea1b61c46e176e7f075",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
         "title": "Come valuti un dataset utilizzando le 5 stelle?",
         "displayTitle": "Come valuti un dataset utilizzando le 5 stelle?",
         "body": "<p>Come faresti a valutare un dataset che hai trovato online?</p>",
@@ -276,34 +277,34 @@
                 "_shouldBeSelected": false
             }
         ],
-        "_feedback": {
-            "correct": "<h5>Esatto!</h5><p>Le stelle vengono conferite in ordine sequenziale, senza la possibilità  di saltarne alcuna.</p>",
+        "_feedback":{
+            "correct":"<h5>Esatto!</h5><p>Le stelle vengono conferite in ordine sequenziale, senza la possibilità di saltarne alcuna.</p>",
             "_incorrect": {
-                "notFinal": "h5>Sei sicuro??</h5><p>Le stelle vengono conferite in ordine sequenziale, senza la possibilità  di saltarne alcuna.</p>",
-                "final": "<h5>Sei sicuro??</h5><p>Le stelle vengono conferite in ordine sequenziale, senza la possibilità  di saltarne alcuna.</p>"
+                "notFinal": "<h5>Sei sicuro?</h5><p>Le stelle vengono conferite in ordine sequenziale, senza la possibilità di saltarne alcuna.</p>",
+                "final": "<h5>Sei sicuro?</h5><p>Le stelle vengono conferite in ordine sequenziale, senza la possibilità di saltarne alcuna.</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "<h5>Sei sicuro??</h5><p>Le stelle vengono conferite in ordine sequenziale, senza la possibilità  di saltarne alcuna.</p>",
-                "final": "<h5>Sei sicuro??</h5><p>Le stelle vengono conferite in ordine sequenziale, senza la possibilità  di saltarne alcuna.</p>"
-            }
+                "notFinal": "<h5>Sei sicuro?</h5><p>Le stelle vengono conferite in ordine sequenziale, senza la possibilità di saltarne alcuna.</p>",
+                "final": "<h5>Sei sicuro?</h5><p>Le stelle vengono conferite in ordine sequenziale, senza la possibilità di saltarne alcuna.</p>"
+          }
         },
-        "_buttons": {
-            "submit": "",
-            "reset": "",
-            "showCorrectAnswer": "",
-            "hideCorrectAnswer": ""
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
         },
         "_pageLevelProgress": {
-            "_isEnabled": true
-        }
+        "_isEnabled": true
+      }
     },
     {
-        "_id": "c-70",
-        "_parentId": "b-70",
-        "_type": "component",
-        "_component": "graphic",
-        "_classes": "illustration",
-        "_layout": "left",
+        "_id":"c-70",
+        "_parentId":"b-70",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"left",
         "_graphic": {
             "alt": "Star 2 - checking usability",
             "title": "",
@@ -316,17 +317,17 @@
         }
     },
     {
-        "_id": "c-71",
-        "_parentId": "b-70",
-        "_type": "component",
-        "_component": "mcq",
-        "_adapt2id": "5892127cb61c46e176e7f080",
-        "_classes": "",
-        "_layout": "right",
-        "_attempts": 1,
-        "_questionWeight": 1,
-        "_isRandom": true,
-        "_selectable": 1,
+        "_id":"c-71",
+        "_parentId":"b-70",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"5892127cb61c46e176e7f080",
+        "_classes":"",
+        "_layout":"right",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
         "title": "A cosa si riferisce la seconda stella?",
         "displayTitle": "A cosa si riferisce la seconda stella?",
         "body": "<p>La seconda stella è assegnata per...</p>",
@@ -345,34 +346,34 @@
                 "_shouldBeSelected": true
             }
         ],
-        "_feedback": {
-            "correct": "<h5>Esatto!</h5><p>La seconda stella riguarda la possibilità  di riusare i dati e raccomanda che i dati siano disponibili nella forma più adatta al riuso indipendentemente dal fatto che il formato sia aperto o proprietario.</p>",
+        "_feedback":{
+            "correct":"<h5>Esatto!</h5><p>La seconda stella valuta la possibilità di riusare i dati e raccomanda che i dati siano disponibili nella forma più adatta al riuso, indipendentemente dal fatto che il formato sia aperto o proprietario.</p>",
             "_incorrect": {
-                "notFinal": "<h5>Sei sicuro??</h5><p>La seconda stella riguarda la possibilità  di riusare i dati e raccomanda che i dati siano disponibili nella forma più adatta al riuso indipendentemente dal fatto che il formato sia aperto o proprietario.</p>",
-                "final": "<h5>Sei sicuro??</h5><p>La seconda stella riguarda la possibilità  di riusare i dati e raccomanda che i dati siano disponibili nella forma più adatta al riuso indipendentemente dal fatto che il formato sia aperto o proprietario.</p>"
+                "notFinal": "<h5>Sei sicuro?</h5><p>La seconda stella valuta la possibilità di riusare i dati e raccomanda che i dati siano disponibili nella forma più adatta al riuso, indipendentemente dal fatto che il formato sia aperto o proprietario.</p>",
+                "final": "<h5>Sei sicuro?</h5><p>La seconda stella valuta la possibilità di riusare i dati e raccomanda che i dati siano disponibili nella forma più adatta al riuso, indipendentemente dal fatto che il formato sia aperto o proprietario.</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "<h5>Sei sicuro??</h5><p>La seconda stella riguarda la possibilità  di riusare i dati e raccomanda che i dati siano disponibili nella forma più adatta al riuso indipendentemente dal fatto che il formato sia aperto o proprietario.</p>",
-                "final": "<h5>Sei sicuro??</h5><p>La seconda stella riguarda la possibilità  di riusare i dati e raccomanda che i dati siano disponibili nella forma più adatta al riuso indipendentemente dal fatto che il formato sia aperto o proprietario.</p>"
-            }
+                "notFinal": "<h5>Sei sicuro?</h5><p>La seconda stella valuta la possibilità di riusare i dati e raccomanda che i dati siano disponibili nella forma più adatta al riuso, indipendentemente dal fatto che il formato sia aperto o proprietario.</p>",
+                "final": "<h5>Sei sicuro?</h5><p>La seconda stella valuta la possibilità di riusare i dati e raccomanda che i dati siano disponibili nella forma più adatta al riuso, indipendentemente dal fatto che il formato sia aperto o proprietario.</p>"
+          }
         },
-        "_buttons": {
-            "submit": "",
-            "reset": "",
-            "showCorrectAnswer": "",
-            "hideCorrectAnswer": ""
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
         },
         "_pageLevelProgress": {
-            "_isEnabled": true
-        }
+        "_isEnabled": true
+      }
     },
     {
-        "_id": "c-115",
-        "_parentId": "b-110",
-        "_type": "component",
-        "_component": "graphic",
-        "_classes": "",
-        "_layout": "right",
+        "_id":"c-115",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
         "_graphic": {
             "alt": "Summary icon clipboard",
             "title": "Summary icon clipboard",
@@ -385,70 +386,70 @@
         }
     },
     {
-        "_id": "c-110",
-        "_parentId": "b-110",
-        "_type": "component",
-        "_component": "text",
-        "_classes": "",
-        "_layout": "left",
-        "title": "Valutare gli open data",
-        "displayTitle": "Valutare gli open data",
-        "body": "<p>La valutazione dell'utilità  dei dati può variare molto a seconda dell'ambito e dell'argomento specifico. Per aiutare nel processo di valutazione ci sono molte linee guida, tra cui il modello delle 5 stelle degli open data.</p><p>Il modello delle 5 Stelle per gli open data è un modo per misurare se i dati sono ben integrati nel Web. Le stelle vengono conferite in ordine sequenziale, senza la possibilità  di saltarne alcuna.<h5>In questo modulo abbiamo esaminato le prime 3 stelle:</h5><ul class='ticks'><li>Licenza di tipo aperto</li><li>Formato adatto al riuso</li><li>Formato aperto</li></ul><p>Per ulteriori informazioni sulle ultime due stelle si veda il <a href='../module13/'>modulo 13</a>.</p><p><a class='course_link' href='../module11/'>Modulo successivo</a></p><p><a class='course_link' href='../'>Menù principale</a></p>",
+        "_id":"c-110",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Valutare gli open data",
+        "displayTitle":"Valutare gli open data",
+        "body":"<p>La valutazione dell'utilità dei dati può variare molto a seconda dell'ambito e dell'argomento specifico. Per aiutare nel processo di valutazione ci sono molte linee guida, tra cui il modello delle 5 stelle degli open data.</p><p>Il modello delle 5 stelle per gli open data è un modo per valutare se i dati sono ben integrati nel Web. Le stelle vengono conferite in ordine sequenziale, senza la possibilità di saltarne alcuna.<h5>In questo modulo abbiamo esaminato le prime 3 stelle:</h5><ul class='ticks'><li>Licenza di tipo aperto</li><li>Formato adatto al riuso</li><li>Formato aperto</li></ul><p>Per ulteriori informazioni sulle ultime due stelle si veda il <a href='../module13/'>modulo 13</a>.</p><p><a class='course_link' href='../module11/'>Modulo successivo</a></p><p><a class='course_link' href='../'>Menù principale</a></p>",
         "_pageLevelProgress": {
-            "_isEnabled": true
+          "_isEnabled": true
         }
     },
     {
-        "_id": "c-111",
-        "_parentId": "b-110",
-        "_type": "component",
-        "_component": "text",
-        "_classes": "separator",
-        "_layout": "full"
+       "_id":"c-111",
+       "_parentId":"b-110",
+       "_type":"component",
+       "_component":"text",
+       "_classes":"separator",
+       "_layout":"full"
     },
     {
-        "_id": "c-1111",
-        "_parentId": "b-110",
-        "_type": "component",
-        "_component": "text",
-        "_classes": "attribution",
-        "body": "&copy; <a href='https://ec.europa.eu/commission/index_en' target='_blank'>European Commission</a>",
-        "_layout": "full"
+       "_id":"c-1111",
+       "_parentId":"b-110",
+       "_type":"component",
+       "_component":"text",
+       "_classes": "attribution",
+       "body":"&copy; <a href='https://ec.europa.eu/commission/index_en' target='_blank'>European Commission</a>",
+       "_layout":"full"
     },
     {
-        "_id": "c-100",
-        "_parentId": "b-110",
-        "_type": "component",
-        "_component": "graphic",
-        "_classes": "footer-logo",
-        "_layout": "left",
+        "_id":"c-100",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"footer-logo",
+        "_layout":"left",
         "_graphic": {
             "alt": "Open data institute logo",
             "title": "Open data institute logo",
             "large": "course/it/images/logo-small.png",
             "medium": "course/it/images/logo-small.png",
             "small": "course/it/images/logo-small.png",
-            "*source": "http://theodi.org",
-            "*credit": "The Open Data Institute",
-            "*license": "All rights reserved"
+            "*source":"http://theodi.org",
+            "*credit":"The Open Data Institute",
+            "*license":"All rights reserved"  
         }
     },
     {
-        "_id": "c-104",
-        "_parentId": "b-110",
-        "_type": "component",
-        "_component": "text",
-        "_classes": "attribution not-eu not-default",
-        "_layout": "right",
-        "body": "Content created by <a href='http://theodi.org' target='_blank'>The Open Data Institute</a>"
+        "_id":"c-104",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"attribution not-eu not-default",
+        "_layout":"right",
+        "body":"Content created by <a href='http://theodi.org' target='_blank'>The Open Data Institute</a>"
     },
     {
-        "_id": "c-105",
-        "_parentId": "b-110",
-        "_type": "component",
-        "_component": "text",
-        "_classes": "social-buttons not-dlab",
-        "_layout": "right",
-        "body": "<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/it/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/it/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/it/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/it/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/it/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/it/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/it/images/social/flickr.png'></a>"
+        "_id":"c-105",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"social-buttons not-dlab",
+        "_layout":"right",
+        "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/it/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/it/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/it/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/it/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/it/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/it/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/it/images/social/flickr.png'></a>"
     }
 ]
