@@ -1,293 +1,293 @@
 [
     {
-        "_id": "c-02",
-        "_parentId": "b-01",
-        "_type": "component",
-        "_component": "graphic",
-        "_classes": "intro-logo",
-        "_layout": "right",
-        "title": "",
-        "displayTitle": "",
-        "body": "",
-        "instruction": "",
+        "_id":"c-02",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"intro-logo",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
         "_graphic": {
             "alt": "",
             "title": "",
             "large": "",
             "medium": "",
             "small": "",
-            "*source": "",
-            "*credit": "",
-            "*license": ""
+            "*source":"",
+            "*credit":"",
+            "*license":""
         }
     },
     {
-        "_id": "c-01",
-        "_parentId": "b-01",
-        "_type": "component",
-        "_component": "text",
-        "_classes": "",
-        "_layout": "left",
-        "title": "Perché dovremmo preoccuparci della sostenibilità?",
-        "displayTitle": "Perché dovremmo preoccuparci della sostenibilità?",
-        "body": "<p>Perché siano utili, gli open data devono essere rilevanti, aggiornati e accessibili.</p><p>Un progetto relativo agli open data è sostenibile se si continuano a pubblicare dati regolarmente, in quantità e con una qualità pari o superiore a quelle già raggiunte.</p><h5>In questo modulo vedremo quanto segue:</h5><ul class='ticks'><li>Come rendere la sostenibilità comprensibile</li><li>Perché la sostenibilità è importante</li><li>Cosa cercare nei dataset aperti sostenibili</li></ul>",
+        "_id":"c-01",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Perché dovremmo preoccuparci della sostenibilità?",
+        "displayTitle":"Perché dovremmo preoccuparci della sostenibilità?",
+        "body":"<p>Perché siano utili, gli open data devono essere rilevanti, aggiornati e accessibili.</p><p>Un programma relativo agli open data è sostenibile se si continuano a pubblicare dati regolarmente, in quantità e con una qualità pari o superiore a quelle già raggiunte.</p><h5>In questo modulo vedremo:</h5><ul class='ticks'><li>Come rendere comprensibile la sostenibilità</li><li>Perché la sostenibilità è importante</li><li>Cosa cercare nei dataset aperti sostenibili</li></ul>",
         "_pageLevelProgress": {
             "_isEnabled": true
         }
     },
     {
-        "_id": "c-11",
-        "_parentId": "b-10",
-        "_type": "component",
-        "_component": "iFrame-vimeo",
-        "_classes": "",
-        "_layout": "full",
-        "title": "Rendere sostenibili gli open data - in 2 minuti",
+        "_id":"c-11",
+        "_parentId":"b-10",
+        "_type":"component",
+        "_component":"iFrame-vimeo",
+        "_classes":"",
+        "_layout":"full",
+        "title":"Rendere sostenibili gli open data - in 2 minuti",
         "displayTitle": "Rendere sostenibili gli open data - in 2 minuti",
-        "body": "Il responsabile del programma Startup dell'ODI Ulrich Atz, spiega l'importanza della sostenibilità degli open data e perché sia rilevante per chi li utilizza. Illustra anche alcuni degli indicatori chiave relativi alla capacità di durata nel tempo di un'iniziativa sugli open data.",
+        "body": "Il responsabile del programma Startup dell'ODI Ulrich Atz, spiega l'importanza della sostenibilità negli open data e perché sia importante per chi li utilizza. Illustra anche alcuni degli indicatori chiave relativi alla capacità di durata nel tempo di un'iniziativa open data.",
         "instruction": "Per attivare e disattivare i sottotitoli, fai clic sul pulsante \"cc\" in basso a destra del video",
-        "_setCompletionOn": "ended",
+        "_setCompletionOn":"ended",
         "_source": "https://player.vimeo.com/video/129879004",
         "_media": {
-            "mp4": "course/it/video/video.mp4",
-            "poster": "course/it/video/placeholder.jpg"
-        },
+		"mp4": "course/it/video/video.mp4",
+		"poster": "course/it/video/placeholder.jpg"
+	},
         "_height": {
-            "_small": 250,
-            "_medium": 350,
-            "_large": 508
+            "_small" : 250,
+            "_medium" : 350,
+            "_large" : 508
         }
     },
-    {
-        "_id": "c-21",
-        "_parentId": "b-20",
-        "_type": "component",
-        "_component": "graphic",
-        "_classes": "",
-        "_layout": "left",
+       {
+        "_id":"c-21",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"left",
         "_graphic": {
-            "alt": "Open data sostenibili",
-            "title": "Open data sostenibili",
+            "alt": "Open data sostenibili nel tempo",
+            "title": "Open data sostenibili nel tempo",
             "large": "course/it/images/odi-001.jpg",
             "medium": "course/it/images/odi-001.jpg",
             "small": "course/it/images/odi-001.jpg",
-            "*source": "http://www.shutterstock.com/pic.mhtml?id=199444121&src=id",
-            "*credit": "Tarchyshnik Andrei",
-            "*license": "Shutterstock Standard License"
+            "*source":"http://www.shutterstock.com/pic.mhtml?id=199444121&src=id",
+            "*credit":"Tarchyshnik Andrei",
+            "*license":"Shutterstock Standard License"
         }
     },
     {
-        "_id": "c-32",
-        "_parentId": "b-20",
-        "_type": "component",
-        "_component": "text",
-        "_classes": "inverted",
-        "_layout": "right",
-        "title": "Cosa rende gli open data sostenibili?",
-        "displayTitle": "Cosa rende gli open data sostenibili?",
-        "body": "<h5>Un dataset aperto sostenibile è supportato da:</h5><ul class='ticks'><li><b>Un finanziamento sicuro</b> to cover the cost of updates</li><li><b>Un supporto attivo</b> of publishers to prioritise updates</li><li><b>Un ampio riutilizzo</b> by others to demonstrate the value</li></ul>"
+        "_id":"c-32",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"inverted",
+        "_layout":"right",
+        "title":"Cosa rende gli open data sostenibili?",
+        "displayTitle":"Cosa rende gli open data sostenibili?",
+        "body":"<h5>Un dataset aperto sostenibile è supportato da:</h5><ul class='ticks'><li>Un finanziamento sicuro che copre il costo degli aggiornamenti</li><li>Il supporto attivo di chi pubblica i dati così da garantire gli aggiornamenti</li><li>L'ampio riutilizzo dei dati da parte di terzi che ne dimostri il valore</ul>"
     },
-    {
+     {
         "_id": "c-31",
         "_parentId": "b-30",
         "_classes": "inverted",
-        "_type": "component",
+        "_type":"component",
         "_layout": "full",
         "_component": "narrative",
-        "title": "Capire il senso della sostenibilità negli open data",
-        "displayTitle": "Capire il senso della sostenibilità negli open data",
+        "title": "Capire le motivazioni per garantire sostenibilità negli open data",
+        "displayTitle": "Capire le motivazioni per garantire sostenibilità negli open data",
         "body": "Quali fattori contribuiscono a rendere sostenibile un set di open data?",
-        "instruction": "<em>Click the forward arrow to see more</em>",
+        "instruction": "<em>Fare clic sulla freccia avanti per vedere di più.</em>",
         "_items": [
             {
-                "title": "Sostegno nei finanziamenti",
-                "body": "Il fatto che un set di dati possa essere utilizzato liberamente non significa che non ci siano costi per raccogliere o rilasciare i dati. Il finanziamento può essere garantito da:</h5><ul class='bullet'><li>Una tariffa per l'accesso o per usufruire di servizi avanzati</li><li>Finanziamenti da altre fonti che supportano la pubblicazione di open data</li><li>La dimostrazione del valore effettivo degli open data per l'organizzazione</li></ul>",
+                "title": "Un finanziamento garantito",
+                "body": "Il fatto che un set di dati possa essere utilizzato liberamente non significa che non ci siano costi per raccogliere o rilasciare i dati. Il finanziamento può essere garantito da:</h5><ul class='bullet'><li>Una tariffa per l'accesso o per usufruire di servizi avanzati</li><li>Finanziamenti provenienti da altre fonti per sostenere la pubblicazione di open data</li><li>La dimostrazione del valore effettivo degli open data per l'organizzazione</li></ul>",
                 "_graphic": {
                     "src": "course/it/images/odi-002.jpg",
                     "alt": "Un finanziamento sicuro",
                     "title": "Un finanziamento sicuro",
-                    "*source": "http://www.shutterstock.com/pic.mhtml?id=272132873&src=id",
-                    "*credit": "Jiunn",
-                    "*license": "Shutterstock Standard License"
+                    "*source":"http://www.shutterstock.com/pic.mhtml?id=272132873&src=id",
+                    "*credit":"Jiunn",
+                    "*license":"Shutterstock Standard License"
                 },
-                "strapline": "Sostegno nei finanziamenti"
+                "strapline": "Un finanziamento sicuro"
             },
             {
-                "title": "Supporto attivo per gli open data",
-                "body": "<p>Per un'organizzazione rendere sostenibili gli open data richiede di solito il sostegno da parte della sua direzione, al fine di renderli una priorità, e il supporto del personale responsabile per mantenere la loro qualità.</p><p>Spesso, il supporto attivo per mantenere nel tempo l'apertura di un data è garantito da una società che si impegna in quella attività come parte delle sue attività quotidiane.",
+                "title": "Un supporto attivo",
+                "body": "<p>Per un'organizzazione, garantire sostenibilità agli open data richiede, di solito, il sostegno da parte della direzione, nel renderli una priorità, e il supporto di un team responsabile, per mantenerne la qualità.</p><p>Spesso, il supporto per garantire nel tempo l'apertura di un dataset è dato da una società che si impegna in quell'attività come parte delle sue attività quotidiane.",
                 "_graphic": {
                     "src": "course/it/images/odi-003.jpg",
                     "alt": "Un supporto attivo",
                     "title": "Un supporto attivo",
-                    "*source": "http://www.shutterstock.com/pic.mhtml?id=239488546&src=id",
-                    "*credit": "GiDesign",
-                    "*license": "Shutterstock Standard License"
+                    "*source":"http://www.shutterstock.com/pic.mhtml?id=239488546&src=id",
+                    "*credit":"GiDesign",
+                    "*license":"Shutterstock Standard License"
                 },
-                "strapline": "Supporto attivo per gli open data"
+                "strapline": "Un supporto attivo"
             },
             {
                 "title": "Ampio riutilizzo degli open data",
-                "body": "<p class='not-dlab'>Un riutilizzo sostenibile si realizza quando i servizi creati con questi dati divengono cruciali per l'attività di chi pubblica i dati. I dataset del sistema dei trasporti di Berlino - Verkehrsverbund Berlin-Brandenburg - sono utilizzati da milioni di persone che accedono ad applicazioni per i trasporti come Citymapper. Queste applicazioni utilizzano i servizi VBB e quindi, nel proprio piano digitale, VBB si è impegnata ad aggiornare regolarmente i dati.<br /><a href='https://citymapper.com/berlin' target='_blank'>Portami a Citymapper Berlin</a></p><p class='not-eu not-default'>Un riutilizzo sostenibile si realizza quando i servizi creati con questi dati divengono cruciali per l'attività di chi pubblica i dati. As cities grow, public mobility becomes a big challenge. Building new infrastructure is only part of the solution however. New infrastructure will be inefficient if people are not given access to information on how to use it.</p><p class='not-eu not-default'>In Dar es Salaam, open data is being made available about the rapid transit system to allow companies like Citymapper, Google and local startups to make us of the data to increase public mobility. The data is being collected and made available on the openstreetmap platform. <br /><a href='https://wiki.openstreetmap.org/wiki/Dar_es_Salaam/Transport' target='_blank'>Take me to the DART data on openstreetmap</a></p>",
+                "body": "<p class='not-dlab'>La sostenibilità nel tempo si ottiene quando i servizi creati con quei dati diventano centrali per il successo delle attività stesse di chi pubblica i dati. I dataset del sistema dei trasporti di Berlino - Verkehrsverbund Berlin-Brandenburg - sono utilizzati da milioni di persone che utilizzano applicazioni per i trasporti come Citymapper. Queste applicazioni utilizzano i servizi VBB e quindi, nel proprio piano digitale, VBB si è impegnata ad aggiornare regolarmente i dati.<br /><a href='https://citymapper.com/berlin' target='_blank'>Portami a Citymapper Berlin</a></p>",
                 "_graphic": {
                     "src": "course/it/images/odi-004.jpg",
                     "alt": "Un ampio riutilizzo",
                     "title": "Un ampio riutilizzo",
-                    "*source": "http://www.shutterstock.com/pic-144050605",
-                    "*credit": "graphego",
-                    "*license": "Shutterstock Standard License"
+                    "*source":"http://www.shutterstock.com/pic-144050605",
+                    "*credit":"graphego",
+                    "*license":"Shutterstock Standard License"
                 },
-                "strapline": "Ampio riutilizzo degli open data"
+                "strapline": "Un ampio riutilizzo"
             }
         ],
         "_pageLevelProgress": {
-            "_isEnabled": true
+        "_isEnabled": true
         }
     },
-    {
+ {
         "_id": "c-41",
         "_parentId": "b-40",
         "_classes": "",
-        "_type": "component",
+        "_type":"component",
         "_layout": "full",
         "_component": "narrative",
         "title": "Perché la sostenibilità è importante?",
         "displayTitle": "Perché la sostenibilità è importante?",
-        "body": "Perché dovrei preoccuparmi che gli open data con cui lavoro siano sostenibili?",
+        "body": "Perché dovrei preoccuparmi che gli open data siano sostenibili?",
         "instruction": "<em>Fare clic sulla freccia avanti per vedere di più.</em>",
         "_items": [
             {
                 "title": "Basi solide",
-                "body": "La sostenibilità non è un bene solo per gli utenti. Anche chi pubblica i dati trae dei vantaggi dalla sostenibilità degli open data:</h5><ul class='bullet'><li>Aumenta la fiducia della comunità nell'organizzazione che pubblica i dati.</li><li>Sostiene la creazione di nuovi prodotti e servizi.</li><li>Rende più semplice anche il riutilizzo dei propri stessi dati da parte di chi li pubblica.</li></ul>",
+                "body": "La sostenibilità non è un bene solo per gli utenti. Anche chi pubblica i dati trae dei vantaggi dalla sostenibilità degli open data:</h5><ul class='bullet'><li>Aumenta la fiducia verso l'organizzazione che pubblica i dati.</li><li>Sostiene la creazione di nuovi prodotti e servizi.</li><li>Rende più semplice anche il riutilizzo dei propri stessi dati da parte di chi li pubblica.</li></ul>",
                 "_graphic": {
                     "src": "course/it/images/odi-005.jpg",
                     "alt": "Basi solide",
                     "title": "Basi solide",
-                    "*source": "http://www.shutterstock.com/pic.mhtml?id=271074140&src=id",
-                    "*credit": "Saibarakova Ilona",
-                    "*license": "Shutterstock Standard License"
+                    "*source":"http://www.shutterstock.com/pic.mhtml?id=271074140&src=id",
+                    "*credit":"Saibarakova Ilona",
+                    "*license":"Shutterstock Standard License"
                 },
                 "strapline": "Basi solide"
             },
             {
                 "title": "Accrescere la fiducia",
-                "body": "Open data sostenibili permettono che una grande comunità elabori ed analizzi i dati per i propri scopi, che spesso supportano chi li pubblica.",
+                "body": "Open data sostenibili nel tempo permettono che una vasta comunità elabori ed analizzi i dati per i propri scopi e spesso questo è di supporto a chi li pubblica.",
                 "_graphic": {
                     "src": "course/it/images/odi-006.jpg",
                     "alt": "Accrescere la fiducia",
                     "title": "Accrescere la fiducia",
-                    "*source": "http://www.shutterstock.com/pic.mhtml?id=246120358&src=lb-36497927",
-                    "*credit": "Arthimedes",
-                    "*license": "Shutterstock Standard License"
+                    "*source":"http://www.shutterstock.com/pic.mhtml?id=246120358&src=lb-36497927",
+                    "*credit":"Arthimedes",
+                    "*license":"Shutterstock Standard License"
                 },
-                "strapline": "Accrescere la fiducia"
+                "strapline": "Useful for users"
             },
             {
                 "title": "Costruire connessioni tra le aziende",
-                "body": "Gli open data sostenibili hanno il potere di aprire canali verso nuovi clienti, consentendo di creare nuovi mercati abilitati dalla disponibilità di questi dati. In molti casi questi nuovi mercati portano benefici diretti a chi ha pubblicato i dati.",
+                "body": "Gli open data sostenibili hanno il potere di aprire canali verso nuovi clienti e permettono di creare nuovi mercati resi possibili dalla disponibilità di questi dati. In molti casi questi nuovi mercati portano benefici diretti a chi ha pubblicato i dati.",
                 "_graphic": {
                     "src": "course/it/images/odi-007.jpg",
                     "alt": "Costruire connessioni tra le aziende",
                     "title": "Costruire connessioni tra le aziende",
-                    "*source": "http://www.shutterstock.com/pic.mhtml?id=119824141&src=id",
-                    "*credit": "Palau",
-                    "*license": "Shutterstock Standard License"
+                    "*source":"http://www.shutterstock.com/pic.mhtml?id=119824141&src=id",
+                    "*credit":"Palau",
+                    "*license":"Shutterstock Standard License"
                 },
-                "strapline": "Costruire connessioni tra le aziende"
+                "strapline": "Better for business"
             },
             {
                 "title": "Migliorare la fruibilità dei dati",
-                "body": "Fra chi maggiormente riusa i dati, di solito, troviamo anche chi li pubblica. Perché separare la pubblicazione dei dati dal loro utilizzo all'interno dell'organizzazione?",
+                "body": "Chi pubblica i dati è spesso uno dei principali riutilizzatori di quei dati. Perché separare la pubblicazione dei dati dal loro utilizzo all'interno dell'organizzazione?",
                 "_graphic": {
                     "src": "course/it/images/odi-008.jpg",
                     "alt": "Migliorare la fruibilità dei dati",
                     "title": "Migliorare la fruibilità dei dati",
-                    "*source": "http://www.shutterstock.com/pic.mhtml?id=165242216&src=id",
-                    "*credit": "LovArt",
-                    "*license": "Shutterstock Standard License"
+                    "*source":"http://www.shutterstock.com/pic.mhtml?id=165242216&src=id",
+                    "*credit":"LovArt",
+                    "*license":"Shutterstock Standard License"
                 },
-                "strapline": "Migliorare la fruibilità dei dati"
+                "strapline": "Perfect for publishers"
             }
         ],
         "_pageLevelProgress": {
-            "_isEnabled": true
+        "_isEnabled": true
         }
     },
-    {
-        "_id": "c-52",
-        "_parentId": "b-50",
-        "_type": "component",
-        "_component": "graphic",
-        "_classes": "",
-        "_layout": "right",
+ {
+        "_id":"c-52",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
         "_graphic": {
             "alt": "Alla ricerca di idee",
             "title": "Alla ricerca di idee",
             "large": "course/it/images/odi-009.png",
             "medium": "course/it/images/odi-009.png",
             "small": "course/it/images/odi-009.png",
-            "*source": "http://www.shutterstock.com/pic-217749400",
-            "*credit": "robuart",
-            "*license": "Shutterstock Standard License"
+            "*source":"http://www.shutterstock.com/pic-217749400",
+            "*credit":"robuart",
+            "*license":"Shutterstock Standard License"
         }
     },
     {
-        "_id": "c-51",
-        "_parentId": "b-50",
-        "_type": "component",
-        "_component": "accordion",
-        "_classes": "",
-        "_layout": "left",
-        "title": "Alla ricerca di idee",
-        "displayTitle": "Alla ricerca di idee",
-        "body": "Una pubblicazione sostenibile di dati mette assieme: finanziamenti sicuri; supporto attivo e ampio riutilizzo. Questi tratti non sono sempre evidenti quando si incontra un dataset. Per aiutarti ad individuare delle buone fonti, poniti queste domande:",
-        "instruction": "<em>Click the headings to learn more.</em>",
-        "_items": [
-            {
-                "alt": "Qual è la fonte?",
-                "title": "Qual è la fonte?",
-                "body": "<p>Chiediti chi ha rilasciato i dati e quanta fiducia hai nel loro impegno nel mantenerli aggiornarli.<br><br>Uno dei più importanti indicatori di sostenibilità è quanta fiducia riponi nell'organizzazione che li ha raccolti.<br><br>Se i dati sono rilasciati da una pubblica amministrazione, una nuova elezione o un cambiamento delle priorità di governo potrebbe interferire con la loro pubblicazione?</p>"
-            },
-            {
-                "alt": "Chi finanzia la pubblicazione dei dati?",
-                "title": "Chi finanzia la pubblicazione dei dati?",
-                "body": "<p>I dati resi disponibili senza alcun costo potrebbero sembrare l'ideale, ma è importante chiedersi come possa venire garantita economicamente una loro pubblicazione sostenibile.<br><br>Chiediti se i dati vengono rilasciati per effetto di pressioni relative alla trasparenza o se esiste una domanda spinta da un uso con una più ampia ricaduta, anche economica.<br><br>Prova a scoprire se esista un programma specifico a breve termine che finanzia la disponibilità dei dati o se la loro pubblicazione sia parte della strategia di base dell'organizzazione.</p>"
-            },
-            {
-                "alt": "Che cosa dice la licenza?",
-                "title": "Che cosa dice la licenza?",
-                "body": "<p>Anche le licenze possono offrire indicazioni sulla sostenibilità dei dati.<br><br>Quando esamini una licenza, chiediti cosa potrebbe indicare rispetto al futuro del dataset e rispetto alla sicurezza di chi li pubblica. Contiene un impegno al regolare aggiornamento?<br><br>Ricorda che senza una licenza, i dati non sono veramente aperti. La licenza offre la certezza che i dati possano essere liberamente utilizzati e condivisi.</p>"
-            },
-            {
-                "alt": "Chi sta già utilizzando i dati?",
-                "title": "Chi sta già utilizzando i dati?",
-                "body": "<p>Più un dataset viene utilizzato, maggiore è la pressione affinché sia mantenuto.<br><br>Chiediti chi altro sta usando questo dataset e per quali scopi.<br><br>Prova a scoprire se il dataset è utilizzato da chi lo pubblica anche per scopi interni.<br><br>Questi aspetti indicano che chi li pubblica ripone attenzione su quel dataset e che riceve pressioni esterne per mantenerne l'accesso o per non modificarlo per i propri scopi.</p>"
-            },
-            {
-                "alt": "Cosa è successo dopo che i dati sono stati pubblicati?",
-                "title": "Cosa è successo dopo che i dati sono stati pubblicati?",
-                "body": "<p>La valutazione della sostenibilità degli open data dipende, in ultima analisi, dalla fiducia che si ripone in chi li ha pubblicati.<br><br>Chiediti da quanto tempo è stato pubblicato il dataset. Una lunga storia di aggiornamenti è un buon segno, ma si deve fare attenzione anche a fattori esterni come la durata del progetto o del mandato. Un indicatore chiave per valutare una iniziativa sostenibile è che la sua durata sia indipendente da questi fattori esterni.</p>"
-            },
-            {
-                "alt": "Come posso collaborare?",
-                "title": "Come posso collaborare?",
-                "body": "<p>Utilizzando tu stesso un dataset aperto contribuirai ad alimentarne la domanda e ad avere ricadute sulla sua sostenibilità.<br><br>Puoi unirti a qualche comunità di pratiche già esistente costruita attorno ad quel dataset.<br><br>Prova a scoprire se chi pubblica i dati ha un ruolo attivo in queste comunità e tiene in considerazione i feedback per migliorare i propri servizi.<br><br>Chiediti come puoi dimostrare il valore dei dati così da accrescerne la sostenibilità garantita da chi pubblica i dati.</p>"
-            }
-        ],
-        "_pageLevelProgress": {
-            "_isEnabled": true
+      "_id":"c-51",
+      "_parentId":"b-50",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"left",
+      "title": "Alla ricerca di idee",
+      "displayTitle": "Alla ricerca di idee",
+      "body": "Una pubblicazione sostenibile di dati mette assieme: finanziamenti sicuri, supporto attivo e ampio riutilizzo. Questi tratti non sono sempre evidenti a prima vista in un dataset. Per aiutarti ad individuare delle buone fonti, poniti queste domande:",
+      "instruction": "<em>Fai clic sui titoli per esplorare ulteriormente.</em>",
+      "_items": [
+        {
+          "alt": "Qual è la fonte?",
+          "title": "Qual è la fonte?",
+          "body": "<p>Chiediti chi ha rilasciato i dati e quanta fiducia hai nel loro impegno nel mantenerli aggiornarli.<br><br>Uno dei più importanti indicatori di sostenibilità è quanta fiducia riponi nell'organizzazione che li ha raccolti.<br><br>Se i dati sono rilasciati da una pubblica amministrazione, una nuova elezione o un cambiamento delle priorità di governo potrebbero interferire con la loro pubblicazione?</p>"
+        },
+        {
+          "alt": "Chi finanzia la pubblicazione dei dati?",
+          "title": "Chi finanzia la pubblicazione dei dati?",
+          "body": "<p>I dati resi disponibili senza alcun costo potrebbero sembrare l'ideale, ma è importante chiedersi come possa venire garantita economicamente una loro pubblicazione sostenibile.<br><br>Chiediti se i dati vengono rilasciati per effetto di pressioni relative alla trasparenza o se esiste una domanda spinta da un uso con una più ampia ricaduta, anche economica.<br><br>Prova a scoprire se il finanziamento dell'iniziativa di apertura dei dati sia parte di un programma a breve termine o se sia parte della strategia di base dell'organizzazione.</p>"
+        },
+        {
+          "alt": "Che cosa dice la licenza?",
+          "title": "Che cosa dice la licenza?",
+          "body": "<p>Anche le licenze possono offrire indicazioni sulla sostenibilità dei dati.<br><br>Quando esamini una licenza, chiediti cosa indica riguardo al futuro del dataset e quanta fiducia vi ripone chi lo pubblica. Contiene un impegno al regolare aggiornamento?<br><br>Ricorda che senza una licenza, i dati non sono veramente aperti. La licenza offre la certezza che i dati possano essere liberamente utilizzati e condivisi.</p>"
+        },
+        {
+          "alt": "Chi sta già utilizzando i dati?",
+          "title": "Chi sta già utilizzando i dati?",
+          "body": "<p>Più un dataset viene utilizzato, maggiore è la pressione affinché sia mantenuto aggiornato.<br><br>Chiediti chi altro sta usando questo dataset e per quali scopi.<br><br>Prova a scoprire se il dataset è utilizzato da chi lo pubblica anche per scopi interni.<br><br>Questi aspetti indicano se chi pubblica quei dati fa attenzione a quel dataset e se riceve pressioni esterne per mantenerlo accessibile o per non modificarlo per i propri scopi.</p>"
+        },
+        {
+          "alt": "Cosa è successo dopo che i dati sono stati pubblicati?",
+          "title": "Cosa è successo dopo che i dati sono stati pubblicati?",
+          "body": "<p>La valutazione della sostenibilità degli open data dipende, in ultima analisi, dalla fiducia che si ripone in chi li ha pubblicati.<br><br>Chiediti da quanto tempo è stato pubblicato il dataset. Una lunga storia di aggiornamenti è un buon segno, ma si deve fare attenzione anche a fattori esterni come la durata del progetto o del mandato. Un indicatore chiave per valutare la sostenibilità di una iniziativa è l'indipendenza della sua durata da fattori esterni.</p>"
+        },
+        {
+          "alt": "Come posso collaborare?",
+          "title": "Come posso collaborare?",
+          "body": "<p>Utilizzando tu stesso un dataset aperto contribuirai ad alimentarne la domanda e ad influenzare la sua sostenibilità.<br><br>Puoi unirti a qualche comunità di pratiche già esistente costruita attorno ad quel dataset.<br><br>Prova a scoprire se chi pubblica i dati ha un ruolo attivo in queste comunità e tiene in considerazione i feedback per migliorare i propri servizi.<br><br>Chiediti come puoi dimostrare il valore dei dati così da accrescerne la sostenibilità da parte di chi li pubblica.</p>"
         }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
     },
     {
-        "_id": "c-42",
-        "_parentId": "b-55",
-        "_type": "component",
-        "_component": "graphic",
-        "_classes": "",
-        "_layout": "right",
-        "title": "",
-        "displayTitle": "",
-        "body": "",
-        "instruction": "",
+        "_id":"c-42",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
         "_graphic": {
             "alt": "",
             "title": "",
@@ -297,32 +297,32 @@
         }
     },
     {
-        "_id": "c-43",
-        "_parentId": "b-55",
-        "_type": "component",
-        "_component": "text",
-        "_classes": "",
-        "_layout": "left",
-        "title": "Sei pronto per open data sostenibili?",
-        "displayTitle": "Sei pronto per open data sostenibili?",
-        "body": "<p>Ci sono due cose utili da ricordare quando si pensa a open data sostenibili, le ricordi?</p>",
-        "instruction": "",
+        "_id":"c-43",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Sei pronto per open data sostenibili?",
+        "displayTitle":"Sei pronto per open data sostenibili?",
+        "body":"<p>Ci sono due cose utili da ricordare quando si pensa alla sostenibilità degli open data, le ricordi?</p>",
+        "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
         }
     },
     {
-        "_id": "c-61",
-        "_parentId": "b-60",
-        "_type": "component",
-        "_component": "gmcq",
-        "_adapt2id": "58905530b61c46e176e7eb16",
-        "_classes": "",
-        "_layout": "full",
-        "_attempts": 1,
-        "_questionWeight": 1,
-        "_isRandom": true,
-        "_selectable": 1,
+        "_id":"c-61",
+        "_parentId":"b-60",
+        "_type":"component",
+        "_component":"gmcq",
+        "_adapt2id":"58905530b61c46e176e7eb16",
+        "_classes":"",
+        "_layout":"full",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
         "title": "Cosa influenza la sostenibilità?",
         "displayTitle": "Cosa influenza la sostenibilità?",
         "body": "Quale di questi fattori non influenza la sostenibilità di un dataset aperto?",
@@ -330,115 +330,115 @@
         "_items": [
             {
                 "text": "Un finanziamento sicuro",
-                "_shouldBeSelected": false,
+                "_shouldBeSelected":false,
                 "_graphic": {
                     "alt": "Un finanziamento sicuro",
                     "title": "",
                     "large": "course/it/images/odi-010.jpg",
                     "medium": "course/it/images/odi-010.jpg",
                     "small": "course/it/images/odi-010.jpg",
-                    "*source": "http://www.shutterstock.com/pic.mhtml?id=272132873&src=id",
-                    "*credit": "Jiunn",
-                    "*license": "Shutterstock Standard License"
+                    "*source":"http://www.shutterstock.com/pic.mhtml?id=272132873&src=id",
+                    "*credit":"Jiunn",
+                    "*license":"Shutterstock Standard License"
                 }
             },
             {
-                "text": "Che sia un file di grandi dimensioni",
-                "_shouldBeSelected": true,
+                "text": "La dimensione dei file",
+                "_shouldBeSelected":true,
                 "_graphic": {
-                    "alt": "Che sia un file di grandi dimensioni",
-                    "title": "Che sia un file di grandi dimensioni",
+                    "alt": "La dimensione dei file",
+                    "title": "La dimensione dei file",
                     "large": "course/it/images/file.png",
                     "medium": "course/it/images/file.png",
                     "small": "course/it/images/file.png",
-                    "*source": "https://farm3.staticflickr.com/2712/4485684994_b92ca0b0b3_b.jpg",
-                    "*credit": "Dave Matos",
-                    "*license": "CC BY-SA 2.0"
+                    "*source":"https://farm3.staticflickr.com/2712/4485684994_b92ca0b0b3_b.jpg",
+                    "*credit":"Dave Matos",
+                    "*license":"CC BY-SA 2.0"
                 }
             },
             {
                 "text": "Un supporto attivo",
-                "_shouldBeSelected": false,
+                "_shouldBeSelected":false,
                 "_graphic": {
                     "alt": "Un supporto attivo",
                     "title": "",
                     "large": "course/it/images/odi-011.jpg",
                     "medium": "course/it/images/odi-011.jpg",
                     "small": "course/it/images/odi-011.jpg",
-                    "*source": "http://www.shutterstock.com/pic.mhtml?id=239488546&src=id",
-                    "*credit": "GiDesign",
-                    "*license": "Shutterstock Standard License"
+                    "*source":"http://www.shutterstock.com/pic.mhtml?id=239488546&src=id",
+                    "*credit":"GiDesign",
+                    "*license":"Shutterstock Standard License"
                 }
             },
             {
                 "text": "Un ampio riutilizzo",
-                "_shouldBeSelected": false,
+                "_shouldBeSelected":false,
                 "_graphic": {
                     "alt": "Un ampio riutilizzo",
                     "title": "",
                     "large": "course/it/images/odi-012.jpg",
                     "medium": "course/it/images/odi-012.jpg",
                     "small": "course/it/images/odi-012.jpg",
-                    "*source": "http://www.shutterstock.com/pic-144050605",
-                    "*credit": "graphego",
-                    "*license": "Shutterstock Standard License"
+                    "*source":"http://www.shutterstock.com/pic-144050605",
+                    "*credit":"graphego",
+                    "*license":"Shutterstock Standard License"
                 }
             }
         ],
-        "_feedback": {
-            "correct": "<h5>Esatto!</h5><p>La dimensione dei file non è un fattore che influenza la sostenibilità dei dati. Quello che conta di più è: una fonte sicura di finanziamento, il supporto attivo di chi pubblica i dati e il largo riutilizzo per generare valore dai dati</p>",
+        "_feedback":{
+            "correct":"<h5>Esatto!</h5><p>La dimensione dei file non è un fattore che influenza la sostenibilità nel tempo di un dataset. Quello che conta di più è che sia garantita una fonte sicura di finanziamento, il supporto attivo di chi pubblica i dati e un ampio riutilizzo per generare valore dai dati.</p>",
             "_incorrect": {
-                "notFinal": "<h5>Sei sicuro??</h5><p>La dimensione dei file non è un fattore che influenza la sostenibilità dei dati. Quello che conta di più è: una fonte sicura di finanziamento, il supporto attivo di chi pubblica i dati e il largo riutilizzo per generare valore dai dati</p>",
-                "final": "<h5>Sei sicuro??</h5><p>La dimensione dei file non è un fattore che influenza la sostenibilità dei dati. Quello che conta di più è: una fonte sicura di finanziamento, il supporto attivo di chi pubblica i dati e il largo riutilizzo per generare valore dai dati</p>"
+                "notFinal": "<h5>Sei sicuro?</h5><p>La dimensione dei file non è un fattore che influenza la sostenibilità nel tempo di un dataset. Quello che conta di più è che sia garantita una fonte sicura di finanziamento, il supporto attivo di chi pubblica i dati e un ampio riutilizzo per generare valore dai dati.</p>",
+                "final": "<h5>Sei sicuro?</h5><p>La dimensione dei file non è un fattore che influenza la sostenibilità nel tempo di un dataset. Quello che conta di più è che sia garantita una fonte sicura di finanziamento, il supporto attivo di chi pubblica i dati e un ampio riutilizzo per generare valore dai dati.</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "<h5>Sei sicuro??</h5><p>La dimensione dei file non è un fattore che influenza la sostenibilità dei dati. Quello che conta di più è: una fonte sicura di finanziamento, il supporto attivo di chi pubblica i dati e il largo riutilizzo per generare valore dai dati</p>",
-                "final": "<h5>Sei sicuro??</h5><p>La dimensione dei file non è un fattore che influenza la sostenibilità dei dati. Quello che conta di più è: una fonte sicura di finanziamento, il supporto attivo di chi pubblica i dati e il largo riutilizzo per generare valore dai dati</p>"
+                "notFinal": "<h5>Sei sicuro?</h5><p>La dimensione dei file non è un fattore che influenza la sostenibilità nel tempo di un dataset. Quello che conta di più è che sia garantita una fonte sicura di finanziamento, il supporto attivo di chi pubblica i dati e un ampio riutilizzo per generare valore dai dati.</p>",
+                "final": "<h5>Sei sicuro?</h5><p>La dimensione dei file non è un fattore che influenza la sostenibilità nel tempo di un dataset. Quello che conta di più è che sia garantita una fonte sicura di finanziamento, il supporto attivo di chi pubblica i dati e un ampio riutilizzo per generare valore dai dati.</p>"
             }
         },
-        "_buttons": {
-            "submit": "",
-            "reset": "",
-            "showCorrectAnswer": "",
-            "hideCorrectAnswer": ""
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
         },
         "_pageLevelProgress": {
-            "_isEnabled": true
+          "_isEnabled": true
         }
     },
-    {
-        "_id": "c-71",
-        "_parentId": "b-70",
-        "_type": "component",
-        "_component": "graphic",
-        "_classes": "illustration",
-        "_layout": "right",
+{
+        "_id":"c-71",
+        "_parentId":"b-70",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
         "_graphic": {
             "alt": "Un finanziamento sicuro",
             "title": "",
             "large": "course/it/images/odi-013.jpg",
             "medium": "course/it/images/odi-013.jpg",
             "small": "course/it/images/odi-013.jpg",
-            "*source": "http://www.shutterstock.com/pic.mhtml?id=272132873&src=id",
-            "*credit": "Jiunn",
-            "*license": "Shutterstock Standard License"
+            "*source":"http://www.shutterstock.com/pic.mhtml?id=272132873&src=id",
+            "*credit":"Jiunn",
+            "*license":"Shutterstock Standard License"
         }
     },
     {
-        "_id": "c-72",
-        "_parentId": "b-70",
-        "_type": "component",
-        "_component": "mcq",
-        "_adapt2id": "589056d1b61c46e176e7eb22",
-        "_classes": "",
-        "_layout": "left",
-        "_attempts": 1,
-        "_questionWeight": 1,
-        "_isRandom": true,
-        "_selectable": 3,
+        "_id":"c-72",
+        "_parentId":"b-70",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"589056d1b61c46e176e7eb22",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":3,
         "title": "Cosa devo cercare per valutare la sostenibilità?",
         "displayTitle": "Cosa devo cercare per valutare la sostenibilità?",
-        "body": "<p>A cosa devi fare attenzione per valutare la sostenibilità di un dataset aperto?</p>",
+        "body": "<p>A cosa devi fare attenzione per valutare la sostenibilità nel tempo di un dataset aperto?</p>",
         "instruction": "<em>Scegli tre delle opzioni seguenti e seleziona \"Invia\"</em>",
         "_items": [
             {
@@ -446,7 +446,7 @@
                 "_shouldBeSelected": true
             },
             {
-                "text": "Quanto costano i dati",
+                "text": "Quanto costa produrre quel dataset",
                 "_shouldBeSelected": false
             },
             {
@@ -462,110 +462,110 @@
                 "_shouldBeSelected": true
             }
         ],
-        "_feedback": {
-            "correct": "<h5>Esatto!</h5><p>Sapere cosa è successo dopo la pubblicazione dei dati, chi sta utilizzando i dati e come viene finanziata la pubblicazione sono informazioni fondamentali da tenere presente per determinare la sostenibilità del dataset.</p>",
+        "_feedback":{
+            "correct":"<h5>Esatto!</h5><p>Sapere cosa è successo dopo la pubblicazione dei dati, chi sta utilizzando i dati e come ne viene finanziata la pubblicazione sono informazioni fondamentali per determinare la sostenibilità nel tempo del dataset..</p>",
             "_incorrect": {
-                "notFinal": "<h5>Sei sicuro??</h5><p>Sapere cosa è successo dopo la pubblicazione dei dati, chi sta utilizzando i dati e come viene finanziata la pubblicazione sono informazioni fondamentali da tenere presente per determinare la sostenibilità del dataset.</p>",
-                "final": "<h5>Sei sicuro??</h5><p>Sapere cosa è successo dopo la pubblicazione dei dati, chi sta utilizzando i dati e come viene finanziata la pubblicazione sono informazioni fondamentali da tenere presente per determinare la sostenibilità del dataset.</p>"
+                "notFinal": "<h5>Sei sicuro?</h5><p>Sapere cosa è successo dopo la pubblicazione dei dati, chi sta utilizzando i dati e come ne viene finanziata la pubblicazione sono informazioni fondamentali per determinare la sostenibilità nel tempo del dataset..</p>",
+                "final": "<h5>Sei sicuro?</h5><p>Sapere cosa è successo dopo la pubblicazione dei dati, chi sta utilizzando i dati e come ne viene finanziata la pubblicazione sono informazioni fondamentali per determinare la sostenibilità nel tempo del dataset..</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "<h5>Sei sicuro??</h5><p>Sapere cosa è successo dopo la pubblicazione dei dati, chi sta utilizzando i dati e come viene finanziata la pubblicazione sono informazioni fondamentali da tenere presente per determinare la sostenibilità del dataset.</p>",
-                "final": "<h5>Sei sicuro??</h5><p>Sapere cosa è successo dopo la pubblicazione dei dati, chi sta utilizzando i dati e come viene finanziata la pubblicazione sono informazioni fondamentali da tenere presente per determinare la sostenibilità del dataset.</p>"
-            }
+                "notFinal": "<h5>Sei sicuro?</h5><p>Sapere cosa è successo dopo la pubblicazione dei dati, chi sta utilizzando i dati e come ne viene finanziata la pubblicazione sono informazioni fondamentali per determinare la sostenibilità nel tempo del dataset..</p>",
+                "final": "<h5>Sei sicuro?</h5><p>Sapere cosa è successo dopo la pubblicazione dei dati, chi sta utilizzando i dati e come ne viene finanziata la pubblicazione sono informazioni fondamentali per determinare la sostenibilità nel tempo del dataset..</p>"
+          }
         },
-        "_buttons": {
-            "submit": "",
-            "reset": "",
-            "showCorrectAnswer": "",
-            "hideCorrectAnswer": ""
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
         },
         "_pageLevelProgress": {
-            "_isEnabled": true
-        }
+        "_isEnabled": true
+      }
     },
     {
-        "_id": "c-112",
-        "_parentId": "b-110",
-        "_type": "component",
-        "_component": "graphic",
-        "_classes": "",
-        "_layout": "right",
+        "_id":"c-112",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
         "_graphic": {
             "alt": "Summary icon clipboard",
             "title": "Summary icon clipboard",
             "large": "course/it/images/summary-icon.png",
             "medium": "course/it/images/summary-icon.png",
             "small": "course/it/images/summary-icon.png",
-            "*source": "http://www.shutterstock.com/pic-189810137.html",
-            "*credit": "Kritchanut",
-            "*license": "Shutterstock Standard License"
+            "*source":"http://www.shutterstock.com/pic-189810137.html",
+            "*credit":"Kritchanut",
+            "*license":"Shutterstock Standard License"
         }
     },
     {
-        "_id": "c-111",
-        "_parentId": "b-110",
-        "_type": "component",
-        "_component": "text",
-        "_classes": "",
-        "_layout": "left",
-        "title": "Open data sostenibili",
-        "displayTitle": "Open data sostenibili",
-        "body": "<p>Quando si cercano fonti sostenibili di open data, è importante che queste siano rilevanti, aggiornate ed accessibili.</p><p>Un programma di sviluppo sostenibile è tale se si continuano a pubblicare dati regolarmente, in quantità e con una qualità pari o superiore a quella già raggiunta.</p><p>Utilizzando gli indicatori elencati in precedenza, è possibile identificare le fonti sostenibili di open data che possono essere utilizzati in un lavoro futuro.</p><p>Nel prossimo modulo, vedremo come le piattaforme di open data possono semplificare il processo di pubblicazione e utilizzo dei dati.</p><p><a class='course_link' href='../module8/'>Modulo successivo</a></p><p><a class='course_link' href='../'>Menù principale</a></p>",
+        "_id":"c-111",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Open data sostenibili nel tempo",
+        "displayTitle":"Open data sostenibili nel tempo",
+        "body":"<p>Quando si cercano fonti sostenibili di open data, è importante che queste siano rilevanti, aggiornate ed accessibili.</p><p>Un programma di sviluppo è sostenibile nel tempo se si continuano a pubblicare dati regolarmente, in quantità e con una qualità pari o superiore a quella già raggiunta.</p><p>Utilizzando gli indicatori che abbiamo elencato è possibile identificare quali siano le fonti sostenibili nel tempo di open data che potranno essere usate anche nel futuro.</p><p>Nel prossimo modulo, vedremo come le piattaforme open data possono semplificare il processo di pubblicazione e utilizzo dei dati.</p><p><a class='course_link' href='../module8/'>Modulo successivo</a></p><p><a class='course_link' href='../'>Menù principale</a></p>",
         "_pageLevelProgress": {
-            "_isEnabled": true
+          "_isEnabled": true
         }
     },
     {
-        "_id": "c-113",
-        "_parentId": "b-110",
-        "_type": "component",
-        "_component": "text",
-        "_classes": "separator",
-        "_layout": "full"
+       "_id":"c-113",
+       "_parentId":"b-110",
+       "_type":"component",
+       "_component":"text",
+       "_classes":"separator",
+       "_layout":"full"
     },
     {
-        "_id": "c-1111",
-        "_parentId": "b-110",
-        "_type": "component",
-        "_component": "text",
-        "_classes": "attribution",
-        "body": "&copy; <a href='https://ec.europa.eu/commission/index_en' target='_blank'>European Commission</a>",
-        "_layout": "full"
+       "_id":"c-1111",
+       "_parentId":"b-110",
+       "_type":"component",
+       "_component":"text",
+       "_classes": "attribution",
+       "body":"&copy; <a href='https://ec.europa.eu/commission/index_en' target='_blank'>European Commission</a>",
+       "_layout":"full"
     },
     {
-        "_id": "c-100",
-        "_parentId": "b-110",
-        "_type": "component",
-        "_component": "graphic",
-        "_classes": "footer-logo",
-        "_layout": "left",
+        "_id":"c-100",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"footer-logo",
+        "_layout":"left",
         "_graphic": {
             "alt": "Open data institute logo",
             "title": "Open data institute logo",
             "large": "course/it/images/logo-small.png",
             "medium": "course/it/images/logo-small.png",
             "small": "course/it/images/logo-small.png",
-            "*source": "http://theodi.org",
-            "*credit": "The Open Data Institute",
-            "*license": "All rights reserved"
-        }
+            "*source":"http://theodi.org",
+            "*credit":"The Open Data Institute",
+            "*license":"All rights reserved"  
+    }
     },
     {
-        "_id": "c-104",
-        "_parentId": "b-110",
-        "_type": "component",
-        "_component": "text",
-        "_classes": "attribution not-eu not-default",
-        "_layout": "right",
-        "body": "Content created by <a href='http://theodi.org' target='_blank'>The Open Data Institute</a>"
+        "_id":"c-104",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"attribution not-eu not-default",
+        "_layout":"right",
+        "body":"Content created by <a href='http://theodi.org' target='_blank'>The Open Data Institute</a>"
     },
     {
-        "_id": "c-105",
-        "_parentId": "b-110",
-        "_type": "component",
-        "_component": "text",
-        "_classes": "social-buttons not-dlab",
-        "_layout": "right",
-        "body": "<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/it/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/it/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/it/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/it/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/it/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/it/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/it/images/social/flickr.png'></a>"
+        "_id":"c-105",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"social-buttons not-dlab",
+        "_layout":"right",
+        "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/it/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/it/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/it/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/it/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/it/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/it/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/it/images/social/flickr.png'></a>"
     }
 ]
