@@ -1,71 +1,71 @@
 [
     {
-        "_id": "c-01",
-        "_parentId": "b-01",
-        "_type": "component",
-        "_component": "graphic",
-        "_classes": "intro-logo",
-        "_layout": "right",
-        "title": "",
-        "displayTitle": "",
-        "body": "",
-        "instruction": "",
+        "_id":"c-01",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"intro-logo",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
         "_graphic": {
             "alt": "",
             "title": "",
             "large": "",
             "medium": "",
             "small": "",
-            "*source": "",
-            "*credit": "",
-            "*license": ""
+            "*source":"",
+            "*credit":"",
+            "*license":""
         }
     },
     {
-        "_id": "c-02",
-        "_parentId": "b-01",
-        "_type": "component",
-        "_component": "text",
-        "_classes": "",
-        "_layout": "left",
-        "title": "Trovare dati nascosti sul Web",
-        "displayTitle": "Trovare dati nascosti sul Web",
-        "body": "<p>\"Open data\" non significa solo dataset disponibili per il download. Gli open data scaricabili rappresentano solo una piccola frazione dei dati disponibili sul Web.</p><p>La maggioranza dei dati disponibili sul Web è nascosta all'occhio umano. Tuttavia, le macchine possono trovare e leggere questi dati. </p><h5>In questo modulo vedremo quanto segue:</h5><ul class='ticks'><li>Come individuare dati nascosti</li><li>Quali benefici possono fornire i dati nascosti</li><li>Come ottenere dati nascosti</li></ul>",
-        "instruction": "",
+        "_id":"c-02",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Trovare dati nascosti sul Web",
+        "displayTitle":"Trovare dati nascosti sul Web",
+        "body":"<p>\"Open data\" non significa solo dataset disponibili per il download. Gli open data scaricabili rappresentano solo una piccola frazione dei dati disponibili sul Web.</p><p>La maggioranza dei dati disponibili sul Web è nascosta all'occhio umano. Tuttavia, le macchine possono trovare e leggere questi dati. </p><h5>In questo modulo vedremo quanto segue:</h5><ul class='ticks'><li>Come individuare dati nascosti</li><li>Quali benefici possono fornire i dati nascosti</li><li>Come ottenere dati nascosti</li></ul>",
+        "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
         }
     },
-    {
-        "_id": "c-11",
-        "_parentId": "b-10",
-        "_type": "component",
-        "_component": "iFrame-vimeo",
-        "_classes": "",
-        "_layout": "full",
-        "title": "Individuare dati nascosti - in 2 minuti",
+     {
+    "_id":"c-11",
+    "_parentId":"b-10",
+    "_type":"component",
+    "_component":"iFrame-vimeo",
+    "_classes":"",
+    "_layout":"full",
+        "title":"Individuare dati nascosti - in 2 minuti",
         "displayTitle": "Individuare dati nascosti - in 2 minuti",
         "body": "Il formatore ODI, David Tarrant, spiega cosa sono i dati nascosti, quali vantaggi possono fornire e come possiamo ottenerli.",
         "instruction": "Per attivare e disattivare i sottotitoli, fai clic sul pulsante \"cc\" in basso a destra del video",
-        "_setCompletionOn": "ended",
+        "_setCompletionOn":"ended",
         "_source": "https://player.vimeo.com/video/129197208",
         "_media": {
-            "mp4": "course/it/video/video.mp4",
-            "poster": "course/it/video/placeholder.jpg"
-        },
+		"mp4": "course/it/video/video.mp4",
+		"poster": "course/it/video/placeholder.jpg"
+	},
         "_height": {
-            "_small": 250,
-            "_medium": 350,
-            "_large": 508
+            "_small" : 250,
+            "_medium" : 350,
+            "_large" : 508
         }
     },
     {
-        "_id": "c-21",
-        "_parentId": "b-20",
-        "_type": "component",
-        "_component": "graphic",
-        "_classes": "",
-        "_layout": "right",
+        "_id":"c-21",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
         "_graphic": {
             "alt": "The tip of the iceberg",
             "title": "The tip of the iceberg",
@@ -78,21 +78,21 @@
         }
     },
     {
-        "_id": "c-22",
-        "_parentId": "b-20",
-        "_type": "component",
-        "_component": "text",
-        "_classes": "",
-        "_layout": "left",
-        "title": "Dati che le persone non possono vedere",
-        "displayTitle": "Dati che le persone non possono vedere",
-        "body": "<p>I dati non sono sempre facili da trovare sul Web, poiché la maggior parte delle risorse disponibili sono visibili solo alle macchine. Le persone navigano in modo visivo sul Web, visualizzando contenuti, cliccando sui collegamenti e scaricando i file.</p><p>Le macchine, invece, navigano sul Web attraverso regole logiche stabilite in un codice. Mentre le persone cercano contenuti che attraggono lo sguardo ed interattivi, le macchine richiedono struttura, logica e chiarezza.</p><p>Questa differenza crea dei \"punti ciechi\" nei modi in cui le persone e le macchine leggono il Web.</p><p>Ad esempio, le macchine non possono trovare immediatamente un link per il download in una pagina; le persone hanno difficoltà a vedere dati strutturati e non visivi contenuti nel codice di un sito.</p><p>I file con open data scaricabili sono solo uno dei tipi di dati che ci sono nel Web. Molti altri dati rimangono nascosti nel codice del sito.</p>"
+        "_id":"c-22",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Dati che le persone non possono vedere",
+        "displayTitle":"Dati che le persone non possono vedere",
+        "body":"<p>I dati non sono sempre facili da trovare sul Web, poiché la maggior parte delle risorse disponibili sono visibili solo alle macchine. Le persone navigano in modo visivo sul Web, visualizzando contenuti, cliccando sui collegamenti e scaricando i file.</p><p>Le macchine, invece, navigano sul Web attraverso regole logiche stabilite in un codice. Mentre le persone cercano contenuti che attraggono lo sguardo o contenuti interattivi, le macchine richiedono struttura, logica e chiarezza.</p><p>Questa differenza crea dei \"punti ciechi\" nei modi in cui le persone e le macchine leggono il Web.</p><p>Ad esempio, le macchine non possono trovare immediatamente un link per il download in una pagina; le persone hanno difficoltà a vedere dati strutturati e non visivi contenuti nel codice di un sito.</p><p>I file con open data scaricabili sono solo uno dei tipi di dati che ci sono nel Web. Molti altri dati rimangono nascosti nel codice del sito.</p>"
     },
-    {
+     {
         "_id": "c-25",
         "_parentId": "b-25",
         "_classes": "",
-        "_type": "component",
+        "_type":"component",
         "_layout": "full",
         "_component": "narrative",
         "title": "Trovare dati nascosti",
@@ -111,11 +111,11 @@
                     "*credit": "kentoh",
                     "*licence": "Shutterstock standard license"
                 },
-                "strapline": "Perché nascondere i dati?"
+                "strapline": "Readiness"
             },
             {
                 "title": "Nel web si celano dati ovunque",
-                "body": "<p>Dalle pagine di Wikipedia ai siti per programmare le vacanze, dai siti di moda ai fornitori di energia, il Web è pieno di fonti di dati.</p><p>Le licenze per questi dati nascosti non sono sempre chiare; il fatto che i dati siano leggibili da macchine su un sito non li rende aperti. Se non siete sicuri che i dati nascosti abbiano una licenza di tipo aperto, consultate chi gestisce il sito web.</p>",
+                "body": "<p>Dalle pagine di Wikipedia ai siti per programmare le vacanze, dai siti di moda ai fornitori di energia, il Web è pieno di fonti di dati.</p><p>Le licenze per questi dati nascosti non sono sempre chiare; il fatto che i dati siano leggibili dalle macchine su un sito non li rende aperti. Se non siete sicuri che i dati nascosti abbiano una licenza di tipo aperto, consultate chi gestisce il sito web.</p>",
                 "_graphic": {
                     "src": "course/it/images/odi-003.jpg",
                     "alt": "Implementation",
@@ -124,11 +124,11 @@
                     "*credit": "David Arts",
                     "*licence": "Shutterstock standard license"
                 },
-                "strapline": "Nel web si celano dati ovunque"
+                "strapline": "Implementation"
             },
             {
                 "title": "Che tipo di dati si celano nel Web?",
-                "body": "<p>I dati nascosti appaiono completamente diversi da un dataset aperto scaricabile da un sito web.</p><p>I dati leggibili da una macchina sul Web sono in formati come JSON - il più comune e semplice da usare - incorporato in HTML, in XML e talvolta in RDF.</p><p>Prova gli esercizi proposti più avanti in questo modulo per vedere se riesci ad estrarre dati in questi formati.</p>",
+                "body": "<p>I dati nascosti appaiono completamente diversi da un dataset aperto, scaricabile da un sito web.</p><p>I dati leggibili da una macchina sul Web sono in formati come JSON - il più comune e semplice da usare - incorporato in HTML, in XML e talvolta in RDF.</p><p>Prova gli esercizi proposti più avanti in questo modulo per vedere se riesci ad estrarre dati in questi formati.</p>",
                 "_graphic": {
                     "src": "course/it/images/odi-004.jpg",
                     "alt": "Impact",
@@ -137,20 +137,20 @@
                     "*credit": "Angela Waye",
                     "*licence": "Shutterstock standard license"
                 },
-                "strapline": "Che tipo di dati si celano nel Web?"
+                "strapline": "Impact"
             }
         ],
         "_pageLevelProgress": {
-            "_isEnabled": true
+        "_isEnabled": true
         }
     },
     {
-        "_id": "c-30",
-        "_parentId": "b-28",
-        "_type": "component",
-        "_component": "graphic",
-        "_classes": "",
-        "_layout": "right",
+        "_id":"c-30",
+        "_parentId":"b-28",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
         "_graphic": {
             "alt": "Vantaggi dei dati nascosti",
             "title": "Vantaggi dei dati nascosti",
@@ -163,46 +163,46 @@
         }
     },
     {
-        "_id": "c-35",
-        "_parentId": "b-28",
-        "_type": "component",
-        "_component": "accordion",
-        "_classes": "",
-        "_layout": "left",
-        "title": "Vantaggi dei dati nascosti",
-        "displayTitle": "Vantaggi dei dati nascosti",
-        "instruction": "<em>Click the headings to find out more.</em>",
-        "_items": [
-            {
-                "alt": "Qualità",
-                "title": "Qualità",
-                "body": "<p>In molti casi i dati nascosti sono dati utilizzati da chi gestisce i siti per presentare la pagina web che stai guardando sul loro sito.</p><p>I dati nascosti rappresentano quindi una parte importante di un sito Web ed è probabile che chi li pubblica curi la loro qualità.</p><p>I dati estratti dal Web tendono ad essere più affidabili poiché è probabile che siano dati cruciali per le attività di un'organizzazione. Pertanto, è più probabile che sia una fonte di dati affidabile con cui lavorare.</p>"
-            },
-            {
-                "alt": "Rilevanza",
-                "title": "Rilevanza",
-                "body": "<p>Le organizzazioni non pubblicano sempre dati scaricabili. Tuttavia, molte di esse gestiscono siti web basati sui dati. Accedendo ai dati direttamente tramite flussi di dati esistenti (o dall'interno del codice del sito), siamo già di fronte ad un chiaro esempio di utilizzo dei dati. Questo aiuta ad individuare rapidamente dati rilevanti, partendo dal modo in cui sono già utilizzati piuttosto che dover stabilire da capo come poterli utilizzare. Si vedano ad esempio nelle pagine della BBC News, le sezioni e i relativi flussi di dati<br /><a href='http://www.bbc.co.uk/news/10628494' target='_blank'>Portami ai feed di notizie della BBC</a></p>"
-            },
-            {
-                "alt": "Contesto",
-                "title": "Contesto",
-                "body": "<p>Quando accedi ai dati direttamente dal Web, li visualizzi già nel contesto in cui vengono utilizzati da chi li pubblica. Come abbiamo visto nei moduli precedenti, il contesto dei dati è una componente importante nel loro utilizzo.</p>"
-            },
-            {
-                "alt": "La mole dei dati",
-                "title": "La mole dei dati",
-                "body": "<p>Spesso un'organizzazione ha dei limiti nella quantità di dati che può pubblicare come dati scaricabili.  La ricerca di dati nascosti offre una gamma più ampia di risorse.</p>"
-            }
-        ],
-        "_pageLevelProgress": {
-            "_isEnabled": true
+      "_id":"c-35",
+      "_parentId":"b-28",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"left",
+      "title":"Vantaggi dei dati nascosti",
+      "displayTitle": "Vantaggi dei dati nascosti",
+      "instruction": "<em>Click the headings to find out more.</em>",
+      "_items": [
+        {
+          "alt": "Qualità",
+          "title": "Qualità",
+          "body": "<p>In molti casi i dati nascosti sono dati utilizzati da chi gestisce i siti per presentare la pagina web che stai guardando.</p><p>I dati nascosti rappresentano quindi una parte importante di un sito Web ed è probabile che chi li pubblica curi la loro qualità.</p><p>I dati estratti dal Web tendono ad essere più affidabili poiché sono probabilmente dati cruciali per le attività di un'organizzazione. Pertanto, è più probabile che sia una fonte di dati affidabile con cui lavorare.</p>"
+        },
+        {
+          "alt": "Rilevanza",
+          "title": "Rilevanza",
+          "body": "<p>Le organizzazioni non pubblicano sempre dati scaricabili. Tuttavia, molte di esse gestiscono siti web basati sui dati. Quando accediamo ai dati direttamente tramite flussi di dati esistenti (o dall'interno del codice del sito), abbiamo già a disposizione un chiaro esempio di utilizzo di quei dati. Osservare il modo in cui i dati sono già utilizzati aiuta ad individuare rapidamente dati rilevanti, in modo più semplice rispetto al dover stabilire da capo come poterli utilizzare. Si vedano ad esempio nelle pagine della BBC News, le sezioni e i relativi flussi di dati<br /><a href='http://www.bbc.co.uk/news/10628494' target='_blank'>Portami ai feed di notizie della BBC</a></p>"
+        },
+        {
+          "alt": "Contesto",
+          "title": "Contesto",
+          "body": "<p>Quando accediamo ai dati direttamente dal Web, li visualizziamo già nel contesto in cui vengono utilizzati da chi li pubblica. Come abbiamo visto nei moduli precedenti, il contesto dei dati è una componente importante per il loro utilizzo.</p>"
+        },
+        {
+          "alt": "La mole dei dati",
+          "title": "La mole dei dati",
+          "body": "<p>Spesso un'organizzazione ha dei limiti nella quantità di dati che può pubblicare come dati scaricabili.  La ricerca di dati nascosti offre una gamma più ampia di risorse.</p>"
         }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
     },
-    {
+     {
         "_id": "c-40",
         "_parentId": "b-30",
         "_classes": "",
-        "_type": "component",
+        "_type":"component",
         "_layout": "full",
         "_component": "narrative",
         "title": "Come trovare dati nascosti",
@@ -221,11 +221,11 @@
                     "*credit": "spaxiax",
                     "*licence": "Shutterstock standard license"
                 },
-                "strapline": "Estensioni per il download"
+                "strapline": "Process management"
             },
             {
                 "title": "Flussi di dati (data feeds)",
-                "body": "<p>Molti siti web forniscono link a flussi di dati per la diffusione (data syndication feeds) per cui ci si può registrare.</p><p>Questi flussi possono essere feeds RSS, alert feeds di Twitter o altri tipi meno comuni. I feeds possono essere utilizzati per ottenere dati grezzi su un'ampia selezione di contenuti.</p><p>Per un esempio di un feed di dati grezzi, guarda il feed di notizie della BBC in XML.<br /><a href='http://feeds.bbci.co.uk/news/rss.xml' target='_blank'>Perché non provi i feeds di notizie della BBC in XML?</a></p><p>Ora puoi utilizzare uno strumento gratuito online per rendere questi dati più semplici da utilizzare.<br/><a href='http://codebeautify.org/xmlviewer' target='_blank'>Vai a codebeautify e inserisci l'URL del feed BBC in 'Carica URL'</a></p><p class='not-dlab'>o ricevere avvisi relativi alle esondazioni del fiume più vicino a te (solo nel Regno Unito).<br /><a href='http://www.gaugemap.co.uk/' target='_blank'>Portami al sito con le misurazioni dei livelli dei fiumi</a></p>",
+                "body": "<p>Molti siti web forniscono link a flussi di dati per la diffusione (data syndication feeds) per cui ci si può registrare.</p><p>Questi flussi possono essere feeds RSS, alert feeds di Twitter o altri tipi di feeds meno comuni. I feeds possono essere utilizzati per ottenere dati grezzi su un'ampia selezione di contenuti.</p><p>Per un esempio di un feed di dati grezzi, guarda il feed di notizie della BBC in XML.<br /><a href='http://feeds.bbci.co.uk/news/rss.xml' target='_blank'>Perché non provi i feeds di notizie della BBC in XML?</a></p><p>Ora puoi utilizzare uno strumento gratuito online per rendere questi dati più semplici da utilizzare.<br/><a href='http://codebeautify.org/xmlviewer' target='_blank'>Vai a codebeautify e inserisci l'URL del feed BBC in 'Carica URL'</a></p><p class='not-dlab'>o ricevere avvisi relativi alle esondazioni del fiume più vicino a te (solo nel Regno Unito).<br /><a href='http://www.gaugemap.co.uk/' target='_blank'>Portami al sito con le misurazioni dei livelli dei fiumi</a></p>",
                 "_graphic": {
                     "src": "course/it/images/odi-007.jpg",
                     "alt": "Flussi di dati (data feeds)",
@@ -234,7 +234,7 @@
                     "*credit": "Ing",
                     "*licence": "Shutterstock standard license"
                 },
-                "strapline": "Flussi di dati (data feeds)"
+                "strapline": "User focused"
             },
             {
                 "title": "Codice sorgente",
@@ -247,11 +247,11 @@
                     "*credit": "spaxiax",
                     "*licence": "Shutterstock standard license"
                 },
-                "strapline": "Codice sorgente"
+                "strapline": "User focused"
             },
             {
                 "title": "API o interfacce leggibili dalla macchina",
-                "body": "<p>Alcuni siti web o servizi Web espongono interfacce leggibili da una macchina, o API, per fare delle query e accedere ai loro dati.</p><p></p><p>La maggior parte di questi servizi utilizza un'API basata sul Web e consente l'aggiunta di estensioni (prova \".json\" su OpenCorporates). Anche se questa API sembra uguale a quella dell'esempio precedente in questa sezione, il suo stato formale come API, fornisce una garanzia che il servizio sarà disponibile in futuro.</p>",
+                "body": "<p>Alcuni siti web o servizi Web espongono interfacce leggibili da una macchina, o API, per fare delle query e accedere ai loro dati.</p><p>Esempi di servizi che dispongono di API includono:  <a href='https://api.opencorporates.com/' target='_blank'>Open Corporates</a> (aperto), <a href='http://wiki.openstreetmap.org/wiki/API' target='_blank'>OpenSteetMap</a> (aperto), <a href='https://dev.twitter.com/rest/public' target='_blank'>Twitter</a> (non completamente aperto), <a href='https://www.flickr.com/services/api/' target='_blank'>Flickr</a> (alcuni contenuti aperti), <a href='https://developer.linkedin.com/docs/rest-api' target='_blank'>LinkedIn</a> (non aperto).</p><p>La maggior parte di questi servizi utilizza un'API basata sul Web e consente l'aggiunta di estensioni (prova \".json\" su OpenCorporates). Anche se questa API sembra uguale a quella dell'esempio precedente in questa sezione, il suo stato formale come API, fornisce una garanzia che il servizio sarà disponibile in futuro.</p>",
                 "_graphic": {
                     "src": "course/it/images/odi-009.jpg",
                     "alt": "APIs",
@@ -260,7 +260,7 @@
                     "*credit": "Imagentle",
                     "*licence": "Shutterstock standard license"
                 },
-                "strapline": "API o interfacce leggibili dalla macchina"
+                "strapline": "User focused"
             },
             {
                 "title": "Web scraping",
@@ -273,24 +273,23 @@
                     "*credit": "McIek",
                     "*licence": "Shutterstock standard license"
                 },
-                "strapline": "Web scraping"
+                "strapline": "User focused"
             }
         ],
         "_pageLevelProgress": {
-            "_isEnabled": true
+        "_isEnabled": true
         }
-    },
-    {
-        "_id": "c-42",
-        "_parentId": "b-33",
-        "_type": "component",
-        "_component": "graphic",
-        "_classes": "",
-        "_layout": "right",
-        "title": "",
-        "displayTitle": "",
-        "body": "",
-        "instruction": "",
+    }, {
+        "_id":"c-42",
+        "_parentId":"b-33",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
         "_graphic": {
             "alt": "",
             "title": "",
@@ -300,27 +299,27 @@
         }
     },
     {
-        "_id": "c-43",
-        "_parentId": "b-33",
-        "_type": "component",
-        "_component": "text",
-        "_classes": "",
-        "_layout": "left",
-        "title": "Sei pronto a trovare dati nascosti?",
-        "displayTitle": "Sei pronto a trovare dati nascosti?",
-        "body": "<p>Ricordi le questioni chiave relative ai dati nascosti?</p>",
-        "instruction": "",
+        "_id":"c-43",
+        "_parentId":"b-33",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Sei pronto a trovare dati nascosti?",
+        "displayTitle":"Sei pronto a trovare dati nascosti?",
+        "body":"<p>Ricordi le questioni chiave relative ai dati nascosti?</p>",
+        "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
         }
     },
     {
-        "_id": "c-45",
-        "_parentId": "b-35",
-        "_type": "component",
-        "_component": "graphic",
-        "_classes": "illustration",
-        "_layout": "right",
+        "_id":"c-45",
+        "_parentId":"b-35",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
         "_graphic": {
             "alt": "Tip of the iceberg",
             "title": "Tip of the iceberg",
@@ -333,17 +332,17 @@
         }
     },
     {
-        "_id": "c-50",
-        "_parentId": "b-35",
-        "_type": "component",
-        "_component": "mcq",
-        "_adapt2id": "58b83ba0fda9f5660ad85ae1",
-        "_classes": "",
-        "_layout": "left",
-        "_attempts": 1,
-        "_questionWeight": 1,
-        "_isRandom": true,
-        "_selectable": 1,
+        "_id":"c-50",
+        "_parentId":"b-35",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"58b83ba0fda9f5660ad85ae1",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
         "title": "Cosa sono i dati nascosti?",
         "displayTitle": "Cosa sono i dati nascosti?",
         "body": "<p>I dati nascosti sono...</p>",
@@ -362,34 +361,34 @@
                 "_shouldBeSelected": false
             }
         ],
-        "_feedback": {
-            "correct": "<h5>Esatto!</h5><p>I dati nascosti sono dati invisibili alle persone mentre navigano sul Web ma che una macchina può facilmente trovare e comprendere</p>",
+        "_feedback":{
+            "correct":"<h5>Esatto!</h5><p>I dati nascosti sono dati invisibili alle persone mentre navigano sul Web ma che una macchina può facilmente trovare e comprendere</p>",
             "_incorrect": {
-                "notFinal": "<h5>Sei sicuro??</h5><p>I dati nascosti sono dati invisibili alle persone mentre navigano sul Web ma che una macchina può facilmente trovare e comprendere</p>",
-                "final": "<h5>Sei sicuro??</h5><p>I dati nascosti sono dati invisibili alle persone mentre navigano sul Web ma che una macchina può facilmente trovare e comprendere</p>"
+                "notFinal": "<h5>Sei sicuro?</h5><p>I dati nascosti sono dati invisibili alle persone mentre navigano sul Web ma che una macchina può facilmente trovare e comprendere</p>",
+                "final": "<h5>Sei sicuro?</h5><p>I dati nascosti sono dati invisibili alle persone mentre navigano sul Web ma che una macchina può facilmente trovare e comprendere</p>"
             },
             "_partlyCorrect": {
                 "notFinal": "",
                 "final": ""
-            }
+          }
         },
-        "_buttons": {
-            "submit": "",
-            "reset": "",
-            "showCorrectAnswer": "",
-            "hideCorrectAnswer": ""
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
         },
         "_pageLevelProgress": {
-            "_isEnabled": true
-        }
+        "_isEnabled": true
+      }
     },
     {
-        "_id": "c-55",
-        "_parentId": "b-40",
-        "_type": "component",
-        "_component": "graphic",
-        "_classes": "illustration",
-        "_layout": "left",
+        "_id":"c-55",
+        "_parentId":"b-40",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"left",
         "_graphic": {
             "alt": "Impact",
             "title": "",
@@ -402,17 +401,17 @@
         }
     },
     {
-        "_id": "c-60",
-        "_parentId": "b-40",
-        "_type": "component",
-        "_component": "mcq",
-        "_adapt2id": "58b83d11fda9f5660ad85ae5",
-        "_classes": "",
-        "_layout": "right",
-        "_attempts": 1,
-        "_questionWeight": 1,
-        "_isRandom": true,
-        "_selectable": 1,
+        "_id":"c-60",
+        "_parentId":"b-40",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"58b83d11fda9f5660ad85ae5",
+        "_classes":"",
+        "_layout":"right",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
         "title": "Perché ci sono dati nascosti?",
         "displayTitle": "Perché ci sono dati nascosti?",
         "body": "<p>La gente nasconde i dati perché...</p>",
@@ -427,38 +426,38 @@
                 "_shouldBeSelected": false
             },
             {
-                "text": "la maggior parte delle volte non sono esposti intenzionalmente",
+                "text": "la maggior parte delle volte non sono nascosti intenzionalmente",
                 "_shouldBeSelected": true
             }
         ],
-        "_feedback": {
-            "correct": "<h5>Esatto!</h5><p>La maggior parte dei dati nascosti non è nascosta di proposito. Spesso l'organizzazione che costruisce il sito si concentra sul modo in cui le persone navigano nelle pagine e quindi non pensa a come vengono forniti i dati.</p>",
+        "_feedback":{
+            "correct":"<h5>Esatto!</h5><p>La maggior parte dei dati nascosti non è nascosta di proposito. Spesso l'organizzazione che costruisce il sito si concentra sul modo in cui le persone navigano nelle pagine e quindi non pensa a come vengono forniti i dati.</p>",
             "_incorrect": {
-                "notFinal": "<h5>Sei sicuro??</h5><p>La maggior parte dei dati nascosti non è nascosta di proposito. Spesso l'organizzazione che costruisce il sito si concentra sul modo in cui le persone navigano nelle pagine e quindi non pensa a come vengono forniti i dati.</p>",
-                "final": "<h5>Sei sicuro??</h5><p>La maggior parte dei dati nascosti non è nascosta di proposito. Spesso l'organizzazione che costruisce il sito si concentra sul modo in cui le persone navigano nelle pagine e quindi non pensa a come vengono forniti i dati.</p>"
+                "notFinal": "<h5>Sei sicuro?</h5><p>La maggior parte dei dati nascosti non è nascosta di proposito. Spesso l'organizzazione che costruisce il sito si concentra sul modo in cui le persone navigano nelle pagine e quindi non pensa a come vengono forniti i dati.</p>",
+                "final": "<h5>Sei sicuro?</h5><p>La maggior parte dei dati nascosti non è nascosta di proposito. Spesso l'organizzazione che costruisce il sito si concentra sul modo in cui le persone navigano nelle pagine e quindi non pensa a come vengono forniti i dati.</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "<h5>Sei sicuro??</h5><p>La maggior parte dei dati nascosti non è nascosta di proposito. Often the organisation building the website is concentrating on how humans navigate the pages and therefore isn’t thinking about how the data is provided.</p>",
-                "final": "<h5>Sei sicuro??</h5><p>La maggior parte dei dati nascosti non è nascosta di proposito. Often the organisation building the website is concentrating on how humans navigate the pages and therefore isn’t thinking about how the data is provided.</p>"
-            }
+                "notFinal": "<h5>Sei sicuro?</h5><p>La maggior parte dei dati nascosti non è nascosta di proposito. Often the organisation building the website is concentrating on how humans navigate the pages and therefore isn’t thinking about how the data is provided.</p>",
+                "final": "<h5>Sei sicuro?</h5><p>La maggior parte dei dati nascosti non è nascosta di proposito. Often the organisation building the website is concentrating on how humans navigate the pages and therefore isn’t thinking about how the data is provided.</p>"
+          }
         },
-        "_buttons": {
-            "submit": "",
-            "reset": "",
-            "showCorrectAnswer": "",
-            "hideCorrectAnswer": ""
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
         },
         "_pageLevelProgress": {
-            "_isEnabled": true
-        }
+        "_isEnabled": true
+      }
     },
     {
-        "_id": "c-65",
-        "_parentId": "b-45",
-        "_type": "component",
-        "_component": "graphic",
-        "_classes": "illustration",
-        "_layout": "right",
+        "_id":"c-65",
+        "_parentId":"b-45",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
         "_graphic": {
             "alt": "Vantaggi dei dati nascosti",
             "title": "",
@@ -471,17 +470,17 @@
         }
     },
     {
-        "_id": "c-70",
-        "_parentId": "b-45",
-        "_type": "component",
-        "_component": "mcq",
-        "_adapt2id": "58b83d8dfda9f5660ad85ae9",
-        "_classes": "",
-        "_layout": "left",
-        "_attempts": 1,
-        "_questionWeight": 1,
-        "_isRandom": true,
-        "_selectable": 1,
+        "_id":"c-70",
+        "_parentId":"b-45",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"58b83d8dfda9f5660ad85ae9",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
         "title": "Vantaggi dei dati nascosti",
         "displayTitle": "Vantaggi dei dati nascosti",
         "body": "<p>Quale dei seguenti elementi non è un vantaggio dei dati nascosti?</p>",
@@ -508,34 +507,34 @@
                 "_shouldBeSelected": false
             }
         ],
-        "_feedback": {
-            "correct": "<h5>Esatto!</h5><p>I dati nascosti possono aumentare la rilevanza e la qualità dei dati, la mole disponibile ed evidenziare il contesto in cui i dati vengono utilizzati.</p>",
+        "_feedback":{
+            "correct":"<h5>Esatto!</h5><p>I dati nascosti possono aumentare la rilevanza e la qualità dei dati, la mole disponibile ed evidenziare il contesto in cui i dati vengono utilizzati.</p>",
             "_incorrect": {
-                "notFinal": "<h5>Sei sicuro??</h5>I dati nascosti possono aumentare la rilevanza e la qualità dei dati, la mole disponibile ed evidenziare il contesto in cui i dati vengono utilizzati.</p>",
-                "final": "<h5>Sei sicuro??</h5>I dati nascosti possono aumentare la rilevanza e la qualità dei dati, la mole disponibile ed evidenziare il contesto in cui i dati vengono utilizzati.</p>"
+                "notFinal": "<h5>Sei sicuro?</h5>I dati nascosti possono aumentare la rilevanza e la qualità dei dati, la mole disponibile ed evidenziare il contesto in cui i dati vengono utilizzati.</p>",
+                "final": "<h5>Sei sicuro?</h5>I dati nascosti possono aumentare la rilevanza e la qualità dei dati, la mole disponibile ed evidenziare il contesto in cui i dati vengono utilizzati.</p>"
             },
             "_partlyCorrect": {
                 "notFinal": "I dati nascosti possono aumentare la rilevanza e la qualità dei dati, la mole disponibile ed evidenziare il contesto in cui i dati vengono utilizzati.",
                 "final": "I dati nascosti possono aumentare la rilevanza e la qualità dei dati, la mole disponibile ed evidenziare il contesto in cui i dati vengono utilizzati."
-            }
+          }
         },
-        "_buttons": {
-            "submit": "",
-            "reset": "",
-            "showCorrectAnswer": "",
-            "hideCorrectAnswer": ""
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
         },
         "_pageLevelProgress": {
-            "_isEnabled": true
-        }
+        "_isEnabled": true
+      }
     },
     {
-        "_id": "c-72",
-        "_parentId": "b-50",
-        "_type": "component",
-        "_component": "graphic",
-        "_classes": "illustration",
-        "_layout": "right",
+        "_id":"c-72",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
         "_graphic": {
             "alt": "Codice sorgente",
             "title": "",
@@ -548,17 +547,17 @@
         }
     },
     {
-        "_id": "c-73",
-        "_parentId": "b-50",
-        "_type": "component",
-        "_component": "mcq",
-        "_adapt2id": "58b83ffdfda9f5660ad85af2",
-        "_classes": "",
-        "_layout": "left",
-        "_attempts": 1,
-        "_questionWeight": 1,
-        "_isRandom": true,
-        "_selectable": 1,
+        "_id":"c-73",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"58b83ffdfda9f5660ad85af2",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
         "title": "Come si possono estrarre i dati nascosti da un sito web?",
         "displayTitle": "Come si possono estrarre i dati nascosti da un sito web?",
         "body": "<p>Quale dei seguenti metodi è utile per estrarre dati nascosti da un sito web?</p>",
@@ -577,110 +576,110 @@
                 "_shouldBeSelected": true
             }
         ],
-        "_feedback": {
-            "correct": "<h5>Esatto!</h5><p>L'ispezione del codice sorgente di un sito web spesso rivela i dati nascosti incorporati nella pagina.</p>",
+        "_feedback":{
+            "correct":"<h5>Esatto!</h5><p>L'ispezione del codice sorgente di un sito web spesso rivela i dati nascosti incorporati nella pagina.</p>",
             "_incorrect": {
-                "notFinal": "<h5>Sei sicuro??</h5><p>Ispezionare il codice sorgente of a website often reveals hidden data embedded in the page</p>",
-                "final": "<h5>Sei sicuro??</h5><p>I dati nascosti possono aumentare la rilevanza e la qualità dei dati, la mole disponibile ed evidenziare il contesto in cui i dati vengono utilizzati.</p>"
+                "notFinal": "<h5>Sei sicuro?</h5><p>Ispezionare il codice sorgente of a website often reveals hidden data embedded in the page</p>",
+                "final": "<h5>Sei sicuro?</h5><p>I dati nascosti possono aumentare la rilevanza e la qualità dei dati, la mole disponibile ed evidenziare il contesto in cui i dati vengono utilizzati.</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "<h5>Sei sicuro??</h5><p>Ispezionare il codice sorgente of a website often reveals hidden data embedded in the page</p>",
-                "final": "<h5>Sei sicuro??</h5><p>L'ispezione del codice sorgente di un sito web spesso rivela i dati nascosti incorporati nella pagina.</p>"
-            }
+                "notFinal": "<h5>Sei sicuro?</h5><p>Ispezionare il codice sorgente of a website often reveals hidden data embedded in the page</p>",
+                "final": "<h5>Sei sicuro?</h5><p>L'ispezione del codice sorgente di un sito web spesso rivela i dati nascosti incorporati nella pagina.</p>"
+          }
         },
-        "_buttons": {
-            "submit": "",
-            "reset": "",
-            "showCorrectAnswer": "",
-            "hideCorrectAnswer": ""
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
         },
         "_pageLevelProgress": {
-            "_isEnabled": true
-        }
+        "_isEnabled": true
+      }
     },
     {
-        "_id": "c-85",
-        "_parentId": "b-55",
-        "_type": "component",
-        "_component": "graphic",
-        "_classes": "",
-        "_layout": "right",
+        "_id":"c-85",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
         "_graphic": {
             "alt": "Summary icon clipboard",
             "title": "Summary icon clipboard",
             "large": "course/it/images/summary-icon.png",
             "medium": "course/it/images/summary-icon.png",
             "small": "course/it/images/summary-icon.png",
-            "*source": "http://www.shutterstock.com/pic-189810137.html",
-            "*credit": "Kritchanut",
-            "*license": "Shutterstock Standard License"
+            "*source":"http://www.shutterstock.com/pic-189810137.html",
+            "*credit":"Kritchanut",
+            "*license":"Shutterstock Standard License"
         }
     },
     {
-        "_id": "c-90",
-        "_parentId": "b-55",
-        "_type": "component",
-        "_component": "text",
-        "_classes": "",
-        "_layout": "left",
-        "title": "Trovare dati nascosti",
-        "displayTitle": "Trovare dati nascosti",
-        "body": "<p>I dati disponibili per il download sono solo una piccola parte dei dati disponibili sul Web.</p><p>Mentre l'occhio umano non sempre può vedere questi dati, utilizzando le macchine è possibile identificare e raccogliere un gran numero di nuovi dati.</p><p>I dati accessibili da questi siti web spesso sono molto più estesi e più rilevanti per il tuo lavoro rispetto ai file scaricabili ed inoltre sono estratti direttamente dal contesto in cui sono già utilizzati da chi li pubblica.</p><p>Aumentando la consapevolezza sull'esistenza di dati nascosti e imparando alcuni degli approcci semplici presentati in questo modulo, come ad esempio l'uso di query tramite estensioni e le API, potrai accedere ad un'ampia gamma di dati rilevanti per il tuo futuro lavoro.</p><p><a class='course_link' href='../module13/'>Modulo successivo</a></p><p><a class='course_link' href='../'>Menù principale</a></p>",
+        "_id":"c-90",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Trovare dati nascosti",
+        "displayTitle":"Trovare dati nascosti",
+        "body":"<p>I dati disponibili per il download sono solo una piccola parte dei dati disponibili sul Web.</p><p>Mentre l'occhio umano non sempre riesce a vedere questi dati, utilizzando le macchine è possibile identificare e raccogliere un gran numero di nuovi dati.</p><p>I dati accessibili da questi siti web spesso sono molto più estesi e più rilevanti rispetto ai file scaricabili ed inoltre sono estratti direttamente dal contesto in cui sono già utilizzati da chi li pubblica.</p><p>Aumentando la consapevolezza sull'esistenza di dati nascosti e imparando alcuni degli approcci semplici presentati in questo modulo, come ad esempio l'uso di query tramite estensioni e le API, potrai accedere ad un'ampia gamma di dati rilevanti per il tuo futuro lavoro.</p><p><a class='course_link' href='../module13/'>Modulo successivo</a></p><p><a class='course_link' href='../'>Menù principale</a></p>",
         "_pageLevelProgress": {
-            "_isEnabled": true
+          "_isEnabled": true
         }
     },
     {
-        "_id": "c-95",
-        "_parentId": "b-55",
-        "_type": "component",
-        "_component": "text",
-        "_classes": "separator",
-        "_layout": "full"
+       "_id":"c-95",
+       "_parentId":"b-55",
+       "_type":"component",
+       "_component":"text",
+       "_classes":"separator",
+       "_layout":"full"
     },
     {
-        "_id": "c-96",
-        "_parentId": "b-55",
-        "_type": "component",
-        "_component": "text",
-        "_classes": "attribution",
-        "body": "&copy; <a href='https://ec.europa.eu/commission/index_en' target='_blank'>European Commission</a>",
-        "_layout": "full"
+       "_id":"c-96",
+       "_parentId":"b-55",
+       "_type":"component",
+       "_component":"text",
+       "_classes": "attribution",
+       "body":"&copy; <a href='https://ec.europa.eu/commission/index_en' target='_blank'>European Commission</a>",
+       "_layout":"full"
     },
     {
-        "_id": "c-100",
-        "_parentId": "b-55",
-        "_type": "component",
-        "_component": "graphic",
-        "_classes": "footer-logo",
-        "_layout": "left",
+        "_id":"c-100",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"footer-logo",
+        "_layout":"left",
         "_graphic": {
             "alt": "Open data institute logo",
             "title": "Open data institute logo",
             "large": "course/it/images/logo-small.png",
             "medium": "course/it/images/logo-small.png",
             "small": "course/it/images/logo-small.png",
-            "*source": "http://theodi.org",
-            "*credit": "The Open Data Institute",
-            "*license": "All rights reserved"
+            "*source":"http://theodi.org",
+            "*credit":"The Open Data Institute",
+            "*license":"All rights reserved"  
         }
     },
     {
-        "_id": "c-104",
-        "_parentId": "b-55",
-        "_type": "component",
-        "_component": "text",
-        "_classes": "attribution not-eu not-default",
-        "_layout": "right",
-        "body": "Content created by <a href='http://theodi.org' target='_blank'>The Open Data Institute</a>"
+        "_id":"c-104",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"attribution not-eu not-default",
+        "_layout":"right",
+        "body":"Content created by <a href='http://theodi.org' target='_blank'>The Open Data Institute</a>"
     },
     {
-        "_id": "c-105",
-        "_parentId": "b-55",
-        "_type": "component",
-        "_component": "text",
-        "_classes": "social-buttons not-dlab",
-        "_layout": "right",
-        "body": "<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/it/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/it/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/it/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/it/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/it/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/it/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/it/images/social/flickr.png'></a>"
+        "_id":"c-105",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"social-buttons not-dlab",
+        "_layout":"right",
+        "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/it/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/it/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/it/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/it/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/it/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/it/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/it/images/social/flickr.png'></a>"
     }
 ]
