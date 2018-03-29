@@ -2,7 +2,7 @@
     "_id": "course",
     "_type": "course",
     "_buttons": {
-        "submit": "Sottoscrivi",
+        "submit": "Invia",
         "reset": "Reset",
         "showCorrectAnswer": "Modello di risposta",
         "hideCorrectAnswer": "La mia risposta"
@@ -28,29 +28,29 @@
             {
                 "_type": "link",
                 "_local": "true",
-		        "title": "Modulo 1",
-                "description": "Cosa sono gli open data (dati aperti)?",
+		"title": "Modulo 1",
+                "description": "Cosa sono gli open data?",
                 "_link": "../module1/"
             },
             {
                 "_type": "link",
                 "_local": "true",
 		"title": "Modulo 2",
-                "description": "Il valore aggiunto degli open data",
+                "description": "Liberare il valore degli open data",
                 "_link": "../module2/"
             },
             {
                 "_type": "link",
                 "_local": "true",
 		"title": "Modulo 3",
-                "description": "Open data: un fattore di cambiamento",
+                "description": "Open data: un agente di cambiamento",
                 "_link": "../module3/"
             },
             {
                 "_type": "link",
                 "_local": "true",
 		"title": "Modulo 4",
-                "description": "Perché ai dati deve avere assegnata una licenza?",
+                "description": "Perché si deve avere assegnare una licenza ai dati?",
                 "_link": "../module4/"
             },
             {
@@ -64,7 +64,7 @@
                 "_type": "link",
                 "_local": "true",
 		"title": "Modulo 6",
-                "description": "Misurare il successo degli open data",
+                "description": "Misurare il successo delle iniziative open data",
                 "_link": "../module6/"
             },
             {
@@ -78,21 +78,21 @@
                 "_type": "link",
                 "_local": "true",
 		"title": "Modulo 8",
-                "description": "Come affrontare la questione delle piattaforme",
+                "description": "Capire le piattaforme open data",
                 "_link": "../module8/"
             },
             {
                 "_type": "link",
                 "_local": "true",
 		"title": "Modulo 9",
-                "description": "Scegliere il giusto formato per gli open data ",
+                "description": "Scegliere il giusto formato per gli open data",
                 "_link": "../module9/"
             },
             {
                 "_type": "link",
                 "_local": "true",
 		"title": "Modulo 10",
-                "description": "Quanto sono utili i miei dati?",
+                "description": "Quanto utili sono i miei dati?",
                 "_link": "../module10/"
             },
             {
