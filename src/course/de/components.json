@@ -1,0 +1,685 @@
+[
+    {
+        "_id":"c-01",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"intro-logo",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "",
+            "medium": "",
+            "small": "",
+            "*source":"",
+            "*credit":"",
+            "*license":""
+        }
+    },
+    {
+        "_id":"c-02",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Versteckte Daten im Web finden",
+        "displayTitle":"Versteckte Daten im Web finden",
+        "body":"<p>Open Data steht nicht nur für Datensätze, die online zum Download bereitgestellt werden. Herunterladbare offene Daten stellen nämlich nur einen kleinen Teil der im Web verfügbaren Daten dar.</p><p>Die meisten im Internet verfügbaren Daten sind für das menschliche Auge verborgen. Meschinen können solche Daten jedoch finden und lesen.</p><h5>In diesem Modul werden wir folgende Aspekte untersuchen:</h5><ul class='ticks'><li>Wie kann man versteckte Daten im Internet finden</li><li>Welche Vorteile können versteckte Daten bieten</li><li>Wie kann man versteckte Daten herunterladen</li></ul>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+     {
+    "_id":"c-11",
+    "_parentId":"b-10",
+    "_type":"component",
+    "_component":"iFrame-vimeo",
+    "_classes":"",
+    "_layout":"full",
+        "title":"Versteckte Daten finden - in 2 Minuten",
+        "displayTitle": "Versteckte Daten finden - in 2 Minuten",
+        "body": "ODI-Trainer David Tarrant erklärt, welche versteckten Daten vorhanden sind, welche Vorteile sie bieten und wie Sie an diese Daten rankommen können.",
+        "instruction": "Um Untertitel ein- und auszuschalten, klicken Sie auf die Schaltfläche \"cc\" unten rechts im Video",
+        "_setCompletionOn":"ended",
+        "_source": "https://player.vimeo.com/video/129197208",
+        "_media": {
+		"mp4": "course/de/video/video.mp4",
+		"poster": "course/de/video/placeholder.jpg"
+	},
+        "_height": {
+            "_small" : 250,
+            "_medium" : 350,
+            "_large" : 508
+        }
+    },
+    {
+        "_id":"c-21",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "The tip of the iceberg",
+            "title": "The tip of the iceberg",
+            "large": "course/de/images/odi-001.jpg",
+            "medium": "course/de/images/odi-001.jpg",
+            "small": "course/de/images/odi-001.jpg",
+            "*source": "http://www.shutterstock.com/pic-278213858.html",
+            "*credit": "Lightspring",
+            "*licence": "Shutterstock standard license"
+        }
+    },
+    {
+        "_id":"c-22",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Die Daten, die wir im Internet nicht sehen können",
+        "displayTitle":"Die Daten, die wir im Internet nicht sehen können",
+        "body":"<p>Daten sind im Web nicht immer einfach zu finden, da die meisten verfügbaren Ressourcen nur für Maschinen auffindbar sind. Menschen suchen visuell im Web nach Inhalten und haben die Möglichkeit, durch den Download oder das Anklicken von Links, Dateien im Detail zu sehen.</p><p>Im Gegensatz dazu navigieren Maschinen im Web nur durch logische Regeln, die im Quellcode der Webseiten festgelegt sind. Während Menschen nach interagierenden, interaktiven Inhalten suchen, benötigen Maschinen Struktur, Logik und Klarheit.</p><p>Dieser Unterschied schafft sogenannte \"blind Spots\" hinsichtlich der Art und Weise wie Menschen und Maschinen die Inhalte im Internet lesen.</p><p>Zum Beispiel können Maschinen nicht immer sofort einen Download-Link auf einer Seite finden; Menschen wiederum finden es schwierig, strukturierte, nicht-visuelle Daten zu sehen, die im Quellcode enthalten sind.</p><p>Offene Datensätze, die im Internet heruntergeladen werden können, sind nur eine Art von Daten, die im Internet zur Verfügung stehen. Viele weitere Daten bleiben im Webcode verborgen.</p>"
+    },
+     {
+        "_id": "c-25",
+        "_parentId": "b-25",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Versteckte Daten finden",
+        "displayTitle": "Versteckte Daten finden",
+        "body": "Nicht alle im Internet verfügbare Daten lassen sich herunterladen. Oft sind diese auf den verschiedenen Webseiten versteckt, die wir jeden Tag besuchen.",
+        "instruction": "<em class='desktop-instruction'>Klicken Sie auf den Vorwärtspfeil um mehr zu erfahren</em><em class='mobile-instruction'>Klicken Sie auf das \"+\" Symbol um mehr zu erfahren. Klicken Sie rechts auf das Bild, um mehr zu sehen.</em>",
+        "_items": [
+            {
+                "title": "Warum Daten im Web verstecken?",
+                "body": "<p>Die Umstellung auf datengetriebenes, mobiles Internet hat die Art und Weise, wie Webseiten aufgebaut sind, verändert. Um die Erwartungen der Nutzer an interaktive, visuelle Webseiten zu erfüllen, platzieren Entwickler Daten zunehmend in einer separaten ‚Schicht‘ oder sogar im Code selbst. Diese Datenschicht ist für diejenigen zugänglich, die die richtigen Programme verwenden.</p>",
+                "_graphic": {
+                    "src": "course/de/images/odi-002.jpg",
+                    "alt": "Readiness",
+                    "title": "Readiness",
+                    "*source": "http://www.shutterstock.com/pic-145267489",
+                    "*credit": "kentoh",
+                    "*licence": "Shutterstock standard license"
+                },
+                "strapline": "Warum Daten im Web verstecken?"
+            },
+            {
+                "title": "Daten verstecken sich überall",
+                "body": "<p>Von Wikipedia-Seiten über Urlaubsplaner, Mode-Webseiten bis hin zu Energieversorgern ist das Internet voll von Datenquellen.</p><p>Die Lizenzen für diese versteckten Daten sind nicht immer eindeutig. Nur weil die Daten auf einer öffentlichen Webseite maschinenlesbar sind, bedeutet dies nicht, dass sie auch offene Daten qualifizieren. Wenn Sie sich nicht sicher sind, ob versteckte Daten offen lizenziert sind, wenden Sie sich an den Betreiber der Webseite.</p>",
+                "_graphic": {
+                    "src": "course/de/images/odi-003.jpg",
+                    "alt": "Implementation",
+                    "title": "Implementation",
+                    "*source": "http://www.shutterstock.com/pic-144137602",
+                    "*credit": "David Arts",
+                    "*licence": "Shutterstock standard license"
+                },
+                "strapline": "Daten verstecken sich überall"
+            },
+            {
+                "title": "Welche Art von Daten sind versteckt?",
+                "body": "<p>Versteckte Daten unterscheiden sich grundlegend von einem offenen Datensatz, den Sie von einer Webseite herunterladen.</p><p>Maschinenlesbare Daten werden in Formaten wie JSON – am gebräuchlichsten und einfachsten zu verwenden – im HTML-, im XML- und manchmal im RDF-Format eingebettet.</p><p>Absolvieren Sie die Aufgaben am Ende dieses Moduls, um herauszufinden, ob Sie Daten in diesen Formaten extrahieren können.</p>",
+                "_graphic": {
+                    "src": "course/de/images/odi-004.jpg",
+                    "alt": "Impact",
+                    "title": "Impact",
+                    "*source": "http://www.shutterstock.com/pic-79079872",
+                    "*credit": "Angela Waye",
+                    "*licence": "Shutterstock standard license"
+                },
+                "strapline": "Impact"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-30",
+        "_parentId":"b-28",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Vorteile von versteckten Daten",
+            "title": "Vorteile von versteckten Daten",
+            "large": "course/de/images/odi-005.jpg",
+            "medium": "course/de/images/odi-005.jpg",
+            "small": "course/de/images/odi-005.jpg",
+            "*source": "http://www.shutterstock.com/pic-203736538",
+            "*credit": "Digital Storm",
+            "*licence": "Shutterstock standard license"
+        }
+    },
+    {
+      "_id":"c-35",
+      "_parentId":"b-28",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"left",
+      "title":"Vorteile von versteckten Daten",
+      "displayTitle": "Vorteile von versteckten Daten",
+      "instruction": "<em>Klicken Sie auf die jeweiligen Überschriften, um mehr zu erfahren.</em>",
+      "_items": [
+        {
+          "alt": "Qualität",
+          "title": "Qualität",
+          "body": "<p>In vielen Fällen handelt es sich bei versteckten Daten um Daten, die von einem Datenherausgeber verwendet werden, um die Internetseite, die Sie gerade betrachten, auf seiner Webseite zu präsentieren.</p><p>Die versteckten Daten sind daher ein wichtiger Bestandteil ihrer Online-Arbeit und es ist wahrscheinlich, dass der Datenherausgeber sich um die Qualität dieser Daten kümmert.</p><p>Daten, die aus dem Internet extrahiert werden, sind in der Regel zuverlässiger, da es sich wahrscheinlich um Daten handelt, die den Kern des Betriebs einer Organisation bilden. Daher ist es wahrscheinlicher, dass es sich um eine zuverlässige Datenquelle handelt, mit der man arbeiten kann.</p>"
+        },
+        {
+          "alt": "Relevanz",
+          "title": "Relevanz",
+          "body": "<p>Organisationen veröffentlichen nicht immer Daten, die heruntergeladen werden können. Viele von ihnen betreiben jedoch datengesteuerte Webseiten. Durch den direkten Zugriff auf die Daten über bestehende Daten-Feeds (oder aus dem Code der Webseite) ergibt sich eine eindeutige Nutzung der Daten. Dies hilft Ihnen, relevante Daten aus dieser bestehenden Nutzung schnell zu identifizieren, anstatt die Nutzung selbst zu ermitteln. Zum Beispiel, die BBC News Seiten, Abschnitte und verwandte Daten-Feeds.<br /><a href='http://www.bbc.co.uk/news/10628494' target='_blank'>Hier geht’s zum BBC-Newsfeeds</a></p>"
+        },
+        {
+          "alt": "Kontext",
+          "title": "Kontext",
+          "body": "<p>Wenn Sie direkt auf Daten im Web zugreifen, sehen Sie diese bereits in einem Kontext, in dem sie vom Herausgeber verwendet werden. Wie wir bereits in den vorangegangenen Modulen beschrieben haben, ist der Kontext der Daten ein wichtiger Bestandteil ihrer Verwendung.</p>"
+        },
+        {
+          "alt": "Umfang",
+          "title": "Umfang",
+          "body": "<p>Häufig ist eine Organisation hinsichtlich der Menge der Daten, die sie als herunterladbare Daten veröffentlichen kann, eingeschränkt.  Die Suche nach versteckten Daten öffnet ein breiteres Spektrum an Ressourcen.</p>"
+        }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+     {
+        "_id": "c-40",
+        "_parentId": "b-30",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Wie finde ich versteckte Daten im Internet?",
+        "displayTitle": "Wie finde ich versteckte Daten im Internet?",
+        "body": "<p>Aus Daten gewinnen wir Informationen, aus Informationen gewinnen wir Erkenntnisse und Wissen.</p><p>Bitte beachten Sie, dass die Tatsache, dass Sie versteckte Daten aus dem Internet extrahieren können, diese Daten nicht automatisch zu Open Data macht. Sie sollten immer die Nutzungsbedingungen und Lizenzen auf der Webseite prüfen, bevor Sie Daten für irgendeinen Zweck verwenden. Weitere Informationen zu Lizenzen finden Sie im Modul 4 dieses Kurses.</p<",
+        "instruction": "<em class='desktop-instruction'>Klicken Sie auf den Vorwärtspfeil um mehr zu erfahren</em><em class='mobile-instruction'>Klicken Sie auf das \"+\" Symbol um mehr zu erfahren. Klicken Sie rechts auf das Bild, um mehr zu sehen.</em>",
+        "_items": [
+            {
+                "title": "Extension downloads",
+                "body": "<p>Einige Webseiten wurden so gebaut, dass sie die Möglichkeit bieten, Daten zu extrahieren, indem Sie der URL der Webseite, die Sie gerade besuchen, eine Erweiterung hinzufügen. Für solche Webseiten, die normalerweise von Organisationen betrieben werden, die auch herunterladbare offene Daten veröffentlichen, löst das Hinzufügen der korrekten Erweiterung einen Download dieser Seite in einem Datenformat aus, statt in einem Browserformat.</p><p>Ein gutes Beispiel dafür ist die Webseite der britischen Regierung (gov.uk), die jede Seite in einem Datenformat bereitstellt, indem der Nutzer einfach die entsprechende Erweiterung wie \".json\" hinzufügt, wie z. B. www.gov.uk/browse/business.json.</p><p>Versuchen Sie es selbst, indem Sie die folgende Seite aufrufen und dann \".json\" hinzufügen, um die Daten zu erhalten.<br /><a href='https://www.gov.uk/trade-tariff/sections' target='_blank'>Hier geht’s zum britischen Gov Trade-Tariff.</a></p><p>Um die Daten in einer für Menschen lesbaren Form anzuzeigen, kopieren Sie sie in jsonlint.com.</p>",
+                "_graphic": {
+                    "src": "course/de/images/odi-006.jpg",
+                    "alt": "Extensions",
+                    "title": "Extensions",
+                    "*source": "http://www.shutterstock.com/pic-119236978",
+                    "*credit": "spaxiax",
+                    "*licence": "Shutterstock standard license"
+                },
+                "strapline": "Extension downloadst"
+            },
+            {
+                "title": "Daten-Feeds",
+                "body": "<p>Viele Webseiten bieten Links zu Daten-Feeds an, die abonniert werden können.</p><p>Diese Feeds können RSS (Really Simple Syndication)-Feeds, Twitter-Benachrichtigungs-Feeds oder andere, weniger verbreitete Typen sein. Feeds können verwendet werden, um Rohdaten über eine breite Auswahl an Inhalten zu erhalten.</p><p>Hier ist ein Beispiel für einen Daten-Feed der BBC in XML.<br /><a href='http://feeds.bbci.co.uk/news/rss.xml' target='_blank'>Ferner können Sie ein kostenloses Online-Tool verwenden, um diese Daten einfacher zu verwenden.</a></p><p>Rufen Sie die Seite Codebeautify auf und geben.<br/><a href='http://codebeautify.org/xmlviewer' target='_blank'> Sie die URL des BBC-Feeds unter \"Load URL\" ein.</a></p><p class='not-dlab'>oder stellen Sie Warnungen hinsichtlich des steigenden Wasserpegels von nahe gelegenen Flüssen (nur in Großbritannien) ein.<br /><a href='http://www.gaugemap.co.uk/' target='_blank'>Hier geht’s zum Flusspegelmesser</a></p>",
+                "_graphic": {
+                    "src": "course/de/images/odi-007.jpg",
+                    "alt": "Daten-Feeds",
+                    "title": "Daten-Feeds",
+                    "*source": "http://www.shutterstock.com/pic-72158482",
+                    "*credit": "Ing",
+                    "*licence": "Shutterstock standard license"
+                },
+                "strapline": "Daten-Feeds"
+            },
+            {
+                "title": "Quellcode",
+                "body": "<p>Viele Webseiten bieten nicht nur einen einfachen Weg zu den Daten, sondern enthalten auch Daten, die in den Quellcode der Webseite eingebettet sind.</p><p>Warum probieren Sie nicht das experimentelle Tool des ODI „Hidden Data Extractor“ aus, um den Quellcode zu finden?<br><br><a href='http://odinprac.theodi.org/hidden-data-extractor/' target='_blank'>Hier geht’s zum ODI Hidden Data Extractor</a></p>",
+                "_graphic": {
+                    "src": "course/de/images/odi-008.jpg",
+                    "alt": "Quellcode",
+                    "title": "Quellcode",
+                    "*source": "http://www.shutterstock.com/pic-119236978",
+                    "*credit": "spaxiax",
+                    "*licence": "Shutterstock standard license"
+                },
+                "strapline": "Quellcode"
+            },
+            {
+                "title": "APIs oder maschinenlesbare Schnittstellen",
+                "body": "<p>Einige Webseiten oder Webdienste stellen eine maschinenlesbare Schnittstelle (API) für die Abfrage und den Zugriff auf ihre Daten zur Verfügung.</p><p>Beispiele für Dienste mit APIs sind: <a href='https://api.opencorporates.com/' target='_blank'>Open Corporates</a> (offen), <a href='http://wiki.openstreetmap.org/wiki/API' target='_blank'>OpenSteetMap</a> (offen), <a href='https://dev.twitter.com/rest/public' target='_blank'>Twitter</a> (nicht vollständig offen, <a href='https://www.flickr.com/services/api/' target='_blank'>Flickr</a> (teilweise offen), <a href='https://developer.linkedin.com/docs/rest-api' target='_blank'>LinkedIn</a> (nicht offen).</p><p>Die meisten dieser Dienste verwenden eine webbasierte API und erlauben das Hinzufügen von Erweiterungen (probieren Sie \".json\" auf OpenCorporates aus). Obwohl diese API genauso aussieht wie das vorherige Beispiel in diesem Abschnitt, bietet ihr formaler Status als API eine Garantie dafür, dass der Service verfügbar ist.</p>",
+                "_graphic": {
+                    "src": "course/de/images/odi-009.jpg",
+                    "alt": "APIs",
+                    "title": "APIs",
+                    "*source": "http://www.shutterstock.com/pic-231102415",
+                    "*credit": "Imagentle",
+                    "*licence": "Shutterstock standard license"
+                },
+                "strapline": "APIs oder maschinenlesbare Schnittstellen"
+            },
+            {
+                "title": "Im Internet nach Daten suchen",
+                "body": "<p>Wenn keine dieser Techniken funktioniert, müssen Sie eventuell selber auf den Webseiten nachschauen. Dies kann zwar zuverlässig sein, es besteht jedoch die Gefahr, dass sich das Layout und der Inhalt ändern.</p><p>Warum probieren Sie nicht <a href='http://magic.import.io' target='_blank'>magic.import.io</a> aus, um zu sehen, wie einfach es sein kann?</p>",
+                "_graphic": {
+                    "src": "course/de/images/odi-010.jpg",
+                    "alt": "Scraping the web",
+                    "title": "Scraping the web",
+                    "*source": "http://www.shutterstock.com/pic-231672367",
+                    "*credit": "McIek",
+                    "*licence": "Shutterstock standard license"
+                },
+                "strapline": "Im Internet nach Daten suchen"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    }, {
+        "_id":"c-42",
+        "_parentId":"b-33",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/de/images/burst.png",
+            "medium": "course/de/images/burst.png",
+            "small": "course/de/images/burst.png"
+        }
+    },
+    {
+        "_id":"c-43",
+        "_parentId":"b-33",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Sind Sie bereit, im Internet versteckte Daten zu finden?",
+        "displayTitle":"Sind Sie bereit, im Internet versteckte Daten zu finden?",
+        "body":"<p>Können Sie sich an die wichtigsten Aspekte hinsichtlich versteckter Daten erinnern?</p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-45",
+        "_parentId":"b-35",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Tip of the iceberg",
+            "title": "Tip of the iceberg",
+            "large": "course/de/images/odi-011.jpg",
+            "medium": "course/de/images/odi-011.jpg",
+            "small": "course/de/images/odi-011.jpg",
+            "*source": "http://www.shutterstock.com/pic-278213858.html",
+            "*credit": "Lightspring",
+            "*licence": "Shutterstock standard license"
+        }
+    },
+    {
+        "_id":"c-50",
+        "_parentId":"b-35",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"58b83ba0fda9f5660ad85ae1",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Was sind versteckte Daten?",
+        "displayTitle": "Was sind versteckte Daten?",
+        "body": "<p>Versteckte Daten sind....</p>",
+        "instruction": "<em>Wählen Sie Ihre Antwort und klicken Sie dann auf \"Absenden\"</em>",
+        "_items": [
+            {
+                "text": "Teil einer Schatzsuche",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Daten, die für Maschinen sichtbar, aber für das menschliche Auge unsichtbar sind.",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "Schwer herunterladbare Dateien",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Richtig!</h5><p>Versteckte Daten sind Daten, die für Menschen unsichtbar sind, wenn sie im Web navigieren, die aber von einer Maschine leicht zu finden und zu verstehen sind.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Sind Sie sicher?</h5><p>Versteckte Daten sind Daten, die für Menschen unsichtbar sind, wenn sie im Web navigieren, die aber von einer Maschine leicht zu finden und zu verstehen sind.</p>",
+                "final": "<h5>Sind Sie sicher?</h5><p>Versteckte Daten sind Daten, die für Menschen unsichtbar sind, wenn sie im Web navigieren, die aber von einer Maschine leicht zu finden und zu verstehen sind.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "",
+                "final": ""
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-55",
+        "_parentId":"b-40",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Impact",
+            "title": "",
+            "large": "course/de/images/odi-012.jpg",
+            "medium": "course/de/images/odi-012.jpg",
+            "small": "course/de/images/odi-012.jpg",
+            "*source": "http://www.shutterstock.com/pic-79079872",
+            "*credit": "Angela Waye",
+            "*licence": "Shutterstock standard license"
+        }
+    },
+    {
+        "_id":"c-60",
+        "_parentId":"b-40",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"58b83d11fda9f5660ad85ae5",
+        "_classes":"",
+        "_layout":"right",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Warum werden Daten versteckt?",
+        "displayTitle": "Warum werden Daten versteckt?",
+        "body": "<p>Menschen verstecken Daten, weil....</p>",
+        "instruction": "<em>Wählen Sie Ihre Antwort und klicken Sie dann auf \"Absenden\"</em>",
+        "_items": [
+            {
+                "text": "sie sich dafür schämen",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "diese chaotisch sind",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "sie die Daten meistens absichtlich versteckt haben",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Richtig!</h5><p>Die meisten versteckten Daten werden nicht absichtlich versteckt. Häufig fokkusiert sich die Organisation, die die Website erstellt, auf die Art und Weise, wie Menschen durch die Seiten navigieren und denkt deshalb nicht darüber nach, wie die Daten bereitgestellt werden.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Sind Sie sicher?</h5><p>Die meisten versteckten Daten werden nicht absichtlich versteckt. Häufig fokkusiert sich die Organisation, die die Website erstellt, auf die Art und Weise, wie Menschen durch die Seiten navigieren und denkt deshalb nicht darüber nach, wie die Daten bereitgestellt werden.</p>",
+                "final": "<h5>Sind Sie sicher?</h5><p>Die meisten versteckten Daten werden nicht absichtlich versteckt. Häufig fokkusiert sich die Organisation, die die Website erstellt, auf die Art und Weise, wie Menschen durch die Seiten navigieren und denkt deshalb nicht darüber nach, wie die Daten bereitgestellt werden.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Sind Sie sicher?</h5><p>Die meisten versteckten Daten werden nicht absichtlich versteckt. Häufig fokkusiert sich die Organisation, die die Website erstellt, auf die Art und Weise, wie Menschen durch die Seiten navigieren und denkt deshalb nicht darüber nach, wie die Daten bereitgestellt werden.</p>",
+                "final": "<h5>Sind Sie sicher?</h5><p>Die meisten versteckten Daten werden nicht absichtlich versteckt. Häufig fokkusiert sich die Organisation, die die Website erstellt, auf die Art und Weise, wie Menschen durch die Seiten navigieren und denkt deshalb nicht darüber nach, wie die Daten bereitgestellt werden.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-65",
+        "_parentId":"b-45",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Vorteile von versteckten Daten",
+            "title": "",
+            "large": "course/de/images/odi-013.jpg",
+            "medium": "course/de/images/odi-013.jpg",
+            "small": "course/de/images/odi-013.jpg",
+            "*source": "http://www.shutterstock.com/pic-203736538",
+            "*credit": "Digital Storm",
+            "*licence": "Shutterstock standard license"
+        }
+    },
+    {
+        "_id":"c-70",
+        "_parentId":"b-45",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"58b83d8dfda9f5660ad85ae9",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Vorteile von versteckten Daten",
+        "displayTitle": "Vorteile von versteckten Daten",
+        "body": "<p>Welcher der folgenden Punkte ist kein Vorteil von versteckten Daten?</p>",
+        "instruction": "<em>Wählen Sie eine Option und klicken Sie auf \"Absenden\"</em>",
+        "_items": [
+            {
+                "text": "Umfang",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Qualität",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Lesbarkeit",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "Relevanz",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Kontext",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Richtig!</h5><p>Versteckte Daten können die Relevanz und Qualität der Daten erhöhen, die Breite der verfügbaren Daten erhöhen und den Kontext, in dem die Daten verwendet werden, hervorheben.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Sind Sie sicher?</h5>Versteckte Daten können die Relevanz und Qualität der Daten erhöhen, die Breite der verfügbaren Daten erhöhen und den Kontext, in dem die Daten verwendet werden, hervorheben.</p>",
+                "final": "<h5>Sind Sie sicher?</h5>Versteckte Daten können die Relevanz und Qualität der Daten erhöhen, die Breite der verfügbaren Daten erhöhen und den Kontext, in dem die Daten verwendet werden, hervorheben.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "Versteckte Daten können die Relevanz und Qualität der Daten erhöhen, die Breite der verfügbaren Daten erhöhen und den Kontext, in dem die Daten verwendet werden, hervorheben.",
+                "final": "Versteckte Daten können die Relevanz und Qualität der Daten erhöhen, die Breite der verfügbaren Daten erhöhen und den Kontext, in dem die Daten verwendet werden, hervorheben."
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-72",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Quellcode",
+            "title": "",
+            "large": "course/de/images/odi-014.jpg",
+            "medium": "course/de/images/odi-014.jpg",
+            "small": "course/de/images/odi-014.jpg",
+            "*source": "http://www.shutterstock.com/pic-119236978",
+            "*credit": "spaxiax",
+            "*licence": "Shutterstock standard license"
+        }
+    },
+    {
+        "_id":"c-73",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"58b83ffdfda9f5660ad85af2",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Wie können Sie versteckte Daten aus einer Website extrahieren?",
+        "displayTitle": "Wie können Sie versteckte Daten aus einer Website extrahieren?",
+        "body": "<p>Welche der folgenden Möglichkeiten bietet sich an, um versteckte Daten aus einer Website zu extrahieren?</p>",
+        "instruction": "<em>Wählen Sie eine Option und klicken Sie auf \"Absenden\"</em>",
+        "_items": [
+            {
+                "text": "Zwischenspeichern des Website-Links",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Neuladen der Seite",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Überprüfung des Quellcodes",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Richtig!</h5><p>Die Überprüfung des Quellcodes einer Website enthüllt oft versteckte Daten, die in die Seite eingebettet sind.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Sind Sie sicher?</h5><p>Die Überprüfung des Quellcodes einer Website enthüllt oft versteckte Daten, die in die Seite eingebettet sind.</p>",
+                "final": "<h5>Sind Sie sicher?</h5><p>Die Überprüfung des Quellcodes einer Website enthüllt oft versteckte Daten, die in die Seite eingebettet sind.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Sind Sie sicher?</h5><p>Die Überprüfung des Quellcodes einer Website enthüllt oft versteckte Daten, die in die Seite eingebettet sind.</p>",
+                "final": "<h5>Sind Sie sicher?</h5><p>Die Überprüfung des Quellcodes einer Website enthüllt oft versteckte Daten, die in die Seite eingebettet sind.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-85",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Summary icon clipboard",
+            "title": "Summary icon clipboard",
+            "large": "course/de/images/summary-icon.png",
+            "medium": "course/de/images/summary-icon.png",
+            "small": "course/de/images/summary-icon.png",
+            "*source":"http://www.shutterstock.com/pic-189810137.html",
+            "*credit":"Kritchanut",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-90",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Im Internet versteckte Daten finden",
+        "displayTitle":"Im Internet versteckte Daten finden",
+        "body":"<p>Die Daten, die zum Herunterladen zur Verfügung stehen, sind nur ein kleiner Teil der Daten, die im Web verfügbar sind.</p><p>Während das menschliche Auge nicht immer Daten sehen kann, ist es möglich, eine Fülle neuer Daten mit Hilfe von Maschinen zu identifizieren und zu erfassen.</p><p>Die Daten, auf die von diesen Webseiten aus zugegriffen werden kann, sind oft viel relevanter für Ihre Arbeit als herunterladbare Daten und beziehen sich direkt auf den Kontext, in dem der Datenherausgeber sie bereits verwendet.</p><p>Indem Sie Ihr Bewusstsein für versteckte Daten schärfen und einige der einfachen Ansätze in diesem Modul lernen, wie z.B. erweiterte Abfragen und APIs, können Sie auf eine breite Palette relevanter Daten für ihre zukünftige Arbeit zugreifen.</p><p><a class='course_link' href='../module13/'>Nächstes Modul</a></p><p><a class='course_link' href='../'>Hauptmenu</a></p>",
+        "_pageLevelProgress": {
+          "_isEnabled": true
+        }
+    },
+    {
+       "_id":"c-95",
+       "_parentId":"b-55",
+       "_type":"component",
+       "_component":"text",
+       "_classes":"separator",
+       "_layout":"full"
+    },
+    {
+       "_id":"c-96",
+       "_parentId":"b-55",
+       "_type":"component",
+       "_component":"text",
+       "_classes": "attribution",
+       "body":"&copy; <a href='https://ec.europa.eu/commission/index_en' target='_blank'>European Commission</a>",
+       "_layout":"full"
+    },
+    {
+        "_id":"c-100",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"footer-logo",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Open data institute logo",
+            "title": "Open data institute logo",
+            "large": "course/de/images/logo-small.png",
+            "medium": "course/de/images/logo-small.png",
+            "small": "course/de/images/logo-small.png",
+            "*source":"http://theodi.org",
+            "*credit":"The Open Data Institute",
+            "*license":"All rights reserved"  
+        }
+    },
+    {
+        "_id":"c-104",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"attribution not-eu not-default",
+        "_layout":"right",
+        "body":"Content created by <a href='http://theodi.org' target='_blank'>The Open Data Institute</a>"
+    },
+    {
+        "_id":"c-105",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"social-buttons not-dlab",
+        "_layout":"right",
+        "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/de/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/de/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/de/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/de/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/de/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/de/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/de/images/social/flickr.png'></a>"
+    }
+]
