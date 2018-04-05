@@ -1,0 +1,599 @@
+[
+    {
+        "_id":"c-01",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"intro-logo",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "",
+            "medium": "",
+            "small": ""
+        }
+    },
+    {
+        "_id":"c-02",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Was zeichnet qualitative Open Data aus?",
+        "displayTitle":"Was zeichnet qualitative Open Data aus?",
+        "body":"<p>Die Verwendbarkeit von Open Data lässt sich nicht schnell und einfach bewerten.</p><p>Es gibt eine Reihe von gemeinschaftsbasierten Standards und Qualitätsmerkmalen, die Ihnen helfen können, den Verwendungsgrad von Open Data zu beurteilen.</p><h5>In diesem Modul werden wir Folgendes untersuchen:</h5><ul class='ticks'><li>Was macht Daten nutzbar?</li><li>Wie tragen Standards dazu bei, die Verwendbarkeit von Open Data zu erhöhen?</li><li>Qualitätsmerkmale</li></ul>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+    "_id":"c-11",
+    "_parentId":"b-10",
+    "_type":"component",
+    "_component":"iFrame-vimeo",
+    "_classes":"",
+    "_layout":"full",
+        "title":"Die Qualität von Open Data bewerten - in 2 Minuten",
+        "displayTitle": "Die Qualität von Open Data bewerten - in 2 Minuten",
+        "body": "ODI-Trainer David Tarrant erklärt, was die Datenqualität bedeutet, wie diese gemessen wird, woran gute Qualität von Open Data erkannt werden kann und auf welche Qualitätsmerkmale Open Data Nutzer achten sollten.",
+        "instruction": "Um Untertitel ein- und auszuschalten, klicken Sie auf die Schaltfläche \"cc\" unten rechts im Video",
+        "_setCompletionOn":"ended",
+        "_source": "https://player.vimeo.com/video/129197043",
+        "_media": {
+		"mp4": "course/de/video/video.mp4",
+		"poster": "course/de/video/placeholder.jpg"
+	},
+        "_height": {
+            "_small" : 250,
+            "_medium" : 350,
+            "_large" : 508
+        }
+    },
+    {
+        "_id":"c-21",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Was zeichnet Qualität von Open Data aus?",
+            "title": "Was zeichnet Qualität von Open Data aus?",
+            "large": "course/de/images/odi-1.jpg",
+            "medium": "course/de/images/odi-1.jpg",
+            "small": "course/de/images/odi-1.jpg",
+            "*source":"http://www.shutterstock.com/pic-54795127.html",
+            "*credit":"robodread",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-22",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Was zeichnet Qualität von Open Data aus?",
+        "displayTitle":"Was zeichnet Qualität von Open Data aus?",
+        "body":"<p>Offene Daten werden nutzbar, wenn ein Nutzer sie verstehen und eine Maschine sie verarbeiten kann.</p><p>Open Data Nutzer benötigen die Erlaubnis des Datenherausgebers, die durch eine offene Lizenz gewährt wird. Die offene Lizenz alleine reicht jedoch nicht aus, um die Nutzertauglichkeit der Daten zu gewährleisten.</p><p>Es ist unwahrscheinlich, dass Nutzer sich mit den Daten befassen können, um weitere Informationen zu gewinnen und Vorteile zu demonstrieren, wenn die Daten nicht brauchbar sind.</p>"
+    },
+     {
+        "_id": "c-25",
+        "_parentId": "b-25",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Gemeinschaftsgetriebene Standards",
+        "displayTitle": "Gemeinschaftsgetriebene Standards",
+        "body": "Gemeinschaftsgetriebene Standards definieren die rechtlichen, praktischen, technischen und sozialen Anforderungen an Open Data, damit offene Daten nützlich sind.",
+        "instruction": "<em class='desktop-instruction'>Klicken Sie auf den Vorwärtspfeil um mehr zu erfahren</em><em class='mobile-instruction'>Klicken Sie auf das \"+\" Symbol um mehr zu erfahren. Klicken Sie rechts auf das Bild, um mehr zu sehen.</em>",
+        "_items": [
+            {
+                "title": "Rechtliche Anforderungen",
+                "body": "<p>Zusätzlich zu der offenen Lizenz sollten drei rechtliche Anforderungen berücksichtigt werden:</p><p><ul><li>Sensible Daten wie personenbezogene Daten schützen</li><li>Die Rechte von Datenbesitzern schützen</li><li>Die korrekte Verwendung von Daten fördern.</li></ul></p>",
+                "_graphic": {
+                    "src": "course/de/images/odi-2.jpg",
+                    "alt": "Legal",
+                    "title": "Legal",
+                    "*source":"http://www.shutterstock.com/pic-102447179.html",
+                    "*credit":"hoperan",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Rechtliche Anforderungen"
+            },
+            {
+                "title": "Praktische Anforderungen",
+                "body": "<p>Es ist wichtig, dass offene Daten von Open Data Nutzern gefunden und verwendet werden können.</p><p>Dies bedeutet, dass Datenherausgeber:</p><p><ul><li>Auf die Daten auf ihren Webseiten verlinken sollen.</li><li>Daten regelmäßig aktualisieren.</li><li>Kontinuierlich neue Datensätze veröffentlichen.</li></ul></p>",
+                "_graphic": {
+                    "src": "course/de/images/odi-3.jpg",
+                    "alt": "Practical",
+                    "title": "Practical",
+                    "*source":"http://www.shutterstock.com/pic-235025131.html",
+                    "*credit":"McIek",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Praktische Anforderungen"
+            },
+            {
+                "title": "Technische Anforderungen",
+                "body": "<p>Es gibt drei Empfehlungen, die die technischen Aspekte von offenen Daten definieren:</p><p><ul><li>Das Format, in dem die Daten veröffentlicht werden.</li><li>Die Struktur der Daten.</li><li>Die Kanäle, auf denen die Daten verfügbar gemacht werden.</li></ul></p>",
+                "_graphic": {
+                    "src": "course/de/images/odi-4.jpg",
+                    "alt": "Technical",
+                    "title": "Technical",
+                    "*source":"http://www.shutterstock.com/pic-154744388.html",
+                    "*credit":"Oleksiy Mark",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Technical"
+            },
+            {
+                "title": "Gesellschaftliche Anforderungen",
+                "body": "<p>Damit Daten nachhaltig genutzt werden können, ist es wichtig, eine engagierte Nutzergemeinschaft zu haben. Die besten Datensätze verfügen über:</p><p><ul><li>Aktive Support-Kanäle.</li><li>Diskussionsgruppen und -foren.</li><li>Leitfäden für die Arbeit den Daten.</li></ul></p>",
+                "_graphic": {
+                    "src": "course/de/images/odi-5.jpg",
+                    "alt": "Social",
+                    "title": "Social",
+                    "*source":"http://www.shutterstock.com/pic-187711424.html",
+                    "*credit":"bluebay",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Social"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-30",
+        "_parentId":"b-28",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Qualitätsmerkmale",
+            "title": "Qualitätsmerkmale",
+            "large": "course/de/images/odi-6.jpg",
+            "medium": "course/de/images/odi-6.jpg",
+            "small": "course/de/images/odi-6.jpg",
+            "*source":"http://www.shutterstock.com/pic-254316427.html",
+            "*credit":"tostphoto",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+      "_id":"c-35",
+      "_parentId":"b-28",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"left",
+      "title": "Qualitätsmerkmale",
+      "displayTitle": "Qualitätsmerkmale",
+      "body": "<p>Qualitätsmerkmale machen es dem Nutzer möglich, die Qualität und Benutzerfreundlichkeit von Open Data zu bewerten.</p><p>Es gibt zwei Schlüsselindikatoren für die Qualität von offenen Daten:</p>",
+      "instruction": "<em>Klicken Sie auf die jeweiligen Überschriften, um mehr zu erfahren</em>",
+      "_items": [
+        {
+          "alt": "Das 5-Sterne Open Data Modell",
+          "title": "Das 5-Sterne Open Data Modell",
+          "body": "<p>Das 5-Sterne-Modell der Linked Open Data umfassen die grundlegende rechtliche Definition und die technische Exzellenz der veröffentlichten Daten.</p><p>Das 5 Sterne Open Data Modell wurde 2001 vom Erfinder des Webs, Sir Tim Berners-Lee, entwickelt. Das 5 Sterne-Modell gibt Empfehlungen für das Format und die Struktur von offenen Daten.</p><p>Mehr Informationen über das 5 Sterne Modell können Sie in den Modulen 10 und 13 dieses Kurses erfahren.</p>"
+        },
+        {
+          "alt": "Die ODI Open Data Zertifikate",
+          "title": "Die ODI Open Data Zertifikate",
+          "body": "<p>Die Open Data-Zertifikate des Open Data Institutes sind praktische, gesellschaftliche, rechtliche und technische Richtlinien, die bei der Veröffentlichung oder Weiterverwendung von offenen Daten zu berücksichtigen sind.</p><p>Die Zertifikate dienen als Selbstbewertungsfragebogen für Datenherausgeber und in einigen Fällen auch für Nutzer, um die vollständige Verwendbarkeit eines Datensatzes zu bewerten.<br /><a href='https://certificates.theodi.org/' target='_blank'>Hier geht’s zu den ODI Open Data Zertifikaten</a></p>"
+        }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+     
+    {
+        "_id":"c-42",
+        "_parentId":"b-30",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/de/images/burst-indigo.png",
+            "medium": "course/de/images/burst-indigo.png",
+            "small": "course/de/images/burst-indigo.png"
+        }
+    },
+    {
+        "_id":"c-43",
+        "_parentId":"b-30",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Sind Sie bereit für qualitativ hochwertige Open Data?",
+        "displayTitle":"Sind Sie bereit für qualitativ hochwertige Open Data?",
+        "body":"<p>Können Sie sich daran erinnern, wie die praktischen, technischen, rechtlichen und sozialen Anforderungen an einen Open Data Datensatz lauten, damit dieser nützlich ist?</p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-45",
+        "_parentId":"b-32",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Was macht die Qualität von Open Data aus?",
+            "title": "Was macht die Qualität von Open Data aus?",
+            "large": "course/de/images/odi-7.jpg",
+            "medium": "course/de/images/odi-7.jpg",
+            "small": "course/de/images/odi-7.jpg",
+            "*source":"http://www.shutterstock.com/pic-54795127.html",
+            "*credit":"robodread",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    
+    {
+        "_id":"c-50",
+        "_parentId":"b-32",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"588f38a8b61c46e176e7ea8f",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Was macht die Qualität von Open Data aus?",
+        "displayTitle": "Was macht die Qualität von Open Data aus?",
+        "body": "<p>Offene Daten werden nutzbar, wenn ...</p>",
+        "instruction": "<em>Wählen Sie Ihre Antwort und klicken Sie dann auf \"Absenden\"</em>",
+        "_items": [
+            {
+                "text": ".	..diese in unser System importiert werden",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": ".	.. diese von Menschen verstanden und von Maschinen verarbeiten werden können und sie von einer offenen Lizenz begleitet sind",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": ".	..die Regierung diese veröffentlicht.",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Richtig!</h5><p>Offene Daten werden nutzbar, wenn sie von Menschen verstanden und von Maschinen verarbeiten werden können und wenn diese Daten von einer offenen Lizenz begleitet werden.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Sind Sie sicher?</h5><p>Offene Daten werden nutzbar, wenn sie von Menschen verstanden und von Maschinen verarbeiten werden können und wenn diese Daten von einer offenen Lizenz begleitet werden.</p>",
+                "final": "<h5>Sind Sie sicher?</h5><p>Offene Daten werden nutzbar, wenn sie von Menschen verstanden und von Maschinen verarbeiten werden können und wenn diese Daten von einer offenen Lizenz begleitet werden.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Sind Sie sicher?</h5><p>Offene Daten werden nutzbar, wenn sie von Menschen verstanden und von Maschinen verarbeiten werden können und wenn diese Daten von einer offenen Lizenz begleitet werden.</p>",
+                "final": "<h5>Sind Sie sicher?</h5><p>Offene Daten werden nutzbar, wenn sie von Menschen verstanden und von Maschinen verarbeiten werden können und wenn diese Daten von einer offenen Lizenz begleitet werden.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-55",
+        "_parentId":"b-35",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Rechtliche Anforderungen",
+            "title": "",
+            "large": "course/de/images/odi-8.jpg",
+            "medium": "course/de/images/odi-8.jpg",
+            "small": "course/de/images/odi-8.jpg",
+            "*source":"http://www.shutterstock.com/pic-102447179.html",
+            "*credit":"hoperan",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-60",
+        "_parentId":"b-35",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"588f3d0fb61c46e176e7ea98",
+        "_classes":"",
+        "_layout":"right",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Rechtliche Anforderungen",
+        "displayTitle": "Rechtliche Anforderungen",
+        "body": "<p>Es gibt drei rechtliche Aspekte, die Teil der Standards für die Veröffentlichung von offenen Daten sind. Einer davon lautet...</p>",
+        "instruction": "<em>Wählen Sie Ihre Antwort und klicken Sie dann auf \"Absenden\"</em>",
+        "_items": [
+            {
+                "text": "Die Lizenzrechte einhalten",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "etliche Art von Daten veröffentlichen",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "sensible Daten wie personenbezogenen Daten schützen",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Richtig!</h5><p>Zusätzlich zu der offenen Lizenz sollten drei rechtliche Anforderungen berücksichtigt werden: Sensible Informationen wie persönliche Daten schützen.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Sind Sie sicher?</h5><p>Zusätzlich zu der offenen Lizenz sollten drei rechtliche Anforderungen berücksichtigt werden: Sensible Informationen wie persönliche Daten schützen.</p>",
+                "final": "<h5>Sind Sie sicher?</h5><p>Zusätzlich zu der offenen Lizenz sollten drei rechtliche Anforderungen berücksichtigt werden: Sensible Informationen wie persönliche Daten schützen.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Sind Sie sicher?</h5><p>Zusätzlich zu der offenen Lizenz sollten drei rechtliche Anforderungen berücksichtigt werden: Sensible Informationen wie persönliche Daten schützen.</p>",
+                "final": "<h5>Sind Sie sicher?</h5><p>Zusätzlich zu der offenen Lizenz sollten drei rechtliche Anforderungen berücksichtigt werden: Sensible Informationen wie persönliche Daten schützen.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-65",
+        "_parentId":"b-40",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Technische Erwägungen",
+            "title": "",
+            "large": "course/de/images/odi-9.jpg",
+            "medium": "course/de/images/odi-9.jpg",
+            "small": "course/de/images/odi-9.jpg",
+            "*source":"http://www.shutterstock.com/pic-154744388.html",
+            "*credit":"Oleksiy Mark",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-70",
+        "_parentId":"b-40",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"588f3de4b61c46e176e7ea9a",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Technische Erwägungen",
+        "displayTitle": "Technische Erwägungen",
+        "body": "<p>Im Rahmen der Standards für die Veröffentlichung offener Daten gibt es drei technische Aspekte. Einer davon lautet.</p>",
+        "instruction": "<em>Wählen Sie Ihre Antwort und klicken Sie dann auf \"Absenden\"</em>",
+        "_items": [
+            {
+                "text": "In welchem Format die offenen Daten veröffentlicht sind",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "ob sie von einer Maschine verwendet werden können",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "ob das Veröffentlichen viel Bandbreite beansprucht",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Richtig!</h5><p>Es gibt drei technische Aspkte, die im Rahmen des Datenveröffentlichungsprozesses berücksichtigt werden sollten.  Das Format in dem die Daten veröffentlicht sind, die Datenstruktur und die Kanäle, auf denen die Daten bereitgestellt wurden.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Sind Sie sicher?</h5><p>Es gibt drei technische Aspkte, die im Rahmen des Datenveröffentlichungsprozesses berücksichtigt werden sollten.  Das Format in dem die Daten veröffentlicht sind, die Datenstruktur und die Kanäle, auf denen die Daten bereitgestellt wurden.</p>",
+                "final": "<h5>Sind Sie sicher?</h5><p>Es gibt drei technische Aspkte, die im Rahmen des Datenveröffentlichungsprozesses berücksichtigt werden sollten.  Das Format in dem die Daten veröffentlicht sind, die Datenstruktur und die Kanäle, auf denen die Daten bereitgestellt wurden.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Sind Sie sicher?</h5><p>Es gibt drei technische Aspkte, die im Rahmen des Datenveröffentlichungsprozesses berücksichtigt werden sollten.  Das Format in dem die Daten veröffentlicht sind, die Datenstruktur und die Kanäle, auf denen die Daten bereitgestellt wurden.</p>",
+                "final": "<h5>Sind Sie sicher?</h5><p>Es gibt drei technische Aspkte, die im Rahmen des Datenveröffentlichungsprozesses berücksichtigt werden sollten.  Das Format in dem die Daten veröffentlicht sind, die Datenstruktur und die Kanäle, auf denen die Daten bereitgestellt wurden.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-75",
+        "_parentId":"b-45",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Qualitätsmerkmale",
+            "title": "",
+            "large": "course/de/images/odi-10.jpg",
+            "medium": "course/de/images/odi-10.jpg",
+            "small": "course/de/images/odi-10.jpg",
+            "*source":"http://www.shutterstock.com/pic-254316427.html",
+            "*credit":"tostphoto",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-80",
+        "_parentId":"b-45",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"588f3eb1b61c46e176e7eaa0",
+        "_classes":"",
+        "_layout":"right",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Qualitätsmerkmale",
+        "displayTitle": "Qualitätsmerkmale",
+        "body": "<p>Das Open Data Institute befürwortet die Verwendung seiner eigenen Qualitätsmerkmale bekannt als ...</p>",
+        "instruction": "<em>Wählen Sie Ihre Antwort und klicken Sie dann auf \"Absenden\"</em>",
+        "_items": [
+            {
+                "text": "Das ODI Big Green Zertifikat",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Der ODI-Genehmigungsstempel",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Open Data Zertifikate",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Richtig!</h5><p>Das Open Data Institute hat Open Data Zertifikate entwickelt, die neben den praktischen und sozialen Anforderungen auch detaillierte rechtliche und technische Richtlinien enthalten, die bei der Veröffentlichung offener Daten zu beachten sind.,</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Sind Sie sicher?</h5><p>Das Open Data Institute hat Open Data Zertifikate entwickelt, die neben den praktischen und sozialen Anforderungen auch detaillierte rechtliche und technische Richtlinien enthalten, die bei der Veröffentlichung offener Daten zu beachten sind.,</p>",
+                "final": "<h5>Sind Sie sicher?</h5><p>Das Open Data Institute hat Open Data Zertifikate entwickelt, die neben den praktischen und sozialen Anforderungen auch detaillierte rechtliche und technische Richtlinien enthalten, die bei der Veröffentlichung offener Daten zu beachten sind.,</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Sind Sie sicher?</h5><p>Das Open Data Institute hat Open Data Zertifikate entwickelt, die neben den praktischen und sozialen Anforderungen auch detaillierte rechtliche und technische Richtlinien enthalten, die bei der Veröffentlichung offener Daten zu beachten sind.,</p>",
+                "final": "<h5>Sind Sie sicher?</h5><p>Das Open Data Institute hat Open Data Zertifikate entwickelt, die neben den praktischen und sozialen Anforderungen auch detaillierte rechtliche und technische Richtlinien enthalten, die bei der Veröffentlichung offener Daten zu beachten sind.,</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-85",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Summary icon clipboard",
+            "title": "Summary icon clipboard",
+            "large": "course/de/images/summary-icon.png",
+            "medium": "course/de/images/summary-icon.png",
+            "small": "course/de/images/summary-icon.png",
+            "*source":"http://www.shutterstock.com/pic-189810137.html",
+            "*credit":"Kritchanut",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-90",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Standards + Merkmale = Qualität von Open Data",
+        "displayTitle":"Standards + Merkmale = Qualität von Open Data",
+        "body":"<p>Offene Daten werden nutzbar, wenn ein Nutzer sie verstehen und eine Maschine sie verarbeiten kann.</p><p>Beides erfordert die Genehmigung des Herausgebers, die über eine offene Lizenz erteilt wird. Die offene Lizenz alleine reicht jedoch nicht aus, um die Nutzbarkeit der Daten zu gewährleisten. Es ist unwahrscheinlich, dass Nutzer in der Lage sind, sich mit unbrauchbaren Daten richtig auseinanderzusetzen, um Erkenntnisse zu gewinnen und Vorteile zu demonstrieren.</p><p>Das reine Bereitstellen einer Datei auf einer Webseite mit einer offenen Lizenz bedeutet nicht, dass dies ein Open Data Datensatz ist.</p><p>Im nächsten Modul vergleichen wir Open-Data-Initiativen und schauen uns die wichtigsten Performance-Indikatoren erfolgreicher Open-Data-Initiativen an.</p><p><a class='course_link' href='../module6/'>Nächstes Modul</a></p><p><a class='course_link' href='../'>Hauptmenü</a></p>",
+        "_pageLevelProgress": {
+          "_isEnabled": true
+        }
+    },
+    {
+       "_id":"c-95",
+       "_parentId":"b-50",
+       "_type":"component",
+       "_component":"text",
+       "_classes":"separator",
+       "_layout":"full"
+    },
+    {
+       "_id":"c-96",
+       "_parentId":"b-50",
+       "_type":"component",
+       "_component":"text",
+       "_classes": "attribution",
+       "body":"&copy; <a href='https://ec.europa.eu/commission/index_en' target='_blank'>European Commission</a>",
+       "_layout":"full"
+    },
+    {
+        "_id":"c-100",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"footer-logo",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Open data institute logo",
+            "title": "Open data institute logo",
+            "large": "course/de/images/logo-small.png",
+            "medium": "course/de/images/logo-small.png",
+            "small": "course/de/images/logo-small.png",
+            "*source":"http://theodi.org",
+            "*credit":"The Open Data Institute",
+            "*license":"All rights reserved"  
+        }
+    },
+    {
+        "_id":"c-104",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"attribution not-eu not-default",
+        "_layout":"right",
+        "body":"Content created by <a href='http://theodi.org' target='_blank'>The Open Data Institute</a>"
+    },
+    {
+        "_id":"c-105",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"social-buttons not-dlab",
+        "_layout":"right",
+        "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/de/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/de/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/de/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/de/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/de/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/de/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/de/images/social/flickr.png'></a>"
+    }
+]
