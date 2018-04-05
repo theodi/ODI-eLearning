@@ -1,0 +1,455 @@
+[
+    {
+        "_id":"c-01",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"intro-logo",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "",
+            "medium": "",
+            "small": "",
+            "*source":"",
+            "*credit":"",
+            "*license":""
+        }
+    },
+    {
+        "_id":"c-02",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Wie nützlich sind meine Daten?",
+        "displayTitle":"Wie nützlich sind meine Daten?",
+        "body":"<p>Die Nützlichkeit und Wiederverwendbarkeit der von einer Organisation veröffentlichten, offenen Daten können je nach Bereich und Inhalt variieren. Um diesen Prozess zu unterstützen, gibt es eine Reihe von Best-Practice-Leitfäden, die Datenherausgeber und Anwender zugleich helfen können.</p><p>In diesem Modul werden wir das 5-Sterne-Modell für Open Data betrachten und lernen, wie man damit die technische Verwendbarkeit von Daten messen kann.</p><h5>In diesem Modul werden wir folgende Aspekte untersuchen:</h5><ul class='ticks'><li>Was sind die 5-Sterne des Open Data Modells?</li><li>Welche sind die ersten drei Stufen des 5-Sterne Modells?</li><li>Wie misst man die Qualität der Daten nach dem 5-Sterne Open Data Modell?</li></ul>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-11",
+        "_parentId":"b-10",
+        "_type":"component",
+        "_component":"iFrame-vimeo",
+        "_classes":"",
+        "_layout":"full",
+        "title":"Die Verwendbarkeit von Daten bewerten - in 2 Minuten",
+        "displayTitle": "Die Verwendbarkeit von Daten bewerten - in 2 Minuten",
+        "body": "ODI-Trainer David Tarrant stellt das 5-Sterne-Modell vor und erklärt wie und wo dieses Modell verwendet werden kann.",
+        "instruction": "Um Untertitel ein- und auszuschalten, klicken Sie auf die Schaltfläche \"cc\" unten rechts im Video",
+        "_setCompletionOn":"ended",
+        "_source": "https://player.vimeo.com/video/129197206",
+        "_media": {
+		"mp4": "course/de/video/video.mp4",
+		"poster": "course/de/video/placeholder.jpg"
+	},
+        "_height": {
+            "_small" : 250,
+            "_medium" : 350,
+            "_large" : 508
+        }
+    },
+    {
+        "_id":"c-21",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "5 Stars of open data",
+            "title": "5 Stars of open data",
+            "large": "course/de/images/odi-001.jpg",
+            "medium": "course/de/images/odi-001.jpg",
+            "small": "course/de/images/odi-001.jpg",
+            "*source": "http://www.shutterstock.com/pic.mhtml?id=171677003&src=lb-36497927",
+            "*credit": "vs148",
+            "*licence": "Shutterstock open licence"
+        }
+    },
+    {
+        "_id":"c-22",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"right",
+        "title":"Das 5-Sterne Open Data Modell",
+        "displayTitle":"Das 5-Sterne Open Data Modell",
+        "body":"<p>Das 5-Sterne Open Data Modell ist eine gute Methode, um zu messen, wie gut die Daten in das ‚Web‘ integriert sind.</p><p>Der Leifaden bewertet die Zugänglichkeit und technische Verwendbarkeit eines Datensatzes, auf einer Skala von ‚online verfügbar‘ (1 Stern) bis zu ‚verlinkt und Teil des Web der Daten‘ (5 Sterne). Jede Stern-Stufe muss sequentiell erreicht werden und kann nicht übersprungen werden.</p><p>Der Leitfaden wurde von Sir Tim Berners-Lee im Jahr 2001 entwickelt und von Datenherausgebern weltweit in Rahmen von vielen Open Data Initiativen verwendet, wie z. B. bei der italienischen Digital Agency, die ihre Datensätze nach diesem Modell bewertet und kennzeichnet.<br/><a href='http://spcdata.digitpa.gov.it/data.html' target='_blank'>Hier geht’s zur Webseite der italienischen Digital Agency  </a></span><span class='not-eu not-default'>.</span></p><p>In diesem Modul schauen wir uns die ersten drei Stufen des 5-Sterne Open Data Modells an. Die zwei weiteren Stufen werden wir im <a href='../module13/'>Modul 13</a> näher betrachten.</p>"
+    },
+    {
+        "_id":"c-30",
+        "_parentId":"b-30",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Welche sind die ersten drei Stufen des 5-Sterne Modells?",
+            "title": "Welche sind die ersten drei Stufen des 5-Sterne Modells?",
+            "large": "course/de/images/odi-002.jpg",
+            "medium": "course/de/images/odi-002.jpg",
+            "small": "course/de/images/odi-002.jpg",
+            "*source": "http://www.shutterstock.com/pic.mhtml?id=188328170&src=lb-36497927",
+            "*credit": "vs148",
+            "*licence": "Shutterstock open licence"
+        }
+    },
+    {
+      "_id":"c-35",
+      "_parentId":"b-30",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"left",
+      "title": "Die ersten 3 Sterne",
+      "displayTitle": "Die ersten 3 Sterne",
+      "body": "<p>Die ersten drei Stufen des Open Data Modells ermöglichen Ihnen festzustellen, ob die verfügbaren offenen Daten verwendbar sind.</p>",
+      "instruction": "<em>Klicken Sie auf die jeweiligen Überschriften, um mehr zu erfahren</em>",
+      "_items": [
+        {
+          "alt": "1 Stern - Eine offene Lizenz",
+          "title": "1 Stern - Eine offene Lizenz",
+          "body": "<p>Der erste Stern wird allen Daten verliehen, die auf einem rudimentären Niveau als offen bezeichnet werden können. Um diese Stufe zu erreichen muss der Datensatz, unabhängig vom Format, unter einer offenen Lizenz bereitgestellt werden.</p><p>Der erste Stern wird auch unabhängig von der Qualität der Daten verliehen.</p><p>So z.B. kann eine PDF-Datei, die auf einer Internetseite unter einer offenen Lizenz bereitgestellt wurde, als Daten der 1-Stern-Stufe eingestuft werden.</p>"
+        },
+        {
+          "alt": "2 Sterne - Wiederverwendbares Format",
+          "title": "2 Sterne - Wiederverwendbares Format",
+          "body": "<p>Der zweite Stern wird allen Daten verliehen, die eine einfache Wiederverwendung ermöglichen. Um die 2-Sterne-Stufe zu erreichen, müssen die Daten in einem \"wiederverwendbaren, strukturierten Format\", das von einer Maschine gelesen und von einem Menschen verstanden werden kann, bereitgestellt werden.</p><p>Der Schlüssel zum Erreichen der 2-Sterne-Stufe ist die Auswahl eines wiederverwendbaren Formates. In einigen Fällen kann das beste Format das einer proprietären Software sein, wie z. B. Microsoft Excel oder Apple Numbers.</p><p>Daten in einem proprietären Format verfügbar zu machen, ist besser als gar keine Daten zu veröffentlichen.</p>"
+        },
+        {
+          "alt": "3 Sterne - Offenes Format",
+          "title": "3 Sterne - Offenes Format",
+          "body": "<p>Das 5-Sterne Modell sieht vor, dass Daten in einem strukturierten, maschinenlesbaren Format, das nicht an eine spezifische Software gebunden ist, bereitgestellt werden sollten.</p><p>Ein Beispiel für einen Datensatz, der mit ‚3 Sternen‘ ausgezeichnet wird, ist eine CSV-Datei mit einer entsprechenden offenen Lizenz.</p><p>Enel, ein italienisches Energieunternehmen, stellt ein gutes Beispiel für einen Datensatz der 3-Sterne-Stufe, der entsprechend gekennzeichnet ist, dar.<br /><a href='http://data.enel.com/node/4679' target='_blank'>Hier geht’s zum 3-Sterne-Datensatz von Enel</a></p>"
+        }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+   {
+        "_id": "c-45",
+        "_parentId": "b-40",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Die Verwendbarkeit von Open Data steigern",
+        "displayTitle": "Die Verwendbarkeit von Open Data steigern",
+        "body": "Jede weitere Stern-Stufe, die die Daten erreichen, trägt zur Weiterverwendbarkeit des jeweiligen Datensatzes bei. Nutzen Sie die folgenden einfachen Prüfkriterien, um zu bewerten, wie viele Sterne ein Datensatz hat.",
+        "instruction": "<em class='desktop-instruction'>Klicken Sie auf den Vorwärtspfeil um mehr zu erfahren</em><em class='mobile-instruction'>licken Sie auf das \"+\" Symbol um mehr zu erfahren. Klicken Sie rechts auf das Bild, um mehr zu sehen.</em>",
+        "_items": [
+            {
+                "title": "Der erste Stern - Die Lizenz prüfen",
+                "body": "<p>Die richtige Lizenz für einen Datensatz zu finden kann eine der schwierigsten Aufgaben sein.</p><p>Eine offene Lizenz ist eine ausdrückliche Erlaubnis, die Daten für kommerzielle und nicht-kommerzielle Zwecke zu verwenden. Wo kann ich Informationen hinsichtlich der Lizenz finden?</p><ul class=ticks><li>in den Metadaten</li><li>in den allgemeinen Geschäftsbedingungen der Webseite</li><li>je nach Einstellung, in einem Popup-Fenster beim Klicken auf dem Datensatz</li><li>in der Datei selbst</li></ol></p><p>Die Informationen hinsichtlich der Lizenzen können auf  unterschiedlichen Weisen auf Webseiten angezeigt werden. Möglicherweise werden Sie auf der Webseite ein bisschen suchen müssen, um diese Informationen zu finden.</p>",
+                "_graphic": {
+                    "src": "course/de/images/odi-003.jpg",
+                    "alt": "Star 1 - Checking the license",
+                    "title": "Star 1 - Checking the license",
+                    "*source": "http://www.shutterstock.com/pic.mhtml?id=148686812&src=lb-36497927",
+                    "*credit": "vs148",
+                    "*licence": "Shutterstock open licence"
+                },
+                "strapline": "Der erste Stern - Die Lizenz prüfen"
+            },
+            {
+                "title": "Der zweite Stern - Die Verwendbarkeit prüfen",
+                "body": "<p>Wenn Sie offene Daten im Internet entdecken, gibt es verschiedene Möglichkeiten herauszufinden, ob sie weiterverwendet werden können. Stellen Sie sich folgende Fragen:<ul class='ticks'><li>Ist das das benutzerfreundlichste Format, in dem diese Daten veröffentlicht werden können?</li><li>Ist dies dieselbe Datei, die der Datenherausgeber verwendet?</li><li>Gibt es weitere Informationen, die von anderen hinzugefügt wurden?</li></ul></p>",
+                "_graphic": {
+                    "src": "course/de/images/odi-004.jpg",
+                    "alt": "Star 2 - checking usability",
+                    "title": "Star 2 - checking usability",
+                    "*source": "http://www.shutterstock.com/pic.mhtml?id=144334663&src=lb-36497927",
+                    "*credit": "vs148",
+                    "*licence": "Shutterstock open licence"
+                },
+                "strapline": "Der zweite Stern - Die Verwendbarkeit prüfen"
+            },
+            {
+                "title": "Der dritte Stern - Den Offenheitsgrad prüfen",
+                "body": "<p>Offene Formate sind manchmal schwer zu bewerten. Folgenden Fragen helfen Ihnen zu verstehen, ob die Daten in einem offenen Format verfügbar sind:<ul class='ticks'><li>Kann ich die Datei in mehr als einem Programm auf meinem Computer öffnen, ohne die volle Funktionalität der Datei zu beeinträchtigen?</li><li>Wenn ich im Internet nach dem Dateiformat (z. B. CSV) suche, muss ich ein bestimmtes Programm herunterladen, um dieses Format öffnen zu können?</li></ul></p><p>CSV ist das beliebteste Format zur Veröffentlichung von Datensätzen und es ist leicht zu identifizieren. CSV qualifiziert sich für 3 Sterne, solange die anderen 2 Stufen erreicht wurden. <span class='not-dlab not-default'>Das Bulgarian Open Data Portal bietet einige gute Beispiele für CSV-3-Sterne-Datensätze, die eindeutig mit einem Lizenz- und Dateiformat gekennzeichnet sind.<br /><a href='https://opendata.government.bg/dataset/tsentralen-registar-na-yuridicheskite-litsa' target='_blank'>Hier geht’s zum bulgarischen offenen Datenportal</a></span><span class='not-eu'>Das Open Data Portal in Großbritannien bietet einige gute Beispiele für CSV-Datensätze, die den 3-Sterne-Kriterien entsprechen, denn die Datensätze sind sowohl mit einer klaren Lizenz, als auch einem eindeutigen Dateiformat gekennzeichnet.<br /><a href='https://data.gov.uk/dataset/spend-over-25-000-in-fco-services' target='_blank'>Hier geht’s zum Open Data Portal von Großbritannien </a></span></p><p>Viele Open Data Portale veröffentlichen auch ODF-Dateien, also Dateien im Open Document Format. Diese Dateiformate scheinen perfekt für offene Daten zu sein, es kann jedoch schwierig sein, das Programm zu identifizieren, mit dem diese Dateien geöffnet werden können.</p>",
+                "_graphic": {
+                    "src": "course/de/images/odi-005.jpg",
+                    "alt": "Star 3 - checking openness",
+                    "title": "Star 3 - checking openness",
+                    "*source": "http://www.shutterstock.com/pic.mhtml?id=142601674&src=lb-36497927",
+                    "*credit": "vs148",
+                    "*licence": "Shutterstock open licence"
+                },
+                "strapline": "Der dritte Stern - Den Offenheitsgrad prüfen"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-52",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/de/images/burst.png",
+            "medium": "course/de/images/burst.png",
+            "small": "course/de/images/burst.png"
+        }
+    },
+    {
+        "_id":"c-53",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Sind Sie bereit, den Offenheitsgrad der Daten zu bewerten?",
+        "displayTitle":"Sind Sie bereit, den Offenheitsgrad der Daten zu bewerten?",
+        "body":"<p>Es gibt vier einfache Aspekte, die Sie sich merken sollten, wenn Sie den Offenheitsgrad eines Datensatzes bewerten möchten. Können Sie sich daran erinnern?</p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-65",
+        "_parentId":"b-60",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "5 Stars of open data",
+            "title": "",
+            "large": "course/de/images/odi-006.jpg",
+            "medium": "course/de/images/odi-006.jpg",
+            "small": "course/de/images/odi-006.jpg",
+            "*source": "http://www.shutterstock.com/pic.mhtml?id=171677003&src=lb-36497927",
+            "*credit": "vs148",
+            "*licence": "Shutterstock open licence"
+        }
+    },
+    
+    {
+        "_id":"c-60",
+        "_parentId":"b-60",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"58920ea1b61c46e176e7f075",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Wie bewerten Sie die Offenheit eines Datensatzes nach dem 5-Sterne-Modell?",
+        "displayTitle": "Wie bewerten Sie die Offenheit eines Datensatzes nach dem 5-Sterne-Modell?",
+        "body": "<p>Wie kann man die Offenheit eines offenen Datensatzes bewerten?</p>",
+        "instruction": "<em>Wählen Sie Ihre Antwort und klicken Sie dann auf \"Absenden\"</em>",
+        "_items": [
+            {
+                "text": "Betrachten Sie jede Stufe separat und bewerten Sie den Datensatz nach der höchsten erreichten Stufe",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Beginnen Sie mit dem ersten Stern und bewerten Sie den Datensatz nach den Kriterien pro Stufe",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "Einfach raten",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Richtig!</h5><p>Jeder Stern muss separat verliehen werden und es darf keine Stern-Stufe übersprungen werden</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Sind Sie sicher?</h5><p>Jeder Stern muss separat verliehen werden und es darf keine Stern-Stufe übersprungen werden.</p>",
+                "final": "<h5>Sind Sie sicher?</h5><p>Jeder Stern muss separat verliehen werden und es darf keine Stern-Stufe übersprungen werden</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Sind Sie sicher?</h5><p>Jeder Stern muss separat verliehen werden und es darf keine Stern-Stufe übersprungen werden</p>",
+                "final": "<h5>Sind Sie sicher?</h5><p>Jeder Stern muss separat verliehen werden und es darf keine Stern-Stufe übersprungen werden</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-70",
+        "_parentId":"b-70",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Star 2 - checking usability",
+            "title": "",
+            "large": "course/de/images/odi-007.jpg",
+            "medium": "course/de/images/odi-007.jpg",
+            "small": "course/de/images/odi-007.jpg",
+            "*source": "http://www.shutterstock.com/pic.mhtml?id=144334663&src=lb-36497927",
+            "*credit": "vs148",
+            "*licence": "Shutterstock open licence"
+        }
+    },
+    {
+        "_id":"c-71",
+        "_parentId":"b-70",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"5892127cb61c46e176e7f080",
+        "_classes":"",
+        "_layout":"right",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Was ist die 2-Sterne-Stufe?",
+        "displayTitle": "Was ist die 2-Sterne-Stufe?",
+        "body": "<p>Die 2-Sterne-Stufe wird erreicht wenn die Daten über ... verfügen</p>",
+        "instruction": "<em>Wählen Sie Ihre Antwort und klicken Sie dann auf \"Absenden\"</em>",
+        "_items": [
+            {
+                "text": "eine offene Lizenz",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "ein offenes Format",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "ein wiederverwendbares Format",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Richtig!</h5><p>Der zweite Stern dreht sich um die Wiederverwendbarkeit von Daten und sieht vor, dass die Daten in einer wiederverwendbaren Form verfügbar sein sollten, unabhängig davon, ob das Format offen oder proprietär ist.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Sind Sie sicher?</h5><p>Der zweite Stern dreht sich um die Wiederverwendbarkeit von Daten und sieht vor, dass die Daten in einer wiederverwendbaren Form verfügbar sein sollten, unabhängig davon, ob das Format offen oder proprietär ist.</p>",
+                "final": "<h5>Sind Sie sicher?</h5><p>Der zweite Stern dreht sich um die Wiederverwendbarkeit von Daten und sieht vor, dass die Daten in einer wiederverwendbaren Form verfügbar sein sollten, unabhängig davon, ob das Format offen oder proprietär ist.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Sind Sie sicher?</h5><p>Der zweite Stern dreht sich um die Wiederverwendbarkeit von Daten und sieht vor, dass die Daten in einer wiederverwendbaren Form verfügbar sein sollten, unabhängig davon, ob das Format offen oder proprietär ist.</p>",
+                "final": "<h5>Sind Sie sicher?</h5><p>Der zweite Stern dreht sich um die Wiederverwendbarkeit von Daten und sieht vor, dass die Daten in einer wiederverwendbaren Form verfügbar sein sollten, unabhängig davon, ob das Format offen oder proprietär ist.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-115",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Summary icon clipboard",
+            "title": "Summary icon clipboard",
+            "large": "course/de/images/summary-icon.png",
+            "medium": "course/de/images/summary-icon.png",
+            "small": "course/de/images/summary-icon.png",
+            "*source": "http://www.shutterstock.com/pic-189810137.html",
+            "*credit": "Kritchanut",
+            "*licence": "Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-110",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Open Data bewerten",
+        "displayTitle":"Open Data bewerten",
+        "body":"<p>Die Wiederverwendbarkeit von offenen Daten kann je nach Domäne und spezifischem Inhalt variieren. Um diesen Prozess zu unterstützen, gibt es eine Reihe von Leitfäden, darunter das 5-Sterne-Modell der Linked Open Data.</p><p>Das 5-Sterne Open Data Modell ist eine gute Methode, um zu messen, wie gut die Daten in das ‚Web‘ integriert sind. Jede Stern-Stufe muss sequentiell erreicht werden und kann nicht übersprungen werden.<h5>In diesem Modul haben wir die ersten 3 Sterne-Stufen näher betrachten:</h5><ul class='ticks'><li>Offene Lizenzen</li><li>Wiederverwendbare Formate</li><li>Weitere Informationen zu den letzten zwei Stufen des 5-Sterne-Modells finden Sie im <a href='../module13/'>Modul 13</a>.</p><p><a class='course_link' href='../module11/'>Nächstes Modul</a></p><p><a class='course_link' href='../'>Hauptmenü </a></p>",
+        "_pageLevelProgress": {
+          "_isEnabled": true
+        }
+    },
+    {
+       "_id":"c-111",
+       "_parentId":"b-110",
+       "_type":"component",
+       "_component":"text",
+       "_classes":"separator",
+       "_layout":"full"
+    },
+    {
+       "_id":"c-1111",
+       "_parentId":"b-110",
+       "_type":"component",
+       "_component":"text",
+       "_classes": "attribution",
+       "body":"&copy; <a href='https://ec.europa.eu/commission/index_en' target='_blank'>European Commission</a>",
+       "_layout":"full"
+    },
+    {
+        "_id":"c-100",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"footer-logo",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Open data institute logo",
+            "title": "Open data institute logo",
+            "large": "course/de/images/logo-small.png",
+            "medium": "course/de/images/logo-small.png",
+            "small": "course/de/images/logo-small.png",
+            "*source":"http://theodi.org",
+            "*credit":"The Open Data Institute",
+            "*license":"All rights reserved"  
+        }
+    },
+    {
+        "_id":"c-104",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"attribution not-eu not-default",
+        "_layout":"right",
+        "body":"Content created by <a href='http://theodi.org' target='_blank'>The Open Data Institute</a>"
+    },
+    {
+        "_id":"c-105",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"social-buttons not-dlab",
+        "_layout":"right",
+        "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/de/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/de/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/de/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/de/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/de/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/de/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/de/images/social/flickr.png'></a>"
+    }
+]
