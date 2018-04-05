@@ -1,0 +1,559 @@
+[
+    {
+        "_id":"c-01",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"intro-logo",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "",
+            "medium": "",
+            "small": "",
+            "*source":"",
+            "*credit":"",
+            "*license":""
+        }
+    },
+    {
+        "_id":"c-02",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Mit Plattformen zurechtkommen",
+        "displayTitle":"Mit Plattformen zurechtkommen",
+        "body":"<p>Eine Plattform ist eine wichtige Infrastruktur, auf der Softwareanwendungen ausgeführt und Inhalte gespeichert und angezeigt werden können. Die größte Plattform für Open Data ist das Web. Viele andere speziell entwickelten Softwareprogramme können Ihnen jedoch dabei helfen, Open Data zu veröffentlichen oder interaktive Tools zur Verfügung zu stellen, die Ihnen helfen, diese Daten näher zu betrachten.</p><h5>In diesem Modul werden wir Folgendes untersuchen:</h5><ul class='ticks'><li>Wie erkennt man Open Data Plattformen</li><li>Verstehen, warum Plattformen für Nutzer wichtig sind</li><li>Welche Typen von Plattformen gibt es</li><li>Wie man Plattformen nutzt, um Daten zu erforschen</li></ul>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+    "_id":"c-11",
+    "_parentId":"b-10",
+    "_type":"component",
+    "_component":"iFrame-vimeo",
+    "_classes":"",
+    "_layout":"full",
+        "title":"Open Data Plattformen – in 2 Minuten",
+        "displayTitle": "Open Data Plattformen – in 2 Minuten",
+        "body": "ODI-Trainer David Tarrant erklärt, was offene Datenplattformen sind, welche verschiedenen Arten von Plattformen es bereits gibt und welche Vorteile sie für die Nutzer haben.",
+        "instruction": "Um Untertitel ein- und auszuschalten, klicken Sie auf die Schaltfläche \"cc\" unten rechts im Video",
+        "_setCompletionOn":"ended",
+        "_source": "https://player.vimeo.com/video/129196991",
+        "_media": {
+		"mp4": "course/de/video/video.mp4",
+		"poster": "course/de/video/placeholder.jpg"
+	},
+        "_height": {
+            "_small" : 250,
+            "_medium" : 350,
+            "_large" : 508
+        }
+    },
+    {
+        "_id":"c-21",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Was ist eine Open Data Plattform?",
+            "title": "Was ist eine Open Data Plattform?",
+            "*source": "http://www.shutterstock.com/pic.mhtml?id=103013084&src=id",
+            "*credit": "Laralova",
+            "*licence": "Shutterstock standard licence",
+            "large": "course/de/images/odi-001.jpg",
+            "medium": "course/de/images/odi-001.jpg",
+            "small": "course/de/images/odi-001.jpg"
+        }
+    },
+    {
+        "_id":"c-22",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Was ist eine Open Data Plattform?",
+        "displayTitle":"Was ist eine Open Data Plattform?",
+        "body":"<p>Open Data Plattformen sind Softwareanwendungen, die die Veröffentlichung und Verwaltung von Open Data im Internet vereinfachen.</p><p>Für Datenherausgeber bietet eine offene Datenplattform einen Weg zur Veröffentlichung von Daten. Plattformen führen Datenherausgeber durch den Prozess der Datenveröffentlichung und bieten Nutzern Beständigkeit und einfachen Zugriff auf offene Daten aus der ganzen Welt.</p>"
+    },
+     {
+        "_id": "c-25",
+        "_parentId": "b-25",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Hauptmerkmale von Open Data Plattformen",
+        "displayTitle": "Hauptmerkmale von Open Data Plattformen",
+        "body": "Open Data Plattformen machen offene Daten auf beständige Art und Weise auffindbar und nutzbar.",
+        "instruction": "<em class='desktop-instruction'>Klicken Sie auf den Vorwärtspfeil um mehr zu erfahren.</em><em class='mobile-instruction'>Klicken Sie auf das \"+\" Symbol um mehr zu erfahren. Klicken Sie rechts auf das Bild, um mehr zu sehen.</em>",
+        "_items": [
+            {
+                "title": "Auffindbare Daten",
+                "body": "<p>Open Data Plattformen steigern die Sichtbarkeit von offenen Daten bei potenziellen Nutzern. Plattformen sind so konzipiert, dass Nutzer relevante offene Daten schnell finden und wiederverwenden können.</p><p>Plattformen sind suchmaschinenoptimiert, damit das Auffinden relevanter Ressourcen erleichtern wird. Plattformen bieten auch Daten-Feeds, die in Systemen über das Internet entdeckt und indexiert werden können.</p><p>Diese Daten-Feeds ermöglichen es Suchmaschinen wie Enigma.io, offene Daten zu indexieren und leichter zu finden.<br /><a href='http://www.enigma.io' target='_blank'>Entdecken Sie mehr unter enigma.io. </a></p>",
+                "_graphic": {
+                    "src": "course/de/images/odi-002.jpg",
+                    "alt": "Discovery",
+                    "title": "Discovery",
+                    "*source": "https://www.flickr.com/photos/mjtmail/3008566512",
+                    "*credit": "mjtmail (tiggy)",
+                    "*licence": "CC-BY 2.0"
+                },
+                "strapline": "Auffindbare Daten"
+            },
+            {
+                "title": "Einheitliches Nutzererlebnis",
+                "body": "<p>Es gibt nur eine begrenzte Anzahl von Open Data Plattformen, was wiederum bedeutet, dass Sie nur wenig verschiedene Technologien verstehen müssen, um an großen Mengen von Open Data ranzukommen.</p><p>Open Data Plattformen sind auf die Nutzer zugeschnitten - ihr Layout und Design kann das Auffinden von Daten erleichtern.</p><p>Beispiele für Webseiten mit Open Data Plattformen finden Sie unter: <a href='http://www.data.gov.uk' target='_blank'>data.gov.uk</a>, <a href='https://africaopendata.org/' target='_blank'>africaopendata.org</a> und <a class='not-dlab' href='http://www.data.gov.md' target='_blank'>data.gov.md</a><a class='not-eu not-default' href='http://opendata.go.tz/' target='_blank'>opendata.go.tz</a></p><p>Note that many governments use a standard naming convention for the Web address of the data platform, so a simple starting point for finding open data for a country is to enter data.gov.[country top-level domain].</p>",
+                "_graphic": {
+                    "src": "course/de/images/odi-003.jpg",
+                    "alt": "Consistency",
+                    "title": "Consistency",
+                    "*source": "http://www.shutterstock.com/pic.mhtml?id=200818673&src=lb-36497927",
+                    "*credit": "April Cat",
+                    "*licence": "Shutterstock standard license"
+                },
+                "strapline": "Einheitliches Nutzererlebnis"
+            },
+            {
+                "title": "Einheitlicer Zugang z Daten",
+                "body": "<p>Die Entwicklung offener Standards durch die Web-Community hat zu einheitlichen Anwendungsprogrammierschnittstellen (APIs) zum Entdecken, Zugreifen auf und Verwenden von Daten geführt.</p><p>Die begrenzte Anzahl von Open Data Plattformen und die einheitlichen Merkmale ihrer Benutzerschnittstellen ermöglichen den Nutzern, die verschiedenen Merkmale zu verwenden und gleichzeitig die Software souverän zu bedienen.</p><p>Die Plattformen haben außerdem ähnliche Strukturen und Formate für die Darstellung von Metadaten sowie für die Daten selbst.</p>",
+                "_graphic": {
+                    "src": "course/de/images/odi-004.jpg",
+                    "alt": "Access granted",
+                    "title": "Access granted",
+                    "*source": "http://www.shutterstock.com/pic.mhtml?id=154822901&src=id",
+                    "*credit": "Kirill_m",
+                    "*licence": "Shutterstock standard licence"
+                },
+                "strapline": "Einheitlicer Zugang z Daten"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-30",
+        "_parentId":"b-28",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Approaches",
+            "title": "Approaches",
+            "large": "course/de/images/odi-005.jpg",
+            "medium": "course/de/images/odi-005.jpg",
+            "small": "course/de/images/odi-005.jpg",
+            "*source": "http://www.shutterstock.com/pic.mhtml?id=277792007&src=id",
+            "*credit": "Nicotombo",
+            "*licence": "Shutterstock standard licence"
+        }
+    },
+    {
+      "_id":"c-35",
+      "_parentId":"b-28",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"left",
+      "title": "Ansätze für das Design von Open Data Plattformen",
+      "displayTitle": "Ansätze für das Design von Open Data Plattformen",
+      "body": "<p>Plattformen bieten unterschiedliche Ansätze für die Veröffentlichung und Offenlegung von Open Data. Entdecken Sie die verschiedenen unten aufgelisteten Ansätze:</p>",
+      "instruction": "",
+      "_items": [
+        {
+          "alt": "Datenkataloge",
+          "title": "Datenkataloge",
+          "body": "<p>Ein Open Data Katalog ist eine Plattform, die Datensätze im Web auflistet. Datenkataloge sind wie Verzeichnisse. Sie wissen, welche offenen Daten es gibt, worum es geht, wo sie sich befinden und wie man an sie rankommt.</p><p>Ein Open Data Katalog verknüpft Nutzer mit Daten, die sich irgendwo anders im Web befinden. Sie bieten eine konsistente Möglichkeit, eine Vielzahl von Daten zu finden, die weit verstreut sind.</p><p class='not-dlab'>Die CKAN-Plattform, die von Städten wie Amsterdam (<a href='http://data.amsterdam.nl' target='_blank'>hier geht's zum Amsterdam CKAN-Portal</a>)</span>, Berlin (<a href='http://daten.berlin.de/' target='_blank'>hier geht's zum Berlin CKAN-Portal</a>) and Kopenhagen (<a href='http://data.kk.dk/' target='_blank'>hier geht's zum Kopenhagen CKAN-Portal</a>) genutzt wird, kann als Datenkatalog verwendet werden.</p><p class='not-eu not-default'>The CKAN platform, used by places like the UK (<a href='https://data.gov.uk/data/search' target='_blank'>Take me to the UK CKAN portal</a>)</span>, Tanzania (<a href='http://opendata.go.tz/' target='_blank'>Take me to Tanzania CKAN portal</a>) and Open Africa (<a href='https://africaopendata.org/dataset' target='_blank'>Take me to Open Africa</a>), can be used as a data catalog.</p>"
+        },
+        {
+          "alt": "Datenmanagement",
+          "title": "Datenmanagement",
+          "body": "<p>Plattformen zur Verwaltung von Open Data können auch eine aktive Rolle bei der Verwaltung und Pflege von Datensätzen durch den Datenherausgeber spielen. Datenherausgeber können Daten direkt auf der Plattform aktualisieren und regelmäßig Updates bereitstellen.</p><p>Wenn Benutzer nach offenen Daten suchen und diese überarbeiten können, ohne sie herunterladen zu müssen, kann dies die Wiederverwendung erheblich vereinfachen.</p><p>Für die Datenherausgeber besteht jedoch eine viel größere Herausforderung in der Strukturierung und Formatierung von Daten für die Plattform. Dies kann überwunden werden, indem der Datenherausgeber auch dieselbe Plattform für den Zugriff auf die Daten verwendet.</p><p class='not-dlab'>Die Socrata-Plattform, die von der Lombardei in Italien (<a href='https://www.dati.lombardia.it/' target='_blank'>Hier geht’s zum Open Data Portal der Lombardei</a>)und die von der Stadt Issy-les-Moulineaux in Frankreich genutzte Open Data Soft Plattform, (<a href='https://data.issy.com/' target='_blank'>Hier geht’s zum Open Data Portal der Stadt Issy-les-Moulineaux</a>) sind gute Beispiele für Datenverwaltungsplattformen.</p><p class='not-eu not-default'>The Socrata platform, used by the City of Chicago in the US (<a href='https://data.cityofchicago.org/' target='_blank'>Take me to the Chicago open data portal</a>), and the Open Data Soft platform used by the city and county of Durham (<a href='https://opendurham.nc.gov/page/home/' target='_blank'>Take me to Durham open data portal</a>) are good examples of data management platforms.</p>"
+        },
+        {
+          "alt": "Vergleiche ziehen",
+          "title": "Vergleiche ziehen",
+          "body": "<p>Datenkataloge bieten:</p></ul><li>Eine übergreifende Suche über eine große Domain</li><li>Mechanismen für die Entdeckung von Daten</li><li>Wichtige Metadaten in Bezug auf die Lizenz und die Aktualität der Daten</li></ul></p><p>Plattformen zur Datenverwaltung bieten:</p><ul><li>Eine autoritäre Quellen für Daten</li><li>Eine erhöhte Datenqualität</li><li>Die Fähigkeit, Daten zu suchen und zu ändern</li></ul><p>Datenverwaltungsplattformen und Datenkatalogen können auch zwischen den verschiedenen Anbietern variieren.<a href='https://how-to.usopendata.org/de/latest/The-Basics-of-Open-Data/Data-Repositories/' target='_blank'>Hier geht’s zum vergleichenden Analyse von Datenplattformen</a></p>"
+        }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-31",
+        "_parentId":"b-30",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Open Data Plattformen in Europa",
+            "title": "Open Data Plattformen in Europa",
+            "*source": "http://www.shutterstock.com/pic.mhtml?id=117748444&src=id",
+            "*credit": "koyacsf",
+            "*licence": "Shutterstock standard licence",
+            "large": "course/de/images/odi-006.jpg",
+            "medium": "course/de/images/odi-006.jpg",
+            "small": "course/de/images/odi-006.jpg"
+        }
+    },
+    {
+        "_id":"c-32",
+        "_parentId":"b-30",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Open Data Plattformen in Europa",
+        "displayTitle":"Open Data Plattformen in Europa",
+        "body":"<p>In Europa gibt es Hunderte von Open Data-Plattformen auf lokaler, regionaler und natialer Ebene. Bei der Suche nach offenen Daten kann es hilfreich sein, auf ein Verzeichnis dieser Plattformen zuzugreifen, um zu ermitteln, welche Datenquellen verfügbar sind. Das Open Data Monitor Projekt ist ein europäischer Index für Open Data Webseiten und stellt ein nützliches Nachschlagewerk dar. Erkunden Sie den Index selbst, um herauszufinden, welche Daten für verschiedene Länder, Regionen und Städte verfügbar sind.<br /><a href='http://www.opendatamonitor.eu/frontend/web/index.php?r=datacatalogue%2Flist' target='_blank'>Hier geht’s zum Open Data Monitor</a></p>"
+    },
+    {
+        "_id":"c-42",
+        "_parentId":"b-33",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/de/images/burst.png",
+            "medium": "course/de/images/burst.png",
+            "small": "course/de/images/burst.png"
+        }
+    },
+    {
+        "_id":"c-43",
+        "_parentId":"b-33",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Sind Sie bereit, Open Data-Plattformen zu erkunden?",
+        "displayTitle":"Sind Sie bereit, Open Data-Plattformen zu erkunden?",
+        "body":"<p>Es gibt drei wichtige Elemente einer Open Data-Plattform. Können Sie sich an diese erinnern?</p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-45",
+        "_parentId":"b-35",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Was ist eine Open Data Plattform?",
+            "title": "",
+            "*source": "http://www.shutterstock.com/pic.mhtml?id=103013084&src=id",
+            "*credit": "Laralova",
+            "*licence": "Shutterstock standard licence",
+            "large": "course/de/images/odi-007.jpg",
+            "medium": "course/de/images/odi-007.jpg",
+            "small": "course/de/images/odi-007.jpg"
+        }
+    },
+    {
+        "_id":"c-50",
+        "_parentId":"b-35",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"58905c59b61c46e176e7eb53",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Was ist eine Open Data Plattform?",
+        "displayTitle": "Was ist eine Open Data Plattform?",
+        "body": "<p>Eine Open Data-Plattform ist ...</p>",
+        "instruction": "<em>Wählen Sie Ihre Antwort und klicken Sie dann auf \"Absenden\"</em>",
+        "_items": [
+            {
+                "text": "eine Verkaufsplattform für Unternehmen",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "eine Software, die hilft, offene Daten im Web zu finden",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "ein internes Datenmanagement-Tool",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Richtig!</h5><p>Eine Open Data Plattform ist eine Software, die hilft, offene Daten im Web zu finden. Sie bietet Datenherausgebern einen gestreamten Prozess für die Veröffentlichung von Daten und Benutzern eine konsistente Methode für den Zugriff, die Nutzung und den Austausch von Daten.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Sind Sie sicher?</h5><p>Eine Open Data Plattform ist eine Software, die hilft, offene Daten im Web zu finden. Sie bietet Datenherausgebern einen gestreamten Prozess für die Veröffentlichung von Daten und Benutzern eine konsistente Methode für den Zugriff, die Nutzung und den Austausch von Daten.</p>",
+                "final": "<h5>Sind Sie sicher?</h5><p>Eine Open Data Plattform ist eine Software, die hilft, offene Daten im Web zu finden. Sie bietet Datenherausgebern einen gestreamten Prozess für die Veröffentlichung von Daten und Benutzern eine konsistente Methode für den Zugriff, die Nutzung und den Austausch von Daten.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "",
+                "final": ""
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-55",
+        "_parentId":"b-40",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Approaches",
+            "title": "",
+            "large": "course/de/images/odi-008.jpg",
+            "medium": "course/de/images/odi-008.jpg",
+            "small": "course/de/images/odi-008.jpg",
+            "*source": "http://www.shutterstock.com/pic.mhtml?id=277792007&src=id",
+            "*credit": "Nicotombo",
+            "*licence": "Shutterstock standard licence"
+        }
+    },
+    {
+        "_id":"c-60",
+        "_parentId":"b-40",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"58905d4db61c46e176e7eb58",
+        "_classes":"",
+        "_layout":"right",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Was ist ein Datenkatalog?",
+        "displayTitle": "Was ist ein Datenkatalog?",
+        "body": "<p>Ein Datenkatalog ist ...</p>",
+        "instruction": "<em>Wählen Sie Ihre Antwort und klicken Sie dann auf \"Absenden\"</em>",
+        "_items": [
+            {
+                "text": "eine Liste von offenen Datensätzen, die eine Organisation besitzt",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "eine Liste von Datensätzen und Preisen",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "eine Liste von offenen Datensätzen, die im Internet verfügbar sind",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Richtig!</h5><p>Ein Datenkatalog listet Datensätze auf, die im Web verfügbar sind, die nicht unbedingt im Besitz des Katalogseigentumers sein müssen. Die meisten Kataloge sind domänen- oder themenspezifisch, um den Kontext einfacher verständlich zu halten.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Sind Sie sicher?</h5><p>Ein Datenkatalog listet Datensätze auf, die im Web verfügbar sind, die nicht unbedingt im Besitz des Katalogseigentumers sein müssen. Die meisten Kataloge sind domänen- oder themenspezifisch, um den Kontext einfacher verständlich zu halten.</p>",
+                "final": "<h5>Sind Sie sicher?</h5><p>Ein Datenkatalog listet Datensätze auf, die im Web verfügbar sind, die nicht unbedingt im Besitz des Katalogseigentumers sein müssen. Die meisten Kataloge sind domänen- oder themenspezifisch, um den Kontext einfacher verständlich zu halten.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "Sind Sie sicher?</h5><p>Ein Datenkatalog listet Datensätze auf, die im Web verfügbar sind, die nicht unbedingt im Besitz des Katalogseigentumers sein müssen. Die meisten Kataloge sind domänen- oder themenspezifisch, um den Kontext einfacher verständlich zu halten.</p>",
+                "final": "Sind Sie sicher?</h5><p>Ein Datenkatalog listet Datensätze auf, die im Web verfügbar sind, die nicht unbedingt im Besitz des Katalogseigentumers sein müssen. Die meisten Kataloge sind domänen- oder themenspezifisch, um den Kontext einfacher verständlich zu halten.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-65",
+        "_parentId":"b-45",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "What do open data platforms help with?",
+            "title": "What do open data platforms help with?",
+            "large": "course/de/images/odi-009.jpg",
+            "medium": "course/de/images/odi-009.jpg",
+            "small": "course/de/images/odi-009.jpg",
+            "*source": "http://www.shutterstock.com/pic-241493050/",
+            "*credit": "dencg",
+            "*licence": "Shutterstock standard licence"
+        }
+    },
+    {
+        "_id":"c-70",
+        "_parentId":"b-45",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"58905de5b61c46e176e7eb5e",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":3,
+        "title": "Mit welchen drei Faktoren unterstützen Open Data-Plattformen?",
+        "displayTitle": "Mit welchen drei Faktoren unterstützen Open Data-Plattformen?",
+        "body": "<p></p>",
+        "instruction": "<em>Wählen Sie drei Optionen und klicken Sie auf \"Absenden\"</em>",
+        "_items": [
+            {
+                "text": "Sie stellen die Auffindbarkeit von offenen Daten sicher",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "Sie sichern die Beständigkeit der Daten",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "Sie unterstützen den Zugang zu Open Data",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "Sie geben Hintergrundinformationen",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Sie bauen eine Gemeinschaft auf",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Richtig!</h5><p>Die drei wichtigen Vorteile von Open Data Plattformen sind Auffindbarkeit, Beständigkeit und Zugriff. Obwohl Plattformen einen Kontext für Daten geben und unterstützen können, Communities zu bauen, erfordern diese Aspekte zusätzliche Anstrengungen seitens des Datenherausgebers. Diese bleiben zwei der wichtigsten Herausforderungen des Open Data Bereichs.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Sind Sie sicher?</h5><p>Die drei wichtigen Vorteile von Open Data Plattformen sind Auffindbarkeit, Beständigkeit und Zugriff. Obwohl Plattformen einen Kontext für Daten geben und unterstützen können, Communities zu bauen, erfordern diese Aspekte zusätzliche Anstrengungen seitens des Datenherausgebers. Diese bleiben zwei der wichtigsten Herausforderungen des Open Data Bereichs.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<p>TDie drei wichtigen Vorteile von Open Data Plattformen sind Auffindbarkeit, Beständigkeit und Zugriff. Obwohl Plattformen einen Kontext für Daten geben und unterstützen können, Communities zu bauen, erfordern diese Aspekte zusätzliche Anstrengungen seitens des Datenherausgebers. Diese bleiben zwei der wichtigsten Herausforderungen des Open Data Bereichs.</p>",
+                "final": "<p>Die drei wichtigen Vorteile von Open Data Plattformen sind Auffindbarkeit, Beständigkeit und Zugriff. Obwohl Plattformen einen Kontext für Daten geben und unterstützen können, Communities zu bauen, erfordern diese Aspekte zusätzliche Anstrengungen seitens des Datenherausgebers. Diese bleiben zwei der wichtigsten Herausforderungen des Open Data Bereichs.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-85",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Summary icon clipboard",
+            "title": "Summary icon clipboard",
+            "large": "course/de/images/summary-icon.png",
+            "medium": "course/de/images/summary-icon.png",
+            "small": "course/de/images/summary-icon.png",
+            "*source":"http://www.shutterstock.com/pic-189810137.html",
+            "*credit":"Kritchanut",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-90",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Open Data Plattformen",
+        "displayTitle":"Open Data Plattformen",
+        "body":"<p>Open Data Plattformen sind Softwareanwendungen, die die Veröffentlichung und Verwaltung von Open Data im Internet vereinfachen.</p><p>Für Datenherausgeber bietet eine Open Data-Plattform eine Möglichkeit, Daten zu veröffentlichen und führt die Datenherausgeber durch den Veröffentlichungsprozess.</p><p>Den Nutzern können Plattformen dabei helfen, Open Data aus der ganzen Welt leicht zugänglich zu machen.</p><p><a class='course_link' href='../module9/'>Nächstes Modul</a></p><p><a class='course_link' href='../'>Hauptmenü</a></p>",
+        "_pageLevelProgress": {
+          "_isEnabled": true
+        }
+    },
+    {
+       "_id":"c-95",
+       "_parentId":"b-55",
+       "_type":"component",
+       "_component":"text",
+       "_classes":"separator",
+       "_layout":"full"
+    },
+    {
+       "_id":"c-96",
+       "_parentId":"b-55",
+       "_type":"component",
+       "_component":"text",
+       "_classes": "attribution",
+       "body":"&copy; <a href='https://ec.europa.eu/commission/index_en' target='_blank'>European Commission</a>",
+       "_layout":"full"
+    },
+    {
+        "_id":"c-100",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"footer-logo",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Open data institute logo",
+            "title": "Open data institute logo",
+            "large": "course/de/images/logo-small.png",
+            "medium": "course/de/images/logo-small.png",
+            "small": "course/de/images/logo-small.png",
+            "*source":"http://theodi.org",
+            "*credit":"The Open Data Institute",
+            "*license":"All rights reserved"  
+        }
+    },
+    {
+        "_id":"c-104",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"attribution not-eu not-default",
+        "_layout":"right",
+        "body":"Content created by <a href='http://theodi.org' target='_blank'>The Open Data Institute</a>"
+    },
+    {
+        "_id":"c-105",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"social-buttons not-dlab",
+        "_layout":"right",
+        "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/de/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/de/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/de/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/de/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/de/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/de/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/de/images/social/flickr.png'></a>"
+    }
+]
