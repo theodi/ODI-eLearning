@@ -1,0 +1,571 @@
+[
+    {
+        "_id":"c-02",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"intro-logo",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "",
+            "medium": "",
+            "small": "",
+            "*source":"",
+            "*credit":"",
+            "*license":""
+        }
+    },
+    {
+        "_id":"c-01",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Warum sollten wir uns Gedanken über Nachhaltigkeit machen?",
+        "displayTitle":"Warum sollten wir uns Gedanken über Nachhaltigkeit machen?",
+        "body":"<p>Open Data muss relevant, aktuell und zugänglich sein, um nützlich zu sein.</p><p>Ein nachhaltiges Programm ist ein Programm, das weiterhin regelmäßig Daten mit mindestens gleicher oder verbesserter Qualität und Quantität veröffentlicht.</p><h5>In diesem Modul werden wir Folgendes näher betrachten:</h5><ul class='ticks'><li>Wie kann man Nachhaltigkeit besser verstehen</li><li>Warum ist Nachhaltigkeit für Sie wichtig</li><li>Worauf Sie dabei achten sollten</li></ul>",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-11",
+        "_parentId":"b-10",
+        "_type":"component",
+        "_component":"iFrame-vimeo",
+        "_classes":"",
+        "_layout":"full",
+        "title":"Open Data nachhaltig gestalten - in 2 Minuten",
+        "displayTitle": "Open Data nachhaltig gestalten - in 2 Minuten",
+        "body": "Ulrich Atz, Manager des ODI-Startup-Programms erklärt, wie wichtig Nachhaltigkeit für Open Data ist und warum diese auch für die Nutzer relevant ist. Ulrich wird außerdem einige der Schlüsselindikatoren, die die Nachhaltigkeit einer Open Data Initiative ausmachen, erläutern.",
+        "instruction": "Um Untertitel ein- und auszuschalten, klicken Sie auf die Schaltfläche \"cc\" unten rechts im Video",
+        "_setCompletionOn":"ended",
+        "_source": "https://player.vimeo.com/video/129879004",
+        "_media": {
+		"mp4": "course/de/video/video.mp4",
+		"poster": "course/de/video/placeholder.jpg"
+	},
+        "_height": {
+            "_small" : 250,
+            "_medium" : 350,
+            "_large" : 508
+        }
+    },
+       {
+        "_id":"c-21",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Nachhaltige Open Data",
+            "title": "Nachhaltige Open Data",
+            "large": "course/de/images/odi-001.jpg",
+            "medium": "course/de/images/odi-001.jpg",
+            "small": "course/de/images/odi-001.jpg",
+            "*source":"http://www.shutterstock.com/pic.mhtml?id=199444121&src=id",
+            "*credit":"Tarchyshnik Andrei",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-32",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"inverted",
+        "_layout":"right",
+        "title":"Was macht Open Data nachhaltig?",
+        "displayTitle":"Was macht Open Data nachhaltig?",
+        "body":"<h5>Ein nachhaltiger Open Data Datensatz wird unterstützt von:</h5><ul class='ticks'><li>Sichere Finanzierung, um die Kosten von Updates zu decken</li><li><b>Aktive Unterstützung der Datenherausgeber bei der Priorisierung von Updates</li><li>Breite Wiederverwendung durch andere, um den Mehrwert zu demonstrieren</li></ul>"
+    },
+     {
+        "_id": "c-31",
+        "_parentId": "b-30",
+        "_classes": "inverted",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Nachhaltigkeit im Kontext von Open Data verstehen",
+        "displayTitle": "Nachhaltigkeit im Kontext von Open Data verstehen",
+        "body": "Welche Faktoren tragen dazu bei, dass ein Open Data Datensatz nachhaltig ist?",
+        "instruction": "<em>Klicken Sie auf den Vorwärtspfeil um mehr zu erfahren</em>",
+        "_items": [
+            {
+                "title": "Sichere Finanzierung für Open Data",
+                "body": "Nur weil ein Datensatz frei verwendet werden kann, bedeutet das nicht, dass es keine Kosten für das Sammeln oder Herausgeben dieser Daten gibt. Finanzierung kann gesichert werden durch:</h5><ul class='bullet'><li>Gebühren für den Zugang oder für erweiterte Dienste</li><li>Finanzierung aus einer anderen Quelle, die Open Data unterstützt</li><li>Den Nutzen von Open Data für die Organisation aufzeigen</li></ul>",
+                "_graphic": {
+                    "src": "course/de/images/odi-002.jpg",
+                    "alt": "Die Finanzierung sichern",
+                    "title": "Die Finanzierung sichern",
+                    "*source":"http://www.shutterstock.com/pic.mhtml?id=272132873&src=id",
+                    "*credit":"Jiunn",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Sichere Finanzierung für Open Data"
+            },
+            {
+                "title": "Aktive Unterstützung für Open Data",
+                "body": "<p>Um Open Data nachhaltig in ein Unternehmen zu integrieren, braucht man in der Regel die Unterstützung durch die Führungsebene, sowie die Unterstützung der Mitarbeiter, um die Qualität von Open Data aufrecht zu erhalten.</p><p>Aktive Unterstützung wird in der Regel dadurch erreicht, dass sich ein Unternehmen verpflichtet, Open Data als Bestandteil seiner täglichen Arbeit zu betrachten.",
+                "_graphic": {
+                    "src": "course/de/images/odi-003.jpg",
+                    "alt": "Aktive Unterstützung",
+                    "title": "Aktive Unterstützung",
+                    "*source":"http://www.shutterstock.com/pic.mhtml?id=239488546&src=id",
+                    "*credit":"GiDesign",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Aktive Unterstützung für Open Data"
+            },
+            {
+                "title": "Breite Wiederverwendung von Open Data",
+                "body": "<p class='not-dlab'>Nachhaltige Wiederverwendung wird erreicht, wenn die auf Open Data basierten Dienste für den Erfolg der datenherausgebenden Organisation entscheidend werden. Die Verkehrsdaten des Berliner Verkehrsverbundes Berlin-Brandenburg werden von Millionen Menschen genutzt, wenn sie auf Verkehrsapplikationen wie Citymapper zugreifen. Diese Apps treiben die Nutzung von VBB-Diensten voran. Infolgedessen hat sich der VBB in seiner digitalen Strategie verpflichtet, die Daten regelmäßig zu aktualisieren.<br /><a href='https://citymapper.com/berlin' target='_blank'>Hier geht’s zum CityMapper Berlin</a></p>",
+                "_graphic": {
+                    "src": "course/de/images/odi-004.jpg",
+                    "alt": "Verbreitete Weiterverwendung",
+                    "title": "Verbreitete Weiterverwendung",
+                    "*source":"http://www.shutterstock.com/pic-144050605",
+                    "*credit":"graphego",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Breite Wiederverwendung von Open Data"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+ {
+        "_id": "c-41",
+        "_parentId": "b-40",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Warum ist Nachhaltigkeit wichtig?",
+        "displayTitle": "Warum ist Nachhaltigkeit wichtig?",
+        "body": "Warum sollten wir uns über Nachhaltigkeit im Open Data Kontext Gedanken machen?",
+        "instruction": "<em>Klicken Sie auf den Vorwärtspfeil um mehr zu erfahren</em>",
+        "_items": [
+            {
+                "title": "Ein solides Fundament",
+                "body": "Nachhaltigkeit ist nicht nur gut für die Nutzer. Auch der Datenherausgeber profitiert durch ein nachhaltiges Open Data Programm:</h5><ul class='bullet'><li>Verbesserung des Vertrauens der Gemeinschaft in die datenherausgebende Organisation</li><li>Unterstützung bei der Entwicklung neuer Produkte und Dienstleistungen</li><li>Vereinfachung der Wiederverwendung der eigenen Daten durch den Datenherausgeber selbst</li></ul>",
+                "_graphic": {
+                    "src": "course/de/images/odi-005.jpg",
+                    "alt": "Ein solides Fundament",
+                    "title": "Ein solides Fundament",
+                    "*source":"http://www.shutterstock.com/pic.mhtml?id=271074140&src=id",
+                    "*credit":"Saibarakova Ilona",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Ein solides Fundament"
+            },
+            {
+                "title": "Erhöhtes Vertrauen",
+                "body": "Nachhaltige Open Data ermöglichen einer großen Gemeinschaft, Daten zu erstellen und zu analysieren, um ihre eigenen Schlussfolgerungen zu ziehen, oft zur Unterstützung der Vision des Datenherausgebers.",
+                "_graphic": {
+                    "src": "course/de/images/odi-006.jpg",
+                    "alt": "Erhöhtes Vertrauen",
+                    "title": "Erhöhtes Vertrauen",
+                    "*source":"http://www.shutterstock.com/pic.mhtml?id=246120358&src=lb-36497927",
+                    "*credit":"Arthimedes",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Erhöhtes Vertrauen"
+            },
+            {
+                "title": "Aufbau von Geschäftsbeziehungen",
+                "body": "Durch die Bereitstellung von offenen Daten können neue Kundenkanäle geschaffen werden, sodass andere Unternehmen auf die Daten eines Datenherausgebers aufbauen können. In vielen Fällen werden dadurch unmittelbare Nutzen für den Datenherausgeber geschaffen.",
+                "_graphic": {
+                    "src": "course/de/images/odi-007.jpg",
+                    "alt": "Aufbau von Geschäftsbeziehungen",
+                    "title": "Aufbau von Geschäftsbeziehungen",
+                    "*source":"http://www.shutterstock.com/pic.mhtml?id=119824141&src=id",
+                    "*credit":"Palau",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Aufbau von Geschäftsbeziehungen"
+            },
+            {
+                "title": "Verbesserung der Verwendbarkeit der Daten",
+                "body": "Einer der häufigsten Wiederverwender der offenen Daten einer Organisation ist der Datenherausgeber selbst. Warum soll man die Freigabe von Daten von der internen Datennutzung trennen? Warum die interne Datennutzung von der veröffentlichen Daten trennen?",
+                "_graphic": {
+                    "src": "course/de/images/odi-008.jpg",
+                    "alt": "Verbesserung der Verwendbarkeit der Daten",
+                    "title": "Verbesserung der Verwendbarkeit der Daten",
+                    "*source":"http://www.shutterstock.com/pic.mhtml?id=165242216&src=id",
+                    "*credit":"LovArt",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Verbesserung der Verwendbarkeit der Daten"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+ {
+        "_id":"c-52",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Nach Hinweisen suchen",
+            "title": "Nach Hinweisen suchen",
+            "large": "course/de/images/odi-009.png",
+            "medium": "course/de/images/odi-009.png",
+            "small": "course/de/images/odi-009.png",
+            "*source":"http://www.shutterstock.com/pic-217749400",
+            "*credit":"robuart",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+      "_id":"c-51",
+      "_parentId":"b-50",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"left",
+      "title": "Nach Hinweisen suchen",
+      "displayTitle": "Nach Hinweisen suchen",
+      "body": "Eine nachhaltige Veröffentlichung kombiniert sichere Finanzierung, aktive Unterstützung und breite Wiederverwendung. Diese Merkmale sind nicht immer offensichtlich, wenn Sie zum ersten Mal einen Datensatz finden. Stellen Sie sich selbst die folgenden Fragen, um gute Daten-Quellen identizieren zu können:",
+      "instruction": "<em>Klicken Sie auf die jeweiligen Überschriften, um mehr zu erfahren.</em>",
+      "_items": [
+        {
+          "alt": "Aus welcher Quelle stammen die Daten?",
+          "title": "Aus welcher Quelle stammen die Daten?",
+          "body": "<p>Fragen Sie sich, wer die Daten veröffentlicht hat und wie viel Vertrauen Sie in ihrer Verpflichtung haben, sie weiter zu aktualisieren.<br><br>Einer der wichtigsten Indikatoren für Nachhaltigkeit ist das Vertrauen in die Organisation, die diese Daten sammelt.<br><br>Wenn die Daten von der Regierung stammen, könnte eine Wahl oder eine Änderung der Prioritäten auf der Regierungsagenda auf das Herausgeben von Open Data Auswirkungen haben?</p>"
+        },
+        {
+          "alt": "Wer finanziert die Veröffentlichung?",
+          "title": "Wer finanziert die Veröffentlichung?",
+          "body": "<p>Daten, die kostenlos zur Verfügung stehen, mögen idealerscheinen, aber es ist wichtig, sich zu fragen, wie ein Datenherausgeber die weitere Veröffentlichung von offenen Daten nachhaltig finanziert.<br><br>Stellen Sie sich die Frage, ob die Daten aufgrund von Transparenzdruck freigegeben werden oder ob es einen breiteren Nutzen für die Gesellschaft gibt, welcher die Nachfrage antreibt.<br><br>Versuchen Sie herauszufinden, ob es ein kurzfristiges Programm gibt, das die Veröffentlichung dieser Daten finanziert oder ob die Datenfreigabe Teil der Unternehmensstrategie ist.</p>"
+        },
+        {
+          "alt": "Was sagt die Lizenz aus?",
+          "title": "Was sagt die Lizenz aus?",
+          "body": "<p>Lizenzen können auch Hinweise auf die Nachhaltigkeit von Daten geben.<br><br>Wenn Sie sich eine Lizenz anschauen, fragen Sie sich, was der Text über die Zukunft des Datensatzes und das Vertrauen des Herausgebers in das Produkt aussagt. Enthält der Text eine Verpflichtung für den Datenherausgeber, den Datensatz regelmäßig zu aktualisieren?<br><br>Beachten Sie, dass Daten ohne Lizenz nicht wirklich offen sind. Die Lizenz gibt Ihnen Gewissheit, dass Daten frei genutzt und weitergegeben werden können.</p>"
+        },
+        {
+          "alt": "Wer nutzt die Daten bereits?",
+          "title": "Wer nutzt die Daten bereits?",
+          "body": "<p>Je häufiger ein Datensatz verwendet wird, desto mehr Druck besteht, den Datensatz zu aktualisieren und auf Dauer offen zu halten.<br><br>Fragen Sie sich, wer sonst diesen Datensatz verwendet und für welche Zwecke.<br><br>Versuchen Sie herauszufinden, ob der Datensatz auch intern vom Datenherausgeber selbst verwendet wird.<br><br>Beide Aspekte geben an, ob sich der Datenherausgeber um den Datensatz kümmert und unter äußerem Druck steht, den Zugriff nicht zu entfernen oder für eigene Zwecke zu ändern.</p>"
+        },
+        {
+          "alt": "Was ist der Veröffentlichungsverlauf?",
+          "title": "Was ist der Veröffentlichungsverlauf?",
+          "body": "<p>Die Nachhaltigkeit von Open Data hängt letztlich davon ab, wie viel Vertrauen Sie dem Datenherausgeber schenken.<br><br>Fragen Sie sich, wann der Datensatz veröffentlicht wurde. Eine lange Historie von Updates ist ein gutes Zeichen, aber vergessen Sie die externen Faktoren wie Projektlänge oder Amtszeit nicht. Eine nachhaltige Open Data-Initiative ist eine, die dem Einfluss externer Faktoren standhält.</p>"
+        },
+        {
+          "alt": "Wie kann ich dazu beitragen?",
+          "title": "Wie kann ich dazu beitragen?",
+          "body": "<p>Die Verwendung eines Datensatzes selbst trägt dazu bei, die Nachfrage zu steigern und die Nachhaltigkeit dieses Datensatzes zu beeinflussen.<br><br>Überlegen Sie sich, ob Sie einer der Practice Gemeinschaften beitreten möchten, die sich um den Datensatz gebildet haben.<br><br>Versuchen Sie herauszufinden, ob der Datenherausgeber eine aktive Rolle in diesen Gemeinschaften spielt und ob er auf Feedback reagiert, um seine Dienste zu verbessern.<br><br>Fragen Sie sich, welchen Mehrwert Sie nachweisen können, um die vom Datenherausgeber gewährleistete Nachhaltigkeit zu verbessern.</p>"
+        }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-42",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/de/images/burst.png",
+            "medium": "course/de/images/burst.png",
+            "small": "course/de/images/burst.png"
+        }
+    },
+    {
+        "_id":"c-43",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Sind Sie bereit für nachhaltige Open Data?",
+        "displayTitle":"Sind Sie bereit für nachhaltige Open Data?",
+        "body":"<p>Es gibt zwei hilfreiche Dinge, an die Sie sich erinnern sollten, wenn Sie an nachhaltige Open Data denken. Können Sie sich an sie erinnern?</p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-61",
+        "_parentId":"b-60",
+        "_type":"component",
+        "_component":"gmcq",
+        "_adapt2id":"58905530b61c46e176e7eb16",
+        "_classes":"",
+        "_layout":"full",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Was beeinflusst die Nachhaltigkeit?",
+        "displayTitle": "Was beeinflusst die Nachhaltigkeit?",
+        "body": "Welche von den unten stehenden Möglichkeiten beeinflusst nicht die Nachhaltigkeit eines offenen Datensatzes?",
+        "instruction": "<em>Wählen Sie Ihre Antwort und klicken Sie dann auf \"Absenden\"</em>",
+        "_items": [
+            {
+                "text": "Die Finanzierung sichern",
+                "_shouldBeSelected":false,
+                "_graphic": {
+                    "alt": "Die Finanzierung sichern",
+                    "title": "",
+                    "large": "course/de/images/odi-010.jpg",
+                    "medium": "course/de/images/odi-010.jpg",
+                    "small": "course/de/images/odi-010.jpg",
+                    "*source":"http://www.shutterstock.com/pic.mhtml?id=272132873&src=id",
+                    "*credit":"Jiunn",
+                    "*license":"Shutterstock Standard License"
+                }
+            },
+            {
+                "text": "Große Dateigrößen",
+                "_shouldBeSelected":true,
+                "_graphic": {
+                    "alt": "Große Dateigrößen",
+                    "title": "Große Dateigrößen",
+                    "large": "course/de/images/file.png",
+                    "medium": "course/de/images/file.png",
+                    "small": "course/de/images/file.png",
+                    "*source":"https://farm3.staticflickr.com/2712/4485684994_b92ca0b0b3_b.jpg",
+                    "*credit":"Dave Matos",
+                    "*license":"CC BY-SA 2.0"
+                }
+            },
+            {
+                "text": "Aktive Unterstützung",
+                "_shouldBeSelected":false,
+                "_graphic": {
+                    "alt": "Aktive Unterstützung",
+                    "title": "",
+                    "large": "course/de/images/odi-011.jpg",
+                    "medium": "course/de/images/odi-011.jpg",
+                    "small": "course/de/images/odi-011.jpg",
+                    "*source":"http://www.shutterstock.com/pic.mhtml?id=239488546&src=id",
+                    "*credit":"GiDesign",
+                    "*license":"Shutterstock Standard License"
+                }
+            },
+            {
+                "text": "Verbreitete Weiterverwendung",
+                "_shouldBeSelected":false,
+                "_graphic": {
+                    "alt": "Verbreitete Weiterverwendung",
+                    "title": "",
+                    "large": "course/de/images/odi-012.jpg",
+                    "medium": "course/de/images/odi-012.jpg",
+                    "small": "course/de/images/odi-012.jpg",
+                    "*source":"http://www.shutterstock.com/pic-144050605",
+                    "*credit":"graphego",
+                    "*license":"Shutterstock Standard License"
+                }
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Richtig!</h5><p>Die Dateigröße ist kein Faktor für die Nachhaltigkeit von Open Data. Was ichtiger ist, ist die langfristige Finanzierung sowie die Unterstützung des Datenherausgebers zu sichern, sowie die Wiederverwendung der Daten sicherzustellen, um Positiv-Effekte mit Open Data zu erzeugen.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Sind Sie sicher?</h5><p>Die Dateigröße ist kein Faktor für die Nachhaltigkeit von Open Data. Was ichtiger ist, ist die langfristige Finanzierung sowie die Unterstützung des Datenherausgebers zu sichern, sowie die Wiederverwendung der Daten sicherzustellen, um Positiv-Effekte mit Open Data zu erzeugen.</p>",
+                "final": "<h5>Sind Sie sicher?</h5><p>Die Dateigröße ist kein Faktor für die Nachhaltigkeit von Open Data. Was ichtiger ist, ist die langfristige Finanzierung sowie die Unterstützung des Datenherausgebers zu sichern, sowie die Wiederverwendung der Daten sicherzustellen, um Positiv-Effekte mit Open Data zu erzeugen.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Sind Sie sicher?</h5><p>Die Dateigröße ist kein Faktor für die Nachhaltigkeit von Open Data. Was ichtiger ist, ist die langfristige Finanzierung sowie die Unterstützung des Datenherausgebers zu sichern, sowie die Wiederverwendung der Daten sicherzustellen, um Positiv-Effekte mit Open Data zu erzeugen.</p>",
+                "final": "<h5>Sind Sie sicher?</h5><p>Die Dateigröße ist kein Faktor für die Nachhaltigkeit von Open Data. Was ichtiger ist, ist die langfristige Finanzierung sowie die Unterstützung des Datenherausgebers zu sichern, sowie die Wiederverwendung der Daten sicherzustellen, um Positiv-Effekte mit Open Data zu erzeugen.</p>"
+            }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+          "_isEnabled": true
+        }
+    },
+{
+        "_id":"c-71",
+        "_parentId":"b-70",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Die Finanzierung sichern",
+            "title": "",
+            "large": "course/de/images/odi-013.jpg",
+            "medium": "course/de/images/odi-013.jpg",
+            "small": "course/de/images/odi-013.jpg",
+            "*source":"http://www.shutterstock.com/pic.mhtml?id=272132873&src=id",
+            "*credit":"Jiunn",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-72",
+        "_parentId":"b-70",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"589056d1b61c46e176e7eb22",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":3,
+        "title": "Worauf sollte ich bei der Bewertung der Nachhaltigkeit achten?",
+        "displayTitle": "Worauf sollte ich bei der Bewertung der Nachhaltigkeit achten?",
+        "body": "<p>Was sollten Sie bei der Bewertung der Nachhaltigkeit eines offenen Datensatzes beachten?</p>",
+        "instruction": "<em>Wählen Sie drei der folgenden Optionen und klicken Sie auf \"Absenden\"</em>",
+        "_items": [
+            {
+                "text": "Wie sieht der Veröffentlichungsverlauf der Daten aus?",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "Wie viel kosten die Daten?",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Wer nutzt die Daten bereits?",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "In welchem Format sind die Daten verfügbar?",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Wer finanziert die Veröffentlichung der Daten?",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Richtig!</h5><p>Sich den Veröffentlichungsverlauf anzuschauen sowie zu schauen wer die Daten verwendet und wie die Veröffentlichung finanziert ist, sind zentrale Punkte, die sich bei der Bestimmung der Nachhaltigkeit des Datensatzes eine wichtige Rolle spielen.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Sind Sie sicher?</h5><p>Sich den Veröffentlichungsverlauf anzuschauen sowie zu schauen wer die Daten verwendet und wie die Veröffentlichung finanziert ist, sind zentrale Punkte, die sich bei der Bestimmung der Nachhaltigkeit des Datensatzes eine wichtige Rolle spielen.</p>",
+                "final": "<h5>Sind Sie sicher?</h5><p>Sich den Veröffentlichungsverlauf anzuschauen sowie zu schauen wer die Daten verwendet und wie die Veröffentlichung finanziert ist, sind zentrale Punkte, die sich bei der Bestimmung der Nachhaltigkeit des Datensatzes eine wichtige Rolle spielen.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Sind Sie sicher?</h5><p>Sich den Veröffentlichungsverlauf anzuschauen sowie zu schauen wer die Daten verwendet und wie die Veröffentlichung finanziert ist, sind zentrale Punkte, die sich bei der Bestimmung der Nachhaltigkeit des Datensatzes eine wichtige Rolle spielen.</p>",
+                "final": "<h5>Sind Sie sicher?</h5><p>Sich den Veröffentlichungsverlauf anzuschauen sowie zu schauen wer die Daten verwendet und wie die Veröffentlichung finanziert ist, sind zentrale Punkte, die sich bei der Bestimmung der Nachhaltigkeit des Datensatzes eine wichtige Rolle spielen.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-112",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Summary icon clipboard",
+            "title": "Summary icon clipboard",
+            "large": "course/de/images/summary-icon.png",
+            "medium": "course/de/images/summary-icon.png",
+            "small": "course/de/images/summary-icon.png",
+            "*source":"http://www.shutterstock.com/pic-189810137.html",
+            "*credit":"Kritchanut",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-111",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Nachhaltige Open Data",
+        "displayTitle":"Nachhaltige Open Data",
+        "body":"<p>Bei der Suche nach nachhaltigen Quellen von Open Data ist es wichtig, dass sie relevant, aktuell und zugänglich sind.</p><p>Ein nachhaltiges Programm ist eines, das regelmäßig Daten veröffentlicht, die die gleiche oder eine höhere Qualität und Quantität aufweisen.</p><p>Mit den oben aufgeführten einfachen Indikatoren können Sie nachhaltige Quellen von Open Data identifizieren, die für Ihre zukünftige Arbeit genutzt werden können.</p><p>Im nächsten Modul untersuchen wir, wie offene Datenplattformen den Prozess der Veröffentlichung und Verwendung von Daten vereinfachen können.</p><p><a class='course_link' href='../module8/'>Nächstes Modul</a></p><p><a class='course_link' href='../'>Hauptmenü</a></p>",
+        "_pageLevelProgress": {
+          "_isEnabled": true
+        }
+    },
+    {
+       "_id":"c-113",
+       "_parentId":"b-110",
+       "_type":"component",
+       "_component":"text",
+       "_classes":"separator",
+       "_layout":"full"
+    },
+    {
+       "_id":"c-1111",
+       "_parentId":"b-110",
+       "_type":"component",
+       "_component":"text",
+       "_classes": "attribution",
+       "body":"&copy; <a href='https://ec.europa.eu/commission/index_en' target='_blank'>European Commission</a>",
+       "_layout":"full"
+    },
+    {
+        "_id":"c-100",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"footer-logo",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Open data institute logo",
+            "title": "Open data institute logo",
+            "large": "course/de/images/logo-small.png",
+            "medium": "course/de/images/logo-small.png",
+            "small": "course/de/images/logo-small.png",
+            "*source":"http://theodi.org",
+            "*credit":"The Open Data Institute",
+            "*license":"All rights reserved"  
+    }
+    },
+    {
+        "_id":"c-104",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"attribution not-eu not-default",
+        "_layout":"right",
+        "body":"Content created by <a href='http://theodi.org' target='_blank'>The Open Data Institute</a>"
+    },
+    {
+        "_id":"c-105",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"social-buttons not-dlab",
+        "_layout":"right",
+        "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/de/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/de/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/de/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/de/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/de/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/de/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/de/images/social/flickr.png'></a>"
+    }
+]
