@@ -1,0 +1,676 @@
+[
+    {
+        "_id":"c-02",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"intro-logo",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "",
+            "medium": "",
+            "small": "",
+            "*source": "",
+            "*credit": "",
+            "*license": ""
+        }
+    },
+    {
+        "_id":"c-01",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Wie Sie Ihre Daten bereinigen können",
+        "displayTitle":"Wie Sie Ihre Daten bereinigen können",
+        "body":"<p>Eine der größten Herausforderungen bei der Arbeit mit Daten ist der Umgang mit Fehlern. Oftmals werden Fehler von den Datenherausgebern gar nicht bemerkt, da sich die Daten über viele Jahre hinweg geändert haben. In anderen Fällen können diese Fehler die Folge menschlicher Fehler bei der Dateneingabe sein, wie z.B. Tippfehler oder falsche Abkürzungen.</p><p>Bei der Arbeit mit Daten ist es wichtig zu wissen, wie man Fehler finden und korrigieren kann, um die Daten nützlicher für die potenziellen Nutzer zu machen.</p><h5>In diesem Modul werden wir folgende Aspekte untersuchen:</h5><ul class='ticks'><li>Häufige Fehler</li><li>Nützliche Tools zur Datenbereinigung</li><li>Warum die Bereinigung von Daten wichtig ist</li></ul>",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-11",
+        "_parentId":"b-10",
+        "_type":"component",
+        "_component":"iFrame-vimeo",
+        "_classes":"",
+        "_layout":"full",
+        "title":"Daten bereinigen - in 2 Minuten",
+        "displayTitle": "Daten bereinigen - in 2 Minuten",
+        "body": "ODI-Trainer David Tarrant erklärt, warum bereinigte Daten wichtig sind, wie man diese bereinigt und welche Werkzeuge zur Unterstützung zur Verfügung stehen.",
+        "instruction": "Um Untertitel ein- und auszuschalten, klicken Sie auf die Schaltfläche \"cc\" unten rechts im Video",
+        "_setCompletionOn":"ended",
+        "_source": "https://player.vimeo.com/video/129197207",
+        "_media": {
+		"mp4": "course/de/video/video.mp4",
+		"poster": "course/de/video/placeholder.jpg"
+	},
+        "_height": {
+            "_small" : 250,
+            "_medium" : 350,
+            "_large" : 508
+        }
+    },
+       {
+        "_id":"c-21",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "What do we mean by clean data?",
+            "title": "What do we mean by clean data?",
+            "large": "course/de/images/odi-001.jpg",
+            "medium": "course/de/images/odi-001.jpg",
+            "small": "course/de/images/odi-001.jpg",
+            "*source": "http://www.shutterstock.com/pic-246719938",
+            "*credit": "Sashkin",
+            "*license": "Shutterstock standard license"
+        }
+    },
+    {
+        "_id":"c-22",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"inverted",
+        "_layout":"right",
+        "title":"Den Mehrwert zeigen: Was verstehen wir unter bereinigten Daten?",
+        "displayTitle":"Den Mehrwert zeigen: Was verstehen wir unter bereinigten Daten?",
+        "body":"<p>Für Sie ist es wichtig zu wissen, dass Ihre Daten bereinigt sind, damit Sie bei der Arbeit mit den Daten und der Erschaffung von neuem Wert einen soliden Ausgangspunkt haben.</p><p>Bereinigte Daten sind Daten, die konsistent, ohne Doppelungen und maschinenlesbar sind.</p><p>Wenn die Daten bereinigt sind, ist es einfacher sie mit verschiedenen anderen Datensätzen zu kombinieren und tiefere Einblicke zu gewinnen.<p>"
+        },
+     {
+        "_id":"c-32",
+        "_parentId":"b-30",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Häufige Fehler in den Daten",
+            "title": "Häufige Fehler in den Daten",
+            "large": "course/de/images/odi-002.jpg",
+            "medium": "course/de/images/odi-002.jpg",
+            "small": "course/de/images/odi-002.jpg",
+            "*source": "http://www.shutterstock.com/pic-232737427",
+            "*credit": "Kirill_M",
+            "*license": "Shutterstock standard license"
+        }
+    },
+    {
+      "_id":"c-31",
+      "_parentId":"b-30",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"left",
+      "title": "Häufige Fehler in den Daten",
+      "displayTitle": "Häufige Fehler in den Daten",
+      "body": "Es gibt eine Reihe von häufigen Fehlern, auf die Sie in jedem Datensatz, mit dem Sie arbeiten, achten sollten.",
+      "instruction": "<em>Klicken Sie auf die jeweiligen Überschriften, um mehr zu erfahren</em>",
+      "_items": [
+        {
+          "alt": "Falsche Datumsformate",
+          "title": "Falsche Datumsformate",
+          "body": "<p>Das Datum kann auf inkonsistente Weise geschrieben werden. Gemischte Datumsformate sind manchmal einfach zu erkennen:<br><br>8-sep-2013 vs. 8/9/2013<br><br>und manchmal weniger offensichtlich:<br><br>8/9/2013 vs. 9/8/2013.<br><br>Eine weitere Herausforderung besteht darin, dass einige Anwendungen, wie z.B. Excel, das Format beim Öffnen eines Datensatzes 'erraten', jedoch die Interpretation eventuell nicht mit dem ursprünglichen Format, in dem die Daten eingegeben wurden, übereinstimmt.</p><p>Der häufigste Fehler ist die gemischte Verwendung amerikanischer (MM/DD/YYYYYY) und europäischer (DD/MM/YYYYYY) Datumsformate.</p>"
+        },
+        {
+          "alt": "Mehrere Darstellungen",
+          "title": "Mehrere Darstellungen",
+          "body": "<p>Häufig wird versucht, bei der Eingabe von Daten durch Abkürzungen Zeit zu sparen. Wenn diese Abkürzungen nicht konsistent sind, kann dies zu Fehlern im Datenbestand führen.</p><p>Unterschiede in der Groß- und Kleinschreibung, das Einfügen von Leerzeilen sowie Inkonsistenzen bei der Abkürzung von Wörtern führen häufig zu solchen Fehlern.</p>"
+        },
+        {
+          "alt": "Doppelte Einträge",
+          "title": "Doppelte Einträge",
+          "body": "<p>Ein doppelter Eintrag kommt in einem Datensatz vor, wenn die gleichen Daten mehrfach eingegeben urden. Doppelte Einträge treten häufig auf, wenn Datensätze zusammengeführt wurden oder wenn nicht bekannt war, dass der Eintrag bereits vorhanden ist.</p>"
+        },
+        {
+          "alt": "Redundante Daten",
+          "title": "Redundante Daten",
+          "body": "<p>Redundante Daten sind alle Daten, welche für Ihre Arbeit mit dem Datenbestand nicht relevant sind. Oftmals wurde ein Datensatz für einen bestimmten Zweck erstellt, der mehr Details erfordert als Sie vielleicht benötigen.</p><p>Häufig vorkommende redundante Daten sind Zeilen, die Gesamtbeträge repräsentieren.</p><p>Andere Male wurden Spalten kombiniert oder kopiert, um die Lesbarkeit zu verbessern.</p>"
+        },
+        {
+          "alt": "Unterschiedliche numerische Skalen",
+          "title": "Unterschiedliche numerische Skalen",
+          "body": "<p>Numerische Werte verwenden in Datensätzen oft unterschiedliche Skalen, um die Lesbarkeit für den Menschen zu erleichtern. In Budgetdatenbeständen beispielsweise liegen die Einheiten oft in Millionenhöhe. Aus 1.200.000 wird oft 1,2 Mio. Kleinere Beträge wie 800.000 werden jedoch immer noch in voller Länge ausgeschrieben. Für Maschinen bedeutet dies, dass sie die Zahl 800.000 für größer als 1.2 halten, was zu Fehlern führt.</p>"
+        },
+        {
+          "alt": "Unterschiedliche Wertebereiche",
+          "title": "Unterschiedliche Wertebereiche",
+          "body": "<p>Daten werden manchmal in Wertebereichen gemessen, wie z.B. Alter oder Gehaltsspannen. Damit eine Maschine diese Spannen verstehen kann, ist es wichtig, die hohen von niedrigen Werten zu trennen.</p>"
+        },
+        {
+          "alt": "Rechtschreibfehler",
+          "title": "Rechtschreibfehler",
+          "body": "<p>Rechtschreibfehler in tabellarischen Daten sind oft schwer zu erkennen.</p><p>Vergessen Sie nicht, Ihre Daten einer Rechtschreibprüfung zu unterziehen, um die übersehenen Rechtschreibfehler zu finden.</p>"
+        }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id": "c-41",
+        "_parentId": "b-40",
+        "_classes": "inverted",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Das Datenbereinigungs-Toolkit",
+        "displayTitle": "Das Datenbereinigungs-Toolkit",
+        "body": "Ohne bereinigte Daten können wir keine Informationen gewinnen. Es gibt eine Reihe von nützlichen Werkzeugen, die den Datenbereinigungsprozess unterstützen können.",
+        "instruction": "<em>Klicken Sie auf den Vorwärtspfeil um mehr zu erfahren</em>",
+        "_items": [
+            {
+                "title": "Das Datenbereinigungs-Toolkit",
+                "body": "<p>Wenn Sie nach Fehlern in den Datensätzen suchen, kann es notwendig sein, die Datensätze durch mehrere Bereinigungsprogramme laufen zu lassen.</p><p>Um die Datenverarbeitung für Andere zu erleichtern, ist es wichtig, über gegebene Veränderungen bei der Datenbereinigung ein Protokoll zu führen. Besonders wenn diese Daten schon als Open Data veröffentlicht wurden.</p><p>In diesem Abschnitt werden wir zwei der wichtigsten Werkzeuge und ihre Verwendung untersuche:</h5><ul class='bullet'><li>Open Refine</li><li>Excel und ähnliche Tabellenkalkulationsprogramme</li></ul></p>",
+                "_graphic": {
+                    "src": "course/de/images/odi-003.jpg",
+                    "alt": "A toolkit",
+                    "title": "A toolkit",
+                    "*source": "http://www.shutterstock.com/pic-232737427",
+                    "*credit": "Kirill_M",
+                    "*license": "Shutterstock standard license"
+                },
+                "strapline": "Das Datenbereinigungs-Toolkit"
+            },
+            {
+                "title": "Open Refine",
+                "body": "OpenRefine ist ein Softwaretool, das speziell für den Umgang mit nicht bereinigten Daten entwickelt wurde. Das Tool ist ein spaltenbasierter Browser, der es Ihnen ermöglicht, Fehler über einen gesamten geöffneten Datenbestand in einem einzigen Arbeitsschritt zu beheben. Zu den häufigsten Fehlern, die behoben werden können, gehören unter anderem:</h5><ul class='bullet'><li>Datumsformate</li><li>Mehrere Darstellungen</li><li>Doppelte Einträge</li><li>Redundante Daten</li><li>Unterschiedliche numerische Skalen</li><li>Unterschiedliche Wertebereiche</li></ul>",
+                "_graphic": {
+                    "src": "course/de/images/odi-004.jpg",
+                    "alt": "Open refine",
+                    "title": "open refine",
+                    "*source": "http://openrefine.org/",
+                    "*credit": "OpenRefine",
+                    "*license": "CC3.0-BY-SA"
+                },
+                "strapline": "Open Refine"
+            },
+            {
+                "title": "Tabellenkalkulationsprogramme",
+                "body": "OpenRefine ist ein wichtiges Programm zur Bereinigung von Daten. Manchmal ist es jedoch einfacher, einige Fehler in einem Tabellenkalkulationsprogramm zu beheben. Dazu gehören:</h5><ul class='bullet'><li>Rechtschreibfehler</li><li>Redundante Daten</li><li>Numerische Verifikation</li><li>Durch Zellenverschiebung entstandene Fehler</li></ul>",
+                "_graphic": {
+                    "src": "course/de/images/odi-005.jpg",
+                    "alt": "Spreadsheet",
+                    "title": "Spreadsheet",
+                    "*source": "http://www.shutterstock.com/pic-224184241",
+                    "*credit": "McIek",
+                    "*license": "Shutterstock Standard License"
+                },
+                "strapline": "Tabellenkalkulationsprogramme"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+ {
+        "_id": "c-51",
+        "_parentId": "b-50",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Was sind die Vorteile von Datenbereinigung?",
+        "displayTitle": "Was sind die Vorteile von Datenbereinigung?",
+        "body": "Zusätzlich zu den Werkzeugen, die zur Bereinigung von offenen Daten verwendet werden können, ist es wichtig, die Vorteile der Datenbereinigung zu verstehen.",
+        "instruction": "<em>Klicken Sie auf den Vorwärtspfeil um mehr zu erfahren</em>",
+        "_items": [
+            {
+                "title": "Priorisierung der Datenbereinigung",
+                "body": "<p>Wenn die Daten nicht bereinigt sind, könnten Entscheidungen, die auf der Grundlage dieser Daten getroffen werden, falsch sein. Dies kann sich auf Produkte oder Dienste auswirken, die Sie aufgrund der, aus den Daten gewonnenen, Erkenntnisse entwickeln. Dies kann in einigen Fällen Auswirkungen auf Tausende oder sogar Millionen von Menschen haben.</p><p>Eine <a class='' href='http://www.ercim.eu/publication/ws-proceedings/12th-EDRG/EDRG12_JeDiRe.pdf' target='_blank'>aktuelle Studie</a> ergab, dass der Prozess der Datenaufbereitung zwischen 60% und 80% der Zeit eines datengesteuerten Projektes in Anspruch nehmen kann.</p>",
+                "_graphic": {
+                    "src": "course/de/images/odi-006.jpg",
+                    "alt": "Priorisierung der Datenbereinigung",
+                    "title": "Priorisierung der Datenbereinigung",
+                    "*source": "http://www.shutterstock.com/pic.mhtml?id=58591429&src=lb-36497927",
+                    "*credit": "higyou",
+                    "*license": "Shutterstock Standard License"
+                },
+                "strapline": "Priorisierung der Datenbereinigung"
+            },
+            {
+                "title": "Verbesserung der Benutzerfreundlichkeit",
+                "body": "<p>Durch die gemeinsame Nutzung eines bereinigten Datensatzes können die Daten besser weiterverwendet werden. Programme wie OpenRefine ermöglichen es Ihnen, die Änderungshistorie mit anderen zu teilen und dabei mitzuteilen, was bereinigt wurde und wie genau dies geschah. Die Offenlegung des Prozesses und der Daten trägt zur Nachhaltigkeit und zum Vertrauen des Nutzers in den Datensatz bei.</p><p>Es entstehen auch Datenbereinigungs-Communities, die aktiver unterstützt werden können, wie z.B. OpenStreetMap-Communities.<br><br><a class='' href='http://wiki.openstreetmap.org/wiki/WikiProject_Denmark' target='_blank'>Hier geht's zum OSM Dänemark Community Wiki  </a></p>",
+                "_graphic": {
+                    "src": "course/de/images/odi-007.jpg",
+                    "alt": "Priorisierung der Datenbereinigung",
+                    "title": "Priorisierung der Datenbereinigung",
+                    "*source": "http://www.shutterstock.com/pic-285210746",
+                    "*credit": "Horoscope",
+                    "*license": "Shutterstock Standard License"
+                },
+                "strapline": "Verbesserung der Benutzerfreundlichkeit"
+            },
+            {
+                "title": "Weitere Erkenntnisse gewinnen",
+                "body": "<p>Viele Programme zur Datenbereinigung, einschließlich OpenRefine, helfen Ihnen dabei, Datensätze miteinander zu kombinieren und anzureichern. Dies kann dazu führen, dass weitere noch komplexere Erkenntnisse gewonnen werden können.</p>Wenn Sie beispielsweise einen Datensatz, der sich auf Unternehmensdaten bezieht (Namen oder andere Identifikatoren) mit einem weiteren Datensatz kombinieren, können Sie Informationen gewinnen, wie z.B. ob das Unternehmen noch aktiv ist und wie seine finanzielle Situation aussieht.</p><p><a href='http://training.theodi.org/resources/odt/Enrichingdata.pdf' target='_blank'>Hier können Sie mit dem Ergänzen von Datensätzen anfangen</a></p>",
+                "_graphic": {
+                    "src": "course/de/images/odi-008.jpg",
+                    "alt": "Weitere Erkenntnisse gewinnen",
+                    "title": "Weitere Erkenntnisse gewinnen",
+                    "*source": "http://www.shutterstock.com/pic-68619337",
+                    "*credit": "Paperboat",
+                    "*license": "Shutterstock Standard License"
+                },
+                "strapline": "Weitere Erkenntnisse gewinnen"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-42",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/de/images/burst.png",
+            "medium": "course/de/images/burst.png",
+            "small": "course/de/images/burst.png"
+        }
+    },
+    {
+        "_id":"c-43",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Sind Sie bereit, Ihre Daten zu bereinigen?",
+        "displayTitle":"Sind Sie bereit, Ihre Daten zu bereinigen?",
+        "body":"<p>Können Sie sich an die Gründe erinnern, warum Daten bereinigt werden sollten, welche nützlichen Werkzeuge Sie dabei verwenden können und nach welchen häufigen Fehlern Sie in Datensätzen suchen sollten?</p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+{
+        "_id":"c-61",
+        "_parentId":"b-60",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "unclean data",
+            "title": "unclean data",
+            "large": "course/de/images/odi-009.jpg",
+            "medium": "course/de/images/odi-009.jpg",
+            "small": "course/de/images/odi-009.jpg",
+            "*source": "http://www.shutterstock.com/pic.mhtml?id=58591429&src=lb-36497927",
+            "*credit": "higyou",
+            "*license": "Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-62",
+        "_parentId":"b-60",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"58948132fda9f5660ad841d6",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Warum müssen Daten bereinigt werden?",
+        "displayTitle": "Warum müssen Daten bereinigt werden?",
+        "body": "<p>Unbereinigte Daten stellen ein Problem dar, weil:</p>",
+        "instruction": "<em>Wählen Sie Ihre Antwort und klicken Sie dann auf \"Absenden\"</em>",
+        "_items": [
+            {
+                "text": "Sie nicht als Diagramm dargestellt werden können",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Sie nicht veröffentlicht werden können",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Sie zu falschen Schlussfolgerungen führen können",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Richtig!</h5><p>Unbereinigte Daten stellen ein Problem dar, weil sie zu falschen Schlussfolgerungen führen können. Dies sollte die Veröffentlichung oder Weiterverwendung der Daten nicht verhindern, jedoch ist eine Bereinigung der Daten vor der Veröffentlichung sehr empfehlenswert.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Sind Sie sicher? </h5><p>Unbereinigte Daten stellen ein Problem dar, weil sie zu falschen Schlussfolgerungen führen können. Dies sollte die Veröffentlichung oder Weiterverwendung der Daten nicht verhindern, jedoch ist eine Bereinigung der Daten vor der Veröffentlichung sehr empfehlenswert.</p>",
+                "final": "<h5>Sind Sie sicher? </h5><p>Unbereinigte Daten stellen ein Problem dar, weil sie zu falschen Schlussfolgerungen führen können. Dies sollte die Veröffentlichung oder Weiterverwendung der Daten nicht verhindern, jedoch ist eine Bereinigung der Daten vor der Veröffentlichung sehr empfehlenswert.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "",
+                "final": ""
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-71",
+        "_parentId":"b-70",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Useful tools",
+            "title": "Useful tools",
+            "large": "course/de/images/odi-010.jpg",
+            "medium": "course/de/images/odi-010.jpg",
+            "small": "course/de/images/odi-010.jpg",
+            "*source": "http://www.shutterstock.com/pic-285210746",
+            "*credit": "Horoscope",
+            "*license": "Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-72",
+        "_parentId":"b-70",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"589482a6fda9f5660ad841dc",
+        "_classes":"",
+        "_layout":"right",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Was sind zwei der nützlichsten Werkzeuge für die Bereinigung von Daten?",
+        "displayTitle": "Was sind zwei der nützlichsten Werkzeuge für die Bereinigung von Daten?",
+        "body": "<p>Was sind zwei der nützlichsten Werkzeuge für die Bereinigung von Daten?</p>",
+        "instruction": "<em>Wählen Sie Ihre Antwort und klicken Sie dann auf \"Absenden\"</em>",
+        "_items": [
+            {
+                "text": "Microsoft Access und Adobe Photoshop",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Apple Notes und Microsoft Word",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Microsoft Excel und Open Refine,",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Richtig!</h5><p>Open Refine und Excel (oder gleichwertige Tabellenkalkulationsprogramme) sind zwei der nützlichsten Werkzeuge zur Bereinigung offener Daten.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Sind Sie sicher?</h5><p>Open Refine und Excel (oder gleichwertige Tabellenkalkulationsprogramme) sind zwei der nützlichsten Werkzeuge zur Bereinigung offener Daten.</p>",
+                "final": "<h5>Sind Sie sicher?</h5><p>Open Refine und Excel (oder gleichwertige Tabellenkalkulationsprogramme) sind zwei der nützlichsten Werkzeuge zur Bereinigung offener Daten.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "Open Refine und Excel (oder gleichwertige Tabellenkalkulationsprogramme) sind zwei der nützlichsten Werkzeuge zur Bereinigung offener Daten.",
+                "final": "Open Refine und Excel (oder gleichwertige Tabellenkalkulationsprogramme) sind zwei der nützlichsten Werkzeuge zur Bereinigung offener Daten."
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-81",
+        "_parentId":"b-80",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "A toolkit",
+            "title": "",
+            "large": "course/de/images/odi-011.jpg",
+            "medium": "course/de/images/odi-011.jpg",
+            "small": "course/de/images/odi-011.jpg",
+            "*source": "http://www.shutterstock.com/pic-232737427",
+            "*credit": "Kirill_M",
+            "*license": "Shutterstock standard license"
+        }
+    },
+    {
+        "_id":"c-82",
+        "_parentId":"b-80",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"589483b9fda9f5660ad841e0",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":3,
+        "title": "Fehler erkennen",
+        "displayTitle": "Fehler erkennen",
+        "body": "<p>Welche der folgenden Punkte stellen Fehler in Daten dar, die bereinigt werden müssen?</p>",
+        "instruction": "<em>Wählen Sie Ihre Antwort und klicken Sie dann auf \"Absenden\"</em>",
+        "_items": [
+            {
+                "text": "Unterschiedliche numerische Skalen",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "Mangelnde Granularität",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Redundante Daten",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "Fehlende Lizenz",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Mehrere Darstellungen",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Richtig!</h5><p>Die Verwendung von unterschiedlichen Skalen, redundanten Daten und Mehrfachdarstellungen derselben Daten sind nur einige der Fehler, die in unbereinigten Datensaätzen zu finden sind und behoben werden müssen. Granularität und fehlende Lizenz stellen zwar ein Problem dar, sind aber nicht als Fehler in den Datensätzen selbst zu betrachten.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Sind Sie sicher? </h5><p>Die Verwendung von unterschiedlichen Skalen, redundanten Daten und Mehrfachdarstellungen derselben Daten sind nur einige der Fehler, die in unbereinigten Datensaätzen zu finden sind und behoben werden müssen. Granularität und fehlende Lizenz stellen zwar ein Problem dar, sind aber nicht als Fehler in den Datensätzen selbst zu betrachten.</p>",
+                "final": "<h5>Sind Sie sicher? </h5><p>Die Verwendung von unterschiedlichen Skalen, redundanten Daten und Mehrfachdarstellungen derselben Daten sind nur einige der Fehler, die in unbereinigten Datensaätzen zu finden sind und behoben werden müssen. Granularität und fehlende Lizenz stellen zwar ein Problem dar, sind aber nicht als Fehler in den Datensätzen selbst zu betrachten.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Sind Sie sicher? </h5><p>Die Verwendung von unterschiedlichen Skalen, redundanten Daten und Mehrfachdarstellungen derselben Daten sind nur einige der Fehler, die in unbereinigten Datensaätzen zu finden sind und behoben werden müssen. Granularität und fehlende Lizenz stellen zwar ein Problem dar, sind aber nicht als Fehler in den Datensätzen selbst zu betrachten.</p>",
+                "final": "<h5>Sind Sie sicher? </h5><p>Die Verwendung von unterschiedlichen Skalen, redundanten Daten und Mehrfachdarstellungen derselben Daten sind nur einige der Fehler, die in unbereinigten Datensaätzen zu finden sind und behoben werden müssen. Granularität und fehlende Lizenz stellen zwar ein Problem dar, sind aber nicht als Fehler in den Datensätzen selbst zu betrachten.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-91",
+        "_parentId":"b-90",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Common errors is data",
+            "title": "",
+            "large": "course/de/images/odi-012.jpg",
+            "medium": "course/de/images/odi-012.jpg",
+            "small": "course/de/images/odi-012.jpg",
+            "*source": "http://www.shutterstock.com/pic-232737427",
+            "*credit": "Kirill_M",
+            "*license": "Shutterstock standard license"
+        }
+    },
+    {
+        "_id":"c-92",
+        "_parentId":"b-90",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"589484a1fda9f5660ad841e6",
+        "_classes":"",
+        "_layout":"right",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Wie viel Zeit kann für die Bereinigung und Aufbereitung der Daten aufgewendet werden?",
+        "displayTitle": "Wie viel Zeit kann für die Bereinigung und Aufbereitung der Daten aufgewendet werden?",
+        "body": "<p>Wie viel Zeit kann in einem daten-basierten Projekt für die Bereinigung und Aufbereitung der Daten aufgewendet werden?</p>",
+        "instruction": "<em>Wählen Sie Ihre Antwort und klicken Sie dann auf \"Absenden\"</em>",
+        "_items": [
+            {
+                "text": "Zwischen 20% und 40%",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Zwischen 40% und 60%",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Zwischen 60% und 80%",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Richtig!</h5><p>Zahlen belegen, dass zwischen 60% und 80% der Zeit eines Datenveröffentlichungsprojektes für die Bereinigung, Konvertierung und Aufbereitung der Daten für die anschließenden Analysen aufgewendet werden.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Sind Sie sicher? </h5><p>Zahlen belegen, dass zwischen 60% und 80% der Zeit eines Datenveröffentlichungsprojektes für die Bereinigung, Konvertierung und Aufbereitung der Daten für die anschließenden Analysen aufgewendet werden.</p>",
+                "final": "<h5>Sind Sie sicher? </h5><p>Zahlen belegen, dass zwischen 60% und 80% der Zeit eines Datenveröffentlichungsprojektes für die Bereinigung, Konvertierung und Aufbereitung der Daten für die anschließenden Analysen aufgewendet werden.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "Zahlen belegen, dass zwischen 60% und 80% der Zeit eines Datenveröffentlichungsprojektes für die Bereinigung, Konvertierung und Aufbereitung der Daten für die anschließenden Analysen aufgewendet werden.",
+                "final": "Zahlen belegen, dass zwischen 60% und 80% der Zeit eines Datenveröffentlichungsprojektes für die Bereinigung, Konvertierung und Aufbereitung der Daten für die anschließenden Analysen aufgewendet werden."
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+{
+        "_id":"c-112",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Summary icon clipboard",
+            "title": "Summary icon clipboard",
+            "large": "course/de/images/summary-icon.png",
+            "medium": "course/de/images/summary-icon.png",
+            "small": "course/de/images/summary-icon.png",
+            "*source":"http://www.shutterstock.com/pic-189810137.html",
+            "*credit":"Kritchanut",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-111",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Cleaning data",
+        "displayTitle":"Daten bereinigen",
+        "body":"<p>Die Datenbereinigung ist unerlässlich, um sicherzustellen, dass bei der Verwendung der Daten die richtigen Schlussfolgerungen gezogen werden.</p><p>Oftmals werden Fehler von den Datenherausgebern gar nicht bemerkt, da sich die Daten über viele Jahre hinweg geändert haben. Fehler können die Folge menschlicher Fehler bei der Dateneingabe, wie Tippfehler oder falsche Abkürzungen, sein.</p><p>Beachten Sie, dass die Bereinigung länger dauern kann, als Sie vielleicht denken. Eine sorgfältige Bereinigung spart jedoch auf lange Sicht viel Zeit.</p><p>Machen Sie mit bei unserer Übung zur Datenbereinigung mit OpenRefine und entdecken Sie, wie einfach dies sein kann.</p><p><a class='course_link' href='http://training.theodi.org/resources/Cleaning_Exercise.pdf' target='_blank'>Beginnen Sie mit der Datenbereinigung in Open Refine</a></p><p><a class='course_link' href='../module12/'>Nächstes Modul</a></p><p><a class='course_link' href='../'>Hauptmenü</a></p>",
+        "_pageLevelProgress": {
+          "_isEnabled": true
+        }
+    },
+    {
+       "_id":"c-113",
+       "_parentId":"b-110",
+       "_type":"component",
+       "_component":"text",
+       "_classes":"separator",
+       "_layout":"full"
+    },
+    {
+       "_id":"c-1111",
+       "_parentId":"b-110",
+       "_type":"component",
+       "_component":"text",
+       "_classes": "attribution",
+       "body":"&copy; <a href='https://ec.europa.eu/commission/index_en' target='_blank'>European Commission</a>",
+       "_layout":"full"
+    },
+        {
+        "_id":"c-100",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"footer-logo",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Open data institute logo",
+            "title": "Open data institute logo",
+            "large": "course/de/images/logo-small.png",
+            "medium": "course/de/images/logo-small.png",
+            "small": "course/de/images/logo-small.png",
+            "*source":"http://theodi.org",
+            "*credit":"The Open Data Institute",
+            "*license":"All rights reserved"  
+        }
+    },
+    {
+        "_id":"c-104",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"attribution not-eu not-default",
+        "_layout":"right",
+        "body":"Content created by <a href='http://theodi.org' target='_blank'>The Open Data Institute</a>"
+    },
+    {
+        "_id":"c-105",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"social-buttons not-dlab",
+        "_layout":"right",
+        "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/de/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/de/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/de/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/de/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/de/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/de/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/de/images/social/flickr.png'></a>"
+    }
+]
+
