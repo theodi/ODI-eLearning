@@ -1,0 +1,580 @@
+[
+    {
+        "_id":"c-01",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"intro-logo",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "",
+            "medium": "",
+            "small": ""
+        }
+    },
+    {
+        "_id":"c-02",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Den Erfolg von Open Data Initiativen messen",
+        "displayTitle":"Den Erfolg von Open Data Initiativen messen",
+        "body":"<p>Erfolgreiche Open Data Initiativen machen mehr als nur Daten im Internet zu veröffentlichen. Die meisten datenversierten Organisationen setzen auch Rahmen und Richtlinien ein, um Innovationen zu unterstützen und Anreize zu schaffen. Open Data Gemeinschaften müssen aufgebaut und Erfolgsgeschichten kommuniziert werden. Zusammen werden sie mehr Menschen helfen, die Vorteile von Open Data zu verstehen.</p><h5>In diesem Modul werden wir Folgendes untersuchen:</h5><ul class='ticks'><li>Erfolg messen</li><li>Bedarfsorientiert sein</li><li>Auf Kurs bleiben</li></ul>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+     {
+    "_id":"c-11",
+    "_parentId":"b-10",
+    "_type":"component",
+    "_component":"iFrame-vimeo",
+    "_classes":"",
+    "_layout":"full",
+        "title":"Open Data Initiativen vergleichen - in 2 Minuten",
+        "displayTitle": "Open Data Initiativen vergleichen - in 2 Minuten",
+        "body": "ODI International Development Managerin Liz Carolan erläutert, wie der Erfolg von Open Data Initiativen gemessen werden kann, was ein nachfrageorientierter Ansatz für Open Data ist und wie Leistungsindikatoren Open Data Initiativen einen Mehrwert verleihen.",
+        "instruction": "Um Untertitel ein- und auszuschalten, klicken Sie auf die Schaltfläche \"cc\" unten rechts im Video",
+        "_setCompletionOn":"ended",
+        "_source": "https://player.vimeo.com/video/129197044",
+        "_media": {
+		"mp4": "course/de/video/video.mp4",
+		"poster": "course/de/video/placeholder.jpg"
+	},
+        "_height": {
+            "_small" : 250,
+            "_medium" : 350,
+            "_large" : 508
+        }
+    },
+    {
+        "_id":"c-21",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Erfolg messen",
+            "title": "Erfolg messen",
+            "large": "course/de/images/odi-1-textimage_large.jpg",
+            "medium": "course/de/images/odi-1-textimage_large.jpg",
+            "small": "course/de/images/odi-1-textimage_large.jpg",
+            "*source":"http://www.shutterstock.com/pic-120780490.html",
+            "*credit":"501room",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-22",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Erfolg messen",
+        "displayTitle":"Erfolg messen",
+        "body":"<p>Bei der Bewertung des Erfolgs einer Open Data Initiative ist es wichtig, über den quantitativen Aspekt hinauszugehen und sich auf die Nachfrage und den Bedarf der Nutzer zu konzentrieren.</p><p>Das Open Data Barometer bietet ein globales Messinstrument für den Ländervergleich. Es verwendet drei Schlüsselindikatoren: Bereitschaft, Umsetzung und Auswirkungen.<br /><a href='http://barometer.opendataresearch.org/' target='_blank'>Hier geht’s zum Open Data Barometer</a></p>"
+    },
+     {
+        "_id": "c-25",
+        "_parentId": "b-25",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Kriterien für die Erfolgsmessung",
+        "displayTitle": "Kriterien für die Erfolgsmessung",
+        "body": "Es gibt drei wichtige Leistungsindikatoren, um erfolgreiche Open Data Initiativen zu vergleichen und zu messen. Das Open Data Barometer bietet weitere Details zu all diesen Indikatoren.",
+        "instruction": "<em class='desktop-instruction'>Klicken Sie auf den Vorwärtspfeil um mehr zu erfahren.</em><em class='mobile-instruction'>Klicken Sie auf das \"+\" Symbol um mehr zu erfahren. Klicken Sie rechts auf das Bild, um mehr zu sehen</em>",
+        "_items": [
+            {
+                "title": "Open Data Bereitschaft",
+                "body": "<p>Inwieweit ist eine Organisation oder ein Land bereit, eine Open Data Initiative zu unterstützen?</p><ul>Die folgenden Punkte sind wichtige Indikatoren für die Bereitschaft:<li>Unterstützung von offenen Lizenzen</li><li>Richtlinien und Verfahren</li><li>Investitionen</li><li>Lernmaterialien</li><li>Beteiligungsbereitschaft</li></ul>",
+                "_graphic": {
+                    "src": "course/de/images/odi-2-narrative_large.jpg",
+                    "alt": "Readiness",
+                    "title": "Readiness",
+                    "*source":"http://www.shutterstock.com/pic-203239417.html",
+                    "*credit":"Ozerina Anna",
+                    "*license":"Ozerina Anna"
+                },
+                "strapline": "Readiness"
+            },
+            {
+                "title": "Umsetzung von Open Data Initiativen",
+                "body": "<p>Daten sind in der heutigen Zeit genauso wichtig für unsere nationale Infrastruktur wie Straßen oder Internetzugang. Für öffentliche Institutionen und Regierungen gibt es bestimmte Datensätze, die offen sein sollten, um Innovationen zu unterstützen, Mehrwert zu generieren und die Wirtschaft zu stärken.</p><p>Kommerzielle Organisationen sollten auch in Betracht ziehen, welche Datensätze am nützlichsten für die Verbesserung ihres Geschäfts und die Erschließung neuer Marktchancen sind.</p>",
+                "_graphic": {
+                    "src": "course/de/images/odi-3-narrative_large.jpg",
+                    "alt": "Implementation",
+                    "title": "Implementation",
+                    "*source":"http://www.shutterstock.com/pic-259560827.html",
+                    "*credit":"JeKh",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Implementation"
+            },
+            {
+                "title": "Der Einfluss von Open Data",
+                "body": "<p>Was sind die greifbaren Vorteile von Open Data für Nutzer?</p><p>Ohne Beweise über positive Auswirkungen von Open Data, werden Gemeinschaften sich nicht rund um Open Data entwickeln und Innovationen werden sich nur weniger verbreiten. Folgende Aspekte stellen wichtige Indikatoren für den Open Data Einfluss dar:</p><ul><li>Effizienz- und Transparenzsteigerung der Regierung</li><li>Open Data getriebener Wirtschaftswachstum</li><li>Gesellschaftlicher und ökologischer Mehrwert</li></ul>",
+                "_graphic": {
+                    "src": "course/de/images/odi-4-narrative_large.jpg",
+                    "alt": "Impact",
+                    "title": "Impact",
+                    "*source":"http://www.shutterstock.com/pic-173642015.html",
+                    "*credit":"Oleksiy Mark",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Impact"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-30",
+        "_parentId":"b-28",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Focussing on demand",
+            "title": "Focussing on demand",
+            "large": "course/de/images/odi-5-accordian_large.jpg",
+            "medium": "course/de/images/odi-5-accordian_large.jpg",
+            "small": "course/de/images/odi-5-accordian_large.jpg",
+            "*source":"http://www.shutterstock.com/pic-154597898.html",
+            "*credit":"Leone_V",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+      "_id":"c-35",
+      "_parentId":"b-28",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"left",
+      "title": "Fokus auf die Open-Data-Nachfrage",
+      "displayTitle": "Fokus auf die Open-Data-Nachfrage",
+      "body": "<p>Ein nachfrageorientierter Ansatz priorisiert die Bedürfnisse des Datennutzers über die des Datenherausgebers.</p><p>Nachfrageorientierte Open Data ermöglichen zudem eine Reihe von zusätzlichen Vorteilen.</p>",
+      "instruction": "<em>Klicken Sie auf die jeweiligen Überschriften, um mehr zu erfahren</em>",
+      "_items": [
+        {
+          "alt": "Open Data als Weiterbildungselement",
+          "title": "Open Data als Weiterbildungselement",
+          "body": "<p>Daten, nicht nur offene Daten, sind heute ein Kernaspekt der Arbeitswelt. Allerdings verfügt nicht jeder über die erforderlichen Fähigkeiten, Daten zu verwalten, zu bereinigen und/oder zu interpretieren.</p><p>Offene Daten schaffen die Möglichkeiten, die Datenkompetenz in der Belegschaft zu erhöhen, indem das öffentliche Bewusstsein um dieses Thema geschärft wird.</p>"
+        },
+        {
+          "alt": "Innovationen mit Open Data ermöglichen",
+          "title": "Innovationen mit Open Data ermöglichen",
+          "body": "<p>Open Data sind ein Schlüsselelement für Open Innovation.</p><p>Durch das Öffnen von Daten können Personen innerhalb einer Organisation dazu angeregt werden, miteinander und mit externen Gruppen zu kommunizieren.</p><p>Plume Labs, ein französisches Startup, kombinierte Open Data zur Luftqualität mit fortschrittlichen Überwachungs- und Visualisierungssystemen, um die neuesten Luftverschmutzungsindikatoren für 18 europäische Städte bereitzustellen.<br /><a href='https://www.plumelabs.com/' target='_blank'>Hier geht’s zum Plume Labs Beispiel </a></p>"
+        },
+        {
+          "alt": "Unternehmenswachstum durch Open Data ankurbeln",
+          "title": "Unternehmenswachstum durch Open Data ankurbeln",
+          "body": "<p>Für Unternehmen kann das Öffnen von Daten die Beziehungen zu den Verbrauchern verbessern und neue Kundenkanäle öffnen.</p><p>Thomson Reuters hat seine Daten geöffnet, um die erfassten Daten leichter zugänglich und benutzerfreundlicher zu machen.<br /><a href='http://innovation.thomsonreuters.com/de/labs/data-identifiers.html' target='_blank'>Hier geht’s zur Thomson Reuters Webseite</a></p>"
+        },
+        {
+          "alt": "Open Data als Change-Agent",
+          "title": "Open Data als Change-Agent",
+          "body": "<p>Offene Daten haben die Fähigkeiten, innerhalb von Gesellschaften Veränderungen herbeizuführen.</p><p>Die Schweizer Regierung hat beispielsweise festgestellt, dass die Offenlegung ihrer Verkehrssicherheitsdaten für mehr Klarheit bei Unfällen sorgt. Das Mapping dieser Informationen gibt den Menschen eine interaktive Möglichkeit mit den Daten zu interagieren.<br /><a class='not-dlab' href='http://unfallkarte.ch/de/' target='_blank'>Hier geht’s zur Schweizer Crash-Karte</a></p>"
+        },
+        {
+          "alt": "Open Data als Gemeinschaftsunterstützer",
+          "title": "Open Data als Gemeinschaftsunterstützer",
+          "body": "<p>Open Data helfen Gemeinschaften miteinander zu kommunizieren.</p><p>mySociety hat FixMyStreet ins Leben gerufen, das es den Bewohnern ermöglicht, in ihrer Umgebung existierende Probleme als Open Data bereitzustellen und mit anderen gemeinsam nach Lösungen suchen.,<br /><a href='https://www.fixmystreet.com/' target='_blank'>Hier geht’s zum FixMyStreet Projekt</a></p>"
+        }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+     {
+        "_id": "c-40",
+        "_parentId": "b-30",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Auf Kurs bleiben",
+        "displayTitle": "Auf Kurs bleiben",
+        "body": "Wichtige Leistungsindikatoren helfen dabei, Open Data-Initiativen auf Kurs zu halten.",
+        "instruction": "<em class='desktop-instruction'>Klicken Sie auf den Vorwärtspfeil um mehr zu erfahren</em><em class='mobile-instruction'>Klicken Sie auf das \"+\" Symbol um mehr zu erfahren. Klicken Sie rechts auf das Bild, um mehr zu sehen.</em>",
+        "_items": [
+            {
+                "title": "Den Fortschritt verwalten",
+                "body": "<p>Key Performance Indikatoren (KPIs) helfen, Open Data-Initiativen zu steuern.</p><p>KPIs sollten festgelegt werden, um die Datenbereitstellung, Umsetzung und den Einfluss messen zu können.</p>",
+                "_graphic": {
+                    "src": "course/de/images/odi-6-narrative_large.jpg",
+                    "alt": "Process management",
+                    "title": "Process management",
+                    "*source":"http://www.shutterstock.com/pic-174926546.html",
+                    "*credit":"Ieromin",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Den Fortschritt verwalten"
+            },
+            {
+                "title": "Nutzerorientiert bleiben",
+                "body": "<p>Die erfolgreichsten Open Data-Initiativen konzentrieren sich gleichzeitig auf alle Key Performance Indikatoren (KPIs).</p><p>Vermeiden Sie es, die Interaktion mit den Nutzern zu verzögern und tretten Sie von Anfang an in Kontakt mit Ihren Nutzern</p><p>Erfolgreiche Initiativen konzentrieren sich zuerst auf die Nutzer, um Gemeinschaften aufzubauen, das Angebot auf- und auszubauen. Um ihren Wert zu maximieren, können auchunvollständige offene Daten schnell in die Hände von Nutzern gelangen können.</p><p>Schweden verfügt über ein etabliertes Open Data Programm mit starkem Prozessmanagement und starker Nutzerorientierung.<br /><a href='http://theodi.github.io/open-data-barometer-viz/' target='_blank'>Hier geht’s zu den Ergebnissen des schwedischen Open Data Barometer</a></p>",
+                "_graphic": {
+                    "src": "course/de/images/odi-7-narrative_large.jpg",
+                    "alt": "User focused",
+                    "title": "User focused",
+                    "*source":"http://www.shutterstock.com/pic-223607656.html",
+                    "*credit":"Studio_G",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "User focused"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    }, {
+        "_id":"c-42",
+        "_parentId":"b-33",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/de/images/burst.png",
+            "medium": "course/de/images/burst.png",
+            "small": "course/de/images/burst.png"
+        }
+    },
+    {
+        "_id":"c-43",
+        "_parentId":"b-33",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Sind Sie bereit mit Open Data Erfolg zu haben?",
+        "displayTitle":"Sind Sie bereit mit Open Data Erfolg zu haben?",
+        "body":"<p>Können Sie sich an die Schlüsselindikatoren einer erfolgreichen Open Data Initiative erinnern?</p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-45",
+        "_parentId":"b-35",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Erfolg messen",
+            "title": "",
+            "large": "course/de/images/odi-8-textimage_large.jpg",
+            "medium": "course/de/images/odi-8-textimage_large.jpg",
+            "small": "course/de/images/odi-8-textimage_large.jpg",
+            "*source":"http://www.shutterstock.com/pic-120780490.html",
+            "*credit":"501room",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-50",
+        "_parentId":"b-35",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"588f525ab61c46e176e7ead3",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Erfolg messen",
+        "displayTitle": "Erfolg messen",
+        "body": "<p>Die drei wichtigsten Kriterien für den Vergleich und die Messung des Erfolges einer Open Data sind ...</p>",
+        "instruction": "<em>Wählen Sie Ihre Antwort und klicken Sie dann auf \"Absenden\"</em>",
+        "_items": [
+            {
+                "text": "Gültigkeit, Offenheit und Nützlichkeit",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Bereitschaft, Umsetzung und Wirkung",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "Relevanz, Funktionalität und Beständigkeit",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Richtig!</h5><p>Die drei wichtigsten Kriterien um erfolgreiche Open Data Initiativen zu messen und zu vergleichen sind die Implementierung und die Ableitung von Vorteilen, die Verfügbarkeit wichtiger Daten und die Vielfältigkeit und Art des generierten Mehrwerts.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Sind Sie sicher?</h5><p>Die drei wichtigsten Kriterien um erfolgreiche Open Data Initiativen zu messen und zu vergleichen sind die Implementierung und die Ableitung von Vorteilen, die Verfügbarkeit wichtiger Daten und die Vielfältigkeit und Art des generierten Mehrwerts.</p>",
+                "final": "<h5>Sind Sie sicher?</h5><p>Die drei wichtigsten Kriterien um erfolgreiche Open Data Initiativen zu messen und zu vergleichen sind die Implementierung und die Ableitung von Vorteilen, die Verfügbarkeit wichtiger Daten und die Vielfältigkeit und Art des generierten Mehrwerts.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "",
+                "final": ""
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-55",
+        "_parentId":"b-40",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Fokus auf die Nachfrage",
+            "title": "",
+            "large": "course/de/images/odi-9-mcq_large.jpg",
+            "medium": "course/de/images/odi-9-mcq_large.jpg",
+            "small": "course/de/images/odi-9-mcq_large.jpg",
+            "*source":"http://www.shutterstock.com/pic-203239417.html",
+            "*credit":"Ozerina Anna",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-60",
+        "_parentId":"b-40",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"588f5311b61c46e176e7ead8",
+        "_classes":"",
+        "_layout":"right",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":3,
+        "title": "Fokus auf die Nachfrage",
+        "displayTitle": "Fokus auf die Nachfrage",
+        "body": "<p>Was sind drei Indikatoren für einen nachfrageorientierten Ansatz von Open Data?</p>",
+        "instruction": "<em>Wählen Sie drei Antworten und klicken Sie auf \"Absenden\"</em>",
+        "_items": [
+            {
+                "text": "Offene Daten als Weiterbildungskompetenz",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "Open Data als Innovationserzeuger",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "Große Datenmengen",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Open Data als Gemeinschaftsunterstützer.",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "Enabler für eine umfangreichere Datenpolitik.",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Richtig!</h5><p>Ein bedarfsorientierter Ansatz verbessert die Datenkompetenz,fördert Innovationen und unterstützt die Gemeinschaft.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Sind Sie sicher?</h5><p>Ein bedarfsorientierter Ansatz verbessert die Datenkompetenz,fördert Innovationen und unterstützt die Gemeinschaft.</p>",
+                "final": "<h5>Sind Sie sicher?</h5><p>A demand-focused approach improves data literacy, enables innovation and supports communities.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Sind Sie sicher?</h5><p>A demand-focused approach improves data literacy, enables innovation and supports communities.</p>",
+                "final": "<h5>Sind Sie sicher?</h5><p>A demand-focused approach improves data literacy, enables innovation and supports communities.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-65",
+        "_parentId":"b-45",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Auf Kurs bleiben",
+            "title": "",
+            "large": "course/de/images/odi-10-accordian_large.jpg",
+            "medium": "course/de/images/odi-10-accordian_large.jpg",
+            "small": "course/de/images/odi-10-accordian_large.jpg",
+            "*source":"http://www.shutterstock.com/pic-154597898.html",
+            "*credit":"Leone_V",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-70",
+        "_parentId":"b-45",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"588f53fbb61c46e176e7eade",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Auf Kurs bleiben",
+        "displayTitle": "Auf Kurs bleiben",
+        "body": "<p>Key Performance Indikatoren(KPIs) sind eine gute Methode um</p>",
+        "instruction": "<em>Wählen Sie eine Option und klicken Sie auf \"Absenden\"</em>",
+        "_items": [
+            {
+                "text": "Ein bedarfsorientierter Ansatz verbessert die Datenkompetenz, fördert Innovationen und unterstützt die Gemeinschaft.",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "die Größe von Datensätzen zu berechnen",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Meilenstein erreichen",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Richtig!</h5><p>KPIs bieten eine hervorragende Möglichkeit, das Gleichgewicht zwischen der Angebot- und Nachfrageseite einer Open-Data-Initiative aufrechtzuerhalten.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Sind Sie sicher?</h5><p>KPIs bieten eine hervorragende Möglichkeit, das Gleichgewicht zwischen der Angebot- und Nachfrageseite einer Open-Data-Initiative aufrechtzuerhalten.</p>",
+                "final": "<h5>Sind Sie sicher?</h5><p>KPIs bieten eine hervorragende Möglichkeit, das Gleichgewicht zwischen der Angebot- und Nachfrageseite einer Open-Data-Initiative aufrechtzuerhalten.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "",
+                "final": ""
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-85",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Summary icon clipboard",
+            "title": "Summary icon clipboard",
+            "large": "course/de/images/odi-footer.png",
+            "medium": "course/de/images/odi-footer.png",
+            "small": "course/de/images/odi-footer.png",
+            "*source":"http://www.shutterstock.com/pic-189810137.html",
+            "*credit":"Kritchanut",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-90",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Erfolg vergleichen und messen",
+        "displayTitle":"Erfolg vergleichen und messen",
+        "body":"<p>Beim Vergleichen und Messen von Open Data-Initiativen ist es wichtig, einen breiten Rahmen zu verwenden und sich auf die Nachfrage zu konzentrieren.</p><p>Diese Methoden helfen Ihrer Initiative, auf Kurs zu bleiben und den Erfolg anderer Open Data-Initiativen nachzuahmen.</p><p>KPIs tragen auch dazu bei, die Änderungen voranzutreiben, die Unternehmen benötigen, um sich in der Open Data Gemeinschaft erfolgreich zu engagieren.</p><p>Im nächsten Modul untersuchen wir, wie man nachhaltige Quellen für Open Data findet.</p><p><a class='course_link' href='../module7/'>Nächstes Modul</a></p><p><a class='course_link' href='../'>Hauptmenü</a></p>",
+        "_pageLevelProgress": {
+          "_isEnabled": true
+        }
+    },
+    {
+       "_id":"c-95",
+       "_parentId":"b-55",
+       "_type":"component",
+       "_component":"text",
+       "_classes":"separator",
+       "_layout":"full"
+    },
+    {
+       "_id":"c-96",
+       "_parentId":"b-55",
+       "_type":"component",
+       "_component":"text",
+       "_classes": "attribution",
+       "body":"&copy; <a href='https://ec.europa.eu/commission/index_en' target='_blank'>European Commission</a>",
+       "_layout":"full"
+    },
+    {
+        "_id":"c-100",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"footer-logo",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Open data institute logo",
+            "title": "Open data institute logo",
+            "large": "course/de/images/logo-small.png",
+            "medium": "course/de/images/logo-small.png",
+            "small": "course/de/images/logo-small.png",
+            "*source":"http://theodi.org",
+            "*credit":"The Open Data Institute",
+            "*license":"All rights reserved"  
+        }
+    },
+    {
+        "_id":"c-104",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"attribution not-eu not-default",
+        "_layout":"right",
+        "body":"Content created by <a href='http://theodi.org' target='_blank'>The Open Data Institute</a>"
+    },
+    {
+        "_id":"c-105",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"social-buttons not-dlab",
+        "_layout":"right",
+        "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/de/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/de/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/de/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/de/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/de/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/de/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/de/images/social/flickr.png'></a>"
+    }
+]
