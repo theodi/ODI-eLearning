@@ -30,7 +30,7 @@
         "_layout":"left",
         "title":"Was sind offene Daten?",
         "displayTitle":"Was sind offene Daten?",
-        "body":"<p>Offene Daten sind Daten,  die von jeden ohne Einschränkung genutzt, weiterverbreitet und weiterverwendet werden dürfen. Regierungen, Unternehmen und Privatpersonen können Open Daten nutzen, um soziale, wirtschaftliche und ökologische Mehrwerte zu schöpfen.</p><h5>In diesem Modul werden wir folgende Aspekte betrachten:</h5><ul class='ticks'><li>Was sind offene Daten?</li><li>Was sind Daten?</li><li>Was macht Daten offen?</li><li>Warum brauchen wir offene Daten?</li></ul>",
+        "body":"<p>Offene Daten sind Daten,  die von jeden ohne Einschränkung genutzt, weiterverbreitet und weiterverwendet werden dürfen. Regierungen, Unternehmen und Privatpersonen können Open Daten nutzen, um soziale, wirtschaftliche und ökologische Mehrwerte zu schöpfen.</p><h5>In diesem Modul werden wir folgende Aspekte betrachten:</h5><ul class='ticks'><li>Was sind offene Daten?</li><li>Was sind Daten</li><li>Was macht Daten offen?</li><li>Warum brauchen wir offene Daten?</li></ul>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
@@ -45,14 +45,14 @@
     "_layout":"full",
         "title":"Open Data entdecken - in 2 Minuten",
         "displayTitle": "Open Data entdecken - in 2 Minuten",
-        "body": "ODI-Trainer Dr. David Tarrant erklärt, was Daten sind, was Open Daten ausmacht und warum wir Open Daten brauchen.",
-        "instruction": "Um Untertitel ein- und auszuschalten, klicken Sie auf die Schaltfläche 'cc' in der Videoleiste",
+        "body": "ODI-Trainer Dr. David Tarrant erklärt, was Daten sind, was Open Data ausmacht und warum wir Open Data brauchen.",
+        "instruction": "Um Untertitel ein- und auszuschalten, klicken Sie auf die Schaltfläche \"cc\" unten rechts im Video",
         "_setCompletionOn":"ended",
         "_source": "https://player.vimeo.com/video/129196637",
-    "_media": {
-        "mp4": "course/de/video/video.mp4",
-        "poster": "course/de/video/placeholder.jpg"
-    },
+	"_media": {
+		"mp4": "course/de/video/video.mp4",
+		"poster": "course/de/video/placeholder.jpg"
+	},
         "_height": {
             "_small" : 250,
             "_medium" : 350,
@@ -97,8 +97,8 @@
         "_component": "narrative",
         "title": "Von Rohdaten zu neuen Informationenen und Erkenntnissen",
         "displayTitle": "Von Rohdaten zu neuen Informationenen und Erkenntnissen",
-        "body": "Ohne Daten können wir keine Informationen aufbauen, und ohne Informationen gibt es kein neues Wissen.",
-        "instruction": "<em class='desktop-instruction'>Klicken Sie auf den Vorwärtspfeil um mehr zu erfahren.</em><em class='mobile-instruction'>Klicken Sie auf das '+' Symbol um mehr zu erfahren. Klicken Sie rechts auf das Bild, um mehr zu sehen.</em>",
+        "body": "Ohne Daten können wir keine Informationenen aufbauen, und ohne Informationenen gibt es kein neues Wissen.",
+        "instruction": "<em class='desktop-instruction'>Klicken Sie auf den Vorwärtspfeil um mehr zu erfahren</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
         "_items": [
             {
                 "title": "Daten",
@@ -115,7 +115,7 @@
             },
             {
                 "title": "Informationenen",
-                "body": "<p>Daten werden zu Informationenen, wenn sie in einen Kontext gestellt werden.</p><p>Wie im vorangegangenen Beispiel können Orte, Bilder, Beschreibungen und Preise helfen, Informationenen über eine touristische Sehenswürdigkeit zu liefern.</p><p>Die Sammlung und Präsentation von Daten dienen der Informationensbildung.</p>",
+                "body": "<p>Daten werden zu Informationenen, wenn sie in einen Kontext gestellt werde.</p><p>Wie im vorangegangenen Beispiel beschrieben können Orte, Bilder, Beschreibungen und Preise helfen, Informationenen über eine  Sehenswürdigkeit zu liefern.</p><p>Die Sammlung und Präsentation von Daten dienen der Informationensbildung.</p>",
                 "_graphic": {
                     "src": "course/de/images/odi-3-narrative_large.jpg",
                     "alt": "Informationen in knowledge triangle",
@@ -128,7 +128,7 @@
             },
             {
                 "title": "Wissen",
-                "body": "<p>Wissen leitet sich aus Informationenen ab und ist auf Ihre Bedürfnisse zugeschnitten.</p><p>Der Aufbau von Wissen ist ein Prozess, in dem Informationenen in Entscheidungen umgewandelt werden.</p><p>Aufbauend auf dem vorherigen Beispiel, wenn man weiß dass niemand in Ihrer Familie Themenparks mag, hilft dies Ihnen sich zu entscheiden, welche Orte Sie im Urlaub meiden sollten und welche besser zu Ihrer Familie passen würden.</p>",
+                "body": "<p>Wissen leitet sich aus Informationenen ab und ist dann auch auf Ihre Bedürfnisse zugeschnitten.</p><p>Der Aufbau von Wissen ist ein Prozess, in dem Informationenen in Entscheidungen umgewandelt werden.</p><p>Aufbauend auf dem vorherigen Beispiel, wenn man weiß dass niemand in Ihrer Familie Themenparks mag, hilft dies Ihnen sich zu entscheiden, welche Orte Sie im Urlaub eher meiden sollten und welche besser zu Ihrer Familie passen würden.</p>",
                 "_graphic": {
                     "src": "course/de/images/odi-4-narrative_large.jpg",
                     "alt": "Wissen in knowledge triangle",
@@ -182,12 +182,12 @@
         {
           "alt": "Kosten",
           "title": "Kosten",
-          "body": "<p>Offene Daten müssen frei nutzbar sein, was aber nicht bedeutet, dass sie frei zugänglich sein müssen.</p><p>Die Erstellung, Pflege und Veröffentlichung von nutzbaren Daten ist oft mit  Kosten verbunden.</p><p>Im Idealfall sollte die Gebühr für den Zugriff auf offene Daten nicht mehr als die angemessenen Vervielfältigungskosten der angeforderten Dateneinheit betragen.</p><p>Diese Kosten sind für viele Datensätze eher vernachlässigbar.</p><p>Live-Daten und Big Daten können laufende Kosten hinishctlich der zuverlässigen Bereitstellung der auf diesen Daten basierenden Dienste verursachen.</p>"
+          "body": "<p>Offene Daten müssen frei nutzbar sein, was aber nicht bedeutet, dass sie frei zugänglich sein müssen.</p><p>Oft entstehen Kosten, um nutzbare Daten zu erstellen, zu pflegen und zu veröffentlichen.</p><p>Im Idealfall sollte die Gebühr für den Zugriff auf offene Daten nicht mehr als die angemessenen Vervielfältigungskosten der angeforderten Dateneinheit betragen.</p><p>Die Erstellung, Pflege und Veröffentlichung von nutzbaren Daten ist oft mit  Kosten verbunden.</p><p>Live-Daten und Big Daten können laufende Kosten hinishctlich der zuverlässigen Bereitstellung der auf diesen Daten basierenden Dienste verursachen.</p>"
         },
         {
           "alt": "Wiederverwendung der Daten",
           "title": "Wiederverwendung der Daten",
-          "body": "<p>Sobald der Nutzer die Daten hat, steht es ihm frei, sie wiederzuverwenden und weiterzugeben - auch zu kommerziellen Zwecken.</p><p>Offene Daten werden daran gemessen, wofür sie weiterverwendet werden können, nicht daran, wie sie bereitgestellt werden.</p><p>Aspekte wie Formate, Strukturen und maschinelle Lesbarkeit machen die Daten nutzbarer und sollten in Betracht gezogen werden.</p><p>Diese machen die Daten jedoch nicht qualitativ besser.</p>"
+          "body": "<p>Sobald der Nutzer die Daten hat, steht es ihm frei, sie wiederzuverwenden und weiterzugeben - auch zu kommerziellen Zwecken.</p><p>Offene Daten werden daran gemessen, wofür sie weiterverwendet werden können, nicht daran, wie sie bereitgestellt werden..</p><p>Aspekte wie Formate, Strukturen und maschinelle Lesbarkeit machen die Daten nutzbarer und sollten in Betracht gezogen werden.</p><p>Diese machen die Daten jedoch nicht qualitativ besser..</p>"
         }
       ],
       "_pageLevelProgress": {
@@ -204,11 +204,11 @@
         "title": "Warum brauchen wir offene Daten?",
         "displayTitle": "Warum brauchen wir offene Daten?",
         "body": "Offene Daten können Regierungen, Unternehmen und der Zivilgesellschaft vielfältige Vorteile bringen.",
-        "instruction": "<em class='desktop-instruction'>Klicken Sie auf den Vorwärtspfeil um mehr zu erfahren.</em><em class='mobile-instruction'>Klicken Sie auf das '+' Symbol um mehr zu erfahren. Klicken Sie rechts auf das Bild, um mehr zu sehen.</em>",
+        "instruction": "<em class='desktop-instruction'>Klicken Sie auf den Vorwärtspfeil um mehr zu erfahren</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
         "_items": [
             {
                 "title": "Das Regierungshandeln verändern",
-                "body": "<p>Offene Daten können dazu beitragen, die Transparenz der Regierungen zu erhöhen. Sie können Nachweise dafür erbringen, dass öffentliche Gelder sinnvoll ausgegeben und Maßnahmen umgesetzt wurden.</p><p class='not-dlab'>Laut David Eaves, dem führenden Aktivisten von Open Government, erlaubten Open Daten den Bürgern Kanadas, der Regierung 3,2 Milliarden Dollar an betrügerischen Spenden im Jahr 2010 zu sparen.<br /><a href='http://eaves.ca/2010/04/14/case-study-open-data-and-the-public-purse/' target='_blank'>Hier geht’s zum Artikel von David Eaves</a></p><p class='not-tz not-dlab not-default'>Ausgehend von dem prognostizierten BIP der EU28+ für 2020 lassen sich unter Berücksichtigung der jeweiligen Durchschnittswerte der Staatsausgaben die Kosteneinsparungen pro Land errechnen. Die kumulierten Kosteneinsparungen <a href='http://www.europeandataportal.eu/sites/default/files/edp_creating_value_through_open_data_0.pdf#page=11' target='_blank'>für die EU28+ Länder werden im Jahr 2020 auf 1,7 Mrd. EUR geschätzt.</a></p><p class='not-tz not-dlab not-default'>Lexbase ist ein Webservice, der öffentliche Informationenen von schwedischen Gerichten und anderen Behörden bereitstellt. Auf der Website sind Urteile in Straf- und Zivilsachen abrufbar. Die Datenbank wird täglich mit <a href='www.lexbase.se' target='_blank'>neuen Urteilen und Entscheidungen aktualisiert. Die Webseite wird von Bürgern genutzt, um Informationen hinsichtlich der Kriminalitätsrate in verschiedenen Städten zu bekommen</a>.</p><p class='not-eu not-default'>For example, The open data dashboard for education in Tanzania motivates citizens to demand greater accountability from their school system and public officials.<br /><a href='http://odimpact.org/case-open-education-information-in-tanzania.html' target='_blank'>Take me to the education dashboard.</a></p><p>In einem anderen Beispiel, laut Follow the Money in Nigeria, wird derselbe Prozess verwendet, um sicherzustellen, dass öffentliche Gelder so ausgegeben werden, wie es den Menschen versprochen wurde.<br /><a href='http://followthemoneyng.org/' target='_blank'>Hier geht‘s zum \"Follow the Money\" Beispiel</a></p>",
+                "body": "<p>Offene Daten können dazu beitragen, die Transparenz der Regierungen zu erhöhen. Sie können Nachweise dafür erbringen, dass öffentliche Gelder sinnvoll ausgegeben und Maßnahmen umgesetzt wurden.</p><p class='not-dlab'>Laut David Eaves, dem führenden Aktivisten von Open Government, ermöglichte Open Daten den Bürgern Kanadas, der Regierung 3,2 Milliarden Dollar an betrügerischen Spenden im Jahr 2010 zu sparen.<br /><a href='http://eaves.ca/2010/04/14/case-study-open-data-and-the-public-purse/' target='_blank'>Hier geht’s zum Artikel von David Eaves</a></p><p class='not-tz not-dlab not-default'>Ausgehend von dem prognostizierten BIP der EU28+ für 2020 lassen sich unter Berücksichtigung der jeweiligen Durchschnittswerte der Staatsausgaben die Kosteneinsparungen pro Land errechnen Die kumulierten Kosteneinsparungen für die EU28+ Länder werden im Jahr 2020 auf <a href='http://www.europeandataportal.eu/sites/default/files/edp_creating_value_through_open_data_0.pdf#page=11' target='_blank'>1,7 Mrd. EUR geschätzt</a>.</p><p class='not-tz not-dlab not-default'>Lexbase ist ein Webservice, der öffentliche Informationenen von schwedischen Gerichten und anderen Behörden bereitstellt Auf der Website sind Urteile in Straf- und Zivilsachen abrufbar. Die Datenbank wird täglich mit neuen Urteilen und Entscheidungen aktualisiert. Die Webseite wird von Bürgern genutzt, <a href='www.lexbase.se' target='_blank'>um Informationen hinsichtlich der Kriminalitätsrate in verschiedenen Städten zu bekommen</a>.</p><p>In einem anderen Beispiel, laut Follow the Money in Nigeria, wird derselbe Prozess verwendet, um sicherzustellen, dass öffentliche Gelder so ausgegeben werden, wie es den Menschen versprochen wurde.<br /><a href='http://followthemoneyng.org/' target='_blank'>Hier geht‘s zum Follow the Money Beispiel</a></p>",
                 "_graphic": {
                     "src": "course/de/images/odi-6-narrative_large.png",
                     "alt": "Das Regierungshandeln verändern",
@@ -220,21 +220,21 @@
                 "strapline": "Das Regierungshandeln verändern"
             },
             {
-                "title": "Erschließung neuer Geschäftsopportunitäten",
-                "body": "<p>Open Daten eröffnet Unternehmen neue Möglichkeiten, Kundenkontakte zu knüpfen.</p><p class='not-dlab'>Transport for London hat offene Daten veröffentlicht, die von Entwicklern genutzt wurden, um über 800 Transport-Applikationen zu entwickeln.<br /><a href='http://www.tfl.gov.uk/' target='_blank'>Hier geht’s zum ‚Transport for London‘ Beispiel</a></p><p class='not-dlab'>Thomson Reuters nutzt Open Daten, um mit bestehenden Kunden in Kontakt zu treten und bessere Dienstleistungen anzubieten.<br /><a href='http://site.thomsonreuters.com/site/data-identifiers/' target='_blank'>Hier geht’s zum ‚Thomson Reuters‘ Beispiel</a></p><p class='not-eu'>Find My School enables you to find the right school for you by location and exam results.<br/><a href='http://findmyschool.co.ke/discover' target='_blank'>Take me to Find My School</a></p><p>Startups in the ODI Startup programme now collectively employ over 70 people and generate over Â£4m in income.<br /><a href='http://theodi.org/odis-second-year-annual-report' target='_blank'>Hier geht es zum ODI-Jahresbericht</a></p>",
+                "title": "Neue Geschäftsopportunitäten erschließen",
+                "body": "<p>Open Daten eröffnet Unternehmen neue Möglichkeiten, Kundenkontakte zu knüpfen.</p><p class='not-dlab'>Transport for London hat offene Daten veröffentlicht, die von Entwicklern genutzt wurden, um über 800 Transport-Applikationen zu entwickeln.<br /><a href='http://www.tfl.gov.uk/' target='_blank'>Hier geht’s zum Transport for London Beispiel</a></p><p class='not-dlab'>Thomson Reuters nutzt Open Daten, um mit bestehenden Kunden in Kontakt zu treten und bessere Dienstleistungen anzubiete<br /><a href='http://site.thomsonreuters.com/site/data-identifiers/' target='_blank'>Hier geht’s zum Thomson Reuters Beispiel</a></p><p class='not-eu'>Find My School enables you to find the right school for you by location and exam results.<br/><a href='http://findmyschool.co.ke/discover' target='_blank'>Take me to Find My School</a></p><p>Startups im ODI-Startups-Programm beschäftigen nun insgesamt über 70 Mitarbeiter und erwirtschaften über 4 Mio. Pfund.,<br /><a href='http://theodi.org/odis-second-year-annual-report' target='_blank'>Hier geht es zum ODI-Jahresbericht</a></p>",
                 "_graphic": {
                     "src": "course/de/images/odi-7-narrative_large.jpg",
-                    "alt": "Erschließung neuer Geschäftsopportunitäten",
-                    "title": "Erschließung neuer Geschäftsopportunitäten",
+                    "alt": "Neue Geschäftsopportunitäten erschließen",
+                    "title": "Neue Geschäftsopportunitäten erschließen",
                     "*source":"http://www.shutterstock.com/pic.mhtml?id=149924576&src=lb-35924366",
                     "*credit":"Sergey Nivens",
                     "*license":"Shutterstock Standard License"
                 },
-                "strapline": "Erschließung neuer Geschäftsopportunitäten"
+                "strapline": "Neue Geschäftsopportunitäten erschließen"
             },
             {
                 "title": "Unseren Planeten schutzen",
-                "body": "<p>Das Web ist ein wichtiger Teil unserer Infrastruktur geworden und Open Daten wird darauf aufbauen</p><p>Offene Wetterdaten können zum beispiel ein Frühwarnsystem für Umweltkatastrophen sein.<br /><a href='http://www.un.org/apps/news/story.asp?NewsID=13077&Cr=natural&Cr1=disaster#.VVyWK_lVhBc' target='_blank'>Hier geht's zum Nachrichten-Center der Vereinigten Nationen</a></p><p>Offene Daten helfen den Verbrauchern dabei, die Auswirkungen ihrer Handlungen auf die Umwelt zu verstehen und Maßnahmen zu ergreifen, um diese Handlungen zu ändern.<br /><a href='https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/39386/12-1324-better-choices-better-deals-report-on-progress-on-the-consumer-empowerment-strategy.pdf' target='_blank'>Hier geht's zum Better Choices Better Deals Bericht</a></p>",
+                "body": "<p>Das Web ist ein wichtiger Teil unserer Infrastruktur geworden und Open Daten wird darauf aufbauen.</p><p>Offene Wetterdaten können zum beispiel ein Frühwarnsystem für Umweltkatastrophen sein.<br /><a href='http://www.un.org/apps/news/story.asp?NewsID=13077&Cr=natural&Cr1=disaster#.VVyWK_lVhBc' target='_blank'>Hier geht's zum Nachrichten-Center der Vereinigten Nationen</a></p><p>Offene Daten helfen den Verbrauchern dabei, die Auswirkungen ihrer Handlungen auf die Umwelt zu verstehen und Maßnahmen zu ergreifen, um diese Handlungen zu ändern.<br /><a href='https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/39386/12-1324-better-choices-better-deals-report-on-progress-on-the-consumer-empowerment-strategy.pdf' target='_blank'>Hier geht's zum Better Choices Better Deals Berichtt</a></p>",
                 "_graphic": {
                     "src": "course/de/images/odi-8-narrative_large.jpg",
                     "alt": "Unseren Planeten schutzen",
@@ -277,7 +277,7 @@
         "_layout":"left",
         "title":"Sind Sie bereit für Open Daten?",
         "displayTitle":"Sind Sie bereit für Open Daten?",
-        "body":"<p>Es gibt vier Punkte, die Sie sich merken sollten, wenn Sie über das Öffnen Ihrer Daten nachdenken. Können Sie sich diese merken?</p>",
+        "body":"<p>Es gibt vier Punkte, die Sie sich merken sollten, wenn Sie über das Öffnen Ihrer Daten nachdenken. Können Sie sich an diese erinnern?</p>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
@@ -315,11 +315,11 @@
         "_selectable":1,
         "title": "Was sind offene Daten?",
         "displayTitle": "Was sind offene Daten?",
-        "body": "<p>Offene Daten sind ....</p>",
-        "instruction": "<em>Wählen Sie Ihre Antwort und klicken Sie dann auf 'Absenden'</em>",
+        "body": "<p>Offene Daten sind…</p>",
+        "instruction": "<em>Wählen Sie Ihre Antwort und klicken Sie dann auf \"Absenden""\"</em>",
         "_items": [
             {
-                "text": "Daten, die im Web sichtbar sind",
+                "text": "Informationenen, die wir an Unternehmen verkaufen",
                 "_shouldBeSelected": false
             },
             {
@@ -327,19 +327,19 @@
                 "_shouldBeSelected": true
             },
             {
-                "text": "Informationenen, die wir an Unternehmen verkaufen",
+                "text": "Daten, die im Internet sichtbar sin",
                 "_shouldBeSelected": false
             }
         ],
         "_feedback":{
-            "correct":"<h5>Das ist richtig!</h5><p><strong>Offene Daten</strong> is <strong>Daten, auf die jedermann zugreifen, sie nutzen und weitergeben kann</strong>.<br />Offene Daten sollten von einer Lizenz begleitet werden, die jedem erlaubt, sie weiterzuverwenden - auch für kommerzielle Zwecke.</p>",
+            "correct":"<h5>Richtig!</h5><p>Offene Daten sind Daten, die von jeden ohne Einschränkung genutzt, weiterverbreitet und weiterverwendet werden dürfen.<br />Offene Daten sollten von einer Lizenz begleitet werden, die jedem erlaubt, sie weiterzuverwenden - auch für kommerzielle Zwecke.</p>",
             "_incorrect": {
-                "notFinal": "<h5>Sind Sie sicher?</h5><p><strong>Offene Daten</strong> is <strong>Daten, auf die jedermann zugreifen, sie nutzen und weitergeben kann</strong>. <br/>Offene Daten must also be licensed to allow free usage and must also be available for commercial use.</p></p>",
-                "final": "<h5>Sind Sie sicher?</h5><p><p><strong>Offene Daten</strong> is <strong>Daten, auf die jedermann zugreifen, sie nutzen und weitergeben kann</strong>. <br/>Offene Daten must also be licensed to allow free usage and must also be available for commercial use.</p></p>"
+                "notFinal": "<h5>Sind Sie sicher?</h5><p>Offene Daten sind Daten, die von jeden ohne Einschränkung genutzt, weiterverbreitet und weiterverwendet werden dürfen. <br/>Open Daten must also be licensed to allow free usage and must also be available for commercial use.</p></p>",
+                "final": "<h5>Sind Sie sicher?</h5><p>Offene Daten sind Daten, die von jeden ohne Einschränkung genutzt, weiterverbreitet und weiterverwendet werden dürfen. <br/>Open Daten must also be licensed to allow free usage and must also be available for commercial use.</p></p>"
             },
             "_partlyCorrect": {
-                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                "notFinal": "",
+                "final": ""
           }
         },
         "_buttons":{
@@ -388,17 +388,17 @@
         "_questionWeight":1,
         "_isRandom":true,
         "_selectable":1,
-        "title": "Was sind Daten?",
-        "displayTitle": "Was sind Daten?",
+        "title": "Was sind Daten",
+        "displayTitle": "Was sind Daten",
         "body": "<p>Daten sind…</p>",
-        "instruction": "<em>Wählen Sie Ihre Antwort und klicken Sie dann auf 'Absenden'.</em>",
+        "instruction": "<em>Wählen Sie Ihre Antwort und klicken Sie dann auf \"Absenden\".</em>",
         "_items": [
             {
                 "text": "Zahlen, Wörter, Karten und Fotos",
                 "_shouldBeSelected": false
             },
             {
-                "text": "Informationenen, die im Internet bereitgestellt werden",
+                "text": "Informationenen, die im Internet bereitgestellt wurden",
                 "_shouldBeSelected": false
             },
             {
@@ -407,14 +407,14 @@
             }
         ],
         "_feedback":{
-            "correct":"<h5>Das ist richtig!</h5><p>Daten sind die niedrigste Ebene, aus der Informationenen und Wissen abgeleitet werden können</p>",
+            "correct":"<h5>Richtig!</h5><p>Daten sind die niedrigste Ebene, aus der Informationenen und Wissen abgeleitet werden können.</p>",
             "_incorrect": {
-                "notFinal": "<h5>Sind Sie sicher?</h5><p>Daten sind die niedrigste Ebene, aus der Informationenen und Wissen abgeleitet werden können</p>",
-                "final": "<h5>Sind Sie sicher?</h5><p>Daten sind die niedrigste Ebene, aus der Informationenen und Wissen abgeleitet werden können</p>"
+                "notFinal": "<h5>Sind Sie sicher?</h5><p>Daten sind die niedrigste Ebene, aus der Informationenen und Wissen abgeleitet werden können.</p>",
+                "final": "<h5>Sind Sie sicher?</h5><p>Daten sind die niedrigste Ebene, aus der Informationenen und Wissen abgeleitet werden können.</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                "notFinal": "",
+                "final": ""
           }
         },
         "_buttons":{
@@ -459,27 +459,27 @@
         "_selectable":1,
         "title": "Was macht Daten offen?",
         "displayTitle": "Was macht Daten offen?",
-        "body": "<p>Offene Daten sollten....</p>",
-        "instruction": "<em>Wählen Sie Ihre Antwort und klicken Sie dann auf 'Absenden'</em>",
+        "body": "<p>Offene Daten sollten…,</p>",
+        "instruction": "<em>Wählen Sie Ihre Antwort und klicken Sie dann auf \"Absenden\"</em>",
         "_items": [
             {
-                "text": "eingeschränkt in der Verwendung sein",
+                "text": "frei von Nutzungsbeschränkungen sein",
                 "_shouldBeSelected": true
             },
             {
-                "text": "frei von Nutzungsbeschränkungen sein",
+                "text": "eingeschränkt in der Verwendung sein",
                 "_shouldBeSelected": false
             },
             {
-                "text": "gegen eine Gebühr und selektiv bereitgestellt werden",
+                "text": "gegen eine Gebühr bereitgestellt werden",
                 "_shouldBeSelected": false
             }
         ],
         "_feedback":{
-            "correct":"<h5>Das ist richtig!</h5><p>Wenn die freie Weiterverwendung von veröffentlichten Daten einschränkt wird, können wir nicht von Open Daten reden</p>",
+            "correct":"<h5>Richtig!</h5><p>Wenn die freie Weiterverwendung von veröffentlichten Daten einschränkt wird, können wir nicht von Open Daten reden.</p>",
             "_incorrect": {
-                "notFinal": "<h5>Sind Sie sicher?</h5><p>Wenn die freie Weiterverwendung von veröffentlichten Daten einschränkt wird, können wir nicht von Open Daten reden</p>",
-                "final": "<h5>Sind Sie sicher?</h5><p>Wenn die freie Weiterverwendung von veröffentlichten Daten einschränkt wird, können wir nicht von Open Daten reden</p>"
+                "notFinal": "<h5>Sind Sie sicher?</h5><p>Wenn die freie Weiterverwendung von veröffentlichten Daten einschränkt wird, können wir nicht von Open Daten reden.</p>",
+                "final": "<h5>Sind Sie sicher?</h5><p>Wenn die freie Weiterverwendung von veröffentlichten Daten einschränkt wird, können wir nicht von Open Daten reden.</p>"
             },
             "_partlyCorrect": {
                 "notFinal": "",
@@ -529,7 +529,7 @@
         "title": "Warum brauchen wir offene Daten?",
         "displayTitle": "Warum brauchen wir offene Daten?",
         "body": "<p>Was können offene Daten für uns tun?</p>",
-        "instruction": "<em>Wählen Sie Ihre Antwort und klicken Sie dann auf 'Absenden'</em>",
+        "instruction": "<em>Wählen Sie Ihre Antwort und klicken Sie dann auf \"Absenden\"</em>",
         "_items": [
             {
                 "text": "Zugang zu anderen Datensätzen gewähren",
@@ -545,7 +545,7 @@
             }
         ],
         "_feedback":{
-            "correct":"<h5>Das ist richtig!</h5><p>Offene Daten können die Interaktion zwischen Regierungen, Unternehmen und Bürgern verändern. Offene Daten können Dienstleistungen verbessern, die Wirtschaft ankurbeln und zum Schutz unseren Planeten beitragen.</p>",
+            "correct":"<h5>Richtig!</h5><p>Offene Daten können die Interaktion zwischen Regierungen, Unternehmen und Bürgern verändern. Offene Daten können Dienstleistungen verbessern, die Wirtschaft ankurbeln und zum Schutz unseren Planeten beitragen.</p>",
             "_incorrect": {
                 "notFinal": "<h5>Sind Sie sicher?</h5><p>Offene Daten können die Interaktion zwischen Regierungen, Unternehmen und Bürgern verändern. Offene Daten können Dienstleistungen verbessern, die Wirtschaft ankurbeln und zum Schutz unseren Planeten beitragen.</p>",
                 "final": "<h5>Sind Sie sicher?</h5><p>Offene Daten können die Interaktion zwischen Regierungen, Unternehmen und Bürgern verändern. Offene Daten können Dienstleistungen verbessern, die Wirtschaft ankurbeln und zum Schutz unseren Planeten beitragen.</p>"
@@ -590,9 +590,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Offene Daten<span class='not-dlab' - veni, vidi, vici</span>",
-        "displayTitle":"Offene Daten<span class='not-dlab' - veni, vidi, vici</span>",
-        "body":"<p>Offene Daten is <strong>Daten, auf die jedermann zugreifen, sie nutzen und weitergeben kann</strong>.</p><p>Offene Daten sind ein Rohstoff für das digitale Zeitalter, aber im Gegensatz zu Kohle, Holz oder Diamanten können sie von jedem gleichzeitig genutzt werden.</p><p>Jegliche Einschränkungen bei der Verwendung offener Daten schränken deren Potenzial zur Schaffung neuer Werte ein.</p><p>Offene Daten können viele Vorteile für Regierungen, Unternehmen und Bürger zugleich bieten. Offene Daten können Dienstleistungen verbessern, die Wirtschaft ankurbeln und zum Schutz unseren Planeten beitragen.</p><p></p><p><a class='course_link' href='../module2/'>Nächstes Modul</a></p><p><a class='course_link' href='../'>Hauptmenü</a></p>",
+        "title":"Open Daten<span class='not-dlab' - veni, vidi, vici</span>",
+        "displayTitle":"Open Daten<span class='not-dlab' - veni, vidi, vici</span>",
+        "body":"<p>Offene Daten sind Daten, die von jeden ohne Einschränkung genutzt, weiterverbreitet und weiterverwendet werden dürfen.</p><p>Offene Daten sind ein Rohstoff für das digitale Zeitalter, aber im Gegensatz zu Kohle, Holz oder Diamanten können sie von jedem gleichzeitig genutzt werden.,</p><p>Jegliche Einschränkungen bei der Verwendung offener Daten schränken deren Potenzial zur Schaffung neuer Werte ein.</p><p>Offene Daten können viele Vorteile für Regierungen, Unternehmen und Bürger zugleich bieten., Offene Daten können Dienstleistungen verbessern, die Wirtschaft ankurbeln und zum Schutz unseren Planeten beitragen.</p><p>Im nächsten Modul schauen wir wie Mehrwerte aus Open Daten geschaffen werden</p><p><a class='course_link' href='../module2/'>Nächstes Modul</a></p><p><a class='course_link' href='../'>Hauptmenü</a></p>",
         "_pageLevelProgress": {
           "_isEnabled": true
         }
@@ -622,8 +622,8 @@
         "_classes":"footer-logo",
         "_layout":"left",
         "_graphic": {
-            "alt": "Offene Daten institute logo",
-            "title": "Offene Daten institute logo",
+            "alt": "Open Daten institute logo",
+            "title": "Open Daten institute logo",
             "large": "course/de/images/logo-small.png",
             "medium": "course/de/images/logo-small.png",
             "small": "course/de/images/logo-small.png",
