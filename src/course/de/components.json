@@ -1,0 +1,734 @@
+[
+  {
+    "_id": "59400a14d084d5167a04fa58",
+    "_layout": "right",
+    "_parentId": "b-06",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/de/assets/a516261fb9cb309e3b3d1116a192ecfc2a70fbad.png",
+      "small": "course/de/assets/a516261fb9cb309e3b3d1116a192ecfc2a70fbad.png",
+      "attribution": ""
+    }
+  },
+  {
+    "_id": "59400a14d084d5167a04fa73",
+    "_layout": "left",
+    "_parentId": "b-09",
+    "_type": "component",
+    "body": "<p dir=\"ltr\"><strong>Der Indikator 'gesellschaftliche Wirkun' des Open Data Benchmark basiert auf den Auswirkungen auf die...</strong></p>",
+    "displayTitle": "Wie können wir die Auswirkungen von Open Data messen?",
+    "title": "Wie können wir die Auswirkungen von Open Data messen?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "mcq",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Wählen Sie Ihre Antwort und klicken Sie dann auf \"Absenden\"",
+    "_items": [
+      {
+        "text": "ökologische Nachhaltigkeit und Einbeziehung marginalisierter Gruppen",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "Studien zum volkswirtschaftlichen Mehrwert von offener Daten",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "Effizienz und Transparenz der Regierung",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_feedback": {
+      "correct": "<p><strong>Richtig!</strong></p><p>Es gibt zwei Elemente des Indikators 'gesellschaftliche Wirkung': Nachhaltigkeit im Umweltbereich und die Einbeziehung marginalisierter Gruppen.</p>",
+      "_incorrect": {
+        "final": "<p><strong>Sind Sie sicher?</strong></p><p>Es gibt zwei Elemente des Indikators 'gesellschaftliche Wirkung': Nachhaltigkeit im Umweltbereich und die Einbeziehung marginalisierter Gruppen.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        }
+  },
+  {
+    "_id": "59400a14d084d5167a04fa74",
+    "_layout": "left",
+    "_parentId": "b-07",
+    "_type": "component",
+    "body": "<p><strong>Wirkung zu erzielen ist wichtig, weil ...</strong></p>",
+    "displayTitle": "Warum ist es wichtig, einen Mehrwert zu erzeugen?",
+    "title": "Warum ist es wichtig, einen Mehrwert zu erzeugen?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "mcq",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Wählen Sie alle zutreffenden Antworten und klicken Sie auf \"Absenden\"",
+    "_items": [
+      {
+        "text": "Es zeigt, warum ein Programm fortgesetzt werden soll",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "Es zeigt, wo Sie alle Ihre Bemühungen konzentrieren sollten",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "Sie können unerwartete Schlüsse ziehen",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_feedback": {
+      "correct": "<p><strong>Richtig!</strong></p><p>Positiv-Effekte zu erzielen ist wichtig, weil sie eine Rechtfertigung dafür lieferen, warum eine Initiative fortgesetzt werden sollte, denn die Positiv-Effekte belegen die Rentabilität der Investition.</p><p>Positiv-Effekte sind ein wichtiger Teil der Messung einer Open Data Initiative, eines Projektes oder eines Programms.</p>",
+      "_incorrect": {
+        "final": "<p><strong>Sind Sie sicher?</strong></p><p>Positiv-Effekte zu erzielen ist wichtig, weil sie eine Rechtfertigung dafür lieferen, warum eine Initiative fortgesetzt werden sollte, denn die Positiv-Effekte belegen die Rentabilität der Investition.</p><p>Positiv-Effekte sind ein wichtiger Teil der Messung einer Open Data Initiative, eines Projektes oder eines Programms.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        }
+  },
+  {
+    "_id": "59400a14d084d5167a04fa75",
+    "_layout": "right",
+    "_parentId": "b-11",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "color-six",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/de/assets/7120bb7ad02055a11589656852c821cae30bf616.png",
+      "small": "course/de/assets/7120bb7ad02055a11589656852c821cae30bf616.png",
+      "attribution": "<a href=\"https://theodi.org\" target=\"_blank\">The Open Data Institute</a> <span class='assetLicence'>[CC-BY-SA]</span>"
+    }
+  },
+  {
+    "_id": "59400a14d084d5167a04fa76",
+    "_layout": "left",
+    "_parentId": "b-01",
+    "_type": "component",
+    "body": "<p dir=\"ltr\">Das Ziel jedes Open Data Projekts oder jeder Open Data Initiative ist es, einen Mehrwert zu erzeugen, sei es auf der politischen, gesellschaftlichen oder wirtschaftlichen Ebene. Open Data Anwendungen, <a href=\"http://opendatabarometer.org/3rdEdition/report/#impact\" target=\"_blank\">die zur Verbesserung unseres täglichen Lebens beigetragen haben</a>, zu finden und zu fördern, ist einer der schwierigsten Aspekte bei der Leitung eines Open Data Projekts, Programms oder einer Initiative.</p><p dir=\"ltr\">In diesem Modul werden wir folgende Aspekte untersuchen:</p><ul class='ticks'><li dir=\"ltr\">Warum ist es wichtig, einen Mehrwert zu erzeugen?</li><li dir=\"ltr\">Wie können wir einen Mehrwert durch Open Data schöpfen?</li><li dir=\"ltr\">Wie können wir die Auswirkungen von Open Data messen?</li><li dir=\"ltr\">Wie können wir Hindernisse überwinden, um positive Effekte mit Open Data zu erzielen?</li><li></ul>",
+    "displayTitle": "Positive Effekte mit Open Data erzielen",
+    "title": "Positive Effekte mit Open Data erzielen",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "ticks",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "59400a14d084d5167a04fa77",
+    "_layout": "right",
+    "_parentId": "b-02",
+    "_type": "component",
+    "body": "<p dir=\"ltr\">Wirkung-Erzielen ist ein Schlüsselfaktor bei der Messung der Wirksamkeit einer Open Data Politik, eines Programms oder einer Initiative. Es ist schwer zu argumentieren, dass ein Programm fortgesetzt werden soll, wenn dies keine Rentabilität – den sogenannte ‚Return on Investment‘ (ROI) – nachweisen kann.</p><p dir=\"ltr\">Die Investititionsrentabilität im Fall von Open Data ist nicht immer finanzieller Natur, denn die offenen Daten schaffen vielmehr einen Mehrwert auf der politischen und gesellschaftlichen Ebene.</p><p dir=\"ltr\">Mehr über den Mehrwert von offenen Daten erfahren Sie im Modul '<a href=\"https://www.europeandataportal.eu/elearning/de/module2/#/id/co-01\" target=\"_blank\">Mehrwert schaffen mit Open Data</a>'.</p>",
+    "displayTitle": " Warum ist es wichtig, einen Mehrwert zu erzeugen?",
+    "title": " Warum ist es wichtig, einen Mehrwert zu erzeugen?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "59400a14d084d5167a04fa78",
+    "_layout": "left",
+    "_parentId": "b-02",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "",
+    "title": "",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/de/assets/f4b7a83ca6a5ee395ea40ef51b5e6d07ac2e288e.jpg",
+      "small": "course/de/assets/f4b7a83ca6a5ee395ea40ef51b5e6d07ac2e288e.jpg",
+      "attribution": "<a href=\"https://www.shutterstock.com/image-illustration/large-group-people-shape-chat-bubblewhite-234353791\" target=\"_blank\">tai11</a> <span class='assetLicence'>[Shutterstock standard licence]</span>"
+    }
+  },
+  {
+    "_id": "59400a14d084d5167a04fa79",
+    "_layout": "right",
+    "_parentId": "b-03",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "",
+    "title": "",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/de/assets/edd9adfa60a0dc2b857d5e90a86fdf58f3287e66.png",
+      "small": "course/de/assets/edd9adfa60a0dc2b857d5e90a86fdf58f3287e66.png",
+      "attribution": "<a href=\"http://www.freepik.com/free-photos-vectors/business\" target=\"_blank\"> Photoroyalty - Freepik.com</a> <span class='assetLicence'>[CC-BY]</span>"
+    }
+  },
+  {
+    "_id": "59400a14d084d5167a04fa7a",
+    "_layout": "full",
+    "_parentId": "b-05",
+    "_type": "component",
+    "body": "<p>Offene Daten sind ein relativ neues Konzept, das für einige Hindernisse schafft. In diesem Abschnitt untersuchen wir die Haupthindernisse, die beim Umgang mit offenen Daten vorkommen, insbesondere wenn es darum geht eine positive Auswirkung mit Open Data zu erzielen sowie die Wege, wie man diese Hindernisse überwinden kann.</p>",
+    "displayTitle": "Hindernisse überwinden, um positive Auswirkung mit Open Data zu erzielen",
+    "title": "Hindernisse überwinden, um positive Auswirkung mit Open Data zu erzielen",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "narrative",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "mobileInstruction": "",
+    "_hasNavigationInTextArea": false,
+    "_setCompletionOn": "inview",
+    "_items": [
+      {
+        "title": "Nutzer kennen Ihre Daten nicht",
+        "body": "<p>Sie verfügen möglicherweise über Daten von hervorragender Qualität, die – wenn weiterverwendet -- positive Auswirkungen haben könnten. Aber um dies zu , aber dies kann nur dann geschehen, n potenzielle Nutzer wissen, dass diese Daten auch vorhanden sind.</p><p>Eine Möglichkeit, Ihre Daten zu bewerben, besteht darin, ‚Challenges‘ zu den Daten zu organisieren. Eine <a href=\"http://www.nesta.org.uk/project/open-data-challenge-series\" target=\"_blank\">Challenge-Serie</a> ist eine Möglichkeit, Open Data Nutzer zusammenzubringen und ihnen Ihre Daten vorzustellen. Indem Sie eine Prämie anbieten und einen offenen Innovationsprozess einführen, können Sie andere dazu motivieren, Ihre Daten wiederzuverwenden. Somit verfügen Sie später über exzellente Beispiele, um den Einfluss Ihrer offenen Daten zu demonstrieren.</p><p>Indem Sie mit den Anwendungen, die anhand Ihrer Daten entwickelt wurdenwerben, können Sie ebenfalls die Wiederverwendung Ihrer offenen Daten fördern.</p>",
+        "_graphic": {
+          "src": "course/de/assets/44692b04753e36675bd12acf35820956832091e4.jpg",
+          "alt": "",
+          "attribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Ghozt_Tramp_-_Business_Communication_Duplicat_model.jpg\" target=\"_blank\">Ghozt Tramp</a> <span class='assetLicence'>[CC-BY-SA]</span>"
+        },
+        "strapline": "Nutzer kennen Ihre Daten nicht"
+      },
+      {
+        "title": "Angst vor Verstöße gegen den Datenschutz",
+        "body": "<p dir=\"ltr\">Ein weiteres Hindernis, um eine Auswirkung zu erzielen ist, wenn Nutzer die Daten aus Angst vor Verstößen gegen den Datenschutz nicht weiterverwenden. Einige Lizenzen sind unklar, insbesondere in Bezug auf die Verwendung von Daten von Drittanbietern oder die Verwendung von personenbezogenen Daten, die im Datensatz vorhanden sind. Oft können 'ohne Gewähr' Klauseln den Anschein erwecken, dass sich der Open Data Nutzer in diesem Fall haftbar macht.</p><p>Um dieses Hindernis zu überwinden, sollten Datenherausgeber klar darüber informieren, welche rechtlichen Grundlagen die Daten haben und was Nutzer damit tun können.</p><p>Eine klare Erklärung der Lizenzbedingungen kann in diesem Fall helfen. Die Bereitstellung von Informationen über den Prozess zur Sicherstellung des Datenschutzes und die Bewertung der Auswirkungen auf die Privatsphäre, wenn personenbezogene Daten verarbeitet werden, sowie Informationen über den Prozess, der zur Anonymisierung der Daten durchgeführt wurde, tragen dazu bei, diese Ängste zu beseitigen.</p>",
+        "_graphic": {
+          "src": "course/de/assets/eb7c7b7bfff664aef851578a795efa612ea1a806.jpg",
+          "alt": "",
+          "attribution": "<a href=\"https://www.flickr.com/photos/132053576@N03/17765606909/\" target=\"_blank\">Owen Moore</a> <span class='assetLicence'>[CC-BY]</span>"
+        },
+        "strapline": "Angst vor Verstöße gegen den Datenschutz"
+      },
+      {
+        "title": "Datenqualität und Benutzerfreundlichkeit",
+        "body": "<p>Ein weiteres Hindernis für die Wiederverwendung offener Daten ist die Befürchtung, dass diese nicht von guter Qualität sein könnten.</p><p>Es gibt eine Reihe von Community-basierten Standards, die Ihnen sowohl als Datenherausgeber als auch als Nutzer dabei helfen, die Qualität Ihrer Daten und ihre Wiederverwendungstauglichkeit zu bewerten.</p><p>Sicherzustellen, dass Ihre Daten aus einer rechtlichen, praktischen und gesellschaftlichen Perspektive verwendbar sind, fördert die Wiederverwendung und erzielt anschließend die gewünschten Effekte. </p><p>Erfahren Sie mehr über Datenqualität in unserem Module '<a href=\"https://www.europeandataportal.eu/elearning/de/module5/#/id/co-01\">Was macht die Qualität von Open Data aus</a>'</p>",
+        "_graphic": {
+          "src": "course/de/assets/b0a1356f5ad57eff61e6a22b69a2e1b6d9773220.jpg",
+          "alt": "",
+          "attribution": "<a href=\"robodread\" target=\"_blank\">robodread</a> <span class='assetLicence'>[Shutterstock standard licence]</span>"
+        },
+        "strapline": "Datenqualität und Benutzerfreundlichkeit"
+      }
+    ]
+  },
+  {
+    "_id": "59400a14d084d5167a04fa7f",
+    "_layout": "left",
+    "_parentId": "b-06",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "Sind Sie bereit eine Wirkung mit Open Data zu erzielen?",
+    "title": "Sind Sie bereit eine Wirkung mit Open Data zu erzielen?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "59400a15d084d5167a04fa83",
+    "_layout": "left",
+    "_parentId": "b-03",
+    "_type": "component",
+    "body": "<p dir=\"ltr\">Wirkungen zu erzielen und diese zu messen, ist einer der schwierigsten Aspekte bei der Durchführung eines Open Data Projekts, Programms oder einer Initiative. Es gibt eine Reihe von Techniken, mit denen Sie Wirkung erzielen können.</p>",
+    "displayTitle": "Wie können wir Wirkung erzielen?",
+    "title": "Wie können wir Wirkung erzielen?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "accordion",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_items": [
+      {
+        "title": "Gemeinsame Ziele identifizieren",
+        "body": "<p>Das erste, worüber Sie nachdenken sollten, ist das, was Sie erreichen möchten. Was ist das Ziel, welches Sie mit der  Veröffentlichung Ihrer Daten erreichen möchten? Eine klardefinierte Vision ist entscheidend für den Erfolg einer Open-Data-Initiative, eines Open Data Programms oder Projekts.</p><p>Als nächstes denken Sie über Ihre potenziellen Nutzer nach. Was sind ihre Ziele? Wie helfen Ihre Daten ihren Nutzern diese Ziele zu erreichen?</p><p>Die erfolgreichsten Open-Data-Initiativen stimmen die Ziele von Datenherausgebern mit den Nutzern ab. Diese zwei Gruppen werden nur selten identische Ziele haben. Aus dem Grund ist es wichtig, die Bereiche zu identifizieren, in denen sich die Ziele der zwei Gruppen überschneiden können. Je näher die Ziele sind, desto erfolgreicher ist der Veröffentlichungsprozess.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Best-Practice Beispiele suchen und fördern",
+        "body": "<p dir=\"ltr\">Eine gute Methode, um den Effekt von Open Data aufzuzeigen ist es Anwendungsbeispiele zu suchen und diese auch zu fördern. Manchmal werden solche Anwendungen schnell entwickelt, aber viel häufiger müssen diese gefördert werden.</p><p dir=\"ltr\">Führen Sie Recherchen zu den Auswirkungen der aktuellen oder potenziellen Aktivitäten Ihrer Organisation durch, beauftragen oder identifizieren Sie diese, damit Sie die Wirkungen Ihres Programms, Projekts oder Ihrer Initiative sehr deutlich kommunizieren können.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Nachdenken, iterieren, wiederholen",
+        "body": "<p>Es kann schwierig sein, auf das zurückzublicken, was bereits durch das Projekt geschehen ist und auf die Gründe, warum es erfolgreich war oder nicht.</p><p>Geben Sie sich die Zeit darüber nachzudenken, sodass Sie flexibel und iterativ in Ihrem Open Data Ansatz sein können. Wenn etwas nicht funktioniert, sollten Sie keine Angst haben, es auch aus dem Projektumfang rauszunehmen.</p><p>Das Iterieren und Verfeinern Ihres Ansatzes trägt dazu bei, dass Ihr Open Data Projekt, Programm oder Ihre Initiative eine höhere Chance haben wird, die gewünschte Wirkung zu erzielen.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      }
+    ],
+    "_shouldCollapseItems": true
+  },
+  {
+    "_id": "59400a15d084d5167a04fa84",
+    "_layout": "right",
+    "_parentId": "b-08",
+    "_type": "component",
+    "body": "<p><strong>Wir können Wirkung erzilen, indem wir…</strong></p>",
+    "displayTitle": "Wie können wir Wirkung erzielen?",
+    "title": "Wie können wir Wirkung erzielen?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "mcq",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Wählen Sie Ihre Antwort und klicken Sie dann auf \"Absenden\"",
+    "_items": [
+      {
+        "text": "Gemeinsame Ziele identifizieren",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "Einige Daten geschlossen halten",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "Studien zur Messung der Wirkung von Open Data beauftragen",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "Über die Initiative nachdenken und iterativ arbeiten",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "die Methodik teilen",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 3,
+    "_feedback": {
+      "correct": "<p><strong>Richtig!</strong></p><p>Die Wirkung kann erreicht werden, indem gemeinsame Ziele von Datenherausgebern und -nutzern identifiziert, Anwendungsbeispiele gezeigt und gefördert werden und Initiativen an regelmäßigen Abständen revidiert werden.</p>",
+      "_incorrect": {
+        "final": "<p><strong>Sind Sie sicher?</strong></p><p>Die Wirkung kann erreicht werden, indem gemeinsame Ziele von Datenherausgebern und -nutzern identifiziert, Anwendungsbeispiele gezeigt und gefördert werden und Initiativen an regelmäßigen Abständen revidiert werden.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        }
+  },
+  {
+    "_id": "59400a15d084d5167a04fa85",
+    "_layout": "right",
+    "_parentId": "b-10",
+    "_type": "component",
+    "body": "<p><strong>Das Haupthindernis um eine Wirkung mit Open Data zu erzielen ist dass Ihre Daten nicht wiederverwendet werden. Wie können Sie dieses Hindernis überwinden?</strong></p>",
+    "displayTitle": "Hindernisse überwinden, um positive Auswirkung mit Open Data zu erzielen",
+    "title": "Hindernisse überwinden, um positive Auswirkung mit Open Data zu erzielen",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "mcq",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Wählen Sie Ihre Antwort und klicken Sie dann auf \"Absenden\"",
+    "_items": [
+      {
+        "text": "Indem Sie mit Ihren Daten werben und den Nutzern erklären wie sie Ihre Daten wiederverwenden und für andere nutzbar machen könnten",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "Indem Sie so viele Daten wie möglich veröffentlichen",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "Durch die Erhebung von Gebühren für Ihre Daten",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_feedback": {
+      "correct": "<p><strong>Richtig!</strong></p><p>Sie können die Wiederverwendung Ihrer Daten fördern, indem Sie mit Ihren Daten bewerben, indem Sie zeigen, wie Nutzer sie wiederverwenden können, und indem Sie sie verwendbar machen.</p>",
+      "_incorrect": {
+        "final": "<p><strong>Sind Sie sicher?</strong></p><p dir=\"ltr\">Sie können die Wiederverwendung Ihrer Daten fördern, indem Sie mit Ihren Daten bewerben, indem Sie zeigen, wie Nutzer sie wiederverwenden können, und indem Sie sie verwendbar machen.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        }
+  },
+  {
+    "_id": "59400a15d084d5167a04fa86",
+    "_layout": "right",
+    "_parentId": "b-07",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/de/assets/f4b7a83ca6a5ee395ea40ef51b5e6d07ac2e288e.jpg",
+      "small": "course/de/assets/f4b7a83ca6a5ee395ea40ef51b5e6d07ac2e288e.jpg",
+      "attribution": "<a href=\"https://www.shutterstock.com/image-illustration/large-group-people-shape-chat-bubblewhite-234353791\" target=\"_blank\">tai11</a> <span class='assetLicence'>[Shutterstock standard licence]</span>"
+    }
+  },
+  {
+    "_id": "59400a15d084d5167a04fa87",
+    "_layout": "left",
+    "_parentId": "b-08",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/de/assets/edd9adfa60a0dc2b857d5e90a86fdf58f3287e66.png",
+      "small": "course/de/assets/edd9adfa60a0dc2b857d5e90a86fdf58f3287e66.png",
+      "attribution": "<a href=\"http://www.freepik.com/free-photos-vectors/business\" target=\"_blank\"> Photoroyalty - Freepik.com</a> <span class='assetLicence'>[CC-BY]</span>"
+    }
+  },
+  {
+    "_id": "59400a15d084d5167a04fa88",
+    "_layout": "right",
+    "_parentId": "b-09",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "",
+    "title": "",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/de/assets/0c4e44ae54cc60d53a31c2bcff4471570e961d9d.jpg",
+      "small": "course/de/assets/0c4e44ae54cc60d53a31c2bcff4471570e961d9d.jpg",
+      "attribution": "<a href=\"http://www.shutterstock.com/pic-185008832\" target=\"_blank\">suarassawadee</a> <span class='assetLicence'>[Shutterstock standard licence]</span>"
+    }
+  },
+  {
+    "_id": "59400a15d084d5167a04fa89",
+    "_layout": "left",
+    "_parentId": "b-10",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "",
+    "title": "",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/de/assets/95974c301fcc4ee60b2f1f1019d3f1f21221dd13.jpg",
+      "small": "course/de/assets/95974c301fcc4ee60b2f1f1019d3f1f21221dd13.jpg",
+      "attribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Ghozt_Tramp_-_Business_Communication_Duplicat_model.jpg\" target=\"_blank\">Ghozt Tramp</a> <span class='assetLicence'>[CC-BY-SA]</span>"
+    }
+  },
+  {
+    "_id": "59400a15d084d5167a04fa8a",
+    "_layout": "left",
+    "_parentId": "b-11",
+    "_type": "component",
+    "body": "<p>Die Wirkung von Open Data zu zeigen ist ein wesentlicher Bestandteil, um die Nachhaltigkeit von Open Data-Projekten und -Initiativen zu gewährleisten. Beispiele für offene Daten, die zur Verbesserung unseres täglichen Lebens verwendet werden, zu finden und fördern, ist einer der schwierigsten Aspekte im Rahmen eines Open Data Projekts, Programms oder einer Initiative.</p><p>Es gibt eine Reihe von Bewertungsinstrumenten, die Ihnen dabei helfen können, die Auswirkungen der Open Data Politik, des Programms oder der Initiative einer Organisation oder eines Landes zu messen. In diesem Modul haben wir uns auf das Messintrument des <a href=\"https://www.europeandataportal.eu/de/dashboard\" target=\"_blank\">Europäischen Datenportals fokusier</a>.</p><p>Es gibt Hindernisse für die Erzielung von Auswirkungen, aber es gibt auch viele Möglichkeiten, diese Hindernisse zu überwinden. Erfahren Sie in unserem Modul \"<a href=\"module15/#/id/co-01\">Veränderungsmanagement</a>\" wie man eine Open Data Initiative leiten kann.</p><p><a class='course_link' href='../'>Hauptmenü</a></p>",
+    "displayTitle": "Positiv-Effekte mit Open Data erzielen",
+    "title": "Positiv-Effekte mit Open Data erzielen",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "59400a15d084d5167a04fa8b",
+    "_layout": "right",
+    "_parentId": "b-01",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "",
+    "title": "",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "intro-logo",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "",
+      "small": "",
+      "attribution": ""
+    }
+  },
+  {
+    "_id": "59400a15d084d5167a04fa92",
+    "_layout": "full",
+    "_parentId": "b-04",
+    "_type": "component",
+    "body": "<p>Es gibt eine Reihe von Bewertungsinstrumenten, die Ihnen helfen können, die Wirkungen der Open Data Politik, des Programms oder der Initiative einer Organisation oder eines Landes zu evaluieren. Jedes Bewertungstool verwendet leicht unterschiedliche Methoden und Messungen. Suchen Sie daher nach dem für Ihren Kontext am geeignetsten. Überlegen Sie sich, welche Kriterien für Ihre Organisation wichtig sind.</p><p>Dieses Modul befasst sich ausführlich mit dem <a href=\"https://www.europeandataportal.eu/de/dashboard\" target=\"_blank\">„Open Data in Europa“</a>, Bewertungstool des Europäischen Datenportals, das die Open-Data-Initiativen der EU Länder miteinander vergleicht.</p><p dir=\"ltr\">Weitere Open Data Messinstrumente sind der <a href=\"https://index.okfn.org/\" target=\"_blank\">Global Open Data Index</a> und der <a href=\"http://opendatabarometer.org\" target=\"_blank\">Open Data Barometer</a>, die auch Länder außerhalb der Europäischen Union vergleichen.</p><p dir=\"ltr\">Der Open Data in Europe Benchmark untersucht drei Wirkungsbereiche: Politisch, volkswirtschaftlich und gesellschaftlich.</p>",
+    "displayTitle": " Wie können wir die Auswirkungen von Open Data messen?",
+    "title": " Wie können wir die Auswirkungen von Open Data messen?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "narrative",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "mobileInstruction": "",
+    "_hasNavigationInTextArea": false,
+    "_setCompletionOn": "inview",
+    "_items": [
+      {
+        "title": "Politisch",
+        "body": "<p dir=\"ltr\">Die Aspekte, die im Rahmen des Indikators „Wirkungen auf der politischen Ebene“ untersucht werden, sind: Auswirkungen auf die Effizienz und Effektivität der Regierungsvorhaben sowie Auswirkungen auf die Transparenz und Rechenschaftspflicht.</p><p dir=\"ltr\">Die Länder mit der höchsten Punktzahl auf dieser Dimension im Jahr 2016 waren die Slowakei, Irland, Bulgarien, Frankreich und Griechenland.</p><p dir=\"ltr\"><a href=\"https://www.europeandataportal.eu/de/dashboard\">Hier geht’s zum Open Data Dashboard</a></p><p dir=\"ltr\">In Bulgarien müssen Regierungsabteilungen nicht mehr Daten von anderen Abteilungen anfordern, da diese Daten jetzt im offenen Format veröffentlicht werden, wodurch Zeit und Kosten für die Anforderung von Daten gespart werden.</p><p dir=\"ltr\">In Irland unterstützt <a href=\"https://www.google.com/url?q=http://myplan.ie&amp;sa=D&amp;ust=1496165737909000&amp;usg=AFQjCNGEgrOgEEPPmZOGBCpte6ZzCrutug\" target=\"_blank\">myplan.ie</a> Behörden auf lokaler Ebene bei der Standardisierung der Veröffentlichung von Planungsdaten. Dies hilft den Datenherausgebern, ihre Arbeit zu koordinieren sowie die Qualität der Daten zu steigern, indem Daten veröffentlicht werden, die einfacher wiederverwertet und verglich.</p>",
+        "_graphic": {
+          "src": "course/de/assets/3f1d65f956a8899071b4f3584b4a88d3851863df.jpg",
+          "alt": "",
+          "attribution": "<a href=\"https://pixabay.com/de/hands-hand-raised-hands-raised-220163/\" target=\"_blank\">Kaz</a> <span class='assetLicence'>[CC0]</span>"
+        },
+        "strapline": "Politisch"
+      },
+      {
+        "title": "Volkswirtschaftlich",
+        "body": "<p dir=\"ltr\">Der Indikator für die volkswirtschaftlichen Auswirkungen von Open Data untersucht die Anzahl der durchgeführten Studien, die den Marktwert offener Daten untersuchen und/oder schätzen sowie Studien, die sich mit der Optimierung der Serviceerbringung und damit verbundenen Themen befassen.</p><p dir=\"ltr\">Die Länder mit der höchsten Punktzahl auf dieser Dimension waren 2016 die Slowakei und Spanien.</p><p dir=\"ltr\"><a href=\"https://www.europeandataportal.eu/de/dashboard\">Hier geht’s zum Open Data Dashboard</a></p><p dir=\"ltr\">Eine spanische Studie ergab, dass die Wiederverwendung meteorologischer Daten im Energiesektor die <a href=\"http:// http://www.ontsi.red.es/ontsi/es/estudios-informes/an%C3%A1lisis-coste-beneficio-de-la-reutilizaci%C3%B3n-de-la-informaci%C3%B3n-meteorol%C3%B3gica-en-el\">Kosten um mehr als 1000 Millionen Euro senken könnte</a>.</p><p dir=\"ltr\">Eine Studie aus dem Jahr 2015 ergab, dass britische Unternehmen, die offene Daten verwenden, produzieren oder in offene Daten investieren, <a href=\"https://theodi.org/open-data-means-business\" target=\"_blank\">einen Jahresumsatz von über 92 Milliarden Pfund</a> erzielen und über 500.000 Mitarbeiter beschäftigen.</p><p><a href=\"https://www.europeandataportal.eu/de/highlights/creating-value-through-open-data\" target=\"_blank\">Hier können Sie über den volkswirtschaftlichen Wert von offenen Daten in Europa lesen.</a></p><p dir=\"ltr\"> </p>",
+        "_graphic": {
+          "src": "course/de/assets/e7980bbe7f0e8916f118a2bf24193c8f88211ba2.jpg",
+          "alt": "",
+          "attribution": "<a href=\"https://www.shutterstock.com/image-vector/cloud-business-process-management-concept-blue-259560827\" target=\"_blank\">JeKh</a> <span class='assetLicence'>[Shutterstock standard licence]</span>"
+        },
+        "strapline": "Volkswirtschaftlich"
+      },
+      {
+        "title": "Gesellschaftlich",
+        "body": "<p dir=\"ltr\">Dieser Indikator beschäftigt sich mit den Auswirkungen im Bereich der ökologischen Nachhaltigkeit und der Inklusion marginalisierter Gruppen bei der Politikgestaltung und bei dem Zugang zu staatlichen Dienstleistungen.</p><p dir=\"ltr\">Die beiden Länder mit den höchsten Punktzahlen im Jahr 2016 waren Spanien und Großbritannien.</p><p><a href=\"https://www.europeandataportal.eu/de/dashboard\" target=\"_blank\">Hier geht’s zum Open Data Dashboard</a></p><p>Ein Beispiel für die Einbeziehung marginalisierter Bevölkerungsgruppen in Spanien ist <a href=\"http://www.sinbarrera.es/\">Sin Barrera</a>, ein Werkzeug zur Suche nach behindertengerechten Pkw-Stellplätzen.</p>",
+        "_graphic": {
+          "src": "course/de/assets/194749d6a3d955ccf1327dff670d11d82f1e5892.jpg",
+          "alt": "",
+          "attribution": "<a href=\"http://www.shutterstock.com/pic-185008832\" target=\"_blank\">suarassawadee</a> <span class='assetLicence'>[Shutterstock standard licence]</span>"
+        },
+        "strapline": "Gesellschaftlich"
+      }
+    ]
+  },
+  {
+       "_id":"c-95",
+       "_parentId":"b-11",
+       "_type":"component",
+       "_component":"text",
+       "_classes":"separator",
+       "_layout":"full"
+    },
+    {
+       "_id":"c-96",
+       "_parentId":"b-11",
+       "_type":"component",
+       "_component":"text",
+       "_classes": "attribution",
+       "body":"&copy; <a href='https://theodi.org' target='_blank'>Open Data Institute</a>",
+       "_layout":"full"
+    },
+    {
+        "_id":"c-100",
+        "_parentId":"b-11",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"footer-logo",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Open data institute logo",
+            "title": "Open data institute logo",
+            "large": "course/de/images/logo-small.png",
+            "medium": "course/de/images/logo-small.png",
+            "small": "course/de/images/logo-small.png",
+            "*source":"http://theodi.org",
+            "*credit":"The Open Data Institute",
+            "*license":"All rights reserved"  
+        }
+    },
+    {
+        "_id":"c-104",
+        "_parentId":"b-11",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"attribution not-eu not-default",
+        "_layout":"right",
+        "body":"Content created by <a href='http://theodi.org' target='_blank'>The Open Data Institute</a>"
+    },
+    {
+        "_id":"c-105",
+        "_parentId":"b-11",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"social-buttons not-dlab",
+        "_layout":"right",
+        "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/de/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/de/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/de/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/de/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/de/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/de/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/de/images/social/flickr.png'></a>"
+    }
+]
