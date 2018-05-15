@@ -9,7 +9,6 @@
     "medium": 759,
     "small": 519
   },
-  "_id": "58862552b61c46e176e7e649",
   "_drawer": {
     "_duration": 400,
     "_hideEasing": "easeInQuart",
@@ -23,40 +22,42 @@
     "_isEnabled": false
   },
   "__v": 0,
-  "_tutor": {
-    "_isEnabled": false
-  },
+  "_id": "58862552b61c46e176e7e649",
   "_trackingHub": {
+    "_isEnabled": true,
+    "_courseID": "http://accelerate.theodi.org/",
     "_channels": [
       {
-        "_isStateSource": true,
-        "_saveStateIsEnabled": true,
-        "_transport": {
-          "_auth": {
-            "_password": "",
-            "_username": ""
-          },
-          "_endpoint": "https://lms2.learndata.info/api/v2/",
-          "_handlerName": "ODILRSStorageTransportHandler"
-        },
-        "_msgComposerName": "learnifyMessageComposer",
+        "_name": "ODI LRS",
         "_isEnabled": true,
-        "_name": "ODI LRS"
+        "_msgComposerName": "learnifyMessageComposer",
+        "_transport": {
+          "_handlerName": "ODILRSStorageTransportHandler",
+          "_endpoint": "https://lms2.learndata.info/api/v2/",
+          "_auth": {
+            "_username": "",
+            "_password": ""
+          }
+        },
+        "_saveStateIsEnabled": true,
+        "_isStateSource": true
       }
-    ],
-    "_courseID": "http://accelerate.theodi.org/",
-    "_isEnabled": true
+    ]
+  },
+  "_tutor": {
+    "_isEnabled": false
   },
   "build": {
     "includes": [
       "adapt-theme-odi",
       "adapt-contrib-boxMenu",
-      "adapt-odi-licence",
-      "adapt-skillsFramework",
-      "adapt-contrib-tutor",
-      "adapt-contrib-pageLevelProgress",
-      "adapt-contrib-aboutPage",
+      "adapt-odi-footerLink",
       "adapt-trackingHub",
+      "adapt-contrib-aboutPage",
+      "adapt-contrib-pageLevelProgress",
+      "adapt-contrib-tutor",
+      "adapt-skillsFramework",
+      "adapt-odi-licence",
       "adapt-contrib-text",
       "adapt-contrib-graphic",
       "adapt-contrib-media",
