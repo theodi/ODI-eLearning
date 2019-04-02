@@ -1,0 +1,685 @@
+[
+    {
+        "_id":"c-01",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"intro-logo",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "",
+            "medium": "",
+            "small": "",
+            "*source":"",
+            "*credit":"",
+            "*license":""
+        }
+    },
+    {
+        "_id":"c-02",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Paslėptų duomenų radimas internete",
+        "displayTitle":"Paslėptų duomenų radimas internete",
+        "body":"<p>Atviri duomenys – tai ne tik duomenų rinkiniai, kuriuos galima atsisiųsti. Atsisiunčiami atvirieji duomenys yra tik nedidelė žiniatinklyje pasiekiamų duomenų dalis.</p><p>Didžioji dalis žiniatinklyje pasiekiamų duomenų paslėpta nuo žmogaus akies. Tačiau mašinos gali rasti ir perskaityti šiuos duomenis.</p><h5>Šiame modulyje:</h5><ul class='ticks'><li>kaip rasti paslėptus duomenis;</li><li>kuo paslėpti duomenys gali būti naudingi;</li><li>kaip gauti paslėptus duomenis.</li></ul>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+     {
+    "_id":"c-11",
+    "_parentId":"b-10",
+    "_type":"component",
+    "_component":"iFrame-vimeo",
+    "_classes":"",
+    "_layout":"full",
+        "title":"Paslėptų duomenų radimas žiniatinklyje - per 2 minutes",
+        "displayTitle": "Paslėptų duomenų radimas žiniatinklyje - per 2 minutes",
+        "body": "Instruktorius iš Atvirųjų duomenų instituto (angl. „Open Data Institute“, ODI) Davidas Tarrantas paaiškina, kas yra paslėpti duomenys, kuo jie gali būti naudingi ir kaip juos galima gauti.",
+        "instruction": "Norint įjungti subtitrus, paskausk 'cc' mygtuką video apačioje, dešinėje pusėje.",
+        "_setCompletionOn":"ended",
+        "_source": "https://player.vimeo.com/video/129197208",
+        "_media": {
+		"mp4": "course/en/video/video.mp4",
+		"poster": "course/en/video/placeholder.jpg"
+	},
+        "_height": {
+            "_small" : 250,
+            "_medium" : 350,
+            "_large" : 508
+        }
+    },
+    {
+        "_id":"c-21",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "The tip of the iceberg",
+            "title": "The tip of the iceberg",
+            "large": "course/en/images/odi-001.jpg",
+            "medium": "course/en/images/odi-001.jpg",
+            "small": "course/en/images/odi-001.jpg",
+            "*source": "http://www.shutterstock.com/pic-278213858.html",
+            "*credit": "Lightspring",
+            "*licence": "Shutterstock standard license"
+        }
+    },
+    {
+        "_id":"c-22",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Nematomi duomenys",
+        "displayTitle":"Nematomi duomenys",
+        "body":"<p>Ne visada paprasta rasti duomenis žiniatinklyje, nes dauguma pasiekiamų šaltinių yra matomi tik mašinoms. Žmonės naršo žiniatinklyje viską matydami akimis – peržiūrėdami turinį, spausdami nuorodas ir atsisiųsdami failus.</p><p>Mašinos, priešingai, naršo žiniatinklyje tik pagal kode nustatytas logines taisykles. Žmonės ieško sudominančio, interaktyvaus turinio, o mašinoms reikia struktūros, logikos ir aiškumo.</p><p>Šis skirtumas sukuria „akląsias dėmes“ tarp to, kaip žmogus ir kaip mašina skaito žiniatinklį.</p><p>Pavyzdžiui, mašinos ne visada gali akimirksniu rasti svetainėje esančią atsisiuntimo nuorodą, o žmonėms sunku pamatyti struktūrinius, akimi nematomus duomenis, esančius svetainės kode.</p><p>Atsisiunčiami atvirųjų duomenų failai yra tik vienas duomenų tipų žiniatinklyje. Kur kas daugiau duomenų lieka paslėpti svetainės kode.</p>"
+    },
+     {
+        "_id": "c-25",
+        "_parentId": "b-25",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Paslėptų duomenų radimas",
+        "displayTitle": "Paslėptų duomenų radimas",
+        "body": "Ne visus duomenis galima atsisiųsti. Dažnai jie slepiami skirtingose svetainėse, kuriose lankomės kasdien.",
+        "instruction": "<em class='desktop-instruction'>Click the forward arrow to see more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
+        "_items": [
+            {
+                "title": "Kodėl duomenys slepiami?",
+                "body": "<p>Perėjimas prie duomenimis grindžiamo, mobiliuoju ryšiu pasiekiamo žiniatinklio lėmė pasikeitimus svetainės sandaroje. Norėdami patenkinti interaktyvių, vaizdinių svetainių naudotojų lūkesčius kūrėjai vis dažniau pateikia duomenis atskirame „sluoksnyje“ arba netgi pačiame kode. Šis duomenų sluoksnis dažnai prieinamas žmonėms, kurie naudojasi tinkamais įrankiais.</p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-002.jpg",
+                    "alt": "Readiness",
+                    "title": "Readiness",
+                    "*source": "http://www.shutterstock.com/pic-145267489",
+                    "*credit": "kentoh",
+                    "*licence": "Shutterstock standard license"
+                },
+                "strapline": "Readiness"
+            },
+            {
+                "title": "Duomenys slepiasi visur",
+                "body": "<p>Nuo „Vikipedijos“ puslapių iki atostogų planuotojų, nuo mados svetainių iki energijos tiekėjų – žiniatinklis pilnas duomenų šaltinių.</p><p>Šiems paslėptiems duomenims skirtos licencijos ne visada yra aiškios. Vien dėl to, kad duomenys yra mašinų perskaitomi viešai pasiekiamoje svetainėje, nereiškia, kad jie yra atvirieji duomenys. Jei abejojate, ar paslėpti duomenys yra atvirai prieinami, pasitikslinkite su svetainės savininku.</p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-003.jpg",
+                    "alt": "Implementation",
+                    "title": "Implementation",
+                    "*source": "http://www.shutterstock.com/pic-144137602",
+                    "*credit": "David Arts",
+                    "*licence": "Shutterstock standard license"
+                },
+                "strapline": "Implementation"
+            },
+            {
+                "title": "Kokio tipo duomenys laikomi paslėptais?",
+                "body": "<p>Paslėpti duomenys atrodo visai kitaip nei atvirųjų duomenų rinkinys, kurį atsisiunčiate iš svetainės.</p><p>Mašinų perskaitomi duomenys žiniatinklyje bus pateikti tokiais formatais kaip JSON (dažniausiai pasitaikantis ir paprastai naudojamas), kurie įterpiami į HTML, XML, o kartais ir RDF.</p><p>Pabandykite atlikti toliau šiame modulyje pateiktus pratimus ir išsiaiškinsite, ar galite išskleisti minėtais formatais pateiktus duomenis.</p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-004.jpg",
+                    "alt": "Impact",
+                    "title": "Impact",
+                    "*source": "http://www.shutterstock.com/pic-79079872",
+                    "*credit": "Angela Waye",
+                    "*licence": "Shutterstock standard license"
+                },
+                "strapline": "Impact"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-30",
+        "_parentId":"b-28",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Paslėptų duomenų nauda",
+            "title": "Paslėptų duomenų nauda",
+            "large": "course/en/images/odi-005.jpg",
+            "medium": "course/en/images/odi-005.jpg",
+            "small": "course/en/images/odi-005.jpg",
+            "*source": "http://www.shutterstock.com/pic-203736538",
+            "*credit": "Digital Storm",
+            "*licence": "Shutterstock standard license"
+        }
+    },
+    {
+      "_id":"c-35",
+      "_parentId":"b-28",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"left",
+      "title":"Benefits of hidden data",
+      "displayTitle": "Benefits of hidden data",
+      "instruction": "<em>Click the headings to find out more.</em>",
+      "_items": [
+        {
+          "alt": "Kokybė",
+          "title": "Kokybė",
+          "body": "<p>Dažnai leidėjas pasinaudoja paslėptais duomenimis, norėdamas savo svetainėje atvaizduoti tai, ką jūs joje matote.</p><p>Todėl paslėpti duomenys yra svarbi jo internetinės veiklos dalis ir, tikėtina, kad leidėjas rūpinasi duomenų kokybe.</p><p>Iš žiniatinklio išskleisti duomenys paprastai būna patikimesni, nes, tikėtina, jie yra organizacijos veiklos pagrindas. Todėl greičiausiai dirbsite su patikimu duomenų šaltiniu.</p>"
+        },
+        {
+          "alt": "Aktualumas",
+          "title": "Aktualumas",
+          "body": "<p>Organizacijos ne visada skelbia atsisiunčiamus duomenis. Tačiau daugelis jų valdo duomenimis grindžiamas svetaines. Pasiekdami duomenis tiesiogiai per esamus duomenų šaltinius (arba iš svetainės kodo) juos aiškiai naudojate. Taip jūs galėsite greitai atpažinti aktualius duomenis iš šio esamo jų panaudojimo ir jums neteks patiems nustatyti, kaip juos naudoti. Kaip pavyzdys galėtų būti BBC naujienų puslapiai, sekcijos ir susiję duomenų kanalai.<br /><a href='http://www.bbc.co.uk/news/10628494' target='_blank'>BBC naujienų kanalai.</a></p>"
+        },
+        {
+          "alt": "Kontekstas",
+          "title": "Kontekstas",
+          "body": "<p>Kai gaunate duomenis tiesiogiai iš žiniatinklio, jau juos matote tokiame kontekste, kuriame atvaizdavo leidėjas. Kaip jau esame aptarę ankstesniuose moduliuose, duomenų kontekstas yra svarbi jų naudojimo dalis.</p>"
+        },
+        {
+          "alt": "Kiekis",
+          "title": "Kiekis",
+          "body": "<p>Dažnai organizacijai yra ribojamas duomenų, kuriuos ji gali skelbti kaip atsisiunčiamus duomenis, kiekis. Radus paslėptų duomenų atsiveria platesnis šaltinių pasirinkimas.</p>"
+        }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+     {
+        "_id": "c-40",
+        "_parentId": "b-30",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Kaip rasti paslėptus duomenis?",
+        "displayTitle": "Kaip rasti paslėptus duomenis?",
+        "body": "<p>Iš duomenų gauname informaciją, iš informacijos gauname žinias ir įžvalgas.</p><p>Nepamirškite, kad išskleidus paslėptus duomenis jie netampa atviri. Prieš rinkdami arba naudodamiesi duomenimis bet kokiu tikslu visada turėtumėte patikrinti svetainės naudojimo sąlygas ir licencijas.</p<",
+        "instruction": "<em class='desktop-instruction'>Paspausk rodyklę, jei nori pamatyti daugiau.</em><em class='mobile-instruction'>Paspausk ‘+’ ženklą, jei nori pamatyti daugiau.</em>",
+        "_items": [
+            {
+                "title": "Plėtinių atsisiuntimai",
+                "body": "<p>Kai kurios svetainės buvo sukurtos, kad būtų galima rasti būdą, kaip išskleisti duomenis pridedant plėtinį prie jūsų peržiūrimos svetainės URL. Tokioms svetainėms, kurias paprastai prižiūri organizacijos, skelbiančios atsisiunčiamus atviruosius duomenis, pridėjus teisingą plėtinį pradedamas to puslapio atsisiuntimas duomenų, o ne naršyklės formatu.</p><p>Geras pavyzdys yra Jungtinės Karalystės (JK) vyriausybės svetainė (gov.uk), kurioje pateikiamas bet koks puslapis duomenų formatu tiesiog pridedant atitinkamą plėtinį, tokį kaip „.json“, pavyzdžiui, www.gov.uk/browse/business.json.</p><p>Išbandykite, kaip tai veikia, su JK prekybos duomenimis, peržiūrėdami šį puslapį ir tada pridėdami „.json“, kad gautumėte duomenis.<br /><a href='https://www.gov.uk/trade-tariff/sections' target='_blank'>Eiti į JK vyriausybės prekybos tarifų duomenų svetainę.</a></p><p>Norėdami peržiūrėti duomenis lengviau perskaitoma forma, nukopijuokite juos į jsonlint.com.</p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-006.jpg",
+                    "alt": "Extensions",
+                    "title": "Extensions",
+                    "*source": "http://www.shutterstock.com/pic-119236978",
+                    "*credit": "spaxiax",
+                    "*licence": "Shutterstock standard license"
+                },
+                "strapline": "Process management"
+            },
+            {
+                "title": "Duomenų kanalai",
+                "body": "<p>Daugelis svetainių pateikia nuorodas į duomenų sinchronizavimo kanalus, kuriuos galima užsisakyti.</p><p>Šie kanalai gali būti RSS kanalai, „Twitter“ įspėjamieji kanalai arba kitų rečiau pasitaikančių rūšių. Kanalais gali būti naudojamasi siekiant gauti neapdorotus duomenis apie platų turinio pasirinkimą.</p><p>Neapdorotų duomenų kanalo pavyzdys būtų BBC naujienų kanalas XML formatu.<br /><a href='http://feeds.bbci.co.uk/news/rss.xml' target='_blank'>Kodėl neišbandžius BBC XML formatu pateikiamų naujienų kanalų?</a></p><p>Dabar galite naudotis nemokamu internetiniu įrankiu, kad būtų lengviau naudoti duomenis.<br/><a href='http://codebeautify.org/xmlviewer' target='_blank'> Užeikite į „codebeautify“ ir įveskite BBC kanalo URL pasirinkę „Load URL“.</a></p><p class='not-dlab'>Arba gaukite įspėjamuosius pranešimus dėl potvynio, jei patvino šalia jūsų esanti upė (tik JK).<br /><a href='http://www.gaugemap.co.uk/' target='_blank'>Eiti į upių lygio matuoklį.</a></p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-007.jpg",
+                    "alt": "Duomenų kanalai",
+                    "title": "Duomenų kanalai",
+                    "*source": "http://www.shutterstock.com/pic-72158482",
+                    "*credit": "Ing",
+                    "*licence": "Shutterstock standard license"
+                },
+                "strapline": "User focused"
+            },
+            {
+                "title": "Šaltinio kodas",
+                "body": "<p>Daugelis svetainių ne tik pateikia paprastą maršrutą duomenims pasiekti – jos taip pat turi duomenų, įterptų į žiniatinklio šaltinio kodą.</p><p>Kodėl neišbandžius ODI eksperimentinio įrankio „Hidden Data Extractor“, kad rastumėte šaltinio kodą?<br><br><a href='http://odinprac.theodi.org/hidden-data-extractor/' target='_blank'>Eiti į ODI „Hidden Data Extractor“.</a></p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-008.jpg",
+                    "alt": "Šaltinio kodas",
+                    "title": "Šaltinio kodas",
+                    "*source": "http://www.shutterstock.com/pic-119236978",
+                    "*credit": "spaxiax",
+                    "*licence": "Shutterstock standard license"
+                },
+                "strapline": "User focused"
+            },
+            {
+                "title": "Aplikacijų programavimo sąsaja (angl. „Application Programming Interface“, API) arba mašinų perskaitomos sąsajos",
+                "body": "<p>Kai kuriose svetainėse arba žiniatinklio paslaugose bus sukurta mašinų perskaitoma sąsaja arba API, skirta duomenims pasiekti ir užklausoms pateikti.</p><p>API turinčių paslaugų pavyzdžiai būtų tokie:<a href='https://api.opencorporates.com/' target='_blank'>Open Corporates</a> (atviras), <a href='http://wiki.openstreetmap.org/wiki/API' target='_blank'>OpenSteetMap</a> (atviras), <a href='https://dev.twitter.com/rest/public' target='_blank'>Twitter</a> (ne visiškai atviras), <a href='https://www.flickr.com/services/api/' target='_blank'>Flickr</a> (iš dalies atviras), <a href='https://developer.linkedin.com/docs/rest-api' target='_blank'>LinkedIn</a> (ne atviras).</p><p>Dauguma šių paslaugų naudoja internetinę API ir leidžia plėtinių pridėjimą (pabandykite „.json“ plėtinį su „OpenCorporates“). Nors ši API atrodo tokia pati kaip ir ankstesniame šio skyriaus pavyzdyje, oficialus API statusas užtikrina, kad paslauga bus prieinama.</p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-009.jpg",
+                    "alt": "APIs",
+                    "title": "APIs",
+                    "*source": "http://www.shutterstock.com/pic-231102415",
+                    "*credit": "Imagentle",
+                    "*licence": "Shutterstock standard license"
+                },
+                "strapline": "User focused"
+            },
+            {
+                "title": "Duomenų ištraukimas iš interneto (scraping)",
+                "body": "<p>Jeigu nei viena iš minėtų technikų neveikia, gali tekti ištraukti duomenis iš žmogaus perskaitomų svetainių. Nors šis veiksmas gali būti patikimas, kyla rizika, kad pasikeis maketas ir turinys.</p><p>Išbandykite <a href='http://magic.import.io' target='_blank'>magic.import.io</a> - tai paprasta</p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-010.jpg",
+                    "alt": "Scraping the web",
+                    "title": "Scraping the web",
+                    "*source": "http://www.shutterstock.com/pic-231672367",
+                    "*credit": "McIek",
+                    "*licence": "Shutterstock standard license"
+                },
+                "strapline": "User focused"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    }, {
+        "_id":"c-42",
+        "_parentId":"b-33",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/burst.png",
+            "medium": "course/en/images/burst.png",
+            "small": "course/en/images/burst.png"
+        }
+    },
+    {
+        "_id":"c-43",
+        "_parentId":"b-33",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Ar esate pasiruošę rasti paslėptus duomenis?",
+        "displayTitle":"Ar esate pasiruošę rasti paslėptus duomenis?",
+        "body":"<p>Ar galite prisiminti pagrindinius dalykus apie paslėptus duomenis?</p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-45",
+        "_parentId":"b-35",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Tip of the iceberg",
+            "title": "Tip of the iceberg",
+            "large": "course/en/images/odi-011.jpg",
+            "medium": "course/en/images/odi-011.jpg",
+            "small": "course/en/images/odi-011.jpg",
+            "*source": "http://www.shutterstock.com/pic-278213858.html",
+            "*credit": "Lightspring",
+            "*licence": "Shutterstock standard license"
+        }
+    },
+    {
+        "_id":"c-50",
+        "_parentId":"b-35",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"58b83ba0fda9f5660ad85ae1",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Kas yra paslėpti duomenys?",
+        "displayTitle": "Kas yra paslėpti duomenys?",
+        "body": "<p>Paslėpti duomenys yra...</p>",
+        "instruction": "<em>Pasirink teisingą atsakymą ir spausk ‘submit’</em>",
+        "_items": [
+            {
+                "text": "lobių medžioklės dalis;",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "duomenys, matomi mašinoms, bet nematomi žmogaus akimis;",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "failai, kuriuos sunku atsisiųsti.",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Teisingai!</h5><p>Paslėpti duomenys yra nematomi žmonėms, kai jie naršo žiniatinklyje, bet mašina gali juos lengvai rasti ir suprasti.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Ar tikrai?</h5><p>Paslėpti duomenys yra nematomi žmonėms, kai jie naršo žiniatinklyje, bet mašina gali juos lengvai rasti ir suprasti.</p>",
+                "final": "<h5>Ar tikrai?</h5><p>Paslėpti duomenys yra nematomi žmonėms, kai jie naršo žiniatinklyje, bet mašina gali juos lengvai rasti ir suprasti.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-55",
+        "_parentId":"b-40",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Impact",
+            "title": "",
+            "large": "course/en/images/odi-012.jpg",
+            "medium": "course/en/images/odi-012.jpg",
+            "small": "course/en/images/odi-012.jpg",
+            "*source": "http://www.shutterstock.com/pic-79079872",
+            "*credit": "Angela Waye",
+            "*licence": "Shutterstock standard license"
+        }
+    },
+    {
+        "_id":"c-60",
+        "_parentId":"b-40",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"58b83d11fda9f5660ad85ae5",
+        "_classes":"",
+        "_layout":"right",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Kodėl duomenys yra slepiami?",
+        "displayTitle": "Kodėl duomenys yra slepiami?",
+        "body": "<p>Žmonės slepia duomenis, nes...</p>",
+        "instruction": "<em>Pasirink teisingą atsakymą ir spausk ‘submit’</em>",
+        "_items": [
+            {
+                "text": "jiems dėl jų gėda;",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "jie yra netvarkingi;",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "dažniausiai žmonės jų neatskleidžia nesąmoningai.",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Teisingai!</h5><p>Paprastai paslėpti duomenys nėra sąmoningai slepiami. Dažnai svetainę kurianti organizacija sutelkia dėmesį į tai, kaip žmonės naršo puslapius, todėl negalvoja apie tai, kaip duomenys yra pateikiami.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Ar tikrai?</h5><p>Paprastai paslėpti duomenys nėra sąmoningai slepiami. Dažnai svetainę kurianti organizacija sutelkia dėmesį į tai, kaip žmonės naršo puslapius, todėl negalvoja apie tai, kaip duomenys yra pateikiami.</p>",
+                "final": "<h5>Ar tikrai?</h5><p>Paprastai paslėpti duomenys nėra sąmoningai slepiami. Dažnai svetainę kurianti organizacija sutelkia dėmesį į tai, kaip žmonės naršo puslapius, todėl negalvoja apie tai, kaip duomenys yra pateikiami.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Ar tikrai?</h5><p>Paprastai paslėpti duomenys nėra sąmoningai slepiami. Dažnai svetainę kurianti organizacija sutelkia dėmesį į tai, kaip žmonės naršo puslapius, todėl negalvoja apie tai, kaip duomenys yra pateikiami.</p>",
+                "final": "<h5>Ar tikrai?</h5><p>Paprastai paslėpti duomenys nėra sąmoningai slepiami. Dažnai svetainę kurianti organizacija sutelkia dėmesį į tai, kaip žmonės naršo puslapius, todėl negalvoja apie tai, kaip duomenys yra pateikiami.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-65",
+        "_parentId":"b-45",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Paslėptų duomenų nauda",
+            "title": "",
+            "large": "course/en/images/odi-013.jpg",
+            "medium": "course/en/images/odi-013.jpg",
+            "small": "course/en/images/odi-013.jpg",
+            "*source": "http://www.shutterstock.com/pic-203736538",
+            "*credit": "Digital Storm",
+            "*licence": "Shutterstock standard license"
+        }
+    },
+    {
+        "_id":"c-70",
+        "_parentId":"b-45",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"58b83d8dfda9f5660ad85ae9",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Paslėptų duomenų nauda",
+        "displayTitle": "Paslėptų duomenų nauda",
+        "body": "<p>Kuris iš toliau nurodytų dalykų nelaikomas paslėptų duomenų nauda?</p>",
+        "instruction": "<em>Pasirink teisingą atsakymą ir spausk ‘submit’</em>",
+        "_items": [
+            {
+                "text": "kiekis;",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "kokybė",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "skaitomumas;",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "aktualumas;",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "kontekstas.",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Teisingai!</h5><p>Paslėpti duomenys gali padidinti duomenų aktualumą bei kokybę ir pasiekiamą jų kiekį, be to, jie pabrėžia konteksto, kuriame naudojami duomenys, svarbą.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Ar tikrai?</h5>Paslėpti duomenys gali padidinti duomenų aktualumą bei kokybę ir pasiekiamą jų kiekį, be to, jie pabrėžia konteksto, kuriame naudojami duomenys, svarbą.</p>",
+                "final": "<h5>Ar tikrai?</h5>Paslėpti duomenys gali padidinti duomenų aktualumą bei kokybę ir pasiekiamą jų kiekį, be to, jie pabrėžia konteksto, kuriame naudojami duomenys, svarbą.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "Paslėpti duomenys gali padidinti duomenų aktualumą bei kokybę ir pasiekiamą jų kiekį, be to, jie pabrėžia konteksto, kuriame naudojami duomenys, svarbą.",
+                "final": "Paslėpti duomenys gali padidinti duomenų aktualumą bei kokybę ir pasiekiamą jų kiekį, be to, jie pabrėžia konteksto, kuriame naudojami duomenys, svarbą."
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-72",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Source code",
+            "title": "",
+            "large": "course/en/images/odi-014.jpg",
+            "medium": "course/en/images/odi-014.jpg",
+            "small": "course/en/images/odi-014.jpg",
+            "*source": "http://www.shutterstock.com/pic-119236978",
+            "*credit": "spaxiax",
+            "*licence": "Shutterstock standard license"
+        }
+    },
+    {
+        "_id":"c-73",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"58b83ffdfda9f5660ad85af2",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Kaip galite ištraukti paslėptus duomenis iš svetainės?",
+        "displayTitle": "Kaip galite ištraukti paslėptus duomenis iš svetainės?",
+        "body": "<p>Kuris iš toliau nurodytų būdų yra naudingas siekiant išskleisti paslėptus duomenis iš svetainės?</p>",
+        "instruction": "<em>Pasirink teisingą atsakymą ir spausk ‘submit’</em>",
+        "_items": [
+            {
+                "text": "Svetainės nuorodos saugojimas.",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Pakartotinis puslapio įkėlimas.",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Šaltinio kodo tikrinimas.",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Teisingai!</h5><p>Tikrinant svetainės šaltinio kodą dažnai galima rasti puslapyje įterptus paslėptus duomenis.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Ar tikrai?</h5><p>Tikrinant svetainės šaltinio kodą dažnai galima rasti puslapyje įterptus paslėptus duomenis.</p>",
+                "final": "<h5>Ar tikrai?</h5><p>Tikrinant svetainės šaltinio kodą dažnai galima rasti puslapyje įterptus paslėptus duomenis.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Ar tikrai?</h5><p>Tikrinant svetainės šaltinio kodą dažnai galima rasti puslapyje įterptus paslėptus duomenis.</p>",
+                "final": "<h5>Ar tikrai?</h5><p>Tikrinant svetainės šaltinio kodą dažnai galima rasti puslapyje įterptus paslėptus duomenis.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-85",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Summary icon clipboard",
+            "title": "Summary icon clipboard",
+            "large": "course/en/images/summary-icon.png",
+            "medium": "course/en/images/summary-icon.png",
+            "small": "course/en/images/summary-icon.png",
+            "*source":"http://www.shutterstock.com/pic-189810137.html",
+            "*credit":"Kritchanut",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-90",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Paslėptų duomenų radimas internete",
+        "displayTitle":"Paslėptų duomenų radimas internete",
+        "body":"<p>Duomenys, kuriuos galima atsisiųsti, yra tik nedidelė dalis žiniatinklyje pasiekiamų duomenų.</p><p>Nors žmogus akis ne visada gali matyti duomenis, galima atrasti ir pasinaudoti daugybe naujų duomenis naudojančių mašinų.</p><p>Iš šių svetainių gauti duomenys dažnai yra daug didesni savo kiekiu ir aktualesni jūsų darbui nei atsisiųstieji failai, be to, jie išimami tiesiai iš konteksto, kuriame leidėjas jau juos naudoja.</p><p>Kadangi šiame modulyje buvote informuoti apie paslėptus duomenis ir išmokote keleto paprastų veiksmų, tokių kaip plėtinių užklausos ir API, savo darbui ateityje galėsite gauti daug aktualių duomenų.</p><p><a class='course_link' href='../module13/'>Kitas modulis</a></p><p><a class='course_link' href='../'>Pagrindinis meniu</a></p>",
+        "_pageLevelProgress": {
+          "_isEnabled": true
+        }
+    },
+    {
+       "_id":"c-95",
+       "_parentId":"b-55",
+       "_type":"component",
+       "_component":"text",
+       "_classes":"separator",
+       "_layout":"full"
+    },
+    {
+       "_id":"c-96",
+       "_parentId":"b-55",
+       "_type":"component",
+       "_component":"text",
+       "_classes": "attribution",
+       "body":"&copy; <a href='https://ec.europa.eu/commission/index_en' target='_blank'>European Commission</a>",
+       "_layout":"full"
+    },
+    {
+        "_id":"c-100",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"footer-logo",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Open data institute logo",
+            "title": "Open data institute logo",
+            "large": "course/en/images/logo-small.png",
+            "medium": "course/en/images/logo-small.png",
+            "small": "course/en/images/logo-small.png",
+            "*source":"http://theodi.org",
+            "*credit":"The Open Data Institute",
+            "*license":"All rights reserved"  
+        }
+    },
+    {
+        "_id":"c-104",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"attribution not-eu not-default",
+        "_layout":"right",
+        "body":"Content created by <a href='http://theodi.org' target='_blank'>The Open Data Institute</a>"
+    },
+    {
+        "_id":"c-105",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"social-buttons not-dlab",
+        "_layout":"right",
+        "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/en/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/en/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/en/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/en/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/en/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/en/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/en/images/social/flickr.png'></a>"
+    }
+]
