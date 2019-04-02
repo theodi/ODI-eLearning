@@ -1,0 +1,559 @@
+[
+    {
+        "_id":"c-01",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"intro-logo",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "",
+            "medium": "",
+            "small": "",
+            "*source":"",
+            "*credit":"",
+            "*license":""
+        }
+    },
+    {
+        "_id":"c-02",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Kaip suprasti platformas",
+        "displayTitle":"Kaip suprasti platformas",
+        "body":"<p>Platforma yra programinės įrangos dalis, kurioje gali veikti mažesnės programinės įrangos dalys ir turinys. Atviriems duomenims didžiausia platforma yra internetas (web).Tačiau daugelis specialiai atviriems duomenims sukurtų programų gali padėti atverti duomenis patrauklesniu būdu.</p><h5>Šiame modulyje:</h5><ul class='ticks'><li>atvirų duomenų platformų atpažinimas</li><li>kodėl platformos yra svarbios naudotojams</li><li>esminių platformų kriterijų įvertinimas</li><li>platformų naudojimas duomenų analizavimui</li></ul>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+    "_id":"c-11",
+    "_parentId":"b-10",
+    "_type":"component",
+    "_component":"iFrame-vimeo",
+    "_classes":"",
+    "_layout":"full",
+        "title":"Atvirų duomenų platformos per 2 minutes",
+        "displayTitle": "Atvirų duomenų platformos per 2 minutes",
+        "body": "Dr. Davidas Tarantas (ODI) paaiškina, kas yra atvirų duomenų platformos, jų tipai ir nauda atvirų duomenų naudotojams.",
+        "instruction": "Norint įjungti subtitrus, paskausk 'cc' mygtuką video apačioje, dešinėje pusėje.",
+        "_setCompletionOn":"ended",
+        "_source": "https://player.vimeo.com/video/129196991",
+        "_media": {
+		"mp4": "course/en/video/video.mp4",
+		"poster": "course/en/video/placeholder.jpg"
+	},
+        "_height": {
+            "_small" : 250,
+            "_medium" : 350,
+            "_large" : 508
+        }
+    },
+    {
+        "_id":"c-21",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Kas yra atvirų duomenų platforma?",
+            "title": "Kas yra atvirų duomenų platforma?",
+            "*source": "http://www.shutterstock.com/pic.mhtml?id=103013084&src=id",
+            "*credit": "Laralova",
+            "*licence": "Shutterstock standard licence",
+            "large": "course/en/images/odi-001.jpg",
+            "medium": "course/en/images/odi-001.jpg",
+            "small": "course/en/images/odi-001.jpg"
+        }
+    },
+    {
+        "_id":"c-22",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Kas yra atvirų duomenų platforma?",
+        "displayTitle":"Kas yra atvirų duomenų platforma?",
+        "body":"<p>Atvirų duomenų platformos yra programinė įranga, kurios pagalba yra lengviau patalpinti duomenis internete.</p><p>Atverėjams tokia platforma sukuria kelią duomenų atvėrimui. Platformos veda atverėjus per duomenų atvėrimo procesą, o naudotojams suteikia lengvą prieigą prie duomenų iš bet kurios pasaulio vietos.</p>"
+    },
+     {
+        "_id": "c-25",
+        "_parentId": "b-25",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Esminių platformų kriterijų įvertinimas",
+        "displayTitle": "Esminių platformų kriterijų įvertinimas",
+        "body": "Atvirų duomenų platformos duomenis padaro lengviau <em>prieinamais</em> ir <em>naudojamais</em>.",
+        "instruction": "<em class='desktop-instruction'>Paspausk rodyklę, jei nori pamatyti daugiau</em><em class='mobile-instruction'>Paspausk ‘+’ ženklą, jei nori pamatyti daugiau</em>",
+        "_items": [
+            {
+                "title": "Duomenų atradimas",
+                "body": "<p>Atvirų duomenų platformos skatina duomenis naudoti.  Platformų dizainas leidžia naudotojams greitai rasti ir panaudoti susijusius duomenis.</p><p>Platformos yra kuriamos atsižvelgiant į paieškos įrankius, todėl jose lengviau rasti reikalingą informaciją. Platformos taip pat sukuria skirtingus duomenų srautus, kurie gali būti naudojami kitų sistemų bet kur internete.</p><p>Tokie duomenų srautai leidžia paieškos sistemoms, kaip Enigma.io atidaryti duomenis ir padaryti juos prieinamiesniems.<br /><a href='http://www.enigma.io' target='_blank'>enigma.io</a></p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-002.jpg",
+                    "alt": "Discovery",
+                    "title": "Discovery",
+                    "*source": "https://www.flickr.com/photos/mjtmail/3008566512",
+                    "*credit": "mjtmail (tiggy)",
+                    "*licence": "CC-BY 2.0"
+                },
+                "strapline": "Duomenys"
+            },
+            {
+                "title": "Vientisa naudotojo patirtis",
+                "body": "<p>Atvirų duomenų platformų yra ribotas kiekis, tai reiškia, kad nereikia suprasti labai daug skirtingų technologijų.</p><p>Atvirų duomenų platformos sukurtos galvojant apie naudotoją- platformos dizainas ir struktūra skirtas lengvesniam duomenų suradimui.</p><p>Atvirų duomenų platformų pavyzdžiai:<a href='http://www.data.gov.uk' target='_blank'>data.gov.uk</a>, <a href='https://africaopendata.org/' target='_blank'>africaopendata.org</a> ir <a class='not-dlab' href='http://www.data.gov.md' target='_blank'>data.gov.md</a></p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-003.jpg",
+                    "alt": "Consistency",
+                    "title": "Consistency",
+                    "*source": "http://www.shutterstock.com/pic.mhtml?id=200818673&src=lb-36497927",
+                    "*credit": "April Cat",
+                    "*licence": "Shutterstock standard license"
+                },
+                "strapline": "Informacija"
+            },
+            {
+                "title": "Nuosekli prieiga",
+                "body": "<p>Kurdama atvirus standartus interneto bendruomenė sukūrė nuosekliaus programavimo sąsają (API). Ji skirta duomenų prieigai ir naudojimui. </p><p>Ribotas atvirų duomenų platformų skaičius ir nuoseklios prieigos įrankiai leidžia naudotojams lengvai naudoti skirtingus programinės įrangos elementus.</p><p>Platformos taip pat turi panašias struktūras ir formatus metaduomenų atvėrimui, kaip ir pačių duomenų.</p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-004.jpg",
+                    "alt": "Access granted",
+                    "title": "Access granted",
+                    "*source": "http://www.shutterstock.com/pic.mhtml?id=154822901&src=id",
+                    "*credit": "Kirill_m",
+                    "*licence": "Shutterstock standard licence"
+                },
+                "strapline": "Žinios"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-30",
+        "_parentId":"b-28",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Approaches",
+            "title": "Approaches",
+            "large": "course/en/images/odi-005.jpg",
+            "medium": "course/en/images/odi-005.jpg",
+            "small": "course/en/images/odi-005.jpg",
+            "*source": "http://www.shutterstock.com/pic.mhtml?id=277792007&src=id",
+            "*credit": "Nicotombo",
+            "*licence": "Shutterstock standard licence"
+        }
+    },
+    {
+      "_id":"c-35",
+      "_parentId":"b-28",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"left",
+      "title": "Platformos dizaino metodai",
+      "displayTitle": "Platformos dizaino metodai",
+      "body": "<p>Platformos naudoja skirtingus metodus duomenų atvėrimui. Skirtingi metodai:</p>",
+      "instruction": "",
+      "_items": [
+        {
+          "alt": "Duomenų katalogai",
+          "title": "Duomenų katalogai",
+          "body": "<p> Atvirų duomenų katalogas yra platforma internete, kurioje yra duomenų rinkinių sąrašas. Duomenų katalogas yra kaip direktorija. Jie žino, kad yra konkretus duomenų rinkinys, apie ką jis, kur jis yra ir kaip jį paimti.</p><p>Atvirų duomenų katalogas sujungia naudotojus su duomenimis, esančiais kažkur internete. Tai yra vientisas metodas norint lokalizuoti duomenų rinkinius, esančius skirtingose vietose. </p><p class='not-dlab'>CKAN platforma, naudojama Amsterdame (<a href='http://data.amsterdam.nl' target='_blank'>Amsterdamo CKAN portalas</a>)</span>, Berlyne (<a href='http://daten.berlin.de/' target='_blank'>Berlyno CKAN</a>) ir Kopenhagoje (<a href='http://data.kk.dk/' target='_blank'>Kopenhagos CKAN</a>), gali būti naudojama kaip duomenų katalogas. </p>"
+        },
+        {
+          "alt": "Duomenų valdymas",
+          "title": "Duomenų valdymas",
+          "body": "<p>Duomenų valdymo platformos taip pat gali atlikti svarbų vaidmenį duomenų atvėrime ir valdyme. Atverėjai gali atnaujinti duomenis tiesiogiai platformoje.</p><p>Naudotojams, ieškantiems duomenų ir analizuojantiems juos be poreikio juos parsisiųsti, tokia platforma gerokai palengvina procesą.</p><p>Tačiau atverėjai tokiai platformai turi skirti daugiau laiko struktūrizuojant ir formatuojant duomenis. Tai lengvai išsprendžiama, jei atverėjas tokią platformą naudoja ir savo duomenų prieigai. </p><p class='not-dlab'>Socrata platforma, naudojama Lobardijos regione Italijoje(<a href='https://www.dati.lombardia.it/' target='_blank'>Lombardijos open data portalas</a>), ir Open Data Soft platforma naudojama Issy mieste Pranzūzijoje (<a href='https://data.issy.com/' target='_blank'>Issy open data portalas</a>) yra geri duomenų valdymo platformų pavyzdžiai. </p>"
+        },
+        {
+          "alt": "Palyginimas",
+          "title": "Palyginimas",
+          "body": "<p>Duomenų katalogai suteikia:</p></ul><li>vieningą paiešką plačiame domene</li><li>duomenų analizavimo įrankius</li><li>esminius metaduomenis su licencija ir duomenų aktualumu</li></ul></p><p>Duomenų valdymo platformos suteikia:</p><ul><li>autentiškus duomenų šaltinius</li><li>geresnę duomenų kokybę</li><li>galimybę ieškoti ir vizualizuoti duomenis</li></ul><p>Skirtumai tarp duomenų valdymo platformų ir duomenų katalogų taip pat priklauso nuo tiekėjų. <a href='https://how-to.usopendata.org/en/latest/The-Basics-of-Open-Data/Data-Repositories/' target='_blank'>Palyginamoji duomenų platformų analizė</a></p>"
+        }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-31",
+        "_parentId":"b-30",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Open data platforms across Europe",
+            "title": "Open data platforms across Europe",
+            "*source": "http://www.shutterstock.com/pic.mhtml?id=117748444&src=id",
+            "*credit": "koyacsf",
+            "*licence": "Shutterstock standard licence",
+            "large": "course/en/images/odi-006.jpg",
+            "medium": "course/en/images/odi-006.jpg",
+            "small": "course/en/images/odi-006.jpg"
+        }
+    },
+    {
+        "_id":"c-32",
+        "_parentId":"b-30",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Atvirų duomenų platformos Europoje",
+        "displayTitle":"Atvirų duomenų platformos Europoje",
+        "body":"<p>Europa yra namai šimtams atvirų duomenų platformų lokaliu, regioniniu ir nacionaliniu lygiais. Ieškant atvirų duomenų yra naudinga turėti prieigą prie šių platformų direktorijų, kurios padeda nustatyti, kurie duomenų šaltiniai yra prieinami. OpenDataMonitor projekts yra Europos atvirų duomenų svetainių ir šaltinių indeksas.<br /><a href='http://www.opendatamonitor.eu/frontend/web/index.php?r=datacatalogue%2Flist' target='_blank'>OpenDataMonitor</a></p>"
+    },
+    {
+        "_id":"c-42",
+        "_parentId":"b-33",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/burst.png",
+            "medium": "course/en/images/burst.png",
+            "small": "course/en/images/burst.png"
+        }
+    },
+    {
+        "_id":"c-43",
+        "_parentId":"b-33",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Ar jūs pasiruošę naudoti atvirų duomenų platformas?",
+        "displayTitle":"Ar jūs pasiruošę naudoti atvirų duomenų platformas?",
+        "body":"<p>Yra trys dalykai, kuriuos verta prisiminti galvojant apie atvirų duomenų platformas. Ar prisimeni juos?</p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-45",
+        "_parentId":"b-35",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Kas yra atvirų duomenų platforma?",
+            "title": "",
+            "*source": "http://www.shutterstock.com/pic.mhtml?id=103013084&src=id",
+            "*credit": "Laralova",
+            "*licence": "Shutterstock standard licence",
+            "large": "course/en/images/odi-007.jpg",
+            "medium": "course/en/images/odi-007.jpg",
+            "small": "course/en/images/odi-007.jpg"
+        }
+    },
+    {
+        "_id":"c-50",
+        "_parentId":"b-35",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"58905c59b61c46e176e7eb53",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Kas yra atvirų duomenų platforma?",
+        "displayTitle": "Kas yra atvirų duomenų platforma?",
+        "body": "<p>Atvirų duomenų platforma yra...</p>",
+        "instruction": "<em>Pasirink teisingą atsakymą ir spausk ‘submit’</em>",
+        "_items": [
+            {
+                "text": "pardavimų platfoma verslui",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "programinė įranga, kuri padeda patalpinti duomenis internete",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "vidinis duomenų tvarkymo įrankis",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Teisingai!</h5><p>Atvirų duomenų platforma yra programinė įranga, kuri padeda patalpinti duomenis internete. Jos padeda atverti duomenis ir padaro juos lengvai prieinamais ir naudojamais.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Ar tikrai?</h5><p>Atvirų duomenų platforma yra programinė įranga, kuri padeda patalpinti duomenis internete. Jos padeda atverti duomenis ir padaro juos lengvai prieinamais ir naudojamais.</p>",
+                "final": "<h5>Ar tikrai?</h5><p>Atvirų duomenų platforma yra programinė įranga, kuri padeda patalpinti duomenis internete. Jos padeda atverti duomenis ir padaro juos lengvai prieinamais ir naudojamais.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "Atvirų duomenų platforma yra programinė įranga, kuri padeda patalpinti duomenis internete. Jos padeda atverti duomenis ir padaro juos lengvai prieinamais ir naudojamais.",
+                "final": "Atvirų duomenų platforma yra programinė įranga, kuri padeda patalpinti duomenis internete. Jos padeda atverti duomenis ir padaro juos lengvai prieinamais ir naudojamais."
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-55",
+        "_parentId":"b-40",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Approaches",
+            "title": "",
+            "large": "course/en/images/odi-008.jpg",
+            "medium": "course/en/images/odi-008.jpg",
+            "small": "course/en/images/odi-008.jpg",
+            "*source": "http://www.shutterstock.com/pic.mhtml?id=277792007&src=id",
+            "*credit": "Nicotombo",
+            "*licence": "Shutterstock standard licence"
+        }
+    },
+    {
+        "_id":"c-60",
+        "_parentId":"b-40",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"58905d4db61c46e176e7eb58",
+        "_classes":"",
+        "_layout":"right",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Kas yra atvirų duomenų katalogas?",
+        "displayTitle": "Kas yra atvirų duomenų katalogas?",
+        "body": "<p>Atvirų duomenų katalogas yra...</p>",
+        "instruction": "<em>Pasirink teisingą atsakymą ir spausk ‘submit’</em>",
+        "_items": [
+            {
+                "text": "duomenų rinkinių sąrašas",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "duomenų rinkinių ir jų kainų sąrašas",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "atvirų duomenų, esančių internete, sąrašas",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Teisingai! </h5><p>Atvirų duomenų katalogas yra atvirų duomenų, esančių internete, sąrašas ir jis nebūtinai priklauso duomenų savininkui. Dauguma rinkinių yra kategorizuojami pagal domeną arba objektą, taip padarant juos lengviau suprantamais.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Ar tikrai?</h5><p>Atvirų duomenų katalogas yra atvirų duomenų, esančių internete, sąrašas ir jis nebūtinai priklauso duomenų savininkui. Dauguma rinkinių yra kategorizuojami pagal domeną arba objektą, taip padarant juos lengviau suprantamais.</p>",
+                "final": "<h5>Ar tikrai?</h5><p>Atvirų duomenų katalogas yra atvirų duomenų, esančių internete, sąrašas ir jis nebūtinai priklauso duomenų savininkui. Dauguma rinkinių yra kategorizuojami pagal domeną arba objektą, taip padarant juos lengviau suprantamais.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Ar tikrai?</h5><p>Atvirų duomenų katalogas yra atvirų duomenų, esančių internete, sąrašas ir jis nebūtinai priklauso duomenų savininkui. Dauguma rinkinių yra kategorizuojami pagal domeną arba objektą, taip padarant juos lengviau suprantamais.</p>",
+                "final": "<h5>Ar tikrai?</h5><p>Atvirų duomenų katalogas yra atvirų duomenų, esančių internete, sąrašas ir jis nebūtinai priklauso duomenų savininkui. Dauguma rinkinių yra kategorizuojami pagal domeną arba objektą, taip padarant juos lengviau suprantamais.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-65",
+        "_parentId":"b-45",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "What do open data platforms help with?",
+            "title": "What do open data platforms help with?",
+            "large": "course/en/images/odi-009.jpg",
+            "medium": "course/en/images/odi-009.jpg",
+            "small": "course/en/images/odi-009.jpg",
+            "*source": "http://www.shutterstock.com/pic-241493050/",
+            "*credit": "dencg",
+            "*licence": "Shutterstock standard licence"
+        }
+    },
+    {
+        "_id":"c-70",
+        "_parentId":"b-45",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"58905de5b61c46e176e7eb5e",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":3,
+        "title": "Kokiems trims dalykams padeda platformos?",
+        "displayTitle": "Kokiems trims dalykams padeda platformos?",
+        "body": "<p></p>",
+        "instruction": "<em>Pasirink tris atsakymus ir spausk ‘submit’</em>",
+        "_items": [
+            {
+                "text": "palegvina duomenų analizavimą",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "užtikrina pastovumą",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "palengvina prieigą",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "suteikia kontekstą",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "suburia bendruomenes",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Teisingai!</h5><p>Trys pagrindiniai dalykai, kuriems padeda platformos yra duomenų analizavimas, pastovumas ir lengva prieiga. Taip pat jie gali padėti su duomenų konktestu ir duomenų bendruomenės kūrimu, tačiau šiuos aspektus sunkiau įgyvendinti.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Ar tikrai?</h5><p>Trys pagrindiniai dalykai, kuriems padeda platformos yra duomenų analizavimas, pastovumas ir lengva prieiga. Taip pat jie gali padėti su duomenų konktestu ir duomenų bendruomenės kūrimu, tačiau šiuos aspektus sunkiau įgyvendinti.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<p>Trys pagrindiniai dalykai, kuriems padeda platformos yra duomenų analizavimas, pastovumas ir lengva prieiga. Taip pat jie gali padėti su duomenų konktestu ir duomenų bendruomenės kūrimu, tačiau šiuos aspektus sunkiau įgyvendinti.</p>",
+                "final": "<p>Trys pagrindiniai dalykai, kuriems padeda platformos yra duomenų analizavimas, pastovumas ir lengva prieiga. Taip pat jie gali padėti su duomenų konktestu ir duomenų bendruomenės kūrimu, tačiau šiuos aspektus sunkiau įgyvendinti.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-85",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Summary icon clipboard",
+            "title": "Summary icon clipboard",
+            "large": "course/en/images/summary-icon.png",
+            "medium": "course/en/images/summary-icon.png",
+            "small": "course/en/images/summary-icon.png",
+            "*source":"http://www.shutterstock.com/pic-189810137.html",
+            "*credit":"Kritchanut",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-90",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Atvirų duomenų platformos",
+        "displayTitle":"Atvirų duomenų platformos",
+        "body":"<p>Atvirų duomenų platforma yra programinė įranga, kuri padeda patalpinti duomenis internete.</p><p>Atverėjams jos padeda palaipsniui atverti duomenis.</p><p>Naudotojams platformos užtikrina pastovią ir lengvą prieigą.</p><p><a class='course_link' href='../module9/'>Kitas modulis</a></p><p><a class='course_link' href='../'>Pagrindinis puslapis</a></p>",
+        "_pageLevelProgress": {
+          "_isEnabled": true
+        }
+    },
+    {
+       "_id":"c-95",
+       "_parentId":"b-55",
+       "_type":"component",
+       "_component":"text",
+       "_classes":"separator",
+       "_layout":"full"
+    },
+    {
+       "_id":"c-96",
+       "_parentId":"b-55",
+       "_type":"component",
+       "_component":"text",
+       "_classes": "attribution",
+       "body":"&copy; <a href='https://ec.europa.eu/commission/index_en' target='_blank'>European Commission</a>",
+       "_layout":"full"
+    },
+    {
+        "_id":"c-100",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"footer-logo",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Open data institute logo",
+            "title": "Open data institute logo",
+            "large": "course/en/images/logo-small.png",
+            "medium": "course/en/images/logo-small.png",
+            "small": "course/en/images/logo-small.png",
+            "*source":"http://theodi.org",
+            "*credit":"The Open Data Institute",
+            "*license":"All rights reserved"  
+        }
+    },
+    {
+        "_id":"c-104",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"attribution not-eu not-default",
+        "_layout":"right",
+        "body":"Content created by <a href='http://theodi.org' target='_blank'>The Open Data Institute</a>"
+    },
+    {
+        "_id":"c-105",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"social-buttons not-dlab",
+        "_layout":"right",
+        "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/en/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/en/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/en/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/en/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/en/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/en/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/en/images/social/flickr.png'></a>"
+    }
+]
