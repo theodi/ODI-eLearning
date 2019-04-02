@@ -1,0 +1,571 @@
+[
+    {
+        "_id":"c-02",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"intro-logo",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "",
+            "medium": "",
+            "small": "",
+            "*source":"",
+            "*credit":"",
+            "*license":""
+        }
+    },
+    {
+        "_id":"c-01",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Kodėl turėtume nerimauti dėl duomenų tvarumo?",
+        "displayTitle":"Kodėl turėtume nerimauti dėl duomenų tvarumo?",
+        "body":"<p>Norint, kad atvirieji duomenys būtų naudingi, jie turi būti aktualūs, nuolat atnaujinami ir prieinami.</p><p>Tvari atvirųjų duomenų programa nuolat atnaujina duomenis palaikydama bent jau tokią pačią arba geresnę kokybę.</p><h5>Šiame modulyje:</h5><ul class='ticks'><li>kaip sukurti tvarius duomenis;</li><li>kodėl tvarumas yra svarbu;</li><li>kaip atpažinti tvarius duomenų rinkinius.</li></ul>",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-11",
+        "_parentId":"b-10",
+        "_type":"component",
+        "_component":"iFrame-vimeo",
+        "_classes":"",
+        "_layout":"full",
+        "title":"Atvirųjų duomenų tvarumas per 2 minutes",
+        "displayTitle": "Atvirųjų duomenų tvarumas per 2 minutes",
+        "body": "Atvirųjų duomenų instituto (angl. „Open Data Institute“, ODI) paleisties programos vadovas Ulrichas Atzas paaiškina, kaip svarbu užtikrinti atvirųjų duomenų tvarumą ir kodėl naudotojams tvarumas rūpi. Jis taip pat užsimena apie kelis pagrindinius rodiklius, dėl kurių atvirųjų duomenų iniciatyva sukurta taip, kad tęstųsi.",
+        "instruction": "Norint įjungti subtitrus, paskausk 'cc' mygtuką video apačioje, dešinėje pusėje.",
+        "_setCompletionOn":"ended",
+        "_source": "https://player.vimeo.com/video/129879004",
+        "_media": {
+		"mp4": "course/en/video/video.mp4",
+		"poster": "course/en/video/placeholder.jpg"
+	},
+        "_height": {
+            "_small" : 250,
+            "_medium" : 350,
+            "_large" : 508
+        }
+    },
+       {
+        "_id":"c-21",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Sustainable open data",
+            "title": "Sustainable open data",
+            "large": "course/en/images/odi-001.jpg",
+            "medium": "course/en/images/odi-001.jpg",
+            "small": "course/en/images/odi-001.jpg",
+            "*source":"http://www.shutterstock.com/pic.mhtml?id=199444121&src=id",
+            "*credit":"Tarchyshnik Andrei",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-32",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"inverted",
+        "_layout":"right",
+        "title":"Kas lemia atvirų duomenų tvarumą?",
+        "displayTitle":"Kas lemia atvirų duomenų tvarumą?",
+        "body":"<h5>Tvarus atvirųjų duomenų rinkinys remiasi:</h5><ul class='ticks'><li><b>užtikrintu finansavimu,</b>kad būtų padengtos atnaujinimų išlaidos;</li><li><b>didele leidėjų parama</b>visų pirma skirta naujinimams;</li><li><b>plačiu kitų asmenų pakartotiniu naudojimu,</b>siekiant parodyti vertę.</li></ul>"
+    },
+     {
+        "_id": "c-31",
+        "_parentId": "b-30",
+        "_classes": "inverted",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Kaip sukurti tvarius duomenis",
+        "displayTitle": "Kaip sukurti tvarius duomenis",
+        "body": "Kokie veiksniai padeda sukurti atvirųjų duomenų rinkinį tvariu?",
+        "instruction": "<em>Paspausk rodyklę, jei nori pamatyti daugiau</em>",
+        "_items": [
+            {
+                "title": "Užtikrintas atvirųjų duomenų finansavimas.",
+                "body": "Vien dėl to, kad duomenų rinkinys gali būti laisvai naudojamas, nereiškia, kad nėra duomenų rinkimo arba išleidimo išlaidų. Finansavimas gali būti užtikrintas:</h5><ul class='bullet'><li>imant mokestį už prieigą arba pagerintas pasaugas;</li><li>gaunant lėšas iš kito šaltinio, remiančio atvirųjų duomenų skelbimą;</li><li>supažindinant organizaciją su nuolatine atvirųjų duomenų teikiama nauda.</li></ul>",
+                "_graphic": {
+                    "src": "course/en/images/odi-002.jpg",
+                    "alt": "Užtikrintas finansavimas",
+                    "title": "Užtikrintas finansavimas",
+                    "*source":"http://www.shutterstock.com/pic.mhtml?id=272132873&src=id",
+                    "*credit":"Jiunn",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Užtikrintas finansavimas"
+            },
+            {
+                "title": "Didelė parama atviriesiems duomenims",
+                "body": "<p>Norint organizacijoje atviruosius duomenis paversti tvariais paprastai reikia teikti jiems pirmenybę bei gauti organizacijos vadovybės ir už kokybės palaikymą atsakingo personalo paramą.</p><p>Dažniausiai didelę paramą gauna ta įmonė, kuri yra įsipareigojusi naudoti atviruosius duomenis savo kasdienėje veikloje.",
+                "_graphic": {
+                    "src": "course/en/images/odi-003.jpg",
+                    "alt": "Didelis palaikymas",
+                    "title": "Didelis palaikymas",
+                    "*source":"http://www.shutterstock.com/pic.mhtml?id=239488546&src=id",
+                    "*credit":"GiDesign",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Didelis palaikymas"
+            },
+            {
+                "title": "Platus atvirųjų duomenų pakartotinis naudojimas",
+                "body": "<p class='not-dlab'>Tvarus pakartotinis naudojimas pasiekiamas, kai remiantis tokiais duomenimis sukurtos paslaugos tampa labai svarbios leidėjo įmonės sėkmei. Berlyno transporto sistemos „Verkehrsverbund Berlin-Brandenburg“ duomenų rinkiniais naudojasi milijonai žmonių, kai duomenys patenka į tokias transporto programėles kaip „Citymapper“. Šios programėlės naudojasi VBB paslaugomis ir todėl VBB įsipareigoja savo skaitmeninėje strategijoje nuolat atnaujinti duomenis.<br /><a href='https://citymapper.com/berlin' target='_blank'>Eiti į „Citymapper Berlin“ svetainę.</a></p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-004.jpg",
+                    "alt": "Pakartotinis naudojimas",
+                    "title": "Pakartotinis naudojimas",
+                    "*source":"http://www.shutterstock.com/pic-144050605",
+                    "*credit":"graphego",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Pakartotinis naudojimas"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+ {
+        "_id": "c-41",
+        "_parentId": "b-40",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Kodėl jums rūpi tvarumas?",
+        "displayTitle": "Kodėl jums rūpi tvarumas?",
+        "body": "Kodėl man turėtų rūpėti, ar atvirieji duomenys, su kuriais dirbu, yra tvarūs?",
+        "instruction": "<em>Paspausk rodyklę, jei nori pamatyti daugiau</em>",
+        "_items": [
+            {
+                "title": "Tvirtas pagrindas",
+                "body": "Tvarumas reikalingas ne tik naudotojams.Leidėjui tvari atvirųjų duomenų programa taip pat naudinga, nes:</h5><ul class='bullet'><li>padidėja bendruomenės pasitikėjimas leidėjo organizacija;</li><li>remiamas naujų produktų ir paslaugų kūrimas;</li><li>leidėjams supaprastinamas pakartotinis jų pačių duomenų naudojimas.</li></ul>",
+                "_graphic": {
+                    "src": "course/en/images/odi-005.jpg",
+                    "alt": "Tvirtas pagrindas",
+                    "title": "Tvirtas pagrindas",
+                    "*source":"http://www.shutterstock.com/pic.mhtml?id=271074140&src=id",
+                    "*credit":"Saibarakova Ilona",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Tvirtas pagrindas"
+            },
+            {
+                "title": "Padidėjęs pasitikėjimas",
+                "body": "Tvarūs atvirieji duomenys leidžia didelei bendruomenei kurti ir analizuoti duomenis, kad būtų galima daryti išvadas, dažnai pritariant leidėjo nuomonei.",
+                "_graphic": {
+                    "src": "course/en/images/odi-006.jpg",
+                    "alt": "Padidėjęs pasitikėjimas",
+                    "title": "Padidėjęs pasitikėjimas",
+                    "*source":"http://www.shutterstock.com/pic.mhtml?id=246120358&src=lb-36497927",
+                    "*credit":"Arthimedes",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Naudinga naudotojams"
+            },
+            {
+                "title": "Nauji verslo ryšiai",
+                "body": "Tvarūs atvirieji duomenys leidžia atrasti naujų klientų ir taip kitos įmonės gali remtis leidėjo duomenimis. Daugeliu atvejų šios įmonės teikia tiesioginę naudą leidėjui..",
+                "_graphic": {
+                    "src": "course/en/images/odi-007.jpg",
+                    "alt": "Nauji verslo ryšiai",
+                    "title": "Nauji verslo ryšiai",
+                    "*source":"http://www.shutterstock.com/pic.mhtml?id=119824141&src=id",
+                    "*credit":"Palau",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Naudinga verslui"
+            },
+            {
+                "title": "Duomenų naudojimo pagerinimas",
+                "body": "Vienas dažniausių leidėjo duomenų pakartotinių naudotojų gali būti ir leidėjas. Kodėl reiktų atskirti viešą duomenų išleidimą nuo vidinio duomenų naudojimo?",
+                "_graphic": {
+                    "src": "course/en/images/odi-008.jpg",
+                    "alt": "Duomenų naudojimo pagerinimas",
+                    "title": "Duomenų naudojimo pagerinimas",
+                    "*source":"http://www.shutterstock.com/pic.mhtml?id=165242216&src=id",
+                    "*credit":"LovArt",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Nauda atverėjams"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+ {
+        "_id":"c-52",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Tvarumo užuominų paieška",
+            "title": "Tvarumo užuominų paieška",
+            "large": "course/en/images/odi-009.png",
+            "medium": "course/en/images/odi-009.png",
+            "small": "course/en/images/odi-009.png",
+            "*source":"http://www.shutterstock.com/pic-217749400",
+            "*credit":"robuart",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+      "_id":"c-51",
+      "_parentId":"b-50",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"left",
+      "title": "Tvarumo užuominų paieška",
+      "displayTitle": "Tvarumo užuominų paieška",
+      "body": "Tvarus išleidimas derina užtikrintą finansavimą, didelę paramą ir platų pakartotinį naudojimą. Šie požymiai ne visada akivaizdūs, kai pirmą kartą susiduriate su duomenų rinkiniu. Paklauskite savęs toliau nurodytų dalykų, kurie padės surasti gerus šaltinius:",
+      "instruction": "<em>Paspausk ant antraštės, jei nori pamatyti daugiau</em>",
+      "_items": [
+        {
+          "alt": "Kas yra duomenų šaltinis?",
+          "title": "Kas yra duomenų šaltinis?",
+          "body": "<p>Įsitikinkite, kas išleido duomenis ir ar pasitikite jų įsipareigojimu nuolat duomenis atnaujinti.<br><br>Vienas svarbiausių tvarumo rodiklių yra tai, kaip užtikrintai pasitikite organizacija, kuri renka duomenis.<br><br>Jeigu duomenys yra iš viešojo sektoriaus, ar gali būti, kad rinkimai ar prioriteto pasikeitimas paveiks duomenų atvirą išleidimą?</p>"
+        },
+        {
+          "alt": "Kas finansuoja duomenų atvėrimą?",
+          "title": "Kas finansuoja duomenų atvėrimą?",
+          "body": "<p>Nemokamai pasiekiami duomenys gali atrodyi idealūs, tačiau svarbu įsitikinti- kaip leidėjas finansuoja jų tvarią leidybą?<br><br>Įsitikinkite, ar duomenys išleidžiami dėl skaidrumo poreikio, ar paklausą skatina didesnė nauda.<br><br>Pasistenkite išsiaiškinti, ar yra speciali trumpalaikė programa, kuria finansuojamas duomenų prieinamumas, ir ar išleidimas yra organizacijos pagrindinės strategijos dalis.</p>"
+        },
+        {
+          "alt": "Apie ką galima spręsti iš licencijos?",
+          "title": "Apie ką galima spręsti iš licencijos?",
+          "body": "<p>Licencijose taip pat galima rasti informacijos apie duomenų tvarumą.<br><br>Žiūrėdami į licenciją paklauskite savęs, ką tekstas gali nurodyti apie duomenų rinkinio ateitį ir leidėjo pasitikėjimą juo? Ar jame numatytas įsipareigojimas nuolat jį atnaujinti?<br><br>Atminkite, kad neturint licencijos duomenys nėra išties atviri. Atminkite, kad neturint licencijos duomenys nėra išties atviri.</p>"
+        },
+        {
+          "alt": "Kas jau naudojasi duomenimis?",
+          "title": "Kas jau naudojasi duomenimis?",
+          "body": "<p>Kuo plačiau naudojamas duomenų rinkinys, tuo svarbesnis jo tvarumas.<br><br>Pasidomėkite, kas kitas naudojasi šiuo duomenų rinkiniu ir kokiais tikslais.<br><br>Pabandykite išsiaiškinti, ar duomenų rinkiniu naudojasi pats leidėjas?<br><br>Abu aspektai rodo, ar leidėjas rūpinasi duomenų rinkiniu ir patiria išorės spaudimą nepanaikinti prieigos prie jo ar nepakeisti jo dėl savo tikslų.</p>"
+        },
+        {
+          "alt": "Kas yra atvėrimo istorija?",
+          "title": "Kas yra atvėrimo istorija?",
+          "body": "<p>Atvirųjų duomenų tvarumo vertinimas galiausiai priklauso nuo to, kiek pasitikėsite jų leidėju.<br><br>Išsiaiškinkite, kiek laiko duomenų rinkinys buvo skelbtas. Ilga naujinimų istorija yra geras ženklas, tačiau nepamirškite išorinių veiksnių, tokių kaip projekto trukmė ir pradžia.Pagrindinis tvarios iniciatyvos rodiklis apima daugiau nei minėti išoriniai veiksniai.</p>"
+        },
+        {
+          "alt": "Kaip galiu prisidėti?",
+          "title": "Kaip galiu prisidėti?",
+          "body": "<p>Jeigu naudositės duomenų rinkiniu pats, prisidėsite prie didesnės paklausos ir jo tvarumo.<br><br>Pagalvokite apie prisijungimą prie kurių nors iš duomenų rinkiniu besinaudojančių bendruomenių.<br><br>Pabandykite išsiaiškinti, ar leidėjas atlieka aktyvų vaidmenį šiose bendruomenėse ir ar jos teikia grįžtamąjį ryšį, kad pagerintų paslaugas.<br><br>Paklauskite savęs, kuo galite prisidėti, kad būtų sustiprintas duomenų leidėjo užtikrinamas tvarumas.</p>"
+        }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-42",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/burst.png",
+            "medium": "course/en/images/burst.png",
+            "small": "course/en/images/burst.png"
+        }
+    },
+    {
+        "_id":"c-43",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Ar esate pasiruošę užtikrinti atvirų duomenų tvarumą?",
+        "displayTitle":"Ar esate pasiruošę užtikrinti atvirų duomenų tvarumą?",
+        "body":"<p>Apie tvarius atviruosius duomenis verta atsiminti du naudingus dalykus.</p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-61",
+        "_parentId":"b-60",
+        "_type":"component",
+        "_component":"gmcq",
+        "_adapt2id":"58905530b61c46e176e7eb16",
+        "_classes":"",
+        "_layout":"full",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Kas daro įtaką tvarumui?",
+        "displayTitle": "Kas daro įtaką tvarumui?",
+        "body": "Kuris iš toliau nurodytų dalykų neturi įtakos atvirųjų duomenų rinkinio tvarumui?",
+        "instruction": "<em>Pasirink teisingą atsakymą ir spausk ‘submit’</em>",
+        "_items": [
+            {
+                "text": "Užtikrintas finansavimas",
+                "_shouldBeSelected":false,
+                "_graphic": {
+                    "alt": "Secure funding",
+                    "title": "",
+                    "large": "course/en/images/odi-010.jpg",
+                    "medium": "course/en/images/odi-010.jpg",
+                    "small": "course/en/images/odi-010.jpg",
+                    "*source":"http://www.shutterstock.com/pic.mhtml?id=272132873&src=id",
+                    "*credit":"Jiunn",
+                    "*license":"Shutterstock Standard License"
+                }
+            },
+            {
+                "text": "Didelė failo apimtis",
+                "_shouldBeSelected":true,
+                "_graphic": {
+                    "alt": "Large filesize",
+                    "title": "Large filesize",
+                    "large": "course/en/images/file.png",
+                    "medium": "course/en/images/file.png",
+                    "small": "course/en/images/file.png",
+                    "*source":"https://farm3.staticflickr.com/2712/4485684994_b92ca0b0b3_b.jpg",
+                    "*credit":"Dave Matos",
+                    "*license":"CC BY-SA 2.0"
+                }
+            },
+            {
+                "text": "Didelis palaikymas",
+                "_shouldBeSelected":false,
+                "_graphic": {
+                    "alt": "Active support",
+                    "title": "",
+                    "large": "course/en/images/odi-011.jpg",
+                    "medium": "course/en/images/odi-011.jpg",
+                    "small": "course/en/images/odi-011.jpg",
+                    "*source":"http://www.shutterstock.com/pic.mhtml?id=239488546&src=id",
+                    "*credit":"GiDesign",
+                    "*license":"Shutterstock Standard License"
+                }
+            },
+            {
+                "text": "Platus pakartotinis naudojimas.",
+                "_shouldBeSelected":false,
+                "_graphic": {
+                    "alt": "Wide reuse",
+                    "title": "",
+                    "large": "course/en/images/odi-012.jpg",
+                    "medium": "course/en/images/odi-012.jpg",
+                    "small": "course/en/images/odi-012.jpg",
+                    "*source":"http://www.shutterstock.com/pic-144050605",
+                    "*credit":"graphego",
+                    "*license":"Shutterstock Standard License"
+                }
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Teisingai!</h5><p>Didelė failo apimtis nėra duomenų tvarumo veiksnys. Svarbiausia yra užtikrintas finansavimo šaltinis, didelis leidėjo palaikymas ir platus pakartotinis naudojimas, siekiant, kad duomenys kurtų vertę.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Ar tikrai?</h5><p>Didelė failo apimtis nėra duomenų tvarumo veiksnys. Svarbiausia yra užtikrintas finansavimo šaltinis, didelis leidėjo palaikymas ir platus pakartotinis naudojimas, siekiant, kad duomenys kurtų vertę.</p>",
+                "final": "<h5>Ar tikrai?</h5><p>Didelė failo apimtis nėra duomenų tvarumo veiksnys. Svarbiausia yra užtikrintas finansavimo šaltinis, didelis leidėjo palaikymas ir platus pakartotinis naudojimas, siekiant, kad duomenys kurtų vertę.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Ar tikrai?</h5><p>Didelė failo apimtis nėra duomenų tvarumo veiksnys. Svarbiausia yra užtikrintas finansavimo šaltinis, didelis leidėjo palaikymas ir platus pakartotinis naudojimas, siekiant, kad duomenys kurtų vertę.</p>",
+                "final": "<h5>Ar tikrai?</h5><p>Didelė failo apimtis nėra duomenų tvarumo veiksnys. Svarbiausia yra užtikrintas finansavimo šaltinis, didelis leidėjo palaikymas ir platus pakartotinis naudojimas, siekiant, kad duomenys kurtų vertę.</p>"
+            }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+          "_isEnabled": true
+        }
+    },
+{
+        "_id":"c-71",
+        "_parentId":"b-70",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Užtikrintas finansavimas",
+            "title": "",
+            "large": "course/en/images/odi-013.jpg",
+            "medium": "course/en/images/odi-013.jpg",
+            "small": "course/en/images/odi-013.jpg",
+            "*source":"http://www.shutterstock.com/pic.mhtml?id=272132873&src=id",
+            "*credit":"Jiunn",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-72",
+        "_parentId":"b-70",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"589056d1b61c46e176e7eb22",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":3,
+        "title": "Ko reikėtų ieškoti vertinant tvarumą?",
+        "displayTitle": "Ko reikėtų ieškoti vertinant tvarumą?",
+        "body": "<p>Ko reikėtų ieškoti vertinant atvirų duomenų rinkinio tvarumą?</p>",
+        "instruction": "<em>Pasirink teisingą atsakymą ir spausk ‘submit’</em>",
+        "_items": [
+            {
+                "text": "Kokia duomenų skelbimo istorija?",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "Kiek viskas kainuoja?",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Kas jau naudojasi duomenimis?",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "Kokiu formatu duomenys yra pateikiami?",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Kas finansuoja duomenų išleidimą?",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Teisingai!</h5><p>Kokia duomenų skelbimo istorija, kas naudojasi duomenimis ir kaip už juos mokama – tai svarbiausi klausimai, kurių reikia paklausti, norint nustatyti duomenų rinkinio tvarumą.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Ar tikrai?</h5><p>Kokia duomenų skelbimo istorija, kas naudojasi duomenimis ir kaip už juos mokama – tai svarbiausi klausimai, kurių reikia paklausti, norint nustatyti duomenų rinkinio tvarumą.</p>",
+                "final": "<h5>Ar tikrai?</h5><p>Kokia duomenų skelbimo istorija, kas naudojasi duomenimis ir kaip už juos mokama – tai svarbiausi klausimai, kurių reikia paklausti, norint nustatyti duomenų rinkinio tvarumą.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Ar tikrai?</h5><p>Kokia duomenų skelbimo istorija, kas naudojasi duomenimis ir kaip už juos mokama – tai svarbiausi klausimai, kurių reikia paklausti, norint nustatyti duomenų rinkinio tvarumą.</p>",
+                "final": "<h5>Ar tikrai?</h5><p>Kokia duomenų skelbimo istorija, kas naudojasi duomenimis ir kaip už juos mokama – tai svarbiausi klausimai, kurių reikia paklausti, norint nustatyti duomenų rinkinio tvarumą.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-112",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Summary icon clipboard",
+            "title": "Summary icon clipboard",
+            "large": "course/en/images/summary-icon.png",
+            "medium": "course/en/images/summary-icon.png",
+            "small": "course/en/images/summary-icon.png",
+            "*source":"http://www.shutterstock.com/pic-189810137.html",
+            "*credit":"Kritchanut",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-111",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Tvarūs atvirieji duomenys",
+        "displayTitle":"Tvarūs atvirieji duomenys",
+        "body":"<p>Ieškant tvarių atvirųjų duomenų šaltinių svarbu, kad jie būtų aktualūs, nuolat atnaujinami ir prieinami.</p><p>Tvari programa nuolat skelbia duomenis palaikydama bent jau tokią pačią arba geresnę kokybę.</p><p>Naudojant minėtus paprastus rodiklius galima rasti tvarius atvirųjų duomenų šaltinius, kurie gali būti naudojami jūsų būsimame darbe.</p><p><a class='course_link' href='../module8/'>Kitas modulis</a></p><p><a class='course_link' href='../'>Pagrindinis meniu</a></p>",
+        "_pageLevelProgress": {
+          "_isEnabled": true
+        }
+    },
+    {
+       "_id":"c-113",
+       "_parentId":"b-110",
+       "_type":"component",
+       "_component":"text",
+       "_classes":"separator",
+       "_layout":"full"
+    },
+    {
+       "_id":"c-1111",
+       "_parentId":"b-110",
+       "_type":"component",
+       "_component":"text",
+       "_classes": "attribution",
+       "body":"&copy; <a href='https://ec.europa.eu/commission/index_en' target='_blank'>European Commission</a>",
+       "_layout":"full"
+    },
+    {
+        "_id":"c-100",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"footer-logo",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Open data institute logo",
+            "title": "Open data institute logo",
+            "large": "course/en/images/logo-small.png",
+            "medium": "course/en/images/logo-small.png",
+            "small": "course/en/images/logo-small.png",
+            "*source":"http://theodi.org",
+            "*credit":"The Open Data Institute",
+            "*license":"All rights reserved"  
+    }
+    },
+    {
+        "_id":"c-104",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"attribution not-eu not-default",
+        "_layout":"right",
+        "body":"Content created by <a href='http://theodi.org' target='_blank'>The Open Data Institute</a>"
+    },
+    {
+        "_id":"c-105",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"social-buttons not-dlab",
+        "_layout":"right",
+        "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/en/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/en/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/en/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/en/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/en/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/en/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/en/images/social/flickr.png'></a>"
+    }
+]
