@@ -50,8 +50,8 @@
         "_setCompletionOn":"ended",
         "_source": "https://player.vimeo.com/video/129197208",
         "_media": {
-		"mp4": "course/en/video/video.mp4",
-		"poster": "course/en/video/placeholder.jpg"
+		"mp4": "course/lt/video/video.mp4",
+		"poster": "course/lt/video/placeholder.jpg"
 	},
         "_height": {
             "_small" : 250,
@@ -69,9 +69,9 @@
         "_graphic": {
             "alt": "The tip of the iceberg",
             "title": "The tip of the iceberg",
-            "large": "course/en/images/odi-001.jpg",
-            "medium": "course/en/images/odi-001.jpg",
-            "small": "course/en/images/odi-001.jpg",
+            "large": "course/lt/images/odi-001.jpg",
+            "medium": "course/lt/images/odi-001.jpg",
+            "small": "course/lt/images/odi-001.jpg",
             "*source": "http://www.shutterstock.com/pic-278213858.html",
             "*credit": "Lightspring",
             "*licence": "Shutterstock standard license"
@@ -104,7 +104,7 @@
                 "title": "Kodėl duomenys slepiami?",
                 "body": "<p>Perėjimas prie duomenimis grindžiamo, mobiliuoju ryšiu pasiekiamo žiniatinklio lėmė pasikeitimus svetainės sandaroje. Norėdami patenkinti interaktyvių, vaizdinių svetainių naudotojų lūkesčius kūrėjai vis dažniau pateikia duomenis atskirame „sluoksnyje“ arba netgi pačiame kode. Šis duomenų sluoksnis dažnai prieinamas žmonėms, kurie naudojasi tinkamais įrankiais.</p>",
                 "_graphic": {
-                    "src": "course/en/images/odi-002.jpg",
+                    "src": "course/lt/images/odi-002.jpg",
                     "alt": "Readiness",
                     "title": "Readiness",
                     "*source": "http://www.shutterstock.com/pic-145267489",
@@ -117,7 +117,7 @@
                 "title": "Duomenys slepiasi visur",
                 "body": "<p>Nuo „Vikipedijos“ puslapių iki atostogų planuotojų, nuo mados svetainių iki energijos tiekėjų – žiniatinklis pilnas duomenų šaltinių.</p><p>Šiems paslėptiems duomenims skirtos licencijos ne visada yra aiškios. Vien dėl to, kad duomenys yra mašinų perskaitomi viešai pasiekiamoje svetainėje, nereiškia, kad jie yra atvirieji duomenys. Jei abejojate, ar paslėpti duomenys yra atvirai prieinami, pasitikslinkite su svetainės savininku.</p>",
                 "_graphic": {
-                    "src": "course/en/images/odi-003.jpg",
+                    "src": "course/lt/images/odi-003.jpg",
                     "alt": "Implementation",
                     "title": "Implementation",
                     "*source": "http://www.shutterstock.com/pic-144137602",
@@ -130,7 +130,7 @@
                 "title": "Kokio tipo duomenys laikomi paslėptais?",
                 "body": "<p>Paslėpti duomenys atrodo visai kitaip nei atvirųjų duomenų rinkinys, kurį atsisiunčiate iš svetainės.</p><p>Mašinų perskaitomi duomenys žiniatinklyje bus pateikti tokiais formatais kaip JSON (dažniausiai pasitaikantis ir paprastai naudojamas), kurie įterpiami į HTML, XML, o kartais ir RDF.</p><p>Pabandykite atlikti toliau šiame modulyje pateiktus pratimus ir išsiaiškinsite, ar galite išskleisti minėtais formatais pateiktus duomenis.</p>",
                 "_graphic": {
-                    "src": "course/en/images/odi-004.jpg",
+                    "src": "course/lt/images/odi-004.jpg",
                     "alt": "Impact",
                     "title": "Impact",
                     "*source": "http://www.shutterstock.com/pic-79079872",
@@ -154,9 +154,9 @@
         "_graphic": {
             "alt": "Paslėptų duomenų nauda",
             "title": "Paslėptų duomenų nauda",
-            "large": "course/en/images/odi-005.jpg",
-            "medium": "course/en/images/odi-005.jpg",
-            "small": "course/en/images/odi-005.jpg",
+            "large": "course/lt/images/odi-005.jpg",
+            "medium": "course/lt/images/odi-005.jpg",
+            "small": "course/lt/images/odi-005.jpg",
             "*source": "http://www.shutterstock.com/pic-203736538",
             "*credit": "Digital Storm",
             "*licence": "Shutterstock standard license"
@@ -214,7 +214,7 @@
                 "title": "Plėtinių atsisiuntimai",
                 "body": "<p>Kai kurios svetainės buvo sukurtos, kad būtų galima rasti būdą, kaip išskleisti duomenis pridedant plėtinį prie jūsų peržiūrimos svetainės URL. Tokioms svetainėms, kurias paprastai prižiūri organizacijos, skelbiančios atsisiunčiamus atviruosius duomenis, pridėjus teisingą plėtinį pradedamas to puslapio atsisiuntimas duomenų, o ne naršyklės formatu.</p><p>Geras pavyzdys yra Jungtinės Karalystės (JK) vyriausybės svetainė (gov.uk), kurioje pateikiamas bet koks puslapis duomenų formatu tiesiog pridedant atitinkamą plėtinį, tokį kaip „.json“, pavyzdžiui, www.gov.uk/browse/business.json.</p><p>Išbandykite, kaip tai veikia, su JK prekybos duomenimis, peržiūrėdami šį puslapį ir tada pridėdami „.json“, kad gautumėte duomenis.<br /><a href='https://www.gov.uk/trade-tariff/sections' target='_blank'>Eiti į JK vyriausybės prekybos tarifų duomenų svetainę.</a></p><p>Norėdami peržiūrėti duomenis lengviau perskaitoma forma, nukopijuokite juos į jsonlint.com.</p>",
                 "_graphic": {
-                    "src": "course/en/images/odi-006.jpg",
+                    "src": "course/lt/images/odi-006.jpg",
                     "alt": "Extensions",
                     "title": "Extensions",
                     "*source": "http://www.shutterstock.com/pic-119236978",
@@ -227,7 +227,7 @@
                 "title": "Duomenų kanalai",
                 "body": "<p>Daugelis svetainių pateikia nuorodas į duomenų sinchronizavimo kanalus, kuriuos galima užsisakyti.</p><p>Šie kanalai gali būti RSS kanalai, „Twitter“ įspėjamieji kanalai arba kitų rečiau pasitaikančių rūšių. Kanalais gali būti naudojamasi siekiant gauti neapdorotus duomenis apie platų turinio pasirinkimą.</p><p>Neapdorotų duomenų kanalo pavyzdys būtų BBC naujienų kanalas XML formatu.<br /><a href='http://feeds.bbci.co.uk/news/rss.xml' target='_blank'>Kodėl neišbandžius BBC XML formatu pateikiamų naujienų kanalų?</a></p><p>Dabar galite naudotis nemokamu internetiniu įrankiu, kad būtų lengviau naudoti duomenis.<br/><a href='http://codebeautify.org/xmlviewer' target='_blank'> Užeikite į „codebeautify“ ir įveskite BBC kanalo URL pasirinkę „Load URL“.</a></p><p class='not-dlab'>Arba gaukite įspėjamuosius pranešimus dėl potvynio, jei patvino šalia jūsų esanti upė (tik JK).<br /><a href='http://www.gaugemap.co.uk/' target='_blank'>Eiti į upių lygio matuoklį.</a></p>",
                 "_graphic": {
-                    "src": "course/en/images/odi-007.jpg",
+                    "src": "course/lt/images/odi-007.jpg",
                     "alt": "Duomenų kanalai",
                     "title": "Duomenų kanalai",
                     "*source": "http://www.shutterstock.com/pic-72158482",
@@ -240,7 +240,7 @@
                 "title": "Šaltinio kodas",
                 "body": "<p>Daugelis svetainių ne tik pateikia paprastą maršrutą duomenims pasiekti – jos taip pat turi duomenų, įterptų į žiniatinklio šaltinio kodą.</p><p>Kodėl neišbandžius ODI eksperimentinio įrankio „Hidden Data Extractor“, kad rastumėte šaltinio kodą?<br><br><a href='http://odinprac.theodi.org/hidden-data-extractor/' target='_blank'>Eiti į ODI „Hidden Data Extractor“.</a></p>",
                 "_graphic": {
-                    "src": "course/en/images/odi-008.jpg",
+                    "src": "course/lt/images/odi-008.jpg",
                     "alt": "Šaltinio kodas",
                     "title": "Šaltinio kodas",
                     "*source": "http://www.shutterstock.com/pic-119236978",
@@ -253,7 +253,7 @@
                 "title": "Aplikacijų programavimo sąsaja (angl. „Application Programming Interface“, API) arba mašinų perskaitomos sąsajos",
                 "body": "<p>Kai kuriose svetainėse arba žiniatinklio paslaugose bus sukurta mašinų perskaitoma sąsaja arba API, skirta duomenims pasiekti ir užklausoms pateikti.</p><p>API turinčių paslaugų pavyzdžiai būtų tokie:<a href='https://api.opencorporates.com/' target='_blank'>Open Corporates</a> (atviras), <a href='http://wiki.openstreetmap.org/wiki/API' target='_blank'>OpenSteetMap</a> (atviras), <a href='https://dev.twitter.com/rest/public' target='_blank'>Twitter</a> (ne visiškai atviras), <a href='https://www.flickr.com/services/api/' target='_blank'>Flickr</a> (iš dalies atviras), <a href='https://developer.linkedin.com/docs/rest-api' target='_blank'>LinkedIn</a> (ne atviras).</p><p>Dauguma šių paslaugų naudoja internetinę API ir leidžia plėtinių pridėjimą (pabandykite „.json“ plėtinį su „OpenCorporates“). Nors ši API atrodo tokia pati kaip ir ankstesniame šio skyriaus pavyzdyje, oficialus API statusas užtikrina, kad paslauga bus prieinama.</p>",
                 "_graphic": {
-                    "src": "course/en/images/odi-009.jpg",
+                    "src": "course/lt/images/odi-009.jpg",
                     "alt": "APIs",
                     "title": "APIs",
                     "*source": "http://www.shutterstock.com/pic-231102415",
@@ -266,7 +266,7 @@
                 "title": "Duomenų ištraukimas iš interneto (scraping)",
                 "body": "<p>Jeigu nei viena iš minėtų technikų neveikia, gali tekti ištraukti duomenis iš žmogaus perskaitomų svetainių. Nors šis veiksmas gali būti patikimas, kyla rizika, kad pasikeis maketas ir turinys.</p><p>Išbandykite <a href='http://magic.import.io' target='_blank'>magic.import.io</a> - tai paprasta</p>",
                 "_graphic": {
-                    "src": "course/en/images/odi-010.jpg",
+                    "src": "course/lt/images/odi-010.jpg",
                     "alt": "Scraping the web",
                     "title": "Scraping the web",
                     "*source": "http://www.shutterstock.com/pic-231672367",
@@ -293,9 +293,9 @@
         "_graphic": {
             "alt": "",
             "title": "",
-            "large": "course/en/images/burst.png",
-            "medium": "course/en/images/burst.png",
-            "small": "course/en/images/burst.png"
+            "large": "course/lt/images/burst.png",
+            "medium": "course/lt/images/burst.png",
+            "small": "course/lt/images/burst.png"
         }
     },
     {
@@ -323,9 +323,9 @@
         "_graphic": {
             "alt": "Tip of the iceberg",
             "title": "Tip of the iceberg",
-            "large": "course/en/images/odi-011.jpg",
-            "medium": "course/en/images/odi-011.jpg",
-            "small": "course/en/images/odi-011.jpg",
+            "large": "course/lt/images/odi-011.jpg",
+            "medium": "course/lt/images/odi-011.jpg",
+            "small": "course/lt/images/odi-011.jpg",
             "*source": "http://www.shutterstock.com/pic-278213858.html",
             "*credit": "Lightspring",
             "*licence": "Shutterstock standard license"
@@ -392,9 +392,9 @@
         "_graphic": {
             "alt": "Impact",
             "title": "",
-            "large": "course/en/images/odi-012.jpg",
-            "medium": "course/en/images/odi-012.jpg",
-            "small": "course/en/images/odi-012.jpg",
+            "large": "course/lt/images/odi-012.jpg",
+            "medium": "course/lt/images/odi-012.jpg",
+            "small": "course/lt/images/odi-012.jpg",
             "*source": "http://www.shutterstock.com/pic-79079872",
             "*credit": "Angela Waye",
             "*licence": "Shutterstock standard license"
@@ -461,9 +461,9 @@
         "_graphic": {
             "alt": "Paslėptų duomenų nauda",
             "title": "",
-            "large": "course/en/images/odi-013.jpg",
-            "medium": "course/en/images/odi-013.jpg",
-            "small": "course/en/images/odi-013.jpg",
+            "large": "course/lt/images/odi-013.jpg",
+            "medium": "course/lt/images/odi-013.jpg",
+            "small": "course/lt/images/odi-013.jpg",
             "*source": "http://www.shutterstock.com/pic-203736538",
             "*credit": "Digital Storm",
             "*licence": "Shutterstock standard license"
@@ -538,9 +538,9 @@
         "_graphic": {
             "alt": "Source code",
             "title": "",
-            "large": "course/en/images/odi-014.jpg",
-            "medium": "course/en/images/odi-014.jpg",
-            "small": "course/en/images/odi-014.jpg",
+            "large": "course/lt/images/odi-014.jpg",
+            "medium": "course/lt/images/odi-014.jpg",
+            "small": "course/lt/images/odi-014.jpg",
             "*source": "http://www.shutterstock.com/pic-119236978",
             "*credit": "spaxiax",
             "*licence": "Shutterstock standard license"
@@ -607,9 +607,9 @@
         "_graphic": {
             "alt": "Summary icon clipboard",
             "title": "Summary icon clipboard",
-            "large": "course/en/images/summary-icon.png",
-            "medium": "course/en/images/summary-icon.png",
-            "small": "course/en/images/summary-icon.png",
+            "large": "course/lt/images/summary-icon.png",
+            "medium": "course/lt/images/summary-icon.png",
+            "small": "course/lt/images/summary-icon.png",
             "*source":"http://www.shutterstock.com/pic-189810137.html",
             "*credit":"Kritchanut",
             "*license":"Shutterstock Standard License"
@@ -656,9 +656,9 @@
         "_graphic": {
             "alt": "Open data institute logo",
             "title": "Open data institute logo",
-            "large": "course/en/images/logo-small.png",
-            "medium": "course/en/images/logo-small.png",
-            "small": "course/en/images/logo-small.png",
+            "large": "course/lt/images/logo-small.png",
+            "medium": "course/lt/images/logo-small.png",
+            "small": "course/lt/images/logo-small.png",
             "*source":"http://theodi.org",
             "*credit":"The Open Data Institute",
             "*license":"All rights reserved"  
@@ -680,6 +680,6 @@
         "_component":"text",
         "_classes":"social-buttons not-dlab",
         "_layout":"right",
-        "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/en/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/en/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/en/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/en/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/en/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/en/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/en/images/social/flickr.png'></a>"
+        "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/lt/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/lt/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/lt/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/lt/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/lt/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/lt/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/lt/images/social/flickr.png'></a>"
     }
 ]
