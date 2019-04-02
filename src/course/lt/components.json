@@ -1,0 +1,640 @@
+[
+    {
+        "_id":"c-01",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"intro-logo",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "",
+            "medium": "",
+            "small": "",
+            "*source":"",
+            "*credit":"",
+            "*license":""
+        }
+    },
+    {
+        "_id":"c-02",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Kas yra atviri duomenys?",
+        "displayTitle":"Kas yra atviri duomenys?",
+        "body":"<p>Atviri duomenys- tai <strong>duomenys</strong> kurie <strong>yra viešai prieinami</strong> kuriuos bet kas gali<strong>naudoti ir platinti</strong>. Viešasis sektorius, verslai ir visuomenė gali naudoti atvirus duomenis įvariems tikslams. </p><h5>Šiame modulyje:</h5><ul class='ticks'><li>Kas yra atviri duomenys?</li><li>Kas yra duomenys?</li><li>Kas padaro duomenis atvirais? </li><li>Kokia yra atvirų duomenų nauda? </li></ul>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+    "_id":"c-11",
+    "_parentId":"b-10",
+    "_type":"component",
+    "_component":"iFrame-vimeo",
+    "_classes":"",
+    "_layout":"full",
+        "title":"Atviri duomenys per 2 minutes ",
+        "displayTitle": "Atviri duomenys per 2 minutes ",
+        "body": "Dr. Davidas Tarantas (ODI) kalba apie tai, kas yra duomenys, kas juos padaro atvirais ir kodėl atviri duomenys yra reikalingi.",
+        "instruction": "Norint įjungti subtitrus, paskausk 'cc' mygtuką video apačioje, dešinėje pusėje.",
+        "_setCompletionOn":"ended",
+        "_source": "https://player.vimeo.com/video/129196637",
+	"_media": {
+		"mp4": "course/lt/video/video.mp4",
+		"poster": "course/lt/video/placeholder.jpg"
+	},
+        "_height": {
+            "_small" : 250,
+            "_medium" : 350,
+            "_large" : 508
+        }
+    },
+    {
+        "_id":"c-21",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Kas yra atviri duomenys?",
+            "title": "Kas yra atviri duomenys?",
+            "large": "course/lt/images/odi-1-text-image_large.jpg",
+            "medium": "course/lt/images/odi-1-text-image_large.jpg",
+            "small": "course/lt/images/odi-1-text-image_large.jpg",
+            "*source":"http://www.shutterstock.com/pic.mhtml?id=179384507&src=lb-35924366",
+            "*credit":"leromin",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-22",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Kas yra atviri duomenys?",
+        "displayTitle":"Kas yra atviri duomenys?",
+        "body":"<p>Atviri duomenys- tai <strong>duomenys</strong> kurie <strong>yra viešai prieinami</strong> kuriuos bet kas gali<strong>naudoti ir platinti</strong></p><p>Atviri duomenys yra panaudojami tada, kai jie yra pateikti mašininiui nuskaitymui tinkamu formatu.</p><p>Atviri duomenys privalo būti licencijuoti. Tokia licencija privalo leisti žmonėms naudotis duomenimis bet kokiu jų norimu būdu, įskaitant duomenų transformavimą, jungimą, dalinimąsi su kitais asmenimis privačiai ar net komerciškai.</p>"
+    },
+     {
+        "_id": "c-25",
+        "_parentId": "b-25",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Nuo grynų duomenų iki naujos informacijos bei žinių ",
+        "displayTitle": "Nuo grynų duomenų iki naujos informacijos bei žinių ",
+        "body": "Be duomenų negalime gauti informacijos, o be informacijos negali būti žinių.",
+        "instruction": "<em class='desktop-instruction'>Paspausk rodyklę, jei nori pamatyti daugiau.</em><em class='mobile-instruction'>Paspausk ‘+’ ženklą, jei nori pamatyti daugiau.</em>",
+        "_items": [
+            {
+                "title": "Duomenys",
+                "body": "<p>Duomenys yra gryna medžiaga, iš kurios galima išgauti informaciją ir žinias.</p><p>Pavyzdžiui duomenis galima įsivaizduoti kaip žemėlapius, paveiksliukus, aprašymus, atsiliepimus ar kainas, kurių kuriama bazinė informarcija padeda mums planuoti atostogas.</p>",
+                "_graphic": {
+                    "src": "course/lt/images/odi-2-narrative_large.jpg",
+                    "alt": "Duomenys žinių piramidėje",
+                    "title": "Duomenys žinių piramidėje",
+                    "*source":"http://www.shutterstock.com/pic.mhtml?id=240789808&src=lb-35924366",
+                    "*credit":"Anna Frajtova",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Duomenys"
+            },
+            {
+                "title": "Informacija",
+                "body": "<p>Duomenys tampa informacija, kai duomenims yra suteikiamas kontekstas.</p><p>Anksčiau minėti žemėlapiai, paveiksliukai, aprašymai ir kainos gali padėti mums surinkti atitinkamą informaciją, susijusią su viena ar kita turistine lokacija.</p><p>Duomenų surinkimas ir pateikimas padeda suformuoti tokią informaciją.</p>",
+                "_graphic": {
+                    "src": "course/lt/images/odi-3-narrative_large.jpg",
+                    "alt": "Informacija žinių piramidėje",
+                    "title": "Informacija žinių piramidėje",
+                    "*source":"http://www.shutterstock.com/pic.mhtml?id=217763944&src=lb-35924366",
+                    "*credit":"Sachezi",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Informacija"
+            },
+            {
+                "title": "Žinios",
+                "body": "<p>Žinios tai yra tai, kas surenkama iš informacijos ir pritaikoma asmeniniams poreikiams.</p><p>Žinių plėtimas  - tai procesas, kurio metu informacija paverčiama į pasirinkimus.</p><p>Pavydžiui surinkę informaciją apie turistines vietas ir žinodami savo šeimos pomėgius galime priimti sprendimus, kur geriau vykti atostogų.</p>",
+                "_graphic": {
+                    "src": "course/lt/images/odi-4-narrative_large.jpg",
+                    "alt": "Žinios žinių piramidėje",
+                    "title": "Žinios žinių piramidėje",
+                    "*source":"http://www.shutterstock.com/pic.mhtml?id=250810483&src=lb-35924366",
+                    "*credit":"Oleksiy Mark",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Žinios"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-30",
+        "_parentId":"b-28",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Kas padaro duomenis atvirais?",
+            "title": "Kas padaro duomenis atvirais?",
+            "large": "course/lt/images/odi-5-accordion_large.jpg",
+            "medium": "course/lt/images/odi-5-accordion_large.jpg",
+            "small": "course/lt/images/odi-5-accordion_large.jpg",
+            "*source":"http://www.shutterstock.com/pic.mhtml?id=154744388&src=lb-35924366",
+            "*credit":"Oleksiy Mark",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+      "_id":"c-35",
+      "_parentId":"b-28",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"left",
+      "title": "Kas padaro duomenis atvirais?",
+      "displayTitle": "Kas padaro duomenis atvirais? ",
+      "body": "<p>Duomenys yra atviri, jeigu jie yra viešai prieinami, juos bet kas gali naudoti ir platinti.<br />Duomenys yra atviri, jeigu jie yra viešai prieinami, juos bet kas gali naudoti ir platinti: </p>",
+      "instruction": "",
+      "_items": [
+        {
+          "alt": "Apribojimai",
+          "title": "Apribojimai",
+          "body": "<p>Tam, kad duomenys būtų atviri, negali būti jokių apribojimų, kurie draustų laisvai naudotis tais duomenimis bet kokiu tikslu.</p><p>Bet kas gali turėti prieigą prie atvirų duomenų ir gali juos naudoti, modifikuoti, sujungti ir jais dalintis, net komerciniais tikslais.</p>"
+        },
+        {
+          "alt": "Kaina",
+          "title": "Kaina",
+          "body": "<p>Atvirų duomenų naudojimas negali būti ribojamas, bet tai nereiškia, kad prieiga prie jų negali būti apmokęstinta.</p><p>Įprastai duomenų sukūrimas, išlaikymas ir atvėrimas kainuoja. </p><p>Idealiu atveju, bet koks mokestis prieigai prie duomenų neturėtų būti didesnis nei kainuoja išlaikyti ir atverti atitinkamą duomenų rinkinį.</p><p>Tokios reprodukcijos išlaidos dažnai būna nereikšmingos daugeliui duomenų rinkinių.</p><p>Atsinaujinantys (live data) ir didieji duomenys taip pat gali turėti išlaikymo išlaidų susijusių su paslaugos tiekimu. </p>"
+        },
+        {
+          "alt": "Pakartotinis panaudojimas ",
+          "title": "Pakartotinis panaudojimas ",
+          "body": "<p>Kai duomenų naudotojas turi duomenis, jis juos gali laisvai naudoti, pernaudoti ar platinti net komerciškai.</p><p>Atvirų duomenų reikšmė yra matuojama tuo, kam jie gali būti panaudoti, o ne tuo, kaip jie padaryti prieinamais.</p><p>Vertinat duomenis reikia atsižvelgti į tokius aspektus kaip formatas, struktūra ir mašininis nuskaitymas, nes jie daro duomenis lengviau panaudojamais.</p><p>Nepaisant to, šie aspektai nepadaro duomenų labiau atvirais.</p>"
+        }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+     {
+        "_id": "c-40",
+        "_parentId": "b-30",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Kodėl mums reikia atvirų duomenų?",
+        "displayTitle": "Kodėl mums reikia atvirų duomenų?",
+        "body": "Atviri duomenys turi daug naudos viešojo sektoriaus efektyvumui, ekonomikai ir visuomeniškumui.",
+        "instruction": "<em class='desktop-instruction'>Paspausk rodyklę, jei nori pamatyti daugiau.</em><em class='mobile-instruction'>Paspausk ‘+’ ženklą, jei nori pamatyti daugiau.</em>",
+        "_items": [
+            {
+                "title": "Viešasis sektorius",
+                "body": "<p>Atviri duomenys gali padėti viešajam sektoriui būti skaidresniu ir efektyvesniu. Atviri duomenys parodo, kur yra išleidžiamas biudžetas, kokie įstatymai yra įgyvendinami, už kokius politikus balsuojame.</p><p class='not-dlab'>Pavyzdžiui, Kanadoje 2010 m. dėl atvirų duomenų viešasis sektorius sutaupė 3.2mlrd Dolerių paviešindamas duomenis apie neskaidrią labdarą.<br /><a href='http://eaves.ca/2010/04/14/case-study-open-data-and-the-public-purse/' target='_blank'>Kanados atvejis</a></p><p class='not-tz not-dlab not-default'>agal EU28+ BVP prognozę 2020 metams Europos sąjungos viešasis sektorius dėl atvirų duomenų <a href='http://www.europeandataportal.eu/sites/default/files/edp_creating_value_through_open_data_0.pdf#page=11' target='_blank'>sutaupys 1.7 mlrd Eur.</a></p><p class='not-tz not-dlab not-default'>Lexabase yra internetinis paslaugų portalas, kuris teikia viešą informaciją iš Švedijos teismų. Internetiniame puslapyje galima rasti tiek individualias, tiek kompanijų teismų bylas ir nuosprendžius. Duomenų bazė yra atnaujinama kasdien. Portalas <a href='www.lexbase.se' target='_blank'>teikia piliečiams informaciją apie nusikalstamumą skirtingose vietose.</a></p><p>Kitas pavyzdys, Follow the Money in Nigeria, naudoja tokį patį viešinimo procesą siekiant užtikrinti, kad valstybės lėšos būtų išleidžiamos tam, kam yra numatytos. <br /><a href='http://followthemoneyng.org/' target='_blank'>Follow the Money</a></p>",
+                "_graphic": {
+                    "src": "course/lt/images/odi-6-narrative_large.png",
+                    "alt": "Viešasis sektorius",
+                    "title": "Viešasis sektorius",
+                    "*source":"http://www.shutterstock.com/pic-255896113",
+                    "*credit":"Pretty Vectors",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Viešasis sektorius"
+            },
+            {
+                "title": "Verslo galimybės",
+                "body": "<p>Atviri duomenys atveria naujas galimybės verslui.</p><p class='not-dlab'>Pavyzdžiui Londono transporto įmonė (Transport for London) atvėrusi savo duomenis lėmė 800 aplikacijų sukūrimą.<br /><a href='http://www.tfl.gov.uk/' target='_blank'>Transport for London</a></p><p class='not-dlab'>Thomson Reuters naudoja atvirus duomenis ta, kad galėtų klientams pasiūlyti geresnį aptarnavimą. <br /><a href='http://site.thomsonreuters.com/site/data-identifiers/' target='_blank'>Thomson Reuters</a></p><p class='not-eu'>Find My School leidžia surasti tinkamą mokyklą pagal geografinę padėtį ir mokymosi pasiekimus.<br/><a href='http://findmyschool.co.ke/discover' target='_blank'>Find My School</a></p><p>Vien ODI Startuolių programos rėmuose atvirų duomenų startuoliai įdarbina virš 70 žmonių ir siekia nei 4 mln. svarų pelno.<br /><a href='http://theodi.org/odis-second-year-annual-report' target='_blank'>ODI metinė ataskaita</a></p>",
+                "_graphic": {
+                    "src": "course/lt/images/odi-7-narrative_large.jpg",
+                    "alt": "Verslo galimybės",
+                    "title": "Verslo galimybės",
+                    "*source":"http://www.shutterstock.com/pic.mhtml?id=149924576&src=lb-35924366",
+                    "*credit":"Sergey Nivens",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Verslo galimybės"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    }, {
+        "_id":"c-42",
+        "_parentId":"b-33",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/lt/images/burst.png",
+            "medium": "course/lt/images/burst.png",
+            "small": "course/lt/images/burst.png"
+        }
+    },
+    {
+        "_id":"c-43",
+        "_parentId":"b-33",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Ar jūs pasiruošę atverti duomenis?",
+        "displayTitle":"Ar jūs pasiruošę atverti duomenis?",
+        "body":"<p>Keturi dalykai, kuriuos reikia prisiminti apie atvirus duomenis.</p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-45",
+        "_parentId":"b-35",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Kas yra atviri duomenys?",
+            "title": "",
+            "large": "course/lt/images/odi-9-mcq-image_large.jpg",
+            "medium": "course/lt/images/odi-9-mcq-image_large.jpg",
+            "small": "course/lt/images/odi-9-mcq-image_large.jpg",
+            "*source":"http://www.shutterstock.com/pic.mhtml?id=179384507&src=lb-35924366",
+            "*credit":"leromin",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-50",
+        "_parentId":"b-35",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"58b82f84fda9f5660ad859dd",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Kas yra atviri duomenys?",
+        "displayTitle": "Kas yra atviri duomenys?",
+        "body": "<p>Atviri duomenys - tai:</p>",
+        "instruction": "<em>Pasirink teisingą atsakymą ir spausk ‘submit’</em>",
+        "_items": [
+            {
+                "text": "informacija, kurią parduodame verslui",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "duomenys, kurie yra viešai prieinami, kuriuos bet kas gali naudoti ir platinti",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "bet kokie vieši duomenys",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Teisingai!</h5><p><strong>Atviri duomenys</strong>- tai <strong>duomenys, kurie yra viešai prieinami, kuriuos bet kas gali naudoti ir platinti.</strong>.<br />Atviri duomenys taip pat turi būti licencijuoti laisvam naudojimui, įskaitant ir komercinį.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Ar tikrai?</h5><p><strong>Atviri duomenys</strong> - tai <strong>duomenys, kurie yra viešai prieinami, kuriuos bet kas gali naudoti ir platinti.</strong>. <br/>Atviri duomenys taip pat turi būti licencijuoti laisvam naudojimui, įskaitant ir komercinį.</p></p>",
+                "final": "<h5>Ar tikrai?</h5><p><p><strong> Atviri duomenys</strong>  - tai <strong>duomenys, kurie yra viešai prieinami, kuriuos bet kas gali naudoti ir platinti.</strong>. <br/>Atviri duomenys taip pat turi būti licencijuoti laisvam naudojimui, įskaitant ir komercinį.</p></p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-55",
+        "_parentId":"b-40",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Data, information, knowledge tiangle",
+            "title": "",
+            "large": "course/lt/images/odi-10-mcq_large.jpg",
+            "medium": "course/lt/images/odi-10-mcq_large.jpg",
+            "small": "course/lt/images/odi-10-mcq_large.jpg",
+            "*source":"http://www.shutterstock.com/pic.mhtml?id=240789808&src=lb-35924366",
+            "*credit":"Anna Frajtova",
+            "*license":"Shutterstock Standard License",
+            "*source":"http://www.shutterstock.com/pic.mhtml?id=217763944&src=lb-35924366",
+            "*credit":"Sachezi",
+            "*license":"Shutterstock Standard License",
+            "*source":"http://www.shutterstock.com/pic.mhtml?id=250810483&src=lb-35924366",
+            "*credit":"Oleksiy Mark",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-60",
+        "_parentId":"b-40",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"58b82f84fda9f5660ad859e5",
+        "_classes":"",
+        "_layout":"right",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Kas yra duomenys?",
+        "displayTitle": "Kas yra duomenys?",
+        "body": "<p>Duomenys yra...</p>",
+        "instruction": "<em>Pasirink teisingą atsakymą ir spausk ‘submit’.</em>",
+        "_items": [
+            {
+                "text": "skaičiai, žodžiai, žemėlapiai ir nuotraukos",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "informacija, prieinama internete",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "gryna medžiaga informacijai ir žinioms.",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Teisingai!</h5><p>Duomenys yra gryna medžiaga, iš kurios kuriama informacija ir žinios.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Ar tikrai?</h5><p>Duomenys yra gryna medžiaga, iš kurios kuriama informacija ir žinios.</p>",
+                "final": "<h5>Ar tikrai?</h5><p>Duomenys yra gryna medžiaga, iš kurios kuriama informacija ir žinios.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-65",
+        "_parentId":"b-45",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Kas padaro duomenis atvirais?",
+            "title": "",
+            "large": "course/lt/images/odi-11-mcq_large.jpg",
+            "medium": "course/lt/images/odi-11-mcq_large.jpg",
+            "small": "course/lt/images/odi-11-mcq_large.jpg",
+            "*source":"http://www.shutterstock.com/pic.mhtml?id=154744388&src=lb-35924366",
+            "*credit":"Oleksiy Mark",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-70",
+        "_parentId":"b-45",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"58b82f84fda9f5660ad859e6",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Kas padaro duomenis atvirais?",
+        "displayTitle": "Kas padaro duomenis atvirais?",
+        "body": "<p>Kas apibrėžia duomenų atvirumą:</p>",
+        "instruction": "<em>Pasirink teisingą atsakymą ir spausk ‘submit’</em>",
+        "_items": [
+            {
+                "text": "duomenų panaudojimas negali būti ribojamas",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "kai kurių duomenų panaudojimas gali būti ribojamas",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "visi duomenys prieinami nemokamai",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Teisingai! </h5><p>Jei kas nors riboja laisvą duomenų panaudojimą, pavyzdžiui suteikia tik nekomercinio panaudojimo apribojimą, tokie duomenys negali vadintis atvirais.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Ar tikrai?</h5><p>Jei kas nors riboja laisvą duomenų panaudojimą, pavyzdžiui suteikia tik nekomercinio panaudojimo apribojimą, tokie duomenys negali vadintis atvirais.</p>",
+                "final": "<h5>Ar tikrai?</h5><p>Jei kas nors riboja laisvą duomenų panaudojimą, pavyzdžiui suteikia tik nekomercinio panaudojimo apribojimą, tokie duomenys negali vadintis atvirais.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-75",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Kodėl mums reikia atvirų duomenų?",
+            "title": "",
+            "large": "course/lt/images/odi-12-mcq_large.jpg",
+            "medium": "course/lt/images/odi-12-mcq_large.jpg",
+            "small": "course/lt/images/odi-12-mcq_large.jpg",
+            "*source":"http://www.shutterstock.com/pic.mhtml?id=149924576&src=lb-35924366",
+            "*credit":"Sergey Nivens",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-80",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"58b82f84fda9f5660ad859ed",
+        "_classes":"",
+        "_layout":"right",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Kodėl mums reikia atvirų duomenų?",
+        "displayTitle": "Kodėl mums reikia atvirų duomenų?",
+        "body": "<p>Ką gali atviri duomenys:</p>",
+        "instruction": "<em>Pasirink teisingą atsakymą ir spausk ‘submit’</em>",
+        "_items": [
+            {
+                "text": "suteikti prieigą prie kitų duomenų",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "daryti viešąjį sektorių skaidresniu",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "kurti socialinę, visuomeninę ir ekonominę vertę",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Teisingai!</h5><p>Atviri duomenys transformuoja bendradarbiavimą tarp viešojo sektorias, verslų ir visuoemenės. Atviri duomenys turi galią efektyvinti veiklą, auginti ekonomiką, didinti skaidrumą.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Ar tikrai?</h5><p>Atviri duomenys transformuoja bendradarbiavimą tarp viešojo sektorias, verslų ir visuoemenės. Atviri duomenys turi galią efektyvinti veiklą, auginti ekonomiką, didinti skaidrumą.</p>",
+                "final": "<h5>Ar tikrai?</h5><p>Atviri duomenys transformuoja bendradarbiavimą tarp viešojo sektorias, verslų ir visuoemenės. Atviri duomenys turi galią efektyvinti veiklą, auginti ekonomiką, didinti skaidrumą.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-85",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Summary icon clipboard",
+            "title": "Summary icon clipboard",
+            "large": "course/lt/images/summary-icon.png",
+            "medium": "course/lt/images/summary-icon.png",
+            "small": "course/lt/images/summary-icon.png",
+            "*source":"http://www.shutterstock.com/pic-189810137.html",
+            "*credit":"Kritchanut",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-90",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Atviri duomenys<span class='not-dlab' - veni, vidi, vici</span>",
+        "displayTitle":"Atviri duomenys<span class='not-dlab' - veni, vidi, vici</span>",
+        "body":"<p>Atviri duomenys yra <strong>duomenys, kurie yra viešai prieinami, kuriuos bet kas gali naudoti ir platinti.</strong>.</p><p>Atviri duomenys yra skaitmenio amžiaus kuras ir gali būti naudojami bet kieno ir visų vienu metu.</p><p>Bet koks atvirų duomenų panaudojimo reguliavimas limituoja atvirų duomenų vertės potencialą.</p><p>Atviri duomenys transformuoja bendradarbiavimą tarp viešojo sektorias, verslų ir visuoemenės. Atviri duomenys turi galią efektyvinti veiklą, auginti ekonomiką, didinti skaidrumą.</p><p><a class='course_link' href='../module2/'>Kitas modulis</a></p><p><a class='course_link' href='../'>Pagrindinis menu</a></p>",
+        "_pageLevelProgress": {
+          "_isEnabled": true
+        }
+    },
+    {
+       "_id":"c-95",
+       "_parentId":"b-55",
+       "_type":"component",
+       "_component":"text",
+       "_classes":"separator",
+       "_layout":"full"
+    },
+    {
+       "_id":"c-96",
+       "_parentId":"b-55",
+       "_type":"component",
+       "_component":"text",
+       "_classes": "attribution",
+       "body":"&copy; <a href='https://ec.europa.eu/commission/index_en' target='_blank'>European Commission</a>",
+       "_layout":"full"
+    },
+    {
+        "_id":"c-100",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"footer-logo",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Open data institute logo",
+            "title": "Open data institute logo",
+            "large": "course/lt/images/logo-small.png",
+            "medium": "course/lt/images/logo-small.png",
+            "small": "course/lt/images/logo-small.png",
+            "*source":"http://theodi.org",
+            "*credit":"The Open Data Institute",
+            "*license":"All rights reserved"  
+        }
+    },
+    {
+        "_id":"c-104",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"attribution not-eu not-default",
+        "_layout":"right",
+        "body":"Content created by <a href='http://theodi.org' target='_blank'>The Open Data Institute</a>"
+    },
+    {
+        "_id":"c-105",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"social-buttons not-dlab",
+        "_layout":"right",
+        "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/lt/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/lt/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/lt/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/lt/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/lt/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/lt/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/lt/images/social/flickr.png'></a>"
+    }
+]
