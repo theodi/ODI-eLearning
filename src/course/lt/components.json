@@ -1,0 +1,549 @@
+[
+    {
+        "_id":"c-01",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"intro-logo",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "",
+            "medium": "",
+            "small": ""
+        }
+    },
+    {
+        "_id":"c-02",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Kas lemia atvirų duomenų kokybę?",
+        "displayTitle":"Kas lemia atvirų duomenų kokybę?",
+        "body":"<p>Atvirų duomenų kokybės įvertinimas paprastai užtrunka.</p><p>Yra begalė skirtingų atviro formato standartų ir komercinių sprendimų, kurie padeda įvertinti, kiek naudingi ir kokybiški yra vieni ar kiti duomenys.</p><h5>Šiame modulyje:</h5><ul class='ticks'><li>kas daro duomenis panaudojamais?</li><li>kas užtikrina duomenų kokybę?</li><li>kaip naudoti atvirų duomenų kokybės standartus?</li></ul>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+    "_id":"c-11",
+    "_parentId":"b-10",
+    "_type":"component",
+    "_component":"iFrame-vimeo",
+    "_classes":"",
+    "_layout":"full",
+        "title":"Duomenų kokybės įvertinimas per 2 minutes",
+        "displayTitle": "Duomenų kokybės įvertinimas per 2 minutes ",
+        "body": "Dr. Davidas Tarrantas (ODI) paaiškina, kas yra kokybiški duomenys, kaip juos įvertintinti ir kaip naudoti kokybės standartus.",
+        "instruction": "Norint įjungti subtitrus, paskausk 'cc' mygtuką video apačioje, dešinėje pusėje.",
+        "_setCompletionOn":"ended",
+        "_source": "https://player.vimeo.com/video/129197043",
+        "_media": {
+		"mp4": "course/en/video/video.mp4",
+		"poster": "course/en/video/placeholder.jpg"
+	},
+        "_height": {
+            "_small" : 250,
+            "_medium" : 350,
+            "_large" : 508
+        }
+    },
+    {
+        "_id":"c-21",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Kas yra atvirų duomenų kokybė?",
+            "title": "Kas yra atvirų duomenų kokybė?",
+            "large": "course/en/images/odi-1.jpg",
+            "medium": "course/en/images/odi-1.jpg",
+            "small": "course/en/images/odi-1.jpg",
+            "*source":"http://www.shutterstock.com/pic-54795127.html",
+            "*credit":"robodread",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-22",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Kas yra atvirų duomenų kokybė?",
+        "displayTitle":"Kas yra atvirų duomenų kokybė?",
+        "body":"<p>Atviri duomenys tampa naudingi tik tada, kai žmogus gali juos suprasti, o mašina gali juos nuskaityti.</p><p>Atvirų duomenų naudotojams reikia duomenų savininko leidimo, suteikiamo atviros licencijos formatu. Tačiau tokios licencijos neužtenka duomenų panaudojimo užtikrinimui.</p><p>Mažai tikėtina, kad bus panaudotas duomenų potencialas, jeigu jie atveriami nekokybiškai.</p>"
+    },
+     {
+        "_id": "c-25",
+        "_parentId": "b-25",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Bendruomenių kuriami standartai",
+        "displayTitle": "Bendruomenių kuriami standartai",
+        "body": "Bendruomenių kuriami standartai apibrėžia teisinius, praktinius, techninius ir socialinius reikalavimus atvirų duomenų rinkiniams tam, kad jie būtų kokybiški ir panaudojami.",
+        "instruction": "<em class='desktop-instruction'>Click the forward arrow to see more.</em><em class='mobile-instruction'>Paspausk ‘+’ ženklą, jei nori pamatyti daugiau.</em>",
+        "_items": [
+            {
+                "title": "Teisiniai reikalavimai",
+                "body": "<p>Be atviros licencijos yra dar trys teisiniai reikalavimai, reikalingi duomenų atvirumui užtikrinti. Pagal teisinius reikalavimus yra privaloma:</p><p><ul><li>Apsaugoti jautrius duomenis, tokius kaip asmenius duomenis.</li><li>Išsaugoti duomenų savininkų teises.</li><li>Skatinti teisingą duomenų panaudojimą.</li></ul></p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-2.jpg",
+                    "alt": "Teisiniai reikalavimai",
+                    "title": "Teisiniai reikalavimai",
+                    "*source":"http://www.shutterstock.com/pic-102447179.html",
+                    "*credit":"hoperan",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Legal"
+            },
+            {
+                "title": "Praktiniai reikalavimai",
+                "body": "<p>Svarbu, kad duomenys yra lengvai prieinami naudotojams.</p><p>Tai reiškia, kad duomenų atverėjai privalo:</p><p><ul><li>Susieti duomenis savo interneto svetainėje.</li><li>Atnaujinti duomenis, jei jie keičiasi.</li><li>Įsipareigoti užtikrinti duomenų prieinamumo tęstinumą.</li></ul></p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-3.jpg",
+                    "alt": "Praktiniai reikalavimai",
+                    "title": "Praktiniai reikalavimai",
+                    "*source":"http://www.shutterstock.com/pic-235025131.html",
+                    "*credit":"McIek",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Praktiniai reikalavimai"
+            },
+            {
+                "title": "Techniniai reikalavimai",
+                "body": "<p>Yra trys pagrindinės rekomendacijos techniniams atvirų duomenų aspektams:</p><p><ul><li>Formato kokybė, kuriuo duomenys atveriami.</li><li>Duomenų struktūra.</li><li>Kanalai, kuriais duomenys prieinami.</li></ul></p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-4.jpg",
+                    "alt": "Techniniai reikalavimai",
+                    "title": "Techniniai reikalavimai",
+                    "*source":"http://www.shutterstock.com/pic-154744388.html",
+                    "*credit":"Oleksiy Mark",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Techniniai reikalavimai"
+            },
+            {
+                "title": "Socialiniai reikalavimai ",
+                "body": "<p>Tam, kad būtų užtikrintas tvarus duomenų atvėrimas, svarbu įtraukti duomenų naudotojų bendruomenes. Geriausi duomenų rinkiniai turi:</p><p><ul><li>Aktyvius palaikymo kanalus.</li><li>Diskusijų grupes, forumus.</li><li>Paviešintas gaires, kaip dirbti su atitinkamu duomenų rinkiniu.</li></ul></p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-5.jpg",
+                    "alt": "Socialiniai reikalavimai",
+                    "title": "Socialiniai reikalavimai",
+                    "*source":"http://www.shutterstock.com/pic-187711424.html",
+                    "*credit":"bluebay",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Socialiniai reikalavimai"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-30",
+        "_parentId":"b-28",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Kokybės standartai",
+            "title": "Kokybės standartai",
+            "large": "course/en/images/odi-6.jpg",
+            "medium": "course/en/images/odi-6.jpg",
+            "small": "course/en/images/odi-6.jpg",
+            "*source":"http://www.shutterstock.com/pic-254316427.html",
+            "*credit":"tostphoto",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+      "_id":"c-35",
+      "_parentId":"b-28",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"left",
+      "title": "Kokybės standartai",
+      "displayTitle": "Kokybės standartai",
+      "body": "<p>Kokybės standartai užtikrina duomenų kokybę ir panaudojamumą.</p><p>Yra du svarbiausi atvirų duomenų kokybės indikatoriai:</p>",
+      "instruction": "<em>Paspausk ant antraštės, jei nori pamatyti daugiau.</em>",
+      "_items": [
+        {
+          "alt": "5 žvaigždutės (5 stars)",
+          "title": "5 žvaigždutės (5 stars)",
+          "body": "<p>5 atvirų duomenų žvaigždutės nurodo esmines duomenų rinkinio technines specifikacijas.</p><p>5 žvaigždutės yra Web išradėjo Timo Berners-Lee išvystytas apibrėžimas, pagal kurį ruošiamos rekomendacijos duomenų formatams ir struktūrai. 5 žvaigždutės specifikuoja duomenų formato ir struktūros brandą.</p><p>Apie skirtingus žvaigždučių lygius susipažinkite kitame modulyje.</p>"
+        },
+        {
+          "alt": "ODI Atvirų duomenų sertifikatas",
+          "title": "ODI Atvirų duomenų sertifikatas",
+          "body": "<p>Atvirų duomenų instituto (ODI) atvirų duomenų sertifikatas yra praktinės, socialinės, teisinės ir techninės gairės tiek atvėrimui, tiek duomenų naudojimui.</p><p>Sertifikatai veikia kaip savęs įvertinimo klausimynas duomenų atverėjams, ir, kai kuriais atvejais, naudotojomas.<br /><a href='https://certificates.theodi.org/' target='_blank'>ODI Atvirų duomenų sertifikatas internetiniame puslapyje</a></p>"
+        }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+     
+    {
+        "_id":"c-42",
+        "_parentId":"b-30",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/burst-indigo.png",
+            "medium": "course/en/images/burst-indigo.png",
+            "small": "course/en/images/burst-indigo.png"
+        }
+    },
+    {
+        "_id":"c-43",
+        "_parentId":"b-30",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Ar esi pasiruošęs užtikrinti atvirų duomenų kokybę?",
+        "displayTitle":"Ar esi pasiruošęs užtikrinti atvirų duomenų kokybę?",
+        "body":"<p>Ar galite įvardinti kokie yra praktiniai, techniniai, teisiniai ir socialiniai reikalavimai atviriems duomenims?</p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-45",
+        "_parentId":"b-32",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Kas yra kokybiški atviri duomenys?",
+            "title": "Kas yra kokybiški atviri duomenys?",
+            "large": "course/en/images/odi-7.jpg",
+            "medium": "course/en/images/odi-7.jpg",
+            "small": "course/en/images/odi-7.jpg",
+            "*source":"http://www.shutterstock.com/pic-54795127.html",
+            "*credit":"robodread",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    
+    {
+        "_id":"c-50",
+        "_parentId":"b-32",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"588f38a8b61c46e176e7ea8f",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Kas yra kokybiški atviri duomenys?",
+        "displayTitle": "Kas yra kokybiški atviri duomenys?",
+        "body": "<p>Atviri duomenys laikomi kokybiškais, kai:</p>",
+        "instruction": "<em>Pasirink variantą ir spausk ‘submit’</em>",
+        "_items": [
+            {
+                "text": "juos paskelbia Atvirų duomenų institutas (ODI)",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "žmogus gali juos suprasti, jie gali būti nuskaitomi mašininiu būdu ir turi atvirą licenciją",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "jie yra paskelbti nacionaliniame atvirų duomenų portale",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Teisingai!</h5><p>Atviri duomenys tampa kokybiškais ir naudingais kai žmogus gali juos suprasti, jie gali būti nuskaitomi mašininiu būdu ir turi atvirą licenciją.</p>",
+            "_incorrect": {
+                "notFinal": "h5>Ar tikrai?</h5><p>Atviri duomenys tampa kokybiškais ir naudingais kai žmogus gali juos suprasti, jie gali būti nuskaitomi mašininiu būdu ir turi atvirą licenciją.</p>",
+                "final": "<h5>Ar tikrai?</h5><p>Atviri duomenys tampa kokybiškais ir naudingais kai žmogus gali juos suprasti, jie gali būti nuskaitomi mašininiu būdu ir turi atvirą licenciją.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Ar tikrai?</h5><p>Atviri duomenys tampa kokybiškais ir naudingais kai žmogus gali juos suprasti, jie gali būti nuskaitomi mašininiu būdu ir turi atvirą licenciją.</p>",
+                "final": "<h5>Ar tikrai?</h5><p>Atviri duomenys tampa kokybiškais ir naudingais kai žmogus gali juos suprasti, jie gali būti nuskaitomi mašininiu būdu ir turi atvirą licenciją.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-55",
+        "_parentId":"b-35",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Teisiniai aspektai",
+            "title": "",
+            "large": "course/en/images/odi-8.jpg",
+            "medium": "course/en/images/odi-8.jpg",
+            "small": "course/en/images/odi-8.jpg",
+            "*source":"http://www.shutterstock.com/pic-102447179.html",
+            "*credit":"hoperan",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-60",
+        "_parentId":"b-35",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"588f3d0fb61c46e176e7ea98",
+        "_classes":"",
+        "_layout":"right",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Teisiniai aspektai",
+        "displayTitle": "Teisiniai aspektai",
+        "body": "<p>Yra trys pagrindiniai teisiniai apibrėžimai atvirų duomenų panaudojamumui, vienas iš jų:</p>",
+        "instruction": "<em>Pasirink variantą ir spausk ‘submit’</em>",
+        "_items": [
+            {
+                "text": "nelaužyti licencijavimo įstatymo",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "atverti bet kokios rūšies duomenis",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "apsaugoti jautrią informaciją, tokią kaip asmens duomenys",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Teisingai!</h5><p>Be atviros licencijos, yra dar trys teisiniai reikalavimai užtikrinti duomenų atvirumui. Tai yra yra jautrios informacijos apsaugojimas, duomenų savininkų teisių saugojimas ir teisingo duomenų panaudojimo skatinimas.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Ar tikrai?</h5><p>Be atviros licencijos, yra dar trys teisiniai reikalavimai užtikrinti duomenų atvirumui. Tai yra yra jautrios informacijos apsaugojimas, duomenų savininkų teisių saugojimas ir teisingo duomenų panaudojimo skatinimas.</p>",
+                "final": "<h5>Ar tikrai?</h5><p>Be atviros licencijos, yra dar trys teisiniai reikalavimai užtikrinti duomenų atvirumui. Tai yra yra jautrios informacijos apsaugojimas, duomenų savininkų teisių saugojimas ir teisingo duomenų panaudojimo skatinimas.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Ar tikrai?</h5><p>Be atviros licencijos, yra dar trys teisiniai reikalavimai užtikrinti duomenų atvirumui. Tai yra yra jautrios informacijos apsaugojimas, duomenų savininkų teisių saugojimas ir teisingo duomenų panaudojimo skatinimas.</p>",
+                "final": "<h5>Ar tikrai?</h5><p>Be atviros licencijos, yra dar trys teisiniai reikalavimai užtikrinti duomenų atvirumui. Tai yra yra jautrios informacijos apsaugojimas, duomenų savininkų teisių saugojimas ir teisingo duomenų panaudojimo skatinimas.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-65",
+        "_parentId":"b-40",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Techniniai aspektai",
+            "title": "",
+            "large": "course/en/images/odi-9.jpg",
+            "medium": "course/en/images/odi-9.jpg",
+            "small": "course/en/images/odi-9.jpg",
+            "*source":"http://www.shutterstock.com/pic-154744388.html",
+            "*credit":"Oleksiy Mark",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-70",
+        "_parentId":"b-40",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"588f3de4b61c46e176e7ea9a",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Techniniai aspektai",
+        "displayTitle": "Techniniai aspektai",
+        "body": "<p>Yra trys pagrindiniai techniniai apibrėžimai atvirų duomenų panaudojamumui, vienas iš jų:</p>",
+        "instruction": "<em>Pasirink variantą ir spausk ‘submit’</em>",
+        "_items": [
+            {
+                "text": "formatas, kuriuo atveriami duomenys",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "ar duomenys gali būti naudojami kompiuteriu",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "duomenų pralaidumas",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Teisingai!</h5><p>Yra trys pagrindiniai techniniai apibrėžimai atvirų duomenų panaudojamumui. Tai yra formatas, kuriuo atveriami duomenys, duomenų struktūra ir kanalai, kuriais duomenys yra prieinami.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Ar tikrai?</h5><p>Yra trys pagrindiniai techniniai apibrėžimai atvirų duomenų panaudojamumui. Tai yra formatas, kuriuo atveriami duomenys, duomenų struktūra ir kanalai, kuriais duomenys yra prieinami.</p>",
+                "final": "<h5>Ar tikrai?</h5><p>Yra trys pagrindiniai techniniai apibrėžimai atvirų duomenų panaudojamumui. Tai yra formatas, kuriuo atveriami duomenys, duomenų struktūra ir kanalai, kuriais duomenys yra prieinami.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Ar tikrai?</h5><p>Yra trys pagrindiniai techniniai apibrėžimai atvirų duomenų panaudojamumui. Tai yra formatas, kuriuo atveriami duomenys, duomenų struktūra ir kanalai, kuriais duomenys yra prieinami.</p>",
+                "final": "<h5>Ar tikrai?</h5><p>Yra trys pagrindiniai techniniai apibrėžimai atvirų duomenų panaudojamumui. Tai yra formatas, kuriuo atveriami duomenys, duomenų struktūra ir kanalai, kuriais duomenys yra prieinami.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-75",
+        "_parentId":"b-45",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Marques of quality",
+            "title": "",
+            "large": "course/en/images/odi-10.jpg",
+            "medium": "course/en/images/odi-10.jpg",
+            "small": "course/en/images/odi-10.jpg",
+            "*source":"http://www.shutterstock.com/pic-254316427.html",
+            "*credit":"tostphoto",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+ 
+    {
+        "_id":"c-85",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Summary icon clipboard",
+            "title": "Summary icon clipboard",
+            "large": "course/en/images/summary-icon.png",
+            "medium": "course/en/images/summary-icon.png",
+            "small": "course/en/images/summary-icon.png",
+            "*source":"http://www.shutterstock.com/pic-189810137.html",
+            "*credit":"Kritchanut",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-90",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Kokybės standartai = panaudojami atviri duomenys",
+        "displayTitle":"Kokybės standartai = panaudojami atviri duomenys",
+        "body":"<p>Atviri duomenys tampa kokybiškais ir naudingais kai žmogus gali juos suprasti ir jie gali būti nuskaitomi mašininiu būdu.</p><p>Kokybės standartams užtikrinti būtinas duomenų savininko leidimas naudotis duomenimis, užtikrinamas per atvirą licenciją. Visgi, licencija pati savaime neužtikrina duomenų panaudojamumo. Duomenų paviešinimas internete su atvira licencija nepadaro duomenų atvirais.</p><p>Mažai tikėtina, kad bus panaudotas duomenų potencialas, jeigu jie atveriami nekokybiškai.</p><p><a class='course_link' href='../module6/'>Kitas modulis</a></p><p><a class='course_link' href='../'>Pagrindinis puslapis</a></p>",
+        "_pageLevelProgress": {
+          "_isEnabled": true
+        }
+    },
+    {
+       "_id":"c-95",
+       "_parentId":"b-50",
+       "_type":"component",
+       "_component":"text",
+       "_classes":"separator",
+       "_layout":"full"
+    },
+    {
+       "_id":"c-96",
+       "_parentId":"b-50",
+       "_type":"component",
+       "_component":"text",
+       "_classes": "attribution",
+       "body":"&copy; <a href='https://ec.europa.eu/commission/index_en' target='_blank'>European Commission</a>",
+       "_layout":"full"
+    },
+    {
+        "_id":"c-100",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"footer-logo",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Open data institute logo",
+            "title": "Open data institute logo",
+            "large": "course/en/images/logo-small.png",
+            "medium": "course/en/images/logo-small.png",
+            "small": "course/en/images/logo-small.png",
+            "*source":"http://theodi.org",
+            "*credit":"The Open Data Institute",
+            "*license":"All rights reserved"  
+        }
+    },
+    {
+        "_id":"c-104",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"attribution not-eu not-default",
+        "_layout":"right",
+        "body":"Content created by <a href='http://theodi.org' target='_blank'>The Open Data Institute</a>"
+    },
+    {
+        "_id":"c-105",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"social-buttons not-dlab",
+        "_layout":"right",
+        "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/en/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/en/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/en/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/en/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/en/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/en/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/en/images/social/flickr.png'></a>"
+    }
+]
