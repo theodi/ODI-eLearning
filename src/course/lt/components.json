@@ -49,8 +49,8 @@
         "_setCompletionOn":"ended",
         "_source": "https://player.vimeo.com/video/129197202",
         "_media": {
-		"mp4": "course/en/video/video.mp4",
-		"poster": "course/en/video/placeholder.jpg"
+		"mp4": "course/lt/video/video.mp4",
+		"poster": "course/lt/video/placeholder.jpg"
 	},
         "_height": {
                 "_small" : 250,
@@ -74,7 +74,7 @@
                 "title": "Panaudojamumas",
                 "body": "<p>Labiausiai panaudojamas duomenų formatas yra tas formatas, kuriuo buvo sukurtas pirminis duomenų rinkinys. Dažniausiai toks formatas yra Microsoft Excel.</p><p>Tokios programos kaip Excel taip pat turi daugiau galimybių, tokių kaip lentelių stilistika ar duomenų diagramos. Jų pagalba galima suteikti duomenims konteksto ir taip juos lengviau paaiškinti.</p>",
                 "_graphic": {
-                    "src": "course/en/images/odi-001.jpg",
+                    "src": "course/lt/images/odi-001.jpg",
                     "alt": "Panaudojamumas",
                     "title": "Panaudojamumas",
                     "*source": "http://www.shutterstock.com/pic.mhtml?id=234298726&src=id",
@@ -87,7 +87,7 @@
                 "title": "Duomenų tvarkymas",
                 "body": "<p>Kai kuriems duomenų tvarkytojams atviri duomenys šiandien yra pagrindinis duomenų šaltinis jų paties darbui. Atviri duomenys, kaip vienas iš būdų organizacijos darbuotojams prieiti prie informacijos, turi daug privalumų:</p><ul><li>didėja suvokimąasapie atvirus duomenis komandos viduje.</li><li>auga pasitikėjimas duomenimis, jie tampa pagrindiniu organizacijos veiklų resursu.</li><li>duomenys sukuria aiškų potencialą inovacijoms.</li></ul>",
                 "_graphic": {
-                    "src": "course/en/images/odi-002.jpg",
+                    "src": "course/lt/images/odi-002.jpg",
                     "alt": "Duomenų tvarkymas",
                     "title": "Duomenų tvarkymas",
                     "*source": "http://www.shutterstock.com/pic.mhtml?id=254601265&src=id",
@@ -100,7 +100,7 @@
                 "title": "Prieiga",
                 "body": "<p>Tam, kad atviri duomenys būtų prieinami, jie turi būti:</p><ul><li>suprantamo formato.</li><li>formato, kurį gali perskaityti mašina.</li><li>formato, kuris yra lengvai naudojamas.</li><li>formato, kuris nereikalauja brangiu įrankių prieigai.</li></ul><p>Dokumentai (PDF formato) padaro duomenis lengvai suprantamais, bet jie yra sunkiai nuskaitomi mašinoms. Dėl to aukštas duomenų prieinamums yra pasiekiamas padarant duomenis prieinamais skirtingais formatais.</p>",
                 "_graphic": {
-                    "src": "course/en/images/odi-003.jpg",
+                    "src": "course/lt/images/odi-003.jpg",
                     "alt": "Prieiga",
                     "title": "Prieiga",
                     "*source": "http://www.shutterstock.com/pic.mhtml?id=238197199&src=id",
@@ -131,7 +131,7 @@
           "title": "Lentelės",
           "body": "<p>Tai yra dažniausiai pasitaikanti duomenų struktūra. Duomenų reikšmės yra išdėstytos eilutėmis ir stulpeliais.</p><p>Jei duomenys yra sukaupti iš skirtingų šaltinių ir nėra tarpusavyje susieti, tada lentelinė struktūra CSV formatu yra labiausiai tinkama.<span class='not-dlab'>Pavyzdžiui, tokius lentelinius duomenis kaupia Italijos duomenų portalas apie muziejaus lankomumą.<br /><a href='http://www.datiopen.it/opendata/Visitatori_musei_pubblici_e_similari_titolo_d_accesso' target='_blank'>Italian Data Portal</a></span></p>",
           "_graphic": {
-                    "src": "course/en/images/odi-004.jpg",
+                    "src": "course/lt/images/odi-004.jpg",
                     "alt": "Lentelės",
                     "title": "Lentelės",
                     "*source": "http://www.shutterstock.com/pic.mhtml?id=262874696&src=id",
@@ -145,7 +145,7 @@
           "title": "Hierarchinė struktūra",
           "body": "<p>Hierarchinės struktūros duomenys nurodo ryšį tarp duomenų taškų, tokių kaip šeimos medis ar savivaldos kiekvienoje šalyje. Jei duomenys priklauso nuo ryšio su kitais duomenimis ir priklauso konkrečiai struktūrai, kurioje duomenys susieti vertikaliai, tokiems duomenims labiausiai tinka JSON formatas.Tokį pavyzdį galite rasti json.org.<br /><a href='http://json.org/example.html' target='_blank'>json.org</a></p>",
           "_graphic": {
-                    "src": "course/en/images/odi-005.jpg",
+                    "src": "course/lt/images/odi-005.jpg",
                     "alt": "Hierarchinė struktūra",
                     "title": "Hierarchinė struktūra",
                     "*source": "http://www.shutterstock.com/pic.mhtml?id=103051607&src=id",
@@ -159,7 +159,7 @@
           "title": "Tinklai",
           "body": "<p>Tinkle susieti duomenys leidžia susieti duomenis tarp bet kokių elementų bet kuria kryptimi.</p><p>Geras pavyzdys- socialiniai tinklai. Įsivaizduokite apie savo draugų ir jų jų draugų tinklą Facebook, arba pirmo, antro ar trečio lygio kontaktus Linkedin platformoje.<p><p>Internetas irgi yra tinklinės duomenų struktūros pavyzdys, nes puslapiai gali būti susieti tarpusavyje bet kokia kryptimi.</p>",
           "_graphic": {
-                    "src": "course/en/images/odi-006.jpg",
+                    "src": "course/lt/images/odi-006.jpg",
                     "alt": "Tinklai",
                     "title": "Tinklai",
                     "*source": "http://www.shutterstock.com/pic.mhtml?id=136115477&src=id",
@@ -187,9 +187,9 @@
         "_graphic": {
             "alt": "Accessing right data format",
             "title": "Accessing right data format",
-            "large": "course/en/images/odi-007.jpg",
-            "medium": "course/en/images/odi-007.jpg",
-            "small": "course/en/images/odi-007.jpg",
+            "large": "course/lt/images/odi-007.jpg",
+            "medium": "course/lt/images/odi-007.jpg",
+            "small": "course/lt/images/odi-007.jpg",
             "*source": "http://www.shutterstock.com/pic-199692071",
             "*credit": "Ing. Andrej Kaprinay",
             "*licence": "Shutterstock standard license"
@@ -236,9 +236,9 @@
         "_graphic": {
             "alt": "CSV",
             "title": "CSV",
-            "large": "course/en/images/odi-008.jpg",
-            "medium": "course/en/images/odi-008.jpg",
-            "small": "course/en/images/odi-008.jpg",
+            "large": "course/lt/images/odi-008.jpg",
+            "medium": "course/lt/images/odi-008.jpg",
+            "small": "course/lt/images/odi-008.jpg",
             "*source": "http://www.shutterstock.com/pic.mhtml?id=205002868&src=id",
             "*credit": "Blan-k",
             "*licence": "Shutterstock standard license"
@@ -284,10 +284,10 @@
         "body":"",
         "instruction":"",
         "_graphic": {
-		"src": "course/en/images/odi-008-2.jpg",
-		"large": "course/en/images/odi-008-2.jpg",
-		"medium": "course/en/images/odi-008-2.jpg",
-		"small": "course/en/images/odi-008-2.jpg",
+		"src": "course/lt/images/odi-008-2.jpg",
+		"large": "course/lt/images/odi-008-2.jpg",
+		"medium": "course/lt/images/odi-008-2.jpg",
+		"small": "course/lt/images/odi-008-2.jpg",
 		"alt": "Geografiniai atvirų duomenų formatai",
 		"title": "Geografiniai atvirų duomenų formatai",
 		"*source":"http://www.shutterstock.com/pic-53095825.html",
@@ -309,9 +309,9 @@
         "_graphic": {
             "alt": "",
             "title": "",
-            "large": "course/en/images/burst.png",
-            "medium": "course/en/images/burst.png",
-            "small": "course/en/images/burst.png"
+            "large": "course/lt/images/burst.png",
+            "medium": "course/lt/images/burst.png",
+            "small": "course/lt/images/burst.png"
         }
     },
     {
@@ -390,9 +390,9 @@
         "_graphic": {
             "alt": "Usability",
             "title": "",
-            "large": "course/en/images/odi-009.png",
-            "medium": "course/en/images/odi-009.png",
-            "small": "course/en/images/odi-009.png",
+            "large": "course/lt/images/odi-009.png",
+            "medium": "course/lt/images/odi-009.png",
+            "small": "course/lt/images/odi-009.png",
             "*source": "http://www.shutterstock.com/pic.mhtml?id=234298726&src=id",
             "*credit": "Sentavio",
             "*licence": "Shutterstock standard license"
@@ -459,9 +459,9 @@
         "_graphic": {
             "alt": "Structure",
             "title": "Structure",
-            "large": "course/en/images/odi-9-1.png",
-            "medium": "course/en/images/odi-9-1.png",
-            "small": "course/en/images/odi-9-1.png",
+            "large": "course/lt/images/odi-9-1.png",
+            "medium": "course/lt/images/odi-9-1.png",
+            "small": "course/lt/images/odi-9-1.png",
             "*source": "http://businesscasestudies.co.uk/unison/developing-responsiveness-through-organisational-structure/job-roles-within-a-trade-union.html#axzz3eADPmy4F",
             "*credit": "UNISON",
             "*licence": ""
@@ -528,9 +528,9 @@
         "_graphic": {
             "alt": "Format image",
             "title": "Format image",
-            "large": "course/en/images/odi-010.jpg",
-            "medium": "course/en/images/odi-010.jpg",
-            "small": "course/en/images/odi-010.jpg",
+            "large": "course/lt/images/odi-010.jpg",
+            "medium": "course/lt/images/odi-010.jpg",
+            "small": "course/lt/images/odi-010.jpg",
             "*source": "http://www.shutterstock.com/pic.mhtml?id=205002868&src=id",
             "*credit": "Blan-k",
             "*licence": "Shutterstock standard license"
@@ -546,9 +546,9 @@
         "_graphic": {
             "alt": "Summary icon clipboard",
             "title": "Summary icon clipboard",
-            "large": "course/en/images/summary-icon.png",
-            "medium": "course/en/images/summary-icon.png",
-            "small": "course/en/images/summary-icon.png",
+            "large": "course/lt/images/summary-icon.png",
+            "medium": "course/lt/images/summary-icon.png",
+            "small": "course/lt/images/summary-icon.png",
             "*source": "http://www.shutterstock.com/pic-189810137.html",
             "*credit": "Kritchanut",
             "*licence": "Shutterstock Standard License"
@@ -595,9 +595,9 @@
         "_graphic": {
             "alt": "Open data institute logo",
             "title": "Open data institute logo",
-            "large": "course/en/images/logo-small.png",
-            "medium": "course/en/images/logo-small.png",
-            "small": "course/en/images/logo-small.png",
+            "large": "course/lt/images/logo-small.png",
+            "medium": "course/lt/images/logo-small.png",
+            "small": "course/lt/images/logo-small.png",
             "*source":"http://theodi.org",
             "*credit":"The Open Data Institute",
             "*license":"All rights reserved"  
@@ -619,6 +619,6 @@
         "_component":"text",
         "_classes":"social-buttons not-dlab",
         "_layout":"right",
-        "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/en/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/en/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/en/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/en/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/en/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/en/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/en/images/social/flickr.png'></a>"
+        "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/lt/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/lt/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/lt/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/lt/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/lt/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/lt/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/lt/images/social/flickr.png'></a>"
     }
 ]
