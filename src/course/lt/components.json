@@ -1,0 +1,646 @@
+[
+    {
+        "_id":"c-01",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"intro-logo",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "",
+            "medium": "",
+            "small": ""
+        }
+    },
+    {
+        "_id":"c-02",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Atviri duomenys: priemonė pokyčiui",
+        "displayTitle":"Atviri duomenys: priemonė pokyčiui",
+        "body":"<p>Sėkmingos atvirų duomenų iniciatyvos vadovaujasi panašiomis priemonėmis. Suprantant gerus pavyzdžius galima sėkmingai įgalinti atvirus duomenis.</p><h5>Šiame modulyje:</h5><ul class='ticks'><li>atviri duomenys kaip priemonė pokyčiui</li><li>lyderystė ir įsitraukimas</li><li>pasiūla ir paklausa</li><li>kultūrinis pokytis naujoje rinkoje</li></ul>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+    "_id":"c-11",
+    "_parentId":"b-10",
+    "_type":"component",
+    "_component":"iFrame-vimeo",
+    "_classes":"",
+    "_layout":"full",
+        "title":"Susipažinimas su atvirų duomenų iniciatyvomis- per 2 minutes",
+        "displayTitle": "Susipažinimas su atvirų duomenų iniciatyvomis- per 2 minutes",
+        "body": "ODI tarptautinės plėtros vadovė Liz Carolan dalinasi penkiomis svarbiausiomis atvirų duomenų iniciatyvų įžvalgomis.",
+        "instruction": "Norint įjungti subtitrus, paskausk 'cc' mygtuką video apačioje, dešinėje pusėje.",
+        "_setCompletionOn":"ended",
+        "_source": "https://player.vimeo.com/video/129196638",
+        "_media": {
+		"mp4": "course/en/video/video.mp4",
+		"poster": "course/en/video/placeholder.jpg"
+	},
+        "_height": {
+            "_small" : 250,
+            "_medium" : 350,
+            "_large" : 508
+        }
+    },
+    {
+        "_id":"c-21",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Atviri duomenys: priemonė pokyčiui",
+            "title": "Atviri duomenys: priemonė pokyčiui",
+            "large": "course/en/images/odi-001-text_image_large.png",
+            "medium": "course/en/images/odi-001-text_image_large.png",
+            "small": "course/en/images/odi-001-text_image_large.png",
+            "*source":"http://www.shutterstock.com/pic-134315933.html",
+            "*credit":"Photoraidz",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-22",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"right",
+        "title":"Atviri duomenys: priemonė pokyčiui",
+        "displayTitle":"Atviri duomenys: priemonė pokyčiui",
+        "body":"<p>Atvirų duomenų iniciatyvų įgyvendinimas dažnai įtraukia kultūrinį institucijos pokytį.</p><p>Atviri duomenys yra daug daugiau nei duomenų įkėlimas atviromis licencijomis į internetines platformas. Technologijų pritaikymas yra lengviausia dalis- daug sunkiau yra užtikrinti kultūrinį pokytį. </p>"
+    },
+     {
+        "_id": "c-25",
+        "_parentId": "b-25",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Lyderystė ir įsitraukimas",
+        "displayTitle": "Lyderystė ir įsitraukimas",
+        "body": "Aktyvi lyderystė ir įsitraukimas skatina sėkmingas atvirų duomenų iniciatyvas ir teigiamą pokytį.",
+        "instruction": "<em class='desktop-instruction'>Paspausk rodyklę, jei nori pamatyti daugiau</em><em class='mobile-instruction'>Paspausk ‘+’ ženklą, jei nori pamatyti daugiau</em>",
+        "_items": [
+            {
+                "title": "Aktyvi lyderystė ",
+                "body": "<p>Kai yra paskelbta atvirų duomenų programa, jos lyderiams dažnai tenka įveikti pasipriešinimą organizacijos viduje. </p><p>Aktyvus palaikymas iš vadovybės padeda įtraukti ir komandą.</p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-002_large.jpg",
+                    "alt": "Active Leadership",
+                    "title": "Active Leadership",
+                    "*source":"http://www.shutterstock.com/pic-238771996.html",
+                    "*credit":"Mangsaab",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Aktyvi lyderystė "
+            },
+            {
+                "title": "Aktyvus įsitraukimas",
+                "body": "<p>Bendruomenės, verslų ir viešojo sektoriaus įsitraukimas yra esminis atvirų duomenų iniciatyvos aspektas.</p><p>Sėkmingos atvirų duomenų iniciatyvos pradeda atvėrimą nuo dialogo tarp duomenų atvėrėjų ir naudotojų.</p><p>Tokie bendradarbiavimai yra svarbūs abiems pusėms siekiant suprasti atvirų duomenų paklausą ir galimybes. </p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-003_large.jpg",
+                    "alt": "Active Engagement",
+                    "title": "Active Engagement",
+                    "*source":"http://www.shutterstock.com/pic-82049359.html",
+                    "*credit":"Carsten Reisinger",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Active Engagement"
+            },
+            {
+                "title": "Erdvė inovacijoms",
+                "body": "<p>Stipri lyderystė ir aktyvus įsitraukimas su suinteresuotomis šalimis yra raktas į sėkmingą iniciatyvą.</p><p>Aktyvi lyderystė įgalina organizacijas atverti duomenis, o dialogas- juos naudoti.</p><p>Atvirų duomenų lyderystę ir dialogas skatina inovacijų galimybes sujungiant problemas su sprendimais.</p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-004_large.jpg",
+                    "alt": "Space to innovate",
+                    "title": "Space to innovate",
+                    "*source":"http://www.shutterstock.com/pic-33265168.html",
+                    "*credit":"Tonis Pan",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Erdvė inovacijoms"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-30",
+        "_parentId":"b-28",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Supply and Demand",
+            "title": "Supply and Demand",
+            "large": "course/en/images/odi-005_large.png",
+            "medium": "course/en/images/odi-005_large.png",
+            "small": "course/en/images/odi-005_large.png",
+            "*source":"http://www.shutterstock.com/pic-245234284.html",
+            "*credit":"Positive thinker",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+      "_id":"c-35",
+      "_parentId":"b-28",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"left",
+      "title": "Pasiūla ir paklausa",
+      "displayTitle": "Pasiūla ir paklausa",
+      "body": "<p>Pradedant atvirų duomenų iniciatyvą, reikia įvertinti:</p>",
+      "instruction": "<em>Paspausk ant antraštės, jei nori pamatyti daugiau</em>",
+      "_items": [
+        {
+          "alt": "Metodus",
+          "title": "Metodus",
+          "body": "<p>Dauguma duomenų atvėrėjų pasirenka portalo sukūrimo metodą, taip atveriant turimus duomenis, ir tikintis, kad tai yra tai, ko reikia naudotojams.</p><p>Kai auga duomenų raštingumas, žmonės pradeda galvoti pirma apie duomenų paklausą ir atsižvelgiant į ją vykdo duomenų atvėrimą.</p><p>Gerai paruošta metodika padeda užtikrinti, kad organizacija duomenis atveria palaipsniui, ir sėkmę pasiekia mažais aiškiais žingsniais.</p>"
+        },
+        {
+          "alt": "Kas nori duomenų?",
+          "title": "Kas nori duomenų?",
+          "body": "<p>Nėra didelės prasmės atverti duomenis, jei niekas nėra pasiruošęs ar motyvuotas tuos duomenis naudoti.</p><p>Geriausia yra išssiaiškinti esamą paklausą.</p><p>Tai galima padaryti vykdant tiek dialogus su naudotojais, tiek apklausas.</p><p>Galvokite apie jau egzistuojančias problemas ir kaip jūsų duomenys yra su jomis susiję. Pasiūlykite savo duomenis problemoms spręsti.</p>"
+        },
+        {
+          "alt": "Kas naudos ir palaikys duomenis?",
+          "title": "Kas naudos ir palaikys duomenis?",
+          "body": "<p>Sėkmingos duomenų iniciatyvos turi bendruomenę, kuri aktyviai tuos duomenis naudoja ir tokias iniciatyvas palaiko.</p><p>Labai svarbu tiek atverėjams, tiek tiekėjams pilnai suprasti vieniems kitų planus.</p><p class='not-dlab'>Geras to pavyzdys- Open Street Map projektas.<br /><a href='https://www.openstreetmap.org/' target='_blank'>Open Street Map</a></p><p class='not-eu not-default'></p>"
+        }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+     {
+        "_id": "c-40",
+        "_parentId": "b-30",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Kultūrinis pokytis naujoje rinkoje",
+        "displayTitle": "Kultūrinis pokytis naujoje rinkoje",
+        "body": "Technologijų pritaikymas yra lengvoji dalis. Daug sunkiau yra pakeisti kultūrą.",
+        "instruction": "<em class='desktop-instruction'>Paspausk rodyklę, jei nori pamatyti daugiau</em><em class='mobile-instruction'>Paspausk ‘+’ ženklą, jei nori pamatyti daugiau</em>",
+        "_items": [
+            {
+                "title": "Naujos rinkos identifikavimas",
+                "body": "<p>Iš esmės keičiasi tradicinė atvirų duomenų rinka, kurioje viešasis sektorius atveria duomenis kitų naudojimui.</p><p>Viešasis sektorius, verslas ir visuomenė- dabar visi yra duomenų tiekėjai ir naudotojai.</p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-006_large.jpg",
+                    "alt": "New markets",
+                    "title": "New markets",
+                    "*source":"http://www.shutterstock.com/pic-164731838.html",
+                    "*credit":"STH",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Nauja rinka"
+            },
+            {
+                "title": "Kultūrinis pokytis",
+                "body": "<p>Atvirų duomenų pritaikymas reikalauja pokyčio organizacijos veikloje.</p><p>Atvirų duomenų iniciatyvų lyderiai turi praleisti laiko vystant viziją, įveikiant kliūtis ir skatinant bendradarbiavimą.</p><p>Duomenų naudotojai turi galėti įsitraukti atvirus duomenis į savo duomenų infrastruktūros branduolį. </p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-007_large.jpg",
+                    "alt": "Culture change",
+                    "title": "Culture change",
+                    "*source":"http://www.shutterstock.com/pic-257301595.html",
+                    "*credit":"Anna Omelchenko",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Kultūrinis pokytis"
+            },
+            {
+                "title": "Pokyčio planavimas",
+                "body": "<p>Šiandien turime aiškių pokyčio planavimo būdų.</p><p>Viešasis sektorius, organizacijos ir individai turi turėti prieigą prie priemonių, kurios padeda planuoti ateitį.</p><p>Pilotiniai projektai ir praktinės iniciatyvos atlieka didelį vaidmenį norint suprasti, kokio masto yra atvirų duomenų poveikis. Yra įrankių ir priemonių, kurie padeda planuoti pokyti, pvz. ODI Open Data Pathway.<br /><a href='http://pathway.theodi.org/' target='_blank'>ODI Open Data Pathway</a></p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-008_large.jpg",
+                    "alt": "Planning for change",
+                    "title": "Planning for change",
+                    "*source":"http://www.shutterstock.com/pic-53095825.html",
+                    "*credit":"Mikael Damkier",
+                    "*license":"Shutterstock Standard License"
+                },
+                "strapline": "Pokyčio planavimas"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-42",
+        "_parentId":"b-32",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/burst-indigo.png",
+            "medium": "course/en/images/burst-indigo.png",
+            "small": "course/en/images/burst-indigo.png"
+        }
+    },
+    {
+        "_id":"c-43",
+        "_parentId":"b-32",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Ar jūs pasiruošę kultūriniam pokyčiui?",
+        "displayTitle":"Ar jūs pasiruošę kultūriniam pokyčiui?",
+        "body":"<p>Yra keturi pagrindiniai sėkmingos atvirų duomenų iniciatyvos bruožai. Ar gali juos prisiminti?</p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-45",
+        "_parentId":"b-35",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Lyderystė ir įsitraukimas",
+            "title": "",
+            "large": "course/en/images/odi-009-text-image_large.png",
+            "medium": "course/en/images/odi-009-text-image_large.png",
+            "small": "course/en/images/odi-009-text-image_large.png",
+            "*source":"http://www.shutterstock.com/pic-134315933.html",
+            "*credit":"Photoraidz",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    
+    {
+        "_id":"c-50",
+        "_parentId":"b-35",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"588f1806b61c46e176e7ea52",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Lyderystė ir įsitraukimas",
+        "displayTitle": "Lyderystė ir įsitraukimas",
+        "body": "<p>Kokie yra du pagrindiniai bendradarbiavimo faktoriai sėkmingai duomenų atvėrimo iniciatyvai?</p>",
+        "instruction": "<em>Pasirink teisingą atsakymą ir spausk ‘submit’</em>",
+        "_items": [
+            {
+                "text": "Emotional intelligence and patience",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Strong leadership and active engagement",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "Friendliness and empathy",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Teisingai!</h5><p>Stipri lyderystė ir aktyvus įsitraukimas yra kritiniai elementai sėkmingai iniciatyvai.</p>",
+            "_incorrect": {
+                "notFinal": "h5>Ar tikrai?</h5><p>Stipri lyderystė ir aktyvus įsitraukimas yra kritiniai elementai sėkmingai iniciatyvai.</p>",
+                "final": "h5>Ar tikrai?</h5><p>Stipri lyderystė ir aktyvus įsitraukimas yra kritiniai elementai sėkmingai iniciatyvai.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "h5>Ar tikrai?</h5><p>Stipri lyderystė ir aktyvus įsitraukimas yra kritiniai elementai sėkmingai iniciatyvai.</p>",
+                "final": "h5>Ar tikrai?</h5><p>Stipri lyderystė ir aktyvus įsitraukimas yra kritiniai elementai sėkmingai iniciatyvai.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-55",
+        "_parentId":"b-40",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Supply and demand",
+            "title": "",
+            "large": "course/en/images/odi-010-mcq_large.png",
+            "medium": "course/en/images/odi-010-mcq_large.png",
+            "small": "course/en/images/odi-010-mcq_large.png",
+            "*source":"http://www.shutterstock.com/pic-238771996.html",
+            "*credit":"Mangsaab",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-60",
+        "_parentId":"b-40",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"588f1a34b61c46e176e7ea58",
+        "_classes":"",
+        "_layout":"right",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Pasiūla ir paklausa",
+        "displayTitle": "Pasiūla ir paklausa",
+        "body": "<p>Kokie šiuolaikiniai būdai turi buti naudojami planuojant atvirų duomenų iniciatyvas?</p>",
+        "instruction": "<em>Pasirink teisingą atsakymą ir spausk ‘submit’</em>",
+        "_items": [
+            {
+                "text": "viešinti duomenis ir tikėtis, kad juos kažkas panaudos",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "pagalvoti apie savo poreikius",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "pasinaudoti duomenų naudotojų poreikiais",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Teisingai!</h5><p>Priklausomai nuo atvirų duomenų bendruomenės brandos, dauguma atverėjų naudojasi naudotojų poreikiais ir jų įžvalgomis.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Ar tikrai?</h5><p>Priklausomai nuo atvirų duomenų bendruomenės brandos, dauguma atverėjų naudojasi naudotojų poreikiais ir jų įžvalgomis.</p>",
+                "final": "<h5>Ar tikrai?</h5><p>Priklausomai nuo atvirų duomenų bendruomenės brandos, dauguma atverėjų naudojasi naudotojų poreikiais ir jų įžvalgomis.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Ar tikrai?</h5><p>Priklausomai nuo atvirų duomenų bendruomenės brandos, dauguma atverėjų naudojasi naudotojų poreikiais ir jų įžvalgomis.</p>",
+                "final": "<h5>Ar tikrai?</h5><p>Priklausomai nuo atvirų duomenų bendruomenės brandos, dauguma atverėjų naudojasi naudotojų poreikiais ir jų įžvalgomis.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-65",
+        "_parentId":"b-45",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Culture change for new markets",
+            "title": "",
+            "large": "course/en/images/odi-011-mcq_large.jpg",
+            "medium": "course/en/images/odi-011-mcq_large.jpg",
+            "small": "course/en/images/odi-011-mcq_large.jpg",
+            "*source":"http://www.shutterstock.com/pic-245234284.html",
+            "*credit":"Positive thinker",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-70",
+        "_parentId":"b-45",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"588f1fe8b61c46e176e7ea5c",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Kultūrinis pokytis naujoje rinkoje",
+        "displayTitle": "Kultūrinis pokytis naujoje rinkoje",
+        "body": "<p>Žmonės, kurie vadovauja atvirų duomenų iniciatyvoms, daugiausia laiko praleidžia..</p>",
+        "instruction": "<em>Pasirink teisingą atsakymą ir spausk ‘submit’</em>",
+        "_items": [
+            {
+                "text": "įveikiant kliūtis, skatinant bendradarbiavimą ir vedant link pokyčio",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "kalbant su kitais duomenų atverėjais",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "studijuojant savo duomenų rinkinius",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Teisingai!</h5><p>Atviri duomenys dažnai reikalauja pokyčio organizacijos valdyme ir veikloje. Žmonės, kurie vadovauja atvirų duomenų iniciatyvoms, daugiausia laiko praleidžia įveikdami kliūtis, skatinandami bendradarbiavimą ir vedantys link pokyčio</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Ar tikrai?</h5><p>Atviri duomenys dažnai reikalauja pokyčio organizacijos valdyme ir veikloje. Žmonės, kurie vadovauja atvirų duomenų iniciatyvoms, daugiausia laiko praleidžia įveikdami kliūtis, skatinandami bendradarbiavimą ir vedantys link pokyčio</p>",
+                "final": "<h5>Ar tikrai?</h5><p>Atviri duomenys dažnai reikalauja pokyčio organizacijos valdyme ir veikloje. Žmonės, kurie vadovauja atvirų duomenų iniciatyvoms, daugiausia laiko praleidžia įveikdami kliūtis, skatinandami bendradarbiavimą ir vedantys link pokyčio</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Ar tikrai?</h5><p>Atviri duomenys dažnai reikalauja pokyčio organizacijos valdyme ir veikloje. Žmonės, kurie vadovauja atvirų duomenų iniciatyvoms, daugiausia laiko praleidžia įveikdami kliūtis, skatinandami bendradarbiavimą ir vedantys link pokyčio</p>",
+                "final": "<h5>Ar tikrai?</h5><p>Atviri duomenys dažnai reikalauja pokyčio organizacijos valdyme ir veikloje. Žmonės, kurie vadovauja atvirų duomenų iniciatyvoms, daugiausia laiko praleidžia įveikdami kliūtis, skatinandami bendradarbiavimą ir vedantys link pokyčio</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-75",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Planning for change",
+            "title": "",
+            "large": "course/en/images/odi-012-mcq_large.png",
+            "medium": "course/en/images/odi-012-mcq_large.png",
+            "small": "course/en/images/odi-012-mcq_large.png",
+            "*source":"http://www.shutterstock.com/pic-164731838.html",
+            "*credit":"STH",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-80",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"588f2133b61c46e176e7ea62",
+        "_classes":"",
+        "_layout":"right",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Pokyčio planavimas",
+        "displayTitle": "Pokyčio planavimas",
+        "body": "<p><strong>Viešasis sektorius, organizacijos ir individai turi turėti prieigą prie ..</strong></p>",
+        "instruction": "<em>Pasirink teisingą atsakymą ir spausk ‘submit’</em>",
+        "_items": [
+            {
+                "text": "didžiųjų duomenų (big data)",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "visų atvirų duomenų",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "priemonių, kurios padeda planuoti ateitį.",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Teisingai!</h5><p>Viešasis sektorius, organizacijos ir individai turi turėti prieigą prie priemonių, kurios padeda planuoti ateitį.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Ar tikrai?</h5><p>Viešasis sektorius, organizacijos ir individai turi turėti prieigą prie priemonių, kurios padeda planuoti ateitį.</p>",
+                "final": "<h5>Ar tikrai?</h5><p>Viešasis sektorius, organizacijos ir individai turi turėti prieigą prie priemonių, kurios padeda planuoti ateitį.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Ar tikrai?</h5><p>Viešasis sektorius, organizacijos ir individai turi turėti prieigą prie priemonių, kurios padeda planuoti ateitį.</p>",
+                "final": "<h5>Ar tikrai?</h5><p>Viešasis sektorius, organizacijos ir individai turi turėti prieigą prie priemonių, kurios padeda planuoti ateitį.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-85",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Summary icon clipboard",
+            "title": "Summary icon clipboard",
+            "large": "course/en/images/summary-icon.png",
+            "medium": "course/en/images/summary-icon.png",
+            "small": "course/en/images/summary-icon.png",
+            "*source":"http://www.shutterstock.com/pic-189810137.html",
+            "*credit":"Kritchanut",
+            "*license":"Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-90",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Atviri duomenys: priemonė pokyčiui",
+        "displayTitle":"Atviri duomenys: priemonė pokyčiui",
+        "body":"<p>Atvirų duomenų iniciatyvos dažnai reikalauja kultūrinio ir organizacinio pokyčio.</p><p>Svarbi proceso dalis- visuomenės, verslo ir viešojo sektoriaus įsitraukimas.</p><p>Kuo brandesnė duomenų naudotojų bendruomenė, tuo lengviau įtraukti ją į ankstyvą duomenų iniciatyvos planavimo dalį.</p><p>Atviri duomenys reiklauja kitaip galvoti apie rinkos ir duomenų funkcijas.</p><p><a class='course_link' href='../module4/'>Kitas modulis</a></p><p><a class='course_link' href='../'>Pagrindinis puslapis</a></p>",
+        "_pageLevelProgress": {
+          "_isEnabled": true
+        }
+    },
+    {
+       "_id":"c-95",
+       "_parentId":"b-55",
+       "_type":"component",
+       "_component":"text",
+       "_classes":"separator",
+       "_layout":"full"
+    },
+    {
+       "_id":"c-96",
+       "_parentId":"b-55",
+       "_type":"component",
+       "_component":"text",
+       "_classes": "attribution",
+       "body":"&copy; <a href='https://ec.europa.eu/commission/index_en' target='_blank'>European Commission</a>",
+       "_layout":"full"
+    },
+    {
+        "_id":"c-100",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"footer-logo",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Open data institute logo",
+            "title": "Open data institute logo",
+            "large": "course/en/images/logo-small.png",
+            "medium": "course/en/images/logo-small.png",
+            "small": "course/en/images/logo-small.png",
+            "*source":"http://theodi.org",
+            "*credit":"The Open Data Institute",
+            "*license":"All rights reserved"  
+        }
+    },
+    {
+        "_id":"c-104",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"attribution not-eu not-default",
+        "_layout":"right",
+        "body":"Content created by <a href='http://theodi.org' target='_blank'>The Open Data Institute</a>"
+    },
+    {
+        "_id":"c-105",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"social-buttons not-dlab",
+        "_layout":"right",
+        "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/en/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/en/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/en/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/en/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/en/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/en/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/en/images/social/flickr.png'></a>"
+    }
+]
