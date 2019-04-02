@@ -1,0 +1,455 @@
+[
+    {
+        "_id":"c-01",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"intro-logo",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "",
+            "medium": "",
+            "small": "",
+            "*source":"",
+            "*credit":"",
+            "*license":""
+        }
+    },
+    {
+        "_id":"c-02",
+        "_parentId":"b-01",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Ar naudingi mano duomenys?",
+        "displayTitle":"Ar naudingi mano duomenys?",
+        "body":"<p>Duomenų naudos įvertinimas priklauso nuo srities ir turinio. Tam, kad būtų galima įvertinti šį procesą, yra sukurta daugybė gairių, kurias visi duomenų atverėjai ir naudotojai gali naudotis.</p><p>Šiame modulyje aprašomas 5 žvaigždučių (5 stars) metodas, skirtas duomenų brandos lygiui įvertinti.</p><h5>Šiame modulyje:</h5><ul class='ticks'><li>Kas yra 5 žvaigždučių metodas</li><li>Pirmos 3 žvaigždutės</li><li>Kaip žvaigždutėmis įvertinti duomenis</li></ul>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-11",
+        "_parentId":"b-10",
+        "_type":"component",
+        "_component":"iFrame-vimeo",
+        "_classes":"",
+        "_layout":"full",
+        "title":"Duomenų brandos lygio įvertinimas per 2 minutes",
+        "displayTitle": "Duomenų brandos lygio įvertinimas per 2 minutes",
+        "body": "Dr. Davidas Tarantas (ODI) pristato 5 žvaigždučių atvirų duomenų įvertinimo metodą ir kaip jį naudoti.",
+        "instruction": "Norint įjungti subtitrus, paskausk 'cc' mygtuką video apačioje, dešinėje pusėje.",
+        "_setCompletionOn":"ended",
+        "_source": "https://player.vimeo.com/video/129197206",
+        "_media": {
+		"mp4": "course/en/video/video.mp4",
+		"poster": "course/en/video/placeholder.jpg"
+	},
+        "_height": {
+            "_small" : 250,
+            "_medium" : 350,
+            "_large" : 508
+        }
+    },
+    {
+        "_id":"c-21",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "5 žvaigždutės (5 stars)",
+            "title": "5 žvaigždutės (5 stars)",
+            "large": "course/en/images/odi-001.jpg",
+            "medium": "course/en/images/odi-001.jpg",
+            "small": "course/en/images/odi-001.jpg",
+            "*source": "http://www.shutterstock.com/pic.mhtml?id=171677003&src=lb-36497927",
+            "*credit": "vs148",
+            "*licence": "Shutterstock open licence"
+        }
+    },
+    {
+        "_id":"c-22",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"right",
+        "title":"5 žvaigždutės (5 stars)",
+        "displayTitle":"5 žvaigždutės (5 stars)",
+        "body":"<p>5 atvirų duomenų žvaigždutės nurodo esmines duomenų rinkinio technines specifikacijas. Tai yra duomenų brandos lygio įvertinimo būdas.</p><p>Šis metodas leidžia pasitikrinti duomenų prieinamumą ir techninį panaudojamumą pradedant nuo duomenų rinkinio buvimo online (1 žvaigždutė) iki buvimo tinklo dalimi (5 žvaigždutės). Kiekviena žvaigždutė yra įvertinama pagal seką ir negali būti praleista.</p><p>Šias gaires sukūrė Tim Berners-Lee 2001 m. ir nuo tada yra plačiai taikomos skirtingose duomenų atvėrimo iniciatyvose<span class='not-dlab'>, pvz. Italijos skaitmeninėje agentūroje (Italian Digital Agency).<br/><a href='http://spcdata.digitpa.gov.it/data.html' target='_blank'>Italijos skaitmeninė agentūra (Italian Digital Agency)</a></span><span class='not-eu not-default'>.</span></p><p>Šiame modulyje nagrinėsime pirmas 3 žvaigždutes, skirtų lentelėmis grįstais duomenimis. Paskutines dvi žvagždutės nagrinėjamos <a href='../module13/'>kitame modulyje</a>.</p>"
+    },
+    {
+        "_id":"c-30",
+        "_parentId":"b-30",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Pirmos 3 žvaigždutės",
+            "title": "Pirmos 3 žvaigždutės",
+            "large": "course/en/images/odi-002.jpg",
+            "medium": "course/en/images/odi-002.jpg",
+            "small": "course/en/images/odi-002.jpg",
+            "*source": "http://www.shutterstock.com/pic.mhtml?id=188328170&src=lb-36497927",
+            "*credit": "vs148",
+            "*licence": "Shutterstock open licence"
+        }
+    },
+    {
+      "_id":"c-35",
+      "_parentId":"b-30",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"left",
+      "title": "Pirmos 3 žvaigždutės",
+      "displayTitle": "Pirmos 3 žvaigždutės",
+      "body": "<p>Pirmos 3 duomenų įvertinimo žvaigždutės užtikrina, kad duomenys yra tinkami panaudojamui.</p>",
+      "instruction": "<em>Paspausk ant antraštės, jei nori pamatyti daugiau.</em>",
+      "_items": [
+        {
+          "alt": "1 žvaigždutė- atvira licencija",
+          "title": "1 žvaigždutė- atvira licencija",
+          "body": "<p>Viena žvaigždute įvertinami duomenys yra pačio paprasčiausio brandos lygio. Tokių duomenų turinys bet kokiu formatu gali būti naudojamas pagal atitinkamą atvirą licenciją.</p><p>Nepriklausomai nuo duomenų rinkinio kokybės, vienai žvaigždutei užtikrinti būtinas licencijos buvimas.</p><p>PDF dokumento buvimas internete su atvira licencija yra pakankama viena žvaigždutei pasiekti.</p>"
+        },
+        {
+          "alt": "2 žvaigždutės- panaudojamas formatas",
+          "title": "2 žvaigždutės- panaudojamas formatas",
+          "body": "<p>Antroji žvaigždutė suteikiama bet kokiems duomenims, kurie užtikrina paprastą pakartotinį panaudojimą. Tokie duomenys turi turėti struktūrą ir formatą, dėl kurių yra tinkami mašininio nuskaitymo būdui.</p><p>Norint pasiekti antrąją žvaigždutę yra svarbu pasirinkti labiausiai pakartotiniam naudojimui tinkamą formatą. Kai kuriais atvejais labiausiai pakartotiniam panaudojimui tinkamas formatas gali būti Excel arba Numbers formatas.</p><p>Duomenų atvėrimas bet kokiu formatu yra geriau, nei joks atvėrimas.</p>"
+        },
+        {
+          "alt": "3 žvaigždutės- atviras formatas",
+          "title": "3 žvaigždutės- atviras formatas",
+          "body": "<p>TTrečios žvaigždutės pasiekimui duomenys privalo būti prieinami struktūrizuotu, mašininiu būdu nuskaitomu formatu kuris nėra surištas su jokia specifine programine įranga.</p><p>Dažniausiai pasitaikantis trečio brandos lygio formatas- CSV failas su atitinkama atvira licencija.</p><p>Italijos energijos įmonė Enel yra geras 3 žvaigždučių dumenų rinkinio pavyzdys.<br /><a href='http://data.enel.com/node/4679' target='_blank'>Enel</a></p>"
+        }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+   {
+        "_id": "c-45",
+        "_parentId": "b-40",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Atvirų duomenų brandos lygiai",
+        "displayTitle": "Atvirų duomenų brandos lygiai",
+        "body": "Kiekviena žvaigždutė reprezentuoja duomenų rinkinio kokybės pagerėjimą. Naudokite tolimesnius žingsnius paprastam pasitikrinimui, kokio brandos lygio yra bet koks duomenų rinkinys.",
+        "instruction": "<em class='desktop-instruction'>Click the forward arrow to see more.</em><em class='mobile-instruction'>Paspausk ‘+’ ženklą, jei nori pamatyti daugiau.</em>",
+        "_items": [
+            {
+                "title": "1 žvaigždutė- licencijos suradimas",
+                "body": "<p>Surasti licenciją atviram duomenų rinkiniui gali būti sunkiausias žingsnis.</p><p>Atvira licencija yra aiškus leidimas naudoti duomenis tiek komerciniais, tiek nekomerciniais tikslais. Ji gali būti:</p><ul class=ticks><li>Metaduomenyse apie duomenis.</li><li>Internetinio puslapio naudojimo sąlygose.</li><li>Gali būti popup formate paspaudus ant duomenų rinkinio.</li><li>Duomenų rinkinio viduje.</li></ol></p><p>Interneto puslapiai licencijų informaciją pateikia skirtingai, todėl kartais jų gali tekti paieškoti.</p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-003.jpg",
+                    "alt": "1 žvaigždutė- licencijos suradimas",
+                    "title": "1 žvaigždutė- licencijos suradimas",
+                    "*source": "http://www.shutterstock.com/pic.mhtml?id=148686812&src=lb-36497927",
+                    "*credit": "vs148",
+                    "*licence": "Shutterstock open licence"
+                },
+                "strapline": "Providing certainty"
+            },
+            {
+                "title": "2 žvaigždutės- panaudojamumo patikrinimas",
+                "body": "<p>Suradus duomenų rinkinį internete, yra keli skirtingi būdai pasitikrinti, kiek jie yra naudingi. Reikia įsitikinti:<ul class='ticks'><li>ar tai labiausiai naudotojui patogus formatas šiam duomenų rinkiniui?</li><li>ar šitas failas atrodo toks pat, kaip ir duomenų atverėjo naudojamas?</li><li>ar yra bet kokios kitos informacijos, kuri yra pridėta žmogaus?</li></ul></p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-004.jpg",
+                    "alt": "2 žvaigždutės- panaudojamumo patikrinimas",
+                    "title": "2 žvaigždutės- panaudojamumo patikrinimas",
+                    "*source": "http://www.shutterstock.com/pic.mhtml?id=144334663&src=lb-36497927",
+                    "*credit": "vs148",
+                    "*licence": "Shutterstock open licence"
+                },
+                "strapline": "Providing clarity"
+            },
+            {
+                "title": "3 žvaigždutės- atvirumo patikrinimas",
+                "body": "<p>Kartais yra sunku įvertinti atvirumą. Sekantys klausimai padės įvertinti, kiek duomenys yra prieinami atviru formatu:<ul class='ticks'><li>ar galiu atidaryti tą patį failą skirtingomis programomis mano komputeryje ir matyti pilną failo funkcionalumą?</li><li>ar specifinis failas nereikalauja parsisiųsti specialios programos jam atidaryti?</li></ul></p><p>Paprastai populiariausias formatas yra CSV ir jį lengviausia identifikuoti. CSV atitinka 3 žvaigždučių standartą, jei kitos dvi yra įgyvendintos.<span class='not-eu'>Jungtinės Karalystės atvirų duomenų portalas turi gerų duomenų rinkinių pavyzdžių CSV formatu, prie kurių yra nurodyta aiški licencija ir failo formatas.<br /><a href='https://data.gov.uk/dataset/spend-over-25-000-in-fco-services' target='_blank'>Jungtinės Karalystės atvirų duomenų portalas</a></span></p><p>Daugelis atvirų duomenų portalų naudoja ODF formatą. Tokie formatai atrodo tinkantys atviriems duomenims, tačiau gali būti sunku identifikuoti teisingą įrankį šių failų atidarymui.</p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-005.jpg",
+                    "alt": "3 žvaigždutės- atvirumo patikrinimas",
+                    "title": "3 žvaigždutės- atvirumo patikrinimas",
+                    "*source": "http://www.shutterstock.com/pic.mhtml?id=142601674&src=lb-36497927",
+                    "*credit": "vs148",
+                    "*licence": "Shutterstock open licence"
+                },
+                "strapline": "Enabling innovation"
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-52",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/burst.png",
+            "medium": "course/en/images/burst.png",
+            "small": "course/en/images/burst.png"
+        }
+    },
+    {
+        "_id":"c-53",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Ar gali įvertinti duomenų atvirumą?",
+        "displayTitle":"Ar gali įvertinti duomenų atvirumą?",
+        "body":"<p>Iš viso yra keturi paprasti kriterijai, skirti duomenų atvirumui nustatyti. Ar prisimeni juos?</p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-65",
+        "_parentId":"b-60",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "5 žvaigždutės (5 stars)",
+            "title": "",
+            "large": "course/en/images/odi-006.jpg",
+            "medium": "course/en/images/odi-006.jpg",
+            "small": "course/en/images/odi-006.jpg",
+            "*source": "http://www.shutterstock.com/pic.mhtml?id=171677003&src=lb-36497927",
+            "*credit": "vs148",
+            "*licence": "Shutterstock open licence"
+        }
+    },
+    
+    {
+        "_id":"c-60",
+        "_parentId":"b-60",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"58920ea1b61c46e176e7f075",
+        "_classes":"",
+        "_layout":"left",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Kaip įvertinti duomenų atvirumą naudojant žvaigždučių metodą?",
+        "displayTitle": "Kaip įvertinti duomenų atvirumą naudojant žvaigždučių metodą?",
+        "body": "<p>Kaip įvertintum internete rasto duomenų rinkinio atvirumą?</p>",
+        "instruction": "<em>Pasirink teisingą atsakymą ir spausk ‘submit’</em>",
+        "_items": [
+            {
+                "text": "Žiūrėčiau į kiekvienos žvaigždutės aprašymą ir vertinčiau pagal aukščiausią pasiektą",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Pradėčiau nuo pirmos žvaigždutės ir vertinčiau kiekvieną paeiliui",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "Bandyčiau atspėti",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Teisingai!</h5><p>Duomenų brandos lygis ir atitinkamo žvaigždučių kiekio priskyrimas turi būti vertinamas paeliui.</p>",
+            "_incorrect": {
+                "notFinal": "h5>Ar tikrai?</h5><p>Duomenų brandos lygis ir atitinkamo žvaigždučių kiekio priskyrimas turi būti vertinamas paeliui.</p>",
+                "final": "<h5>Ar tikrai?</h5><p>Duomenų brandos lygis ir atitinkamo žvaigždučių kiekio priskyrimas turi būti vertinamas paeliui.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Ar tikrai?</h5><p>Duomenų brandos lygis ir atitinkamo žvaigždučių kiekio priskyrimas turi būti vertinamas paeliui.</p>",
+                "final": "<h5>Ar tikrai?</h5><p>Duomenų brandos lygis ir atitinkamo žvaigždučių kiekio priskyrimas turi būti vertinamas paeliui.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-70",
+        "_parentId":"b-70",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"illustration",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Kas yra antra žvaigždutė?",
+            "title": "",
+            "large": "course/en/images/odi-007.jpg",
+            "medium": "course/en/images/odi-007.jpg",
+            "small": "course/en/images/odi-007.jpg",
+            "*source": "http://www.shutterstock.com/pic.mhtml?id=144334663&src=lb-36497927",
+            "*credit": "vs148",
+            "*licence": "Shutterstock open licence"
+        }
+    },
+    {
+        "_id":"c-71",
+        "_parentId":"b-70",
+        "_type":"component",
+        "_component":"mcq",
+        "_adapt2id":"5892127cb61c46e176e7f080",
+        "_classes":"",
+        "_layout":"right",
+        "_attempts":1,
+        "_questionWeight":1,
+        "_isRandom":true,
+        "_selectable":1,
+        "title": "Kas yra antra žvaigždutė?",
+        "displayTitle": "Kas yra antra žvaigždutė?",
+        "body": "<p>Antra žvaigždutė skiriama už..</p>",
+        "instruction": "<em>Pasirink teisingą atsakymą ir spausk ‘submit’</em>",
+        "_items": [
+            {
+                "text": "atvirą licenciją",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "atvirą formatą",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "pakartotiniam panaudojimui tinkamą formatą",
+                "_shouldBeSelected": true
+            }
+        ],
+        "_feedback":{
+            "correct":"<h5>Teisingai!</h5><p>Antra žvaigždutė yra skirta duomenų panaudojamumui ir duomenims, kurie yra prieinami labiausiai pakartotiniam panaudojimui tinkančiu formatu.</p>",
+            "_incorrect": {
+                "notFinal": "<h5>Ar tikrai?</h5><p>Antra žvaigždutė yra skirta duomenų panaudojamumui ir duomenims, kurie yra prieinami labiausiai pakartotiniam panaudojimui tinkančiu formatu.</p>",
+                "final": "<h5>Ar tikrai?</h5><p>Antra žvaigždutė yra skirta duomenų panaudojamumui ir duomenims, kurie yra prieinami labiausiai pakartotiniam panaudojimui tinkančiu formatu.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<h5>Ar tikrai?</h5><p>Antra žvaigždutė yra skirta duomenų panaudojamumui ir duomenims, kurie yra prieinami labiausiai pakartotiniam panaudojimui tinkančiu formatu.</p>",
+                "final": "<h5>Ar tikrai?</h5><p>Antra žvaigždutė yra skirta duomenų panaudojamumui ir duomenims, kurie yra prieinami labiausiai pakartotiniam panaudojimui tinkančiu formatu.</p>"
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+    {
+        "_id":"c-115",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Summary icon clipboard",
+            "title": "Summary icon clipboard",
+            "large": "course/en/images/summary-icon.png",
+            "medium": "course/en/images/summary-icon.png",
+            "small": "course/en/images/summary-icon.png",
+            "*source": "http://www.shutterstock.com/pic-189810137.html",
+            "*credit": "Kritchanut",
+            "*licence": "Shutterstock Standard License"
+        }
+    },
+    {
+        "_id":"c-110",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Duomenų panaudojamumo įvertinimas",
+        "displayTitle":"Duomenų panaudojamumo įvertinimas",
+        "body":"<p>Duomenų naudos įvertinimas priklauso nuo srities ir turinio. Tam, kad būtų galima įvertinti šį procesą, yra sukurta daugybė gairių, iš kurių populiariausias- 5 žvaigždučių metodas.</p><p>5 atvirų duomenų žvaigždutės nurodo esmines duomenų rinkinio technines specifikacijas ir kaip gerai rinkinys yra integruotas į tinklą. Duomenų brandos lygis ir atitinkamo žvaigždučių kiekio priskyrimas turi būti vertinamas paeliui.<h5>Šiame modulyje mes susipažinome su pirmais trimis brandos lygiais:</h5><ul class='ticks'><li>Atvira licencija</li><li>Pakartotiniam panaudojimui tinkamu formatu</li><li>Atviru formatu.</li></ul><p>Apie kitas dvi žvaigždutes susipažinkite <a href='../module13/'>kitame modulyje</a>.</p><p><a class='course_link' href='../module11/'>Kitas modulis</a></p><p><a class='course_link' href='../'>Pagrindinis puslapis</a></p>",
+        "_pageLevelProgress": {
+          "_isEnabled": true
+        }
+    },
+    {
+       "_id":"c-111",
+       "_parentId":"b-110",
+       "_type":"component",
+       "_component":"text",
+       "_classes":"separator",
+       "_layout":"full"
+    },
+    {
+       "_id":"c-1111",
+       "_parentId":"b-110",
+       "_type":"component",
+       "_component":"text",
+       "_classes": "attribution",
+       "body":"&copy; <a href='https://ec.europa.eu/commission/index_en' target='_blank'>European Commission</a>",
+       "_layout":"full"
+    },
+    {
+        "_id":"c-100",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"footer-logo",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "Open data institute logo",
+            "title": "Open data institute logo",
+            "large": "course/en/images/logo-small.png",
+            "medium": "course/en/images/logo-small.png",
+            "small": "course/en/images/logo-small.png",
+            "*source":"http://theodi.org",
+            "*credit":"The Open Data Institute",
+            "*license":"All rights reserved"  
+        }
+    },
+    {
+        "_id":"c-104",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"attribution not-eu not-default",
+        "_layout":"right",
+        "body":"Content created by <a href='http://theodi.org' target='_blank'>The Open Data Institute</a>"
+    },
+    {
+        "_id":"c-105",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"social-buttons not-dlab",
+        "_layout":"right",
+        "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/en/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/en/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/en/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/en/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/en/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/en/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/en/images/social/flickr.png'></a>"
+    }
+]
