@@ -85,12 +85,20 @@ echo ""
 
 # Find the theme path
 SRCTHEME=$THEME
-if [ ! -f src/theme/$SRCTHEME/less/custom.less ];
+if [ ! -f src/theme/$SRCTHEME/less/custom.less ]
 then
         SRCTHEME="default"
-        echo "moving style into from from default theme" 
+        echo "moving custom style in from default theme" 
 	echo ""
 	cp src/theme/$SRCTHEME/less/custom.less src/theme/$THEME/less/
+	REMOVE=true
+fi
+SRCTHEME=$THEME
+if [ ! -f src/theme/$SRCTHEME/less/theme.less ]
+then
+        SRCTHEME="default"
+        echo "moving theme style in from default theme" 
+	echo ""
 	cp src/theme/$SRCTHEME/less/theme.less src/theme/$THEME/less/
 	REMOVE=true
 fi
