@@ -1,653 +1,686 @@
 [
-    {
-        "_id":"c-01",
-        "_parentId":"b-01",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"intro-logo",
-        "_layout":"right",
-        "title":"",
-        "displayTitle":"",
-        "body":"",
-        "instruction":"",
-        "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "",
-            "medium": "",
-            "small": ""
-        }
+  {
+    "_id": "59400a14d084d5167a04fa58",
+    "_layout": "right",
+    "_parentId": "b-06",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
     },
-    {
-        "_id":"c-02",
-        "_parentId":"b-01",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"",
-        "_layout":"left",
-        "title":"Atvirų duomenų potencialas",
-        "displayTitle":"Atvirų duomenų potencialas",
-        "body":"<p>Atviri duomenys skatina ekonomikos augimą, visuomeniškumą, efektyvumą.</p><p>Šiame modulyje analizuojama kaip viešasis sektorius, verslas ir visuomenė naudoja atvirus duomenis.</p><h5>Šiame modulyje:</h5><ul class='ticks'><li>inovacijos ir verslo plėtra</li><li>galimybės viešajam sektoriui</li><li>poveikis visuomenei ir viešajai politikai</li><li>nauda kultūrai ir aplinkai.</li></ul>",
-        "instruction":"",
-        "_pageLevelProgress": {
-            "_isEnabled": true
-        }
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/lt/assets/a516261fb9cb309e3b3d1116a192ecfc2a70fbad.png",
+      "small": "course/lt/assets/a516261fb9cb309e3b3d1116a192ecfc2a70fbad.png",
+      "attribution": ""
+    }
+  },
+  {
+    "_id": "59400a14d084d5167a04fa73",
+    "_layout": "left",
+    "_parentId": "b-09",
+    "_type": "component",
+    "body": "<p dir=\"ltr\"><strong>Socialinio poveikio indikatoriai atvirų duomenų poveikio Europoje yra..</strong></p>",
+    "displayTitle": "Kaip įvertinti poveikį?",
+    "title": "Kaip įvertinti poveikį?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "mcq",
+    "_pageLevelProgress": {
+      "_isEnabled": true
     },
-    {
-    "_id":"c-11",
-    "_parentId":"b-10",
-    "_type":"component",
-    "_component":"iFrame-vimeo",
-    "_classes":"",
-    "_layout":"full",
-        "title":"Atvirų duomenų nauda per 3 minutes",
-        "displayTitle": "Atvirų duomenų nauda per 3 minutes",
-        "body": "ODI mokytojas Ben Cave nagrinėja kaip verslas ir viešasis sektorius naudojau atvirus duomenis ir kokią vertę tai turi ekonomikai, visuomenei ir aplinkai.",
-        "instruction": "Norint įjungti subtitrus, paskausk 'cc' mygtuką video apačioje, dešinėje pusėje.",
-        "_setCompletionOn":"ended",
-        "_source": "https://player.vimeo.com/video/129196639",
-        "_media": {
-		"mp4": "course/lt/video/video.mp4",
-		"poster": "course/lt/video/placeholder.jpg"
-	},
-        "_height": {
-            "_small" : 250,
-            "_medium" : 350,
-            "_large" : 508
-        }
-    },
-    {
-        "_id":"c-21",
-        "_parentId":"b-20",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"right",
-        "_graphic": {
-            "alt": "Inovacijos ir verslo plėtra",
-            "title": "Inovacijos ir verslo plėtra",
-            "large": "course/lt/images/odi-001-text-image_large.png",
-            "medium": "course/lt/images/odi-001-text-image_large.png",
-            "small": "course/lt/images/odi-001-text-image_large.png",
-            "*source":"http://www.shutterstock.com/pic-230887714.html",
-            "*credit":"Bloomua",
-            "*license":"Shutterstock Standard License"
-        }
-    },
-    {
-        "_id":"c-22",
-        "_parentId":"b-20",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"",
-        "_layout":"left",
-        "title":"Inovacijos ir verslo plėtra",
-        "displayTitle":"Inovacijos ir verslo plėtra",
-        "body":"<p>Atviri duomenys skatina sukuria naujas galimybes verslui kurti naujas paslaugas, įrankius ir efektyvinti įvairius procesus.</p><p class='not-dlab'>Paryžiuje kavinių savivinkai naudoja atvirus duomenis tam, <a href='https://web.archive.org/web/20150515035949/http://www.paris.fr/accueil/paris-mag/ou-boire-un-cafe-pour-1-a-paris/rub_9683_actu_116311_port_23863' target='_blank'>kad priviliotų turistų</a>, o Islandijoje fermeriai <a href='http://weblog.linkingpaths.com/post/78767700473/icelandic-open-data-lambs-and-maps' target='_blank'>naudoja kokybinius atvirus duomenis</a> pritraukdami naujų klientų.</p><p>Atviri duomenys skatina inovacijas nes panaikina prieigos, naudojimo ir dalijimosi duomenimis barjerus.</p><p>Duomenų raštingumas yra vienas iš esminių įgūdžių verslams, siekiantiems pasinaudoti atvirų duomenų potencialu.</p>"
-    },
-     {
-        "_id": "c-25",
-        "_parentId": "b-25",
-        "_classes": "",
-        "_type":"component",
-        "_layout": "full",
-        "_component": "narrative",
-        "title": "Galimybės viešajam sektoriui",
-        "displayTitle": "Galimybės viešajam sektoriui",
-        "body": "Viešasis sektorius gali pasinaudoti atvirais duomenimis skirtingais būdais:",
-        "instruction": "<em class='desktop-instruction'>Paspausk rodyklę, jei nori pamatyti daugiau.</em><em class='mobile-instruction'>Paspausk ‘+’ ženklą, jei nori pamatyti daugiau</em>",
-        "_items": [
-            {
-                "title": "Ekonomikos augimo palaikymas",
-                "body": "<p>Viešasis sektorius turi atverti esminius duomenų rinkinius palaikant naujų duomenimis grįstų verslų atsiradimą ir esamų augimą.</p><p>Viešasis sektorius taip pat turi užtikrinti patogią duomenų infrastruktūrą.</p><p class='not-dlab'>Didžiausia grąža viešajam setoriui- išaugusi ekonomika, kaip pvz. Suomijos MVĮ atvėrus duomenis išaugo 15% greičiau nei neatvėrus duomenų.</p><p class='not-dlab'><a href='https://web.archive.org/web/20140531085827/http://www.epsiplatform.eu/content/finnish-study-psi-pricing-geo-data' target='_blank'>Suomijos pavyzdys</a></p>",
-                "_graphic": {
-                    "src": "course/lt/images/odi-002-narrative_large.jpg",
-                    "alt": "Ekonomikos augimo palaikymas",
-                    "title": "Ekonomikos augimo palaikymas",
-                    "*source":"http://www.shutterstock.com/pic-128352227.html",
-                    "*credit":"vs148",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "Ekonomikos augimo palaikymas"
-            },
-            {
-                "title": "Pagerintas paslaugų tiekimas",
-                "body": "<p>Viešasis sektorius turi užtikrinti balansą tarp daugėjančių gyventojų užklausų ir mažo mastelio problemų sprendimo.</p><p>Galimybė turėti detalius duomenis užtikrina paslaugų kokybę lokaliame kontekste.</p><p>Tokių paslaugų pavyzdžiai: <br /><a href='https://www.mysociety.org/' target='_blank'>mySociety</a> <br /><a class='not-dlab' href='http://kimittud.atlatszo.hu/' target='_blank'>Vengrijos 'right to know' portalas</a> <br /><a class='not-dlab' href='http://www.fiksgatami.no/' target='_blank'>Fix my Street Norway</a></p>",
-                "_graphic": {
-                    "src": "course/lt/images/odi-003-narrative_large.jpg",
-                    "alt": "Pagerintas paslaugų tiekimas",
-                    "title": "Pagerintas paslaugų tiekimas",
-                    "*source":"https://www.fixmystreet.com/",
-                    "*credit":"fixmystreet",
-                    "*license":"unknown"
-                },
-                "strapline": "Pagerintas paslaugų tiekimas"
-            },
-            {
-                "title": "Išlaidų mažinimas",
-                "body": "<p>Atviri duomenys leidžia viešajam sektoriui taupyti išlaidas tokiose srityse kaip sveikata, edukacija, komunalinės paslaugos.</p><p>JK atviri duomenys padeda sutaupyti <a href='https://theodi.org/news/prescription-savings-worth-millions-identified-odi-incubated-company' target='_blank'>200 mln £</a> sveikatos srityje.</p><p>Prancūzijoje energetikos duomenys naudojami kuriant efektyvesnes energijos suvartojimo praktikas.<br /><a href='https://www.quandl.com/collections/france/france-energy-data' target='_blank'>Pranzūzijojos energetikos duomenys</a></p><p>Atviri duomenys taip pat padeda skaidrumui. Šveicarijoje Berno regionas sutaupo <a href='http://be-asp.budget.opendata.ch/' target='_blank' class='not-dlab'>400 mln € / metus</a> dėl atvirų duomenų.</p>",
-                "_graphic": {
-                    "src": "course/lt/images/odi-004-narrative_large.jpg",
-                    "alt": "Išlaidų mažinimas",
-                    "title": "Išlaidų mažinimas",
-                    "*source":"http://www.shutterstock.com/pic-75494491.html",
-                    "*credit":"vlastas",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "Išlaidų mažinimas"
-            }
-        ],
-        "_pageLevelProgress": {
-        "_isEnabled": true
-        }
-    },
-    {
-        "_id":"c-30",
-        "_parentId":"b-28",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"right",
-        "_graphic": {
-            "alt": "Visuomenės ir reguliacijos keitimas",
-            "title": "Visuomenės ir reguliacijos keitimas",
-            "large": "course/lt/images/odi-005_accordian_large.jpg",
-            "medium": "course/lt/images/odi-005_accordian_large.jpg",
-            "small": "course/lt/images/odi-005_accordian_large.jpg",
-            "*source":"http://www.shutterstock.com/pic-234353791.html",
-            "*credit":"tai11",
-            "*license":"Shutterstock Standard License"
-        }
-    },
-    {
-      "_id":"c-35",
-      "_parentId":"b-28",
-      "_type":"component",
-      "_component":"accordion",
-      "_classes":"",
-      "_layout":"left",
-      "title": "Visuomenės ir reguliacijos keitimas",
-      "displayTitle": "Visuomenės ir reguliacijos keitimas",
-      "body": "<p>Atviri duomenys atveria naujas socialines galimybes ir padeda kuriant geresnę teisinę aplinką.</p>",
-      "instruction": "Paspausk ant antraštės, jei nori pamatyti daugiau.",
-      "_items": [
-        {
-          "alt": "Keliavimo lengvinimas",
-          "title": "Keliavimo lengvinimas",
-          "body": "<p>Atviri duomenys kardinaliai keičia mūsų keliavimo įpročius.</p><p class='not-eu'>Visame pasaulyje atviri transporto duomenys leidžia kompanijoms kaip Citymapper ar Google suteikti vartotojams tikslią transporto informaciją. Tai ne tik padeda žmonėms suprasti transporto sistemas, bet ir skatina viešojo transporto naudojimą.</p><p class='not-dlab'>Olandijos transporto industrijoje atviri duomenys padeda augančiam kiekiui mažų kompanijų vystyti naujus produktus.</p><p class='not-tz not-dlab not-default'><a href='http://www.europeandataportal.eu/sites/default/files/use_case_france_-_tranquilien_v1.pdf' target='_blank'>Pranzūzų aplikacija Tranquilien</a> padeda keleiviams keliauti patogiau ir skatina efektyvų viešojo transporto naudojimą atveriant informaciją apie laisvas vietas ir tvarkaraščius.</p><p class='not-dlab'>Olandų aplikacija padeda žmonėms su negalia rezervuoti kelionės asistentą naudojant atvirus duomenis.<p>Atviri transporto duomenys taupo keliautojų laiką, daro keliones prieinamesnes ir padeda turistams keliauti į nepažįstamus miestus.</p>"
-        },
-        {
-          "alt": "Darbo efektyvinimas",
-          "title": "Darbo efektyvinimas",
-          "body": "<p>Atviri duomenys keičia mūsų darbo įpročius.</p><p>Atviri duomenys optimizuoja laiką, reikalingą surasti informacijai ir leidžia susikoncentruoti ties svarbesnėmis užduotimis.</p><p>OpenCorporate siūlo atvirą komanijų visame pasaulyje duombazę, parodančią įvairius tinklus, finansinį kompanijų stabilumą ir įtaką aplinkai. Tai padeda organizacijoms daugiau sužinoti apie potencialius klientus, tiekėjus ir partnerius.<br /><a href='https://opencorporates.com/info/about' target='_blank'> OpenCorporates</a></p><p class='not-tz not-dlab not-default'><a href='http://www.europeandataportal.eu/sites/default/files/use_case_finland_-_kannattaako_kaupp.pdf' target='_blank'>Suomių Kannattaako kauppa paslauga</a> tiekia įžvalgas apie nekilnojamo turto kainas ateityje, taip padarant lengvesnį namų ir rajonų palyginimą pagal kainą ir populiaciją.</p>"
-        },
-        {
-          "alt": "Valdymo tobulinimas",
-          "title": "Valdymo tobulinimas",
-          "body": "<p>Atviri duomenys tampa esminiu šaltiniu viešajam sektoriui teisėkūroje.</p><p class='not-tz not-dlab not-default'>Viešasis sektorius yra daugiausiai atvirų duomenų naudos gaunantis sektorius <a href='http://www.europeandataportal.eu/sites/default/files/edp_creating_value_through_open_data_0.pdf' target='_blank'> (22mlrd. Eur 2020 m. visoje ES)</a>. Tai įrodo, kad viešasis sektorius yra pirmasis savo duomenų panaudotojas. Agrikultūros, menų ir pramogų sektoriuose tikimasi gauti naudos lygios 379 Eur per sektorių.</p><p>Atviri duomenys taip pat prisideda prie teisėkūros skaidrumo ir skatina dialogą tarp piliečių ir viešojo sektoriaus.</p><p>Atviri duomenys padeda priimant kertinius sprendimus dėl imigracijos, prekybos ir biudžeto.</p><p class='not-tz not-dlab not-default'><a href='www.kurgyvenue.lt' target='_blank'>Where do I live</a> yra lietuviškas pavyzdys teikiantis informaciją apie konkrečią lokaciją ir jos užterštumą, triukšmą, nusikalstamumą, nekilnojamo turto kainas ir t.t.</p><p>Pavyzdžiui atvirų duomenų analizė Londone padėjo įvertinti, kurių gaisrinių uždarymas daro mažiausiai įtakos paslaugoms. </p><p><a href='http://london-fire.labs.theodi.org/' target='_blank'>London fire station analysis</a></p>"
-        }
-      ],
-      "_pageLevelProgress": {
-        "_isEnabled": true
+    "instruction": "Pasirink variantą ir spausk ‘submit’",
+    "_items": [
+      {
+        "text": "aplinkos darnumas ir įvairių skirtingų grupių įtraukimas;",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "atvirų duomenų rinkos vertės analizės;",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "viešojo sektoriaus efektyvumas ir skaidrumas.",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_feedback": {
+      "correct": "<p><strong>Teisingai! </strong></p><p>Yra du pagrindiniai faktoriai, kurie indikuoja socialinį poveikį: tai aplinkos darnumas ir įvairių skirtingų grupių įtraukimas.</p>",
+      "_incorrect": {
+        "final": "<p><strong>Ar tikrai?</strong></p><p>Yra du pagrindiniai faktoriai, kurie indikuoja socialinį poveikį: tai aplinkos darnumas ir įvairių skirtingų grupių įtraukimas.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
       }
     },
-     {
-        "_id": "c-40",
-        "_parentId": "b-30",
-        "_classes": "",
-        "_type":"component",
-        "_layout": "full",
-        "_component": "narrative",
-        "title": "Nauda kultūrai ir aplinkai",
-        "displayTitle": "Nauda kultūrai ir aplinkai",
-        "body": "Atviri duomenys padeda piliečiams pradėti kultūrines ir aplinkos gerinimo iniciatyvas.",
-        "instruction": "<em class='desktop-instruction'>Paspausk rodyklę, jei nori pamatyti daugiau.</em><em class='mobile-instruction'>Paspausk ‘+’ ženklą, jei nori pamatyti daugiau.</em>",
-        "_items": [
-            {
-                "title": "Aplinka",
-                "body": "<p>Atviri duomenys padeda ūkininkams pagerinti derliaus kokybę ir auginti kultūras nesunaikinant vertingų egzistuojančių kultūrų.</p><p>Plantwise renka atvirus duomenis tam, kad galėtų informuoti ūkininkus apie augalų būklę ir ligų pavojų.<br /><a href='https://www.plantwise.org/' target='_blank'>Plantwise</a></p><p>CIARD sukūrė centrinę duombazę su daugiau nei 1500 atvirų agrikultūrinių mokslinių tyrimų.<br /><a href='http://www.ciard.net/' target='_blank'>CIARD</a></p>",
-                "_graphic": {
-                    "src": "course/lt/images/odi-006-narrative_large.jpg",
-                    "alt": "Aplinka",
-                    "title": "Aplinka",
-                    "*source":"http://www.shutterstock.com/pic-94664593.html",
-                    "*credit":"Madlen",
-                    "*license":"Shutterstock Standard License"
-                },
-                "strapline": "Aplinka"
-            },
-            {
-                "title": "Gyvybių gelbėjimas",
-                "body": "<p>Atviri duomenys gali gelbėti gyvybes. Atviri geografiniai duomenys ir pagalbos statistika naudojami humanitarinėms grupėms keliaujant į nelaimės zoną.</p><p>Atviri žemėlapių duomenys padėjo suteikti skubią pagalbą po 2010 m. žemės drebėjimo Haityje.<br /><a href='http://hotosm.org/projects/haiti-2' target='_blank'>Haiti Open Street Map.</a></p><p>Atviri duomenys taip pat buvo naudojami po taifūno nelaimės Filipinuose 2014 m.</p><p class='not-eu'>Taip pat atviri duomenys padėjo sekti Ebolos viruso plitimą Vakarų Afrikoje 2015 m.<br /><a href='https://web.archive.org/web/20160123072141/http://www.eboladata.org/' target='_blank'>Ebola open data jam.</a></p>",
-                "_graphic": {
-                    "src": "course/lt/images/odi-007-narrative_large.jpg",
-                    "alt": "Gyvybių gelbėjimas",
-                    "title": "Gyvybių gelbėjimas",
-                    "*source":"http://www.itoworld.com/static/ted_video.html",
-                    "*credit":"Ito World Ltd.",
-                    "*license":"Creative Commons Attribution ShareAlike"
-                },
-                "strapline": "Gyvybių gelbėjimas"
-            },
-            {
-                "title": "Kultūra",
-                "body": "<p>Atviri duomenys informuoja apie svarbias kultūros problemas ir padeda vystyti kokybiškus debatus.</p><p>OpenGLAM padeda išsaugoti paveldą ir kultūrinę atmintį Vokietijoje, Šveicarijoje ir Suomijoje.<br /><a href='http://openglam.org/' target='blank'>OpenGLAM.</a></p><p>Atvirų duomenų institutas (ODI) yra globalios programos Duomenys kaip kultūra lyderis, kurioje menininkai analizuoja fundamendalius duomenų supratimo būdus.<br /><a href='http://theodi.org/culture' target='_blank'>ODI Data as Culture (Duomenys kaip kultūra)</a></p>",
-                "_graphic": {
-                    "src": "course/lt/images/odi-008-narrative_large.jpg",
-                    "alt": "Kultūra",
-                    "title": "Kultūra",
-                    "*source":"https://www.flickr.com/photos/ukodi/13400679614/in/album-72157642859056285/",
-                    "*credit":"Open Data Institute",
-                    "*license":"Creative Commons Attribution ShareAlike"
-                },
-                "strapline": "Kultūra"
-            }
-        ],
-        "_pageLevelProgress": {
-        "_isEnabled": true
-        }
-    }, 
-    {
-        "_id": "c-31",
-        "_parentId": "b-31",
-        "_classes": "not-eu",
-        "_type":"component",
-        "_layout": "full",
-        "_component": "narrative",
-        "title": "Edukacija, sveikata ir mityba",
-        "displayTitle": "Edukacija, sveikata ir mityba",
-        "body": "",
-        "instruction": "<em class='desktop-instruction'>Paspausk rodyklę, jei nori pamatyti daugiau.</em><em class='mobile-instruction'>Paspausk ‘+’ ženklą, jei nori pamatyti daugiau.</em>",
-        "_items": [
-            {
-                "title": "Edukacija",
-                "body": "<p>Our Schools Our Data portalas buvo sukurtas tam, kad piliečiai turėtų daugiau informacijos apie mokyklas.</p><p>Tanzanijoje <a href='http://www.shule.info/' target='_blank'>shule.info</a> portalas atvėrė informaciją apie mokyklų pasiekimus. Portalas suteikia informaciją apie mokyklų rezultatus taip suteikdamas galimybę piliečiams palyginti jas tarpusavyje ir žinoti apie geriausias edukacijos galimybes jų regione.</p>",
-                "_graphic": {
-                    "src": "course/lt/images/c-31a.jpg",
-                    "alt": "School supplies",
-                    "title": "School supplies",
-                    "*source":"https://www.flickr.com/photos/infomastern/9671353179",
-                    "*credit":"Nick Amoscato",
-                    "*license":"CC-BY 2.0"
-                },
-                "strapline": "Edukacija"
-            },
-            {
-                "title": "Sveikata",
-                "body": "<p>Pietų Afrikoje <a href='https://mpr.code4sa.org/' target='_blank'>vaistų kainos portalas</a> suteikia galimybę piliečiams įpirkti reikalingus medikamentus. Portalas naudoja atvirus duomenis ne tik suteikiant informaciją apie kainas, bet taip pat siūlo informaciją apie alternatyvius, pigesnių kompanijų vaistus.</p><p><a href='http://health.saharareporters.com/' target='_blank'>Nigerijoje</a> ir <a href='http://health.the-star.co.ke/' target='_blank'>Kenijoje</a>, paslauga, sukurta <a href='https://codeforafrica.org/' target='_blank'>Code for Africa</a> išsiplėte dar labiau. Čia atviri duomenys naudojami suteikiant piliečiams galimybę patikrinti gydytojų registracijos statusą, norint surasti artimiausią specialistą ir patikrinti, ar jie įtraukti į nacionalinę sveikatos sistemą.</p>",
-                "_graphic": {
-                    "src": "course/lt/images/c-31b.jpg",
-                    "alt": "Antacid",
-                    "title": "Antacid",
-                    "*source":"https://www.flickr.com/photos/treasureice/16459056781",
-                    "*credit":"Treasure",
-                    "*license":"CC-BY 2.0"
-                },
-                "strapline": "Sveikata"
-            },
-            {
-                "title": "Mityba",
-                "body": "<p>Svarbiausia gyvenime yra prieiga prie švaraus vandens.<a href='http://www.tanzaniawaterproject.org/what-we-are-doing/where-we-are-working/' target='_blank'>Tanzania Water Project portalas</a> nurodo esamas ir siūlomas vietoves su švaraus vandens prieiga.</p><p>Tanzanijoje, <a href='http://www.agrimark.co.tz/' target='_blank'>Agrimark</a> sujungia ūkininkus su pirkėjais. Tanzanijos ūkininkams, dažnai esantiems atokiose vietovėse dažnai kyla sunkumų surandant klientų. Kaip ir viešbučiams, restoranams ir kitiems verslams gali būti sunku surasti maistą už geriausią kainą. Agrimark išsprendžia šią problemą sujungiant pirkėjus ir tiekėjus.</p>",
-                "_graphic": {
-                    "src": "course/lt/images/c-31c.jpg",
-                    "alt": "Reaching for the sky",
-                    "title": "Reaching for the sky",
-                    "*source":"https://www.flickr.com/photos/infomastern/9671353179",
-                    "*credit":"Susanne Nilsson",
-                    "*license":"CC-BY-SA 2.0"
-                },
-                "strapline": "Mityba"
-            }
-        ],
-        "_pageLevelProgress": {
-        "_isEnabled": true
-        }
-    },
-    {
-        "_id":"c-42",
-        "_parentId":"b-33",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"right",
-        "title":"",
-        "displayTitle":"",
-        "body":"",
-        "instruction":"",
-        "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "course/lt/images/burst.png",
-            "medium": "course/lt/images/burst.png",
-            "small": "course/lt/images/burst.png"
-        }
-    },
-    {
-        "_id":"c-43",
-        "_parentId":"b-33",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"",
-        "_layout":"left",
-        "title":"Ar jūs pasiruošę panaudoti atvirų dumenų potencialą?",
-        "displayTitle":"Ar jūs pasiruošę panaudoti atvirų dumenų potencialą?",
-        "body":"<p>Yra daug vertingų pavyzdžių, kurie padeda atvirų duomenų iniciatyvoms išnaudoti jų teikiamą potencialą. Ar esi pasiruošęs prisijungti prie atvirų duomenų judėjimo? </p>",
-        "instruction":"",
-        "_pageLevelProgress": {
-            "_isEnabled": true
-        }
-    },
-    {
-        "_id":"c-45",
-        "_parentId":"b-35",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"illustration",
-        "_layout":"right",
-        "_graphic": {
-            "alt": "Are you ready to unlock value from open data?",
-            "title": "",
-            "large": "course/lt/images/odi-009-mcq_large.png",
-            "medium": "course/lt/images/odi-009-mcq_large.png",
-            "small": "course/lt/images/odi-009-mcq_large.png",
-            "*source":"http://www.shutterstock.com/pic-230887714.html",
-            "*credit":"Bloomua",
-            "*license":"Shutterstock Standard License"
-        }
-    },
-    {
-        "_id":"c-50",
-        "_parentId":"b-35",
-        "_type":"component",
-        "_component":"mcq",
-        "_adapt2id":"588a0892b61c46e176e7e8e9",
-        "_classes":"",
-        "_layout":"left",
-        "_attempts":1,
-        "_questionWeight":1,
-        "_isRandom":true,
-        "_selectable":1,
-        "title": "Inovacijos ir verslo augimas",
-        "displayTitle": "Inovacijos ir verslo augimas",
-        "body": "<p>Atviri duomenys skatina inovacijas ir privataus sektoriaus augimą...</p>",
-        "instruction": "<em>Pasirink teisingą atsakymą ir spausk ‘submit’</em>",
-        "_items": [
-            {
-                "text": "kai yra prieinami internete",
-                "_shouldBeSelected": false
-            },
-            {
-                "text": "atveriant galimybes kurti naujas paslaugas ir gerinti operacijas",
-                "_shouldBeSelected": true
-            },
-            {
-                "text": "motyvuojant inovatorius naudoti viešojo sektoriaus duomenis",
-                "_shouldBeSelected": false
-            }
-        ],
-        "_feedback":{
-            "correct":"<h5>Teisingai!</h5><p>Atviri duomenys skatina inovacijas ir privataus sektoriaus augimą atveriant galimybės verslui kurti naujas paslaugas, įrankius ir efektyvinti įvairius procesus.</p>",
-            "_incorrect": {
-                "notFinal": "<h5>Ar tikrai?</h5><p>Atviri duomenys skatina inovacijas ir privataus sektoriaus augimą atveriant galimybės verslui kurti naujas paslaugas, įrankius ir efektyvinti įvairius procesus.</p>",
-                "final": "<h5>Ar tikrai?</h5><p>Atviri duomenys skatina inovacijas ir privataus sektoriaus augimą atveriant galimybės verslui kurti naujas paslaugas, įrankius ir efektyvinti įvairius procesus.</p>"
-            },
-            "_partlyCorrect": {
-                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-          }
-        },
-        "_buttons":{
+    "_buttons":{
             "submit":"",
             "reset":"",
             "showCorrectAnswer":"",
             "hideCorrectAnswer":""
-        },
-        "_pageLevelProgress": {
-        "_isEnabled": true
+        }
+  },
+  {
+    "_id": "59400a14d084d5167a04fa74",
+    "_layout": "left",
+    "_parentId": "b-07",
+    "_type": "component",
+    "body": "<p><strong>Atvirų duomenų poveikis yra svarbus, nes..</strong></p>",
+    "displayTitle": "Kodėl atvirų duomenų poveikis yra svarbus?",
+    "title": "Kodėl atvirų duomenų poveikis yra svarbus?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "mcq",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Pasirink visus tinkamus variantus ir spausk ‘submit’",
+    "_items": [
+      {
+        "text": "jis apibrėžia, kodėl atvirų duomenų programa turėtų tęstis;",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "jis parodo, kur turėtumėte koncentruoti visas savo pastangas;",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "nes galite prieiti netikėtas išvadas.",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_feedback": {
+      "correct": "<p><strong>Teisingai!</strong></p><p>Atvirų duomenų poveikis yra svarbus, nes jis apibrėžia, kodėl atvirų duomenų programa turėtų tęstis parodant investicijų grąžą.</p><p>Poveikis taip pat yra svarbi dalis įvertinant atvirų duomenų politikos, programos ar iniciatyvos efektyvumą.</p>",
+      "_incorrect": {
+        "final": "<p><strong>Ar tikrai?</strong></p><p>Atvirų duomenų poveikis yra svarbus, nes jis apibrėžia, kodėl atvirų duomenų programa turėtų tęstis parodant investicijų grąžą.</p><p>Poveikis taip pat yra svarbi dalis įvertinant atvirų duomenų politikos, programos ar iniciatyvos efektyvumą.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
       }
     },
-    {
-        "_id":"c-55",
-        "_parentId":"b-40",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"illustration",
-        "_layout":"left",
-        "_graphic": {
-            "alt": "Innovation and growth in business",
-            "title": "",
-            "large": "course/lt/images/odi-010-mcq_large.jpg",
-            "medium": "course/lt/images/odi-010-mcq_large.jpg",
-            "small": "course/lt/images/odi-010-mcq_large.jpg",
-            "*source":"http://www.shutterstock.com/pic-128352227.html",
-            "*credit":"vs148",
-            "*license":"Shutterstock Standard License"
-        }
-    },
-    {
-        "_id":"c-60",
-        "_parentId":"b-40",
-        "_type":"component",
-        "_component":"mcq",
-        "_adapt2id":"588a0bc3b61c46e176e7e8f1",
-        "_classes":"",
-        "_layout":"right",
-        "_attempts":1,
-        "_questionWeight":1,
-        "_isRandom":true,
-        "_selectable":1,
-        "title": "Galimybės viešajam sektoriui",
-        "displayTitle": "Galimybės viešajam sektoriui",
-        "body": "<p>Atvirų duomenų raštingumas nėra išimtis viešojo sektoriaus darbuotojams, tai yra..</p>",
-        "instruction": "<em>Pasirink teisingą atsakymą ir spausk ‘submit’</em>",
-        "_items": [
-            {
-                "text": "truputį svarbiau, nei buvo anksčiau",
-                "_shouldBeSelected": false
-            },
-            {
-                "text": "kažkas, kas turėtų būti labiau ištirta",
-                "_shouldBeSelected": false
-            },
-            {
-                "text": "esminė dalis viešųjų paslaugų tiekime",
-                "_shouldBeSelected": true
-            }
-        ],
-        "_feedback":{
-            "correct":"<h5>Teisingai!</h5><p>AAtviri duomenys yra esminė dalis viešųjų paslaugų tiekime siekiant palaikyti naujų duomenimis grįstų verslų kūrimą ir esamų augimą.</p>",
-            "_incorrect": {
-                "notFinal": "<h5>Ar tikrai?</h5><p>Atviri duomenys yra esminė dalis viešųjų paslaugų tiekime siekiant palaikyti naujų duomenimis grįstų verslų kūrimą ir esamų augimą.</p>",
-                "final": "<h5>Ar tikrai?</h5><p>Atviri duomenys yra esminė dalis viešųjų paslaugų tiekime siekiant palaikyti naujų duomenimis grįstų verslų kūrimą ir esamų augimą.</p>"
-            },
-            "_partlyCorrect": {
-                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-          }
-        },
-        "_buttons":{
+    "_buttons":{
             "submit":"",
             "reset":"",
             "showCorrectAnswer":"",
             "hideCorrectAnswer":""
+        }
+  },
+  {
+    "_id": "59400a14d084d5167a04fa75",
+    "_layout": "right",
+    "_parentId": "b-11",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "color-six",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/lt/assets/7120bb7ad02055a11589656852c821cae30bf616.png",
+      "small": "course/lt/assets/7120bb7ad02055a11589656852c821cae30bf616.png",
+      "attribution": "<a href=\"https://theodi.org\" target=\"_blank\">The Open Data Institute</a> <span class='assetLicence'>[CC-BY-SA]</span>"
+    }
+  },
+  {
+    "_id": "59400a14d084d5167a04fa76",
+    "_layout": "left",
+    "_parentId": "b-01",
+    "_type": "component",
+    "body": "<p dir=\"ltr\">Kiekvieno atvirų duomenų projekto ar iniciatyvos tikslas yra padaryti poveikį- tai gali būti tiek politinis, tiek socialinis, tiek ekonominis poveikis. Didžiausias iššūkis- sukurti ar surasti tikslingus atvirų duomenų iniciatyvų <a href=\"http://opendatabarometer.org/3rdEdition/report/#impact\" target=\"_blank\">pavyzdžius, kurie gerina mūsų kasdienybę.</a></p><p dir=\"ltr\">Šiame modulyje:</p><ul class='ticks'><li dir=\"ltr\">kodėl yra svarbu padaryti poveikį?</li><li dir=\"ltr\">kaip jį pasiekti?</li><li dir=\"ltr\">kaip išmatuoti poveikį?</li><li dir=\"ltr\">kliūčių įveikimas siekiant poveikio.</li></ul>",
+    "displayTitle": "Atvirų duomenų poveikis",
+    "title": "Atvirų duomenų poveikis",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "ticks",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "59400a14d084d5167a04fa77",
+    "_layout": "right",
+    "_parentId": "b-02",
+    "_type": "component",
+    "body": "<p dir=\"ltr\">Poveikis yra esminis kriterijus įvertinant atvirų duomenų programos efektyvumą. Sunku palaikyti programą jeigu negalima įvertintinti jos investicijų grąžos (ROI).</p><p dir=\"ltr\">Investicijų grąža (ROI) nebūtinai yra finansinė, ji gali būti tiek politinio, tiek socialinio poveikio forma.</p><p dir=\"ltr\">Daugiau informacijos gali rasti <a href=\"https://www.europeandataportal.eu/elearning/lt/module2/#/id/co-01\" target=\"_blank\">antrame modulyje apie atvirų duomenų potencialą.</a></p>",
+    "displayTitle": "Kodėl yra svarbu padaryti poveikį?",
+    "title": "Kodėl yra svarbu padaryti poveikį?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "59400a14d084d5167a04fa78",
+    "_layout": "left",
+    "_parentId": "b-02",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "",
+    "title": "",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/lt/assets/f4b7a83ca6a5ee395ea40ef51b5e6d07ac2e288e.jpg",
+      "small": "course/lt/assets/f4b7a83ca6a5ee395ea40ef51b5e6d07ac2e288e.jpg",
+      "attribution": "<a href=\"https://www.shutterstock.com/image-illustration/large-group-people-shape-chat-bubblewhite-234353791\" target=\"_blank\">tai11</a> <span class='assetLicence'>[Shutterstock standard licence]</span>"
+    }
+  },
+  {
+    "_id": "59400a14d084d5167a04fa79",
+    "_layout": "right",
+    "_parentId": "b-03",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "",
+    "title": "",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/lt/assets/edd9adfa60a0dc2b857d5e90a86fdf58f3287e66.png",
+      "small": "course/lt/assets/edd9adfa60a0dc2b857d5e90a86fdf58f3287e66.png",
+      "attribution": "<a href=\"http://www.freepik.com/free-photos-vectors/business\" target=\"_blank\"> Photoroyalty - Freepik.com</a> <span class='assetLicence'>[CC-BY]</span>"
+    }
+  },
+  {
+    "_id": "59400a14d084d5167a04fa7a",
+    "_layout": "full",
+    "_parentId": "b-05",
+    "_type": "component",
+    "body": "<p>Atviri duomenys yra pakankamai naujas konceptas, dėl to kyla įvairių kliučių siekiant duomenų atvėrimo iniciatyvų. Šiame skyriuje susipažinsime su pagrindinėmis kliūtimis siekiant atvirų duomenų poveikio ir kaip tas kliūtis įveikti.</p>",
+    "displayTitle": "Kliūčių įveikimas siekiant atvirų duomenų poveikio",
+    "title": "Kliūčių įveikimas siekiant atvirų duomenų poveikio",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "narrative",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "mobileInstruction": "",
+    "_hasNavigationInTextArea": false,
+    "_setCompletionOn": "inview",
+    "_items": [
+      {
+        "title": "Naudotojai nežino apie jūsų duomenis",
+        "body": "<p>Galite turėti puikus duomenis, su kuriais galima padaryti teigiamą pokytį, tačiau potencialūs duomenų naudotojai apie tokį poveikį nežino.</p><p>Vienas iš pagrindinių būdų viešinti duomenis- nustatyti specifinius su jais susijusius iššūkius.<a href=\"http://www.nesta.org.uk/project/open-data-challenge-series\" target=\"_blank\">Iššūkių serijos (chhallenge series)</a> yra puikus būdas suburti potencialius duomenų naudotojus. Pasiūlant prizą ir prstatant atvirų inovacijų procesą galima lengvai užmotyvuoti potencialius duomenų naudotojus ir pasiekti teigiamo poveikio rezultatų.</p><p>Taip pat duomenų naudojimui padeda gerųjų pavyzdžių komunikavimas.</p>",
+        "_graphic": {
+          "src": "course/lt/assets/44692b04753e36675bd12acf35820956832091e4.jpg",
+          "alt": "",
+          "attribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Ghozt_Tramp_-_Business_Communication_Duplicat_model.jpg\" target=\"_blank\">Ghozt Tramp</a> <span class='assetLicence'>[CC-BY-SA]</span>"
         },
-        "_pageLevelProgress": {
-        "_isEnabled": true
+        "strapline": "Duomenų viešinimas"
+      },
+      {
+        "title": "Duomenų apsaugos baimė",
+        "body": "<p dir=\"ltr\">Dar viena didelė kliūtis siekiant poveikio- kad duomenys nebus naudojami dėl duomenų apsaugos baimės. Kai kurios licencijos yra neaiškios, ypač jei duomenų rinkinyje yra trečiųjų šalių arba asmeninių duomenų. Dažnai jokių naudojimo sąlygų neturintys duomenys naudotojams kelia nepasitikėjimą.</p><p>Siekiant išvengti šios kliūties, duomenų atverėjai turi aiškiai apibrėžti teisinį duomenų pakartotinio panaudojimo pagrindą.</p><p>Tam padeda aiškiai apibrėžta licencija. Jei duomenys susiję su asmens duomenimis, naudotojai bus labiau linkę juos naudoti jei yra aiškiai apibrėžti privatumo kontroliavimo informacija.</p>",
+        "_graphic": {
+          "src": "course/lt/assets/eb7c7b7bfff664aef851578a795efa612ea1a806.jpg",
+          "alt": "",
+          "attribution": "<a href=\"https://www.flickr.com/photos/132053576@N03/17765606909/\" target=\"_blank\">Owen Moore</a> <span class='assetLicence'>[CC-BY]</span>"
+        },
+        "strapline": "Duomenų apsaugos baimė"
+      },
+      {
+        "title": "Nerimas dėl duomenų kokybės ir panaudojamumo",
+        "body": "<p>Kitas atvirų duomenų pakartotinio panaudojimo barjeras yra abejojimas dėl duomenų kokybės.</p><p>Yra daugybė bendruomenės sukurtų standartų, kurie padeda tiek atverėjui, tiek naudotojui įvertinti atvirų duomenų kokybę ir panaudojamumą.</p><p>Užtikrinant, kad duomenys yra panaudojami iš teisinės, praktinės ir socialinės pusės skatins jų pakartotinį panaudojimą ir poveikio pasiekimą.</p><p>Daugiau informacijos apie <a href=\"https://www.europeandataportal.eu/elearning/lt/module5/#/id/co-01\">kas užtikrina atvirų duomenų kokybę</a>&#39;</p>",
+        "_graphic": {
+          "src": "course/lt/assets/b0a1356f5ad57eff61e6a22b69a2e1b6d9773220.jpg",
+          "alt": "",
+          "attribution": "<a href=\"robodread\" target=\"_blank\">robodread</a> <span class='assetLicence'>[Shutterstock standard licence]</span>"
+        },
+        "strapline": "Duomenų kokybė ir panaudojamumas"
+      }
+    ]
+  },
+  {
+    "_id": "59400a14d084d5167a04fa7f",
+    "_layout": "left",
+    "_parentId": "b-06",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "Ar jūs pasiruošę pasiekti atvirų duomenų poveikį?",
+    "title": "Ar jūs pasiruošę pasiekti atvirų duomenų poveikį?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "59400a15d084d5167a04fa83",
+    "_layout": "left",
+    "_parentId": "b-03",
+    "_type": "component",
+    "body": "<p dir=\"ltr\">Vienas iš didžiausių iššūkių atvirų duomenų projektuose yra poveikio pasiekimas ir išmatavimas. Yra daugybė skirtingų būdų, kaip pasiekti poveikį.</p>",
+    "displayTitle": "Kaip pasiekti poveikį?",
+    "title": "Kaip pasiekti poveikį?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "accordion",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_items": [
+      {
+        "title": "Bendrų tikslų identifikavimas",
+        "body": "<p>Pirmiausia reikia gerai pagalvoti, kokio poveikio siekiate. Koks yra galutinis tikslas atvėrus duomenis? Aiškiai apibrėžta vizija užtikrina atvirų duomenų iniciatyvos sėkmę.</p><p>Taip pat pagalvokite apie atvirų duomenų naudotojus. Kokie yra jų tikslai? Kaip jūsų duomenys padės jiems pasiekti tų tikslų?</p><p>Sėkmingiausios atvirų duomenų iniciatyvos savo tikslus suderina su duomenų naudotojų tikslais. Retais atvejais pradedama su bendrais tikslais, todėl turite ieškoti sričių, kuriose tikslai gali sutapti. Kuo labiau susiję tikslai, tuo sėkmingesnis duomenų atvėrimas.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Skatinkite naratyvus ir istorijas",
+        "body": "<p dir=\"ltr\">Geras metodas poveikio demonstravimui yra istorijų ir naratyvų skatinimas. Kartais istorijos gimsta pačios savaime, bet dažniausiai reikia skatinti jų kūrimą. </p><p dir=\"ltr\">Identifikuokite ir integruokite siekiamą atvirų duomenų poveikį į savo organizacijos atliekamas veiklas; taip galėsite lengvai ir aiškiai iškomunikuoti siekiamą savo veiklos poveikį.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Pergalvokite, kartokite, pakartokite",
+        "body": "<p>Kartais yra sunku atsigręžti atgal į tai, kas jau tapo projekto rezultatu ir įvertinti, kodėl rezultatas nebūtinai buvo sėkmingas.</p><p>Duokite sau laiko apgalvoti rezultatus, taip tapsite lankstesniu tolimesniuose žingsniuose. Jei kažkas neveikia- nebijokite to pašalinti.</p><p>Kartodami ir pergalvodami metodus padedame atvirų duomenų projektui pasiekti poveikį.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      }
+    ],
+    "_shouldCollapseItems": true
+  },
+  {
+    "_id": "59400a15d084d5167a04fa84",
+    "_layout": "right",
+    "_parentId": "b-08",
+    "_type": "component",
+    "body": "<p><strong>Poveikį pasiekti galima per..</strong></p>",
+    "displayTitle": "Kaip pasiekti poveikį?",
+    "title": "Kaip pasiekti poveikį?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "mcq",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Pasirink variantą ir spausk ‘submit’",
+    "_items": [
+      {
+        "text": "bendrų tikslų identifikavimą;",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "kai kurių duomenų neatvėrimą;",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "atliekant poveikio analizę;",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "pergalvojant vykdomą iniciatyvą;",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "dalinantis poveikio metodologija.",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 3,
+    "_feedback": {
+      "correct": "<p><strong>Teisingai! </strong></p><p>Poveikis gali būti pasiektas per bendrų tikslų tarp duomenų ir atverėjų identifikavimą, skatinant istorijas ir naratyvus per duomenų poveikio analizę ir pergalvojant poveikio pasiekimo metodus procesui vykstant.</p>",
+      "_incorrect": {
+        "final": "<p><strong>Ar tikrai?</strong></p><p>Poveikis gali būti pasiektas per bendrų tikslų tarp duomenų ir atverėjų identifikavimą, skatinant istorijas ir naratyvus per duomenų poveikio analizę ir pergalvojant poveikio pasiekimo metodus procesui vykstant.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
       }
     },
-    {
-        "_id":"c-65",
-        "_parentId":"b-45",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"illustration",
-        "_layout":"right",
-        "_graphic": {
-            "alt": "Changing society and public policy",
-            "title": "",
-            "large": "course/lt/images/odi-011-mcq_large.jpg",
-            "medium": "course/lt/images/odi-011-mcq_large.jpg",
-            "small": "course/lt/images/odi-011-mcq_large.jpg",
-            "*source":"http://www.shutterstock.com/pic-234353791.html",
-            "*credit":"tai11",
-            "*license":"Shutterstock Standard License"
-        }
-    },
-    {
-        "_id":"c-70",
-        "_parentId":"b-45",
-        "_type":"component",
-        "_component":"mcq",
-        "_adapt2id":"588a175eb61c46e176e7e901",
-        "_classes":"",
-        "_layout":"left",
-        "_attempts":1,
-        "_questionWeight":1,
-        "_isRandom":true,
-        "_selectable":1,
-        "title": "Visuomenės ir reguliacijos keitimas",
-        "displayTitle": "Visuomenės ir reguliacijos keitimas",
-        "body": "<p>Koks yra atvirų transporto duomenų potencialas?</p>",
-        "instruction": "<em>Pasirink teisingą atsakymą ir spausk ‘submit’</em>",
-        "_items": [
-            {
-                "text": "sutaupomas keleivių laikas ir gerina prieigos kokybę",
-                "_shouldBeSelected": true
-            },
-            {
-                "text": "pagreitėję traukiniai",
-                "_shouldBeSelected": false
-            },
-            {
-                "text": "pigesni bilietai",
-                "_shouldBeSelected": false
-            }
-        ],
-        "_feedback":{
-            "correct":"<h5>Teisingai!</h5><p>Atviri transporto duomenys sutaupo keleivių laiko, padaro keliones legviau prieinamas ir lengviau panaudojamas turistams.</p>",
-            "_incorrect": {
-                "notFinal": "<h5>Ar tikrai?</h5><p>Atviri transporto duomenys sutaupo keleivių laiko, padaro keliones legviau prieinamas ir lengviau panaudojamas turistams.</p>",
-                "final": "<h5>Ar tikrai?</h5><p>Atviri transporto duomenys sutaupo keleivių laiko, padaro keliones legviau prieinamas ir lengviau panaudojamas turistams.</p>"
-            },
-            "_partlyCorrect": {
-                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-          }
-        },
-        "_buttons":{
+    "_buttons":{
             "submit":"",
             "reset":"",
             "showCorrectAnswer":"",
             "hideCorrectAnswer":""
-        },
-        "_pageLevelProgress": {
-        "_isEnabled": true
+        }
+  },
+  {
+    "_id": "59400a15d084d5167a04fa85",
+    "_layout": "right",
+    "_parentId": "b-10",
+    "_type": "component",
+    "body": "<p><strong>Viena iš pagrindinių kliūčių siekiant poveikio yra jūsų duomenų nenaudojimas. Kaip tai įveikti?</strong></p>",
+    "displayTitle": "Kliūčių įveikimas",
+    "title": "Kliūčių įveikimas",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "mcq",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Pasirink variantą ir spausk ‘submit’",
+    "_items": [
+      {
+        "text": "viešinant duomenis aiškiai pabrėžti, kaip duomenys gali būti panaudoti ir padarant duomenis naudojamais ir kokybiškais;",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "atveriant kaip įmanoma daugiau duomenų;",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "apmokestinant duomenis.",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_feedback": {
+      "correct": "<p><strong>Teisingai!</strong></p><p>Duomenų panaudojimą galima skatinti juos viešinant ir aiškiai pabrėžiant, kaip jie gali būti panaudoti bei padarant juos panaudojamais ir kokybiškais.</p>",
+      "_incorrect": {
+        "final": "<p><strong>Ar tikrai?</strong></p><p dir=\"ltr\">Duomenų panaudojimą galima skatinti juos viešinant ir aiškiai pabrėžiant, kaip jie gali būti panaudoti bei padarant juos panaudojamais ir kokybiškais.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
       }
     },
-    {
-        "_id":"c-75",
-        "_parentId":"b-50",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"illustration",
-        "_layout":"left",
-        "_graphic": {
-            "alt": "Changing culture and environment",
-            "title": "",
-            "large": "course/lt/images/odi-012-mcq_large.jpg",
-            "medium": "course/lt/images/odi-012-mcq_large.jpg",
-            "small": "course/lt/images/odi-012-mcq_large.jpg",
-            "*source":"http://www.itoworld.com/static/ted_video.html",
-            "*credit":"Ito World Ltd.",
-            "*license":"n/a"
-        }
-    },
-    {
-        "_id":"c-80",
-        "_parentId":"b-50",
-        "_type":"component",
-        "_component":"mcq",
-        "_adapt2id":"588a26d7b61c46e176e7e907",
-        "_classes":"",
-        "_layout":"right",
-        "_attempts":1,
-        "_questionWeight":1,
-        "_isRandom":true,
-        "_selectable":1,
-        "title": "Kultūros ir aplinkos gerinimas",
-        "displayTitle": "Kultūros ir aplinkos gerinimas,
-        "body": "<p>Kokios rūšies atviri duomenys buvo naudojami nelaimės zonose Haityje ir Filipinuose?</p>",
-        "instruction": "<em>Pasirink teisingą atsakymą ir spausk ‘submit’</em>",
-        "_items": [
-            {
-                "text": "Demografiniai duomenys",
-                "_shouldBeSelected": false
-            },
-            {
-                "text": "Atviri atlyginimų duomenys",
-                "_shouldBeSelected": false
-            },
-            {
-                "text": "Atviri žemėlapiai ir pagalbos statistika",
-                "_shouldBeSelected": true
-            }
-        ],
-        "_feedback":{
-            "correct":"<h5>Teisingai!</h5><p>Atviri duomenys padeda gelbėti gyvybes.Atviri geografiniai duomenys ir pagalbos statistika yra naudojami humanitarinės pagalbos grupių tiekiant pagalbą nelaimės zonose.</p>",
-            "_incorrect": {
-                "notFinal": "<h5>Ar tikrai?</h5><p>Atviri duomenys padeda gelbėti gyvybes.Atviri geografiniai duomenys ir pagalbos statistika yra naudojami humanitarinės pagalbos grupių tiekiant pagalbą nelaimės zonose.</p>",
-                "final": "<h5>Ar tikrai?</h5><p>Atviri duomenys padeda gelbėti gyvybes.Atviri geografiniai duomenys ir pagalbos statistika yra naudojami humanitarinės pagalbos grupių tiekiant pagalbą nelaimės zonose.</p>"
-            },
-            "_partlyCorrect": {
-                "notFinal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "final": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-          }
-        },
-        "_buttons":{
+    "_buttons":{
             "submit":"",
             "reset":"",
             "showCorrectAnswer":"",
             "hideCorrectAnswer":""
-        },
-        "_pageLevelProgress": {
-        "_isEnabled": true
-      }
+        }
+  },
+  {
+    "_id": "59400a15d084d5167a04fa86",
+    "_layout": "right",
+    "_parentId": "b-07",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
     },
-    {
-        "_id":"c-85",
-        "_parentId":"b-55",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"right",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/lt/assets/f4b7a83ca6a5ee395ea40ef51b5e6d07ac2e288e.jpg",
+      "small": "course/lt/assets/f4b7a83ca6a5ee395ea40ef51b5e6d07ac2e288e.jpg",
+      "attribution": "<a href=\"https://www.shutterstock.com/image-illustration/large-group-people-shape-chat-bubblewhite-234353791\" target=\"_blank\">tai11</a> <span class='assetLicence'>[Shutterstock standard licence]</span>"
+    }
+  },
+  {
+    "_id": "59400a15d084d5167a04fa87",
+    "_layout": "left",
+    "_parentId": "b-08",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/lt/assets/edd9adfa60a0dc2b857d5e90a86fdf58f3287e66.png",
+      "small": "course/lt/assets/edd9adfa60a0dc2b857d5e90a86fdf58f3287e66.png",
+      "attribution": "<a href=\"http://www.freepik.com/free-photos-vectors/business\" target=\"_blank\"> Photoroyalty - Freepik.com</a> <span class='assetLicence'>[CC-BY]</span>"
+    }
+  },
+  {
+    "_id": "59400a15d084d5167a04fa88",
+    "_layout": "right",
+    "_parentId": "b-09",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "",
+    "title": "",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/lt/assets/0c4e44ae54cc60d53a31c2bcff4471570e961d9d.jpg",
+      "small": "course/lt/assets/0c4e44ae54cc60d53a31c2bcff4471570e961d9d.jpg",
+      "attribution": "<a href=\"http://www.shutterstock.com/pic-185008832\" target=\"_blank\">suarassawadee</a> <span class='assetLicence'>[Shutterstock standard licence]</span>"
+    }
+  },
+  {
+    "_id": "59400a15d084d5167a04fa89",
+    "_layout": "left",
+    "_parentId": "b-10",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "",
+    "title": "",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/lt/assets/95974c301fcc4ee60b2f1f1019d3f1f21221dd13.jpg",
+      "small": "course/lt/assets/95974c301fcc4ee60b2f1f1019d3f1f21221dd13.jpg",
+      "attribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Ghozt_Tramp_-_Business_Communication_Duplicat_model.jpg\" target=\"_blank\">Ghozt Tramp</a> <span class='assetLicence'>[CC-BY-SA]</span>"
+    }
+  },
+  {
+    "_id": "59400a15d084d5167a04fa8a",
+    "_layout": "left",
+    "_parentId": "b-11",
+    "_type": "component",
+    "body": "<p>Poveikio užtikrinimas yra esminė atvirų duomenų iniciatyvų dalis siekiant užtikrinti jų tęstinumą. Didžiausias iššūkis- sukurti ar surasti <a href=\"http://opendatabarometer.org/3rdEdition/report/#impact\" target=\"_blank\">tikslingus atvirų duomenų iniciatyvų pavyzdžius, kurie gerina mūsų kasdienybę.</a></p><p>Yra daugybė įrankių, kurie padeda įvertinti organizacijos ar šalies atvirų duomenų politiką, programą ar iniciatyvą. Šiame modulyje mes naudojome <a href=\"https://www.europeandataportal.eu/lt/dashboard\" target=\"_blank\">Europos Duomenų Portalo metodologiją.</a></p><p>Taip pat siekiant poveikio yra kliūčių, bet yra ir būdai jas įveikti.</p><p><a class='course_link' href='../'>Pagrindinis puslapis</a></p>",
+    "displayTitle": "Poveikio pasiekimas",
+    "title": "Poveikio pasiekimas",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "59400a15d084d5167a04fa8b",
+    "_layout": "right",
+    "_parentId": "b-01",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "",
+    "title": "",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "intro-logo",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "",
+      "small": "",
+      "attribution": ""
+    }
+  },
+  {
+    "_id": "59400a15d084d5167a04fa92",
+    "_layout": "full",
+    "_parentId": "b-04",
+    "_type": "component",
+    "body": "<p>Yra daugybė įrankių, kurie padeda įvertinti organizacijos ar šalies atvirų duomenų politiką, programą ar iniciatyvą. Kiekvienas toks įrankis turi kiek kitokią metodologiją ir vertinimus, todėl reikia ieškoti tinkamiausio jūsų kontekstui. Pagalvokite, kokie kriterijai yra svarbūs jūsų organizacijai.</p><p>Šiame modulyje detaliau susipažinsime su <a href=\"https://www.europeandataportal.eu/lt/dashboard\" target=\"_blank\">Europos Portalo atvirų duomenų įrankiu,</a> kuris lygina iniciatyvas skirtingose Europos Sąjungos šalyse. </p><p dir=\"ltr\">Taip pat galite susipažinti su <a href=\"https://index.okfn.org/\" target=\"_blank\">Global Open Data Index</a> ir <a href=\"http://opendatabarometer.org\" target=\"_blank\">Open Data Barometer</a>, kurie lygina šalis pasaulio mastu.  </p><p dir=\"ltr\">Atvirų dumenų Europoje metodas vertina tris poveikio sritis: politinę, ekonominę ir socialinę.</strong></p>",
+    "displayTitle": " Kaip įvertinti poveikį?",
+    "title": "Kaip įvertinti poveikį?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "narrative",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "mobileInstruction": "",
+    "_hasNavigationInTextArea": false,
+    "_setCompletionOn": "inview",
+    "_items": [
+      {
+        "title": "Politinis poveikis",
+        "body": "<p dir=\"ltr\">Politinio poveikio faktoriai: poveikis viešojo sektoriaus efektyvumui, skaidrumui ir atskaitomybei.</p><p dir=\"ltr\">2016 m. didžiausią politinį poveikį atvirais duomenimis padarė Slovakija, Airija, Bulgarija, Prancūzija ir Graikija.</p><p dir=\"ltr\"><a href=\"https://www.europeandataportal.eu/lt/dashboard\">Daugiau informacijos</a></p><p dir=\"ltr\">Bulgarijoje viešasis sektorius nebeturi gaišti laiko duomenų užklausoms iš kitų institucijų, todėl sutaupo daug laiko ir finansinių resursų.</p><p dir=\"ltr\">Airijoje<a href=\"https://www.google.com/url?q=http://myplan.ie&amp;sa=D&amp;ust=1496165737909000&amp;usg=AFQjCNGEgrOgEEPPmZOGBCpte6ZzCrutug\" target=\"_blank\">myplan.ie</a> padeda vietinėms savivaldoms standartizuoti planavimo duomenis. Tai padeda duomenų atverėjams koordinuoti savo veiklą ir kelia duomenų kokybės lygį.</p>",
         "_graphic": {
-            "alt": "Summary icon clipboard",
-            "title": "Summary icon clipboard",
-            "large": "course/lt/images/odi-footer.png",
-            "medium": "course/lt/images/odi-footer.png",
-            "small": "course/lt/images/odi-footer.png",
-            "*source":"http://www.shutterstock.com/pic-189810137.html",
-            "*credit":"Kritchanut",
-            "*license":"Shutterstock Standard License"
-        }
-    },
-    {
-        "_id":"c-90",
-        "_parentId":"b-55",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"",
-        "_layout":"left",
-        "title":"Ar esate pasiruošę panaudoti atvirų duomenų potencialą?",
-        "displayTitle":"Ar esate pasiruošę panaudoti atvirų duomenų potencialą?",
-        "body":"<p>Atviri duomenys skatina ekonomikos augimą, keičia visuomenę ir padeda aplinkai.</p><p>Atviri duomenys gali padėti viešajam sektoriui skatinant ekonomiką, tobulinant paslaugų tiekimą ir išlaidų sutaupyme.</p><p>Atviri duomenys gali padėti palengvinant keliavimą, dirbant ir valdant.</p><p>Atviri duomenys gali išsaugoti gyvybes.</p><p>Ar esi pasiruošęs įsitraukti?</p><p><a class='course_link' href='../module3/'>Kitas modulis</a></p><p><a class='course_link' href='../'>Pagrindinis puslapis</a></p>",
-        "_pageLevelProgress": {
-          "_isEnabled": true
-        }
-    },
-    {
+          "src": "course/lt/assets/3f1d65f956a8899071b4f3584b4a88d3851863df.jpg",
+          "alt": "",
+          "attribution": "<a href=\"https://pixabay.com/lt/hands-hand-raised-hands-raised-220163/\" target=\"_blank\">Kaz</a> <span class='assetLicence'>[CC0]</span>"
+        },
+        "strapline": "Politinis poveikis"
+      },
+      {
+        "title": "Ekonominis poveikis",
+        "body": "<p dir=\"ltr\">Ekonominio poveikio kriterijai priklauso nuo makroekonomikos analizių, kurios įvertina atvirų duomenų rinkos vertę.</p><p dir=\"ltr\">2016 m. ekonominio poveikio aspektu labiausiai pažengė Slovakija ir Ispanija.</p><p dir=\"ltr\"><a href=\"https://www.europeandataportal.eu/lt/dashboard\">Daugiau informacijos</a></p><p dir=\"ltr\">Ispanų studija parodė, kad pakartotinis metodologinių duomenų panaudojimas energetikos sektoriuje <a href=\"http:// http://www.ontsi.red.es/ontsi/es/estudios-informes/an%C3%A1lisis-coste-beneficio-de-la-reutilizaci%C3%B3n-de-la-informaci%C3%B3n-meteorol%C3%B3gica-en-el\">sumažina kaštus iki 1000 mln. eurų.</a></p><p dir=\"ltr\">2015 m. atlikta studija apie JK įmones parodė, kad metinė atvirų duomenų investicijų grąža siekia <a href=\"https://theodi.org/open-data-means-business\" target=\"_blank\">daugiau nei 92 mlrd. svarų</a> ir sukuriama daugiau nei 500 tūkst. darbo vietų.</p><p>Daugiau informacijos <a href=\"https://www.europeandataportal.eu/lt/highlights/creating-value-through-open-data\" target=\"_blank\">apie atvirų duomenų ekonominį poveikį Europoje</a>.</p><p dir=\"ltr\">&nbsp;</p>",
+        "_graphic": {
+          "src": "course/lt/assets/e7980bbe7f0e8916f118a2bf24193c8f88211ba2.jpg",
+          "alt": "",
+          "attribution": "<a href=\"https://www.shutterstock.com/image-vector/cloud-business-process-management-concept-blue-259560827\" target=\"_blank\">JeKh</a> <span class='assetLicence'>[Shutterstock standard licence]</span>"
+        },
+        "strapline": "Ekonominis poveikis"
+      },
+      {
+        "title": "Socialinis poveikis",
+        "body": "<p dir=\"ltr\">Socialinio poveikio kriterijai apima aplinkos tvarumo poveikį ir įvarių skirtingų grupių įtraukimą į viešąją politiką ir viešų paslaugų gavimą.</p><p dir=\"ltr\">2016 m. daugiausiai šioje srityje pasiekė Ispanija ir JK.</p><p><a href=\"https://www.europeandataportal.eu/lt/dashboard\" target=\"_blank\">Daugiau informacijos</a></p><p>Ispanijoje buvo sukurtas įrankis <a href=\"http://www.sinbarrera.es/\">Sin Barrera</a>, palengvinantis neįgaliųjų kasdienybę padedant jiems surasti parkavimo vietas, pritaikytas jų poreikiams.</p>",
+        "_graphic": {
+          "src": "course/lt/assets/194749d6a3d955ccf1327dff670d11d82f1e5892.jpg",
+          "alt": "",
+          "attribution": "<a href=\"http://www.shutterstock.com/pic-185008832\" target=\"_blank\">suarassawadee</a> <span class='assetLicence'>[Shutterstock standard licence]</span>"
+        },
+        "strapline": "Socialinis poveikis"
+      }
+    ]
+  },
+  {
        "_id":"c-95",
-       "_parentId":"b-55",
+       "_parentId":"b-11",
        "_type":"component",
        "_component":"text",
        "_classes":"separator",
@@ -655,16 +688,16 @@
     },
     {
        "_id":"c-96",
-       "_parentId":"b-55",
+       "_parentId":"b-11",
        "_type":"component",
        "_component":"text",
        "_classes": "attribution",
-       "body":"&copy; <a href='https://ec.europa.eu/commission/index_en' target='_blank'>European Commission</a>",
+       "body":"&copy; <a href='https://theodi.org' target='_blank'>Open Data Institute</a>",
        "_layout":"full"
     },
     {
         "_id":"c-100",
-        "_parentId":"b-55",
+        "_parentId":"b-11",
         "_type":"component",
         "_component":"graphic",
         "_classes":"footer-logo",
@@ -682,7 +715,7 @@
     },
     {
         "_id":"c-104",
-        "_parentId":"b-55",
+        "_parentId":"b-11",
         "_type":"component",
         "_component":"text",
         "_classes":"attribution not-eu not-default",
@@ -691,7 +724,7 @@
     },
     {
         "_id":"c-105",
-        "_parentId":"b-55",
+        "_parentId":"b-11",
         "_type":"component",
         "_component":"text",
         "_classes":"social-buttons not-dlab",
