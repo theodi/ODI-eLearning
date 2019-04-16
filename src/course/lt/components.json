@@ -30,7 +30,7 @@
         "_layout":"left",
         "title":"Kaip suprasti platformas",
         "displayTitle":"Kaip suprasti platformas",
-        "body":"<p>Platforma yra programinės įrangos dalis, kurioje gali veikti mažesnės programinės įrangos dalys ir turinys. Atviriems duomenims didžiausia platforma yra internetas (web).Tačiau daugelis specialiai atviriems duomenims sukurtų programų gali padėti atverti duomenis patrauklesniu būdu.</p><h5>Šiame modulyje:</h5><ul class='ticks'><li>atvirų duomenų platformų atpažinimas</li><li>kodėl platformos yra svarbios naudotojams</li><li>esminių platformų kriterijų įvertinimas</li><li>platformų naudojimas duomenų analizavimui</li></ul>",
+        "body":"<p>Platforma yra programinės įrangos dalis, kurioje gali veikti mažesnės programinės įrangos dalys ir turinys. Atviriems duomenims didžiausia platforma yra internetas. Tačiau daugelis specialiai atviriems duomenims sukurtų programų gali padėti atverti duomenis patrauklesniu būdu.</p><h5>Šiame modulyje:</h5><ul class='ticks'><li>atvirų duomenų platformų atpažinimas</li><li>kodėl platformos yra svarbios naudotojams</li><li>esminių platformų kriterijų įvertinimas</li><li>platformų naudojimas duomenų analizavimui</li></ul>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
@@ -115,7 +115,7 @@
             },
             {
                 "title": "Vientisa naudotojo patirtis",
-                "body": "<p>Atvirų duomenų platformų yra ribotas kiekis, tai reiškia, kad nereikia suprasti labai daug skirtingų technologijų.</p><p>Atvirų duomenų platformos sukurtos galvojant apie naudotoją- platformos dizainas ir struktūra skirtas lengvesniam duomenų suradimui.</p><p>Atvirų duomenų platformų pavyzdžiai:<a href='http://www.data.gov.uk' target='_blank'>data.gov.uk</a>, <a href='https://africaopendata.org/' target='_blank'>africaopendata.org</a> ir <a class='not-dlab' href='http://www.data.gov.md' target='_blank'>data.gov.md</a></p>",
+                "body": "<p>Atvirų duomenų platformų yra ribotas kiekis, tai reiškia, kad nereikia suprasti labai daug skirtingų technologijų.</p><p>Atvirų duomenų platformos sukurtos galvojant apie naudotoją- platformos dizainas ir struktūra skirtas lengvesniam duomenų suradimui.</p><p>Atvirų duomenų platformų pavyzdžiai: <a href='http://www.data.gov.uk' target='_blank'>data.gov.uk</a>, <a href='https://africaopendata.org/' target='_blank'>africaopendata.org</a> ir <a class='not-dlab' href='http://www.data.gov.md' target='_blank'>data.gov.md</a></p>",
                 "_graphic": {
                     "src": "course/lt/images/odi-003.jpg",
                     "alt": "Consistency",
@@ -128,7 +128,7 @@
             },
             {
                 "title": "Nuosekli prieiga",
-                "body": "<p>Kurdama atvirus standartus interneto bendruomenė sukūrė nuosekliaus programavimo sąsają (API). Ji skirta duomenų prieigai ir naudojimui. </p><p>Ribotas atvirų duomenų platformų skaičius ir nuoseklios prieigos įrankiai leidžia naudotojams lengvai naudoti skirtingus programinės įrangos elementus.</p><p>Platformos taip pat turi panašias struktūras ir formatus metaduomenų atvėrimui, kaip ir pačių duomenų.</p>",
+                "body": "<p>Kurdama atvirus standartus interneto bendruomenė sukūrė nuosekliaus programavimo sąsają (API). Ji skirta duomenų prieigai ir naudojimui. </p><p>Ribotas atvirų duomenų platformų skaičius ir nuoseklios prieigos įrankiai leidžia naudotojams lengvai naudoti skirtingus programinės įrangos elementus.</p><p>Platformos taip pat turi panašias struktūras ir formatus metaduomenų atvėrimui, kaip ir patys duomenys.</p>",
                 "_graphic": {
                     "src": "course/lt/images/odi-004.jpg",
                     "alt": "Access granted",
@@ -182,7 +182,7 @@
         {
           "alt": "Duomenų valdymas",
           "title": "Duomenų valdymas",
-          "body": "<p>Duomenų valdymo platformos taip pat gali atlikti svarbų vaidmenį duomenų atvėrime ir valdyme. Atverėjai gali atnaujinti duomenis tiesiogiai platformoje.</p><p>Naudotojams, ieškantiems duomenų ir analizuojantiems juos be poreikio juos parsisiųsti, tokia platforma gerokai palengvina procesą.</p><p>Tačiau atverėjai tokiai platformai turi skirti daugiau laiko struktūrizuojant ir formatuojant duomenis. Tai lengvai išsprendžiama, jei atverėjas tokią platformą naudoja ir savo duomenų prieigai. </p><p class='not-dlab'>Socrata platforma, naudojama Lobardijos regione Italijoje(<a href='https://www.dati.lombardia.it/' target='_blank'>Lombardijos open data portalas</a>), ir Open Data Soft platforma naudojama Issy mieste Pranzūzijoje (<a href='https://data.issy.com/' target='_blank'>Issy open data portalas</a>) yra geri duomenų valdymo platformų pavyzdžiai. </p>"
+          "body": "<p>Duomenų valdymo platformos taip pat gali atlikti svarbų vaidmenį duomenų atvėrime ir valdyme. Atverėjai gali atnaujinti duomenis tiesiogiai platformoje.</p><p>Naudotojams, ieškantiems duomenų ir analizuojantiems juos be poreikio duomenis parsisiųsti, tokia platforma gerokai palengvina procesą.</p><p>Tačiau atverėjai tokiai platformai turi skirti daugiau laiko struktūrizuojant ir formatuojant duomenis. Tai lengvai išsprendžiama, jei atverėjas tokią platformą naudoja ir savo duomenų prieigai. </p><p class='not-dlab'>Socrata platforma, naudojama Lobardijos regione Italijoje (<a href='https://www.dati.lombardia.it/' target='_blank'>Lombardijos open data portalas</a>), ir Open Data Soft platforma naudojama Issy mieste Pranzūzijoje (<a href='https://data.issy.com/' target='_blank'>Issy open data portalas</a>) yra geri duomenų valdymo platformų pavyzdžiai. </p>"
         },
         {
           "alt": "Palyginimas",
@@ -221,7 +221,7 @@
         "_layout":"left",
         "title":"Atvirų duomenų platformos Europoje",
         "displayTitle":"Atvirų duomenų platformos Europoje",
-        "body":"<p>Europa yra namai šimtams atvirų duomenų platformų lokaliu, regioniniu ir nacionaliniu lygiais. Ieškant atvirų duomenų yra naudinga turėti prieigą prie šių platformų direktorijų, kurios padeda nustatyti, kurie duomenų šaltiniai yra prieinami. OpenDataMonitor projekts yra Europos atvirų duomenų svetainių ir šaltinių indeksas.<br /><a href='http://www.opendatamonitor.eu/frontend/web/index.php?r=datacatalogue%2Flist' target='_blank'>OpenDataMonitor</a></p>"
+        "body":"<p>Europa yra namai šimtams atvirų duomenų platformų lokaliu, regioniniu ir nacionaliniu lygiais. Ieškant atvirų duomenų yra naudinga turėti prieigą prie šių platformų direktorijų, kurios padeda nustatyti, kurie duomenų šaltiniai yra prieinami. OpenDataMonitor projektas yra Europos atvirų duomenų svetainių ir šaltinių indeksas.<br /><a href='http://www.opendatamonitor.eu/frontend/web/index.php?r=datacatalogue%2Flist' target='_blank'>OpenDataMonitor</a></p>"
     },
     {
         "_id":"c-42",
@@ -452,13 +452,13 @@
             }
         ],
         "_feedback":{
-            "correct":"<h5>Teisingai!</h5><p>Trys pagrindiniai dalykai, kuriems padeda platformos yra duomenų analizavimas, pastovumas ir lengva prieiga. Taip pat jie gali padėti su duomenų konktestu ir duomenų bendruomenės kūrimu, tačiau šiuos aspektus sunkiau įgyvendinti.</p>",
+            "correct":"<h5>Teisingai!</h5><p>Trys pagrindiniai dalykai, kuriems padeda platformos yra duomenų analizavimas, pastovumas ir lengva prieiga. Taip pat jie gali padėti su duomenų kontekstu ir duomenų bendruomenės kūrimu, tačiau šiuos aspektus sunkiau įgyvendinti.</p>",
             "_incorrect": {
-                "notFinal": "<h5>Ar tikrai?</h5><p>Trys pagrindiniai dalykai, kuriems padeda platformos yra duomenų analizavimas, pastovumas ir lengva prieiga. Taip pat jie gali padėti su duomenų konktestu ir duomenų bendruomenės kūrimu, tačiau šiuos aspektus sunkiau įgyvendinti.</p>"
+                "notFinal": "<h5>Ar tikrai?</h5><p>Trys pagrindiniai dalykai, kuriems padeda platformos yra duomenų analizavimas, pastovumas ir lengva prieiga. Taip pat jie gali padėti su duomenų kontekstu ir duomenų bendruomenės kūrimu, tačiau šiuos aspektus sunkiau įgyvendinti.</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "<p>Trys pagrindiniai dalykai, kuriems padeda platformos yra duomenų analizavimas, pastovumas ir lengva prieiga. Taip pat jie gali padėti su duomenų konktestu ir duomenų bendruomenės kūrimu, tačiau šiuos aspektus sunkiau įgyvendinti.</p>",
-                "final": "<p>Trys pagrindiniai dalykai, kuriems padeda platformos yra duomenų analizavimas, pastovumas ir lengva prieiga. Taip pat jie gali padėti su duomenų konktestu ir duomenų bendruomenės kūrimu, tačiau šiuos aspektus sunkiau įgyvendinti.</p>"
+                "notFinal": "<p>Trys pagrindiniai dalykai, kuriems padeda platformos yra duomenų analizavimas, pastovumas ir lengva prieiga. Taip pat jie gali padėti su duomenų kontekstu ir duomenų bendruomenės kūrimu, tačiau šiuos aspektus sunkiau įgyvendinti.</p>",
+                "final": "<p>Trys pagrindiniai dalykai, kuriems padeda platformos yra duomenų analizavimas, pastovumas ir lengva prieiga. Taip pat jie gali padėti su duomenų kontekstu ir duomenų bendruomenės kūrimu, tačiau šiuos aspektus sunkiau įgyvendinti.</p>"
           }
         },
         "_buttons":{
