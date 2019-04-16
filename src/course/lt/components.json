@@ -95,7 +95,7 @@
         "title": "Atvirų duomenų licencijavimo privalumai",
         "displayTitle": "Atvirų duomenų licencijavimo privalumai",
         "body": "Licencijavimas suteikia teisę verslams, startuoliams, viešajam sektoriui ir visuomenei naudotis atvirais duomenimis.",
-        "instruction": "<em class='desktop-instruction'>Click the forward arrow for more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
+        "instruction": "<em class='desktop-instruction'>Paspausk rodyklę, jei nori pamatyti daugiau</em><em class='mobile-instruction'>Paspausk ‘+’ ženklą, jei nori pamatyti daugiau</em>",
         "_items": [
             {
                 "title": "Tikrumo užtikrinimas",
@@ -125,7 +125,7 @@
             },
             {
                 "title": "Inovacijų skatinimas",
-                "body": "<p>Atvirų duomenų licencijos skatina eksperimentavimą ir inovatyvius atvirų duomenų panaudojimo būdus naujiems produktams ir paslaugoms.</p><p>Pavyzdžiui, Transport for London duomenys yra atvirai licencijuoti. Tai atvėrė duomenis naujoms viešojo transporto kelionių planavimui, prieinamam per programėlės įvairiuose įrenginiuose. <br /><a href='https://tfl.gov.uk/info-for/open-data-users/' target='_blank'>Transport for London</a></p>",
+                "body": "<p>Atvirų duomenų licencijos skatina eksperimentavimą ir inovatyvius atvirų duomenų panaudojimo būdus naujiems produktams ir paslaugoms.</p><p>Pavyzdžiui, Transport for London duomenys yra atvirai licencijuoti. Tai atvėrė duomenis naujoms viešojo transporto kelionių planavimui, prieinamam per programėles įvairiuose įrenginiuose. <br /><a href='https://tfl.gov.uk/info-for/open-data-users/' target='_blank'>Transport for London</a></p>",
                 "_graphic": {
                     "src": "course/lt/images/odi-4.jpg",
                     "alt": "Inovacijų skatinimas",
@@ -188,11 +188,11 @@
         "title": "Paprastos ir lengvai randamos licencijos",
         "displayTitle": "Paprastos ir lengvai randamos licencijos",
         "body": "Kiekvienas duomenų talpintojas savo atvirus duomenis licencijuoja skirtingai.",
-        "instruction": "<em class='desktop-instruction'>Paspausk rodyklę, jei nori pamatyti daugiau.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
+        "instruction": "<em class='desktop-instruction'>Paspausk rodyklę, jei nori pamatyti daugiau.</em><em class='mobile-instruction'>Paspausk ‘+’ ženklą, jei nori pamatyti daugiau</em>",
         "_items": [
             {
                 "title": "Jungtinė Karalystė",
-                "body": "<p>Jungtinės Karalystės viešasis sektorius naudoja Atviros Vyriausybės licenciją.</p><p class='not-eu'>Kiekvienas duomenų rinkinys JK atvirų duomenų portale turi licenciją po duomenų rinkinio pavadinimu.</p><p class='not-dlab not-default'>Šiuo atveju licencija yra patalpinta interneto svetainės viršuje. Licencijos informacija yra nuoroda, kuri parodo, kad licencija yra pilna.</p><p>Pasižiūrėkite šį licencijos pavyzdį.<br /><a href='http://data.gov.uk/dataset/financial-transactions-data-fco' target='_blank'>Data.gov.uk</a></p>",
+                "body": "<p>Jungtinės Karalystės viešasis sektorius naudoja Atviros Vyriausybės licenciją.</p><p class='not-eu'>Kiekvienas duomenų rinkinys JK atvirų duomenų portale turi licenciją po duomenų rinkinio pavadinimu.</p><p class='not-dlab not-default'>Šiuo atveju licencija yra patalpinta interneto svetainės viršuje. Licencijos informacija yra nuoroda, kuri parodo, kad licencija yra pilna.</p><p>Pasižiūrėkite šį licencijos pavyzdį:<br /><a href='http://data.gov.uk/dataset/financial-transactions-data-fco' target='_blank'>Data.gov.uk</a></p>",
                 "_graphic": {
                     "src": "course/lt/images/odi-6.jpg",
                     "alt": "Jungtinė Karalystė",
@@ -205,7 +205,7 @@
             },
             {
                 "title": "Singapūras",
-                "body": "<p>Singapūro viešasis sektorius irgi naudoja licencijas, tačiau jų licencijas sunkiau surasti.</p><p>Licencija yra naudojimosi puslapiu sąlygų skiltyje, ir prieinama arba atsisiunčiant duomenų rinkinį, arba einant tiesiai į sąlygų skiltį. </p><p>Pasižiūrėkite Singapūro licencijos pavyzdį.<br /><a href='https://data.gov.sg/dataset/dengue-clusters' target='_blank'>data.gov.sg</a></p>",
+                "body": "<p>Singapūro viešasis sektorius irgi naudoja licencijas, tačiau jų licencijas sunkiau surasti.</p><p>Licencija yra naudojimosi puslapiu sąlygų skiltyje, ir prieinama arba atsisiunčiant duomenų rinkinį, arba einant tiesiai į sąlygų skiltį. </p><p>Pasižiūrėkite Singapūro licencijos pavyzdį:<br /><a href='https://data.gov.sg/dataset/dengue-clusters' target='_blank'>data.gov.sg</a></p>",
                 "_graphic": {
                     "src": "course/lt/images/odi-7.jpg",
                     "alt": "Singapūras",
@@ -248,7 +248,7 @@
       "_layout":"left",
       "title": "Licencijų tipai",
       "displayTitle": "Licencijų tipai",
-      "body": "<p>Kuo paprastesnė licencija, tuo geriau.</p><p>Yra daug skirtingų licencijų rūšių.Norint pasiekti geriausią rezultatą, rinkitės licenciją, kuri yra plačiausiai naudojama. </p><p><a href='https://theodi.org/guides/reusers-guide-open-data-licensing' target='_blank'>Licencijų katalogas</a></p><p class='not-tz not-dlab not-default'>Taip pat pasirinkti tinkamiausią licenciją gali padėti <a href='http://www.europeandataportal.eu/lt/licence-assistant' target='_blank'>The European portal.</a></p>",
+      "body": "<p>Kuo paprastesnė licencija, tuo geriau.</p><p>Yra daug skirtingų licencijų rūšių. Norint pasiekti geriausią rezultatą, rinkitės licenciją, kuri yra plačiausiai naudojama. </p><p><a href='https://theodi.org/guides/reusers-guide-open-data-licensing' target='_blank'>Licencijų katalogas</a></p><p class='not-tz not-dlab not-default'>Taip pat pasirinkti tinkamiausią licenciją gali padėti <a href='http://www.europeandataportal.eu/lt/licence-assistant' target='_blank'>The European portal.</a></p>",
       "instruction": "<em>Paspausk ant antraštės, jei nori pamatyti daugiau.</em>",
       "_items": [
         {
@@ -298,7 +298,7 @@
             },
             {
                 "title": "Atvirų duomenų įtraukimas į sutartis",
-                "body": "<p>Duomenų rinkimo užtikrinimui organizacija gali:</p><ul><li>iįtraukti tokią sąlygą į sutartį</li><li>pasilikti teisę sau paskelbti atvirus duomenis patiems.</li></ul><p><a href='http://training.theodi.org/Procurement/Guide/' target='_blank'>Atvirų duomenų įtraukimo į sutartis gairės</a></p>",
+                "body": "<p>Duomenų rinkimo užtikrinimui organizacija gali:</p><ul><li>įtraukti tokią sąlygą į sutartį</li><li>pasilikti teisę paskelbti atvirus duomenis patiems.</li></ul><p><a href='http://training.theodi.org/Procurement/Guide/' target='_blank'>Atvirų duomenų įtraukimo į sutartis gairės</a></p>",
                 "_graphic": {
                     "src": "course/lt/images/odi-10.jpg",
                     "alt": "Atvirų duomenų įtraukimas į sutartis",
@@ -413,12 +413,12 @@
         "_feedback":{
             "correct":"<h5>Teisingai!</h5><p>Be licencijos duomenys gali būti viešai prieinami, bet jie nesuteikia teisės būti laisvai prieinami, naudojami arplatinami pagal įstatymą.</p>",
             "_incorrect": {
-                "notFinal": "<h5>Ar tikrai?</h5><p>Are you sure about that?</h5><p>Be licencijos duomenys gali būti viešai prieinami, bet jie nesuteikia teisės būti laisvai prieinami, naudojami arplatinami pagal įstatymą.</p>",
-                "final": "<h5>Ar tikrai?</h5><p>Be licencijos duomenys gali būti viešai prieinami, bet jie nesuteikia teisės būti laisvai prieinami, naudojami arplatinami pagal įstatymą.</p>"
+                "notFinal": "<h5>Ar tikrai?</h5><p>Are you sure about that?</h5><p>Be licencijos duomenys gali būti viešai prieinami, bet jie nesuteikia teisės būti laisvai prieinami, naudojami ar platinami pagal įstatymą.</p>",
+                "final": "<h5>Ar tikrai?</h5><p>Be licencijos duomenys gali būti viešai prieinami, bet jie nesuteikia teisės būti laisvai prieinami, naudojami ar platinami pagal įstatymą.</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "<h5>Ar tikrai?</h5><p>Are you sure about that?</h5><p>Be licencijos duomenys gali būti viešai prieinami, bet jie nesuteikia teisės būti laisvai prieinami, naudojami arplatinami pagal įstatymą.</p>",
-                "final": "<h5>Ar tikrai?</h5><p>Are you sure about that?</h5><p>Be licencijos duomenys gali būti viešai prieinami, bet jie nesuteikia teisės būti laisvai prieinami, naudojami arplatinami pagal įstatymą.</p>"
+                "notFinal": "<h5>Ar tikrai?</h5><p>Are you sure about that?</h5><p>Be licencijos duomenys gali būti viešai prieinami, bet jie nesuteikia teisės būti laisvai prieinami, naudojami ar platinami pagal įstatymą.</p>",
+                "final": "<h5>Ar tikrai?</h5><p>Are you sure about that?</h5><p>Be licencijos duomenys gali būti viešai prieinami, bet jie nesuteikia teisės būti laisvai prieinami, naudojami ar platinami pagal įstatymą.</p>"
           }
         },
         "_buttons":{
@@ -475,7 +475,7 @@
                 "_shouldBeSelected": false
             },
             {
-                "text": "galimybę naudoti duomenis komerciniams tikslams.",
+                "text": "galimybę naudoti duomenis komerciniams tikslams",
                 "_shouldBeSelected": true
             }
         ],
