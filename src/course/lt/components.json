@@ -30,7 +30,7 @@
         "_layout":"left",
         "title":"Duomenų tinklo susiejimas",
         "displayTitle":"Duomenų tinklo susiejimas",
-        "body":"<p>Dabartinis interneto tinklas yra sukonfigūruotas kaip puslapių ar dokumentų eilės. Nors šie puslapiai rodo mums suprantamą informaciją, duomenys juose yra paslėpti. Šiame modulyje analizuosime, kas nutiktų, jei panaikintumėme visus puslapius ir dokumentus iš interneto tinklo. </p><p>Įsivaizduokite, jei jūs turite tik grynus duomenis, visus atvirus, naudojamus ir susietus į duomenų tinklą.</p><p>Šiame modulyje taip pat susipažinsime, kaip visos 5 žvaigždutės (brandos lygiai) padeda įgyvendinti duomenų tinklą.</p><h5>Šiame modulyje:</h5><ul class='ticks'><li>Kas yra duomenų tinklas?</li><li>Kaip yra naudojami interneto identifikatoriai?</li><li>Kaip atrodo susietų duomenų tinklas?</li></ul>",
+        "body":"<p>Dabartinis interneto tinklas yra sukonfigūruotas kaip puslapių ar dokumentų eilės. Nors šie puslapiai rodo mums suprantamą informaciją, duomenys juose yra paslėpti. Šiame modulyje analizuosime, kas nutiktų, jei panaikintumėme visus puslapius ir dokumentus iš interneto tinklo. </p><p>Šiame modulyje taip pat susipažinsime, kaip visos 5 žvaigždutės (brandos lygiai) padeda įgyvendinti duomenų tinklą.</p><h5>Šiame modulyje:</h5><ul class='ticks'><li>Kas yra duomenų tinklas?</li><li>Kaip yra naudojami interneto identifikatoriai?</li><li>Kaip atrodo susietų duomenų tinklas?</li></ul>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
@@ -69,7 +69,7 @@
         "title": "Duomenų tinklas",
         "displayTitle": "Duomenų tinklas",
         "body": "Duomenų tinklas yra būdas kitokiam duomenų priėjimui ir naršymui.",
-        "instruction": "<em class='desktop-instruction'>Click the forward arrow to see more.</em><em class='mobile-instruction'>Paspausk ‘+’ ženklą, jei nori pamatyti daugiau.</em>",
+        "instruction": "<em class='desktop-instruction'>Paspausk rodyklę, jei nori pamatyti daugiau</em><em class='mobile-instruction'>Paspausk ‘+’ ženklą, jei nori pamatyti daugiau.</em>",
         "_items": [
             {
                 "title": "Kas yra duomenų tinklas?",
@@ -169,30 +169,30 @@
       "_component":"accordion",
       "_classes":"",
       "_layout":"left",
-      "title": "4 žvaigždutė: atviri identifikatoriai",
-      "displayTitle": "4 žvaigždutė: atviri identifikatoriai",
-      "body": "<p>Ketvirta žvaigždutė yra apie galimybę duomenis susieti tinkle.</p>",
+      "title": "4 brandos lygis: atviri identifikatoriai",
+      "displayTitle": "4 brandos lygis: atviri identifikatoriai",
+      "body": "<p>Ketvirtas brandos lygis apibrėžia galimybę duomenis susieti tinkle.</p>",
       "instruction": "",
       "_items": [
         {
           "alt": "Atviri identifikatoriai",
           "title": "Atviri identifikatoriai",
-          "body": "<p>Identifikatorius yra nuoroda į kokį nors kompleksiškesnį dalyką.</p><p>Pavyzdžiui, verslai turi įmonių kodus, o lokacijos pašto kodus.</p><p>vTokius ir kitokius identifikatorius naudoja tiek privatus, tiek viešas sektorius.</p><p>Pagrindinis iššūkis identifikatoriams yra tai, kad iš skaičiaus nėra akivaizdu, į ką jis nurodo. Todėl daugelis naudoja paieškos sistemas tam, kad galėtų greitai išsiaiškinti identifikatorius. Internete esantys identifikatoriai neturi tokio problemos, nes paprasčiausiai galima paspausti ant identifikatoriaus, norint sužinoti daugiau.</p><p>Pavyzdžiui, įmonės kodas yra 08030289. Tam, kad sužinotumėte, kokia tai įmonė, jūs greičiausiai įvestumėte numerį į paieškos sistemą ir surastumėte įmonės pavadinimą.Tačiau jūs taip pat galite pasinaudoti internete esančiu identifikatoriumi tiesiogiai savo naršyklėje, pvz:<br /><a href='https://beta.companieshouse.gov.uk/company/08030289' style='word-wrap: break-word;' target='_blank'>https://beta.companieshouse.gov.uk/company/08030289</a></p>"
+          "body": "<p>Identifikatorius yra nuoroda į kokį nors kompleksiškesnį dalyką.</p><p>Pavyzdžiui, verslai turi įmonių kodus, o lokacijos pašto kodus.</p><p>Tokius ir kitokius identifikatorius naudoja tiek privatus, tiek viešas sektorius.</p><p>Pagrindinis iššūkis identifikatoriams yra tai, kad iš skaičiaus nėra akivaizdu, į ką jis nurodo. Todėl daugelis naudoja paieškos sistemas tam, kad galėtų greitai išsiaiškinti identifikatorius. Internete esantys identifikatoriai neturi tokio problemos, nes paprasčiausiai galima paspausti ant identifikatoriaus, norint sužinoti daugiau.</p><p>Pavyzdžiui, įmonės kodas yra 08030289. Tam, kad sužinotumėte, kokia tai įmonė, jūs greičiausiai įvestumėte numerį į paieškos sistemą ir surastumėte įmonės pavadinimą.Tačiau jūs taip pat galite pasinaudoti internete esančiu identifikatoriumi tiesiogiai savo naršyklėje, pvz:<br /><a href='https://beta.companieshouse.gov.uk/company/08030289' style='word-wrap: break-word;' target='_blank'>https://beta.companieshouse.gov.uk/company/08030289</a></p>"
         },
         {
           "alt": "Ketvirtos žvaigždutės panaudojimas",
           "title": "Ketvirtos žvaigždutės panaudojimas",
-          "body": "<p>Ketvirta žvaigždutė reikalauja tinkle patalpinto ir naudojamo (http://)  identifikatoriaus visiems objektams, tiek finiziniams, tiek skaitmeniniams.</p><p>Identifikatoriai įprastai būna ženklų arba skaičių rinkinys.</p><p>Toks identifikavimas leidžia naudoti interneto priegą norint tiek peržiūrėti, tiek pasidaryti duomenų kopiją, pvz:</p><p><a style='word-wrap: break-word;' href='http://id.southampton.ac.uk/building/59' target='_blank'>http://id.southampton.ac.uk/building/59</a></p><p><a style='word-wrap: break-word;' href='http://data.ordnancesurvey.co.uk/id/postcodeunit/EC2A4JE' target='_blank'>http://data.ordnancesurvey.co.uk/id/postcodeunit/EC2A4JE</a></p>"
+          "body": "<p>Ketvirta žvaigždutė reikalauja tinkle patalpinto ir naudojamo (http://) identifikatoriaus visiems objektams, tiek finiziniams, tiek skaitmeniniams.</p><p>Identifikatoriai įprastai būna ženklų arba skaičių rinkinys.</p><p>Toks identifikavimas leidžia naudoti interneto priegą norint tiek peržiūrėti, tiek pasidaryti duomenų kopiją, pvz:</p><p><a style='word-wrap: break-word;' href='http://id.southampton.ac.uk/building/59' target='_blank'>http://id.southampton.ac.uk/building/59</a></p><p><a style='word-wrap: break-word;' href='http://data.ordnancesurvey.co.uk/id/postcodeunit/EC2A4JE' target='_blank'>http://data.ordnancesurvey.co.uk/id/postcodeunit/EC2A4JE</a></p>"
         },
         {
-          "alt": "4 žvaigždutės atviri duomenys",
-          "title": "4 žvaigždutės atviri duomenys",
-          "body": "<p>TKetvirta žvaigždutė  taip pat reikalauja kad kai naudotojas paspaudžia ant nuorodos ir kai konkretus objektas negali būti suteiktas (pvz. knyga, asmuo, pastatas), naudotojui iškarto turi būti suteikta kontekstuali informacija apie tą objektą.</p><p>Tai yra daroma naudotoją (žmogų ar mašiną) peradresuojant į tą informaciją. Tokia informacija gali būti kitas interneto puslapis arba gryni duomenys.</p>"
+          "alt": "Ketvirtos žvaigždutės atviri duomenys",
+          "title": "Ketvirtos žvaigždutės atviri duomenys",
+          "body": "<p>Ketvirta žvaigždutė  taip pat reikalauja kad kai naudotojas paspaudžia ant nuorodos ir kai konkretus objektas negali būti suteiktas (pvz. knyga, asmuo, pastatas), naudotojui iš karto turi būti suteikta kontekstuali informacija apie tą objektą.</p><p>Tai yra daroma naudotoją (žmogų arba algoritmą) peradresuojant į tą informaciją. Tokia informacija gali būti kitas interneto puslapis arba gryni duomenys.</p>"
         },
         {
           "alt": "Pabandyk:",
           "title": "Pabandyk:",
-          "body": "<p>Kai kurie internete esantys identifikatoriai gali nustatyti identifikatorių vien iš URL. Prieš paspaudžiant URL, pabandykite patys: į kokį identifikatorių nurodo žemiau esanti nuoroda?:<br><br><a href='http://data.ordnancesurvey.co.uk/id/postcodeunit/EC2A4JE' style='word-wrap: break-word;' target='_blank'>http://data.ordnancesurvey.co.uk/id/postcodeunit/EC2A4JE</a></p><p>Ši nuoroda išsiuntė serveriui pašto kodo užklausą. Tam, kad įvykdytų šią užklausą, serveris jums atidarė interneto puslapį su nurodytu pašto kodu, kadangi negali jums atsiųsti tik paties pašto kodo. Atlikdama užduotį naršyklė vykdo procesą, vadinamą turinio derybomis (content negotiation) su serveriu, kurio rezultatas- interneto puslapio atidarymas, nes užklausą vykdote per interneto naršyklę. Jeigu šiai užklausai naudotumėte programinį algoritmą / mašiną, atsakymą į užklausą gautumėte kitu pageidaujamu formatu. </p><p>Pabandykite patys, kokį rezultatą gautų mašina Ordnance apklausos puslapyje (minėtu aukščiau), jei nuorodos gale pridėtumėte galūnę “.json” arba “.xml”?</p>"
+          "body": "<p>Kai kurie internete esantys identifikatoriai gali nustatyti identifikatorių vien iš URL. Prieš paspaudžiant URL, pabandykite patys: į kokį identifikatorių nurodo žemiau esanti nuoroda?:<br><br><a href='http://data.ordnancesurvey.co.uk/id/postcodeunit/EC2A4JE' style='word-wrap: break-word;' target='_blank'>http://data.ordnancesurvey.co.uk/id/postcodeunit/EC2A4JE</a></p><p>Ši nuoroda išsiuntė serveriui pašto kodo užklausą. Tam, kad įvykdytų šią užklausą, serveris jums atidarė interneto puslapį su nurodytu pašto kodu, kadangi negali jums atsiųsti tik paties pašto kodo. Atlikdama užduotį naršyklė vykdo procesą, vadinamą turinio derybomis (content negotiation) su serveriu, kurio rezultatas- interneto puslapio atidarymas, nes užklausą vykdote per interneto naršyklę. Jeigu šiai užklausai naudotumėte programinį algoritmą / mašiną, atsakymą į užklausą gautumėte kitu pageidaujamu formatu. </p><p>Pabandykite patys- kokį rezultatą gautų mašina Ordnance apklausos puslapyje (minėtu aukščiau), jei nuorodos gale pridėtumėte galūnę “.json” arba “.xml”?</p>"
         }
       ],
       "_pageLevelProgress": {
@@ -224,9 +224,9 @@
       "_component":"accordion",
       "_classes":"",
       "_layout":"left",
-      "title": "5 žvaigždutės: susieti duomenys ",
-      "displayTitle": "5 žvaigždutės: susieti duomenys ",
-      "body": "<p>Penkta žvaigždutė yra apie atskirų duomenų laukų sąsajas.</p>",
+      "title": "5 brandos lygis: susieti duomenys ",
+      "displayTitle": "5 brandos lygis: susieti duomenys ",
+      "body": "<p>Penktu brandos lygiu apibrėžiamos atskirų duomenų laukų sąsajos.</p>",
       "instruction": "",
       "_items": [
         {
@@ -242,7 +242,7 @@
         {
           "alt": "Pabandykite naudoti 5 brandos lygį",
           "title": "Pabandykite naudoti 5 brandos lygį",
-          "body": "<p>YTurbūt pastebėjote šiame modulyje naudojamas nuorodas.</p><p>Pabandykite atidaryti šią nuorodą:<br><br><a href='http://data.ordnancesurvey.co.uk/id/postcodeunit/SO171BJ' style='word-wrap: break-word;' target='_blank'>http://data.ordnancesurvey.co.uk/id/postcodeunit/SO171BJ</a><br><br>Dabar pabandykite atidaryti tą pačią nuorodą duomenų naršyklėje:<br><br><a href='http://graphite.ecs.soton.ac.uk/browser/' target='_blank'>Graphite susietų duomenų naršyklė</a><br><br>Duomenų naršyklė naudoja automatinį turinio derėjimosi būdą, ir rodo grynus duomenis žmogui lengvai suprantamu formatu.</p><p>Bet koks raudonas tekstas naršyklėje yra nuoroda į duomenis, kurioje turėtų būti dar daugiau duomenų.</p><p>Šioje nuorodoje galima susipažinti su atvirų duomenų tinklo panaudojimu:</p><p><a href='http://www.bbc.co.uk/programmes/b006q2x0' target='_blank'>http://www.bbc.co.uk/programmes/b006q2x0</a>"
+          "body": "<p>Turbūt pastebėjote šiame modulyje naudojamas nuorodas.</p><p>Pabandykite atidaryti šią nuorodą:<br><br><a href='http://data.ordnancesurvey.co.uk/id/postcodeunit/SO171BJ' style='word-wrap: break-word;' target='_blank'>http://data.ordnancesurvey.co.uk/id/postcodeunit/SO171BJ</a><br><br>Dabar pabandykite atidaryti tą pačią nuorodą duomenų naršyklėje:<br><br><a href='http://graphite.ecs.soton.ac.uk/browser/' target='_blank'>Graphite susietų duomenų naršyklė</a><br><br>Duomenų naršyklė naudoja automatinį turinio derėjimosi būdą, ir rodo grynus duomenis žmogui lengvai suprantamu formatu.</p><p>Bet koks raudonas tekstas naršyklėje yra nuoroda į duomenis, kurioje turėtų būti dar daugiau duomenų.</p><p>Šioje nuorodoje galima susipažinti su atvirų duomenų tinklo panaudojimu:</p><p><a href='http://www.bbc.co.uk/programmes/b006q2x0' target='_blank'>http://www.bbc.co.uk/programmes/b006q2x0</a>"
         }
       ],
       "_pageLevelProgress": {
@@ -383,7 +383,7 @@
         "_isRandom":true,
         "_selectable":1,
         "title": "Ką identifikuoja sekanti nuoroda?",
-        "displayTitle": "What does the following identify?",
+        "displayTitle": "Ką identifikuoja sekanti nuoroda?",
         "body": "<p><a href='http://id.southampton.ac.uk/room/32-3077' target='_blank'>http://id.southampton.ac.uk/room/32-3077</a></p>",
         "instruction": "<em>Pasirink teisingą atsakymą ir spausk ‘submit’</em>",
         "_items": [
@@ -470,14 +470,14 @@
             }
         ],
         "_feedback":{
-            "correct":"<h5>Teisingai!</h5><p>Visos šios nuorodos teisingos!Pirmos dvi nuorodos naudoja tą patį identifikatorių, bet priklauso skirtingiems savininkams.Trečia nuoroda naudoja Wikipedia identifikarorių (dbpedia).Jie visi yra susieti tarpusavyje, ar galite identifikuoti sąsajas?</p>",
+            "correct":"<h5>Teisingai!</h5><p>Visos šios nuorodos teisingos! Pirmos dvi nuorodos naudoja tą patį identifikatorių, bet priklauso skirtingiems savininkams. Trečia nuoroda naudoja Wikipedia identifikarorių (dbpedia). Jie visi yra susieti tarpusavyje, ar galite identifikuoti sąsajas?</p>",
             "_incorrect": {
-                "notFinal": "<h5>Ar tikrai?</h5><p>Iš tikrųjų visos šios nuorodos teisingos!Pirmos dvi nuorodos naudoja tą patį identifikatorių, bet priklauso skirtingiems savininkams.Trečia nuoroda naudoja Wikipedia identifikarorių (dbpedia).Jie visi yra susieti tarpusavyje, ar galite identifikuoti sąsajas?</p>",
-                "final": "<h5>Ar tikrai?</h5><p>Iš tikrųjų visos šios nuorodos teisingos!Pirmos dvi nuorodos naudoja tą patį identifikatorių, bet priklauso skirtingiems savininkams.Trečia nuoroda naudoja Wikipedia identifikarorių (dbpedia).Jie visi yra susieti tarpusavyje, ar galite identifikuoti sąsajas?</p>"
+                "notFinal": "<h5>Ar tikrai?</h5><p>Iš tikrųjų visos šios nuorodos teisingos! Pirmos dvi nuorodos naudoja tą patį identifikatorių, bet priklauso skirtingiems savininkams. Trečia nuoroda naudoja Wikipedia identifikarorių (dbpedia). Jie visi yra susieti tarpusavyje, ar galite identifikuoti sąsajas?</p>",
+                "final": "<h5>Ar tikrai?</h5><p>Iš tikrųjų visos šios nuorodos teisingos! Pirmos dvi nuorodos naudoja tą patį identifikatorių, bet priklauso skirtingiems savininkams. Trečia nuoroda naudoja Wikipedia identifikarorių (dbpedia). Jie visi yra susieti tarpusavyje, ar galite identifikuoti sąsajas?</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "<h5>Ar tikrai?</h5><p>Iš tikrųjų visos šios nuorodos teisingos!Pirmos dvi nuorodos naudoja tą patį identifikatorių, bet priklauso skirtingiems savininkams.Trečia nuoroda naudoja Wikipedia identifikarorių (dbpedia).Jie visi yra susieti tarpusavyje, ar galite identifikuoti sąsajas?</p>",
-                "final": "<h5>Ar tikrai?v</h5><p>Iš tikrųjų visos šios nuorodos teisingos!Pirmos dvi nuorodos naudoja tą patį identifikatorių, bet priklauso skirtingiems savininkams.Trečia nuoroda naudoja Wikipedia identifikarorių (dbpedia).Jie visi yra susieti tarpusavyje, ar galite identifikuoti sąsajas?</p>"
+                "notFinal": "<h5>Ar tikrai?</h5><p>Iš tikrųjų visos šios nuorodos teisingos! Pirmos dvi nuorodos naudoja tą patį identifikatorių, bet priklauso skirtingiems savininkams. Trečia nuoroda naudoja Wikipedia identifikarorių (dbpedia). Jie visi yra susieti tarpusavyje, ar galite identifikuoti sąsajas?</p>",
+                "final": "<h5>Ar tikrai?</h5><p>Iš tikrųjų visos šios nuorodos teisingos! Pirmos dvi nuorodos naudoja tą patį identifikatorių, bet priklauso skirtingiems savininkams. Trečia nuoroda naudoja Wikipedia identifikarorių (dbpedia). Jie visi yra susieti tarpusavyje, ar galite identifikuoti sąsajas?</p>"
           }
         },
         "_buttons":{
@@ -517,7 +517,7 @@
         "_layout":"left",
         "title":"Susietų atvirų tinklas",
         "displayTitle":"Susietų atvirų tinklas",
-        "body":"<p>Duomenų tinklas yra susieti duomenų rinkiniai, kurie gali būti suprasti tiek žmonių, tiek mašinų.</p><p>1989 m. Tim Berners-Lee išrado duomenų tinklą, bet užtruko 20 metų iki jo praktinio pritaikymo. Šiandien tai fundamentali interneto dalis. </p><p>2001 m. Tim įžvelgė, kad duomenų tinklas iš esmės pakeis internetą.</p><p><a class='course_link' href='../module14/'>Kitas modulis</a></p><p><a class='course_link' href='../'>Pagrindinis puslapis</a></p>",
+        "body":"<p>Duomenų tinklas yra susieti duomenų rinkiniai, kurie gali būti suprasti tiek žmonių, tiek algoritmų.</p><p>1989 m. Tim Berners-Lee išrado duomenų tinklą, bet užtruko 20 metų iki jo praktinio pritaikymo. Šiandien tai fundamentali interneto dalis. </p><p>Tim dar 2001 m. įžvelgė, kad duomenų tinklas iš esmės pakeis internetą.</p><p><a class='course_link' href='../module14/'>Kitas modulis</a></p><p><a class='course_link' href='../'>Pagrindinis puslapis</a></p>",
         "_pageLevelProgress": {
           "_isEnabled": true
         }
