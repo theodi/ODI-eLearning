@@ -28,9 +28,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Kodėl turėtume nerimauti dėl duomenų tvarumo?",
-        "displayTitle":"Kodėl turėtume nerimauti dėl duomenų tvarumo?",
-        "body":"<p>Norint, kad atvirieji duomenys būtų naudingi, jie turi būti aktualūs, nuolat atnaujinami ir prieinami.</p><p>Tvari atvirųjų duomenų programa nuolat atnaujina duomenis palaikydama bent jau tokią pačią arba geresnę kokybę.</p><h5>Šiame modulyje:</h5><ul class='ticks'><li>kaip sukurti tvarius duomenis;</li><li>kodėl tvarumas yra svarbu;</li><li>kaip atpažinti tvarius duomenų rinkinius.</li></ul>",
+        "title":"Kodėl turime užtikrinti duomenų tvarumą?",
+        "displayTitle":"Kodėl turime užtikrinti duomenų tvarumą?",
+        "body":"<p>Norint, kad atviri duomenys būtų naudingi, jie turi būti aktualūs, nuolat atnaujinami ir prieinami.</p><p>Tvari atvirų duomenų programa nuolat atnaujina duomenis palaikydama bent tokią pačią arba dar geresnę kokybę.</p><h5>Šiame modulyje:</h5><ul class='ticks'><li>kaip sukurti tvarius duomenis</li><li>kodėl tvarumas yra svarbu</li><li>kaip atpažinti tvarius duomenų rinkinius</li></ul>",
         "_pageLevelProgress": {
             "_isEnabled": true
         }
@@ -44,7 +44,7 @@
         "_layout":"full",
         "title":"Atvirųjų duomenų tvarumas per 2 minutes",
         "displayTitle": "Atvirųjų duomenų tvarumas per 2 minutes",
-        "body": "Atvirųjų duomenų instituto (angl. „Open Data Institute“, ODI) paleisties programos vadovas Ulrichas Atzas paaiškina, kaip svarbu užtikrinti atvirųjų duomenų tvarumą ir kodėl naudotojams tvarumas rūpi. Jis taip pat užsimena apie kelis pagrindinius rodiklius, dėl kurių atvirųjų duomenų iniciatyva sukurta taip, kad tęstųsi.",
+        "body": "Atvirų duomenų instituto (ODI) programos vadovas Ulrichas Atzas paaiškina, kaip svarbu užtikrinti atvirų duomenų tvarumą ir kodėl naudotojams tvarumas rūpi. Jis taip pat paaiškina pagrindinius rodiklius, dėl kurių atvirų duomenų iniciatyva sukuriama taip, kad tęstųsi.",
         "instruction": "Norint įjungti subtitrus, paskausk 'cc' mygtuką video apačioje, dešinėje pusėje.",
         "_setCompletionOn":"ended",
         "_source": "https://player.vimeo.com/video/129879004",
@@ -85,7 +85,7 @@
         "_layout":"right",
         "title":"Kas lemia atvirų duomenų tvarumą?",
         "displayTitle":"Kas lemia atvirų duomenų tvarumą?",
-        "body":"<h5>Tvarus atvirųjų duomenų rinkinys remiasi:</h5><ul class='ticks'><li><b>užtikrintu finansavimu,</b>kad būtų padengtos atnaujinimų išlaidos;</li><li><b>didele leidėjų parama</b>visų pirma skirta naujinimams;</li><li><b>plačiu kitų asmenų pakartotiniu naudojimu,</b>siekiant parodyti vertę.</li></ul>"
+        "body":"<h5>Tvarus atvirų duomenų rinkinys remiasi:</h5><ul class='ticks'><li><b>užtikrintu finansavimu,</b> padengiant atnaujinimų išlaidas;</li><li><b>didele leidėjų parama</b>, kuri visų pirma yra skirta naujinimams;</li><li><b>plačiu pakartotiniu naudojimu,</b> siekiant parodyti duomenų vertę.</li></ul>"
     },
      {
         "_id": "c-31",
@@ -96,11 +96,11 @@
         "_component": "narrative",
         "title": "Kaip sukurti tvarius duomenis",
         "displayTitle": "Kaip sukurti tvarius duomenis",
-        "body": "Kokie veiksniai padeda sukurti atvirųjų duomenų rinkinį tvariu?",
+        "body": "Kokie veiksniai padeda sukurti atvirų duomenų rinkinį tvariu?",
         "instruction": "<em>Paspausk rodyklę, jei nori pamatyti daugiau</em>",
         "_items": [
             {
-                "title": "Užtikrintas atvirųjų duomenų finansavimas.",
+                "title": "Užtikrintas atvirų duomenų finansavimas.",
                 "body": "Vien dėl to, kad duomenų rinkinys gali būti laisvai naudojamas, nereiškia, kad nėra duomenų rinkimo arba išleidimo išlaidų. Finansavimas gali būti užtikrintas:</h5><ul class='bullet'><li>imant mokestį už prieigą arba pagerintas pasaugas;</li><li>gaunant lėšas iš kito šaltinio, remiančio atvirųjų duomenų skelbimą;</li><li>supažindinant organizaciją su nuolatine atvirųjų duomenų teikiama nauda.</li></ul>",
                 "_graphic": {
                     "src": "course/lt/images/odi-002.jpg",
@@ -113,7 +113,7 @@
                 "strapline": "Užtikrintas finansavimas"
             },
             {
-                "title": "Didelė parama atviriesiems duomenims",
+                "title": "Didelė parama atviriems duomenims",
                 "body": "<p>Norint organizacijoje atviruosius duomenis paversti tvariais paprastai reikia teikti jiems pirmenybę bei gauti organizacijos vadovybės ir už kokybės palaikymą atsakingo personalo paramą.</p><p>Dažniausiai didelę paramą gauna ta įmonė, kuri yra įsipareigojusi naudoti atviruosius duomenis savo kasdienėje veikloje.",
                 "_graphic": {
                     "src": "course/lt/images/odi-003.jpg",
@@ -126,7 +126,7 @@
                 "strapline": "Didelis palaikymas"
             },
             {
-                "title": "Platus atvirųjų duomenų pakartotinis naudojimas",
+                "title": "Platus atvirų duomenų pakartotinis naudojimas",
                 "body": "<p class='not-dlab'>Tvarus pakartotinis naudojimas pasiekiamas, kai remiantis tokiais duomenimis sukurtos paslaugos tampa labai svarbios leidėjo įmonės sėkmei. Berlyno transporto sistemos „Verkehrsverbund Berlin-Brandenburg“ duomenų rinkiniais naudojasi milijonai žmonių, kai duomenys patenka į tokias transporto programėles kaip „Citymapper“. Šios programėlės naudojasi VBB paslaugomis ir todėl VBB įsipareigoja savo skaitmeninėje strategijoje nuolat atnaujinti duomenis.<br /><a href='https://citymapper.com/berlin' target='_blank'>Eiti į „Citymapper Berlin“ svetainę.</a></p>",
                 "_graphic": {
                     "src": "course/lt/images/odi-004.jpg",
@@ -150,14 +150,14 @@
         "_type":"component",
         "_layout": "full",
         "_component": "narrative",
-        "title": "Kodėl jums rūpi tvarumas?",
-        "displayTitle": "Kodėl jums rūpi tvarumas?",
-        "body": "Kodėl man turėtų rūpėti, ar atvirieji duomenys, su kuriais dirbu, yra tvarūs?",
+        "title": "Kodėl tvarumas yra svarbu?",
+        "displayTitle": "Kodėl tvarumas yra svarbu?",
+        "body": "Kodėl man turėtų rūpėti, ar atviri duomenys, su kuriais dirbu, yra tvarūs?",
         "instruction": "<em>Paspausk rodyklę, jei nori pamatyti daugiau</em>",
         "_items": [
             {
                 "title": "Tvirtas pagrindas",
-                "body": "Tvarumas reikalingas ne tik naudotojams.Leidėjui tvari atvirųjų duomenų programa taip pat naudinga, nes:</h5><ul class='bullet'><li>padidėja bendruomenės pasitikėjimas leidėjo organizacija;</li><li>remiamas naujų produktų ir paslaugų kūrimas;</li><li>leidėjams supaprastinamas pakartotinis jų pačių duomenų naudojimas.</li></ul>",
+                "body": "Tvarumas reikalingas ne tik naudotojams. Leidėjui tvari atvirų duomenų programa taip pat naudinga, nes:</h5><ul class='bullet'><li>padidėja bendruomenės pasitikėjimas leidėjo organizacija;</li><li>remiamas naujų produktų ir paslaugų kūrimas;</li><li>leidėjams supaprastinamas pakartotinis jų pačių duomenų naudojimas.</li></ul>",
                 "_graphic": {
                     "src": "course/lt/images/odi-005.jpg",
                     "alt": "Tvirtas pagrindas",
@@ -183,7 +183,7 @@
             },
             {
                 "title": "Nauji verslo ryšiai",
-                "body": "Tvarūs atvirieji duomenys leidžia atrasti naujų klientų ir taip kitos įmonės gali remtis leidėjo duomenimis. Daugeliu atvejų šios įmonės teikia tiesioginę naudą leidėjui..",
+                "body": "Tvarūs atvirieji duomenys leidžia atrasti naujų klientų ir taip kitos įmonės gali remtis leidėjo duomenimis. Daugeliu atvejų šios įmonės teikia tiesioginę naudą leidėjui.",
                 "_graphic": {
                     "src": "course/lt/images/odi-007.jpg",
                     "alt": "Nauji verslo ryšiai",
@@ -239,7 +239,7 @@
       "_layout":"left",
       "title": "Tvarumo užuominų paieška",
       "displayTitle": "Tvarumo užuominų paieška",
-      "body": "Tvarus išleidimas derina užtikrintą finansavimą, didelę paramą ir platų pakartotinį naudojimą. Šie požymiai ne visada akivaizdūs, kai pirmą kartą susiduriate su duomenų rinkiniu. Paklauskite savęs toliau nurodytų dalykų, kurie padės surasti gerus šaltinius:",
+      "body": "Tvarus išleidimas derina užtikrintą finansavimą, didelę paramą ir platų pakartotinį naudojimą. Šie požymiai ne visada akivaizdūs, kai pirmą kartą susiduriate su duomenų rinkiniu. Žemiau nurodyti kriterijai, kurie padės surasti gerus šaltinius:",
       "instruction": "<em>Paspausk ant antraštės, jei nori pamatyti daugiau</em>",
       "_items": [
         {
@@ -255,17 +255,17 @@
         {
           "alt": "Apie ką galima spręsti iš licencijos?",
           "title": "Apie ką galima spręsti iš licencijos?",
-          "body": "<p>Licencijose taip pat galima rasti informacijos apie duomenų tvarumą.<br><br>Žiūrėdami į licenciją paklauskite savęs, ką tekstas gali nurodyti apie duomenų rinkinio ateitį ir leidėjo pasitikėjimą juo? Ar jame numatytas įsipareigojimas nuolat jį atnaujinti?<br><br>Atminkite, kad neturint licencijos duomenys nėra išties atviri. Atminkite, kad neturint licencijos duomenys nėra išties atviri.</p>"
+          "body": "<p>Licencijose taip pat galima rasti informacijos apie duomenų tvarumą.<br><br>Žiūrėdami į licenciją paklauskite savęs, ką tekstas gali nurodyti apie duomenų rinkinio ateitį ir leidėjo pasitikėjimą juo? Ar jame numatytas įsipareigojimas nuolat jį atnaujinti?<br><br>Atminkite, kad neturint licencijos duomenys nėra išties atviri.</p>"
         },
         {
           "alt": "Kas jau naudojasi duomenimis?",
           "title": "Kas jau naudojasi duomenimis?",
-          "body": "<p>Kuo plačiau naudojamas duomenų rinkinys, tuo svarbesnis jo tvarumas.<br><br>Pasidomėkite, kas kitas naudojasi šiuo duomenų rinkiniu ir kokiais tikslais.<br><br>Pabandykite išsiaiškinti, ar duomenų rinkiniu naudojasi pats leidėjas?<br><br>Abu aspektai rodo, ar leidėjas rūpinasi duomenų rinkiniu ir patiria išorės spaudimą nepanaikinti prieigos prie jo ar nepakeisti jo dėl savo tikslų.</p>"
+          "body": "<p>Kuo plačiau naudojamas duomenų rinkinys, tuo svarbesnis jo tvarumas.<br><br>Pasidomėkite, kas kitas naudojasi šiuo duomenų rinkiniu ir kokiais tikslais.<br><br>Pabandykite išsiaiškinti, ar duomenų rinkiniu naudojasi pats leidėjas?<br><br>Abu aspektai rodo, ar leidėjas rūpinasi duomenų rinkiniu ir ar patiria išorės spaudimą nepanaikinti prieigos prie jo.</p>"
         },
         {
           "alt": "Kas yra atvėrimo istorija?",
           "title": "Kas yra atvėrimo istorija?",
-          "body": "<p>Atvirųjų duomenų tvarumo vertinimas galiausiai priklauso nuo to, kiek pasitikėsite jų leidėju.<br><br>Išsiaiškinkite, kiek laiko duomenų rinkinys buvo skelbtas. Ilga naujinimų istorija yra geras ženklas, tačiau nepamirškite išorinių veiksnių, tokių kaip projekto trukmė ir pradžia.Pagrindinis tvarios iniciatyvos rodiklis apima daugiau nei minėti išoriniai veiksniai.</p>"
+          "body": "<p>Atvirųjų duomenų tvarumo vertinimas galiausiai priklauso nuo to, kiek pasitikėsite jų leidėju.<br><br>Išsiaiškinkite, kiek laiko duomenų rinkinys buvo skelbtas. Ilga naujinimų istorija yra geras ženklas, tačiau nepamirškite išorinių veiksnių, tokių kaip projekto trukmė ir pradžia. Pagrindinis tvarios iniciatyvos rodiklis apima daugiau nei minėti išoriniai veiksniai.</p>"
         },
         {
           "alt": "Kaip galiu prisidėti?",
@@ -330,7 +330,7 @@
         "_items": [
             {
                 "text": "Užtikrintas finansavimas",
-                "_shouldBeSelected":false,
+                "_shouldBeSelected":true,
                 "_graphic": {
                     "alt": "Secure funding",
                     "title": "",
@@ -344,7 +344,7 @@
             },
             {
                 "text": "Didelė failo apimtis",
-                "_shouldBeSelected":true,
+                "_shouldBeSelected":false,
                 "_graphic": {
                     "alt": "Large filesize",
                     "title": "Large filesize",
@@ -358,7 +358,7 @@
             },
             {
                 "text": "Didelis palaikymas",
-                "_shouldBeSelected":false,
+                "_shouldBeSelected":true,
                 "_graphic": {
                     "alt": "Active support",
                     "title": "",
@@ -372,7 +372,7 @@
             },
             {
                 "text": "Platus pakartotinis naudojimas.",
-                "_shouldBeSelected":false,
+                "_shouldBeSelected":true,
                 "_graphic": {
                     "alt": "Wide reuse",
                     "title": "",
