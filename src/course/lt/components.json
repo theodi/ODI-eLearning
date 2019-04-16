@@ -27,7 +27,7 @@
     "_layout": "left",
     "_parentId": "b-02",
     "_type": "component",
-    "body": "<p>Pokyčių valdymas yra <strong>ilgalaikio perėjimo, pokyčių arba vystymosi procesų taikymas organizacijoje. </strong></p><p>Pagrindinis pokyčių valdymo tikslas – pakeisti ilgai trukusią organizacijos veiklą, apimant jos sistemų, procesų ir struktūrų pritaikymą bei joje dirbančių žmonių mąstymo ir veiksmų pokyčius.</p><p>Pokyčių valdymas taip pat svarbus viešajam ir privačiajam sektoriams bei didelėms ir mažoms organizacijoms.</p>",
+    "body": "<p>Pokyčių valdymas yra <strong>ilgalaikio perėjimo, pokyčių arba vystymosi procesų taikymas organizacijoje. </strong></p><p>Pagrindinis pokyčių valdymo tikslas – pakeisti ilgai trukusią organizacijos veiklą, apimant jos sistemų, procesų ir struktūrų pritaikymą bei joje dirbančių žmonių mąstymo ir veiksmų pokyčius.</p><p>Pokyčių valdymas svarbus tiek viešajam ir privačiajam sektoriams, tiek didelėms ir mažoms organizacijoms.</p>",
     "displayTitle": "Kas yra pokyčių valdymas? ",
     "title": "Kas yra pokyčių valdymas? ",
     "_isAvailable": true,
@@ -107,7 +107,7 @@
     "_layout": "left",
     "_parentId": "b-01",
     "_type": "component",
-    "body": "<p dir=\"ltr\">Pokyčių valdymas yra ilgalaikio perėjimo, pokyčių arba vystymosi procesų taikymas organizacijoje. Pokyčių valdymas ypač svarbus susidūrus su dideliais pokyčiais, pavyzdžiui, sėkmingam atvirųjų duomenų gavimui reikalingais kultūriniais pokyčiais.</p><p dir=\"ltr\">Šiame modulyje išnagrinėsime, kodėl organizacijoms svarbu valdyti pokyčius ir pagrindinius elementus, padedančius sukurti sėkmingą pokyčių valdymo procesą.</p><ul class='ticks'><li dir=\"ltr\">Kas yra pokyčių valdymas?</li><li dir=\"ltr\">Kodėl pokyčių valdymas svarbus atvirųjų duomenų iniciatyvoms?</li><li dir=\"ltr\">Kodėl reikia valdyti pokyčius?</li><li dir=\"ltr\">Kokie pagrindiniai pokyčių valdymo elementai?</li></ul>",
+    "body": "<p dir=\"ltr\">Pokyčių valdymas yra ilgalaikio perėjimo, pokyčių arba vystymosi procesų taikymas organizacijoje. Pokyčių valdymas ypač svarbus susidūrus su dideliais pokyčiais, pavyzdžiui, sėkmingam atvirųjų duomenų gavimui reikalingais kultūriniais pokyčiais.</p><p dir=\"ltr\">Šiame modulyje išnagrinėsime, kodėl organizacijoms svarbu valdyti pokyčius ir susipažinsime su pagrindiniais elementais, padedančiais sukurti sėkmingą pokyčių valdymo procesą.</p><ul class='ticks'><li dir=\"ltr\">Kas yra pokyčių valdymas?</li><li dir=\"ltr\">Kodėl pokyčių valdymas svarbus atvirų duomenų iniciatyvoms?</li><li dir=\"ltr\">Kodėl reikia valdyti pokyčius?</li><li dir=\"ltr\">Kokie yra pagrindiniai pokyčių valdymo elementai?</li></ul>",
     "displayTitle": "Atvirų duomenų pokyčių valdymas",
     "title": "Atvirų duomenų pokyčių valdymas",
     "_isAvailable": true,
@@ -125,8 +125,8 @@
     "_parentId": "b-09",
     "_type": "component",
     "body": "<p><strong>Trys pagrindiniai pokyčių valdymo elementai yra...</strong></p>",
-    "displayTitle": "Kokie pagrindiniai pokyčių valdymo elementai?",
-    "title": "Kokie pagrindiniai pokyčių valdymo elementai?",
+    "displayTitle": "Kokie yra pagrindiniai pokyčių valdymo elementai?",
+    "title": "Kokie yra pagrindiniai pokyčių valdymo elementai?",
     "_isAvailable": true,
     "_isOptional": false,
     "_classes": "",
@@ -137,7 +137,7 @@
     "instruction": "",
     "_items": [
       {
-        "text": "tinkamos terminijos vartojimas, darbas pereinant nuo bendrų dalykų prie specifinių ir greitai įvedami pokyčiai",
+        "text": "tinkamų terminų vartojimas, darbas pereinant nuo bendrų dalykų prie specifinių ir greitai įvedami pokyčiai",
         "_shouldBeSelected": false,
         "feedback": ""
       },
@@ -147,7 +147,7 @@
         "feedback": ""
       },
       {
-        "text": "darbas pereinant nuo specifinių dalykų prie bendrų, pokyčių reikalavimas ir greitas jų įgyvendinimas.",
+        "text": "darbas pereinant nuo specifinių dalykų prie bendrų, pokyčių reikalavimas ir greitas jų įgyvendinimas",
         "_shouldBeSelected": false,
         "feedback": ""
       }
@@ -371,12 +371,12 @@
         "feedback": ""
       },
       {
-        "text": "jis padeda užtikrinti tvarumą ir sumažinti riziką;",
+        "text": "jis padeda užtikrinti tvarumą ir sumažinti riziką",
         "_shouldBeSelected": true,
         "feedback": ""
       },
       {
-        "text": "projektas gaus daugiau biudžeto ir išteklių.",
+        "text": "projektas gaus daugiau biudžeto ir išteklių",
         "_shouldBeSelected": false,
         "feedback": ""
       }
@@ -397,7 +397,7 @@
         "notFinal": ""
       },
       "_partlyCorrect": {
-        "final": "",
+        "final": "<p><strong>Ar tikrai?</strong></p><p>Pokyčių valdymas yra svarbus programos, projekto ar iniciatyvos sėkmei, nes jis padeda užtikrinti tvarumą ir sumažinti riziką.</p>",
         "notFinal": ""
       }
     },
@@ -459,9 +459,9 @@
     "_layout": "right",
     "_parentId": "b-03",
     "_type": "component",
-    "body": "<p dir=\"ltr\">Nors atviriesiems duomenims skirta technologija jau egzistuoja 20 metų, ją naudotis nebuvo įprasta.Po tokių skandalų kaip 2009 m. vykęs Jungtinės Karalystės <a href=\"https://en.wikipedia.org/wiki/United_Kingdom_parliamentary_expenses_scandal\">parlamento narių išlaidų skandalas</a> ir <a href=\"https://www.britannica.com/topic/FIFA-Corruption-Scandal-The-2076091\">2016 m. vykęs FIFA korupcijos skandalas</a> labai padidėjo skaidrumo poreikis.</p><p dir=\"ltr\">TDaugumai organizacijų vis dar labai patogu pagal numatytuosius nustatymus būti uždaroms paliekant galimybę pasiekti informaciją ir duomenis pagal pareikalavimą arba pagal bendro naudojimosi sutartis. Savaime arviras (open by default)– tai mąstysena, kad visi duomenys ir informacija turėtų būti atveriami automatiškai, nebent yra stiprus pagrindas, kodėl jie turėtų būti uždari. Pokyčių valdymas labai svarbus ne tik projekto sėkmei – per procesą taip pat turi būti teikiama pagalba žmonėms, kuriems sunku pakeisti savo nusistatymą prieš duomenų atvėrimą.</p><p>Siekiant padėti per šį pokyčių valdymo procesą, <a href=\"http://opendatacharter.net/\">Atvirųjų duomenų chartijoje (Open Data Charter)</a> pateikiami sėkmingų atvirtų duomenų iniciatyvų principų rinkiniai. Daugelis šalių jau pasirašė chartiją, įskaitant <a href=\"http://opendatacharter.net/adopted-by-countries-and-cities/\"> Prancūziją, Italiją ir Jungtinę Karalystę.</a>.<a href=\"http://opendatacharter.net/ukraine-used-charter-develop-open-data-roadmap/\">Ukraina pasinaudojo chartija, kad suformuotų savo ilgalaikį planą </a> ir gautų pritarimą iš visų vyriausybės institucijų.</p>",
-    "displayTitle": "Kodėl pokyčių valdymas svarbus atvirųjų duomenų iniciatyvoms?",
-    "title": "Kodėl pokyčių valdymas svarbus atvirųjų duomenų iniciatyvoms?",
+    "body": "<p dir=\"ltr\">Nors atviri duomenys egzistuoja jau 20 metų, jais naudotis nebuvo įprasta. Po tokių skandalų kaip 2009 m. vykęs Jungtinės Karalystės <a href=\"https://en.wikipedia.org/wiki/United_Kingdom_parliamentary_expenses_scandal\">parlamento narių išlaidų skandalas</a> ir <a href=\"https://www.britannica.com/topic/FIFA-Corruption-Scandal-The-2076091\">2016 m. vykęs FIFA korupcijos skandalas</a> labai padidėjo skaidrumo poreikis.</p><p dir=\"ltr\">Daugumai organizacijų vis dar labai patogu pagal numatytuosius nustatymus būti uždaroms paliekant galimybę teikti informaciją ir duomenis tik pagal pareikalavimą arba pagal bendro naudojimosi sutartis. Savaime atviras (open by default)– tai mąstysena, kad visi duomenys ir informacija turėtų būti atveriami automatiškai, nebent yra stiprus pagrindas, kodėl jie turėtų būti uždari. Pokyčių valdymas labai svarbus ne tik projekto sėkmei – per procesą taip pat turi būti teikiama pagalba žmonėms, kuriems sunku pakeisti savo nusistatymą prieš duomenų atvėrimą.</p><p>Siekiant padėti per šį pokyčių valdymo procesą, <a href=\"http://opendatacharter.net/\">Atvirųjų duomenų chartijoje (Open Data Charter)</a> pateikiami sėkmingų atvertų duomenų iniciatyvų principų rinkiniai. Daugelis šalių jau pasirašė chartiją, įskaitant <a href=\"http://opendatacharter.net/adopted-by-countries-and-cities/\"> Prancūziją, Italiją ir Jungtinę Karalystę.</a>.<a href=\"http://opendatacharter.net/ukraine-used-charter-develop-open-data-roadmap/\">Ukraina pasinaudojo chartija, kad suformuotų savo ilgalaikį planą </a> ir gautų pritarimą iš visų vyriausybės institucijų.</p>",
+    "displayTitle": "Kodėl pokyčių valdymas svarbus atvirų duomenų iniciatyvoms?",
+    "title": "Kodėl pokyčių valdymas svarbus atvirų duomenų iniciatyvoms?",
     "_isAvailable": true,
     "_isOptional": false,
     "_classes": "",
@@ -489,8 +489,8 @@
     "instruction": "",
     "_items": [
       {
-        "title": "Pokyčiai neįvyksta per naktį.",
-        "body": "<p dir=\"ltr\">Labai sunku greitai įgyvendinti pokyčius, ypač didelėse organizacijose. Bėgant laikui organizacijos įpranta veikti tam tikru būdu.</p><p dir=\"ltr\">Kadangi pokyčių įgyvendinimui reikia laiko, atsiranda žmogaus ar komandos, skirtos pokyčių proceso priežiūrai ir valdymui, poreikis. Tai taip pat naudinga, kad būtų užtikrintas proceso tęstinumas.</p><p dir=\"ltr\">A <a href=\"http://www.nortonrosefulbright.com/knowledge/publications/136571/the-digital-transformation-of-the-german-emmittelstandem\">Vokietijos parengtoje ataskaitoje</a> nustatyta, kad pokyčių valdymui ir skaitmeninei transformacijai mažose ir vidutinėse įmonėse bendradarbiavimas buvo labai svarbus.</p>",
+        "title": "Pokyčiai neįvyksta per naktį",
+        "body": "<p dir=\"ltr\">Labai sunku greitai įgyvendinti pokyčius, ypač didelėse organizacijose. Bėgant laikui organizacijos įpranta veikti tam tikru principu.</p><p dir=\"ltr\">Kadangi pokyčių įgyvendinimui reikia laiko, atsiranda žmogaus ar komandos, skirtos pokyčių proceso priežiūrai ir valdymui, poreikis. Tai taip pat naudinga, kad būtų užtikrintas proceso tęstinumas.</p><p dir=\"ltr\"><a href=\"http://www.nortonrosefulbright.com/knowledge/publications/136571/the-digital-transformation-of-the-german-emmittelstandem\">Vokietijos parengtoje ataskaitoje</a> nustatyta, kad pokyčių valdymui ir skaitmeninei transformacijai mažose ir vidutinėse įmonėse bendradarbiavimas buvo labai svarbus.</p>",
         "_graphic": {
           "alt": "",
           "src": "",
@@ -500,7 +500,7 @@
       },
       {
         "title": "Rizikos mažinimas",
-        "body": "<p>Pokyčių proceso valdymas sumažina organizacijai bendrą riziką.</p><p>Yra įvairių priežasčių, dėl kurių organizacija gali norėti įgyvendinti pokyčių valdymo procesą.Kartais toks sprendimas gali būti priimamas dėl to, kad kyla neigiamų padarinių dėl jų dabartinio proceso, sistemos, struktūros ar darbo pobūdžio.</p><p dir=\"ltr\">Tokiais atvejais kyla rizika ir toliau palaikyti esamą padėtį, dėl kurios gali sumažėti pajamos arba nukristi reputacija. Taip atsitiko Jungtinėje Karalystėje esančiai įmonei <a href=\"https://www.landmark.co.uk/\">Landmark</a>, kurios verslo modeliui iškilo pavojus, nes duomenys, kuriais jie rėmėsi, buvo parduoti kitiems ir tapo atviri. Kad išvengtų nelaimės, CEO nusprendė <a href=\"https://theodi.org/lunchtime-lectures/friday-lunchtime-lecture-changing-tracks-with-hs2-open-data\" target=\"_blank\"> pakeisti savo verslo modelį</a></p><p>Tačiau pernelyg greitas permainų įgyvendinimas taip pat gali būti rizikingas.Pokyčių proceso valdymas yra būdas kontroliuoti šią riziką ir užtikrinti, kad pokytis būtų teigiamas.</p>",
+        "body": "<p>Pokyčių proceso valdymas sumažina organizacijai bendrą riziką.</p><p>Yra įvairių priežasčių, dėl kurių organizacija gali norėti įgyvendinti pokyčių valdymo procesą. Kartais toks sprendimas gali būti priimamas dėl to, kad kyla neigiamų padarinių dėl jų dabartinio proceso, sistemos, struktūros ar darbo pobūdžio.</p><p dir=\"ltr\">Tokiais atvejais kyla rizika ir toliau palaikyti esamą padėtį, dėl kurios gali sumažėti pajamos arba nukristi reputacija. Taip atsitiko Jungtinėje Karalystėje esančiai įmonei <a href=\"https://www.landmark.co.uk/\">Landmark</a>, kurios verslo modeliui iškilo pavojus, nes duomenys, kuriais jie rėmėsi, buvo parduoti kitiems ir tapo atviri. Kad išvengtų nelaimės, CEO nusprendė <a href=\"https://theodi.org/lunchtime-lectures/friday-lunchtime-lecture-changing-tracks-with-hs2-open-data\" target=\"_blank\"> pakeisti savo verslo modelį.</a></p><p>Tačiau pernelyg greitas permainų įgyvendinimas taip pat gali būti rizikingas. Pokyčių proceso valdymas yra būdas kontroliuoti šią riziką ir užtikrinti, kad pokytis būtų teigiamas.</p>",
         "_graphic": {
           "alt": "",
           "src": "",
@@ -527,8 +527,8 @@
     "_parentId": "b-05",
     "_type": "component",
     "body": "<p dir=\"ltr\">Yra keletas esminių elementų, būtinų norint sėkmingai valdyti pokyčius organizacijoje. Šie elementai būdinti tiek privačiajam, tiek viešajam sektoriams.</p>",
-    "displayTitle": "Kokie pagrindiniai pokyčių valdymo elementai?",
-    "title": "Kokie pagrindiniai pokyčių valdymo elementai?",
+    "displayTitle": "Kokie yra pagrindiniai pokyčių valdymo elementai?",
+    "title": "Kokie yra pagrindiniai pokyčių valdymo elementai?",
     "_isAvailable": true,
     "_isOptional": false,
     "_classes": "",
@@ -543,7 +543,7 @@
     "_items": [
       {
         "title": "Aiški vizija",
-        "body": "<p dir=\"ltr\">Norint gauti vidaus ir išorės paramą šiai iniciatyvai, svarbu turėti aiškią viziją. Ši vizija turėtų būti suderinta su organizacijos tikslais, kitaip ji prieštaraus jos vertybėms, prekiniam ženklui ar įvaizdžiui.</p><p dir=\"ltr\">Kalbant apie atviruosius duomenis, ši vizija turėtų apimti tokius aspektus, kaip atviras pagal nutylėjimą, iš kur bus galima gauti visus duomenis ir pagal kokią licenciją. </p><p>Projekto vadovas turi sugebėti pateikti šią viziją, kad užsitikrintų paramą tiek iš vidaus, tiek iš išorės.<a href=\"http://www.computerweekly.com/news/450284803/France-takes-the-lead-in-the-global-open-data-race\"> </a></p><p>Prancūzijoje <a href=\"http://www.computerweekly.com/news/450284803/France-takes-the-lead-in-the-global-open-data-race\">duomenų pareigūnas (Government Chief Data Officer)</a> buvo paskirtas tik tam, kad praneštų, kaip sekasi surasti paramos vyriausybėje ir už jos ribų.</p>",
+        "body": "<p dir=\"ltr\">Norint gauti vidaus ir išorės paramą šiai iniciatyvai, svarbu turėti aiškią viziją. Ši vizija turėtų būti suderinta su organizacijos tikslais, kitaip ji prieštaraus jos vertybėms, prekiniam ženklui ar įvaizdžiui.</p><p dir=\"ltr\">Kalbant apie atvirus duomenis, ši vizija turėtų apimti tokius aspektus, kaip savaime atviras (open by default), iš kur bus galima gauti visus duomenis ir pagal kokią licenciją. </p><p>Projekto vadovas turi sugebėti pateikti šią viziją, kad užsitikrintų paramą tiek iš vidaus, tiek iš išorės.<a href=\"http://www.computerweekly.com/news/450284803/France-takes-the-lead-in-the-global-open-data-race\"> </a></p><p>Prancūzijoje <a href=\"http://www.computerweekly.com/news/450284803/France-takes-the-lead-in-the-global-open-data-race\">duomenų pareigūnas (Government Chief Data Officer)</a> buvo paskirtas tik tam, kad praneštų, kaip sekasi surasti paramą duomenų atvėrimui vyriausybėje ir už jos ribų.</p>",
         "_graphic": {
           "src": "course/lt/assets/e476d5412f3c230ba6365724bc2935db25901c21.jpg",
           "alt": "",
@@ -553,7 +553,7 @@
       },
       {
         "title": "Duomenų valdymo planas",
-        "body": "<p dir=\"ltr\">Kiekviena organizacija turėtų turėti duomenų valdymo planą, kuriame būtų paaiškinama, kaip duomenys saugomi, pasiekiami ir kaip kuriamos atsarginės jų kopijos. Duomenys yra šiuolaikinės įmonės infrastruktūros dalis, tad kaip ir pastatus ir kitą turtą juos reikia atidžiai valdyti.</p><p>atvirieji duomenys neturėtų būti laikomi atskira veikla nuo pagrindinės duomenų valdymo veiklos.Geras atspirties taškas, kaip integruoti atviruosius duomenis į duomenų valdymo planą, yra vizijos taikymas planui. Tai padeda užtikrinti strategijos integravimą į ilgalaikius organizacijos procesus ir veiklos procedūras.</p>",
+        "body": "<p dir=\"ltr\">Kiekviena organizacija turėtų turėti duomenų valdymo planą, kuriame būtų paaiškinama, kaip duomenys saugomi, pasiekiami ir kaip kuriamos atsarginės jų kopijos. Duomenys yra šiuolaikinės įmonės infrastruktūros dalis, tad kaip ir pastatus ir kitą turtą juos reikia atidžiai valdyti.</p><p>Atviri duomenys neturėtų būti laikomi atskira veikla nuo pagrindinės duomenų valdymo veiklos. Geras atspirties taškas, kaip integruoti atvirus duomenis į duomenų valdymo planą, yra vizijos taikymas planui. Tai padeda užtikrinti strategijos integravimą į ilgalaikius organizacijos procesus ir veiklos procedūras.</p>",
         "_graphic": {
           "src": "course/lt/assets/641546c15c0af8c554b833be3cc3dfc09ac0b997.jpg",
           "alt": "",
@@ -563,7 +563,7 @@
       },
       {
         "title": "Vadovybės pritarimas",
-        "body": "<p>Kalbant apie bet kokią pokyčių programą, ją vykdantys paprastai susiduria su pasipriešinimu iš organizacijos vidaus.</p><p>Aktyvi parama iš aukštesnes pareigas užimančių asmenų gali paskatinti instituciją pritarti.</p><p>Labai svarbu dirbti su šiais aukštesnes pareigas užimančiais asmenimis, nes kitaip „maišto strategija“ įvesti pokyčius vargu ar bus tvari.</p>",
+        "body": "<p>Kalbant apie bet kokią pokyčių programą, ją vykdantys paprastai susiduria su pasipriešinimu iš organizacijos vidaus.</p><p>Aktyvi parama iš aukštesnes pareigas užimančių asmenų gali paskatinti instituciją pritarti.</p><p>Labai svarbu dirbti su šiais aukštesnes pareigas užimančiais asmenimis, nes kitoks bandymas įvesti pokyčius vargu ar bus tvarus.</p>",
         "_graphic": {
           "src": "course/lt/assets/4b63c6af07902f3f8460f8a4ca00a26d4df61cf9.jpg",
           "alt": "",
@@ -573,7 +573,7 @@
       },
       {
         "title": "Metrikos",
-        "body": "<p dir=\"ltr\">Kaip ir duomenų valdymo planą, organizacijos turi patvirtinti pagrindinius procesus ir gyvavimo ciklus, kuriuose būtų išsamiai nurodyta, kaip pereiti prie atvirųjų duomenų ir kaip juos tvarkyti.</p><p dir=\"ltr\">Šių planų ir gyvavimo ciklų suderinimas su pagrindiniais veiklos rodikliais (Key Performance Indicators, KPI), siekiant įvertinti sėkmę, padės pateisinti laiko ir pinigų investavimą į pokyčių programą.</p><p>Kurdami KPI galvokite apie tai, kas turės didžiausią poveikį. Kalbant apie atvirų duomenų iniciatyvas, ne tik galvokite apie internete pateikiamų duomenų rinkinių skaičių, bet ir apie jų poveikį bei suderinamumą su išoriniu sėkmės vertinimu, įskaitant <a href=\"https://www.europeandataportal.eu/lt/highlights/open-data-maturity-europe\">Europos duomenų portalo „Open Data Matty“ indeksą</a>, kuris yra geras valstybių pokyčių rodiklis.</p>",
+        "body": "<p dir=\"ltr\">Kaip ir duomenų valdymo planą, organizacijos turi patvirtinti pagrindinius procesus ir gyvavimo ciklus, kuriuose būtų išsamiai nurodyta, kaip pereiti prie atvirų duomenų ir kaip juos tvarkyti.</p><p dir=\"ltr\">Šių planų ir gyvavimo ciklų suderinimas su pagrindiniais veiklos rodikliais (Key Performance Indicators, KPI), siekiant įvertinti sėkmę, padės pateisinti laiko ir pinigų investavimą į pokyčių programą.</p><p>Kurdami KPI galvokite apie tai, kas turės didžiausią poveikį. Kalbant apie atvirų duomenų iniciatyvas, ne tik galvokite apie internete pateikiamų duomenų rinkinių skaičių, bet ir apie jų poveikį bei suderinamumą su išoriniu sėkmės vertinimu, įskaitant <a href=\"https://www.europeandataportal.eu/lt/highlights/open-data-maturity-europe\">Europos duomenų portalo „Open Data Matty“ indeksą</a>, kuris yra geras valstybių pokyčių rodiklis.</p>",
         "_graphic": {
           "src": "course/lt/assets/2b5ec4242610756a70a3b5e12afaf1626f3f0d02.jpg",
           "alt": "",
@@ -593,7 +593,7 @@
       },
       {
         "title": "Suderinti prioritetai",
-        "body": "<p>Reikia derinti projekto, programos ar iniciatyvos prioritetus su už biudžetą atsakingo asmens prioritetais.</p><p>Tai galėtų būti jūsų įmonės vadovas arba įmonės finansavimą valdanti organizacija. Tai gali būti netgi jūsų klientai, prašantys atvirųjų duomenų, kuriais jie galėtų pasidalinti su kitais, kaip ir „Thomson Reuters“ atveju. Visą baltąją knygą galite skaityti <a href=\"https://theodi.org/guides/data-identifiers-white-paper\">čia</a>.</p><p>Suderinę prioritetus užsitikrinsite programos tvarumą ir poveikį.</p>",
+        "body": "<p>Reikia derinti projekto, programos ar iniciatyvos prioritetus su už biudžetą atsakingo asmens prioritetais.</p><p>Tai galėtų būti jūsų įmonės vadovas arba įmonės finansavimą valdanti organizacija. Tai gali būti netgi jūsų klientai, prašantys atvirų duomenų, kuriais jie galėtų pasidalinti su kitais, kaip ir „Thomson Reuters“ atveju. Visą baltąją knygą galite skaityti <a href=\"https://theodi.org/guides/data-identifiers-white-paper\">čia</a>.</p><p>Suderinę prioritetus užsitikrinsite programos tvarumą ir poveikį.</p>",
         "_graphic": {
           "src": "course/lt/assets/7fec32b99da9f008a88d2622d258aaea82bf1513.jpg",
           "alt": "",
