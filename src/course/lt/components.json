@@ -44,13 +44,13 @@
         "_layout":"full",
         "title":"Duomenų ruošimas per 2 minutes",
         "displayTitle": "Duomenų ruošimas per 2 minutes",
-        "body": "Instruktorius iš Atvirųjų duomenų instituto (angl. „Open Data Institute“, ODI) Davidas Tarrantas paaiškina, kodėl išvalyti atviri duomenys yra svarbu, kaip tai padaryti ir kokiais pagalbiniais įrankiais galima pasinaudoti.",
+        "body": "Dr. Davidas Tarrantas (ODI) paaiškina, kodėl išvalyti atviri duomenys yra svarbu, kaip tai padaryti ir kokiais pagalbiniais įrankiais galima pasinaudoti.",
         "instruction": "Norint įjungti subtitrus, paskausk 'cc' mygtuką video apačioje, dešinėje pusėje.",
         "_setCompletionOn":"ended",
         "_source": "https://player.vimeo.com/video/129197207",
         "_media": {
-		"mp4": "course/lt/video/video.mp4",
-		"poster": "course/lt/video/placeholder.jpg"
+		"mp4": "course/en/video/video.mp4",
+		"poster": "course/en/video/placeholder.jpg"
 	},
         "_height": {
             "_small" : 250,
@@ -68,9 +68,9 @@
         "_graphic": {
             "alt": "Kodėl svarbu teisingai paruošti ir valyti duomenis?",
             "title": "Kodėl svarbu teisingai paruošti ir valyti duomenis?",
-            "large": "course/lt/images/odi-001.jpg",
-            "medium": "course/lt/images/odi-001.jpg",
-            "small": "course/lt/images/odi-001.jpg",
+            "large": "course/en/images/odi-001.jpg",
+            "medium": "course/en/images/odi-001.jpg",
+            "small": "course/en/images/odi-001.jpg",
             "*source": "http://www.shutterstock.com/pic-246719938",
             "*credit": "Sashkin",
             "*license": "Shutterstock standard license"
@@ -85,7 +85,7 @@
         "_layout":"right",
         "title":"Kodėl svarbu teisingai paruošti ir valyti duomenis?",
         "displayTitle":"Kodėl svarbu teisingai paruošti ir valyti duomenis?",
-        "body":"<p>Jeigu esate tikri, kad duomenys išvalyti, nepamirškite įsitikinti, ar dirbdami su jais turėsite patikimą atspirties tašką ir sukursite naujos vertės.</p><p>Išvalyti duomenys yra nuoseklūs, nesikartojantys ir paruošti naudoti mašinoms.</p><p>Jei duomenys išvalyti, juos lengviau derinti su skirtingais duomenų rinkiniais ir taip daryti gilesnes įžvalgas.<p>"
+        "body":"<p>Jeigu esate tikri, kad duomenys išvalyti, nepamirškite įsitikinti, ar dirbdami su sukursite naują prdėtinę vertę.</p><p>Išvalyti duomenys yra nuoseklūs, nesikartojantys ir paruošti naudoti mašininio nuskaitymo būdu.</p><p>Jei duomenys išvalyti, juos lengviau derinti su skirtingais duomenų rinkiniais ir taip daryti gilesnes įžvalgas.<p>"
         },
      {
         "_id":"c-32",
@@ -97,9 +97,9 @@
         "_graphic": {
             "alt": "Dažniausiai pasitaikančios duomenų klaidos",
             "title": "Dažniausiai pasitaikančios duomenų klaidos",
-            "large": "course/lt/images/odi-002.jpg",
-            "medium": "course/lt/images/odi-002.jpg",
-            "small": "course/lt/images/odi-002.jpg",
+            "large": "course/en/images/odi-002.jpg",
+            "medium": "course/en/images/odi-002.jpg",
+            "small": "course/en/images/odi-002.jpg",
             "*source": "http://www.shutterstock.com/pic-232737427",
             "*credit": "Kirill_M",
             "*license": "Shutterstock standard license"
@@ -118,9 +118,9 @@
       "instruction": "<em>Paspausk ant antraštės, jei nori pamatyti daugiau.</em>",
       "_items": [
         {
-          "alt": "Netinkamo formato pasirinkimas.",
-          "title": "Netinkamo formato pasirinkimas.",
-          "body": "<p>Nenuoseklus datos rašymas. Paprastai lengva pastebėti netinkamą datos formatą:<br><br>8-rugs-2013 vietoje 8/9/2013<br><br>,tačiau kartais klaida nėra tokia akivaizdi:<br><br>8/9/2013 vietoje 9/8/2013.<br><br>Su dar vienu iššūkiu susiduriama, kai tam tikros taikomosios programos (pavyzdžiui, „Excel“) „spėja“ formatą. Kai tik atidarysite duomenų rinkinį su tokia programa, nebežinosite, kaip data buvo parašyta faile.</p><p>Dažniausiai pasitaikanti klaida – nenuoseklus amerikiečių (MM/DD/YYYY) ir europiečių (DD/MM/YYYY) datos formatų naudojimas.</p>"
+          "alt": "Netinkamo formato pasirinkimas",
+          "title": "Netinkamo formato pasirinkimas",
+          "body": "<p>Nenuoseklus datos rašymas. Paprastai lengva pastebėti netinkamą datos formatą:<br><br>8-rugs-2013 vietoje 8/9/2013<br><br>Tačiau kartais klaida nėra tokia akivaizdi:<br><br>8/9/2013 vietoje 9/8/2013.<br><br>Su dar vienu iššūkiu susiduriama, kai tam tikros taikomosios programos (pavyzdžiui, „Excel“) „spėja“ formatą. Kai tik atidarysite duomenų rinkinį su tokia programa, nebežinosite, kaip data buvo parašyta faile.</p><p>Dažniausiai pasitaikanti klaida – nenuoseklus amerikiečių (MM/DD/YYYY) ir europiečių (DD/MM/YYYY) datos formatų naudojimas.</p>"
         },
         {
           "alt": "Įvairios atvaizdavimo galimybės",
@@ -130,7 +130,7 @@
         {
           "alt": "Pasikartojantys įrašai",
           "title": "Pasikartojantys įrašai",
-          "body": "<p>Pasikartojančiais įrašais laikomi tokie įrašai, kai ta pati duomenų dalis yra įvedama daugiau nei vieną kartą.Pasikartojančių įrašų dažnai atsiranda sujungus duomenų rinkinius arba nežinant, kad įrašas jau buvo įvestas.</p>"
+          "body": "<p>Pasikartojančiais įrašais laikomi tokie įrašai, kai ta pati duomenų dalis yra įvedama daugiau nei vieną kartą. Pasikartojančių įrašų dažnai atsiranda sujungus duomenų rinkinius arba nežinant, kad įrašas jau buvo įvestas.</p>"
         },
         {
           "alt": "Pertekliniai duomenys",
@@ -173,7 +173,7 @@
                 "title": "Duomenų valymo įrankiai",
                 "body": "<p>Kai ieškote klaidų duomenyse, daugelyje valymui ir tvarkymui skirtų įrankių gali tekti atsisiųsti ir įsikelti duomenų rinkinius.</p><p>Taip pat svarbu nepamiršti, kokie pakeitimai buvo padaryti, ir bendrinti šią informaciją su kitais, kad visi galėtų pasinaudoti jūsų darbu, ypač jei jūsų valomi duomenys yra jau paskelbti atvirieji duomenys.</p><p>Šiame skyriuje apžvelgsime du pagrindinius įrankius ir pateiksime informaciją, kaip juos naudoti:</h5><ul class='bullet'><li>Open Refine;</li><li>Excel ir panašios skaičiuoklės programos.</li></ul></p>",
                 "_graphic": {
-                    "src": "course/lt/images/odi-003.jpg",
+                    "src": "course/en/images/odi-003.jpg",
                     "alt": "įrankiai",
                     "title": "įrankiai",
                     "*source": "http://www.shutterstock.com/pic-232737427",
@@ -186,7 +186,7 @@
                 "title": "Open Refine",
                 "body": "„Open Refine“ yra programinė įranga, skirta dirbti su nevalytais duomenimis. Šis įrankis yra stulpelinė naršyklė, leidžianti vienu paspaudimu ištaisyti klaidas visame atvirųjų duomenų rinkinyje. Klaidos, kurios gali būti ištaisytos:</h5><ul class='bullet'><li>datos formatas;</li><li>įvairūs atvaizdavimai;</li><li>pasikartojantys įrašai;</li><li>pertekliniai duomenys;</li><li>mišrios skaitinės skalės;</li><li>mišrūs intervalai.</li></ul>",
                 "_graphic": {
-                    "src": "course/lt/images/odi-004.jpg",
+                    "src": "course/en/images/odi-004.jpg",
                     "alt": "Open refine",
                     "title": "open refine",
                     "*source": "http://openrefine.org/",
@@ -199,7 +199,7 @@
                 "title": "Skaitinės programos",
                 "body": "„Open Refine“ yra pagrindinis įrankis, skirtas duomenims valyti. Tačiau kartais tam tikras klaidas paprasčiau ištaisyti naudojantis skaičiuoklės programa:</h5><ul class='bullet'><li>rašybos klaidos;</li><li>pertekliniai duomenys;</li><li>skaičių tikrinimas;</li><li>pakeisti duomenys.</li></ul>",
                 "_graphic": {
-                    "src": "course/lt/images/odi-005.jpg",
+                    "src": "course/en/images/odi-005.jpg",
                     "alt": "Spreadsheet",
                     "title": "Spreadsheet",
                     "*source": "http://www.shutterstock.com/pic-224184241",
@@ -222,14 +222,14 @@
         "_component": "narrative",
         "title": "Kokia duomenų valymo nauda?",
         "displayTitle": "Kokia duomenų valymo nauda?",
-        "body": "Kalbant apie įrankius, naudojamus atviriesiems duomenims valyti, taip pat svarbu suvokti ir paties duomenų valymo nešamą naudą.",
+        "body": "Kalbant apie įrankius, naudojamus atviriesiems duomenims valyti, svarbu suvokti duomenų valymo naudos potencialą.",
         "instruction": "<em>Paspausk rodyklę, jei nori pamatyti daugiau</em>",
         "_items": [
             {
                 "title": "Pirmenybė duomenų valymui",
-                "body": "<p>Jei duomenys nėra išvalyti, jais remiantis padaryti sprendimai gali būti klaidingi. Dėl to gali kisti pagal duomenis sukuriami produktai arba įžvalgos, o tai kartais gali paveikti tūkstančius ar netgi milijonus žmonių.</p><p>A <a class='' href='http://www.ercim.eu/publication/ws-proceedings/12th-EDRG/EDRG12_JeDiRe.pdf' target='_blank'>Neseniai atliktus tyrimą </a>paaiškėjo, kad analizei skirtų duomenų rengimo procesas gali trukti nuo 60 % iki 80 % duomenimis grindžiamo projekto laiko.</p>",
+                "body": "<p>Jei duomenys nėra išvalyti, jais remiantis padaryti sprendimai gali būti klaidingi. Dėl to gali kisti pagal duomenis sukuriami produktai arba įžvalgos, o tai kartais gali paveikti tūkstančius ar netgi milijonus žmonių.</p><p><a class='' href='http://www.ercim.eu/publication/ws-proceedings/12th-EDRG/EDRG12_JeDiRe.pdf' target='_blank'>Neseniai atliktus tyrimą </a>paaiškėjo, kad analizei skirtų duomenų rengimo procesas gali trukti nuo 60% iki 80% duomenimis grindžiamo projekto laiko.</p>",
                 "_graphic": {
-                    "src": "course/lt/images/odi-006.jpg",
+                    "src": "course/en/images/odi-006.jpg",
                     "alt": "Pirmenybė duomenų valymui",
                     "title": "Pirmenybė duomenų valymui",
                     "*source": "http://www.shutterstock.com/pic.mhtml?id=58591429&src=lb-36497927",
@@ -242,7 +242,7 @@
                 "title": "Padidinti duomenų naudojimą",
                 "body": "<p>Jeigu dalinsitės išvalytais atvirųjų duomenų rinkiniais, duomenys bus naudojami dažniau. Tokie įrankiai kaip „Open Refine“ leidžia bendrinti atliktų keitimų istoriją ir suteikia žmonėms galimybę sužinoti, kas ir kaip buvo valyta. Procesas ir duomenys tampa atviri ir naudotojas tvarius ir patikimus duomenis gali įtraukti į duomenų rinkinį.</p><p>Taip pat atsiranda duomenų valymo bendruomenių, kurios galėtų būti labiau palaikomos, pavyzdžiui, „OpenStreetMap“ bendruomenės.<br><br><a class='' href='http://wiki.openstreetmap.org/wiki/WikiProject_Denmark' target='_blank'>Eiti į „OpenStreetMap“ bendruomenės Danijoje svetainę.</a></p>",
                 "_graphic": {
-                    "src": "course/lt/images/odi-007.jpg",
+                    "src": "course/en/images/odi-007.jpg",
                     "alt": "Padidinti duomenų naudojimą",
                     "title": "Padidinti duomenų naudojimą",
                     "*source": "http://www.shutterstock.com/pic-285210746",
@@ -255,7 +255,7 @@
                 "title": "Atrasti įžvalgas",
                 "body": "<p>Daug duomenų valymo įrankių, įskaitant „Open Refine“, padeda jums derinti ir papildyti duomenų rinkinius. Taip galima atrasti vertingų įžvalgų.</p>Pavyzdžiui, papildant duomenų rinkinį, kuriame sukaupta informacijos apie įmones (pagal pavadinimą arba kokį nors kitą identifikatorių), jums suteikiama informacija, ar įmonė vis dar veikia ir kokia jos dabartinė finansinė padėtis.</p><p><a href='http://training.theodi.org/resources/odt/Enrichingdata.pdf' target='_blank'>Pradėkite nuo duomenų papildymo.</a></p>",
                 "_graphic": {
-                    "src": "course/lt/images/odi-008.jpg",
+                    "src": "course/en/images/odi-008.jpg",
                     "alt": "Atrasti įžvalgas",
                     "title": "Atrasti įžvalgas",
                     "*source": "http://www.shutterstock.com/pic-68619337",
@@ -283,9 +283,9 @@
         "_graphic": {
             "alt": "",
             "title": "",
-            "large": "course/lt/images/burst.png",
-            "medium": "course/lt/images/burst.png",
-            "small": "course/lt/images/burst.png"
+            "large": "course/en/images/burst.png",
+            "medium": "course/en/images/burst.png",
+            "small": "course/en/images/burst.png"
         }
     },
     {
@@ -313,9 +313,9 @@
         "_graphic": {
             "alt": "unclean data",
             "title": "unclean data",
-            "large": "course/lt/images/odi-009.jpg",
-            "medium": "course/lt/images/odi-009.jpg",
-            "small": "course/lt/images/odi-009.jpg",
+            "large": "course/en/images/odi-009.jpg",
+            "medium": "course/en/images/odi-009.jpg",
+            "small": "course/en/images/odi-009.jpg",
             "*source": "http://www.shutterstock.com/pic.mhtml?id=58591429&src=lb-36497927",
             "*credit": "higyou",
             "*license": "Shutterstock Standard License"
@@ -382,9 +382,9 @@
         "_graphic": {
             "alt": "Naudingi įrankiai",
             "title": "Naudingi įrankiais",
-            "large": "course/lt/images/odi-010.jpg",
-            "medium": "course/lt/images/odi-010.jpg",
-            "small": "course/lt/images/odi-010.jpg",
+            "large": "course/en/images/odi-010.jpg",
+            "medium": "course/en/images/odi-010.jpg",
+            "small": "course/en/images/odi-010.jpg",
             "*source": "http://www.shutterstock.com/pic-285210746",
             "*credit": "Horoscope",
             "*license": "Shutterstock Standard License"
@@ -451,9 +451,9 @@
         "_graphic": {
             "alt": "A toolkit",
             "title": "",
-            "large": "course/lt/images/odi-011.jpg",
-            "medium": "course/lt/images/odi-011.jpg",
-            "small": "course/lt/images/odi-011.jpg",
+            "large": "course/en/images/odi-011.jpg",
+            "medium": "course/en/images/odi-011.jpg",
+            "small": "course/en/images/odi-011.jpg",
             "*source": "http://www.shutterstock.com/pic-232737427",
             "*credit": "Kirill_M",
             "*license": "Shutterstock standard license"
@@ -528,9 +528,9 @@
         "_graphic": {
             "alt": "Common errors is data",
             "title": "",
-            "large": "course/lt/images/odi-012.jpg",
-            "medium": "course/lt/images/odi-012.jpg",
-            "small": "course/lt/images/odi-012.jpg",
+            "large": "course/en/images/odi-012.jpg",
+            "medium": "course/en/images/odi-012.jpg",
+            "small": "course/en/images/odi-012.jpg",
             "*source": "http://www.shutterstock.com/pic-232737427",
             "*credit": "Kirill_M",
             "*license": "Shutterstock standard license"
@@ -597,9 +597,9 @@
         "_graphic": {
             "alt": "Summary icon clipboard",
             "title": "Summary icon clipboard",
-            "large": "course/lt/images/summary-icon.png",
-            "medium": "course/lt/images/summary-icon.png",
-            "small": "course/lt/images/summary-icon.png",
+            "large": "course/en/images/summary-icon.png",
+            "medium": "course/en/images/summary-icon.png",
+            "small": "course/en/images/summary-icon.png",
             "*source":"http://www.shutterstock.com/pic-189810137.html",
             "*credit":"Kritchanut",
             "*license":"Shutterstock Standard License"
@@ -646,9 +646,9 @@
         "_graphic": {
             "alt": "Open data institute logo",
             "title": "Open data institute logo",
-            "large": "course/lt/images/logo-small.png",
-            "medium": "course/lt/images/logo-small.png",
-            "small": "course/lt/images/logo-small.png",
+            "large": "course/en/images/logo-small.png",
+            "medium": "course/en/images/logo-small.png",
+            "small": "course/en/images/logo-small.png",
             "*source":"http://theodi.org",
             "*credit":"The Open Data Institute",
             "*license":"All rights reserved"  
@@ -670,7 +670,7 @@
         "_component":"text",
         "_classes":"social-buttons not-dlab",
         "_layout":"right",
-        "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/lt/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/lt/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/lt/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/lt/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/lt/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/lt/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/lt/images/social/flickr.png'></a>"
+        "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/en/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/en/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/en/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/en/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/en/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/en/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/en/images/social/flickr.png'></a>"
     }
 ]
 
