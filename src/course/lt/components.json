@@ -30,7 +30,7 @@
         "_layout":"left",
         "title":"Paslėptų duomenų radimas internete",
         "displayTitle":"Paslėptų duomenų radimas internete",
-        "body":"<p>Atviri duomenys – tai ne tik duomenų rinkiniai, kuriuos galima atsisiųsti. Atsisiunčiami atvirieji duomenys yra tik nedidelė žiniatinklyje pasiekiamų duomenų dalis.</p><p>Didžioji dalis žiniatinklyje pasiekiamų duomenų paslėpta nuo žmogaus akies. Tačiau mašinos gali rasti ir perskaityti šiuos duomenis.</p><h5>Šiame modulyje:</h5><ul class='ticks'><li>kaip rasti paslėptus duomenis;</li><li>kuo paslėpti duomenys gali būti naudingi;</li><li>kaip gauti paslėptus duomenis.</li></ul>",
+        "body":"<p>Atviri duomenys – tai ne tik duomenų rinkiniai, kuriuos galima atsisiųsti. Atsisiunčiami atviri duomenys yra tik nedidelė internete pasiekiamų duomenų dalis.</p><p>Didžioji dalis internete esančių duomenų yra nematomi žmogaus akiai. Tačiau algoritmai gali rasti ir perskaityti tokius duomenis.</p><h5>Šiame modulyje:</h5><ul class='ticks'><li>kaip rasti paslėptus duomenis</li><li>kuo paslėpti duomenys gali būti naudingi</li><li>kaip gauti paslėptus duomenis</li></ul>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
@@ -43,9 +43,9 @@
     "_component":"iFrame-vimeo",
     "_classes":"",
     "_layout":"full",
-        "title":"Paslėptų duomenų radimas žiniatinklyje - per 2 minutes",
-        "displayTitle": "Paslėptų duomenų radimas žiniatinklyje - per 2 minutes",
-        "body": "Instruktorius iš Atvirųjų duomenų instituto (angl. „Open Data Institute“, ODI) Davidas Tarrantas paaiškina, kas yra paslėpti duomenys, kuo jie gali būti naudingi ir kaip juos galima gauti.",
+        "title":"Paslėptų duomenų radimas internete - per 2 minutes",
+        "displayTitle": "Paslėptų duomenų radimas internete - per 2 minutes",
+        "body": "Dr. Davidas Tarrantas (ODI) paaiškina, kas yra paslėpti duomenys, kuo jie gali būti naudingi ir kaip juos galima gauti.",
         "instruction": "Norint įjungti subtitrus, paskausk 'cc' mygtuką video apačioje, dešinėje pusėje.",
         "_setCompletionOn":"ended",
         "_source": "https://player.vimeo.com/video/129197208",
@@ -86,7 +86,7 @@
         "_layout":"left",
         "title":"Nematomi duomenys",
         "displayTitle":"Nematomi duomenys",
-        "body":"<p>Ne visada paprasta rasti duomenis žiniatinklyje, nes dauguma pasiekiamų šaltinių yra matomi tik mašinoms. Žmonės naršo žiniatinklyje viską matydami akimis – peržiūrėdami turinį, spausdami nuorodas ir atsisiųsdami failus.</p><p>Mašinos, priešingai, naršo žiniatinklyje tik pagal kode nustatytas logines taisykles. Žmonės ieško sudominančio, interaktyvaus turinio, o mašinoms reikia struktūros, logikos ir aiškumo.</p><p>Šis skirtumas sukuria „akląsias dėmes“ tarp to, kaip žmogus ir kaip mašina skaito žiniatinklį.</p><p>Pavyzdžiui, mašinos ne visada gali akimirksniu rasti svetainėje esančią atsisiuntimo nuorodą, o žmonėms sunku pamatyti struktūrinius, akimi nematomus duomenis, esančius svetainės kode.</p><p>Atsisiunčiami atvirųjų duomenų failai yra tik vienas duomenų tipų žiniatinklyje. Kur kas daugiau duomenų lieka paslėpti svetainės kode.</p>"
+        "body":"<p>Ne visada paprasta rasti duomenis internete, nes dauguma pasiekiamų šaltinių yra matomi tik algoritmams. Žmonės naršo internete viską matydami akimis – peržiūrėdami turinį, spausdami nuorodas ir atsisiųsdami failus.</p><p>Algoritmai, priešingai, naršo internete tik pagal kode nustatytas logines taisykles. Žmonės ieško sudominančio, interaktyvaus turinio, o algoritmams reikia struktūros, logikos ir aiškumo.</p><p>Šis skirtumas sukuria „akląsias dėmes“ tarp to, kaip žmogus ir kaip algoritmas skaito internetą.</p><p>Pavyzdžiui, algoritmai ne visada gali akimirksniu rasti svetainėje esančią atsisiuntimo nuorodą, o žmonėms sunku pamatyti struktūrinius, akimi nematomus duomenis, esančius svetainės kode.</p><p>Atsisiunčiami atvirų duomenų failai yra tik vienas iš duomenų tipų internete. Kur kas daugiau duomenų lieka paslėpti svetainės kode.</p>"
     },
      {
         "_id": "c-25",
@@ -102,7 +102,7 @@
         "_items": [
             {
                 "title": "Kodėl duomenys slepiami?",
-                "body": "<p>Perėjimas prie duomenimis grindžiamo, mobiliuoju ryšiu pasiekiamo žiniatinklio lėmė pasikeitimus svetainės sandaroje. Norėdami patenkinti interaktyvių, vaizdinių svetainių naudotojų lūkesčius kūrėjai vis dažniau pateikia duomenis atskirame „sluoksnyje“ arba netgi pačiame kode. Šis duomenų sluoksnis dažnai prieinamas žmonėms, kurie naudojasi tinkamais įrankiais.</p>",
+                "body": "<p>Perėjimas prie duomenimis grindžiamo, mobiliuoju ryšiu pasiekiamo žiniatinklio lėmė pasikeitimus svetainės sandaroje. Norėdami patenkinti interaktyvių, vaizdinių svetainių naudotojų lūkesčius kūrėjai vis dažniau pateikia duomenis atskirame „sluoksnyje“ arba netgi pačiame kode. Šis duomenų sluoksnis dažnai prieinamas tiems, kurie naudojasi tinkamais įrankiais.</p>",
                 "_graphic": {
                     "src": "course/lt/images/odi-002.jpg",
                     "alt": "Readiness",
@@ -115,7 +115,7 @@
             },
             {
                 "title": "Duomenys slepiasi visur",
-                "body": "<p>Nuo „Vikipedijos“ puslapių iki atostogų planuotojų, nuo mados svetainių iki energijos tiekėjų – žiniatinklis pilnas duomenų šaltinių.</p><p>Šiems paslėptiems duomenims skirtos licencijos ne visada yra aiškios. Vien dėl to, kad duomenys yra mašinų perskaitomi viešai pasiekiamoje svetainėje, nereiškia, kad jie yra atvirieji duomenys. Jei abejojate, ar paslėpti duomenys yra atvirai prieinami, pasitikslinkite su svetainės savininku.</p>",
+                "body": "<p>Nuo „Vikipedijos“ puslapių iki atostogų planuotojų, nuo mados svetainių iki energijos tiekėjų – žiniatinklis pilnas duomenų šaltinių.</p><p>Šiems paslėptiems duomenims skirtos licencijos ne visada yra aiškios. Vien dėl to, kad duomenys yra mašinų perskaitomi viešai pasiekiamoje svetainėje, nereiškia, kad jie yra atviri duomenys. Jei abejojate, ar paslėpti duomenys yra atvirai prieinami, pasitikslinkite su svetainės savininku.</p>",
                 "_graphic": {
                     "src": "course/lt/images/odi-003.jpg",
                     "alt": "Implementation",
@@ -128,7 +128,7 @@
             },
             {
                 "title": "Kokio tipo duomenys laikomi paslėptais?",
-                "body": "<p>Paslėpti duomenys atrodo visai kitaip nei atvirųjų duomenų rinkinys, kurį atsisiunčiate iš svetainės.</p><p>Mašinų perskaitomi duomenys žiniatinklyje bus pateikti tokiais formatais kaip JSON (dažniausiai pasitaikantis ir paprastai naudojamas), kurie įterpiami į HTML, XML, o kartais ir RDF.</p><p>Pabandykite atlikti toliau šiame modulyje pateiktus pratimus ir išsiaiškinsite, ar galite išskleisti minėtais formatais pateiktus duomenis.</p>",
+                "body": "<p>Paslėpti duomenys atrodo visai kitaip nei atvirųjų duomenų rinkinys, kurį atsisiunčiate iš svetainės.</p><p>Algoritmų perskaitomi duomenys žiniatinklyje bus pateikti tokiais formatais kaip JSON (dažniausiai pasitaikantis ir paprastai naudojamas), kurie įterpiami į HTML, XML, o kartais ir RDF.</p><p>Pabandykite atlikti toliau šiame modulyje pateiktus pratimus ir išsiaiškinsite, ar galite išskleisti minėtais formatais pateiktus duomenis.</p>",
                 "_graphic": {
                     "src": "course/lt/images/odi-004.jpg",
                     "alt": "Impact",
@@ -169,24 +169,24 @@
       "_component":"accordion",
       "_classes":"",
       "_layout":"left",
-      "title":"Benefits of hidden data",
-      "displayTitle": "Benefits of hidden data",
-      "instruction": "<em>Click the headings to find out more.</em>",
+      "title":"Paslėptų duomenų nauda",
+      "displayTitle": "Paslėptų duomenų nauda",
+      "instruction": "<em>Paspausk ant antraštės, jei nori pamatyti daugiau</em>",
       "_items": [
         {
           "alt": "Kokybė",
           "title": "Kokybė",
-          "body": "<p>Dažnai leidėjas pasinaudoja paslėptais duomenimis, norėdamas savo svetainėje atvaizduoti tai, ką jūs joje matote.</p><p>Todėl paslėpti duomenys yra svarbi jo internetinės veiklos dalis ir, tikėtina, kad leidėjas rūpinasi duomenų kokybe.</p><p>Iš žiniatinklio išskleisti duomenys paprastai būna patikimesni, nes, tikėtina, jie yra organizacijos veiklos pagrindas. Todėl greičiausiai dirbsite su patikimu duomenų šaltiniu.</p>"
+          "body": "<p>Dažnai leidėjas pasinaudoja paslėptais duomenimis, norėdamas savo svetainėje atvaizduoti tai, ką jūs joje matote.</p><p>Todėl paslėpti duomenys yra svarbi jo internetinės veiklos dalis ir, tikėtina, kad leidėjas rūpinasi tokių duomenų kokybe.</p><p>Iš interneto paimami duomenys paprastai būna patikimi, nes, tikėtina, jie yra organizacijos veiklos pagrindas.</p>"
         },
         {
           "alt": "Aktualumas",
           "title": "Aktualumas",
-          "body": "<p>Organizacijos ne visada skelbia atsisiunčiamus duomenis. Tačiau daugelis jų valdo duomenimis grindžiamas svetaines. Pasiekdami duomenis tiesiogiai per esamus duomenų šaltinius (arba iš svetainės kodo) juos aiškiai naudojate. Taip jūs galėsite greitai atpažinti aktualius duomenis iš šio esamo jų panaudojimo ir jums neteks patiems nustatyti, kaip juos naudoti. Kaip pavyzdys galėtų būti BBC naujienų puslapiai, sekcijos ir susiję duomenų kanalai.<br /><a href='http://www.bbc.co.uk/news/10628494' target='_blank'>BBC naujienų kanalai.</a></p>"
+          "body": "<p>Organizacijos ne visada skelbia atsisiunčiamus duomenis. Tačiau daugelis jų valdo duomenimis grindžiamas svetaines. Pasiekdami duomenis tiesiogiai per esamus duomenų šaltinius (arba iš svetainės kodo) galite greitai atpažinti aktualius duomenis. Kaip pavyzdys galėtų būti BBC naujienų puslapiai, sekcijos ir susiję duomenų kanalai.<br /><a href='http://www.bbc.co.uk/news/10628494' target='_blank'>BBC naujienų kanalai.</a></p>"
         },
         {
           "alt": "Kontekstas",
           "title": "Kontekstas",
-          "body": "<p>Kai gaunate duomenis tiesiogiai iš žiniatinklio, jau juos matote tokiame kontekste, kuriame atvaizdavo leidėjas. Kaip jau esame aptarę ankstesniuose moduliuose, duomenų kontekstas yra svarbi jų naudojimo dalis.</p>"
+          "body": "<p>Kai gaunate duomenis tiesiogiai iš interneto, jau juos matote tokiame kontekste, kuriame atvaizdavo leidėjas. Kaip jau esame aptarę ankstesniuose moduliuose, duomenų kontekstas yra svarbi jų naudojimo dalis.</p>"
         },
         {
           "alt": "Kiekis",
@@ -207,12 +207,12 @@
         "_component": "narrative",
         "title": "Kaip rasti paslėptus duomenis?",
         "displayTitle": "Kaip rasti paslėptus duomenis?",
-        "body": "<p>Iš duomenų gauname informaciją, iš informacijos gauname žinias ir įžvalgas.</p><p>Nepamirškite, kad išskleidus paslėptus duomenis jie netampa atviri. Prieš rinkdami arba naudodamiesi duomenimis bet kokiu tikslu visada turėtumėte patikrinti svetainės naudojimo sąlygas ir licencijas.</p<",
+        "body": "<p>Iš duomenų gauname informaciją, iš informacijos gauname žinias ir įžvalgas.</p><p>Nepamirškite, kad gavus paslėptus duomenis jie netampa atviri. Prieš rinkdami arba naudodamiesi duomenimis bet kokiu tikslu visada turėtumėte patikrinti svetainės naudojimo sąlygas ir licencijas.</p<",
         "instruction": "<em class='desktop-instruction'>Paspausk rodyklę, jei nori pamatyti daugiau.</em><em class='mobile-instruction'>Paspausk ‘+’ ženklą, jei nori pamatyti daugiau.</em>",
         "_items": [
             {
                 "title": "Plėtinių atsisiuntimai",
-                "body": "<p>Kai kurios svetainės buvo sukurtos, kad būtų galima rasti būdą, kaip išskleisti duomenis pridedant plėtinį prie jūsų peržiūrimos svetainės URL. Tokioms svetainėms, kurias paprastai prižiūri organizacijos, skelbiančios atsisiunčiamus atviruosius duomenis, pridėjus teisingą plėtinį pradedamas to puslapio atsisiuntimas duomenų, o ne naršyklės formatu.</p><p>Geras pavyzdys yra Jungtinės Karalystės (JK) vyriausybės svetainė (gov.uk), kurioje pateikiamas bet koks puslapis duomenų formatu tiesiog pridedant atitinkamą plėtinį, tokį kaip „.json“, pavyzdžiui, www.gov.uk/browse/business.json.</p><p>Išbandykite, kaip tai veikia, su JK prekybos duomenimis, peržiūrėdami šį puslapį ir tada pridėdami „.json“, kad gautumėte duomenis.<br /><a href='https://www.gov.uk/trade-tariff/sections' target='_blank'>Eiti į JK vyriausybės prekybos tarifų duomenų svetainę.</a></p><p>Norėdami peržiūrėti duomenis lengviau perskaitoma forma, nukopijuokite juos į jsonlint.com.</p>",
+                "body": "<p>Kai kurios svetainės buvo sukurtos, kad būtų galima rasti būdą, kaip gauti duomenis pridedant plėtinį prie jūsų peržiūrimos svetainės URL. Tokioms svetainėms, kurias paprastai prižiūri organizacijos, skelbiančios atsisiunčiamus atviruosius duomenis, pridėjus teisingą plėtinį pradedamas to puslapio atsisiuntimas duomenų, o ne naršyklės formatu.</p><p>Geras pavyzdys yra Jungtinės Karalystės (JK) vyriausybės svetainė (gov.uk), kurioje pateikiamas bet koks puslapis duomenų formatu tiesiog pridedant atitinkamą plėtinį, tokį kaip „.json“, pavyzdžiui, www.gov.uk/browse/business.json.</p><p>Išbandykite, kaip tai veikia, su JK prekybos duomenimis, peržiūrėdami šį puslapį ir tada pridėdami „.json“, kad gautumėte duomenis.<br /><a href='https://www.gov.uk/trade-tariff/sections' target='_blank'>Eiti į JK vyriausybės prekybos tarifų duomenų svetainę.</a></p><p>Norėdami peržiūrėti duomenis lengviau perskaitoma forma, nukopijuokite juos į jsonlint.com.</p>",
                 "_graphic": {
                     "src": "course/lt/images/odi-006.jpg",
                     "alt": "Extensions",
@@ -225,7 +225,7 @@
             },
             {
                 "title": "Duomenų kanalai",
-                "body": "<p>Daugelis svetainių pateikia nuorodas į duomenų sinchronizavimo kanalus, kuriuos galima užsisakyti.</p><p>Šie kanalai gali būti RSS kanalai, „Twitter“ įspėjamieji kanalai arba kitų rečiau pasitaikančių rūšių. Kanalais gali būti naudojamasi siekiant gauti neapdorotus duomenis apie platų turinio pasirinkimą.</p><p>Neapdorotų duomenų kanalo pavyzdys būtų BBC naujienų kanalas XML formatu.<br /><a href='http://feeds.bbci.co.uk/news/rss.xml' target='_blank'>Kodėl neišbandžius BBC XML formatu pateikiamų naujienų kanalų?</a></p><p>Dabar galite naudotis nemokamu internetiniu įrankiu, kad būtų lengviau naudoti duomenis.<br/><a href='http://codebeautify.org/xmlviewer' target='_blank'> Užeikite į „codebeautify“ ir įveskite BBC kanalo URL pasirinkę „Load URL“.</a></p><p class='not-dlab'>Arba gaukite įspėjamuosius pranešimus dėl potvynio, jei patvino šalia jūsų esanti upė (tik JK).<br /><a href='http://www.gaugemap.co.uk/' target='_blank'>Eiti į upių lygio matuoklį.</a></p>",
+                "body": "<p>Daugelis svetainių pateikia nuorodas į duomenų sinchronizavimo kanalus, kuriuos galima užsisakyti.</p><p>Šie kanalai gali būti RSS kanalai, „Twitter“ įspėjamieji kanalai arba kitų rečiau pasitaikančių rūšių. Kanalais gali būti naudojamasi siekiant gauti neapdorotus duomenis apie platų turinio pasirinkimą.</p><p>Neapdorotų duomenų kanalo pavyzdys būtų BBC naujienų kanalas XML formatu.<br /><a href='http://feeds.bbci.co.uk/news/rss.xml' target='_blank'>BBC XML formatu pateikiamų naujienų kanalas</a></p><p>Dabar galite naudotis nemokamu internetiniu įrankiu, kad būtų lengviau naudoti duomenis.<br/><a href='http://codebeautify.org/xmlviewer' target='_blank'> Užeikite į „codebeautify“ ir įveskite BBC kanalo URL pasirinkę „Load URL“.</a></p><p class='not-dlab'>Arba gaukite įspėjamuosius pranešimus dėl potvynio, jei patvino šalia jūsų esanti upė (tik JK).<br /><a href='http://www.gaugemap.co.uk/' target='_blank'>Eiti į upių lygio matuoklį.</a></p>",
                 "_graphic": {
                     "src": "course/lt/images/odi-007.jpg",
                     "alt": "Duomenų kanalai",
@@ -238,7 +238,7 @@
             },
             {
                 "title": "Šaltinio kodas",
-                "body": "<p>Daugelis svetainių ne tik pateikia paprastą maršrutą duomenims pasiekti – jos taip pat turi duomenų, įterptų į žiniatinklio šaltinio kodą.</p><p>Kodėl neišbandžius ODI eksperimentinio įrankio „Hidden Data Extractor“, kad rastumėte šaltinio kodą?<br><br><a href='http://odinprac.theodi.org/hidden-data-extractor/' target='_blank'>Eiti į ODI „Hidden Data Extractor“.</a></p>",
+                "body": "<p>Daugelis svetainių ne tik pateikia paprastą maršrutą duomenims pasiekti – jos taip pat turi duomenų, įterptų į žiniatinklio šaltinio kodą.</p><p>Išbandykite ODI eksperimentinio įrankio „Hidden Data Extractor“ šaltinio kodo nustatymui.<br><br><a href='http://odinprac.theodi.org/hidden-data-extractor/' target='_blank'>Eiti į ODI „Hidden Data Extractor“.</a></p>",
                 "_graphic": {
                     "src": "course/lt/images/odi-008.jpg",
                     "alt": "Šaltinio kodas",
@@ -250,8 +250,8 @@
                 "strapline": "User focused"
             },
             {
-                "title": "Aplikacijų programavimo sąsaja (angl. „Application Programming Interface“, API) arba mašinų perskaitomos sąsajos",
-                "body": "<p>Kai kuriose svetainėse arba žiniatinklio paslaugose bus sukurta mašinų perskaitoma sąsaja arba API, skirta duomenims pasiekti ir užklausoms pateikti.</p><p>API turinčių paslaugų pavyzdžiai būtų tokie:<a href='https://api.opencorporates.com/' target='_blank'>Open Corporates</a> (atviras), <a href='http://wiki.openstreetmap.org/wiki/API' target='_blank'>OpenSteetMap</a> (atviras), <a href='https://dev.twitter.com/rest/public' target='_blank'>Twitter</a> (ne visiškai atviras), <a href='https://www.flickr.com/services/api/' target='_blank'>Flickr</a> (iš dalies atviras), <a href='https://developer.linkedin.com/docs/rest-api' target='_blank'>LinkedIn</a> (ne atviras).</p><p>Dauguma šių paslaugų naudoja internetinę API ir leidžia plėtinių pridėjimą (pabandykite „.json“ plėtinį su „OpenCorporates“). Nors ši API atrodo tokia pati kaip ir ankstesniame šio skyriaus pavyzdyje, oficialus API statusas užtikrina, kad paslauga bus prieinama.</p>",
+                "title": "Aplikacijų programavimo sąsaja (Application Programming Interface, API) arba algoritmų perskaitomos sąsajos",
+                "body": "<p>Kai kuriose svetainėse arba interneto paslaugose bus sukurta algoritmų perskaitoma sąsaja arba API, skirta duomenims pasiekti ir užklausoms pateikti.</p><p>API turinčių paslaugų pavyzdžiai: <a href='https://api.opencorporates.com/' target='_blank'>Open Corporates</a> (atviras), <a href='http://wiki.openstreetmap.org/wiki/API' target='_blank'>OpenSteetMap</a> (atviras), <a href='https://dev.twitter.com/rest/public' target='_blank'>Twitter</a> (ne visiškai atviras), <a href='https://www.flickr.com/services/api/' target='_blank'>Flickr</a> (iš dalies atviras), <a href='https://developer.linkedin.com/docs/rest-api' target='_blank'>LinkedIn</a> (ne atviras).</p><p>Dauguma šių paslaugų naudoja internetinę API ir leidžia plėtinių pridėjimą (pabandykite „.json“ plėtinį su „OpenCorporates“). Nors ši API atrodo tokia pati kaip ir ankstesniame šio skyriaus pavyzdyje, oficialus API statusas užtikrina, kad paslauga bus prieinama.</p>",
                 "_graphic": {
                     "src": "course/lt/images/odi-009.jpg",
                     "alt": "APIs",
@@ -264,7 +264,7 @@
             },
             {
                 "title": "Duomenų ištraukimas iš interneto (scraping)",
-                "body": "<p>Jeigu nei viena iš minėtų technikų neveikia, gali tekti ištraukti duomenis iš žmogaus perskaitomų svetainių. Nors šis veiksmas gali būti patikimas, kyla rizika, kad pasikeis maketas ir turinys.</p><p>Išbandykite <a href='http://magic.import.io' target='_blank'>magic.import.io</a> - tai paprasta</p>",
+                "body": "<p>Jeigu nei viena iš minėtų technikų neveikia, gali tekti ištraukti duomenis iš žmogaus perskaitomų svetainių. Nors šis veiksmas gali būti patikimas, kyla rizika, kad pasikeis maketas ir turinys.</p><p>Išbandykite <a href='http://magic.import.io' target='_blank'>magic.import.io</a></p>",
                 "_graphic": {
                     "src": "course/lt/images/odi-010.jpg",
                     "alt": "Scraping the web",
@@ -487,7 +487,7 @@
         "instruction": "<em>Pasirink teisingą atsakymą ir spausk ‘submit’</em>",
         "_items": [
             {
-                "text": "kiekis;",
+                "text": "kiekis",
                 "_shouldBeSelected": false
             },
             {
@@ -495,15 +495,15 @@
                 "_shouldBeSelected": false
             },
             {
-                "text": "skaitomumas;",
+                "text": "skaitomumas",
                 "_shouldBeSelected": true
             },
             {
-                "text": "aktualumas;",
+                "text": "aktualumas",
                 "_shouldBeSelected": false
             },
             {
-                "text": "kontekstas.",
+                "text": "kontekstas",
                 "_shouldBeSelected": false
             }
         ],
@@ -560,19 +560,19 @@
         "_selectable":1,
         "title": "Kaip galite ištraukti paslėptus duomenis iš svetainės?",
         "displayTitle": "Kaip galite ištraukti paslėptus duomenis iš svetainės?",
-        "body": "<p>Kuris iš toliau nurodytų būdų yra naudingas siekiant išskleisti paslėptus duomenis iš svetainės?</p>",
+        "body": "<p>Kuris iš toliau nurodytų būdų yra naudingas siekiant gauti paslėptus duomenis iš svetainės?</p>",
         "instruction": "<em>Pasirink teisingą atsakymą ir spausk ‘submit’</em>",
         "_items": [
             {
-                "text": "Svetainės nuorodos saugojimas.",
+                "text": "svetainės nuorodos saugojimas",
                 "_shouldBeSelected": false
             },
             {
-                "text": "Pakartotinis puslapio įkėlimas.",
+                "text": "pakartotinis puslapio įkėlimas",
                 "_shouldBeSelected": false
             },
             {
-                "text": "Šaltinio kodo tikrinimas.",
+                "text": "šaltinio kodo tikrinimas",
                 "_shouldBeSelected": true
             }
         ],
@@ -624,7 +624,7 @@
         "_layout":"left",
         "title":"Paslėptų duomenų radimas internete",
         "displayTitle":"Paslėptų duomenų radimas internete",
-        "body":"<p>Duomenys, kuriuos galima atsisiųsti, yra tik nedidelė dalis žiniatinklyje pasiekiamų duomenų.</p><p>Nors žmogus akis ne visada gali matyti duomenis, galima atrasti ir pasinaudoti daugybe naujų duomenis naudojančių mašinų.</p><p>Iš šių svetainių gauti duomenys dažnai yra daug didesni savo kiekiu ir aktualesni jūsų darbui nei atsisiųstieji failai, be to, jie išimami tiesiai iš konteksto, kuriame leidėjas jau juos naudoja.</p><p>Kadangi šiame modulyje buvote informuoti apie paslėptus duomenis ir išmokote keleto paprastų veiksmų, tokių kaip plėtinių užklausos ir API, savo darbui ateityje galėsite gauti daug aktualių duomenų.</p><p><a class='course_link' href='../module13/'>Kitas modulis</a></p><p><a class='course_link' href='../'>Pagrindinis meniu</a></p>",
+        "body":"<p>Duomenys, kuriuos galima atsisiųsti, yra tik nedidelė dalis internete pasiekiamų duomenų.</p><p>Nors žmogaus akis ne visada gali pamatyti duomenis, galima pasinaudoti įrankiais, kurių pagalba galima gauti paslėptus duomenis.</p><p>Iš tokių svetainių gauti duomenys dažnai yra daug didesni savo kiekiu ir aktualesni jūsų darbui nei atsisiunčiami failai, be to, jie išimami tiesiai iš konteksto, kuriame leidėjas jau juos naudoja.</p><p><a class='course_link' href='../module13/'>Kitas modulis</a></p><p><a class='course_link' href='../'>Pagrindinis meniu</a></p>",
         "_pageLevelProgress": {
           "_isEnabled": true
         }
