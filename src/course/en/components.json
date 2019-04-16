@@ -117,6 +117,59 @@
         "displayTitle":"What is open data?",
         "body":"<p>Open data is <strong>data</strong> that <strong>anyone</strong> can <strong>access</strong>, <strong>use</strong> and <strong>share</strong>.</p><p>Open data becomes usable through being available in a common, machine-readable format.</p><p>Open data must be licensed. This licence must permit people to use the data in any way they want, including transforming, combining and sharing it with others, even commercially.</p>"
     },
+    {
+        "_id":"c-282",
+        "_parentId":"b-26",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"left",
+        "_graphic": {
+            "alt": "The ODI Theory of Change",
+            "title": "The ODI Theory of Change",
+            "large": "course/en/images/ToC-stop-motion-animationV5.gif",
+            "medium": "ccourse/en/images/ToC-stop-motion-animationV5.gif",
+            "small": "course/en/images/ToC-stop-motion-animationV5.gif",
+            "*source":"https://theodi.org/about-the-odi/our-vision-and-manifesto/our-theory-of-change/",
+            "*credit":"The Open Data Institute",
+            "*license":"All Rights Reserved"
+        }
+    },
+    {
+        "_id":"c-271",
+        "_parentId":"b-26",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"right",
+        "title":"The ODI theory of change",
+        "displayTitle":"The ODI theory of change",
+        "body":"<p>We want those who steward data and those who create information from this data to act in ways that lead to the best social and economic outcomes for everyone. In our theory of change, we call this goal the farmland.</p><p>However there are threats to this vision that arise from those that either hoard or fear data.</p><p>Read more about the ODI theory of change <a href='https://theodi.org/about-the-odi/our-vision-and-manifesto/our-theory-of-change/' target='_blank'>here</a>.</p>"
+    },
+    {
+    "_id":"c-273",
+    "_parentId":"b-27",
+    "_type":"component",
+    "_component":"iFrame-vimeo",
+    "_classes":"",
+    "_layout":"full",
+        "title":"Open data that has changed the world",
+        "displayTitle": "Open data that has changed the world",
+        "body": "ODI Trainer Dr David Tarrant cover as many stories as he can to demonstrate how open data is now ubiquitous and an essential part of the world we live in.",
+        "instruction": "",
+        "_setCompletionOn":"ended",
+        "_source": "https://www.youtube.com/embed/wJHS4ih-9TQ",
+    "_media": {
+        "mp4": "",
+        "poster": "course/en/video/placeholder.jpg"
+    },
+        "_height": {
+            "_small" : 250,
+            "_medium" : 350,
+            "_large" : 508
+        }
+    },
+
      {
         "_id": "c-30",
         "_parentId": "b-30",
