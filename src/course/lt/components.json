@@ -102,7 +102,7 @@
         "_items": [
             {
                 "title": "Duomenų atradimas",
-                "body": "<p>Atvirų duomenų platformos skatina duomenis naudoti.  Platformų dizainas leidžia naudotojams greitai rasti ir panaudoti susijusius duomenis.</p><p>Platformos yra kuriamos atsižvelgiant į paieškos įrankius, todėl jose lengviau rasti reikalingą informaciją. Platformos taip pat sukuria skirtingus duomenų srautus, kurie gali būti naudojami kitų sistemų bet kur internete.</p><p>Tokie duomenų srautai leidžia paieškos sistemoms, kaip Enigma.io atidaryti duomenis ir padaryti juos prieinamiesniems.<br /><a href='http://www.enigma.io' target='_blank'>enigma.io</a></p>",
+                "body": "<p>Atvirų duomenų platformos skatina duomenis naudoti.  Platformų dizainas leidžia naudotojams greitai rasti ir panaudoti susijusius duomenis.</p><p>Platformos yra kuriamos atsižvelgiant į paieškos įrankius, todėl jose lengviau rasti reikalingą informaciją. Platformos taip pat sukuria skirtingus duomenų srautus, kurie gali būti naudojami kitų sistemų bet kur internete.</p><p>Tokie duomenų srautai leidžia paieškos sistemoms, kaip Enigma.io atidaryti duomenis ir padaryti juos prieinamiesniems.<br /><a href='http://www.enigma.io' target='_blank'>enigma.io</a></p>",
                 "_graphic": {
                     "src": "course/lt/images/odi-002.jpg",
                     "alt": "Discovery",
@@ -128,7 +128,7 @@
             },
             {
                 "title": "Nuosekli prieiga",
-                "body": "<p>Kurdama atvirus standartus interneto bendruomenė sukūrė nuosekliaus programavimo sąsają (API). Ji skirta duomenų prieigai ir naudojimui. </p><p>Ribotas atvirų duomenų platformų skaičius ir nuoseklios prieigos įrankiai leidžia naudotojams lengvai naudoti skirtingus programinės įrangos elementus.</p><p>Platformos taip pat turi panašias struktūras ir formatus metaduomenų atvėrimui, kaip ir patys duomenys.</p>",
+                "body": "<p>Kurdama atvirus standartus interneto bendruomenė sukūrė nuosekliaus programavimo sąsają (API). Ji skirta duomenų prieigai ir naudojimui. </p><p>Ribotas atvirų duomenų platformų skaičius ir nuoseklios prieigos įrankiai leidžia naudotojams lengvai naudoti skirtingus programinės įrangos elementus.</p><p>Platformos taip pat turi panašias struktūras ir formatus metaduomenų atvėrimui, kaip ir patys duomenys.</p>",
                 "_graphic": {
                     "src": "course/lt/images/odi-004.jpg",
                     "alt": "Access granted",
@@ -171,18 +171,18 @@
       "_layout":"left",
       "title": "Platformos dizaino metodai",
       "displayTitle": "Platformos dizaino metodai",
-      "body": "<p>Platformos naudoja skirtingus metodus duomenų atvėrimui. Skirtingi metodai:</p>",
+      "body": "<p>Platformos naudoja skirtingus metodus duomenų atvėrimui. Skirtingi metodai:</p>",
       "instruction": "",
       "_items": [
         {
           "alt": "Duomenų katalogai",
           "title": "Duomenų katalogai",
-          "body": "<p> Atvirų duomenų katalogas yra platforma internete, kurioje yra duomenų rinkinių sąrašas. Duomenų katalogas yra kaip direktorija. Jie žino, kad yra konkretus duomenų rinkinys, apie ką jis, kur jis yra ir kaip jį paimti.</p><p>Atvirų duomenų katalogas sujungia naudotojus su duomenimis, esančiais kažkur internete. Tai yra vientisas metodas norint lokalizuoti duomenų rinkinius, esančius skirtingose vietose. </p><p class='not-dlab'>CKAN platforma, naudojama Amsterdame (<a href='http://data.amsterdam.nl' target='_blank'>Amsterdamo CKAN portalas</a>)</span>, Berlyne (<a href='http://daten.berlin.de/' target='_blank'>Berlyno CKAN</a>) ir Kopenhagoje (<a href='http://data.kk.dk/' target='_blank'>Kopenhagos CKAN</a>), gali būti naudojama kaip duomenų katalogas. </p>"
+          "body": "<p> Atvirų duomenų katalogas yra platforma internete, kurioje yra duomenų rinkinių sąrašas. Duomenų katalogas yra kaip direktorija. Jie žino, kad yra konkretus duomenų rinkinys, apie ką jis, kur jis yra ir kaip jį paimti.</p><p>Atvirų duomenų katalogas sujungia naudotojus su duomenimis, esančiais kažkur internete. Tai yra vientisas metodas norint lokalizuoti duomenų rinkinius, esančius skirtingose vietose. </p><p class='not-dlab'>CKAN platforma, naudojama Amsterdame (<a href='http://data.amsterdam.nl' target='_blank'>Amsterdamo CKAN portalas</a>)</span>, Berlyne (<a href='http://daten.berlin.de/' target='_blank'>Berlyno CKAN</a>) ir Kopenhagoje (<a href='http://data.kk.dk/' target='_blank'>Kopenhagos CKAN</a>), gali būti naudojama kaip duomenų katalogas. </p>"
         },
         {
           "alt": "Duomenų valdymas",
           "title": "Duomenų valdymas",
-          "body": "<p>Duomenų valdymo platformos taip pat gali atlikti svarbų vaidmenį duomenų atvėrime ir valdyme. Atverėjai gali atnaujinti duomenis tiesiogiai platformoje.</p><p>Naudotojams, ieškantiems duomenų ir analizuojantiems juos be poreikio duomenis parsisiųsti, tokia platforma gerokai palengvina procesą.</p><p>Tačiau atverėjai tokiai platformai turi skirti daugiau laiko struktūrizuojant ir formatuojant duomenis. Tai lengvai išsprendžiama, jei atverėjas tokią platformą naudoja ir savo duomenų prieigai. </p><p class='not-dlab'>Socrata platforma, naudojama Lobardijos regione Italijoje (<a href='https://www.dati.lombardia.it/' target='_blank'>Lombardijos open data portalas</a>), ir Open Data Soft platforma naudojama Issy mieste Pranzūzijoje (<a href='https://data.issy.com/' target='_blank'>Issy open data portalas</a>) yra geri duomenų valdymo platformų pavyzdžiai. </p>"
+          "body": "<p>Duomenų valdymo platformos taip pat gali atlikti svarbų vaidmenį duomenų atvėrime ir valdyme. Atverėjai gali atnaujinti duomenis tiesiogiai platformoje.</p><p>Naudotojams, ieškantiems duomenų ir analizuojantiems juos be poreikio duomenis parsisiųsti, tokia platforma gerokai palengvina procesą.</p><p>Tačiau atverėjai tokiai platformai turi skirti daugiau laiko struktūrizuojant ir formatuojant duomenis. Tai lengvai išsprendžiama, jei atverėjas tokią platformą naudoja ir savo duomenų prieigai. </p><p class='not-dlab'>Socrata platforma, naudojama Lombardijos regione Italijoje (<a href='https://www.dati.lombardia.it/' target='_blank'>Lombardijos open data portalas</a>), ir Open Data Soft platforma naudojama Issy mieste Pranzūzijoje (<a href='https://data.issy.com/' target='_blank'>Issy open data portalas</a>) yra geri duomenų valdymo platformų pavyzdžiai. </p>"
         },
         {
           "alt": "Palyginimas",
@@ -221,7 +221,7 @@
         "_layout":"left",
         "title":"Atvirų duomenų platformos Europoje",
         "displayTitle":"Atvirų duomenų platformos Europoje",
-        "body":"<p>Europa yra namai šimtams atvirų duomenų platformų lokaliu, regioniniu ir nacionaliniu lygiais. Ieškant atvirų duomenų yra naudinga turėti prieigą prie šių platformų direktorijų, kurios padeda nustatyti, kurie duomenų šaltiniai yra prieinami. OpenDataMonitor projektas yra Europos atvirų duomenų svetainių ir šaltinių indeksas.<br /><a href='http://www.opendatamonitor.eu/frontend/web/index.php?r=datacatalogue%2Flist' target='_blank'>OpenDataMonitor</a></p>"
+        "body":"<p>Europa yra namai šimtams atvirų duomenų platformų lokaliu, regioniniu ir nacionaliniu lygiais. Ieškant atvirų duomenų yra naudinga turėti prieigą prie šių platformų direktorijų, kurios padeda nustatyti, kurie duomenų šaltiniai yra prieinami. OpenDataMonitor projektas yra Europos atvirų duomenų svetainių ir šaltinių indeksas.<br /><a href='http://www.opendatamonitor.eu/frontend/web/index.php?r=datacatalogue%2Flist' target='_blank'>OpenDataMonitor</a></p>"
     },
     {
         "_id":"c-42",
@@ -375,7 +375,7 @@
             }
         ],
         "_feedback":{
-            "correct":"<h5>Teisingai! </h5><p>Atvirų duomenų katalogas yra atvirų duomenų, esančių internete, sąrašas ir jis nebūtinai priklauso duomenų savininkui. Dauguma rinkinių yra kategorizuojami pagal domeną arba objektą, taip padarant juos lengviau suprantamais.</p>",
+            "correct":"<h5>Teisingai! </h5><p>Atvirų duomenų katalogas yra atvirų duomenų, esančių internete, sąrašas ir jis nebūtinai priklauso duomenų savininkui. Dauguma rinkinių yra kategorizuojami pagal domeną arba objektą, taip padarant juos lengviau suprantamais.</p>",
             "_incorrect": {
                 "notFinal": "<h5>Ar tikrai?</h5><p>Atvirų duomenų katalogas yra atvirų duomenų, esančių internete, sąrašas ir jis nebūtinai priklauso duomenų savininkui. Dauguma rinkinių yra kategorizuojami pagal domeną arba objektą, taip padarant juos lengviau suprantamais.</p>",
                 "final": "<h5>Ar tikrai?</h5><p>Atvirų duomenų katalogas yra atvirų duomenų, esančių internete, sąrašas ir jis nebūtinai priklauso duomenų savininkui. Dauguma rinkinių yra kategorizuojami pagal domeną arba objektą, taip padarant juos lengviau suprantamais.</p>"
