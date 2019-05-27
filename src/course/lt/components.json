@@ -83,7 +83,7 @@
         "_layout":"right",
         "title":"Kodėl reikia licencijuoti atvirus duomenis?",
         "displayTitle":"Kodėl reikia licencijuoti atvirus duomenis?",
-        "body":"<p>Be licencijos, duomenys nėra iki galo atviri. </p><p>Licencija nurodo, kad duomenys yra atviri bet kokiai prieigai, naudojimui ar platinimui. </p><p>Nesant licencijai, duomenys gali būti “viešai prieinami”, bet jų naudotoji neturi oficialios teisės jų naudoti ir jais dalintis pagal įstatymus.</p>"
+        "body":"<p>Be licencijos, duomenys nėra iki galo atviri. </p><p>Licencija nurodo, kad duomenys yra atviri bet kokiai prieigai, naudojimui ar platinimui. </p><p>Nesant licencijai, duomenys gali būti “viešai prieinami”, bet jų naudotojai neturi oficialios teisės jų naudoti ir jais dalintis pagal įstatymus.</p>"
     },
      {
         "_id": "c-25",
@@ -111,17 +111,17 @@
                 "strapline": "Tikrumo užtikrinimas"
             },
             {
-                "title": "Aiškumo užtikrinimas ",
+                "title": "Aiškumo užtikrinimas ",
                 "body": "<p>2015 m. tik pusė atvirų duomenų katalogų Europos Sąjungoje turėjo licencijas.</p><p>ES autorinių teisių ir duomenų bazių įstatymai yra labai kompleksiški. Net jei duomenys turi intensiją būti atvirais, licencija užtikrina teisinį aiškumą jų naudotojams.</p><p>The OpenDataMonitor platforma teikia tokią informaciją apie Europos duomenų katalogus.<br /><a href='http://www.opendatamonitor.eu' target='_blank'>OpenDataMonitor platform</a></p>",
 		        "_graphic": {
                     "src": "course/lt/images/odi-3.jpg",
-                    "alt": "Aiškumo užtikrinimas ",
-                    "title": "Aiškumo užtikrinimas ",
+                    "alt": "Aiškumo užtikrinimas ",
+                    "title": "Aiškumo užtikrinimas ",
                     "*source":"http://www.opendatamonitor.eu/",
                     "*credit":"Open Data Monitor",
                     "*license":"CC-BY 4.0 International"
                 },
-                "strapline": "Aiškumo užtikrinimas "
+                "strapline": "Aiškumo užtikrinimas "
             },
             {
                 "title": "Inovacijų skatinimas",
@@ -248,7 +248,7 @@
       "_layout":"left",
       "title": "Licencijų tipai",
       "displayTitle": "Licencijų tipai",
-      "body": "<p>Kuo paprastesnė licencija, tuo geriau.</p><p>Yra daug skirtingų licencijų rūšių. Norint pasiekti geriausią rezultatą, rinkitės licenciją, kuri yra plačiausiai naudojama. </p><p><a href='https://theodi.org/guides/reusers-guide-open-data-licensing' target='_blank'>Licencijų katalogas</a></p><p class='not-tz not-dlab not-default'>Taip pat pasirinkti tinkamiausią licenciją gali padėti <a href='http://www.europeandataportal.eu/lt/licence-assistant' target='_blank'>The European portal.</a></p>",
+      "body": "<p>Kuo paprastesnė licencija, tuo geriau.</p><p>Yra daug skirtingų licencijų rūšių. Norint pasiekti geriausią rezultatą, rinkitės licenciją, kuri yra plačiausiai naudojama. </p><p><a href='https://theodi.org/guides/reusers-guide-open-data-licensing' target='_blank'>Licencijų katalogas</a></p><p class='not-tz not-dlab not-default'>Taip pat pasirinkti tinkamiausią licenciją gali padėti <a href='http://www.europeandataportal.eu/lt/licence-assistant' target='_blank'>The European portal.</a></p>",
       "instruction": "<em>Paspausk ant antraštės, jei nori pamatyti daugiau.</em>",
       "_items": [
         {
@@ -259,7 +259,7 @@
         {
           "alt": "Licencija pagal susitarimą",
           "title": "Licencija pagal susitarimą",
-          "body": "<p>Licencija pagal susitarimą sukuriama duomenų tiekėjo ir turi specialių sąlygų, su kuriomis naudotojas turi sutikti.  Licencija pagal susitarimą turi būti parašyta tiekėjo arba tai taip pat gali būti pritaikyta standartinė licencija, pridedant ar modifikuojant tam tikras sąlygas.</p><p>Licencija pagal susitarimą daro atvirų duomenų naudojimą sudėtingesniu ir kompleksiškesniu.</p><p>Licencijos sudarytojas tokiu atveju gali apriboti duomenų panaudojimą, integravimą ir pan.</p>"
+          "body": "<p>Licencija pagal susitarimą sukuriama duomenų tiekėjo ir turi specialių sąlygų, su kuriomis naudotojas turi sutikti.  Licencija pagal susitarimą turi būti parašyta tiekėjo arba tai taip pat gali būti pritaikyta standartinė licencija, pridedant ar modifikuojant tam tikras sąlygas.</p><p>Licencija pagal susitarimą daro atvirų duomenų naudojimą sudėtingesniu ir kompleksiškesniu.</p><p>Licencijos sudarytojas tokiu atveju gali apriboti duomenų panaudojimą, integravimą ir pan.</p>"
         },
         {
           "alt": "Atviros vyriausybės licencija",
@@ -463,7 +463,7 @@
         "_selectable":1,
         "title": "Atvirų duomenų privalumai",
         "displayTitle": "Atvirų duomenų privalumai",
-        "body": "<p>Atvira licencija leidžia naudotojams laisvai prieiti, naudoti ir dalintis duomenimis. Kokį dar vieną leidimą turi suteikti atvira licencija? </p>",
+        "body": "<p>Atvira licencija leidžia naudotojams laisvai prieiti, naudoti ir dalintis duomenimis. Kokį dar vieną leidimą turi suteikti atvira licencija? </p>",
         "instruction": "<em>Pasirink teisingą atsakymą ir spausk ‘submit’</em>",
         "_items": [
             {
@@ -471,7 +471,7 @@
                 "_shouldBeSelected": false
             },
             {
-                "text": "galimybė prisiimti nuosavybę už duomenis",
+                "text": "galimybę prisiimti nuosavybę už duomenis",
                 "_shouldBeSelected": false
             },
             {
@@ -480,10 +480,10 @@
             }
         ],
         "_feedback":{
-            "correct":"<h5>Teisingai!</h5><p>Tam, kad duomenys būtų išties atviri, naudotojai turi turėti galimybę naudoti juos net komerciniams tikslams. Tai leidžia maksimaliai išnaudoti atvirų duomenų kuriamą potencialą inovacijoms. Tačiau licencija nesuteikia jokios teisės duomenų naudotojui prisiimti nuosavybės teisės už duomenis.</p>",
+            "correct":"<h5>Teisingai!</h5><p>Tam, kad duomenys būtų išties atviri, naudotojai turi turėti galimybę naudoti juos net komerciniams tikslams. Tai leidžia maksimaliai išnaudoti atvirų duomenų kuriamą potencialą inovacijoms. Tačiau licencija nesuteikia jokios teisės duomenų naudotojui prisiimti nuosavybės teisės už duomenis.</p>",
             "_incorrect": {
-                "notFinal": "<h5>Ar tikrai?</h5><p>Tam, kad duomenys būtų išties atviri, naudotojai turi turėti galimybę naudoti juos net komerciniams tikslams. Tai leidžia maksimaliai išnaudoti atvirų duomenų kuriamą potencialą inovacijoms. Tačiau licencija nesuteikia jokios teisės duomenų naudotojui prisiimti nuosavybės teisės už duomenis.</p>",
-                "final": "<h5>Ar tikrai?</h5><p>Tam, kad duomenys būtų išties atviri, naudotojai turi turėti galimybę naudoti juos net komerciniams tikslams. Tai leidžia maksimaliai išnaudoti atvirų duomenų kuriamą potencialą inovacijoms. Tačiau licencija nesuteikia jokios teisės duomenų naudotojui prisiimti nuosavybės teisės už duomenis.</p>"
+                "notFinal": "<h5>Ar tikrai?</h5><p>Tam, kad duomenys būtų išties atviri, naudotojai turi turėti galimybę naudoti juos net komerciniams tikslams. Tai leidžia maksimaliai išnaudoti atvirų duomenų kuriamą potencialą inovacijoms. Tačiau licencija nesuteikia jokios teisės duomenų naudotojui prisiimti nuosavybės teisės už duomenis.</p>",
+                "final": "<h5>Ar tikrai?</h5><p>Tam, kad duomenys būtų išties atviri, naudotojai turi turėti galimybę naudoti juos net komerciniams tikslams. Tai leidžia maksimaliai išnaudoti atvirų duomenų kuriamą potencialą inovacijoms. Tačiau licencija nesuteikia jokios teisės duomenų naudotojui prisiimti nuosavybės teisės už duomenis.</p>"
             },
             "_partlyCorrect": {
                 "notFinal": "<h5>Ar tikrai?</h5><p>Be licencijos duomenys gali būti viešai prieinami, bet jie nesuteikia teisės būti laisvai prieinami, naudojami ar platinami pagal įstatymą.</p>",
@@ -663,9 +663,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Atvirų duomenų licencijos. Paprasta.",
-        "displayTitle":"Atvirų duomenų licencijos. Paprasta.",
-        "body":"<p>Tam, kad duomenys būtų atviri, jie turi būti licencijuoti laisvai prieigai, naudojimui ir platinimui.</p><p>Licencijavimas skatina verslus, startuolius, viešąjį sektorių ir visuomenę kurti inovacijas. </p><p>Atviri duomenys turi būti naudojami viešuosiuose pirkimuose.</p><p>Ir kuo paprastesnė licencija- tuo geriau. </p><p>Kitame modulyje mes vertinsime duomenų kokybę.</p><p><a class='course_link' href='../module5/'>Kitas modulis</a></p><p><a class='course_link' href='../'>Pagrindinis puslapis</a></p>",
+        "title":"Atvirų duomenų licencijos. Paprasta.",
+        "displayTitle":"Atvirų duomenų licencijos. Paprasta.",
+        "body":"<p>Tam, kad duomenys būtų atviri, jie turi būti licencijuoti laisvai prieigai, naudojimui ir platinimui.</p><p>Licencijavimas skatina verslus, startuolius, viešąjį sektorių ir visuomenę kurti inovacijas. </p><p>Atviri duomenys turi būti naudojami viešuosiuose pirkimuose.</p><p>Ir kuo paprastesnė licencija- tuo geriau. </p><p>Kitame modulyje mes vertinsime duomenų kokybę.</p><p><a class='course_link' href='../module5/'>Kitas modulis</a></p><p><a class='course_link' href='../'>Pagrindinis puslapis</a></p>",
         "_pageLevelProgress": {
           "_isEnabled": true
         }
