@@ -72,7 +72,7 @@
         "_items": [
             {
                 "title": "Panaudojamumas",
-                "body": "<p>Labiausiai panaudojamas duomenų formatas yra tas formatas, kuriuo buvo sukurtas pirminis duomenų rinkinys. Dažniausiai toks formatas yra Microsoft Excel.</p><p>Tokios programos kaip Excel taip pat turi daugiau galimybių, tokių kaip lentelių stilistika ar duomenų diagramos. Jų pagalba galima suteikti duomenims konteksto ir taip juos lengviau paaiškinti.</p>",
+                "body": "<p>Labiausiai panaudojamas duomenų formatas yra tas formatas, kuriuo buvo sukurtas pirminis duomenų rinkinys. Dažniausiai toks formatas yra Microsoft Excel.</p><p>Tokios programos kaip Excel taip pat turi daugiau galimybių, tokių kaip lentelių stilistika ar duomenų diagramos. Jų pagalba galima suteikti duomenims konteksto ir taip juos lengviau paaiškinti.</p>",
                 "_graphic": {
                     "src": "course/lt/images/odi-001.jpg",
                     "alt": "Panaudojamumas",
@@ -85,7 +85,7 @@
             },
             {
                 "title": "Duomenų tvarkymas",
-                "body": "<p>Kai kuriems duomenų tvarkytojams atviri duomenys šiandien yra pagrindinis duomenų šaltinis jų paties darbui. Atviri duomenys, kaip vienas iš būdų organizacijos darbuotojams prieiti prie informacijos, turi daug privalumų:</p><ul><li>didėja suvokimas apie atvirus duomenis komandos viduje;</li><li>auga pasitikėjimas duomenimis, jie tampa pagrindiniu organizacijos veiklų resursu;</li><li>duomenys sukuria aiškų potencialą inovacijoms.</li></ul>",
+                "body": "<p>Kai kuriems duomenų tvarkytojams atviri duomenys šiandien yra pagrindinis duomenų šaltinis jų paties darbui. Atviri duomenys, kaip vienas iš būdų organizacijos darbuotojams prieiti prie informacijos, turi daug privalumų:</p><ul><li>didėja suvokimas apie atvirus duomenis komandos viduje;</li><li>auga pasitikėjimas duomenimis, jie tampa pagrindiniu organizacijos veiklų resursu;</li><li>duomenys sukuria aiškų potencialą inovacijoms.</li></ul>",
                 "_graphic": {
                     "src": "course/lt/images/odi-002.jpg",
                     "alt": "Duomenų tvarkymas",
@@ -123,13 +123,13 @@
       "_layout":"full",
       "title": "CĮprastos duomenų struktūros",
       "displayTitle": "Įprastos duomenų struktūros",
-      "body": "<p>Ne visi duomenys gali būti pateikti spreadsheet lentelės formatu. Duomenų failai gali būti pateikiami skirtingais formatais. Yra trys pagrindinės duomenų struktūros: lentelės, hierarchinės ir susietos tinkle. </p>",
+      "body": "<p>Ne visi duomenys gali būti pateikti spreadsheet lentelės formatu. Duomenų failai gali būti pateikiami skirtingais formatais. Yra trys pagrindinės duomenų struktūros: lentelės, hierarchinės ir susietos tinkle. </p>",
       "instruction": "<em>Paspausk rodyklę, jei nori pamatyti daugiau</em>",
       "_items": [
         {
           "alt": "Lentelės",
           "title": "Lentelės",
-          "body": "<p>Tai yra dažniausiai pasitaikanti duomenų struktūra. Duomenų reikšmės yra išdėstytos eilutėmis ir stulpeliais.</p><p>Jei duomenys yra sukaupti iš skirtingų šaltinių ir nėra tarpusavyje susieti, tada lentelinė struktūra CSV formatu yra labiausiai tinkama. <span class='not-dlab'>Pavyzdžiui, tokius lentelinius duomenis kaupia Italijos duomenų portalas apie muziejaus lankomumą.<br /><a href='http://www.datiopen.it/opendata/Visitatori_musei_pubblici_e_similari_titolo_d_accesso' target='_blank'>Italian Data Portal</a></span></p>",
+          "body": "<p>Tai yra dažniausiai pasitaikanti duomenų struktūra. Duomenų reikšmės yra išdėstytos eilutėmis ir stulpeliais.</p><p>Jei duomenys yra sukaupti iš skirtingų šaltinių ir nėra tarpusavyje susieti, tada lentelinė struktūra CSV formatu yra labiausiai tinkama. <span class='not-dlab'>Pavyzdžiui, tokius lentelinius duomenis kaupia Italijos duomenų portalas apie muziejaus lankomumą.<br /><a href='http://www.datiopen.it/opendata/Visitatori_musei_pubblici_e_similari_titolo_d_accesso' target='_blank'>Italian Data Portal</a></span></p>",
           "_graphic": {
                     "src": "course/lt/images/odi-004.jpg",
                     "alt": "Lentelės",
@@ -143,7 +143,7 @@
         {
           "alt": "Hierarchinė struktūra",
           "title": "Hierarchinė struktūra",
-          "body": "<p>Hierarchinės struktūros duomenys nurodo ryšį tarp duomenų taškų, tokių kaip šeimos medis ar savivaldos kiekvienoje šalyje. Jei duomenys priklauso nuo ryšio su kitais duomenimis ir priklauso konkrečiai struktūrai, kurioje duomenys susieti vertikaliai, tokiems duomenims labiausiai tinka JSON formatas. Tokį pavyzdį galite rasti json.org.<br /><a href='http://json.org/example.html' target='_blank'>json.org</a></p>",
+          "body": "<p>Hierarchinės struktūros duomenys nurodo ryšį tarp duomenų taškų, tokių kaip šeimos medis ar savivaldos kiekvienoje šalyje. Jei duomenys priklauso nuo ryšio su kitais duomenimis ir priklauso konkrečiai struktūrai, kurioje duomenys susieti vertikaliai, tokiems duomenims labiausiai tinka JSON formatas. Tokį pavyzdį galite rasti<br /><a href='http://json.org/example.html' target='_blank'>json.org</a></p>",
           "_graphic": {
                     "src": "course/lt/images/odi-005.jpg",
                     "alt": "Hierarchinė struktūra",
@@ -210,12 +210,12 @@
         {
           "alt": "Parsisiunčiami atviri duomenys",
           "title": "Parsisiunčiami atviri duomenys",
-          "body": "<p>Lengviausia yra parsisiųsti lentelės formato duomenis. Todėl tokį formatą dažniausiai naudoja viešasis sektorius atverdamas savo duomenis. Visgi, didelių kiekių eilučių tvarkymas kartais reikalauja papildomų įžvalgų:</p><ul><li>galbūt duomenys turėtų būti padalinti į mažesnius duomenų rinkinius?</li><li>kaip dažnai duomenys yra atnaujinami?</li><li>kaip duomenų atvėrimo pasikeitimai daro įtaką anksčiau atvertiems duomenų rinkiniams?</li></ul>"
+          "body": "<p>Lengviausia yra parsisiųsti lentelės formato duomenis. Todėl tokį formatą dažniausiai naudoja viešasis sektorius atverdamas savo duomenis. Visgi, didelių kiekių eilučių tvarkymas kartais reikalauja papildomų įžvalgų:</p><ul><li>galbūt duomenys turėtų būti padalinti į mažesnius duomenų rinkinius?</li><li>kaip dažnai duomenys yra atnaujinami?</li><li>kaip duomenų atvėrimo pasikeitimai daro įtaką anksčiau atvertiems duomenų rinkiniams?</li></ul>"
         },
         {
           "alt": "Duomenų srautai (live data)",
           "title": "Duomenų srautai (live data)",
-          "body": "<p>Kai kurie duomenų rinkiniai negali būti atsisiunčiami.</p><p>Dažniausiai tokie duomenys yra dažnai atnaujinami duomenys, kurie yra per dideli atsisiuntimui. Tokios duomenų struktūros gali būti prieinamos mašininio nuskaitymo būdu, per programavimo sąsają, vadinamą API (application programming interface). Internete yra daug paslaugų, kuriančių ir naudojančių API.</p><p>Tokios paslaugos gali būti tiesiogiai intergruotos į interneto aplikacijas. API pavyzdys- Belgijos geležinkelių kompanija. <br /><a href='https://hello.irail.be/api/1-0/' target='_blank'>iRail API</a></p>"
+          "body": "<p>Kai kurie duomenų rinkiniai negali būti atsisiunčiami.</p><p>Dažniausiai tokie duomenys yra dažnai atnaujinami duomenys, kurie yra per dideli atsisiuntimui. Tokios duomenų struktūros gali būti prieinamos mašininio nuskaitymo būdu, per programavimo sąsają, vadinamą API (application programming interface). Internete yra daug paslaugų, kuriančių ir naudojančių API.</p><p>Tokios paslaugos gali būti tiesiogiai intergruotos į interneto aplikacijas. API pavyzdys- Belgijos geležinkelių kompanija. <br /><a href='https://hello.irail.be/api/1-0/' target='_blank'>iRail API</a></p>"
         }
       ],
       "_pageLevelProgress": {
@@ -267,7 +267,7 @@
         "_layout":"left",
         "title":"Geografiniai atvirų duomenų formatai",
         "displayTitle":"Geografiniai atvirų duomenų formatai",
-        "body":"<p>Geografiniai duomenys yra sudėtingesni nei paprasti eilutiniai duomenys.</p><p>Jie gali būti hierarchiniai, susidedantys iš šalių, juose esančių savivaldų, arba tinkliniai duomenys, pavyzdžiui, detalizuojantys kelių tinklą.</p><p>Atveriant tokius duomenis tinkamiausia naudoti <a href='https://en.wikipedia.org/wiki/GeoJSON' target='_blank'>geoJSON</a> arba <a href='https://en.wikipedia.org/wiki/Keyhole_Markup_Language' target='_blank'>KML</a> formatus.</p><p>Šie formatai yra specialiai sukurti su galimybe juos lengavi atidaryti su kartografijos programomis, tokiomis kaip <a href='http://www.openstreetmap.org/' target='_blank'>Open Street Map</a> arba <a href='https://cartodb.com' target='_blank'>CartoDB</a>.</p>",
+        "body":"<p>Geografiniai duomenys yra sudėtingesni nei paprasti eilutiniai duomenys.</p><p>Jie gali būti hierarchiniai, susidedantys iš šalių, jose esančių savivaldų, arba tinkliniai duomenys, pavyzdžiui, detalizuojantys kelių tinklą.</p><p>Atveriant tokius duomenis tinkamiausia naudoti <a href='https://en.wikipedia.org/wiki/GeoJSON' target='_blank'>geoJSON</a> arba <a href='https://en.wikipedia.org/wiki/Keyhole_Markup_Language' target='_blank'>KML</a> formatus.</p><p>Šie formatai yra specialiai sukurti su galimybe juos lengvai atidaryti su kartografijos programomis, tokiomis kaip <a href='http://www.openstreetmap.org/' target='_blank'>Open Street Map</a> arba <a href='https://cartodb.com' target='_blank'>CartoDB</a>.</p>",
         "_pageLevelProgress": {
             "_isEnabled": true
         }
@@ -429,14 +429,14 @@
             }
         ],
         "_feedback":{
-            "correct":"<h5>Teisingai!</h5><p>Paveiksliuke rodomos sąsajos tarp duomenų yra svarbios. Sąsajos yra hierarchinės struktūros.</p>",
+            "correct":"<h5>Teisingai!</h5><p>Paveiksliuke rodomos sąsajos tarp duomenų yra svarbios. Sąsajos yra hierarchinės struktūros.</p>",
             "_incorrect": {
-                "notFinal": "<h5>Ar tikrai?</h5><p>Paveiksliuke rodomos sąsajos tarp duomenų yra svarbios. Sąsajos yra hierarchinės struktūros.</p>",
-                "final": "<h5>Ar tikrai?</h5><p>Paveiksliuke rodomos sąsajos tarp duomenų yra svarbios. Sąsajos yra hierarchinės struktūros.</p>"
+                "notFinal": "<h5>Ar tikrai?</h5><p>Paveiksliuke rodomos sąsajos tarp duomenų yra svarbios. Sąsajos yra hierarchinės struktūros.</p>",
+                "final": "<h5>Ar tikrai?</h5><p>Paveiksliuke rodomos sąsajos tarp duomenų yra svarbios. Sąsajos yra hierarchinės struktūros.</p>"
             },
             "_partlyCorrect": {
-                "notFinal": "<h5>Ar tikrai?</h5><p>TPaveiksliuke rodomos sąsajos tarp duomenų yra svarbios. Sąsajos yra hierarchinės struktūros.</p>",
-                "final": "<h5>Ar tikrai?</h5><p>Paveiksliuke rodomos sąsajos tarp duomenų yra svarbios. Sąsajos yra hierarchinės struktūros.</p>"
+                "notFinal": "<h5>Ar tikrai?</h5><p>TPaveiksliuke rodomos sąsajos tarp duomenų yra svarbios. Sąsajos yra hierarchinės struktūros.</p>",
+                "final": "<h5>Ar tikrai?</h5><p>Paveiksliuke rodomos sąsajos tarp duomenų yra svarbios. Sąsajos yra hierarchinės struktūros.</p>"
           }
         },
         "_buttons":{
@@ -563,7 +563,7 @@
         "_layout":"left",
         "title":"Atvirų duomenų formatai",
         "displayTitle":"Atvirų duomenų formatai",
-        "body":"<p>Atvirų duomenų formatas nurodo, kokiu būdu duomenys yra stuktūrizuoti ir prieinami žmonėms ir mašinoms.</p><p>Teisingo formato parinkimas užtikrina lengvą duomenų tvarkymą ir panaudojimą. Norint maksimaliai užtikrinti duomenų panaudojamumą, duomenų tiekėjui gali prireikti panaudoti įvairius skirtingus formatus skirtingose platformose.</p><p>Kai tik įmanoma, duomenis atverti reiktų CSV formatu. CSV formatas yra lengviausiai suprantamas ir panaudojamas formatas.</p><p><a class='course_link' href='../module10/'>Kitas modulis</a></p><p><a class='course_link' href='../'>Pagrindinis puslapis</a></p>",
+        "body":"<p>Atvirų duomenų formatas nurodo, kokiu būdu duomenys yra stuktūrizuoti ir prieinami žmonėms ir mašinoms.</p><p>Teisingo formato parinkimas užtikrina lengvą duomenų tvarkymą ir panaudojimą. Norint maksimaliai užtikrinti duomenų panaudojamumą, duomenų tiekėjui gali prireikti panaudoti įvairius skirtingus formatus skirtingose platformose.</p><p>Kai tik įmanoma, duomenis atverti reiktų CSV formatu. CSV formatas yra lengviausiai suprantamas ir panaudojamas formatas.</p><p><a class='course_link' href='../module10/'>Kitas modulis</a></p><p><a class='course_link' href='../'>Pagrindinis puslapis</a></p>",
         "_pageLevelProgress": {
           "_isEnabled": true
         }
